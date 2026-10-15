@@ -1,5 +1,6 @@
 import torch
-import openai
+import os
+from openai import OpenAI
 from tqdm import tqdm
 import time
 import json
@@ -70,6 +71,11 @@ parser.add_argument('--reconstruct', action='store_true')
 parser.add_argument('--referring', action='store_true')
 parser.add_argument('--filtering', action='store_true')
 parser.add_argument('--select', action='store_true')
+parser.add_argument('--image_root', type=str, default='./data')
+parser.add_argument('--n_clusters', type=int, default=10)
+parser.add_argument('--llm_model', type=str, default=os.getenv('QWEN_MODEL', 'qwen-plus'))
+parser.add_argument('--base_url', type=str,
+                    default=os.getenv('QWEN_BASE_URL', 'https://dashscope-intl.aliyuncs.com/compatible-mode/v1'))
 args = parser.parse_args()
 
 SEED = args.seed
@@ -84,7 +90,23 @@ referring = args.referring
 filtering = args.filtering
 select = args.select
 
-openai.api_key = api_key
+# --- Qwen (OpenAI-compatible) client -------------------------------------
+client = OpenAI(api_key=api_key or os.getenv('DASHSCOPE_API_KEY'), base_url=args.base_url)
+LLM_MODEL = args.llm_model
+
+
+def chat_create(model=None, messages=None, n=1, request_timeout=30, **kwargs):
+    """Drop-in replacement for the old openai.ChatCompletion.create.
+    Sends every request to Qwen and returns a plain dict, so the
+    response['choices'][0]['message']['content'] lookups keep working.
+    n > 1 is done as separate calls, since not every Qwen model supports it."""
+    choices = []
+    for _ in range(max(n, 1)):
+        r = client.chat.completions.create(model=LLM_MODEL, messages=messages,
+                                           timeout=max(request_timeout, 30), **kwargs)
+        choices.extend(r.model_dump()['choices'])
+    return {'choices': choices}
+# ---------------------------------------------------------------------------
 model_id = "Salesforce/blip2-flan-t5-xl"
 device = "cuda:0"
 
@@ -96,15 +118,15 @@ blip2 = Blip2ForConditionalGeneration.from_pretrained(model_id,
                                                       device_map={"": 0},
                                                       torch_dtype=torch.float16)
 
-with open('./ChatIR/dialogues/VisDial_v1.0_queries_val.json', 'r') as diag_json:
+with open('./dialogues/VisDial_v1.0_queries_val.json', 'r') as diag_json:
     visdial = json.load(diag_json)
-with open('./ChatIR/ChatIR_Protocol/Search_Space_val_50k.json', 'r') as ss_json:
+with open('./Protocol/Search_Space_val_50k.json', 'r') as ss_json:
     search_space = json.load(ss_json)
-with open('./ChatIR/ChatIR_Protocol/visdial_captions.json', 'r') as ss_cap_json:
+with open('./Protocol/visdial_captions.json', 'r') as ss_cap_json:
     captions = json.load(ss_cap_json)
 
-img_embs = torch.load('./ChatIR/temp/corpus_blip_large.pth', map_location=device)[1]
-kmeans = KMeans(n_clusters=10, mode='cosine', verbose=0)
+img_embs = torch.load(os.getenv('CORPUS_CACHE', './cache/corpus_blip.pth'), map_location=device)[1]
+kmeans = KMeans(n_clusters=args.n_clusters, mode='cosine', verbose=0)
 
 
 def reconstruct_dialog(dial, temp=.0, model='gpt-3.5-turbo-0613'):
@@ -127,7 +149,7 @@ def reconstruct_dialog(dial, temp=.0, model='gpt-3.5-turbo-0613'):
     messages.append({"role": "user", "content": f"[Caption]: {caption} [Dialogue]: {dialog}  [New Caption]: "})
     while True:
         try:
-            response = openai.ChatCompletion.create(model=model,
+            response = chat_create(model=model,
                                                     messages=messages,
                                                     n=1,
                                                     temperature=temp,
@@ -262,7 +284,7 @@ def generate_questions(descrip, n=0, model='gpt-3.5-turbo'):
 
     while True:
         try:
-            response = openai.ChatCompletion.create(model=model,
+            response = chat_create(model=model,
                                                     messages=messages,
                                                     max_tokens=32,
                                                     temperature=0.5,
@@ -364,7 +386,7 @@ def generate_questions_referring(descrip, prompt_fake="", n=10, ques_prior=[], m
 
     while True:
         try:
-            response = openai.ChatCompletion.create(model=model,
+            response = chat_create(model=model,
                                                     messages=messages,
                                                     max_tokens=32,
                                                     request_timeout=10,
@@ -406,7 +428,7 @@ def filter_questions(context, question, model='gpt-3.5-turbo-0613'):
 
     while True:
         try:
-            response = openai.ChatCompletion.create(model=model,
+            response = chat_create(model=model,
                                                     messages=messages,
                                                     max_tokens=10,
                                                     request_timeout=10,
@@ -465,7 +487,7 @@ def paraphrase(text="", model='gpt-3.5-turbo-0613'):
     retry_count = 0
     while True:
         try:
-            response = openai.ChatCompletion.create(model=model,
+            response = chat_create(model=model,
                                                     messages=messages,
                                                     n=1,
                                                     temperature=0.7,
@@ -491,7 +513,7 @@ dial_new_recon = []
 
 for idx in tqdm(range(s_idx, e_idx)):
     dial_gen = [visdial[idx]['dialog'][0]]
-    img_path = './ChatIR/' + visdial[idx]['img']
+    img_path = os.path.join(args.image_root, visdial[idx]['img'])
     img_url = 'http://images.cocodataset.org/' + visdial[idx]['img']
     dial_new.append({})
     dial_new_recon.append({})
@@ -577,7 +599,7 @@ for idx in tqdm(range(s_idx, e_idx)):
     dial_new[-1]['dialog'] = dial_gen
     dial_new_recon[-1]['dialog'] = captions_recon
 
-save_path = './ChatIR/dialogues/ours_final_'
+save_path = './dialogues/ours_final_'
 save_path += 'q_n_' + str(q_n) + '_'
 save_path += 'recall_hitting_' + str(recall_hitting) + '_'
 save_path += 'thres_low_' + str(threshold_low) + '_'
