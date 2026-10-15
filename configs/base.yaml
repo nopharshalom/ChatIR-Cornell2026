@@ -1,0 +1,33 @@
+# Shared protocol + model settings. Everyone on the team runs with this file first,
+# so results stay comparable (the run fingerprint changes if any of these change).
+# Machine-specific bits (endpoint URL, device) go in configs/backends/*.yaml.
+seed: 1021
+output_dir: runs
+
+data:
+  corpus_dir: data                       # data/unlabeled2017/*.jpg, same as eval.py --data-dir
+  search_space: Protocol/Search_Space_val_50k.json
+  captions: Protocol/visdial_captions.json
+  queries: dialogues/VisDial_v1.0_queries_val.json
+
+retriever:
+  backend: blip
+  model_name: Salesforce/blip-itm-large-coco   # same frozen retriever as ChatIR / PlugIR
+  index_path: cache/index_blip.pt
+
+agent:
+  llm:
+    model: Qwen/Qwen3.5-9B        # TEAM DECISION: pin one model + size for all comparisons
+    temperature: 0.0
+    seed: 1021
+    disable_thinking: true
+
+user_sim:
+  kind: vlm                       # Qwen3.5 sees the target image and answers
+  llm: null                       # null = reuse the agent endpoint/model
+  include_caption: false
+  max_tokens: 32
+
+eval:
+  max_rounds: 10                  # VisDial depth
+  ks: [1, 10, 50]

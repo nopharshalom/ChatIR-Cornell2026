@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentir"
+version = "0.1.0"
+description = "Agentic interactive text-to-image retrieval (CS5787 project, built on PlugIR / ChatIR)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "torch>=2.2",
+    "transformers>=4.45",
+    "pillow>=10.0",
+    "pyyaml>=6.0",
+    "pydantic>=2.5",
+    "openai>=1.40",
+    "httpx>=0.27",
+    "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+serve = ["fastapi>=0.110", "uvicorn>=0.29"]
+dev = ["pytest>=8.0", "fastapi>=0.110", "uvicorn>=0.29"]
+
+[project.scripts]
+agentir = "agentir.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["agentir*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

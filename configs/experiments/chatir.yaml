@@ -1,0 +1,6 @@
+# ChatIR-style baseline: one plain question per round, dialog concatenated as the query.
+name: chatir
+agent:
+  generator: {kind: plain, num_candidates: 1}
+  ranker: {kind: first}
+  reformulator: {kind: concat}
