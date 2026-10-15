@@ -1,0 +1,9 @@
+# GPU box running:  vllm serve Qwen/Qwen3.5-9B --port 8000 --max-model-len 32768 --reasoning-parser qwen3
+agent:
+  llm:
+    base_url: http://localhost:8000/v1
+    model: Qwen/Qwen3.5-9B
+retriever:
+  device: cuda
+eval:
+  workers: 8                      # vLLM batches concurrent sessions well

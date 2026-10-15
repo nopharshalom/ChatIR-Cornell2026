@@ -1,0 +1,6 @@
+# Control: same PlugIR candidates, random pick. Any ranker should beat this.
+name: random-ranker
+agent:
+  generator: {kind: plugir, num_candidates: 5}
+  ranker: {kind: random}
+  reformulator: {kind: plugir}
