@@ -1,3 +1,14 @@
+> **About this copy:** a working copy of [Saehyung-Lee/PlugIR](https://github.com/Saehyung-Lee/PlugIR) (MIT license), modified to:
+> - use **Qwen** (OpenAI-compatible API) instead of OpenAI GPT-3.5 for dialogue generation,
+> - fix the hardcoded `./ChatIR/...` paths in `generate_dialog.py`,
+> - run on **Google Colab**: open [`PlugIR_Colab.ipynb`](PlugIR_Colab.ipynb) in Colab and run the cells top to bottom.
+>
+> Qwen setup: set `DASHSCOPE_API_KEY` (and `QWEN_BASE_URL` if your key isn't from the international/Singapore region). Choose the model with `--llm_model` (default `qwen-plus`). Python packages: use `openai>=1.0`, not the old `openai` version.
+>
+> The original README follows.
+
+---
+
 # [ACL 2024 Oral] Interactive Text-to-Image Retrieval with Large Language Models: A Plug-and-Play Approach
 
 This repository is the official implementation of [Interactive Text-to-Image Retrieval with Large Language Models: A Plug-and-Play Approach](https://arxiv.org/abs/2406.03411), published as a main (oral) paper at ACL 2024.
