@@ -1,0 +1,9 @@
+# For final paper runs if API budget is approved. Key is read from the env var.
+agent:
+  llm:
+    base_url: https://api.openai.com/v1
+    model: set-me            # whichever model the budget covers
+    api_key_env: OPENAI_API_KEY
+    disable_thinking: false
+eval:
+  workers: 8

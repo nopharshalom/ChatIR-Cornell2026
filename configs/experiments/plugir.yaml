@@ -1,0 +1,7 @@
+# Milestone 2 baseline: full PlugIR (README command:
+#   generate_dialog.py --q_n 5 --thres_low 500 --reconstruct --referring --filtering --select)
+name: plugir
+agent:
+  generator: {kind: plugir, num_candidates: 5, referring: true, filtering: true, n_clusters: 10, thres_low: 500}
+  ranker: {kind: plugir_kl, recall_hitting: 10, thres_low: 500}
+  reformulator: {kind: plugir}
