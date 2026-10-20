@@ -1,0 +1,20 @@
+# NOT USED BY DEFAULT: paid after the new-user free quota. The team runs free models (base.yaml).
+# Qwen through Alibaba Cloud Model Studio (DashScope), the same route generate_dialog.py
+# and PlugIR_Colab.ipynb in this repo use. Key from env: DASHSCOPE_API_KEY.
+# International (Singapore) endpoint; keys only work in their own region.
+# Check model names and pricing in Model Studio before a full 2,064-dialog run.
+agent:
+  llm:
+    base_url: https://dashscope-intl.aliyuncs.com/compatible-mode/v1
+    model: qwen-plus
+    api_key_env: DASHSCOPE_API_KEY
+    disable_thinking: false          # DashScope takes enable_thinking directly, not chat_template_kwargs
+    extra_body: {enable_thinking: false}   # replaces base.yaml's Ollama setting
+user_sim:
+  llm:                               # the user simulator needs a vision model
+    base_url: https://dashscope-intl.aliyuncs.com/compatible-mode/v1
+    model: qwen-vl-plus
+    api_key_env: DASHSCOPE_API_KEY
+    disable_thinking: false
+eval:
+  workers: 4

@@ -1,0 +1,10 @@
+# NOT USED BY DEFAULT (paid). Only if an API budget is ever approved. Key is read from the env var.
+agent:
+  llm:
+    base_url: https://api.openai.com/v1
+    model: set-me            # whichever model the budget covers
+    api_key_env: OPENAI_API_KEY
+    disable_thinking: false
+    extra_body: {}                # drop base.yaml's Ollama-only reasoning_effort
+eval:
+  workers: 8

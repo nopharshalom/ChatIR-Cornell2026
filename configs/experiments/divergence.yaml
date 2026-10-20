@@ -1,0 +1,13 @@
+# Our ranker, everything else identical to PlugIR -> isolates the question-selection change.
+name: divergence
+agent:
+  generator: {kind: plugir, num_candidates: 5, referring: true, filtering: true, n_clusters: 10, thres_low: 500}
+  ranker:
+    kind: answer_divergence
+    num_answers: 3
+    ground_answers_in_candidates: true
+    hypothetical_reformulation: concat
+    divergence: jsd
+    pool_size: 1000
+    jsd_temperature: 0.05
+  reformulator: {kind: plugir}
