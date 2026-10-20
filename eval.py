@@ -26,10 +26,12 @@ parser.add_argument('--K', type=int, default=10)
 parser.add_argument('--num-rounds', type=int, default=11)
 parser.add_argument('--batch-size', type=int, default=256)
 parser.add_argument('--split', action='store_true', help="load dialog (caption) in split")
+parser.add_argument('--num-workers', type=int, default=min(8, os.cpu_count() or 1),
+                    help="DataLoader workers (defaults to the number of CPU cores, max 8)")
 
 cfg = {'corpus_bs': 256,
        'queries_bs': 256,
-       'num_workers': 8,
+       'num_workers': args.num_workers,
        'sep_token': ', ',  # Separation between dialog rounds
        'queries_path': None,
        'corpus_path': 'Protocol/Search_Space_val_50k.json',
