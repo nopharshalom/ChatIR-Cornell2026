@@ -63,3 +63,16 @@ def test_repo_configs_parse():
     base = "configs/base.yaml"
     for f in files:
         load_config([base, f] if f != base else [base])
+
+
+def test_backend_extra_body_replaces_not_merges():
+    base = load_config(["configs/base.yaml"])
+    assert base.agent.llm.extra_body == {"reasoning_effort": "none"} and not base.agent.llm.disable_thinking
+    vllm = load_config(["configs/base.yaml", "configs/backends/vllm.yaml"])
+    assert vllm.agent.llm.extra_body == {} and vllm.agent.llm.disable_thinking
+    ds = load_config(["configs/base.yaml", "configs/backends/dashscope.yaml"])
+    assert ds.agent.llm.extra_body == {"enable_thinking": False}
+    # laptop and Colab must be comparable: same fingerprint
+    lap = load_config(["configs/base.yaml", "configs/backends/ollama.yaml"])
+    colab = load_config(["configs/base.yaml", "configs/backends/colab.yaml"])
+    assert lap.fingerprint() == colab.fingerprint() == base.fingerprint()

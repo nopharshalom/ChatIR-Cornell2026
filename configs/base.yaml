@@ -1,6 +1,6 @@
 # Shared protocol + model settings. Everyone on the team runs with this file first,
 # so results stay comparable (the run fingerprint changes if any of these change).
-# Machine-specific bits (endpoint URL, device) go in configs/backends/*.yaml.
+# Machine-specific bits (device, concurrency) go in configs/backends/*.yaml.
 seed: 1021
 output_dir: runs
 
@@ -15,15 +15,21 @@ retriever:
   model_name: Salesforce/blip-itm-large-coco   # same frozen retriever as ChatIR / PlugIR
   index_path: cache/index_blip.pt
 
+# TEAM DECISION: fully free. Qwen3.5-9B (open weights, Apache-2.0) served by Ollama,
+# identical on Colab's free T4 and on a MacBook, so everyone's numbers are comparable.
+#   ollama pull qwen3.5:9b
 agent:
   llm:
-    model: Qwen/Qwen3.5-9B        # TEAM DECISION: pin one model + size for all comparisons
+    base_url: http://localhost:11434/v1
+    model: qwen3.5:9b               # 4-bit GGUF, ~7 GB, text + image input
+    api_key: ollama                 # Ollama ignores it, the OpenAI client needs a value
     temperature: 0.0
     seed: 1021
-    disable_thinking: true
+    disable_thinking: false         # that flag is the vLLM/SGLang switch; Ollama uses the one below
+    extra_body: {reasoning_effort: none}   # Ollama: "none" turns Qwen3.5 thinking off
 
 user_sim:
-  kind: vlm                       # Qwen3.5 sees the target image and answers
+  kind: vlm                       # the same Qwen3.5 sees the target image and answers
   llm: null                       # null = reuse the agent endpoint/model
   include_caption: false
   max_tokens: 32

@@ -160,10 +160,15 @@ class RunConfig(_Base):
 
 # ----------------------------------------------------------------------------- loading
 
+# Backend-specific request knobs: a later file replaces them wholesale (never merged), so
+# switching backend can't leak e.g. Ollama's reasoning_effort into a vLLM request.
+_ATOMIC_KEYS = {"extra_body"}
+
+
 def _deep_merge(a: dict, b: dict) -> dict:
     out = copy.deepcopy(a)
     for k, v in (b or {}).items():
-        if isinstance(v, dict) and isinstance(out.get(k), dict):
+        if isinstance(v, dict) and k not in _ATOMIC_KEYS and isinstance(out.get(k), dict):
             out[k] = _deep_merge(out[k], v)
         else:
             out[k] = copy.deepcopy(v)

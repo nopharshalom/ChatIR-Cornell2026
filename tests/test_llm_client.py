@@ -66,3 +66,15 @@ def test_image_message(tmp_path, fake_server):
     assert msg["content"][0]["image_url"]["url"].startswith("data:image/jpeg;base64,")
     llm = LLMClient(LLMConfig(base_url=url, model="m", cache_path=None))
     assert llm.complete([msg]).startswith("reply")
+
+
+def test_team_default_sends_ollama_thinking_switch(tmp_path, fake_server):
+    from agentir.config import load_config
+
+    url, seen = fake_server
+    cfg = load_config(["configs/base.yaml"], [f"agent.llm.base_url={url}", "agent.llm.cache_path=null"])
+    LLMClient(cfg.agent.llm).complete([{"role": "user", "content": "hi"}])
+    body = seen[-1]
+    assert body["model"] == "qwen3.5:9b"
+    assert body["reasoning_effort"] == "none"
+    assert "chat_template_kwargs" not in body

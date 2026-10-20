@@ -1,0 +1,11 @@
+# Free Colab T4 (15 GB): BLIP retriever (~2 GB) + qwen3.5:9b in Ollama (~7 GB) fit together.
+# AgentIR_Colab.ipynb installs Ollama and starts it with OLLAMA_NUM_PARALLEL=4.
+data:
+  corpus_dir: /content/data
+retriever:
+  device: cuda
+agent:
+  llm:
+    cache_path: /content/llm_cache.sqlite   # SQLite is unreliable on Google Drive
+eval:
+  workers: 4                      # matches OLLAMA_NUM_PARALLEL
