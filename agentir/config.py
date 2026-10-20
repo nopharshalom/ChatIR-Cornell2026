@@ -10,6 +10,7 @@ from __future__ import annotations
 import copy
 import hashlib
 import json
+import os
 from pathlib import Path
 from typing import Any, Literal, Optional
 
@@ -60,7 +61,8 @@ class RetrieverConfig(_Base):
     device: str = "auto"  # auto | cpu | cuda | cuda:0 | mps
     index_path: str = "cache/index_blip.pt"
     batch_size: int = 64
-    num_workers: int = 4
+    # Colab has 2 CPUs; more DataLoader workers than cores stalls image embedding there.
+    num_workers: int = Field(default_factory=lambda: min(4, os.cpu_count() or 1))
     text_cache_size: int = 200_000
 
 
