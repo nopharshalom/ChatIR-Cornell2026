@@ -26,8 +26,10 @@ parser.add_argument('--K', type=int, default=10)
 parser.add_argument('--num-rounds', type=int, default=11)
 parser.add_argument('--batch-size', type=int, default=256)
 parser.add_argument('--split', action='store_true', help="load dialog (caption) in split")
-parser.add_argument('--num-workers', type=int, default=min(8, os.cpu_count() or 1),
-                    help="DataLoader workers (defaults to the number of CPU cores, max 8)")
+# On Windows, worker processes must pickle the dataset, and its preprocessor is a lambda,
+# so default to loading in the main process there.
+parser.add_argument('--num-workers', type=int, default=0 if os.name == 'nt' else min(8, os.cpu_count() or 1),
+                    help="DataLoader workers (default: CPU cores, max 8; 0 on Windows)")
 
 cfg = {'corpus_bs': 256,
        'queries_bs': 256,
@@ -347,13 +349,14 @@ def BLIP_ZERO_SHOT_BASELINE(cfg):
                                                                       return_tensors="pt"))
     return dialog_encoder, image_embedder
 
-with torch.no_grad():
-    txt_processors = None
-    if retriever == 'blip':
-        dialog_encoder, image_embedder = BLIP_ZERO_SHOT_BASELINE(cfg)
-    else:
-        dialog_encoder, image_embedder = CLIP_ZERO_SHOT_BASELINE()
-    evaluator = PlugIREval(cfg, dialog_encoder, image_embedder, txt_processors)
-    evaluator.index_corpus()
-    evaluator.run(hits_at=cfg['K'])  # Hit@10 as in the paper
+if __name__ == '__main__':
+    with torch.no_grad():
+        txt_processors = None
+        if retriever == 'blip':
+            dialog_encoder, image_embedder = BLIP_ZERO_SHOT_BASELINE(cfg)
+        else:
+            dialog_encoder, image_embedder = CLIP_ZERO_SHOT_BASELINE()
+        evaluator = PlugIREval(cfg, dialog_encoder, image_embedder, txt_processors)
+        evaluator.index_corpus()
+        evaluator.run(hits_at=cfg['K'])  # Hit@10 as in the paper
 
