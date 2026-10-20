@@ -11,6 +11,5 @@ agent:
     extra_body: {reasoning_effort: none}
 retriever:
   device: auto                    # picks mps on Apple silicon
-  num_workers: 2
 eval:
   workers: 1
