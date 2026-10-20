@@ -1,15 +1,6 @@
-# MacBook / laptop:  ollama pull qwen3.5:9b   (or qwen3.5:4b on 16 GB RAM)
-# NB: a different model tag than the GPU box changes the fingerprint; that is intended,
-# laptop numbers are for development, not for the paper tables.
-agent:
-  llm:
-    base_url: http://localhost:11434/v1
-    model: qwen3.5:9b
-    api_key: ollama
-    # Ollama ignores chat_template_kwargs; ask it not to think via its own knob.
-    # Run `agentir check-llm` to confirm no reasoning leaks into answers.
-    extra_body: {reasoning_effort: none}
+# MacBook / laptop. Install Ollama (ollama.com), then:  ollama pull qwen3.5:9b
+# The model itself is set in configs/base.yaml; this file only tunes the machine.
 retriever:
   device: auto                    # picks mps on Apple silicon
 eval:
-  workers: 1
+  workers: 1                      # raise to 2-4 if you start Ollama with OLLAMA_NUM_PARALLEL=4

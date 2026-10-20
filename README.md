@@ -66,19 +66,22 @@ agentir build-index -c configs/base.yaml --from-plugir-cache cache/corpus_blip.p
 Share `cache/index_blip.pt` with the team instead of everyone rebuilding it.
 
 **On Colab:** open [`AgentIR_Colab.ipynb`](AgentIR_Colab.ipynb); it does all of the above plus
-the dev-subset baseline runs, using Qwen through DashScope.
+the dev-subset baseline runs, with Qwen3.5-9B running free on the Colab GPU.
 
-### 3. Serve the model
+### 3. Serve the model (free)
 
-Qwen3.5 is natively vision-language, so one server plays both the questioner and the
-simulated user.
+**Team decision: everything runs on free, open-weight models.** No API budget is assumed.
+The pinned model is `qwen3.5:9b` (Qwen3.5-9B, Apache-2.0, 4-bit, ~7 GB) served by
+[Ollama](https://ollama.com). It takes images, so one server plays both the questioner
+and the simulated user, and it runs the same way on a free Colab T4 and on a MacBook.
+Runs from both machines get the same fingerprint, so their numbers can share a table.
 
-| Machine | Command | Config |
+| Machine | Setup | Config |
 |---|---|---|
-| GPU box | `vllm serve Qwen/Qwen3.5-9B --port 8000 --max-model-len 32768 --reasoning-parser qwen3` | `configs/backends/vllm.yaml` |
-| MacBook | `ollama pull qwen3.5:9b` (or `:4b` on 16 GB) | `configs/backends/ollama.yaml` |
-| Qwen API (DashScope, as used in the team's ChatIR-Cornell2026 fork) | `export DASHSCOPE_API_KEY=...` | `configs/backends/dashscope.yaml` |
-| Other paid API (if budget is approved) | — | `configs/backends/openai_api.yaml` |
+| Free Colab T4 | `AgentIR_Colab.ipynb` installs and starts Ollama for you | `configs/backends/colab.yaml` |
+| MacBook (16 GB+) | install Ollama, then `ollama pull qwen3.5:9b` | `configs/backends/ollama.yaml` |
+| Any free Ampere+ GPU (optional) | `vllm serve Qwen/Qwen3.5-9B ...` (different weights, separate tables) | `configs/backends/vllm.yaml` |
+| Paid APIs (not used) | DashScope / OpenAI-compatible | `configs/backends/dashscope.yaml`, `openai_api.yaml` |
 
 ```bash
 agentir check-llm -c configs/base.yaml -c configs/backends/ollama.yaml --image data/unlabeled2017/000000185565.jpg
@@ -86,6 +89,12 @@ agentir check-llm -c configs/base.yaml -c configs/backends/ollama.yaml --image d
 
 This prints latency, warns if reasoning text is leaking into answers, and confirms image
 input works. Run it before any long job.
+
+**Speed is the budget now.** Each dialog takes on the order of 15–20 LLM calls per round
+(more for the divergence ranker) over 10 rounds, so the full 2,064 dialogs can run to tens
+of GPU-hours per method on a T4. Step 7 of the Colab notebook times a 10-dialog run and
+projects the cost. Compare methods on a fixed subset everyone shares (`configs/dev.yaml`),
+and save the full set for the final tables.
 
 ### 4. Milestone 2 workflow
 
@@ -160,8 +169,8 @@ answers with the LLM, issues one probe search per answer path, and scores the sp
    seed, rounds and K values. Change it only by team agreement.
 2. Compare runs only when their fingerprints match except for the setting under study.
    The fingerprint ignores machine-specific settings (URLs, workers, paths) but changes
-   with the model tag, so laptop (`qwen3.5:9b` GGUF) and GPU (`Qwen/Qwen3.5-9B`) runs are
-   kept apart on purpose.
+   with the model tag, so Ollama runs (`qwen3.5:9b`, Colab or laptop) and vLLM runs
+   (`Qwen/Qwen3.5-9B`, full precision) are kept apart on purpose.
 3. Paper tables come from the full 2,064 dialogs on one backend. `configs/dev.yaml` is
    for iteration only.
 
@@ -209,7 +218,7 @@ agentir/
   smoke.py            synthetic world + mock LLM
 configs/              base, backends/, experiments/, dev
 tests/
-AgentIR_Colab.ipynb   AgentIR on Colab (DashScope Qwen)
+AgentIR_Colab.ipynb   AgentIR on free Colab (Qwen3.5-9B via Ollama)
 
 # PlugIR reference implementation (unchanged)
 generate_dialog.py, eval.py, finetune/, PlugIR_Colab.ipynb
