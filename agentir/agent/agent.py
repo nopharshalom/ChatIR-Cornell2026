@@ -39,6 +39,7 @@ class Agent:
         candidates = self.generator.generate(state, llm, search)
         decision = self.ranker.select(state, candidates, llm, search)
         decision.debug["context_captions"] = state.scratch.get("context_captions")
+        decision.debug["context_indices"] = state.scratch.get("context_indices")
         decision.debug["cost"] = dict(state.cost - before)
         return decision
 

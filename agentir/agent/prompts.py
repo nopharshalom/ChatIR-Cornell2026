@@ -148,6 +148,20 @@ def agentir_propose_answers(caption: str, turns: list[Turn], question: str, num_
     return [{"role": "system", "content": sys}, {"role": "user", "content": "".join(parts)}]
 
 
+def agentir_grounded_reconstruct(caption: str, turns: list[Turn]) -> list[dict]:
+    """Experiment E2: PlugIR's rewrite task, plus explicit faithfulness rules."""
+    sys = ("You rewrite an image description so it can be used to search for one specific photo. "
+           "Combine the user's original [Description] with the facts in their answers in [Dialogue] "
+           "into one fluent description. Rules: keep every detail of the original description unless "
+           "an answer contradicts it; add only facts the user stated in an answer; if the user could "
+           "not tell or was unsure, add nothing; never add details from your own knowledge; never "
+           "mention questions, answers, the dialogue, other images or candidates. Reply with only the "
+           "new description.")
+    dialog = _qa_lines(turns) or "(none)\n"
+    return [{"role": "system", "content": sys},
+            {"role": "user", "content": f"[Description]\n{caption}\n\n[Dialogue]\n{dialog}\n[New description]\n"}]
+
+
 def user_sim_messages(question: str, caption: str | None) -> tuple[str, str]:
     """(system, user-text) for a VLM playing the user who has the target image in mind.
 

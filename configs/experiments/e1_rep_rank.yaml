@@ -1,0 +1,8 @@
+# E1b: PlugIR, but each cluster is represented by its best-ranked image instead of its
+# lowest-entropy caption. Only the evidence shown to the questioner changes.
+name: e1_rep_rank
+agent:
+  generator: {kind: plugir, num_candidates: 5, referring: true, filtering: true, n_clusters: 10, thres_low: 500,
+              representative: rank}
+  ranker: {kind: plugir_kl, recall_hitting: 10, thres_low: 500}
+  reformulator: {kind: plugir}

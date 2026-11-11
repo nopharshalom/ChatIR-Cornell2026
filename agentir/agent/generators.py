@@ -50,7 +50,8 @@ class PlugIRGenerator:
         if not c.referring:
             return PlainGenerator(c).generate(state, llm, search)
 
-        caps, _ = related_captions(state, search, c.thres_low, c.n_clusters, seed=self.seed + state.round)
+        caps, _ = related_captions(state, search, c.thres_low, c.n_clusters, seed=self.seed + state.round,
+                                   representative=c.representative, pool_schedule=c.pool_schedule)
         state.scratch["context_captions"] = caps
         cand_text = format_candidates(caps)
 

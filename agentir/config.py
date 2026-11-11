@@ -87,6 +87,12 @@ class GeneratorConfig(_Base):
     thres_low: int = 500  # candidate-set size at round 1, shrinks linearly per round
     temperature: float = 0.5
     max_tokens: int = 32
+    # --- experiment E1: which images the questioner sees (defaults = PlugIR) ---
+    # entropy: PlugIR, lowest caption-entropy image per cluster (ignores search rank)
+    # rank:    highest-ranked image per cluster (stays on-query)
+    representative: Literal["entropy", "rank"] = "entropy"
+    # shrink: PlugIR, 500 -> 450 -> ... -> 50 candidates; fixed: thres_low every round
+    pool_schedule: Literal["shrink", "fixed"] = "shrink"
 
 
 class RankerConfig(_Base):
@@ -109,9 +115,14 @@ class RankerConfig(_Base):
 
 
 class ReformulatorConfig(_Base):
-    kind: Literal["plugir", "concat"] = "plugir"
+    # grounded: experiment E2, a rewrite told to keep every original detail and use only the
+    # user's answers (never the retrieval candidates)
+    kind: Literal["plugir", "concat", "grounded"] = "plugir"
     paraphrase_on_repeat: bool = True
     sep: str = ", "
+    # --- experiment E2 post-processing (defaults = PlugIR) ---
+    anchor_caption: bool = False  # prepend the user's original description to every rewrite
+    strip_leaks: bool = False  # drop sentences that cite "retrieval candidates", "mentioned", ...
 
 
 class AgentConfig(_Base):
@@ -154,8 +165,19 @@ class RunConfig(_Base):
         d["retriever"] = {k: v for k, v in d["retriever"].items()
                           if k in ("backend", "model_name", "finetuned_ckpt")}
         d["data"] = {k: v for k, v in d["data"].items() if k in ("start", "limit", "subset_file")}
+        # Settings added after runs already existed are left out while at their default, so
+        # older run directories keep their fingerprint (and stay resumable/comparable).
+        for section, defaults in (("generator", _LATE_GENERATOR_DEFAULTS),
+                                  ("reformulator", _LATE_REFORMULATOR_DEFAULTS)):
+            for k, v in defaults.items():
+                if d["agent"][section].get(k) == v:
+                    d["agent"][section].pop(k, None)
         blob = json.dumps(d, sort_keys=True).encode()
         return hashlib.sha256(blob).hexdigest()[:12]
+
+
+_LATE_GENERATOR_DEFAULTS = {"representative": "entropy", "pool_schedule": "shrink"}
+_LATE_REFORMULATOR_DEFAULTS = {"anchor_caption": False, "strip_leaks": False}
 
 
 # ----------------------------------------------------------------------------- loading
