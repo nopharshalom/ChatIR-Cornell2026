@@ -37,29 +37,46 @@ def candidate_set_size(thres_low: int, round_: int) -> int:
     return max(1, int(thres_low - (round_ - 1) * (thres_low / 10.0)))
 
 
+def select_representatives(img: torch.Tensor, cap: torch.Tensor | None, n_clusters: int, seed: int = 0,
+                           representative: str = "entropy") -> list[int]:
+    """Positions (into the rank-ordered candidate list) of one representative per cluster.
+
+    entropy: PlugIR - the image whose caption's similarity distribution over the candidates
+             has the lowest entropy (search rank plays no part).
+    rank:    the best-ranked image of each cluster (candidates arrive sorted by rank).
+    """
+    if representative == "entropy":
+        p = torch.softmax(cap @ img.T, dim=1)
+        entropy = -(p * p.clamp_min(1e-12).log()).sum(dim=1)
+        order = torch.argsort(entropy)  # lowest entropy first
+    elif representative == "rank":
+        order = torch.arange(img.shape[0], device=img.device)
+    else:
+        raise ValueError(representative)
+    labels = spherical_kmeans(img, n_clusters, seed=seed)
+    labels_sorted = labels[order]
+    picks: list[int] = []
+    for c in range(n_clusters):
+        hit = (labels_sorted == c).nonzero()
+        if len(hit):
+            picks.append(int(order[hit.min()]))
+    return picks
+
+
 def related_captions(state: DialogState, search: SearchTool, thres_low: int = 500,
-                     n_clusters: int = 10, seed: int = 0) -> tuple[list[str], torch.Tensor]:
+                     n_clusters: int = 10, seed: int = 0, representative: str = "entropy",
+                     pool_schedule: str = "shrink") -> tuple[list[str], torch.Tensor]:
     """Returns (representative captions, top-n candidate indices)."""
     idx = search.index
     if idx.caption_emb is None:
         raise ValueError("index has no caption embeddings; rebuild it with `agentir build-index`")
-    n = min(candidate_set_size(thres_low, state.round), len(idx))
+    n = thres_low if pool_schedule == "fixed" else candidate_set_size(thres_low, state.round)
+    n = min(n, len(idx))
     sims = search.similarity([state.query], purpose="context")[0]
     topk = torch.topk(sims, n).indices  # descending (PlugIR uses ascending argsort; order is irrelevant)
-    img = idx.image_emb[topk]
-    cap = idx.caption_emb[topk]
-    p = torch.softmax(cap @ img.T, dim=1)
-    entropy = -(p * p.clamp_min(1e-12).log()).sum(dim=1)
-    order = torch.argsort(entropy)  # lowest entropy first
-
-    labels = spherical_kmeans(img, n_clusters, seed=seed)
-    labels_sorted = labels[order]
-    caps: list[str] = []
-    for c in range(n_clusters):
-        hit = (labels_sorted == c).nonzero()
-        if len(hit):
-            caps.append(idx.captions[topk[order[hit.min()]].item()])
-    return caps, topk
+    picks = select_representatives(idx.image_emb[topk], idx.caption_emb[topk], n_clusters, seed, representative)
+    state.scratch["context_indices"] = [int(topk[i]) for i in picks]
+    return [idx.captions[int(topk[i])] for i in picks], topk
 
 
 def format_candidates(caps: list[str]) -> str:

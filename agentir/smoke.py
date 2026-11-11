@@ -98,6 +98,10 @@ class MockLLM:
             cap, dia = (m.group(1), m.group(2)) if m else (user, "")
             facts = [x.split("?", 1)[1].strip() for x in dia.split(", ") if "?" in x]
             return [", ".join([cap] + [f for f in facts if f and "can't tell" not in f])] * n
+        if "You rewrite an image description" in sys:  # grounded reformulator (E2)
+            cap = user.split("[Description]\n", 1)[-1].split("\n", 1)[0]
+            ans = re.findall(r"Answer: (.*)", user)
+            return [", ".join([cap] + [x for x in ans if x and "can't tell" not in x])] * n
         if "paraphrase" in sys:
             return [user.split("Text: ", 1)[-1].split("\nParaphrased", 1)[0] + "."] * n
         if "question generator" in sys:

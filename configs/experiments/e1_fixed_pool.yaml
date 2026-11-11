@@ -1,0 +1,8 @@
+# E1b: PlugIR, but the questioner's candidate pool stays at the top 500 every round instead
+# of shrinking 500 -> 50 (the tennis example fell out of the round-10 pool at rank 58).
+name: e1_fixed_pool
+agent:
+  generator: {kind: plugir, num_candidates: 5, referring: true, filtering: true, n_clusters: 10, thres_low: 500,
+              pool_schedule: fixed}
+  ranker: {kind: plugir_kl, recall_hitting: 10, thres_low: 500}
+  reformulator: {kind: plugir}

@@ -1,0 +1,7 @@
+# E2: PlugIR with a faithful rewrite: keep original details, add only stated facts, never
+# cite candidates, and prepend the user's description. Run after E2c says it is worth it.
+name: e2_grounded
+agent:
+  generator: {kind: plugir, num_candidates: 5, referring: true, filtering: true, n_clusters: 10, thres_low: 500}
+  ranker: {kind: plugir_kl, recall_hitting: 10, thres_low: 500}
+  reformulator: {kind: grounded, anchor_caption: true}
