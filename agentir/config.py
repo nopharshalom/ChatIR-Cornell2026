@@ -92,7 +92,14 @@ class GeneratorConfig(_Base):
     # rank:    highest-ranked image per cluster (stays on-query)
     representative: Literal["entropy", "rank"] = "entropy"
     # shrink: PlugIR, 500 -> 450 -> ... -> 50 candidates; fixed: thres_low every round
-    pool_schedule: Literal["shrink", "fixed"] = "shrink"
+    # cumulative: union of the top `cum_per_round` of every round's query, re-ranked by the
+    #             current query, top `cum_keep` clustered (meeting Nov 12: history pooling)
+    pool_schedule: Literal["shrink", "fixed", "cumulative"] = "shrink"
+    cum_per_round: int = 200
+    cum_keep: int = 100
+    # --- synthetic upper bound: force the target's caption into the shown captions ---
+    # (cheats on purpose: the agent is told the target. Only for measuring headroom.)
+    oracle_target: bool = False
 
 
 class RankerConfig(_Base):
@@ -176,7 +183,8 @@ class RunConfig(_Base):
         return hashlib.sha256(blob).hexdigest()[:12]
 
 
-_LATE_GENERATOR_DEFAULTS = {"representative": "entropy", "pool_schedule": "shrink"}
+_LATE_GENERATOR_DEFAULTS = {"representative": "entropy", "pool_schedule": "shrink",
+                            "cum_per_round": 200, "cum_keep": 100, "oracle_target": False}
 _LATE_REFORMULATOR_DEFAULTS = {"anchor_caption": False, "strip_leaks": False}
 
 

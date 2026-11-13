@@ -52,3 +52,8 @@ def test_dpp_prefers_diverse_items():
     a = torch.tensor([[1.0, 0.0], [0.999, 0.04], [0.0, 1.0]])
     picks = dpp_greedy(a, torch.tensor([0.9, 0.89, 0.85]), 2, alpha=1.0)
     assert picks == [0, 2]
+
+
+def test_fingerprints_unchanged_by_new_options():
+    from agentir.config import load_config
+    assert load_config(["configs/base.yaml", "configs/experiments/plugir.yaml"]).fingerprint() == "f4b10a69e035"

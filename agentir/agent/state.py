@@ -23,6 +23,9 @@ class DialogState:
     query_history: list[str] = field(default_factory=list)
     cost: Counter = field(default_factory=Counter)  # LLM calls + probe searches, cumulative
     scratch: dict[str, Any] = field(default_factory=dict)  # per-round data shared between components
+    memory: dict[str, Any] = field(default_factory=dict)  # data kept across rounds (e.g. pooled candidates)
+    # Synthetic upper bound only: corpus index of the target. None in every honest run.
+    oracle_index: int | None = None
 
     def __post_init__(self):
         if not self.query:

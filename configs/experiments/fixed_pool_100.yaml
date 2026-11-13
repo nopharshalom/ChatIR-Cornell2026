@@ -1,0 +1,8 @@
+# Matched baseline for cumulative_pool.yaml: vanilla PlugIR clustering the top 100 of the
+# current query every round (same candidate count, no history).
+name: fixed_pool_100
+agent:
+  generator: {kind: plugir, num_candidates: 5, referring: true, filtering: true, n_clusters: 10, thres_low: 100,
+              pool_schedule: fixed}
+  ranker: {kind: plugir_kl, recall_hitting: 10, thres_low: 500}
+  reformulator: {kind: plugir}

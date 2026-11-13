@@ -26,8 +26,13 @@ class Agent:
         self.ranker = build_ranker(cfg.ranker, cfg.reformulator, seed)
         self.reformulator = build_reformulator(cfg.reformulator)
 
-    def start(self, caption: str) -> DialogState:
-        return DialogState(caption=caption)
+    def start(self, caption: str, target_index: int | None = None) -> DialogState:
+        st = DialogState(caption=caption)
+        if self.cfg.generator.oracle_target:
+            if target_index is None:
+                raise ValueError("generator.oracle_target needs the target index (local mode only)")
+            st.oracle_index = int(target_index)
+        return st
 
     def _tools(self, state: DialogState):
         return MeteredLLM(self.llm, state.cost), self.search.with_counter(state.cost)
@@ -40,6 +45,9 @@ class Agent:
         decision = self.ranker.select(state, candidates, llm, search)
         decision.debug["context_captions"] = state.scratch.get("context_captions")
         decision.debug["context_indices"] = state.scratch.get("context_indices")
+        for k in ("pool_size", "oracle_already_shown"):
+            if k in state.scratch:
+                decision.debug[k] = state.scratch[k]
         decision.debug["cost"] = dict(state.cost - before)
         return decision
 
