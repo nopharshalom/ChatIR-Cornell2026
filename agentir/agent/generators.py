@@ -51,7 +51,8 @@ class PlugIRGenerator:
             return PlainGenerator(c).generate(state, llm, search)
 
         caps, _ = related_captions(state, search, c.thres_low, c.n_clusters, seed=self.seed + state.round,
-                                   representative=c.representative, pool_schedule=c.pool_schedule)
+                                   representative=c.representative, pool_schedule=c.pool_schedule,
+                                   cum_per_round=c.cum_per_round, cum_keep=c.cum_keep)
         state.scratch["context_captions"] = caps
         cand_text = format_candidates(caps)
 

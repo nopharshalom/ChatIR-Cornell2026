@@ -81,3 +81,27 @@ def test_http_services(tmp_path, world):
     assert m["num_sessions"] == 3
     bad = u.c.post("/answer", json={"target": "../../etc/passwd", "question": "q"})
     assert bad.status_code == 400
+
+
+@pytest.mark.parametrize("gen", [{"oracle_target": True},
+                                 {"pool_schedule": "cumulative", "cum_per_round": 40, "cum_keep": 30}])
+def test_meeting_variants(tmp_path, world, gen):
+    retriever, samples, lookup = world
+    cfg = _cfg(tmp_path, "plugir_kl")
+    cfg.name = "t-" + "-".join(gen)
+    for k, v in gen.items():
+        setattr(cfg.agent.generator, k, v)
+    agent = Agent(cfg.agent, MockLLM(), SearchTool(retriever))
+    user = ScriptedUserSimulator(scripted_answer(lookup))
+    run_eval(cfg, samples, LocalAgentHandle(agent), LocalUserHandle(user, "."), retriever)
+    recs = [json.loads(x) for x in open(run_dir(cfg) / "sessions.jsonl")]
+    for r in recs:
+        t = retriever.index.index_of(r["target"])
+        for rd in r["rounds"]:
+            shown = rd["debug"]["context_indices"]
+            if gen.get("oracle_target"):
+                assert t in shown and len(shown) <= 4
+            else:
+                assert rd["debug"]["pool_size"] <= 30
+    if not gen.get("oracle_target"):  # pool grows with history (40 new per round, capped at 30 kept)
+        assert all(rd["debug"]["pool_size"] == 30 for r in recs for rd in r["rounds"])

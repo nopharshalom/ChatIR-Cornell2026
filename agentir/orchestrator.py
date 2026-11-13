@@ -32,7 +32,7 @@ log = logging.getLogger(__name__)
 
 # ----------------------------------------------------------------------------- handles
 class AgentHandle(Protocol):
-    def start(self, sid: str, caption: str) -> str: ...
+    def start(self, sid: str, caption: str, target_index: int | None = None) -> str: ...
     def ask(self, sid: str) -> dict: ...
     def observe(self, sid: str, question: str, answer: str) -> dict: ...
     def close(self, sid: str) -> None: ...
@@ -48,8 +48,8 @@ class LocalAgentHandle:
         self.states: dict[str, Any] = {}
         self._lock = threading.Lock()
 
-    def start(self, sid, caption):
-        st = self.agent.start(caption)
+    def start(self, sid, caption, target_index=None):
+        st = self.agent.start(caption, target_index)
         with self._lock:
             self.states[sid] = st
         return st.query
@@ -78,7 +78,7 @@ class HttpAgentHandle:
         r.raise_for_status()
         return r.json()
 
-    def start(self, sid, caption):
+    def start(self, sid, caption, target_index=None):  # the oracle upper bound is local-only
         return self._post("/sessions", {"session_id": sid, "caption": caption})["query"]
 
     def ask(self, sid):
@@ -117,7 +117,8 @@ def run_session(sample: Sample, agent: AgentHandle, user: UserHandle, retriever,
                 run_name: str = "run") -> dict:
     sid = f"{run_name}-{sample.qid}"
     t_start = time.time()
-    queries = [agent.start(sid, sample.caption)]
+    target_index = retriever.index.index_of(sample.target)
+    queries = [agent.start(sid, sample.caption, target_index)]
     rounds, cost = [], {}
     try:
         for r in range(1, max_rounds + 1):
@@ -132,7 +133,7 @@ def run_session(sample: Sample, agent: AgentHandle, user: UserHandle, retriever,
                            "debug": d.get("debug"), "seconds": round(time.time() - t0, 3)})
     finally:
         agent.close(sid)
-    ranks = retriever.ranks_of(queries, retriever.index.index_of(sample.target))
+    ranks = retriever.ranks_of(queries, target_index)
     return {"qid": sample.qid, "target": sample.target, "caption": sample.caption, "queries": queries,
             "ranks": ranks, "rounds": rounds, "cost": cost, "seconds": round(time.time() - t_start, 2)}
 

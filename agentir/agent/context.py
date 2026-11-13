@@ -63,20 +63,50 @@ def select_representatives(img: torch.Tensor, cap: torch.Tensor | None, n_cluste
     return picks
 
 
+def candidate_pool(state: DialogState, sims: torch.Tensor, thres_low: int, pool_schedule: str,
+                   cum_per_round: int = 200, cum_keep: int = 100) -> torch.Tensor:
+    """Corpus indices the questioner's clusters are built from, best-ranked first."""
+    N = sims.numel()
+    if pool_schedule == "cumulative":
+        new = torch.topk(sims, min(cum_per_round, N)).indices.tolist()
+        pool = state.memory.setdefault("pool", [])
+        seen = set(pool)
+        pool.extend(i for i in new if i not in seen)
+        cand = torch.tensor(pool, device=sims.device, dtype=torch.long)
+        order = torch.argsort(sims[cand], descending=True)[: min(cum_keep, len(pool))]
+        return cand[order]
+    n = thres_low if pool_schedule == "fixed" else candidate_set_size(thres_low, state.round)
+    return torch.topk(sims, min(n, N)).indices  # descending (PlugIR sorts ascending; order is irrelevant)
+
+
 def related_captions(state: DialogState, search: SearchTool, thres_low: int = 500,
                      n_clusters: int = 10, seed: int = 0, representative: str = "entropy",
-                     pool_schedule: str = "shrink") -> tuple[list[str], torch.Tensor]:
-    """Returns (representative captions, top-n candidate indices)."""
+                     pool_schedule: str = "shrink", cum_per_round: int = 200,
+                     cum_keep: int = 100) -> tuple[list[str], torch.Tensor]:
+    """Returns (representative captions, candidate-pool indices)."""
     idx = search.index
     if idx.caption_emb is None:
         raise ValueError("index has no caption embeddings; rebuild it with `agentir build-index`")
-    n = thres_low if pool_schedule == "fixed" else candidate_set_size(thres_low, state.round)
-    n = min(n, len(idx))
     sims = search.similarity([state.query], purpose="context")[0]
-    topk = torch.topk(sims, n).indices  # descending (PlugIR uses ascending argsort; order is irrelevant)
+    topk = candidate_pool(state, sims, thres_low, pool_schedule, cum_per_round, cum_keep)
     picks = select_representatives(idx.image_emb[topk], idx.caption_emb[topk], n_clusters, seed, representative)
-    state.scratch["context_indices"] = [int(topk[i]) for i in picks]
-    return [idx.captions[int(topk[i])] for i in picks], topk
+    chosen = [int(topk[i]) for i in picks]
+    state.scratch["pool_size"] = int(topk.numel())
+    if state.oracle_index is not None:
+        # Synthetic upper bound: make sure the target's caption is among the shown captions.
+        # It replaces one representative at a seeded random slot, so the list length and
+        # position statistics match the honest run.
+        t = int(state.oracle_index)
+        state.scratch["oracle_already_shown"] = t in chosen
+        if t not in chosen:
+            g = torch.Generator().manual_seed(seed)
+            slot = int(torch.randint(len(chosen) or 1, (1,), generator=g)) if chosen else 0
+            if chosen:
+                chosen[slot] = t
+            else:
+                chosen = [t]
+    state.scratch["context_indices"] = chosen
+    return [idx.captions[i] for i in chosen], topk
 
 
 def format_candidates(caps: list[str]) -> str:

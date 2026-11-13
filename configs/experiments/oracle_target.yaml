@@ -1,0 +1,10 @@
+# Synthetic upper bound (meeting Nov 12): PlugIR, but the target image's caption is forced
+# into the 10 captions the questioner sees every round (replacing one representative).
+# Cheats on purpose - it measures how much better questions could get if the candidate
+# evidence always contained the target. Local mode only.
+name: oracle_target
+agent:
+  generator: {kind: plugir, num_candidates: 5, referring: true, filtering: true, n_clusters: 10, thres_low: 500,
+              oracle_target: true}
+  ranker: {kind: plugir_kl, recall_hitting: 10, thres_low: 500}
+  reformulator: {kind: plugir}
