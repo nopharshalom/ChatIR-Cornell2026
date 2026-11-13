@@ -83,3 +83,18 @@ All of them are off by default, so the PlugIR and divergence fingerprints are un
 - `reformulator.kind: grounded`, `reformulator.anchor_caption`, `reformulator.strip_leaks`
 - Each round's debug now logs `context_indices`: the corpus ids of the images whose captions the
   questioner saw.
+
+
+## Meeting Nov 12 follow-ups (`AgentIR_v3_200dialogs.ipynb`)
+
+All on the same 200 dialogs (`configs/subsets/random200_seed20261112.json`), full 10 rounds, Qwen3.5-9B.
+
+- **Synthetic upper bound** `configs/experiments/oracle_target.yaml`: the target's caption is forced
+  into the 10 captions the questioner sees each round (replaces one representative at a random slot).
+- **History pooling** `cumulative_pool.yaml`: union of the top-200 of every round's query, re-ranked by
+  the current query, top 100 clustered. Matched baseline: `fixed_pool_100.yaml`.
+- **E5 `e5_cluster_diagnostics.py`** (no LLM): per round, where the target sits relative to the k-means
+  clusters, the "target is ever a representative" rate, closeness vs. convergence, per-round cluster plots.
+- **`plot_curves.py`**: cumulative Hits@10 by round (primary) and Recall@10, vanilla PlugIR first, paired
+  bootstrap bands and differences.
+- Optional paid backend `configs/backends/openrouter.yaml` (same model, ~10x faster; different fingerprint).
