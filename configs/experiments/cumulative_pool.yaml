@@ -1,0 +1,9 @@
+# History pooling (meeting Nov 12): keep the union of the top-200 images of every round's
+# query; each round re-rank that union with the current query and cluster the top 100.
+# Compare against fixed_pool_100.yaml (same 100 images clustered, current query only).
+name: cumulative_pool
+agent:
+  generator: {kind: plugir, num_candidates: 5, referring: true, filtering: true, n_clusters: 10, thres_low: 500,
+              pool_schedule: cumulative, cum_per_round: 200, cum_keep: 100}
+  ranker: {kind: plugir_kl, recall_hitting: 10, thres_low: 500}
+  reformulator: {kind: plugir}

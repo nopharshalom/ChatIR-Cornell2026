@@ -1,0 +1,6 @@
+# Exact PlugIR replication: BLIP-2 FlanT5-XL as the simulated user, seeing the current query.
+# Use with experiments/plugir.yaml:  -c configs/base.yaml -c configs/experiments/plugir.yaml -c <this>
+name: plugir-blip2user
+user_sim:
+  kind: blip2
+  include_caption: true

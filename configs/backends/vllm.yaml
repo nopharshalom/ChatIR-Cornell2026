@@ -1,0 +1,15 @@
+# OPTIONAL, only if someone gets a free GPU with bf16 (Ampere or newer; vLLM is unreliable on T4).
+# Changes the model (full-precision weights instead of 4-bit), so the fingerprint changes too:
+# don't mix these runs with Ollama runs in one table.
+# GPU box running:  vllm serve Qwen/Qwen3.5-9B --port 8000 --max-model-len 32768 --reasoning-parser qwen3
+agent:
+  llm:
+    base_url: http://localhost:8000/v1
+    model: Qwen/Qwen3.5-9B
+    api_key: EMPTY
+    disable_thinking: true        # vLLM: chat_template_kwargs.enable_thinking=false
+    extra_body: {}                # drop base.yaml's Ollama-only reasoning_effort
+retriever:
+  device: cuda
+eval:
+  workers: 8                      # vLLM batches concurrent sessions well

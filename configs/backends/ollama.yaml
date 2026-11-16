@@ -1,0 +1,6 @@
+# MacBook / laptop. Install Ollama (ollama.com), then:  ollama pull qwen3.5:9b
+# The model itself is set in configs/base.yaml; this file only tunes the machine.
+retriever:
+  device: auto                    # picks mps on Apple silicon
+eval:
+  workers: 1                      # raise to 2-4 if you start Ollama with OLLAMA_NUM_PARALLEL=4
