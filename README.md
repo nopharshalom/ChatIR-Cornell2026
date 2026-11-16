@@ -220,6 +220,17 @@ configs/              base, backends/, experiments/, dev
 tests/
 AgentIR_Colab.ipynb   AgentIR on free Colab (Qwen3.5-9B via Ollama)
 
+## Experiments, results and the milestone report
+
+| Where | What |
+|---|---|
+| `experiments/` (scripts, `README.md`) | Matan-meeting experiments E1–E3, cluster diagnostics (`e5_cluster_diagnostics.py`), curves (`plot_curves.py`) |
+| `experiments/AgentIR_v3_200dialogs.ipynb` | End-to-end comparison on the fixed 200-dialog sample (`configs/subsets/random200_seed20261112.json`): vanilla PlugIR, target-caption upper bound, history pooling and its matched baseline, fixed pools, best-ranked representatives |
+| `experiments/2026-11-10-saved-state/` | Saved-state experiments S1 (query fusion), S2 (candidate memory), S3 (evidence selection) |
+| `experiments/2026-11-plugir/` | PlugIR dialog runs with Hits@10 (local Qwen3.5-9B), including the 200-dialog replication |
+| `results/v3_200dialogs/` | Hits@10 / Recall@10 curves, diagnostics and figures from the v3 notebook |
+| `report/milestone/` | Milestone report (ACM LaTeX, Overleaf-ready; `main.tex`, `main.pdf`) |
+
 # PlugIR reference implementation (unchanged)
 generate_dialog.py, eval.py, finetune/, PlugIR_Colab.ipynb
 Protocol/, dialogues/ protocol files shared by both
