@@ -9,8 +9,8 @@ Recall@10 = target in the top 10 at that round. Intervals are paired bootstrap 9
 |---|---|---|---|---|---|
 | PlugIR (vanilla) | 89.0 | 93.5 | 85.0 | – | 278 min |
 | Target caption forced into the 10 shown (upper bound) | 90.5 | 92.5 | 83.5 | −1.0 [−3.5, +1.5] | 278 min |
-| History pool (top-200 per round, top-100 clustered) | running (177/200 when the runtime stopped) | | | | |
-| Fixed top-100 pool (matched baseline) | not run yet | | | | |
+| History pool (top-200 per round, top-100 clustered) | 87.5 | 93.0 | 83.5 | −0.5 (CI pending matched-baseline report) | 200 dialogs, BRI 0.726 |
+| Fixed top-100 pool (matched baseline) | 89.0 | 92.5 | 86.5 | −1.0 (history pool vs this baseline: +0.5) | 200 dialogs, BRI 0.736 |
 | Fixed top-500 pool, rank-aware representatives | not run yet | | | | |
 
 ![Hits@10](figs/hits10_curves.png)
