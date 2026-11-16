@@ -4,25 +4,28 @@
 \pagestyle{plain}
 \usepackage{amsmath}
 \newcommand{\fillin}[1]{\textcolor{red}{[#1]}}
+% #RUNNING-TODO: every \runningtodo{...} marks a number that depends on a run still in progress.
+% Search this file for "#RUNNING-TODO" to find them all.
+\newcommand{\runningtodo}[1]{\textcolor{orange}{\textbf{\#RUNNING-TODO}: #1}}
 
 \begin{document}
 
 \title{Agentic Image Retrieval: Milestone Report}
 \subtitle{CS5787 Deep Learning, Cornell Tech, Fall 2026}
 
-\author{Usman Ali Arshi}
+\author{Usman Ali}
 \affiliation{\institution{Cornell Tech}\city{New York}\country{USA}}
-\email{\fillin{netid}@cornell.edu}
+\email{ua49@cornell.edu}
 
-\author{\fillin{Nophar full name}}
+\author{Nophar Shalom}
 \affiliation{\institution{Cornell Tech}\city{New York}\country{USA}}
-\email{\fillin{netid}@cornell.edu}
+\email{ns2242@cornell.edu}
 
-\author{\fillin{Kenny full name}}
+\author{Kenechukwu Okoroafor}
 \affiliation{\institution{Cornell Tech}\city{New York}\country{USA}}
-\email{\fillin{netid}@cornell.edu}
+\email{kao92@cornell.edu}
 
-\renewcommand{\shortauthors}{Arshi et al.}
+\renewcommand{\shortauthors}{Ali, Shalom and Okoroafor}
 
 \begin{abstract}
 Chat-based image retrieval systems such as ChatIR and PlugIR find a target image in a large
@@ -42,18 +45,17 @@ while several changes that looked large in offline analysis disappear end to end
 \section{Team and ownership}
 \label{sec:team}
 \begin{itemize}
-\item \textbf{Usman Ali Arshi} (\fillin{netid}): the \textsc{AgentIR} framework (agent modules,
-  simulated user, orchestrator, evaluator, tests); the full-dialog diagnostic experiments E1--E3;
+\item \textbf{Usman Ali} (ua49): the \textsc{AgentIR} framework (agent modules, simulated
+  user, orchestrator, evaluator and tests); the full-dialog diagnostic experiments E1--E3;
   the 200-dialog end-to-end runs of the target-caption upper bound, history pooling and cluster
   diagnostics (Sections~\ref{sec:method}, \ref{sec:res-live}, \ref{sec:res-diag}).
-\item \textbf{\fillin{Nophar}} (\fillin{netid}): the team repository and the port of the original
+\item \textbf{Nophar Shalom} (ns2242): the team repository and the port of the original
   PlugIR code to Qwen and Colab; PlugIR dialog visualizations and the saved-state re-analysis
-  (\fillin{confirm scope}) (Section~\ref{sec:res-static}).
-\item \textbf{\fillin{Kenny}} (\fillin{netid}): the saved-state experiments on query fusion (S1),
+  (Section~\ref{sec:res-static}).
+\item \textbf{Kenechukwu Okoroafor} (kao92): the saved-state experiments on query fusion (S1),
   candidate pools (S2) and caption selectors (S3), and their end-to-end re-runs with Hits@10
   (Sections~\ref{sec:res-static}, \ref{sec:res-live}).
 \end{itemize}
-\fillin{All three members: please confirm or correct this split before submission.}
 
 \section{Problem and prior work}
 Text-to-image retrieval ranks the images of a corpus by how well they match a textual
@@ -193,8 +195,10 @@ S3 current MMR & -- & 94.5 & $+1.0$ \\
 S3 current top 10 & -- & 94.0 & $+0.5$ \\
 S3 history selectors & -- & 92.0 & $-1.5$ \\
 \midrule
-History pool, top-100 & \multicolumn{3}{c}{running} \\
-Fixed top-100 (matched) & \multicolumn{3}{c}{queued} \\
+History pool, top-100 & \multicolumn{3}{c}{\runningtodo{running}} \\
+Fixed top-100 (matched) & \multicolumn{3}{c}{\runningtodo{queued}} \\
+Fixed top-500 pool & \multicolumn{3}{c}{\runningtodo{queued}} \\
+Best-ranked representatives & \multicolumn{3}{c}{\runningtodo{queued}} \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -202,7 +206,7 @@ Fixed top-100 (matched) & \multicolumn{3}{c}{queued} \\
 \begin{figure}[t]
 \includegraphics[width=\linewidth]{hits10_curves.png}
 \caption{Cumulative Hits@10 by round for vanilla PlugIR and the target-caption upper bound
-(200 dialogs, shaded: 95\% bootstrap bands).}
+(200 dialogs, shaded: 95\% bootstrap bands). \runningtodo{replace with the figure that also has the history-pool and fixed-pool runs (\texttt{runs/v3\_curves/hits10\_curves.png})}}
 \label{fig:hits}
 \Description{Two nearly overlapping rising curves from 70\% at round 0 to about 93\% at round 10.}
 \end{figure}
@@ -250,11 +254,22 @@ Finally, 8.5\% of dialogs reach the top 10 and leave it again (Hits@10 93.5\% vs
 
 
 \subsection{Summary so far}
-\fillin{Team to finalize.} Offline, both better evidence and better queries look valuable, but no
-end-to-end change has yet moved final Hits@10 by more than two points, and even showing the
-questioner the target's caption does not help. Since 70\% of targets are already in the top 10
-before any question, the headroom on this metric is small. We are also seeing targets found and
-then lost by later rewrites.
+Three observations shape our next steps.
+\emph{(i) Hits@10 leaves little room.} Vanilla PlugIR already has 70\% of targets in the top 10
+before any question and 93.5\% after ten rounds; only 13 of the 200 dialogs never reach the top 10.
+\emph{(ii) The evidence shown to the questioner is not the bottleneck.} Offline, better evidence
+looks valuable (the target is shown in 61\% of rounds with best-ranked representatives instead of
+4\%, and history selectors add 9 points of coverage), yet no evidence change moves end-to-end
+Hits@10 by more than 1.5 points, and showing the questioner the target's own caption in every
+round does not help at all ($-1.0$, CI $[-3.5,+1.5]$).
+\emph{(iii) Targets are lost after they are found.} 8.5\% of dialogs reach the top 10 and leave it
+(Hits@10 93.5\% vs.\ Recall@10 85.0\%), 27\% of rewrites lower the target's rank, and the one query
+change we tested end to end (S1 fusion) cost 5.5 points.
+Together these point away from better question \emph{evidence} and towards how answers become
+queries: keeping the best query state, checking a rewrite before committing to it, and using the
+agent's own probes for that check, which is the core of our proposal. We will also report Hits@1
+and Recall@10, which are further from their ceiling than Hits@10.
+\runningtodo{revisit (ii) once the history-pool vs.\ matched-baseline runs finish.}
 
 \section{Challenges and next steps}
 \begin{itemize}
