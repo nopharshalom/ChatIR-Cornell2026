@@ -1,0 +1,22 @@
+{
+  "model": "mlx-community/Qwen3.5-9B-4bit",
+  "revision": "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+  "backend": "MLX 4-bit",
+  "retrieval": "BLIP float32 on MPS",
+  "selector": "PlugIR cosine k-means and entropy",
+  "round_count": 10,
+  "corpus_size": 50000,
+  "tasks": [
+    1052,
+    637,
+    813,
+    388,
+    1085,
+    744,
+    1897,
+    1538,
+    1381,
+    282
+  ],
+  "runner_sha256": "7d0b1d04db1ff50ceef385010d0e711c84e8457091bef6df72b3326756cc875e"
+}
