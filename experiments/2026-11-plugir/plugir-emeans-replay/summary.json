@@ -1,0 +1,25 @@
+{
+  "dialogues": 200,
+  "question_rounds": 305,
+  "question_dialogues": 62,
+  "in_pool_rounds": 272,
+  "faiss_revision": "ebab8f784c1d177129602269d5ad966c525fbdcb",
+  "torch": "2.14.1",
+  "matching_vanilla_selections": 301,
+  "exposure_rounds": {
+    "vanilla_saved": 9,
+    "vanilla_replayed": 9,
+    "emeans": 7
+  },
+  "exposure_dialogues": {
+    "vanilla_saved": 6,
+    "vanilla_replayed": 6,
+    "emeans": 3
+  },
+  "gained_vs_replayed": 2,
+  "lost_vs_replayed": 4,
+  "median_clustering_ms": {
+    "kmeans": 1.378833083435893,
+    "emeans": 15.75787493493408
+  }
+}
