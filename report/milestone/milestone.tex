@@ -1,0 +1,282 @@
+\documentclass[sigconf,nonacm]{acmart}
+\settopmatter{printacmref=false}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+\pagestyle{plain}
+\usepackage{amsmath}
+\newcommand{\fillin}[1]{\textcolor{red}{[#1]}}
+
+\begin{document}
+
+\title{Agentic Image Retrieval: Milestone Report}
+\subtitle{CS5787 Deep Learning, Cornell Tech, Fall 2026}
+
+\author{Usman Ali Arshi}
+\affiliation{\institution{Cornell Tech}\city{New York}\country{USA}}
+\email{\fillin{netid}@cornell.edu}
+
+\author{\fillin{Nophar full name}}
+\affiliation{\institution{Cornell Tech}\city{New York}\country{USA}}
+\email{\fillin{netid}@cornell.edu}
+
+\author{\fillin{Kenny full name}}
+\affiliation{\institution{Cornell Tech}\city{New York}\country{USA}}
+\email{\fillin{netid}@cornell.edu}
+
+\renewcommand{\shortauthors}{Arshi et al.}
+
+\begin{abstract}
+Chat-based image retrieval systems such as ChatIR and PlugIR find a target image in a large
+corpus by asking the user questions and rewriting the search query after each answer. We are
+building an agent that can also issue its own probing searches between questions. For the
+milestone we (i) built \textsc{AgentIR}, a modular re-implementation of the PlugIR loop with a
+simulated user, a metered search tool and an evaluator that reproduces PlugIR's reported score,
+(ii) diagnosed where PlugIR loses the target, and (iii) ran end-to-end comparisons of seven
+variants on the same 200 randomly sampled VisDial dialogs with an open model (Qwen3.5-9B).
+Vanilla PlugIR reaches 93.5\% Hits@10 after ten rounds. No variant so far moves this by more
+than two points, including an upper bound that always shows the questioner the target's caption,
+while several changes that looked large in offline analysis disappear end to end.
+\end{abstract}
+
+\maketitle
+
+\section{Team and ownership}
+\label{sec:team}
+\begin{itemize}
+\item \textbf{Usman Ali Arshi} (\fillin{netid}): the \textsc{AgentIR} framework (agent modules,
+  simulated user, orchestrator, evaluator, tests); the full-dialog diagnostic experiments E1--E3;
+  the 200-dialog end-to-end runs of the target-caption upper bound, history pooling and cluster
+  diagnostics (Sections~\ref{sec:method}, \ref{sec:res-live}, \ref{sec:res-diag}).
+\item \textbf{\fillin{Nophar}} (\fillin{netid}): the team repository and the port of the original
+  PlugIR code to Qwen and Colab; PlugIR dialog visualizations and the saved-state re-analysis
+  (\fillin{confirm scope}) (Section~\ref{sec:res-static}).
+\item \textbf{\fillin{Kenny}} (\fillin{netid}): the saved-state experiments on query fusion (S1),
+  candidate pools (S2) and caption selectors (S3), and their end-to-end re-runs with Hits@10
+  (Sections~\ref{sec:res-static}, \ref{sec:res-live}).
+\end{itemize}
+\fillin{All three members: please confirm or correct this split before submission.}
+
+\section{Problem and prior work}
+Text-to-image retrieval ranks the images of a corpus by how well they match a textual
+description. A single caption is often ambiguous: in the ChatIR example the target starts at
+rank 1{,}149 among 50K images~\cite{levy2023chatir}. \emph{ChatIR}~\cite{levy2023chatir}
+turns retrieval into a dialog: an LLM asks questions, a simulated user answers them from the
+target image, and the growing dialog is used as the query. \emph{PlugIR}~\cite{lee2024plugir}
+conditions each question on the images the current query retrieves, filters questions the
+retrieved set already answers, picks one by a KL criterion, and rewrites the dialog into a
+single caption-like query before each search.
+
+Both systems pay for accuracy with user effort: every round needs the user to read and answer a
+question. Our project (proposed by our advisor, Matan Levy) gives the agent its own search
+actions, so it can probe the corpus between questions, both to ask more discriminative questions
+and to find the target with fewer rounds. Before adding probes we needed (a) a faithful,
+instrumented PlugIR baseline and (b) an understanding of where the current loop loses the
+target, which is what this milestone covers.
+
+\section{Formal problem}
+\label{sec:formal}
+\paragraph{Data.} The corpus $\mathcal{D}$ has $|\mathcal{D}|=50{,}000$ images: the targets of the
+2{,}064 VisDial~\cite{das2017visdial} validation dialogs used by PlugIR, plus COCO
+\texttt{unlabeled2017}~\cite{lin2014coco} distractors, following the ChatIR/PlugIR protocol. Each
+dialog $n$ has a target $I^*_n\in\mathcal{D}$ and an initial caption $c_n$. Images and text are
+embedded with frozen BLIP ITM-large encoders~\cite{li2022blip}, $v_j=E_i(I_j)$ and $E_t(\cdot)$;
+image embeddings are computed once and cached.
+
+\paragraph{Interaction.} At round $r=0$ the query is $q_0=c_n$. In each round $r=1,\dots,R$
+($R=10$) the agent asks a question $Q_r$, the user simulator, which sees only $I^*_n$, answers
+$A_r$, and the agent produces a new query $q_r=f(c_n,(Q_1,A_1),\dots,(Q_r,A_r))$. The rank of the
+target under $q_r$ is
+\begin{equation}
+\rho_{n,r}=1+\big|\{j:\ \langle E_t(q_r),v_j\rangle>\langle E_t(q_r),v^*_n\rangle\}\big|.
+\end{equation}
+The agent never observes $I^*_n$ or $\rho_{n,r}$.
+
+\paragraph{Metrics.} Over $N$ dialogs we report, for every round $r$,
+\begin{align}
+\text{Recall@}K(r)&=\tfrac{1}{N}\textstyle\sum_n \mathbb{1}[\rho_{n,r}\le K],\\
+\text{Hits@}K(r)&=\tfrac{1}{N}\textstyle\sum_n \mathbb{1}\big[\min_{t\le r}\rho_{n,t}\le K\big],
+\end{align}
+with Hits@10 as the primary metric (the user would have seen the target in the top 10 at some
+round) and Recall@10 as secondary. We also report PlugIR's Best log Rank Integral,
+$\text{BRI}=\frac{1}{N}\sum_n \frac{1}{R}\int_0^R \log\big(1+\min_{t\le r}\rho_{n,t}\big)\,dr$
+(trapezoid rule, lower is better). Differences between methods are paired over dialogs, with 95\%
+bootstrap intervals.
+
+\section{Method}
+\label{sec:method}
+\subsection{AgentIR framework}
+\textsc{AgentIR} splits the agent into three replaceable modules and runs it against a separate
+user-simulator service, either in process or over HTTP. A \texttt{SearchTool} gives the agent
+metered access to the retriever, so every probe the agent issues is counted as a cost per round.
+\begin{enumerate}
+\item \textbf{Generator}: builds the evidence shown to the questioner and asks an LLM for $M=5$
+  candidate questions, then filters those the evidence already answers.
+\item \textbf{Ranker}: selects one question.
+\item \textbf{Reformulator}: rewrites the dialog into the next query $q_r$.
+\end{enumerate}
+The simulated user is a vision-language model (Qwen3.5-9B~\cite{qwen35}) that sees the target
+image. Configurations are YAML files with a fingerprint, so runs resume after interruptions and
+LLM calls are cached. On PlugIR's released dialogs our evaluator gives BRI 0.768 against the
+0.767 reported by PlugIR; 31 unit tests cover metric parity and every variant below.
+
+\subsection{PlugIR as implemented}
+At round $r$ the questioner's candidate pool is the top $n_r$ images under $q_{r-1}$, with
+$n_r=500-50(r-1)$ (500 down to 50). The pool is clustered into $K=10$ groups with spherical
+$k$-means. In each cluster, PlugIR shows the caption of the image whose caption-similarity
+distribution over the pool, $p_i=\operatorname{softmax}(\{\langle E_t(\text{cap}_i),v_j\rangle\}_j)$,
+has the lowest entropy. The ranker scores each candidate question $Q$ by
+$\mathrm{KL}\big(p(\cdot\mid q_{r-1})\,\|\,p(\cdot\mid q_{r-1}\oplus Q)\big)$ over the images
+ranked 11 to $n_r$ and keeps the minimum. The reformulator asks the LLM to rewrite the caption and
+all answers as one description.
+
+\subsection{Variants under test}
+Each variant changes one module and keeps the rest of PlugIR fixed.
+\begin{itemize}
+\item \textbf{Evidence selection.} Show the best-ranked image per cluster instead of the
+  lowest-entropy one; keep the pool fixed at 500 or 100 images; MMR~\cite{carbonell1998mmr} or
+  fused top-10 selectors over the current query or the whole history (S3).
+\item \textbf{History pooling.} Accumulate the top 200 images of every round's query,
+  re-rank the union with $q_{r-1}$ and cluster the top 100. The matched baseline clusters the top
+  100 of $q_{r-1}$ only. Saved-state versions of this (S2) compare pools built from the current,
+  original, previous and all queries.
+\item \textbf{Query.} Fuse the original and current query with reciprocal-rank
+  fusion~\cite{cormack2009rrf} or by prepending the original caption (S1).
+\item \textbf{Upper bound.} Replace one of the 10 shown captions with the target's caption every
+  round (at a seeded random slot). This deliberately cheats: it measures how much the loop can
+  gain if the evidence always contains the target.
+\item \textbf{Agentic ranker (implemented, not yet evaluated at scale).} For each candidate
+  question the LLM proposes 2--3 plausible answers; each answer is turned into a hypothetical
+  query and \emph{issued as a probe}; the question whose answers give the most divergent result
+  sets (Jaccard or Jensen--Shannon divergence) is asked. This is the first use of the agent's own
+  search actions.
+\end{itemize}
+
+\section{Experimental setup}
+All end-to-end runs use the same 200 dialogs, drawn uniformly from the 2{,}064 with a fixed seed,
+for the full 10 rounds. The questioner, rewriter and simulated user are Qwen3.5-9B quantized to
+4 bits and served with Ollama on a single Colab L4 GPU (four dialogs in parallel); one method takes
+about 4.6 hours (about 18 LLM calls per round). Saved-state analyses replay PlugIR's released
+dialogs or saved run states without new LLM calls.
+
+\begin{figure*}[t]
+\includegraphics[width=\textwidth]{clusters_qid31.png}
+\caption{One vanilla PlugIR dialog, rounds 1--10: the questioner's candidate pool projected to
+2-D (colours: $k$-means clusters; circles: the 10 shown representatives; star: the target).
+The target reaches rank 3 at round 6 and falls to rank 33 by round 10.}
+\label{fig:clusters}
+\Description{Ten scatter plots of shrinking image pools with cluster colours and a red star for the target.}
+\end{figure*}
+
+\section{Preliminary results}
+\subsection{End-to-end comparisons}
+\label{sec:res-live}
+Table~\ref{tab:live} and Figure~\ref{fig:hits} show the 200-dialog results. Vanilla PlugIR finds
+70\% of targets in the top 10 from the caption alone and 93.5\% by round 10. Forcing the target's
+caption into the shown evidence changes the final Hits@10 by $-1.0$ points (95\% CI $[-3.5,+1.5]$).
+Query fusion (S1) finishes 5.5 points below vanilla. History pools (S2) find 6 more targets than
+vanilla after two rounds but finish 1--2 targets behind. Current-query selectors (S3) finish 0.5--1
+points above vanilla; history-based selectors 1.5 points below.
+
+\begin{table}[t]
+\caption{End-to-end Hits@10 (\%) on the same 200 dialogs, Qwen3.5-9B. $\Delta$ is the
+difference from vanilla PlugIR at round 10. Two independent vanilla runs agree at 93.5\%.}
+\label{tab:live}
+\small\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+Method & r5 & r10 & $\Delta$ r10 \\
+\midrule
+Vanilla PlugIR & 89.0 & 93.5 & -- \\
+Target caption forced in & 90.5 & 92.5 & $-1.0$ \\
+S1 original + current & -- & 88.0 & $-5.5$ \\
+S2 history pools & -- & 92.5--93.0 & $-0.5$ to $-1.0$ \\
+S3 current MMR & -- & 94.5 & $+1.0$ \\
+S3 current top 10 & -- & 94.0 & $+0.5$ \\
+S3 history selectors & -- & 92.0 & $-1.5$ \\
+\midrule
+History pool, top-100 & \multicolumn{3}{c}{running} \\
+Fixed top-100 (matched) & \multicolumn{3}{c}{queued} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[t]
+\includegraphics[width=\linewidth]{hits10_curves.png}
+\caption{Cumulative Hits@10 by round for vanilla PlugIR and the target-caption upper bound
+(200 dialogs, shaded: 95\% bootstrap bands).}
+\label{fig:hits}
+\Description{Two nearly overlapping rising curves from 70\% at round 0 to about 93\% at round 10.}
+\end{figure}
+
+\subsection{Saved-state analyses}
+\label{sec:res-static}
+Offline analyses on saved dialog states point at two places where the target is lost
+(Table~\ref{tab:static}). First, the evidence: PlugIR's lowest-entropy representatives contain
+the target in 4.0\% of rounds, below a random 10 from the same pool (5.8\%), while taking the
+best-ranked image of each cluster raises this to 61.0\% (500 dialogs $\times$ 10 rounds). Second,
+the query: 27\% of PlugIR's rewrites lower the target's rank, and prepending the original caption
+to the rewritten query raises final Recall@10 by 2.6 points $[+1.5,+3.8]$ over all 2{,}064 dialogs.
+On 100 saved states after nine answers, original + current fusion raises Recall@10 from 64\% to
+75\% (S1), and history-based selectors raise the share of targets in the selected 10 from 67\% to
+76\% (S3).
+
+\begin{table}[t]
+\caption{Saved-state analyses (no new LLM calls).}
+\label{tab:static}
+\small
+\begin{tabular}{@{}p{0.66\linewidth}r@{}}
+\toprule
+Analysis & Result \\
+\midrule
+E1: target among the 10 shown (PlugIR / random / best-ranked per cluster) & 4.0 / 5.8 / 61.0\% \\
+E2: rewrites that lower the target's rank & 27\% \\
+E2: prepend original caption, $\Delta$ final R@10 & $+2.6$ \\
+S1: R@10 current $\rightarrow$ original+current RRF & 64 $\rightarrow$ 75\% \\
+S2: target in 50-image pool, current $\rightarrow$ all history & 86 $\rightarrow$ 91\% \\
+S3: target in selected 10, current MMR $\rightarrow$ history MMR & 67 $\rightarrow$ 76\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Where the target sits relative to the clusters}
+\label{sec:res-diag}
+We rebuilt the questioner's pool and clusters for every round of the 200 vanilla dialogs (the
+rebuild matches the logged representatives in 99.95\% of cases). The target is inside the
+clustered pool in 94.5--100\% of rounds, but is one of the 10 shown captions in at least one
+round for only 23\% of dialogs. In the rounds just before the target enters the top 10, it is
+\emph{less} similar to the nearest shown caption than in other unresolved rounds (0.72 vs.\ 0.77).
+Finally, 8.5\% of dialogs reach the top 10 and leave it again (Hits@10 93.5\% vs.\ Recall@10
+85.0\% at round 10); Figure~\ref{fig:clusters} shows one such dialog.
+
+
+
+\subsection{Summary so far}
+\fillin{Team to finalize.} Offline, both better evidence and better queries look valuable, but no
+end-to-end change has yet moved final Hits@10 by more than two points, and even showing the
+questioner the target's caption does not help. Since 70\% of targets are already in the top 10
+before any question, the headroom on this metric is small. We are also seeing targets found and
+then lost by later rewrites.
+
+\section{Challenges and next steps}
+\begin{itemize}
+\item \textbf{Compute.} With a free 4-bit model on one GPU, each method takes about 4.6 hours for
+  200 dialogs, and Colab sessions are lost when the laptop sleeps. Runs resume from saved state;
+  a hosted API for the same model would cut this roughly tenfold.
+\item \textbf{Finish the pending runs}: history pool vs.\ matched top-100 baseline, fixed top-500
+  pool and best-ranked representatives on the 200 dialogs.
+\item \textbf{Evaluate the agentic ranker} (answer simulation with probing searches) end to end,
+  then let the agent issue probes to surface the target directly.
+\item \textbf{Query drift}: keep the best query seen so far or fuse it with the new rewrite, aimed
+  at the 8.5\% of dialogs that lose the target.
+\item \textbf{Harder evaluation}: report Hits@1 and late-round Recall alongside Hits@10, since
+  Hits@10 is close to its ceiling.
+\end{itemize}
+
+\section*{Code}
+Repository:\\\href{https://github.com/nopharshalom/ChatIR-Cornell2026}{\texttt{github.com/nopharshalom/ChatIR-Cornell2026}}\\ branch
+\texttt{experiments-matan}. The README explains installation and how to run each experiment;
+the notebook\\\texttt{experiments/AgentIR\_v3\_200dialogs.ipynb}\\reproduces Table~\ref{tab:live}.
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{refs}
+
+\end{document}
