@@ -1,0 +1,175 @@
+{
+  "qid": 681,
+  "initial": "the bike is outside with a cat next to it",
+  "initial_rank": 20,
+  "displayed": [
+    9362,
+    5494,
+    36116,
+    45896,
+    19374,
+    6123,
+    38789,
+    46133,
+    19631,
+    44691
+  ],
+  "evidence": [
+    "man riding bicycle next to cobblestone building",
+    "a black bicycle with a basket",
+    "a motorcycle parked in the middle of the forest",
+    "a motorcycle is parked in the road in a field",
+    "a black motorcycle with a white engine",
+    "a red motorcycle parked in the parking lot",
+    "a person outside a tent interacting with a cat and dogs",
+    "a bicycle is attached to a pole in the middle of a city street",
+    "a red motorcycle parked in a parking lot"
+  ],
+  "rejected_captions": [
+    "the cat is sitting",
+    "a white cat is hiding behind two orange bicycles",
+    "a cat sitting on a bike",
+    "a cat is sitting on a bike chain",
+    "a cat laying near the bike",
+    "cat on a sidewalk next to some bicycles",
+    "two cats standing outside of an enclosed yard",
+    "a moped with a cat sleeping in the seat",
+    "cat is black and white",
+    "a parked motorcycle with a bike and boat"
+  ],
+  "usual": {
+    "candidates": [
+      "Question: What is the color of the bike parked outside with a cat?",
+      "what is the color of the bike parked outside with a cat?",
+      "what is the color of the bike parked outside with a cat?",
+      "Question: What is the color of the bike outside with a cat?",
+      "what is the color of the bike parked outside with a cat?"
+    ],
+    "question": "Question: What is the color of the bike parked outside with a cat?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the color of the bike parked outside with a cat?",
+          "answers": [
+            "black",
+            "red",
+            "white"
+          ],
+          "score": 0.06174039840698242
+        },
+        {
+          "question": "what is the color of the bike parked outside with a cat?",
+          "answers": [
+            "black",
+            "red"
+          ],
+          "score": 0.05264568328857422
+        },
+        {
+          "question": "what is the color of the bike parked outside with a cat?",
+          "answers": [
+            "black",
+            "red"
+          ],
+          "score": 0.05264568328857422,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the bike outside with a cat?",
+          "answers": [
+            "black",
+            "red",
+            "white"
+          ],
+          "score": 0.05132627487182617
+        },
+        {
+          "question": "what is the color of the bike parked outside with a cat?",
+          "answers": [
+            "black",
+            "red"
+          ],
+          "score": 0.05264568328857422,
+          "duplicate_of": 1
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.073,
+      "probe_selection_seconds": 1.287,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 8
+    },
+    "answer": "blue",
+    "rewrite": "a blue bike is parked outside with a cat next to it",
+    "raw_rank": 10,
+    "unseen_rank": 8
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the color of the bike next to the cat?",
+      "Question: What color is the cat sitting next to the bike?",
+      "Question: What color is the motorcycle parked next to the cat?",
+      "Question: What is the location of the vehicle next to the cat?",
+      "Question: What is the color of the motorcycle parked next to the cat?"
+    ],
+    "question": "Question: What is the color of the motorcycle parked next to the cat?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the color of the bike next to the cat?",
+          "answers": [
+            "black",
+            "red",
+            "white"
+          ],
+          "score": 0.05103731155395508
+        },
+        {
+          "question": "Question: What color is the cat sitting next to the bike?",
+          "answers": [
+            "black",
+            "white",
+            "brown"
+          ],
+          "score": 0.035503387451171875
+        },
+        {
+          "question": "Question: What color is the motorcycle parked next to the cat?",
+          "answers": [
+            "black",
+            "red",
+            "white"
+          ],
+          "score": 0.05194234848022461
+        },
+        {
+          "question": "Question: What is the location of the vehicle next to the cat?",
+          "answers": [
+            "outdoors",
+            "forest",
+            "parking lot"
+          ],
+          "score": 0.05181598663330078
+        },
+        {
+          "question": "Question: What is the color of the motorcycle parked next to the cat?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.08024358749389648
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.068,
+      "probe_selection_seconds": 2.339,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "blue",
+    "rewrite": "a blue motorcycle is parked outside with a cat next to it",
+    "raw_rank": 117,
+    "unseen_rank": 111
+  }
+}

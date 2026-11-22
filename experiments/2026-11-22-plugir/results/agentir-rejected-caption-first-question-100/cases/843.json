@@ -1,0 +1,71 @@
+{
+  "qid": 843,
+  "initial": "a plate of food with fruit and veggies are on a table with a mug of coffee",
+  "initial_rank": 14,
+  "evidence": [
+    "a breakfast plate with sausage, eggs, potatoes and toast",
+    "a bowl with a handful of fruit in it",
+    "a cup with a cup of coffee on it next to a bowl of cereal",
+    "three containers with sandwiches, fruit and vegetables are on a table",
+    "a slice of pizza with green and purple vegetables",
+    "two plates with a sandwich, salad, and a beer",
+    "a white plate with grilled meat, broccoli, and potatoes",
+    "a white plate containing different vegetables and meats",
+    "a white plate with a sandwich, carrots, and pickles on it",
+    "a bowl full of fruit and a cup next to it"
+  ],
+  "displayed_ids": [
+    35883,
+    29692,
+    7796,
+    21647,
+    16996,
+    15819,
+    10001,
+    15778,
+    35646,
+    30858
+  ],
+  "rejected_captions": [
+    "a paper plate filled with breakfast foods",
+    "a rectangular plate is set up with food",
+    "a teacup is on a table",
+    "a plate of fruit and a drink on a wooden table",
+    "orange tray on a kitchen counter",
+    "a coffee and watermelon plate in the middle of the table",
+    "three plates on a table",
+    "a plate of food on a table",
+    "a plate with a lot of food on it",
+    "a table with strawberries and a mug"
+  ],
+  "candidates": [
+    "Question: What color is the plate holding the food and fruit?",
+    "what color is the mug of coffee next to the plate of food?",
+    "Question: What type of fruit is on the plate?",
+    "Question: What color is the mug of coffee next to the plate?",
+    "Question: What color is the mug of coffee next to the plate?"
+  ],
+  "control_candidates": [
+    "what is the color of the plate containing the fruit and vegetables?",
+    "what is the color of the plate containing the fruit and vegetables?",
+    "what is the color of the plate?",
+    "Question: what is the color of the plate containing the fruit and vegetables?",
+    "what is the color of the plate containing the fruit and vegetables?"
+  ],
+  "control": {
+    "question": "what is the color of the plate?",
+    "answer": "black",
+    "rewrite": "a black plate of food with fruit and veggies is on a table with a mug of coffee",
+    "rank": 2,
+    "hit": true,
+    "raw_rank": 2,
+    "unseen_rank": 1
+  },
+  "variant": {
+    "question": "Question: What type of fruit is on the plate?",
+    "answer": "apple",
+    "rewrite": "a plate of food with apples, veggies, and a mug of coffee on a table",
+    "raw_rank": 1,
+    "unseen_rank": 1
+  }
+}

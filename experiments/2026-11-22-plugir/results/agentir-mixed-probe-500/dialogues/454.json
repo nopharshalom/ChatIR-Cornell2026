@@ -1,0 +1,1324 @@
+{
+  "qid": 454,
+  "sample": "original",
+  "target": "unlabeled2017/000000387765.jpg",
+  "queries": [
+    "a single giraffe stands among shorter trees and brush",
+    "a single giraffe stands on grass among shorter trees and brush",
+    "a single giraffe stands on grass among shorter trees and brush, with trees in the background",
+    "a single giraffe with a spotted coat stands on grass among shorter trees and brush, with trees in the background",
+    "a single giraffe with a spotted coat stands on grass among shorter trees and brush, with its neck raised over the trees in the background",
+    "a brown giraffe with spots stands on grass among shorter trees and brush, with its neck reaching up into the trees",
+    "a brown giraffe with a spotted coat stands on grass among shorter trees and brush, with its neck raised up into the taller trees in the background",
+    "a brown giraffe with brown spots stands on grass among shorter trees and brush, with its neck raised up into the trees",
+    "a brown giraffe with brown spots stands on grass among shorter trees and brush, with its neck reaching up into the taller trees in the background",
+    "a brown giraffe with brown spots stands on grass among shorter trees and green bushes, with its neck reaching up into the trees in the background",
+    "a single brown giraffe with brown spots stands alone on a grassy surface among shorter trees and green bushes, with its neck raised over the trees in the background."
+  ],
+  "ranks": [
+    16,
+    57,
+    67,
+    83,
+    57,
+    16,
+    46,
+    35,
+    43,
+    27,
+    73
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a single giraffe stands among shorter trees and brush",
+      "question": "what is the ground surface of the giraffe standing among shorter trees and brush?",
+      "answer": "grass",
+      "query_after": "a single giraffe stands on grass among shorter trees and brush",
+      "displayed_ids": [
+        26433,
+        13035,
+        44924,
+        48608,
+        45179,
+        369,
+        20126,
+        16913,
+        42173,
+        1574
+      ],
+      "selected_ids": [
+        8809,
+        48324,
+        30998,
+        13373,
+        37704,
+        13719,
+        47214,
+        42746,
+        15696,
+        24741
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: Is the giraffe standing in a fenced area?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0006012916564941406
+        },
+        {
+          "question": "Question: What is the color of the giraffe standing among shorter trees and brush?",
+          "answers": [
+            "brown",
+            "yellow",
+            "tan"
+          ],
+          "score": 0.004440784454345703
+        },
+        {
+          "question": "Question: What is the color of the giraffe standing among shorter trees and brush?",
+          "answers": [
+            "brown",
+            "yellow",
+            "tan"
+          ],
+          "score": 0.004440784454345703,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the giraffe standing among shorter trees and brush?",
+          "answers": [
+            "yellow",
+            "orange",
+            "brown"
+          ],
+          "score": 0.008324146270751953
+        },
+        {
+          "question": "what is the ground surface of the giraffe standing among shorter trees and brush?",
+          "answers": [
+            "dirt",
+            "grass",
+            "stones"
+          ],
+          "score": 0.04464912414550781
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color and pattern of the giraffe?",
+          "answers": [
+            "brown and white spots",
+            "orange and white spots",
+            "tawny and white spots"
+          ],
+          "score": 0.006496429443359375
+        },
+        {
+          "question": "Question: What is the specific background environment of the giraffe (e.g., desert, zoo, fenced area, or woods)?",
+          "answers": [
+            "desert",
+            "zoo",
+            "woods"
+          ],
+          "score": 0.0050258636474609375
+        },
+        {
+          "question": "Question: What is the color of the giraffe's spots?",
+          "answers": [
+            "brown",
+            "dark brown",
+            "black"
+          ],
+          "score": 0.009378433227539062
+        },
+        {
+          "question": "Question: Question: What is the specific action or posture of the giraffe in the image?",
+          "answers": [
+            "standing",
+            "walking",
+            "lying down"
+          ],
+          "score": 0.037322998046875
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "trees",
+            "brush",
+            "grass"
+          ],
+          "score": 0.010865211486816406
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a single giraffe stands on grass among shorter trees and brush",
+      "question": "what is the other object in the image?",
+      "answer": "trees",
+      "query_after": "a single giraffe stands on grass among shorter trees and brush, with trees in the background",
+      "displayed_ids": [
+        1809,
+        44924,
+        13035,
+        42173,
+        1574,
+        26433,
+        7384,
+        42266,
+        11719,
+        42482
+      ],
+      "selected_ids": [
+        13719,
+        37704,
+        26971,
+        6486,
+        19896,
+        24741,
+        17090,
+        42746,
+        48324
+      ],
+      "rejected_count": 15,
+      "usual_paths": [
+        {
+          "question": "what is the color of the giraffe standing among shorter trees and brush?",
+          "answers": [
+            "yellow and brown",
+            "orange and brown",
+            "tannish brown"
+          ],
+          "score": 0.008839130401611328
+        },
+        {
+          "question": "What is the color of the giraffe standing among the shorter trees and brush?",
+          "answers": [
+            "brown",
+            "grey",
+            "orange"
+          ],
+          "score": 0.01813220977783203
+        },
+        {
+          "question": "What is the color of the giraffe standing among the shorter trees and brush?",
+          "answers": [
+            "brown",
+            "grey",
+            "orange"
+          ],
+          "score": 0.01813220977783203,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "tree",
+            "brush",
+            "elephant"
+          ],
+          "score": 0.047742366790771484
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "tree",
+            "brush",
+            "elephant"
+          ],
+          "score": 0.047742366790771484,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color and pattern of the giraffe standing among shorter trees and brush?",
+          "answers": [
+            "yellow and brown spots",
+            "white and brown spots",
+            "orange and white spots"
+          ],
+          "score": 0.008608341217041016
+        },
+        {
+          "question": "Question: What is the color of the giraffe?",
+          "answers": [
+            "brown",
+            "orange",
+            "tan"
+          ],
+          "score": 0.006129741668701172
+        },
+        {
+          "question": "what is the specific type of tree or vegetation surrounding the giraffe?",
+          "answers": [
+            "short trees",
+            "brush",
+            "tall trees"
+          ],
+          "score": 0.015097618103027344
+        },
+        {
+          "question": "what is the color and pattern of the giraffe standing among shorter trees and brush?",
+          "answers": [
+            "yellow and brown spots",
+            "white and brown spots",
+            "orange and white spots"
+          ],
+          "score": 0.008608341217041016,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the giraffe?",
+          "answers": [
+            "yellow",
+            "brown",
+            "orange"
+          ],
+          "score": 0.007851123809814453
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a single giraffe stands on grass among shorter trees and brush, with trees in the background",
+      "question": "what is the pattern on the giraffe's coat?",
+      "answer": "spots",
+      "query_after": "a single giraffe with a spotted coat stands on grass among shorter trees and brush, with trees in the background",
+      "displayed_ids": [
+        1809,
+        1574,
+        7384,
+        44924,
+        42173,
+        26433,
+        13035,
+        42266,
+        42715,
+        11719
+      ],
+      "selected_ids": [
+        37704,
+        42746,
+        13719,
+        24741,
+        15196,
+        48324,
+        46213,
+        17090,
+        28032,
+        43487
+      ],
+      "rejected_count": 16,
+      "usual_paths": [
+        {
+          "question": "Question: does the giraffe standing among shorter trees and brush have spots?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0024547576904296875
+        },
+        {
+          "question": "Question: What is the color of the giraffe standing among shorter trees and brush?",
+          "answers": [
+            "brown",
+            "spots",
+            "orange"
+          ],
+          "score": 0.011129379272460938
+        },
+        {
+          "question": "Question: Is the giraffe standing among shorter trees and brush located in a zoo?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0015025138854980469
+        },
+        {
+          "question": "What is the color of the giraffe standing among the shorter trees and brush?",
+          "answers": [
+            "brown",
+            "orange",
+            "yellow"
+          ],
+          "score": 0.0073375701904296875
+        },
+        {
+          "question": "Question: Is the giraffe standing among shorter trees and brush wearing a hat?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0014886856079101562
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the giraffe standing among shorter trees and brush?",
+          "answers": [
+            "brown",
+            "tawny",
+            "golden"
+          ],
+          "score": 0.01122140884399414
+        },
+        {
+          "question": "what is the color of the giraffe standing among shorter trees and brush?",
+          "answers": [
+            "brown",
+            "tawny",
+            "golden"
+          ],
+          "score": 0.01122140884399414,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the giraffe standing among shorter trees and brush?",
+          "answers": [
+            "brown",
+            "tawny",
+            "golden"
+          ],
+          "score": 0.01122140884399414,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the giraffe in the image?",
+          "answers": [
+            "brown",
+            "orange",
+            "yellow"
+          ],
+          "score": 0.01201772689819336
+        },
+        {
+          "question": "what is the pattern on the giraffe's coat?",
+          "answers": [
+            "spots",
+            "stripes",
+            "patches"
+          ],
+          "score": 0.01409292221069336
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 3,
+      "query_before": "a single giraffe with a spotted coat stands on grass among shorter trees and brush, with trees in the background",
+      "question": "what is the location of the giraffe standing with his neck up over a tree?",
+      "answer": "in the trees",
+      "query_after": "a single giraffe with a spotted coat stands on grass among shorter trees and brush, with its neck raised over the trees in the background",
+      "displayed_ids": [
+        42173,
+        1809,
+        42715,
+        42266,
+        7384,
+        26433,
+        13035,
+        22565,
+        44924,
+        29380
+      ],
+      "selected_ids": [
+        30839,
+        19606,
+        46661,
+        22375,
+        48324,
+        17090,
+        9158,
+        40883,
+        37704
+      ],
+      "rejected_count": 18,
+      "usual_paths": [
+        {
+          "question": "what is the position of the giraffe's neck relative to the brush?",
+          "answers": [
+            "above",
+            "behind",
+            "hidden"
+          ],
+          "score": 0.0038299560546875
+        },
+        {
+          "question": "what is the specific location or setting (e.g., field, zoo, desert) of the single giraffe standing among shorter trees and brush?",
+          "answers": [
+            "field",
+            "desert",
+            "zoo"
+          ],
+          "score": 0.004033088684082031
+        },
+        {
+          "question": "what is the height of the tree relative to the giraffe's neck in the image where the giraffe is standing among shorter trees and brush?",
+          "answers": [
+            "shorter",
+            "taller",
+            "same height"
+          ],
+          "score": 0.0010285377502441406
+        },
+        {
+          "question": "what is the location of the giraffe standing with his neck up over a tree?",
+          "answers": [
+            "zoo",
+            "field",
+            "desert"
+          ],
+          "score": 0.017006397247314453
+        },
+        {
+          "question": "what is the location of the giraffe standing with his neck up over a tree?",
+          "answers": [
+            "zoo",
+            "field",
+            "desert"
+          ],
+          "score": 0.017006397247314453,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "trees",
+            "brush",
+            "trees and brush"
+          ],
+          "score": 0.007746219635009766
+        },
+        {
+          "question": "what is the color of the giraffe's coat?",
+          "answers": [
+            "brown",
+            "golden",
+            "yellow"
+          ],
+          "score": 0.005196571350097656
+        },
+        {
+          "question": "Question: Is there a wooden bridge in the image?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0017323493957519531
+        },
+        {
+          "question": "Question: What is the color of the giraffe's coat?",
+          "answers": [
+            "brown",
+            "tan",
+            "cream"
+          ],
+          "score": 0.003093242645263672
+        },
+        {
+          "question": "Question: What is the specific color of the giraffe's coat?",
+          "answers": [
+            "yellow",
+            "orange",
+            "brown"
+          ],
+          "score": 0.009370803833007812
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a single giraffe with a spotted coat stands on grass among shorter trees and brush, with its neck raised over the trees in the background",
+      "question": "Question: What is the color of the giraffe in the current image?",
+      "answer": "brown",
+      "query_after": "a brown giraffe with spots stands on grass among shorter trees and brush, with its neck reaching up into the trees",
+      "displayed_ids": [
+        7384,
+        42715,
+        42173,
+        1809,
+        9717,
+        1574,
+        13035,
+        42266,
+        26433,
+        44924
+      ],
+      "selected_ids": [
+        26910,
+        48324,
+        46378,
+        1883,
+        47405,
+        30839,
+        40883,
+        46661,
+        34446,
+        32268
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "trees",
+            "brush",
+            "shorter trees"
+          ],
+          "score": 0.0134124755859375
+        },
+        {
+          "question": "what is the action of the giraffe that is standing with its neck up over a tree?",
+          "answers": [
+            "reaching",
+            "eating",
+            "looking"
+          ],
+          "score": 0.009656429290771484
+        },
+        {
+          "question": "what is the pattern on the giraffe standing with his neck up over a tree?",
+          "answers": [
+            "spots",
+            "stripes",
+            "none"
+          ],
+          "score": 0.006556510925292969
+        },
+        {
+          "question": "what is the color of the giraffe standing with his neck up over a tree?",
+          "answers": [
+            "yellow",
+            "orange",
+            "brown"
+          ],
+          "score": 0.007633209228515625
+        },
+        {
+          "question": "what is the color of the giraffe standing with his neck up over a tree?",
+          "answers": [
+            "yellow",
+            "orange",
+            "brown"
+          ],
+          "score": 0.007633209228515625,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "trees",
+            "brush",
+            "shorter trees"
+          ],
+          "score": 0.0134124755859375
+        },
+        {
+          "question": "Question: what is the location of the giraffe in the current image?",
+          "answers": [
+            "in a zoo",
+            "in the trees",
+            "on a dirt trail"
+          ],
+          "score": 0.02142810821533203
+        },
+        {
+          "question": "Question: What is the color of the giraffe in the current image?",
+          "answers": [
+            "yellow",
+            "brown",
+            "black"
+          ],
+          "score": 0.022382259368896484
+        },
+        {
+          "question": "Question: What is the color of the giraffe in the current image?",
+          "answers": [
+            "yellow",
+            "brown",
+            "black"
+          ],
+          "score": 0.022382259368896484,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the specific type of vegetation surrounding the giraffe?",
+          "answers": [
+            "grass",
+            "dirt",
+            "brush"
+          ],
+          "score": 0.016506195068359375
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a brown giraffe with spots stands on grass among shorter trees and brush, with its neck reaching up into the trees",
+      "question": "what is the other object in the image?",
+      "answer": "trees",
+      "query_after": "a brown giraffe with a spotted coat stands on grass among shorter trees and brush, with its neck raised up into the taller trees in the background",
+      "displayed_ids": [
+        11719,
+        13035,
+        7384,
+        1809,
+        42173,
+        1574,
+        44924,
+        26433,
+        44016,
+        38018
+      ],
+      "selected_ids": [
+        26713,
+        14515,
+        36883,
+        27685,
+        34446,
+        19899,
+        5481,
+        17690,
+        24741,
+        40844
+      ],
+      "rejected_count": 21,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "trees",
+            "rocks",
+            "fence"
+          ],
+          "score": 0.05965852737426758
+        },
+        {
+          "question": "what is the location of the giraffe standing in the image?",
+          "answers": [
+            "at the zoo",
+            "in the field",
+            "near rocks"
+          ],
+          "score": 0.036043643951416016
+        },
+        {
+          "question": "Question: What is the location of the giraffe in the image?",
+          "answers": [
+            "in the zoo",
+            "in the field",
+            "in the trees"
+          ],
+          "score": 0.01159048080444336
+        },
+        {
+          "question": "Question: What is the location of the giraffe in the image?",
+          "answers": [
+            "in the zoo",
+            "in the field",
+            "in the trees"
+          ],
+          "score": 0.01159048080444336,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the location of the giraffe in the image?",
+          "answers": [
+            "in the zoo",
+            "in the field",
+            "in the trees"
+          ],
+          "score": 0.01159048080444336,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is the giraffe standing in a zoo or in a natural field?",
+          "answers": [
+            "zoo",
+            "field",
+            "brush"
+          ],
+          "score": 0.006222724914550781
+        },
+        {
+          "question": "Question: Is the giraffe standing in a zoo or in a natural field?",
+          "answers": [
+            "zoo",
+            "field",
+            "brush"
+          ],
+          "score": 0.006222724914550781,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: Is the giraffe standing in a zoo or in a natural field?",
+          "answers": [
+            "zoo",
+            "field",
+            "brush"
+          ],
+          "score": 0.006222724914550781,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the giraffe's spots?",
+          "answers": [
+            "brown",
+            "black",
+            "dark"
+          ],
+          "score": 0.0053348541259765625
+        },
+        {
+          "question": "Question: What is the color of the giraffe's spots?",
+          "answers": [
+            "brown",
+            "black",
+            "dark"
+          ],
+          "score": 0.0053348541259765625,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a brown giraffe with a spotted coat stands on grass among shorter trees and brush, with its neck raised up into the taller trees in the background",
+      "question": "Question: What is the color of the giraffe's spots?",
+      "answer": "brown",
+      "query_after": "a brown giraffe with brown spots stands on grass among shorter trees and brush, with its neck raised up into the trees",
+      "displayed_ids": [
+        42173,
+        13035,
+        1809,
+        7384,
+        11719,
+        1574,
+        26433,
+        42266,
+        44924,
+        42715
+      ],
+      "selected_ids": [
+        27685,
+        17690,
+        18107,
+        32268,
+        22370,
+        5481,
+        10538,
+        34446
+      ],
+      "rejected_count": 21,
+      "usual_paths": [
+        {
+          "question": "Question: Is the giraffe in the image reaching for a leaf?",
+          "answers": [
+            "yes",
+            "no",
+            "sometimes"
+          ],
+          "score": 0.0009646415710449219
+        },
+        {
+          "question": "What is the height of the giraffe in the image?",
+          "answers": [
+            "tall",
+            "short",
+            "medium"
+          ],
+          "score": 0.0011420249938964844
+        },
+        {
+          "question": "Question: Is the giraffe in the image reaching for a leaf?",
+          "answers": [
+            "yes",
+            "no",
+            "sometimes"
+          ],
+          "score": 0.0009646415710449219,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: Is the giraffe in the image standing under a large tree?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.00104522705078125
+        },
+        {
+          "question": "Question: Is the giraffe in the image standing under a large tree?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.00104522705078125,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the giraffe's spots?",
+          "answers": [
+            "brown",
+            "black",
+            "gold"
+          ],
+          "score": 0.008081436157226562
+        },
+        {
+          "question": "Question: Is the giraffe reaching for a leaf or is it standing still?",
+          "answers": [
+            "reaching",
+            "standing still"
+          ],
+          "score": 0.004707813262939453
+        },
+        {
+          "question": "Question: Is the giraffe standing alone or with other giraffes?",
+          "answers": [
+            "alone",
+            "with other giraffes",
+            "unknown"
+          ],
+          "score": 0.005972385406494141
+        },
+        {
+          "question": "Question: Is the giraffe standing alone or with other giraffes?",
+          "answers": [
+            "alone",
+            "with other giraffes",
+            "unknown"
+          ],
+          "score": 0.005972385406494141,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the color of the giraffe's spots?",
+          "answers": [
+            "brown",
+            "black",
+            "gold"
+          ],
+          "score": 0.008081436157226562,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a brown giraffe with brown spots stands on grass among shorter trees and brush, with its neck raised up into the trees",
+      "question": "what is the other object in the image?",
+      "answer": "trees",
+      "query_after": "a brown giraffe with brown spots stands on grass among shorter trees and brush, with its neck reaching up into the taller trees in the background",
+      "displayed_ids": [
+        1809,
+        13035,
+        7384,
+        42173,
+        11719,
+        44924,
+        1574,
+        26433,
+        42266,
+        45443
+      ],
+      "selected_ids": [
+        18107,
+        34446,
+        4894,
+        42996,
+        13373,
+        5400,
+        32268,
+        13070,
+        28540
+      ],
+      "rejected_count": 22,
+      "usual_paths": [
+        {
+          "question": "Question: Is the giraffe standing in a fenced area?",
+          "answers": [
+            "yes",
+            "no",
+            "unknown"
+          ],
+          "score": 0.0033364295959472656
+        },
+        {
+          "question": "Question: Is the giraffe standing in a fenced area?",
+          "answers": [
+            "yes",
+            "no",
+            "unknown"
+          ],
+          "score": 0.0033364295959472656,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: Is the giraffe standing in a fenced area?",
+          "answers": [
+            "yes",
+            "no",
+            "unknown"
+          ],
+          "score": 0.0033364295959472656,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: Is the giraffe standing in a fenced area?",
+          "answers": [
+            "yes",
+            "no",
+            "unknown"
+          ],
+          "score": 0.0033364295959472656,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: Is the giraffe standing in a fenced area?",
+          "answers": [
+            "yes",
+            "no",
+            "unknown"
+          ],
+          "score": 0.0033364295959472656,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is the giraffe reaching for a leaf in a tree?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0014591217041015625
+        },
+        {
+          "question": "Question: Is the giraffe reaching for a leaf in a tree?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0014591217041015625,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the height of the tree the giraffe is reaching for?",
+          "answers": [
+            "short",
+            "medium",
+            "tall"
+          ],
+          "score": 0.0011744499206542969
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "trees",
+            "brush",
+            "trees and brush"
+          ],
+          "score": 0.005296230316162109
+        },
+        {
+          "question": "Question: Is there a fence visible in the image?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0038585662841796875
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a brown giraffe with brown spots stands on grass among shorter trees and brush, with its neck reaching up into the taller trees in the background",
+      "question": "Question: What is the color of the leaves on the trees and bushes in the background?",
+      "answer": "green",
+      "query_after": "a brown giraffe with brown spots stands on grass among shorter trees and green bushes, with its neck reaching up into the trees in the background",
+      "displayed_ids": [
+        7384,
+        1809,
+        11719,
+        13035,
+        42173,
+        1574,
+        44924,
+        26433,
+        42266,
+        20126
+      ],
+      "selected_ids": [
+        4894,
+        4137,
+        42173,
+        1420,
+        18107,
+        34446,
+        9094,
+        26575,
+        28540,
+        24741
+      ],
+      "rejected_count": 22,
+      "usual_paths": [
+        {
+          "question": "what is the color of the trees in the background behind the giraffe?",
+          "answers": [
+            "green",
+            "brown",
+            "grey"
+          ],
+          "score": 0.007041454315185547
+        },
+        {
+          "question": "Question: What is the color of the leaves on the trees and bushes in the background?",
+          "answers": [
+            "green",
+            "brown",
+            "yellow"
+          ],
+          "score": 0.012950420379638672
+        },
+        {
+          "question": "what is the color of the trees in the background behind the giraffe?",
+          "answers": [
+            "green",
+            "brown",
+            "grey"
+          ],
+          "score": 0.007041454315185547,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the trees in the background behind the giraffe?",
+          "answers": [
+            "green",
+            "brown",
+            "grey"
+          ],
+          "score": 0.007041454315185547,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the trees in the background behind the giraffe?",
+          "answers": [
+            "green",
+            "brown",
+            "grey"
+          ],
+          "score": 0.007041454315185547,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the height of the grass in the scene where the giraffe is standing?",
+          "answers": [
+            "short",
+            "tall",
+            "medium"
+          ],
+          "score": 0.0018663406372070312
+        },
+        {
+          "question": "Question: Is the giraffe standing in a field of dry grass or a field of green foliage?",
+          "answers": [
+            "dry grass",
+            "green foliage",
+            "brush"
+          ],
+          "score": 0.006749629974365234
+        },
+        {
+          "question": "Question: Is the giraffe standing in a field of dry grass or a field of green foliage?",
+          "answers": [
+            "dry grass",
+            "green foliage",
+            "brush"
+          ],
+          "score": 0.006749629974365234,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "trees",
+            "brush",
+            "foliage"
+          ],
+          "score": 0.007395744323730469
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "trees",
+            "brush",
+            "foliage"
+          ],
+          "score": 0.007395744323730469,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "a brown giraffe with brown spots stands on grass among shorter trees and green bushes, with its neck reaching up into the trees in the background",
+      "question": "Question: Is the giraffe standing alone or are there other giraffes visible in the image?",
+      "answer": "only one giraffe is visible.",
+      "query_after": "a single brown giraffe with brown spots stands alone on a grassy surface among shorter trees and green bushes, with its neck raised over the trees in the background.",
+      "displayed_ids": [
+        7384,
+        11719,
+        1809,
+        1574,
+        13035,
+        13642,
+        42173,
+        42715,
+        44016,
+        22565
+      ],
+      "selected_ids": [
+        23238,
+        13642,
+        39290,
+        26575,
+        29380,
+        20126,
+        45443,
+        28540,
+        42173,
+        369
+      ],
+      "rejected_count": 23,
+      "usual_paths": [
+        {
+          "question": "Question: Is the giraffe standing in a shady area?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.00046539306640625
+        },
+        {
+          "question": "Question: Is the giraffe standing in a shady area?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.00046539306640625,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: Is the giraffe standing in a sunny or shady area?",
+          "answers": [
+            "sunny",
+            "shady"
+          ],
+          "score": 0.0020318031311035156
+        },
+        {
+          "question": "Question: Which specific candidate image depicts a giraffe standing in a shady area with green leaves?",
+          "answers": [
+            "3",
+            "9"
+          ],
+          "score": 0.0002579689025878906
+        },
+        {
+          "question": "Question: Which candidate image shows a giraffe standing in a shady area with green leaves?",
+          "answers": [
+            "0",
+            "3"
+          ],
+          "score": 0.0004024505615234375
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the species of the giraffe in the image?",
+          "answers": [
+            "Cape giraffe",
+            "Reticulated giraffe",
+            "Masai giraffe"
+          ],
+          "score": 0.0010766983032226562
+        },
+        {
+          "question": "Question: What is the height of the grass in the field where the giraffe is standing?",
+          "answers": [
+            "short",
+            "tall",
+            "dry"
+          ],
+          "score": 0.011274337768554688
+        },
+        {
+          "question": "Question: Is the giraffe standing alone or are there other giraffes visible in the image?",
+          "answers": [
+            "alone",
+            "with one other giraffe",
+            "with multiple other giraffes"
+          ],
+          "score": 0.013212203979492188
+        },
+        {
+          "question": "Question: What is the color of the giraffe's spots?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.008139610290527344
+        },
+        {
+          "question": "Question: What is the color of the giraffe in the image?",
+          "answers": [
+            "brown",
+            "yellow",
+            "orange"
+          ],
+          "score": 0.006371974945068359
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

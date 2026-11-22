@@ -1,0 +1,1348 @@
+{
+  "qid": 482,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000213320.jpg",
+  "queries": [
+    "the bathroom is very empty and bland and white",
+    "a very empty and bland white bathroom with a white vanity",
+    "a very empty and bland white bathroom featuring a white vanity and a white sink",
+    "a very empty and bland white bathroom featuring a white vanity and sink, with beige floor tiles",
+    "a very empty and bland white bathroom featuring a white vanity, white sink, and white bathtub, with beige floor tiles",
+    "a very empty and bland white bathroom featuring a white vanity, white sink, white bathtub, beige floor tiles, and a silver towel rack",
+    "a very empty and bland white bathroom featuring a white vanity, white sink, and white bathtub, with beige floor tiles and a silver towel rack mounted on the wall",
+    "a very empty and bland white bathroom featuring a white vanity made of wood, a white sink, a white bathtub, beige floor tiles, and a silver towel rack mounted on the wall",
+    "a very empty and bland white bathroom featuring a white vanity and sink, a white bathtub, a silver towel rack mounted on the wall, beige floor tiles, and a white toilet",
+    "a very empty and bland white bathroom featuring a white vanity and sink, a white bathtub, a white toilet, beige floor tiles, and a silver towel rack mounted on the wall with a silver mirror",
+    "a very empty and bland white bathroom featuring a white vanity, sink, and bathtub, beige floor tiles, a silver wall-mounted towel rack, a white toilet, and a silver mirror"
+  ],
+  "ranks": [
+    380,
+    104,
+    185,
+    136,
+    446,
+    597,
+    520,
+    907,
+    508,
+    812,
+    483
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "the bathroom is very empty and bland and white",
+      "question": "what is the color of the vanity in the bathroom?",
+      "answer": "white",
+      "query_after": "a very empty and bland white bathroom with a white vanity",
+      "displayed_ids": [
+        6919,
+        31803,
+        43821,
+        10082,
+        29753,
+        34617,
+        44620,
+        9667,
+        9399,
+        40587
+      ],
+      "selected_ids": [
+        34145,
+        39299,
+        29592,
+        16819,
+        46507,
+        26096,
+        33554,
+        45760,
+        8690,
+        30489
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the sink in the bathroom?",
+          "answers": [
+            "white",
+            "black and white",
+            "not visible"
+          ],
+          "score": 0.05220317840576172
+        },
+        {
+          "question": "what is the color of the vanity in the bathroom?",
+          "answers": [
+            "white",
+            "black and white",
+            "wood"
+          ],
+          "score": 0.10721492767333984
+        },
+        {
+          "question": "Question: Is there a bathtub in the bathroom?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0004143714904785156
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "off-white",
+            "cream"
+          ],
+          "score": 0.016330718994140625
+        },
+        {
+          "question": "what is the color of the floor in the bathroom?",
+          "answers": [
+            "white",
+            "gray",
+            "beige"
+          ],
+          "score": 0.03777790069580078
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Does the bathroom contain a bathtub?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0006461143493652344
+        },
+        {
+          "question": "Question: How many sinks are visible in the bathroom?",
+          "answers": [
+            "0",
+            "1",
+            "2"
+          ],
+          "score": 0.0008549690246582031
+        },
+        {
+          "question": "Question: Does the bathroom contain a toilet?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0006256103515625
+        },
+        {
+          "question": "Question: What color is the bathtub in the bathroom?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.09900474548339844
+        },
+        {
+          "question": "Question: What type of flooring is visible in the bathroom?",
+          "answers": [
+            "white tiles",
+            "linoleum",
+            "nothing visible"
+          ],
+          "score": 0.02545785903930664
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a very empty and bland white bathroom with a white vanity",
+      "question": "what is the color of the sink in the bathroom?",
+      "answer": "white",
+      "query_after": "a very empty and bland white bathroom featuring a white vanity and a white sink",
+      "displayed_ids": [
+        15464,
+        15869,
+        10082,
+        32404,
+        22891,
+        40587,
+        37720,
+        9667,
+        24439,
+        29288
+      ],
+      "selected_ids": [
+        49707,
+        11715,
+        31090,
+        23955,
+        26096,
+        33279,
+        43630,
+        39299,
+        32527,
+        13461
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "what is the color of the bathtub in the bathroom?",
+          "answers": [
+            "white",
+            "off-white",
+            "cream"
+          ],
+          "score": 0.004901885986328125
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom?",
+          "answers": [
+            "white",
+            "off-white",
+            "cream"
+          ],
+          "score": 0.004901885986328125,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "brown",
+            "red"
+          ],
+          "score": 0.040551185607910156
+        },
+        {
+          "question": "what is the color of the sink in the bathroom?",
+          "answers": [
+            "white",
+            "red",
+            "blue"
+          ],
+          "score": 0.07771635055541992
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "brown",
+            "red"
+          ],
+          "score": 0.040551185607910156,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color are the floors in the bathroom?",
+          "answers": [
+            "white",
+            "tiled",
+            "hardwood"
+          ],
+          "score": 0.04545164108276367
+        },
+        {
+          "question": "what is the color of the floor in the bathroom?",
+          "answers": [
+            "white",
+            "tiled",
+            "hardwood"
+          ],
+          "score": 0.047589778900146484
+        },
+        {
+          "question": "what color is the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "brown",
+            "red"
+          ],
+          "score": 0.03916501998901367
+        },
+        {
+          "question": "what color is the sink in the bathroom?",
+          "answers": [
+            "white",
+            "red",
+            "blue"
+          ],
+          "score": 0.07492589950561523
+        },
+        {
+          "question": "what is the color of the windows in the bathroom?",
+          "answers": [
+            "white",
+            "clear",
+            "none"
+          ],
+          "score": 0.0015592575073242188
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a very empty and bland white bathroom featuring a white vanity and a white sink",
+      "question": "what are the colors of the floor tiles in the bathroom?",
+      "answer": "beige",
+      "query_after": "a very empty and bland white bathroom featuring a white vanity and sink, with beige floor tiles",
+      "displayed_ids": [
+        15869,
+        15464,
+        37720,
+        32404,
+        22891,
+        33735,
+        10082,
+        29288,
+        44804,
+        44959
+      ],
+      "selected_ids": [
+        31090,
+        11715,
+        42451,
+        46776,
+        32527,
+        34482,
+        26096,
+        43974,
+        49707,
+        6830
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "toilet",
+            "tub",
+            "shower"
+          ],
+          "score": 0.08493232727050781
+        },
+        {
+          "question": "What is the color of the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "green",
+            "ceramic"
+          ],
+          "score": 0.03465080261230469
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "toilet",
+            "tub",
+            "shower"
+          ],
+          "score": 0.08493232727050781,
+          "duplicate_of": 0
+        },
+        {
+          "question": "What is the style of the bathroom fixtures?",
+          "answers": [
+            "modern",
+            "vintage",
+            "rustic"
+          ],
+          "score": 0.0344243049621582
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "toilet",
+            "tub",
+            "shower"
+          ],
+          "score": 0.08493232727050781,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what are the colors of the floor tiles in the bathroom?",
+          "answers": [
+            "white",
+            "hardwood",
+            "green"
+          ],
+          "score": 0.10203027725219727
+        },
+        {
+          "question": "what is the color of the floor tiles in the bathroom?",
+          "answers": [
+            "white",
+            "gray",
+            "beige"
+          ],
+          "score": 0.025395870208740234
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "toilet",
+            "shower",
+            "bathtub"
+          ],
+          "score": 0.08325719833374023
+        },
+        {
+          "question": "what is the color of the floor tiles in the bathroom?",
+          "answers": [
+            "white",
+            "gray",
+            "beige"
+          ],
+          "score": 0.025395870208740234,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what color is the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "off-white",
+            "cream"
+          ],
+          "score": 0.0043544769287109375
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 3,
+      "query_before": "a very empty and bland white bathroom featuring a white vanity and sink, with beige floor tiles",
+      "question": "what is the color of the bathtub in the bathroom?",
+      "answer": "white",
+      "query_after": "a very empty and bland white bathroom featuring a white vanity, white sink, and white bathtub, with beige floor tiles",
+      "displayed_ids": [
+        15869,
+        15464,
+        10082,
+        32404,
+        18274,
+        29288,
+        28645,
+        18484,
+        33888,
+        24439
+      ],
+      "selected_ids": [
+        34482,
+        25193,
+        19219,
+        26096,
+        37902,
+        39299,
+        31090,
+        32527,
+        22404,
+        4362
+      ],
+      "rejected_count": 24,
+      "usual_paths": [
+        {
+          "question": "what is the color of the shower curtain in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "none"
+          ],
+          "score": 0.0068607330322265625
+        },
+        {
+          "question": "what is the color of the shower curtain in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "none"
+          ],
+          "score": 0.0068607330322265625,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the shower curtain in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "none"
+          ],
+          "score": 0.0068607330322265625,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the shower curtain in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "none"
+          ],
+          "score": 0.0068607330322265625,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the shower curtain in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "none"
+          ],
+          "score": 0.0068607330322265625,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the shower curtain in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "none"
+          ],
+          "score": 0.0068607330322265625
+        },
+        {
+          "question": "what is the color of the shower curtain in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "none"
+          ],
+          "score": 0.0068607330322265625,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "black"
+          ],
+          "score": 0.04828786849975586
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "gray"
+          ],
+          "score": 0.024698734283447266
+        },
+        {
+          "question": "what is the color of the wall tiles in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "unknown"
+          ],
+          "score": 0.008120536804199219
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a very empty and bland white bathroom featuring a white vanity, white sink, and white bathtub, with beige floor tiles",
+      "question": "what is the color of the towel rack in the bathroom?",
+      "answer": "silver",
+      "query_after": "a very empty and bland white bathroom featuring a white vanity, white sink, white bathtub, beige floor tiles, and a silver towel rack",
+      "displayed_ids": [
+        40587,
+        28645,
+        15869,
+        15464,
+        34933,
+        37949,
+        5539,
+        28647,
+        43821,
+        31090
+      ],
+      "selected_ids": [
+        31090,
+        29592,
+        26826,
+        33554,
+        7639,
+        13313,
+        45760,
+        17969,
+        27682,
+        39299
+      ],
+      "rejected_count": 29,
+      "usual_paths": [
+        {
+          "question": "what is the color of the window in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "clear"
+          ],
+          "score": 0.0053005218505859375
+        },
+        {
+          "question": "what is the color of the window in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "clear"
+          ],
+          "score": 0.0053005218505859375,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the window in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "clear"
+          ],
+          "score": 0.0053005218505859375,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the window in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "clear"
+          ],
+          "score": 0.0053005218505859375,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the window in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "clear"
+          ],
+          "score": 0.0053005218505859375,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "cream"
+          ],
+          "score": 0.005558967590332031
+        },
+        {
+          "question": "what is the color of the towel rack in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.016141414642333984
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "cream"
+          ],
+          "score": 0.005558967590332031,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the towel rack in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.016141414642333984,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the towel rack in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.016141414642333984,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a very empty and bland white bathroom featuring a white vanity, white sink, white bathtub, beige floor tiles, and a silver towel rack",
+      "question": "where is the towel rack located in the bathroom?",
+      "answer": "on the wall",
+      "query_after": "a very empty and bland white bathroom featuring a white vanity, white sink, and white bathtub, with beige floor tiles and a silver towel rack mounted on the wall",
+      "displayed_ids": [
+        40587,
+        15869,
+        5539,
+        28647,
+        15464,
+        29288,
+        37949,
+        39850,
+        34933,
+        45714
+      ],
+      "selected_ids": [
+        45760,
+        34482,
+        36099,
+        26096,
+        29592,
+        43974,
+        45561,
+        43655,
+        39299,
+        35517
+      ],
+      "rejected_count": 31,
+      "usual_paths": [
+        {
+          "question": "what is the color of the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.017845630645751953
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.017845630645751953,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.017845630645751953,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.017845630645751953,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.017845630645751953,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the mirror in the bathroom?",
+          "answers": [
+            "white",
+            "silver",
+            "beige"
+          ],
+          "score": 0.01675701141357422
+        },
+        {
+          "question": "where is the towel rack located in the bathroom?",
+          "answers": [
+            "above the sink",
+            "next to the toilet",
+            "on the wall"
+          ],
+          "score": 0.028914928436279297
+        },
+        {
+          "question": "Question: What is the condition of the bathroom space (e.g., empty, cluttered, under renovation)?",
+          "answers": [
+            "empty",
+            "cluttered",
+            "under renovation"
+          ],
+          "score": 0.005435943603515625
+        },
+        {
+          "question": "Question: Is there a bathtub in the bathroom?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0008563995361328125
+        },
+        {
+          "question": "Question: What is the color of the mirror in the bathroom?",
+          "answers": [
+            "silver",
+            "white",
+            "gold"
+          ],
+          "score": 0.02628183364868164
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a very empty and bland white bathroom featuring a white vanity, white sink, and white bathtub, with beige floor tiles and a silver towel rack mounted on the wall",
+      "question": "what is the material of the vanity in the bathroom?",
+      "answer": "wood",
+      "query_after": "a very empty and bland white bathroom featuring a white vanity made of wood, a white sink, a white bathtub, beige floor tiles, and a silver towel rack mounted on the wall",
+      "displayed_ids": [
+        40587,
+        15869,
+        15464,
+        45714,
+        29288,
+        5539,
+        29214,
+        39850,
+        28647,
+        37949
+      ],
+      "selected_ids": [
+        13313,
+        16679,
+        9129,
+        7639,
+        19910,
+        38232,
+        43974,
+        15983,
+        26096,
+        45760
+      ],
+      "rejected_count": 32,
+      "usual_paths": [
+        {
+          "question": "what is the color of the window in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "clear"
+          ],
+          "score": 0.008134841918945312
+        },
+        {
+          "question": "what is the color of the window in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "clear"
+          ],
+          "score": 0.008134841918945312,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the window in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "clear"
+          ],
+          "score": 0.008134841918945312,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the window in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "clear"
+          ],
+          "score": 0.008134841918945312,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the window in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "clear"
+          ],
+          "score": 0.008134841918945312,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the window in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "clear"
+          ],
+          "score": 0.008134841918945312
+        },
+        {
+          "question": "what is the color of the window frame in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.012398242950439453
+        },
+        {
+          "question": "what is the material of the vanity in the bathroom?",
+          "answers": [
+            "wood",
+            "tile",
+            "glass"
+          ],
+          "score": 0.06410455703735352
+        },
+        {
+          "question": "what is the material of the window in the bathroom?",
+          "answers": [
+            "glass",
+            "plastic",
+            "wood"
+          ],
+          "score": 0.048688411712646484
+        },
+        {
+          "question": "what material is the window in the bathroom made of?",
+          "answers": [
+            "glass",
+            "plastic",
+            "wood"
+          ],
+          "score": 0.053736209869384766
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a very empty and bland white bathroom featuring a white vanity made of wood, a white sink, a white bathtub, beige floor tiles, and a silver towel rack mounted on the wall",
+      "question": "what is the color of the toilet in the bathroom?",
+      "answer": "white",
+      "query_after": "a very empty and bland white bathroom featuring a white vanity and sink, a white bathtub, a silver towel rack mounted on the wall, beige floor tiles, and a white toilet",
+      "displayed_ids": [
+        47685,
+        42309,
+        29214,
+        29753,
+        30130,
+        40587,
+        15869,
+        29288,
+        46673,
+        8673
+      ],
+      "selected_ids": [
+        39982,
+        29738,
+        31090,
+        8875,
+        4362,
+        45760,
+        39299,
+        19910,
+        26096
+      ],
+      "rejected_count": 37,
+      "usual_paths": [
+        {
+          "question": "what is the color of the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.006973743438720703
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.006973743438720703,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.006973743438720703,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.006973743438720703,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.006973743438720703,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.006973743438720703
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.006973743438720703,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.006973743438720703,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.006973743438720703,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.006973743438720703,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a very empty and bland white bathroom featuring a white vanity and sink, a white bathtub, a silver towel rack mounted on the wall, beige floor tiles, and a white toilet",
+      "question": "what is the color of the mirror in the bathroom?",
+      "answer": "silver",
+      "query_after": "a very empty and bland white bathroom featuring a white vanity and sink, a white bathtub, a white toilet, beige floor tiles, and a silver towel rack mounted on the wall with a silver mirror",
+      "displayed_ids": [
+        40587,
+        15869,
+        37949,
+        34617,
+        29753,
+        29214,
+        46739,
+        28647,
+        19910,
+        7117
+      ],
+      "selected_ids": [
+        19910,
+        3849,
+        43974,
+        20146,
+        18484,
+        35419,
+        45714,
+        39299
+      ],
+      "rejected_count": 40,
+      "usual_paths": [
+        {
+          "question": "what is the color of the shower curtain in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.009937286376953125
+        },
+        {
+          "question": "what is the color of the shower curtain in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.009937286376953125,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the shower curtain in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.009937286376953125,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the shower curtain in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.009937286376953125,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the shower curtain in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.009937286376953125,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the mirror in the bathroom?",
+          "answers": [
+            "white",
+            "silver",
+            "beige"
+          ],
+          "score": 0.011181354522705078
+        },
+        {
+          "question": "what is the color of the mirror in the bathroom?",
+          "answers": [
+            "white",
+            "silver",
+            "beige"
+          ],
+          "score": 0.011181354522705078,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the mirror in the bathroom?",
+          "answers": [
+            "white",
+            "silver",
+            "beige"
+          ],
+          "score": 0.011181354522705078,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the mirror in the bathroom?",
+          "answers": [
+            "white",
+            "silver",
+            "beige"
+          ],
+          "score": 0.011181354522705078,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the mirror in the bathroom?",
+          "answers": [
+            "white",
+            "silver",
+            "beige"
+          ],
+          "score": 0.011181354522705078,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "a very empty and bland white bathroom featuring a white vanity and sink, a white bathtub, a white toilet, beige floor tiles, and a silver towel rack mounted on the wall with a silver mirror",
+      "question": "what is the color of the floor tiles in the bathroom?",
+      "answer": "beige",
+      "query_after": "a very empty and bland white bathroom featuring a white vanity, sink, and bathtub, beige floor tiles, a silver wall-mounted towel rack, a white toilet, and a silver mirror",
+      "displayed_ids": [
+        40587,
+        15869,
+        19717,
+        24508,
+        5539,
+        40813,
+        29214,
+        29288,
+        28647,
+        2822
+      ],
+      "selected_ids": [
+        29288,
+        29499,
+        38433,
+        19910,
+        2953,
+        24508,
+        19077,
+        45714,
+        32017
+      ],
+      "rejected_count": 44,
+      "usual_paths": [
+        {
+          "question": "what is the color of the curtain in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.008582115173339844
+        },
+        {
+          "question": "what is the color of the curtain in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.008582115173339844,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the curtain in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.008582115173339844,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the curtain in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.008582115173339844,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the curtain in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.008582115173339844,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the curtain in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.008582115173339844
+        },
+        {
+          "question": "what is the color of the curtain in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.008582115173339844,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the floor tiles in the bathroom?",
+          "answers": [
+            "beige",
+            "white",
+            "blue"
+          ],
+          "score": 0.040869712829589844
+        },
+        {
+          "question": "what is the color of the curtain in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.008582115173339844,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the curtain in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.008582115173339844,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

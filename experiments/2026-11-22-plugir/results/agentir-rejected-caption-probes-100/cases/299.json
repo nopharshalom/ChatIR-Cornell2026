@@ -1,0 +1,79 @@
+{
+  "qid": 299,
+  "candidates": [
+    "what is the color of the vase?",
+    "Question: What is the color of the wall where the vase is situated?",
+    "Question: What is the name of the hole in the wall where the vase is situated?",
+    "Question: Is the hole in the wall filled with mud?",
+    "Question: What is the material of the surface where the vase is situated?"
+  ],
+  "kl": {
+    "question": "Question: What is the material of the surface where the vase is situated?",
+    "answer": "wood",
+    "rewrite": "a vase sits in a hole in a wooden wall",
+    "raw_rank": 171,
+    "unseen_rank": 161
+  },
+  "probe": {
+    "answer": "green",
+    "rewrite": "a green vase sits in a hole in the wall",
+    "raw_rank": 53,
+    "unseen_rank": 44,
+    "question": "what is the color of the vase?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "what is the color of the vase?",
+        "answers": [
+          "black",
+          "gold",
+          "white"
+        ],
+        "score": 0.10381317138671875
+      },
+      {
+        "question": "Question: What is the color of the wall where the vase is situated?",
+        "answers": [
+          "white",
+          "beige",
+          "cream"
+        ],
+        "score": 0.014142990112304688
+      },
+      {
+        "question": "Question: What is the name of the hole in the wall where the vase is situated?",
+        "answers": [
+          "niche",
+          "alcove",
+          "recess"
+        ],
+        "score": 0.002227306365966797
+      },
+      {
+        "question": "Question: Is the hole in the wall filled with mud?",
+        "answers": [
+          "yes",
+          "no",
+          "maybe"
+        ],
+        "score": 0.000751495361328125
+      },
+      {
+        "question": "Question: What is the material of the surface where the vase is situated?",
+        "answers": [
+          "wall",
+          "table",
+          "floor"
+        ],
+        "score": 0.038147926330566406
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.055,
+    "probe_selection_seconds": 2.272,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": false
+}

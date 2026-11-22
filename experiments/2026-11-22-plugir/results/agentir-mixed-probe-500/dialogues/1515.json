@@ -1,0 +1,275 @@
+{
+  "qid": 1515,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000564430.jpg",
+  "queries": [
+    "a train going down the tracks with another train behind it",
+    "an orange train going down the tracks with another train behind it",
+    "an orange train going down the tracks in Chicago with another train behind it"
+  ],
+  "ranks": [
+    771,
+    154,
+    5
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a train going down the tracks with another train behind it",
+      "question": "what is the color of the train going down the tracks?",
+      "answer": "orange",
+      "query_after": "an orange train going down the tracks with another train behind it",
+      "displayed_ids": [
+        48569,
+        28037,
+        45030,
+        931,
+        21652,
+        25328,
+        30641,
+        45648,
+        38882,
+        7257
+      ],
+      "selected_ids": [
+        47588,
+        43863,
+        9313,
+        32028,
+        33640,
+        43016,
+        6398,
+        45696,
+        48224,
+        31802
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the front train going down the tracks?",
+          "answers": [
+            "red",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.26657581329345703
+        },
+        {
+          "question": "what is the color of the second train behind the front train?",
+          "answers": [
+            "red",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.2337474822998047
+        },
+        {
+          "question": "what is the location where the two trains are situated?",
+          "answers": [
+            "countryside",
+            "train station",
+            "field of grass"
+          ],
+          "score": 0.13284635543823242
+        },
+        {
+          "question": "what is the color of the train going down the tracks?",
+          "answers": [
+            "red",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.27943992614746094
+        },
+        {
+          "question": "what is the location of the two trains that are parked near a wooden bench?",
+          "answers": [
+            "wooden bench",
+            "near a wooden bench",
+            "outdoors"
+          ],
+          "score": 0.006744861602783203
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the train going down the tracks?",
+          "answers": [
+            "red",
+            "yellow and black",
+            "blue and white"
+          ],
+          "score": 0.24608802795410156
+        },
+        {
+          "question": "Question: What is the color of the second train behind the one going down the tracks?",
+          "answers": [
+            "red",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.2753157615661621
+        },
+        {
+          "question": "Question: What is the background scenery behind the trains?",
+          "answers": [
+            "countryside",
+            "station",
+            "field"
+          ],
+          "score": 0.06989908218383789
+        },
+        {
+          "question": "Question: What is the color of the train that is going down the tracks?",
+          "answers": [
+            "red",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.25175905227661133
+        },
+        {
+          "question": "Question: What is the color of the train going down the tracks?",
+          "answers": [
+            "red",
+            "yellow and black",
+            "blue and white"
+          ],
+          "score": 0.24608802795410156,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "an orange train going down the tracks with another train behind it",
+      "question": "what is the location where the orange train and the train behind it are located?",
+      "answer": "chicago",
+      "query_after": "an orange train going down the tracks in Chicago with another train behind it",
+      "displayed_ids": [
+        13355,
+        38117,
+        5893,
+        32495,
+        1350,
+        39840,
+        28713,
+        28241,
+        32720,
+        12514
+      ],
+      "selected_ids": [
+        48224,
+        33749,
+        34691,
+        24113,
+        19215,
+        42754,
+        47588,
+        10125,
+        27036,
+        49191
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what is the color of the train behind the orange train?",
+          "answers": [
+            "orange",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.030968189239501953
+        },
+        {
+          "question": "what is the location where the two trains are stopped?",
+          "answers": [
+            "train station",
+            "countryside",
+            "wooded area"
+          ],
+          "score": 0.0979471206665039
+        },
+        {
+          "question": "what is the location where the orange train is traveling?",
+          "answers": [
+            "countryside",
+            "farm",
+            "night"
+          ],
+          "score": 0.07917928695678711
+        },
+        {
+          "question": "what is the location where the orange train and the train behind it are located?",
+          "answers": [
+            "train station",
+            "hill",
+            "night"
+          ],
+          "score": 0.1297168731689453
+        },
+        {
+          "question": "what is the color of the train behind the orange train?",
+          "answers": [
+            "orange",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.030968189239501953,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the train located behind the moving train?",
+          "answers": [
+            "orange",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.039255619049072266
+        },
+        {
+          "question": "Question: what is the color of the train located behind the moving train?",
+          "answers": [
+            "orange",
+            "yellow",
+            "black"
+          ],
+          "score": 0.023250579833984375
+        },
+        {
+          "question": "Question: What is the color of the train located behind the moving train?",
+          "answers": [
+            "orange",
+            "black",
+            "red"
+          ],
+          "score": 0.02547740936279297
+        },
+        {
+          "question": "Question: What is the color of the train located behind the moving train?",
+          "answers": [
+            "orange",
+            "black",
+            "red"
+          ],
+          "score": 0.02547740936279297,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the color of the train located behind the moving orange train?",
+          "answers": [
+            "orange",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.05786609649658203
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

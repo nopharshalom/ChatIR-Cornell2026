@@ -1,0 +1,81 @@
+{
+  "qid": 432,
+  "candidates": [
+    "Question: What is the color of the bathroom?",
+    "Question: What is the color of the toilet?",
+    "Question: What is the color of the toilet?",
+    "what is the color of the toilet in the image?",
+    "Question: What is the color of the bathroom?"
+  ],
+  "kl": {
+    "question": "what is the color of the toilet in the image?",
+    "answer": "white",
+    "rewrite": "a white toilet with the lid up in a small bathroom",
+    "raw_rank": 83,
+    "unseen_rank": 73
+  },
+  "probe": {
+    "answer": "white",
+    "rewrite": "a white toilet with the lid up in a small white bathroom",
+    "raw_rank": 26,
+    "unseen_rank": 20,
+    "question": "Question: What is the color of the bathroom?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the color of the bathroom?",
+        "answers": [
+          "white",
+          "blue",
+          "dirty"
+        ],
+        "score": 0.1275019645690918
+      },
+      {
+        "question": "Question: What is the color of the toilet?",
+        "answers": [
+          "white",
+          "blue",
+          "dirty"
+        ],
+        "score": 0.11254596710205078
+      },
+      {
+        "question": "Question: What is the color of the toilet?",
+        "answers": [
+          "white",
+          "blue",
+          "dirty"
+        ],
+        "score": 0.11254596710205078,
+        "duplicate_of": 1
+      },
+      {
+        "question": "what is the color of the toilet in the image?",
+        "answers": [
+          "white",
+          "blue",
+          "brown"
+        ],
+        "score": 0.11896753311157227
+      },
+      {
+        "question": "Question: What is the color of the bathroom?",
+        "answers": [
+          "white",
+          "blue",
+          "dirty"
+        ],
+        "score": 0.1275019645690918,
+        "duplicate_of": 0
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.049,
+    "probe_selection_seconds": 1.302,
+    "probe_llm_calls": 3,
+    "probe_search_queries": 9
+  },
+  "reused_outcome": false
+}

@@ -1,0 +1,101 @@
+{
+  "qid": 736,
+  "initial": "a lot in front of a hotel with people mingling about",
+  "initial_rank": 76,
+  "evidence": [
+    "people standing under blue umbrellas at the beach",
+    "a clock tower sitting in a corner on a city sidewalk",
+    "crowd of people are standing in line to protest their riding",
+    "a busy street in new york city at night",
+    "a woman walking down a street at night",
+    "a bus stops on the street in front of a group of parked cars",
+    "a crowd of people walking through the city at night",
+    "a group of people in a crowd waiting to meet a bus",
+    "a red double decker bus is traveling at a traffic light",
+    "a cafe with several tables and chairs near the sidewalk"
+  ],
+  "candidates": [
+    "what is the color of the double decker bus traveling at the traffic light?",
+    "what is the color of the lot in front of the hotel where people are mingling?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "What is the name of the hotel where people are mingling?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the double decker bus traveling at the traffic light?",
+      "answers": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "score": 0.07850265502929688
+    },
+    {
+      "question": "what is the color of the lot in front of the hotel where people are mingling?",
+      "answers": [
+        "green",
+        "red",
+        "gray"
+      ],
+      "score": 0.07871437072753906
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "hotel",
+        "people",
+        "lot"
+      ],
+      "score": 0.005992889404296875
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "hotel",
+        "people",
+        "lot"
+      ],
+      "score": 0.005992889404296875,
+      "duplicate_of": 2
+    },
+    {
+      "question": "What is the name of the hotel where people are mingling?",
+      "answers": [
+        "Marriott",
+        "Hilton",
+        "Hyatt"
+      ],
+      "score": 0.021751880645751953
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.157,
+  "probe_selection_seconds": 2.044,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "what is the other object in the image?",
+      "answer": "umbrella",
+      "rewrite": "a lot in front of a hotel with people mingling about and an umbrella",
+      "rank": 1,
+      "hit": true
+    },
+    "random": {
+      "question": "what is the color of the double decker bus traveling at the traffic light?",
+      "answer": "I'm sorry, but the image does not show a double-decker bus or a traffic light, so I cannot answer your question.",
+      "rewrite": "a lot in front of a hotel with people mingling about, without a double-decker bus or traffic light",
+      "rank": 35,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the color of the lot in front of the hotel where people are mingling?",
+      "answer": "gray",
+      "rewrite": "a gray lot in front of a hotel with people mingling about",
+      "rank": 26,
+      "hit": false
+    }
+  },
+  "seconds": 22.512
+}

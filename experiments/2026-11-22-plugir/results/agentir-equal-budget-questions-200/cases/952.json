@@ -1,0 +1,79 @@
+{
+  "qid": 952,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the man's shirt?",
+    "where is the man skateboarding in the park?",
+    "what is the specific location within the park where the man is skateboarding?",
+    "what is the gender of the person skateboarding in the park?",
+    "what is the color of the man's shirt?"
+  ],
+  "second_candidates": [
+    "what is the color of the man's clothing?",
+    "what is the color of the sky in the image where the man is skateboarding in a park?",
+    "what is the activity or trick the man is performing while skateboarding in the park?",
+    "what is the specific part of the park where the man is skateboarding?",
+    "what is the color of the sky in the image where the man is skateboarding in a park?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the man's clothing?",
+      "answers": [
+        "black",
+        "red",
+        "blue"
+      ],
+      "score": 0.16582441329956055
+    },
+    {
+      "question": "what is the color of the sky in the image where the man is skateboarding in a park?",
+      "answers": [
+        "blue",
+        "gray",
+        "overcast"
+      ],
+      "score": 0.03143310546875
+    },
+    {
+      "question": "what is the activity or trick the man is performing while skateboarding in the park?",
+      "answers": [
+        "jumping",
+        "doing a trick over a bench",
+        "in mid air"
+      ],
+      "score": 0.05142354965209961
+    },
+    {
+      "question": "what is the specific part of the park where the man is skateboarding?",
+      "answers": [
+        "on the steps",
+        "over a bench",
+        "in the air"
+      ],
+      "score": 0.09685564041137695
+    },
+    {
+      "question": "what is the color of the sky in the image where the man is skateboarding in a park?",
+      "answers": [
+        "blue",
+        "gray",
+        "overcast"
+      ],
+      "score": 0.03143310546875,
+      "duplicate_of": 1
+    }
+  ],
+  "control": {
+    "question": "what is the color of the man's clothing?",
+    "score": 0.16582441329956055
+  },
+  "mixed": {
+    "question": "**Question:** What is the color of the man's shirt?",
+    "score": 0.21904325485229492
+  },
+  "control_rank": 30,
+  "mixed_rank": 51,
+  "usual_rank": 51,
+  "new_answer": "black",
+  "new_rewrite": "a man in black clothing skateboarding in a park during the day"
+}

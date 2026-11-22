@@ -1,0 +1,272 @@
+{
+  "qid": 1646,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000304500.jpg",
+  "queries": [
+    "a large white bus heading down the street",
+    "A large white bus driving down the street.",
+    "a large white bus heading down the street in yosemite"
+  ],
+  "ranks": [
+    54,
+    54,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a large white bus heading down the street",
+      "question": "Question: What is the color of the bus?",
+      "answer": "white",
+      "query_after": "A large white bus driving down the street.",
+      "displayed_ids": [
+        1895,
+        27307,
+        3428,
+        31590,
+        178,
+        36697,
+        43930,
+        38635,
+        26875,
+        32526
+      ],
+      "selected_ids": [
+        36405,
+        9988,
+        15984,
+        6129,
+        21715,
+        44213,
+        14490,
+        48629,
+        7137,
+        26386
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "street",
+            "sky",
+            "sidewalk"
+          ],
+          "score": 0.04368925094604492
+        },
+        {
+          "question": "Question: Is the bus a double-decker with people on it?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0008516311645507812
+        },
+        {
+          "question": "Question: What is the color of the bus?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.1269383430480957
+        },
+        {
+          "question": "Question: What is the size of the bus in the image?",
+          "answers": [
+            "large",
+            "small",
+            "medium"
+          ],
+          "score": 0.0007481575012207031
+        },
+        {
+          "question": "Question: What is the color of the bus in the image?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.09875631332397461
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is the bus a single-decker or a double-decker?",
+          "answers": [
+            "single-decker",
+            "double-decker",
+            "neither"
+          ],
+          "score": 0.0026836395263671875
+        },
+        {
+          "question": "Question: Is the bus at a bus stop or driving down the street?",
+          "answers": [
+            "driving",
+            "at a bus stop",
+            "parked"
+          ],
+          "score": 0.009471893310546875
+        },
+        {
+          "question": "Question: What is the color of the bus?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.1269383430480957
+        },
+        {
+          "question": "Question: How many people are visible on the bus?",
+          "answers": [
+            "zero",
+            "one",
+            "two"
+          ],
+          "score": 0.011700630187988281
+        },
+        {
+          "question": "Question: What is the location of the bus?",
+          "answers": [
+            "parked on the street",
+            "at a bus stop",
+            "on a runway"
+          ],
+          "score": 0.07328367233276367
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "A large white bus driving down the street.",
+      "question": "what is the location where the white bus is heading?",
+      "answer": "yosemite",
+      "query_after": "a large white bus heading down the street in yosemite",
+      "displayed_ids": [
+        1895,
+        3428,
+        38635,
+        43930,
+        31590,
+        27307,
+        32526,
+        178,
+        26875,
+        36697
+      ],
+      "selected_ids": [
+        31960,
+        44213,
+        49003,
+        9015,
+        39767,
+        48815,
+        48629,
+        14490,
+        36405,
+        25440
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the location where the white bus is heading?",
+          "answers": [
+            "down a narrow street",
+            "passing through a town street",
+            "driving in the city at night"
+          ],
+          "score": 0.14796209335327148
+        },
+        {
+          "question": "Question: What color are the windows of the bus?",
+          "answers": [
+            "blue",
+            "black",
+            "dark"
+          ],
+          "score": 0.07280111312866211
+        },
+        {
+          "question": "what is the surface the white bus is parked on?",
+          "answers": [
+            "brick paver",
+            "dirt road",
+            "street"
+          ],
+          "score": 0.11603879928588867
+        },
+        {
+          "question": "what is the direction the white bus is traveling?",
+          "answers": [
+            "left",
+            "right",
+            "straight"
+          ],
+          "score": 0.0038781166076660156
+        },
+        {
+          "question": "what is the time of day when the white bus is heading down the street?",
+          "answers": [
+            "day",
+            "night",
+            "dusk"
+          ],
+          "score": 0.0422968864440918
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the direction the bus is traveling?",
+          "answers": [
+            "left to right",
+            "right to left",
+            "towards the camera"
+          ],
+          "score": 0.0026788711547851562
+        },
+        {
+          "question": "Question: What other colors are visible on the bus besides white?",
+          "answers": [
+            "blue",
+            "blue and white",
+            "no other colors"
+          ],
+          "score": 0.030370235443115234
+        },
+        {
+          "question": "Question: What is the direction the bus is traveling?",
+          "answers": [
+            "left",
+            "right",
+            "straight"
+          ],
+          "score": 0.002135753631591797
+        },
+        {
+          "question": "Question: What is the destination or route of the bus?",
+          "answers": [
+            "New York",
+            "Boston",
+            "Chicago"
+          ],
+          "score": 0.03598594665527344
+        },
+        {
+          "question": "what is the surface the bus is traveling on?",
+          "answers": [
+            "brick paver",
+            "dirt road",
+            "street"
+          ],
+          "score": 0.13279008865356445
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

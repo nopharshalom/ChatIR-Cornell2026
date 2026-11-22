@@ -1,0 +1,79 @@
+{
+  "qid": 827,
+  "candidates": [
+    "Question: What type of food is in the bowls?",
+    "Question: Where is the table with the bowls located?",
+    "what is the surface material of the table holding the bowls?",
+    "Question: What type of food is in the bowls on the table?",
+    "Question: What color is the table holding the small white bowls of food?"
+  ],
+  "kl": {
+    "question": "what is the surface material of the table holding the bowls?",
+    "answer": "plastic",
+    "rewrite": "4 small white bowls of associated foods on a plastic table",
+    "raw_rank": 6,
+    "unseen_rank": 2
+  },
+  "probe": {
+    "answer": "snacks",
+    "rewrite": "4 small white bowls containing snacks on a table",
+    "raw_rank": 1,
+    "unseen_rank": 1,
+    "question": "Question: What type of food is in the bowls on the table?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What type of food is in the bowls?",
+        "answers": [
+          "salad",
+          "cereal",
+          "soup"
+        ],
+        "score": 0.058179378509521484
+      },
+      {
+        "question": "Question: Where is the table with the bowls located?",
+        "answers": [
+          "grass",
+          "indoors",
+          "table"
+        ],
+        "score": 0.027482986450195312
+      },
+      {
+        "question": "what is the surface material of the table holding the bowls?",
+        "answers": [
+          "wood",
+          "glass",
+          "metal"
+        ],
+        "score": 0.05497884750366211
+      },
+      {
+        "question": "Question: What type of food is in the bowls on the table?",
+        "answers": [
+          "broccoli",
+          "cereal",
+          "mixed vegetables"
+        ],
+        "score": 0.06673812866210938
+      },
+      {
+        "question": "Question: What color is the table holding the small white bowls of food?",
+        "answers": [
+          "brown",
+          "white",
+          "wood"
+        ],
+        "score": 0.024060726165771484
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.051,
+    "probe_selection_seconds": 2.46,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": false
+}

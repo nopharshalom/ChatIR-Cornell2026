@@ -1,0 +1,77 @@
+{
+  "qid": 556,
+  "sample": 2,
+  "first_candidates": [
+    "Question: What color is the bathroom in the image?",
+    "What color is the bathroom depicted in the image?",
+    "what color is the toilet in the bathroom?",
+    "what material is the sink made of in the bathroom?",
+    "what type of shower is present in the bathroom with the raised toilet lid?"
+  ],
+  "second_candidates": [
+    "what is the color of the bathroom?",
+    "what is the color of the bathroom that has a sink and a toilet with the lid raised?",
+    "what is the material of the sink in the bathroom with the lid raised?",
+    "what is the color of the bathroom that has a sink and a toilet with the lid raised?",
+    "what is the material of the sink in the bathroom with a sink and toilet with the lid raised?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the bathroom?",
+      "answers": [
+        "white",
+        "wooden",
+        "yellow"
+      ],
+      "score": 0.1577134132385254
+    },
+    {
+      "question": "what is the color of the bathroom that has a sink and a toilet with the lid raised?",
+      "answers": [
+        "white",
+        "yellow"
+      ],
+      "score": 0.0729665756225586
+    },
+    {
+      "question": "what is the material of the sink in the bathroom with the lid raised?",
+      "answers": [
+        "wooden",
+        "glass",
+        "white ceramic"
+      ],
+      "score": 0.10868549346923828
+    },
+    {
+      "question": "what is the color of the bathroom that has a sink and a toilet with the lid raised?",
+      "answers": [
+        "white",
+        "yellow"
+      ],
+      "score": 0.0729665756225586,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the material of the sink in the bathroom with a sink and toilet with the lid raised?",
+      "answers": [
+        "wood",
+        "white",
+        "glass"
+      ],
+      "score": 0.11144590377807617
+    }
+  ],
+  "control": {
+    "question": "what is the color of the bathroom?",
+    "score": 0.1577134132385254
+  },
+  "mixed": {
+    "question": "Question: What color is the bathroom in the image?",
+    "score": 0.15111255645751953
+  },
+  "control_rank": 304,
+  "mixed_rank": 304,
+  "usual_rank": 304,
+  "new_answer": "white",
+  "new_rewrite": "a white bathroom with a sink and a toilet with the lid raised"
+}

@@ -1,0 +1,73 @@
+{
+  "qid": 1515,
+  "arm": "probe",
+  "after_round": 7,
+  "ranks": [
+    771,
+    154,
+    184,
+    132,
+    61,
+    46,
+    79,
+    46,
+    49,
+    79,
+    43
+  ],
+  "continuation": [
+    {
+      "round": 8,
+      "query_before": "two orange passenger trains traveling down the tracks in a city setting",
+      "question": "Is the background a city or a field?",
+      "answer": "city",
+      "query_after": "Two orange passenger trains moving along the tracks in a city environment.",
+      "searches": [
+        {
+          "query": "Two orange passenger trains traveling down tracks in a city setting",
+          "ids": [
+            21306,
+            15366,
+            28241
+          ],
+          "captions": [
+            "red train next to a building",
+            "a group of four passenger trains parked at a station",
+            "a city is visible behind the train"
+          ]
+        },
+        {
+          "query": "Two orange passenger trains traveling down tracks in a field setting",
+          "ids": [
+            12698,
+            47588,
+            10639
+          ],
+          "captions": [
+            "a train traveling down tracks with a grassy background",
+            "a red train going through the countryside",
+            "a train engine on a dirt track in a farm"
+          ]
+        }
+      ],
+      "raw_plan": "Two orange passenger trains traveling down tracks in a city setting\nTwo orange passenger trains traveling down tracks in a field setting",
+      "generated": "Is the background a city or a field?",
+      "fallback": false
+    },
+    {
+      "round": 9,
+      "query_before": "Two orange passenger trains moving along the tracks in a city environment.",
+      "question": "What is the color of the tracks where the trains are traveling?",
+      "answer": "gray",
+      "query_after": "two orange passenger trains travel down gray tracks in a city setting, with a second orange train visible behind the front one"
+    },
+    {
+      "round": 10,
+      "query_before": "two orange passenger trains travel down gray tracks in a city setting, with a second orange train visible behind the front one",
+      "question": "what is the scenery behind the two orange passenger trains?",
+      "answer": "cityscape",
+      "query_after": "two orange passenger trains travel down gray tracks through a cityscape, with a second orange passenger train visible behind the front one."
+    }
+  ],
+  "seconds": 42.9
+}

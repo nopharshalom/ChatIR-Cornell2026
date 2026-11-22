@@ -1,0 +1,78 @@
+{
+  "qid": 838,
+  "sample": 1,
+  "first_candidates": [
+    "Question: What is the primary color of the bus visible in the image?",
+    "Question: What is the primary color of the bus visible in the image?",
+    "Question: What is the primary color of the bus visible in the image?",
+    "Question: Which specific vehicle is positioned next to the bus in the image?",
+    "Question: Question: What is the primary color of the bus visible in the image?"
+  ],
+  "second_candidates": [
+    "Question: What is the color of the bus parked on the street next to trees?",
+    "what color are the cars sitting on the street at night?",
+    "Question: Which color bus is parked on the street next to a red car?",
+    "Question: Is the bus parked on the street next to trees, next to a red car, or is it one of two buses sitting side by side?",
+    "Question: What is the color of the bus that is sitting side by side with another bus?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What is the color of the bus parked on the street next to trees?",
+      "answers": [
+        "green",
+        "red",
+        "black"
+      ],
+      "score": 0.0768575668334961
+    },
+    {
+      "question": "what color are the cars sitting on the street at night?",
+      "answers": [
+        "white",
+        "dark",
+        "black"
+      ],
+      "score": 0.022444725036621094
+    },
+    {
+      "question": "Question: Which color bus is parked on the street next to a red car?",
+      "answers": [
+        "red",
+        "orange",
+        "white"
+      ],
+      "score": 0.03357219696044922
+    },
+    {
+      "question": "Question: Is the bus parked on the street next to trees, next to a red car, or is it one of two buses sitting side by side?",
+      "answers": [
+        "next to trees",
+        "next to a red car",
+        "one of two buses sitting side by side"
+      ],
+      "score": 0.03826761245727539
+    },
+    {
+      "question": "Question: What is the color of the bus that is sitting side by side with another bus?",
+      "answers": [
+        "red",
+        "orange",
+        "white and blue"
+      ],
+      "score": 0.22226619720458984
+    }
+  ],
+  "control": {
+    "question": "Question: What is the color of the bus that is sitting side by side with another bus?",
+    "score": 0.22226619720458984
+  },
+  "mixed": {
+    "question": "Question: What is the specific color of the bus seen in the street lined with cars and buses?",
+    "score": 0.1902141571044922
+  },
+  "control_rank": 519,
+  "mixed_rank": 500,
+  "usual_rank": 503,
+  "new_answer": "red",
+  "new_rewrite": "a street lined with cars and buses, featuring two red buses sitting side by side"
+}

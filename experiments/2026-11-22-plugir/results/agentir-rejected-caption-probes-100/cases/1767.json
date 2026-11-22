@@ -1,0 +1,85 @@
+{
+  "qid": 1767,
+  "candidates": [
+    "Question: What is the gender of the person taking the photo?",
+    "Question: What is the gender of the person taking the photo?",
+    "Question: What object is the person using to take the photo?",
+    "Question: Where is the person taking the photo?",
+    "Question: What is the gender of the person taking the photo?"
+  ],
+  "kl": {
+    "question": "Question: Where is the person taking the photo?",
+    "answer": "bus stop",
+    "rewrite": "a person is standing at a bus stop taking a photo",
+    "rank": 1,
+    "hit": true,
+    "raw_rank": 1,
+    "unseen_rank": 1
+  },
+  "probe": {
+    "question": "Question: Where is the person taking the photo?",
+    "answer": "bus stop",
+    "rewrite": "a person is standing at a bus stop taking a photo",
+    "rank": 1,
+    "hit": true,
+    "raw_rank": 1,
+    "unseen_rank": 1
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the gender of the person taking the photo?",
+        "answers": [
+          "male",
+          "female",
+          "non-binary"
+        ],
+        "score": 0.03749990463256836
+      },
+      {
+        "question": "Question: What is the gender of the person taking the photo?",
+        "answers": [
+          "male",
+          "female",
+          "non-binary"
+        ],
+        "score": 0.03749990463256836,
+        "duplicate_of": 0
+      },
+      {
+        "question": "Question: What object is the person using to take the photo?",
+        "answers": [
+          "phone",
+          "camera",
+          "mirror"
+        ],
+        "score": 0.07837533950805664
+      },
+      {
+        "question": "Question: Where is the person taking the photo?",
+        "answers": [
+          "street",
+          "mirror",
+          "bathroom"
+        ],
+        "score": 0.27307748794555664
+      },
+      {
+        "question": "Question: What is the gender of the person taking the photo?",
+        "answers": [
+          "male",
+          "female",
+          "non-binary"
+        ],
+        "score": 0.03749990463256836,
+        "duplicate_of": 0
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.046,
+    "probe_selection_seconds": 1.349,
+    "probe_llm_calls": 3,
+    "probe_search_queries": 9
+  },
+  "reused_outcome": true
+}

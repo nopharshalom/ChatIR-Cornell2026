@@ -1,0 +1,99 @@
+{
+  "qid": 1011,
+  "initial": "a traffic light flashing in its yellow signal",
+  "initial_rank": 140,
+  "evidence": [
+    "a street full of cars in a city at night",
+    "a city street with cars driving around on a busy day",
+    "a dark street with traffic lights and cars",
+    "a car driving down a street lined with trees",
+    "a street sign on a pole in front of a high building",
+    "a building is standing next to a road signal that is casting a shadow",
+    "an airplane in flight through a cloudy sky",
+    "a city street is filled with people and cars",
+    "a traffic light pole that contains street signs and a street sign"
+  ],
+  "candidates": [
+    "what is the time of day depicted in the image?",
+    "what is the background setting of the image featuring the yellow traffic light?",
+    "Question: what is the color of the traffic light pole that contains the street sign?",
+    "what is the sky condition in the image featuring the yellow traffic light?",
+    "**Question:** What is the sky condition in the image?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the time of day depicted in the image?",
+      "answers": [
+        "daytime",
+        "night",
+        "dawn/dusk"
+      ],
+      "score": 0.06244707107543945
+    },
+    {
+      "question": "what is the background setting of the image featuring the yellow traffic light?",
+      "answers": [
+        "a street full of cars in a city at night",
+        "a dark street with traffic lights and cars",
+        "a traffic light pole that contains street signs and a street sign"
+      ],
+      "score": 0.23191165924072266
+    },
+    {
+      "question": "Question: what is the color of the traffic light pole that contains the street sign?",
+      "answers": [
+        "yellow",
+        "green",
+        "red"
+      ],
+      "score": 0.05089282989501953
+    },
+    {
+      "question": "what is the sky condition in the image featuring the yellow traffic light?",
+      "answers": [
+        "clear",
+        "cloudy",
+        "sunny"
+      ],
+      "score": 0.06214427947998047
+    },
+    {
+      "question": "**Question:** What is the sky condition in the image?",
+      "answers": [
+        "clear",
+        "cloudy",
+        "sunny"
+      ],
+      "score": 0.06502628326416016
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.069,
+  "probe_selection_seconds": 3.214,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the background setting of the image featuring the yellow traffic light?",
+      "answer": "a dock",
+      "rewrite": "a yellow traffic light flashing on a dock",
+      "rank": 3,
+      "hit": true
+    },
+    "random": {
+      "question": "what is the background setting of the image featuring the yellow traffic light?",
+      "answer": "a dock",
+      "rewrite": "a yellow traffic light flashing on a dock",
+      "rank": 3,
+      "hit": true
+    },
+    "probe": {
+      "question": "what is the background setting of the image featuring the yellow traffic light?",
+      "answer": "a dock",
+      "rewrite": "a yellow traffic light flashing on a dock",
+      "rank": 3,
+      "hit": true
+    }
+  },
+  "seconds": 17.821
+}

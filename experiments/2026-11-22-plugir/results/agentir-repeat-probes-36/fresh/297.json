@@ -1,0 +1,53 @@
+{
+  "qid": 297,
+  "arm": "fresh",
+  "after_round": 6,
+  "ranks": [
+    69,
+    51,
+    117,
+    422,
+    447,
+    209,
+    178,
+    209,
+    433,
+    343,
+    22
+  ],
+  "continuation": [
+    {
+      "round": 7,
+      "query_before": "An office with black walls, furnished with a brown bookcase, a black desktop computer, and a black television.",
+      "question": "Is the television in the room black or brown?",
+      "answer": "black",
+      "query_after": "a black office featuring a brown bookcase, a black desktop computer, and a black television",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Is the television in the room black or brown?",
+      "fallback": false
+    },
+    {
+      "round": 8,
+      "query_before": "a black office featuring a brown bookcase, a black desktop computer, and a black television",
+      "question": "what is the position of the television relative to the bookcase in the office?",
+      "answer": "below",
+      "query_after": "a black television is positioned below a brown bookcase in a black desktop computer office"
+    },
+    {
+      "round": 9,
+      "query_before": "a black television is positioned below a brown bookcase in a black desktop computer office",
+      "question": "what is the material of the desk in the office?",
+      "answer": "wood",
+      "query_after": "a black television sits below a brown bookcase in a black office, featuring a wooden desk with a black desktop computer"
+    },
+    {
+      "round": 10,
+      "query_before": "a black television sits below a brown bookcase in a black office, featuring a wooden desk with a black desktop computer",
+      "question": "what is the other object in the image?",
+      "answer": "chandelier",
+      "query_after": "an office featuring a brown wooden bookcase, a black desktop computer, a black television positioned below the bookcase, a wooden desk, and a chandelier"
+    }
+  ],
+  "seconds": 48.8
+}

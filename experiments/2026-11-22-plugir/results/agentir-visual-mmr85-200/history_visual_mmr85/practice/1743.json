@@ -1,0 +1,117 @@
+{
+  "ids": [
+    25505,
+    18041,
+    29715,
+    23827
+  ],
+  "prefix": [
+    "a bed with blue covers next to a wall",
+    "what is the color of the wall next to the bed with blue covers? green"
+  ],
+  "default": "Is there anything on the bed with blue covers?",
+  "chosen": "what is the pattern on the blue and white rug in the room?",
+  "trials": {
+    "Is there anything on the bed with blue covers?": {
+      "answers": [
+        "yes",
+        "yes",
+        "no",
+        "yes"
+      ],
+      "rewrites": {
+        "yes": "a bed with blue covers and items on it, next to a green wall",
+        "no": "a bed with blue covers next to a green wall, with nothing on the bed"
+      },
+      "ranks": [
+        34,
+        11,
+        25,
+        81
+      ],
+      "hits": 0
+    },
+    "what is the pattern on the blue and white rug in the room?": {
+      "answers": [
+        "there is no rug in the image.",
+        "stripes",
+        "no pattern visible",
+        "checkered"
+      ],
+      "rewrites": {
+        "there is no rug in the image.": "a bed with blue covers next to a green wall, with no rug in the room",
+        "stripes": "a bed with blue covers next to a green wall, featuring a blue and white striped rug",
+        "no pattern visible": "a bed with blue covers next to a green wall, with a blue and white rug on the floor that has no visible pattern",
+        "checkered": "a bed with blue covers next to a green wall, featuring a blue and white checkered rug"
+      },
+      "ranks": [
+        10,
+        10,
+        64,
+        21
+      ],
+      "hits": 2
+    },
+    "what is the pattern on the blue and white floral rug?": {
+      "answers": [
+        "there is no rug in the image.",
+        "striped",
+        "there is no blue and white floral rug in the image.",
+        "plaid"
+      ],
+      "rewrites": {
+        "there is no rug in the image.": "a bed with blue covers next to a green wall, with no floral rug present",
+        "striped": "a bed with blue covers sits next to a green wall, with a blue and white floral striped rug nearby",
+        "there is no blue and white floral rug in the image.": "a bed with blue covers next to a green wall",
+        "plaid": "a bed with blue covers sits next to a green wall, with a blue and white floral rug featuring a plaid pattern on the floor"
+      },
+      "ranks": [
+        11,
+        10,
+        51,
+        38
+      ],
+      "hits": 1
+    },
+    "what is the color of the coverlet on the bed next to the blue wall?": {
+      "answers": [
+        "blue",
+        "blue",
+        "gray",
+        "blue"
+      ],
+      "rewrites": {
+        "blue": "a bed with blue covers next to a green wall",
+        "gray": "a bed with blue covers and a gray coverlet next to a green wall"
+      },
+      "ranks": [
+        15,
+        26,
+        36,
+        95
+      ],
+      "hits": 0
+    },
+    "what is the pattern on the rug in the room with the green wall?": {
+      "answers": [
+        "unsure",
+        "striped",
+        "no pattern",
+        "blue and white checkered"
+      ],
+      "rewrites": {
+        "unsure": "a bed with blue covers next to a green wall with an unknown pattern on the rug",
+        "striped": "a bed with blue covers next to a green wall with a striped rug",
+        "no pattern": "a bed with blue covers next to a green wall with a patternless rug",
+        "blue and white checkered": "a bed with blue covers next to a green wall, with a blue and white checkered rug on the floor"
+      },
+      "ranks": [
+        33,
+        11,
+        84,
+        27
+      ],
+      "hits": 0
+    }
+  }
+}

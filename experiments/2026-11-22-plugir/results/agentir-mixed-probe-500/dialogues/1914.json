@@ -1,0 +1,145 @@
+{
+  "qid": 1914,
+  "sample": "original",
+  "target": "unlabeled2017/000000479985.jpg",
+  "queries": [
+    "a man playing professional tennis on clay courts",
+    "a man in a green shirt playing professional tennis on clay courts"
+  ],
+  "ranks": [
+    41,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a man playing professional tennis on clay courts",
+      "question": "what is the color of the man's shirt while he is playing professional tennis on the clay court?",
+      "answer": "green",
+      "query_after": "a man in a green shirt playing professional tennis on clay courts",
+      "displayed_ids": [
+        27844,
+        4722,
+        16211,
+        40679,
+        46157,
+        17013,
+        18037,
+        13218,
+        43495,
+        28743
+      ],
+      "selected_ids": [
+        12279,
+        10373,
+        24995,
+        29398,
+        7359,
+        2607,
+        17637,
+        17862,
+        39459,
+        45632
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the man's shirt while he is playing professional tennis on the clay court?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.1406865119934082
+        },
+        {
+          "question": "what is the color of the man's hat while he is playing professional tennis on the clay court?",
+          "answers": [
+            "green",
+            "no hat",
+            "anything else"
+          ],
+          "score": 0.02446603775024414
+        },
+        {
+          "question": "Question: What is the color of the clay court where the man is playing professional tennis?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.05135297775268555
+        },
+        {
+          "question": "what is the color of the man's shirt while he is playing professional tennis on the clay court?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.1406865119934082,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the man's hat while he is playing professional tennis on the clay court?",
+          "answers": [
+            "green",
+            "no hat",
+            "anything else"
+          ],
+          "score": 0.02446603775024414,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the man's shirt?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.1220083236694336
+        },
+        {
+          "question": "Question: What color is the hat worn by the man?",
+          "answers": [
+            "green",
+            "white",
+            "none"
+          ],
+          "score": 0.03388786315917969
+        },
+        {
+          "question": "Question: What color is the tennis ball the man is hitting?",
+          "answers": [
+            "yellow",
+            "orange",
+            "glow-in-the-dark"
+          ],
+          "score": 0.06571054458618164
+        },
+        {
+          "question": "Question: What color is the court where the man is playing tennis?",
+          "answers": [
+            "blue",
+            "green",
+            "red"
+          ],
+          "score": 0.06681108474731445
+        },
+        {
+          "question": "Question: What color is the shirt of the man playing tennis?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.1261425018310547
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

@@ -1,0 +1,932 @@
+{
+  "qid": 106,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000041485.jpg",
+  "queries": [
+    "a bathroom sink with a mirror and lights",
+    "a bathroom sink with a granite countertop, a mirror, and lights",
+    "a white bathroom sink with a granite countertop, featuring a mirror and lights above it",
+    "a white bathroom sink with a white granite countertop and a mirror above it",
+    "a white bathroom featuring a white sink and a granite countertop, with a mirror and lights above",
+    "a white bathroom sink with a silver mirror, set on a granite countertop",
+    "a white bathroom sink with a silver mirror and lights, set on a granite countertop",
+    "a white bathroom featuring a white sink and a silver mirror, set against a granite countertop"
+  ],
+  "ranks": [
+    105,
+    23,
+    29,
+    28,
+    19,
+    39,
+    50,
+    9
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a bathroom sink with a mirror and lights",
+      "question": "Question: What is the surface material of the countertop or sink area in the bathroom?",
+      "answer": "granite",
+      "query_after": "a bathroom sink with a granite countertop, a mirror, and lights",
+      "displayed_ids": [
+        42692,
+        31968,
+        27682,
+        40953,
+        43741,
+        37425,
+        7227,
+        4313,
+        44703,
+        10036
+      ],
+      "selected_ids": [
+        37928,
+        26096,
+        47200,
+        33820,
+        21516,
+        44263,
+        11225,
+        14367,
+        2681,
+        2224
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: Does the bathroom have a bathtub?",
+          "answers": [
+            "Yes, it does.",
+            "No, it doesn't.",
+            "I'm not sure."
+          ],
+          "score": 0.000698089599609375
+        },
+        {
+          "question": "Question: What color are the tiles in the bathroom?",
+          "answers": [
+            "white",
+            "green",
+            "marble"
+          ],
+          "score": 0.11654329299926758
+        },
+        {
+          "question": "what is the color of the mirror in the bathroom?",
+          "answers": [
+            "white",
+            "silver",
+            "gold"
+          ],
+          "score": 0.060647010803222656
+        },
+        {
+          "question": "Question: What is the surface material of the countertop or sink area in the bathroom?",
+          "answers": [
+            "white marble",
+            "black granite",
+            "wooden vanity"
+          ],
+          "score": 0.1172795295715332
+        },
+        {
+          "question": "what is the color of the tiles in the bathroom that has a mirror and lights?",
+          "answers": [
+            "white",
+            "marble",
+            "green"
+          ],
+          "score": 0.11364984512329102
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the tile in the bathroom?",
+          "answers": [
+            "white and green",
+            "white",
+            "marble"
+          ],
+          "score": 0.09582090377807617
+        },
+        {
+          "question": "Question: What color is the mirror in the bathroom?",
+          "answers": [
+            "white",
+            "black",
+            "gold"
+          ],
+          "score": 0.07432365417480469
+        },
+        {
+          "question": "Question: What color is the sink in the bathroom?",
+          "answers": [
+            "white",
+            "silver",
+            "black"
+          ],
+          "score": 0.060355186462402344
+        },
+        {
+          "question": "Question: What color is the tile in the bathroom?",
+          "answers": [
+            "white and green",
+            "white",
+            "marble"
+          ],
+          "score": 0.09582090377807617,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color are the lights in the bathroom?",
+          "answers": [
+            "white",
+            "colorful",
+            "black"
+          ],
+          "score": 0.048207759857177734
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a bathroom sink with a granite countertop, a mirror, and lights",
+      "question": "what color is the sink in the bathroom where the cat is located?",
+      "answer": "white",
+      "query_after": "a white bathroom sink with a granite countertop, featuring a mirror and lights above it",
+      "displayed_ids": [
+        7227,
+        40953,
+        10036,
+        43741,
+        37425,
+        14227,
+        48081,
+        16978,
+        42692,
+        6112
+      ],
+      "selected_ids": [
+        31617,
+        33126,
+        11262,
+        30791,
+        16154,
+        19584,
+        32822,
+        41453,
+        31090,
+        3209
+      ],
+      "rejected_count": 14,
+      "usual_paths": [
+        {
+          "question": "what color is the cat located in the bathroom sink?",
+          "answers": [
+            "black",
+            "white",
+            "gray"
+          ],
+          "score": 0.03277921676635742
+        },
+        {
+          "question": "what color is the sink in the bathroom where the cat is located?",
+          "answers": [
+            "black",
+            "white",
+            "granite"
+          ],
+          "score": 0.06609964370727539
+        },
+        {
+          "question": "what is the color of the cat located in the bathroom sink?",
+          "answers": [
+            "black",
+            "white",
+            "gray"
+          ],
+          "score": 0.04977893829345703
+        },
+        {
+          "question": "what color are the lights in the bathroom?",
+          "answers": [
+            "white",
+            "black",
+            "silver"
+          ],
+          "score": 0.04029989242553711
+        },
+        {
+          "question": "what type of bathroom fixtures (e.g., tub, shower, toilet) are present in the bathroom where the cat is located?",
+          "answers": [
+            "shower",
+            "toilet",
+            "none"
+          ],
+          "score": 0.014320850372314453
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the sink in the bathroom?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.06293916702270508
+        },
+        {
+          "question": "what color is the cat in the bathroom?",
+          "answers": [
+            "black",
+            "white",
+            "gray"
+          ],
+          "score": 0.03793668746948242
+        },
+        {
+          "question": "what color is the mirror in the bathroom?",
+          "answers": [
+            "silver",
+            "gold",
+            "black"
+          ],
+          "score": 0.06168365478515625
+        },
+        {
+          "question": "what is the color of the cat in the bathroom?",
+          "answers": [
+            "black",
+            "white",
+            "gray"
+          ],
+          "score": 0.04696321487426758
+        },
+        {
+          "question": "what color is the mirror in the bathroom?",
+          "answers": [
+            "silver",
+            "gold",
+            "black"
+          ],
+          "score": 0.06168365478515625,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a white bathroom sink with a granite countertop, featuring a mirror and lights above it",
+      "question": "what color is the bathroom where the sink is located?",
+      "answer": "white",
+      "query_after": "a white bathroom sink with a white granite countertop and a mirror above it",
+      "displayed_ids": [
+        7227,
+        40953,
+        43741,
+        10036,
+        37425,
+        6112,
+        27682,
+        48081,
+        42692,
+        11401
+      ],
+      "selected_ids": [
+        15740,
+        19584,
+        31090,
+        46567,
+        11225,
+        8621,
+        730,
+        37928,
+        11262
+      ],
+      "rejected_count": 15,
+      "usual_paths": [
+        {
+          "question": "what is the color of the bathroom sink where the cat is located?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.05985736846923828
+        },
+        {
+          "question": "Question: What is the color of the sink in the bathroom where the cat is located?",
+          "answers": [
+            "white",
+            "black",
+            "silver"
+          ],
+          "score": 0.03931140899658203
+        },
+        {
+          "question": "Question: What is the color of the sink in the bathroom where the cat is located?",
+          "answers": [
+            "white",
+            "black",
+            "silver"
+          ],
+          "score": 0.03931140899658203,
+          "duplicate_of": 1
+        },
+        {
+          "question": "What is the color of the sink in the bathroom where the cat is located?",
+          "answers": [
+            "black",
+            "white",
+            "grey"
+          ],
+          "score": 0.041810035705566406
+        },
+        {
+          "question": "what is the color of the sink in the bathroom where the cat is located?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.05228710174560547
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the bathroom where the sink is located?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.07146501541137695
+        },
+        {
+          "question": "what is the color of the bathroom where the sink is located?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.06818914413452148
+        },
+        {
+          "question": "what color is the bathroom where the sink is located?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.07146501541137695,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bathroom where the sink is located?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.06818914413452148,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what color is the bathroom where the sink is located?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.07146501541137695,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 3,
+      "query_before": "a white bathroom sink with a white granite countertop and a mirror above it",
+      "question": "what is the color of the bathroom where the sink is located?",
+      "answer": "white",
+      "query_after": "a white bathroom featuring a white sink and a granite countertop, with a mirror and lights above",
+      "displayed_ids": [
+        7866,
+        38984,
+        12871,
+        10036,
+        27682,
+        43239,
+        6112,
+        14098,
+        7227,
+        11401
+      ],
+      "selected_ids": [
+        9397,
+        45993,
+        12162,
+        24335,
+        32822,
+        43135,
+        23087,
+        26096,
+        44263,
+        31090
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what type of mirror is present in the bathroom with the sink and lights?",
+          "answers": [
+            "round",
+            "rectangular",
+            "oval"
+          ],
+          "score": 0.05540752410888672
+        },
+        {
+          "question": "what color is the mirror in the bathroom with the sink and lights?",
+          "answers": [
+            "white",
+            "black",
+            "gold"
+          ],
+          "score": 0.07855892181396484
+        },
+        {
+          "question": "what is the color of the lights in the bathroom with the sink and lights?",
+          "answers": [
+            "white",
+            "black",
+            "gold"
+          ],
+          "score": 0.06961965560913086
+        },
+        {
+          "question": "what is the color of the lighting in the bathroom with the sink and lights?",
+          "answers": [
+            "white",
+            "black",
+            "silver"
+          ],
+          "score": 0.052050113677978516
+        },
+        {
+          "question": "what is the color of the lights in the bathroom with the sink and lights?",
+          "answers": [
+            "white",
+            "black",
+            "gold"
+          ],
+          "score": 0.06961965560913086,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the bathroom where the sink is located?",
+          "answers": [
+            "white",
+            "black",
+            "beige"
+          ],
+          "score": 0.09466886520385742
+        },
+        {
+          "question": "what is the color of the bathroom where the sink is located?",
+          "answers": [
+            "white",
+            "black",
+            "beige"
+          ],
+          "score": 0.09466886520385742,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the mirror in the bathroom where the sink is located?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.07840681076049805
+        },
+        {
+          "question": "what is the color of the bathroom where the sink is located?",
+          "answers": [
+            "white",
+            "black",
+            "beige"
+          ],
+          "score": 0.09466886520385742,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the mirror in the bathroom with the granite countertop?",
+          "answers": [
+            "white",
+            "black",
+            "gray"
+          ],
+          "score": 0.05333852767944336
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a white bathroom featuring a white sink and a granite countertop, with a mirror and lights above",
+      "question": "what is the color of the mirror in the bathroom with the white sink?",
+      "answer": "silver",
+      "query_after": "a white bathroom sink with a silver mirror, set on a granite countertop",
+      "displayed_ids": [
+        7227,
+        43741,
+        27682,
+        6112,
+        11401,
+        7866,
+        37425,
+        25947,
+        48081,
+        22891
+      ],
+      "selected_ids": [
+        27449,
+        21336,
+        31090,
+        6112,
+        8621,
+        25521,
+        45970,
+        32822,
+        24508
+      ],
+      "rejected_count": 22,
+      "usual_paths": [
+        {
+          "question": "what color is the mirror in the bathroom where the sink is located?",
+          "answers": [
+            "white",
+            "wood",
+            "black"
+          ],
+          "score": 0.0850214958190918
+        },
+        {
+          "question": "what is the color of the mirror in the bathroom where the sink is located?",
+          "answers": [
+            "white",
+            "brown",
+            "wood"
+          ],
+          "score": 0.03095722198486328
+        },
+        {
+          "question": "what color is the mirror in the bathroom with the white sink?",
+          "answers": [
+            "wood",
+            "white",
+            "brown"
+          ],
+          "score": 0.029571056365966797
+        },
+        {
+          "question": "what material is the mirror made of in the bathroom with the white sink?",
+          "answers": [
+            "wood",
+            "mirror",
+            "glass"
+          ],
+          "score": 0.039257049560546875
+        },
+        {
+          "question": "what color is the mirror in the bathroom with the white sink?",
+          "answers": [
+            "wood",
+            "white",
+            "brown"
+          ],
+          "score": 0.029571056365966797,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the mirror in the bathroom where the sink is located?",
+          "answers": [
+            "white",
+            "wood",
+            "black"
+          ],
+          "score": 0.0850214958190918
+        },
+        {
+          "question": "what is the color of the mirror in the bathroom with the white sink?",
+          "answers": [
+            "wood",
+            "silver",
+            "black"
+          ],
+          "score": 0.08763885498046875
+        },
+        {
+          "question": "Question: Is there a bathtub in the bathroom?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.00956106185913086
+        },
+        {
+          "question": "Question: Is there a toilet visible in the bathroom?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.009488582611083984
+        },
+        {
+          "question": "Question: What type of floor is visible in the bathroom with the white sink and granite countertop?",
+          "answers": [
+            "wood",
+            "tile",
+            "unknown"
+          ],
+          "score": 0.03374052047729492
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a white bathroom sink with a silver mirror, set on a granite countertop",
+      "question": "what is the color of the bathroom where the sink is located?",
+      "answer": "white",
+      "query_after": "a white bathroom sink with a silver mirror and lights, set on a granite countertop",
+      "displayed_ids": [
+        10036,
+        14227,
+        7866,
+        16978,
+        6112,
+        43239,
+        27802,
+        20514,
+        14098,
+        10086
+      ],
+      "selected_ids": [
+        6112,
+        18630,
+        3209,
+        45993,
+        23087,
+        17308,
+        24335,
+        4272,
+        46567,
+        43433
+      ],
+      "rejected_count": 25,
+      "usual_paths": [
+        {
+          "question": "what is the color of the bathroom that contains the sink and mirror?",
+          "answers": [
+            "white",
+            "brown",
+            "red"
+          ],
+          "score": 0.07322835922241211
+        },
+        {
+          "question": "what is the color of the bathroom that contains the sink and mirror?",
+          "answers": [
+            "white",
+            "brown",
+            "red"
+          ],
+          "score": 0.07322835922241211,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bathroom that contains the sink and mirror?",
+          "answers": [
+            "white",
+            "brown",
+            "red"
+          ],
+          "score": 0.07322835922241211,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bathroom that contains the sink and mirror?",
+          "answers": [
+            "white",
+            "brown",
+            "red"
+          ],
+          "score": 0.07322835922241211,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bathroom that contains the sink and mirror?",
+          "answers": [
+            "white",
+            "brown",
+            "red"
+          ],
+          "score": 0.07322835922241211,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the bathroom where the sink is located?",
+          "answers": [
+            "white",
+            "brown",
+            "red"
+          ],
+          "score": 0.0790257453918457
+        },
+        {
+          "question": "what is the color of the bathroom where the sink is located?",
+          "answers": [
+            "white",
+            "brown",
+            "red"
+          ],
+          "score": 0.0790257453918457,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color are the walls in the bathroom with the white sink?",
+          "answers": [
+            "white",
+            "brown",
+            "red"
+          ],
+          "score": 0.07461166381835938
+        },
+        {
+          "question": "what is the color of the walls in the bathroom with the white sink?",
+          "answers": [
+            "white",
+            "silver",
+            "brown"
+          ],
+          "score": 0.03776264190673828
+        },
+        {
+          "question": "What type of lights are installed above the bathroom sink?",
+          "answers": [
+            "recessed lighting",
+            "vanity lighting",
+            "pendant lights"
+          ],
+          "score": 0.007016658782958984
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a white bathroom sink with a silver mirror and lights, set on a granite countertop",
+      "question": "what is the color of the bathroom where the sink is located?",
+      "answer": "white",
+      "query_after": "a white bathroom featuring a white sink and a silver mirror, set against a granite countertop",
+      "displayed_ids": [
+        7227,
+        10036,
+        27682,
+        16978,
+        40953,
+        6112,
+        14227,
+        43741,
+        43346,
+        12493
+      ],
+      "selected_ids": [
+        22856,
+        6907,
+        33102,
+        45075,
+        18630,
+        41044,
+        22891,
+        6112,
+        8621,
+        23087
+      ],
+      "rejected_count": 27,
+      "usual_paths": [
+        {
+          "question": "what is the color of the bathroom where the sink is located?",
+          "answers": [
+            "white",
+            "black",
+            "beige"
+          ],
+          "score": 0.07697486877441406
+        },
+        {
+          "question": "what color are the lights in the bathroom with the white sink and silver mirror?",
+          "answers": [
+            "white",
+            "silver",
+            "chrome"
+          ],
+          "score": 0.002105712890625
+        },
+        {
+          "question": "what is the color of the bathroom with the white sink and silver mirror?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.02737569808959961
+        },
+        {
+          "question": "what is the color of the bathroom where the sink is located?",
+          "answers": [
+            "white",
+            "black",
+            "beige"
+          ],
+          "score": 0.07697486877441406,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bathroom where the sink is located?",
+          "answers": [
+            "white",
+            "black",
+            "beige"
+          ],
+          "score": 0.07697486877441406,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the bathroom walls?",
+          "answers": [
+            "white",
+            "brown",
+            "tiled"
+          ],
+          "score": 0.040598392486572266
+        },
+        {
+          "question": "Question: What is the flooring material in the bathroom?",
+          "answers": [
+            "tile",
+            "wood",
+            "linoleum"
+          ],
+          "score": 0.044281005859375
+        },
+        {
+          "question": "what color are the walls in the bathroom with the white sink and silver mirror?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.026781082153320312
+        },
+        {
+          "question": "what color is the floor in the bathroom with the white sink and silver mirror?",
+          "answers": [
+            "white",
+            "wood",
+            "tile"
+          ],
+          "score": 0.039290428161621094
+        },
+        {
+          "question": "Question: What is the color of the walls in the bathroom with the white sink and silver mirror?",
+          "answers": [
+            "white",
+            "blue",
+            "beige"
+          ],
+          "score": 0.05108213424682617
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

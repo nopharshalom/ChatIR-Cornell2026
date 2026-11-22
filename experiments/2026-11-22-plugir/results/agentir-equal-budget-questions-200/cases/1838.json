@@ -1,0 +1,78 @@
+{
+  "qid": 1838,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the walls in the bathroom where the toilet is located?",
+    "what is the material of the toilet in the bathroom?",
+    "Question: Is there trash on the floor in the bathroom with the toilet?",
+    "Question: Is there a window in the bathroom with the toilet?",
+    "Question: What is the location of the bathroom containing the small toilet in the corner?"
+  ],
+  "second_candidates": [
+    "what is the color of the toilet in the small bathroom located in a corner?",
+    "what is the material of the floor in the bathroom with the toilet in the corner?",
+    "what is the color of the wall in the bathroom with the toilet in the corner?",
+    "What is the color of the toilet in the small bathroom?",
+    "what is the other object in the image?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the toilet in the small bathroom located in a corner?",
+      "answers": [
+        "wooden",
+        "white",
+        "pink"
+      ],
+      "score": 0.15157175064086914
+    },
+    {
+      "question": "what is the material of the floor in the bathroom with the toilet in the corner?",
+      "answers": [
+        "wooden",
+        "tile",
+        "unknown"
+      ],
+      "score": 0.08030176162719727
+    },
+    {
+      "question": "what is the color of the wall in the bathroom with the toilet in the corner?",
+      "answers": [
+        "black",
+        "pink",
+        "brown"
+      ],
+      "score": 0.10374689102172852
+    },
+    {
+      "question": "What is the color of the toilet in the small bathroom?",
+      "answers": [
+        "white",
+        "wooden",
+        "pink"
+      ],
+      "score": 0.169189453125
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "sink",
+        "shower",
+        "mirror"
+      ],
+      "score": 0.13156795501708984
+    }
+  ],
+  "control": {
+    "question": "What is the color of the toilet in the small bathroom?",
+    "score": 0.169189453125
+  },
+  "mixed": {
+    "question": "Question: What is the material of the walls in the bathroom?",
+    "score": 0.22155380249023438
+  },
+  "control_rank": 668,
+  "mixed_rank": 325,
+  "usual_rank": 380,
+  "new_answer": "white",
+  "new_rewrite": "a small bathroom with a white toilet in a corner"
+}

@@ -1,0 +1,52 @@
+{
+  "qid": 1098,
+  "arm": "probe",
+  "after_round": 2,
+  "ranks": [
+    83,
+    130,
+    188,
+    5
+  ],
+  "continuation": [
+    {
+      "round": 3,
+      "query_before": "A green and white bus is stopped at an intersection next to a car.",
+      "question": "Is the bus green and white or blue and white?",
+      "answer": "blue and white",
+      "query_after": "a blue and white bus stands at an intersection with a car",
+      "searches": [
+        {
+          "query": "a green and white bus at an intersection with a car nearby, where the car is either a red sedan or a black SUV",
+          "ids": [
+            32290,
+            33396,
+            26641
+          ],
+          "captions": [
+            "a city bus driving down the street",
+            "a green and white bus parked on a street",
+            "a green tour bus"
+          ]
+        },
+        {
+          "query": "a green and white bus at an intersection with a car nearby, where the car is either a silver sedan or a blue pickup truck",
+          "ids": [
+            48171,
+            32290,
+            33396
+          ],
+          "captions": [
+            "a green bus and car traveling down the road",
+            "a city bus driving down the street",
+            "a green and white bus parked on a street"
+          ]
+        }
+      ],
+      "raw_plan": "a green and white bus at an intersection with a car nearby, where the car is either a red sedan or a black SUV\na green and white bus at an intersection with a car nearby, where the car is either a silver sedan or a blue pickup truck",
+      "generated": "Is the bus green and white or blue and white?",
+      "fallback": false
+    }
+  ],
+  "seconds": 2.6
+}

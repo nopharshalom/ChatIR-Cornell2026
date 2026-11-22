@@ -1,0 +1,180 @@
+{
+  "qid": 1324,
+  "initial": "a man wearing a blue shirt has his bat ready to hit an oncoming ball",
+  "initial_rank": 32,
+  "displayed": [
+    49917,
+    36870,
+    15168,
+    13715,
+    18828,
+    11200,
+    46578,
+    22783,
+    12657,
+    23724
+  ],
+  "evidence": [
+    "a group of people watching a baseball game",
+    "a baseball game with two players and spectators on the field",
+    "a baseball game is underway with a catcher ready to swing",
+    "a small boy swinging a bat at a ball while in the yard",
+    "a baseball player and catcher swing at the pitch",
+    "a baseball catcher stands behind the pitcher",
+    "the man in the blue shirt has his racquet ready",
+    "a man in a blue shirt is running to hit a tennis ball",
+    "a baseball player holding a bat while a catcher points to the hitter",
+    "a baseball player on a field while the umpire and catcher watch"
+  ],
+  "rejected_captions": [
+    "a person swinging at a ball",
+    "young man ready to hit a baseball with a bat",
+    "a person wearing a uniform",
+    "the person is in his gear",
+    "a baseball player takes a swing in the field",
+    "a baseball player swinging a baseball bat during the game",
+    "a child playing a baseball game on a field with a baseball bat",
+    "the fence around the baseball field",
+    "a man is in a park swinging a blue bat at a ball",
+    "a baseball player holding a bat on a field"
+  ],
+  "usual": {
+    "candidates": [
+      "Question: What sport is the man in the blue shirt playing?",
+      "Question: What is the setting where the man in the blue shirt is playing?",
+      "what is the other object in the image?",
+      "what is the other object in the image?",
+      "what is the other object in the image?"
+    ],
+    "question": "Question: What is the setting where the man in the blue shirt is playing?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What sport is the man in the blue shirt playing?",
+          "answers": [
+            "baseball",
+            "tennis",
+            "unknown"
+          ],
+          "score": 0.09070730209350586
+        },
+        {
+          "question": "Question: What is the setting where the man in the blue shirt is playing?",
+          "answers": [
+            "a baseball game",
+            "a tennis game",
+            "a backyard"
+          ],
+          "score": 0.12256002426147461
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bat",
+            "ball",
+            "shirt"
+          ],
+          "score": 0.010157108306884766
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bat",
+            "ball",
+            "shirt"
+          ],
+          "score": 0.010157108306884766,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bat",
+            "ball",
+            "shirt"
+          ],
+          "score": 0.010157108306884766,
+          "duplicate_of": 2
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.082,
+      "probe_selection_seconds": 1.54,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "baseball field",
+    "rewrite": "a man wearing a blue shirt stands on a baseball field with his bat ready to hit an oncoming ball",
+    "raw_rank": 119,
+    "unseen_rank": 109
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What sport is the man in the blue shirt playing?",
+      "Question: What color is the bat the man in the blue shirt is holding?",
+      "Question: Where is the man in the blue shirt located?",
+      "what is the other object in the image?",
+      "what is the other object in the image?"
+    ],
+    "question": "Question: What sport is the man in the blue shirt playing?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What sport is the man in the blue shirt playing?",
+          "answers": [
+            "baseball",
+            "tennis",
+            "unknown"
+          ],
+          "score": 0.09070730209350586
+        },
+        {
+          "question": "Question: What color is the bat the man in the blue shirt is holding?",
+          "answers": [
+            "wood",
+            "metal",
+            "black"
+          ],
+          "score": 0.030533790588378906
+        },
+        {
+          "question": "Question: Where is the man in the blue shirt located?",
+          "answers": [
+            "yard",
+            "baseball field",
+            "stadium"
+          ],
+          "score": 0.041520118713378906
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a catcher",
+            "an umpire",
+            "a ball"
+          ],
+          "score": 0.031665802001953125
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a catcher",
+            "an umpire",
+            "a ball"
+          ],
+          "score": 0.031665802001953125,
+          "duplicate_of": 3
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.065,
+      "probe_selection_seconds": 2.187,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "baseball",
+    "rewrite": "a man wearing a blue shirt is playing baseball, holding a bat ready to hit an oncoming ball",
+    "raw_rank": 34,
+    "unseen_rank": 24
+  }
+}

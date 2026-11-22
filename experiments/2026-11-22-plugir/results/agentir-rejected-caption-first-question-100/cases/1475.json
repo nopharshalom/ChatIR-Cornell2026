@@ -1,0 +1,71 @@
+{
+  "qid": 1475,
+  "initial": "a train is stopped at a large terminal next to another train",
+  "initial_rank": 147,
+  "evidence": [
+    "a row of red and blue buses parked in a parking lot near water",
+    "the airplanes are white and blue",
+    "a cranked yellow train is going down tracks",
+    "a yellow and black train engine",
+    "the steam locomotive is painted red",
+    "a blue and yellow train standing in a train station",
+    "a train engine in the sky",
+    "the front of the passenger train is yellow and black",
+    "an old train coming down the tracks",
+    "an old and yellow train at the station"
+  ],
+  "displayed_ids": [
+    37129,
+    33640,
+    24195,
+    5593,
+    48646,
+    7703,
+    37099,
+    22463,
+    15366,
+    8676
+  ],
+  "rejected_captions": [
+    "a train station",
+    "a blue and white passenger train is waiting for passengers",
+    "two passenger trains that are waiting to be inspected",
+    "a train sits on the tracks with a group of people walking",
+    "two blue trains on the track",
+    "a very large train sits at a station",
+    "a large group of people waiting for the train at a train station",
+    "a silver train is parked on the tracks",
+    "a group of four passenger trains parked at a station",
+    "a train coming into the station"
+  ],
+  "candidates": [
+    "Question: What is the color of the stopped train?",
+    "Question: What is the color of the train engine?",
+    "Question: What is the color of the second train stopped next to it?",
+    "Question: What is the color of the train engine?",
+    "Question: What is the color of the stopped train?"
+  ],
+  "control_candidates": [
+    "what is the color of the train engine stopped at the terminal?",
+    "what is the color of the train engine stopped at the terminal?",
+    "Question: what is the color of the train engine stopped at the terminal?",
+    "what is the location of the yellow and black train engine?",
+    "what is the color of the train engine located in the sky?"
+  ],
+  "control": {
+    "question": "what is the color of the train engine stopped at the terminal?",
+    "answer": "blue and red",
+    "rewrite": "a blue and red train engine is stopped at a large terminal next to another train",
+    "rank": 22,
+    "hit": false,
+    "raw_rank": 22,
+    "unseen_rank": 20
+  },
+  "variant": {
+    "question": "Question: What is the color of the second train stopped next to it?",
+    "answer": "silver",
+    "rewrite": "a train is stopped at a large terminal next to a silver train",
+    "raw_rank": 192,
+    "unseen_rank": 182
+  }
+}

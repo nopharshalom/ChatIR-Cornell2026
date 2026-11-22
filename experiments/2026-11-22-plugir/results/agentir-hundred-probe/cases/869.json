@@ -1,0 +1,102 @@
+{
+  "qid": 869,
+  "initial": "soccer players racing to get the ball on a soccer field",
+  "initial_rank": 22,
+  "evidence": [
+    "a group of men in red jump up and catch a frisbee",
+    "a large outdoor court with a tennis match",
+    "a man is playing tennis with a racquet and a crowd behind him",
+    "a crowd of people watching a tennis player play",
+    "a race track with horses on it",
+    "two zebras are running across a dirt field",
+    "the man is on the mound and the catcher is near him",
+    "a boy is playing soccer with a black soccer ball",
+    "a basketball game being played in the stands",
+    "little boy is kicking a soccer ball"
+  ],
+  "candidates": [
+    "Question: What color is the soccer ball being used by the players?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "Who are the soccer players racing on the field?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: What color is the soccer ball being used by the players?",
+      "answers": [
+        "black",
+        "white",
+        "green"
+      ],
+      "score": 0.043254852294921875
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "soccer ball",
+        "goal",
+        "net"
+      ],
+      "score": 0.025334835052490234
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "soccer ball",
+        "goal",
+        "net"
+      ],
+      "score": 0.025334835052490234,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "soccer ball",
+        "goal",
+        "net"
+      ],
+      "score": 0.025334835052490234,
+      "duplicate_of": 1
+    },
+    {
+      "question": "Who are the soccer players racing on the field?",
+      "answers": [
+        "men",
+        "women",
+        "boys"
+      ],
+      "score": 0.13112592697143555
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.059,
+  "probe_selection_seconds": 1.379,
+  "probe_llm_calls": 3,
+  "probe_search_queries": 9,
+  "arms": {
+    "kl": {
+      "question": "what is the other object in the image?",
+      "answer": "soccer ball",
+      "rewrite": "soccer players racing to get the soccer ball on a soccer field",
+      "rank": 26,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the other object in the image?",
+      "answer": "soccer ball",
+      "rewrite": "soccer players racing to get the soccer ball on a soccer field",
+      "rank": 26,
+      "hit": false
+    },
+    "probe": {
+      "question": "Who are the soccer players racing on the field?",
+      "answer": "94 and 8",
+      "rewrite": "soccer players number 94 and 8 racing to get the ball on a soccer field",
+      "rank": 13,
+      "hit": false
+    }
+  },
+  "seconds": 19.131
+}

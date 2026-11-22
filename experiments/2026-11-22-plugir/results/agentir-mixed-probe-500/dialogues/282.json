@@ -1,0 +1,142 @@
+{
+  "qid": 282,
+  "sample": "original",
+  "target": "unlabeled2017/000000039439.jpg",
+  "queries": [
+    "a man jumping in the air while throwing a frisbee",
+    "a man wearing swim trunks jumping in the air while throwing a frisbee"
+  ],
+  "ranks": [
+    40,
+    5
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a man jumping in the air while throwing a frisbee",
+      "question": "Question: What is the man wearing?",
+      "answer": "swim trunks",
+      "query_after": "a man wearing swim trunks jumping in the air while throwing a frisbee",
+      "displayed_ids": [
+        49376,
+        43961,
+        37350,
+        35680,
+        49656,
+        14372,
+        13161,
+        46115,
+        26102,
+        30964
+      ],
+      "selected_ids": [
+        38021,
+        31717,
+        2614,
+        24528,
+        43629,
+        44139,
+        35029,
+        6684,
+        4717
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the man wearing?",
+          "answers": [
+            "white t-shirt",
+            "black shirt",
+            "blue shirt"
+          ],
+          "score": 0.1717534065246582
+        },
+        {
+          "question": "what is the location where the man is throwing the frisbee?",
+          "answers": [
+            "in the air",
+            "outdoors",
+            "park"
+          ],
+          "score": 0.015123367309570312
+        },
+        {
+          "question": "what is the color of the frisbee the man is throwing?",
+          "answers": [
+            "orange",
+            "blue",
+            "green"
+          ],
+          "score": 0.08599424362182617
+        },
+        {
+          "question": "what is the location where the man is jumping in the air while throwing a frisbee?",
+          "answers": [
+            "trees",
+            "a field",
+            "a parking garage"
+          ],
+          "score": 0.16852521896362305
+        },
+        {
+          "question": "what is the name of the dog with the man in the image?",
+          "answers": [
+            "pit bull",
+            "no dog",
+            "none"
+          ],
+          "score": 0.017910480499267578
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the man wearing?",
+          "answers": [
+            "red shirt and blue shorts",
+            "black t-shirt and jeans",
+            "white tank top and shorts"
+          ],
+          "score": 0.23752450942993164
+        },
+        {
+          "question": "Question: What color is the frisbee the man is throwing?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.0649251937866211
+        },
+        {
+          "question": "Question: What is the location where the man is jumping and throwing the frisbee?",
+          "answers": [
+            "parking garage",
+            "field",
+            "trees"
+          ],
+          "score": 0.13674497604370117
+        },
+        {
+          "question": "Question: What is the color of the man's shirt?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.12516069412231445
+        },
+        {
+          "question": "Question: Question: What is the color of the man's shirt?",
+          "answers": [
+            "blue",
+            "red",
+            "black"
+          ],
+          "score": 0.12669897079467773
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

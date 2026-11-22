@@ -1,0 +1,1336 @@
+{
+  "qid": 1301,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000086930.jpg",
+  "queries": [
+    "a bakery display case filled with a large variety of different doughnuts",
+    "a woman looking at a bakery display case filled with a large variety of different doughnuts",
+    "a bakery display case filled with a large variety of different doughnuts, with a woman looking at the doughnuts and no man visible in the image",
+    "a glass bakery display case filled with a large variety of different doughnuts, with a woman looking at them and no man visible",
+    "a glass bakery display case filled with a large variety of different doughnuts, with no woman or man visible in the image",
+    "A glass bakery display case is filled with a wide variety of doughnuts, and neither men nor women are visible in the image.",
+    "a glass bakery display case filled with a large variety of different doughnuts, with no woman or man visible in the image",
+    "a glass bakery display case filled with a large variety of different doughnuts, with no people visible in the image",
+    "a glass bakery display case filled with a large variety of brown doughnuts, with no woman or man visible in the image",
+    "A glass bakery display case is filled with a wide variety of brown doughnuts, and neither a woman nor a man is visible in the image.",
+    "a black bakery display case filled with brown doughnuts, with no woman or man visible in the image"
+  ],
+  "ranks": [
+    13,
+    21,
+    12,
+    20,
+    17,
+    23,
+    17,
+    17,
+    19,
+    20,
+    5
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a bakery display case filled with a large variety of different doughnuts",
+      "question": "Question: Question: What object is the woman in the image looking at?",
+      "answer": "Donuts.",
+      "query_after": "a woman looking at a bakery display case filled with a large variety of different doughnuts",
+      "displayed_ids": [
+        19781,
+        17689,
+        16869,
+        40524,
+        27089,
+        13742,
+        33322,
+        17096,
+        33423,
+        23677
+      ],
+      "selected_ids": [
+        5583,
+        32276,
+        37201,
+        48082,
+        25430,
+        37876,
+        15458,
+        33349,
+        34385,
+        15767
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: How many boxes of glazed doughnuts are shown in the image?",
+          "answers": [
+            "1",
+            "3",
+            "6"
+          ],
+          "score": 0.0013570785522460938
+        },
+        {
+          "question": "Question: What is the condition or coating of the doughnuts in the bakery display case?",
+          "answers": [
+            "glazed",
+            "sprinkled",
+            "powdered"
+          ],
+          "score": 0.016973495483398438
+        },
+        {
+          "question": "Question: Question: What object is the woman in the image looking at?",
+          "answers": [
+            "fruit",
+            "doughnuts",
+            "donuts"
+          ],
+          "score": 0.0348968505859375
+        },
+        {
+          "question": "What types of doughnuts are available in the bakery display case?",
+          "answers": [
+            "glazed",
+            "sprinkled",
+            "jelly"
+          ],
+          "score": 0.012904167175292969
+        },
+        {
+          "question": "Question: Where is the large tray of glazed doughnuts located?",
+          "answers": [
+            "in a bakery",
+            "on a counter",
+            "in a box"
+          ],
+          "score": 0.02865123748779297
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the display case?",
+          "answers": [
+            "white",
+            "silver",
+            "metallic"
+          ],
+          "score": 0.019519329071044922
+        },
+        {
+          "question": "Question: What is the specific arrangement or quantity of the doughnuts in the display case?",
+          "answers": [
+            "large tray",
+            "six box",
+            "three donuts"
+          ],
+          "score": 0.028452396392822266
+        },
+        {
+          "question": "Question: What is the color of the doughnuts displayed in the case?",
+          "answers": [
+            "glazed",
+            "chocolate",
+            "sprinkled"
+          ],
+          "score": 0.012019157409667969
+        },
+        {
+          "question": "Question: Where is the display case located?",
+          "answers": [
+            "in a bakery",
+            "in a cafe",
+            "in a store"
+          ],
+          "score": 0.007601261138916016
+        },
+        {
+          "question": "Question: What is the location of the display case filled with doughnuts?",
+          "answers": [
+            "a supermarket",
+            "a bakery",
+            "a restaurant"
+          ],
+          "score": 0.006400108337402344
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a woman looking at a bakery display case filled with a large variety of different doughnuts",
+      "question": "what is the man doing in the image?",
+      "answer": "no man is visible in the image.",
+      "query_after": "a bakery display case filled with a large variety of different doughnuts, with a woman looking at the doughnuts and no man visible in the image",
+      "displayed_ids": [
+        22150,
+        5148,
+        17689,
+        17096,
+        33322,
+        23677,
+        34101,
+        13742,
+        19781,
+        9185
+      ],
+      "selected_ids": [
+        5583,
+        11371,
+        25281,
+        15458,
+        30569,
+        6476,
+        33050,
+        41971,
+        32276,
+        46032
+      ],
+      "rejected_count": 14,
+      "usual_paths": [
+        {
+          "question": "what is the man doing in the image?",
+          "answers": [
+            "grabbing a baking sheet out of an oven",
+            "walking along a sidewalk with a suitcase",
+            "eating a doughnut"
+          ],
+          "score": 0.14296197891235352
+        },
+        {
+          "question": "what is the man doing in the image?",
+          "answers": [
+            "grabbing a baking sheet out of an oven",
+            "walking along a sidewalk with a suitcase",
+            "eating a doughnut"
+          ],
+          "score": 0.14296197891235352,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the man doing in the image?",
+          "answers": [
+            "grabbing a baking sheet out of an oven",
+            "walking along a sidewalk with a suitcase",
+            "eating a doughnut"
+          ],
+          "score": 0.14296197891235352,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: Is the man grabbing a baking sheet out of an oven or is he walking along a sidewalk with a suitcase?",
+          "answers": [
+            "grabbing a baking sheet out of an oven",
+            "walking along a sidewalk with a suitcase",
+            "neither"
+          ],
+          "score": 0.01679229736328125
+        },
+        {
+          "question": "what is the location where the man is grabbing a baking sheet out of an oven?",
+          "answers": [
+            "oven",
+            "kitchen",
+            "bakery"
+          ],
+          "score": 0.006267070770263672
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Where is the man located in the image?",
+          "answers": [
+            "in an oven",
+            "outdoors",
+            "inside a store"
+          ],
+          "score": 0.0774850845336914
+        },
+        {
+          "question": "Question: What is the man doing in the image?",
+          "answers": [
+            "taking a tray out of the oven",
+            "walking with a suitcase",
+            "grazing on donuts"
+          ],
+          "score": 0.07810068130493164
+        },
+        {
+          "question": "Question: What is the man doing in the image?",
+          "answers": [
+            "taking a tray out of the oven",
+            "walking with a suitcase",
+            "grazing on donuts"
+          ],
+          "score": 0.07810068130493164,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the man doing in the image?",
+          "answers": [
+            "taking a tray out of the oven",
+            "walking with a suitcase",
+            "grazing on donuts"
+          ],
+          "score": 0.07810068130493164,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the man wearing in the image?",
+          "answers": [
+            "shirt and pants",
+            "apron and hat",
+            "suit and tie"
+          ],
+          "score": 0.057202816009521484
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a bakery display case filled with a large variety of different doughnuts, with a woman looking at the doughnuts and no man visible in the image",
+      "question": "What type of bakery display case is holding the doughnuts?",
+      "answer": "glass",
+      "query_after": "a glass bakery display case filled with a large variety of different doughnuts, with a woman looking at them and no man visible",
+      "displayed_ids": [
+        17096,
+        17689,
+        22150,
+        23677,
+        33322,
+        19781,
+        5148,
+        13742,
+        27089,
+        33423
+      ],
+      "selected_ids": [
+        25281,
+        6427,
+        11596,
+        19346,
+        40101,
+        47881,
+        32276,
+        41299,
+        2463,
+        5583
+      ],
+      "rejected_count": 14,
+      "usual_paths": [
+        {
+          "question": "How many different varieties of doughnuts are visible in the bakery display case?",
+          "answers": [
+            "Many",
+            "Several",
+            "A few"
+          ],
+          "score": 0.0016837120056152344
+        },
+        {
+          "question": "What type of bakery display case is holding the doughnuts?",
+          "answers": [
+            "glass",
+            "wood",
+            "metal"
+          ],
+          "score": 0.03319835662841797
+        },
+        {
+          "question": "Question: What types of doughnuts are visible in the bakery display case?",
+          "answers": [
+            "Glazed",
+            "Chocolate",
+            "Strawberry"
+          ],
+          "score": 0.02631378173828125
+        },
+        {
+          "question": "what is the color of the doughnuts visible in the bakery display case?",
+          "answers": [
+            "pink",
+            "brown",
+            "glazed"
+          ],
+          "score": 0.021319866180419922
+        },
+        {
+          "question": "what is the location of the bakery display case filled with doughnuts?",
+          "answers": [
+            "inside",
+            "outside",
+            "unknown"
+          ],
+          "score": 0.008640766143798828
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is the display case made of glass?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0009288787841796875
+        },
+        {
+          "question": "Question: What is the man holding in the image?",
+          "answers": [
+            "a tray of donuts",
+            "no man is visible",
+            "nothing"
+          ],
+          "score": 0.02003622055053711
+        },
+        {
+          "question": "Question: What is the man holding in the image?",
+          "answers": [
+            "a tray of donuts",
+            "no man is visible",
+            "nothing"
+          ],
+          "score": 0.02003622055053711,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the man holding in the image?",
+          "answers": [
+            "a tray of donuts",
+            "no man is visible",
+            "nothing"
+          ],
+          "score": 0.02003622055053711,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the man holding in the image?",
+          "answers": [
+            "a tray of donuts",
+            "no man is visible",
+            "nothing"
+          ],
+          "score": 0.02003622055053711,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 3,
+      "query_before": "a glass bakery display case filled with a large variety of different doughnuts, with a woman looking at them and no man visible",
+      "question": "Question: What is the woman wearing?",
+      "answer": "I'm unsure, as the image does not show a woman.",
+      "query_after": "a glass bakery display case filled with a large variety of different doughnuts, with no woman or man visible in the image",
+      "displayed_ids": [
+        22150,
+        17096,
+        23677,
+        19781,
+        17689,
+        33322,
+        13742,
+        27089,
+        41498,
+        15833
+      ],
+      "selected_ids": [
+        42448,
+        5583,
+        29266,
+        2463,
+        1936,
+        19238,
+        13424,
+        16247,
+        13784,
+        39329
+      ],
+      "rejected_count": 16,
+      "usual_paths": [
+        {
+          "question": "What is the color of the doughnuts in the display case?",
+          "answers": [
+            "pink",
+            "glazed",
+            "chocolate"
+          ],
+          "score": 0.020576000213623047
+        },
+        {
+          "question": "what is the color of the doughnuts in the display case?",
+          "answers": [
+            "pink",
+            "brown",
+            "white"
+          ],
+          "score": 0.027602672576904297
+        },
+        {
+          "question": "what is the color of the doughnuts in the display case?",
+          "answers": [
+            "pink",
+            "brown",
+            "white"
+          ],
+          "score": 0.027602672576904297,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the doughnuts in the display case?",
+          "answers": [
+            "pink",
+            "brown",
+            "white"
+          ],
+          "score": 0.027602672576904297,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the doughnuts in the display case?",
+          "answers": [
+            "pink",
+            "brown",
+            "white"
+          ],
+          "score": 0.027602672576904297,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is the woman sitting or standing in the image?",
+          "answers": [
+            "sitting",
+            "standing",
+            "unknown"
+          ],
+          "score": 0.004351139068603516
+        },
+        {
+          "question": "Question: Are there other items besides doughnuts in the display case?",
+          "answers": [
+            "Yes",
+            "No",
+            "Only doughnuts"
+          ],
+          "score": 0.0024805068969726562
+        },
+        {
+          "question": "Question: What is the woman wearing?",
+          "answers": [
+            "a pink shirt",
+            "a white shirt",
+            "a black shirt"
+          ],
+          "score": 0.0424957275390625
+        },
+        {
+          "question": "Question: Are there other items besides doughnuts in the display case?",
+          "answers": [
+            "Yes",
+            "No",
+            "Only doughnuts"
+          ],
+          "score": 0.0024805068969726562,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the woman wearing?",
+          "answers": [
+            "a pink shirt",
+            "a white shirt",
+            "a black shirt"
+          ],
+          "score": 0.0424957275390625,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 4,
+      "query_before": "a glass bakery display case filled with a large variety of different doughnuts, with no woman or man visible in the image",
+      "question": "what color is the woman wearing in the image?",
+      "answer": "unsure",
+      "query_after": "A glass bakery display case is filled with a wide variety of doughnuts, and neither men nor women are visible in the image.",
+      "displayed_ids": [
+        23677,
+        19781,
+        17096,
+        13742,
+        27089,
+        17689,
+        33322,
+        22150,
+        15833,
+        44491
+      ],
+      "selected_ids": [
+        5583,
+        32276,
+        15458,
+        4956,
+        49542,
+        42448,
+        47881,
+        6427,
+        29045,
+        45969
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "What color are the doughnuts visible in the display case?",
+          "answers": [
+            "glazed",
+            "chocolate",
+            "various"
+          ],
+          "score": 0.008768081665039062
+        },
+        {
+          "question": "what color are the doughnuts visible in the image?",
+          "answers": [
+            "glazed",
+            "chocolate",
+            "fudge"
+          ],
+          "score": 0.011229515075683594
+        },
+        {
+          "question": "what color are the doughnuts visible in the image?",
+          "answers": [
+            "glazed",
+            "chocolate",
+            "fudge"
+          ],
+          "score": 0.011229515075683594,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what color are the doughnuts on the tray in the image?",
+          "answers": [
+            "Chocolate",
+            "Glazed",
+            "Fruit"
+          ],
+          "score": 0.02445840835571289
+        },
+        {
+          "question": "what color is the glass display case filled with a large variety of different doughnuts?",
+          "answers": [
+            "clear",
+            "brown",
+            "dark"
+          ],
+          "score": 0.009708404541015625
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color are the doughnuts on the tray?",
+          "answers": [
+            "glazed",
+            "chocolate",
+            "plain"
+          ],
+          "score": 0.00983285903930664
+        },
+        {
+          "question": "what color are the doughnuts on the tray?",
+          "answers": [
+            "glazed",
+            "chocolate",
+            "plain"
+          ],
+          "score": 0.00983285903930664,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color are the doughnuts on the tray?",
+          "answers": [
+            "glazed",
+            "chocolate",
+            "plain"
+          ],
+          "score": 0.00983285903930664,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color are the doughnuts in the display case?",
+          "answers": [
+            "brown",
+            "pink",
+            "yellow"
+          ],
+          "score": 0.0379939079284668
+        },
+        {
+          "question": "what color is the woman wearing in the image?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.04770517349243164
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "A glass bakery display case is filled with a wide variety of doughnuts, and neither men nor women are visible in the image.",
+      "question": "what is the woman wearing?",
+      "answer": "unsure",
+      "query_after": "a glass bakery display case filled with a large variety of different doughnuts, with no woman or man visible in the image",
+      "displayed_ids": [
+        17096,
+        23677,
+        19781,
+        22150,
+        13742,
+        27089,
+        17689,
+        33322,
+        15833,
+        44491
+      ],
+      "selected_ids": [
+        42414,
+        49913,
+        2973,
+        2463,
+        19238,
+        22532,
+        46816,
+        65,
+        1295,
+        31591
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "what are the donuts in the display case filled with?",
+          "answers": [
+            "glazed",
+            "powdered",
+            "chocolate"
+          ],
+          "score": 0.01865863800048828
+        },
+        {
+          "question": "what is the color of the donuts being displayed in the glass bakery case?",
+          "answers": [
+            "pink",
+            "brown",
+            "white"
+          ],
+          "score": 0.027902603149414062
+        },
+        {
+          "question": "what is the color of the donuts displayed in the glass bakery case?",
+          "answers": [
+            "pink",
+            "glazed",
+            "chocolate"
+          ],
+          "score": 0.019675731658935547
+        },
+        {
+          "question": "what is the color of the donuts displayed in the glass bakery case?",
+          "answers": [
+            "pink",
+            "glazed",
+            "chocolate"
+          ],
+          "score": 0.019675731658935547,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the doughnuts in the display case?",
+          "answers": [
+            "brown",
+            "glazed",
+            "sprinkled"
+          ],
+          "score": 0.010868072509765625
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what fruit is on the table next to the rack of donuts?",
+          "answers": [
+            "apples",
+            "bananas",
+            "oranges"
+          ],
+          "score": 0.0322418212890625
+        },
+        {
+          "question": "what is the woman wearing?",
+          "answers": [
+            "unsure",
+            "white apron",
+            "black shirt"
+          ],
+          "score": 0.03456735610961914
+        },
+        {
+          "question": "what is the color of the donuts in the display case?",
+          "answers": [
+            "pink",
+            "white",
+            "chocolate"
+          ],
+          "score": 0.03218221664428711
+        },
+        {
+          "question": "what is the color of the donuts in the image?",
+          "answers": [
+            "pink",
+            "white",
+            "brown"
+          ],
+          "score": 0.03208494186401367
+        },
+        {
+          "question": "what is the color of the donuts in the image?",
+          "answers": [
+            "pink",
+            "white",
+            "brown"
+          ],
+          "score": 0.03208494186401367,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a glass bakery display case filled with a large variety of different doughnuts, with no woman or man visible in the image",
+      "question": "what is the woman wearing in the image?",
+      "answer": "unsure",
+      "query_after": "a glass bakery display case filled with a large variety of different doughnuts, with no people visible in the image",
+      "displayed_ids": [
+        23677,
+        19781,
+        17096,
+        13742,
+        27089,
+        17689,
+        33322,
+        22150,
+        15833,
+        44491
+      ],
+      "selected_ids": [
+        28890,
+        45969,
+        38050,
+        32276,
+        23878,
+        45345,
+        5708,
+        26907,
+        65,
+        41972
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "what is the woman wearing?",
+          "answers": [
+            "unsure",
+            "a white uniform",
+            "an apron"
+          ],
+          "score": 0.028598785400390625
+        },
+        {
+          "question": "what is the woman wearing in the bakery display case filled with a large variety of different doughnuts?",
+          "answers": [
+            "unsure",
+            "no woman visible",
+            "a woman is not present"
+          ],
+          "score": 0.005487918853759766
+        },
+        {
+          "question": "what is the woman wearing in the image?",
+          "answers": [
+            "a white apron",
+            "a pink shirt",
+            "an orange hat"
+          ],
+          "score": 0.05563783645629883
+        },
+        {
+          "question": "what is the woman wearing?",
+          "answers": [
+            "unsure",
+            "a white uniform",
+            "an apron"
+          ],
+          "score": 0.028598785400390625,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the woman wearing in the image?",
+          "answers": [
+            "a white apron",
+            "a pink shirt",
+            "an orange hat"
+          ],
+          "score": 0.05563783645629883,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the woman wearing?",
+          "answers": [
+            "unsure",
+            "a white uniform",
+            "an apron"
+          ],
+          "score": 0.028598785400390625
+        },
+        {
+          "question": "what is the woman wearing?",
+          "answers": [
+            "unsure",
+            "a white uniform",
+            "an apron"
+          ],
+          "score": 0.028598785400390625,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: what is the woman wearing?",
+          "answers": [
+            "a white apron",
+            "a pink shirt",
+            "no woman is visible"
+          ],
+          "score": 0.0398716926574707
+        },
+        {
+          "question": "what is the woman wearing?",
+          "answers": [
+            "unsure",
+            "a white uniform",
+            "an apron"
+          ],
+          "score": 0.028598785400390625,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color are the doughnuts in the display case?",
+          "answers": [
+            "colorful",
+            "assorted",
+            "various"
+          ],
+          "score": 0.003383636474609375
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a glass bakery display case filled with a large variety of different doughnuts, with no people visible in the image",
+      "question": "what are the donuts in the image colored like?",
+      "answer": "brown",
+      "query_after": "a glass bakery display case filled with a large variety of brown doughnuts, with no woman or man visible in the image",
+      "displayed_ids": [
+        19781,
+        23677,
+        27089,
+        13742,
+        17689,
+        44491,
+        17096,
+        33322,
+        40524,
+        15833
+      ],
+      "selected_ids": [
+        44143,
+        45969,
+        35731,
+        46816,
+        24159,
+        47881,
+        33050,
+        41972,
+        15458,
+        37905
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "what color are the donuts in the image?",
+          "answers": [
+            "glazed",
+            "chocolate",
+            "sprinkles"
+          ],
+          "score": 0.012668132781982422
+        },
+        {
+          "question": "what color are the donuts in the image?",
+          "answers": [
+            "glazed",
+            "chocolate",
+            "sprinkles"
+          ],
+          "score": 0.012668132781982422,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the donuts in the image?",
+          "answers": [
+            "pink",
+            "glazed",
+            "various"
+          ],
+          "score": 0.021991729736328125
+        },
+        {
+          "question": "what color are the donuts in the image?",
+          "answers": [
+            "glazed",
+            "chocolate",
+            "sprinkles"
+          ],
+          "score": 0.012668132781982422,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what are the donuts in the image colored like?",
+          "answers": [
+            "glazed",
+            "pink",
+            "with sprinkles"
+          ],
+          "score": 0.028319358825683594
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Where is the display case located?",
+          "answers": [
+            "in a bakery",
+            "on a counter",
+            "on a table"
+          ],
+          "score": 0.010309696197509766
+        },
+        {
+          "question": "Question: What is the color of the display case?",
+          "answers": [
+            "glass",
+            "metal",
+            "wood"
+          ],
+          "score": 0.020465850830078125
+        },
+        {
+          "question": "Question: What is the color of the display case?",
+          "answers": [
+            "glass",
+            "metal",
+            "wood"
+          ],
+          "score": 0.020465850830078125,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the display case?",
+          "answers": [
+            "glass",
+            "metal",
+            "wood"
+          ],
+          "score": 0.020465850830078125,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the display case?",
+          "answers": [
+            "glass",
+            "metal",
+            "wood"
+          ],
+          "score": 0.020465850830078125,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a glass bakery display case filled with a large variety of brown doughnuts, with no woman or man visible in the image",
+      "question": "what objects are placed on the table next to the display case?",
+      "answer": "unsure",
+      "query_after": "A glass bakery display case is filled with a wide variety of brown doughnuts, and neither a woman nor a man is visible in the image.",
+      "displayed_ids": [
+        23677,
+        17096,
+        19781,
+        27089,
+        13742,
+        15407,
+        27725,
+        17689,
+        43134,
+        47329
+      ],
+      "selected_ids": [
+        35731,
+        41498,
+        65,
+        29266,
+        2973,
+        41972,
+        34101,
+        44143,
+        15458
+      ],
+      "rejected_count": 21,
+      "usual_paths": [
+        {
+          "question": "what is the specific location or type of bakery display case holding the brown donuts?",
+          "answers": [
+            "glass",
+            "wood"
+          ],
+          "score": 0.00731658935546875
+        },
+        {
+          "question": "what specific location or type of bakery display case is holding the brown donuts?",
+          "answers": [
+            "glass",
+            "stall",
+            "table"
+          ],
+          "score": 0.0064411163330078125
+        },
+        {
+          "question": "what is the specific location or type of bakery display case holding the brown donuts?",
+          "answers": [
+            "glass",
+            "wood"
+          ],
+          "score": 0.00731658935546875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the specific location or type of bakery display case holding the brown donuts?",
+          "answers": [
+            "glass",
+            "wood"
+          ],
+          "score": 0.00731658935546875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the specific location or type of bakery display case holding the brown donuts?",
+          "answers": [
+            "glass",
+            "wood"
+          ],
+          "score": 0.00731658935546875,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what are the donuts in the image glazed with?",
+          "answers": [
+            "powdered sugar",
+            "no glaze",
+            "chocolate"
+          ],
+          "score": 0.020319461822509766
+        },
+        {
+          "question": "what objects are placed on the table next to the display case?",
+          "answers": [
+            "fruit",
+            "trays of donuts",
+            "breads"
+          ],
+          "score": 0.02826070785522461
+        },
+        {
+          "question": "what objects are placed on the table next to the display case?",
+          "answers": [
+            "fruit",
+            "trays of donuts",
+            "breads"
+          ],
+          "score": 0.02826070785522461,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what objects are placed on the table next to the display case?",
+          "answers": [
+            "fruit",
+            "trays of donuts",
+            "breads"
+          ],
+          "score": 0.02826070785522461,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what objects are placed on the table next to the display case?",
+          "answers": [
+            "fruit",
+            "trays of donuts",
+            "breads"
+          ],
+          "score": 0.02826070785522461,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "A glass bakery display case is filled with a wide variety of brown doughnuts, and neither a woman nor a man is visible in the image.",
+      "question": "what color is the counter or table where the bakery display case is located?",
+      "answer": "black",
+      "query_after": "a black bakery display case filled with brown doughnuts, with no woman or man visible in the image",
+      "displayed_ids": [
+        17096,
+        23677,
+        19781,
+        13742,
+        22150,
+        27089,
+        17689,
+        15407,
+        43134,
+        33322
+      ],
+      "selected_ids": [
+        44143,
+        33423,
+        3844,
+        3721,
+        32276,
+        11494,
+        17509,
+        8803
+      ],
+      "rejected_count": 21,
+      "usual_paths": [
+        {
+          "question": "what is the material of the counter or surface holding the tray of donuts?",
+          "answers": [
+            "wood",
+            "metal",
+            "plastic"
+          ],
+          "score": 0.01862955093383789
+        },
+        {
+          "question": "what is the material of the counter or surface holding the tray of donuts?",
+          "answers": [
+            "wood",
+            "metal",
+            "plastic"
+          ],
+          "score": 0.01862955093383789,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the material of the counter or surface holding the tray of donuts?",
+          "answers": [
+            "wood",
+            "metal",
+            "plastic"
+          ],
+          "score": 0.01862955093383789,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the material of the counter or surface holding the tray of donuts?",
+          "answers": [
+            "wood",
+            "metal",
+            "plastic"
+          ],
+          "score": 0.01862955093383789,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the material of the counter or surface holding the tray of donuts?",
+          "answers": [
+            "wood",
+            "metal",
+            "plastic"
+          ],
+          "score": 0.01862955093383789,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the material of the counter or table where the bakery display case is located?",
+          "answers": [
+            "wood",
+            "metal",
+            "tile"
+          ],
+          "score": 0.018501758575439453
+        },
+        {
+          "question": "what is the material of the counter or table where the bakery display case is located?",
+          "answers": [
+            "wood",
+            "metal",
+            "tile"
+          ],
+          "score": 0.018501758575439453,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the material of the counter or table where the bakery display case is located?",
+          "answers": [
+            "wood",
+            "metal",
+            "tile"
+          ],
+          "score": 0.018501758575439453,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the material of the counter or table where the bakery display case is located?",
+          "answers": [
+            "wood",
+            "metal",
+            "tile"
+          ],
+          "score": 0.018501758575439453,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the counter or table where the bakery display case is located?",
+          "answers": [
+            "black",
+            "white",
+            "wood"
+          ],
+          "score": 0.028738975524902344
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

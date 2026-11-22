@@ -1,0 +1,71 @@
+{
+  "qid": 920,
+  "initial": "a city street in the middle of the day",
+  "initial_rank": 79,
+  "evidence": [
+    "a black and white photograph of several cars driving on a busy city street",
+    "a city street full of traffic with tall buildings and a huge bus",
+    "a busy street with pedestrians and buses",
+    "a traffic signal with a street sign, lights, and a stop light",
+    "an old picture of the city of new york",
+    "a busy street in new york city at night",
+    "a sign on the side of a street with trees behind",
+    "there are many cars and a lot of people in the picture",
+    "a black traffic light and a tree",
+    "a narrow alley containing several shops, a bakery, and a bike"
+  ],
+  "displayed_ids": [
+    22608,
+    14490,
+    49249,
+    2465,
+    18766,
+    25139,
+    5307,
+    38403,
+    13077,
+    12089
+  ],
+  "rejected_captions": [
+    "the street lights are high on a cloudy day",
+    "a city street is filled with people and cars",
+    "a city street crossing a street with trees and a street sign",
+    "an empty intersection near a small town with houses, and businesses",
+    "a street sign",
+    "a crowd of people walking down a busy city street",
+    "a street in a town with signs hanging from it",
+    "a city street with a clock tower and some people",
+    "a street intersection that is not crowded",
+    "a large gray building"
+  ],
+  "candidates": [
+    "Question: Is the city street busy or empty?",
+    "Question: What color is the sky?",
+    "Question: What type of vehicle is prominently featured in the image?",
+    "Question: What color is the bus featured in the image?",
+    "Question: What color is the traffic light in the image?"
+  ],
+  "control_candidates": [
+    "what is the other object in the image?",
+    "Question: Is there a huge bus visible in the city street?",
+    "Question: Which specific location is the city street depicted in?",
+    "Question: Is there a huge bus visible in the city street?",
+    "Question: Is there a huge bus visible in the city street?"
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "answer": "forklift",
+    "rewrite": "a city street in the middle of the day with a forklift",
+    "rank": 1583,
+    "hit": false,
+    "raw_rank": 1583,
+    "unseen_rank": 1573
+  },
+  "variant": {
+    "question": "Question: Is the city street busy or empty?",
+    "answer": "busy",
+    "rewrite": "a busy city street in the middle of the day",
+    "raw_rank": 138,
+    "unseen_rank": 134
+  }
+}

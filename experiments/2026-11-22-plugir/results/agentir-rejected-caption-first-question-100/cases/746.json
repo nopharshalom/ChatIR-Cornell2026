@@ -1,0 +1,71 @@
+{
+  "qid": 746,
+  "initial": "a red train engine with cars behind it next to a small foothill",
+  "initial_rank": 86,
+  "evidence": [
+    "two trains on the tracks with a bunch of people riding",
+    "a train with many cars going on a train track",
+    "a yellow and white train on the tracks near the woods",
+    "an airplane flying over a traffic-free street with a road behind",
+    "a hydrant in a wooded area with green vegetation",
+    "a red fire truck parked in front of a warehouse",
+    "a train with many cars on it's train",
+    "an older train sitting on tracks at a train station",
+    "a red bus parked at the curb next to a terminal",
+    "a yellow and black train driving through the tracks"
+  ],
+  "displayed_ids": [
+    19475,
+    16809,
+    44290,
+    45941,
+    12109,
+    38889,
+    11669,
+    21536,
+    31494,
+    10040
+  ],
+  "rejected_captions": [
+    "a red train on a train track",
+    "a red train driving along railroad tracks next to a mountain",
+    "some bushes and plants are in front of a train tracks",
+    "a red train on train tracks near some green plants",
+    "red and white train parked in the countryside",
+    "colorful train cars parked in front of a grassy field",
+    "a red train is moving down the track",
+    "red train engine on tracks",
+    "the train is red and yellow",
+    "a train driving down a track through a small park"
+  ],
+  "candidates": [
+    "Question: What is the color of the cars behind the red train engine?",
+    "Question: What is the color of the train engine?",
+    "Question: What is the color of the train engine?",
+    "what is the color of the cars behind the red train engine?",
+    "Question: What is the color of the train engine?"
+  ],
+  "control_candidates": [
+    "what is the other object in the image?",
+    "what is the color of the train engine in the image?",
+    "what is the location of the red train engine?",
+    "what is the ground cover or terrain type next to the red train engine?",
+    "what is the color of the train engine in the image?"
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "answer": "crane",
+    "rewrite": "a red train engine with cars behind it next to a small foothill and a crane",
+    "rank": 8,
+    "hit": true,
+    "raw_rank": 8,
+    "unseen_rank": 4
+  },
+  "variant": {
+    "question": "Question: What is the color of the train engine?",
+    "answer": "orange",
+    "rewrite": "an orange train engine with cars behind it next to a small foothill",
+    "raw_rank": 6,
+    "unseen_rank": 6
+  }
+}

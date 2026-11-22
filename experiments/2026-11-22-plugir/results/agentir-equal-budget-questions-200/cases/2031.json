@@ -1,0 +1,78 @@
+{
+  "qid": 2031,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the building in the image?",
+    "Question: What is the primary mode of transportation visible in the busy downtown area?",
+    "Question: What is the color of the bus driving down the street next to a red and white bus?",
+    "what is the time of day depicted in the downtown area with busy activity?",
+    "Question: How many buses are visible driving down the street in the image?"
+  ],
+  "second_candidates": [
+    "what is the time of day depicted in the downtown area that is full of busy activity?",
+    "what is the color of the brick building visible in the downtown area?",
+    "Question: What type of vehicles are driving down the road in the downtown area?",
+    "what are the colors of the buses driving down the road in the downtown area?",
+    "Question: What is the activity of the people walking in the downtown area?"
+  ],
+  "paths": [
+    {
+      "question": "what is the time of day depicted in the downtown area that is full of busy activity?",
+      "answers": [
+        "daytime",
+        "night",
+        "dusk"
+      ],
+      "score": 0.0628056526184082
+    },
+    {
+      "question": "what is the color of the brick building visible in the downtown area?",
+      "answers": [
+        "red",
+        "white",
+        "gray"
+      ],
+      "score": 0.04631948471069336
+    },
+    {
+      "question": "Question: What type of vehicles are driving down the road in the downtown area?",
+      "answers": [
+        "buses",
+        "cars",
+        "traffic"
+      ],
+      "score": 0.06823301315307617
+    },
+    {
+      "question": "what are the colors of the buses driving down the road in the downtown area?",
+      "answers": [
+        "red and white",
+        "black and yellow",
+        "blue and silver"
+      ],
+      "score": 0.11493682861328125
+    },
+    {
+      "question": "Question: What is the activity of the people walking in the downtown area?",
+      "answers": [
+        "walking",
+        "talking",
+        "biking"
+      ],
+      "score": 0.06913518905639648
+    }
+  ],
+  "control": {
+    "question": "Question: What is the color of the bus driving down the street next to a red and white bus?",
+    "score": 0.23305225372314453
+  },
+  "mixed": {
+    "question": "Question: What is the color of the bus driving down the street next to a red and white bus?",
+    "score": 0.23305225372314453
+  },
+  "control_rank": 879,
+  "mixed_rank": 879,
+  "usual_rank": 879,
+  "new_answer": null,
+  "new_rewrite": null
+}

@@ -1,0 +1,100 @@
+{
+  "qid": 1184,
+  "initial": "a little girl with brown hair in a ponytail who is outside by a bench",
+  "initial_rank": 19,
+  "evidence": [
+    "man on a bench reading a book",
+    "brown wooden bench with a pair of shoes on top",
+    "little girl in front of two colorful surfboards",
+    "three children sitting at a table with food in front of them",
+    "woman standing on a sidewalk looking at her cell phone",
+    "two children with one of the princesses",
+    "a young girl is throwing a kite on grass",
+    "a woman sitting on a bench in a park",
+    "a woman is looking at a horse with a red hat on",
+    "a little girl wearing a white dress and tennis racket"
+  ],
+  "candidates": [
+    "what activity is the little girl with brown hair in a ponytail engaged in while sitting on the bench?",
+    "what is the little girl wearing?",
+    "what is the color of the bench the little girl is sitting on?",
+    "Question: where is the little girl sitting?",
+    "what is the activity of the little girl with brown hair in a ponytail, and what is she wearing?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what activity is the little girl with brown hair in a ponytail engaged in while sitting on the bench?",
+      "answers": [
+        "reading a book",
+        "throwing a kite",
+        "eating food"
+      ],
+      "score": 0.13297700881958008
+    },
+    {
+      "question": "what is the little girl wearing?",
+      "answers": [
+        "white dress",
+        "leather jacket",
+        "casual clothes"
+      ],
+      "score": 0.09807443618774414
+    },
+    {
+      "question": "what is the color of the bench the little girl is sitting on?",
+      "answers": [
+        "brown",
+        "wooden",
+        "unknown"
+      ],
+      "score": 0.003509521484375
+    },
+    {
+      "question": "Question: where is the little girl sitting?",
+      "answers": [
+        "on a bench",
+        "outside",
+        "in a park"
+      ],
+      "score": 0.013173103332519531
+    },
+    {
+      "question": "what is the activity of the little girl with brown hair in a ponytail, and what is she wearing?",
+      "answers": [
+        "reading a book",
+        "sitting on a bench",
+        "throwing a kite"
+      ],
+      "score": 0.1262679100036621
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.153,
+  "probe_selection_seconds": 2.945,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the activity of the little girl with brown hair in a ponytail, and what is she wearing?",
+      "answer": "the little girl with brown hair in a ponytail is eating cake and wearing a pink shirt with a cake design on it.",
+      "rewrite": "a little girl with brown hair in a ponytail, wearing a pink shirt with a cake design, sits outside by a bench eating cake",
+      "rank": 2,
+      "hit": true
+    },
+    "random": {
+      "question": "what activity is the little girl with brown hair in a ponytail engaged in while sitting on the bench?",
+      "answer": "eating cake",
+      "rewrite": "a little girl with brown hair in a ponytail sits on a bench outside eating cake",
+      "rank": 2,
+      "hit": true
+    },
+    "probe": {
+      "question": "what activity is the little girl with brown hair in a ponytail engaged in while sitting on the bench?",
+      "answer": "eating cake",
+      "rewrite": "a little girl with brown hair in a ponytail sits on a bench outside eating cake",
+      "rank": 2,
+      "hit": true
+    }
+  },
+  "seconds": 17.455
+}

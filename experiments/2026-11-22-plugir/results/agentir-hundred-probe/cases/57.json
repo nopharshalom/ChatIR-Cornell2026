@@ -1,0 +1,100 @@
+{
+  "qid": 57,
+  "initial": "the giraffe is looking directly at the camera",
+  "initial_rank": 14,
+  "evidence": [
+    "two giraffes are standing inside of an enclosure",
+    "a single giraffe standing in a field with trees and bushes",
+    "three giraffes standing in a fenced area",
+    "giraffe in a zoo with rocks on a dirt path",
+    "a giraffe that is laying down in a pen with a fence around it",
+    "a giraffe standing near a fence with people behind it",
+    "two giraffes walking through a small trail of a dry desert",
+    "two giraffes behind a fenced in area with green trees",
+    "the zebra is stomping through the tall grass",
+    "giraffe is standing in a field with trees"
+  ],
+  "candidates": [
+    "What is the specific location of the giraffe looking directly at the camera?",
+    "Question: What is the gender of the giraffe looking directly at the camera?",
+    "Question: Where is the giraffe looking directly at the camera located?",
+    "Question: What color is the giraffe looking directly at the camera?",
+    "Question: What is the specific location of the giraffe looking directly at the camera?"
+  ],
+  "answer_paths": [
+    {
+      "question": "What is the specific location of the giraffe looking directly at the camera?",
+      "answers": [
+        "zoo enclosure",
+        "desert trail",
+        "field with trees"
+      ],
+      "score": 0.15571975708007812
+    },
+    {
+      "question": "Question: What is the gender of the giraffe looking directly at the camera?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.005915164947509766
+    },
+    {
+      "question": "Question: Where is the giraffe looking directly at the camera located?",
+      "answers": [
+        "1",
+        "5",
+        "9"
+      ],
+      "score": 0.0004286766052246094
+    },
+    {
+      "question": "Question: What color is the giraffe looking directly at the camera?",
+      "answers": [
+        "brown and white",
+        "orange and white",
+        "yellow and white"
+      ],
+      "score": 0.011182308197021484
+    },
+    {
+      "question": "Question: What is the specific location of the giraffe looking directly at the camera?",
+      "answers": [
+        "in an enclosure",
+        "in a field",
+        "in a zoo"
+      ],
+      "score": 0.0790395736694336
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.063,
+  "probe_selection_seconds": 2.782,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "What is the specific location of the giraffe looking directly at the camera?",
+      "answer": "I'm sorry, but the image does not show the specific location of the giraffe.",
+      "rewrite": "a giraffe looking directly at the camera",
+      "rank": 13,
+      "hit": false
+    },
+    "random": {
+      "question": "Question: Where is the giraffe looking directly at the camera located?",
+      "answer": "bottom left.",
+      "rewrite": "a giraffe located in the bottom left is looking directly at the camera",
+      "rank": 38,
+      "hit": false
+    },
+    "probe": {
+      "question": "What is the specific location of the giraffe looking directly at the camera?",
+      "answer": "I'm sorry, but the image does not show the specific location of the giraffe.",
+      "rewrite": "a giraffe looking directly at the camera",
+      "rank": 13,
+      "hit": false
+    }
+  },
+  "seconds": 16.042
+}

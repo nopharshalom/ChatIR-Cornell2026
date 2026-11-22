@@ -1,0 +1,80 @@
+{
+  "qid": 541,
+  "arm": "probe",
+  "after_round": 6,
+  "ranks": [
+    60,
+    13,
+    12,
+    43,
+    20,
+    29,
+    19,
+    22,
+    26,
+    27,
+    22
+  ],
+  "continuation": [
+    {
+      "round": 7,
+      "query_before": "a boy and a man ride together on a gray elephant near a lake",
+      "question": "Is the elephant standing still or walking?",
+      "answer": "standing still",
+      "query_after": "a gray elephant standing still on a lake with a boy and a male riding atop",
+      "searches": [
+        {
+          "query": "A gray elephant with a boy and a man riding on its back, standing in a lake.",
+          "ids": [
+            11996,
+            34989,
+            40294
+          ],
+          "captions": [
+            "a man riding a elephant in a body of water",
+            "man on the back of an elephant crossing the water",
+            "the elephant is walking over the rocks"
+          ]
+        },
+        {
+          "query": "A gray elephant with a boy and a man riding on its back, walking along a rocky shore.",
+          "ids": [
+            40294,
+            34989,
+            3678
+          ],
+          "captions": [
+            "the elephant is walking over the rocks",
+            "man on the back of an elephant crossing the water",
+            "man standing in the dirt with elephant"
+          ]
+        }
+      ],
+      "raw_plan": "A gray elephant with a boy and a man riding on its back, standing in a lake.\nA gray elephant with a boy and a man riding on its back, walking along a rocky shore.",
+      "generated": "Is the elephant standing still or walking?",
+      "fallback": false
+    },
+    {
+      "round": 8,
+      "query_before": "a gray elephant standing still on a lake with a boy and a male riding atop",
+      "question": "what is the other object in the image?",
+      "answer": "a lake",
+      "query_after": "A gray elephant stands motionless on a lake, with a boy and a male rider positioned on its back."
+    },
+    {
+      "round": 9,
+      "query_before": "A gray elephant stands motionless on a lake, with a boy and a male rider positioned on its back.",
+      "question": "what is the other object in the image?",
+      "answer": "a lake",
+      "query_after": "a boy and a man ride a gray elephant standing still on a lake"
+    },
+    {
+      "round": 10,
+      "query_before": "a boy and a man ride a gray elephant standing still on a lake",
+      "question": "Question: Is the elephant in the image walking or standing still?",
+      "answer": "standing still",
+      "query_after": "a gray elephant standing still on a lake with a boy and a male riding atop"
+    }
+  ],
+  "seconds": 63.1
+}

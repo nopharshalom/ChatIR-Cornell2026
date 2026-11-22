@@ -1,0 +1,87 @@
+{
+  "qid": 1743,
+  "arm": "probe",
+  "after_round": 5,
+  "ranks": [
+    243,
+    114,
+    47,
+    84,
+    100,
+    97,
+    189,
+    72,
+    47,
+    44,
+    56
+  ],
+  "continuation": [
+    {
+      "round": 6,
+      "query_before": "a brown bed with gray pillows and blue covers, positioned next to a green wall, with another bed in the image",
+      "question": "Is the wall next to the bed green or blue?",
+      "answer": "blue",
+      "query_after": "a bed with blue covers and gray pillows sits next to a blue wall, with another bed visible in the image",
+      "searches": [
+        {
+          "query": "a bed with blue covers next to a green wall with a wooden headboard",
+          "ids": [
+            33953,
+            6400,
+            28942
+          ],
+          "captions": [
+            "a bed is shown with a white coverlet and blue pillows",
+            "the walls are blue",
+            "blue and white floral rug"
+          ]
+        },
+        {
+          "query": "a bed with blue covers next to a green wall with a black stuffed animal",
+          "ids": [
+            4119,
+            27416,
+            36157
+          ],
+          "captions": [
+            "a blue ceiling with a kite hanging in the ceiling",
+            "a cat laying on a bed with a stuffed animal on it",
+            "a black pillow on a bed"
+          ]
+        }
+      ],
+      "raw_plan": "a bed with blue covers next to a green wall with a wooden headboard\na bed with blue covers next to a green wall with a black stuffed animal",
+      "generated": "Is the wall next to the bed green or blue?",
+      "fallback": false
+    },
+    {
+      "round": 7,
+      "query_before": "a bed with blue covers and gray pillows sits next to a blue wall, with another bed visible in the image",
+      "question": "what is the color of the bed?",
+      "answer": "brown",
+      "query_after": "a brown bed with gray pillows and blue covers, positioned next to a blue wall, with another bed in the image"
+    },
+    {
+      "round": 8,
+      "query_before": "a brown bed with gray pillows and blue covers, positioned next to a blue wall, with another bed in the image",
+      "question": "what is the object next to the brown bed?",
+      "answer": "nightstand",
+      "query_after": "a brown bed with gray pillows and blue covers, positioned next to a blue wall and a nightstand"
+    },
+    {
+      "round": 9,
+      "query_before": "a brown bed with gray pillows and blue covers, positioned next to a blue wall and a nightstand",
+      "question": "what is the color of the nightstand next to the brown bed?",
+      "answer": "brown",
+      "query_after": "a brown bed with gray pillows and blue covers sits next to a blue wall and a brown nightstand"
+    },
+    {
+      "round": 10,
+      "query_before": "a brown bed with gray pillows and blue covers sits next to a blue wall and a brown nightstand",
+      "question": "what is the color of the wall next to the brown bed with blue covers?",
+      "answer": "green",
+      "query_after": "a brown bed with blue covers and gray pillows sits next to a green wall and a brown nightstand"
+    }
+  ],
+  "seconds": 91.0
+}

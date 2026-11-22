@@ -1,0 +1,100 @@
+{
+  "qid": 465,
+  "initial": "several people are playing frisbee at a park",
+  "initial_rank": 71,
+  "evidence": [
+    "a tennis court with children and a few adults playing tennis",
+    "two people play frisbee on a grass field",
+    "a group of men in red jump up and catch a frisbee",
+    "a group of people wearing red shirts posing for a photo",
+    "a group of women are playing soccer on a green field",
+    "two men running at the same time to catch a frisbee",
+    "the woman in yellow is holding a frisbee",
+    "two people play with a frisbee on a sand beach",
+    "a girl is standing outdoors holding a frisbee",
+    "the man is throwing an orange frisbee at the trees"
+  ],
+  "candidates": [
+    "what is the color of the shirts worn by the group of people playing frisbee in the image?",
+    "Question: what is the gender of the people playing frisbee in the image?",
+    "what is the gender of the person holding the frisbee in the image?",
+    "what is the number of people playing frisbee in the image?",
+    "what is the other object in the image?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the shirts worn by the group of people playing frisbee in the image?",
+      "answers": [
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "score": 0.17385435104370117
+    },
+    {
+      "question": "Question: what is the gender of the people playing frisbee in the image?",
+      "answers": [
+        "male",
+        "female",
+        "mixed"
+      ],
+      "score": 0.04235982894897461
+    },
+    {
+      "question": "what is the gender of the person holding the frisbee in the image?",
+      "answers": [
+        "male",
+        "female",
+        "boy"
+      ],
+      "score": 0.0569305419921875
+    },
+    {
+      "question": "what is the number of people playing frisbee in the image?",
+      "answers": [
+        "2",
+        "3",
+        "4"
+      ],
+      "score": 0.0003018379211425781
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "trees",
+        "grass",
+        "sand"
+      ],
+      "score": 0.1336989402770996
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.07,
+  "probe_selection_seconds": 2.504,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the other object in the image?",
+      "answer": "a red frisbee",
+      "rewrite": "several people are playing with a red frisbee at a park",
+      "rank": 14,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the gender of the person holding the frisbee in the image?",
+      "answer": "female",
+      "rewrite": "a female is playing frisbee at a park",
+      "rank": 13,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the color of the shirts worn by the group of people playing frisbee in the image?",
+      "answer": "white",
+      "rewrite": "a group of people wearing white shirts are playing frisbee in a park",
+      "rank": 36,
+      "hit": false
+    }
+  },
+  "seconds": 19.3
+}

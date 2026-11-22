@@ -1,0 +1,142 @@
+{
+  "qid": 1605,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000394913.jpg",
+  "queries": [
+    "a group of zebras are standing in a large field",
+    "a group of zebras stands in a large savanna field with scattered trees and shrubs featuring reddish foliage, under a cloudy sky"
+  ],
+  "ranks": [
+    36,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a group of zebras are standing in a large field",
+      "question": "Question: What is the background scenery behind the group of zebras?",
+      "answer": "The background scenery behind the group of zebras consists of a savanna landscape with scattered trees and shrubs, some with reddish foliage, under a cloudy sky.",
+      "query_after": "a group of zebras stands in a large savanna field with scattered trees and shrubs featuring reddish foliage, under a cloudy sky",
+      "displayed_ids": [
+        29228,
+        9706,
+        9665,
+        35912,
+        40641,
+        13375,
+        9044,
+        14346,
+        35142,
+        39009
+      ],
+      "selected_ids": [
+        14790,
+        41485,
+        19726,
+        10767,
+        33219,
+        32387,
+        10578,
+        16261
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: what is the specific color and pattern of the zebras standing in the field?",
+          "answers": [
+            "black and white stripes",
+            "white with black stripes",
+            "striped"
+          ],
+          "score": 0.005125999450683594
+        },
+        {
+          "question": "How many zebras are standing in the large field?",
+          "answers": [
+            "2",
+            "3",
+            "4"
+          ],
+          "score": 0.0003294944763183594
+        },
+        {
+          "question": "what is the specific background environment where the zebras are standing?",
+          "answers": [
+            "a zoo enclosure",
+            "a dry field",
+            "a field with tall grass and trees"
+          ],
+          "score": 0.13133573532104492
+        },
+        {
+          "question": "what is the specific color and pattern of the zebras standing in the field?",
+          "answers": [
+            "normal black and white stripes",
+            "zebras with black and white stripes",
+            "solid black and white coloring"
+          ],
+          "score": 0.005253314971923828
+        },
+        {
+          "question": "what is the specific background environment where the zebras are standing?",
+          "answers": [
+            "a zoo enclosure",
+            "a dry field",
+            "a field with tall grass and trees"
+          ],
+          "score": 0.13133573532104492,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: How many zebras are in the group?",
+          "answers": [
+            "2",
+            "3",
+            "4"
+          ],
+          "score": 0.0003314018249511719
+        },
+        {
+          "question": "Question: What is the specific type of field where the group of zebras is standing?",
+          "answers": [
+            "dry",
+            "grassy",
+            "with trees"
+          ],
+          "score": 0.1002354621887207
+        },
+        {
+          "question": "Question: What is the color of the grass in the field where the zebras are standing?",
+          "answers": [
+            "green",
+            "brown",
+            "dry"
+          ],
+          "score": 0.08513689041137695
+        },
+        {
+          "question": "Question: What is the background scenery behind the group of zebras?",
+          "answers": [
+            "a dry plain",
+            "tall grass and trees",
+            "a zoo enclosure"
+          ],
+          "score": 0.15472126007080078
+        },
+        {
+          "question": "Question: What is the specific background scenery behind the group of zebras?",
+          "answers": [
+            "grass and trees",
+            "dry field",
+            "zoo enclosure"
+          ],
+          "score": 0.12439966201782227
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

@@ -1,0 +1,58 @@
+{
+  "ids": [
+    23131,
+    11013,
+    45419,
+    10125
+  ],
+  "prefix": [
+    "a train going down the tracks with another train behind it",
+    "what is the color of the train going down the tracks? orange"
+  ],
+  "default": "what is the color of the train behind the main train?",
+  "chosen": "what is the color of the train behind the main train?",
+  "trials": {
+    "what is the color of the train behind the main train?": {
+      "answers": [
+        "orange",
+        "silver",
+        "red",
+        "there is no train behind the main train."
+      ],
+      "rewrites": {
+        "orange": "two orange trains on the tracks, with one in front of the other",
+        "silver": "an orange train going down the tracks with a silver train behind it",
+        "red": "an orange train going down the tracks with a red train behind it",
+        "there is no train behind the main train.": "an orange train going down the tracks with no train behind it"
+      },
+      "ranks": [
+        8,
+        67,
+        55,
+        24
+      ],
+      "hits": 1
+    },
+    "Question: What is the color of the train behind the main train?": {
+      "answers": [
+        "orange",
+        "gray",
+        "red",
+        "There is no train behind the main train."
+      ],
+      "rewrites": {
+        "orange": "two orange trains on the tracks, with one in front of the other",
+        "gray": "an orange train going down the tracks with a gray train behind it",
+        "red": "an orange train going down the tracks with a red train behind it",
+        "There is no train behind the main train.": "an orange train going down the tracks with no train behind it"
+      },
+      "ranks": [
+        8,
+        47,
+        55,
+        24
+      ],
+      "hits": 1
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "qid": 1810,
+  "sample": 1,
+  "first_candidates": [
+    "Question: what is the main action the man is performing with the baseball bat?",
+    "what is the color of the baseball uniform the man is wearing?",
+    "what is the object the man is about to hit with the baseball bat?",
+    "Question: What is the man holding in his hand?",
+    "Based on the provided information sources, here is the generated question and the explanation of how the sources were utilized:\n\n**Generated Question:**\n\"Is the man?"
+  ],
+  "second_candidates": [
+    "what is the color of the baseball bat the man is holding?",
+    "what is the location where the man is holding the baseball bat?",
+    "what is the color of the baseball bat the man is holding?",
+    "what is the color of the baseball bat the man is holding?",
+    "what is the color of the baseball bat the man is holding?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the baseball bat the man is holding?",
+      "answers": [
+        "black",
+        "wood",
+        "metal"
+      ],
+      "score": 0.025181293487548828
+    },
+    {
+      "question": "what is the location where the man is holding the baseball bat?",
+      "answers": [
+        "park",
+        "stadium",
+        "field"
+      ],
+      "score": 0.03019094467163086
+    },
+    {
+      "question": "what is the color of the baseball bat the man is holding?",
+      "answers": [
+        "black",
+        "wood",
+        "metal"
+      ],
+      "score": 0.025181293487548828,
+      "duplicate_of": 0
+    },
+    {
+      "question": "what is the color of the baseball bat the man is holding?",
+      "answers": [
+        "black",
+        "wood",
+        "metal"
+      ],
+      "score": 0.025181293487548828,
+      "duplicate_of": 0
+    },
+    {
+      "question": "what is the color of the baseball bat the man is holding?",
+      "answers": [
+        "black",
+        "wood",
+        "metal"
+      ],
+      "score": 0.025181293487548828,
+      "duplicate_of": 0
+    }
+  ],
+  "control": {
+    "question": "what is the color of the baseball uniform the man is wearing?",
+    "score": 0.21606016159057617
+  },
+  "mixed": {
+    "question": "what is the color of the baseball uniform the man is wearing?",
+    "score": 0.21606016159057617
+  },
+  "control_rank": 116,
+  "mixed_rank": 116,
+  "usual_rank": 116,
+  "new_answer": null,
+  "new_rewrite": null
+}

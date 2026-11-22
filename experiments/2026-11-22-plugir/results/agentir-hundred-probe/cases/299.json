@@ -1,0 +1,101 @@
+{
+  "qid": 299,
+  "initial": "a vase sits in a hole in the wall",
+  "initial_rank": 27,
+  "evidence": [
+    "a woman standing in a small mud hole next to a stove",
+    "a toilet with toothbrushes hanging from a holder",
+    "a group of flowers are placed in a vase on a table",
+    "a gold vase with flowers",
+    "a stone and cement outhouse is set up",
+    "a large jar with a tall stem",
+    "a black clock hanging above a dark ceiling",
+    "a bathroom with a broken toilet and dirty floor",
+    "an ornate vase sits on top of a table in a room",
+    "a person rides a wave in black and white"
+  ],
+  "candidates": [
+    "what is the color of the vase sitting in the hole in the wall?",
+    "what material is the hole in the wall made of?",
+    "what is the color of the vase sitting in the hole in the wall?",
+    "what is the material of the vase sitting in the hole in the wall?",
+    "what is the color of the wall where the vase is sitting?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the vase sitting in the hole in the wall?",
+      "answers": [
+        "gold",
+        "black",
+        "white"
+      ],
+      "score": 0.060344696044921875
+    },
+    {
+      "question": "what material is the hole in the wall made of?",
+      "answers": [
+        "cement",
+        "brick",
+        "stone"
+      ],
+      "score": 0.04080677032470703
+    },
+    {
+      "question": "what is the color of the vase sitting in the hole in the wall?",
+      "answers": [
+        "gold",
+        "black",
+        "white"
+      ],
+      "score": 0.060344696044921875,
+      "duplicate_of": 0
+    },
+    {
+      "question": "what is the material of the vase sitting in the hole in the wall?",
+      "answers": [
+        "glass",
+        "ceramic",
+        "metal"
+      ],
+      "score": 0.049010276794433594
+    },
+    {
+      "question": "what is the color of the wall where the vase is sitting?",
+      "answers": [
+        "white",
+        "beige",
+        "brown"
+      ],
+      "score": 0.028890609741210938
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.062,
+  "probe_selection_seconds": 1.908,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "what is the material of the vase sitting in the hole in the wall?",
+      "answer": "ceramic",
+      "rewrite": "a ceramic vase sits in a hole in the wall",
+      "rank": 65,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the color of the vase sitting in the hole in the wall?",
+      "answer": "green",
+      "rewrite": "a green vase sits in a hole in the wall",
+      "rank": 53,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the color of the vase sitting in the hole in the wall?",
+      "answer": "green",
+      "rewrite": "a green vase sits in a hole in the wall",
+      "rank": 53,
+      "hit": false
+    }
+  },
+  "seconds": 13.818
+}

@@ -1,0 +1,144 @@
+{
+  "qid": 570,
+  "sample": "original",
+  "target": "unlabeled2017/000000344438.jpg",
+  "queries": [
+    "light shine on a tower with some clocks on it",
+    "light shines on a clock tower, with a modern building featuring curved glass windows and a red brick building with arched windows located beneath it."
+  ],
+  "ranks": [
+    27,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "light shine on a tower with some clocks on it",
+      "question": "what objects are located beneath the clock tower in the image?",
+      "answer": "the image shows a modern building with curved glass windows and a red brick building with arched windows.",
+      "query_after": "light shines on a clock tower, with a modern building featuring curved glass windows and a red brick building with arched windows located beneath it.",
+      "displayed_ids": [
+        46557,
+        10044,
+        39200,
+        18415,
+        27955,
+        41086,
+        31867,
+        31624,
+        47230,
+        6910
+      ],
+      "selected_ids": [
+        42455,
+        44209,
+        43132,
+        651,
+        10777,
+        25477,
+        44304,
+        26149,
+        4963,
+        6660
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the sky like in the image of the building with clocks?",
+          "answers": [
+            "cloudy",
+            "blue",
+            "dark"
+          ],
+          "score": 0.07641124725341797
+        },
+        {
+          "question": "Question: What is the material of the building with clocks?",
+          "answers": [
+            "stone",
+            "brick",
+            "gold"
+          ],
+          "score": 0.06193256378173828
+        },
+        {
+          "question": "Question: What is the material of the building with clocks?",
+          "answers": [
+            "stone",
+            "brick",
+            "gold"
+          ],
+          "score": 0.06193256378173828,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the sky in the image with the clock tower?",
+          "answers": [
+            "blue",
+            "cloudy",
+            "dark"
+          ],
+          "score": 0.06374216079711914
+        },
+        {
+          "question": "what objects are located beneath the clock tower in the image?",
+          "answers": [
+            "street",
+            "river",
+            "sky"
+          ],
+          "score": 0.10138463973999023
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is the clock tower located on a river?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0029401779174804688
+        },
+        {
+          "question": "Question: What is the color of the sky in the image?",
+          "answers": [
+            "blue",
+            "cloudy",
+            "none"
+          ],
+          "score": 0.041524410247802734
+        },
+        {
+          "question": "Question: What is the material of the building in the image?",
+          "answers": [
+            "stone",
+            "brick",
+            "metal"
+          ],
+          "score": 0.0692300796508789
+        },
+        {
+          "question": "what color is the clock face on the tower?",
+          "answers": [
+            "black",
+            "white",
+            "gold"
+          ],
+          "score": 0.054094791412353516
+        },
+        {
+          "question": "Question: Question: What is the color of the building in the image?",
+          "answers": [
+            "black and white",
+            "color",
+            "sepia"
+          ],
+          "score": 0.08761405944824219
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

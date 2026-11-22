@@ -1,0 +1,92 @@
+{
+  "chosen": "Question: what is the color of the building near the traffic light?",
+  "default": "what is the time of day when the traffic light is hanging over the intersection?",
+  "ids": [
+    41488,
+    8131,
+    27150,
+    10016
+  ],
+  "trials": {
+    "what is the time of day when the traffic light is hanging over the intersection?": {
+      "answers": [
+        "daytime",
+        "daytime",
+        "daytime",
+        "daytime"
+      ],
+      "rewrites": {
+        "daytime": "traffic lights hanging over an intersection on the street during the daytime"
+      },
+      "ranks": [
+        9,
+        66,
+        48,
+        43
+      ],
+      "hits": 1
+    },
+    "what color is the traffic light hanging over the intersection?": {
+      "answers": [
+        "yellow",
+        "yellow",
+        "red",
+        "green"
+      ],
+      "rewrites": {
+        "yellow": "a yellow traffic light hanging over an intersection on the street",
+        "red": "a red traffic light hanging over an intersection on the street",
+        "green": "a green traffic light hanging over an intersection on the street"
+      },
+      "ranks": [
+        11,
+        38,
+        109,
+        4
+      ],
+      "hits": 1
+    },
+    "Question: what is the color of the building near the traffic light?": {
+      "answers": [
+        "I'm unsure, as there is no building visible in the image. The photo only shows traffic lights against a blue sky.",
+        "gray",
+        "white",
+        "yellow"
+      ],
+      "rewrites": {
+        "I'm unsure, as there is no building visible in the image. The photo only shows traffic lights against a blue sky.": "traffic lights hanging over an intersection on the street against a blue sky with no visible buildings",
+        "gray": "gray traffic lights hanging over an intersection on the street near a gray building",
+        "white": "white building with traffic lights hanging over an intersection on the street",
+        "yellow": "yellow traffic lights hanging over an intersection on the street with a yellow building nearby"
+      },
+      "ranks": [
+        2,
+        75,
+        3,
+        82
+      ],
+      "hits": 2
+    },
+    "what is the color of the building near the traffic light?": {
+      "answers": [
+        "there is no building visible in the image. only the traffic lights and pole against a blue sky.",
+        "gray",
+        "white",
+        "yellow"
+      ],
+      "rewrites": {
+        "there is no building visible in the image. only the traffic lights and pole against a blue sky.": "traffic lights hanging over an intersection on the street against a blue sky, with no buildings visible",
+        "gray": "gray traffic lights hanging over an intersection on the street",
+        "white": "white traffic lights hanging over an intersection on the street",
+        "yellow": "yellow traffic lights hanging over an intersection on the street near a yellow building"
+      },
+      "ranks": [
+        1,
+        23,
+        40,
+        105
+      ],
+      "hits": 1
+    }
+  }
+}

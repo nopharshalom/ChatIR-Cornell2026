@@ -1,0 +1,90 @@
+{
+  "ids": [
+    9609,
+    34402,
+    41475,
+    48939
+  ],
+  "prefix": [
+    "a man playing tennis about to hit a ball",
+    "what is the location where the man is playing tennis? the man is playing on a hard court, likely at a professional tennis venue, given the backdrop and attire."
+  ],
+  "default": "Question: What is the gender of the person playing tennis?",
+  "chosen": "What color is the tennis ball the man is about to hit?",
+  "trials": {
+    "Question: What is the gender of the person playing tennis?": {
+      "answers": [
+        "Male.",
+        "male",
+        "male",
+        "male"
+      ],
+      "rewrites": {
+        "Male.": "a male playing tennis on a hard court at a professional venue, about to hit a ball",
+        "male": "a male playing tennis on a hard court at a professional venue, about to hit a ball"
+      },
+      "ranks": [
+        11,
+        29,
+        73,
+        23
+      ],
+      "hits": 0
+    },
+    "What color is the tennis ball the man is about to hit?": {
+      "answers": [
+        "yellow",
+        "yellow",
+        "yellow",
+        "yellow"
+      ],
+      "rewrites": {
+        "yellow": "a man playing tennis on a hard court at a professional venue, about to hit a yellow ball"
+      },
+      "ranks": [
+        2,
+        111,
+        90,
+        95
+      ],
+      "hits": 1
+    },
+    "what is the color of the sky in the image where the man is playing tennis?": {
+      "answers": [
+        "blue",
+        "blue",
+        "blue",
+        "blue"
+      ],
+      "rewrites": {
+        "blue": "a man playing tennis on a hard court at a professional venue under a blue sky, about to hit a ball"
+      },
+      "ranks": [
+        172,
+        102,
+        94,
+        3
+      ],
+      "hits": 1
+    },
+    "Question: What is the color of the sky in the image where the man is playing tennis?": {
+      "answers": [
+        "I'm sorry, but the image does not show the sky.",
+        "blue",
+        "blue",
+        "blue"
+      ],
+      "rewrites": {
+        "I'm sorry, but the image does not show the sky.": "a man playing tennis on a hard court at a professional venue, about to hit a ball, with no sky visible in the image",
+        "blue": "a man playing tennis on a hard court at a professional venue, with a blue sky in the background"
+      },
+      "ranks": [
+        32,
+        150,
+        187,
+        2
+      ],
+      "hits": 1
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "qid": 663,
+  "initial": "a very tall tower with a clock near the top",
+  "initial_rank": 99,
+  "evidence": [
+    "a large stone building with a clock tower and windows",
+    "a large old building next to some people",
+    "a big ben and double decker bus with a city on the right side",
+    "a clock on a pole at night",
+    "a red brick building with a clock tower in the front",
+    "a grey stormy day with the house of lords in london",
+    "an old red brick building with a clock tower on top",
+    "a black and white image of a clock",
+    "dark lighted tower in the night",
+    "a small stone building with a clock and a door"
+  ],
+  "candidates": [
+    "what is the color of the building with the tall clock tower?",
+    "what is the material the tall tower with the clock near the top is made of?",
+    "what is the lighting condition of the image featuring the very tall tower with a clock near the top?",
+    "what is the location of the tall tower with the clock near the top?",
+    "what is the color of the clock on the very tall tower?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the building with the tall clock tower?",
+      "answers": [
+        "red",
+        "grey",
+        "black and white"
+      ],
+      "score": 0.19570255279541016
+    },
+    {
+      "question": "what is the material the tall tower with the clock near the top is made of?",
+      "answers": [
+        "stone",
+        "brick",
+        "metal"
+      ],
+      "score": 0.0783390998840332
+    },
+    {
+      "question": "what is the lighting condition of the image featuring the very tall tower with a clock near the top?",
+      "answers": [
+        "daylight",
+        "night",
+        "stormy"
+      ],
+      "score": 0.09102106094360352
+    },
+    {
+      "question": "what is the location of the tall tower with the clock near the top?",
+      "answers": [
+        "London",
+        "England",
+        "UK"
+      ],
+      "score": 0.012683391571044922
+    },
+    {
+      "question": "what is the color of the clock on the very tall tower?",
+      "answers": [
+        "black",
+        "white",
+        "gold"
+      ],
+      "score": 0.10051584243774414
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.061,
+  "probe_selection_seconds": 2.267,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the material the tall tower with the clock near the top is made of?",
+      "answer": "brick",
+      "rewrite": "a very tall brick tower with a clock near the top",
+      "rank": 33,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the location of the tall tower with the clock near the top?",
+      "answer": "university of illinois",
+      "rewrite": "a very tall tower with a clock near the top located at the University of Illinois",
+      "rank": 8,
+      "hit": true
+    },
+    "probe": {
+      "question": "what is the color of the building with the tall clock tower?",
+      "answer": "red",
+      "rewrite": "a red tower with a clock near the top",
+      "rank": 20,
+      "hit": false
+    }
+  },
+  "seconds": 16.75
+}

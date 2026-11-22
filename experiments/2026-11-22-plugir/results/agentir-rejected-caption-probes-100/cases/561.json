@@ -1,0 +1,79 @@
+{
+  "qid": 561,
+  "candidates": [
+    "what is the time of day in the image?",
+    "Question: What type of vehicles are visible on the busy street?",
+    "Question: What are the people holding in their hands?",
+    "what color are the umbrellas held by the crowd of people standing near the building?",
+    "Question: Are there any horse-drawn carriages visible in the image?"
+  ],
+  "kl": {
+    "question": "what is the time of day in the image?",
+    "answer": "daytime",
+    "rewrite": "a crowd of people walk together beside a busy street downtown during the daytime",
+    "raw_rank": 55,
+    "unseen_rank": 45
+  },
+  "probe": {
+    "question": "what color are the umbrellas held by the crowd of people standing near the building?",
+    "answer": "black",
+    "rewrite": "a crowd of people holding black umbrellas walk together beside a busy street downtown near a building",
+    "raw_rank": 82,
+    "unseen_rank": 78
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "what is the time of day in the image?",
+        "answers": [
+          "daytime",
+          "evening",
+          "night"
+        ],
+        "score": 0.0774531364440918
+      },
+      {
+        "question": "Question: What type of vehicles are visible on the busy street?",
+        "answers": [
+          "cars",
+          "buses",
+          "trucks"
+        ],
+        "score": 0.046047210693359375
+      },
+      {
+        "question": "Question: What are the people holding in their hands?",
+        "answers": [
+          "Nothing",
+          "Purses",
+          "Bags"
+        ],
+        "score": 0.02520608901977539
+      },
+      {
+        "question": "what color are the umbrellas held by the crowd of people standing near the building?",
+        "answers": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "score": 0.11783647537231445
+      },
+      {
+        "question": "Question: Are there any horse-drawn carriages visible in the image?",
+        "answers": [
+          "Yes",
+          "No",
+          "Maybe"
+        ],
+        "score": 0.0008044242858886719
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.069,
+    "probe_selection_seconds": 2.322,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": true
+}

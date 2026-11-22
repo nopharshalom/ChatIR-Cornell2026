@@ -1,0 +1,100 @@
+{
+  "qid": 256,
+  "initial": "a block tower attached to a brick building",
+  "initial_rank": 33,
+  "evidence": [
+    "a black and white photograph of a truck parked by a street corner",
+    "a street light next to a black sign",
+    "a lamp stands on a side of the sidewalk",
+    "a clock tower sits on top of a circular plaza",
+    "a tall tower in a church with a clock above it",
+    "a large tower with a clock on top",
+    "people are walking along a city street near a clock tower",
+    "a red bus traveling along a city street with a clock tower",
+    "a large clock tower with clouds over it",
+    "a fire hydrant is sitting next to a car and some pavement"
+  ],
+  "candidates": [
+    "Question: Is the clock tower made of brick?",
+    "Question: What type of building is the clock tower attached to?",
+    "Question: What is the material of the clock tower?",
+    "what is the color of the clock tower?",
+    "Question: Is there a clock on top of the tower?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: Is the clock tower made of brick?",
+      "answers": [
+        "Yes",
+        "No",
+        "I don't know"
+      ],
+      "score": 0.0024662017822265625
+    },
+    {
+      "question": "Question: What type of building is the clock tower attached to?",
+      "answers": [
+        "church",
+        "bank",
+        "museum"
+      ],
+      "score": 0.04132080078125
+    },
+    {
+      "question": "Question: What is the material of the clock tower?",
+      "answers": [
+        "brick",
+        "stone",
+        "concrete"
+      ],
+      "score": 0.015161991119384766
+    },
+    {
+      "question": "what is the color of the clock tower?",
+      "answers": [
+        "black",
+        "white",
+        "red"
+      ],
+      "score": 0.07719993591308594
+    },
+    {
+      "question": "Question: Is there a clock on top of the tower?",
+      "answers": [
+        "Yes, there is",
+        "Yes, a small clock",
+        "No, there isn't"
+      ],
+      "score": 0.006850719451904297
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.073,
+  "probe_selection_seconds": 2.708,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "Question: What is the material of the clock tower?",
+      "answer": "brick",
+      "rewrite": "a brick clock tower attached to a brick building",
+      "rank": 19,
+      "hit": false
+    },
+    "random": {
+      "question": "Question: What is the material of the clock tower?",
+      "answer": "brick",
+      "rewrite": "a brick clock tower attached to a brick building",
+      "rank": 19,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the color of the clock tower?",
+      "answer": "brown",
+      "rewrite": "a brown clock tower attached to a brick building",
+      "rank": 3,
+      "hit": true
+    }
+  },
+  "seconds": 12.771
+}

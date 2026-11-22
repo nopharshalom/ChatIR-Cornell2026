@@ -1,0 +1,78 @@
+{
+  "qid": 676,
+  "sample": 2,
+  "first_candidates": [
+    "what are the two zebras doing in the middle of the field?",
+    "what are the 2 zebras standing next to in the middle of the field?",
+    "what are the two zebras standing next to in the middle of the field?",
+    "what is the specific action or behavior of the two zebras in the middle of the field?",
+    "what are the two zebras doing in the middle of the field?"
+  ],
+  "second_candidates": [
+    "what are the two zebras doing in the field?",
+    "what is the texture or appearance of the ground where the two zebras are standing?",
+    "what is the specific background environment where the two zebras are standing?",
+    "what are the two zebras doing in the image?",
+    "what is the texture of the ground where the two zebras are standing?"
+  ],
+  "paths": [
+    {
+      "question": "what are the two zebras doing in the field?",
+      "answers": [
+        "eating",
+        "standing",
+        "walking"
+      ],
+      "score": 0.06076526641845703
+    },
+    {
+      "question": "what is the texture or appearance of the ground where the two zebras are standing?",
+      "answers": [
+        "rocks",
+        "muddy dirt",
+        "tall dry grass"
+      ],
+      "score": 0.19794893264770508
+    },
+    {
+      "question": "what is the specific background environment where the two zebras are standing?",
+      "answers": [
+        "a field",
+        "a park",
+        "an enclosure"
+      ],
+      "score": 0.0505218505859375
+    },
+    {
+      "question": "what are the two zebras doing in the image?",
+      "answers": [
+        "standing",
+        "walking",
+        "eating"
+      ],
+      "score": 0.07961893081665039
+    },
+    {
+      "question": "what is the texture of the ground where the two zebras are standing?",
+      "answers": [
+        "rocky",
+        "muddy",
+        "dirt"
+      ],
+      "score": 0.052637577056884766
+    }
+  ],
+  "control": {
+    "question": "what is the texture or appearance of the ground where the two zebras are standing?",
+    "score": 0.19794893264770508
+  },
+  "mixed": {
+    "question": "what are the 2 zebras standing next to in the middle of the field?",
+    "score": 0.14406919479370117
+  },
+  "control_rank": 11,
+  "mixed_rank": 12,
+  "usual_rank": 12,
+  "new_answer": "grassy",
+  "new_rewrite": "a close up of 2 zebras standing on a grassy field"
+}

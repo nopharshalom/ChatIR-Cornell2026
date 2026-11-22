@@ -1,0 +1,538 @@
+{
+  "qid": 1579,
+  "sample": "original",
+  "target": "unlabeled2017/000000056847.jpg",
+  "queries": [
+    "a man stands in the middle of a road and a red truck is driving up",
+    "a man stands in the middle of a road with a red truck driving up behind a white car",
+    "a man stands next to a red pickup truck in the middle of a road, with a white car behind the truck",
+    "a man stands next to a red pickup truck in the middle of a road, with a white car behind the truck, set against a background of urban buildings, trees, and a cloudy sky",
+    "a man stands next to a red pickup truck in the middle of a road, with a white car behind the truck, urban buildings and trees in the background under a cloudy sky, and a traffic light visible"
+  ],
+  "ranks": [
+    86,
+    17,
+    160,
+    37,
+    4
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a man stands in the middle of a road and a red truck is driving up",
+      "question": "Question: Which object is the red truck in the image?",
+      "answer": "The red truck is the vehicle in the middle of the road, with a white car behind it.",
+      "query_after": "a man stands in the middle of a road with a red truck driving up behind a white car",
+      "displayed_ids": [
+        34686,
+        18029,
+        10650,
+        46449,
+        12104,
+        34633,
+        16670,
+        21299,
+        43187,
+        40015
+      ],
+      "selected_ids": [
+        31634,
+        44268,
+        21299,
+        44595,
+        5129,
+        17430,
+        17590,
+        43624,
+        12785,
+        34828
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "man",
+            "road",
+            "truck"
+          ],
+          "score": 0.003957271575927734
+        },
+        {
+          "question": "what is the color of the truck driving up in front of the man?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.03596162796020508
+        },
+        {
+          "question": "what is the color of the truck in the image?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.05962514877319336
+        },
+        {
+          "question": "what is the action of the man standing in the middle of the road?",
+          "answers": [
+            "standing",
+            "waiting",
+            "blocking"
+          ],
+          "score": 0.018603801727294922
+        },
+        {
+          "question": "Question: Which object is the red truck in the image?",
+          "answers": [
+            "engine",
+            "delivery truck",
+            "dump truck"
+          ],
+          "score": 0.06819581985473633
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "man",
+            "road",
+            "truck"
+          ],
+          "score": 0.003957271575927734
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "man",
+            "road",
+            "truck"
+          ],
+          "score": 0.003957271575927734,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "man",
+            "road",
+            "truck"
+          ],
+          "score": 0.003957271575927734,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "man",
+            "road",
+            "truck"
+          ],
+          "score": 0.003957271575927734,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "man",
+            "road",
+            "truck"
+          ],
+          "score": 0.003957271575927734,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a man stands in the middle of a road with a red truck driving up behind a white car",
+      "question": "what is the specific type of vehicle the man is standing next to in the image?",
+      "answer": "the man is standing next to a red pickup truck.",
+      "query_after": "a man stands next to a red pickup truck in the middle of a road, with a white car behind the truck",
+      "displayed_ids": [
+        46449,
+        37784,
+        18029,
+        12104,
+        34633,
+        23646,
+        10650,
+        45773,
+        34686,
+        21299
+      ],
+      "selected_ids": [
+        17590,
+        24638,
+        20094,
+        20778,
+        13293,
+        42296,
+        48879,
+        34828,
+        26572,
+        34300
+      ],
+      "rejected_count": 13,
+      "usual_paths": [
+        {
+          "question": "what is the specific type of vehicle the man is standing next to in the image?",
+          "answers": [
+            "bulldozer",
+            "car",
+            "unknown"
+          ],
+          "score": 0.0726323127746582
+        },
+        {
+          "question": "what is the color of the vehicle the man is standing next to?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.032250404357910156
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a man",
+            "a person",
+            "the man"
+          ],
+          "score": 0.0013275146484375
+        },
+        {
+          "question": "what is the color of the car that is behind the red truck?",
+          "answers": [
+            "white",
+            "black",
+            "red"
+          ],
+          "score": 0.027306556701660156
+        },
+        {
+          "question": "what is the specific type of vehicle the man is standing next to in the image?",
+          "answers": [
+            "bulldozer",
+            "car",
+            "unknown"
+          ],
+          "score": 0.0726323127746582,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the action of the man standing in the middle of the road?",
+          "answers": [
+            "standing",
+            "waiting",
+            "posing"
+          ],
+          "score": 0.013240814208984375
+        },
+        {
+          "question": "what is the action of the man standing in the middle of the road?",
+          "answers": [
+            "standing",
+            "waiting",
+            "posing"
+          ],
+          "score": 0.013240814208984375,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the man standing in the middle of the road?",
+          "answers": [
+            "no color specified",
+            "wearing a suit",
+            "wearing casual clothes"
+          ],
+          "score": 0.055866241455078125
+        },
+        {
+          "question": "Question: What is the color of the man standing in the middle of the road?",
+          "answers": [
+            "wearing a suit",
+            "wearing a uniform",
+            "wearing casual clothes"
+          ],
+          "score": 0.051760196685791016
+        },
+        {
+          "question": "Question: What color is the truck in the image?",
+          "answers": [
+            "red",
+            "black",
+            "white"
+          ],
+          "score": 0.02317667007446289
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a man stands next to a red pickup truck in the middle of a road, with a white car behind the truck",
+      "question": "what is the background scenery behind the man and the red truck?",
+      "answer": "the background scenery behind the man and the red truck includes urban buildings, trees, and a cloudy sky.",
+      "query_after": "a man stands next to a red pickup truck in the middle of a road, with a white car behind the truck, set against a background of urban buildings, trees, and a cloudy sky",
+      "displayed_ids": [
+        290,
+        9157,
+        37784,
+        10650,
+        3776,
+        34633,
+        18029,
+        45773,
+        21299,
+        28964
+      ],
+      "selected_ids": [
+        17590,
+        20094,
+        14762,
+        36370,
+        20778,
+        43566,
+        7787,
+        21299,
+        10818
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "What is the action of the red truck in the image?",
+          "answers": [
+            "driving up",
+            "stopped",
+            "parked"
+          ],
+          "score": 0.022123336791992188
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a man standing in the road",
+            "a man standing on the street"
+          ],
+          "score": 0.007578372955322266
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a man standing in the road",
+            "a man standing on the street"
+          ],
+          "score": 0.007578372955322266,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a man standing in the road",
+            "a man standing on the street"
+          ],
+          "score": 0.007578372955322266,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a man standing in the road",
+            "a man standing on the street"
+          ],
+          "score": 0.007578372955322266,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the action of the red truck in the image?",
+          "answers": [
+            "driving up",
+            "stopped",
+            "parked"
+          ],
+          "score": 0.022123336791992188
+        },
+        {
+          "question": "what is the background scenery behind the man and the red truck?",
+          "answers": [
+            "a street scene with several buildings and some traffic",
+            "a man standing on his skateboard while wearing sunglasses",
+            "a man is walking on a skateboard down a busy street"
+          ],
+          "score": 0.09659576416015625
+        },
+        {
+          "question": "Question: What is the color of the truck the man is standing next to?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.0314784049987793
+        },
+        {
+          "question": "Question: What is the action being performed by the red truck in the image?",
+          "answers": [
+            "driving up",
+            "driving away",
+            "moving forward"
+          ],
+          "score": 0.006703376770019531
+        },
+        {
+          "question": "Question: Is the man standing next to the red truck or in the middle of the road?",
+          "answers": [
+            "next to the red truck",
+            "in the middle of the road",
+            "both"
+          ],
+          "score": 0.007075309753417969
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 3,
+      "query_before": "a man stands next to a red pickup truck in the middle of a road, with a white car behind the truck, set against a background of urban buildings, trees, and a cloudy sky",
+      "question": "what is the other object in the image?",
+      "answer": "traffic light",
+      "query_after": "a man stands next to a red pickup truck in the middle of a road, with a white car behind the truck, urban buildings and trees in the background under a cloudy sky, and a traffic light visible",
+      "displayed_ids": [
+        34633,
+        35396,
+        22033,
+        40835,
+        290,
+        19691,
+        9280,
+        6996,
+        9157,
+        20838
+      ],
+      "selected_ids": [
+        20778,
+        34879,
+        26572,
+        41529,
+        47788,
+        25852,
+        26848,
+        7787,
+        25417,
+        4548
+      ],
+      "rejected_count": 24,
+      "usual_paths": [
+        {
+          "question": "what is the action of the man in the image?",
+          "answers": [
+            "standing",
+            "walking",
+            "posing"
+          ],
+          "score": 0.014066219329833984
+        },
+        {
+          "question": "what is the action of the man in the image?",
+          "answers": [
+            "standing",
+            "walking",
+            "posing"
+          ],
+          "score": 0.014066219329833984,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the action of the man in the image?",
+          "answers": [
+            "standing",
+            "walking",
+            "posing"
+          ],
+          "score": 0.014066219329833984,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the action of the man in the image?",
+          "answers": [
+            "standing",
+            "walking",
+            "posing"
+          ],
+          "score": 0.014066219329833984,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the action of the man in the image?",
+          "answers": [
+            "standing",
+            "walking",
+            "posing"
+          ],
+          "score": 0.014066219329833984,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the activity of the man in the image?",
+          "answers": [
+            "standing",
+            "walking",
+            "posing"
+          ],
+          "score": 0.013363361358642578
+        },
+        {
+          "question": "Question: Is the man standing still or is he crossing the road?",
+          "answers": [
+            "standing still",
+            "crossing the road",
+            "walking"
+          ],
+          "score": 0.00859212875366211
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a man",
+            "a road",
+            "urban buildings"
+          ],
+          "score": 0.01412820816040039
+        },
+        {
+          "question": "Question: What is the man doing in the image?",
+          "answers": [
+            "standing",
+            "walking",
+            "posing"
+          ],
+          "score": 0.01387786865234375
+        },
+        {
+          "question": "Question: What is the specific type of vehicle the red truck is in the image?",
+          "answers": [
+            "pickup truck",
+            "delivery truck",
+            "box truck"
+          ],
+          "score": 0.011940956115722656
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

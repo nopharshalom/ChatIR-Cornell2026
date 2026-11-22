@@ -1,0 +1,80 @@
+{
+  "qid": 433,
+  "candidates": [
+    "Question: What is the player wearing on their head?",
+    "Question: What is the color of the player's uniform?",
+    "Who is the baseball player preparing to hit again?",
+    "Who is the Yankees player preparing to hit again?",
+    "Question: What is the player wearing on their head?"
+  ],
+  "kl": {
+    "question": "Who is the baseball player preparing to hit again?",
+    "answer": "I'm not sure.",
+    "rewrite": "a baseball player preparing to hit again",
+    "raw_rank": 22,
+    "unseen_rank": 19
+  },
+  "probe": {
+    "answer": "gray",
+    "rewrite": "a gray-uniformed yankees player is preparing to hit again",
+    "raw_rank": 7,
+    "unseen_rank": 1,
+    "question": "Question: What is the color of the player's uniform?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the player wearing on their head?",
+        "answers": [
+          "a cap",
+          "a hat",
+          "nothing"
+        ],
+        "score": 0.0022253990173339844
+      },
+      {
+        "question": "Question: What is the color of the player's uniform?",
+        "answers": [
+          "blue",
+          "gray",
+          "white"
+        ],
+        "score": 0.07416391372680664
+      },
+      {
+        "question": "Who is the baseball player preparing to hit again?",
+        "answers": [
+          "Derek Jeter",
+          "Aaron Judge",
+          "Giancarlo Stanton"
+        ],
+        "score": 0.023252010345458984
+      },
+      {
+        "question": "Who is the Yankees player preparing to hit again?",
+        "answers": [
+          "Derek Jeter",
+          "Aaron Judge",
+          "Giancarlo Stanton"
+        ],
+        "score": 0.02010822296142578
+      },
+      {
+        "question": "Question: What is the player wearing on their head?",
+        "answers": [
+          "a cap",
+          "a hat",
+          "nothing"
+        ],
+        "score": 0.0022253990173339844,
+        "duplicate_of": 0
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.067,
+    "probe_selection_seconds": 2.163,
+    "probe_llm_calls": 4,
+    "probe_search_queries": 12
+  },
+  "reused_outcome": false
+}

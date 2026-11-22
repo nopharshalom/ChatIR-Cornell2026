@@ -1,0 +1,181 @@
+{
+  "qid": 697,
+  "initial": "a man standing in the sand holding a very large kite",
+  "initial_rank": 91,
+  "displayed": [
+    39709,
+    26223,
+    43457,
+    11557,
+    20910,
+    37014,
+    1890,
+    8245,
+    33791,
+    17628
+  ],
+  "evidence": [
+    "man with surfboard walking into ocean",
+    "people are walking along the beach with surfboards",
+    "a girl is flying a kite in the sand on the beach",
+    "a person flying a kite and trying to make it into a star shape",
+    "red and yellow kite in the sky",
+    "a group of people are flying kites at the beach",
+    "man is posing with a surfboard",
+    "several brightly colored kites are flying in the air",
+    "a red kite flying across the sky",
+    "two people fly a kite in a park"
+  ],
+  "rejected_captions": [
+    "a kite standing in the sandy beach",
+    "a man is walking with a large green kite",
+    "a man holding a kite",
+    "the man is holding a pink kite",
+    "two people are standing on a beach with a kite in the air",
+    "a person standing on the beach holding a large parachute",
+    "man standing on beach",
+    "two people sitting on a sandy beach with kites",
+    "a man is trying to fly a kite",
+    "a kite surfer is walking on the ocean and flying his kite"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the color of the large kite being held by the man?",
+      "what is the shape of the very large kite being held by the man?",
+      "what is the specific location of the beach where the man is standing with the large kite?",
+      "what is the color of the man standing in the sand holding a very large kite?",
+      "what is the color of the man standing in the sand holding a very large kite?"
+    ],
+    "question": "what is the color of the large kite being held by the man?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the large kite being held by the man?",
+          "answers": [
+            "red",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.07666015625
+        },
+        {
+          "question": "what is the shape of the very large kite being held by the man?",
+          "answers": [
+            "star",
+            "diamond",
+            "square"
+          ],
+          "score": 0.004462242126464844
+        },
+        {
+          "question": "what is the specific location of the beach where the man is standing with the large kite?",
+          "answers": [
+            "Malibu",
+            "Santa Monica",
+            "Hawaii"
+          ],
+          "score": 0.0329737663269043
+        },
+        {
+          "question": "what is the color of the man standing in the sand holding a very large kite?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.06911420822143555
+        },
+        {
+          "question": "what is the color of the man standing in the sand holding a very large kite?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.06911420822143555,
+          "duplicate_of": 3
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.078,
+      "probe_selection_seconds": 1.854,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "red",
+    "rewrite": "a man standing in the sand holding a very large red kite",
+    "raw_rank": 9,
+    "unseen_rank": 4
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the color of the kite the man is holding?",
+      "Question: What is the color of the large kite the man is holding?",
+      "Question: What is the color of the large kite the man is holding?",
+      "Question: What is the color of the large kite the man is holding?",
+      "Question: What is the color of the kite the man is holding?"
+    ],
+    "question": "Question: What is the color of the kite the man is holding?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the color of the kite the man is holding?",
+          "answers": [
+            "red",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.07007789611816406
+        },
+        {
+          "question": "Question: What is the color of the large kite the man is holding?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.051140785217285156
+        },
+        {
+          "question": "Question: What is the color of the large kite the man is holding?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.051140785217285156,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the large kite the man is holding?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.051140785217285156,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the kite the man is holding?",
+          "answers": [
+            "red",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.07007789611816406,
+          "duplicate_of": 0
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.078,
+      "probe_selection_seconds": 0.893,
+      "probe_llm_calls": 2,
+      "probe_search_queries": 6
+    },
+    "answer": "red",
+    "rewrite": "a man standing in the sand holding a very large red kite",
+    "raw_rank": 9,
+    "unseen_rank": 4
+  }
+}

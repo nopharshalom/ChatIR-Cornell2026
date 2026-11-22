@@ -1,0 +1,79 @@
+{
+  "qid": 256,
+  "candidates": [
+    "Question: What is the color of the building the block tower is attached to?",
+    "Question: What is the color of the clock on the tower?",
+    "Question: What is the material of the building that the clock tower is attached to?",
+    "Question: What is the color of the bus traveling near the clock tower?",
+    "Question: What is the color of the sky behind the clock tower?"
+  ],
+  "kl": {
+    "question": "Question: What is the material of the building that the clock tower is attached to?",
+    "answer": "brick",
+    "rewrite": "A block tower that is attached to a brick building.",
+    "raw_rank": 39,
+    "unseen_rank": 29
+  },
+  "probe": {
+    "answer": "blue",
+    "rewrite": "a blue sky behind a clock tower attached to a brick building",
+    "raw_rank": 9,
+    "unseen_rank": 8,
+    "question": "Question: What is the color of the sky behind the clock tower?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the color of the building the block tower is attached to?",
+        "answers": [
+          "red",
+          "brown",
+          "white"
+        ],
+        "score": 0.03309154510498047
+      },
+      {
+        "question": "Question: What is the color of the clock on the tower?",
+        "answers": [
+          "black",
+          "white",
+          "brown"
+        ],
+        "score": 0.03855419158935547
+      },
+      {
+        "question": "Question: What is the material of the building that the clock tower is attached to?",
+        "answers": [
+          "brick",
+          "stone",
+          "concrete"
+        ],
+        "score": 0.010857105255126953
+      },
+      {
+        "question": "Question: What is the color of the bus traveling near the clock tower?",
+        "answers": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "score": 0.04371023178100586
+      },
+      {
+        "question": "Question: What is the color of the sky behind the clock tower?",
+        "answers": [
+          "blue",
+          "cloudy",
+          "dark"
+        ],
+        "score": 0.044234275817871094
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.054,
+    "probe_selection_seconds": 2.248,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": false
+}

@@ -1,0 +1,71 @@
+{
+  "qid": 1797,
+  "initial": "some birds eating from a metal bird feeder",
+  "initial_rank": 29,
+  "evidence": [
+    "small red and blue bird",
+    "giraffes standing in a zoo exhibit",
+    "two black and white kittens eating food",
+    "two giraffes nibbling on a tree that is at the edge of their enclosure",
+    "a bakery machine with a metal sheet of doughnuts in the center",
+    "three sheep in a pen with hay under their feet",
+    "the bird is red",
+    "two people sitting on a bench in a park near a bunch of birds",
+    "a group of zebras in an enclosure eating grass",
+    "zebras are eating grass in a pen"
+  ],
+  "displayed_ids": [
+    28093,
+    2937,
+    408,
+    6820,
+    37578,
+    19650,
+    9942,
+    42530,
+    37228,
+    49680
+  ],
+  "rejected_captions": [
+    "birds sit on a feeder outside",
+    "a bird feeder with birds on top of it",
+    "two birds sitting next to each other",
+    "some birds perched on a bird feeder",
+    "the birds are sitting on a bird feeder",
+    "two birds standing on a wooden feeder",
+    "two birds perched on top of a red bird feeder",
+    "a bird feeding from a metal feeder",
+    "a bird standing on top of a bird feeder",
+    "two birds standing on top of a bird feeder"
+  ],
+  "candidates": [
+    "Question: What is the color of the bird in the image?",
+    "Question: How many birds are eating from the metal bird feeder?",
+    "Question: What is the color of the bird?",
+    "Question: What is the color of the bird in the image?",
+    "Question: What is the color of the bird in the image?"
+  ],
+  "control_candidates": [
+    "what is the color of the bird?",
+    "Question: where are the birds eating from the metal bird feeder?",
+    "what is the color of the bird feeder?",
+    "what is the color of the bird feeder?",
+    "what is the location where the birds are eating from the metal bird feeder?"
+  ],
+  "control": {
+    "question": "Question: where are the birds eating from the metal bird feeder?",
+    "answer": "on the ground",
+    "rewrite": "some birds eating from a metal bird feeder on the ground",
+    "rank": 26,
+    "hit": false,
+    "raw_rank": 26,
+    "unseen_rank": 16
+  },
+  "variant": {
+    "question": "Question: What is the color of the bird in the image?",
+    "answer": "green",
+    "rewrite": "some green birds eating from a metal bird feeder",
+    "raw_rank": 39,
+    "unseen_rank": 29
+  }
+}

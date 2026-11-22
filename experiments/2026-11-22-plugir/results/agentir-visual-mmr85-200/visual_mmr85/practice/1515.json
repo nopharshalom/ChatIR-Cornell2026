@@ -1,0 +1,94 @@
+{
+  "chosen": "what is the color of the train going down the tracks?",
+  "default": "what is the color of the train going down the tracks?",
+  "ids": [
+    46477,
+    17233,
+    19469,
+    31820
+  ],
+  "trials": {
+    "what is the color of the train going down the tracks?": {
+      "answers": [
+        "black and yellow",
+        "black",
+        "blue and yellow",
+        "black"
+      ],
+      "rewrites": {
+        "black and yellow": "a black and yellow train going down the tracks with another train behind it",
+        "black": "a black train going down the tracks with another train behind it",
+        "blue and yellow": "a blue and yellow train going down the tracks with another train behind it"
+      },
+      "ranks": [
+        5,
+        90,
+        4,
+        267
+      ],
+      "hits": 2
+    },
+    "what is the color of the second train behind the main train?": {
+      "answers": [
+        "orange",
+        "unsure",
+        "gray",
+        "yellow"
+      ],
+      "rewrites": {
+        "orange": "a train going down the tracks with an orange train behind it",
+        "unsure": "a train going down the tracks with another train behind it, the color of which is unknown",
+        "gray": "a train going down the tracks with a gray train behind it",
+        "yellow": "a yellow train following another train on the tracks"
+      },
+      "ranks": [
+        46,
+        7,
+        57,
+        72
+      ],
+      "hits": 1
+    },
+    "what is the location or background where the two trains are going down the tracks?": {
+      "answers": [
+        "rural",
+        "railway yard",
+        "railway",
+        "rural"
+      ],
+      "rewrites": {
+        "rural": "two trains traveling down tracks in a rural area",
+        "railway yard": "two trains on tracks in a railway yard",
+        "railway": "two trains traveling down the tracks on a railway"
+      },
+      "ranks": [
+        92,
+        99,
+        57,
+        3
+      ],
+      "hits": 1
+    },
+    "what is the background scenery where the two trains are going down the tracks?": {
+      "answers": [
+        "trees",
+        "industrial",
+        "The background scenery includes green trees, some buildings, and a bridge.",
+        "open field"
+      ],
+      "rewrites": {
+        "trees": "a train going down the tracks with another train behind it, with trees in the background",
+        "industrial": "a train going down the tracks with another train behind it in an industrial background",
+        "The background scenery includes green trees, some buildings, and a bridge.": "a train going down the tracks with another train behind it, set against a background of green trees, buildings, and a bridge",
+        "open field": "a train going down the tracks with another train behind it in an open field"
+      },
+      "ranks": [
+        34,
+        6,
+        6,
+        79
+      ],
+      "hits": 2
+    }
+  }
+}

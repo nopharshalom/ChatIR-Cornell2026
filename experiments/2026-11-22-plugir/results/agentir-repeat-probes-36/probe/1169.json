@@ -1,0 +1,87 @@
+{
+  "qid": 1169,
+  "arm": "probe",
+  "after_round": 5,
+  "ranks": [
+    42,
+    25,
+    49,
+    43,
+    47,
+    106,
+    47,
+    106,
+    77,
+    60,
+    58
+  ],
+  "continuation": [
+    {
+      "round": 6,
+      "query_before": "two silver laptops and a white iPod dock sitting on a wooden desk",
+      "question": "Is the desk in the image made of wood?",
+      "answer": "yes",
+      "query_after": "two silver computers and a white iPod dock sit on a wooden desk, with a laptop also present",
+      "searches": [
+        {
+          "query": "A wooden desk holds two silver computer monitors and a white iPod dock, with a laptop also present on the surface.",
+          "ids": [
+            40424,
+            8906,
+            36911
+          ],
+          "captions": [
+            "a laptop sitting on a desk",
+            "a monitor with a clock and an arm rest",
+            "the computer is an apple macbook pro"
+          ]
+        },
+        {
+          "query": "A wooden desk features two silver computer monitors and a white iPod dock, with a laptop positioned either to the left or right of the monitors.",
+          "ids": [
+            40424,
+            36911,
+            16041
+          ],
+          "captions": [
+            "a laptop sitting on a desk",
+            "the computer is an apple macbook pro",
+            "two brown laptop computers in a home office"
+          ]
+        }
+      ],
+      "raw_plan": "A wooden desk holds two silver computer monitors and a white iPod dock, with a laptop also present on the surface.\nA wooden desk features two silver computer monitors and a white iPod dock, with a laptop positioned either to the left or right of the monitors.",
+      "generated": "Is the desk in the image made of wood?",
+      "fallback": false
+    },
+    {
+      "round": 7,
+      "query_before": "two silver computers and a white iPod dock sit on a wooden desk, with a laptop also present",
+      "question": "what is the color of the laptop next to the two silver computers?",
+      "answer": "silver",
+      "query_after": "two silver laptops and a white iPod dock sitting on a wooden desk"
+    },
+    {
+      "round": 8,
+      "query_before": "two silver laptops and a white iPod dock sitting on a wooden desk",
+      "question": "what is the brand of the two silver computers next to the white iPod dock?",
+      "answer": "apple",
+      "query_after": "two silver Apple computers and a silver laptop sit on a wooden desk next to a white iPod dock"
+    },
+    {
+      "round": 9,
+      "query_before": "two silver Apple computers and a silver laptop sit on a wooden desk next to a white iPod dock",
+      "question": "what is the other object in the image?",
+      "answer": "laptop",
+      "query_after": "two silver Apple computers and a silver laptop sit next to each other on a wooden desk, accompanied by a white iPod dock"
+    },
+    {
+      "round": 10,
+      "query_before": "two silver Apple computers and a silver laptop sit next to each other on a wooden desk, accompanied by a white iPod dock",
+      "question": "what is the color of the ipod dock located next to the two silver computers?",
+      "answer": "white",
+      "query_after": "Two silver Apple computers and a silver laptop are positioned side by side on a wooden desk, alongside a white iPod dock."
+    }
+  ],
+  "seconds": 68.3
+}

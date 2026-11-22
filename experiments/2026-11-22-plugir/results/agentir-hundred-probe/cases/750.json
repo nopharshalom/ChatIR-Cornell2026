@@ -1,0 +1,99 @@
+{
+  "qid": 750,
+  "initial": "a narrow bathroom has a long bathtub in it",
+  "initial_rank": 11,
+  "evidence": [
+    "large bathroom with many sinks and mirrors",
+    "a white toilet and a shower curtain",
+    "a bathroom with white tiles, a toilet, a tub and shower",
+    "a clean bathroom with toilet and shower",
+    "a bathroom with a rug and toilet",
+    "the bathroom has a toilet and sink, shower and bathtub",
+    "a bathroom with two sinks and two mirrors",
+    "white tiled bathroom with white bath tub and toilet",
+    "an open kitchen with dark wood cabinets",
+    "a rug a kitchen that is being redecorated"
+  ],
+  "candidates": [
+    "Question: What color are the tiles in the bathroom with the long bathtub?",
+    "Question: What is the color of the tiles in the bathroom with the long bathtub?",
+    "Question: What color are the walls or fixtures in the bathroom that has a long bathtub?",
+    "Question: Question: Which bathroom features a long bathtub and has white tiles?",
+    "Question: Which bathroom features a long bathtub and has white tiles?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: What color are the tiles in the bathroom with the long bathtub?",
+      "answers": [
+        "white",
+        "beige",
+        "gray"
+      ],
+      "score": 0.03188323974609375
+    },
+    {
+      "question": "Question: What is the color of the tiles in the bathroom with the long bathtub?",
+      "answers": [
+        "white",
+        "blue",
+        "beige"
+      ],
+      "score": 0.1245884895324707
+    },
+    {
+      "question": "Question: What color are the walls or fixtures in the bathroom that has a long bathtub?",
+      "answers": [
+        "white",
+        "cream",
+        "beige"
+      ],
+      "score": 0.024719715118408203
+    },
+    {
+      "question": "Question: Question: Which bathroom features a long bathtub and has white tiles?",
+      "answers": [
+        "1",
+        "2",
+        "7"
+      ],
+      "score": 0.0002923011779785156
+    },
+    {
+      "question": "Question: Which bathroom features a long bathtub and has white tiles?",
+      "answers": [
+        "1",
+        "7"
+      ],
+      "score": 0.00026607513427734375
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.079,
+  "probe_selection_seconds": 2.34,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 14,
+  "arms": {
+    "kl": {
+      "question": "Question: What color are the walls or fixtures in the bathroom that has a long bathtub?",
+      "answer": "white",
+      "rewrite": "a narrow bathroom with white walls and fixtures featuring a long bathtub",
+      "rank": 4,
+      "hit": true
+    },
+    "random": {
+      "question": "Question: What is the color of the tiles in the bathroom with the long bathtub?",
+      "answer": "white",
+      "rewrite": "a narrow bathroom with white tiles features a long bathtub",
+      "rank": 1,
+      "hit": true
+    },
+    "probe": {
+      "question": "Question: What is the color of the tiles in the bathroom with the long bathtub?",
+      "answer": "white",
+      "rewrite": "a narrow bathroom with white tiles features a long bathtub",
+      "rank": 1,
+      "hit": true
+    }
+  },
+  "seconds": 15.346
+}

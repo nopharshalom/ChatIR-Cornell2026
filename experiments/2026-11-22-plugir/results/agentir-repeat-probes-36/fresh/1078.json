@@ -1,0 +1,67 @@
+{
+  "qid": 1078,
+  "arm": "fresh",
+  "after_round": 4,
+  "ranks": [
+    42,
+    30,
+    38,
+    49,
+    47,
+    44,
+    47,
+    127,
+    67,
+    32,
+    36
+  ],
+  "continuation": [
+    {
+      "round": 5,
+      "query_before": "a stop sign is set up where three roads intersect on a paved surface, with street signs located behind it",
+      "question": "Is the stop sign located in a green, residential neighborhood or in a dusty area?",
+      "answer": "dusty area",
+      "query_after": "a stop sign is set up where 3 roads intersect on a paved surface in a dusty area, with street signs located behind it",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Is the stop sign located in a green, residential neighborhood or in a dusty area?",
+      "fallback": false
+    },
+    {
+      "round": 6,
+      "query_before": "a stop sign is set up where 3 roads intersect on a paved surface in a dusty area, with street signs located behind it",
+      "question": "what is the weather condition where the stop sign is located?",
+      "answer": "clear",
+      "query_after": "a stop sign is set up where three roads intersect in a dusty area with clear weather, featuring street signs behind it on a paved road surface"
+    },
+    {
+      "round": 7,
+      "query_before": "a stop sign is set up where three roads intersect in a dusty area with clear weather, featuring street signs behind it on a paved road surface",
+      "question": "what is the color of the stop sign?",
+      "answer": "red",
+      "query_after": "a red stop sign stands at the intersection of three roads in a dusty area, with street signs visible behind it on a paved surface under clear weather conditions"
+    },
+    {
+      "round": 8,
+      "query_before": "a red stop sign stands at the intersection of three roads in a dusty area, with street signs visible behind it on a paved surface under clear weather conditions",
+      "question": "what is the other object in the image?",
+      "answer": "stop sign",
+      "query_after": "a red stop sign stands at the intersection of three paved roads in a dusty area, with street signs visible behind it under clear weather conditions"
+    },
+    {
+      "round": 9,
+      "query_before": "a red stop sign stands at the intersection of three paved roads in a dusty area, with street signs visible behind it under clear weather conditions",
+      "question": "what is the terrain feature visible in the background of the image?",
+      "answer": "sky",
+      "query_after": "a red stop sign stands at the intersection of three paved roads in a dusty area, accompanied by street signs behind it, with a clear sky visible in the background"
+    },
+    {
+      "round": 10,
+      "query_before": "a red stop sign stands at the intersection of three paved roads in a dusty area, accompanied by street signs behind it, with a clear sky visible in the background",
+      "question": "what is the type of pole holding the stop sign?",
+      "answer": "metal",
+      "query_after": "a red stop sign mounted on a metal pole stands at the intersection of three paved roads in a dusty area, with street signs behind it and a clear sky in the background"
+    }
+  ],
+  "seconds": 64.8
+}

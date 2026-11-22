@@ -1,0 +1,79 @@
+{
+  "qid": 1621,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the bathroom containing the shower?",
+    "what is the color of the window in the shower?",
+    "what is the location of the window with white tiles?",
+    "what is the color of the window in the bathroom with white tiles?",
+    "what is the location of the shower with white tiles?"
+  ],
+  "second_candidates": [
+    "what is the other object in the image?",
+    "what is the color of the tiles in the shower?",
+    "what is the color of the tiles in the shower?",
+    "what is the material or texture of the window in the shower?",
+    "what is the color of the shower in the image?"
+  ],
+  "paths": [
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "window",
+        "shower",
+        "tiles"
+      ],
+      "score": 0.004206180572509766
+    },
+    {
+      "question": "what is the color of the tiles in the shower?",
+      "answers": [
+        "white",
+        "blue",
+        "green"
+      ],
+      "score": 0.07950115203857422
+    },
+    {
+      "question": "what is the color of the tiles in the shower?",
+      "answers": [
+        "white",
+        "blue",
+        "green"
+      ],
+      "score": 0.07950115203857422,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the material or texture of the window in the shower?",
+      "answers": [
+        "glass",
+        "plastic",
+        "tile"
+      ],
+      "score": 0.008250713348388672
+    },
+    {
+      "question": "what is the color of the shower in the image?",
+      "answers": [
+        "white",
+        "blue",
+        "grey"
+      ],
+      "score": 0.057303428649902344
+    }
+  ],
+  "control": {
+    "question": "what is the color of the tiles in the shower?",
+    "score": 0.07950115203857422
+  },
+  "mixed": {
+    "question": "what is the color of the window in the shower?",
+    "score": 0.0635685920715332
+  },
+  "control_rank": 54,
+  "mixed_rank": 31,
+  "usual_rank": 31,
+  "new_answer": "white",
+  "new_rewrite": "a white tiled shower with a window for light"
+}

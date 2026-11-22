@@ -1,0 +1,99 @@
+{
+  "ids": [
+    17692,
+    4080,
+    17131,
+    13803
+  ],
+  "prefix": [
+    "image of a red lobster restaurant from a street a one-way sign and street light is visible, and a man in an orange shirt is walking toward the entrance",
+    "what is the color of the sign visible on the street? black and white"
+  ],
+  "default": "Question: what is the location of the red lobster restaurant in the image?",
+  "chosen": "Question: what is the location of the red lobster restaurant in the image?",
+  "trials": {
+    "Question: what is the location of the red lobster restaurant in the image?": {
+      "answers": [
+        "I'm unsure.",
+        "I'm sorry, but the image does not show a Red Lobster restaurant.",
+        "I'm not sure.",
+        "I'm sorry, but the image does not show the location of the Red Lobster restaurant."
+      ],
+      "rewrites": {
+        "I'm unsure.": "an image of a Red Lobster restaurant featuring a black and white one-way sign and a street light, with a man in an orange shirt walking toward the entrance; the specific location of the restaurant is unclear.",
+        "I'm sorry, but the image does not show a Red Lobster restaurant.": "a street scene featuring a black and white one-way sign and a street light, with a man in an orange shirt walking toward a building that is not a Red Lobster restaurant",
+        "I'm not sure.": "an image of a Red Lobster restaurant with a black and white one-way sign and a street light visible, and a man in an orange shirt walking toward the entrance",
+        "I'm sorry, but the image does not show the location of the Red Lobster restaurant.": "an image of a Red Lobster restaurant exterior featuring a black and white one-way sign and a street light, with a man in an orange shirt walking toward the entrance; the specific location of the restaurant is not visible."
+      },
+      "ranks": [
+        15,
+        88,
+        53,
+        40
+      ],
+      "hits": 0
+    },
+    "what is the other object in the image?": {
+      "answers": [
+        "traffic light",
+        "traffic light",
+        "restaurant",
+        "the other object is a red door."
+      ],
+      "rewrites": {
+        "traffic light": "a street view of a red lobster restaurant featuring a black and white one-way sign and a traffic light, with a man in an orange shirt walking toward the entrance",
+        "restaurant": "a street scene featuring a red lobster restaurant and a black and white one-way sign, with a man in an orange shirt walking toward the entrance",
+        "the other object is a red door.": "a street view of a red lobster restaurant featuring a black and white one-way sign, a street light, and a red door, with a man in an orange shirt walking toward the entrance"
+      },
+      "ranks": [
+        12,
+        11,
+        23,
+        29
+      ],
+      "hits": 0
+    },
+    "what is the color of the man's shirt in the image of the red lobster restaurant?": {
+      "answers": [
+        "red",
+        "blue",
+        "brown",
+        "black"
+      ],
+      "rewrites": {
+        "red": "image of a Red Lobster restaurant from the street, featuring a black and white one-way sign and a street light, with a man in a red shirt walking toward the entrance",
+        "blue": "image of a Red Lobster restaurant from the street, featuring a black and white one-way sign and a street light, with a man in a blue shirt walking toward the entrance",
+        "brown": "image of a Red Lobster restaurant from the street, featuring a black and white one-way sign and a street light, with a man in a brown shirt walking toward the entrance",
+        "black": "image of a red lobster restaurant from the street, featuring a black and white one-way sign and a street light, with a man in a black shirt walking toward the entrance"
+      },
+      "ranks": [
+        25,
+        33,
+        42,
+        12
+      ],
+      "hits": 0
+    },
+    "Question: What is the color of the man's shirt in the image of the red lobster restaurant?": {
+      "answers": [
+        "I'm sorry, but the image does not show a red lobster restaurant or a man's shirt.",
+        "unsure",
+        "brown",
+        "black"
+      ],
+      "rewrites": {
+        "I'm sorry, but the image does not show a red lobster restaurant or a man's shirt.": "image of a street with a black and white one-way sign and a street light, but no red lobster restaurant or man in an orange shirt is visible",
+        "unsure": "image of a Red Lobster restaurant from the street, featuring a black and white one-way sign and a street light, with a man in an orange shirt walking toward the entrance",
+        "brown": "image of a Red Lobster restaurant from the street, featuring a black and white one-way sign and a street light, with a man in a brown shirt walking toward the entrance",
+        "black": "image of a red lobster restaurant from the street, featuring a black and white one-way sign and a street light, with a man in a black shirt walking toward the entrance"
+      },
+      "ranks": [
+        16,
+        13,
+        42,
+        12
+      ],
+      "hits": 0
+    }
+  }
+}

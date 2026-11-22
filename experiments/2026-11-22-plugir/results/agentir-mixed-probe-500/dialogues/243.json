@@ -1,0 +1,935 @@
+{
+  "qid": 243,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000431203.jpg",
+  "queries": [
+    "a parking reader says expired on a city street",
+    "a white car parked next to a parking reader displaying \"expired\" on a city street",
+    "a white car parked next to a black parking meter displaying \"expired\" on a city street",
+    "a white car parked next to a black parking reader displaying \"expired\" on a city street, with other cars in the background",
+    "a white car is parked next to a black parking reader displaying \"expired\" on a city street, with other cars visible in the background",
+    "A white car is parked beside a black parking reader showing \"expired\" on a city street, with other vehicles visible in the background.",
+    "a white car is parked next to a black parking reader displaying \"expired\" on a city street, with other cars visible in the background",
+    "A white car is parked beside a black parking meter on a city street, which displays an \"expired\" sign, with other vehicles visible in the background."
+  ],
+  "ranks": [
+    25,
+    27,
+    12,
+    21,
+    17,
+    14,
+    17,
+    10
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a parking reader says expired on a city street",
+      "question": "what is the color of the car parked next to the parking reader that says \"expired\"?",
+      "answer": "white",
+      "query_after": "a white car parked next to a parking reader displaying \"expired\" on a city street",
+      "displayed_ids": [
+        38320,
+        410,
+        15448,
+        44894,
+        37668,
+        24218,
+        9599,
+        15785,
+        49927,
+        43075
+      ],
+      "selected_ids": [
+        2694,
+        4985,
+        18840,
+        43807,
+        13533,
+        39050,
+        7846,
+        410,
+        10685,
+        9805
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the sign that says \"expired\" on the city street?",
+          "answers": [
+            "red and white",
+            "white",
+            "red"
+          ],
+          "score": 0.016693115234375
+        },
+        {
+          "question": "what is the color of the car parked next to the parking meter reading \"expired\"?",
+          "answers": [
+            "white",
+            "black",
+            "silver"
+          ],
+          "score": 0.016449451446533203
+        },
+        {
+          "question": "what is the color of the parking meter that is reading \"expired\"?",
+          "answers": [
+            "red",
+            "black",
+            "white"
+          ],
+          "score": 0.01779031753540039
+        },
+        {
+          "question": "what is the location where the car is parked next to the parking meter reading \"expired\"?",
+          "answers": [
+            "public market center",
+            "city street",
+            "parking lot"
+          ],
+          "score": 0.016466617584228516
+        },
+        {
+          "question": "what is the parking meter reading on the car parked next to it?",
+          "answers": [
+            "expired",
+            "paid",
+            "nothing"
+          ],
+          "score": 0.0021162033081054688
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the parking reader that says \"expired\"?",
+          "answers": [
+            "red",
+            "white",
+            "green"
+          ],
+          "score": 0.04122209548950195
+        },
+        {
+          "question": "what is the color of the sign above the parking reader that says \"expired\"?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.01895761489868164
+        },
+        {
+          "question": "what is the weather condition of the scene where the parking reader says \"expired\"?",
+          "answers": [
+            "sunny",
+            "cloudy",
+            "rainy"
+          ],
+          "score": 0.021489620208740234
+        },
+        {
+          "question": "what is the color of the car parked next to the parking reader that says \"expired\"?",
+          "answers": [
+            "white",
+            "red",
+            "black"
+          ],
+          "score": 0.0450291633605957
+        },
+        {
+          "question": "Question: What is the color of the parking reader that says \"expired\"?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.03093433380126953
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a white car parked next to a parking reader displaying \"expired\" on a city street",
+      "question": "what is the color of the background on the parking meter?",
+      "answer": "black",
+      "query_after": "a white car parked next to a black parking meter displaying \"expired\" on a city street",
+      "displayed_ids": [
+        43075,
+        38320,
+        39036,
+        39050,
+        4968,
+        46158,
+        18739,
+        6772,
+        48106,
+        8335
+      ],
+      "selected_ids": [
+        44793,
+        7068,
+        35084,
+        11891,
+        14226,
+        40846,
+        30372,
+        26136,
+        46671,
+        35013
+      ],
+      "rejected_count": 18,
+      "usual_paths": [
+        {
+          "question": "what is the color of the background on the parking meter?",
+          "answers": [
+            "green",
+            "blue",
+            "white and red"
+          ],
+          "score": 0.06664133071899414
+        },
+        {
+          "question": "what is the color of the background on the parking meter?",
+          "answers": [
+            "green",
+            "blue",
+            "white and red"
+          ],
+          "score": 0.06664133071899414,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the background on the parking meter?",
+          "answers": [
+            "green",
+            "blue",
+            "white and red"
+          ],
+          "score": 0.06664133071899414,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the background on the parking meter?",
+          "answers": [
+            "green",
+            "blue",
+            "white and red"
+          ],
+          "score": 0.06664133071899414,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the background on the parking meter?",
+          "answers": [
+            "green",
+            "blue",
+            "white and red"
+          ],
+          "score": 0.06664133071899414,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the parking reader that says \"expired\"?",
+          "answers": [
+            "expired",
+            "expiring",
+            "valid"
+          ],
+          "score": 0.0030961036682128906
+        },
+        {
+          "question": "what is the background color of the parking reader that says \"expired\"?",
+          "answers": [
+            "white",
+            "black",
+            "silver"
+          ],
+          "score": 0.012688636779785156
+        },
+        {
+          "question": "what is the background color of the parking reader that says \"expired\"?",
+          "answers": [
+            "white",
+            "black",
+            "silver"
+          ],
+          "score": 0.012688636779785156,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "green sign",
+            "stop sign",
+            "blue background"
+          ],
+          "score": 0.040659427642822266
+        },
+        {
+          "question": "what is the background color of the parking reader that says \"expired\"?",
+          "answers": [
+            "white",
+            "black",
+            "silver"
+          ],
+          "score": 0.012688636779785156,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "a white car parked next to a black parking meter displaying \"expired\" on a city street",
+      "question": "what is the other object in the image?",
+      "answer": "cars",
+      "query_after": "a white car parked next to a black parking reader displaying \"expired\" on a city street, with other cars in the background",
+      "displayed_ids": [
+        12324,
+        8335,
+        39036,
+        23226,
+        28060,
+        46158,
+        4968,
+        48106,
+        4699,
+        5293
+      ],
+      "selected_ids": [
+        19974,
+        44894,
+        6138,
+        39050,
+        11891,
+        7068,
+        9385,
+        18840,
+        11828,
+        31165
+      ],
+      "rejected_count": 23,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "traffic light",
+            "street sign",
+            "car"
+          ],
+          "score": 0.047554969787597656
+        },
+        {
+          "question": "what is the text written on the parking reader that says \"expired\"?",
+          "answers": [
+            "expired",
+            "OVER",
+            "NO PARKING"
+          ],
+          "score": 0.004680633544921875
+        },
+        {
+          "question": "what is the color of the background on the parking reader that says \"expired\"?",
+          "answers": [
+            "red",
+            "white",
+            "yellow"
+          ],
+          "score": 0.018458843231201172
+        },
+        {
+          "question": "what is the color of the car parked next to the parking reader that says \"expired\"?",
+          "answers": [
+            "white",
+            "black",
+            "silver"
+          ],
+          "score": 0.006771564483642578
+        },
+        {
+          "question": "what is the location of the parking reader that says \"expired\"?",
+          "answers": [
+            "city street",
+            "parking meter",
+            "sidewalk"
+          ],
+          "score": 0.012642860412597656
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the specific location of the parking reader that says \"expired\"?",
+          "answers": [
+            "city street",
+            "parking lot",
+            "downtown area"
+          ],
+          "score": 0.006349086761474609
+        },
+        {
+          "question": "what is the type of surface the parking reader that says \"expired\" is located on?",
+          "answers": [
+            "concrete",
+            "asphalt",
+            "paved"
+          ],
+          "score": 0.003120899200439453
+        },
+        {
+          "question": "what is the color of the text displayed on the parking reader?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.04375886917114258
+        },
+        {
+          "question": "what is the specific location of the parking reader that says \"expired\"?",
+          "answers": [
+            "city street",
+            "parking lot",
+            "downtown area"
+          ],
+          "score": 0.006349086761474609,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the background on the parking reader that says \"expired\"?",
+          "answers": [
+            "black",
+            "white",
+            "grey"
+          ],
+          "score": 0.005403041839599609
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a white car parked next to a black parking reader displaying \"expired\" on a city street, with other cars in the background",
+      "question": "what is the other object in the image?",
+      "answer": "cars",
+      "query_after": "a white car is parked next to a black parking reader displaying \"expired\" on a city street, with other cars visible in the background",
+      "displayed_ids": [
+        43075,
+        18739,
+        8335,
+        12324,
+        46158,
+        39036,
+        6772,
+        47274,
+        4968,
+        38320
+      ],
+      "selected_ids": [
+        14884,
+        20492,
+        6148,
+        43660,
+        11891,
+        19924,
+        28754,
+        14443,
+        30314
+      ],
+      "rejected_count": 24,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "cars",
+            "bus",
+            "street sign"
+          ],
+          "score": 0.05755805969238281
+        },
+        {
+          "question": "what is the color of the car parked next to the parking meter that says \"expired\"?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.035689353942871094
+        },
+        {
+          "question": "what is the color of the text displayed on the parking meter that says \"expired\"?",
+          "answers": [
+            "red",
+            "white",
+            "black"
+          ],
+          "score": 0.014964103698730469
+        },
+        {
+          "question": "what is the color of the text displayed on the parking meter that says \"expired\"?",
+          "answers": [
+            "red",
+            "white",
+            "black"
+          ],
+          "score": 0.014964103698730469,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the text displayed on the parking meter that says \"expired\"?",
+          "answers": [
+            "red",
+            "white",
+            "black"
+          ],
+          "score": 0.014964103698730469,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "cars",
+            "bus",
+            "street sign"
+          ],
+          "score": 0.05755805969238281
+        },
+        {
+          "question": "what is the color of the car parked next to the parking meter?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.024179458618164062
+        },
+        {
+          "question": "what is the text displayed on the parking meter?",
+          "answers": [
+            "expired",
+            "black",
+            "white"
+          ],
+          "score": 0.003693103790283203
+        },
+        {
+          "question": "Question: What is the color of the parking meter?",
+          "answers": [
+            "black",
+            "blue",
+            "unknown"
+          ],
+          "score": 0.015530109405517578
+        },
+        {
+          "question": "what is the status of the parking meter in the image?",
+          "answers": [
+            "expired",
+            "paid",
+            "active"
+          ],
+          "score": 0.004756927490234375
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a white car is parked next to a black parking reader displaying \"expired\" on a city street, with other cars visible in the background",
+      "question": "what is the other object in the image?",
+      "answer": "cars",
+      "query_after": "A white car is parked beside a black parking reader showing \"expired\" on a city street, with other vehicles visible in the background.",
+      "displayed_ids": [
+        43075,
+        12324,
+        8335,
+        38320,
+        46158,
+        39036,
+        47274,
+        18739,
+        6772,
+        49927
+      ],
+      "selected_ids": [
+        11891,
+        14443,
+        33850,
+        410,
+        28754,
+        8653,
+        7068,
+        19924,
+        30314,
+        3214
+      ],
+      "rejected_count": 24,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "cars",
+            "bus",
+            "street sign"
+          ],
+          "score": 0.06142234802246094
+        },
+        {
+          "question": "what is the background color of the parking reader that says \"expired\"?",
+          "answers": [
+            "black",
+            "blue",
+            "green"
+          ],
+          "score": 0.04168844223022461
+        },
+        {
+          "question": "what is the background color of the parking reader that says \"expired\"?",
+          "answers": [
+            "black",
+            "blue",
+            "green"
+          ],
+          "score": 0.04168844223022461,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the text displayed on the parking reader that says \"expired\"?",
+          "answers": [
+            "expired",
+            "expired text",
+            "time up"
+          ],
+          "score": 0.007460594177246094
+        },
+        {
+          "question": "what is the specific text displayed on the parking reader in the image?",
+          "answers": [
+            "expired",
+            "paid",
+            "time left"
+          ],
+          "score": 0.013136863708496094
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the specific time or status displayed on the parking reader other than \"expired\"?",
+          "answers": [
+            "expired",
+            "parked",
+            "paid"
+          ],
+          "score": 0.002842426300048828
+        },
+        {
+          "question": "what is the color of the parking reader that says \"expired\"?",
+          "answers": [
+            "red",
+            "black",
+            "blue"
+          ],
+          "score": 0.050019264221191406
+        },
+        {
+          "question": "Question: What is the text displayed on the parking reader?",
+          "answers": [
+            "expired",
+            "parked",
+            "no parking"
+          ],
+          "score": 0.005804538726806641
+        },
+        {
+          "question": "Question: What is the color of the text displayed on the parking reader that says \"expired\"?",
+          "answers": [
+            "red",
+            "black",
+            "white"
+          ],
+          "score": 0.012578487396240234
+        },
+        {
+          "question": "Question: What is the specific status or text displayed on the parking reader?",
+          "answers": [
+            "expired",
+            "paid",
+            "time left"
+          ],
+          "score": 0.006956577301025391
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "A white car is parked beside a black parking reader showing \"expired\" on a city street, with other vehicles visible in the background.",
+      "question": "what is the other object in the image?",
+      "answer": "cars",
+      "query_after": "a white car is parked next to a black parking reader displaying \"expired\" on a city street, with other cars visible in the background",
+      "displayed_ids": [
+        12324,
+        8335,
+        43075,
+        39036,
+        18739,
+        46158,
+        47274,
+        6772,
+        23226,
+        49927
+      ],
+      "selected_ids": [
+        14443,
+        44894,
+        39608,
+        28512,
+        5329,
+        34564,
+        32580,
+        31992,
+        7068,
+        3777
+      ],
+      "rejected_count": 24,
+      "usual_paths": [
+        {
+          "question": "what is the color of the pole holding the parking meter?",
+          "answers": [
+            "black",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.04644012451171875
+        },
+        {
+          "question": "what is the color of the pole holding the parking meter?",
+          "answers": [
+            "black",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.04644012451171875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "cars",
+            "buses",
+            "meters"
+          ],
+          "score": 0.10700273513793945
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "cars",
+            "buses",
+            "meters"
+          ],
+          "score": 0.10700273513793945,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "cars",
+            "buses",
+            "meters"
+          ],
+          "score": 0.10700273513793945,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the pole holding the parking meter?",
+          "answers": [
+            "black",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.04644012451171875
+        },
+        {
+          "question": "what is the color of the pole holding the parking meter?",
+          "answers": [
+            "black",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.04644012451171875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the pole holding the parking meter?",
+          "answers": [
+            "black",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.04644012451171875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the pole holding the parking meter?",
+          "answers": [
+            "black",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.04644012451171875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "cars",
+            "bus",
+            "street"
+          ],
+          "score": 0.043406009674072266
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a white car is parked next to a black parking reader displaying \"expired\" on a city street, with other cars visible in the background",
+      "question": "what is the other object in the image?",
+      "answer": "cars",
+      "query_after": "A white car is parked beside a black parking meter on a city street, which displays an \"expired\" sign, with other vehicles visible in the background.",
+      "displayed_ids": [
+        43075,
+        12324,
+        8335,
+        38320,
+        46158,
+        39036,
+        47274,
+        18739,
+        6772,
+        49927
+      ],
+      "selected_ids": [
+        47407,
+        28754,
+        46158,
+        47061,
+        25808,
+        49927,
+        5329,
+        11828,
+        44894,
+        39608
+      ],
+      "rejected_count": 24,
+      "usual_paths": [
+        {
+          "question": "Is the \"expired\" text written in red or black on the parking reader?",
+          "answers": [
+            "red",
+            "black",
+            "blue"
+          ],
+          "score": 0.0113983154296875
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "cars",
+            "sign",
+            "dogs"
+          ],
+          "score": 0.05208301544189453
+        },
+        {
+          "question": "what is the color of the text displayed on the parking meter in the image?",
+          "answers": [
+            "red",
+            "white",
+            "black"
+          ],
+          "score": 0.020305156707763672
+        },
+        {
+          "question": "what is the color of the text displayed on the parking meter in the image?",
+          "answers": [
+            "red",
+            "white",
+            "black"
+          ],
+          "score": 0.020305156707763672,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the text displayed on the parking meter in the image?",
+          "answers": [
+            "red",
+            "white",
+            "black"
+          ],
+          "score": 0.020305156707763672,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Is the \"expired\" text written in red or black on the parking reader?",
+          "answers": [
+            "red",
+            "black",
+            "blue"
+          ],
+          "score": 0.0113983154296875
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "cars",
+            "sign",
+            "dogs"
+          ],
+          "score": 0.05208301544189453
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "cars",
+            "sign",
+            "dogs"
+          ],
+          "score": 0.05208301544189453,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the car parked next to the parking meter that says \"expired\"?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.009761333465576172
+        },
+        {
+          "question": "Question: What is the color of the background on the parking meter?",
+          "answers": [
+            "black",
+            "white",
+            "green"
+          ],
+          "score": 0.038091182708740234
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

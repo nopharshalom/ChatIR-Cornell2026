@@ -1,0 +1,144 @@
+{
+  "qid": 93,
+  "sample": "original",
+  "target": "unlabeled2017/000000306813.jpg",
+  "queries": [
+    "the scene has 2 men playing doubles tennis",
+    "two men playing doubles tennis, with one man in an orange shirt positioned in front of a crowd"
+  ],
+  "ranks": [
+    27,
+    5
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "the scene has 2 men playing doubles tennis",
+      "question": "what is the color of the shirt worn by the man playing tennis in front of a crowd?",
+      "answer": "orange",
+      "query_after": "two men playing doubles tennis, with one man in an orange shirt positioned in front of a crowd",
+      "displayed_ids": [
+        28055,
+        22697,
+        30272,
+        1596,
+        22969,
+        13324,
+        22730,
+        23534,
+        7302,
+        48697
+      ],
+      "selected_ids": [
+        8468,
+        8491,
+        78,
+        9204,
+        46434,
+        861,
+        11425,
+        11058,
+        12279,
+        41683
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: Who is playing doubles tennis with the two men?",
+          "answers": [
+            "A woman",
+            "Another man",
+            "A child"
+          ],
+          "score": 0.03406095504760742
+        },
+        {
+          "question": "what is the color of the shirt worn by the man playing tennis in front of a crowd?",
+          "answers": [
+            "white",
+            "black",
+            "blue"
+          ],
+          "score": 0.15549516677856445
+        },
+        {
+          "question": "Question: What color is the shirt worn by one of the men playing doubles tennis?",
+          "answers": [
+            "white",
+            "black",
+            "red"
+          ],
+          "score": 0.11708736419677734
+        },
+        {
+          "question": "Question: What color is the shirt worn by the man playing tennis in front of a crowd?",
+          "answers": [
+            "white",
+            "black",
+            "yellow"
+          ],
+          "score": 0.11987590789794922
+        },
+        {
+          "question": "Question: Question: What is the gender of the player standing in the air while swinging a racket?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.04266357421875
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the shirt worn by one of the men playing doubles tennis?",
+          "answers": [
+            "white",
+            "red",
+            "blue"
+          ],
+          "score": 0.1485915184020996
+        },
+        {
+          "question": "What is the color of the shirt worn by one of the men playing doubles tennis?",
+          "answers": [
+            "white",
+            "black",
+            "blue"
+          ],
+          "score": 0.1061701774597168
+        },
+        {
+          "question": "Question: What color are the shirts worn by the two men playing doubles tennis?",
+          "answers": [
+            "white",
+            "black",
+            "red"
+          ],
+          "score": 0.10812234878540039
+        },
+        {
+          "question": "Question: What color are the shirts worn by the two men playing doubles tennis?",
+          "answers": [
+            "white",
+            "black",
+            "red"
+          ],
+          "score": 0.10812234878540039,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What color is the shirt worn by the man on the left?",
+          "answers": [
+            "blue",
+            "white",
+            "yellow"
+          ],
+          "score": 0.10704851150512695
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

@@ -1,0 +1,273 @@
+{
+  "qid": 1660,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000254413.jpg",
+  "queries": [
+    "a woman sitting at a table with a plate in front of her",
+    "a woman sitting at a table with an empty plate in front of her",
+    "a woman sitting at a table with a plate of cake in front of her"
+  ],
+  "ranks": [
+    18,
+    19,
+    7
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a woman sitting at a table with a plate in front of her",
+      "question": "what is the woman holding in her hand?",
+      "answer": "nothing",
+      "query_after": "a woman sitting at a table with an empty plate in front of her",
+      "displayed_ids": [
+        20322,
+        34020,
+        24723,
+        37708,
+        10133,
+        7896,
+        45377,
+        2563,
+        19975,
+        24818
+      ],
+      "selected_ids": [
+        6700,
+        39460,
+        49218,
+        37413,
+        26680,
+        30546,
+        42528,
+        35704,
+        12593,
+        39404
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the woman eating from the plate in front of her?",
+          "answers": [
+            "pizza",
+            "breakfast",
+            "water"
+          ],
+          "score": 0.15578317642211914
+        },
+        {
+          "question": "what is the woman wearing?",
+          "answers": [
+            "casual clothes",
+            "formal dress",
+            "a hoodie"
+          ],
+          "score": 0.1516718864440918
+        },
+        {
+          "question": "what is the woman holding in her hand?",
+          "answers": [
+            "pizza",
+            "water",
+            "cell phone"
+          ],
+          "score": 0.19997596740722656
+        },
+        {
+          "question": "what is the location where the woman is sitting with her plate?",
+          "answers": [
+            "restaurant",
+            "bar",
+            "room"
+          ],
+          "score": 0.028266429901123047
+        },
+        {
+          "question": "what is the woman holding in her hand while sitting at the table?",
+          "answers": [
+            "pizza",
+            "water",
+            "cell phone"
+          ],
+          "score": 0.17922210693359375
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the woman holding or eating on her plate?",
+          "answers": [
+            "pizza",
+            "breakfast plate",
+            "water"
+          ],
+          "score": 0.12197160720825195
+        },
+        {
+          "question": "Question: What type of food is the woman eating in the image?",
+          "answers": [
+            "pizza",
+            "breakfast",
+            "water"
+          ],
+          "score": 0.12489080429077148
+        },
+        {
+          "question": "Question: What type of hat is the woman wearing?",
+          "answers": [
+            "cap",
+            "hat",
+            "no hat"
+          ],
+          "score": 0.005649566650390625
+        },
+        {
+          "question": "Question: What is the woman wearing on her head?",
+          "answers": [
+            "Nothing",
+            "Hair",
+            "Hat"
+          ],
+          "score": 0.020911693572998047
+        },
+        {
+          "question": "Question: What is the woman wearing on her head?",
+          "answers": [
+            "Nothing",
+            "Hair",
+            "Hat"
+          ],
+          "score": 0.020911693572998047,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a woman sitting at a table with an empty plate in front of her",
+      "question": "what is the woman eating on the plate?",
+      "answer": "cake",
+      "query_after": "a woman sitting at a table with a plate of cake in front of her",
+      "displayed_ids": [
+        20322,
+        34020,
+        10133,
+        24723,
+        7854,
+        37708,
+        7896,
+        29922,
+        20163,
+        19975
+      ],
+      "selected_ids": [
+        39404,
+        5698,
+        31245,
+        12593,
+        11072,
+        37413,
+        35704,
+        4859,
+        23448,
+        12557
+      ],
+      "rejected_count": 13,
+      "usual_paths": [
+        {
+          "question": "what is the woman eating on the plate?",
+          "answers": [
+            "pizza",
+            "nothing",
+            "breakfast"
+          ],
+          "score": 0.12233877182006836
+        },
+        {
+          "question": "what is the type of food on the plate in front of the woman?",
+          "answers": [
+            "pizza",
+            "nothing",
+            "breakfast"
+          ],
+          "score": 0.11839103698730469
+        },
+        {
+          "question": "what is the location of the woman sitting at the table?",
+          "answers": [
+            "restaurant",
+            "home",
+            "cafe"
+          ],
+          "score": 0.02872323989868164
+        },
+        {
+          "question": "what is the location where the woman is sitting at the table?",
+          "answers": [
+            "restaurant",
+            "home",
+            "outdoor"
+          ],
+          "score": 0.10486984252929688
+        },
+        {
+          "question": "what is the woman doing while sitting at the table with the plate?",
+          "answers": [
+            "eating",
+            "drinking",
+            "looking at phone"
+          ],
+          "score": 0.08112049102783203
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what type of food is on the plate in front of the woman?",
+          "answers": [
+            "pizza",
+            "nothing",
+            "salad"
+          ],
+          "score": 0.1171407699584961
+        },
+        {
+          "question": "Question: What is the gender of the person eating the food?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.008585453033447266
+        },
+        {
+          "question": "Question: What is the setting or location of the woman with the plate of food?",
+          "answers": [
+            "restaurant",
+            "home",
+            "outdoor"
+          ],
+          "score": 0.11917352676391602
+        },
+        {
+          "question": "what color is the plate in front of the woman?",
+          "answers": [
+            "white",
+            "black",
+            "red"
+          ],
+          "score": 0.021790504455566406
+        },
+        {
+          "question": "what is the color of the woman's shirt?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.08960914611816406
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

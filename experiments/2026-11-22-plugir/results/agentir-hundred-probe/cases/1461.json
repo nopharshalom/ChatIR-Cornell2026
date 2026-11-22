@@ -1,0 +1,101 @@
+{
+  "qid": 1461,
+  "initial": "a tennis player extends her racket to hit the ball",
+  "initial_rank": 21,
+  "evidence": [
+    "tennis player in green shirt and blue shirt running for ball",
+    "a woman wearing a white tennis dress on a court",
+    "woman in orange top",
+    "blue tennis court with spectators",
+    "a man jumping to hit a tennis ball",
+    "a woman wearing a red and white skirt",
+    "a young girl is wearing blue shirt and blue shorts",
+    "young woman on tennis court",
+    "a female tennis player wearing a white tennis dress is holding a racket",
+    "man wearing red and orange shirt"
+  ],
+  "candidates": [
+    "Question: What color is the tennis player's dress?",
+    "Question: What color is the tennis player's dress?",
+    "what is the gender of the tennis player wearing a red and white skirt?",
+    "what color is the shirt worn by the tennis player?",
+    "Question: What color is the tennis player extending her racket to hit the ball?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: What color is the tennis player's dress?",
+      "answers": [
+        "white",
+        "red and white",
+        "green and blue"
+      ],
+      "score": 0.19236278533935547
+    },
+    {
+      "question": "Question: What color is the tennis player's dress?",
+      "answers": [
+        "white",
+        "red and white",
+        "green and blue"
+      ],
+      "score": 0.19236278533935547,
+      "duplicate_of": 0
+    },
+    {
+      "question": "what is the gender of the tennis player wearing a red and white skirt?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.008590221405029297
+    },
+    {
+      "question": "what color is the shirt worn by the tennis player?",
+      "answers": [
+        "white",
+        "orange",
+        "green"
+      ],
+      "score": 0.2127094268798828
+    },
+    {
+      "question": "Question: What color is the tennis player extending her racket to hit the ball?",
+      "answers": [
+        "green and blue",
+        "white",
+        "orange"
+      ],
+      "score": 0.0894622802734375
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.06,
+  "probe_selection_seconds": 1.817,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "Question: What color is the tennis player extending her racket to hit the ball?",
+      "answer": "white",
+      "rewrite": "a white tennis player extends her racket to hit the ball",
+      "rank": 32,
+      "hit": false
+    },
+    "random": {
+      "question": "what color is the shirt worn by the tennis player?",
+      "answer": "white",
+      "rewrite": "a tennis player in a white shirt extends her racket to hit the ball",
+      "rank": 12,
+      "hit": false
+    },
+    "probe": {
+      "question": "what color is the shirt worn by the tennis player?",
+      "answer": "white",
+      "rewrite": "a tennis player in a white shirt extends her racket to hit the ball",
+      "rank": 12,
+      "hit": false
+    }
+  },
+  "seconds": 15.913
+}

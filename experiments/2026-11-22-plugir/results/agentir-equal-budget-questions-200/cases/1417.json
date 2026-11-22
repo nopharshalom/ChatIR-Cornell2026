@@ -1,0 +1,81 @@
+{
+  "qid": 1417,
+  "sample": 2,
+  "first_candidates": [
+    "what is the color of the jacket the smiling lady with scissors is wearing?",
+    "what is the location of the lady with scissors?",
+    "what is the color of the yarn next to the smiling lady with scissors?",
+    "what is the color of the yarn next to the smiling lady with scissors?",
+    "what is the color of the yarn next to the smiling lady with scissors?"
+  ],
+  "second_candidates": [
+    "what is the color of the jacket worn by the smiling woman with scissors?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the jacket worn by the smiling woman with scissors?",
+      "answers": [
+        "pink",
+        "purple",
+        "red"
+      ],
+      "score": 0.028525829315185547
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "scissors",
+        "yarn",
+        "camera"
+      ],
+      "score": 0.004817962646484375
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "scissors",
+        "yarn",
+        "camera"
+      ],
+      "score": 0.004817962646484375,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "scissors",
+        "yarn",
+        "camera"
+      ],
+      "score": 0.004817962646484375,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "scissors",
+        "yarn",
+        "camera"
+      ],
+      "score": 0.004817962646484375,
+      "duplicate_of": 1
+    }
+  ],
+  "control": {
+    "question": "what is the location of the lady with scissors?",
+    "score": 0.07431364059448242
+  },
+  "mixed": {
+    "question": "Question: Where is the woman sitting?",
+    "score": 0.14004802703857422
+  },
+  "control_rank": 4,
+  "mixed_rank": 2,
+  "usual_rank": 4,
+  "new_answer": null,
+  "new_rewrite": null
+}

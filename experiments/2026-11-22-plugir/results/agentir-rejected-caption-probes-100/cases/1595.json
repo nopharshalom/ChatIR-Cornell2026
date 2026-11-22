@@ -1,0 +1,79 @@
+{
+  "qid": 1595,
+  "candidates": [
+    "Question: Is the extra monitor mounted on the desk or sitting next to the laptop?",
+    "what color is the laptop in the workstation?",
+    "Question: What is the color of the desk in the workstation?",
+    "Question: What is the color of the laptop in the workstation?",
+    "Question: Is the laptop on the desk or placed on a table?"
+  ],
+  "kl": {
+    "question": "Question: Is the extra monitor mounted on the desk or sitting next to the laptop?",
+    "answer": "sitting next to the laptop",
+    "rewrite": "a workstation featuring a laptop and an extra monitor sitting next to it",
+    "raw_rank": 79,
+    "unseen_rank": 69
+  },
+  "probe": {
+    "answer": "black",
+    "rewrite": "a black workstation with a laptop and an extra monitor",
+    "raw_rank": 48,
+    "unseen_rank": 40,
+    "question": "Question: What is the color of the desk in the workstation?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: Is the extra monitor mounted on the desk or sitting next to the laptop?",
+        "answers": [
+          "mounted",
+          "sitting next to",
+          "both"
+        ],
+        "score": 0.0024161338806152344
+      },
+      {
+        "question": "what color is the laptop in the workstation?",
+        "answers": [
+          "black",
+          "silver",
+          "white"
+        ],
+        "score": 0.03960895538330078
+      },
+      {
+        "question": "Question: What is the color of the desk in the workstation?",
+        "answers": [
+          "black",
+          "white",
+          "wood"
+        ],
+        "score": 0.05628347396850586
+      },
+      {
+        "question": "Question: What is the color of the laptop in the workstation?",
+        "answers": [
+          "black",
+          "white",
+          "silver"
+        ],
+        "score": 0.03688955307006836
+      },
+      {
+        "question": "Question: Is the laptop on the desk or placed on a table?",
+        "answers": [
+          "desk",
+          "table",
+          "unknown"
+        ],
+        "score": 0.0017461776733398438
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.062,
+    "probe_selection_seconds": 2.251,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": false
+}

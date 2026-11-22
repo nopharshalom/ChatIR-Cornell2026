@@ -1,0 +1,78 @@
+{
+  "qid": 1441,
+  "sample": 2,
+  "first_candidates": [
+    "what are the colors of the uniforms worn by the group of people playing baseball?",
+    "what is the gender of the people playing baseball?",
+    "what is the gender of the player at bat?",
+    "Question: what is the gender of the player at bat?",
+    "what are the colors of the uniforms worn by the baseball players?"
+  ],
+  "second_candidates": [
+    "Question: Which specific action is the main subject performing in the baseball game?",
+    "what are the colors of the uniforms worn by the group of people playing baseball?",
+    "Question: Who is the main subject in the image, and what are they wearing?",
+    "what is the color of the uniforms worn by the group of people playing baseball?",
+    "what is the color of the uniforms worn by the main subject in the image?"
+  ],
+  "paths": [
+    {
+      "question": "Question: Which specific action is the main subject performing in the baseball game?",
+      "answers": [
+        "swinging a bat",
+        "running to catch",
+        "standing on the mound"
+      ],
+      "score": 0.08749675750732422
+    },
+    {
+      "question": "what are the colors of the uniforms worn by the group of people playing baseball?",
+      "answers": [
+        "red",
+        "blue",
+        "white"
+      ],
+      "score": 0.1378641128540039
+    },
+    {
+      "question": "Question: Who is the main subject in the image, and what are they wearing?",
+      "answers": [
+        "a man in a white uniform",
+        "a man in a red uniform",
+        "a man in a black uniform"
+      ],
+      "score": 0.21602582931518555
+    },
+    {
+      "question": "what is the color of the uniforms worn by the group of people playing baseball?",
+      "answers": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "score": 0.1390213966369629
+    },
+    {
+      "question": "what is the color of the uniforms worn by the main subject in the image?",
+      "answers": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "score": 0.15647268295288086
+    }
+  ],
+  "control": {
+    "question": "Question: Who is the main subject in the image, and what are they wearing?",
+    "score": 0.21602582931518555
+  },
+  "mixed": {
+    "question": "what are the colors of the uniforms worn by the baseball players?",
+    "score": 0.16229820251464844
+  },
+  "control_rank": 224,
+  "mixed_rank": 72,
+  "usual_rank": 72,
+  "new_answer": "The main subject is a baseball player wearing a white uniform.",
+  "new_rewrite": "a baseball player in a white uniform is the main subject, playing baseball in a field"
+}

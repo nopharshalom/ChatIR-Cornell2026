@@ -1,0 +1,87 @@
+{
+  "qid": 1639,
+  "arm": "probe",
+  "after_round": 5,
+  "ranks": [
+    62,
+    614,
+    110,
+    120,
+    485,
+    67,
+    160,
+    67,
+    183,
+    495,
+    411
+  ],
+  "continuation": [
+    {
+      "round": 6,
+      "query_before": "a woman with short, dark hair wearing a black tank top stands at a counter in front of a window, holding a laptop, with another laptop visible nearby",
+      "question": "Is the person sitting or standing?",
+      "answer": "standing",
+      "query_after": "a woman with short, dark hair wearing a black tank top is standing at a counter in front of a window, holding a laptop, with another laptop visible nearby",
+      "searches": [
+        {
+          "query": "A woman with short dark hair wearing a black tank top stands at a counter in front of a window holding a laptop, with a second laptop visible nearby.",
+          "ids": [
+            31959,
+            12557,
+            37811
+          ],
+          "captions": [
+            "woman sitting at the table",
+            "a woman sitting at a window with a laptop",
+            "a woman sitting on a sofa"
+          ]
+        },
+        {
+          "query": "A woman with short dark hair wearing a black tank top stands at a counter in front of a window holding a laptop, with a tablet visible nearby.",
+          "ids": [
+            31959,
+            12557,
+            37811
+          ],
+          "captions": [
+            "woman sitting at the table",
+            "a woman sitting at a window with a laptop",
+            "a woman sitting on a sofa"
+          ]
+        }
+      ],
+      "raw_plan": "A woman with short dark hair wearing a black tank top stands at a counter in front of a window holding a laptop, with a second laptop visible nearby.\nA woman with short dark hair wearing a black tank top stands at a counter in front of a window holding a laptop, with a tablet visible nearby.",
+      "generated": "Is the person sitting or standing?",
+      "fallback": false
+    },
+    {
+      "round": 7,
+      "query_before": "a woman with short, dark hair wearing a black tank top is standing at a counter in front of a window, holding a laptop, with another laptop visible nearby",
+      "question": "what is the other object in the image?",
+      "answer": "laptop",
+      "query_after": "a woman with short, dark hair wearing a black tank top stands at a counter in front of a window, holding a laptop, with another laptop visible nearby"
+    },
+    {
+      "round": 8,
+      "query_before": "a woman with short, dark hair wearing a black tank top stands at a counter in front of a window, holding a laptop, with another laptop visible nearby",
+      "question": "what is the other object in the image?",
+      "answer": "laptop",
+      "query_after": "A woman with short, dark hair, dressed in a black tank top, stands at a counter in front of a window, holding a laptop, while another laptop is visible nearby."
+    },
+    {
+      "round": 9,
+      "query_before": "A woman with short, dark hair, dressed in a black tank top, stands at a counter in front of a window, holding a laptop, while another laptop is visible nearby.",
+      "question": "Question: What is the specific room where the woman with the laptop is standing?",
+      "answer": "office",
+      "query_after": "a woman with short, dark hair wearing a black tank top stands in an office at a counter in front of a window, holding a laptop"
+    },
+    {
+      "round": 10,
+      "query_before": "a woman with short, dark hair wearing a black tank top stands in an office at a counter in front of a window, holding a laptop",
+      "question": "What is the person standing at the counter ordering?",
+      "answer": "I'm unsure.",
+      "query_after": "a woman with short, dark hair wearing a black tank top stands at a counter in an office, holding a laptop, with another laptop visible nearby"
+    }
+  ],
+  "seconds": 87.5
+}

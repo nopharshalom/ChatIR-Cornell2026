@@ -1,0 +1,280 @@
+{
+  "qid": 2003,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000312031.jpg",
+  "queries": [
+    "the woman is standing on 1 foot with her arms out holding a tennis racquet",
+    "a woman in a blue shirt is standing on one foot with her arms out, holding a tennis racquet",
+    "a woman in a blue dress stands on one foot with her arms out, holding a tennis racquet"
+  ],
+  "ranks": [
+    87,
+    12,
+    2
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "the woman is standing on 1 foot with her arms out holding a tennis racquet",
+      "question": "Question: What is the color of the shirt worn by the woman in the image?",
+      "answer": "blue",
+      "query_after": "a woman in a blue shirt is standing on one foot with her arms out, holding a tennis racquet",
+      "displayed_ids": [
+        31070,
+        25374,
+        32923,
+        34568,
+        17182,
+        47945,
+        29177,
+        11666,
+        10916,
+        14007
+      ],
+      "selected_ids": [
+        33845,
+        30922,
+        46802,
+        18458,
+        8468,
+        45171,
+        3494,
+        44139,
+        43661,
+        4751
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: What color is the shirt worn by the woman standing on one foot with her arms out holding a tennis racquet?",
+          "answers": [
+            "red",
+            "white",
+            "green"
+          ],
+          "score": 0.018688678741455078
+        },
+        {
+          "question": "Question: What color is the shirt worn by the woman standing on one foot with her arms out holding a tennis racquet?",
+          "answers": [
+            "red",
+            "white",
+            "green"
+          ],
+          "score": 0.018688678741455078,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the shirt worn by the tennis player in the image?",
+          "answers": [
+            "white",
+            "red",
+            "green"
+          ],
+          "score": 0.04739713668823242
+        },
+        {
+          "question": "Question: What color is the shirt worn by the tennis player in the image?",
+          "answers": [
+            "white",
+            "red",
+            "green"
+          ],
+          "score": 0.04739713668823242,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the color of the shirt worn by the woman in the image?",
+          "answers": [
+            "white",
+            "green",
+            "yellow"
+          ],
+          "score": 0.051801204681396484
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the shirt worn by the woman standing on one foot?",
+          "answers": [
+            "white",
+            "red",
+            "green"
+          ],
+          "score": 0.016667842864990234
+        },
+        {
+          "question": "Question: What is the color of the shirt worn by the woman standing on one foot?",
+          "answers": [
+            "white",
+            "red",
+            "green"
+          ],
+          "score": 0.016667842864990234,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the shirt worn by the woman standing on one foot?",
+          "answers": [
+            "white",
+            "red",
+            "green"
+          ],
+          "score": 0.016667842864990234,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the shirt worn by the woman standing on one foot?",
+          "answers": [
+            "white",
+            "red",
+            "green"
+          ],
+          "score": 0.016667842864990234,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the shirt worn by the woman?",
+          "answers": [
+            "white",
+            "green",
+            "yellow"
+          ],
+          "score": 0.05129098892211914
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a woman in a blue shirt is standing on one foot with her arms out, holding a tennis racquet",
+      "question": "what is the color of the dress worn by the woman holding the tennis racquet?",
+      "answer": "blue",
+      "query_after": "a woman in a blue dress stands on one foot with her arms out, holding a tennis racquet",
+      "displayed_ids": [
+        31070,
+        32923,
+        14007,
+        4920,
+        9496,
+        885,
+        3682,
+        29429,
+        29971,
+        9845
+      ],
+      "selected_ids": [
+        41870,
+        45171,
+        47984,
+        35475,
+        32911,
+        78,
+        41552,
+        41307,
+        31858,
+        4463
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "what is the location where the woman in the blue shirt is standing?",
+          "answers": [
+            "tennis court",
+            "field",
+            "park"
+          ],
+          "score": 0.05248403549194336
+        },
+        {
+          "question": "what is the location where the woman in the blue shirt is standing?",
+          "answers": [
+            "tennis court",
+            "field",
+            "park"
+          ],
+          "score": 0.05248403549194336,
+          "duplicate_of": 0
+        },
+        {
+          "question": "What color are the shorts worn by the woman holding the tennis racquet?",
+          "answers": [
+            "white",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.04588460922241211
+        },
+        {
+          "question": "what is the color of the shorts worn by the woman holding the tennis racquet?",
+          "answers": [
+            "blue",
+            "white",
+            "black"
+          ],
+          "score": 0.08543205261230469
+        },
+        {
+          "question": "what is the color of the dress worn by the woman holding the tennis racquet?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.09711599349975586
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the dress worn by the woman in the image?",
+          "answers": [
+            "white",
+            "blue",
+            "no dress"
+          ],
+          "score": 0.03395795822143555
+        },
+        {
+          "question": "Question: What color is the dress worn by the woman in the image?",
+          "answers": [
+            "white",
+            "blue",
+            "no dress"
+          ],
+          "score": 0.03395795822143555,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the dress worn by the woman in the image?",
+          "answers": [
+            "white",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.06361675262451172
+        },
+        {
+          "question": "Question: What is the color of the dress worn by the woman in the image?",
+          "answers": [
+            "blue",
+            "white",
+            "green"
+          ],
+          "score": 0.08745431900024414
+        },
+        {
+          "question": "Question: What color is the dress worn by the woman in the image?",
+          "answers": [
+            "white",
+            "blue",
+            "no dress"
+          ],
+          "score": 0.03395795822143555,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

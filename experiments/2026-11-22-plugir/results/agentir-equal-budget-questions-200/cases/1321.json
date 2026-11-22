@@ -1,0 +1,79 @@
+{
+  "qid": 1321,
+  "sample": 2,
+  "first_candidates": [
+    "what color is the cover on the computer sitting on the table in the living room?",
+    "what color are the rugs in the living room with brown leather furniture?",
+    "what is the color of the television in the living room with brown leather furniture?",
+    "what is the color of the television in the living room?",
+    "what is the color of the television in the living room with large windows and the tv turned on?"
+  ],
+  "second_candidates": [
+    "Question: What is the color of the television in the living room?",
+    "Question: What is the color of the couch in the living room?",
+    "Question: What color is the cover on the computer sitting on the table in the living room?",
+    "Question: What is the color of the television in the living room?",
+    "what is the color of the television in the living room?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What is the color of the television in the living room?",
+      "answers": [
+        "black",
+        "red",
+        "gray"
+      ],
+      "score": 0.0827326774597168
+    },
+    {
+      "question": "Question: What is the color of the couch in the living room?",
+      "answers": [
+        "brown",
+        "gray",
+        "beige"
+      ],
+      "score": 0.04317903518676758
+    },
+    {
+      "question": "Question: What color is the cover on the computer sitting on the table in the living room?",
+      "answers": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "score": 0.09437751770019531
+    },
+    {
+      "question": "Question: What is the color of the television in the living room?",
+      "answers": [
+        "black",
+        "red",
+        "gray"
+      ],
+      "score": 0.0827326774597168,
+      "duplicate_of": 0
+    },
+    {
+      "question": "what is the color of the television in the living room?",
+      "answers": [
+        "black",
+        "red cover",
+        "gray"
+      ],
+      "score": 0.1106266975402832
+    }
+  ],
+  "control": {
+    "question": "what color is the cover on the computer sitting on the table in the living room?",
+    "score": 0.11083650588989258
+  },
+  "mixed": {
+    "question": "what color is the cover on the computer sitting on the table in the living room?",
+    "score": 0.11083650588989258
+  },
+  "control_rank": 135,
+  "mixed_rank": 135,
+  "usual_rank": 135,
+  "new_answer": null,
+  "new_rewrite": null
+}

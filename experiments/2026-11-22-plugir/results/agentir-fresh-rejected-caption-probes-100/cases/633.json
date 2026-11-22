@@ -1,0 +1,179 @@
+{
+  "qid": 633,
+  "initial": "the dog is pacing along the very grassy area",
+  "initial_rank": 68,
+  "displayed": [
+    14667,
+    40036,
+    24362,
+    29632,
+    33828,
+    22397,
+    28972,
+    47906,
+    40160,
+    17126
+  ],
+  "evidence": [
+    "a dalmatian dog catching a frisbee",
+    "the dog is playing with a frisbee",
+    "a giraffe is walking along a rocky shore in a natural habitat",
+    "a brown dog is holding a red frisbee in its mouth",
+    "a white and black dog catching a frisbee",
+    "black bear in the woods",
+    "a single zebra in a field with trees around it",
+    "a black bear walks up a hill in the forest",
+    "a white and black dog",
+    "a white dog walking with a sheep herd"
+  ],
+  "rejected_captions": [
+    "basset hound with black and white collar walking on green turf",
+    "a dog in a field",
+    "a dalmatian dog is on grassy ground",
+    "a tan and white dog is standing on a green field",
+    "dog walking on green grass",
+    "a dog in a green grass field",
+    "a dog is running around in a park with a frisbee",
+    "a dog runs through a field in front of houses",
+    "dog is leaping into the air",
+    "a small black dog running with a frisbee"
+  ],
+  "usual": {
+    "candidates": [
+      "what color is the dog in the image?",
+      "what is the color of the dog?",
+      "what is the other object in the image?",
+      "what is the other object in the image?",
+      "what is the other object in the image?"
+    ],
+    "question": "what is the color of the dog?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what color is the dog in the image?",
+          "answers": [
+            "black and white",
+            "brown",
+            "white"
+          ],
+          "score": 0.09541988372802734
+        },
+        {
+          "question": "what is the color of the dog?",
+          "answers": [
+            "white and black",
+            "brown",
+            "white"
+          ],
+          "score": 0.1411876678466797
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "grass",
+            "frisbee",
+            "trees"
+          ],
+          "score": 0.13067626953125
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "grass",
+            "frisbee",
+            "trees"
+          ],
+          "score": 0.13067626953125,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "grass",
+            "frisbee",
+            "trees"
+          ],
+          "score": 0.13067626953125,
+          "duplicate_of": 2
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.059,
+      "probe_selection_seconds": 1.384,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "gray",
+    "rewrite": "a gray dog is pacing along a very grassy area",
+    "raw_rank": 7,
+    "unseen_rank": 5
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What color is the dog?",
+      "Question: What is the color of the dog?",
+      "Question: What is the breed of the dog?",
+      "Question: What is the dog holding?",
+      "Question: What is the pattern of the dog's coat?"
+    ],
+    "question": "Question: What is the breed of the dog?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What color is the dog?",
+          "answers": [
+            "black",
+            "white",
+            "brown"
+          ],
+          "score": 0.13257884979248047
+        },
+        {
+          "question": "Question: What is the color of the dog?",
+          "answers": [
+            "white and black",
+            "brown",
+            "white"
+          ],
+          "score": 0.10602569580078125
+        },
+        {
+          "question": "Question: What is the breed of the dog?",
+          "answers": [
+            "dalmatian",
+            "brown",
+            "white and black"
+          ],
+          "score": 0.1685032844543457
+        },
+        {
+          "question": "Question: What is the dog holding?",
+          "answers": [
+            "nothing",
+            "a frisbee",
+            "a red frisbee"
+          ],
+          "score": 0.10595417022705078
+        },
+        {
+          "question": "Question: What is the pattern of the dog's coat?",
+          "answers": [
+            "spots",
+            "brown",
+            "white and black"
+          ],
+          "score": 0.07789468765258789
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.058,
+      "probe_selection_seconds": 2.405,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "Yorkshire terrier.",
+    "rewrite": "a Yorkshire terrier is pacing along a very grassy area",
+    "raw_rank": 1,
+    "unseen_rank": 1
+  }
+}

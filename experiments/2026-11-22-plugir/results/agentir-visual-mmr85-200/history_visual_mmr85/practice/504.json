@@ -1,0 +1,76 @@
+{
+  "ids": [
+    35510,
+    9143,
+    41503,
+    23663
+  ],
+  "prefix": [
+    "a bathroom with a shower, sink and toilet",
+    "Question: What color are the floors in the bathroom containing the shower, sink, and toilet? beige"
+  ],
+  "default": "what color is the shower curtain in the bathroom with a handicap toilet and shower?",
+  "chosen": "what color is the shower curtain in the bathroom with a handicap toilet and shower?",
+  "trials": {
+    "what color is the shower curtain in the bathroom with a handicap toilet and shower?": {
+      "answers": [
+        "clear",
+        "white",
+        "white",
+        "there is no shower curtain in the image. the shower is enclosed by glass panels."
+      ],
+      "rewrites": {
+        "clear": "a bathroom featuring a beige floor, a clear shower curtain, a sink, and a handicap toilet",
+        "white": "a bathroom featuring a beige floor, a white shower curtain, a sink, and a handicap toilet",
+        "there is no shower curtain in the image. the shower is enclosed by glass panels.": "a bathroom featuring a beige floor, a glass-enclosed shower, a sink, and a handicap-accessible toilet, with no shower curtain present"
+      },
+      "ranks": [
+        169,
+        16,
+        115,
+        6
+      ],
+      "hits": 1
+    },
+    "what color is the shower curtain in the bathroom containing the shower, sink, and toilet?": {
+      "answers": [
+        "clear",
+        "white",
+        "clear",
+        "There is no shower curtain in the image; the shower is enclosed by a glass partition."
+      ],
+      "rewrites": {
+        "clear": "a bathroom with beige floors, a clear shower curtain, a sink, and a toilet",
+        "white": "a bathroom with beige floors, a white shower curtain, a sink, and a toilet",
+        "There is no shower curtain in the image; the shower is enclosed by a glass partition.": "a bathroom featuring a beige floor, a glass-enclosed shower, a sink, and a toilet"
+      },
+      "ranks": [
+        189,
+        52,
+        90,
+        1
+      ],
+      "hits": 1
+    },
+    "what color is the shower curtain in the bathroom with a white shower stall and a sink?": {
+      "answers": [
+        "clear",
+        "there is no shower curtain in the image.",
+        "clear",
+        "There is no shower curtain in the image. The shower is enclosed by a glass wall."
+      ],
+      "rewrites": {
+        "clear": "a bathroom featuring a beige floor, a white shower stall with a clear shower curtain, a sink, and a toilet",
+        "there is no shower curtain in the image.": "a bathroom featuring a beige floor, a white shower stall, a sink, and a toilet, with no shower curtain present",
+        "There is no shower curtain in the image. The shower is enclosed by a glass wall.": "a bathroom featuring a beige floor, a white shower stall enclosed by a glass wall, a sink, and a toilet, with no shower curtain present"
+      },
+      "ranks": [
+        60,
+        2,
+        44,
+        12
+      ],
+      "hits": 1
+    }
+  }
+}

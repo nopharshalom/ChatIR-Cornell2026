@@ -1,0 +1,71 @@
+{
+  "qid": 1461,
+  "initial": "a tennis player extends her racket to hit the ball",
+  "initial_rank": 21,
+  "evidence": [
+    "tennis player in green shirt and blue shirt running for ball",
+    "a woman wearing a white tennis dress on a court",
+    "woman in orange top",
+    "blue tennis court with spectators",
+    "a man jumping to hit a tennis ball",
+    "a woman wearing a red and white skirt",
+    "a young girl is wearing blue shirt and blue shorts",
+    "young woman on tennis court",
+    "a female tennis player wearing a white tennis dress is holding a racket",
+    "man wearing red and orange shirt"
+  ],
+  "displayed_ids": [
+    18104,
+    1755,
+    11363,
+    4920,
+    46006,
+    48931,
+    11675,
+    34568,
+    45491,
+    47004
+  ],
+  "rejected_captions": [
+    "a woman is playing tennis on a court with her racket",
+    "a woman playing tennis on a tennis court",
+    "a woman in a white shirt and white skirt holds a racket in her hands",
+    "a woman is playing tennis with a racket",
+    "a woman playing tennis",
+    "a woman playing tennis",
+    "a woman playing tennis",
+    "a woman serves a tennis ball during a match",
+    "woman on tennis court",
+    "a woman hitting a tennis ball while swinging a racquet"
+  ],
+  "candidates": [
+    "Question: What color is the tennis player's shirt?",
+    "Question: What color is the skirt worn by the woman hitting the tennis ball?",
+    "Question: What color is the tennis player's skirt?",
+    "Question: Is the tennis player wearing a skirt or shorts?",
+    "Question: What color is the tennis player's skirt?"
+  ],
+  "control_candidates": [
+    "Question: What color is the tennis player's dress?",
+    "Question: What color is the tennis player's dress?",
+    "what is the gender of the tennis player wearing a red and white skirt?",
+    "what color is the shirt worn by the tennis player?",
+    "Question: What color is the tennis player extending her racket to hit the ball?"
+  ],
+  "control": {
+    "question": "Question: What color is the tennis player extending her racket to hit the ball?",
+    "answer": "white",
+    "rewrite": "a white tennis player extends her racket to hit the ball",
+    "rank": 32,
+    "hit": false,
+    "raw_rank": 32,
+    "unseen_rank": 26
+  },
+  "variant": {
+    "question": "Question: Is the tennis player wearing a skirt or shorts?",
+    "answer": "skirt",
+    "rewrite": "a tennis player wearing a skirt extends her racket to hit the ball",
+    "raw_rank": 61,
+    "unseen_rank": 54
+  }
+}

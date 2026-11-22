@@ -1,0 +1,78 @@
+{
+  "qid": 1069,
+  "sample": 2,
+  "first_candidates": [
+    "what is the color of the outfit worn by the young girl holding the racket?",
+    "what color are the shorts worn by the young girl?",
+    "what is the color of the shirt worn by the young girl?",
+    "what is the color of the hair of the young girl holding the racket?",
+    "what is the color of the racket held by the young girl?"
+  ],
+  "second_candidates": [
+    "what color is the shirt worn by the young girl holding a racket?",
+    "what color are the shorts worn by the young girl holding a racket?",
+    "what is the color of the dress worn by the woman holding a racket?",
+    "Question: what is the location where the young girl is holding a racket?",
+    "what color is the shirt worn by the person holding a racket?"
+  ],
+  "paths": [
+    {
+      "question": "what color is the shirt worn by the young girl holding a racket?",
+      "answers": [
+        "blue",
+        "white",
+        "pink"
+      ],
+      "score": 0.10960674285888672
+    },
+    {
+      "question": "what color are the shorts worn by the young girl holding a racket?",
+      "answers": [
+        "blue",
+        "white",
+        "black"
+      ],
+      "score": 0.08427858352661133
+    },
+    {
+      "question": "what is the color of the dress worn by the woman holding a racket?",
+      "answers": [
+        "white",
+        "pink",
+        "red"
+      ],
+      "score": 0.0686197280883789
+    },
+    {
+      "question": "Question: what is the location where the young girl is holding a racket?",
+      "answers": [
+        "tennis court",
+        "parking lot",
+        "backyard"
+      ],
+      "score": 0.06889867782592773
+    },
+    {
+      "question": "what color is the shirt worn by the person holding a racket?",
+      "answers": [
+        "white",
+        "blue",
+        "pink"
+      ],
+      "score": 0.0811467170715332
+    }
+  ],
+  "control": {
+    "question": "what is the color of the shirt worn by the young girl?",
+    "score": 0.11926031112670898
+  },
+  "mixed": {
+    "question": "Question: What color is the young girl's outfit?",
+    "score": 0.1402888298034668
+  },
+  "control_rank": 2,
+  "mixed_rank": 1,
+  "usual_rank": 2,
+  "new_answer": null,
+  "new_rewrite": null
+}

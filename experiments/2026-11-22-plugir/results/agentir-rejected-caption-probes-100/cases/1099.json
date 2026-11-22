@@ -1,0 +1,79 @@
+{
+  "qid": 1099,
+  "candidates": [
+    "Question: Are there people visible in the scene with the cars stopped at the red light?",
+    "Question: What is the state of the sky in the scene with the cars stopped at a red light?",
+    "Question: What color is the taxi in the scene with the cars stopped at a red light?",
+    "Question: What color is the traffic light that the cars are stopped at?",
+    "Question: What color are the buildings located on the block next to the road where the cars are stopped at the red light?"
+  ],
+  "kl": {
+    "question": "Question: What color are the buildings located on the block next to the road where the cars are stopped at the red light?",
+    "answer": "white",
+    "rewrite": "cars stopped at a red light on a block with white buildings and houses next to the road",
+    "raw_rank": 39,
+    "unseen_rank": 30
+  },
+  "probe": {
+    "answer": "overcast",
+    "rewrite": "cars stopped at a red light on a block with buildings and houses next to the road under an overcast sky",
+    "raw_rank": 6,
+    "unseen_rank": 4,
+    "question": "Question: What is the state of the sky in the scene with the cars stopped at a red light?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: Are there people visible in the scene with the cars stopped at the red light?",
+        "answers": [
+          "Yes",
+          "No",
+          "Maybe"
+        ],
+        "score": 0.002158641815185547
+      },
+      {
+        "question": "Question: What is the state of the sky in the scene with the cars stopped at a red light?",
+        "answers": [
+          "cloudy",
+          "sunny",
+          "night"
+        ],
+        "score": 0.0665140151977539
+      },
+      {
+        "question": "Question: What color is the taxi in the scene with the cars stopped at a red light?",
+        "answers": [
+          "red",
+          "yellow",
+          "white"
+        ],
+        "score": 0.0038003921508789062
+      },
+      {
+        "question": "Question: What color is the traffic light that the cars are stopped at?",
+        "answers": [
+          "red",
+          "green",
+          "yellow"
+        ],
+        "score": 0.011339664459228516
+      },
+      {
+        "question": "Question: What color are the buildings located on the block next to the road where the cars are stopped at the red light?",
+        "answers": [
+          "red",
+          "white",
+          "blue"
+        ],
+        "score": 0.0036559104919433594
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.06,
+    "probe_selection_seconds": 2.375,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": false
+}

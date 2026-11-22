@@ -1,0 +1,78 @@
+{
+  "qid": 1073,
+  "sample": 2,
+  "first_candidates": [
+    "what color is the kite in the sky?",
+    "what is the activity the people are performing on the surface?",
+    "what is the other object in the image?",
+    "what is the color of the kite in the sky?",
+    "what is the color of the shirt worn by the man flying the kite in the sky?"
+  ],
+  "second_candidates": [
+    "Question: Where is the man located in the image?",
+    "Question: What is the man doing in the image?",
+    "Question: What is the man flying on?",
+    "Question: Which of the following best describes the location where the man is flying the kite?",
+    "Question: Question: What is the man flying on in the image?"
+  ],
+  "paths": [
+    {
+      "question": "Question: Where is the man located in the image?",
+      "answers": [
+        "on the beach",
+        "on the shore",
+        "on the sand"
+      ],
+      "score": 0.016942501068115234
+    },
+    {
+      "question": "Question: What is the man doing in the image?",
+      "answers": [
+        "flying a kite",
+        "windsurfing",
+        "standing with a kite"
+      ],
+      "score": 0.10806417465209961
+    },
+    {
+      "question": "Question: What is the man flying on?",
+      "answers": [
+        "grass",
+        "water",
+        "beach"
+      ],
+      "score": 0.06537771224975586
+    },
+    {
+      "question": "Question: Which of the following best describes the location where the man is flying the kite?",
+      "answers": [
+        "beach",
+        "field",
+        "sky"
+      ],
+      "score": 0.0332942008972168
+    },
+    {
+      "question": "Question: Question: What is the man flying on in the image?",
+      "answers": [
+        "kite",
+        "surfboard",
+        "windsurfer"
+      ],
+      "score": 0.03483247756958008
+    }
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "score": 0.11843395233154297
+  },
+  "mixed": {
+    "question": "what is the other object in the image?",
+    "score": 0.11843395233154297
+  },
+  "control_rank": 30,
+  "mixed_rank": 30,
+  "usual_rank": 30,
+  "new_answer": null,
+  "new_rewrite": null
+}

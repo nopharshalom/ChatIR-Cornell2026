@@ -1,0 +1,71 @@
+{
+  "qid": 1197,
+  "initial": "2 cats laying in front of each other on cushions",
+  "initial_rank": 57,
+  "evidence": [
+    "two zebras standing next to one another",
+    "two giraffe standing side by side in front of a tree",
+    "a dog laying on a bed with pillows",
+    "two zebras standing side by side",
+    "a brown and orange cat is resting on a bed",
+    "a cat is laying on a blue chair in the middle of a living room",
+    "a dog sitting on a couch and laying down on its bed",
+    "two black cats look out of a window",
+    "a blue couch in a living room with a cat on it",
+    "an orange cat on the bed"
+  ],
+  "displayed_ids": [
+    13173,
+    6009,
+    44521,
+    33615,
+    44961,
+    17422,
+    43692,
+    21137,
+    43465,
+    8928
+  ],
+  "rejected_captions": [
+    "white cat curled up",
+    "cat is black and white",
+    "a brown couch in a living room with two cats laying on top of it",
+    "three grey cats laying on a couch",
+    "two cats are laying in a cushion next to a window",
+    "the cat on the chair",
+    "the striped cat is black",
+    "two cats resting on a white couch",
+    "cat is black",
+    "two cats and a dog are laying in a soft bed"
+  ],
+  "candidates": [
+    "Question: What is the color of the cats laying on the cushions?",
+    "Question: What is the color of the cats?",
+    "Question: What is the species of the two cats laying in front of each other on cushions?",
+    "Question: What is the species of the two cats laying on the cushions?",
+    "Question: Are the two cats laying on a bed or on a couch?"
+  ],
+  "control_candidates": [
+    "what color are the two cats laying in front of each other on cushions?",
+    "what is the location where the two cats are laying in front of each other on cushions?",
+    "what type of cushions are the two cats laying on?",
+    "what is the color of the cushions where the two cats are laying?",
+    "what is the other object in the image?"
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "answer": "cat",
+    "rewrite": "two cats laying in front of each other on cushions with another cat",
+    "rank": 25,
+    "hit": false,
+    "raw_rank": 25,
+    "unseen_rank": 15
+  },
+  "variant": {
+    "question": "Question: What is the species of the two cats laying on the cushions?",
+    "answer": "cat",
+    "rewrite": "two cats laying in front of each other on cushions",
+    "raw_rank": 48,
+    "unseen_rank": 38
+  }
+}

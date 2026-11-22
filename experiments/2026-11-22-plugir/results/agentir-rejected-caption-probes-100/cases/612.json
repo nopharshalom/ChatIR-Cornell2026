@@ -1,0 +1,80 @@
+{
+  "qid": 612,
+  "candidates": [
+    "Question: What is the weather condition during the scene where the woman is holding her phone over her head on the beach?",
+    "Question: What kind of phone is the woman holding?",
+    "Question: What is the woman wearing?",
+    "Question: What is the weather condition during the scene?",
+    "Question: What is the woman wearing?"
+  ],
+  "kl": {
+    "question": "Question: What kind of phone is the woman holding?",
+    "answer": "Black smartphone.",
+    "rewrite": "a woman holding a black smartphone over her head while standing on a beach",
+    "raw_rank": 10,
+    "unseen_rank": 3
+  },
+  "probe": {
+    "answer": "A red cap, sunglasses, and a red shirt.",
+    "rewrite": "a woman wearing a red cap, sunglasses, and a red shirt is holding her phone over her head while standing on a beach",
+    "raw_rank": 1,
+    "unseen_rank": 1,
+    "question": "Question: What is the woman wearing?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the weather condition during the scene where the woman is holding her phone over her head on the beach?",
+        "answers": [
+          "Sunny",
+          "Cloudy",
+          "Rainy"
+        ],
+        "score": 0.0354151725769043
+      },
+      {
+        "question": "Question: What kind of phone is the woman holding?",
+        "answers": [
+          "smartphone",
+          "feature phone",
+          "camera phone"
+        ],
+        "score": 0.004605293273925781
+      },
+      {
+        "question": "Question: What is the woman wearing?",
+        "answers": [
+          "sunglasses",
+          "hat",
+          "swimsuit"
+        ],
+        "score": 0.0978689193725586
+      },
+      {
+        "question": "Question: What is the weather condition during the scene?",
+        "answers": [
+          "sunny",
+          "cloudy",
+          "rainy"
+        ],
+        "score": 0.044043540954589844
+      },
+      {
+        "question": "Question: What is the woman wearing?",
+        "answers": [
+          "sunglasses",
+          "hat",
+          "swimsuit"
+        ],
+        "score": 0.0978689193725586,
+        "duplicate_of": 2
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.064,
+    "probe_selection_seconds": 1.968,
+    "probe_llm_calls": 4,
+    "probe_search_queries": 12
+  },
+  "reused_outcome": false
+}

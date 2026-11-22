@@ -1,0 +1,101 @@
+{
+  "qid": 891,
+  "initial": "an animal is standing in the fields outside",
+  "initial_rank": 716,
+  "evidence": [
+    "a giraffe is walking across the field in a dry brush",
+    "giraffe in dry grass and trees",
+    "black bear in brush near tree",
+    "three sheep with two lambs in a pasture",
+    "two cows standing behind a barbed wire fence",
+    "two cows and a sheep standing in a field",
+    "a pair of sheep standing next to one another",
+    "a brown horse standing on a dirt field in the woods",
+    "a small flock of sheep and goats",
+    "a black and white zebra"
+  ],
+  "candidates": [
+    "what type of animal is standing in the field?",
+    "Question: What is the color of the animal standing in the field?",
+    "what is the specific species of the animal standing in the field outside?",
+    "Question: Is the animal standing in the field wearing any accessories or clothing?",
+    "Question: What is the color of the animal standing in the field?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what type of animal is standing in the field?",
+      "answers": [
+        "giraffe",
+        "cow",
+        "sheep"
+      ],
+      "score": 0.2302098274230957
+    },
+    {
+      "question": "Question: What is the color of the animal standing in the field?",
+      "answers": [
+        "black and white",
+        "brown",
+        "white"
+      ],
+      "score": 0.11232280731201172
+    },
+    {
+      "question": "what is the specific species of the animal standing in the field outside?",
+      "answers": [
+        "sheep",
+        "cow",
+        "zebra"
+      ],
+      "score": 0.2505040168762207
+    },
+    {
+      "question": "Question: Is the animal standing in the field wearing any accessories or clothing?",
+      "answers": [
+        "no",
+        "yes",
+        "maybe"
+      ],
+      "score": 0.0020241737365722656
+    },
+    {
+      "question": "Question: What is the color of the animal standing in the field?",
+      "answers": [
+        "black and white",
+        "brown",
+        "white"
+      ],
+      "score": 0.11232280731201172,
+      "duplicate_of": 1
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.062,
+  "probe_selection_seconds": 1.866,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "what is the specific species of the animal standing in the field outside?",
+      "answer": "giraffe",
+      "rewrite": "a giraffe is standing in the fields outside",
+      "rank": 73,
+      "hit": false
+    },
+    "random": {
+      "question": "Question: What is the color of the animal standing in the field?",
+      "answer": "brown",
+      "rewrite": "a brown animal is standing in the fields outside",
+      "rank": 638,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the specific species of the animal standing in the field outside?",
+      "answer": "giraffe",
+      "rewrite": "a giraffe is standing in the fields outside",
+      "rank": 73,
+      "hit": false
+    }
+  },
+  "seconds": 15.042
+}

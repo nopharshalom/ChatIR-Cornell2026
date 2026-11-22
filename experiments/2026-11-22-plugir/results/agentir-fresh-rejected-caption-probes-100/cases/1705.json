@@ -1,0 +1,178 @@
+{
+  "qid": 1705,
+  "initial": "a path with a bench just off of it near a large body of water",
+  "initial_rank": 20,
+  "displayed": [
+    8741,
+    3404,
+    28776,
+    28535,
+    12591,
+    46240,
+    40598,
+    10276,
+    14622,
+    25233
+  ],
+  "evidence": [
+    "this park has a wooden bench in front",
+    "a waterway near a city with some people fishing in the water",
+    "two park benches are sat under trees in a park",
+    "people are flying kites over the water",
+    "a wooden bench is in the middle of the sidewalk",
+    "a tanker truck on the road next to a body of water",
+    "a bench sitting on a path in a woodland",
+    "a stop sign is in a grassy area",
+    "a black bike next to a stone bench in the woods",
+    "sheep in a grassy field with a pond and sea beyond"
+  ],
+  "rejected_captions": [
+    "the small bench is by the water",
+    "clear blue sky",
+    "a bench near a water",
+    "the bench is made of metal",
+    "three benches by a lake near the water",
+    "the bench is on a grassy path",
+    "the bench is black",
+    "a bench looking at the ocean on a grassy area",
+    "a bench overlooking the sea",
+    "a sand beach with a wooden fence"
+  ],
+  "usual": {
+    "candidates": [
+      "what type of bench is located on the path near the body of water?",
+      "what is the type of body of water near the path and bench?",
+      "what is the color of the bike located next to the bench on the path?",
+      "what is the other object in the image?",
+      "what is the other object in the image?"
+    ],
+    "question": "what is the other object in the image?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what type of bench is located on the path near the body of water?",
+          "answers": [
+            "wooden",
+            "stone",
+            "black bike"
+          ],
+          "score": 0.06544923782348633
+        },
+        {
+          "question": "what is the type of body of water near the path and bench?",
+          "answers": [
+            "river",
+            "lake",
+            "sea"
+          ],
+          "score": 0.05237245559692383
+        },
+        {
+          "question": "what is the color of the bike located next to the bench on the path?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.0555424690246582
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "wood",
+            "water",
+            "trees"
+          ],
+          "score": 0.0686650276184082
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "wood",
+            "water",
+            "trees"
+          ],
+          "score": 0.0686650276184082,
+          "duplicate_of": 3
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.059,
+      "probe_selection_seconds": 1.886,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "bench",
+    "rewrite": "A path featuring a bench situated just off of it, located near a large body of water.",
+    "raw_rank": 21,
+    "unseen_rank": 11
+  },
+  "rejected": {
+    "candidates": [
+      "what material is the bench made of?",
+      "what type of bench is situated on the path near the large body of water?",
+      "what is the color of the bench sitting on the path near the large body of water?",
+      "what is the material of the bench sitting on the path near the large body of water?",
+      "Question: what is the type of surface the path with the bench is situated on?"
+    ],
+    "question": "what material is the bench made of?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what material is the bench made of?",
+          "answers": [
+            "wood",
+            "stone",
+            "metal"
+          ],
+          "score": 0.0570673942565918
+        },
+        {
+          "question": "what type of bench is situated on the path near the large body of water?",
+          "answers": [
+            "wooden",
+            "stone",
+            "black"
+          ],
+          "score": 0.03627347946166992
+        },
+        {
+          "question": "what is the color of the bench sitting on the path near the large body of water?",
+          "answers": [
+            "brown",
+            "wood",
+            "black"
+          ],
+          "score": 0.0348963737487793
+        },
+        {
+          "question": "what is the material of the bench sitting on the path near the large body of water?",
+          "answers": [
+            "wooden",
+            "stone",
+            "metal"
+          ],
+          "score": 0.04896974563598633
+        },
+        {
+          "question": "Question: what is the type of surface the path with the bench is situated on?",
+          "answers": [
+            "sidewalk",
+            "wood",
+            "grass"
+          ],
+          "score": 0.036307334899902344
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.056,
+      "probe_selection_seconds": 2.468,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "wood",
+    "rewrite": "a wooden bench situated just off a path near a large body of water",
+    "raw_rank": 32,
+    "unseen_rank": 22
+  }
+}

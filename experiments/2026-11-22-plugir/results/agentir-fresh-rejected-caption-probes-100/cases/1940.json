@@ -1,0 +1,177 @@
+{
+  "qid": 1940,
+  "initial": "the pizza is full and on the plate in the room",
+  "initial_rank": 887,
+  "displayed": [
+    26493,
+    41539,
+    20720,
+    43094,
+    14497,
+    12317,
+    18283,
+    4371,
+    6896,
+    27532
+  ],
+  "evidence": [
+    "a slice of cheese pizza is sitting on a paper plate",
+    "a pizza with mushrooms, spinach, and onion",
+    "two slices of pizza on white plates",
+    "two slices of pizza are sitting on a plate",
+    "a huge pepperoni pizza is on a wooden table",
+    "a large pizza with broccoli, tomatoes and greens",
+    "a large pizza on a white table top",
+    "a pepperoni pizza on a tray with peppers and other toppings",
+    "a slice of pizza on a paper plate",
+    "a large pizza on a large wooden board"
+  ],
+  "rejected_captions": [
+    "a pizza on a plate",
+    "a pizza on a plate and a beer",
+    "a large pizza with toppings",
+    "a pizza on top of a plate",
+    "pizza and beer on a table",
+    "pizza is sitting on a wooden table",
+    "this pizza has large amounts of crab meat on it",
+    "a large pizza plate on a table",
+    "a pizza with cheese",
+    "a pizza on a plate"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the type of topping on the pizza?",
+      "what is the color of the plate the pizza is sitting on?",
+      "Question: how many slices of pizza are there?",
+      "what is the type of pizza being served on the plate?",
+      "what is the color of the table or surface where the pizza is located?"
+    ],
+    "question": "what is the type of topping on the pizza?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the type of topping on the pizza?",
+          "answers": [
+            "cheese",
+            "mushrooms",
+            "pepperoni"
+          ],
+          "score": 0.14788055419921875
+        },
+        {
+          "question": "what is the color of the plate the pizza is sitting on?",
+          "answers": [
+            "paper",
+            "wooden",
+            "white"
+          ],
+          "score": 0.10298824310302734
+        },
+        {
+          "question": "Question: how many slices of pizza are there?",
+          "answers": [
+            "one",
+            "two",
+            "many"
+          ],
+          "score": 0.005674839019775391
+        },
+        {
+          "question": "what is the type of pizza being served on the plate?",
+          "answers": [
+            "cheese",
+            "pepperoni",
+            "veggie"
+          ],
+          "score": 0.13736391067504883
+        },
+        {
+          "question": "what is the color of the table or surface where the pizza is located?",
+          "answers": [
+            "wooden",
+            "white",
+            "tray"
+          ],
+          "score": 0.05286884307861328
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.161,
+      "probe_selection_seconds": 2.432,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "spinach",
+    "rewrite": "a full spinach pizza on a plate in a room",
+    "raw_rank": 101,
+    "unseen_rank": 96
+  },
+  "rejected": {
+    "candidates": [
+      "Question: is the pizza sitting on a paper plate or a wooden table?",
+      "what type of pizza is being shown?",
+      "Question: What color is the plate or table the pizza is sitting on?",
+      "Question: What toppings are on the pizza?",
+      "Question: Is the pizza sitting on a paper plate or a wooden table?"
+    ],
+    "question": "what type of pizza is being shown?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: is the pizza sitting on a paper plate or a wooden table?",
+          "answers": [
+            "paper plate",
+            "wooden table",
+            "tray"
+          ],
+          "score": 0.021148204803466797
+        },
+        {
+          "question": "what type of pizza is being shown?",
+          "answers": [
+            "cheese",
+            "pepperoni",
+            "vegetarian"
+          ],
+          "score": 0.1354842185974121
+        },
+        {
+          "question": "Question: What color is the plate or table the pizza is sitting on?",
+          "answers": [
+            "paper",
+            "wooden",
+            "white"
+          ],
+          "score": 0.07894563674926758
+        },
+        {
+          "question": "Question: What toppings are on the pizza?",
+          "answers": [
+            "mushrooms",
+            "pepperoni",
+            "cheese"
+          ],
+          "score": 0.13019514083862305
+        },
+        {
+          "question": "Question: Is the pizza sitting on a paper plate or a wooden table?",
+          "answers": [
+            "paper plate",
+            "wooden table",
+            "wooden board"
+          ],
+          "score": 0.03150463104248047
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.072,
+      "probe_selection_seconds": 2.572,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "spinach pizza",
+    "rewrite": "a full spinach pizza on a plate in a room",
+    "raw_rank": 101,
+    "unseen_rank": 96
+  }
+}

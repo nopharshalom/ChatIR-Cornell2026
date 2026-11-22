@@ -1,0 +1,79 @@
+{
+  "qid": 1268,
+  "candidates": [
+    "what is the color of the man's wetsuit?",
+    "Question: What is the location where the man is surfing?",
+    "Question: what is the location where the man is surfing?",
+    "Question: what color is the rope attached to the board the man is riding?",
+    "what is the other object in the image?"
+  ],
+  "kl": {
+    "question": "what is the other object in the image?",
+    "answer": "wave",
+    "rewrite": "a man surfing on a tan and aqua colored surfboard with a wave",
+    "raw_rank": 35,
+    "unseen_rank": 25
+  },
+  "probe": {
+    "answer": "black.",
+    "rewrite": "a man surfs a wave on a tan and aqua colored surfboard with a black rope attached",
+    "raw_rank": 94,
+    "unseen_rank": 84,
+    "question": "Question: what color is the rope attached to the board the man is riding?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "what is the color of the man's wetsuit?",
+        "answers": [
+          "black",
+          "blue",
+          "red"
+        ],
+        "score": 0.028392314910888672
+      },
+      {
+        "question": "Question: What is the location where the man is surfing?",
+        "answers": [
+          "ocean",
+          "wave pool",
+          "shore"
+        ],
+        "score": 0.023200511932373047
+      },
+      {
+        "question": "Question: what is the location where the man is surfing?",
+        "answers": [
+          "the ocean",
+          "a pool",
+          "the shore"
+        ],
+        "score": 0.026735782623291016
+      },
+      {
+        "question": "Question: what color is the rope attached to the board the man is riding?",
+        "answers": [
+          "black",
+          "white",
+          "blue"
+        ],
+        "score": 0.036725521087646484
+      },
+      {
+        "question": "what is the other object in the image?",
+        "answers": [
+          "a surfboard",
+          "the ocean",
+          "a person"
+        ],
+        "score": 0.0033698081970214844
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.056,
+    "probe_selection_seconds": 2.475,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": false
+}

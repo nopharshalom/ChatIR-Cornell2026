@@ -1,0 +1,101 @@
+{
+  "qid": 363,
+  "initial": "a kitchen with the lights turned on during the day",
+  "initial_rank": 34,
+  "evidence": [
+    "a stainless steel oven in the middle of a wooden kitchen",
+    "a large kitchen is shown with wood cabinets and hardwood floors",
+    "a kitchen that includes wood flooring and a center island",
+    "a kitchen with silver cabinets, a silver stove, and a sink",
+    "white and green kitchen with a tiled counter and sink",
+    "an empty kitchen with wooden floors and a kitchen island",
+    "a beautiful clean kitchen with an island and hardwood floors",
+    "white kitchen appliances next to an oven",
+    "this kitchen has wooden cabinets, a stove, and a microwave",
+    "an open kitchen with wood cabinets, island, stainless steel appliances, and wood floors"
+  ],
+  "candidates": [
+    "what color are the kitchen cabinets?",
+    "Question: what is the color of the kitchen cabinets?",
+    "Question: What color are the kitchen cabinets?",
+    "what color are the kitchen cabinets?",
+    "what color are the kitchen cabinets and what is the color of the counter?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what color are the kitchen cabinets?",
+      "answers": [
+        "wood",
+        "silver",
+        "white"
+      ],
+      "score": 0.1520709991455078
+    },
+    {
+      "question": "Question: what is the color of the kitchen cabinets?",
+      "answers": [
+        "wood",
+        "silver",
+        "white"
+      ],
+      "score": 0.1435084342956543
+    },
+    {
+      "question": "Question: What color are the kitchen cabinets?",
+      "answers": [
+        "silver",
+        "white",
+        "wooden"
+      ],
+      "score": 0.12446308135986328
+    },
+    {
+      "question": "what color are the kitchen cabinets?",
+      "answers": [
+        "wood",
+        "silver",
+        "white"
+      ],
+      "score": 0.1520709991455078,
+      "duplicate_of": 0
+    },
+    {
+      "question": "what color are the kitchen cabinets and what is the color of the counter?",
+      "answers": [
+        "wooden silver",
+        "wooden white",
+        "silver white"
+      ],
+      "score": 0.06341886520385742
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.089,
+  "probe_selection_seconds": 1.941,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "what color are the kitchen cabinets?",
+      "answer": "brown",
+      "rewrite": "a brown kitchen with the lights turned on during the day",
+      "rank": 17,
+      "hit": false
+    },
+    "random": {
+      "question": "what color are the kitchen cabinets and what is the color of the counter?",
+      "answer": "The kitchen cabinets are brown, and the counter is white.",
+      "rewrite": "a kitchen with brown cabinets and a white counter, with the lights turned on during the day",
+      "rank": 33,
+      "hit": false
+    },
+    "probe": {
+      "question": "what color are the kitchen cabinets?",
+      "answer": "brown",
+      "rewrite": "a brown kitchen with the lights turned on during the day",
+      "rank": 17,
+      "hit": false
+    }
+  },
+  "seconds": 14.476
+}

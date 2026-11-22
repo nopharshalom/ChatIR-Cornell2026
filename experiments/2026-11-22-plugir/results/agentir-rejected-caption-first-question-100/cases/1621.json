@@ -1,0 +1,71 @@
+{
+  "qid": 1621,
+  "initial": "a shower with white tiles and a window in it for light",
+  "initial_rank": 43,
+  "evidence": [
+    "a toilet with the lid down and a trash can beside it",
+    "a bathroom with a bathtub, sink, shower and a toilet",
+    "a bathroom with two sinks and a large mirror",
+    "a clean and white bathroom with two sinks and bathtub",
+    "a sink with two pans on it next to a window",
+    "this is a bathroom containing a tub, mirror, and sink",
+    "a white bathroom with a toilet, sink, and bathtub",
+    "a bathroom with a black sink, mirror and windows",
+    "a toilet with a lid is on the floor of a bathroom",
+    "a bathroom with a bathtub, mirror, and sink"
+  ],
+  "displayed_ids": [
+    34516,
+    3873,
+    47820,
+    20491,
+    47186,
+    41617,
+    49803,
+    20006,
+    10723,
+    15647
+  ],
+  "rejected_captions": [
+    "a large mirror is above the shower head",
+    "a bathroom with a shower head and a glass door",
+    "a bathroom is decorated with a mirror and a shower enclosure",
+    "an angled tub in the bathroom",
+    "the shower in a bathroom is white and glass",
+    "a shower in a house with a wooden floor",
+    "glass shower door",
+    "a glass shower stall",
+    "a bathroom with a window, sink, and toilet",
+    "a small bathroom with a door, toilet, and shower"
+  ],
+  "candidates": [
+    "Question: What color is the sink in the bathroom that contains the white-tiled shower and a window?",
+    "Question: What color is the window frame in the bathroom with the white-tiled shower?",
+    "Question: What color is the bathtub in the bathroom with the white-tiled shower and a window?",
+    "Question: What color is the door in the bathroom with the white-tiled shower and a window?",
+    "Question: What color is the bathtub in the bathroom with the white-tiled shower and a window?"
+  ],
+  "control_candidates": [
+    "what is the color of the bathroom containing the shower?",
+    "what is the color of the window in the shower?",
+    "what is the location of the window with white tiles?",
+    "what is the color of the window in the bathroom with white tiles?",
+    "what is the location of the shower with white tiles?"
+  ],
+  "control": {
+    "question": "what is the location of the window with white tiles?",
+    "answer": "above the toilet",
+    "rewrite": "a shower with white tiles and a window located above the toilet",
+    "rank": 14,
+    "hit": false,
+    "raw_rank": 14,
+    "unseen_rank": 9
+  },
+  "variant": {
+    "question": "Question: What color is the window frame in the bathroom with the white-tiled shower?",
+    "answer": "black",
+    "rewrite": "a shower with white tiles and a black window frame",
+    "raw_rank": 7,
+    "unseen_rank": 2
+  }
+}

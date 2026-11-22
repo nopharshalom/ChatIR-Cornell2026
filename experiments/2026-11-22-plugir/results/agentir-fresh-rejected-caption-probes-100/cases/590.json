@@ -1,0 +1,182 @@
+{
+  "qid": 590,
+  "initial": "a person sits on a surfboard while coming back to the shore",
+  "initial_rank": 21,
+  "displayed": [
+    28338,
+    22193,
+    39971,
+    17600,
+    45166,
+    49683,
+    34852,
+    15961,
+    33854,
+    34284
+  ],
+  "evidence": [
+    "three people sitting on a red surfboard in the ocean",
+    "a person is surfing on a big wave",
+    "black and white image of man walking on the beach carrying surfboard",
+    "a man riding a green wave",
+    "a girl laying on her yellow surfboard",
+    "two people walking to the beach holding surfboards",
+    "a surfer in wetsuit surfing the wave",
+    "a man rides a surfboard in a wave",
+    "a surfer riding a wave in a water",
+    "a wave with two people riding it on surfboards"
+  ],
+  "rejected_captions": [
+    "some waves at the beach",
+    "a person standing on a surfboard in the ocean",
+    "the girl in black and white wetsuit is sitting on the surfboard",
+    "a person riding a surfboard at sunset",
+    "the man is in the water",
+    "the water is clear",
+    "a person holding a surfboard in the ocean",
+    "a man paddles in a kayak in the water during a storm",
+    "person on surfboard",
+    "a person riding a surfboard in the water"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the color of the surfboard the person is sitting on?",
+      "what is the gender of the person sitting on the surfboard?",
+      "what is the color of the surfboard the person is sitting on?",
+      "what is the color of the surfboard the person is sitting on?",
+      "what is the gender of the person sitting on the surfboard?"
+    ],
+    "question": "what is the color of the surfboard the person is sitting on?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the surfboard the person is sitting on?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.17495203018188477
+        },
+        {
+          "question": "what is the gender of the person sitting on the surfboard?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.034615516662597656
+        },
+        {
+          "question": "what is the color of the surfboard the person is sitting on?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.17495203018188477,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the surfboard the person is sitting on?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.17495203018188477,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the gender of the person sitting on the surfboard?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.034615516662597656,
+          "duplicate_of": 1
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.058,
+      "probe_selection_seconds": 0.897,
+      "probe_llm_calls": 2,
+      "probe_search_queries": 6
+    },
+    "answer": "yellow",
+    "rewrite": "a person sits on a yellow surfboard while coming back to the shore",
+    "raw_rank": 2,
+    "unseen_rank": 2
+  },
+  "rejected": {
+    "candidates": [
+      "what color is the surfboard the person is sitting on?",
+      "Question: What color is the surfboard the person is sitting on?",
+      "what color is the surfboard the person is sitting on?",
+      "Question: What color is the surfboard the person is sitting on?",
+      "what is the color of the surfboard the person is sitting on?"
+    ],
+    "question": "what is the color of the surfboard the person is sitting on?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what color is the surfboard the person is sitting on?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.12573766708374023
+        },
+        {
+          "question": "Question: What color is the surfboard the person is sitting on?",
+          "answers": [
+            "red",
+            "black and white",
+            "yellow"
+          ],
+          "score": 0.1222233772277832
+        },
+        {
+          "question": "what color is the surfboard the person is sitting on?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.12573766708374023,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the surfboard the person is sitting on?",
+          "answers": [
+            "red",
+            "black and white",
+            "yellow"
+          ],
+          "score": 0.1222233772277832,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the surfboard the person is sitting on?",
+          "answers": [
+            "red",
+            "yellow",
+            "green"
+          ],
+          "score": 0.17495203018188477
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.073,
+      "probe_selection_seconds": 1.451,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "yellow",
+    "rewrite": "a person sits on a yellow surfboard while coming back to the shore",
+    "raw_rank": 2,
+    "unseen_rank": 2
+  }
+}

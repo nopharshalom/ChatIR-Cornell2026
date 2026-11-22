@@ -1,0 +1,414 @@
+{
+  "qid": 1411,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000574517.jpg",
+  "queries": [
+    "a kitchen with white cabinets and a window above the sink",
+    "a kitchen with white cabinets and a white window sill above the sink",
+    "a kitchen with white cabinets, a white window sill, and a gray countertop",
+    "a kitchen with white cabinets, a white window sill, a gray countertop, and a light brown floor"
+  ],
+  "ranks": [
+    18,
+    22,
+    25,
+    4
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a kitchen with white cabinets and a window above the sink",
+      "question": "what is the color of the window sill in the kitchen with white cabinets?",
+      "answer": "white",
+      "query_after": "a kitchen with white cabinets and a white window sill above the sink",
+      "displayed_ids": [
+        25880,
+        18025,
+        37533,
+        7378,
+        44191,
+        2692,
+        25144,
+        44594,
+        6603,
+        17022
+      ],
+      "selected_ids": [
+        22566,
+        2287,
+        6090,
+        33750,
+        21766,
+        10209,
+        38241,
+        9769,
+        23467,
+        9323
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the window sill in the kitchen with white cabinets?",
+          "answers": [
+            "white",
+            "green",
+            "brown"
+          ],
+          "score": 0.07669210433959961
+        },
+        {
+          "question": "what is the color of the window sill in the kitchen with white cabinets?",
+          "answers": [
+            "white",
+            "green",
+            "brown"
+          ],
+          "score": 0.07669210433959961,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the window sill in the kitchen with white cabinets?",
+          "answers": [
+            "white",
+            "green",
+            "brown"
+          ],
+          "score": 0.07669210433959961,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the window sill in the kitchen with white cabinets?",
+          "answers": [
+            "white",
+            "green",
+            "brown"
+          ],
+          "score": 0.07669210433959961,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the window sill in the kitchen with white cabinets?",
+          "answers": [
+            "white",
+            "green",
+            "brown"
+          ],
+          "score": 0.07669210433959961,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the window sill in the kitchen?",
+          "answers": [
+            "white",
+            "green",
+            "brown"
+          ],
+          "score": 0.04743528366088867
+        },
+        {
+          "question": "Question: What color are the walls in the kitchen?",
+          "answers": [
+            "white",
+            "gray",
+            "blue"
+          ],
+          "score": 0.05790996551513672
+        },
+        {
+          "question": "Question: What color are the counter tops in the kitchen?",
+          "answers": [
+            "white",
+            "black",
+            "granite"
+          ],
+          "score": 0.05333852767944336
+        },
+        {
+          "question": "Question: What color is the window sill in the kitchen?",
+          "answers": [
+            "white",
+            "green",
+            "blue"
+          ],
+          "score": 0.06759071350097656
+        },
+        {
+          "question": "Question: What color are the walls in the kitchen?",
+          "answers": [
+            "white",
+            "gray",
+            "blue"
+          ],
+          "score": 0.05790996551513672,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a kitchen with white cabinets and a white window sill above the sink",
+      "question": "what is the color of the countertop in the kitchen with white cabinets and a window above the sink?",
+      "answer": "gray",
+      "query_after": "a kitchen with white cabinets, a white window sill, and a gray countertop",
+      "displayed_ids": [
+        18025,
+        25880,
+        37533,
+        6603,
+        22668,
+        7378,
+        2692,
+        23095,
+        25144,
+        44594
+      ],
+      "selected_ids": [
+        21762,
+        47752,
+        43226,
+        767,
+        22566,
+        6498,
+        24372,
+        17434,
+        39018,
+        4026
+      ],
+      "rejected_count": 12,
+      "usual_paths": [
+        {
+          "question": "what is the color of the kitchen cabinets in the image with a red and white checkered floor?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.009592056274414062
+        },
+        {
+          "question": "what is the color of the kitchen cabinets in the image with a wooden stove?",
+          "answers": [
+            "wooden",
+            "brown",
+            "dark"
+          ],
+          "score": 0.020108699798583984
+        },
+        {
+          "question": "what is the color of the kitchen cabinets in the image with a wooden stove?",
+          "answers": [
+            "wooden",
+            "brown",
+            "dark"
+          ],
+          "score": 0.020108699798583984,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the kitchen cabinets in the image with lots of wooden cabinets and counter tops?",
+          "answers": [
+            "brown",
+            "dark wood",
+            "light wood"
+          ],
+          "score": 0.02099466323852539
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "white cabinets",
+            "window above sink",
+            "kitchen"
+          ],
+          "score": 0.005927085876464844
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: what is the color of the floor in the kitchen with white cabinets and a window above the sink?",
+          "answers": [
+            "wood",
+            "white",
+            "tile"
+          ],
+          "score": 0.017369747161865234
+        },
+        {
+          "question": "what is the color of the floor in the kitchen with white cabinets and a window above the sink?",
+          "answers": [
+            "white",
+            "wood",
+            "tile"
+          ],
+          "score": 0.018947601318359375
+        },
+        {
+          "question": "what is the color of the floor in the kitchen with white cabinets and a window above the sink?",
+          "answers": [
+            "white",
+            "wood",
+            "tile"
+          ],
+          "score": 0.018947601318359375,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the countertop in the kitchen with white cabinets and a window above the sink?",
+          "answers": [
+            "white",
+            "black",
+            "wood"
+          ],
+          "score": 0.03987455368041992
+        },
+        {
+          "question": "what is the color of the countertop in the kitchen with white cabinets and a window above the sink?",
+          "answers": [
+            "white",
+            "black",
+            "wood"
+          ],
+          "score": 0.03987455368041992,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a kitchen with white cabinets, a white window sill, and a gray countertop",
+      "question": "what is the color of the floor in the kitchen with white cabinets and a window above the sink?",
+      "answer": "light brown",
+      "query_after": "a kitchen with white cabinets, a white window sill, a gray countertop, and a light brown floor",
+      "displayed_ids": [
+        14965,
+        18025,
+        44191,
+        25880,
+        7378,
+        761,
+        11731,
+        21762,
+        2692,
+        14080
+      ],
+      "selected_ids": [
+        37533,
+        47832,
+        19745,
+        9769,
+        35797,
+        22566,
+        2287,
+        17961,
+        14965,
+        29288
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "what is the color of the floor in the kitchen with white cabinets and a window above the sink?",
+          "answers": [
+            "white",
+            "gray",
+            "wood"
+          ],
+          "score": 0.023077964782714844
+        },
+        {
+          "question": "what is the color of the floor in the kitchen with white cabinets and a window above the sink?",
+          "answers": [
+            "white",
+            "gray",
+            "wood"
+          ],
+          "score": 0.023077964782714844,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the floor in the kitchen with white cabinets and a window above the sink?",
+          "answers": [
+            "white",
+            "gray",
+            "wood"
+          ],
+          "score": 0.023077964782714844,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the floor in the kitchen with white cabinets and a window above the sink?",
+          "answers": [
+            "white",
+            "gray",
+            "wood"
+          ],
+          "score": 0.023077964782714844,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the floor in the kitchen with white cabinets and a window above the sink?",
+          "answers": [
+            "white",
+            "gray",
+            "wood"
+          ],
+          "score": 0.023077964782714844,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the floor in the kitchen with white cabinets and a window above the sink?",
+          "answers": [
+            "white",
+            "gray",
+            "wood"
+          ],
+          "score": 0.023077964782714844
+        },
+        {
+          "question": "what is the color of the floor in the kitchen with white cabinets and a window above the sink?",
+          "answers": [
+            "white",
+            "gray",
+            "wood"
+          ],
+          "score": 0.023077964782714844,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the cabinets in the kitchen with a window above the sink?",
+          "answers": [
+            "white",
+            "gray",
+            "brown"
+          ],
+          "score": 0.015425682067871094
+        },
+        {
+          "question": "what type of flooring is in the kitchen with white cabinets and a window above the sink?",
+          "answers": [
+            "tile",
+            "wood",
+            "linoleum"
+          ],
+          "score": 0.016144275665283203
+        },
+        {
+          "question": "what color is the floor in the kitchen with white cabinets and a window above the sink?",
+          "answers": [
+            "white",
+            "gray",
+            "wooden"
+          ],
+          "score": 0.01665019989013672
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

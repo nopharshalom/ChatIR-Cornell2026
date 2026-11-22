@@ -1,0 +1,177 @@
+{
+  "qid": 1717,
+  "initial": "a japanese style bowl of rice with various food on it",
+  "initial_rank": 17,
+  "displayed": [
+    32573,
+    40113,
+    14950,
+    24540,
+    6828,
+    31107,
+    44689,
+    44076,
+    6296,
+    36905
+  ],
+  "evidence": [
+    "a white plate of pasta with broccoli, chicken and pasta",
+    "an assortment of food on a white plate",
+    "fruit with almonds and berries on white plate",
+    "a white plate is filled with a variety of vegetables",
+    "a woman sits at a table with a bowl of noodles and chop sticks",
+    "the plate contains broccoli, steak and rice",
+    "a lunch tray containing fruits and sandwiches",
+    "a white plate of food with broccoli, carrots and mushrooms",
+    "this is a picture of a bowl of mixed vegetables with a spoon in it"
+  ],
+  "rejected_captions": [
+    "white plate with meat, rice and vegetables",
+    "bowls with various items",
+    "a plate with rice, rice pudding and a tea cup",
+    "a brown plate with two bowls of soup, rice and noodles",
+    "some vegetables in a white bowl",
+    "ham noodle with chopsticks on white plate with vegetables",
+    "a large, black table",
+    "a bowl of oatmeal with blueberries and banana slices",
+    "brown cloth on table",
+    "a table with a big plate of food"
+  ],
+  "usual": {
+    "candidates": [
+      "Question: What specific ingredients are visible on the white plate in the image?",
+      "What type of Japanese dish is shown in the bowl?",
+      "what is the primary food item served in the bowl?",
+      "what is the color of the bowl containing the rice?",
+      "what is the color of the bowl containing the rice?"
+    ],
+    "question": "Question: What specific ingredients are visible on the white plate in the image?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What specific ingredients are visible on the white plate in the image?",
+          "answers": [
+            "rice, chicken, and vegetables",
+            "rice, salmon, and asparagus",
+            "rice, beef, and broccoli"
+          ],
+          "score": 0.09683561325073242
+        },
+        {
+          "question": "What type of Japanese dish is shown in the bowl?",
+          "answers": [
+            "Donburi",
+            "Chirashi",
+            "Oshichi"
+          ],
+          "score": 0.008953571319580078
+        },
+        {
+          "question": "what is the primary food item served in the bowl?",
+          "answers": [
+            "rice",
+            "noodles",
+            "mixed vegetables"
+          ],
+          "score": 0.03222370147705078
+        },
+        {
+          "question": "what is the color of the bowl containing the rice?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.026636123657226562
+        },
+        {
+          "question": "what is the color of the bowl containing the rice?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.026636123657226562,
+          "duplicate_of": 3
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.069,
+      "probe_selection_seconds": 2.169,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "broccoli, asparagus, cheese, meat, sauce",
+    "rewrite": "a white plate featuring a Japanese-style bowl of rice topped with broccoli, asparagus, cheese, meat, and sauce",
+    "raw_rank": 2,
+    "unseen_rank": 2
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the specific type of food served in the bowl?",
+      "Question: What color is the bowl containing the food?",
+      "Question: What type of cutlery is present on the plate with the food?",
+      "Question: What color is the plate or bowl containing the food?",
+      "Question: Question: What color is the plate or bowl containing the food?"
+    ],
+    "question": "Question: What color is the bowl containing the food?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the specific type of food served in the bowl?",
+          "answers": [
+            "rice with chicken",
+            "rice with vegetables",
+            "mixed rice bowl"
+          ],
+          "score": 0.026639461517333984
+        },
+        {
+          "question": "Question: What color is the bowl containing the food?",
+          "answers": [
+            "white",
+            "black",
+            "blue"
+          ],
+          "score": 0.05086565017700195
+        },
+        {
+          "question": "Question: What type of cutlery is present on the plate with the food?",
+          "answers": [
+            "chopsticks",
+            "spoon",
+            "fork"
+          ],
+          "score": 0.02394390106201172
+        },
+        {
+          "question": "Question: What color is the plate or bowl containing the food?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.028844356536865234
+        },
+        {
+          "question": "Question: Question: What color is the plate or bowl containing the food?",
+          "answers": [
+            "white",
+            "black",
+            "green"
+          ],
+          "score": 0.018593311309814453
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.067,
+      "probe_selection_seconds": 2.386,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "black",
+    "rewrite": "a black japanese style bowl of rice with various food on it",
+    "raw_rank": 7,
+    "unseen_rank": 4
+  }
+}

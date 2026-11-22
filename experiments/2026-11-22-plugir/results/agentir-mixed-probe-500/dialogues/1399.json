@@ -1,0 +1,1325 @@
+{
+  "qid": 1399,
+  "sample": "original",
+  "target": "unlabeled2017/000000165746.jpg",
+  "queries": [
+    "a trolley car parked next to a building",
+    "a red and white trolley car parked next to a building",
+    "a red and white trolley car traveling down the tracks in London",
+    "a red trolley car parked next to a building in London, with a red and white vehicle traveling down the tracks in the background",
+    "a red trolley car parked next to a building in London, with a red and white double decker bus traveling down the tracks nearby",
+    "a red trolley car parked next to a building in London, with a red and white double decker bus parked on the street nearby",
+    "a red trolley car parked next to a building in London, with a red and white double decker bus parked on the street and another red and white double decker bus parked in a museum",
+    "a red trolley car parked next to a building in London, with a red and white double decker bus parked on the street and another red and white double decker bus parked in a museum in the background",
+    "a red trolley car parked next to a building in London",
+    "a red trolley car parked next to a building, with a red and white double decker bus and a ferris wheel also visible in the image",
+    "a red trolley car parked next to a building, with a red and white double decker bus and a white ferris wheel in the background"
+  ],
+  "ranks": [
+    935,
+    214,
+    13,
+    90,
+    61,
+    89,
+    77,
+    87,
+    167,
+    44,
+    74
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a trolley car parked next to a building",
+      "question": "what is the color of the vehicle that is traveling down the tracks?",
+      "answer": "red and white",
+      "query_after": "a red and white trolley car parked next to a building",
+      "displayed_ids": [
+        31362,
+        6598,
+        35574,
+        42250,
+        22950,
+        48835,
+        24916,
+        39921,
+        25793,
+        34228
+      ],
+      "selected_ids": [
+        44862,
+        3325,
+        41232,
+        30060,
+        47618,
+        17206,
+        20987,
+        19872,
+        17819
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the trolley car parked next to the building?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.1240534782409668
+        },
+        {
+          "question": "what is the color of the vehicle parked next to a building?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.13765430450439453
+        },
+        {
+          "question": "what is the location of the vehicle parked next to a building?",
+          "answers": [
+            "street",
+            "parking lot",
+            "docks"
+          ],
+          "score": 0.03374671936035156
+        },
+        {
+          "question": "what is the color of the vehicle that is traveling down the tracks?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.1723780632019043
+        },
+        {
+          "question": "Question: what is the color of the trolley car parked next to a building?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.09756612777709961
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the trolley car parked next to the building?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.1034998893737793
+        },
+        {
+          "question": "Question: What color is the trolley car parked next to the building?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.08856201171875
+        },
+        {
+          "question": "Question: What color is the trolley car parked next to the building?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.08856201171875,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the trolley car parked next to the building?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.1240534782409668
+        },
+        {
+          "question": "what is the color of the trolley car parked next to the building?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.1240534782409668,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a red and white trolley car parked next to a building",
+      "question": "what is the location of the red and white vehicle?",
+      "answer": "london",
+      "query_after": "a red and white trolley car traveling down the tracks in London",
+      "displayed_ids": [
+        31362,
+        48017,
+        24916,
+        11027,
+        6598,
+        753,
+        28506,
+        37970,
+        840,
+        22950
+      ],
+      "selected_ids": [
+        35574,
+        42688,
+        6769,
+        5237,
+        15253,
+        4988,
+        35976,
+        11730,
+        23979,
+        19215
+      ],
+      "rejected_count": 16,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "brick building",
+            "trees",
+            "farm"
+          ],
+          "score": 0.1071009635925293
+        },
+        {
+          "question": "Question: what is the color of the trolley car parked next to the building?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.0693674087524414
+        },
+        {
+          "question": "what is the location of the red and white vehicle?",
+          "answers": [
+            "at a stop",
+            "in the train yard",
+            "near a farm"
+          ],
+          "score": 0.10835456848144531
+        },
+        {
+          "question": "what is the type of the red and white vehicle moving on the tracks?",
+          "answers": [
+            "trolley car",
+            "train"
+          ],
+          "score": 0.0034990310668945312
+        },
+        {
+          "question": "what is the color of the trolley car parked next to the building?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.03203439712524414
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the building next to the parked trolley car?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.06082582473754883
+        },
+        {
+          "question": "what is the color of the building next to the parked trolley car?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.06082582473754883,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the location of the trolley car that is parked next to a building?",
+          "answers": [
+            "a city street",
+            "a train yard",
+            "near a farm"
+          ],
+          "score": 0.05707883834838867
+        },
+        {
+          "question": "what is the color of the trolley car?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.10226583480834961
+        },
+        {
+          "question": "what is the color of the building next to the parked trolley car?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.06082582473754883,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a red and white trolley car traveling down the tracks in London",
+      "question": "Question: What is the color of the trolley car parked next to the building?",
+      "answer": "red",
+      "query_after": "a red trolley car parked next to a building in London, with a red and white vehicle traveling down the tracks in the background",
+      "displayed_ids": [
+        11086,
+        25275,
+        30054,
+        35441,
+        37977,
+        17152,
+        9652,
+        30800,
+        28506,
+        19527
+      ],
+      "selected_ids": [
+        40909,
+        21366,
+        8902,
+        9459,
+        21736,
+        10323,
+        11005,
+        1109,
+        172
+      ],
+      "rejected_count": 25,
+      "usual_paths": [
+        {
+          "question": "what is the color of the parked trolley car next to the building?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.02663278579711914
+        },
+        {
+          "question": "what is the location of the parked trolley car next to the building?",
+          "answers": [
+            "london",
+            "new york",
+            "tokyo"
+          ],
+          "score": 0.016252517700195312
+        },
+        {
+          "question": "what is the color of the trolley car parked next to the building?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.028890132904052734
+        },
+        {
+          "question": "what is the color of the parked trolley car next to the building?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.02663278579711914,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the parked trolley car next to the building?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.02663278579711914,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the trolley car parked next to the building?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.028890132904052734
+        },
+        {
+          "question": "Question: what is the color of the trolley car parked next to the building?",
+          "answers": [
+            "red",
+            "yellow",
+            "green"
+          ],
+          "score": 0.07037162780761719
+        },
+        {
+          "question": "Question: What is the color of the trolley car parked next to the building?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.08286571502685547
+        },
+        {
+          "question": "what is the color of the trolley car parked next to the building?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.028890132904052734,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the trolley car parked next to the building?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.028890132904052734,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 3,
+      "query_before": "a red trolley car parked next to a building in London, with a red and white vehicle traveling down the tracks in the background",
+      "question": "Question: What is the color of the double decker bus parked on the street?",
+      "answer": "red and white",
+      "query_after": "a red trolley car parked next to a building in London, with a red and white double decker bus traveling down the tracks nearby",
+      "displayed_ids": [
+        6598,
+        42191,
+        2203,
+        21306,
+        12701,
+        32946,
+        30054,
+        14418,
+        6322,
+        1166
+      ],
+      "selected_ids": [
+        24826,
+        21229,
+        1992,
+        11005,
+        45115,
+        41330,
+        42479,
+        43541,
+        48057,
+        20413
+      ],
+      "rejected_count": 33,
+      "usual_paths": [
+        {
+          "question": "Question: What is the color of the double decker bus parked on the side of the road?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.04633760452270508
+        },
+        {
+          "question": "what is the color of the double decker bus?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.0362548828125
+        },
+        {
+          "question": "what is the color of the building next to the red trolley car?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.04052448272705078
+        },
+        {
+          "question": "what is the color of the building next to the red trolley car?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.04052448272705078,
+          "duplicate_of": 2
+        },
+        {
+          "question": "What is the name of the building next to the red trolley car?",
+          "answers": [
+            "london",
+            "big ben",
+            "unknown"
+          ],
+          "score": 0.014927387237548828
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the double decker bus parked on the street?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.05676698684692383
+        },
+        {
+          "question": "Question: What is the color of the double decker bus parked on the street?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.05676698684692383,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: Is the double decker bus parked on the street or driving down the street?",
+          "answers": [
+            "parked",
+            "driving",
+            "unknown"
+          ],
+          "score": 0.0022106170654296875
+        },
+        {
+          "question": "What is the name of the building next to the red trolley car?",
+          "answers": [
+            "Big Ben",
+            "Tower Bridge",
+            "St Pancras"
+          ],
+          "score": 0.029804706573486328
+        },
+        {
+          "question": "What is the name of the building next to the red trolley car?",
+          "answers": [
+            "Big Ben",
+            "Tower Bridge",
+            "St Pancras"
+          ],
+          "score": 0.029804706573486328,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a red trolley car parked next to a building in London, with a red and white double decker bus traveling down the tracks nearby",
+      "question": "Question: What is the color of the double decker bus parked on the street?",
+      "answer": "red and white",
+      "query_after": "a red trolley car parked next to a building in London, with a red and white double decker bus parked on the street nearby",
+      "displayed_ids": [
+        30054,
+        2203,
+        6322,
+        1166,
+        6598,
+        47158,
+        45322,
+        42191,
+        32946,
+        37977
+      ],
+      "selected_ids": [
+        4896,
+        16330,
+        1992,
+        8902,
+        2718,
+        39021,
+        39954,
+        40808,
+        45115,
+        12135
+      ],
+      "rejected_count": 35,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "red",
+            "red and white",
+            "building"
+          ],
+          "score": 0.01091146469116211
+        },
+        {
+          "question": "where is the red and white double decker bus parked?",
+          "answers": [
+            "london",
+            "street",
+            "highway"
+          ],
+          "score": 0.0048542022705078125
+        },
+        {
+          "question": "what is the color of the trolley car parked next to the building?",
+          "answers": [
+            "red",
+            "white",
+            "red and white"
+          ],
+          "score": 0.019504547119140625
+        },
+        {
+          "question": "what is the color of the building next to the red trolley car?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.036745548248291016
+        },
+        {
+          "question": "what is the color of the building next to the red trolley car?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.036745548248291016,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "red",
+            "red and white",
+            "building"
+          ],
+          "score": 0.01091146469116211
+        },
+        {
+          "question": "Question: What is the type of the red and white vehicle parked next to the building?",
+          "answers": [
+            "trolley car",
+            "bus",
+            "train"
+          ],
+          "score": 0.010016918182373047
+        },
+        {
+          "question": "what is the color of the trolley car parked next to the building?",
+          "answers": [
+            "red",
+            "white",
+            "red and white"
+          ],
+          "score": 0.019504547119140625
+        },
+        {
+          "question": "Question: What is the color of the double decker bus parked on the street?",
+          "answers": [
+            "red and white",
+            "red",
+            "yellow and red"
+          ],
+          "score": 0.04036712646484375
+        },
+        {
+          "question": "Question: What is the color of the double decker bus parked on the street?",
+          "answers": [
+            "red and white",
+            "red",
+            "yellow and red"
+          ],
+          "score": 0.04036712646484375,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a red trolley car parked next to a building in London, with a red and white double decker bus parked on the street nearby",
+      "question": "what is the color of the double decker bus parked in the museum?",
+      "answer": "red and white",
+      "query_after": "a red trolley car parked next to a building in London, with a red and white double decker bus parked on the street and another red and white double decker bus parked in a museum",
+      "displayed_ids": [
+        1166,
+        6322,
+        30054,
+        33794,
+        37977,
+        45322,
+        42191,
+        6598,
+        2203,
+        27215
+      ],
+      "selected_ids": [
+        48057,
+        4977,
+        43541,
+        8647,
+        4524,
+        27450,
+        29722,
+        16550,
+        10323
+      ],
+      "rejected_count": 37,
+      "usual_paths": [
+        {
+          "question": "what is the color of the double decker bus parked in the museum?",
+          "answers": [
+            "red",
+            "red and white",
+            "blue"
+          ],
+          "score": 0.048758506774902344
+        },
+        {
+          "question": "what is the location of the red double decker bus parked in the museum?",
+          "answers": [
+            "london",
+            "museum",
+            "train station"
+          ],
+          "score": 0.005820751190185547
+        },
+        {
+          "question": "what is the color of the double decker bus parked in the museum?",
+          "answers": [
+            "red",
+            "red and white",
+            "blue"
+          ],
+          "score": 0.048758506774902344,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the trolley car parked next to the building?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.045340538024902344
+        },
+        {
+          "question": "what is the location of the red trolley car parked next to the building?",
+          "answers": [
+            "london",
+            "new york",
+            "paris"
+          ],
+          "score": 0.012558460235595703
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the location where the red and white trolley car is parked?",
+          "answers": [
+            "london",
+            "outside",
+            "station"
+          ],
+          "score": 0.003949642181396484
+        },
+        {
+          "question": "Question: What is the specific location where the red and white trolley car is parked?",
+          "answers": [
+            "london",
+            "new york",
+            "unknown"
+          ],
+          "score": 0.008257389068603516
+        },
+        {
+          "question": "Question: Is the train parked on a track or on a street?",
+          "answers": [
+            "track",
+            "street"
+          ],
+          "score": 0.0014820098876953125
+        },
+        {
+          "question": "Question: What is the specific location where the red and white trolley car is parked?",
+          "answers": [
+            "london",
+            "new york",
+            "unknown"
+          ],
+          "score": 0.008257389068603516,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "building",
+            "tracks",
+            "street"
+          ],
+          "score": 0.017387866973876953
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a red trolley car parked next to a building in London, with a red and white double decker bus parked on the street and another red and white double decker bus parked in a museum",
+      "question": "Question: What is the color of the trolley car parked next to the building?",
+      "answer": "red",
+      "query_after": "a red trolley car parked next to a building in London, with a red and white double decker bus parked on the street and another red and white double decker bus parked in a museum in the background",
+      "displayed_ids": [
+        25783,
+        43958,
+        33794,
+        4524,
+        43248,
+        6322,
+        39301,
+        37977,
+        1166,
+        3468
+      ],
+      "selected_ids": [
+        43541,
+        9890,
+        30412,
+        16550,
+        21366,
+        6168,
+        2203,
+        48057,
+        9782,
+        18372
+      ],
+      "rejected_count": 43,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "building",
+            "tracks",
+            "person"
+          ],
+          "score": 0.010480880737304688
+        },
+        {
+          "question": "what is the color of the trolley car parked next to the building?",
+          "answers": [
+            "red",
+            "red and white",
+            "green"
+          ],
+          "score": 0.029139041900634766
+        },
+        {
+          "question": "what is the location where the red and white double decker bus is parked?",
+          "answers": [
+            "london",
+            "in front of a large building",
+            "between two buildings"
+          ],
+          "score": 0.005708217620849609
+        },
+        {
+          "question": "what is the color of the vehicle parked next to the building?",
+          "answers": [
+            "red",
+            "red and white",
+            "green"
+          ],
+          "score": 0.025350093841552734
+        },
+        {
+          "question": "what is the specific type of vehicle parked next to the building?",
+          "answers": [
+            "trolley car",
+            "double decker bus",
+            "train"
+          ],
+          "score": 0.009270191192626953
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "building",
+            "tracks",
+            "person"
+          ],
+          "score": 0.010480880737304688
+        },
+        {
+          "question": "Question: What is the location of the red and white trolley car?",
+          "answers": [
+            "london",
+            "berlin",
+            "unknown"
+          ],
+          "score": 0.005863666534423828
+        },
+        {
+          "question": "Question: What is the color of the trolley car parked next to the building?",
+          "answers": [
+            "red",
+            "red and white",
+            "blue"
+          ],
+          "score": 0.036260128021240234
+        },
+        {
+          "question": "Question: What is the location of the red and white trolley car?",
+          "answers": [
+            "london",
+            "berlin",
+            "unknown"
+          ],
+          "score": 0.005863666534423828,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the trolley car parked next to the building?",
+          "answers": [
+            "red",
+            "red and white",
+            "blue"
+          ],
+          "score": 0.036260128021240234,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a red trolley car parked next to a building in London, with a red and white double decker bus parked on the street and another red and white double decker bus parked in a museum in the background",
+      "question": "what is the color of the trolley car parked next to the building?",
+      "answer": "red",
+      "query_after": "a red trolley car parked next to a building in London",
+      "displayed_ids": [
+        25783,
+        33794,
+        6322,
+        43958,
+        43248,
+        39301,
+        22169,
+        37977,
+        1166,
+        4524
+      ],
+      "selected_ids": [
+        4977,
+        18372,
+        32980,
+        16550,
+        6598,
+        6168,
+        40793,
+        11951,
+        21277,
+        16045
+      ],
+      "rejected_count": 44,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "building",
+            "tracks",
+            "street"
+          ],
+          "score": 0.008948802947998047
+        },
+        {
+          "question": "what is the color of the trolley car parked next to the building?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.04001665115356445
+        },
+        {
+          "question": "what is the other object in the image besides the red trolley car?",
+          "answers": [
+            "building",
+            "red trolley car",
+            "other objects"
+          ],
+          "score": 0.005420207977294922
+        },
+        {
+          "question": "what is the color of the other object parked next to the red trolley car?",
+          "answers": [
+            "building",
+            "trolley car",
+            "bus"
+          ],
+          "score": 0.005108356475830078
+        },
+        {
+          "question": "what is the other object in the image besides the red trolley car?",
+          "answers": [
+            "building",
+            "red trolley car",
+            "other objects"
+          ],
+          "score": 0.005420207977294922,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "building",
+            "tracks",
+            "street"
+          ],
+          "score": 0.008948802947998047
+        },
+        {
+          "question": "what is the type of the other object in the image?",
+          "answers": [
+            "building",
+            "tracks",
+            "street"
+          ],
+          "score": 0.011889934539794922
+        },
+        {
+          "question": "Question: What is the color of the building next to the trolley car?",
+          "answers": [
+            "brick",
+            "concrete",
+            "stone"
+          ],
+          "score": 0.007418632507324219
+        },
+        {
+          "question": "what is the color of the building next to the trolley car?",
+          "answers": [
+            "brick",
+            "concrete",
+            "grey"
+          ],
+          "score": 0.01297140121459961
+        },
+        {
+          "question": "what is the color of the building next to the red trolley car?",
+          "answers": [
+            "white",
+            "red and white",
+            "brown"
+          ],
+          "score": 0.021038055419921875
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a red trolley car parked next to a building in London",
+      "question": "what is the other object in the image?",
+      "answer": "a ferris wheel.",
+      "query_after": "a red trolley car parked next to a building, with a red and white double decker bus and a ferris wheel also visible in the image",
+      "displayed_ids": [
+        6598,
+        42191,
+        2203,
+        1166,
+        6322,
+        12701,
+        15009,
+        37977,
+        14418,
+        45322
+      ],
+      "selected_ids": [
+        23615,
+        27215,
+        12781,
+        43541,
+        16045,
+        9890,
+        22169,
+        31592,
+        9459,
+        37617
+      ],
+      "rejected_count": 45,
+      "usual_paths": [
+        {
+          "question": "what is the color of the double decker bus parked next to the building?",
+          "answers": [
+            "red",
+            "red and white"
+          ],
+          "score": 0.029420852661132812
+        },
+        {
+          "question": "what is the color of the double decker bus parked next to the building?",
+          "answers": [
+            "red",
+            "red and white"
+          ],
+          "score": 0.029420852661132812,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the double decker bus parked next to the building?",
+          "answers": [
+            "red",
+            "red and white"
+          ],
+          "score": 0.029420852661132812,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the double decker bus parked next to the building?",
+          "answers": [
+            "red",
+            "red and white"
+          ],
+          "score": 0.029420852661132812,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the double decker bus parked next to the building?",
+          "answers": [
+            "red",
+            "red and white"
+          ],
+          "score": 0.029420852661132812,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a building",
+            "a brick street",
+            "a woman in a white dress"
+          ],
+          "score": 0.07159042358398438
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a building",
+            "a brick street",
+            "a woman in a white dress"
+          ],
+          "score": 0.07159042358398438,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a building",
+            "a brick street",
+            "a woman in a white dress"
+          ],
+          "score": 0.07159042358398438,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a building",
+            "a brick street",
+            "a woman in a white dress"
+          ],
+          "score": 0.07159042358398438,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a building",
+            "a brick street",
+            "a woman in a white dress"
+          ],
+          "score": 0.07159042358398438,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "a red trolley car parked next to a building, with a red and white double decker bus and a ferris wheel also visible in the image",
+      "question": "Question: What is the color of the ferris wheel in the image?",
+      "answer": "white",
+      "query_after": "a red trolley car parked next to a building, with a red and white double decker bus and a white ferris wheel in the background",
+      "displayed_ids": [
+        6598,
+        11678,
+        11951,
+        12701,
+        15009,
+        10609,
+        31362,
+        25783,
+        42250,
+        2203
+      ],
+      "selected_ids": [
+        45322,
+        19527,
+        43248,
+        28506,
+        775,
+        18372,
+        16330,
+        33794,
+        20413
+      ],
+      "rejected_count": 48,
+      "usual_paths": [
+        {
+          "question": "what is the location of the red trolley car parked next to the building?",
+          "answers": [
+            "london",
+            "uk",
+            "england"
+          ],
+          "score": 0.00984048843383789
+        },
+        {
+          "question": "what is the location of the red trolley car parked next to the building?",
+          "answers": [
+            "london",
+            "uk",
+            "england"
+          ],
+          "score": 0.00984048843383789,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the location of the red trolley car parked next to the building?",
+          "answers": [
+            "london",
+            "uk",
+            "england"
+          ],
+          "score": 0.00984048843383789,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the location of the red trolley car parked next to the building?",
+          "answers": [
+            "london",
+            "uk",
+            "england"
+          ],
+          "score": 0.00984048843383789,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the location of the red trolley car parked next to the building?",
+          "answers": [
+            "london",
+            "uk",
+            "england"
+          ],
+          "score": 0.00984048843383789,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the ferris wheel in the image?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.04985618591308594
+        },
+        {
+          "question": "Question: What is the color of the ferris wheel in the image?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.052104949951171875
+        },
+        {
+          "question": "Question: What is the color of the ferris wheel in the image?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.052104949951171875,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the ferris wheel in the image?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.04985618591308594,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the name of the building next to the red trolley car?",
+          "answers": [
+            "red",
+            "black and white",
+            "ferris wheel"
+          ],
+          "score": 0.016925334930419922
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

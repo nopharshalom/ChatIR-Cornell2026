@@ -1,0 +1,178 @@
+{
+  "qid": 709,
+  "initial": "a close up shot shows the head of a giraffe looking to the right of the camera",
+  "initial_rank": 26,
+  "displayed": [
+    42549,
+    31171,
+    38697,
+    18187,
+    39209,
+    12410,
+    14255,
+    4137,
+    19329,
+    43691
+  ],
+  "evidence": [
+    "a giraffe standing near a wooden bridge",
+    "a giraffe standing in a field with trees in the background",
+    "a black and white zebra standing in the middle of the field",
+    "giraffe in a zoo with rocks on a dirt path",
+    "an elephant is standing near a tree in a cage",
+    "a giraffe that is laying down in a pen with a fence around it",
+    "a cow standing in a green pasture with a horn on its head",
+    "three giraffes eating from trees in a field",
+    "two giraffes behind a fenced in area with green trees",
+    "a giraffe standing in a grassy field with trees around it"
+  ],
+  "rejected_captions": [
+    "giraffe is head to camera",
+    "a giraffe with white spots and brown stripes",
+    "a giraffe in a field",
+    "a giraffe is looking back at the camera",
+    "a giraffe's tongue sticking out",
+    "giraffe's neck and shoulders",
+    "a giraffe's head and neck",
+    "a giraffe standing in front of green foliage",
+    "a group of giraffes standing together in an enclosure",
+    "a tall giraffe with a long neck"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the background environment of the giraffe's head in the close-up shot?",
+      "what is the specific background setting (e.g., field, zoo, bridge) where the giraffe is standing?",
+      "what is the color of the giraffe's head in the close-up shot?",
+      "what is the specific posture of the giraffe in the image (e.g., standing, lying down)?",
+      "what is the color of the giraffe's head in the image?"
+    ],
+    "question": "what is the background environment of the giraffe's head in the close-up shot?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the background environment of the giraffe's head in the close-up shot?",
+          "answers": [
+            "wooden bridge",
+            "field with trees",
+            "zoo enclosure"
+          ],
+          "score": 0.10583925247192383
+        },
+        {
+          "question": "what is the specific background setting (e.g., field, zoo, bridge) where the giraffe is standing?",
+          "answers": [
+            "field",
+            "zoo",
+            "bridge"
+          ],
+          "score": 0.009806632995605469
+        },
+        {
+          "question": "what is the color of the giraffe's head in the close-up shot?",
+          "answers": [
+            "brown",
+            "white",
+            "tan"
+          ],
+          "score": 0.010286808013916016
+        },
+        {
+          "question": "what is the specific posture of the giraffe in the image (e.g., standing, lying down)?",
+          "answers": [
+            "standing",
+            "lying down",
+            "eating"
+          ],
+          "score": 0.02016448974609375
+        },
+        {
+          "question": "what is the color of the giraffe's head in the image?",
+          "answers": [
+            "brown",
+            "orange",
+            "tan"
+          ],
+          "score": 0.01296377182006836
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.154,
+      "probe_selection_seconds": 6.221,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "the background environment of the giraffe's head in the close-up shot is a blurred, natural landscape, likely a savanna or bushland, with sparse vegetation and rocky terrain.",
+    "rewrite": "a close-up shot shows the head of a giraffe looking to the right, set against a blurred natural landscape featuring sparse vegetation and rocky terrain, likely a savanna or bushland.",
+    "raw_rank": 1,
+    "unseen_rank": 1
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the background of the giraffe's head?",
+      "Question: Is the giraffe standing or laying down?",
+      "Question: What is the specific background element visible behind the giraffe's head?",
+      "Question: What is the specific background element visible behind the giraffe's head?",
+      "Question: What is the color of the giraffe's spots?"
+    ],
+    "question": "Question: What is the specific background element visible behind the giraffe's head?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the background of the giraffe's head?",
+          "answers": [
+            "trees",
+            "rocks",
+            "fence"
+          ],
+          "score": 0.13290691375732422
+        },
+        {
+          "question": "Question: Is the giraffe standing or laying down?",
+          "answers": [
+            "standing",
+            "laying down",
+            "unknown"
+          ],
+          "score": 0.009119033813476562
+        },
+        {
+          "question": "Question: What is the specific background element visible behind the giraffe's head?",
+          "answers": [
+            "trees",
+            "rocks",
+            "fence"
+          ],
+          "score": 0.1568470001220703
+        },
+        {
+          "question": "Question: What is the specific background element visible behind the giraffe's head?",
+          "answers": [
+            "trees",
+            "rocks",
+            "fence"
+          ],
+          "score": 0.1568470001220703,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the color of the giraffe's spots?",
+          "answers": [
+            "brown",
+            "dark brown",
+            "black"
+          ],
+          "score": 0.014779090881347656
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.104,
+      "probe_selection_seconds": 2.056,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "blurry hillside with sparse vegetation",
+    "rewrite": "a close up shot shows the head of a giraffe looking to the right of the camera, with a blurry hillside featuring sparse vegetation in the background",
+    "raw_rank": 2,
+    "unseen_rank": 1
+  }
+}

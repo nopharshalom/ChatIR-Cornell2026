@@ -1,0 +1,101 @@
+{
+  "qid": 917,
+  "initial": "a group of adult zebra with a baby zebra by his mom",
+  "initial_rank": 13,
+  "evidence": [
+    "herd of zebras in a tall grassy field",
+    "two zebras standing in a grassy area with some animals in the distance",
+    "two zebras standing in a pen on a dirt floor",
+    "four giraffes are standing near a wall in an enclosure",
+    "two zebras are standing in a field with tall grass and trees",
+    "a herd of zebras graze in tall grass",
+    "four zebras drink from a small body of water",
+    "an animal and a baby grazing in the grass",
+    "a zebra standing behind rocks in the zoo",
+    "two giraffes standing next to each other in the zoo"
+  ],
+  "candidates": [
+    "where is the group of adult zebra with a baby zebra by his mom located?",
+    "what is the background environment of the group of adult zebra with a baby zebra by his mom?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "How many adult zebras are in the group with the baby zebra?"
+  ],
+  "answer_paths": [
+    {
+      "question": "where is the group of adult zebra with a baby zebra by his mom located?",
+      "answers": [
+        "tall grassy field",
+        "grassy area",
+        "zoo enclosure"
+      ],
+      "score": 0.1713275909423828
+    },
+    {
+      "question": "what is the background environment of the group of adult zebra with a baby zebra by his mom?",
+      "answers": [
+        "in a tall grassy field",
+        "in a zoo behind rocks",
+        "in a pen on a dirt floor"
+      ],
+      "score": 0.3188509941101074
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "rocks",
+        "a wall",
+        "grass"
+      ],
+      "score": 0.15807390213012695
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "rocks",
+        "a wall",
+        "grass"
+      ],
+      "score": 0.15807390213012695,
+      "duplicate_of": 2
+    },
+    {
+      "question": "How many adult zebras are in the group with the baby zebra?",
+      "answers": [
+        "One",
+        "Two",
+        "Three"
+      ],
+      "score": 0.0014209747314453125
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.074,
+  "probe_selection_seconds": 2.459,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "what is the other object in the image?",
+      "answer": "zebra",
+      "rewrite": "a group of adult zebras with a baby zebra by its mom",
+      "rank": 15,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the background environment of the group of adult zebra with a baby zebra by his mom?",
+      "answer": "trees",
+      "rewrite": "a group of adult zebras with a baby zebra by its mom in a tree-filled environment",
+      "rank": 4,
+      "hit": true
+    },
+    "probe": {
+      "question": "what is the background environment of the group of adult zebra with a baby zebra by his mom?",
+      "answer": "trees",
+      "rewrite": "a group of adult zebras with a baby zebra by its mom in a tree-filled environment",
+      "rank": 4,
+      "hit": true
+    }
+  },
+  "seconds": 20.018
+}

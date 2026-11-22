@@ -1,0 +1,73 @@
+{
+  "ids": [
+    4883,
+    42685,
+    10398,
+    16212
+  ],
+  "prefix": [
+    "a stop sign is set up where 3 roads intersect",
+    "what is the background environment behind the stop sign? The background environment behind the stop sign includes:\n\n- A street corner with buildings (one appears to be a house or small commercial building with a balcony).\n- Power lines and utility poles.\n- A few parked cars in the distance"
+  ],
+  "default": "what is the other object in the image?",
+  "chosen": "what is the other object in the image?",
+  "trials": {
+    "what is the other object in the image?": {
+      "answers": [
+        "freeway entrance",
+        "houses",
+        "two way traffic sign",
+        "stop sign"
+      ],
+      "rewrites": {
+        "freeway entrance": "a stop sign is set up at a street corner where 3 roads intersect, featuring a background with buildings, power lines, utility poles, and parked cars in the distance, with a freeway entrance as the other object in the image",
+        "houses": "a stop sign is set up where 3 roads intersect, with a street corner featuring a house or small commercial building with a balcony, power lines, utility poles, and a few parked cars in the distance, along with other houses visible in the background.",
+        "two way traffic sign": "a stop sign and a two-way traffic sign are set up at a street corner intersection, featuring a house or small commercial building with a balcony, power lines, utility poles, and parked cars in the distance.",
+        "stop sign": "a stop sign is set up at a street corner where three roads intersect, with a house or small commercial building featuring a balcony, power lines, utility poles, and a few parked cars in the distance"
+      },
+      "ranks": [
+        3,
+        18,
+        19,
+        39
+      ],
+      "hits": 1
+    },
+    "what is the color of the stop sign?": {
+      "answers": [
+        "red",
+        "red",
+        "red",
+        "red"
+      ],
+      "rewrites": {
+        "red": "a red stop sign is set up at a street corner where three roads intersect, with a house or small commercial building featuring a balcony, power lines, utility poles, and a few parked cars in the distance"
+      },
+      "ranks": [
+        12,
+        19,
+        51,
+        29
+      ],
+      "hits": 0
+    },
+    "what is the color of the stop sign in the image?": {
+      "answers": [
+        "red",
+        "red",
+        "red",
+        "red"
+      ],
+      "rewrites": {
+        "red": "a red stop sign is set up at a street corner where three roads intersect, with buildings, power lines, utility poles, and parked cars in the background"
+      },
+      "ranks": [
+        29,
+        20,
+        56,
+        19
+      ],
+      "hits": 0
+    }
+  }
+}

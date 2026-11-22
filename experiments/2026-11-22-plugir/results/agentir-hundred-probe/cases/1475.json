@@ -1,0 +1,101 @@
+{
+  "qid": 1475,
+  "initial": "a train is stopped at a large terminal next to another train",
+  "initial_rank": 147,
+  "evidence": [
+    "a row of red and blue buses parked in a parking lot near water",
+    "the airplanes are white and blue",
+    "a cranked yellow train is going down tracks",
+    "a yellow and black train engine",
+    "the steam locomotive is painted red",
+    "a blue and yellow train standing in a train station",
+    "a train engine in the sky",
+    "the front of the passenger train is yellow and black",
+    "an old train coming down the tracks",
+    "an old and yellow train at the station"
+  ],
+  "candidates": [
+    "what is the color of the train engine stopped at the terminal?",
+    "what is the color of the train engine stopped at the terminal?",
+    "Question: what is the color of the train engine stopped at the terminal?",
+    "what is the location of the yellow and black train engine?",
+    "what is the color of the train engine located in the sky?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the train engine stopped at the terminal?",
+      "answers": [
+        "yellow and black",
+        "red",
+        "blue and yellow"
+      ],
+      "score": 0.19089984893798828
+    },
+    {
+      "question": "what is the color of the train engine stopped at the terminal?",
+      "answers": [
+        "yellow and black",
+        "red",
+        "blue and yellow"
+      ],
+      "score": 0.19089984893798828,
+      "duplicate_of": 0
+    },
+    {
+      "question": "Question: what is the color of the train engine stopped at the terminal?",
+      "answers": [
+        "yellow",
+        "red",
+        "blue"
+      ],
+      "score": 0.20302915573120117
+    },
+    {
+      "question": "what is the location of the yellow and black train engine?",
+      "answers": [
+        "at the station",
+        "in a train station",
+        "near the terminal"
+      ],
+      "score": 0.0019888877868652344
+    },
+    {
+      "question": "what is the color of the train engine located in the sky?",
+      "answers": [
+        "blue",
+        "white",
+        "unknown"
+      ],
+      "score": 0.07771158218383789
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.06,
+  "probe_selection_seconds": 2.01,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "what is the color of the train engine stopped at the terminal?",
+      "answer": "blue and red",
+      "rewrite": "a blue and red train engine is stopped at a large terminal next to another train",
+      "rank": 22,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the location of the yellow and black train engine?",
+      "answer": "at a train station",
+      "rewrite": "a yellow and black train engine is stopped at a large train station next to another train",
+      "rank": 640,
+      "hit": false
+    },
+    "probe": {
+      "question": "Question: what is the color of the train engine stopped at the terminal?",
+      "answer": "blue and red",
+      "rewrite": "a blue and red train engine is stopped at a large terminal next to another train",
+      "rank": 22,
+      "hit": false
+    }
+  },
+  "seconds": 13.001
+}

@@ -1,0 +1,112 @@
+{
+  "ids": [
+    28616,
+    48723,
+    47492,
+    41273
+  ],
+  "prefix": [
+    "people are standing at a counter in front of windows trying to order",
+    "what are the people wearing? Based on the image provided, here is what the people are wearing:\n\n*   **Person on the left (standing):** A green t-shirt and light-colored pants.\n*   **Person in the middle (leaning over table):** A"
+  ],
+  "default": "what is the gender of the person leaning over the table?",
+  "chosen": "what is the name or type of food the people are ordering at the counter?",
+  "trials": {
+    "what is the gender of the person leaning over the table?": {
+      "answers": [
+        "male",
+        "female",
+        "female",
+        "male"
+      ],
+      "rewrites": {
+        "male": "people are standing at a counter in front of windows trying to order; the person on the left is wearing a green t-shirt and light-colored pants, while the male in the middle is leaning over the table",
+        "female": "people are standing at a counter in front of windows trying to order; the person on the left is wearing a green t-shirt and light-colored pants, while the female in the middle is leaning over the table"
+      },
+      "ranks": [
+        25,
+        23,
+        36,
+        17
+      ],
+      "hits": 0
+    },
+    "what is the name of the shop where the people are ordering?": {
+      "answers": [
+        "I'm sorry, but the image does not provide enough information to determine the name of the shop.",
+        "I'm sorry, but the image does not provide enough information to determine the name of the shop.",
+        "mudroom",
+        "I'm sorry, but the image does not provide enough information to determine the name of the shop."
+      ],
+      "rewrites": {
+        "I'm sorry, but the image does not provide enough information to determine the name of the shop.": "people wearing a green t-shirt and light-colored pants are standing at a counter in front of windows, leaning over a table to order at an unnamed shop",
+        "mudroom": "people standing at a counter in front of windows trying to order at a shop called Mudroom, with one person wearing a green t-shirt and light-colored pants and another leaning over the table"
+      },
+      "ranks": [
+        63,
+        41,
+        123,
+        175
+      ],
+      "hits": 0
+    },
+    "what is the gender of the person standing on the left?": {
+      "answers": [
+        "male",
+        "female",
+        "male",
+        "male"
+      ],
+      "rewrites": {
+        "male": "a male in a green t-shirt and light-colored pants stands at a counter in front of windows, while another person leans over the table, as they try to order",
+        "female": "a female in a green t-shirt and light-colored pants stands at a counter in front of windows, while another person leans over the table, as they try to order"
+      },
+      "ranks": [
+        775,
+        69,
+        50,
+        376
+      ],
+      "hits": 0
+    },
+    "what is the name or type of food the people are ordering at the counter?": {
+      "answers": [
+        "sandwiches",
+        "I'm sorry, but the image does not provide enough information to determine the specific name or type of food being ordered.",
+        "wine",
+        "cake"
+      ],
+      "rewrites": {
+        "sandwiches": "people wearing a green t-shirt and light-colored pants are standing at a counter ordering sandwiches",
+        "I'm sorry, but the image does not provide enough information to determine the specific name or type of food being ordered.": "people standing at a counter in front of windows trying to order food, with one person wearing a green t-shirt and light-colored pants and another leaning over the table",
+        "wine": "people wearing a green t-shirt and light-colored pants are standing at a counter in front of windows, ordering wine",
+        "cake": "people wearing a green t-shirt and light-colored pants are standing at a counter in front of windows, ordering cake"
+      },
+      "ranks": [
+        64,
+        50,
+        6,
+        84
+      ],
+      "hits": 1
+    },
+    "what is the time of day depicted in the image where people are ordering food at a counter?": {
+      "answers": [
+        "daytime",
+        "daytime",
+        "daytime",
+        "daytime"
+      ],
+      "rewrites": {
+        "daytime": "people wearing a green t-shirt and light-colored pants are standing at a counter in front of windows during the daytime, trying to order food"
+      },
+      "ranks": [
+        16,
+        44,
+        245,
+        128
+      ],
+      "hits": 0
+    }
+  }
+}

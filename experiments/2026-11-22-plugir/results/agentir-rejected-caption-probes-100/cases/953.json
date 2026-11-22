@@ -1,0 +1,81 @@
+{
+  "qid": 953,
+  "candidates": [
+    "Question: What color is the wetsuit worn by the man surfing on the wave?",
+    "Question: What color is the surfboard the man is riding?",
+    "Question: What color is the wetsuit worn by the man surfing on the wave?",
+    "Question: What color is the surfboard the man is riding?",
+    "Question: Is the man surfing on a yellow or green surfboard?"
+  ],
+  "kl": {
+    "question": "Question: What color is the surfboard the man is riding?",
+    "answer": "black",
+    "rewrite": "a man on a black surfboard, with his arms outstretched, is riding a wave",
+    "raw_rank": 34,
+    "unseen_rank": 32
+  },
+  "probe": {
+    "question": "Question: What color is the surfboard the man is riding?",
+    "answer": "black",
+    "rewrite": "a man on a black surfboard, with his arms outstretched, is riding a wave",
+    "raw_rank": 34,
+    "unseen_rank": 32
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What color is the wetsuit worn by the man surfing on the wave?",
+        "answers": [
+          "black",
+          "white",
+          "blue"
+        ],
+        "score": 0.05958414077758789
+      },
+      {
+        "question": "Question: What color is the surfboard the man is riding?",
+        "answers": [
+          "black",
+          "yellow",
+          "green"
+        ],
+        "score": 0.1171879768371582
+      },
+      {
+        "question": "Question: What color is the wetsuit worn by the man surfing on the wave?",
+        "answers": [
+          "black",
+          "white",
+          "blue"
+        ],
+        "score": 0.05958414077758789,
+        "duplicate_of": 0
+      },
+      {
+        "question": "Question: What color is the surfboard the man is riding?",
+        "answers": [
+          "black",
+          "yellow",
+          "green"
+        ],
+        "score": 0.1171879768371582,
+        "duplicate_of": 1
+      },
+      {
+        "question": "Question: Is the man surfing on a yellow or green surfboard?",
+        "answers": [
+          "yellow",
+          "green",
+          "neither"
+        ],
+        "score": 0.015301704406738281
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.055,
+    "probe_selection_seconds": 1.442,
+    "probe_llm_calls": 3,
+    "probe_search_queries": 9
+  },
+  "reused_outcome": true
+}

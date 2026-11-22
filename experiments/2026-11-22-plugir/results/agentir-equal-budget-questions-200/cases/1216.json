@@ -1,0 +1,78 @@
+{
+  "qid": 1216,
+  "sample": 2,
+  "first_candidates": [
+    "what types of food are on the plate?",
+    "Question: what is the specific type of meat and the specific type of green vegetable served on the plate?",
+    "Question: What is the specific type of meat served on the plate?",
+    "Question: What is the specific type of meat served on the plate?",
+    "what is the type of bread or base (e.g., pizza, toast, sandwich, rice) used for the food on the plate?"
+  ],
+  "second_candidates": [
+    "what are the specific ingredients on the plate?",
+    "Question: What is the main protein item served on the plate?",
+    "Question: How is the plate described in terms of its size or presentation?",
+    "Question: Where is the plate of food located?",
+    "Question: What is the color of the plate holding the food?"
+  ],
+  "paths": [
+    {
+      "question": "what are the specific ingredients on the plate?",
+      "answers": [
+        "broccoli, steak, and rice",
+        "broccoli, chicken, and fries",
+        "broccoli, ham, and toast"
+      ],
+      "score": 0.35616350173950195
+    },
+    {
+      "question": "Question: What is the main protein item served on the plate?",
+      "answers": [
+        "broccoli",
+        "chicken",
+        "steak"
+      ],
+      "score": 0.1313314437866211
+    },
+    {
+      "question": "Question: How is the plate described in terms of its size or presentation?",
+      "answers": [
+        "big",
+        "small",
+        "normal"
+      ],
+      "score": 0.0033850669860839844
+    },
+    {
+      "question": "Question: Where is the plate of food located?",
+      "answers": [
+        "on a table",
+        "on a plate",
+        "in a bowl"
+      ],
+      "score": 0.04261589050292969
+    },
+    {
+      "question": "Question: What is the color of the plate holding the food?",
+      "answers": [
+        "white",
+        "blue",
+        "black"
+      ],
+      "score": 0.09525346755981445
+    }
+  ],
+  "control": {
+    "question": "what are the specific ingredients on the plate?",
+    "score": 0.35616350173950195
+  },
+  "mixed": {
+    "question": "what types of food are on the plate?",
+    "score": 0.22429466247558594
+  },
+  "control_rank": 1,
+  "mixed_rank": 1,
+  "usual_rank": 1,
+  "new_answer": "The plate contains broccoli, mushrooms, green beans, arugula, and some kind of patty or meat, along with seeds or nuts.",
+  "new_rewrite": "a plate of appetizing food featuring broccoli, mushrooms, green beans, arugula, a patty or meat, and seeds or nuts"
+}

@@ -1,0 +1,78 @@
+{
+  "qid": 1705,
+  "sample": 2,
+  "first_candidates": [
+    "what type of bench is located on the path near the body of water?",
+    "what is the type of body of water near the path and bench?",
+    "what is the color of the bike located next to the bench on the path?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "second_candidates": [
+    "Question: What is the surface material of the bench located near the large body of water?",
+    "What is the material of the bench located near the large body of water?",
+    "what is located in front of the park that has a wooden bench?",
+    "what is the location of the bench that has a wooden surface?",
+    "what is the surface material of the bench located on the path near the large body of water?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What is the surface material of the bench located near the large body of water?",
+      "answers": [
+        "wooden",
+        "stone",
+        "metal"
+      ],
+      "score": 0.04383277893066406
+    },
+    {
+      "question": "What is the material of the bench located near the large body of water?",
+      "answers": [
+        "wooden",
+        "stone",
+        "metal"
+      ],
+      "score": 0.04239463806152344
+    },
+    {
+      "question": "what is located in front of the park that has a wooden bench?",
+      "answers": [
+        "waterway",
+        "trees",
+        "water"
+      ],
+      "score": 0.027593135833740234
+    },
+    {
+      "question": "what is the location of the bench that has a wooden surface?",
+      "answers": [
+        "0",
+        "2",
+        "4"
+      ],
+      "score": 0.0023474693298339844
+    },
+    {
+      "question": "what is the surface material of the bench located on the path near the large body of water?",
+      "answers": [
+        "wooden",
+        "stone",
+        "metal"
+      ],
+      "score": 0.05098581314086914
+    }
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "score": 0.0686650276184082
+  },
+  "mixed": {
+    "question": "what is the other object in the image?",
+    "score": 0.0686650276184082
+  },
+  "control_rank": 21,
+  "mixed_rank": 21,
+  "usual_rank": 21,
+  "new_answer": null,
+  "new_rewrite": null
+}

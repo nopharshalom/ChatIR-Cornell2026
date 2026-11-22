@@ -1,0 +1,93 @@
+{
+  "ids": [
+    47546,
+    40513,
+    12426,
+    48114
+  ],
+  "prefix": [
+    "the bench faces toward the concrete walkway outside",
+    "what is the material of the bench? wood"
+  ],
+  "default": "what is the other object in the image?",
+  "chosen": "what is the other object in the image?",
+  "trials": {
+    "what is the other object in the image?": {
+      "answers": [
+        "trees",
+        "cactus",
+        "bench",
+        "bench"
+      ],
+      "rewrites": {
+        "trees": "a wooden bench facing a concrete walkway with trees in the background",
+        "cactus": "a wooden bench facing a concrete walkway with a cactus nearby",
+        "bench": "a wooden bench facing a concrete walkway"
+      },
+      "ranks": [
+        8,
+        1,
+        33,
+        42
+      ],
+      "hits": 2
+    },
+    "what is the color of the bench?": {
+      "answers": [
+        "brown",
+        "brown",
+        "brown",
+        "brown"
+      ],
+      "rewrites": {
+        "brown": "a brown wooden bench facing a concrete walkway outside"
+      },
+      "ranks": [
+        29,
+        17,
+        26,
+        49
+      ],
+      "hits": 0
+    },
+    "what is the object that the bench is sitting next to?": {
+      "answers": [
+        "path",
+        "cactus",
+        "sidewalk",
+        "a yellow pole"
+      ],
+      "rewrites": {
+        "path": "a wooden bench sits next to a path",
+        "cactus": "a wooden bench sits next to a cactus, facing a concrete walkway outside",
+        "sidewalk": "a wooden bench sits next to a sidewalk",
+        "a yellow pole": "a wooden bench facing a concrete walkway, sitting next to a yellow pole"
+      },
+      "ranks": [
+        42,
+        1,
+        12,
+        1
+      ],
+      "hits": 2
+    },
+    "**Question:** What is the color of the bench?": {
+      "answers": [
+        "brown",
+        "brown",
+        "brown",
+        "brown"
+      ],
+      "rewrites": {
+        "brown": "a brown wooden bench facing a concrete walkway outside"
+      },
+      "ranks": [
+        29,
+        17,
+        26,
+        49
+      ],
+      "hits": 0
+    }
+  }
+}

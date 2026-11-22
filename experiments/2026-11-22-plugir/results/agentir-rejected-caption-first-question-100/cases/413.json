@@ -1,0 +1,69 @@
+{
+  "qid": 413,
+  "initial": "the lights in the city are well lit at night",
+  "initial_rank": 275,
+  "evidence": [
+    "a red light pointing west along a busy street in an urban setting",
+    "signs indicating where pedestrians can cross a street",
+    "a busy street with pedestrians and buses",
+    "a city street full of traffic with tall buildings and a huge bus",
+    "some traffic lights at a busy intersection",
+    "a couple with an umbrella stands in a crowd of people",
+    "a huge building standing on a river near the clock tower of big ben",
+    "a crowded road with people walking around a sign"
+  ],
+  "displayed_ids": [
+    46058,
+    9598,
+    34571,
+    25564,
+    27666,
+    10960,
+    11287,
+    13847,
+    49149,
+    18161
+  ],
+  "rejected_captions": [
+    "the road is completely dark with no street lights",
+    "a city street with signs and advertisements",
+    "the signs on the street are illuminated",
+    "a street light in a city",
+    "lights are on the road",
+    "a river with a bridge",
+    "the street is white",
+    "a street is being traveled at night",
+    "an urban street scene",
+    "large brick buildings"
+  ],
+  "candidates": [
+    "Question: What is the color of the light in the city?",
+    "Question: What is the color of the street light in the well-lit city scene?",
+    "Question: What is the name of the prominent clock tower visible near the river in the city scene?",
+    "Question: What is the name of the prominent clock tower visible near the river in the city scene?",
+    "Question: What is the prominent clock tower visible near the river in the city scene?"
+  ],
+  "control_candidates": [
+    "what is the color of the light pointing west along a busy street in an urban setting?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "answer": "traffic light",
+    "rewrite": "the city lights are well lit at night with a traffic light visible",
+    "rank": 337,
+    "hit": false,
+    "raw_rank": 337,
+    "unseen_rank": 327
+  },
+  "variant": {
+    "question": "Question: What is the color of the light in the city?",
+    "answer": "green",
+    "rewrite": "the city lights are glowing green at night",
+    "raw_rank": 964,
+    "unseen_rank": 954
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "qid": 1451,
+  "sample": 2,
+  "first_candidates": [
+    "what is the type of the red bus parked on the side of the street?",
+    "what is the other object in the image?",
+    "what is the location of the red bus parked on the side of the street?",
+    "what is the color of the bus parked on the side of the street?",
+    "what is the color of the bus parked on the side of the street?"
+  ],
+  "second_candidates": [
+    "what is the other object in the image?",
+    "what is the location where the red bus is parked?",
+    "what is the color of the bus parked on the side of the street?",
+    "what is the specific color of the bus parked on the side of the street?",
+    "what is the color of the bus parked on the side of the street?"
+  ],
+  "paths": [
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "train",
+        "street",
+        "plants"
+      ],
+      "score": 0.0890951156616211
+    },
+    {
+      "question": "what is the location where the red bus is parked?",
+      "answers": [
+        "a bus stop",
+        "next to green plants",
+        "a narrow street"
+      ],
+      "score": 0.0860600471496582
+    },
+    {
+      "question": "what is the color of the bus parked on the side of the street?",
+      "answers": [
+        "red",
+        "yellow",
+        "white and orange"
+      ],
+      "score": 0.12174606323242188
+    },
+    {
+      "question": "what is the specific color of the bus parked on the side of the street?",
+      "answers": [
+        "red",
+        "white",
+        "yellow"
+      ],
+      "score": 0.08757543563842773
+    },
+    {
+      "question": "what is the color of the bus parked on the side of the street?",
+      "answers": [
+        "red",
+        "yellow",
+        "white and orange"
+      ],
+      "score": 0.12174606323242188,
+      "duplicate_of": 2
+    }
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "score": 0.1634221076965332
+  },
+  "mixed": {
+    "question": "what is the other object in the image?",
+    "score": 0.1651134490966797
+  },
+  "control_rank": 1,
+  "mixed_rank": 1,
+  "usual_rank": 1,
+  "new_answer": null,
+  "new_rewrite": null
+}

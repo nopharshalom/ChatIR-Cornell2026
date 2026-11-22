@@ -1,0 +1,100 @@
+{
+  "qid": 1537,
+  "initial": "several young people appear to be playing video games",
+  "initial_rank": 29,
+  "evidence": [
+    "a group of children play frisbee outside in a gym",
+    "a group of people are in a cafeteria looking at different food",
+    "little girl standing with two men in a living room",
+    "several men sitting around a table",
+    "a young woman and a man standing in the living room playing a video game",
+    "a man and woman are laughing while holding a wii remote",
+    "a girl and a man in a living room",
+    "two people standing in the living room",
+    "a man and a woman standing in a living room with wii controllers in their hands",
+    "two women sitting in the living room"
+  ],
+  "candidates": [
+    "Question: How many people are playing the video game in the image?",
+    "Question: What is the gender composition of the group playing the video game?",
+    "Question: What is the name of the video game console being used by the group?",
+    "Question: Where is the group of people playing the video game?",
+    "what is the age group of the people playing the video game?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: How many people are playing the video game in the image?",
+      "answers": [
+        "2",
+        "3",
+        "4"
+      ],
+      "score": 0.000156402587890625
+    },
+    {
+      "question": "Question: What is the gender composition of the group playing the video game?",
+      "answers": [
+        "male",
+        "female",
+        "mixed"
+      ],
+      "score": 0.022380352020263672
+    },
+    {
+      "question": "Question: What is the name of the video game console being used by the group?",
+      "answers": [
+        "Wii",
+        "Xbox",
+        "PlayStation"
+      ],
+      "score": 0.0130462646484375
+    },
+    {
+      "question": "Question: Where is the group of people playing the video game?",
+      "answers": [
+        "living room",
+        "gym",
+        "cafeteria"
+      ],
+      "score": 0.1379685401916504
+    },
+    {
+      "question": "what is the age group of the people playing the video game?",
+      "answers": [
+        "children",
+        "teenagers",
+        "adults"
+      ],
+      "score": 0.018101215362548828
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.066,
+  "probe_selection_seconds": 2.651,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the age group of the people playing the video game?",
+      "answer": "teenagers",
+      "rewrite": "several teenagers appear to be playing video games",
+      "rank": 17,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the age group of the people playing the video game?",
+      "answer": "teenagers",
+      "rewrite": "several teenagers appear to be playing video games",
+      "rank": 17,
+      "hit": false
+    },
+    "probe": {
+      "question": "Question: Where is the group of people playing the video game?",
+      "answer": "Living room.",
+      "rewrite": "a group of young people playing video games in a living room",
+      "rank": 25,
+      "hit": false
+    }
+  },
+  "seconds": 13.95
+}

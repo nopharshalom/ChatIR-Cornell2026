@@ -1,0 +1,80 @@
+{
+  "qid": 334,
+  "sample": 1,
+  "first_candidates": [
+    "what is the surface or ground type where the giraffes are standing inside the zoo enclosure?",
+    "what is the specific location or enclosure type where the giraffes are standing inside the zoo?",
+    "Question: What is the color of the sky in the image with 3 giraffes standing inside a zoo enclosure?",
+    "Question: What are the 3 giraffes standing inside the zoo enclosure doing?",
+    "Question: What is the color of the sky in the image with 3 giraffes standing inside a zoo enclosure?"
+  ],
+  "second_candidates": [
+    "what is the other object in the image?",
+    "What is the species of the 3 giraffes standing inside of a zoo enclosure?",
+    "what is the other object in the image?",
+    "what is the ground surface where the three giraffes are standing?",
+    "what is the ground surface where the three giraffes are standing?"
+  ],
+  "paths": [
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "fence",
+        "rocks",
+        "trees"
+      ],
+      "score": 0.14815902709960938
+    },
+    {
+      "question": "What is the species of the 3 giraffes standing inside of a zoo enclosure?",
+      "answers": [
+        "Giraffe",
+        "Okapi",
+        "Kudu"
+      ],
+      "score": 0.017985820770263672
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "fence",
+        "rocks",
+        "trees"
+      ],
+      "score": 0.14815902709960938,
+      "duplicate_of": 0
+    },
+    {
+      "question": "what is the ground surface where the three giraffes are standing?",
+      "answers": [
+        "grass",
+        "stones",
+        "pen"
+      ],
+      "score": 0.07280445098876953
+    },
+    {
+      "question": "what is the ground surface where the three giraffes are standing?",
+      "answers": [
+        "grass",
+        "stones",
+        "pen"
+      ],
+      "score": 0.07280445098876953,
+      "duplicate_of": 3
+    }
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "score": 0.14815902709960938
+  },
+  "mixed": {
+    "question": "what is the specific location or enclosure type where the giraffes are standing inside the zoo?",
+    "score": 0.1453413963317871
+  },
+  "control_rank": 78,
+  "mixed_rank": 24,
+  "usual_rank": 24,
+  "new_answer": "giraffe",
+  "new_rewrite": "three giraffes standing inside of a zoo enclosure"
+}

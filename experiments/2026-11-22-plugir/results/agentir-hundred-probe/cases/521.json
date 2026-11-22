@@ -1,0 +1,101 @@
+{
+  "qid": 521,
+  "initial": "a batter wearing number 36 starts to swing at the baseball",
+  "initial_rank": 66,
+  "evidence": [
+    "a man wearing a red baseball hat is ready to bat",
+    "a man is swinging a baseball bat in front of a crowd of people",
+    "a baseball player standing in the dugout",
+    "a baseball player swings a bat at a ball while the catcher is out",
+    "a person is swinging at a ball while the catcher is chasing a pitch",
+    "a batter hits a baseball to a runner in a baseball game",
+    "a man in a red and white baseball uniform at bat",
+    "a baseball player hitting the ball as the catcher watches",
+    "a baseball player in a red uniform hitting a pitch",
+    "fans watching a baseball game at a stadium"
+  ],
+  "candidates": [
+    "what is the color of the hat worn by the man wearing number 36?",
+    "Question: What is the color of the uniform worn by the man wearing number 36?",
+    "Question: What is the color of the uniform worn by the batter?",
+    "Question: What is the number on the uniform of the batter?",
+    "Question: What is the number on the uniform of the batter?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the hat worn by the man wearing number 36?",
+      "answers": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "score": 0.08174467086791992
+    },
+    {
+      "question": "Question: What is the color of the uniform worn by the man wearing number 36?",
+      "answers": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "score": 0.16699552536010742
+    },
+    {
+      "question": "Question: What is the color of the uniform worn by the batter?",
+      "answers": [
+        "red",
+        "blue",
+        "white"
+      ],
+      "score": 0.13123369216918945
+    },
+    {
+      "question": "Question: What is the number on the uniform of the batter?",
+      "answers": [
+        "36",
+        "88",
+        "44"
+      ],
+      "score": 0.00018930435180664062
+    },
+    {
+      "question": "Question: What is the number on the uniform of the batter?",
+      "answers": [
+        "36",
+        "88",
+        "44"
+      ],
+      "score": 0.00018930435180664062,
+      "duplicate_of": 3
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.076,
+  "probe_selection_seconds": 2.044,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "Question: What is the number on the uniform of the batter?",
+      "answer": "36",
+      "rewrite": "A batter wearing number 36 begins to swing at the baseball.",
+      "rank": 35,
+      "hit": false
+    },
+    "random": {
+      "question": "Question: What is the number on the uniform of the batter?",
+      "answer": "36",
+      "rewrite": "A batter wearing number 36 begins to swing at the baseball.",
+      "rank": 35,
+      "hit": false
+    },
+    "probe": {
+      "question": "Question: What is the color of the uniform worn by the man wearing number 36?",
+      "answer": "white",
+      "rewrite": "a batter wearing a white uniform with the number 36 starts to swing at the baseball",
+      "rank": 78,
+      "hit": false
+    }
+  },
+  "seconds": 21.88
+}

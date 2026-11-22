@@ -1,0 +1,80 @@
+{
+  "qid": 1949,
+  "sample": 1,
+  "first_candidates": [
+    "Question: What color are the elephants playing in the field?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "second_candidates": [
+    "what is the color of the elephants in the image?",
+    "what is the activity the elephants are engaged in?",
+    "what is the color of the elephants in the image?",
+    "Question: What is the specific location or setting where the elephants are playing?",
+    "what is the color of the elephants in the image?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the elephants in the image?",
+      "answers": [
+        "gray",
+        "brown",
+        "black"
+      ],
+      "score": 0.03423786163330078
+    },
+    {
+      "question": "what is the activity the elephants are engaged in?",
+      "answers": [
+        "playing",
+        "resting",
+        "walking"
+      ],
+      "score": 0.024478912353515625
+    },
+    {
+      "question": "what is the color of the elephants in the image?",
+      "answers": [
+        "gray",
+        "brown",
+        "black"
+      ],
+      "score": 0.03423786163330078,
+      "duplicate_of": 0
+    },
+    {
+      "question": "Question: What is the specific location or setting where the elephants are playing?",
+      "answers": [
+        "zoo",
+        "field",
+        "rocks"
+      ],
+      "score": 0.033924102783203125
+    },
+    {
+      "question": "what is the color of the elephants in the image?",
+      "answers": [
+        "gray",
+        "brown",
+        "black"
+      ],
+      "score": 0.03423786163330078,
+      "duplicate_of": 0
+    }
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "score": 0.10587024688720703
+  },
+  "mixed": {
+    "question": "what is the other object in the image?",
+    "score": 0.10587024688720703
+  },
+  "control_rank": 39,
+  "mixed_rank": 39,
+  "usual_rank": 39,
+  "new_answer": null,
+  "new_rewrite": null
+}

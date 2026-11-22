@@ -1,0 +1,79 @@
+{
+  "qid": 1146,
+  "sample": 2,
+  "first_candidates": [
+    "what is the time of day depicted in the scene where people are standing and walking outside by the umbrella?",
+    "what is the gender of the person holding the umbrella in the scene where people are standing and walking outside by the umbrella?",
+    "Question: How many people are standing and walking outside by the umbrella?",
+    "what color are the umbrellas held by the people outside?",
+    "what is the surface or ground type where the people are standing and walking outside by the umbrella?"
+  ],
+  "second_candidates": [
+    "Question: Is the person holding the umbrella?",
+    "Question: What is the gender of the person holding the umbrella?",
+    "Question: What is the surface where the people with umbrellas are located?",
+    "Question: What is the surface where the people with umbrellas are located?",
+    "what is the gender of the people with umbrellas?"
+  ],
+  "paths": [
+    {
+      "question": "Question: Is the person holding the umbrella?",
+      "answers": [
+        "Yes",
+        "No",
+        "Maybe"
+      ],
+      "score": 0.0032863616943359375
+    },
+    {
+      "question": "Question: What is the gender of the person holding the umbrella?",
+      "answers": [
+        "male",
+        "female",
+        "neutral"
+      ],
+      "score": 0.015436649322509766
+    },
+    {
+      "question": "Question: What is the surface where the people with umbrellas are located?",
+      "answers": [
+        "street",
+        "sidewalk",
+        "bench"
+      ],
+      "score": 0.04631948471069336
+    },
+    {
+      "question": "Question: What is the surface where the people with umbrellas are located?",
+      "answers": [
+        "street",
+        "sidewalk",
+        "bench"
+      ],
+      "score": 0.04631948471069336,
+      "duplicate_of": 2
+    },
+    {
+      "question": "what is the gender of the people with umbrellas?",
+      "answers": [
+        "male",
+        "female",
+        "mixed"
+      ],
+      "score": 0.03340435028076172
+    }
+  ],
+  "control": {
+    "question": "what is the surface or ground type where the people are standing and walking outside by the umbrella?",
+    "score": 0.06677055358886719
+  },
+  "mixed": {
+    "question": "what is the time of day depicted in the image?",
+    "score": 0.07688474655151367
+  },
+  "control_rank": 43,
+  "mixed_rank": 90,
+  "usual_rank": 43,
+  "new_answer": null,
+  "new_rewrite": null
+}

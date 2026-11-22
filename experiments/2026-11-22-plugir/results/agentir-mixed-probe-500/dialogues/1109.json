@@ -1,0 +1,276 @@
+{
+  "qid": 1109,
+  "sample": "original",
+  "target": "unlabeled2017/000000541928.jpg",
+  "queries": [
+    "a small, very cramped, odd looking bathroom that is white",
+    "a small, very cramped, odd looking white bathroom with a silver toilet handle",
+    "a small, very cramped, odd looking white bathroom featuring a toilet with a silver handle and a radiator located behind it"
+  ],
+  "ranks": [
+    73,
+    231,
+    2
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a small, very cramped, odd looking bathroom that is white",
+      "question": "Question: What is the color of the handle on the toilet in the bathroom?",
+      "answer": "silver",
+      "query_after": "a small, very cramped, odd looking white bathroom with a silver toilet handle",
+      "displayed_ids": [
+        8094,
+        49354,
+        46603,
+        47397,
+        462,
+        4391,
+        4851,
+        21601,
+        45775,
+        41287
+      ],
+      "selected_ids": [
+        22529,
+        21405,
+        29718,
+        35411,
+        6830,
+        2824,
+        27873,
+        28773,
+        47488,
+        16819
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what color is the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "green",
+            "blue"
+          ],
+          "score": 0.08435773849487305
+        },
+        {
+          "question": "what color is the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "green",
+            "blue"
+          ],
+          "score": 0.08435773849487305,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the toilet in the cramped, odd looking white bathroom?",
+          "answers": [
+            "white",
+            "green",
+            "blue"
+          ],
+          "score": 0.12545347213745117
+        },
+        {
+          "question": "what is the color of the grab bars in the bathroom?",
+          "answers": [
+            "silver",
+            "black",
+            "green"
+          ],
+          "score": 0.061217308044433594
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "green",
+            "unclear"
+          ],
+          "score": 0.04316520690917969
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "green",
+            "blue"
+          ],
+          "score": 0.0680689811706543
+        },
+        {
+          "question": "Question: What color is the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "green",
+            "blue"
+          ],
+          "score": 0.0680689811706543,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the condition of the floor in the bathroom?",
+          "answers": [
+            "clean",
+            "dirty",
+            "cracked"
+          ],
+          "score": 0.010439395904541016
+        },
+        {
+          "question": "Question: What is the condition of the floor in the bathroom?",
+          "answers": [
+            "clean",
+            "dirty",
+            "cracked"
+          ],
+          "score": 0.010439395904541016,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the color of the handle on the toilet in the bathroom?",
+          "answers": [
+            "green",
+            "white",
+            "silver"
+          ],
+          "score": 0.1293020248413086
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a small, very cramped, odd looking white bathroom with a silver toilet handle",
+      "question": "what is the specific object located behind the toilet in the bathroom?",
+      "answer": "radiator",
+      "query_after": "a small, very cramped, odd looking white bathroom featuring a toilet with a silver handle and a radiator located behind it",
+      "displayed_ids": [
+        49099,
+        13614,
+        21763,
+        46603,
+        43399,
+        41287,
+        4769,
+        6318,
+        45061,
+        38739
+      ],
+      "selected_ids": [
+        35419,
+        16819,
+        47488,
+        6830,
+        5676,
+        21405,
+        33441,
+        14411,
+        20792,
+        2824
+      ],
+      "rejected_count": 18,
+      "usual_paths": [
+        {
+          "question": "Question: What is the specific type of toilet present in the bathroom?",
+          "answers": [
+            "squat toilet",
+            "western toilet",
+            "sitting toilet"
+          ],
+          "score": 0.006782054901123047
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sink",
+            "mirror",
+            "bathtub"
+          ],
+          "score": 0.06953096389770508
+        },
+        {
+          "question": "what is the specific object located behind the toilet in the bathroom?",
+          "answers": [
+            "trash",
+            "mirror",
+            "bathtub"
+          ],
+          "score": 0.12120628356933594
+        },
+        {
+          "question": "Question: What is the specific type of toilet present in the bathroom?",
+          "answers": [
+            "squat toilet",
+            "western toilet",
+            "sitting toilet"
+          ],
+          "score": 0.006782054901123047,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Based on the provided information, here is the generated question and the explanation of how the sources were utilized.\n\n**Generated Question:**\n\"What is the color of?",
+          "answers": [
+            "white",
+            "black",
+            "silver"
+          ],
+          "score": 0.024225234985351562
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What type of toilet is in the bathroom?",
+          "answers": [
+            "squat toilet",
+            "western toilet",
+            "tall toilet"
+          ],
+          "score": 0.01066446304321289
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sink",
+            "mirror",
+            "bathtub"
+          ],
+          "score": 0.06953096389770508
+        },
+        {
+          "question": "Question: What color are the toilet tissue rolls in the bathroom?",
+          "answers": [
+            "white",
+            "blue",
+            "brown"
+          ],
+          "score": 0.09718751907348633
+        },
+        {
+          "question": "Question: What color is the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.015481948852539062
+        },
+        {
+          "question": "Question: What color are the bathroom walls?",
+          "answers": [
+            "white",
+            "beige",
+            "metal"
+          ],
+          "score": 0.030869007110595703
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

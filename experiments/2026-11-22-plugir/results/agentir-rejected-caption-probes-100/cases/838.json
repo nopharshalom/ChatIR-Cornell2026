@@ -1,0 +1,82 @@
+{
+  "qid": 838,
+  "candidates": [
+    "Question: What is the specific color of the bus seen in the street lined with cars and buses?",
+    "Question: What is the specific color of the bus seen in the street lined with cars and buses?",
+    "Question: What is the specific color of the bus seen in the street lined with cars and buses?",
+    "Question: What is the specific color of the bus seen in the street lined with cars and buses?",
+    "Question: How many buses are visible in the street?"
+  ],
+  "kl": {
+    "question": "Question: How many buses are visible in the street?",
+    "answer": "2",
+    "rewrite": "a street lined with cars and two buses",
+    "raw_rank": 636,
+    "unseen_rank": 626
+  },
+  "probe": {
+    "answer": "red",
+    "rewrite": "a street lined with cars and a red bus",
+    "raw_rank": 500,
+    "unseen_rank": 491,
+    "question": "Question: What is the specific color of the bus seen in the street lined with cars and buses?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the specific color of the bus seen in the street lined with cars and buses?",
+        "answers": [
+          "red",
+          "white",
+          "blue"
+        ],
+        "score": 0.1902141571044922
+      },
+      {
+        "question": "Question: What is the specific color of the bus seen in the street lined with cars and buses?",
+        "answers": [
+          "red",
+          "white",
+          "blue"
+        ],
+        "score": 0.1902141571044922,
+        "duplicate_of": 0
+      },
+      {
+        "question": "Question: What is the specific color of the bus seen in the street lined with cars and buses?",
+        "answers": [
+          "red",
+          "white",
+          "blue"
+        ],
+        "score": 0.1902141571044922,
+        "duplicate_of": 0
+      },
+      {
+        "question": "Question: What is the specific color of the bus seen in the street lined with cars and buses?",
+        "answers": [
+          "red",
+          "white",
+          "blue"
+        ],
+        "score": 0.1902141571044922,
+        "duplicate_of": 0
+      },
+      {
+        "question": "Question: How many buses are visible in the street?",
+        "answers": [
+          "one",
+          "two",
+          "many"
+        ],
+        "score": 0.003753185272216797
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.051,
+    "probe_selection_seconds": 0.909,
+    "probe_llm_calls": 2,
+    "probe_search_queries": 6
+  },
+  "reused_outcome": false
+}

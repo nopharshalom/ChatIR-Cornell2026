@@ -1,0 +1,79 @@
+{
+  "qid": 683,
+  "sample": 1,
+  "first_candidates": [
+    "what is the other object in the image?",
+    "Who is the person gripping the sheep's neck?",
+    "Who is the person gripping the sheep's neck?",
+    "Who is the person gripping the sheep's neck?",
+    "Who is the person gripping the sheep's neck?"
+  ],
+  "second_candidates": [
+    "Question: what is the gender of the person holding the sheep?",
+    "Question: What is the gender of the person holding the sheep?",
+    "Who is the person gripping the sheep's neck?",
+    "Who is the person gripping the sheep's neck?",
+    "what is the other object in the image?"
+  ],
+  "paths": [
+    {
+      "question": "Question: what is the gender of the person holding the sheep?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.029108047485351562
+    },
+    {
+      "question": "Question: What is the gender of the person holding the sheep?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.029108047485351562
+    },
+    {
+      "question": "Who is the person gripping the sheep's neck?",
+      "answers": [
+        "man",
+        "woman",
+        "child"
+      ],
+      "score": 0.08432912826538086
+    },
+    {
+      "question": "Who is the person gripping the sheep's neck?",
+      "answers": [
+        "man",
+        "woman",
+        "child"
+      ],
+      "score": 0.08432912826538086,
+      "duplicate_of": 2
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "sheep",
+        "dog",
+        "horse"
+      ],
+      "score": 0.10176944732666016
+    }
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "score": 0.1296534538269043
+  },
+  "mixed": {
+    "question": "what is the other object in the image?",
+    "score": 0.1296534538269043
+  },
+  "control_rank": 22,
+  "mixed_rank": 22,
+  "usual_rank": 22,
+  "new_answer": null,
+  "new_rewrite": null
+}

@@ -1,0 +1,60 @@
+{
+  "qid": 1743,
+  "arm": "fresh",
+  "after_round": 5,
+  "ranks": [
+    243,
+    114,
+    47,
+    84,
+    100,
+    97,
+    101,
+    77,
+    67,
+    61,
+    80
+  ],
+  "continuation": [
+    {
+      "round": 6,
+      "query_before": "a brown bed with gray pillows and blue covers, positioned next to a green wall, with another bed in the image",
+      "question": "Is the bed on the floor or on a bed frame?",
+      "answer": "on a bed frame",
+      "query_after": "a brown bed with gray pillows and blue covers sits on a bed frame next to a green wall",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Is the bed on the floor or on a bed frame?",
+      "fallback": false
+    },
+    {
+      "round": 7,
+      "query_before": "a brown bed with gray pillows and blue covers sits on a bed frame next to a green wall",
+      "question": "what is the color of the bed frame?",
+      "answer": "brown",
+      "query_after": "a brown bed frame with gray pillows and blue covers, positioned next to a green wall"
+    },
+    {
+      "round": 8,
+      "query_before": "a brown bed frame with gray pillows and blue covers, positioned next to a green wall",
+      "question": "what is the other object in the image?",
+      "answer": "bed",
+      "query_after": "A brown bed frame, dressed with gray pillows and blue covers, is positioned beside a green wall."
+    },
+    {
+      "round": 9,
+      "query_before": "A brown bed frame, dressed with gray pillows and blue covers, is positioned beside a green wall.",
+      "question": "what is the texture of the blue covers on the bed?",
+      "answer": "soft",
+      "query_after": "a brown bed frame with soft blue covers and gray pillows, positioned next to a green wall"
+    },
+    {
+      "round": 10,
+      "query_before": "a brown bed frame with soft blue covers and gray pillows, positioned next to a green wall",
+      "question": "what is the other object in the image?",
+      "answer": "bed",
+      "query_after": "Next to a green wall, there is a brown bed frame dressed in soft blue covers and gray pillows."
+    }
+  ],
+  "seconds": 84.3
+}

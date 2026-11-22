@@ -1,0 +1,79 @@
+{
+  "qid": 690,
+  "candidates": [
+    "what color is the baseball player's uniform?",
+    "Question: what is the color of the shirt worn by the catcher standing behind the baseball player?",
+    "Question: What color is the bat held by the baseball player?",
+    "Question: What is the color of the catcher's uniform?",
+    "Question: What color is the baseball player's uniform?"
+  ],
+  "kl": {
+    "question": "what color is the baseball player's uniform?",
+    "answer": "maroon and white",
+    "rewrite": "a baseball player in a maroon and white uniform stands at home plate prepared to hit, with the catcher and umpire behind him",
+    "raw_rank": 27,
+    "unseen_rank": 26
+  },
+  "probe": {
+    "question": "what color is the baseball player's uniform?",
+    "answer": "maroon and white",
+    "rewrite": "a baseball player in a maroon and white uniform stands at home plate prepared to hit, with the catcher and umpire behind him",
+    "raw_rank": 27,
+    "unseen_rank": 26
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "what color is the baseball player's uniform?",
+        "answers": [
+          "red",
+          "white",
+          "blue"
+        ],
+        "score": 0.20712566375732422
+      },
+      {
+        "question": "Question: what is the color of the shirt worn by the catcher standing behind the baseball player?",
+        "answers": [
+          "red",
+          "blue",
+          "white"
+        ],
+        "score": 0.20349454879760742
+      },
+      {
+        "question": "Question: What color is the bat held by the baseball player?",
+        "answers": [
+          "black",
+          "white",
+          "wood"
+        ],
+        "score": 0.004223823547363281
+      },
+      {
+        "question": "Question: What is the color of the catcher's uniform?",
+        "answers": [
+          "red",
+          "white",
+          "blue"
+        ],
+        "score": 0.15201330184936523
+      },
+      {
+        "question": "Question: What color is the baseball player's uniform?",
+        "answers": [
+          "red",
+          "blue",
+          "white"
+        ],
+        "score": 0.18454217910766602
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.063,
+    "probe_selection_seconds": 2.377,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": true
+}

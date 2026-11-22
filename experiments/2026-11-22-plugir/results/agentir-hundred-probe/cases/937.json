@@ -1,0 +1,101 @@
+{
+  "qid": 937,
+  "initial": "a car is behind a taxi at a red light",
+  "initial_rank": 22,
+  "evidence": [
+    "a traffic light pole with a green sign near the street",
+    "an old road with some traffic lights on the side",
+    "a street in front of a large building with a street light in front",
+    "a parking lot at night with red traffic lights",
+    "buses driving past cars and bikes on a street",
+    "a large group of people riding motorcycles in a busy road",
+    "a traffic light with some clouds above",
+    "an empty street and a traffic light at the corner",
+    "a yellow taxi",
+    "the camera is looking at the red traffic light"
+  ],
+  "candidates": [
+    "Question: What is the color of the taxi?",
+    "what is the color of the car behind the taxi?",
+    "What is the background scenery of the image containing the red traffic light?",
+    "what is the location of the red traffic light in the image?",
+    "what is the color of the car behind the taxi?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: What is the color of the taxi?",
+      "answers": [
+        "yellow",
+        "black",
+        "white"
+      ],
+      "score": 0.03003835678100586
+    },
+    {
+      "question": "what is the color of the car behind the taxi?",
+      "answers": [
+        "white",
+        "black",
+        "silver"
+      ],
+      "score": 0.03350973129272461
+    },
+    {
+      "question": "What is the background scenery of the image containing the red traffic light?",
+      "answers": [
+        "street",
+        "parking lot",
+        "clouds"
+      ],
+      "score": 0.06111001968383789
+    },
+    {
+      "question": "what is the location of the red traffic light in the image?",
+      "answers": [
+        "street corner",
+        "parking lot",
+        "city street"
+      ],
+      "score": 0.02395343780517578
+    },
+    {
+      "question": "what is the color of the car behind the taxi?",
+      "answers": [
+        "white",
+        "black",
+        "silver"
+      ],
+      "score": 0.03350973129272461,
+      "duplicate_of": 1
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.066,
+  "probe_selection_seconds": 1.984,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "what is the location of the red traffic light in the image?",
+      "answer": "The red traffic light is on the left side of the image.",
+      "rewrite": "a car is behind a taxi at a red traffic light located on the left side of the image",
+      "rank": 28,
+      "hit": false
+    },
+    "random": {
+      "question": "Question: What is the color of the taxi?",
+      "answer": "yellow",
+      "rewrite": "a yellow taxi is in front of a car at a red light",
+      "rank": 15,
+      "hit": false
+    },
+    "probe": {
+      "question": "What is the background scenery of the image containing the red traffic light?",
+      "answer": "The background scenery includes a brightly lit building with columns, streetlights, and another building with a grid-like facade.",
+      "rewrite": "a car is behind a taxi at a red traffic light, with a brightly lit building featuring columns, streetlights, and another building with a grid-like facade in the background",
+      "rank": 1,
+      "hit": true
+    }
+  },
+  "seconds": 16.283
+}

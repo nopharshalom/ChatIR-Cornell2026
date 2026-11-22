@@ -1,0 +1,795 @@
+{
+  "qid": 1598,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000556272.jpg",
+  "queries": [
+    "the young man is on the tennis court about ready to hit the ball",
+    "a young man in a blue shirt is on a tennis court, about ready to hit the ball",
+    "a young man in a blue shirt and white socks is on a tennis court, about ready to hit the ball",
+    "a young man wearing a blue shirt, white socks, and black shorts is on a tennis court, about ready to hit the ball",
+    "a young man wearing a blue shirt, white socks, and black shorts stands on a tennis court holding a black racquet, ready to hit the ball",
+    "a young man wearing a blue shirt, white socks, and black shorts stands on a green tennis court, holding a black tennis racquet, ready to hit the ball",
+    "A young man dressed in a blue shirt, black shorts, and white socks is standing on a green tennis court, gripping a black tennis racquet and poised to strike the ball."
+  ],
+  "ranks": [
+    172,
+    24,
+    59,
+    35,
+    30,
+    17,
+    9
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "the young man is on the tennis court about ready to hit the ball",
+      "question": "Question: What color is the shirt worn by the young man?",
+      "answer": "blue",
+      "query_after": "a young man in a blue shirt is on a tennis court, about ready to hit the ball",
+      "displayed_ids": [
+        2317,
+        21242,
+        47921,
+        35954,
+        23251,
+        8115,
+        20940,
+        44466,
+        7090,
+        29908
+      ],
+      "selected_ids": [
+        45632,
+        41816,
+        37089,
+        2607,
+        10466,
+        4335,
+        17637,
+        14870,
+        25217,
+        37181
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: What color is the shirt worn by the young man on the tennis court?",
+          "answers": [
+            "white",
+            "blue",
+            "orange"
+          ],
+          "score": 0.10572147369384766
+        },
+        {
+          "question": "what is the color of the shirt worn by the young man on the tennis court?",
+          "answers": [
+            "white",
+            "blue",
+            "orange"
+          ],
+          "score": 0.11802816390991211
+        },
+        {
+          "question": "what color are the shorts worn by the young man on the tennis court?",
+          "answers": [
+            "blue",
+            "white",
+            "orange"
+          ],
+          "score": 0.15069198608398438
+        },
+        {
+          "question": "Question: What color is the racket held by the young man on the tennis court?",
+          "answers": [
+            "white",
+            "blue",
+            "orange"
+          ],
+          "score": 0.10403299331665039
+        },
+        {
+          "question": "what is the color of the shorts worn by the young man on the tennis court?",
+          "answers": [
+            "blue",
+            "white",
+            "orange"
+          ],
+          "score": 0.11063480377197266
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the shirt worn by the young man?",
+          "answers": [
+            "white",
+            "blue",
+            "orange"
+          ],
+          "score": 0.2722177505493164
+        },
+        {
+          "question": "Question: What color is the shirt worn by the young man?",
+          "answers": [
+            "white",
+            "blue",
+            "orange"
+          ],
+          "score": 0.2722177505493164,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the shirt worn by the young man?",
+          "answers": [
+            "white",
+            "blue",
+            "orange"
+          ],
+          "score": 0.2722177505493164,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color are the socks worn by the man on the tennis court?",
+          "answers": [
+            "blue",
+            "orange",
+            "white"
+          ],
+          "score": 0.1287393569946289
+        },
+        {
+          "question": "Question: What color is the shirt worn by the man in the photo?",
+          "answers": [
+            "white",
+            "blue",
+            "orange"
+          ],
+          "score": 0.17808055877685547
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a young man in a blue shirt is on a tennis court, about ready to hit the ball",
+      "question": "Question: What color are the socks worn by the young man?",
+      "answer": "white",
+      "query_after": "a young man in a blue shirt and white socks is on a tennis court, about ready to hit the ball",
+      "displayed_ids": [
+        25715,
+        46708,
+        1999,
+        17637,
+        30640,
+        18106,
+        22305,
+        93,
+        39137,
+        40397
+      ],
+      "selected_ids": [
+        78,
+        29429,
+        41475,
+        14644,
+        4122,
+        48895,
+        9394,
+        25315,
+        12279,
+        22683
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "Question: What color is the shirt worn by the other person playing tennis in the image?",
+          "answers": [
+            "blue",
+            "white",
+            "green"
+          ],
+          "score": 0.0991678237915039
+        },
+        {
+          "question": "what is the gender of the other person playing tennis in the image?",
+          "answers": [
+            "male",
+            "female",
+            "none"
+          ],
+          "score": 0.03617572784423828
+        },
+        {
+          "question": "Question: What color are the tennis courts in the image?",
+          "answers": [
+            "blue",
+            "green",
+            "red"
+          ],
+          "score": 0.09844589233398438
+        },
+        {
+          "question": "Question: What color is the ball the young man is about to hit?",
+          "answers": [
+            "green",
+            "yellow",
+            "orange"
+          ],
+          "score": 0.09950685501098633
+        },
+        {
+          "question": "what is the gender of the person wearing the white shirt in the image?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.03026437759399414
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the court where the young man is playing tennis?",
+          "answers": [
+            "green",
+            "blue",
+            "blue and green"
+          ],
+          "score": 0.034572601318359375
+        },
+        {
+          "question": "Question: What color are the socks worn by the young man?",
+          "answers": [
+            "white",
+            "black",
+            "red"
+          ],
+          "score": 0.1642460823059082
+        },
+        {
+          "question": "Question: What color are the shorts worn by the young man?",
+          "answers": [
+            "white",
+            "blue",
+            "black"
+          ],
+          "score": 0.10565519332885742
+        },
+        {
+          "question": "Question: What color is the ball the young man is about to hit?",
+          "answers": [
+            "green",
+            "yellow",
+            "orange"
+          ],
+          "score": 0.09950685501098633
+        },
+        {
+          "question": "What color is the tennis ball that the young man is about to hit?",
+          "answers": [
+            "green",
+            "yellow",
+            "orange"
+          ],
+          "score": 0.10163164138793945
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "a young man in a blue shirt and white socks is on a tennis court, about ready to hit the ball",
+      "question": "What color is the shorts worn by the young man?",
+      "answer": "black",
+      "query_after": "a young man wearing a blue shirt, white socks, and black shorts is on a tennis court, about ready to hit the ball",
+      "displayed_ids": [
+        30640,
+        46708,
+        25715,
+        7365,
+        17637,
+        39261,
+        28697,
+        31597,
+        18106,
+        18037
+      ],
+      "selected_ids": [
+        10466,
+        3832,
+        24995,
+        48895,
+        46400,
+        16211,
+        14870,
+        30870,
+        48235
+      ],
+      "rejected_count": 25,
+      "usual_paths": [
+        {
+          "question": "what is the object the young man in the blue shirt is holding?",
+          "answers": [
+            "tennis racket",
+            "baseball bat",
+            "none"
+          ],
+          "score": 0.03817939758300781
+        },
+        {
+          "question": "what is the object the young man in the blue shirt and white socks is holding?",
+          "answers": [
+            "tennis racket",
+            "baseball bat",
+            "golf club"
+          ],
+          "score": 0.035115718841552734
+        },
+        {
+          "question": "Question: What color are the shorts worn by the young man?",
+          "answers": [
+            "blue",
+            "orange",
+            "black"
+          ],
+          "score": 0.08427572250366211
+        },
+        {
+          "question": "Question: What color is the shorts worn by the young man?",
+          "answers": [
+            "blue",
+            "white",
+            "orange"
+          ],
+          "score": 0.08224725723266602
+        },
+        {
+          "question": "What color is the shorts worn by the young man?",
+          "answers": [
+            "blue",
+            "orange",
+            "red"
+          ],
+          "score": 0.09865570068359375
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What object is the young man holding?",
+          "answers": [
+            "tennis racket",
+            "baseball bat",
+            "skateboard"
+          ],
+          "score": 0.05135011672973633
+        },
+        {
+          "question": "Question: What color is the tennis ball the young man is about to hit?",
+          "answers": [
+            "yellow",
+            "green",
+            "orange"
+          ],
+          "score": 0.07004308700561523
+        },
+        {
+          "question": "Question: What color is the shirt worn by the person holding the object?",
+          "answers": [
+            "blue",
+            "orange",
+            "red"
+          ],
+          "score": 0.07821178436279297
+        },
+        {
+          "question": "Question: What is the object the young man is holding?",
+          "answers": [
+            "tennis racket",
+            "bat",
+            "ball"
+          ],
+          "score": 0.02780771255493164
+        },
+        {
+          "question": "Question: What color is the shirt worn by the person holding the object?",
+          "answers": [
+            "blue",
+            "orange",
+            "red"
+          ],
+          "score": 0.07821178436279297,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a young man wearing a blue shirt, white socks, and black shorts is on a tennis court, about ready to hit the ball",
+      "question": "Question: What is the color of the tennis racquet held by the young man?",
+      "answer": "black",
+      "query_after": "a young man wearing a blue shirt, white socks, and black shorts stands on a tennis court holding a black racquet, ready to hit the ball",
+      "displayed_ids": [
+        32911,
+        40397,
+        29281,
+        93,
+        25715,
+        30640,
+        1999,
+        46708,
+        17637,
+        45675
+      ],
+      "selected_ids": [
+        14644,
+        9845,
+        35123,
+        3832,
+        22233,
+        16211,
+        25315,
+        9394,
+        48895
+      ],
+      "rejected_count": 28,
+      "usual_paths": [
+        {
+          "question": "What color is the tennis ball that the young man is about to hit?",
+          "answers": [
+            "yellow",
+            "orange",
+            "green"
+          ],
+          "score": 0.05975484848022461
+        },
+        {
+          "question": "**Generated Question:**\nWhat is the gender of the person playing tennis?",
+          "answers": [
+            "male",
+            "female"
+          ],
+          "score": 0.049259185791015625
+        },
+        {
+          "question": "**Generated Question:**\nIs the person playing tennis a man or a woman?",
+          "answers": [
+            "man",
+            "woman",
+            "unknown"
+          ],
+          "score": 0.00531768798828125
+        },
+        {
+          "question": "**Generated Question:**\nIs the person playing tennis a man or a woman?",
+          "answers": [
+            "man",
+            "woman",
+            "unknown"
+          ],
+          "score": 0.00531768798828125,
+          "duplicate_of": 2
+        },
+        {
+          "question": "**Generated Question:**\nWhat is the gender of the person playing tennis?",
+          "answers": [
+            "male",
+            "female"
+          ],
+          "score": 0.049259185791015625,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the tennis racquet held by the young man?",
+          "answers": [
+            "blue",
+            "green",
+            "black"
+          ],
+          "score": 0.03779888153076172
+        },
+        {
+          "question": "Question: What is the color of the tennis racquet held by the young man?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.0615229606628418
+        },
+        {
+          "question": "Question: What color is the tennis racquet held by the young man?",
+          "answers": [
+            "blue",
+            "green",
+            "black"
+          ],
+          "score": 0.03779888153076172,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the tennis racquet held by the young man?",
+          "answers": [
+            "blue",
+            "green",
+            "black"
+          ],
+          "score": 0.028078079223632812
+        },
+        {
+          "question": "Question: What is the color of the tennis racquet held by the young man?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.0615229606628418,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a young man wearing a blue shirt, white socks, and black shorts stands on a tennis court holding a black racquet, ready to hit the ball",
+      "question": "What is the color of the tennis court where the young man is playing?",
+      "answer": "green",
+      "query_after": "a young man wearing a blue shirt, white socks, and black shorts stands on a green tennis court, holding a black tennis racquet, ready to hit the ball",
+      "displayed_ids": [
+        19767,
+        29281,
+        1999,
+        32911,
+        47979,
+        24172,
+        40397,
+        93,
+        6956,
+        39261
+      ],
+      "selected_ids": [
+        35123,
+        14870,
+        12328,
+        48895,
+        14644,
+        16211,
+        9845,
+        46400,
+        16001,
+        9204
+      ],
+      "rejected_count": 32,
+      "usual_paths": [
+        {
+          "question": "Question: Is the young man playing tennis in front of an audience or at night?",
+          "answers": [
+            "in front of an audience",
+            "at night",
+            "both"
+          ],
+          "score": 0.010647296905517578
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "tennis racquet",
+            "socks",
+            "shorts"
+          ],
+          "score": 0.0030803680419921875
+        },
+        {
+          "question": "Question: Who is the tennis player, a young man or a young woman?",
+          "answers": [
+            "young man",
+            "young woman",
+            "man"
+          ],
+          "score": 0.007792472839355469
+        },
+        {
+          "question": "What is the name of the tennis player wearing the blue shirt, white socks, and black shorts?",
+          "answers": [
+            "Andy Murray",
+            "Novak Djokovic",
+            "Rafael Nadal"
+          ],
+          "score": 0.020235061645507812
+        },
+        {
+          "question": "Question: Are there any other people in the image besides the young man?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0019450187683105469
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the tennis court where the young man is playing?",
+          "answers": [
+            "green",
+            "blue",
+            "hard"
+          ],
+          "score": 0.03125619888305664
+        },
+        {
+          "question": "What is the color of the tennis court where the young man is playing?",
+          "answers": [
+            "green",
+            "blue",
+            "hard"
+          ],
+          "score": 0.032274723052978516
+        },
+        {
+          "question": "Question: What is the color of the tennis court where the young man is playing?",
+          "answers": [
+            "green",
+            "blue",
+            "hard"
+          ],
+          "score": 0.03125619888305664,
+          "duplicate_of": 0
+        },
+        {
+          "question": "What is the color of the tennis court where the young man is playing?",
+          "answers": [
+            "green",
+            "blue",
+            "hard"
+          ],
+          "score": 0.032274723052978516,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the tennis court where the young man is playing?",
+          "answers": [
+            "green",
+            "blue",
+            "hard"
+          ],
+          "score": 0.03125619888305664,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a young man wearing a blue shirt, white socks, and black shorts stands on a green tennis court, holding a black tennis racquet, ready to hit the ball",
+      "question": "Question: What is the color of the shorts worn by the young man?",
+      "answer": "black",
+      "query_after": "A young man dressed in a blue shirt, black shorts, and white socks is standing on a green tennis court, gripping a black tennis racquet and poised to strike the ball.",
+      "displayed_ids": [
+        32911,
+        6956,
+        28697,
+        29281,
+        19767,
+        25715,
+        35907,
+        35366,
+        17343,
+        24172
+      ],
+      "selected_ids": [
+        22233,
+        11532,
+        6956,
+        28259,
+        43444,
+        9898,
+        48895,
+        14644,
+        1805,
+        14870
+      ],
+      "rejected_count": 35,
+      "usual_paths": [
+        {
+          "question": "Question: What is the gender of the person wearing red and orange shorts?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.04171609878540039
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "tennis ball",
+            "tennis racquet",
+            "net"
+          ],
+          "score": 0.018035888671875
+        },
+        {
+          "question": "Question: What is the gender of the person wearing a blue shirt who is running to hit a tennis ball?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.04290342330932617
+        },
+        {
+          "question": "Question: What is the gender of the person wearing a blue shirt who is running to hit a tennis ball?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.04290342330932617,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the color of the shorts worn by the young man?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.09952688217163086
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the young man holding in his hand besides the tennis racquet?",
+          "answers": [
+            "nothing",
+            "a water bottle",
+            "a towel"
+          ],
+          "score": 0.016502857208251953
+        },
+        {
+          "question": "Question: What is the gender of the person on the tennis court?",
+          "answers": [
+            "male",
+            "female",
+            "both"
+          ],
+          "score": 0.03804492950439453
+        },
+        {
+          "question": "Question: What color is the tennis court where the young man is playing?",
+          "answers": [
+            "green",
+            "blue",
+            "red"
+          ],
+          "score": 0.05083417892456055
+        },
+        {
+          "question": "Question: What is the color of the shirt worn by the person on the tennis court?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.08656501770019531
+        },
+        {
+          "question": "Question: What is the color of the tennis court where the young man is playing?",
+          "answers": [
+            "green",
+            "blue",
+            "red"
+          ],
+          "score": 0.03514814376831055
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

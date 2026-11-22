@@ -1,0 +1,79 @@
+{
+  "qid": 1520,
+  "sample": 2,
+  "first_candidates": [
+    "what is the color of the building in the image?",
+    "what is the material of the building in the image?",
+    "Question: what is the color and material of the building in the image?",
+    "what is the type of building in the image?",
+    "what is the color of the security grate on the building?"
+  ],
+  "second_candidates": [
+    "what color is the security grate on the public building?",
+    "Question: Is the clock located on a public building or in a cathedral?",
+    "what color is the brick wall next to the street sign?",
+    "what is the color of the security grate on the public building?",
+    "what is the color of the security grate on the public building?"
+  ],
+  "paths": [
+    {
+      "question": "what color is the security grate on the public building?",
+      "answers": [
+        "black",
+        "silver",
+        "dark gray"
+      ],
+      "score": 0.017386913299560547
+    },
+    {
+      "question": "Question: Is the clock located on a public building or in a cathedral?",
+      "answers": [
+        "public building",
+        "cathedral",
+        "neither"
+      ],
+      "score": 0.012810230255126953
+    },
+    {
+      "question": "what color is the brick wall next to the street sign?",
+      "answers": [
+        "red",
+        "brown",
+        "black"
+      ],
+      "score": 0.03247880935668945
+    },
+    {
+      "question": "what is the color of the security grate on the public building?",
+      "answers": [
+        "black",
+        "silver",
+        "gray"
+      ],
+      "score": 0.015179634094238281
+    },
+    {
+      "question": "what is the color of the security grate on the public building?",
+      "answers": [
+        "black",
+        "silver",
+        "gray"
+      ],
+      "score": 0.015179634094238281,
+      "duplicate_of": 3
+    }
+  ],
+  "control": {
+    "question": "what is the material of the building in the image?",
+    "score": 0.1314692497253418
+  },
+  "mixed": {
+    "question": "what is the material of the building in the image?",
+    "score": 0.1314692497253418
+  },
+  "control_rank": 14,
+  "mixed_rank": 14,
+  "usual_rank": 14,
+  "new_answer": null,
+  "new_rewrite": null
+}

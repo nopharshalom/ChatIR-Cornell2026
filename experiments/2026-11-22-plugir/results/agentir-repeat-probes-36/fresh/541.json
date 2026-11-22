@@ -1,0 +1,53 @@
+{
+  "qid": 541,
+  "arm": "fresh",
+  "after_round": 6,
+  "ranks": [
+    60,
+    13,
+    12,
+    43,
+    20,
+    29,
+    19,
+    19,
+    19,
+    29,
+    28
+  ],
+  "continuation": [
+    {
+      "round": 7,
+      "query_before": "a boy and a man ride together on a gray elephant near a lake",
+      "question": "Is the animal they are riding an elephant or a pony?",
+      "answer": "elephant",
+      "query_after": "A boy and a man are riding together on a gray elephant near a lake.",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Is the animal they are riding an elephant or a pony?",
+      "fallback": false
+    },
+    {
+      "round": 8,
+      "query_before": "A boy and a man are riding together on a gray elephant near a lake.",
+      "question": "what is the other object in the image?",
+      "answer": "a lake",
+      "query_after": "a boy and a man ride together on a gray elephant near a lake"
+    },
+    {
+      "round": 9,
+      "query_before": "a boy and a man ride together on a gray elephant near a lake",
+      "question": "what is the other object in the image?",
+      "answer": "a lake",
+      "query_after": "a boy and a man ride a gray elephant on a lake"
+    },
+    {
+      "round": 10,
+      "query_before": "a boy and a man ride a gray elephant on a lake",
+      "question": "what is the background environment of the elephant?",
+      "answer": "lake",
+      "query_after": "a boy and a man ride a gray elephant together on a lake"
+    }
+  ],
+  "seconds": 74.2
+}

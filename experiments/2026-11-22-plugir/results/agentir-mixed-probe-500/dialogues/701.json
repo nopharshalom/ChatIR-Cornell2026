@@ -1,0 +1,1331 @@
+{
+  "qid": 701,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000324850.jpg",
+  "queries": [
+    "image of a red lobster restaurant from a street a one-way sign and street light is visible, and a man in an orange shirt is walking toward the entrance",
+    "image of a red lobster restaurant from the street, featuring a one-way sign and street light, with a man in an orange shirt walking toward the entrance",
+    "image of a red lobster restaurant from the street, featuring a black street light and a one-way sign, with a man in an orange shirt walking toward the entrance",
+    "an image of a red lobster restaurant from the street, featuring a one-way sign and a black street light, with a man in an orange shirt walking toward the entrance, and no fire hydrant visible in front of the store",
+    "a street view of a red lobster restaurant featuring a red awning, a black street light, and a one-way sign, with a man in an orange shirt walking toward the entrance and no fire hydrant visible",
+    "an image of a red lobster restaurant featuring a red awning, a black street light, and a one-way sign, with a man in an orange shirt walking toward the entrance, and no fire hydrant visible",
+    "a street view of a red lobster restaurant featuring a red awning, a black one-way sign, and a black street light, with a man in an orange shirt walking toward the entrance, and no fire hydrant visible",
+    "a street view of a red lobster restaurant featuring a red awning, a black one-way sign, a black traffic light, and a street light, with a man in an orange shirt walking toward the entrance; note that no fire hydrant is visible in the image.",
+    "a street view of a red lobster restaurant featuring a red awning, a black one-way sign, a black traffic light, and a man in an orange shirt walking toward the entrance, with no fire hydrant visible",
+    "The image shows a street view of a Red Lobster restaurant, which has a red awning, a black one-way sign, and a black traffic light. A man wearing an orange shirt is walking toward the entrance, and there is no fire hydrant visible.",
+    "a red lobster restaurant with a red awning and light-colored siding, featuring a black one-way sign and a black traffic light, with a man in an orange shirt walking toward the entrance and a black street light visible, with no fire hydrant or old brick building present"
+  ],
+  "ranks": [
+    33,
+    35,
+    47,
+    111,
+    271,
+    256,
+    337,
+    357,
+    261,
+    642,
+    134
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "image of a red lobster restaurant from a street a one-way sign and street light is visible, and a man in an orange shirt is walking toward the entrance",
+      "question": "Question: What is the color of the shirt worn by the man walking toward the entrance?",
+      "answer": "orange",
+      "query_after": "image of a red lobster restaurant from the street, featuring a one-way sign and street light, with a man in an orange shirt walking toward the entrance",
+      "displayed_ids": [
+        11635,
+        17087,
+        28449,
+        13199,
+        22839,
+        3530,
+        24819,
+        43807,
+        40955,
+        29472
+      ],
+      "selected_ids": [
+        19994,
+        20555,
+        11998,
+        21104,
+        39632,
+        36960,
+        9152,
+        4080,
+        35938,
+        25034
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: What is the color of the umbrellas visible near the sidewalk in the image?",
+          "answers": [
+            "red",
+            "black",
+            "none"
+          ],
+          "score": 0.006557941436767578
+        },
+        {
+          "question": "Question: What is the color of the shirt worn by the man walking toward the entrance of the red lobster restaurant?",
+          "answers": [
+            "orange",
+            "red",
+            "blue"
+          ],
+          "score": 0.013728141784667969
+        },
+        {
+          "question": "Question: Which candidate image depicts a man in an orange shirt walking toward the entrance of a red lobster restaurant?",
+          "answers": [
+            "1",
+            "8"
+          ],
+          "score": 0.0006251335144042969
+        },
+        {
+          "question": "Question: What is the color of the umbrellas visible near the sidewalk in the image?",
+          "answers": [
+            "red",
+            "black",
+            "none"
+          ],
+          "score": 0.006557941436767578,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: Which candidate image depicts a man in an orange shirt walking toward the entrance of a red lobster restaurant?",
+          "answers": [
+            "1",
+            "8"
+          ],
+          "score": 0.0006251335144042969,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the traffic light visible in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.021497249603271484
+        },
+        {
+          "question": "Question: What is the color of the umbrellas visible in the image?",
+          "answers": [
+            "red",
+            "none",
+            "green"
+          ],
+          "score": 0.014032840728759766
+        },
+        {
+          "question": "Question: Are there any umbrellas visible in the image?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.001251220703125
+        },
+        {
+          "question": "Question: What is the color of the shirt worn by the man walking toward the entrance?",
+          "answers": [
+            "orange",
+            "blue",
+            "green"
+          ],
+          "score": 0.029253482818603516
+        },
+        {
+          "question": "Question: What is the color of the shirt worn by the man walking toward the entrance?",
+          "answers": [
+            "orange",
+            "blue",
+            "green"
+          ],
+          "score": 0.029253482818603516,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "image of a red lobster restaurant from the street, featuring a one-way sign and street light, with a man in an orange shirt walking toward the entrance",
+      "question": "what is the color of the street light visible in the image?",
+      "answer": "black",
+      "query_after": "image of a red lobster restaurant from the street, featuring a black street light and a one-way sign, with a man in an orange shirt walking toward the entrance",
+      "displayed_ids": [
+        17087,
+        11635,
+        28449,
+        13199,
+        40955,
+        43807,
+        24819,
+        3203,
+        43042,
+        3530
+      ],
+      "selected_ids": [
+        45099,
+        25034,
+        22268,
+        9152,
+        20405,
+        22839,
+        4080,
+        10853,
+        30451,
+        40741
+      ],
+      "rejected_count": 12,
+      "usual_paths": [
+        {
+          "question": "Question: What is the color of the kite?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.027957916259765625
+        },
+        {
+          "question": "Question: What is the color of the street light visible in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.027999401092529297
+        },
+        {
+          "question": "Question: What is the color of the light on the street light visible in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.025814533233642578
+        },
+        {
+          "question": "Question: What is the color of the street light visible in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.027999401092529297,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the street light visible in the image?",
+          "answers": [
+            "red",
+            "yellow",
+            "green"
+          ],
+          "score": 0.02812337875366211
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the traffic light visible in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.027063369750976562
+        },
+        {
+          "question": "Question: What is the color of the traffic light visible in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.027063369750976562,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the traffic light visible in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.027063369750976562,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the traffic light visible in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.027063369750976562,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the traffic light visible in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.027063369750976562,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "image of a red lobster restaurant from the street, featuring a black street light and a one-way sign, with a man in an orange shirt walking toward the entrance",
+      "question": "Question: What is the color of the fire hydrant visible in front of the store?",
+      "answer": "I'm sorry, but there is no fire hydrant visible in the image.",
+      "query_after": "an image of a red lobster restaurant from the street, featuring a one-way sign and a black street light, with a man in an orange shirt walking toward the entrance, and no fire hydrant visible in front of the store",
+      "displayed_ids": [
+        17087,
+        11635,
+        28449,
+        3203,
+        24819,
+        28949,
+        29472,
+        40955,
+        3530,
+        45457
+      ],
+      "selected_ids": [
+        34835,
+        35807,
+        47261,
+        4080,
+        45099,
+        25034,
+        27389,
+        12348,
+        20555,
+        35998
+      ],
+      "rejected_count": 14,
+      "usual_paths": [
+        {
+          "question": "What is the text written on the one-way sign?",
+          "answers": [
+            "ONE WAY",
+            "ONEWAY",
+            "ONE WAY HERE"
+          ],
+          "score": 0.0014319419860839844
+        },
+        {
+          "question": "What is the text written on the one-way sign?",
+          "answers": [
+            "ONE WAY",
+            "ONEWAY",
+            "ONE WAY HERE"
+          ],
+          "score": 0.0014319419860839844,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the fire hydrant visible in front of the store?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.0331878662109375
+        },
+        {
+          "question": "what is the color of the fire hydrant visible in front of the store?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.02658987045288086
+        },
+        {
+          "question": "what is the color of the fire hydrant in front of the store?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.024940967559814453
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the fire hydrant visible in front of the store?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.030375957489013672
+        },
+        {
+          "question": "Question: What is the color of the fire hydrant visible in front of the store?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.030375957489013672,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the fire hydrant visible in front of the store?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.030375957489013672,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the fire hydrant visible in front of the store?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.02658987045288086
+        },
+        {
+          "question": "what is the color of the fire hydrant visible in front of the store?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.02658987045288086,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "an image of a red lobster restaurant from the street, featuring a one-way sign and a black street light, with a man in an orange shirt walking toward the entrance, and no fire hydrant visible in front of the store",
+      "question": "what is the color of the awning on the front facade of the building?",
+      "answer": "red",
+      "query_after": "a street view of a red lobster restaurant featuring a red awning, a black street light, and a one-way sign, with a man in an orange shirt walking toward the entrance and no fire hydrant visible",
+      "displayed_ids": [
+        45907,
+        24819,
+        17087,
+        40955,
+        3203,
+        3530,
+        12108,
+        28449,
+        28949,
+        17131
+      ],
+      "selected_ids": [
+        20405,
+        20555,
+        470,
+        35938,
+        8717,
+        4144,
+        25034,
+        28340,
+        47261,
+        40174
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "Question: What is the color of the awning on the front facade of the building?",
+          "answers": [
+            "blue and black",
+            "red lobster",
+            "black"
+          ],
+          "score": 0.013836860656738281
+        },
+        {
+          "question": "what color are the stripes on the awning of the building?",
+          "answers": [
+            "red",
+            "black",
+            "orange"
+          ],
+          "score": 0.009388923645019531
+        },
+        {
+          "question": "what is the color of the awning on the front facade of the building?",
+          "answers": [
+            "blue",
+            "black",
+            "no awning"
+          ],
+          "score": 0.015273571014404297
+        },
+        {
+          "question": "what is the color of the awning on the front facade of the building?",
+          "answers": [
+            "blue",
+            "black",
+            "no awning"
+          ],
+          "score": 0.015273571014404297,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what color is the awning on the front facade of the building?",
+          "answers": [
+            "red",
+            "black",
+            "white"
+          ],
+          "score": 0.010518550872802734
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the awning on the front facade of the building?",
+          "answers": [
+            "blue and black",
+            "red lobster",
+            "black"
+          ],
+          "score": 0.013836860656738281
+        },
+        {
+          "question": "Question: What is the pattern of the awning on the front facade of the building?",
+          "answers": [
+            "striped",
+            "solid",
+            "checkered"
+          ],
+          "score": 0.004444122314453125
+        },
+        {
+          "question": "Question: What is the color of the awning on the front facade of the building?",
+          "answers": [
+            "blue and black",
+            "red lobster",
+            "black"
+          ],
+          "score": 0.013836860656738281,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the awning on the front facade of the building?",
+          "answers": [
+            "blue and black",
+            "red lobster",
+            "black"
+          ],
+          "score": 0.013836860656738281,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the awning on the front facade of the building?",
+          "answers": [
+            "blue and black",
+            "red lobster",
+            "black"
+          ],
+          "score": 0.013836860656738281,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a street view of a red lobster restaurant featuring a red awning, a black street light, and a one-way sign, with a man in an orange shirt walking toward the entrance and no fire hydrant visible",
+      "question": "what is the color of the fire hydrant visible in the image?",
+      "answer": "I'm sorry, but the image does not show a fire hydrant.",
+      "query_after": "an image of a red lobster restaurant featuring a red awning, a black street light, and a one-way sign, with a man in an orange shirt walking toward the entrance, and no fire hydrant visible",
+      "displayed_ids": [
+        24819,
+        45907,
+        12108,
+        3530,
+        40955,
+        28949,
+        28449,
+        17087,
+        13199,
+        18168
+      ],
+      "selected_ids": [
+        3669,
+        36657,
+        20555,
+        35938,
+        26539,
+        8717,
+        18719,
+        8169,
+        33125,
+        25034
+      ],
+      "rejected_count": 18,
+      "usual_paths": [
+        {
+          "question": "what is the color of the umbrellas seen in the image?",
+          "answers": [
+            "red",
+            "no umbrellas",
+            "unknown"
+          ],
+          "score": 0.004097461700439453
+        },
+        {
+          "question": "What is the direction of the one-way sign visible in the image?",
+          "answers": [
+            "left",
+            "right"
+          ],
+          "score": 0.00036907196044921875
+        },
+        {
+          "question": "Question: What is the direction of the one-way sign visible in the image?",
+          "answers": [
+            "left",
+            "right",
+            "both"
+          ],
+          "score": 0.0004248619079589844
+        },
+        {
+          "question": "what is the color of the awning on the front facade of the building?",
+          "answers": [
+            "blue and black",
+            "red",
+            "nothing"
+          ],
+          "score": 0.019319534301757812
+        },
+        {
+          "question": "what is the color of the fire hydrant visible in the image?",
+          "answers": [
+            "red",
+            "yellow",
+            "I'm sorry, but there is no fire hydrant visible in the image."
+          ],
+          "score": 0.02060699462890625
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "red",
+            "one-way sign",
+            "street light"
+          ],
+          "score": 0.014446258544921875
+        },
+        {
+          "question": "What is the direction of the one-way sign visible in the image?",
+          "answers": [
+            "left",
+            "right"
+          ],
+          "score": 0.00036907196044921875
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "red",
+            "one-way sign",
+            "street light"
+          ],
+          "score": 0.014446258544921875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "What is the direction of traffic indicated by the one-way sign?",
+          "answers": [
+            "left",
+            "right",
+            "straight"
+          ],
+          "score": 0.0005950927734375
+        },
+        {
+          "question": "Question: What is the direction of traffic indicated by the one-way sign?",
+          "answers": [
+            "left",
+            "right",
+            "unknown"
+          ],
+          "score": 0.0005040168762207031
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "an image of a red lobster restaurant featuring a red awning, a black street light, and a one-way sign, with a man in an orange shirt walking toward the entrance, and no fire hydrant visible",
+      "question": "Question: What is the color of the traffic light visible in the image?",
+      "answer": "black",
+      "query_after": "a street view of a red lobster restaurant featuring a red awning, a black one-way sign, and a black street light, with a man in an orange shirt walking toward the entrance, and no fire hydrant visible",
+      "displayed_ids": [
+        45907,
+        24819,
+        12108,
+        3530,
+        28449,
+        3203,
+        40955,
+        17087,
+        28949,
+        3502
+      ],
+      "selected_ids": [
+        25034,
+        40803,
+        35938,
+        8169,
+        26943,
+        36606,
+        20405,
+        20555,
+        45099,
+        38041
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "red lobster restaurant",
+            "one-way sign",
+            "street light"
+          ],
+          "score": 0.01894855499267578
+        },
+        {
+          "question": "Question: What is the name of the restaurant visible in the image?",
+          "answers": [
+            "red lobster",
+            "jerk",
+            "unknown restaurant"
+          ],
+          "score": 0.0072307586669921875
+        },
+        {
+          "question": "Question: What is the theme of the restaurant's exterior paint?",
+          "answers": [
+            "tropical",
+            "red",
+            "rustic"
+          ],
+          "score": 0.018289566040039062
+        },
+        {
+          "question": "what is the color of the awning on the front facade of the building?",
+          "answers": [
+            "red",
+            "orange",
+            "I don't see an awning"
+          ],
+          "score": 0.005430698394775391
+        },
+        {
+          "question": "what is the color of the awning on the front facade of the building?",
+          "answers": [
+            "red",
+            "orange",
+            "I don't see an awning"
+          ],
+          "score": 0.005430698394775391,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "red lobster restaurant",
+            "one-way sign",
+            "street light"
+          ],
+          "score": 0.01894855499267578
+        },
+        {
+          "question": "Question: What color is the traffic light visible in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.0315394401550293
+        },
+        {
+          "question": "What is the color of the traffic light visible in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.032341957092285156
+        },
+        {
+          "question": "Question: What color is the traffic light visible in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.0315394401550293,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the traffic light visible in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.03359031677246094
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a street view of a red lobster restaurant featuring a red awning, a black one-way sign, and a black street light, with a man in an orange shirt walking toward the entrance, and no fire hydrant visible",
+      "question": "what is the other object in the image?",
+      "answer": "traffic light",
+      "query_after": "a street view of a red lobster restaurant featuring a red awning, a black one-way sign, a black traffic light, and a street light, with a man in an orange shirt walking toward the entrance; note that no fire hydrant is visible in the image.",
+      "displayed_ids": [
+        24819,
+        45907,
+        12108,
+        3530,
+        17087,
+        40955,
+        13199,
+        28949,
+        3203,
+        28449
+      ],
+      "selected_ids": [
+        39632,
+        28742,
+        40741,
+        8717,
+        18024,
+        40803,
+        35938,
+        20555,
+        45099,
+        41847
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "**Question:** What is the type of building where the restaurant is located?",
+          "answers": [
+            "brick",
+            "concrete",
+            "wood"
+          ],
+          "score": 0.013958930969238281
+        },
+        {
+          "question": "**Question:** What is the material of the building where the restaurant is located?",
+          "answers": [
+            "brick",
+            "stone",
+            "concrete"
+          ],
+          "score": 0.00947427749633789
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "red lobster restaurant",
+            "one-way sign",
+            "street light"
+          ],
+          "score": 0.0164031982421875
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "red lobster restaurant",
+            "one-way sign",
+            "street light"
+          ],
+          "score": 0.0164031982421875,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "red lobster restaurant",
+            "one-way sign",
+            "street light"
+          ],
+          "score": 0.0164031982421875,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "**Question:** What is the color of the fire hydrant visible in the image?",
+          "answers": [
+            "red",
+            "I'm sorry, but there is no fire hydrant visible in the image.",
+            "orange"
+          ],
+          "score": 0.005144596099853516
+        },
+        {
+          "question": "**Question:** What is the color of the fire hydrant visible in the image?",
+          "answers": [
+            "red",
+            "I'm sorry, but there is no fire hydrant visible in the image.",
+            "orange"
+          ],
+          "score": 0.005144596099853516,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the fire hydrant visible in the image?",
+          "answers": [
+            "red",
+            "I'm sorry, but there is no fire hydrant visible in the image.",
+            "orange"
+          ],
+          "score": 0.003985881805419922
+        },
+        {
+          "question": "**Question:** What is the color of the fire hydrant visible in the image?",
+          "answers": [
+            "red",
+            "I'm sorry, but there is no fire hydrant visible in the image.",
+            "orange"
+          ],
+          "score": 0.005144596099853516,
+          "duplicate_of": 0
+        },
+        {
+          "question": "**Question:** What is the name of the restaurant visible in the image?",
+          "answers": [
+            "red lobster",
+            "applebee's",
+            "olive garden"
+          ],
+          "score": 0.012629985809326172
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a street view of a red lobster restaurant featuring a red awning, a black one-way sign, a black traffic light, and a street light, with a man in an orange shirt walking toward the entrance; note that no fire hydrant is visible in the image.",
+      "question": "what is the other object in the image?",
+      "answer": "traffic light",
+      "query_after": "a street view of a red lobster restaurant featuring a red awning, a black one-way sign, a black traffic light, and a man in an orange shirt walking toward the entrance, with no fire hydrant visible",
+      "displayed_ids": [
+        24819,
+        45907,
+        3530,
+        17087,
+        28949,
+        40955,
+        3203,
+        29472,
+        45457,
+        28449
+      ],
+      "selected_ids": [
+        13447,
+        20555,
+        45099,
+        35807,
+        40741,
+        34835,
+        25034,
+        39632,
+        4544,
+        29472
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "traffic light",
+            "one-way sign",
+            "sidewalk cafe"
+          ],
+          "score": 0.018132686614990234
+        },
+        {
+          "question": "what is the color of the one-way sign visible in the image?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.01282501220703125
+        },
+        {
+          "question": "what is the color of the traffic light visible in the image?",
+          "answers": [
+            "black",
+            "red",
+            "green"
+          ],
+          "score": 0.014638900756835938
+        },
+        {
+          "question": "what is the color of the one-way sign visible in the image?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.01282501220703125,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the one-way sign visible in the image?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.01282501220703125,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the text written on the sign above the entrance of the restaurant?",
+          "answers": [
+            "Red Lobster",
+            "ONE WAY",
+            "CAFE"
+          ],
+          "score": 0.004601955413818359
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sign",
+            "traffic light",
+            "awning"
+          ],
+          "score": 0.006127834320068359
+        },
+        {
+          "question": "what is the color of the one-way sign visible on the street?",
+          "answers": [
+            "white",
+            "black",
+            "blue"
+          ],
+          "score": 0.013606548309326172
+        },
+        {
+          "question": "what is the color of the one-way sign visible on the street?",
+          "answers": [
+            "white",
+            "black",
+            "blue"
+          ],
+          "score": 0.013606548309326172,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the color of the awning on the front facade of the building?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.015208721160888672
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a street view of a red lobster restaurant featuring a red awning, a black one-way sign, a black traffic light, and a man in an orange shirt walking toward the entrance, with no fire hydrant visible",
+      "question": "Question: What is the color of the traffic light visible in the image?",
+      "answer": "black",
+      "query_after": "The image shows a street view of a Red Lobster restaurant, which has a red awning, a black one-way sign, and a black traffic light. A man wearing an orange shirt is walking toward the entrance, and there is no fire hydrant visible.",
+      "displayed_ids": [
+        24819,
+        12108,
+        45907,
+        3530,
+        40955,
+        28949,
+        18168,
+        3203,
+        17692,
+        17087
+      ],
+      "selected_ids": [
+        12126,
+        12348,
+        3669,
+        13447,
+        43042,
+        29472,
+        4080,
+        45907,
+        33612,
+        33125
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "traffic light",
+            "one way sign",
+            "street light"
+          ],
+          "score": 0.012623310089111328
+        },
+        {
+          "question": "Question: What is the color of the traffic light visible in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.02979278564453125
+        },
+        {
+          "question": "what is the name of the restaurant visible in the image?",
+          "answers": [
+            "Red Lobster",
+            "Chili's",
+            "Olive Garden"
+          ],
+          "score": 0.01207876205444336
+        },
+        {
+          "question": "what is the name of the restaurant visible in the image?",
+          "answers": [
+            "Red Lobster",
+            "Chili's",
+            "Olive Garden"
+          ],
+          "score": 0.01207876205444336,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the name of the restaurant visible in the image?",
+          "answers": [
+            "Red Lobster",
+            "Chili's",
+            "Olive Garden"
+          ],
+          "score": 0.01207876205444336,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the fire hydrant visible in the image?",
+          "answers": [
+            "red",
+            "I'm sorry, but there is no fire hydrant visible in the image.",
+            "I'm sorry, but the image does not show a fire hydrant."
+          ],
+          "score": 0.0034203529357910156
+        },
+        {
+          "question": "what is the color of the fire hydrant visible in the image?",
+          "answers": [
+            "I'm sorry, but there is no fire hydrant visible in the image.",
+            "red",
+            "orange"
+          ],
+          "score": 0.005757808685302734
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "traffic light",
+            "one-way sign",
+            "street light"
+          ],
+          "score": 0.01297140121459961
+        },
+        {
+          "question": "Where is the red lobster restaurant located in the image?",
+          "answers": [
+            "left side",
+            "right side",
+            "center"
+          ],
+          "score": 0.0015535354614257812
+        },
+        {
+          "question": "Question: What is the color of the fire hydrant visible in the image?",
+          "answers": [
+            "red",
+            "I'm sorry, but there is no fire hydrant visible in the image.",
+            "I'm sorry, but the image does not show a fire hydrant."
+          ],
+          "score": 0.0034203529357910156,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "The image shows a street view of a Red Lobster restaurant, which has a red awning, a black one-way sign, and a black traffic light. A man wearing an orange shirt is walking toward the entrance, and there is no fire hydrant visible.",
+      "question": "Question: What object is parked on the corner next to the old brick building?",
+      "answer": "There is no old brick building in the image. The building shown is a Red Lobster restaurant, which appears to be made of light-colored siding, not brick. Therefore, I am unsure what object is parked next to an old brick building",
+      "query_after": "a red lobster restaurant with a red awning and light-colored siding, featuring a black one-way sign and a black traffic light, with a man in an orange shirt walking toward the entrance and a black street light visible, with no fire hydrant or old brick building present",
+      "displayed_ids": [
+        24819,
+        17087,
+        3530,
+        45907,
+        40955,
+        29472,
+        13199,
+        11635,
+        28449,
+        12108
+      ],
+      "selected_ids": [
+        18024,
+        4080,
+        17131,
+        41133,
+        40803,
+        29472,
+        12348,
+        43042,
+        39215,
+        3502
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "traffic light",
+            "sign",
+            "building"
+          ],
+          "score": 0.014241218566894531
+        },
+        {
+          "question": "what is the color of the awning on the front facade of the building?",
+          "answers": [
+            "red",
+            "orange",
+            "black"
+          ],
+          "score": 0.0030951499938964844
+        },
+        {
+          "question": "what is the name of the restaurant shown in the image?",
+          "answers": [
+            "Red Lobster",
+            "Olive Garden",
+            "TGI Friday's"
+          ],
+          "score": 0.008911609649658203
+        },
+        {
+          "question": "what is the brand name of the restaurant shown in the image?",
+          "answers": [
+            "Red Lobster",
+            "McDonald's",
+            "Starbucks"
+          ],
+          "score": 0.012775421142578125
+        },
+        {
+          "question": "what is the brand name of the restaurant shown in the image?",
+          "answers": [
+            "Red Lobster",
+            "McDonald's",
+            "Starbucks"
+          ],
+          "score": 0.012775421142578125,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "traffic light",
+            "sign",
+            "building"
+          ],
+          "score": 0.014241218566894531
+        },
+        {
+          "question": "Question: What object is parked on the corner next to the old brick building?",
+          "answers": [
+            "red lobster restaurant",
+            "fire hydrant",
+            "traffic light"
+          ],
+          "score": 0.022068500518798828
+        },
+        {
+          "question": "Question: What is the color of the fire hydrant visible in the image?",
+          "answers": [
+            "I'm sorry, but there is no fire hydrant visible in the image.",
+            "I'm sorry, but the image does not show a fire hydrant.",
+            "There is no fire hydrant in the image."
+          ],
+          "score": 0.0018534660339355469
+        },
+        {
+          "question": "what is the color of the building in the image?",
+          "answers": [
+            "red",
+            "brick",
+            "brown"
+          ],
+          "score": 0.00886392593383789
+        },
+        {
+          "question": "Question: What is the color of the fire hydrant visible in the image?",
+          "answers": [
+            "I'm sorry, but there is no fire hydrant visible in the image.",
+            "I'm sorry, but the image does not show a fire hydrant.",
+            "There is no fire hydrant in the image."
+          ],
+          "score": 0.0018534660339355469,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

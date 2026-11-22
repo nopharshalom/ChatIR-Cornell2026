@@ -1,0 +1,71 @@
+{
+  "qid": 1750,
+  "initial": "a woman sitting at a tall table working on a laptop",
+  "initial_rank": 27,
+  "evidence": [
+    "a group of people are at a table drinking wine",
+    "a cat is sitting on a laptop computer",
+    "a woman sits in a restaurant with a group of people",
+    "a woman sitting at a wooden bench and eating food",
+    "a woman is selling food in a boat",
+    "woman using her cell phone in a bar",
+    "a group of people are using laptops at a convention",
+    "laptops in a classroom",
+    "the woman is smiling as she eats her food",
+    "a man typing in front of a laptop"
+  ],
+  "displayed_ids": [
+    2096,
+    21505,
+    20225,
+    35278,
+    12330,
+    37200,
+    10901,
+    39712,
+    30197,
+    13741
+  ],
+  "rejected_captions": [
+    "a asian woman using a laptop",
+    "a woman is using a laptop computer",
+    "person is in the library",
+    "a woman wearing a black top and black skirt and boots",
+    "large wooden conference room table",
+    "a girl using a laptop",
+    "the woman is smiling",
+    "two women are working on laptops",
+    "a man in a white coat is working on a laptop",
+    "a small, dark-colored restaurant"
+  ],
+  "candidates": [
+    "Question: Is the woman wearing a hat?",
+    "Question: What color is the table the woman is sitting at?",
+    "Question: What is the color of the table the woman is sitting at?",
+    "Question: What is the color of the table the woman is sitting at?",
+    "Question: What is the color of the table the woman is sitting at?"
+  ],
+  "control_candidates": [
+    "Question: What is the material of the table where the woman is sitting?",
+    "Question: What is the color of the table where the woman is sitting?",
+    "what is the woman wearing?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "control": {
+    "question": "Question: What is the material of the table where the woman is sitting?",
+    "answer": "wood",
+    "rewrite": "a woman sitting at a tall wooden table working on a laptop",
+    "rank": 70,
+    "hit": false,
+    "raw_rank": 70,
+    "unseen_rank": 61
+  },
+  "variant": {
+    "question": "Question: What color is the table the woman is sitting at?",
+    "answer": "black",
+    "rewrite": "a woman sitting at a black tall table working on a laptop",
+    "raw_rank": 8,
+    "unseen_rank": 4
+  }
+}

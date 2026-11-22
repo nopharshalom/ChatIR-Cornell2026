@@ -1,0 +1,78 @@
+{
+  "qid": 1235,
+  "sample": 2,
+  "first_candidates": [
+    "what is the color of the giraffes in the image?",
+    "what is the color of the giraffes in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "second_candidates": [
+    "Question: What is the gender of the giraffes in the image?",
+    "what is the other object in the image?",
+    "what is the gender of the giraffes in the image?",
+    "Question: what is the color of the giraffes' spots?",
+    "what is the color of the giraffes' spots?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What is the gender of the giraffes in the image?",
+      "answers": [
+        "adults",
+        "adults and calves",
+        "mixed"
+      ],
+      "score": 0.01332998275756836
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "fence",
+        "trees",
+        "grass"
+      ],
+      "score": 0.0786600112915039
+    },
+    {
+      "question": "what is the gender of the giraffes in the image?",
+      "answers": [
+        "adults",
+        "males",
+        "females"
+      ],
+      "score": 0.004273891448974609
+    },
+    {
+      "question": "Question: what is the color of the giraffes' spots?",
+      "answers": [
+        "brown",
+        "dark brown",
+        "black"
+      ],
+      "score": 0.006854057312011719
+    },
+    {
+      "question": "what is the color of the giraffes' spots?",
+      "answers": [
+        "brown",
+        "white",
+        "black"
+      ],
+      "score": 0.011287689208984375
+    }
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "score": 0.09721899032592773
+  },
+  "mixed": {
+    "question": "what is the other object in the image?",
+    "score": 0.09721899032592773
+  },
+  "control_rank": 10,
+  "mixed_rank": 10,
+  "usual_rank": 10,
+  "new_answer": null,
+  "new_rewrite": null
+}

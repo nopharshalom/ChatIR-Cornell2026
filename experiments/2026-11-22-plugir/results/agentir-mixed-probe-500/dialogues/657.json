@@ -1,0 +1,148 @@
+{
+  "qid": 657,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000438638.jpg",
+  "queries": [
+    "a girl is holding a phone in 1 hand and a sandwich in the other hand",
+    "a girl in a gray hoodie holding a phone in one hand and a sandwich in the other"
+  ],
+  "ranks": [
+    12,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a girl is holding a phone in 1 hand and a sandwich in the other hand",
+      "question": "What is the girl wearing?",
+      "answer": "gray hoodie",
+      "query_after": "a girl in a gray hoodie holding a phone in one hand and a sandwich in the other",
+      "displayed_ids": [
+        13755,
+        27715,
+        12485,
+        29687,
+        15758,
+        10669,
+        38948,
+        16641,
+        11857,
+        14374
+      ],
+      "selected_ids": [
+        1981,
+        33203,
+        4678,
+        45377,
+        43751,
+        3729,
+        10658,
+        22086,
+        17300,
+        11066
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the location where the girl is holding a phone and a sandwich?",
+          "answers": [
+            "restaurant",
+            "sidewalk",
+            "room"
+          ],
+          "score": 0.07942819595336914
+        },
+        {
+          "question": "what is the location where the girl is holding a phone and a sandwich?",
+          "answers": [
+            "restaurant",
+            "sidewalk",
+            "room"
+          ],
+          "score": 0.07942819595336914,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the girl holding a phone and a sandwich doing?",
+          "answers": [
+            "eating",
+            "walking",
+            "sitting"
+          ],
+          "score": 0.07780790328979492
+        },
+        {
+          "question": "what is the girl holding a phone and a sandwich doing?",
+          "answers": [
+            "eating",
+            "walking",
+            "sitting"
+          ],
+          "score": 0.07780790328979492,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the location where the girl is holding a phone and a sandwich?",
+          "answers": [
+            "restaurant",
+            "sidewalk",
+            "room"
+          ],
+          "score": 0.07942819595336914,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the location where the girl is holding the phone and sandwich?",
+          "answers": [
+            "restaurant",
+            "sidewalk",
+            "room"
+          ],
+          "score": 0.06562376022338867
+        },
+        {
+          "question": "What is the girl wearing?",
+          "answers": [
+            "a white shirt",
+            "a pink shirt",
+            "a black shirt"
+          ],
+          "score": 0.15943670272827148
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "hotdog",
+            "sandwich",
+            "phone"
+          ],
+          "score": 0.03899812698364258
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "hotdog",
+            "sandwich",
+            "phone"
+          ],
+          "score": 0.03899812698364258,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "hotdog",
+            "sandwich",
+            "phone"
+          ],
+          "score": 0.03899812698364258,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

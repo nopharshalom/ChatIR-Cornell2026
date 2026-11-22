@@ -1,0 +1,79 @@
+{
+  "qid": 1184,
+  "candidates": [
+    "Question: What activity is the little girl doing?",
+    "Question: What color is the little girl's dress?",
+    "Question: What is the little girl holding?",
+    "Question: Where is the little girl sitting?",
+    "Question: What color are the little girl's eyes?"
+  ],
+  "kl": {
+    "question": "Question: What activity is the little girl doing?",
+    "answer": "eating cake",
+    "rewrite": "a little girl with brown hair in a ponytail is outside by a bench eating cake",
+    "raw_rank": 1,
+    "unseen_rank": 1
+  },
+  "probe": {
+    "answer": "fork",
+    "rewrite": "a little girl with brown hair in a ponytail sits outside by a bench holding a fork",
+    "raw_rank": 3,
+    "unseen_rank": 1,
+    "question": "Question: What is the little girl holding?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What activity is the little girl doing?",
+        "answers": [
+          "sitting",
+          "throwing a kite",
+          "reading"
+        ],
+        "score": 0.058268070220947266
+      },
+      {
+        "question": "Question: What color is the little girl's dress?",
+        "answers": [
+          "white",
+          "brown",
+          "blue"
+        ],
+        "score": 0.059490203857421875
+      },
+      {
+        "question": "Question: What is the little girl holding?",
+        "answers": [
+          "kite",
+          "tennis racket",
+          "princess"
+        ],
+        "score": 0.11657476425170898
+      },
+      {
+        "question": "Question: Where is the little girl sitting?",
+        "answers": [
+          "on a bench",
+          "outside",
+          "in the park"
+        ],
+        "score": 0.01366567611694336
+      },
+      {
+        "question": "Question: What color are the little girl's eyes?",
+        "answers": [
+          "blue",
+          "brown",
+          "green"
+        ],
+        "score": 0.021927356719970703
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.05,
+    "probe_selection_seconds": 2.395,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": false
+}

@@ -1,0 +1,80 @@
+{
+  "qid": 1261,
+  "sample": 2,
+  "first_candidates": [
+    "What is the color of the kitchen in the image?",
+    "Question: What type of appliances are present in the kitchen?",
+    "Question: What color are the jars decorating the kitchen?",
+    "Question: What color are the cabinets in the kitchen?",
+    "Question: What is the material of the kitchen cabinets?"
+  ],
+  "second_candidates": [
+    "what color are the cabinets in the kitchen?",
+    "Question: what appliances are present in the tiny neat kitchen?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "paths": [
+    {
+      "question": "what color are the cabinets in the kitchen?",
+      "answers": [
+        "white",
+        "wooden",
+        "black"
+      ],
+      "score": 0.04738664627075195
+    },
+    {
+      "question": "Question: what appliances are present in the tiny neat kitchen?",
+      "answers": [
+        "nothing",
+        "a few",
+        "many"
+      ],
+      "score": 0.000308990478515625
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "glass jars",
+        "tall flowers",
+        "tiny neat kitchen"
+      ],
+      "score": 0.018177032470703125
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "glass jars",
+        "tall flowers",
+        "tiny neat kitchen"
+      ],
+      "score": 0.018177032470703125,
+      "duplicate_of": 2
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "glass jars",
+        "tall flowers",
+        "tiny neat kitchen"
+      ],
+      "score": 0.018177032470703125,
+      "duplicate_of": 2
+    }
+  ],
+  "control": {
+    "question": "What is the color of the kitchen in the image?",
+    "score": 0.06763124465942383
+  },
+  "mixed": {
+    "question": "What is the color of the kitchen in the image?",
+    "score": 0.06763124465942383
+  },
+  "control_rank": 100,
+  "mixed_rank": 100,
+  "usual_rank": 100,
+  "new_answer": null,
+  "new_rewrite": null
+}

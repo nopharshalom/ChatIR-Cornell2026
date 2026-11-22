@@ -1,0 +1,115 @@
+{
+  "chosen": "what is the color of the man's shirt?",
+  "default": "what is the type of pole next to the fire hydrant where the man is standing?",
+  "ids": [
+    29472,
+    24732,
+    32266,
+    10438
+  ],
+  "trials": {
+    "what is the type of pole next to the fire hydrant where the man is standing?": {
+      "answers": [
+        "traffic pole",
+        "traffic",
+        "pole",
+        "street"
+      ],
+      "rewrites": {
+        "traffic pole": "a man stands on top of a fire hydrant next to a traffic pole",
+        "traffic": "a man stands on top of a fire hydrant next to a traffic pole",
+        "pole": "a man stands on top of a fire hydrant next to a pole",
+        "street": "a man stands on top of a fire hydrant next to a street pole"
+      },
+      "ranks": [
+        14,
+        19,
+        31,
+        56
+      ],
+      "hits": 0
+    },
+    "what is the color of the man's shirt?": {
+      "answers": [
+        "white",
+        "gray",
+        "yellow",
+        "blue"
+      ],
+      "rewrites": {
+        "white": "a man in a white shirt stands on top of a fire hydrant next to a pole",
+        "gray": "a man in a gray shirt stands on top of a fire hydrant next to a pole",
+        "yellow": "a man in a yellow shirt stands on top of a fire hydrant next to a pole",
+        "blue": "a man in a blue shirt stands on top of a fire hydrant next to a pole"
+      },
+      "ranks": [
+        47,
+        23,
+        6,
+        26
+      ],
+      "hits": 1
+    },
+    "what is the color of the fire hydrant the man is standing on?": {
+      "answers": [
+        "gray",
+        "red",
+        "yellow",
+        "red"
+      ],
+      "rewrites": {
+        "gray": "a man stands on top of a gray fire hydrant next to a pole",
+        "red": "a man stands on top of a red fire hydrant next to a pole",
+        "yellow": "a man stands on top of a yellow fire hydrant next to a pole"
+      },
+      "ranks": [
+        8,
+        21,
+        19,
+        23
+      ],
+      "hits": 1
+    },
+    "what is the gender of the person standing on top of the fire hydrant?": {
+      "answers": [
+        "I'm unsure, as there is no fire hydrant visible in the image.",
+        "unsure",
+        "female",
+        "male"
+      ],
+      "rewrites": {
+        "I'm unsure, as there is no fire hydrant visible in the image.": "a man stands on top of a pole",
+        "unsure": "a person stands on top of a fire hydrant next to a pole",
+        "female": "a woman stands on top of the fire hydrant next to the pole",
+        "male": "a man stands on top of a fire hydrant next to a pole"
+      },
+      "ranks": [
+        32,
+        34,
+        26,
+        40
+      ],
+      "hits": 0
+    },
+    "what is the color of the fire hydrant the man is standing on top of?": {
+      "answers": [
+        "there is no fire hydrant in the image.",
+        "red",
+        "yellow",
+        "red"
+      ],
+      "rewrites": {
+        "there is no fire hydrant in the image.": "a man stands on top of a pole",
+        "red": "a man stands on top of a red fire hydrant next to a pole",
+        "yellow": "a man stands on top of a yellow fire hydrant next to a pole"
+      },
+      "ranks": [
+        32,
+        21,
+        19,
+        23
+      ],
+      "hits": 0
+    }
+  }
+}

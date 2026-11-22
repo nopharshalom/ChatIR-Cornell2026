@@ -1,0 +1,114 @@
+{
+  "chosen": "what is the other object in the image?",
+  "default": "what is the other object in the image?",
+  "ids": [
+    38333,
+    7386,
+    35921,
+    48926
+  ],
+  "trials": {
+    "what is the other object in the image?": {
+      "answers": [
+        "a street light",
+        "building",
+        "fernsehturm",
+        "buildings"
+      ],
+      "rewrites": {
+        "a street light": "a tall water tower stands behind a metal fence with a street light nearby",
+        "building": "a tall water tower stands behind a metal fence with a building in the background",
+        "fernsehturm": "a tall water tower stands behind a metal fence with a television tower (Fernsehturm) nearby",
+        "buildings": "a tall water tower stands behind a metal fence with buildings in the background"
+      },
+      "ranks": [
+        1,
+        10,
+        1,
+        23
+      ],
+      "hits": 3
+    },
+    "Question: Is the water tower white and red in color?": {
+      "answers": [
+        "No.",
+        "No",
+        "No",
+        "No"
+      ],
+      "rewrites": {
+        "No.": "a tall water tower stands behind a metal fence, not white and red in color",
+        "No": "a tall water tower that is not white and red stands behind a metal fence"
+      },
+      "ranks": [
+        22,
+        20,
+        26,
+        23
+      ],
+      "hits": 0
+    },
+    "Question: Is the water tower located next to a plane?": {
+      "answers": [
+        "No.",
+        "No",
+        "No",
+        "no"
+      ],
+      "rewrites": {
+        "No.": "a tall water tower stands behind a metal fence, not next to a plane",
+        "No": "a tall water tower stands behind a metal fence, not next to a plane",
+        "no": "a tall water tower stands behind a metal fence, not next to a plane"
+      },
+      "ranks": [
+        119,
+        486,
+        100,
+        336
+      ],
+      "hits": 0
+    },
+    "Question: What is the color of the water tower?": {
+      "answers": [
+        "I'm unsure.",
+        "red",
+        "white",
+        "gray"
+      ],
+      "rewrites": {
+        "I'm unsure.": "a tall water tower stands behind a metal fence, with an uncertain color",
+        "red": "a tall red water tower stands behind a metal fence",
+        "white": "a tall white water tower stands behind a metal fence",
+        "gray": "a tall gray water tower stands behind a metal fence"
+      },
+      "ranks": [
+        1,
+        14,
+        28,
+        25
+      ],
+      "hits": 1
+    },
+    "what is the color of the water tower?": {
+      "answers": [
+        "yellow",
+        "red",
+        "white",
+        "gray"
+      ],
+      "rewrites": {
+        "yellow": "a tall yellow water tower stands behind a metal fence",
+        "red": "a red water tower stands behind a metal fence",
+        "white": "a white water tower stands behind a metal fence",
+        "gray": "a gray water tower stands behind a metal fence"
+      },
+      "ranks": [
+        1,
+        25,
+        39,
+        30
+      ],
+      "hits": 1
+    }
+  }
+}

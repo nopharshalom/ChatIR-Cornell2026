@@ -1,0 +1,179 @@
+{
+  "qid": 822,
+  "initial": "several horses racing on a dirt path while people watch",
+  "initial_rank": 14,
+  "displayed": [
+    18626,
+    36494,
+    898,
+    22871,
+    10155,
+    46524,
+    4596,
+    43537,
+    17656,
+    6638
+  ],
+  "evidence": [
+    "two cowboys on horses with cows in the ring",
+    "two women ride their horses in a horse arena",
+    "two people on horses on the beach",
+    "two people riding dirt bikes down a race track",
+    "three brown horses standing together in a pen",
+    "a group of cows walking down a forest path",
+    "the ballplayer is throwing a ball to a person",
+    "a man riding a horse and an opponent",
+    "two people on horses",
+    "a crowd of people watching a ski race"
+  ],
+  "rejected_captions": [
+    "a group of people on horses are racing each other",
+    "two horses on a dirt track",
+    "jockeys race horses on the track",
+    "a race between three horses at an open racecourse",
+    "a race track with horses on it",
+    "two horse race runners in an event",
+    "a group of people riding horses along a dirt road",
+    "a crowd of people watching people riding horses at a race",
+    "the track is on dirt",
+    "three people riding horseback down a road"
+  ],
+  "usual": {
+    "candidates": [
+      "Question: How many horses are racing on the dirt path?",
+      "what is the other object in the image?",
+      "what is the other object in the image?",
+      "what is the other object in the image?",
+      "What activity are the people participating in while watching the horses race?"
+    ],
+    "question": "What activity are the people participating in while watching the horses race?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: How many horses are racing on the dirt path?",
+          "answers": [
+            "2",
+            "3",
+            "several"
+          ],
+          "score": 0.0008969306945800781
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "dirt bikes",
+            "people",
+            "fences"
+          ],
+          "score": 0.05688047409057617
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "dirt bikes",
+            "people",
+            "fences"
+          ],
+          "score": 0.05688047409057617,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "dirt bikes",
+            "people",
+            "fences"
+          ],
+          "score": 0.05688047409057617,
+          "duplicate_of": 1
+        },
+        {
+          "question": "What activity are the people participating in while watching the horses race?",
+          "answers": [
+            "Skiing",
+            "Equestrianism",
+            "Racing"
+          ],
+          "score": 0.0636439323425293
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.154,
+      "probe_selection_seconds": 1.476,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "watching",
+    "rewrite": "several horses racing on a dirt path while people stand and watch",
+    "raw_rank": 10,
+    "unseen_rank": 2
+  },
+  "rejected": {
+    "candidates": [
+      "Question: How many horses are participating in the race shown in the image?",
+      "Question: Question: Who are the people riding the horses?",
+      "Question: What are the people riding on?",
+      "Question: Question: What is the gender of the riders in the image?",
+      "Question: What is the gender of the riders in the image?"
+    ],
+    "question": "Question: Question: Who are the people riding the horses?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: How many horses are participating in the race shown in the image?",
+          "answers": [
+            "2",
+            "3",
+            "several"
+          ],
+          "score": 0.0010118484497070312
+        },
+        {
+          "question": "Question: Question: Who are the people riding the horses?",
+          "answers": [
+            "cowboys",
+            "women",
+            "men"
+          ],
+          "score": 0.027040958404541016
+        },
+        {
+          "question": "Question: What are the people riding on?",
+          "answers": [
+            "horses",
+            "dirt bikes",
+            "none"
+          ],
+          "score": 0.025487422943115234
+        },
+        {
+          "question": "Question: Question: What is the gender of the riders in the image?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.01039886474609375
+        },
+        {
+          "question": "Question: What is the gender of the riders in the image?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.010167121887207031
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.147,
+      "probe_selection_seconds": 2.469,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "Jockeys.",
+    "rewrite": "several jockeys riding horses on a dirt path while people watch",
+    "raw_rank": 26,
+    "unseen_rank": 17
+  }
+}

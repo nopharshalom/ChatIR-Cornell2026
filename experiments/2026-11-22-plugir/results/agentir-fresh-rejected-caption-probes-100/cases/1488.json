@@ -1,0 +1,180 @@
+{
+  "qid": 1488,
+  "initial": "a soccer player preparing to take a shot",
+  "initial_rank": 17,
+  "displayed": [
+    31571,
+    33630,
+    9363,
+    5393,
+    4517,
+    8812,
+    21556,
+    40086,
+    38286,
+    17428
+  ],
+  "evidence": [
+    "a man playing tennis in front of a crowd of people",
+    "a baseball player holds a bat in front of the crowd",
+    "a girl in a red soccer uniform chasing a ball",
+    "the tennis player is in front of a crowd",
+    "a man is playing tennis in front of a crowd of spectators",
+    "a man is serving a tennis ball on a tennis court",
+    "a baseball player standing in front of a crowd",
+    "three boys playing soccer on the field",
+    "a person is surfing on a white surfboard in the ocean",
+    "a child in a red and black uniform kicking a soccer ball"
+  ],
+  "rejected_captions": [
+    "the person is wearing white shoes",
+    "blue sky and sun",
+    "two girls are playing soccer on a field",
+    "a man in a red and white shirt",
+    "the man is wearing a red hat",
+    "the field is green",
+    "a soccer team is about to play a game",
+    "a man in black is kicking the soccer ball",
+    "a person is kicking a soccer ball",
+    "the person is outside"
+  ],
+  "usual": {
+    "candidates": [
+      "Question: What is the uniform color of the soccer player preparing to take a shot?",
+      "what is the color of the uniform worn by the soccer player preparing to take a shot?",
+      "Question: What is the color of the soccer player's uniform?",
+      "what is the team color of the soccer player preparing to take a shot?",
+      "what is the color of the uniform worn by the person playing soccer?"
+    ],
+    "question": "what is the color of the uniform worn by the person playing soccer?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the uniform color of the soccer player preparing to take a shot?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.12151145935058594
+        },
+        {
+          "question": "what is the color of the uniform worn by the soccer player preparing to take a shot?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.11132049560546875
+        },
+        {
+          "question": "Question: What is the color of the soccer player's uniform?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.16292333602905273
+        },
+        {
+          "question": "what is the team color of the soccer player preparing to take a shot?",
+          "answers": [
+            "red",
+            "black",
+            "white"
+          ],
+          "score": 0.06341886520385742
+        },
+        {
+          "question": "what is the color of the uniform worn by the person playing soccer?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.17953920364379883
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.064,
+      "probe_selection_seconds": 2.243,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "blue",
+    "rewrite": "a soccer player in a blue uniform preparing to take a shot",
+    "raw_rank": 4,
+    "unseen_rank": 3
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What color is the soccer player's uniform?",
+      "Question: What color is the soccer player's uniform?",
+      "Question: What color is the soccer player's uniform?",
+      "Question: What color is the soccer player's uniform?",
+      "what is the location where the soccer player is preparing to take a shot?"
+    ],
+    "question": "Question: What color is the soccer player's uniform?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What color is the soccer player's uniform?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.15020275115966797
+        },
+        {
+          "question": "Question: What color is the soccer player's uniform?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.15020275115966797,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the soccer player's uniform?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.15020275115966797,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the soccer player's uniform?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.15020275115966797,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the location where the soccer player is preparing to take a shot?",
+          "answers": [
+            "soccer field",
+            "field",
+            "stadium"
+          ],
+          "score": 0.022035598754882812
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.054,
+      "probe_selection_seconds": 0.925,
+      "probe_llm_calls": 2,
+      "probe_search_queries": 6
+    },
+    "answer": "Blue.",
+    "rewrite": "a blue-uniformed soccer player preparing to take a shot",
+    "raw_rank": 6,
+    "unseen_rank": 5
+  }
+}

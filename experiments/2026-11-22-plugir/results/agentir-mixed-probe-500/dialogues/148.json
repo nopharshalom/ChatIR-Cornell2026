@@ -1,0 +1,671 @@
+{
+  "qid": 148,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000083797.jpg",
+  "queries": [
+    "4 people sledding downhill, on snow, in a crouched position",
+    "4 people in blue jackets sledding downhill on snow in a crouched position",
+    "four people in blue jackets sledding downhill on snow in a crouched position",
+    "four people in blue jackets and black pants are sledding downhill in a crouched position on snow",
+    "four people in blue jackets and black pants are sledding downhill on snow in a crouched position, with no snowboards visible",
+    "four people in blue jackets and black pants are skiing downhill on snow in a crouched position"
+  ],
+  "ranks": [
+    36,
+    19,
+    16,
+    22,
+    53,
+    10
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "4 people sledding downhill, on snow, in a crouched position",
+      "question": "What is the color of the jacket worn by the person sledding?",
+      "answer": "blue",
+      "query_after": "4 people in blue jackets sledding downhill on snow in a crouched position",
+      "displayed_ids": [
+        8134,
+        7570,
+        38665,
+        29778,
+        19849,
+        7029,
+        29835,
+        23692,
+        21990,
+        9376
+      ],
+      "selected_ids": [
+        15754,
+        33098,
+        24765,
+        48782,
+        32100,
+        47965,
+        40430,
+        20998,
+        40857,
+        12948
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the clothing worn by the people sledding downhill on the snow?",
+          "answers": [
+            "jackets",
+            "suits",
+            "wetsuits"
+          ],
+          "score": 0.02660369873046875
+        },
+        {
+          "question": "what is the activity being performed by the people on the snowy slope?",
+          "answers": [
+            "sledding",
+            "skiing",
+            "snowboarding"
+          ],
+          "score": 0.011614322662353516
+        },
+        {
+          "question": "what is the name of the object the four people are using to sled downhill?",
+          "answers": [
+            "sleigh",
+            "sled",
+            "toboggan"
+          ],
+          "score": 0.004157543182373047
+        },
+        {
+          "question": "what is the color of the clothing worn by the people sledding downhill on the snow?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.06943225860595703
+        },
+        {
+          "question": "what is the color of the clothing worn by the people sledding downhill on the snow?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.06943225860595703,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the color of the jacket worn by the person sledding?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.1218867301940918
+        },
+        {
+          "question": "Question: What is the gender of the people sledding?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.014014720916748047
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "snowboard",
+            "helmet",
+            "gloves"
+          ],
+          "score": 0.014735698699951172
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "snowboard",
+            "helmet",
+            "gloves"
+          ],
+          "score": 0.014735698699951172,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "snowboard",
+            "helmet",
+            "gloves"
+          ],
+          "score": 0.014735698699951172,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "4 people in blue jackets sledding downhill on snow in a crouched position",
+      "question": "Question: What is the location where the four people are sledding?",
+      "answer": "snow",
+      "query_after": "four people in blue jackets sledding downhill on snow in a crouched position",
+      "displayed_ids": [
+        44478,
+        15873,
+        39473,
+        41129,
+        15322,
+        7570,
+        29835,
+        42123,
+        8134,
+        23692
+      ],
+      "selected_ids": [
+        7161,
+        44790,
+        38149,
+        17118,
+        47787,
+        4878,
+        20998,
+        27790,
+        40430,
+        18452
+      ],
+      "rejected_count": 16,
+      "usual_paths": [
+        {
+          "question": "Question: What is the location where the four people are sledding?",
+          "answers": [
+            "a snow-covered forest",
+            "a city street",
+            "a ski resort"
+          ],
+          "score": 0.06284952163696289
+        },
+        {
+          "question": "What are the four people sledding downhill wearing on their feet?",
+          "answers": [
+            "snow boots",
+            "ski boots",
+            "regular shoes"
+          ],
+          "score": 0.0046482086181640625
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sleds",
+            "jackets",
+            "snow"
+          ],
+          "score": 0.007640838623046875
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sleds",
+            "jackets",
+            "snow"
+          ],
+          "score": 0.007640838623046875,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what are the four people sledding downhill wearing on their feet?",
+          "answers": [
+            "snow boots",
+            "ski boots",
+            "regular shoes"
+          ],
+          "score": 0.0046482086181640625
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the gender of the people sledding?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.009531974792480469
+        },
+        {
+          "question": "Question: What is the activity of the people in the rejected photo where a person is doing a trick with a snowboard?",
+          "answers": [
+            "riding",
+            "falling",
+            "flying"
+          ],
+          "score": 0.01053619384765625
+        },
+        {
+          "question": "What is the gender of the people sledding?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.009531974792480469
+        },
+        {
+          "question": "Question: What is the gender of the people sledding?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.022350788116455078
+        },
+        {
+          "question": "Question: What is the activity of the people in the rejected photo where a person is doing a trick with a snowboard?",
+          "answers": [
+            "riding",
+            "falling",
+            "flying"
+          ],
+          "score": 0.01053619384765625,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "four people in blue jackets sledding downhill on snow in a crouched position",
+      "question": "what is the color of the pants worn by the people sledding?",
+      "answer": "black",
+      "query_after": "four people in blue jackets and black pants are sledding downhill in a crouched position on snow",
+      "displayed_ids": [
+        15873,
+        44478,
+        39473,
+        41129,
+        15322,
+        7570,
+        29835,
+        42123,
+        23692,
+        8134
+      ],
+      "selected_ids": [
+        15920,
+        47965,
+        24765,
+        6079,
+        40430,
+        38149,
+        23317,
+        27790,
+        14160,
+        4878
+      ],
+      "rejected_count": 16,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sleds",
+            "snow",
+            "trees"
+          ],
+          "score": 0.03511524200439453
+        },
+        {
+          "question": "what is the color of the pants worn by the four people sledding?",
+          "answers": [
+            "red",
+            "black",
+            "blue"
+          ],
+          "score": 0.048143863677978516
+        },
+        {
+          "question": "what is the color of the sleds used by the four people sledding?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.036208152770996094
+        },
+        {
+          "question": "what is the color of the sleds used by the four people sledding on the snow?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.04622983932495117
+        },
+        {
+          "question": "what is the color of the sleds used by the four people sledding on the snow?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.04622983932495117,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the pants worn by the people sledding?",
+          "answers": [
+            "blue",
+            "red",
+            "black"
+          ],
+          "score": 0.05520963668823242
+        },
+        {
+          "question": "Question: What is the name of the object that the four people are using to slide down the snow?",
+          "answers": [
+            "sled",
+            "sledding",
+            "sleigh"
+          ],
+          "score": 0.0008339881896972656
+        },
+        {
+          "question": "what is the color of the sled used by the four people?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.04001283645629883
+        },
+        {
+          "question": "what is the color of the sled used by the four people sledding?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.042481422424316406
+        },
+        {
+          "question": "Question: What is the body position of the four people sledding?",
+          "answers": [
+            "crouched",
+            "standing",
+            "sitting"
+          ],
+          "score": 0.018926620483398438
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "four people in blue jackets and black pants are sledding downhill in a crouched position on snow",
+      "question": "what is the position of the person on the snowboard?",
+      "answer": "there is no snowboard in the image.",
+      "query_after": "four people in blue jackets and black pants are sledding downhill on snow in a crouched position, with no snowboards visible",
+      "displayed_ids": [
+        15873,
+        44478,
+        39473,
+        7570,
+        42123,
+        29835,
+        41129,
+        15322,
+        38665,
+        4924
+      ],
+      "selected_ids": [
+        47965,
+        18811,
+        20998,
+        40430,
+        19919,
+        27790,
+        24765,
+        38149,
+        14160,
+        17118
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "snow",
+            "sleds",
+            "jackets"
+          ],
+          "score": 0.00203704833984375
+        },
+        {
+          "question": "what is the color of the pants worn by the person on the snowboard?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.02316427230834961
+        },
+        {
+          "question": "what is the color of the jacket worn by the person on the snowboard?",
+          "answers": [
+            "blue",
+            "black",
+            "unknown"
+          ],
+          "score": 0.0029578208923339844
+        },
+        {
+          "question": "what is the position of the person on the snowboard?",
+          "answers": [
+            "laying on the snow",
+            "sitting on the ground",
+            "flipping on a ramp"
+          ],
+          "score": 0.04606771469116211
+        },
+        {
+          "question": "what is the color of the sled being ridden by the four people?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.01791858673095703
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the jacket worn by the person performing the trick on the ramp?",
+          "answers": [
+            "black",
+            "blue",
+            "green"
+          ],
+          "score": 0.02044820785522461
+        },
+        {
+          "question": "what is the activity being performed by the people in the scene?",
+          "answers": [
+            "sledding",
+            "skiing",
+            "snowboarding"
+          ],
+          "score": 0.010723114013671875
+        },
+        {
+          "question": "what is the activity being performed by the people in the scene?",
+          "answers": [
+            "sledding",
+            "skiing",
+            "snowboarding"
+          ],
+          "score": 0.010723114013671875,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the activity being performed by the people in the scene?",
+          "answers": [
+            "sledding",
+            "skiing",
+            "snowboarding"
+          ],
+          "score": 0.010723114013671875,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the activity being performed by the person on the snowboard?",
+          "answers": [
+            "laying on the snow",
+            "sitting on the ground",
+            "flips on a ramp"
+          ],
+          "score": 0.04572772979736328
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "four people in blue jackets and black pants are sledding downhill on snow in a crouched position, with no snowboards visible",
+      "question": "what is the color of the sled being used by the four people?",
+      "answer": "there is no sled in the image. the people are using skis.",
+      "query_after": "four people in blue jackets and black pants are skiing downhill on snow in a crouched position",
+      "displayed_ids": [
+        44478,
+        39473,
+        15873,
+        7570,
+        41129,
+        42123,
+        29835,
+        4924,
+        15322,
+        46018
+      ],
+      "selected_ids": [
+        19371,
+        15920,
+        30265,
+        14160,
+        4878,
+        22190,
+        24765,
+        21717,
+        40430,
+        13200
+      ],
+      "rejected_count": 18,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sleds",
+            "sleighs",
+            "snow"
+          ],
+          "score": 0.0013079643249511719
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sleds",
+            "sleighs",
+            "snow"
+          ],
+          "score": 0.0013079643249511719,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sleds",
+            "sleighs",
+            "snow"
+          ],
+          "score": 0.0013079643249511719,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the snow in the image?",
+          "answers": [
+            "white",
+            "blue",
+            "gray"
+          ],
+          "score": 0.010102272033691406
+        },
+        {
+          "question": "what is the color of the snow in the image?",
+          "answers": [
+            "white",
+            "blue",
+            "gray"
+          ],
+          "score": 0.010102272033691406,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the sled being used by the four people?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.047803401947021484
+        },
+        {
+          "question": "Question: What is the color of the jacket worn by the person standing in the snow?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.044832706451416016
+        },
+        {
+          "question": "Question: What is the color of the sled being used by the four people?",
+          "answers": [
+            "blue",
+            "red",
+            "black"
+          ],
+          "score": 0.04231977462768555
+        },
+        {
+          "question": "what is the color of the jacket worn by the person on the snowboard?",
+          "answers": [
+            "blue",
+            "black",
+            "there is no snowboard in the image."
+          ],
+          "score": 0.015459537506103516
+        },
+        {
+          "question": "what is the color of the sled being used by the four people?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.047803401947021484,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

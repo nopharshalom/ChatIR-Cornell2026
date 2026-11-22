@@ -1,0 +1,71 @@
+{
+  "qid": 2005,
+  "initial": "a speedboat in the middle of a lake headed towards a bridge",
+  "initial_rank": 12,
+  "evidence": [
+    "a group of boats are docked in a marina next to a lighthouse",
+    "a river in the city near a city building and a bridge",
+    "a small dock with several boats docked",
+    "large white river boat parked next to a bridge",
+    "a man riding a boat down a river surrounded by trees",
+    "a row of two boats tied to a rope in a river",
+    "a train is going over an old bridge with trees",
+    "a man water skiing in a blue shirt",
+    "a sailboat on the water in front of a lighthouse",
+    "an airplane flying low over a city and bridge"
+  ],
+  "displayed_ids": [
+    24491,
+    49782,
+    29297,
+    11534,
+    44341,
+    43105,
+    11044,
+    42237,
+    47780,
+    21913
+  ],
+  "rejected_captions": [
+    "a jet ski rider flies through a body of water",
+    "a police boat is driving across a body of water",
+    "two people are water skiing on the water",
+    "a boat is in the water on a green area",
+    "the people are passing by a bridge over the river",
+    "the boat is red and yellow",
+    "a boat with a cable that is driving on water",
+    "a boat rowed by a man with a t-shirt",
+    "people are rowing on a canal under a bridge",
+    "a speed boat on the water"
+  ],
+  "candidates": [
+    "Question: What is the color of the speedboat?",
+    "Question: What is the background scenery behind the speedboat?",
+    "Question: What is the color of the speedboat?",
+    "Question: What color is the speedboat?",
+    "Question: What is the color of the speedboat?"
+  ],
+  "control_candidates": [
+    "what is the color of the speedboat?",
+    "what is the color of the bridge that the speedboat is heading towards?",
+    "what is the location of the speedboat?",
+    "what is the color of the bridge that the speedboat is heading towards?",
+    "Question: What is the color of the bridge that the speedboat is heading towards?"
+  ],
+  "control": {
+    "question": "what is the location of the speedboat?",
+    "answer": "on the water",
+    "rewrite": "a speedboat on the water headed towards a bridge",
+    "rank": 11,
+    "hit": false,
+    "raw_rank": 11,
+    "unseen_rank": 5
+  },
+  "variant": {
+    "question": "Question: What is the background scenery behind the speedboat?",
+    "answer": "Trees.",
+    "rewrite": "a speedboat in the middle of a lake headed towards a bridge with trees in the background",
+    "raw_rank": 9,
+    "unseen_rank": 4
+  }
+}

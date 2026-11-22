@@ -1,0 +1,80 @@
+{
+  "qid": 1621,
+  "candidates": [
+    "Question: What color is the sink in the bathroom that contains the white-tiled shower and a window?",
+    "Question: What color is the window frame in the bathroom with the white-tiled shower?",
+    "Question: What color is the bathtub in the bathroom with the white-tiled shower and a window?",
+    "Question: What color is the door in the bathroom with the white-tiled shower and a window?",
+    "Question: What color is the bathtub in the bathroom with the white-tiled shower and a window?"
+  ],
+  "kl": {
+    "question": "Question: What color is the window frame in the bathroom with the white-tiled shower?",
+    "answer": "black",
+    "rewrite": "a shower with white tiles and a black window frame",
+    "raw_rank": 7,
+    "unseen_rank": 2
+  },
+  "probe": {
+    "answer": "gray",
+    "rewrite": "a bathroom featuring a white-tiled shower with a window for light and a gray bathtub",
+    "raw_rank": 50,
+    "unseen_rank": 44,
+    "question": "Question: What color is the bathtub in the bathroom with the white-tiled shower and a window?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What color is the sink in the bathroom that contains the white-tiled shower and a window?",
+        "answers": [
+          "black",
+          "white",
+          "silver"
+        ],
+        "score": 0.03417348861694336
+      },
+      {
+        "question": "Question: What color is the window frame in the bathroom with the white-tiled shower?",
+        "answers": [
+          "white",
+          "black",
+          "silver"
+        ],
+        "score": 0.04826211929321289
+      },
+      {
+        "question": "Question: What color is the bathtub in the bathroom with the white-tiled shower and a window?",
+        "answers": [
+          "white",
+          "black",
+          "blue"
+        ],
+        "score": 0.05611705780029297
+      },
+      {
+        "question": "Question: What color is the door in the bathroom with the white-tiled shower and a window?",
+        "answers": [
+          "white",
+          "black",
+          "beige"
+        ],
+        "score": 0.0373234748840332
+      },
+      {
+        "question": "Question: What color is the bathtub in the bathroom with the white-tiled shower and a window?",
+        "answers": [
+          "white",
+          "black",
+          "blue"
+        ],
+        "score": 0.05611705780029297,
+        "duplicate_of": 2
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.055,
+    "probe_selection_seconds": 1.932,
+    "probe_llm_calls": 4,
+    "probe_search_queries": 12
+  },
+  "reused_outcome": false
+}

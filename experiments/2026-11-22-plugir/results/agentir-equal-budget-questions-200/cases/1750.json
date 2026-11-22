@@ -1,0 +1,80 @@
+{
+  "qid": 1750,
+  "sample": 1,
+  "first_candidates": [
+    "Question: What is the material of the table where the woman is sitting?",
+    "Question: What is the color of the table where the woman is sitting?",
+    "what is the woman wearing?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "second_candidates": [
+    "what is the woman doing on the laptop?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the location where the woman is sitting at a tall table working on a laptop?"
+  ],
+  "paths": [
+    {
+      "question": "what is the woman doing on the laptop?",
+      "answers": [
+        "working",
+        "writing",
+        "reading"
+      ],
+      "score": 0.01241445541381836
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "coffee",
+        "coffee cup",
+        "coffee mug"
+      ],
+      "score": 0.01296091079711914
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "coffee",
+        "coffee cup",
+        "coffee mug"
+      ],
+      "score": 0.01296091079711914,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "coffee",
+        "coffee cup",
+        "coffee mug"
+      ],
+      "score": 0.01296091079711914,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the location where the woman is sitting at a tall table working on a laptop?",
+      "answers": [
+        "restaurant",
+        "office",
+        "library"
+      ],
+      "score": 0.08920907974243164
+    }
+  ],
+  "control": {
+    "question": "what is the woman wearing?",
+    "score": 0.13210248947143555
+  },
+  "mixed": {
+    "question": "what is the woman wearing?",
+    "score": 0.13210248947143555
+  },
+  "control_rank": 15,
+  "mixed_rank": 15,
+  "usual_rank": 15,
+  "new_answer": null,
+  "new_rewrite": null
+}

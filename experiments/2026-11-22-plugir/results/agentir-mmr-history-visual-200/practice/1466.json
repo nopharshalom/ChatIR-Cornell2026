@@ -1,0 +1,112 @@
+{
+  "chosen": "Question: What is the specific type of motorcycle parked in the lot?",
+  "default": "Question: What is the specific type of motorcycle parked in the lot?",
+  "ids": [
+    32557,
+    49032,
+    44473,
+    40212
+  ],
+  "trials": {
+    "Question: What is the specific type of motorcycle parked in the lot?": {
+      "answers": [
+        "bmw",
+        "triumph",
+        "sport",
+        "The image shows various types of motorcycles, including scooters and larger bikes, but does not provide enough detail to identify the specific type or model."
+      ],
+      "rewrites": {
+        "bmw": "a group of BMW motorcycles parked in a parking lot",
+        "triumph": "a group of Triumph motorcycles parked in a parking lot",
+        "sport": "a group of sport motorcycles parked in a parking lot",
+        "The image shows various types of motorcycles, including scooters and larger bikes, but does not provide enough detail to identify the specific type or model.": "a group of various motorcycles, including scooters and larger bikes, parked in a parking lot"
+      },
+      "ranks": [
+        10,
+        17,
+        7,
+        7
+      ],
+      "hits": 3
+    },
+    "what is the color of the motorcycles parked in the lot?": {
+      "answers": [
+        "black",
+        "red",
+        "red",
+        "black"
+      ],
+      "rewrites": {
+        "black": "a group of black motorcycles parked in a parking lot",
+        "red": "a group of red motorcycles parked in a parking lot"
+      },
+      "ranks": [
+        3,
+        7,
+        1,
+        70
+      ],
+      "hits": 3
+    },
+    "what is the color of the motorcycle parked next to a cone?": {
+      "answers": [
+        "blue",
+        "black",
+        "yellow",
+        "blue"
+      ],
+      "rewrites": {
+        "blue": "a group of motorcycles parked in a parking lot, including a blue motorcycle next to a cone",
+        "black": "a group of motorcycles parked in a parking lot, including a black motorcycle next to a cone",
+        "yellow": "a group of motorcycles parked in a parking lot, including a yellow one next to a cone"
+      },
+      "ranks": [
+        12,
+        46,
+        28,
+        128
+      ],
+      "hits": 0
+    },
+    "Question: How many motorcycles are in the group parked in the lot?": {
+      "answers": [
+        "4",
+        "2",
+        "I'm sorry, I cannot answer this question as the image does not show the answer.",
+        "11"
+      ],
+      "rewrites": {
+        "4": "a group of four motorcycles parked in a parking lot",
+        "2": "a group of two motorcycles parked in a parking lot",
+        "I'm sorry, I cannot answer this question as the image does not show the answer.": "a group of motorcycles parked in a parking lot, with the specific number of motorcycles not visible",
+        "11": "a group of 11 motorcycles parked in a parking lot"
+      },
+      "ranks": [
+        16,
+        15,
+        14,
+        5
+      ],
+      "hits": 1
+    },
+    "Question: Is there a motorcycle rider wearing a helmet among the parked motorcycles?": {
+      "answers": [
+        "no",
+        "no",
+        "no",
+        "Yes"
+      ],
+      "rewrites": {
+        "no": "a group of parked motorcycles in a parking lot with no rider wearing a helmet",
+        "Yes": "a group of parked motorcycles in a parking lot, including one with a rider wearing a helmet"
+      },
+      "ranks": [
+        11,
+        26,
+        43,
+        77
+      ],
+      "hits": 0
+    }
+  }
+}

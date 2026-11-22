@@ -1,0 +1,80 @@
+{
+  "qid": 334,
+  "candidates": [
+    "Question: What is the color of the grass in the image?",
+    "Question: What is the color of the grass in the image?",
+    "Question: Question: What is the color of the grass in the image?",
+    "Question: Which of the three giraffes is positioned in front of the others?",
+    "Question: What type of enclosure are the three giraffes standing in?"
+  ],
+  "kl": {
+    "question": "Question: What type of enclosure are the three giraffes standing in?",
+    "answer": "wooden",
+    "rewrite": "three giraffes standing inside a wooden zoo enclosure",
+    "raw_rank": 85,
+    "unseen_rank": 78
+  },
+  "probe": {
+    "answer": "green",
+    "rewrite": "3 green giraffes standing inside of a zoo enclosure",
+    "raw_rank": 115,
+    "unseen_rank": 105,
+    "question": "Question: What is the color of the grass in the image?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the color of the grass in the image?",
+        "answers": [
+          "green",
+          "brown",
+          "yellow"
+        ],
+        "score": 0.020658493041992188
+      },
+      {
+        "question": "Question: What is the color of the grass in the image?",
+        "answers": [
+          "green",
+          "brown",
+          "yellow"
+        ],
+        "score": 0.020658493041992188,
+        "duplicate_of": 0
+      },
+      {
+        "question": "Question: Question: What is the color of the grass in the image?",
+        "answers": [
+          "green",
+          "brown",
+          "yellow"
+        ],
+        "score": 0.011507034301757812
+      },
+      {
+        "question": "Question: Which of the three giraffes is positioned in front of the others?",
+        "answers": [
+          "the left one",
+          "the middle one",
+          "the right one"
+        ],
+        "score": 0.002353668212890625
+      },
+      {
+        "question": "Question: What type of enclosure are the three giraffes standing in?",
+        "answers": [
+          "pen",
+          "enclosure",
+          "zoo"
+        ],
+        "score": 0.006148815155029297
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.048,
+    "probe_selection_seconds": 2.035,
+    "probe_llm_calls": 4,
+    "probe_search_queries": 12
+  },
+  "reused_outcome": false
+}

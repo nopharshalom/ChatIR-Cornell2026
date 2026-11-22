@@ -1,0 +1,101 @@
+{
+  "qid": 953,
+  "initial": "a man on a surfboard, with his arms outstretched, is riding a wave",
+  "initial_rank": 12,
+  "evidence": [
+    "man in water skiing harness",
+    "a surfer in a black wetsuit riding a wave",
+    "the surfer in a black wetsuit",
+    "the woman is catching a wave in the ocean",
+    "the ocean is dark with waves slapping against the shore",
+    "a person surfing on a yellow surfboard on a large wave",
+    "a surfer riding a wave on a green surfboard",
+    "man in black wetsuit surfing in waves",
+    "a man in a wetsuit is lying on a surfboard in the ocean",
+    "a surfer is in the air in a white wet suit"
+  ],
+  "candidates": [
+    "what color is the wetsuit worn by the man riding the wave?",
+    "what is the color of the surfboard the man is riding?",
+    "Question: what is the location where the man is riding the wave?",
+    "Question: What is the color of the wetsuit worn by the man riding the wave?",
+    "what is the color of the surfboard the man is riding?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what color is the wetsuit worn by the man riding the wave?",
+      "answers": [
+        "black",
+        "white",
+        "blue"
+      ],
+      "score": 0.0715951919555664
+    },
+    {
+      "question": "what is the color of the surfboard the man is riding?",
+      "answers": [
+        "black",
+        "yellow",
+        "green"
+      ],
+      "score": 0.12713623046875
+    },
+    {
+      "question": "Question: what is the location where the man is riding the wave?",
+      "answers": [
+        "the ocean",
+        "the beach",
+        "the shore"
+      ],
+      "score": 0.0034084320068359375
+    },
+    {
+      "question": "Question: What is the color of the wetsuit worn by the man riding the wave?",
+      "answers": [
+        "black",
+        "white",
+        "green"
+      ],
+      "score": 0.0705709457397461
+    },
+    {
+      "question": "what is the color of the surfboard the man is riding?",
+      "answers": [
+        "black",
+        "yellow",
+        "green"
+      ],
+      "score": 0.12713623046875,
+      "duplicate_of": 1
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.058,
+  "probe_selection_seconds": 2.057,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "what is the color of the surfboard the man is riding?",
+      "answer": "black",
+      "rewrite": "a man on a black surfboard, with his arms outstretched, is riding a wave",
+      "rank": 34,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the color of the surfboard the man is riding?",
+      "answer": "black",
+      "rewrite": "a man on a black surfboard, with his arms outstretched, is riding a wave",
+      "rank": 34,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the color of the surfboard the man is riding?",
+      "answer": "black",
+      "rewrite": "a man on a black surfboard, with his arms outstretched, is riding a wave",
+      "rank": 34,
+      "hit": false
+    }
+  },
+  "seconds": 10.419
+}

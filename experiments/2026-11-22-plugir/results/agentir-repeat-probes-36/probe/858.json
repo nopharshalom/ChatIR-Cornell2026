@@ -1,0 +1,73 @@
+{
+  "qid": 858,
+  "arm": "probe",
+  "after_round": 7,
+  "ranks": [
+    160,
+    173,
+    87,
+    39,
+    50,
+    67,
+    22,
+    24,
+    22,
+    20,
+    16
+  ],
+  "continuation": [
+    {
+      "round": 8,
+      "query_before": "On an overcast gray day, a large white stone building featuring a clock tower is situated at the corner of a city block, with a cobblestone street leading up to it and a street lamp standing nearby.",
+      "question": "Is the clock tower made of stone or is it a white building covered in snow?",
+      "answer": "stone",
+      "query_after": "a large stone building with a clock tower stands at the corner of a city block under a gray, overcast sky, featuring a cobblestone street in front and a street lamp nearby",
+      "searches": [
+        {
+          "query": "a large white stone building with a clock tower on a cobblestone street under an overcast gray sky with a street lamp",
+          "ids": [
+            7855,
+            36568,
+            11706
+          ],
+          "captions": [
+            "an old stone clock tower in the city",
+            "the wall has white painted brick",
+            "a clock tower with a statue on it"
+          ]
+        },
+        {
+          "query": "a large gray stone building with a clock tower on a cobblestone street under an overcast gray sky with a street lamp",
+          "ids": [
+            7855,
+            32126,
+            10495
+          ],
+          "captions": [
+            "an old stone clock tower in the city",
+            "a building on a street corner with a clock tower in the middle",
+            "large building on a street"
+          ]
+        }
+      ],
+      "raw_plan": "a large white stone building with a clock tower on a cobblestone street under an overcast gray sky with a street lamp\na large gray stone building with a clock tower on a cobblestone street under an overcast gray sky with a street lamp",
+      "generated": "Is the clock tower made of stone or is it a white building covered in snow?",
+      "fallback": false
+    },
+    {
+      "round": 9,
+      "query_before": "a large stone building with a clock tower stands at the corner of a city block under a gray, overcast sky, featuring a cobblestone street in front and a street lamp nearby",
+      "question": "Question: What is the color of the clock on top of the building?",
+      "answer": "black",
+      "query_after": "a large stone building with a black clock tower stands at the corner of a city block under a gray, overcast sky, featuring a cobblestone street in front and a street lamp nearby"
+    },
+    {
+      "round": 10,
+      "query_before": "a large stone building with a black clock tower stands at the corner of a city block under a gray, overcast sky, featuring a cobblestone street in front and a street lamp nearby",
+      "question": "what is the name of the famous landmark visible in the background of the image?",
+      "answer": "old town hall",
+      "query_after": "an old town hall, a large stone building with a black clock on its stone clock tower, stands at the corner of a city block under a gray overcast sky, with a street lamp nearby and a cobblestone street in front"
+    }
+  ],
+  "seconds": 21.0
+}

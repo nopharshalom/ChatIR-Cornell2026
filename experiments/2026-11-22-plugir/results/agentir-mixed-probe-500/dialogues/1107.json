@@ -1,0 +1,144 @@
+{
+  "qid": 1107,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000451072.jpg",
+  "queries": [
+    "a group of giraffes walk next to a wooden fence",
+    "a group of giraffes and a rhino walk next to a wooden fence"
+  ],
+  "ranks": [
+    13,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a group of giraffes walk next to a wooden fence",
+      "question": "what is the other object in the image?",
+      "answer": "rhino",
+      "query_after": "a group of giraffes and a rhino walk next to a wooden fence",
+      "displayed_ids": [
+        9563,
+        26310,
+        4308,
+        25775,
+        49839,
+        3357,
+        28795,
+        23144,
+        48169,
+        13025
+      ],
+      "selected_ids": [
+        12059,
+        27108,
+        31198,
+        3504,
+        24761,
+        8083,
+        47900,
+        27475,
+        31754,
+        30123
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the background of the group of giraffes walking next to the wooden fence?",
+          "answers": [
+            "wooden fence",
+            "trees",
+            "rocks"
+          ],
+          "score": 0.06615781784057617
+        },
+        {
+          "question": "what is the color of the group of giraffes walking next to the wooden fence?",
+          "answers": [
+            "brown",
+            "orange",
+            "yellow"
+          ],
+          "score": 0.012019634246826172
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "wooden fence",
+            "tree",
+            "rocks"
+          ],
+          "score": 0.09256935119628906
+        },
+        {
+          "question": "what is the color of the group of giraffes?",
+          "answers": [
+            "brown",
+            "tawny",
+            "reddish-brown"
+          ],
+          "score": 0.005980014801025391
+        },
+        {
+          "question": "what is the color of the group of giraffes?",
+          "answers": [
+            "brown",
+            "tawny",
+            "reddish-brown"
+          ],
+          "score": 0.005980014801025391,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: How many giraffes are in the group?",
+          "answers": [
+            "two",
+            "three",
+            "four"
+          ],
+          "score": 0.004378795623779297
+        },
+        {
+          "question": "Question: What is the color of the grass surrounding the group of giraffes?",
+          "answers": [
+            "green",
+            "brown",
+            "yellow"
+          ],
+          "score": 0.012756824493408203
+        },
+        {
+          "question": "Question: What is the background scenery behind the group of giraffes?",
+          "answers": [
+            "a wooden fence",
+            "rocks",
+            "trees"
+          ],
+          "score": 0.08169317245483398
+        },
+        {
+          "question": "Question: What is the color of the giraffes' spots?",
+          "answers": [
+            "brown",
+            "white",
+            "orange"
+          ],
+          "score": 0.02797842025756836
+        },
+        {
+          "question": "what is the material of the fence next to which the group of giraffes is walking?",
+          "answers": [
+            "wooden",
+            "metal",
+            "stone"
+          ],
+          "score": 0.04576301574707031
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

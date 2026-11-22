@@ -1,0 +1,100 @@
+{
+  "qid": 612,
+  "initial": "a woman is holding her phone over her head while standing on a beach",
+  "initial_rank": 33,
+  "evidence": [
+    "kite flying over a beach with a child",
+    "woman looking at cell phone",
+    "a man is playing soccer with his dog on the beach",
+    "a group of girls catching a softball",
+    "a man is holding up a bicycle over the beach",
+    "woman talking on her cellphone in the rain",
+    "four men on a beach holding surfboards",
+    "a man flying a kite on the beach near the ocean",
+    "woman wearing glasses and sunglasses talking on a cellphone",
+    "woman holding her phone up to camera"
+  ],
+  "candidates": [
+    "what is the weather condition where the woman is holding her phone over her head on the beach?",
+    "what is the woman wearing in the image where she is holding her phone over her head on the beach?",
+    "what is the woman holding her phone up to while standing on the beach?",
+    "what is the woman holding her phone up to in the image where she is standing on a beach?",
+    "what is the woman holding her phone up to in the image where she is holding her phone over her head while standing on a beach?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the weather condition where the woman is holding her phone over her head on the beach?",
+      "answers": [
+        "sunny",
+        "cloudy",
+        "rainy"
+      ],
+      "score": 0.03300809860229492
+    },
+    {
+      "question": "what is the woman wearing in the image where she is holding her phone over her head on the beach?",
+      "answers": [
+        "a bikini",
+        "a swimsuit",
+        "a dress"
+      ],
+      "score": 0.04503917694091797
+    },
+    {
+      "question": "what is the woman holding her phone up to while standing on the beach?",
+      "answers": [
+        "taking a selfie",
+        "taking a photo",
+        "taking a picture"
+      ],
+      "score": 0.0024461746215820312
+    },
+    {
+      "question": "what is the woman holding her phone up to in the image where she is standing on a beach?",
+      "answers": [
+        "the camera",
+        "a photo",
+        "nothing"
+      ],
+      "score": 0.012636661529541016
+    },
+    {
+      "question": "what is the woman holding her phone up to in the image where she is holding her phone over her head while standing on a beach?",
+      "answers": [
+        "the sun",
+        "the sky",
+        "the camera"
+      ],
+      "score": 0.014549732208251953
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.06,
+  "probe_selection_seconds": 2.625,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the woman holding her phone up to in the image where she is holding her phone over her head while standing on a beach?",
+      "answer": "camera",
+      "rewrite": "a woman stands on a beach holding her phone up to a camera",
+      "rank": 9,
+      "hit": true
+    },
+    "random": {
+      "question": "what is the woman holding her phone up to while standing on the beach?",
+      "answer": "face",
+      "rewrite": "a woman holds her phone up to her face while standing on a beach",
+      "rank": 15,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the woman wearing in the image where she is holding her phone over her head on the beach?",
+      "answer": "woman wearing a red cap, sunglasses, and a red shirt",
+      "rewrite": "a woman wearing a red cap, sunglasses, and a red shirt stands on a beach holding her phone over her head",
+      "rank": 1,
+      "hit": true
+    }
+  },
+  "seconds": 17.293
+}

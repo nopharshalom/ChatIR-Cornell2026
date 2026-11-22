@@ -1,0 +1,180 @@
+{
+  "qid": 988,
+  "initial": "a baseball pitcher about to throw a ball",
+  "initial_rank": 43,
+  "displayed": [
+    31605,
+    41039,
+    7567,
+    49183,
+    21639,
+    35649,
+    36365,
+    29626,
+    43717,
+    43506
+  ],
+  "evidence": [
+    "young baseball player putting on a baseball glove",
+    "a baseball player at bat while people watch him in the crowd",
+    "a man is on a surf board going through a large wave",
+    "a baseball game is underway with a catcher ready to swing",
+    "a baseball team swings a bat and a fan watches",
+    "the man is holding a baseball mitt",
+    "a baseball player standing in the outfield with a mitt",
+    "a young boy wearing a red shirt and baseball mitt",
+    "a baseball team in a stadium",
+    "man in red and white uniform throwing ball"
+  ],
+  "rejected_captions": [
+    "the man is about to throw the ball",
+    "man in white uniform",
+    "baseball player is about to throw the ball",
+    "the pitcher has black sleeves and a white ball",
+    "a baseball field",
+    "the baseball field is green",
+    "a baseball player throwing a ball on the baseball field",
+    "the pitcher is pitching a ball",
+    "baseball pitcher with leg",
+    "a baseball pitcher throwing a pitch"
+  ],
+  "usual": {
+    "candidates": [
+      "what color is the uniform of the baseball pitcher about to throw the ball?",
+      "what is the location of the baseball pitcher about to throw the ball?",
+      "what is the color of the uniform worn by the baseball pitcher about to throw the ball?",
+      "what is the uniform color of the baseball pitcher about to throw the ball?",
+      "what is the color of the uniform worn by the baseball pitcher about to throw the ball?"
+    ],
+    "question": "what color is the uniform of the baseball pitcher about to throw the ball?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what color is the uniform of the baseball pitcher about to throw the ball?",
+          "answers": [
+            "red and white",
+            "white",
+            "blue"
+          ],
+          "score": 0.16516733169555664
+        },
+        {
+          "question": "what is the location of the baseball pitcher about to throw the ball?",
+          "answers": [
+            "outfield",
+            "stadium",
+            "crowd"
+          ],
+          "score": 0.05019330978393555
+        },
+        {
+          "question": "what is the color of the uniform worn by the baseball pitcher about to throw the ball?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.11858463287353516
+        },
+        {
+          "question": "what is the uniform color of the baseball pitcher about to throw the ball?",
+          "answers": [
+            "red and white",
+            "blue and red",
+            "white and blue"
+          ],
+          "score": 0.14386510848999023
+        },
+        {
+          "question": "what is the color of the uniform worn by the baseball pitcher about to throw the ball?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.11858463287353516,
+          "duplicate_of": 2
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.069,
+      "probe_selection_seconds": 2.165,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "black",
+    "rewrite": "a baseball pitcher in a black uniform about to throw a ball",
+    "raw_rank": 3,
+    "unseen_rank": 2
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What color is the uniform of the baseball pitcher about to throw the ball?",
+      "Question: What color is the shirt of the baseball player about to throw the ball?",
+      "Question: What color is the hat of the baseball pitcher about to throw the ball?",
+      "Question: What color is the uniform of the baseball pitcher about to throw the ball?",
+      "Question: What color is the uniform of the baseball pitcher about to throw the ball?"
+    ],
+    "question": "Question: What color is the uniform of the baseball pitcher about to throw the ball?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What color is the uniform of the baseball pitcher about to throw the ball?",
+          "answers": [
+            "red and white",
+            "blue and white",
+            "black and white"
+          ],
+          "score": 0.14712285995483398
+        },
+        {
+          "question": "Question: What color is the shirt of the baseball player about to throw the ball?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.14123821258544922
+        },
+        {
+          "question": "Question: What color is the hat of the baseball pitcher about to throw the ball?",
+          "answers": [
+            "red",
+            "white",
+            "black"
+          ],
+          "score": 0.06336402893066406
+        },
+        {
+          "question": "Question: What color is the uniform of the baseball pitcher about to throw the ball?",
+          "answers": [
+            "red and white",
+            "blue and white",
+            "black and white"
+          ],
+          "score": 0.14712285995483398,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the uniform of the baseball pitcher about to throw the ball?",
+          "answers": [
+            "red and white",
+            "blue and white",
+            "black and white"
+          ],
+          "score": 0.14712285995483398,
+          "duplicate_of": 0
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.159,
+      "probe_selection_seconds": 1.468,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "black",
+    "rewrite": "a baseball pitcher in a black uniform about to throw a ball",
+    "raw_rank": 3,
+    "unseen_rank": 2
+  }
+}

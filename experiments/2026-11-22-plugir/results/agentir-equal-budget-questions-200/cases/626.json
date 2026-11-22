@@ -1,0 +1,78 @@
+{
+  "qid": 626,
+  "sample": 2,
+  "first_candidates": [
+    "Question: What color is the shirt worn by the young boy playing tennis?",
+    "Question: What color is the shirt worn by the young boy playing tennis?",
+    "Question: Question: What color is the shirt worn by the person playing tennis?",
+    "Question: What color are the socks worn by the person playing tennis?",
+    "Question: Question: What color is the shirt worn by the person playing tennis?"
+  ],
+  "second_candidates": [
+    "what is the color of the shirt worn by the young boy playing tennis on the court?",
+    "what is the color of the socks worn by the man wearing a blue shirt?",
+    "what is the color of the pants worn by the young boy playing tennis on the court?",
+    "Question: What is the color of the shirt worn by the young boy playing tennis on the court?",
+    "what is the name of the court where the young boy is playing tennis?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the shirt worn by the young boy playing tennis on the court?",
+      "answers": [
+        "white",
+        "black",
+        "yellow"
+      ],
+      "score": 0.24681472778320312
+    },
+    {
+      "question": "what is the color of the socks worn by the man wearing a blue shirt?",
+      "answers": [
+        "blue",
+        "white",
+        "black"
+      ],
+      "score": 0.024910449981689453
+    },
+    {
+      "question": "what is the color of the pants worn by the young boy playing tennis on the court?",
+      "answers": [
+        "white",
+        "blue",
+        "black"
+      ],
+      "score": 0.12467098236083984
+    },
+    {
+      "question": "Question: What is the color of the shirt worn by the young boy playing tennis on the court?",
+      "answers": [
+        "white",
+        "blue",
+        "orange"
+      ],
+      "score": 0.23772859573364258
+    },
+    {
+      "question": "what is the name of the court where the young boy is playing tennis?",
+      "answers": [
+        "clay court",
+        "grass court",
+        "hard court"
+      ],
+      "score": 0.06359624862670898
+    }
+  ],
+  "control": {
+    "question": "what is the color of the shirt worn by the young boy playing tennis on the court?",
+    "score": 0.24681472778320312
+  },
+  "mixed": {
+    "question": "Question: What color is the shirt worn by the man playing tennis?",
+    "score": 0.1860346794128418
+  },
+  "control_rank": 4,
+  "mixed_rank": 4,
+  "usual_rank": 4,
+  "new_answer": "gray",
+  "new_rewrite": "a young boy wearing a gray shirt is playing tennis on the court"
+}

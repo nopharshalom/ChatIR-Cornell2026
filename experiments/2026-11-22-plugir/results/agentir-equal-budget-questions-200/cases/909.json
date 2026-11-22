@@ -1,0 +1,79 @@
+{
+  "qid": 909,
+  "sample": 2,
+  "first_candidates": [
+    "what is the location where the boy is talking to someone while walking by a building?",
+    "what is the object the boy is holding or using while talking?",
+    "what is the boy riding on while walking by a building?",
+    "what is the boy riding on while walking by a building?",
+    "what is the boy riding on while walking by a building?"
+  ],
+  "second_candidates": [
+    "what is the boy wearing?",
+    "what is the boy riding while talking to someone?",
+    "what is the color of the building where the boy is talking and walking?",
+    "what is the color of the building where the boy is riding a skateboard?",
+    "what is the color of the building where the boy is talking and walking?"
+  ],
+  "paths": [
+    {
+      "question": "what is the boy wearing?",
+      "answers": [
+        "a t-shirt",
+        "jeans",
+        "a hoodie"
+      ],
+      "score": 0.07071924209594727
+    },
+    {
+      "question": "what is the boy riding while talking to someone?",
+      "answers": [
+        "skateboard",
+        "nothing",
+        "bike"
+      ],
+      "score": 0.11492681503295898
+    },
+    {
+      "question": "what is the color of the building where the boy is talking and walking?",
+      "answers": [
+        "white",
+        "brick",
+        "blue"
+      ],
+      "score": 0.046143531799316406
+    },
+    {
+      "question": "what is the color of the building where the boy is riding a skateboard?",
+      "answers": [
+        "white",
+        "blue",
+        "gray"
+      ],
+      "score": 0.02764749526977539
+    },
+    {
+      "question": "what is the color of the building where the boy is talking and walking?",
+      "answers": [
+        "white",
+        "brick",
+        "blue"
+      ],
+      "score": 0.046143531799316406,
+      "duplicate_of": 2
+    }
+  ],
+  "control": {
+    "question": "what is the boy riding while talking to someone?",
+    "score": 0.11492681503295898
+  },
+  "mixed": {
+    "question": "what is the object the boy is holding or using while talking?",
+    "score": 0.10763692855834961
+  },
+  "control_rank": 24,
+  "mixed_rank": 13,
+  "usual_rank": 13,
+  "new_answer": "nothing",
+  "new_rewrite": "a boy walks by a building talking to someone without riding anything"
+}

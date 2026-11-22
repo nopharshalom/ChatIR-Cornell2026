@@ -1,0 +1,79 @@
+{
+  "qid": 819,
+  "sample": 2,
+  "first_candidates": [
+    "Question: What color is the car sitting next to the plane?",
+    "Question: What color is the airplane sitting next to the car on the runway?",
+    "Question: What is the color of the airplane sitting next to the car on the runway?",
+    "Question: What is the color of the car sitting next to the airplane on the runway?",
+    "what is the other object in the image?"
+  ],
+  "second_candidates": [
+    "what is the color of the car sitting next to the airplane?",
+    "what is the color of the airplane sitting next to the car?",
+    "what is the type of the car sitting next to the airplane?",
+    "what is the object located on the roof of the car?",
+    "what is the color of the airplane sitting next to the car?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the car sitting next to the airplane?",
+      "answers": [
+        "black",
+        "white",
+        "red"
+      ],
+      "score": 0.05259132385253906
+    },
+    {
+      "question": "what is the color of the airplane sitting next to the car?",
+      "answers": [
+        "black",
+        "white",
+        "blue"
+      ],
+      "score": 0.058248043060302734
+    },
+    {
+      "question": "what is the type of the car sitting next to the airplane?",
+      "answers": [
+        "black car",
+        "bus",
+        "bicycle"
+      ],
+      "score": 0.035212039947509766
+    },
+    {
+      "question": "what is the object located on the roof of the car?",
+      "answers": [
+        "surf board",
+        "none",
+        "unknown"
+      ],
+      "score": 0.020683765411376953
+    },
+    {
+      "question": "what is the color of the airplane sitting next to the car?",
+      "answers": [
+        "black",
+        "white",
+        "blue"
+      ],
+      "score": 0.058248043060302734,
+      "duplicate_of": 1
+    }
+  ],
+  "control": {
+    "question": "Question: What is the color of the airplane sitting next to the car on the runway?",
+    "score": 0.08623170852661133
+  },
+  "mixed": {
+    "question": "Question: What is the color of the airplane sitting next to the car on the runway?",
+    "score": 0.08623170852661133
+  },
+  "control_rank": 8,
+  "mixed_rank": 8,
+  "usual_rank": 8,
+  "new_answer": null,
+  "new_rewrite": null
+}

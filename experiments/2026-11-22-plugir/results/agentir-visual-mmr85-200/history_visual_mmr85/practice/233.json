@@ -1,0 +1,74 @@
+{
+  "ids": [
+    33845,
+    15710,
+    4955,
+    47945
+  ],
+  "prefix": [
+    "a woman is hitting a tennis ball on a tennis court",
+    "what is the woman wearing while hitting the tennis ball on the court? white outfit"
+  ],
+  "default": "what is the other object in the image?",
+  "chosen": "what is the other object in the image?",
+  "trials": {
+    "what is the other object in the image?": {
+      "answers": [
+        "tennis ball",
+        "tennis ball",
+        "ball",
+        "tennis racket"
+      ],
+      "rewrites": {
+        "tennis ball": "a woman in a white outfit hitting a tennis ball on a tennis court",
+        "ball": "a woman in a white outfit hits a tennis ball on a tennis court",
+        "tennis racket": "a woman in a white outfit hits a tennis ball on a court with a tennis racket"
+      },
+      "ranks": [
+        17,
+        31,
+        66,
+        19
+      ],
+      "hits": 0
+    },
+    "what is the color of the tennis racket the woman is using?": {
+      "answers": [
+        "yellow",
+        "orange",
+        "black",
+        "black"
+      ],
+      "rewrites": {
+        "yellow": "a woman in a white outfit hits a tennis ball on a court with a yellow racket",
+        "orange": "a woman in a white outfit hits a tennis ball on a court with an orange racket",
+        "black": "a woman in a white outfit hits a tennis ball on a court with a black racket"
+      },
+      "ranks": [
+        31,
+        13,
+        93,
+        18
+      ],
+      "hits": 0
+    },
+    "what is the color of the tennis ball the woman is hitting?": {
+      "answers": [
+        "yellow",
+        "yellow",
+        "yellow",
+        "yellow"
+      ],
+      "rewrites": {
+        "yellow": "a woman in a white outfit hits a yellow tennis ball on a tennis court"
+      },
+      "ranks": [
+        30,
+        23,
+        53,
+        37
+      ],
+      "hits": 0
+    }
+  }
+}

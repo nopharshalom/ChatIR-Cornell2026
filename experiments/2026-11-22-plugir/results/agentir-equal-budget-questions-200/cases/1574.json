@@ -1,0 +1,75 @@
+{
+  "qid": 1574,
+  "sample": 1,
+  "first_candidates": [
+    "Question: What color are the pants worn by the man skiing down the slope?",
+    "Question: What color is the jacket of the skier in the image?",
+    "what is the color of the pants worn by the man in the blue jacket?",
+    "what is the name of the sport the person wearing a blue jacket is performing?",
+    "what is the color of the pants worn by the man in the blue jacket?"
+  ],
+  "second_candidates": [
+    "Question: what color are the pants of the man skiing down the slope?",
+    "what is the type of winter sport equipment the man in the blue jacket is using?",
+    "what is the color of the pants worn by the man in the blue jacket skiing down the slope?",
+    "what is the color of the jacket worn by the man in the blue jacket?",
+    "Question: Which candidate image shows a man skiing down a slope wearing a red jacket?"
+  ],
+  "paths": [
+    {
+      "question": "Question: what color are the pants of the man skiing down the slope?",
+      "answers": [
+        "blue",
+        "black",
+        "jeans"
+      ],
+      "score": 0.013031482696533203
+    },
+    {
+      "question": "what is the type of winter sport equipment the man in the blue jacket is using?",
+      "answers": [
+        "skis",
+        "snowboard",
+        "skis or snowboard"
+      ],
+      "score": 0.027386188507080078
+    },
+    {
+      "question": "what is the color of the pants worn by the man in the blue jacket skiing down the slope?",
+      "answers": [
+        "blue",
+        "black",
+        "green"
+      ],
+      "score": 0.049352169036865234
+    },
+    {
+      "question": "what is the color of the jacket worn by the man in the blue jacket?",
+      "answers": [
+        "blue"
+      ],
+      "note": "fewer than 2 answers"
+    },
+    {
+      "question": "Question: Which candidate image shows a man skiing down a slope wearing a red jacket?",
+      "answers": [
+        "1",
+        "2"
+      ],
+      "score": 0.00046634674072265625
+    }
+  ],
+  "control": {
+    "question": "Question: What color is the jacket of the skier in the image?",
+    "score": 0.07815837860107422
+  },
+  "mixed": {
+    "question": "Question: What color is the jacket worn by the man skiing down the slope?",
+    "score": 0.12062215805053711
+  },
+  "control_rank": 80,
+  "mixed_rank": 78,
+  "usual_rank": 80,
+  "new_answer": null,
+  "new_rewrite": null
+}

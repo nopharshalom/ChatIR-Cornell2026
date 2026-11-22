@@ -1,0 +1,79 @@
+{
+  "qid": 57,
+  "candidates": [
+    "Question: Is the giraffe standing or laying down?",
+    "What is the specific background environment where the giraffe is standing (e.g., field, enclosure, desert)?",
+    "Question: What is the gender of the giraffe in the image?",
+    "Question: Does the giraffe have its tongue sticking out?",
+    "Question: What color is the giraffe's fur?"
+  ],
+  "kl": {
+    "question": "Question: What color is the giraffe's fur?",
+    "answer": "brown",
+    "rewrite": "a brown giraffe looking directly at the camera",
+    "raw_rank": 11,
+    "unseen_rank": 2
+  },
+  "probe": {
+    "answer": "standing",
+    "rewrite": "a standing giraffe looking directly at the camera",
+    "raw_rank": 22,
+    "unseen_rank": 14,
+    "question": "Question: Is the giraffe standing or laying down?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: Is the giraffe standing or laying down?",
+        "answers": [
+          "standing",
+          "laying down",
+          "unknown"
+        ],
+        "score": 0.01258230209350586
+      },
+      {
+        "question": "What is the specific background environment where the giraffe is standing (e.g., field, enclosure, desert)?",
+        "answers": [
+          "field",
+          "enclosure",
+          "desert"
+        ],
+        "score": 0.009737968444824219
+      },
+      {
+        "question": "Question: What is the gender of the giraffe in the image?",
+        "answers": [
+          "male",
+          "female",
+          "unknown"
+        ],
+        "score": 0.007117271423339844
+      },
+      {
+        "question": "Question: Does the giraffe have its tongue sticking out?",
+        "answers": [
+          "yes",
+          "no",
+          "maybe"
+        ],
+        "score": 0.000629425048828125
+      },
+      {
+        "question": "Question: What color is the giraffe's fur?",
+        "answers": [
+          "brown",
+          "tan",
+          "yellow"
+        ],
+        "score": 0.00708770751953125
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.055,
+    "probe_selection_seconds": 2.414,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": false
+}

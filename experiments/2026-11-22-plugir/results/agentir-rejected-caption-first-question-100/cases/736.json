@@ -1,0 +1,71 @@
+{
+  "qid": 736,
+  "initial": "a lot in front of a hotel with people mingling about",
+  "initial_rank": 76,
+  "evidence": [
+    "people standing under blue umbrellas at the beach",
+    "a clock tower sitting in a corner on a city sidewalk",
+    "crowd of people are standing in line to protest their riding",
+    "a busy street in new york city at night",
+    "a woman walking down a street at night",
+    "a bus stops on the street in front of a group of parked cars",
+    "a crowd of people walking through the city at night",
+    "a group of people in a crowd waiting to meet a bus",
+    "a red double decker bus is traveling at a traffic light",
+    "a cafe with several tables and chairs near the sidewalk"
+  ],
+  "displayed_ids": [
+    45739,
+    25139,
+    14507,
+    45716,
+    25575,
+    34359,
+    21849,
+    43357,
+    27389,
+    39536
+  ],
+  "rejected_captions": [
+    "a street in paris with a red awning",
+    "a crowd of people walking down a busy city street",
+    "large city buildings",
+    "people are sitting at tables",
+    "people are walking through the grounds in front of a building",
+    "a small group of people",
+    "the sky is blue",
+    "a group of people ski outdoors near a resort",
+    "a park with several food trucks and a crowd of people",
+    "white building with an octagon"
+  ],
+  "candidates": [
+    "what color are the umbrellas under which people are standing?",
+    "what color is the awning on the street where people are standing?",
+    "what color is the awning on the street where people are standing?",
+    "Question: Is the crowd standing under blue umbrellas or standing in line to protest?",
+    "what color are the awnings on the street where people are standing?"
+  ],
+  "control_candidates": [
+    "what is the color of the double decker bus traveling at the traffic light?",
+    "what is the color of the lot in front of the hotel where people are mingling?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "What is the name of the hotel where people are mingling?"
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "answer": "umbrella",
+    "rewrite": "a lot in front of a hotel with people mingling about and an umbrella",
+    "rank": 1,
+    "hit": true,
+    "raw_rank": 1,
+    "unseen_rank": 1
+  },
+  "variant": {
+    "question": "what color are the awnings on the street where people are standing?",
+    "answer": "black",
+    "rewrite": "a lot in front of a hotel with people mingling about, featuring black awnings on the street",
+    "raw_rank": 159,
+    "unseen_rank": 150
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "qid": 102,
+  "initial": "a man slides down a snowy slope on a snowboard",
+  "initial_rank": 66,
+  "evidence": [
+    "skier on skis riding up a slope with trees in the background",
+    "a skier in blue racing down a hill",
+    "three snowboarders in mid air performing a trick",
+    "a man and woman in the air during a snowboard trick",
+    "the man sitting on the ground holding his snowboard",
+    "a man wearing a blue jacket skiing down a snow covered hill",
+    "a man is jumping in the air with a snowboard",
+    "two snowboarders laying down on the snow",
+    "a person in midair in the air, with snowboard in front of him",
+    "a woman wearing a yellow jacket and yellow pants is on her skis"
+  ],
+  "candidates": [
+    "what is the color of the jacket worn by the man sliding down the snowy slope on a snowboard?",
+    "Question: what is the color of the jacket worn by the man performing the trick on the snowboard?",
+    "what is the gender of the person wearing the blue jacket while skiing down the snow covered hill?",
+    "what is the other object in the image?",
+    "what is the gender of the person sitting on the ground holding their snowboard?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the jacket worn by the man sliding down the snowy slope on a snowboard?",
+      "answers": [
+        "blue",
+        "black",
+        "red"
+      ],
+      "score": 0.10454559326171875
+    },
+    {
+      "question": "Question: what is the color of the jacket worn by the man performing the trick on the snowboard?",
+      "answers": [
+        "blue",
+        "black",
+        "red"
+      ],
+      "score": 0.09250974655151367
+    },
+    {
+      "question": "what is the gender of the person wearing the blue jacket while skiing down the snow covered hill?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.015236377716064453
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "ski",
+        "skis",
+        "slope"
+      ],
+      "score": 0.009315013885498047
+    },
+    {
+      "question": "what is the gender of the person sitting on the ground holding their snowboard?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.009825706481933594
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.155,
+  "probe_selection_seconds": 2.555,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the other object in the image?",
+      "answer": "snowboard",
+      "rewrite": "A man descends a snowy slope on a snowboard.",
+      "rank": 39,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the gender of the person sitting on the ground holding their snowboard?",
+      "answer": "male",
+      "rewrite": "a male sits on the ground holding his snowboard",
+      "rank": 2100,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the color of the jacket worn by the man sliding down the snowy slope on a snowboard?",
+      "answer": "maroon",
+      "rewrite": "a man in a maroon jacket slides down a snowy slope on a snowboard",
+      "rank": 1,
+      "hit": true
+    }
+  },
+  "seconds": 23.24
+}

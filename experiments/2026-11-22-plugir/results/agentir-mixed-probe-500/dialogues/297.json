@@ -1,0 +1,1334 @@
+{
+  "qid": 297,
+  "sample": "original",
+  "target": "unlabeled2017/000000101518.jpg",
+  "queries": [
+    "a living room filled with a bookcase and computer",
+    "a living room filled with a black desk, a bookcase, and a computer",
+    "a living room filled with a brown bookcase and a black desk with a computer",
+    "a living room featuring a white sofa, a brown bookcase, and a black desk",
+    "a living room featuring a white sofa, a brown bookcase filled with books, and a black desk",
+    "a living room featuring a white sofa, a brown bookcase filled with books, and a black computer and desk",
+    "a living room featuring a white sofa, a black desk, a black chair, and a brown bookcase filled with books and a black computer",
+    "a living room featuring a white sofa, a black desk, a black chair, and a black computer, with a brown bookcase filled with books",
+    "a living room featuring a white sofa, a black desk, a black chair, and a black coffee table, with a brown bookcase holding books and a cat figurine",
+    "a living room featuring a white sofa, a black desk, a black chair, and a black coffee table, with a brown bookcase holding books and a white cat figurine",
+    "a living room with beige flooring, featuring a black desk, a brown bookcase holding books and a white cat figurine, a white sofa, a black chair, and a black computer"
+  ],
+  "ranks": [
+    69,
+    79,
+    86,
+    72,
+    59,
+    71,
+    76,
+    68,
+    312,
+    246,
+    556
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a living room filled with a bookcase and computer",
+      "question": "Question: What is the color of the desk in the image?",
+      "answer": "black",
+      "query_after": "a living room filled with a black desk, a bookcase, and a computer",
+      "displayed_ids": [
+        33274,
+        22547,
+        5928,
+        4772,
+        10692,
+        49466,
+        19519,
+        33058,
+        10111,
+        35109
+      ],
+      "selected_ids": [
+        33148,
+        2235,
+        35804,
+        41344,
+        4865,
+        20801,
+        40827,
+        5205,
+        36442,
+        28569
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: Is the room in the image a living room or an office?",
+          "answers": [
+            "living room",
+            "office",
+            "both"
+          ],
+          "score": 0.003712177276611328
+        },
+        {
+          "question": "Question: What is the color of the desk in the image?",
+          "answers": [
+            "black",
+            "brown",
+            "white"
+          ],
+          "score": 0.04380989074707031
+        },
+        {
+          "question": "Question: What color is the desk in the image?",
+          "answers": [
+            "black",
+            "brown",
+            "white"
+          ],
+          "score": 0.04195880889892578
+        },
+        {
+          "question": "Question: Question: What color is the desk in the image?",
+          "answers": [
+            "black",
+            "brown",
+            "white"
+          ],
+          "score": 0.03128528594970703
+        },
+        {
+          "question": "Question: Question: What color is the desk in the image?",
+          "answers": [
+            "black",
+            "brown",
+            "white"
+          ],
+          "score": 0.03128528594970703,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is the bookcase in the living room black or brown?",
+          "answers": [
+            "black",
+            "brown",
+            "dark brown"
+          ],
+          "score": 0.0029659271240234375
+        },
+        {
+          "question": "Question: What color is the couch in the living room?",
+          "answers": [
+            "brown",
+            "grey",
+            "beige"
+          ],
+          "score": 0.030651569366455078
+        },
+        {
+          "question": "Question: Is there a computer on the desk in the living room?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0005898475646972656
+        },
+        {
+          "question": "Question: Question: Is the lamp on the desk in the living room?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0003380775451660156
+        },
+        {
+          "question": "Question: Question: What type of computer is on the desk in the living room?",
+          "answers": [
+            "laptop",
+            "desktop",
+            "printer"
+          ],
+          "score": 0.006867885589599609
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a living room filled with a black desk, a bookcase, and a computer",
+      "question": "what is the color of the bookcase in the living room?",
+      "answer": "brown",
+      "query_after": "a living room filled with a brown bookcase and a black desk with a computer",
+      "displayed_ids": [
+        19645,
+        29810,
+        32808,
+        19718,
+        22547,
+        42015,
+        16935,
+        43392,
+        10111,
+        33148
+      ],
+      "selected_ids": [
+        6606,
+        1417,
+        10493,
+        41344,
+        35804,
+        9054,
+        39291,
+        32750,
+        5426,
+        6131
+      ],
+      "rejected_count": 18,
+      "usual_paths": [
+        {
+          "question": "what is the color of the bookcase in the living room?",
+          "answers": [
+            "black",
+            "brown",
+            "white"
+          ],
+          "score": 0.05334329605102539
+        },
+        {
+          "question": "what is the color of the bookcase in the living room?",
+          "answers": [
+            "black",
+            "brown",
+            "white"
+          ],
+          "score": 0.05334329605102539,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bookcase in the living room?",
+          "answers": [
+            "black",
+            "brown",
+            "white"
+          ],
+          "score": 0.05334329605102539,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bookcase in the living room?",
+          "answers": [
+            "black",
+            "brown",
+            "white"
+          ],
+          "score": 0.05334329605102539,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what items are visible on the bookcase in the living room?",
+          "answers": [
+            "books",
+            "computer",
+            "laptop"
+          ],
+          "score": 0.034116268157958984
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the couch in the living room?",
+          "answers": [
+            "black",
+            "brown"
+          ],
+          "score": 0.031015396118164062
+        },
+        {
+          "question": "what is the color of the bookcase in the living room?",
+          "answers": [
+            "black",
+            "brown",
+            "white"
+          ],
+          "score": 0.05334329605102539
+        },
+        {
+          "question": "what is the color of the chair in the living room?",
+          "answers": [
+            "black",
+            "brown",
+            "beige"
+          ],
+          "score": 0.04777860641479492
+        },
+        {
+          "question": "what is the color of the bookcase in the living room?",
+          "answers": [
+            "black",
+            "brown",
+            "white"
+          ],
+          "score": 0.05334329605102539,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the bookcase in the living room?",
+          "answers": [
+            "black",
+            "brown",
+            "white"
+          ],
+          "score": 0.05334329605102539,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a living room filled with a brown bookcase and a black desk with a computer",
+      "question": "**Question:** What is the color of the sofa in the living room?",
+      "answer": "white",
+      "query_after": "a living room featuring a white sofa, a brown bookcase, and a black desk",
+      "displayed_ids": [
+        19645,
+        22547,
+        32808,
+        43392,
+        24913,
+        29810,
+        19718,
+        44109,
+        35120,
+        33058
+      ],
+      "selected_ids": [
+        38321,
+        33274,
+        10541,
+        6131,
+        5205,
+        35804,
+        19758,
+        29612
+      ],
+      "rejected_count": 21,
+      "usual_paths": [
+        {
+          "question": "what is the color of the computer in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.053924560546875
+        },
+        {
+          "question": "what is the color of the computer in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.053924560546875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the computer in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.053924560546875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the computer in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.053924560546875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the computer in the brown bookcase?",
+          "answers": [
+            "black",
+            "white",
+            "gray"
+          ],
+          "score": 0.04257631301879883
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the sofa in the living room?",
+          "answers": [
+            "black",
+            "brown",
+            "gray"
+          ],
+          "score": 0.0331273078918457
+        },
+        {
+          "question": "what is the color of the sofa in the living room?",
+          "answers": [
+            "black",
+            "brown",
+            "gray"
+          ],
+          "score": 0.0331273078918457,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the coffee table in the living room?",
+          "answers": [
+            "brown",
+            "white",
+            "glass"
+          ],
+          "score": 0.04400205612182617
+        },
+        {
+          "question": "Question: Is there a sofa in the living room?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0012750625610351562
+        },
+        {
+          "question": "**Question:** What is the color of the sofa in the living room?",
+          "answers": [
+            "gray",
+            "blue",
+            "red"
+          ],
+          "score": 0.09552288055419922
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 3,
+      "query_before": "a living room featuring a white sofa, a brown bookcase, and a black desk",
+      "question": "What objects are present on the bookcase in the living room?",
+      "answer": "books",
+      "query_after": "a living room featuring a white sofa, a brown bookcase filled with books, and a black desk",
+      "displayed_ids": [
+        45849,
+        20193,
+        32808,
+        41010,
+        23792,
+        29075,
+        4460,
+        8076,
+        45698,
+        48731
+      ],
+      "selected_ids": [
+        28569,
+        29578,
+        29733,
+        27158,
+        39556,
+        24324,
+        48141,
+        5426,
+        47254,
+        38737
+      ],
+      "rejected_count": 30,
+      "usual_paths": [
+        {
+          "question": "**Question:** What objects are present on the bookcase in the living room?",
+          "answers": [
+            "books",
+            "laptop",
+            "magazines"
+          ],
+          "score": 0.0447239875793457
+        },
+        {
+          "question": "**Question:** What objects are present on the bookcase in the living room?",
+          "answers": [
+            "books",
+            "laptop",
+            "magazines"
+          ],
+          "score": 0.0447239875793457,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the television in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.0215911865234375
+        },
+        {
+          "question": "What objects are present on the bookcase in the living room?",
+          "answers": [
+            "laptop",
+            "books",
+            "magazines"
+          ],
+          "score": 0.0448460578918457
+        },
+        {
+          "question": "**Question:** What objects are present on the bookcase in the living room?",
+          "answers": [
+            "books",
+            "laptop",
+            "magazines"
+          ],
+          "score": 0.0447239875793457,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "**Question:** What color are the floors in the living room?",
+          "answers": [
+            "wood",
+            "tile",
+            "carpet"
+          ],
+          "score": 0.04387187957763672
+        },
+        {
+          "question": "what is the color of the floor in the living room?",
+          "answers": [
+            "wood",
+            "tile",
+            "carpet"
+          ],
+          "score": 0.035837650299072266
+        },
+        {
+          "question": "**Question:** What color are the floors in the living room?",
+          "answers": [
+            "wood",
+            "tile",
+            "carpet"
+          ],
+          "score": 0.04387187957763672,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the floors in the living room?",
+          "answers": [
+            "light",
+            "white",
+            "black"
+          ],
+          "score": 0.04065561294555664
+        },
+        {
+          "question": "What color are the floors in the living room?",
+          "answers": [
+            "wood",
+            "tile",
+            "carpet"
+          ],
+          "score": 0.037549495697021484
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a living room featuring a white sofa, a brown bookcase filled with books, and a black desk",
+      "question": "what is the color of the computer in the living room?",
+      "answer": "black",
+      "query_after": "a living room featuring a white sofa, a brown bookcase filled with books, and a black computer and desk",
+      "displayed_ids": [
+        45849,
+        32808,
+        20193,
+        41010,
+        29075,
+        8076,
+        45698,
+        19645,
+        39273,
+        10111
+      ],
+      "selected_ids": [
+        25970,
+        33005,
+        28569,
+        31376,
+        27562,
+        39556,
+        1978,
+        39786,
+        29733,
+        29578
+      ],
+      "rejected_count": 31,
+      "usual_paths": [
+        {
+          "question": "what is the color of the computer in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.04623603820800781
+        },
+        {
+          "question": "**Question:** What is the color of the computer in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.03595542907714844
+        },
+        {
+          "question": "what is the color of the computer in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.04623603820800781,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the computer in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.04623603820800781,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the computer in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.04623603820800781,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "**Question:** Is there a computer tower in the living room?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0019807815551757812
+        },
+        {
+          "question": "Question: What is the color of the computer in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.035152435302734375
+        },
+        {
+          "question": "**Question:** What is the color of the computer in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.03595542907714844
+        },
+        {
+          "question": "**Question:** What is the color of the computer in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.03595542907714844,
+          "duplicate_of": 2
+        },
+        {
+          "question": "**Question:** What is the color of the computer in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.03595542907714844,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a living room featuring a white sofa, a brown bookcase filled with books, and a black computer and desk",
+      "question": "Question: What is the color of the chair in the living room?",
+      "answer": "black",
+      "query_after": "a living room featuring a white sofa, a black desk, a black chair, and a brown bookcase filled with books and a black computer",
+      "displayed_ids": [
+        45849,
+        32808,
+        8076,
+        45698,
+        29075,
+        19645,
+        20193,
+        10111,
+        35570,
+        41010
+      ],
+      "selected_ids": [
+        28569,
+        27158,
+        521,
+        29578,
+        6635,
+        27562,
+        32750,
+        15624,
+        9411,
+        47254
+      ],
+      "rejected_count": 32,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "mockup",
+            "monitor",
+            "printer"
+          ],
+          "score": 0.03747129440307617
+        },
+        {
+          "question": "what is the color of the bookcase in the living room?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.025768280029296875
+        },
+        {
+          "question": "what is the color of the computer in the living room with the brown bookcase?",
+          "answers": [
+            "black",
+            "white",
+            "gray"
+          ],
+          "score": 0.027175426483154297
+        },
+        {
+          "question": "what is the color of the bookcase in the living room?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.025768280029296875,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the bookcase in the living room?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.025768280029296875,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "**Question:** What is the color of the chair in the living room?",
+          "answers": [
+            "white",
+            "brown",
+            "beige"
+          ],
+          "score": 0.01835346221923828
+        },
+        {
+          "question": "**Question:** What is the color of the chair in the living room?",
+          "answers": [
+            "white",
+            "brown",
+            "beige"
+          ],
+          "score": 0.01835346221923828,
+          "duplicate_of": 0
+        },
+        {
+          "question": "**Question:** What is the color of the chair in the living room?",
+          "answers": [
+            "white",
+            "brown",
+            "beige"
+          ],
+          "score": 0.01835346221923828,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the chair in the living room?",
+          "answers": [
+            "white",
+            "brown",
+            "blue"
+          ],
+          "score": 0.04607868194580078
+        },
+        {
+          "question": "What is the color of the chair in the living room?",
+          "answers": [
+            "white",
+            "brown",
+            "black"
+          ],
+          "score": 0.03354310989379883
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a living room featuring a white sofa, a black desk, a black chair, and a brown bookcase filled with books and a black computer",
+      "question": "what is the color of the coffee table in the living room?",
+      "answer": "black",
+      "query_after": "a living room featuring a white sofa, a black desk, a black chair, and a black computer, with a brown bookcase filled with books",
+      "displayed_ids": [
+        32808,
+        19645,
+        45849,
+        20193,
+        33793,
+        23792,
+        29810,
+        19718,
+        29075,
+        43392
+      ],
+      "selected_ids": [
+        47254,
+        32750,
+        25777,
+        9233,
+        44225,
+        44476,
+        29733,
+        19619,
+        27562,
+        39291
+      ],
+      "rejected_count": 33,
+      "usual_paths": [
+        {
+          "question": "**Question:** What is the color of the coffee table in the living room?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.019035816192626953
+        },
+        {
+          "question": "what is the color of the coffee table in the living room?",
+          "answers": [
+            "wood",
+            "glass",
+            "metal"
+          ],
+          "score": 0.03181600570678711
+        },
+        {
+          "question": "What is the color of the coffee table in the living room?",
+          "answers": [
+            "wood",
+            "black",
+            "brown"
+          ],
+          "score": 0.02333545684814453
+        },
+        {
+          "question": "what is the color of the coffee table in the living room?",
+          "answers": [
+            "wood",
+            "glass",
+            "metal"
+          ],
+          "score": 0.03181600570678711,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the coffee table in the living room?",
+          "answers": [
+            "wood",
+            "glass",
+            "metal"
+          ],
+          "score": 0.03181600570678711,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "**Question:** What is the color of the carpet in the living room?",
+          "answers": [
+            "white",
+            "beige",
+            "gray"
+          ],
+          "score": 0.012513160705566406
+        },
+        {
+          "question": "What is the color of the carpet in the living room?",
+          "answers": [
+            "beige",
+            "gray",
+            "white"
+          ],
+          "score": 0.016279220581054688
+        },
+        {
+          "question": "**Question:** What is the color of the carpet in the living room?",
+          "answers": [
+            "white",
+            "beige",
+            "gray"
+          ],
+          "score": 0.012513160705566406,
+          "duplicate_of": 0
+        },
+        {
+          "question": "What is the color of the carpet in the living room?",
+          "answers": [
+            "beige",
+            "gray",
+            "white"
+          ],
+          "score": 0.016279220581054688,
+          "duplicate_of": 1
+        },
+        {
+          "question": "**Question:** What is the color of the carpet in the living room?",
+          "answers": [
+            "white",
+            "beige",
+            "gray"
+          ],
+          "score": 0.012513160705566406,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a living room featuring a white sofa, a black desk, a black chair, and a black computer, with a brown bookcase filled with books",
+      "question": "what objects are present on the bookcase in the living room besides books?",
+      "answer": "a cat figurine",
+      "query_after": "a living room featuring a white sofa, a black desk, a black chair, and a black coffee table, with a brown bookcase holding books and a cat figurine",
+      "displayed_ids": [
+        32808,
+        19645,
+        45849,
+        20193,
+        29810,
+        33793,
+        43392,
+        10111,
+        32166,
+        29075
+      ],
+      "selected_ids": [
+        47616,
+        44225,
+        29733,
+        22802,
+        19619,
+        44185,
+        44476,
+        1238,
+        47254,
+        32750
+      ],
+      "rejected_count": 34,
+      "usual_paths": [
+        {
+          "question": "Question: What is the material of the bookcase in the living room?",
+          "answers": [
+            "wood",
+            "metal",
+            "glass"
+          ],
+          "score": 0.02959728240966797
+        },
+        {
+          "question": "What is the material of the bookcase in the living room?",
+          "answers": [
+            "wood",
+            "black",
+            "brown"
+          ],
+          "score": 0.02631998062133789
+        },
+        {
+          "question": "what is the material of the bookcase in the living room?",
+          "answers": [
+            "wood",
+            "black",
+            "white"
+          ],
+          "score": 0.04101371765136719
+        },
+        {
+          "question": "what objects are present on the bookcase in the living room besides books?",
+          "answers": [
+            "laptop",
+            "speakers",
+            "tv"
+          ],
+          "score": 0.054739952087402344
+        },
+        {
+          "question": "what is the material of the bookcase in the living room?",
+          "answers": [
+            "wood",
+            "black",
+            "white"
+          ],
+          "score": 0.04101371765136719,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What color is the rug in the living room?",
+          "answers": [
+            "no rug",
+            "white",
+            "black"
+          ],
+          "score": 0.013439178466796875
+        },
+        {
+          "question": "Question: What is the color of the floor in the living room?",
+          "answers": [
+            "wooden",
+            "hardwood",
+            "brown"
+          ],
+          "score": 0.014433860778808594
+        },
+        {
+          "question": "**Question:** What is the color of the walls in the living room?",
+          "answers": [
+            "white",
+            "beige",
+            "cream"
+          ],
+          "score": 0.009104728698730469
+        },
+        {
+          "question": "**Question:** What is the color of the wall in the living room?",
+          "answers": [
+            "white",
+            "beige",
+            "gray"
+          ],
+          "score": 0.022770404815673828
+        },
+        {
+          "question": "Question: What is the color of the rug in the living room?",
+          "answers": [
+            "beige",
+            "gray",
+            "white"
+          ],
+          "score": 0.016335487365722656
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a living room featuring a white sofa, a black desk, a black chair, and a black coffee table, with a brown bookcase holding books and a cat figurine",
+      "question": "**Question:** What is the color of the cat sitting on the bookcase?",
+      "answer": "white",
+      "query_after": "a living room featuring a white sofa, a black desk, a black chair, and a black coffee table, with a brown bookcase holding books and a white cat figurine",
+      "displayed_ids": [
+        14680,
+        45849,
+        7611,
+        20193,
+        49643,
+        33793,
+        8076,
+        41010,
+        24180,
+        19645
+      ],
+      "selected_ids": [
+        44225,
+        27158,
+        9295,
+        21753,
+        36812,
+        10111,
+        34975,
+        42934,
+        33274,
+        31707
+      ],
+      "rejected_count": 38,
+      "usual_paths": [
+        {
+          "question": "**Question:** What is the color of the cat sitting on the bookcase?",
+          "answers": [
+            "white",
+            "black",
+            "orange"
+          ],
+          "score": 0.0313873291015625
+        },
+        {
+          "question": "**Question:** What is the color of the cat in the living room?",
+          "answers": [
+            "black",
+            "white"
+          ],
+          "score": 0.014772415161132812
+        },
+        {
+          "question": "what is the color of the cat in the living room?",
+          "answers": [
+            "white",
+            "brown",
+            "black"
+          ],
+          "score": 0.016805648803710938
+        },
+        {
+          "question": "What is the color of the cat in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "brown"
+          ],
+          "score": 0.016805648803710938
+        },
+        {
+          "question": "what color is the cat sitting on the bookshelf?",
+          "answers": [
+            "white",
+            "brown",
+            "black"
+          ],
+          "score": 0.013978958129882812
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "**Question:** What color is the cat sitting on the bookcase?",
+          "answers": [
+            "white",
+            "black",
+            "grey"
+          ],
+          "score": 0.016637802124023438
+        },
+        {
+          "question": "**Question:** What is the color of the cat sitting on the bookcase?",
+          "answers": [
+            "black",
+            "white"
+          ],
+          "score": 0.013462543487548828
+        },
+        {
+          "question": "**Question:** What is the color of the cat sitting on the bookcase?",
+          "answers": [
+            "black",
+            "white"
+          ],
+          "score": 0.013462543487548828,
+          "duplicate_of": 1
+        },
+        {
+          "question": "**Question:** What is the color of the cat sitting on the bookcase?",
+          "answers": [
+            "black",
+            "white"
+          ],
+          "score": 0.013462543487548828,
+          "duplicate_of": 1
+        },
+        {
+          "question": "**Question:** What is the color of the cat sitting on the bookcase?",
+          "answers": [
+            "black",
+            "white"
+          ],
+          "score": 0.013462543487548828,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "a living room featuring a white sofa, a black desk, a black chair, and a black coffee table, with a brown bookcase holding books and a white cat figurine",
+      "question": "**Question:** What is the color of the floor in the living room?",
+      "answer": "beige",
+      "query_after": "a living room with beige flooring, featuring a black desk, a brown bookcase holding books and a white cat figurine, a white sofa, a black chair, and a black computer",
+      "displayed_ids": [
+        14680,
+        20193,
+        45849,
+        8076,
+        33793,
+        7611,
+        49643,
+        41010,
+        14025,
+        10111
+      ],
+      "selected_ids": [
+        34975,
+        7611,
+        11715,
+        10111,
+        39291,
+        16234,
+        29733,
+        20193,
+        44225,
+        6263
+      ],
+      "rejected_count": 39,
+      "usual_paths": [
+        {
+          "question": "What is the color of the plant in the living room?",
+          "answers": [
+            "green",
+            "white",
+            "brown"
+          ],
+          "score": 0.024252891540527344
+        },
+        {
+          "question": "what is the color of the plant in the living room?",
+          "answers": [
+            "green",
+            "white",
+            "brown"
+          ],
+          "score": 0.024252891540527344
+        },
+        {
+          "question": "what is the color of the plant in the living room?",
+          "answers": [
+            "green",
+            "white",
+            "brown"
+          ],
+          "score": 0.024252891540527344,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the plant in the living room?",
+          "answers": [
+            "green",
+            "white",
+            "brown"
+          ],
+          "score": 0.024252891540527344,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the plant in the living room?",
+          "answers": [
+            "green",
+            "white",
+            "brown"
+          ],
+          "score": 0.024252891540527344,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "**Question:** What is the color of the floor in the living room?",
+          "answers": [
+            "hardwood",
+            "white",
+            "black"
+          ],
+          "score": 0.026529788970947266
+        },
+        {
+          "question": "**Question:** What is the color of the floor in the living room?",
+          "answers": [
+            "hardwood",
+            "white",
+            "black"
+          ],
+          "score": 0.026529788970947266,
+          "duplicate_of": 0
+        },
+        {
+          "question": "**Question:** What is the color of the floor in the living room?",
+          "answers": [
+            "hardwood",
+            "white",
+            "black"
+          ],
+          "score": 0.026529788970947266,
+          "duplicate_of": 0
+        },
+        {
+          "question": "**Question:** What is the color of the floor in the living room?",
+          "answers": [
+            "hardwood",
+            "white",
+            "black"
+          ],
+          "score": 0.026529788970947266,
+          "duplicate_of": 0
+        },
+        {
+          "question": "**Question:** What is the color of the floor in the living room?",
+          "answers": [
+            "hardwood",
+            "white",
+            "black"
+          ],
+          "score": 0.026529788970947266,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

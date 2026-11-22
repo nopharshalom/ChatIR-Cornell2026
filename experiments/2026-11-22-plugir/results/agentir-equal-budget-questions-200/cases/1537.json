@@ -1,0 +1,76 @@
+{
+  "qid": 1537,
+  "sample": 1,
+  "first_candidates": [
+    "Question: How many people are playing the video game in the image?",
+    "Question: What is the gender composition of the group playing the video game?",
+    "Question: What is the name of the video game console being used by the group?",
+    "Question: Where is the group of people playing the video game?",
+    "what is the age group of the people playing the video game?"
+  ],
+  "second_candidates": [
+    "Question: How many people are visible in the image?",
+    "Question: What is the specific location where the group of young people is playing video games?",
+    "Question: What is the gender of the people playing video games in the image?",
+    "Question: What is the specific location where the group of people is playing video games?",
+    "Who are the young people playing video games with?"
+  ],
+  "paths": [
+    {
+      "question": "Question: How many people are visible in the image?",
+      "answers": [
+        "2",
+        "3",
+        "4"
+      ],
+      "score": 0.0001354217529296875
+    },
+    {
+      "question": "Question: What is the specific location where the group of young people is playing video games?",
+      "answers": [
+        "[living room, cafeteria, gym]"
+      ],
+      "note": "fewer than 2 answers"
+    },
+    {
+      "question": "Question: What is the gender of the people playing video games in the image?",
+      "answers": [
+        "male",
+        "female",
+        "mixed"
+      ],
+      "score": 0.032744407653808594
+    },
+    {
+      "question": "Question: What is the specific location where the group of people is playing video games?",
+      "answers": [
+        "living room",
+        "gym",
+        "cafeteria"
+      ],
+      "score": 0.10410261154174805
+    },
+    {
+      "question": "Who are the young people playing video games with?",
+      "answers": [
+        "men",
+        "women",
+        "children"
+      ],
+      "score": 0.09057760238647461
+    }
+  ],
+  "control": {
+    "question": "Question: Where is the group of people playing the video game?",
+    "score": 0.1379685401916504
+  },
+  "mixed": {
+    "question": "Question: Where is the group of people playing the video game?",
+    "score": 0.1379685401916504
+  },
+  "control_rank": 25,
+  "mixed_rank": 25,
+  "usual_rank": 25,
+  "new_answer": null,
+  "new_rewrite": null
+}

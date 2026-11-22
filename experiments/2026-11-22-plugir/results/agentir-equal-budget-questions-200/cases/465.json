@@ -1,0 +1,79 @@
+{
+  "qid": 465,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the shirts worn by the group of people playing frisbee in the image?",
+    "Question: what is the gender of the people playing frisbee in the image?",
+    "what is the gender of the person holding the frisbee in the image?",
+    "what is the number of people playing frisbee in the image?",
+    "what is the other object in the image?"
+  ],
+  "second_candidates": [
+    "what color are the shirts worn by the group of people playing frisbee?",
+    "what is the gender of the group of people playing frisbee?",
+    "what activity are the people in red shirts engaged in?",
+    "Question: what color is the frisbee being thrown by the man?",
+    "what is the gender of the group of people playing frisbee?"
+  ],
+  "paths": [
+    {
+      "question": "what color are the shirts worn by the group of people playing frisbee?",
+      "answers": [
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "score": 0.10706949234008789
+    },
+    {
+      "question": "what is the gender of the group of people playing frisbee?",
+      "answers": [
+        "boys",
+        "men",
+        "women"
+      ],
+      "score": 0.07456493377685547
+    },
+    {
+      "question": "what activity are the people in red shirts engaged in?",
+      "answers": [
+        "playing frisbee",
+        "playing soccer",
+        "playing tennis"
+      ],
+      "score": 0.05941057205200195
+    },
+    {
+      "question": "Question: what color is the frisbee being thrown by the man?",
+      "answers": [
+        "red",
+        "yellow",
+        "orange"
+      ],
+      "score": 0.08118247985839844
+    },
+    {
+      "question": "what is the gender of the group of people playing frisbee?",
+      "answers": [
+        "boys",
+        "men",
+        "women"
+      ],
+      "score": 0.07456493377685547,
+      "duplicate_of": 1
+    }
+  ],
+  "control": {
+    "question": "what is the color of the shirts worn by the group of people playing frisbee in the image?",
+    "score": 0.17385435104370117
+  },
+  "mixed": {
+    "question": "what is the color of the shirts worn by the group of people playing frisbee in the image?",
+    "score": 0.17385435104370117
+  },
+  "control_rank": 36,
+  "mixed_rank": 36,
+  "usual_rank": 36,
+  "new_answer": null,
+  "new_rewrite": null
+}

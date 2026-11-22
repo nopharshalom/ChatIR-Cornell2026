@@ -1,0 +1,276 @@
+{
+  "qid": 814,
+  "sample": "original",
+  "target": "unlabeled2017/000000383772.jpg",
+  "queries": [
+    "2 people wearing black are standing next to each other",
+    "two people wearing black standing next to each other, holding nothing",
+    "two people wearing black standing next to each other in a garden"
+  ],
+  "ranks": [
+    116,
+    429,
+    3
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "2 people wearing black are standing next to each other",
+      "question": "what are the two people wearing black holding?",
+      "answer": "nothing",
+      "query_after": "two people wearing black standing next to each other, holding nothing",
+      "displayed_ids": [
+        13361,
+        3248,
+        44280,
+        49897,
+        5389,
+        13735,
+        4822,
+        43033,
+        17935,
+        11942
+      ],
+      "selected_ids": [
+        28469,
+        36334,
+        20386,
+        2788,
+        8258,
+        25319,
+        29556,
+        21785,
+        10105,
+        48145
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the activity that the two people wearing black are doing?",
+          "answers": [
+            "standing",
+            "walking",
+            "playing a video game"
+          ],
+          "score": 0.17850542068481445
+        },
+        {
+          "question": "what are the two people wearing black holding?",
+          "answers": [
+            "tennis rackets",
+            "an umbrella",
+            "a wine glass"
+          ],
+          "score": 0.33428335189819336
+        },
+        {
+          "question": "what color are the umbrellas held by the two people wearing black?",
+          "answers": [
+            "black",
+            "white",
+            "clear"
+          ],
+          "score": 0.0113372802734375
+        },
+        {
+          "question": "what color are the hats worn by the two people wearing black?",
+          "answers": [
+            "black",
+            "white",
+            "no hats"
+          ],
+          "score": 0.005429744720458984
+        },
+        {
+          "question": "what are the two people wearing black holding?",
+          "answers": [
+            "tennis rackets",
+            "an umbrella",
+            "a wine glass"
+          ],
+          "score": 0.33428335189819336,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What activity are the two people wearing black engaged in?",
+          "answers": [
+            "standing at a bus stop",
+            "walking a horse",
+            "on skis"
+          ],
+          "score": 0.23394155502319336
+        },
+        {
+          "question": "Question: What activity are the two people wearing black engaged in?",
+          "answers": [
+            "standing at a bus stop",
+            "walking a horse",
+            "on skis"
+          ],
+          "score": 0.23394155502319336,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what gender are the two people wearing black?",
+          "answers": [
+            "male",
+            "female",
+            "both"
+          ],
+          "score": 0.01592540740966797
+        },
+        {
+          "question": "what color is the hat worn by the people standing next to each other?",
+          "answers": [
+            "black",
+            "white",
+            "no hat"
+          ],
+          "score": 0.006755828857421875
+        },
+        {
+          "question": "what objects are the two people wearing black holding?",
+          "answers": [
+            "umbrellas",
+            "tennis rackets",
+            "a wine glass"
+          ],
+          "score": 0.28812599182128906
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "two people wearing black standing next to each other, holding nothing",
+      "question": "what is the location where the two people wearing black are standing?",
+      "answer": "garden",
+      "query_after": "two people wearing black standing next to each other in a garden",
+      "displayed_ids": [
+        47270,
+        47307,
+        7938,
+        25213,
+        20893,
+        15742,
+        3248,
+        24875,
+        5389,
+        10865
+      ],
+      "selected_ids": [
+        25319,
+        18780,
+        11773,
+        24556,
+        47307,
+        43100,
+        40948,
+        2382,
+        44996,
+        23701
+      ],
+      "rejected_count": 18,
+      "usual_paths": [
+        {
+          "question": "what is the location where the two people wearing black are standing?",
+          "answers": [
+            "street",
+            "snow",
+            "park"
+          ],
+          "score": 0.12714004516601562
+        },
+        {
+          "question": "what is the gender of the two people wearing black?",
+          "answers": [
+            "men",
+            "women",
+            "both genders"
+          ],
+          "score": 0.024164676666259766
+        },
+        {
+          "question": "what is the gender of the two people wearing black?",
+          "answers": [
+            "men",
+            "women",
+            "both genders"
+          ],
+          "score": 0.024164676666259766,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the location where the two people wearing black are standing?",
+          "answers": [
+            "street",
+            "snow",
+            "park"
+          ],
+          "score": 0.12714004516601562,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the activity that the two people wearing black are engaged in?",
+          "answers": [
+            "standing",
+            "walking",
+            "posing"
+          ],
+          "score": 0.048357486724853516
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the gender of the two people wearing black?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.014697074890136719
+        },
+        {
+          "question": "what is the name of the two people wearing black?",
+          "answers": [
+            "names",
+            "nicknames",
+            "titles"
+          ],
+          "score": 0.008647441864013672
+        },
+        {
+          "question": "what is the location where the two people wearing black are standing?",
+          "answers": [
+            "street",
+            "snow",
+            "park"
+          ],
+          "score": 0.12714004516601562
+        },
+        {
+          "question": "what is the race of the two people wearing black?",
+          "answers": [
+            "white",
+            "black",
+            "asian"
+          ],
+          "score": 0.03312826156616211
+        },
+        {
+          "question": "what is the relationship between the two people wearing black?",
+          "answers": [
+            "friends",
+            "siblings",
+            "colleagues"
+          ],
+          "score": 0.027369022369384766
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

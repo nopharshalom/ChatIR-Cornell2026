@@ -1,0 +1,79 @@
+{
+  "qid": 1268,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the man's wetsuit?",
+    "what is the location where the man is surfing?",
+    "what is the material of the board the man is riding?",
+    "what is the color of the man's wetsuit?",
+    "what is the color of the surfboard the man is riding?"
+  ],
+  "second_candidates": [
+    "Question: what is the color of the wetsuit the man is wearing?",
+    "what is the location where the man is surfing?",
+    "what is the color of the man's wetsuit?",
+    "what is the color of the surfboard the man is wearing a black wetsuit on?",
+    "what is the color of the surfboard the man is wearing a black wetsuit on?"
+  ],
+  "paths": [
+    {
+      "question": "Question: what is the color of the wetsuit the man is wearing?",
+      "answers": [
+        "black",
+        "yellow",
+        "none"
+      ],
+      "score": 0.06667041778564453
+    },
+    {
+      "question": "what is the location where the man is surfing?",
+      "answers": [
+        "ocean",
+        "wave pool",
+        "beach"
+      ],
+      "score": 0.029883384704589844
+    },
+    {
+      "question": "what is the color of the man's wetsuit?",
+      "answers": [
+        "black",
+        "blue",
+        "red"
+      ],
+      "score": 0.028392314910888672
+    },
+    {
+      "question": "what is the color of the surfboard the man is wearing a black wetsuit on?",
+      "answers": [
+        "black",
+        "yellow",
+        "tan and aqua"
+      ],
+      "score": 0.06207466125488281
+    },
+    {
+      "question": "what is the color of the surfboard the man is wearing a black wetsuit on?",
+      "answers": [
+        "black",
+        "yellow",
+        "tan and aqua"
+      ],
+      "score": 0.06207466125488281,
+      "duplicate_of": 3
+    }
+  ],
+  "control": {
+    "question": "Question: what is the color of the wetsuit the man is wearing?",
+    "score": 0.06667041778564453
+  },
+  "mixed": {
+    "question": "what is the color of the surfboard the man is riding?",
+    "score": 0.061664581298828125
+  },
+  "control_rank": 71,
+  "mixed_rank": 25,
+  "usual_rank": 25,
+  "new_answer": "black",
+  "new_rewrite": "a man in a black wetsuit surfs a wave on a tan and aqua colored surfboard"
+}

@@ -1,0 +1,79 @@
+{
+  "qid": 1866,
+  "sample": 1,
+  "first_candidates": [
+    "Question: What is the time of day depicted in the image?",
+    "Question: What is the sky color visible behind the street sign?",
+    "Question: What is the specific detail written on the street sign?",
+    "Question: Question: Which color is the background of the street sign?",
+    "Question: What is the specific location name indicated on the street sign?"
+  ],
+  "second_candidates": [
+    "Question: What is the color of the street sign on the busy street surrounded by tall buildings?",
+    "Question: What is the color of the street sign in the image?",
+    "Question: What is the color of the street sign in the image?",
+    "What is the color of the street sign in front of the tall building?",
+    "Question: What is the specific location or name of the street sign visible in the image?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What is the color of the street sign on the busy street surrounded by tall buildings?",
+      "answers": [
+        "blue",
+        "black",
+        "red"
+      ],
+      "score": 0.09456634521484375
+    },
+    {
+      "question": "Question: What is the color of the street sign in the image?",
+      "answers": [
+        "blue",
+        "black",
+        "red"
+      ],
+      "score": 0.07712030410766602
+    },
+    {
+      "question": "Question: What is the color of the street sign in the image?",
+      "answers": [
+        "blue",
+        "black",
+        "red"
+      ],
+      "score": 0.07712030410766602,
+      "duplicate_of": 1
+    },
+    {
+      "question": "What is the color of the street sign in front of the tall building?",
+      "answers": [
+        "blue",
+        "black",
+        "white"
+      ],
+      "score": 0.0404200553894043
+    },
+    {
+      "question": "Question: What is the specific location or name of the street sign visible in the image?",
+      "answers": [
+        "Times Square",
+        "Ohio Street",
+        "Broadway"
+      ],
+      "score": 0.07315301895141602
+    }
+  ],
+  "control": {
+    "question": "Question: What is the color of the street sign on the busy street surrounded by tall buildings?",
+    "score": 0.09456634521484375
+  },
+  "mixed": {
+    "question": "Question: What is the color of the street sign?",
+    "score": 0.08837890625
+  },
+  "control_rank": 5,
+  "mixed_rank": 5,
+  "usual_rank": 1,
+  "new_answer": "white",
+  "new_rewrite": "a white street sign on a busy street surrounded by tall buildings"
+}

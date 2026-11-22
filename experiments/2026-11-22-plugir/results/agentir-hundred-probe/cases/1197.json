@@ -1,0 +1,100 @@
+{
+  "qid": 1197,
+  "initial": "2 cats laying in front of each other on cushions",
+  "initial_rank": 57,
+  "evidence": [
+    "two zebras standing next to one another",
+    "two giraffe standing side by side in front of a tree",
+    "a dog laying on a bed with pillows",
+    "two zebras standing side by side",
+    "a brown and orange cat is resting on a bed",
+    "a cat is laying on a blue chair in the middle of a living room",
+    "a dog sitting on a couch and laying down on its bed",
+    "two black cats look out of a window",
+    "a blue couch in a living room with a cat on it",
+    "an orange cat on the bed"
+  ],
+  "candidates": [
+    "what color are the two cats laying in front of each other on cushions?",
+    "what is the location where the two cats are laying in front of each other on cushions?",
+    "what type of cushions are the two cats laying on?",
+    "what is the color of the cushions where the two cats are laying?",
+    "what is the other object in the image?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what color are the two cats laying in front of each other on cushions?",
+      "answers": [
+        "black",
+        "orange",
+        "brown and orange"
+      ],
+      "score": 0.07964611053466797
+    },
+    {
+      "question": "what is the location where the two cats are laying in front of each other on cushions?",
+      "answers": [
+        "bed",
+        "couch",
+        "window"
+      ],
+      "score": 0.13799333572387695
+    },
+    {
+      "question": "what type of cushions are the two cats laying on?",
+      "answers": [
+        "bed",
+        "chair",
+        "window sill"
+      ],
+      "score": 0.13569307327270508
+    },
+    {
+      "question": "what is the color of the cushions where the two cats are laying?",
+      "answers": [
+        "blue",
+        "brown",
+        "orange"
+      ],
+      "score": 0.08231973648071289
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "cat",
+        "cats",
+        "bed"
+      ],
+      "score": 0.03138303756713867
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.099,
+  "probe_selection_seconds": 2.432,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the other object in the image?",
+      "answer": "cat",
+      "rewrite": "two cats laying in front of each other on cushions with another cat",
+      "rank": 25,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the color of the cushions where the two cats are laying?",
+      "answer": "beige",
+      "rewrite": "two beige cushions with two cats laying in front of each other",
+      "rank": 63,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the location where the two cats are laying in front of each other on cushions?",
+      "answer": "under table",
+      "rewrite": "two cats laying in front of each other on cushions under a table",
+      "rank": 2,
+      "hit": true
+    }
+  },
+  "seconds": 20.374
+}

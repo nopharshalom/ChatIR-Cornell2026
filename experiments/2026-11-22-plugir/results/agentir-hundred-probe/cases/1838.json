@@ -1,0 +1,100 @@
+{
+  "qid": 1838,
+  "initial": "a small bathroom with a toilet in a corner",
+  "initial_rank": 579,
+  "evidence": [
+    "a toilet in a stall with grab bars",
+    "a wooden toilet is on a wooden floor in a bathroom with black walls",
+    "a bathroom with a window, sink, toilet, and mirror",
+    "a bathroom with tile floors, and a glass shower door",
+    "a toilet in a stall with a trash in the back",
+    "a white urinal with a puddle in the bottom",
+    "a bathroom with two sinks and a shower curtain",
+    "a bathroom with a pink wall, sink, mirror and cabinet",
+    "a toilet in a wooden hut with a bucket in the corner",
+    "a toilet in an old dingy area with some trash on the floor"
+  ],
+  "candidates": [
+    "what is the color of the walls in the bathroom where the toilet is located?",
+    "what is the material of the toilet in the bathroom?",
+    "Question: Is there trash on the floor in the bathroom with the toilet?",
+    "Question: Is there a window in the bathroom with the toilet?",
+    "Question: What is the location of the bathroom containing the small toilet in the corner?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the walls in the bathroom where the toilet is located?",
+      "answers": [
+        "black",
+        "white",
+        "pink"
+      ],
+      "score": 0.14836454391479492
+    },
+    {
+      "question": "what is the material of the toilet in the bathroom?",
+      "answers": [
+        "wood",
+        "white",
+        "plastic"
+      ],
+      "score": 0.13192033767700195
+    },
+    {
+      "question": "Question: Is there trash on the floor in the bathroom with the toilet?",
+      "answers": [
+        "Yes",
+        "No",
+        "Maybe"
+      ],
+      "score": 0.0006046295166015625
+    },
+    {
+      "question": "Question: Is there a window in the bathroom with the toilet?",
+      "answers": [
+        "yes",
+        "no",
+        "maybe"
+      ],
+      "score": 0.0005674362182617188
+    },
+    {
+      "question": "Question: What is the location of the bathroom containing the small toilet in the corner?",
+      "answers": [
+        "bathroom with black walls",
+        "wooden hut",
+        "old dingy area"
+      ],
+      "score": 0.13599491119384766
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.068,
+  "probe_selection_seconds": 2.719,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the material of the toilet in the bathroom?",
+      "answer": "plastic",
+      "rewrite": "a small bathroom with a plastic toilet in a corner",
+      "rank": 651,
+      "hit": false
+    },
+    "random": {
+      "question": "Question: What is the location of the bathroom containing the small toilet in the corner?",
+      "answer": "train",
+      "rewrite": "a small bathroom with a toilet in a corner, located inside a train",
+      "rank": 18,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the color of the walls in the bathroom where the toilet is located?",
+      "answer": "white",
+      "rewrite": "a small white bathroom with a toilet in a corner",
+      "rank": 380,
+      "hit": false
+    }
+  },
+  "seconds": 12.684
+}

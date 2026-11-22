@@ -1,0 +1,78 @@
+{
+  "ids": [
+    34011,
+    27297,
+    20374,
+    19169
+  ],
+  "prefix": [
+    "the bathroom features a large tub in the middle of a private bathroom and a large shower",
+    "What is the size of the bathtub in the bathroom? large"
+  ],
+  "default": "what is the material of the shower in the bathroom?",
+  "chosen": "what is the material of the shower in the bathroom?",
+  "trials": {
+    "what is the material of the shower in the bathroom?": {
+      "answers": [
+        "glass",
+        "tile",
+        "tile",
+        "acrylic"
+      ],
+      "rewrites": {
+        "glass": "a private bathroom featuring a large bathtub in the middle and a large glass shower",
+        "tile": "a private bathroom featuring a large bathtub and a large tiled shower",
+        "acrylic": "a private bathroom featuring a large bathtub and a large acrylic shower"
+      },
+      "ranks": [
+        10,
+        41,
+        1,
+        133
+      ],
+      "hits": 2
+    },
+    "what is the location of the shower in the bathroom?": {
+      "answers": [
+        "The shower is located on the left side of the bathroom, as seen in the reflection of the mirror.",
+        "the shower is not visible in the image.",
+        "left side",
+        "not found"
+      ],
+      "rewrites": {
+        "The shower is located on the left side of the bathroom, as seen in the reflection of the mirror.": "a private bathroom featuring a large bathtub in the center and a large shower located on the left side, visible in the mirror's reflection",
+        "the shower is not visible in the image.": "a large bathtub is situated in the middle of a private bathroom, though the large shower mentioned is not visible in the image.",
+        "left side": "a large bathtub is situated in the middle of a private bathroom, with a large shower located on the left side",
+        "not found": "a bathroom featuring a large bathtub in the middle, with no shower visible"
+      },
+      "ranks": [
+        5,
+        24,
+        33,
+        91
+      ],
+      "hits": 1
+    },
+    "what is the color of the walls in the bathroom?": {
+      "answers": [
+        "beige",
+        "peach",
+        "blue",
+        "white"
+      ],
+      "rewrites": {
+        "beige": "a large beige bathroom features a large bathtub in the middle and a large shower",
+        "peach": "a large peach-colored bathroom featuring a large bathtub in the middle and a large shower",
+        "blue": "a large blue-walled private bathroom featuring a large bathtub in the middle and a large shower",
+        "white": "a large white bathroom featuring a large bathtub in the middle and a large shower"
+      },
+      "ranks": [
+        55,
+        1,
+        4,
+        49
+      ],
+      "hits": 2
+    }
+  }
+}

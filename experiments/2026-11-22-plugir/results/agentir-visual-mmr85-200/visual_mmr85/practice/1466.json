@@ -1,0 +1,113 @@
+{
+  "chosen": "what color are the motorcycles parked in the parking lot?",
+  "default": "what color are the motorcycles parked in the parking lot?",
+  "ids": [
+    32557,
+    49032,
+    44473,
+    40212
+  ],
+  "trials": {
+    "what color are the motorcycles parked in the parking lot?": {
+      "answers": [
+        "black",
+        "red and black",
+        "red",
+        "black"
+      ],
+      "rewrites": {
+        "black": "a group of black motorcycles parked in a parking lot",
+        "red and black": "a group of red and black motorcycles parked in a parking lot",
+        "red": "a group of red motorcycles parked in a parking lot"
+      },
+      "ranks": [
+        3,
+        5,
+        1,
+        70
+      ],
+      "hits": 3
+    },
+    "how many motorcycles are parked in the parking lot?": {
+      "answers": [
+        "5",
+        "2",
+        "unsure",
+        "12"
+      ],
+      "rewrites": {
+        "5": "five motorcycles parked in a parking lot",
+        "2": "two motorcycles parked in a parking lot",
+        "unsure": "a group of motorcycles parked in a parking lot, with the exact number unclear",
+        "12": "a group of 12 motorcycles parked in a parking lot"
+      },
+      "ranks": [
+        11,
+        17,
+        23,
+        5
+      ],
+      "hits": 1
+    },
+    "what is the position of the motorcycles relative to the cone?": {
+      "answers": [
+        "the motorcycles are positioned behind the cone.",
+        "I'm sorry, but the image does not show a cone, so I cannot determine the position of the motorcycles relative to it.",
+        "unsure",
+        "The motorcycles are positioned behind the cone."
+      ],
+      "rewrites": {
+        "the motorcycles are positioned behind the cone.": "a group of motorcycles parked behind a cone in a parking lot",
+        "I'm sorry, but the image does not show a cone, so I cannot determine the position of the motorcycles relative to it.": "a group of motorcycles parked in a parking lot",
+        "unsure": "a group of motorcycles parked in a parking lot, with the relative position of the motorcycles to the cone unknown",
+        "The motorcycles are positioned behind the cone.": "a group of motorcycles parked behind a cone in a parking lot"
+      },
+      "ranks": [
+        16,
+        21,
+        31,
+        131
+      ],
+      "hits": 0
+    },
+    "Question: Is there a motorcycle rider wearing a helmet among the parked motorcycles?": {
+      "answers": [
+        "no",
+        "no",
+        "no",
+        "Yes"
+      ],
+      "rewrites": {
+        "no": "a group of parked motorcycles in a parking lot with no rider wearing a helmet",
+        "Yes": "a group of parked motorcycles in a parking lot, including one with a rider wearing a helmet"
+      },
+      "ranks": [
+        11,
+        26,
+        43,
+        77
+      ],
+      "hits": 0
+    },
+    "Question: What is the color of the motorcycles parked in the parking lot?": {
+      "answers": [
+        "black",
+        "red",
+        "red",
+        "The motorcycles are various colors, including black, blue, red, and white."
+      ],
+      "rewrites": {
+        "black": "a group of black motorcycles parked in a parking lot",
+        "red": "a group of red motorcycles parked in a parking lot",
+        "The motorcycles are various colors, including black, blue, red, and white.": "a group of motorcycles in various colors, including black, blue, red, and white, parked in a parking lot"
+      },
+      "ranks": [
+        3,
+        7,
+        1,
+        58
+      ],
+      "hits": 3
+    }
+  }
+}

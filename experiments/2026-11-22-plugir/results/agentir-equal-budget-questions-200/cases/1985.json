@@ -1,0 +1,78 @@
+{
+  "qid": 1985,
+  "sample": 2,
+  "first_candidates": [
+    "what is the color of the dogs?",
+    "what are the dogs holding?",
+    "what is the color of the dogs?",
+    "Based on the provided information sources, here is the next logical question to generate:\n\n**Question:** What is the background environment where the two dogs are running?",
+    "**Question:** What is the ground surface where the two dogs are running?"
+  ],
+  "second_candidates": [
+    "what is the other object in the image?",
+    "what is the ground surface where the two dogs are running?",
+    "what is the color of the dogs running towards each other in the dirt?",
+    "what is the color of the dogs in the image?",
+    "what is the activity the dogs are performing in the image?"
+  ],
+  "paths": [
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "frisbee",
+        "ball",
+        "stick"
+      ],
+      "score": 0.03873157501220703
+    },
+    {
+      "question": "what is the ground surface where the two dogs are running?",
+      "answers": [
+        "dirt",
+        "grass",
+        "concrete"
+      ],
+      "score": 0.03172922134399414
+    },
+    {
+      "question": "what is the color of the dogs running towards each other in the dirt?",
+      "answers": [
+        "brown",
+        "black",
+        "white"
+      ],
+      "score": 0.043881893157958984
+    },
+    {
+      "question": "what is the color of the dogs in the image?",
+      "answers": [
+        "black",
+        "brown",
+        "white"
+      ],
+      "score": 0.056153297424316406
+    },
+    {
+      "question": "what is the activity the dogs are performing in the image?",
+      "answers": [
+        "running",
+        "chasing",
+        "playing"
+      ],
+      "score": 0.00589752197265625
+    }
+  ],
+  "control": {
+    "question": "what is the color of the dogs?",
+    "score": 0.0991663932800293
+  },
+  "mixed": {
+    "question": "what is the color of the dogs?",
+    "score": 0.0991663932800293
+  },
+  "control_rank": 15,
+  "mixed_rank": 15,
+  "usual_rank": 15,
+  "new_answer": null,
+  "new_rewrite": null
+}

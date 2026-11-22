@@ -1,0 +1,78 @@
+{
+  "qid": 2062,
+  "sample": 1,
+  "first_candidates": [
+    "what is the specific food item on the plate located next to the people at the table?",
+    "what color is the cup of coffee on the table next to the people eating breakfast?",
+    "What is the color of the table where the people are eating breakfast?",
+    "Question: What is the color of the plate containing the breakfast foods located next to the people at the table?",
+    "what is the color of the plate containing the fried egg, vegetables, and rice located next to the people at the table?"
+  ],
+  "second_candidates": [
+    "what type of food is on the plates next to the people?",
+    "Question: Is the table where the people are eating made of wood?",
+    "what are the people next to the breakfast plates doing?",
+    "what is the color of the plate holding the fried egg next to the people?",
+    "Question: what is the color of the plate holding the fried egg next to the people?"
+  ],
+  "paths": [
+    {
+      "question": "what type of food is on the plates next to the people?",
+      "answers": [
+        "fried egg",
+        "sandwiches",
+        "breakfast foods"
+      ],
+      "score": 0.042868614196777344
+    },
+    {
+      "question": "Question: Is the table where the people are eating made of wood?",
+      "answers": [
+        "yes",
+        "no",
+        "maybe"
+      ],
+      "score": 0.0011839866638183594
+    },
+    {
+      "question": "what are the people next to the breakfast plates doing?",
+      "answers": [
+        "sitting",
+        "eating",
+        "standing"
+      ],
+      "score": 0.026016712188720703
+    },
+    {
+      "question": "what is the color of the plate holding the fried egg next to the people?",
+      "answers": [
+        "white",
+        "blue",
+        "red"
+      ],
+      "score": 0.040929317474365234
+    },
+    {
+      "question": "Question: what is the color of the plate holding the fried egg next to the people?",
+      "answers": [
+        "white",
+        "blue",
+        "green"
+      ],
+      "score": 0.07475709915161133
+    }
+  ],
+  "control": {
+    "question": "what is the specific food item on the plate located next to the people at the table?",
+    "score": 0.1085667610168457
+  },
+  "mixed": {
+    "question": "What type of food is on the plates next to the people?",
+    "score": 0.1313767433166504
+  },
+  "control_rank": 79,
+  "mixed_rank": 36,
+  "usual_rank": 79,
+  "new_answer": null,
+  "new_rewrite": null
+}

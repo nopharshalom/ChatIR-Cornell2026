@@ -1,0 +1,81 @@
+{
+  "qid": 1648,
+  "arm": "fresh",
+  "after_round": 2,
+  "ranks": [
+    327,
+    315,
+    235,
+    315,
+    277,
+    142,
+    117,
+    142,
+    117,
+    143,
+    125
+  ],
+  "continuation": [
+    {
+      "round": 3,
+      "query_before": "Three zebras are standing and grazing in a grassy field.",
+      "question": "Are the animals in the image zebras or giraffes?",
+      "answer": "zebras",
+      "query_after": "three zebras standing and grazing in a grassy area",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Are the animals in the image zebras or giraffes?",
+      "fallback": false
+    },
+    {
+      "round": 4,
+      "query_before": "three zebras standing and grazing in a grassy area",
+      "question": "what is the specific texture or state of the grass in the background environment where the zebras are standing and grazing?",
+      "answer": "short and green",
+      "query_after": "three zebras standing and grazing on short, green grass"
+    },
+    {
+      "round": 5,
+      "query_before": "three zebras standing and grazing on short, green grass",
+      "question": "what is the specific location or type of the grassy area where the zebras are standing?",
+      "answer": "savanna",
+      "query_after": "three zebras standing and grazing on short, green grass in a savanna"
+    },
+    {
+      "round": 6,
+      "query_before": "three zebras standing and grazing on short, green grass in a savanna",
+      "question": "what is the other object in the image?",
+      "answer": "zebra",
+      "query_after": "Three zebras are standing and grazing on short, green grass within a savanna."
+    },
+    {
+      "round": 7,
+      "query_before": "Three zebras are standing and grazing on short, green grass within a savanna.",
+      "question": "what is the other object in the image?",
+      "answer": "zebra",
+      "query_after": "three zebras standing and grazing on short, green grass in a savanna"
+    },
+    {
+      "round": 8,
+      "query_before": "three zebras standing and grazing on short, green grass in a savanna",
+      "question": "what is the other object in the image?",
+      "answer": "zebra",
+      "query_after": "Three zebras are standing and grazing on short, green grass within a savanna."
+    },
+    {
+      "round": 9,
+      "query_before": "Three zebras are standing and grazing on short, green grass within a savanna.",
+      "question": "what is the other object in the image?",
+      "answer": "zebra",
+      "query_after": "three zebras standing and grazing on short green grass in a savanna"
+    },
+    {
+      "round": 10,
+      "query_before": "three zebras standing and grazing on short green grass in a savanna",
+      "question": "what is the other object in the image?",
+      "answer": "zebra",
+      "query_after": "Three zebras are standing and grazing on short green grass in a savanna."
+    }
+  ],
+  "seconds": 125.4
+}

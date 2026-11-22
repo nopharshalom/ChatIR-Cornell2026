@@ -1,0 +1,59 @@
+{
+  "qid": 722,
+  "arm": "probe",
+  "after_round": 9,
+  "ranks": [
+    81,
+    81,
+    137,
+    88,
+    81,
+    106,
+    329,
+    26,
+    35,
+    29,
+    35
+  ],
+  "continuation": [
+    {
+      "round": 10,
+      "query_before": "A man and a woman fly red kites on a brown beach, while other people fly kites in the background.",
+      "question": "Is the location a beach or a park?",
+      "answer": "beach",
+      "query_after": "a female and a male fly red kites on a brown beach, with other people flying kites in the background",
+      "searches": [
+        {
+          "query": "Two people, a female and a male, flying a red kite on a brown sandy beach with a crowd of people flying kites in the background.",
+          "ids": [
+            11802,
+            38515,
+            33044
+          ],
+          "captions": [
+            "three people flying a kite on the beach",
+            "a group of people on the beach flying kites",
+            "women watching a kite in the air"
+          ]
+        },
+        {
+          "query": "A young girl and a man flying a red kite on a brown sandy beach with a crowd of people flying kites in the background.",
+          "ids": [
+            7659,
+            4778,
+            39729
+          ],
+          "captions": [
+            "a kite flying over the beach",
+            "two people flying a kite in the park",
+            "a man and a boy flying a kite on the beach"
+          ]
+        }
+      ],
+      "raw_plan": "Two people, a female and a male, flying a red kite on a brown sandy beach with a crowd of people flying kites in the background.\nA young girl and a man flying a red kite on a brown sandy beach with a crowd of people flying kites in the background.",
+      "generated": "Is the location a beach or a park?",
+      "fallback": false
+    }
+  ],
+  "seconds": 3.1
+}

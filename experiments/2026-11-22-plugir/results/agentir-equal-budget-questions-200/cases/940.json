@@ -1,0 +1,78 @@
+{
+  "qid": 940,
+  "sample": 2,
+  "first_candidates": [
+    "what is the type of field where the group of people are flying the kite?",
+    "what is the location of the group of people flying the kite?",
+    "Question: how many people are in the group flying the kite?",
+    "what is the color of the field where the group of people are flying the kite?",
+    "what is the color of the field where the group of people are flying the kite?"
+  ],
+  "second_candidates": [
+    "Question: What is the type of terrain where the group is flying the kite?",
+    "Question: How many people are in the group flying the kite?",
+    "Question: Question: What color is the field where the group is flying the kite?",
+    "Question: What is the color of the shirts worn by the people flying the kite?",
+    "Who are the people working together to fly the kite?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What is the type of terrain where the group is flying the kite?",
+      "answers": [
+        "green field",
+        "snow field",
+        "beach"
+      ],
+      "score": 0.24891948699951172
+    },
+    {
+      "question": "Question: How many people are in the group flying the kite?",
+      "answers": [
+        "2",
+        "3",
+        "4"
+      ],
+      "score": 0.0019583702087402344
+    },
+    {
+      "question": "Question: Question: What color is the field where the group is flying the kite?",
+      "answers": [
+        "green",
+        "snow",
+        "beach"
+      ],
+      "score": 0.15469598770141602
+    },
+    {
+      "question": "Question: What is the color of the shirts worn by the people flying the kite?",
+      "answers": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "score": 0.14412641525268555
+    },
+    {
+      "question": "Who are the people working together to fly the kite?",
+      "answers": [
+        "A family",
+        "Friends",
+        "Strangers"
+      ],
+      "score": 0.00996255874633789
+    }
+  ],
+  "control": {
+    "question": "what is the location of the group of people flying the kite?",
+    "score": 0.2535214424133301
+  },
+  "mixed": {
+    "question": "what is the location of the group of people flying the kite?",
+    "score": 0.2535214424133301
+  },
+  "control_rank": 2,
+  "mixed_rank": 2,
+  "usual_rank": 2,
+  "new_answer": null,
+  "new_rewrite": null
+}

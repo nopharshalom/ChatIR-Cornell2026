@@ -1,0 +1,176 @@
+{
+  "qid": 650,
+  "initial": "a skateboarder on flat ground performing an aerial trick",
+  "initial_rank": 38,
+  "displayed": [
+    5557,
+    12351,
+    5955,
+    34601,
+    3190,
+    29576,
+    5917,
+    5769,
+    46718,
+    27494
+  ],
+  "evidence": [
+    "a black and white photo of people skateboarding in the park",
+    "a man skateboarding on a ramp at night",
+    "a young boy is skateboarding in an indoor skate park",
+    "a young man is skateboarding in the middle of a city square",
+    "the park has palm trees",
+    "black and white photo of a skateboarder doing tricks",
+    "a man is standing on a skateboard in a dark place",
+    "a man riding a skateboard in a brick building",
+    "a woman doing an upside down handstand"
+  ],
+  "rejected_captions": [
+    "a young man riding a skateboard in the air in a skate park",
+    "a skateboarder executing a trick in the air",
+    "a man riding a skateboard in the air",
+    "an alleyway filled with skateboarders in the park",
+    "a young boy with a skateboard",
+    "a man jumping a skate board with orange cones in the air",
+    "a young boy performing a skateboard trick at a skate park",
+    "a skateboarder doing a trick in the air",
+    "a man doing a skateboard trick on a circular concrete surface",
+    "a man on a skate board performing a trick"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the color of the photo showing a skateboarder doing tricks?",
+      "what is the gender of the skateboarder performing an aerial trick on flat ground?",
+      "what is the lighting condition of the photo showing a skateboarder performing an aerial trick on flat ground?",
+      "what is the gender of the person performing the trick on the flat ground?",
+      "what is the specific type of aerial trick being performed by the skateboarder on the flat ground?"
+    ],
+    "question": "what is the lighting condition of the photo showing a skateboarder performing an aerial trick on flat ground?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the photo showing a skateboarder doing tricks?",
+          "answers": [
+            "black and white",
+            "color",
+            "dark"
+          ],
+          "score": 0.05779552459716797
+        },
+        {
+          "question": "what is the gender of the skateboarder performing an aerial trick on flat ground?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.0380558967590332
+        },
+        {
+          "question": "what is the lighting condition of the photo showing a skateboarder performing an aerial trick on flat ground?",
+          "answers": [
+            "daytime",
+            "night",
+            "indoor"
+          ],
+          "score": 0.09312200546264648
+        },
+        {
+          "question": "what is the gender of the person performing the trick on the flat ground?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.024762630462646484
+        },
+        {
+          "question": "what is the specific type of aerial trick being performed by the skateboarder on the flat ground?",
+          "answers": [
+            "kickflip",
+            "heelflip",
+            "360"
+          ],
+          "score": 0.021964550018310547
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.342,
+      "probe_selection_seconds": 2.34,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "overcast",
+    "rewrite": "a skateboarder performing an aerial trick on flat ground under overcast lighting",
+    "raw_rank": 176,
+    "unseen_rank": 168
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the color of the photo?",
+      "Question: What is the lighting condition of the scene?",
+      "what is the gender of the skateboarder performing the trick?",
+      "Question: What is the color of the skateboarder's clothing?",
+      "Question: What is the gender of the skateboarder performing the trick?"
+    ],
+    "question": "Question: What is the lighting condition of the scene?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the color of the photo?",
+          "answers": [
+            "black and white",
+            "color",
+            "sepia"
+          ],
+          "score": 0.08043384552001953
+        },
+        {
+          "question": "Question: What is the lighting condition of the scene?",
+          "answers": [
+            "daylight",
+            "night",
+            "indoor"
+          ],
+          "score": 0.11229610443115234
+        },
+        {
+          "question": "what is the gender of the skateboarder performing the trick?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.026179790496826172
+        },
+        {
+          "question": "Question: What is the color of the skateboarder's clothing?",
+          "answers": [
+            "black",
+            "white",
+            "colorful"
+          ],
+          "score": 0.0560150146484375
+        },
+        {
+          "question": "Question: What is the gender of the skateboarder performing the trick?",
+          "answers": [
+            "male",
+            "female",
+            "young boy"
+          ],
+          "score": 0.03046703338623047
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.081,
+      "probe_selection_seconds": 2.354,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "Overcast.",
+    "rewrite": "a skateboarder on flat ground performing an aerial trick under overcast lighting",
+    "raw_rank": 233,
+    "unseen_rank": 225
+  }
+}

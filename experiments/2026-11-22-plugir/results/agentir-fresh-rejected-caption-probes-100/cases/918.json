@@ -1,0 +1,176 @@
+{
+  "qid": 918,
+  "initial": "the room is very dark and also empty",
+  "initial_rank": 42,
+  "displayed": [
+    33326,
+    39780,
+    25848,
+    45109,
+    12799,
+    5027,
+    28092,
+    22500,
+    25688,
+    24786
+  ],
+  "evidence": [
+    "man is doing a skateboarding trick at night",
+    "a photo of a crowded living room with chairs and furniture",
+    "a bed with someone sitting in it and a window in the background",
+    "a large building at night with a clock on it",
+    "a blue tv monitor on a white couch",
+    "a bed is on a desk near a laptop computer",
+    "an apartment with a wooden floor and a kitchen",
+    "an empty living room that has a bed and couch",
+    "a parking lot at night with red traffic lights",
+    "a room with a bed, a couch and a chair, and a painting"
+  ],
+  "rejected_captions": [
+    "the light from the window",
+    "table next to a refrigerator",
+    "an empty room with two windows, a bed, and a small fan",
+    "a traffic light with the red light on",
+    "a bed in a room with no walls",
+    "dark wood floor and gray walls",
+    "a bench on a brick wall",
+    "a bed dressed in green",
+    "the archway has lights around it",
+    "a dark basement with a window and a table"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the primary furniture item present in the very dark and empty room?",
+      "what is the location of the very dark and empty room?",
+      "what is the color of the traffic lights visible in the parking lot at night?",
+      "what is the name of the room described as very dark and empty?",
+      "what is the color of the furniture present in the very dark and empty room?"
+    ],
+    "question": "what is the primary furniture item present in the very dark and empty room?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the primary furniture item present in the very dark and empty room?",
+          "answers": [
+            "bed",
+            "couch",
+            "chair"
+          ],
+          "score": 0.1572871208190918
+        },
+        {
+          "question": "what is the location of the very dark and empty room?",
+          "answers": [
+            "an apartment",
+            "a living room",
+            "a bedroom"
+          ],
+          "score": 0.09192562103271484
+        },
+        {
+          "question": "what is the color of the traffic lights visible in the parking lot at night?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.05968761444091797
+        },
+        {
+          "question": "what is the name of the room described as very dark and empty?",
+          "answers": [
+            "7",
+            "9"
+          ],
+          "score": 0.00032711029052734375
+        },
+        {
+          "question": "what is the color of the furniture present in the very dark and empty room?",
+          "answers": [
+            "brown",
+            "white",
+            "blue"
+          ],
+          "score": 0.0916585922241211
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.097,
+      "probe_selection_seconds": 2.458,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 14
+    },
+    "answer": "sofa",
+    "rewrite": "a very dark and empty room containing a sofa",
+    "raw_rank": 68,
+    "unseen_rank": 62
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the color of the bed in the room?",
+      "Question: What type of furniture is visible in the room besides the bed?",
+      "Question: What is the color of the walls in the room?",
+      "Question: What is the color of the floor in the room?",
+      "Question: What color is the bed in the room?"
+    ],
+    "question": "Question: What is the color of the bed in the room?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the color of the bed in the room?",
+          "answers": [
+            "black",
+            "blue",
+            "brown"
+          ],
+          "score": 0.09497976303100586
+        },
+        {
+          "question": "Question: What type of furniture is visible in the room besides the bed?",
+          "answers": [
+            "couch",
+            "chair",
+            "none"
+          ],
+          "score": 0.05742359161376953
+        },
+        {
+          "question": "Question: What is the color of the walls in the room?",
+          "answers": [
+            "black",
+            "white",
+            "beige"
+          ],
+          "score": 0.05792856216430664
+        },
+        {
+          "question": "Question: What is the color of the floor in the room?",
+          "answers": [
+            "black",
+            "brown",
+            "white"
+          ],
+          "score": 0.036057472229003906
+        },
+        {
+          "question": "Question: What color is the bed in the room?",
+          "answers": [
+            "blue",
+            "white",
+            "brown"
+          ],
+          "score": 0.08979463577270508
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.156,
+      "probe_selection_seconds": 2.264,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "I'm not sure.",
+    "rewrite": "a very dark and empty room with an indeterminate bed color",
+    "raw_rank": 1139,
+    "unseen_rank": 1129
+  }
+}

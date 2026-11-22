@@ -1,0 +1,101 @@
+{
+  "qid": 1828,
+  "initial": "a man riding a bike down a city street",
+  "initial_rank": 25,
+  "evidence": [
+    "pedestrians cross the street at the city's crossing light",
+    "a man wearing a yellow helmet and blue jacket is riding a motorcycle",
+    "a woman is sitting on a bicycle in the rain with a umbrella",
+    "a group of people are riding their bikes along a sidewalk",
+    "a city street with several buildings and a sidewalk",
+    "a group of people on bicycles with umbrellas gathered around",
+    "the crowded street is full of people walking",
+    "traffic on a road with motorbikes and cars",
+    "a man is sitting on a motorcycle",
+    "a woman rides a bike with a dog on it"
+  ],
+  "candidates": [
+    "Question: What is the weather condition during the scene where the man is riding a bike down a city street?",
+    "Question: What is the man wearing while riding the bike?",
+    "Question: What color is the jacket the man is wearing while riding the bike?",
+    "Question: Is there a dog on the bike the man is riding?",
+    "Question: What is the weather condition during the scene where the man is riding a bike down a city street?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: What is the weather condition during the scene where the man is riding a bike down a city street?",
+      "answers": [
+        "It's sunny.",
+        "It's raining.",
+        "It's cloudy."
+      ],
+      "score": 0.07066965103149414
+    },
+    {
+      "question": "Question: What is the man wearing while riding the bike?",
+      "answers": [
+        "rain jacket",
+        "yellow helmet",
+        "blue shirt"
+      ],
+      "score": 0.14984416961669922
+    },
+    {
+      "question": "Question: What color is the jacket the man is wearing while riding the bike?",
+      "answers": [
+        "blue",
+        "red",
+        "black"
+      ],
+      "score": 0.09780025482177734
+    },
+    {
+      "question": "Question: Is there a dog on the bike the man is riding?",
+      "answers": [
+        "Yes",
+        "No",
+        "Maybe"
+      ],
+      "score": 0.0008053779602050781
+    },
+    {
+      "question": "Question: What is the weather condition during the scene where the man is riding a bike down a city street?",
+      "answers": [
+        "It's sunny.",
+        "It's raining.",
+        "It's cloudy."
+      ],
+      "score": 0.07066965103149414,
+      "duplicate_of": 0
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.062,
+  "probe_selection_seconds": 2.039,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "Question: What is the man wearing while riding the bike?",
+      "answer": "blue shirt and jeans.",
+      "rewrite": "a man wearing a blue shirt and jeans riding a bike down a city street",
+      "rank": 5,
+      "hit": true
+    },
+    "random": {
+      "question": "Question: What color is the jacket the man is wearing while riding the bike?",
+      "answer": "Blue.",
+      "rewrite": "a man wearing a blue jacket riding a bike down a city street",
+      "rank": 2,
+      "hit": true
+    },
+    "probe": {
+      "question": "Question: What is the man wearing while riding the bike?",
+      "answer": "blue shirt and jeans.",
+      "rewrite": "a man wearing a blue shirt and jeans riding a bike down a city street",
+      "rank": 5,
+      "hit": true
+    }
+  },
+  "seconds": 14.014
+}

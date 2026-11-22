@@ -1,0 +1,71 @@
+{
+  "qid": 1114,
+  "initial": "2 skiers move down a snowy path",
+  "initial_rank": 33,
+  "evidence": [
+    "a man skis down a hill with trees around him",
+    "two snowboarders at the top of a slope",
+    "a woman is on skis on a wooded trail",
+    "two people walking through a path in the woods",
+    "a group of skiers on the slopes in the clouds",
+    "a man wearing a ski jacket racing through a forest",
+    "three people on skis holding skis",
+    "a man is skiing down a mountain on a sunny day",
+    "a lot of skiers on a slope and a building",
+    "three people on snowboards that are on top of a cliff"
+  ],
+  "displayed_ids": [
+    42744,
+    45292,
+    22742,
+    21333,
+    40372,
+    19413,
+    3736,
+    18697,
+    34295,
+    1138
+  ],
+  "rejected_captions": [
+    "two people on skis in a wooded area",
+    "the tree in the background",
+    "two people cross country skiing on a snow covered slope",
+    "the forest is covered in snow",
+    "two people cross country skiing in the snow",
+    "two people on skis on a snowy hill",
+    "a pair of skiers are skiing",
+    "a group of people wearing skis on a path",
+    "two men riding skis on the snow covered terrain",
+    "two people cross country skiing on a white snow covered trail"
+  ],
+  "candidates": [
+    "Question: Is the skier a man or a woman?",
+    "Question: What is the lighting condition or time of day in the image?",
+    "Question: What is the specific terrain or setting of the snowy path (e.g., a hill, a forest, a slope, or a cliff)?",
+    "Question: Is the skier wearing a jacket?",
+    "Question: What is the gender of the skier(s) in the image?"
+  ],
+  "control_candidates": [
+    "Question: Are the skiers in the image wearing jackets?",
+    "what is the gender of the skier in the image?",
+    "what is the gender of the skiers in the image?",
+    "Question: What is the gender of the person in the image?",
+    "Question: Which specific gender is the person skiing in the image?"
+  ],
+  "control": {
+    "question": "Question: What is the gender of the person in the image?",
+    "answer": "unsure",
+    "rewrite": "two skiers of unknown gender move down a snowy path",
+    "rank": 88,
+    "hit": false,
+    "raw_rank": 88,
+    "unseen_rank": 78
+  },
+  "variant": {
+    "question": "Question: What is the lighting condition or time of day in the image?",
+    "answer": "daytime",
+    "rewrite": "two skiers move down a snowy path during the daytime",
+    "raw_rank": 27,
+    "unseen_rank": 17
+  }
+}

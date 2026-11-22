@@ -1,0 +1,78 @@
+{
+  "qid": 2063,
+  "sample": 2,
+  "first_candidates": [
+    "Question: What is the location where the two polished antique cars are parked next to each other?",
+    "Question: Which object is parked beside the two polished antique cars?",
+    "what is the location where the two polished antique cars are parked next to each other?",
+    "what is the location where the two polished antique cars are parked next to each other?",
+    "what is the color of the vintage bus standing in the grass?"
+  ],
+  "second_candidates": [
+    "what is the color of the antique cars parked next to each other?",
+    "Question: Which of the following objects is parked next to the antique cars: an old truck, a motorcycle, or a vintage bus?",
+    "what is the specific type of antique cars parked next to each other?",
+    "Question: What is the color of the antique cars parked next to each other?",
+    "What are the colors of the two polished antique cars parked next to each other?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the antique cars parked next to each other?",
+      "answers": [
+        "red and black",
+        "blue and silver",
+        "maroon and gold"
+      ],
+      "score": 0.10454130172729492
+    },
+    {
+      "question": "Question: Which of the following objects is parked next to the antique cars: an old truck, a motorcycle, or a vintage bus?",
+      "answers": [
+        "an old truck",
+        "a motorcycle",
+        "a vintage bus"
+      ],
+      "score": 0.019958019256591797
+    },
+    {
+      "question": "what is the specific type of antique cars parked next to each other?",
+      "answers": [
+        "vintage",
+        "classic",
+        "antique"
+      ],
+      "score": 0.0006928443908691406
+    },
+    {
+      "question": "Question: What is the color of the antique cars parked next to each other?",
+      "answers": [
+        "Red",
+        "Blue",
+        "Black"
+      ],
+      "score": 0.08121919631958008
+    },
+    {
+      "question": "What are the colors of the two polished antique cars parked next to each other?",
+      "answers": [
+        "red",
+        "black",
+        "gold"
+      ],
+      "score": 0.05917072296142578
+    }
+  ],
+  "control": {
+    "question": "what is the color of the antique cars parked next to each other?",
+    "score": 0.10454130172729492
+  },
+  "mixed": {
+    "question": "Question: What is the location where the two polished antique cars are parked next to each other?",
+    "score": 0.09494352340698242
+  },
+  "control_rank": 3,
+  "mixed_rank": 13,
+  "usual_rank": 13,
+  "new_answer": "orange and black",
+  "new_rewrite": "two polished antique cars, one orange and one black, parked next to each other"
+}

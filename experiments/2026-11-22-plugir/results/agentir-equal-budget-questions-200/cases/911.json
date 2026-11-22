@@ -1,0 +1,79 @@
+{
+  "qid": 911,
+  "sample": 2,
+  "first_candidates": [
+    "What is the color of the beanie worn by the person who is shocked?",
+    "what is the color of the beanie worn by the man?",
+    "what is the other object in the image?",
+    "what is the color of the beanie worn by the person who is shocked?",
+    "what is the color of the beanie worn by the man?"
+  ],
+  "second_candidates": [
+    "Question: What is the color of the beanie worn by the person in the background?",
+    "what is the color of the beanie worn by the person in the foreground?",
+    "what is the man talking on his cell phone wearing on his head?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What is the color of the beanie worn by the person in the background?",
+      "answers": [
+        "black",
+        "white",
+        "red"
+      ],
+      "score": 0.01629352569580078
+    },
+    {
+      "question": "what is the color of the beanie worn by the person in the foreground?",
+      "answers": [
+        "black",
+        "gray",
+        "brown"
+      ],
+      "score": 0.00823974609375
+    },
+    {
+      "question": "what is the man talking on his cell phone wearing on his head?",
+      "answers": [
+        "ny beanie",
+        "cap",
+        "hat"
+      ],
+      "score": 0.004900455474853516
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "a skateboard",
+        "a traffic sign",
+        "a bus"
+      ],
+      "score": 0.14252853393554688
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "a skateboard",
+        "a traffic sign",
+        "a bus"
+      ],
+      "score": 0.14252853393554688,
+      "duplicate_of": 3
+    }
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "score": 0.14691686630249023
+  },
+  "mixed": {
+    "question": "what is the other object in the image?",
+    "score": 0.14691686630249023
+  },
+  "control_rank": 5,
+  "mixed_rank": 5,
+  "usual_rank": 5,
+  "new_answer": null,
+  "new_rewrite": null
+}

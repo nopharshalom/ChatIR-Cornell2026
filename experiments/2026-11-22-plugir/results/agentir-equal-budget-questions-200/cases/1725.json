@@ -1,0 +1,80 @@
+{
+  "qid": 1725,
+  "sample": 2,
+  "first_candidates": [
+    "what is the clothing color of one of the people skiing on the mountain?",
+    "what is the color of the jacket worn by the old woman skiing?",
+    "Question: What is the background scenery behind the people skiing on the mountain?",
+    "Question: What is the gender of one of the people skiing on the mountain?",
+    "what is the number of people skiing on the mountain?"
+  ],
+  "second_candidates": [
+    "Question: What is the background of the person skiing on the mountain?",
+    "Question: What is the color of the jacket worn by the person skiing on the mountain?",
+    "Question: How many people are skiing in the image?",
+    "Question: What is the background of the person skiing on the mountain?",
+    "Question: What is the color of the jacket worn by the person skiing on the mountain?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What is the background of the person skiing on the mountain?",
+      "answers": [
+        "a large mountain",
+        "a ski lift",
+        "a snowy grove"
+      ],
+      "score": 0.16964340209960938
+    },
+    {
+      "question": "Question: What is the color of the jacket worn by the person skiing on the mountain?",
+      "answers": [
+        "blue",
+        "red",
+        "black"
+      ],
+      "score": 0.20527315139770508
+    },
+    {
+      "question": "Question: How many people are skiing in the image?",
+      "answers": [
+        "one",
+        "two",
+        "three"
+      ],
+      "score": 0.026888370513916016
+    },
+    {
+      "question": "Question: What is the background of the person skiing on the mountain?",
+      "answers": [
+        "a large mountain",
+        "a ski lift",
+        "a snowy grove"
+      ],
+      "score": 0.16964340209960938,
+      "duplicate_of": 0
+    },
+    {
+      "question": "Question: What is the color of the jacket worn by the person skiing on the mountain?",
+      "answers": [
+        "blue",
+        "red",
+        "black"
+      ],
+      "score": 0.20527315139770508,
+      "duplicate_of": 1
+    }
+  ],
+  "control": {
+    "question": "Question: What is the color of the jacket worn by the person skiing on the mountain?",
+    "score": 0.20527315139770508
+  },
+  "mixed": {
+    "question": "Question: What color jacket is the person skiing wearing?",
+    "score": 0.13573074340820312
+  },
+  "control_rank": 39,
+  "mixed_rank": 39,
+  "usual_rank": 187,
+  "new_answer": "blue",
+  "new_rewrite": "a person wearing a blue jacket is skiing on a mountain"
+}

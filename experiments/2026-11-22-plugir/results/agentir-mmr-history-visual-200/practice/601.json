@@ -1,0 +1,107 @@
+{
+  "chosen": "what is the specific location of the traffic lights hanging over the intersection?",
+  "default": "what is the specific location of the traffic lights hanging over the intersection?",
+  "ids": [
+    41488,
+    8131,
+    27150,
+    10016
+  ],
+  "trials": {
+    "what is the specific location of the traffic lights hanging over the intersection?": {
+      "answers": [
+        "top right",
+        "overhead",
+        "\u5c0f\u5009\u9678\u6a4b (Ogurarikkyo)",
+        "105 street"
+      ],
+      "rewrites": {
+        "top right": "traffic lights hanging over an intersection in the top right",
+        "overhead": "traffic lights hanging overhead over an intersection on the street",
+        "\u5c0f\u5009\u9678\u6a4b (Ogurarikkyo)": "traffic lights hanging over the Ogurarikkyo intersection",
+        "105 street": "traffic lights hanging over an intersection on 105 street"
+      },
+      "ranks": [
+        17,
+        26,
+        1,
+        18
+      ],
+      "hits": 1
+    },
+    "Question: How many traffic lights are visible on the pole?": {
+      "answers": [
+        "2",
+        "6",
+        "2",
+        "2"
+      ],
+      "rewrites": {
+        "2": "two traffic lights hanging over an intersection on the street",
+        "6": "six traffic lights hanging over an intersection on the street"
+      },
+      "ranks": [
+        5,
+        11,
+        40,
+        53
+      ],
+      "hits": 1
+    },
+    "what is the time of day depicted in the scene with the traffic lights hanging over the intersection?": {
+      "answers": [
+        "daytime",
+        "daytime",
+        "daytime",
+        "daytime"
+      ],
+      "rewrites": {
+        "daytime": "daytime traffic lights hanging over an intersection on the street"
+      },
+      "ranks": [
+        7,
+        50,
+        60,
+        52
+      ],
+      "hits": 1
+    },
+    "Question: What is the color of the road in the scene with the traffic lights hanging over the intersection?": {
+      "answers": [
+        "gray",
+        "gray",
+        "gray",
+        "gray"
+      ],
+      "rewrites": {
+        "gray": "traffic lights hanging over an intersection on a gray road"
+      },
+      "ranks": [
+        18,
+        2,
+        114,
+        143
+      ],
+      "hits": 1
+    },
+    "Question: Are there multiple traffic lights on the pole?": {
+      "answers": [
+        "Yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "rewrites": {
+        "Yes": "multiple traffic lights hanging from a pole over a street intersection",
+        "yes": "multiple traffic lights hanging from a pole over an intersection on the street"
+      },
+      "ranks": [
+        6,
+        21,
+        18,
+        88
+      ],
+      "hits": 1
+    }
+  }
+}

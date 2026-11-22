@@ -1,0 +1,100 @@
+{
+  "qid": 1473,
+  "initial": "a woman crossing the street holding an umbrella in the rain",
+  "initial_rank": 27,
+  "evidence": [
+    "two women standing next to a blue umbrella",
+    "a man walking down a narrow alley with a small umbrella",
+    "a crosswalk with bus and car traffic and a group of people",
+    "a couple with an umbrella stands in a crowd of people",
+    "black and white photo of a girl standing under an umbrella",
+    "black and white woman holding an umbrella",
+    "a group of people on bikes and a few on cars are crossing a street",
+    "a street with cars and buses in it",
+    "a woman carrying a red umbrella on a brick walkway in the rain",
+    "woman holding umbrella"
+  ],
+  "candidates": [
+    "what color is the umbrella the woman is holding?",
+    "what is the surface the woman is standing on?",
+    "Question: what color is the woman's dress?",
+    "Question: what is the color of the umbrella the woman is holding?",
+    "What color is the umbrella the woman is holding?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what color is the umbrella the woman is holding?",
+      "answers": [
+        "red",
+        "blue",
+        "black and white"
+      ],
+      "score": 0.16843032836914062
+    },
+    {
+      "question": "what is the surface the woman is standing on?",
+      "answers": [
+        "asphalt",
+        "brick",
+        "crosswalk"
+      ],
+      "score": 0.043182373046875
+    },
+    {
+      "question": "Question: what color is the woman's dress?",
+      "answers": [
+        "red",
+        "black and white",
+        "unknown"
+      ],
+      "score": 0.11898279190063477
+    },
+    {
+      "question": "Question: what is the color of the umbrella the woman is holding?",
+      "answers": [
+        "red",
+        "black and white",
+        "blue"
+      ],
+      "score": 0.14464759826660156
+    },
+    {
+      "question": "What color is the umbrella the woman is holding?",
+      "answers": [
+        "red",
+        "black and white",
+        "blue"
+      ],
+      "score": 0.16843032836914062
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.116,
+  "probe_selection_seconds": 2.51,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the surface the woman is standing on?",
+      "answer": "wet pavement",
+      "rewrite": "a woman crossing wet pavement holding an umbrella in the rain",
+      "rank": 33,
+      "hit": false
+    },
+    "random": {
+      "question": "Question: what color is the woman's dress?",
+      "answer": "brown",
+      "rewrite": "a woman in a brown dress crossing the street holding an umbrella in the rain",
+      "rank": 4,
+      "hit": true
+    },
+    "probe": {
+      "question": "what color is the umbrella the woman is holding?",
+      "answer": "red",
+      "rewrite": "a woman crossing the street holding a red umbrella in the rain",
+      "rank": 6,
+      "hit": true
+    }
+  },
+  "seconds": 18.307
+}

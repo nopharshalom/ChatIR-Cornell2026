@@ -1,0 +1,78 @@
+{
+  "qid": 370,
+  "sample": 1,
+  "first_candidates": [
+    "**Question:** What is the material of the building where the clock is positioned?",
+    "Question: What is the color of the brick building where the clock is positioned?",
+    "What is the specific type of building (e.g., church) where the clock is positioned?",
+    "Question: What is the color of the clock that is positioned on the outside building?",
+    "Question: What is the material of the building where the clock is positioned?"
+  ],
+  "second_candidates": [
+    "what material is the outside building made of?",
+    "what is the color of the brick building that has a clock tower on top?",
+    "what is the color of the clock that is positioned on an outside building?",
+    "what is the location of the clock that is positioned on an outside building?",
+    "what is the type of the building that has a clock tower on top?"
+  ],
+  "paths": [
+    {
+      "question": "what material is the outside building made of?",
+      "answers": [
+        "brick",
+        "stone",
+        "wood"
+      ],
+      "score": 0.09092044830322266
+    },
+    {
+      "question": "what is the color of the brick building that has a clock tower on top?",
+      "answers": [
+        "red",
+        "black",
+        "stone"
+      ],
+      "score": 0.05372810363769531
+    },
+    {
+      "question": "what is the color of the clock that is positioned on an outside building?",
+      "answers": [
+        "black",
+        "red",
+        "stone"
+      ],
+      "score": 0.0876774787902832
+    },
+    {
+      "question": "what is the location of the clock that is positioned on an outside building?",
+      "answers": [
+        "top of a clock tower",
+        "on a street pole",
+        "beside a post"
+      ],
+      "score": 0.0705099105834961
+    },
+    {
+      "question": "what is the type of the building that has a clock tower on top?",
+      "answers": [
+        "church",
+        "brick building",
+        "stone building"
+      ],
+      "score": 0.0705418586730957
+    }
+  ],
+  "control": {
+    "question": "what material is the outside building made of?",
+    "score": 0.09092044830322266
+  },
+  "mixed": {
+    "question": "**Question:** What is the material of the building where the clock is positioned?",
+    "score": 0.07606029510498047
+  },
+  "control_rank": 11,
+  "mixed_rank": 18,
+  "usual_rank": 18,
+  "new_answer": "brick",
+  "new_rewrite": "a brick clock positioned on an outside building"
+}

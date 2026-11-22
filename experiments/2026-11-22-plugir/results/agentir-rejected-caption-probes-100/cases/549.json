@@ -1,0 +1,82 @@
+{
+  "qid": 549,
+  "candidates": [
+    "Question: What color is the truck?",
+    "Question: What is the gender of the person riding the bicycle?",
+    "Question: What is the gender of the person riding the bicycle?",
+    "Question: What is the gender of the person riding the bicycle?",
+    "Question: What is the gender of the person riding the bicycle?"
+  ],
+  "kl": {
+    "question": "Question: What is the gender of the person riding the bicycle?",
+    "answer": "male",
+    "rewrite": "a male person riding a bicycle on a city street in front of a large truck",
+    "raw_rank": 13,
+    "unseen_rank": 5
+  },
+  "probe": {
+    "question": "Question: What color is the truck?",
+    "answer": "white",
+    "rewrite": "a person on a bicycle on a city street in front of a large white truck",
+    "raw_rank": 11,
+    "unseen_rank": 5
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What color is the truck?",
+        "answers": [
+          "yellow",
+          "blue",
+          "red"
+        ],
+        "score": 0.14774799346923828
+      },
+      {
+        "question": "Question: What is the gender of the person riding the bicycle?",
+        "answers": [
+          "male",
+          "female",
+          "unknown"
+        ],
+        "score": 0.025075912475585938
+      },
+      {
+        "question": "Question: What is the gender of the person riding the bicycle?",
+        "answers": [
+          "male",
+          "female",
+          "unknown"
+        ],
+        "score": 0.025075912475585938,
+        "duplicate_of": 1
+      },
+      {
+        "question": "Question: What is the gender of the person riding the bicycle?",
+        "answers": [
+          "male",
+          "female",
+          "unknown"
+        ],
+        "score": 0.025075912475585938,
+        "duplicate_of": 1
+      },
+      {
+        "question": "Question: What is the gender of the person riding the bicycle?",
+        "answers": [
+          "male",
+          "female",
+          "unknown"
+        ],
+        "score": 0.025075912475585938,
+        "duplicate_of": 1
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.044,
+    "probe_selection_seconds": 0.869,
+    "probe_llm_calls": 2,
+    "probe_search_queries": 6
+  },
+  "reused_outcome": true
+}

@@ -1,0 +1,59 @@
+{
+  "qid": 1301,
+  "arm": "probe",
+  "after_round": 9,
+  "ranks": [
+    13,
+    24,
+    34,
+    28,
+    23,
+    32,
+    43,
+    30,
+    18,
+    56,
+    22
+  ],
+  "continuation": [
+    {
+      "round": 10,
+      "query_before": "a silver bakery display case filled with various doughnuts including C's, Pillows, Cocktails, Oreo, Cheese, Chocolate, Strawberry, and Double Chocolate, sitting on a black table with a white tablecloth, with no other food items visible",
+      "question": "Is the display case holding the doughnuts silver or white?",
+      "answer": "silver",
+      "query_after": "a silver bakery display case filled with various doughnuts including C's, Pillows, Cocktails, Oreo, Cheese, Chocolate, Strawberry, and Double Chocolate, sitting on a black table with a white surface, with no other food items visible",
+      "searches": [
+        {
+          "query": "A silver bakery display case filled with a variety of doughnuts including C's, Pillows, and Oreo on a black table.",
+          "ids": [
+            23677,
+            13742,
+            27089
+          ],
+          "captions": [
+            "a bakery case full of a variety of doughnuts",
+            "several display cases full of donuts",
+            "the display cases are of white and gray"
+          ]
+        },
+        {
+          "query": "A silver bakery display case filled with a variety of doughnuts including C's, Pillows, and Oreo on a white table.",
+          "ids": [
+            27089,
+            45310,
+            13742
+          ],
+          "captions": [
+            "the display cases are of white and gray",
+            "metal wall shelf with display case",
+            "several display cases full of donuts"
+          ]
+        }
+      ],
+      "raw_plan": "A silver bakery display case filled with a variety of doughnuts including C's, Pillows, and Oreo on a black table.\nA silver bakery display case filled with a variety of doughnuts including C's, Pillows, and Oreo on a white table.",
+      "generated": "Is the display case holding the doughnuts silver or white?",
+      "fallback": false
+    }
+  ],
+  "seconds": 3.9
+}

@@ -1,0 +1,404 @@
+{
+  "qid": 367,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000315158.jpg",
+  "queries": [
+    "a table with some sort of mexican food covered in cheese and other vegetables",
+    "a table with a pizza covered in cheese and other vegetables",
+    "a table with a vegetable pizza covered in cheese and other vegetables",
+    "a brown table with a vegetable pizza covered in cheese and other vegetables"
+  ],
+  "ranks": [
+    21,
+    63,
+    57,
+    6
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a table with some sort of mexican food covered in cheese and other vegetables",
+      "question": "what is the specific type of dish being served on the table?",
+      "answer": "pizza",
+      "query_after": "a table with a pizza covered in cheese and other vegetables",
+      "displayed_ids": [
+        14109,
+        6118,
+        37353,
+        22178,
+        20344,
+        45875,
+        42867,
+        43552,
+        153,
+        23001
+      ],
+      "selected_ids": [
+        29636,
+        5435,
+        40179,
+        22303,
+        3225,
+        29216,
+        45159,
+        12836,
+        30553,
+        30026
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the specific topping on the pizza in the image?",
+          "answers": [
+            "peppers",
+            "olives",
+            "tomatoes"
+          ],
+          "score": 0.06446695327758789
+        },
+        {
+          "question": "what is the specific type of food on the table?",
+          "answers": [
+            "Mexican food",
+            "Pizza",
+            "Sandwiches"
+          ],
+          "score": 0.06566095352172852
+        },
+        {
+          "question": "what is the specific type of food on the table in the image?",
+          "answers": [
+            "tacos",
+            "quesadillas",
+            "enchiladas"
+          ],
+          "score": 0.04598236083984375
+        },
+        {
+          "question": "what specific toppings are on the pizza in the image?",
+          "answers": [
+            "peppers and olives",
+            "tomatoes and olive",
+            "peppers and pepperoni"
+          ],
+          "score": 0.06509923934936523
+        },
+        {
+          "question": "Question: what is the specific type of food on the table in the image?",
+          "answers": [
+            "tacos",
+            "enchiladas",
+            "quesadillas"
+          ],
+          "score": 0.04394102096557617
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What specific vegetables are visible on top of the cheese-covered dish?",
+          "answers": [
+            "peppers",
+            "onions",
+            "tomatoes"
+          ],
+          "score": 0.04285573959350586
+        },
+        {
+          "question": "what is the specific type of dish being served on the table?",
+          "answers": [
+            "Mexican dish",
+            "Pizza",
+            "Sandwich"
+          ],
+          "score": 0.12382841110229492
+        },
+        {
+          "question": "what color is the cheese covering the dish?",
+          "answers": [
+            "white",
+            "yellow",
+            "orange"
+          ],
+          "score": 0.033428192138671875
+        },
+        {
+          "question": "what is the color of the dish being served on the table?",
+          "answers": [
+            "white",
+            "red",
+            "green"
+          ],
+          "score": 0.07299518585205078
+        },
+        {
+          "question": "what is the specific type of dish being served on the table?",
+          "answers": [
+            "Mexican dish",
+            "Pizza",
+            "Sandwich"
+          ],
+          "score": 0.12382841110229492,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a table with a pizza covered in cheese and other vegetables",
+      "question": "what is the specific type of pizza and its toppings visible on the table in the image?",
+      "answer": "vegetable pizza",
+      "query_after": "a table with a vegetable pizza covered in cheese and other vegetables",
+      "displayed_ids": [
+        6118,
+        19764,
+        14109,
+        8746,
+        42867,
+        38815,
+        18214,
+        438,
+        6515,
+        6463
+      ],
+      "selected_ids": [
+        42804,
+        21688,
+        35402,
+        10005,
+        24440,
+        22392,
+        23628,
+        38269,
+        17856,
+        6958
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "what is the specific type of pizza and its toppings visible on the table in the image?",
+          "answers": [
+            "ham and cheese pizza with a fork",
+            "pepperoni pizza on a wooden board",
+            "pan pizza with mushroom and onions"
+          ],
+          "score": 0.2674074172973633
+        },
+        {
+          "question": "what is the shape of the pizza described in the target image?",
+          "answers": [
+            "round",
+            "square",
+            "triangular"
+          ],
+          "score": 0.014980792999267578
+        },
+        {
+          "question": "what is the serving vessel (plate, wooden board, or tray) holding the pizza on the table?",
+          "answers": [
+            "plate",
+            "wooden board",
+            "tray"
+          ],
+          "score": 0.011104583740234375
+        },
+        {
+          "question": "what is the specific shape of the pizza described in the target image?",
+          "answers": [
+            "round",
+            "pan-shaped",
+            "in two men's hands"
+          ],
+          "score": 0.12903213500976562
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "drink",
+            "fork",
+            "beer glass"
+          ],
+          "score": 0.11440134048461914
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the specific shape of the pizza being served on the table?",
+          "answers": [
+            "round",
+            "square",
+            "triangular"
+          ],
+          "score": 0.03175067901611328
+        },
+        {
+          "question": "what is the color of the pizza being served on the table?",
+          "answers": [
+            "red",
+            "yellow",
+            "green"
+          ],
+          "score": 0.05767345428466797
+        },
+        {
+          "question": "what vegetables are visible on top of the pizza?",
+          "answers": [
+            "onions",
+            "peppers",
+            "mushrooms"
+          ],
+          "score": 0.07077360153198242
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "beer",
+            "plate",
+            "fork"
+          ],
+          "score": 0.11576652526855469
+        },
+        {
+          "question": "Can you describe the vegetables that are on top of the pizza?",
+          "answers": [
+            "cheese and vegetables",
+            "mushroom and onions",
+            "green peppers"
+          ],
+          "score": 0.08386039733886719
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "a table with a vegetable pizza covered in cheese and other vegetables",
+      "question": "what is the color of the table in the image?",
+      "answer": "brown",
+      "query_after": "a brown table with a vegetable pizza covered in cheese and other vegetables",
+      "displayed_ids": [
+        19764,
+        42867,
+        8746,
+        38815,
+        6118,
+        38659,
+        34926,
+        6466,
+        6515,
+        6463
+      ],
+      "selected_ids": [
+        727,
+        36148,
+        17856,
+        18145,
+        7443,
+        23628,
+        21688,
+        18261,
+        11570
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what color is the table where the vegetable pizza is served?",
+          "answers": [
+            "red",
+            "green",
+            "wood"
+          ],
+          "score": 0.05949592590332031
+        },
+        {
+          "question": "what is the color of the table where the vegetable pizza is served?",
+          "answers": [
+            "red",
+            "white",
+            "wooden"
+          ],
+          "score": 0.06287145614624023
+        },
+        {
+          "question": "what color is the table where the vegetable pizza is served?",
+          "answers": [
+            "red",
+            "green",
+            "wood"
+          ],
+          "score": 0.05949592590332031,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the table where the pizza is served?",
+          "answers": [
+            "red",
+            "wooden",
+            "brown"
+          ],
+          "score": 0.05210447311401367
+        },
+        {
+          "question": "what color is the table where the pizza is served?",
+          "answers": [
+            "red",
+            "wood",
+            "white"
+          ],
+          "score": 0.07447099685668945
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the table on which the vegetable pizza is sitting?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.07513046264648438
+        },
+        {
+          "question": "what is the color of the table in the image?",
+          "answers": [
+            "red",
+            "white",
+            "wooden"
+          ],
+          "score": 0.10402917861938477
+        },
+        {
+          "question": "what is the color of the table in the image?",
+          "answers": [
+            "red",
+            "white",
+            "wooden"
+          ],
+          "score": 0.10402917861938477,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the table on which the pizza is sitting?",
+          "answers": [
+            "red",
+            "wooden",
+            "brown"
+          ],
+          "score": 0.049573421478271484
+        },
+        {
+          "question": "what is the color of the table on which the pizza is sitting?",
+          "answers": [
+            "red",
+            "wooden",
+            "brown"
+          ],
+          "score": 0.049573421478271484,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

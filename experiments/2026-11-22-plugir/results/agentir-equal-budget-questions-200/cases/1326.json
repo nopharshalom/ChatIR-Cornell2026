@@ -1,0 +1,79 @@
+{
+  "qid": 1326,
+  "sample": 2,
+  "first_candidates": [
+    "what is the color of the person's jacket?",
+    "Question: What is the gender of the person skiing down the snow-covered hill?",
+    "what is the specific location where the person is skiing?",
+    "Question: What color is the jacket worn by the person skiing down the snow-covered hill?",
+    "what is the gender of the skier wearing the red coat?"
+  ],
+  "second_candidates": [
+    "what is the color of the coat worn by the skier who is skiing down a snow covered hill?",
+    "what is the color of the jacket worn by the skier in the image?",
+    "Question: What is the gender of the person skiing down the snow-covered hill?",
+    "Question: What is the specific background feature (e.g., tree, woods, rocky cliff) behind the skier?",
+    "Question: What is the gender of the person skiing down the snow-covered hill?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the coat worn by the skier who is skiing down a snow covered hill?",
+      "answers": [
+        "red",
+        "orange",
+        "blue"
+      ],
+      "score": 0.26233768463134766
+    },
+    {
+      "question": "what is the color of the jacket worn by the skier in the image?",
+      "answers": [
+        "red",
+        "orange",
+        "white"
+      ],
+      "score": 0.14380550384521484
+    },
+    {
+      "question": "Question: What is the gender of the person skiing down the snow-covered hill?",
+      "answers": [
+        "man",
+        "woman",
+        "child"
+      ],
+      "score": 0.04094696044921875
+    },
+    {
+      "question": "Question: What is the specific background feature (e.g., tree, woods, rocky cliff) behind the skier?",
+      "answers": [
+        "tree",
+        "woods",
+        "rocky cliff"
+      ],
+      "score": 0.021777629852294922
+    },
+    {
+      "question": "Question: What is the gender of the person skiing down the snow-covered hill?",
+      "answers": [
+        "man",
+        "woman",
+        "child"
+      ],
+      "score": 0.04094696044921875,
+      "duplicate_of": 2
+    }
+  ],
+  "control": {
+    "question": "what is the color of the coat worn by the skier who is skiing down a snow covered hill?",
+    "score": 0.26233768463134766
+  },
+  "mixed": {
+    "question": "what is the color of the person's jacket?",
+    "score": 0.1875753402709961
+  },
+  "control_rank": 16,
+  "mixed_rank": 15,
+  "usual_rank": 15,
+  "new_answer": "red",
+  "new_rewrite": "a person in a red coat skies down a snow covered hill"
+}

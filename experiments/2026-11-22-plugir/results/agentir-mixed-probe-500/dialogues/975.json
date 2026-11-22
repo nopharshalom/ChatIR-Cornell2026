@@ -1,0 +1,929 @@
+{
+  "qid": 975,
+  "sample": "original",
+  "target": "unlabeled2017/000000341638.jpg",
+  "queries": [
+    "2 people are out in the ocean surfing and catching a big wave",
+    "two people are out in the ocean surfing on blue surfboards, catching a big wave",
+    "two people are out in the ocean surfing on blue surfboards, catching a big wave, with the man wearing a black wetsuit",
+    "two people are out in the ocean surfing on blue surfboards, catching a big wave; the man is wearing a black wetsuit and black shorts",
+    "two people, a man and a woman, are surfing on a big wave in the ocean; both are wearing black wetsuits and black shorts, riding a blue surfboard.",
+    "two people in black wetsuits and black shorts are surfing on a big blue wave in the ocean",
+    "two people in black wetsuits and black shorts are surfing on a big green wave on a blue surfboard",
+    "a man and a woman are surfing on a big green wave in the ocean, both wearing black wetsuits and black shorts, riding a blue surfboard"
+  ],
+  "ranks": [
+    73,
+    70,
+    31,
+    47,
+    52,
+    107,
+    13,
+    7
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "2 people are out in the ocean surfing and catching a big wave",
+      "question": "what color is the surfboard being ridden by the people in the ocean?",
+      "answer": "blue",
+      "query_after": "two people are out in the ocean surfing on blue surfboards, catching a big wave",
+      "displayed_ids": [
+        28594,
+        4073,
+        49481,
+        1102,
+        27479,
+        45045,
+        12243,
+        27269,
+        16832,
+        12596
+      ],
+      "selected_ids": [
+        838,
+        47923,
+        18342,
+        27573,
+        3062,
+        15573,
+        4636,
+        43869,
+        27847,
+        14465
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: what color is the surfboard being ridden by the people in the ocean?",
+          "answers": [
+            "blue",
+            "yellow",
+            "black"
+          ],
+          "score": 0.07122230529785156
+        },
+        {
+          "question": "Question: What color is the wetsuit worn by the surfer in the image?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.04424905776977539
+        },
+        {
+          "question": "How big is the wave that the two people are catching?",
+          "answers": [
+            "small",
+            "medium",
+            "large"
+          ],
+          "score": 0.002266407012939453
+        },
+        {
+          "question": "Who are the two people surfing in the ocean?",
+          "answers": [
+            "man",
+            "woman",
+            "couple"
+          ],
+          "score": 0.018482685089111328
+        },
+        {
+          "question": "what is the gender of the two people surfing in the ocean?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.025470733642578125
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the surfboard being ridden by the people in the ocean?",
+          "answers": [
+            "yellow",
+            "blue",
+            "black"
+          ],
+          "score": 0.08574724197387695
+        },
+        {
+          "question": "Question: what color is the surfboard being ridden by the people in the ocean?",
+          "answers": [
+            "yellow",
+            "black",
+            "blue"
+          ],
+          "score": 0.07122230529785156
+        },
+        {
+          "question": "Question: What is the outfit of the person surfing the wave?",
+          "answers": [
+            "wetsuit",
+            "no wetsuit",
+            "rash guard"
+          ],
+          "score": 0.012204647064208984
+        },
+        {
+          "question": "Question: What color is the wetsuit worn by the surfer?",
+          "answers": [
+            "black",
+            "blue",
+            "black wetsuit"
+          ],
+          "score": 0.028860092163085938
+        },
+        {
+          "question": "Question: What is the gender of the person surfing the wave?",
+          "answers": [
+            "male",
+            "female",
+            "two people"
+          ],
+          "score": 0.026642799377441406
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "two people are out in the ocean surfing on blue surfboards, catching a big wave",
+      "question": "Question: What color is the wetsuit worn by the man surfing on the big wave?",
+      "answer": "black",
+      "query_after": "two people are out in the ocean surfing on blue surfboards, catching a big wave, with the man wearing a black wetsuit",
+      "displayed_ids": [
+        28594,
+        33137,
+        49831,
+        11002,
+        4073,
+        49481,
+        25357,
+        45045,
+        44798,
+        35818
+      ],
+      "selected_ids": [
+        43869,
+        19416,
+        40332,
+        27207,
+        28472,
+        14465,
+        47923,
+        43409,
+        15573,
+        33235
+      ],
+      "rejected_count": 16,
+      "usual_paths": [
+        {
+          "question": "what is the color of the wetsuit worn by the people surfing in the ocean?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.0468449592590332
+        },
+        {
+          "question": "what is the gender of the people surfing in the ocean?",
+          "answers": [
+            "both male",
+            "both female",
+            "one male one female"
+          ],
+          "score": 0.038135528564453125
+        },
+        {
+          "question": "what is the gender of the people surfing in the ocean?",
+          "answers": [
+            "both male",
+            "both female",
+            "one male one female"
+          ],
+          "score": 0.038135528564453125,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what are the genders of the two people surfing in the ocean?",
+          "answers": [
+            "man and woman",
+            "two men",
+            "two women"
+          ],
+          "score": 0.03228759765625
+        },
+        {
+          "question": "what is the color of the wetsuit worn by the people surfing in the ocean?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.0468449592590332,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the gender of the two people surfing on the big wave?",
+          "answers": [
+            "male",
+            "female",
+            "one male and one female"
+          ],
+          "score": 0.029732704162597656
+        },
+        {
+          "question": "Question: What are the genders of the two people surfing on the big wave?",
+          "answers": [
+            "one man and one woman",
+            "two men",
+            "two women"
+          ],
+          "score": 0.027362346649169922
+        },
+        {
+          "question": "Question: What are the genders of the two people surfing on the big wave?",
+          "answers": [
+            "one man and one woman",
+            "two men",
+            "two women"
+          ],
+          "score": 0.027362346649169922,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What color is the wetsuit worn by the man surfing on the big wave?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.05230236053466797
+        },
+        {
+          "question": "Question: What is the gender of the two people surfing on the big wave?",
+          "answers": [
+            "male",
+            "female",
+            "one male and one female"
+          ],
+          "score": 0.029732704162597656,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "two people are out in the ocean surfing on blue surfboards, catching a big wave, with the man wearing a black wetsuit",
+      "question": "Question: What color are the shorts worn by the man riding the wave?",
+      "answer": "black",
+      "query_after": "two people are out in the ocean surfing on blue surfboards, catching a big wave; the man is wearing a black wetsuit and black shorts",
+      "displayed_ids": [
+        11002,
+        49831,
+        28336,
+        35818,
+        28594,
+        27269,
+        45045,
+        5168,
+        15573,
+        26957
+      ],
+      "selected_ids": [
+        10974,
+        13451,
+        43869,
+        4432,
+        48644,
+        47923,
+        15573,
+        15687,
+        49424,
+        40500
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what is the color of the shorts worn by the man surfing the wave?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.040988922119140625
+        },
+        {
+          "question": "Question: What color are the shorts worn by the man surfing the wave?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.020637035369873047
+        },
+        {
+          "question": "Question: Which candidate image best depicts the scene where two people are surfing a big wave, specifically focusing on the attire of the man?",
+          "answers": [
+            "0",
+            "3",
+            "8"
+          ],
+          "score": 0.0019850730895996094
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "wetsuit",
+            "surfboard",
+            "wave"
+          ],
+          "score": 0.002978801727294922
+        },
+        {
+          "question": "Where in the ocean are the two people surfing the big wave?",
+          "answers": [
+            "north shore",
+            "south shore",
+            "offshore"
+          ],
+          "score": 0.0023488998413085938
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color are the shorts worn by the man riding the wave?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.04445219039916992
+        },
+        {
+          "question": "Question: What color are the shorts worn by the man riding the wave?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.04445219039916992,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: Which person is the man wearing shorts on?",
+          "answers": [
+            "one",
+            "the other",
+            "both"
+          ],
+          "score": 0.001674652099609375
+        },
+        {
+          "question": "Question: What is the color of the shorts worn by the man riding the wave?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.03925609588623047
+        },
+        {
+          "question": "Question: What color is the wetsuit worn by the man riding the wave?",
+          "answers": [
+            "black",
+            "blue",
+            "unknown"
+          ],
+          "score": 0.012313365936279297
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "two people are out in the ocean surfing on blue surfboards, catching a big wave; the man is wearing a black wetsuit and black shorts",
+      "question": "What is the color of the wetsuit worn by the woman surfing on the big wave?",
+      "answer": "black",
+      "query_after": "two people, a man and a woman, are surfing on a big wave in the ocean; both are wearing black wetsuits and black shorts, riding a blue surfboard.",
+      "displayed_ids": [
+        11002,
+        49831,
+        35818,
+        33137,
+        27269,
+        45045,
+        29135,
+        28336,
+        25357,
+        44798
+      ],
+      "selected_ids": [
+        47923,
+        14465,
+        4432,
+        40500,
+        6268,
+        49581,
+        48644,
+        18747
+      ],
+      "rejected_count": 21,
+      "usual_paths": [
+        {
+          "question": "what is the color of the wetsuit worn by the second person in the ocean?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.041242122650146484
+        },
+        {
+          "question": "Question: What is the color of the wetsuit worn by the second person in the ocean?",
+          "answers": [
+            "black",
+            "blue",
+            "no wetsuit"
+          ],
+          "score": 0.0051212310791015625
+        },
+        {
+          "question": "what is the gender of the second person in the ocean?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.02602100372314453
+        },
+        {
+          "question": "Where exactly in the ocean are the two people surfing the big wave?",
+          "answers": [
+            "off the coast",
+            "in the bay",
+            "near the shore"
+          ],
+          "score": 0.0020503997802734375
+        },
+        {
+          "question": "what is the gender of the first person in the ocean?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.02684926986694336
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the color of the shorts worn by the second person surfing?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.027387142181396484
+        },
+        {
+          "question": "What is the color of the wetsuit worn by the woman surfing on the big wave?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.04553508758544922
+        },
+        {
+          "question": "What is the weather condition like where the two people are surfing?",
+          "answers": [
+            "sunny",
+            "cloudy",
+            "rainy"
+          ],
+          "score": 0.029748916625976562
+        },
+        {
+          "question": "Question: What is the color of the wetsuit worn by the other person surfing in the ocean?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.015107154846191406
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "surfboard",
+            "wetsuit",
+            "ocean"
+          ],
+          "score": 0.0029091835021972656
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "two people, a man and a woman, are surfing on a big wave in the ocean; both are wearing black wetsuits and black shorts, riding a blue surfboard.",
+      "question": "Question: What is the color of the shorts worn by the woman surfing on the big wave?",
+      "answer": "black",
+      "query_after": "two people in black wetsuits and black shorts are surfing on a big blue wave in the ocean",
+      "displayed_ids": [
+        11002,
+        35818,
+        28594,
+        27269,
+        33137,
+        5168,
+        23972,
+        45045,
+        26957,
+        49831
+      ],
+      "selected_ids": [
+        43364,
+        15573,
+        34132,
+        1455,
+        12207,
+        4432,
+        47923,
+        35818,
+        14465,
+        46735
+      ],
+      "rejected_count": 22,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "surfboard",
+            "wave",
+            "ocean"
+          ],
+          "score": 0.002056598663330078
+        },
+        {
+          "question": "what is the color of the shorts worn by the other person surfing on the big wave?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.03158378601074219
+        },
+        {
+          "question": "Question: How many people are surfing on the big wave?",
+          "answers": [
+            "one",
+            "two",
+            "three or more"
+          ],
+          "score": 0.004663944244384766
+        },
+        {
+          "question": "what is the color of the shorts worn by the other person surfing on the big wave?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.03158378601074219,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the gender of the other person surfing with the man on the big wave?",
+          "answers": [
+            "male",
+            "female",
+            "person"
+          ],
+          "score": 0.0054073333740234375
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "surfboard",
+            "wave",
+            "ocean"
+          ],
+          "score": 0.002056598663330078
+        },
+        {
+          "question": "Question: What is the color of the shorts worn by the woman surfing on the big wave?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.03222513198852539
+        },
+        {
+          "question": "Question: What is the color of the shorts worn by the woman surfing on the big wave?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.03222513198852539,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the shorts worn by the man surfing on the big wave?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.013186931610107422
+        },
+        {
+          "question": "Question: What is the color of the wetsuit worn by the second person (not the man) in the image?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.02385854721069336
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "two people in black wetsuits and black shorts are surfing on a big blue wave in the ocean",
+      "question": "Question: What is the color of the wave being ridden by the man and woman?",
+      "answer": "green",
+      "query_after": "two people in black wetsuits and black shorts are surfing on a big green wave on a blue surfboard",
+      "displayed_ids": [
+        11002,
+        45045,
+        28594,
+        12596,
+        36571,
+        27269,
+        10869,
+        28336,
+        29135,
+        17435
+      ],
+      "selected_ids": [
+        40500,
+        10869,
+        45193,
+        15573,
+        49581,
+        6759,
+        22345,
+        14465,
+        4432
+      ],
+      "rejected_count": 25,
+      "usual_paths": [
+        {
+          "question": "what is the gender of the person riding the surfboard in the ocean near the rocky shoreline?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.03167581558227539
+        },
+        {
+          "question": "what is the gender of the person riding the surfboard in the ocean near the rocky shoreline?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.03167581558227539,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the gender of the person riding the surfboard in the ocean near the rocky shoreline?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.03167581558227539,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the gender of the person riding the surfboard in the ocean near the rocky shoreline?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.03167581558227539,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the gender of the person riding the surfboard in the ocean near the rocky shoreline?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.03167581558227539,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "surfboard",
+            "wetsuit",
+            "wave"
+          ],
+          "score": 0.0012407302856445312
+        },
+        {
+          "question": "Question: What is the color of the wave being ridden by the man and woman?",
+          "answers": [
+            "blue",
+            "white",
+            "green"
+          ],
+          "score": 0.03495311737060547
+        },
+        {
+          "question": "Question: What is the sky color in the image where two people are surfing?",
+          "answers": [
+            "blue",
+            "cloudy",
+            "dark"
+          ],
+          "score": 0.009026050567626953
+        },
+        {
+          "question": "Question: What is the color of the wave being ridden by the two people?",
+          "answers": [
+            "white",
+            "blue",
+            "grey"
+          ],
+          "score": 0.011245250701904297
+        },
+        {
+          "question": "what is the color of the surfboard being ridden by the two people?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.028701305389404297
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "two people in black wetsuits and black shorts are surfing on a big green wave on a blue surfboard",
+      "question": "what is the gender of the people surfing on the big wave?",
+      "answer": "male",
+      "query_after": "a man and a woman are surfing on a big green wave in the ocean, both wearing black wetsuits and black shorts, riding a blue surfboard",
+      "displayed_ids": [
+        45045,
+        27269,
+        36571,
+        28336,
+        21564,
+        5168,
+        34103,
+        37366,
+        35363,
+        40860
+      ],
+      "selected_ids": [
+        29920,
+        10217,
+        14465,
+        28439,
+        799,
+        48644,
+        46406,
+        15573,
+        4432,
+        28336
+      ],
+      "rejected_count": 30,
+      "usual_paths": [
+        {
+          "question": "what is the gender of the two people surfing on the big wave?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.016765117645263672
+        },
+        {
+          "question": "what is the gender of the people surfing on the big wave?",
+          "answers": [
+            "male",
+            "female",
+            "both"
+          ],
+          "score": 0.016814708709716797
+        },
+        {
+          "question": "what is the gender of the two people surfing on the big wave?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.016765117645263672,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Where in the ocean are the two people surfing the big wave?",
+          "answers": [
+            "Pacific Ocean",
+            "Atlantic Ocean",
+            "Indian Ocean"
+          ],
+          "score": 0.0020308494567871094
+        },
+        {
+          "question": "what is the gender of the two people surfing on the big wave?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.016765117645263672,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "surfboard",
+            "wetsuit",
+            "wave"
+          ],
+          "score": 0.0011944770812988281
+        },
+        {
+          "question": "Question: What is the color of the wave being ridden by the people in the ocean?",
+          "answers": [
+            "green",
+            "blue",
+            "white"
+          ],
+          "score": 0.012233257293701172
+        },
+        {
+          "question": "Question: What is the color of the wave being ridden by the people in the ocean?",
+          "answers": [
+            "green",
+            "blue",
+            "white"
+          ],
+          "score": 0.012233257293701172,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the wave in the image?",
+          "answers": [
+            "green",
+            "blue",
+            "white"
+          ],
+          "score": 0.010364055633544922
+        },
+        {
+          "question": "Question: What is the color of the wave in the image?",
+          "answers": [
+            "green",
+            "blue",
+            "white"
+          ],
+          "score": 0.010364055633544922,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

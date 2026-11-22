@@ -1,0 +1,78 @@
+{
+  "qid": 612,
+  "sample": 1,
+  "first_candidates": [
+    "what is the weather condition where the woman is holding her phone over her head on the beach?",
+    "what is the woman wearing in the image where she is holding her phone over her head on the beach?",
+    "what is the woman holding her phone up to while standing on the beach?",
+    "what is the woman holding her phone up to in the image where she is standing on a beach?",
+    "what is the woman holding her phone up to in the image where she is holding her phone over her head while standing on a beach?"
+  ],
+  "second_candidates": [
+    "what is the weather condition in the image where the woman is holding her phone?",
+    "what is the woman wearing in the image where she is holding her phone over her head on a beach?",
+    "what is the woman wearing on her head in the image where she is holding her phone over her head on a beach?",
+    "what is the other object in the image?",
+    "what is the location of the beach where the woman is holding her phone?"
+  ],
+  "paths": [
+    {
+      "question": "what is the weather condition in the image where the woman is holding her phone?",
+      "answers": [
+        "sunny",
+        "cloudy",
+        "rainy"
+      ],
+      "score": 0.03798675537109375
+    },
+    {
+      "question": "what is the woman wearing in the image where she is holding her phone over her head on a beach?",
+      "answers": [
+        "a bikini",
+        "a swimsuit",
+        "a dress"
+      ],
+      "score": 0.04473400115966797
+    },
+    {
+      "question": "what is the woman wearing on her head in the image where she is holding her phone over her head on a beach?",
+      "answers": [
+        "sunglasses",
+        "hat",
+        "bucket"
+      ],
+      "score": 0.028505325317382812
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "beach",
+        "ocean",
+        "waves"
+      ],
+      "score": 0.029229164123535156
+    },
+    {
+      "question": "what is the location of the beach where the woman is holding her phone?",
+      "answers": [
+        "beach",
+        "Malibu",
+        "Hawaii"
+      ],
+      "score": 0.020256519317626953
+    }
+  ],
+  "control": {
+    "question": "what is the woman wearing in the image where she is holding her phone over her head on the beach?",
+    "score": 0.04503917694091797
+  },
+  "mixed": {
+    "question": "Question: What is the woman wearing?",
+    "score": 0.0978689193725586
+  },
+  "control_rank": 1,
+  "mixed_rank": 1,
+  "usual_rank": 1,
+  "new_answer": null,
+  "new_rewrite": null
+}

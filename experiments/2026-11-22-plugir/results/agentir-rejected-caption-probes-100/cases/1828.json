@@ -1,0 +1,81 @@
+{
+  "qid": 1828,
+  "candidates": [
+    "Question: Is the man riding a motorcycle or a bicycle?",
+    "Question: What color is the helmet worn by the man riding the bike?",
+    "Question: What color is the jacket worn by the man riding the bike?",
+    "Question: What color is the jacket worn by the man riding the bike?",
+    "Question: Is the man riding a motorcycle or a bicycle?"
+  ],
+  "kl": {
+    "question": "Question: Is the man riding a motorcycle or a bicycle?",
+    "answer": "bicycle",
+    "rewrite": "a man riding a bicycle down a city street",
+    "raw_rank": 22,
+    "unseen_rank": 12
+  },
+  "probe": {
+    "question": "Question: What color is the jacket worn by the man riding the bike?",
+    "answer": "blue",
+    "rewrite": "a man wearing a blue jacket riding a bike down a city street",
+    "raw_rank": 2,
+    "unseen_rank": 1
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: Is the man riding a motorcycle or a bicycle?",
+        "answers": [
+          "motorcycle",
+          "bicycle",
+          "unknown"
+        ],
+        "score": 0.014455318450927734
+      },
+      {
+        "question": "Question: What color is the helmet worn by the man riding the bike?",
+        "answers": [
+          "Yellow",
+          "Black",
+          "White"
+        ],
+        "score": 0.06447887420654297
+      },
+      {
+        "question": "Question: What color is the jacket worn by the man riding the bike?",
+        "answers": [
+          "blue",
+          "red",
+          "black"
+        ],
+        "score": 0.09209299087524414
+      },
+      {
+        "question": "Question: What color is the jacket worn by the man riding the bike?",
+        "answers": [
+          "blue",
+          "red",
+          "black"
+        ],
+        "score": 0.09209299087524414,
+        "duplicate_of": 2
+      },
+      {
+        "question": "Question: Is the man riding a motorcycle or a bicycle?",
+        "answers": [
+          "motorcycle",
+          "bicycle",
+          "unknown"
+        ],
+        "score": 0.014455318450927734,
+        "duplicate_of": 0
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.049,
+    "probe_selection_seconds": 1.354,
+    "probe_llm_calls": 3,
+    "probe_search_queries": 9
+  },
+  "reused_outcome": true
+}

@@ -1,0 +1,182 @@
+{
+  "qid": 1435,
+  "initial": "a man holds onto a kite when surfing in the ocean",
+  "initial_rank": 125,
+  "displayed": [
+    44666,
+    31109,
+    43675,
+    9946,
+    20865,
+    33138,
+    5679,
+    13937,
+    1257,
+    45908
+  ],
+  "evidence": [
+    "a surfer in the water holding a surfboard",
+    "man in black wetsuit surfing in the ocean",
+    "the girl in black and white wetsuit is sitting on the surfboard",
+    "a surfer doing a jump on the wave",
+    "a large red parachute",
+    "young man is walking into the ocean with surfboard",
+    "a man in a wet suit rides a wave",
+    "person standing on sand on beach with kite in air",
+    "a surfer in a wetsuit riding a wave",
+    "a young boy is standing on a surfboard"
+  ],
+  "rejected_captions": [
+    "a surfer is in the water on a surfboard",
+    "a man on a kiteboard on the ocean",
+    "the person is riding a wave",
+    "a man parasailing on a wave in the ocean",
+    "man in water skiing harness",
+    "two people in water",
+    "man is doing kitesurfing",
+    "a man in black with his eyes wide open",
+    "a man kiting in the ocean",
+    "the beach is empty"
+  ],
+  "usual": {
+    "candidates": [
+      "Question: What color is the wetsuit worn by the man holding the kite while surfing?",
+      "what is the color of the wetsuit worn by the man holding the kite while surfing?",
+      "what is the color of the wetsuit worn by the man holding the kite while surfing?",
+      "what is the color of the parachute being flown by the man in the wetsuit?",
+      "what is the color of the wetsuit worn by the man holding the kite while surfing?"
+    ],
+    "question": "what is the color of the wetsuit worn by the man holding the kite while surfing?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What color is the wetsuit worn by the man holding the kite while surfing?",
+          "answers": [
+            "black",
+            "blue",
+            "grey"
+          ],
+          "score": 0.031787872314453125
+        },
+        {
+          "question": "what is the color of the wetsuit worn by the man holding the kite while surfing?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.07500934600830078
+        },
+        {
+          "question": "what is the color of the wetsuit worn by the man holding the kite while surfing?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.07500934600830078,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the parachute being flown by the man in the wetsuit?",
+          "answers": [
+            "white",
+            "black",
+            "red"
+          ],
+          "score": 0.06954717636108398
+        },
+        {
+          "question": "what is the color of the wetsuit worn by the man holding the kite while surfing?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.07500934600830078,
+          "duplicate_of": 1
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.064,
+      "probe_selection_seconds": 1.321,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "black",
+    "rewrite": "a man in a black wetsuit holds onto a kite while surfing in the ocean",
+    "raw_rank": 149,
+    "unseen_rank": 139
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What color is the wetsuit of the man surfing with a kite?",
+      "Question: What color is the wetsuit of the man surfing with a kite?",
+      "Question: What color is the wetsuit of the man surfing with a kite?",
+      "Question: What color is the kite the man is holding?",
+      "Question: What color is the wetsuit of the man surfing with a kite?"
+    ],
+    "question": "Question: What color is the kite the man is holding?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What color is the wetsuit of the man surfing with a kite?",
+          "answers": [
+            "black",
+            "blue",
+            "green"
+          ],
+          "score": 0.06279850006103516
+        },
+        {
+          "question": "Question: What color is the wetsuit of the man surfing with a kite?",
+          "answers": [
+            "black",
+            "blue",
+            "green"
+          ],
+          "score": 0.06279850006103516,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the wetsuit of the man surfing with a kite?",
+          "answers": [
+            "black",
+            "blue",
+            "green"
+          ],
+          "score": 0.06279850006103516,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the kite the man is holding?",
+          "answers": [
+            "Red",
+            "Blue",
+            "Green"
+          ],
+          "score": 0.07742643356323242
+        },
+        {
+          "question": "Question: What color is the wetsuit of the man surfing with a kite?",
+          "answers": [
+            "black",
+            "blue",
+            "green"
+          ],
+          "score": 0.06279850006103516,
+          "duplicate_of": 0
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.063,
+      "probe_selection_seconds": 0.88,
+      "probe_llm_calls": 2,
+      "probe_search_queries": 6
+    },
+    "answer": "yellow",
+    "rewrite": "a man holds onto a yellow kite while surfing in the ocean",
+    "raw_rank": 70,
+    "unseen_rank": 62
+  }
+}

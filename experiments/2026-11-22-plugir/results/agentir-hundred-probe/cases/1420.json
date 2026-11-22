@@ -1,0 +1,97 @@
+{
+  "qid": 1420,
+  "initial": "many people walking on the sidewalk and others sitting on the steps in a city scene",
+  "initial_rank": 75,
+  "evidence": [
+    "a busy city with lots of lights and signs",
+    "a skater jumping over the edge of the stairs at a skate park",
+    "a large group of people are in a street holding umbrellas",
+    "pedestrians cross the street at the city's crossing light",
+    "a group of people standing near a building with many umbrellas",
+    "a young man sitting on the curb next to trash",
+    "a red double decker bus with a clock tower",
+    "a group of people are on a parade in front of a yellow boat",
+    "a photo of old buildings with horse drawn carriages",
+    "people are sitting on benches in front of a clock tower"
+  ],
+  "candidates": [
+    "what color are the umbrellas held by the people in the city scene?",
+    "what color is the clock tower located in the city scene?",
+    "what objects are the people sitting on in front of the clock tower?",
+    "what is the color of the double decker bus located in the city scene?",
+    "what is the color of the double decker bus located in the city scene?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what color are the umbrellas held by the people in the city scene?",
+      "answers": [
+        "black",
+        "yellow",
+        "clear"
+      ],
+      "score": 0.03367948532104492
+    },
+    {
+      "question": "what color is the clock tower located in the city scene?",
+      "answers": [
+        "red",
+        "brown",
+        "grey"
+      ],
+      "score": 0.0230712890625
+    },
+    {
+      "question": "what objects are the people sitting on in front of the clock tower?",
+      "answers": [
+        "benches",
+        "stairs",
+        "unknown"
+      ],
+      "score": 0.01619243621826172
+    },
+    {
+      "question": "what is the color of the double decker bus located in the city scene?",
+      "answers": [
+        "red"
+      ],
+      "note": "fewer than 2 answers"
+    },
+    {
+      "question": "what is the color of the double decker bus located in the city scene?",
+      "answers": [
+        "red"
+      ],
+      "note": "fewer than 2 answers",
+      "duplicate_of": 3
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.057,
+  "probe_selection_seconds": 1.887,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 9,
+  "arms": {
+    "kl": {
+      "question": "what color is the clock tower located in the city scene?",
+      "answer": "gray",
+      "rewrite": "many people walking on the sidewalk and others sitting on the steps in a city scene with a gray clock tower",
+      "rank": 204,
+      "hit": false
+    },
+    "random": {
+      "question": "what color is the clock tower located in the city scene?",
+      "answer": "gray",
+      "rewrite": "many people walking on the sidewalk and others sitting on the steps in a city scene with a gray clock tower",
+      "rank": 204,
+      "hit": false
+    },
+    "probe": {
+      "question": "what color are the umbrellas held by the people in the city scene?",
+      "answer": "there are no umbrellas visible in the image.",
+      "rewrite": "many people walking on the sidewalk and others sitting on the steps in a city scene with no visible umbrellas",
+      "rank": 98,
+      "hit": false
+    }
+  },
+  "seconds": 15.698
+}

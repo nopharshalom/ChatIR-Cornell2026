@@ -1,0 +1,144 @@
+{
+  "qid": 82,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000175345.jpg",
+  "queries": [
+    "a short train makes its way down a track",
+    "a short maroon train makes its way down a track"
+  ],
+  "ranks": [
+    160,
+    4
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a short train makes its way down a track",
+      "question": "what is the color of the short train making its way down the track?",
+      "answer": "maroon",
+      "query_after": "a short maroon train makes its way down a track",
+      "displayed_ids": [
+        40219,
+        36727,
+        27983,
+        32442,
+        42588,
+        21909,
+        36817,
+        46477,
+        31722,
+        15688
+      ],
+      "selected_ids": [
+        12327,
+        43016,
+        14658,
+        31802,
+        20293,
+        11086,
+        17695,
+        46039,
+        19215,
+        47588
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the short train making its way down the track?",
+          "answers": [
+            "red",
+            "yellow",
+            "white"
+          ],
+          "score": 0.31938982009887695
+        },
+        {
+          "question": "Question: what is the length of the train making its way down the track?",
+          "answers": [
+            "short",
+            "medium",
+            "long"
+          ],
+          "score": 0.0017123222351074219
+        },
+        {
+          "question": "what color is the engine of the train traveling down the track?",
+          "answers": [
+            "red",
+            "white",
+            "yellow"
+          ],
+          "score": 0.254671573638916
+        },
+        {
+          "question": "what is the color of the train located near the farm?",
+          "answers": [
+            "red",
+            "black and yellow",
+            "yellow and blue"
+          ],
+          "score": 0.2642784118652344
+        },
+        {
+          "question": "what is the color of the train located near the grass?",
+          "answers": [
+            "red",
+            "yellow and black",
+            "yellow and blue"
+          ],
+          "score": 0.21770524978637695
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is the train red, yellow, or black?",
+          "answers": [
+            "red",
+            "yellow",
+            "black"
+          ],
+          "score": 0.014945507049560547
+        },
+        {
+          "question": "Question: Is the train traveling through a field or near a city?",
+          "answers": [
+            "field",
+            "city",
+            "unknown"
+          ],
+          "score": 0.01109933853149414
+        },
+        {
+          "question": "Question: What color is the short train traveling down the track?",
+          "answers": [
+            "red",
+            "white",
+            "yellow"
+          ],
+          "score": 0.20972967147827148
+        },
+        {
+          "question": "Question: What color is the short train traveling down the track?",
+          "answers": [
+            "red",
+            "white",
+            "yellow"
+          ],
+          "score": 0.20972967147827148,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the color of the short train traveling down the track?",
+          "answers": [
+            "red",
+            "yellow",
+            "white"
+          ],
+          "score": 0.2475285530090332
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

@@ -1,0 +1,71 @@
+{
+  "qid": 1184,
+  "initial": "a little girl with brown hair in a ponytail who is outside by a bench",
+  "initial_rank": 19,
+  "evidence": [
+    "man on a bench reading a book",
+    "brown wooden bench with a pair of shoes on top",
+    "little girl in front of two colorful surfboards",
+    "three children sitting at a table with food in front of them",
+    "woman standing on a sidewalk looking at her cell phone",
+    "two children with one of the princesses",
+    "a young girl is throwing a kite on grass",
+    "a woman sitting on a bench in a park",
+    "a woman is looking at a horse with a red hat on",
+    "a little girl wearing a white dress and tennis racket"
+  ],
+  "displayed_ids": [
+    14351,
+    803,
+    38011,
+    29057,
+    20687,
+    4624,
+    3066,
+    36687,
+    44843,
+    21021
+  ],
+  "rejected_captions": [
+    "a girl sitting on a bench",
+    "a child sitting on a bench holding a basketball",
+    "the woman is on the bench",
+    "a little girl holds a cupcake",
+    "a little girl wearing a dress is sitting on a bench",
+    "a woman with dark hair",
+    "young girl eating a donut while drinking a drink",
+    "the child is on a wooden bench",
+    "a young lady in a lace dress sitting on a bench",
+    "a boy with a hat on standing on a park bench"
+  ],
+  "candidates": [
+    "Question: What activity is the little girl doing?",
+    "Question: What color is the little girl's dress?",
+    "Question: What is the little girl holding?",
+    "Question: Where is the little girl sitting?",
+    "Question: What color are the little girl's eyes?"
+  ],
+  "control_candidates": [
+    "what activity is the little girl with brown hair in a ponytail engaged in while sitting on the bench?",
+    "what is the little girl wearing?",
+    "what is the color of the bench the little girl is sitting on?",
+    "Question: where is the little girl sitting?",
+    "what is the activity of the little girl with brown hair in a ponytail, and what is she wearing?"
+  ],
+  "control": {
+    "question": "what is the activity of the little girl with brown hair in a ponytail, and what is she wearing?",
+    "answer": "the little girl with brown hair in a ponytail is eating cake and wearing a pink shirt with a cake design on it.",
+    "rewrite": "a little girl with brown hair in a ponytail, wearing a pink shirt with a cake design, sits outside by a bench eating cake",
+    "rank": 2,
+    "hit": true,
+    "raw_rank": 2,
+    "unseen_rank": 2
+  },
+  "variant": {
+    "question": "Question: What activity is the little girl doing?",
+    "answer": "eating cake",
+    "rewrite": "a little girl with brown hair in a ponytail is outside by a bench eating cake",
+    "raw_rank": 1,
+    "unseen_rank": 1
+  }
+}

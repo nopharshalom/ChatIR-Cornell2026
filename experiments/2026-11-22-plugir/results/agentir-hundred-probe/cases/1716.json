@@ -1,0 +1,100 @@
+{
+  "qid": 1716,
+  "initial": "a field of guys playing soccer 2 guys from opposite teams are jumping for the ball",
+  "initial_rank": 13,
+  "evidence": [
+    "a baseball field with a green field behind the pitcher",
+    "a pitcher getting ready to throw the ball at a baseball game",
+    "a tennis court with a green line",
+    "a girl in a red soccer uniform chasing a ball",
+    "a group of children are kicking a ball",
+    "a surfer doing a jump on the wave",
+    "man is jumping in the air and trying to catch the frisbee",
+    "a boy is playing soccer with a black soccer ball",
+    "two young men playing frisbee in a park",
+    "a crowd of people watching a tennis player play"
+  ],
+  "candidates": [
+    "what is the color of the soccer ball being kicked by the group of children?",
+    "what are the players wearing?",
+    "Question: Are the players in the image wearing red uniforms?",
+    "what is the location where the soccer game is taking place?",
+    "what is the other object in the image?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the soccer ball being kicked by the group of children?",
+      "answers": [
+        "black",
+        "white",
+        "red"
+      ],
+      "score": 0.06750631332397461
+    },
+    {
+      "question": "what are the players wearing?",
+      "answers": [
+        "red and black",
+        "blue and white",
+        "green and yellow"
+      ],
+      "score": 0.13547277450561523
+    },
+    {
+      "question": "Question: Are the players in the image wearing red uniforms?",
+      "answers": [
+        "Yes, red",
+        "No, blue",
+        "No, white"
+      ],
+      "score": 0.040884971618652344
+    },
+    {
+      "question": "what is the location where the soccer game is taking place?",
+      "answers": [
+        "field",
+        "field behind the pitcher",
+        "park"
+      ],
+      "score": 0.05925750732421875
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "soccer ball",
+        "goal posts",
+        "fence"
+      ],
+      "score": 0.025167465209960938
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.064,
+  "probe_selection_seconds": 2.717,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the other object in the image?",
+      "answer": "the ball.",
+      "rewrite": "a field of guys playing soccer with a ball, where two guys from opposite teams are jumping for it",
+      "rank": 16,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the other object in the image?",
+      "answer": "the ball.",
+      "rewrite": "a field of guys playing soccer with a ball, where two guys from opposite teams are jumping for it",
+      "rank": 16,
+      "hit": false
+    },
+    "probe": {
+      "question": "what are the players wearing?",
+      "answer": "Based on the image, the players are wearing:\n\n*   **Jerseys/Shirts:** Two distinct team colors are visible. One team wears blue jerseys with white trim and a logo on the chest. The other team wears green jerseys with",
+      "rewrite": "a field of guys playing soccer, with two guys from opposite teams jumping for the ball; one team wears blue jerseys with white trim and a logo, while the other wears green jerseys",
+      "rank": 2,
+      "hit": true
+    }
+  },
+  "seconds": 17.366
+}

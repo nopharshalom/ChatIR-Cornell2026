@@ -1,0 +1,78 @@
+{
+  "qid": 572,
+  "sample": 2,
+  "first_candidates": [
+    "what is the other object in the image?",
+    "what is the color of the shirt of the man in the air hitting a tennis ball?",
+    "what is the color of the shirt of the man in the white shirt holding a tennis racket?",
+    "what is the color of the shirt of the man who is jumping or in the air?",
+    "what is the action of the man in the white shirt holding a tennis racket?"
+  ],
+  "second_candidates": [
+    "what is the other object in the image?",
+    "Question: What color is the shirt of the man holding the tennis racket?",
+    "**Question:** What is the man wearing on his head?",
+    "**Question:** What is the man doing with the tennis racket?",
+    "**Question:** Is there a crowd of people in the background of the image?"
+  ],
+  "paths": [
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "tennis ball",
+        "net",
+        "bench"
+      ],
+      "score": 0.044877052307128906
+    },
+    {
+      "question": "Question: What color is the shirt of the man holding the tennis racket?",
+      "answers": [
+        "white",
+        "black",
+        "red"
+      ],
+      "score": 0.09457111358642578
+    },
+    {
+      "question": "**Question:** What is the man wearing on his head?",
+      "answers": [
+        "nothing",
+        "hat",
+        "cap"
+      ],
+      "score": 0.020980358123779297
+    },
+    {
+      "question": "**Question:** What is the man doing with the tennis racket?",
+      "answers": [
+        "holding",
+        "swinging",
+        "hitting"
+      ],
+      "score": 0.033795833587646484
+    },
+    {
+      "question": "**Question:** Is there a crowd of people in the background of the image?",
+      "answers": [
+        "Yes",
+        "No",
+        "Maybe"
+      ],
+      "score": 0.0025720596313476562
+    }
+  ],
+  "control": {
+    "question": "Question: What color is the shirt of the man holding the tennis racket?",
+    "score": 0.09457111358642578
+  },
+  "mixed": {
+    "question": "Question: What color is the tennis racket the man in the white shirt is holding?",
+    "score": 0.08198356628417969
+  },
+  "control_rank": 232,
+  "mixed_rank": 195,
+  "usual_rank": 92,
+  "new_answer": "White.",
+  "new_rewrite": "a man in a white shirt holding a tennis racket on a tennis court"
+}

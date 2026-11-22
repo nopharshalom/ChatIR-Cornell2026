@@ -1,0 +1,143 @@
+{
+  "qid": 1903,
+  "sample": "original",
+  "target": "unlabeled2017/000000058420.jpg",
+  "queries": [
+    "a large tower with a pointy top and a clock",
+    "a large tower with a pointy top and a clock set against a brick wall"
+  ],
+  "ranks": [
+    17,
+    4
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a large tower with a pointy top and a clock",
+      "question": "what is the background behind the clock?",
+      "answer": "brick wall",
+      "query_after": "a large tower with a pointy top and a clock set against a brick wall",
+      "displayed_ids": [
+        40209,
+        15436,
+        23949,
+        20949,
+        1459,
+        8160,
+        3239,
+        33792,
+        3734,
+        34644
+      ],
+      "selected_ids": [
+        34913,
+        6156,
+        3999,
+        16076,
+        6817,
+        46105,
+        22780,
+        1731,
+        28654,
+        47080
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the tower with a clock?",
+          "answers": [
+            "red",
+            "white",
+            "dark"
+          ],
+          "score": 0.10847187042236328
+        },
+        {
+          "question": "what is the color of the roof on the building with the clock?",
+          "answers": [
+            "dark",
+            "green",
+            "white"
+          ],
+          "score": 0.08468008041381836
+        },
+        {
+          "question": "what is the background behind the clock?",
+          "answers": [
+            "blue sky",
+            "brick wall",
+            "night"
+          ],
+          "score": 0.264467716217041
+        },
+        {
+          "question": "what is the material of the building that the clock is mounted on?",
+          "answers": [
+            "brick",
+            "stone",
+            "white"
+          ],
+          "score": 0.09448909759521484
+        },
+        {
+          "question": "what is the color of the clock on the tower?",
+          "answers": [
+            "black",
+            "white",
+            "gold"
+          ],
+          "score": 0.10030603408813477
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the tower in the image?",
+          "answers": [
+            "red",
+            "white",
+            "dark"
+          ],
+          "score": 0.15160751342773438
+        },
+        {
+          "question": "Question: What is the color of the clock tower in the image?",
+          "answers": [
+            "black",
+            "red",
+            "white"
+          ],
+          "score": 0.08605241775512695
+        },
+        {
+          "question": "what is the roof color of the large clock tower?",
+          "answers": [
+            "green",
+            "white",
+            "red"
+          ],
+          "score": 0.12356328964233398
+        },
+        {
+          "question": "what is the material of the tower in the image?",
+          "answers": [
+            "brick",
+            "stone",
+            "white"
+          ],
+          "score": 0.11433601379394531
+        },
+        {
+          "question": "what is the sky color in the image?",
+          "answers": [
+            "dark",
+            "blue",
+            "green"
+          ],
+          "score": 0.09750795364379883
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

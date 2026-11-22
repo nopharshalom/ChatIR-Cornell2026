@@ -1,0 +1,1332 @@
+{
+  "qid": 1731,
+  "sample": "original",
+  "target": "unlabeled2017/000000235770.jpg",
+  "queries": [
+    "a dog is laying on his bed in front of a window",
+    "a brown and white dog is laying on his bed in front of a window",
+    "a brown and white dog is laying on a cotton bed in front of a window",
+    "a brown and white dog wearing a black collar is laying on a cotton bed in front of a window",
+    "a brown and white dog wearing a black collar is laying on a cotton bed in front of a white window",
+    "A brown and white dog with a black collar is lying on a cotton bed positioned in front of a white window.",
+    "a brown and white dog with brown eyes and a black collar is laying on a cotton bed in front of a white window",
+    "a brown and white dog with brown eyes and a black collar is laying on white cotton sheets in front of a white window",
+    "a brown and white Jack Russell dog with brown eyes and a black collar is laying on a white cotton bed with white sheets in front of a white window",
+    "a brown and white Jack Russell dog with brown eyes and a black collar is laying on a white cotton bed with white sheets, chewing on nothing, in front of a white window",
+    "a brown and white Jack Russell dog with brown eyes and a black collar is laying on a white cotton bed with white sheets, positioned in front of a white window, chewing on nothing"
+  ],
+  "ranks": [
+    68,
+    25,
+    22,
+    71,
+    43,
+    43,
+    45,
+    41,
+    46,
+    14,
+    21
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a dog is laying on his bed in front of a window",
+      "question": "what is the color of the dog?",
+      "answer": "brown and white",
+      "query_after": "a brown and white dog is laying on his bed in front of a window",
+      "displayed_ids": [
+        27018,
+        13674,
+        20390,
+        19406,
+        20741,
+        34782,
+        40970,
+        46815,
+        12494,
+        32434
+      ],
+      "selected_ids": [
+        37822,
+        17434,
+        25848,
+        29139,
+        31074,
+        2787,
+        29861,
+        29011,
+        38373,
+        15342
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: What color is the dog?",
+          "answers": [
+            "brown",
+            "tan",
+            "black"
+          ],
+          "score": 0.06232309341430664
+        },
+        {
+          "question": "Question: What is the color of the dog?",
+          "answers": [
+            "black",
+            "brown",
+            "white"
+          ],
+          "score": 0.08192777633666992
+        },
+        {
+          "question": "what is the material of the furniture the dog is laying on?",
+          "answers": [
+            "leather",
+            "wood",
+            "fabric"
+          ],
+          "score": 0.05263566970825195
+        },
+        {
+          "question": "Question: What is the type of building the dog is in?",
+          "answers": [
+            "house",
+            "apartment",
+            "condo"
+          ],
+          "score": 0.011293411254882812
+        },
+        {
+          "question": "what is the color of the dog's bed?",
+          "answers": [
+            "white",
+            "blue",
+            "brown"
+          ],
+          "score": 0.09216547012329102
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the dog?",
+          "answers": [
+            "brown",
+            "tan",
+            "black"
+          ],
+          "score": 0.06232309341430664
+        },
+        {
+          "question": "Question: What is the color of the dog?",
+          "answers": [
+            "black",
+            "brown",
+            "white"
+          ],
+          "score": 0.08192777633666992
+        },
+        {
+          "question": "Question: What is the window made of or what is the building constructed from?",
+          "answers": [
+            "wood",
+            "brick",
+            "glass"
+          ],
+          "score": 0.0591888427734375
+        },
+        {
+          "question": "Question: What is the color of the dog in the image?",
+          "answers": [
+            "brown",
+            "tan",
+            "black"
+          ],
+          "score": 0.052172183990478516
+        },
+        {
+          "question": "what is the color of the dog?",
+          "answers": [
+            "brown",
+            "tan",
+            "black"
+          ],
+          "score": 0.09394598007202148
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a brown and white dog is laying on his bed in front of a window",
+      "question": "what is the material of the surface where the dog is resting?",
+      "answer": "cotton",
+      "query_after": "a brown and white dog is laying on a cotton bed in front of a window",
+      "displayed_ids": [
+        27018,
+        48348,
+        20390,
+        19406,
+        13674,
+        2690,
+        34832,
+        20741,
+        33511,
+        27396
+      ],
+      "selected_ids": [
+        31074,
+        7176,
+        31930,
+        15342,
+        40498,
+        13277,
+        2787,
+        43498,
+        682,
+        1503
+      ],
+      "rejected_count": 15,
+      "usual_paths": [
+        {
+          "question": "what is the material of the chair or surface where the dog is resting?",
+          "answers": [
+            "couch",
+            "bed",
+            "leather chair"
+          ],
+          "score": 0.03753328323364258
+        },
+        {
+          "question": "what is the material of the surface where the dog is resting?",
+          "answers": [
+            "couch",
+            "chair",
+            "bed"
+          ],
+          "score": 0.05858039855957031
+        },
+        {
+          "question": "what is the color of the bed sheets or blanket on the bed where the dog is resting?",
+          "answers": [
+            "white",
+            "blue",
+            "gray"
+          ],
+          "score": 0.052457332611083984
+        },
+        {
+          "question": "what is the color of the bed sheets or blanket on the bed where the dog is resting?",
+          "answers": [
+            "white",
+            "blue",
+            "gray"
+          ],
+          "score": 0.052457332611083984,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the type of furniture or surface where the dog is resting?",
+          "answers": [
+            "couch",
+            "leather chair",
+            "bed"
+          ],
+          "score": 0.05682516098022461
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the bed where the brown and white dog is laying?",
+          "answers": [
+            "white",
+            "beige",
+            "tan"
+          ],
+          "score": 0.008832454681396484
+        },
+        {
+          "question": "what is the color of the bed where the brown and white dog is laying?",
+          "answers": [
+            "white",
+            "beige",
+            "tan"
+          ],
+          "score": 0.008832454681396484,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the type of window visible in front of the brown and white dog?",
+          "answers": [
+            "single window",
+            "two windows",
+            "three windows"
+          ],
+          "score": 0.0155792236328125
+        },
+        {
+          "question": "what is the color of the window visible in front of the brown and white dog?",
+          "answers": [
+            "white",
+            "blue",
+            "black"
+          ],
+          "score": 0.029679298400878906
+        },
+        {
+          "question": "what type of bed is the brown and white dog laying on?",
+          "answers": [
+            "queen size",
+            "leather",
+            "hotel"
+          ],
+          "score": 0.04902076721191406
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "a brown and white dog is laying on a cotton bed in front of a window",
+      "question": "what is the color of the dog's collar?",
+      "answer": "black",
+      "query_after": "a brown and white dog wearing a black collar is laying on a cotton bed in front of a window",
+      "displayed_ids": [
+        27018,
+        27396,
+        3253,
+        48348,
+        2690,
+        33511,
+        19406,
+        13674,
+        20741,
+        37716
+      ],
+      "selected_ids": [
+        9795,
+        15342,
+        43498,
+        29139,
+        23753,
+        45904,
+        2787,
+        49064,
+        15494,
+        31074
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "What is the position of the dog's head on the bed?",
+          "answers": [
+            "on the pillow",
+            "on the mattress",
+            "on the blanket"
+          ],
+          "score": 0.016383647918701172
+        },
+        {
+          "question": "what is the color of the bed where the dog is resting?",
+          "answers": [
+            "white",
+            "brown",
+            "black"
+          ],
+          "score": 0.037822723388671875
+        },
+        {
+          "question": "what is the type of window located near the bed where the dog is resting?",
+          "answers": [
+            "double",
+            "single",
+            "circular"
+          ],
+          "score": 0.014142036437988281
+        },
+        {
+          "question": "what is the position of the dog's head on the bed?",
+          "answers": [
+            "resting",
+            "laying",
+            "curled up"
+          ],
+          "score": 0.011194705963134766
+        },
+        {
+          "question": "what is the position of the dog's head on the bed?",
+          "answers": [
+            "resting",
+            "laying",
+            "curled up"
+          ],
+          "score": 0.011194705963134766,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the window in front of which the dog is resting?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.05073976516723633
+        },
+        {
+          "question": "what is the color of the dog's collar?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.10860586166381836
+        },
+        {
+          "question": "what is the color of the window in front of which the dog is resting?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.05073976516723633,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "curtains",
+            "lamps",
+            "windows"
+          ],
+          "score": 0.057971954345703125
+        },
+        {
+          "question": "what color are the curtains in the room?",
+          "answers": [
+            "white",
+            "patterned",
+            "blue"
+          ],
+          "score": 0.04227638244628906
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a brown and white dog wearing a black collar is laying on a cotton bed in front of a window",
+      "question": "what is the color of the window?",
+      "answer": "white",
+      "query_after": "a brown and white dog wearing a black collar is laying on a cotton bed in front of a white window",
+      "displayed_ids": [
+        33511,
+        48348,
+        12494,
+        27018,
+        3704,
+        2690,
+        46815,
+        3253,
+        40970,
+        34832
+      ],
+      "selected_ids": [
+        682,
+        43498,
+        24337,
+        38195,
+        29011,
+        2787,
+        47564,
+        14977,
+        23265,
+        5776
+      ],
+      "rejected_count": 18,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "lamp",
+            "window",
+            "pillow"
+          ],
+          "score": 0.032544612884521484
+        },
+        {
+          "question": "what is the position of the two cats in the image with the brown and white dog?",
+          "answers": [
+            "laying on a bed",
+            "laying on a couch",
+            "sitting on a couch"
+          ],
+          "score": 0.039739131927490234
+        },
+        {
+          "question": "what is the name of the dog?",
+          "answers": [
+            "Buddy",
+            "Max",
+            "Cooper"
+          ],
+          "score": 0.005053043365478516
+        },
+        {
+          "question": "what is the color of the blanket wrapped around the bed?",
+          "answers": [
+            "black",
+            "blue",
+            "green"
+          ],
+          "score": 0.03928089141845703
+        },
+        {
+          "question": "What is the color of the blanket wrapped around the bed where the dog is resting?",
+          "answers": [
+            "white",
+            "tan",
+            "brown"
+          ],
+          "score": 0.007494449615478516
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the window in the room where the dog is resting?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.03787517547607422
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "windows",
+            "bed",
+            "blanket"
+          ],
+          "score": 0.014574527740478516
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "windows",
+            "bed",
+            "blanket"
+          ],
+          "score": 0.014574527740478516,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the window?",
+          "answers": [
+            "white",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.04735231399536133
+        },
+        {
+          "question": "what is the color of the window in the room where the dog is resting?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.03787517547607422,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a brown and white dog wearing a black collar is laying on a cotton bed in front of a white window",
+      "question": "What is the breed of the dog?",
+      "answer": "unsure",
+      "query_after": "A brown and white dog with a black collar is lying on a cotton bed positioned in front of a white window.",
+      "displayed_ids": [
+        33511,
+        27018,
+        12494,
+        48348,
+        3253,
+        2690,
+        3704,
+        27396,
+        20747,
+        27300
+      ],
+      "selected_ids": [
+        47564,
+        38195,
+        24867,
+        18451,
+        2787,
+        24337,
+        19270,
+        43498,
+        18937
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what is the object the dog is interacting with while laying on the bed?",
+          "answers": [
+            "stuffed animal",
+            "carrot",
+            "none"
+          ],
+          "score": 0.037027835845947266
+        },
+        {
+          "question": "what is the object the dog is interacting with while laying on the bed?",
+          "answers": [
+            "stuffed animal",
+            "carrot",
+            "none"
+          ],
+          "score": 0.037027835845947266,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the object the dog is interacting with while laying on the bed?",
+          "answers": [
+            "stuffed animal",
+            "carrot",
+            "none"
+          ],
+          "score": 0.037027835845947266,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color are the sheets on the bed where the dog is resting?",
+          "answers": [
+            "white",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.03662681579589844
+        },
+        {
+          "question": "What is the breed of the dog?",
+          "answers": [
+            "Golden Retriever",
+            "French Bulldog",
+            "Beagle"
+          ],
+          "score": 0.06124067306518555
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the pillow on the dog's bed?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.0068187713623046875
+        },
+        {
+          "question": "what is the color of the pillow on the dog's bed?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.0068187713623046875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the pillow on the dog's bed?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.0068187713623046875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the dog's collar?",
+          "answers": [
+            "black",
+            "brown",
+            "blue"
+          ],
+          "score": 0.019475936889648438
+        },
+        {
+          "question": "what is the color of the pillow on the dog's bed?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.0068187713623046875,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "A brown and white dog with a black collar is lying on a cotton bed positioned in front of a white window.",
+      "question": "what is the color of the dog's eye?",
+      "answer": "brown",
+      "query_after": "a brown and white dog with brown eyes and a black collar is laying on a cotton bed in front of a white window",
+      "displayed_ids": [
+        33511,
+        27018,
+        12494,
+        48348,
+        3253,
+        27396,
+        2690,
+        3704,
+        20747,
+        19406
+      ],
+      "selected_ids": [
+        2787,
+        8587,
+        17434,
+        47564,
+        39465,
+        49046,
+        38195,
+        43498
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what is the color of the blanket on the bed where the dog is resting?",
+          "answers": [
+            "white",
+            "tan",
+            "brown"
+          ],
+          "score": 0.009888648986816406
+        },
+        {
+          "question": "what is the color of the blanket on the bed where the dog is resting?",
+          "answers": [
+            "white",
+            "tan",
+            "brown"
+          ],
+          "score": 0.009888648986816406,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the blanket on the bed where the dog is resting?",
+          "answers": [
+            "white",
+            "tan",
+            "brown"
+          ],
+          "score": 0.009888648986816406,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the blanket on the bed where the dog is resting?",
+          "answers": [
+            "white",
+            "tan",
+            "brown"
+          ],
+          "score": 0.009888648986816406,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the blanket on the bed where the dog is resting?",
+          "answers": [
+            "white",
+            "tan",
+            "brown"
+          ],
+          "score": 0.009888648986816406,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the blanket on the bed where the dog is resting?",
+          "answers": [
+            "white",
+            "tan",
+            "brown"
+          ],
+          "score": 0.009888648986816406
+        },
+        {
+          "question": "what is the color of the blanket on the bed where the dog is resting?",
+          "answers": [
+            "white",
+            "tan",
+            "brown"
+          ],
+          "score": 0.009888648986816406,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the blanket on the bed where the dog is resting?",
+          "answers": [
+            "white",
+            "tan",
+            "brown"
+          ],
+          "score": 0.009888648986816406,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the dog's eye?",
+          "answers": [
+            "black",
+            "brown",
+            "blue"
+          ],
+          "score": 0.01608753204345703
+        },
+        {
+          "question": "what is the color of the window frame?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.008279800415039062
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a brown and white dog with brown eyes and a black collar is laying on a cotton bed in front of a white window",
+      "question": "what is the color of the sheets on the bed where the dog is resting?",
+      "answer": "white",
+      "query_after": "a brown and white dog with brown eyes and a black collar is laying on white cotton sheets in front of a white window",
+      "displayed_ids": [
+        33511,
+        12494,
+        3253,
+        48348,
+        27018,
+        3704,
+        39849,
+        27300,
+        27396,
+        46815
+      ],
+      "selected_ids": [
+        22668,
+        8928,
+        47564,
+        20747,
+        20741,
+        38195,
+        33753,
+        2787,
+        35869,
+        24337
+      ],
+      "rejected_count": 21,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "lamp",
+            "pillow",
+            "blanket"
+          ],
+          "score": 0.03381919860839844
+        },
+        {
+          "question": "what is the material of the window in front of the dog's bed?",
+          "answers": [
+            "white",
+            "empty",
+            "green"
+          ],
+          "score": 0.02527904510498047
+        },
+        {
+          "question": "what is the object located in front of the dog's bed?",
+          "answers": [
+            "window",
+            "curtain",
+            "wall"
+          ],
+          "score": 0.014328956604003906
+        },
+        {
+          "question": "what is the material of the window in front of the dog's bed?",
+          "answers": [
+            "white",
+            "empty",
+            "green"
+          ],
+          "score": 0.02527904510498047,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the view seen through the window in front of the dog's bed?",
+          "answers": [
+            "a view of a window",
+            "a view of a sink",
+            "a view of a room"
+          ],
+          "score": 0.02168560028076172
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the sheets on the bed where the dog is resting?",
+          "answers": [
+            "white",
+            "blue",
+            "gray"
+          ],
+          "score": 0.04489898681640625
+        },
+        {
+          "question": "what is the color of the sheets on the bed where the dog is resting?",
+          "answers": [
+            "white",
+            "blue",
+            "gray"
+          ],
+          "score": 0.04489898681640625,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the window frame?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.002803325653076172
+        },
+        {
+          "question": "what is the color of the window frame?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.002803325653076172,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the window frame?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.002803325653076172,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a brown and white dog with brown eyes and a black collar is laying on white cotton sheets in front of a white window",
+      "question": "what is the breed of the brown and white dog resting on the white cotton bed?",
+      "answer": "jack russell",
+      "query_after": "a brown and white Jack Russell dog with brown eyes and a black collar is laying on a white cotton bed with white sheets in front of a white window",
+      "displayed_ids": [
+        33511,
+        3253,
+        12494,
+        18142,
+        48348,
+        44642,
+        10537,
+        13453,
+        8234,
+        30913
+      ],
+      "selected_ids": [
+        8587,
+        2787,
+        734,
+        35869,
+        28581,
+        8644,
+        47564,
+        20741,
+        48228,
+        19678
+      ],
+      "rejected_count": 27,
+      "usual_paths": [
+        {
+          "question": "what is the color of the dog's tail?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.0020837783813476562
+        },
+        {
+          "question": "what is the color of the bed where the brown and white dog is resting?",
+          "answers": [
+            "white",
+            "tan",
+            "brown"
+          ],
+          "score": 0.005532264709472656
+        },
+        {
+          "question": "what is the breed of the brown and white dog resting on the white cotton bed?",
+          "answers": [
+            "chow chow",
+            "labrador",
+            "sheepdog"
+          ],
+          "score": 0.036800384521484375
+        },
+        {
+          "question": "what is the color of the dog's tail?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.0020837783813476562,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the dog's nose?",
+          "answers": [
+            "black",
+            "brown"
+          ],
+          "score": 0.002208232879638672
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the time of day depicted in the image?",
+          "answers": [
+            "daytime",
+            "evening",
+            "night"
+          ],
+          "score": 0.009383678436279297
+        },
+        {
+          "question": "what is the color of the wall behind the dog and bed?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.004292488098144531
+        },
+        {
+          "question": "what is the color of the window frame?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.002338886260986328
+        },
+        {
+          "question": "what color is the window frame?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.005270481109619141
+        },
+        {
+          "question": "what is the color of the window frame?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.002338886260986328,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a brown and white Jack Russell dog with brown eyes and a black collar is laying on a white cotton bed with white sheets in front of a white window",
+      "question": "what is the object the dog is chewing on?",
+      "answer": "nothing",
+      "query_after": "a brown and white Jack Russell dog with brown eyes and a black collar is laying on a white cotton bed with white sheets, chewing on nothing, in front of a white window",
+      "displayed_ids": [
+        33511,
+        40752,
+        12494,
+        3253,
+        16911,
+        27396,
+        48348,
+        39849,
+        30913,
+        10460
+      ],
+      "selected_ids": [
+        20741,
+        846,
+        49070,
+        36071,
+        40617,
+        8928,
+        24337,
+        31271,
+        40959,
+        6101
+      ],
+      "rejected_count": 30,
+      "usual_paths": [
+        {
+          "question": "what is the object the dog is chewing on?",
+          "answers": [
+            "carrot",
+            "bone",
+            "toy"
+          ],
+          "score": 0.022922515869140625
+        },
+        {
+          "question": "what is the object the dog is chewing on?",
+          "answers": [
+            "carrot",
+            "bone",
+            "toy"
+          ],
+          "score": 0.022922515869140625,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the carrot the dog is chewing on?",
+          "answers": [
+            "orange",
+            "red",
+            "yellow"
+          ],
+          "score": 0.013158798217773438
+        },
+        {
+          "question": "what is the object the dog is chewing on?",
+          "answers": [
+            "carrot",
+            "bone",
+            "toy"
+          ],
+          "score": 0.022922515869140625,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the direction the dog is facing on the bed?",
+          "answers": [
+            "left",
+            "right",
+            "forward"
+          ],
+          "score": 0.0009441375732421875
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the window frame?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.004760265350341797
+        },
+        {
+          "question": "what is the color of the pillow on the bed?",
+          "answers": [
+            "white",
+            "light colored",
+            "beige"
+          ],
+          "score": 0.0036406517028808594
+        },
+        {
+          "question": "what color is the pillow on the bed where the dog is resting?",
+          "answers": [
+            "white",
+            "light colored",
+            "beige"
+          ],
+          "score": 0.004298686981201172
+        },
+        {
+          "question": "what is the color of the window frame in front of the dog?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.008353710174560547
+        },
+        {
+          "question": "what is the color of the window frame?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.004760265350341797,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "a brown and white Jack Russell dog with brown eyes and a black collar is laying on a white cotton bed with white sheets, chewing on nothing, in front of a white window",
+      "question": "what is the location of the dog's bed?",
+      "answer": "window",
+      "query_after": "a brown and white Jack Russell dog with brown eyes and a black collar is laying on a white cotton bed with white sheets, positioned in front of a white window, chewing on nothing",
+      "displayed_ids": [
+        33511,
+        40752,
+        3253,
+        30913,
+        27396,
+        3704,
+        44642,
+        12494,
+        10537,
+        48348
+      ],
+      "selected_ids": [
+        24337,
+        3253,
+        31116,
+        24850,
+        20747,
+        13693,
+        19518,
+        44540,
+        39033,
+        40752
+      ],
+      "rejected_count": 30,
+      "usual_paths": [
+        {
+          "question": "where is the dog's bed located?",
+          "answers": [
+            "on a bed",
+            "on a mattress",
+            "on the deck"
+          ],
+          "score": 0.013781070709228516
+        },
+        {
+          "question": "what is the location of the dog's bed?",
+          "answers": [
+            "on a bed",
+            "on a chair",
+            "on a deck"
+          ],
+          "score": 0.023387908935546875
+        },
+        {
+          "question": "what is the location of the dog's bed?",
+          "answers": [
+            "on a bed",
+            "on a chair",
+            "on a deck"
+          ],
+          "score": 0.023387908935546875,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the location of the dog's bed?",
+          "answers": [
+            "on a bed",
+            "on a chair",
+            "on a deck"
+          ],
+          "score": 0.023387908935546875,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the location of the dog's bed?",
+          "answers": [
+            "on a bed",
+            "on a chair",
+            "on a deck"
+          ],
+          "score": 0.023387908935546875,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the frame of the window behind the dog?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.007391452789306641
+        },
+        {
+          "question": "what is the color of the window frame?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.007529735565185547
+        },
+        {
+          "question": "what is the color of the window frame?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.007529735565185547,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the window frame?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.007529735565185547,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the window frame?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.007529735565185547,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

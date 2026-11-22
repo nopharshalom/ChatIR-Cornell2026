@@ -1,0 +1,81 @@
+{
+  "qid": 1473,
+  "candidates": [
+    "Question: What is the color of the umbrella the woman is holding?",
+    "Question: What is the surface the woman is standing on?",
+    "Question: What color is the umbrella the woman is holding?",
+    "Question: What is the surface the woman is standing on?",
+    "Question: What is the color of the umbrella the woman is holding?"
+  ],
+  "kl": {
+    "question": "Question: What is the color of the umbrella the woman is holding?",
+    "answer": "Red",
+    "rewrite": "a woman crossing the street holding a red umbrella in the rain",
+    "raw_rank": 6,
+    "unseen_rank": 3
+  },
+  "probe": {
+    "answer": "Red.",
+    "rewrite": "a woman crossing the street holding a red umbrella in the rain",
+    "raw_rank": 6,
+    "unseen_rank": 3,
+    "question": "Question: What color is the umbrella the woman is holding?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the color of the umbrella the woman is holding?",
+        "answers": [
+          "red",
+          "blue",
+          "black and white"
+        ],
+        "score": 0.14464759826660156
+      },
+      {
+        "question": "Question: What is the surface the woman is standing on?",
+        "answers": [
+          "asphalt",
+          "brick",
+          "crosswalk"
+        ],
+        "score": 0.0388178825378418
+      },
+      {
+        "question": "Question: What color is the umbrella the woman is holding?",
+        "answers": [
+          "red",
+          "blue",
+          "black and white"
+        ],
+        "score": 0.15749788284301758
+      },
+      {
+        "question": "Question: What is the surface the woman is standing on?",
+        "answers": [
+          "asphalt",
+          "brick",
+          "crosswalk"
+        ],
+        "score": 0.0388178825378418,
+        "duplicate_of": 1
+      },
+      {
+        "question": "Question: What is the color of the umbrella the woman is holding?",
+        "answers": [
+          "red",
+          "blue",
+          "black and white"
+        ],
+        "score": 0.14464759826660156,
+        "duplicate_of": 0
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.06,
+    "probe_selection_seconds": 1.441,
+    "probe_llm_calls": 3,
+    "probe_search_queries": 9
+  },
+  "reused_outcome": false
+}

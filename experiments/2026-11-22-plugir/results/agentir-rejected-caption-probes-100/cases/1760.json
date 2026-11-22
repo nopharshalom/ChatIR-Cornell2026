@@ -1,0 +1,79 @@
+{
+  "qid": 1760,
+  "candidates": [
+    "Question: What specific fruit is visible next to the sandwich?",
+    "Question: What color is the plate holding the sandwich and fruit?",
+    "Question: What type of sandwich is shown on the plate?",
+    "Question: What is the color of the plate holding the sandwich and fruit?",
+    "Question: What type of fruit is visible next to the sandwich?"
+  ],
+  "kl": {
+    "question": "Question: What type of sandwich is shown on the plate?",
+    "answer": "fish",
+    "rewrite": "two halves of a fish sandwich sit on a plate near a piece of fruit",
+    "raw_rank": 2,
+    "unseen_rank": 1
+  },
+  "probe": {
+    "answer": "white",
+    "rewrite": "the halves of a sandwich sit on a white plate near a piece of fruit",
+    "raw_rank": 8,
+    "unseen_rank": 1,
+    "question": "Question: What is the color of the plate holding the sandwich and fruit?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What specific fruit is visible next to the sandwich?",
+        "answers": [
+          "apple",
+          "banana",
+          "pear"
+        ],
+        "score": 0.03361940383911133
+      },
+      {
+        "question": "Question: What color is the plate holding the sandwich and fruit?",
+        "answers": [
+          "white",
+          "blue",
+          "green"
+        ],
+        "score": 0.04359626770019531
+      },
+      {
+        "question": "Question: What type of sandwich is shown on the plate?",
+        "answers": [
+          "chicken sandwich",
+          "meat sandwich",
+          "french fry and sandwich"
+        ],
+        "score": 0.03279733657836914
+      },
+      {
+        "question": "Question: What is the color of the plate holding the sandwich and fruit?",
+        "answers": [
+          "white",
+          "blue",
+          "green"
+        ],
+        "score": 0.09642314910888672
+      },
+      {
+        "question": "Question: What type of fruit is visible next to the sandwich?",
+        "answers": [
+          "banana",
+          "apple",
+          "grapes"
+        ],
+        "score": 0.05289649963378906
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.055,
+    "probe_selection_seconds": 2.451,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": false
+}

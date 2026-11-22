@@ -1,0 +1,78 @@
+{
+  "qid": 1633,
+  "sample": 1,
+  "first_candidates": [
+    "Question: What is the color of the parked plane on the tarmac?",
+    "Question: What is the color of the parked plane on the tarmac?",
+    "what is the specific airline or livery (e.g., blue/red, white/red, lufthansa) of the parked plane on the tarmac?",
+    "Question: Which specific airline does the parked plane on the tarmac belong to?",
+    "Question: Which specific airline does the parked plane on the tarmac belong to?"
+  ],
+  "second_candidates": [
+    "what is the color scheme of the parked plane on the tarmac?",
+    "what is the specific airline or logo visible on the parked plane on the tarmac?",
+    "what is the specific color scheme of the plane that is parked on the tarmac?",
+    "Question: What is the specific airline associated with one of the parked planes on the tarmac?",
+    "Question: What is the specific airline associated with the parked plane on the tarmac?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color scheme of the parked plane on the tarmac?",
+      "answers": [
+        "blue and red",
+        "red and white",
+        "blue and white"
+      ],
+      "score": 0.1741619110107422
+    },
+    {
+      "question": "what is the specific airline or logo visible on the parked plane on the tarmac?",
+      "answers": [
+        "Lufthansa",
+        "Delta",
+        "United"
+      ],
+      "score": 0.11772775650024414
+    },
+    {
+      "question": "what is the specific color scheme of the plane that is parked on the tarmac?",
+      "answers": [
+        "blue and red",
+        "white and red",
+        "blue and white"
+      ],
+      "score": 0.19262027740478516
+    },
+    {
+      "question": "Question: What is the specific airline associated with one of the parked planes on the tarmac?",
+      "answers": [
+        "Lufthansa",
+        "Air Force",
+        "Unknown"
+      ],
+      "score": 0.10718965530395508
+    },
+    {
+      "question": "Question: What is the specific airline associated with the parked plane on the tarmac?",
+      "answers": [
+        "Lufthansa",
+        "Air Force",
+        "Unknown"
+      ],
+      "score": 0.07111549377441406
+    }
+  ],
+  "control": {
+    "question": "what is the specific color scheme of the plane that is parked on the tarmac?",
+    "score": 0.19262027740478516
+  },
+  "mixed": {
+    "question": "Question: What is the primary color of the plane?",
+    "score": 0.23210382461547852
+  },
+  "control_rank": 105,
+  "mixed_rank": 132,
+  "usual_rank": 132,
+  "new_answer": "white and red",
+  "new_rewrite": "a white and red plane is parked on the tarmac"
+}

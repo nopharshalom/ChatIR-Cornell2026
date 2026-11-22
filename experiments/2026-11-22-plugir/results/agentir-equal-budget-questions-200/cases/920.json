@@ -1,0 +1,78 @@
+{
+  "qid": 920,
+  "sample": 1,
+  "first_candidates": [
+    "what is the other object in the image?",
+    "Question: Is there a huge bus visible in the city street?",
+    "Question: Which specific location is the city street depicted in?",
+    "Question: Is there a huge bus visible in the city street?",
+    "Question: Is there a huge bus visible in the city street?"
+  ],
+  "second_candidates": [
+    "Question: What vehicles are visible on the city street?",
+    "Question: Question: What is the condition of the traffic on the city street?",
+    "Question: What is the lighting condition of the city street?",
+    "what is the lighting condition of the city street?",
+    "what is the color of the traffic light visible on the city street?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What vehicles are visible on the city street?",
+      "answers": [
+        "cars",
+        "buses",
+        "taxis"
+      ],
+      "score": 0.10172605514526367
+    },
+    {
+      "question": "Question: Question: What is the condition of the traffic on the city street?",
+      "answers": [
+        "heavy",
+        "light",
+        "moderate"
+      ],
+      "score": 0.05753803253173828
+    },
+    {
+      "question": "Question: What is the lighting condition of the city street?",
+      "answers": [
+        "daytime",
+        "night",
+        "dusk"
+      ],
+      "score": 0.05079936981201172
+    },
+    {
+      "question": "what is the lighting condition of the city street?",
+      "answers": [
+        "daytime",
+        "sunny",
+        "clear"
+      ],
+      "score": 0.012969017028808594
+    },
+    {
+      "question": "what is the color of the traffic light visible on the city street?",
+      "answers": [
+        "red",
+        "green",
+        "yellow"
+      ],
+      "score": 0.09656047821044922
+    }
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "score": 0.25351381301879883
+  },
+  "mixed": {
+    "question": "what is the other object in the image?",
+    "score": 0.25351381301879883
+  },
+  "control_rank": 1583,
+  "mixed_rank": 1583,
+  "usual_rank": 1583,
+  "new_answer": null,
+  "new_rewrite": null
+}

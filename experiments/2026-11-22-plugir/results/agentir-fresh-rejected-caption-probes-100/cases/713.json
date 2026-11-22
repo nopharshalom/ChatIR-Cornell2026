@@ -1,0 +1,178 @@
+{
+  "qid": 713,
+  "initial": "the red and yellow buses are on the sidewalk by a busy street",
+  "initial_rank": 23,
+  "displayed": [
+    2718,
+    33896,
+    38783,
+    21277,
+    172,
+    7864,
+    9301,
+    41230,
+    26276,
+    17497
+  ],
+  "evidence": [
+    "a red double decker bus sitting in the middle of an intersection",
+    "a red double deck bus traveling down a street",
+    "a red bus with people standing inside",
+    "two red double decker buses are parked side by side",
+    "yellow bus with a green and yellow",
+    "the red double decker bus is in motion",
+    "the car has a yellow door",
+    "a red double decker bus with a clock tower",
+    "a yellow train sitting on the tracks at a train station",
+    "the white and blue buses are white"
+  ],
+  "rejected_captions": [
+    "the yellow and red double decker bus",
+    "yellow and black bus",
+    "a bus traveling down a city street",
+    "a red double decker bus is traveling at a traffic light",
+    "a pair of red double decker buses driving down a street",
+    "buses on the street",
+    "bus is on street",
+    "a yellow bus is driving down a city street",
+    "two people standing on the side of the road",
+    "an art gallery is next to the city"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the color of the double decker bus on the sidewalk?",
+      "what is the color of the double decker bus on the sidewalk?",
+      "what is the color of the bus that is in motion?",
+      "what is the color of the bus that is sitting in the middle of an intersection?",
+      "Based on the provided information sources, here is the generated question:\n\n**Question:** What is the color of the bus with a clock tower?"
+    ],
+    "question": "Based on the provided information sources, here is the generated question:\n\n**Question:** What is the color of the bus with a clock tower?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the double decker bus on the sidewalk?",
+          "answers": [
+            "red",
+            "yellow",
+            "red and yellow"
+          ],
+          "score": 0.008344173431396484
+        },
+        {
+          "question": "what is the color of the double decker bus on the sidewalk?",
+          "answers": [
+            "red",
+            "yellow",
+            "red and yellow"
+          ],
+          "score": 0.008344173431396484,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bus that is in motion?",
+          "answers": [
+            "red",
+            "yellow",
+            "unknown"
+          ],
+          "score": 0.020511627197265625
+        },
+        {
+          "question": "what is the color of the bus that is sitting in the middle of an intersection?",
+          "answers": [
+            "red",
+            "yellow",
+            "red and yellow"
+          ],
+          "score": 0.01871204376220703
+        },
+        {
+          "question": "Based on the provided information sources, here is the generated question:\n\n**Question:** What is the color of the bus with a clock tower?",
+          "answers": [
+            "red",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.03670644760131836
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.072,
+      "probe_selection_seconds": 1.95,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "I'm not sure.",
+    "rewrite": "the red and yellow buses are on the sidewalk by a busy street, with one bus featuring a clock tower",
+    "raw_rank": 33,
+    "unseen_rank": 24
+  },
+  "rejected": {
+    "candidates": [
+      "Question: Are the buses double-decker?",
+      "Question: Are there people visible inside the buses?",
+      "Question: What is the color of the double-decker bus?",
+      "Question: Is the red and yellow bus sitting or in motion?",
+      "Question: Are there clock towers visible in the background of the red and yellow buses?"
+    ],
+    "question": "Question: What is the color of the double-decker bus?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: Are the buses double-decker?",
+          "answers": [
+            "yes",
+            "no",
+            "not sure"
+          ],
+          "score": 0.0008521080017089844
+        },
+        {
+          "question": "Question: Are there people visible inside the buses?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.00074005126953125
+        },
+        {
+          "question": "Question: What is the color of the double-decker bus?",
+          "answers": [
+            "red",
+            "yellow",
+            "red double decker"
+          ],
+          "score": 0.01633930206298828
+        },
+        {
+          "question": "Question: Is the red and yellow bus sitting or in motion?",
+          "answers": [
+            "sitting",
+            "in motion",
+            "moving"
+          ],
+          "score": 0.0051727294921875
+        },
+        {
+          "question": "Question: Are there clock towers visible in the background of the red and yellow buses?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.004111766815185547
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.076,
+      "probe_selection_seconds": 2.441,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "red",
+    "rewrite": "a red double-decker bus is on the sidewalk by a busy street",
+    "raw_rank": 353,
+    "unseen_rank": 343
+  }
+}

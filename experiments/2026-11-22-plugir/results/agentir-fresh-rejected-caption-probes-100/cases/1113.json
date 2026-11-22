@@ -1,0 +1,179 @@
+{
+  "qid": 1113,
+  "initial": "a table is filled with assorted fruit and bowls",
+  "initial_rank": 71,
+  "displayed": [
+    18335,
+    19967,
+    5921,
+    14247,
+    36151,
+    45012,
+    26639,
+    35688,
+    41550,
+    18745
+  ],
+  "evidence": [
+    "an oven filled with apples and bananas",
+    "a table with several food choices for a dinner party",
+    "a table of plates of food and utensils",
+    "three oranges, a kiwi, a cherry, a nectarine and a grape",
+    "a market where some different vegetables are sold",
+    "a man is outside at a fruit stand",
+    "pile of ripe bananas, oranges and apples",
+    "bowl with some oranges and an orange flower",
+    "a stand selling lots of fresh vegetables",
+    "the dining table has a cup of tea and a plate of food on it"
+  ],
+  "rejected_captions": [
+    "a tray of fruit and pastries",
+    "a bucket of fruit on a table",
+    "a glass dish with fruit on it",
+    "an orange bowl",
+    "a lot of bowls filled with different kinds of food and snacks",
+    "the table of food arranged with many different types of food",
+    "a plate topped with vegetables and fruit",
+    "several pieces of fruit in bowls",
+    "a circular table with several different types of food on it",
+    "the fruits are on a white platter"
+  ],
+  "usual": {
+    "candidates": [
+      "Question: Are there bananas on the table?",
+      "Question: Do the items on the table include vegetables?",
+      "Question: Which specific fruit items are present on the table?",
+      "Question: Is there a cup of tea on the table besides the fruit?",
+      "Question: Question: What is the color of the fruit bowl on the table?"
+    ],
+    "question": "Question: Which specific fruit items are present on the table?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: Are there bananas on the table?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0019431114196777344
+        },
+        {
+          "question": "Question: Do the items on the table include vegetables?",
+          "answers": [
+            "Yes",
+            "No",
+            "Some"
+          ],
+          "score": 0.0022821426391601562
+        },
+        {
+          "question": "Question: Which specific fruit items are present on the table?",
+          "answers": [
+            "apples and bananas",
+            "oranges and bananas",
+            "oranges and kiwi"
+          ],
+          "score": 0.08141040802001953
+        },
+        {
+          "question": "Question: Is there a cup of tea on the table besides the fruit?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0013232231140136719
+        },
+        {
+          "question": "Question: Question: What is the color of the fruit bowl on the table?",
+          "answers": [
+            "Red",
+            "Green",
+            "Yellow"
+          ],
+          "score": 0.04883718490600586
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.093,
+      "probe_selection_seconds": 2.428,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "Apples and oranges.",
+    "rewrite": "a table is filled with assorted fruit, specifically apples and oranges, along with bowls",
+    "raw_rank": 27,
+    "unseen_rank": 23
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What specific fruits are visible on the table?",
+      "Question: Is there a cup of tea on the table?",
+      "Question: Is there a cup of tea on the table?",
+      "Question: Is there a cup of tea on the table?",
+      "Question: Which specific types of fruit are visible on the table?"
+    ],
+    "question": "Question: What specific fruits are visible on the table?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What specific fruits are visible on the table?",
+          "answers": [
+            "Apples",
+            "Bananas",
+            "Oranges"
+          ],
+          "score": 0.13360977172851562
+        },
+        {
+          "question": "Question: Is there a cup of tea on the table?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0015478134155273438
+        },
+        {
+          "question": "Question: Is there a cup of tea on the table?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0015478134155273438,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: Is there a cup of tea on the table?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0015478134155273438,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: Which specific types of fruit are visible on the table?",
+          "answers": [
+            "apples",
+            "oranges",
+            "bananas"
+          ],
+          "score": 0.11900186538696289
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.065,
+      "probe_selection_seconds": 1.408,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "Apples and oranges.",
+    "rewrite": "a table is filled with assorted fruit, specifically apples and oranges, along with bowls",
+    "raw_rank": 27,
+    "unseen_rank": 23
+  }
+}

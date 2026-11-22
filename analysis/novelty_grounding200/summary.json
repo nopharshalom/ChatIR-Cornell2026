@@ -1,0 +1,580 @@
+{
+  "vanilla": {
+    "completed": 200,
+    "rounds": {
+      "0": {
+        "hits": 138,
+        "percent": 69.0,
+        "delta_pp": 0.0,
+        "gained": [],
+        "lost": []
+      },
+      "1": {
+        "hits": 151,
+        "percent": 75.5,
+        "delta_pp": 0.0,
+        "gained": [],
+        "lost": []
+      },
+      "2": {
+        "hits": 158,
+        "percent": 79.0,
+        "delta_pp": 0.0,
+        "gained": [],
+        "lost": []
+      },
+      "5": {
+        "hits": 177,
+        "percent": 88.5,
+        "delta_pp": 0.0,
+        "gained": [],
+        "lost": []
+      },
+      "10": {
+        "hits": 187,
+        "percent": 93.5,
+        "delta_pp": 0.0,
+        "gained": [],
+        "lost": []
+      }
+    },
+    "diagnostics": {
+      "turns": 305,
+      "repeated_questions": 52,
+      "generic_other_object_questions": 72,
+      "unchanged_queries": 0,
+      "query_words": 5608,
+      "llm_calls": 5838
+    },
+    "minutes": 74.9037666666667,
+    "repeated_answer_trigger_cases": [
+      {
+        "qid": 56,
+        "after_round": 2,
+        "eventual_hit": false
+      },
+      {
+        "qid": 176,
+        "after_round": 3,
+        "eventual_hit": true
+      },
+      {
+        "qid": 297,
+        "after_round": 6,
+        "eventual_hit": true
+      },
+      {
+        "qid": 454,
+        "after_round": 8,
+        "eventual_hit": false
+      },
+      {
+        "qid": 526,
+        "after_round": 2,
+        "eventual_hit": true
+      },
+      {
+        "qid": 532,
+        "after_round": 3,
+        "eventual_hit": true
+      },
+      {
+        "qid": 675,
+        "after_round": 9,
+        "eventual_hit": false
+      },
+      {
+        "qid": 858,
+        "after_round": 7,
+        "eventual_hit": true
+      },
+      {
+        "qid": 955,
+        "after_round": 8,
+        "eventual_hit": false
+      },
+      {
+        "qid": 1169,
+        "after_round": 5,
+        "eventual_hit": false
+      },
+      {
+        "qid": 1579,
+        "after_round": 2,
+        "eventual_hit": false
+      },
+      {
+        "qid": 1731,
+        "after_round": 4,
+        "eventual_hit": true
+      },
+      {
+        "qid": 1772,
+        "after_round": 2,
+        "eventual_hit": true
+      },
+      {
+        "qid": 1820,
+        "after_round": 2,
+        "eventual_hit": true
+      },
+      {
+        "qid": 2029,
+        "after_round": 5,
+        "eventual_hit": false
+      },
+      {
+        "qid": 2057,
+        "after_round": 3,
+        "eventual_hit": true
+      }
+    ],
+    "discordant": []
+  },
+  "novelty": {
+    "completed": 200,
+    "rounds": {
+      "0": {
+        "hits": 138,
+        "percent": 69.0,
+        "delta_pp": 0.0,
+        "gained": [],
+        "lost": []
+      },
+      "1": {
+        "hits": 153,
+        "percent": 76.5,
+        "delta_pp": 1.0,
+        "gained": [
+          93,
+          176,
+          1969
+        ],
+        "lost": [
+          2019
+        ]
+      },
+      "2": {
+        "hits": 159,
+        "percent": 79.5,
+        "delta_pp": 0.5,
+        "gained": [
+          93,
+          176,
+          332,
+          541,
+          1772
+        ],
+        "lost": [
+          518,
+          926,
+          1676,
+          2019
+        ]
+      },
+      "5": {
+        "hits": 173,
+        "percent": 86.5,
+        "delta_pp": -2.0,
+        "gained": [
+          273,
+          541,
+          858,
+          1894,
+          1906,
+          2029
+        ],
+        "lost": [
+          69,
+          573,
+          748,
+          896,
+          926,
+          1091,
+          1676,
+          1820,
+          2019,
+          2057
+        ]
+      },
+      "10": {
+        "hits": 179,
+        "percent": 89.5,
+        "delta_pp": -4.0,
+        "gained": [
+          955,
+          1894,
+          2029
+        ],
+        "lost": [
+          35,
+          69,
+          297,
+          532,
+          573,
+          748,
+          896,
+          1091,
+          1109,
+          1676,
+          2057
+        ]
+      }
+    },
+    "diagnostics": {
+      "turns": 324,
+      "repeated_questions": 1,
+      "generic_other_object_questions": 19,
+      "unchanged_queries": 0,
+      "query_words": 7017,
+      "llm_calls": 6995,
+      "fallback_turns": 9,
+      "regenerated_turns": 87,
+      "invalid_initial_judgements": 27,
+      "judgements": 427,
+      "invalid_judgements": 33
+    },
+    "minutes": 108.32348333333339,
+    "repeated_answer_trigger_cases": [],
+    "discordant": [
+      {
+        "arm": "novelty",
+        "qid": 35,
+        "outcome": "loss",
+        "first_divergence_round": 5,
+        "invalid_judge_at_divergence": false
+      },
+      {
+        "arm": "novelty",
+        "qid": 69,
+        "outcome": "loss",
+        "first_divergence_round": 2,
+        "invalid_judge_at_divergence": false
+      },
+      {
+        "arm": "novelty",
+        "qid": 297,
+        "outcome": "loss",
+        "first_divergence_round": 1,
+        "invalid_judge_at_divergence": true
+      },
+      {
+        "arm": "novelty",
+        "qid": 532,
+        "outcome": "loss",
+        "first_divergence_round": 2,
+        "invalid_judge_at_divergence": false
+      },
+      {
+        "arm": "novelty",
+        "qid": 573,
+        "outcome": "loss",
+        "first_divergence_round": 2,
+        "invalid_judge_at_divergence": false
+      },
+      {
+        "arm": "novelty",
+        "qid": 748,
+        "outcome": "loss",
+        "first_divergence_round": 1,
+        "invalid_judge_at_divergence": true
+      },
+      {
+        "arm": "novelty",
+        "qid": 896,
+        "outcome": "loss",
+        "first_divergence_round": 2,
+        "invalid_judge_at_divergence": false
+      },
+      {
+        "arm": "novelty",
+        "qid": 955,
+        "outcome": "gain",
+        "first_divergence_round": 1,
+        "invalid_judge_at_divergence": false
+      },
+      {
+        "arm": "novelty",
+        "qid": 1091,
+        "outcome": "loss",
+        "first_divergence_round": 1,
+        "invalid_judge_at_divergence": false
+      },
+      {
+        "arm": "novelty",
+        "qid": 1109,
+        "outcome": "loss",
+        "first_divergence_round": 1,
+        "invalid_judge_at_divergence": false
+      },
+      {
+        "arm": "novelty",
+        "qid": 1676,
+        "outcome": "loss",
+        "first_divergence_round": 1,
+        "invalid_judge_at_divergence": false
+      },
+      {
+        "arm": "novelty",
+        "qid": 1894,
+        "outcome": "gain",
+        "first_divergence_round": 1,
+        "invalid_judge_at_divergence": false
+      },
+      {
+        "arm": "novelty",
+        "qid": 2029,
+        "outcome": "gain",
+        "first_divergence_round": 3,
+        "invalid_judge_at_divergence": false
+      },
+      {
+        "arm": "novelty",
+        "qid": 2057,
+        "outcome": "loss",
+        "first_divergence_round": 2,
+        "invalid_judge_at_divergence": true
+      }
+    ]
+  },
+  "grounded_rewrite": {
+    "completed": 200,
+    "rounds": {
+      "0": {
+        "hits": 138,
+        "percent": 69.0,
+        "delta_pp": 0.0,
+        "gained": [],
+        "lost": []
+      },
+      "1": {
+        "hits": 149,
+        "percent": 74.5,
+        "delta_pp": -1.0,
+        "gained": [],
+        "lost": [
+          508,
+          670
+        ]
+      },
+      "2": {
+        "hits": 162,
+        "percent": 81.0,
+        "delta_pp": 2.0,
+        "gained": [
+          332,
+          494,
+          526,
+          814,
+          1091,
+          1782,
+          1906,
+          2029
+        ],
+        "lost": [
+          670,
+          926,
+          1914,
+          1969
+        ]
+      },
+      "5": {
+        "hits": 173,
+        "percent": 86.5,
+        "delta_pp": -2.0,
+        "gained": [
+          273,
+          1071,
+          1906,
+          2029
+        ],
+        "lost": [
+          69,
+          748,
+          926,
+          1288,
+          1510,
+          1732,
+          1820,
+          2057
+        ]
+      },
+      "10": {
+        "hits": 182,
+        "percent": 91.0,
+        "delta_pp": -2.5,
+        "gained": [
+          955,
+          1169,
+          2029
+        ],
+        "lost": [
+          69,
+          297,
+          532,
+          1109,
+          1288,
+          1510,
+          1820,
+          2057
+        ]
+      }
+    },
+    "diagnostics": {
+      "turns": 330,
+      "repeated_questions": 53,
+      "generic_other_object_questions": 72,
+      "unchanged_queries": 56,
+      "query_words": 6296,
+      "llm_calls": 6554,
+      "fallback_turns": 0
+    },
+    "minutes": 81.34648333333335,
+    "repeated_answer_trigger_cases": [
+      {
+        "qid": 35,
+        "after_round": 6,
+        "eventual_hit": true
+      },
+      {
+        "qid": 56,
+        "after_round": 2,
+        "eventual_hit": false
+      },
+      {
+        "qid": 176,
+        "after_round": 4,
+        "eventual_hit": true
+      },
+      {
+        "qid": 532,
+        "after_round": 6,
+        "eventual_hit": false
+      },
+      {
+        "qid": 541,
+        "after_round": 4,
+        "eventual_hit": true
+      },
+      {
+        "qid": 675,
+        "after_round": 4,
+        "eventual_hit": false
+      },
+      {
+        "qid": 722,
+        "after_round": 7,
+        "eventual_hit": false
+      },
+      {
+        "qid": 853,
+        "after_round": 5,
+        "eventual_hit": false
+      },
+      {
+        "qid": 1579,
+        "after_round": 2,
+        "eventual_hit": false
+      },
+      {
+        "qid": 1731,
+        "after_round": 4,
+        "eventual_hit": true
+      },
+      {
+        "qid": 1732,
+        "after_round": 4,
+        "eventual_hit": true
+      },
+      {
+        "qid": 1772,
+        "after_round": 2,
+        "eventual_hit": true
+      },
+      {
+        "qid": 1820,
+        "after_round": 2,
+        "eventual_hit": false
+      }
+    ],
+    "discordant": [
+      {
+        "arm": "grounded_rewrite",
+        "qid": 69,
+        "outcome": "loss",
+        "first_divergence_round": 2,
+        "invalid_judge_at_divergence": null
+      },
+      {
+        "arm": "grounded_rewrite",
+        "qid": 297,
+        "outcome": "loss",
+        "first_divergence_round": 2,
+        "invalid_judge_at_divergence": null
+      },
+      {
+        "arm": "grounded_rewrite",
+        "qid": 532,
+        "outcome": "loss",
+        "first_divergence_round": 2,
+        "invalid_judge_at_divergence": null
+      },
+      {
+        "arm": "grounded_rewrite",
+        "qid": 955,
+        "outcome": "gain",
+        "first_divergence_round": 1,
+        "invalid_judge_at_divergence": null
+      },
+      {
+        "arm": "grounded_rewrite",
+        "qid": 1109,
+        "outcome": "loss",
+        "first_divergence_round": 4,
+        "invalid_judge_at_divergence": null
+      },
+      {
+        "arm": "grounded_rewrite",
+        "qid": 1169,
+        "outcome": "gain",
+        "first_divergence_round": 1,
+        "invalid_judge_at_divergence": null
+      },
+      {
+        "arm": "grounded_rewrite",
+        "qid": 1288,
+        "outcome": "loss",
+        "first_divergence_round": 1,
+        "invalid_judge_at_divergence": null
+      },
+      {
+        "arm": "grounded_rewrite",
+        "qid": 1510,
+        "outcome": "loss",
+        "first_divergence_round": 1,
+        "invalid_judge_at_divergence": null
+      },
+      {
+        "arm": "grounded_rewrite",
+        "qid": 1820,
+        "outcome": "loss",
+        "first_divergence_round": 2,
+        "invalid_judge_at_divergence": null
+      },
+      {
+        "arm": "grounded_rewrite",
+        "qid": 2029,
+        "outcome": "gain",
+        "first_divergence_round": 1,
+        "invalid_judge_at_divergence": null
+      },
+      {
+        "arm": "grounded_rewrite",
+        "qid": 2057,
+        "outcome": "loss",
+        "first_divergence_round": 1,
+        "invalid_judge_at_divergence": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "qid": 526,
+  "sample": "original",
+  "target": "unlabeled2017/000000106551.jpg",
+  "queries": [
+    "fit young man in nike shirt and gym shorts about to serve in a match of tennis",
+    "a fit young man in a blue Nike shirt and gym shorts about to serve in a tennis match"
+  ],
+  "ranks": [
+    69,
+    8
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "fit young man in nike shirt and gym shorts about to serve in a match of tennis",
+      "question": "what color is the shirt worn by the man about to serve?",
+      "answer": "blue",
+      "query_after": "a fit young man in a blue Nike shirt and gym shorts about to serve in a tennis match",
+      "displayed_ids": [
+        47067,
+        3549,
+        6794,
+        42560,
+        48961,
+        33809,
+        46194,
+        16422,
+        45131,
+        40775
+      ],
+      "selected_ids": [
+        4335,
+        11058,
+        17837,
+        23328,
+        35123,
+        45632,
+        14870,
+        28743,
+        2607,
+        2954
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what color is the shirt worn by the man about to serve?",
+          "answers": [
+            "white",
+            "red",
+            "blue"
+          ],
+          "score": 0.28650331497192383
+        },
+        {
+          "question": "Question: What color are the shorts worn by the man about to serve?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.19212579727172852
+        },
+        {
+          "question": "Question: What color are the shorts worn by the man about to serve?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.19212579727172852,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what color are the shorts worn by the man about to serve?",
+          "answers": [
+            "white",
+            "blue",
+            "orange"
+          ],
+          "score": 0.2821774482727051
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "tennis ball",
+            "net",
+            "racquet"
+          ],
+          "score": 0.014043331146240234
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the shirt worn by the man about to serve?",
+          "answers": [
+            "white",
+            "red",
+            "blue"
+          ],
+          "score": 0.28650331497192383
+        },
+        {
+          "question": "Question: What color are the shorts worn by the man about to serve?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.19212579727172852
+        },
+        {
+          "question": "Question: What color are the shorts worn by the man about to serve?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.19212579727172852,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What color are the shorts worn by the man about to serve?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.19212579727172852,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What color is the shirt worn by the man about to serve?",
+          "answers": [
+            "white",
+            "red",
+            "blue"
+          ],
+          "score": 0.2529473304748535
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

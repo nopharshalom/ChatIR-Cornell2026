@@ -1,0 +1,78 @@
+{
+  "qid": 752,
+  "sample": 2,
+  "first_candidates": [
+    "What is the color of the surfboard the man is riding?",
+    "what is the color of the wetsuit the man is wearing?",
+    "what is the gender of the person surfing on the yellow surfboard?",
+    "what is the other object in the image?",
+    "What is the color of the wave the man is surfing on?"
+  ],
+  "second_candidates": [
+    "what is the color of the man's wetsuit?",
+    "Question: What color is the man's wetsuit?",
+    "what is the color of the man's wetsuit while surfing on a wave?",
+    "what is the color of the surfboard the man is riding?",
+    "what is the color of the surfboard the man is riding on a wave?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the man's wetsuit?",
+      "answers": [
+        "black",
+        "white",
+        "blue"
+      ],
+      "score": 0.0744161605834961
+    },
+    {
+      "question": "Question: What color is the man's wetsuit?",
+      "answers": [
+        "black",
+        "white",
+        "blue"
+      ],
+      "score": 0.052491188049316406
+    },
+    {
+      "question": "what is the color of the man's wetsuit while surfing on a wave?",
+      "answers": [
+        "black",
+        "white",
+        "yellow"
+      ],
+      "score": 0.12648773193359375
+    },
+    {
+      "question": "what is the color of the surfboard the man is riding?",
+      "answers": [
+        "black",
+        "yellow",
+        "white"
+      ],
+      "score": 0.10180997848510742
+    },
+    {
+      "question": "what is the color of the surfboard the man is riding on a wave?",
+      "answers": [
+        "black",
+        "yellow",
+        "white"
+      ],
+      "score": 0.07851409912109375
+    }
+  ],
+  "control": {
+    "question": "what is the color of the man's wetsuit while surfing on a wave?",
+    "score": 0.12648773193359375
+  },
+  "mixed": {
+    "question": "What color is the man's wetsuit or what color is the surfboard?",
+    "score": 0.1115422248840332
+  },
+  "control_rank": 482,
+  "mixed_rank": 9,
+  "usual_rank": 43,
+  "new_answer": "black",
+  "new_rewrite": "a man in a black wetsuit is surfing on a wave in the ocean"
+}

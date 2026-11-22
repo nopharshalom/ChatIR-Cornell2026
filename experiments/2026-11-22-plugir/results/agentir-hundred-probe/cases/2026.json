@@ -1,0 +1,100 @@
+{
+  "qid": 2026,
+  "initial": "the front cab of a long train at a railroad yard",
+  "initial_rank": 125,
+  "evidence": [
+    "the steam engine is red and black",
+    "a yellow and black train is traveling down the tracks",
+    "two yellow and blue trains stopped at a train station",
+    "a train with red and blue doors",
+    "a yellow, blue and black train coming into a station",
+    "a large rusting red engine is parked on a track",
+    "a blue and white train on the tracks",
+    "a red train goes down railroad tracks near a farm",
+    "a cranked yellow train is going down tracks",
+    "a man is looking at an old steam train"
+  ],
+  "candidates": [
+    "what color is the front cab of the train?",
+    "what is the color of the train cab that is currently moving down the tracks?",
+    "what is the color of the train cab that is currently parked on the tracks?",
+    "what is the maximum length of the train cab that is parked on the tracks?",
+    "what is the color of the train cab that is parked on the tracks?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what color is the front cab of the train?",
+      "answers": [
+        "red",
+        "yellow",
+        "blue"
+      ],
+      "score": 0.21151065826416016
+    },
+    {
+      "question": "what is the color of the train cab that is currently moving down the tracks?",
+      "answers": [
+        "red",
+        "yellow",
+        "blue"
+      ],
+      "score": 0.26419687271118164
+    },
+    {
+      "question": "what is the color of the train cab that is currently parked on the tracks?",
+      "answers": [
+        "red",
+        "yellow",
+        "blue"
+      ],
+      "score": 0.2673830986022949
+    },
+    {
+      "question": "what is the maximum length of the train cab that is parked on the tracks?",
+      "answers": [
+        "short",
+        "medium",
+        "long"
+      ],
+      "score": 0.0010809898376464844
+    },
+    {
+      "question": "what is the color of the train cab that is parked on the tracks?",
+      "answers": [
+        "red",
+        "yellow",
+        "blue"
+      ],
+      "score": 0.16803693771362305
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.06,
+  "probe_selection_seconds": 2.152,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the maximum length of the train cab that is parked on the tracks?",
+      "answer": "unsure",
+      "rewrite": "the front cab of a long train parked on tracks at a railroad yard, with an unknown maximum length",
+      "rank": 117,
+      "hit": false
+    },
+    "random": {
+      "question": "what color is the front cab of the train?",
+      "answer": "yellow",
+      "rewrite": "the front cab of a yellow train at a railroad yard",
+      "rank": 30,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the color of the train cab that is currently parked on the tracks?",
+      "answer": "yellow and maroon",
+      "rewrite": "the front cab of a long train, painted yellow and maroon, parked on the tracks at a railroad yard",
+      "rank": 6,
+      "hit": true
+    }
+  },
+  "seconds": 13.458
+}

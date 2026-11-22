@@ -1,0 +1,1331 @@
+{
+  "qid": 1732,
+  "sample": "original",
+  "target": "unlabeled2017/000000357609.jpg",
+  "queries": [
+    "a tennis player is in motion to return the tennis ball",
+    "a man in a blue shirt is in motion to return a tennis ball",
+    "a man in a blue shirt is playing tennis on a tennis court, in motion to return the tennis ball",
+    "a man in a blue shirt and no hat is in motion on a tennis court, returning a tennis ball",
+    "a man in a blue shirt and white shorts on a tennis court is in motion to return the tennis ball, wearing no hat",
+    "a man in a blue shirt and white shorts and white shoes is on a tennis court, returning a tennis ball, with no hat on",
+    "a man in a blue shirt and white shorts with white shoes is on a tennis court, swinging to return a yellow tennis ball, with no hat on his head",
+    "a man in a blue shirt and white shorts and white shoes is in motion on a tennis court with a white net, returning a yellow tennis ball, and is not wearing a hat",
+    "a man in a blue shirt and white shorts with white shoes and no hat is on a tennis court, swinging a black racket to return a yellow ball over a white net",
+    "a man in a blue shirt and white shorts with white shoes is on a tennis court, swinging a black racket to hit a yellow ball with a forehand motion, with no hat on his head and a white net in the background",
+    "a man in a blue shirt and white shorts plays a forehand on a green tennis court, wearing white shoes and holding a black racket, with no hat and a yellow tennis ball, against a white net"
+  ],
+  "ranks": [
+    170,
+    55,
+    65,
+    58,
+    23,
+    22,
+    25,
+    51,
+    82,
+    78,
+    63
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a tennis player is in motion to return the tennis ball",
+      "question": "Question: What color is the shirt worn by the man playing tennis?",
+      "answer": "blue",
+      "query_after": "a man in a blue shirt is in motion to return a tennis ball",
+      "displayed_ids": [
+        31500,
+        21677,
+        32103,
+        29812,
+        36957,
+        44878,
+        21343,
+        9609,
+        33703,
+        4722
+      ],
+      "selected_ids": [
+        11363,
+        9898,
+        34662,
+        39459,
+        12328,
+        23547,
+        16211,
+        41870,
+        14870,
+        7359
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: What color is the shirt worn by the man playing tennis?",
+          "answers": [
+            "white",
+            "red",
+            "green"
+          ],
+          "score": 0.19757080078125
+        },
+        {
+          "question": "Question: What color is the hat worn by the man playing tennis?",
+          "answers": [
+            "green",
+            "red",
+            "orange"
+          ],
+          "score": 0.07390689849853516
+        },
+        {
+          "question": "Question: What color are the pants worn by the man playing tennis?",
+          "answers": [
+            "white",
+            "black",
+            "green"
+          ],
+          "score": 0.07943487167358398
+        },
+        {
+          "question": "Question: What color is the shirt worn by the man playing tennis?",
+          "answers": [
+            "white",
+            "red",
+            "green"
+          ],
+          "score": 0.19757080078125,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the shirt worn by the man playing tennis?",
+          "answers": [
+            "white",
+            "red",
+            "green"
+          ],
+          "score": 0.19757080078125,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the shirt worn by the man playing tennis?",
+          "answers": [
+            "white",
+            "red",
+            "green"
+          ],
+          "score": 0.19757080078125
+        },
+        {
+          "question": "Question: What color is the hat worn by the man playing tennis?",
+          "answers": [
+            "green",
+            "red",
+            "orange"
+          ],
+          "score": 0.07390689849853516
+        },
+        {
+          "question": "Question: What color are the pants worn by the man playing tennis?",
+          "answers": [
+            "white",
+            "black",
+            "green"
+          ],
+          "score": 0.07943487167358398
+        },
+        {
+          "question": "Question: What color is the racket held by the man playing tennis?",
+          "answers": [
+            "black",
+            "green",
+            "white"
+          ],
+          "score": 0.05007314682006836
+        },
+        {
+          "question": "Question: What color is the shirt worn by the man playing tennis?",
+          "answers": [
+            "white",
+            "red",
+            "green"
+          ],
+          "score": 0.19757080078125,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a man in a blue shirt is in motion to return a tennis ball",
+      "question": "what is the location where the man in the blue shirt is playing tennis?",
+      "answer": "tennis court",
+      "query_after": "a man in a blue shirt is playing tennis on a tennis court, in motion to return the tennis ball",
+      "displayed_ids": [
+        25715,
+        40397,
+        29281,
+        93,
+        28259,
+        32546,
+        18037,
+        44394,
+        4722,
+        39261
+      ],
+      "selected_ids": [
+        14870,
+        39689,
+        46400,
+        29036,
+        78,
+        22313,
+        48895,
+        28743,
+        29429,
+        3832
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "what is the location where the man in the blue shirt is playing tennis?",
+          "answers": [
+            "a tennis court has a green net",
+            "the tennis player is in front of a crowd",
+            "a man playing tennis in front of a crowd of people"
+          ],
+          "score": 0.10848045349121094
+        },
+        {
+          "question": "Question: What is the color of the net in the location where the man in the blue shirt is playing tennis?",
+          "answers": [
+            "green",
+            "blue",
+            "black"
+          ],
+          "score": 0.029841899871826172
+        },
+        {
+          "question": "Question: Who is the man playing tennis with?",
+          "answers": [
+            "Alone",
+            "A woman",
+            "Two men"
+          ],
+          "score": 0.04698371887207031
+        },
+        {
+          "question": "Question: What is the color of the net in the location where the man in the blue shirt is playing tennis?",
+          "answers": [
+            "green",
+            "blue",
+            "black"
+          ],
+          "score": 0.029841899871826172,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the location where the man in the blue shirt is playing tennis?",
+          "answers": [
+            "a tennis court has a green net",
+            "the tennis player is in front of a crowd",
+            "a man playing tennis in front of a crowd of people"
+          ],
+          "score": 0.10848045349121094,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the shorts worn by the man playing tennis?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.09689092636108398
+        },
+        {
+          "question": "Question: What color is the net on the tennis court?",
+          "answers": [
+            "green",
+            "white",
+            "yellow"
+          ],
+          "score": 0.027273178100585938
+        },
+        {
+          "question": "Question: What color are the shorts worn by the man playing tennis?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.09817695617675781
+        },
+        {
+          "question": "What color is the shorts worn by the man playing tennis?",
+          "answers": [
+            "blue",
+            "white",
+            "black"
+          ],
+          "score": 0.02172708511352539
+        },
+        {
+          "question": "What color is the skirt worn by the woman playing tennis?",
+          "answers": [
+            "blue",
+            "green",
+            "pink"
+          ],
+          "score": 0.02009868621826172
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a man in a blue shirt is playing tennis on a tennis court, in motion to return the tennis ball",
+      "question": "what color is the hat worn by the man playing tennis?",
+      "answer": "no hat",
+      "query_after": "a man in a blue shirt and no hat is in motion on a tennis court, returning a tennis ball",
+      "displayed_ids": [
+        25715,
+        40397,
+        29281,
+        93,
+        32546,
+        22305,
+        18106,
+        28259,
+        4722,
+        27844
+      ],
+      "selected_ids": [
+        39459,
+        10466,
+        35123,
+        38934,
+        39689,
+        78,
+        46400,
+        9394,
+        29429,
+        48895
+      ],
+      "rejected_count": 22,
+      "usual_paths": [
+        {
+          "question": "What color is the tennis ball being returned by the man in the blue shirt?",
+          "answers": [
+            "yellow",
+            "green",
+            "orange"
+          ],
+          "score": 0.0636296272277832
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "tennis racket",
+            "tennis ball",
+            "crowd"
+          ],
+          "score": 0.06601810455322266
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "tennis racket",
+            "tennis ball",
+            "crowd"
+          ],
+          "score": 0.06601810455322266,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what color is the tennis ball being returned by the man in the blue shirt?",
+          "answers": [
+            "yellow",
+            "green",
+            "orange"
+          ],
+          "score": 0.0636296272277832
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "tennis racket",
+            "tennis ball",
+            "crowd"
+          ],
+          "score": 0.06601810455322266,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the hat worn by the man playing tennis?",
+          "answers": [
+            "green",
+            "blue",
+            "orange"
+          ],
+          "score": 0.08710527420043945
+        },
+        {
+          "question": "what color is the hat worn by the man in the green uniform?",
+          "answers": [
+            "green",
+            "orange",
+            "white"
+          ],
+          "score": 0.07981109619140625
+        },
+        {
+          "question": "what color is the hat worn by the man playing tennis?",
+          "answers": [
+            "green",
+            "blue",
+            "orange"
+          ],
+          "score": 0.08710527420043945,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the hat worn by the man playing tennis?",
+          "answers": [
+            "green",
+            "blue",
+            "orange"
+          ],
+          "score": 0.08710527420043945,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the hat worn by the man playing tennis?",
+          "answers": [
+            "green",
+            "blue",
+            "orange"
+          ],
+          "score": 0.08710527420043945,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 3,
+      "query_before": "a man in a blue shirt and no hat is in motion on a tennis court, returning a tennis ball",
+      "question": "what color are the shorts worn by the man playing tennis?",
+      "answer": "white",
+      "query_after": "a man in a blue shirt and white shorts on a tennis court is in motion to return the tennis ball, wearing no hat",
+      "displayed_ids": [
+        28259,
+        40397,
+        25715,
+        29281,
+        42481,
+        17637,
+        93,
+        18106,
+        49807,
+        44394
+      ],
+      "selected_ids": [
+        48895,
+        78,
+        30252,
+        29429,
+        9898,
+        39689,
+        29993,
+        46400,
+        41646,
+        38934
+      ],
+      "rejected_count": 25,
+      "usual_paths": [
+        {
+          "question": "what color are the shorts worn by the man playing tennis?",
+          "answers": [
+            "blue",
+            "white",
+            "red"
+          ],
+          "score": 0.12204694747924805
+        },
+        {
+          "question": "What color are the shorts worn by the man playing tennis?",
+          "answers": [
+            "blue",
+            "white",
+            "black"
+          ],
+          "score": 0.08684778213500977
+        },
+        {
+          "question": "what is the color of the shorts worn by the man playing tennis?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.06286001205444336
+        },
+        {
+          "question": "what is the color of the shorts worn by the man playing tennis?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.06286001205444336,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the shorts worn by the man playing tennis?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.06286001205444336,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the racket held by the man playing tennis?",
+          "answers": [
+            "red",
+            "blue",
+            "no racket"
+          ],
+          "score": 0.036095619201660156
+        },
+        {
+          "question": "what color is the racket held by the man playing tennis?",
+          "answers": [
+            "blue",
+            "red",
+            "no racket"
+          ],
+          "score": 0.04809713363647461
+        },
+        {
+          "question": "what color is the racket held by the man playing tennis?",
+          "answers": [
+            "blue",
+            "red",
+            "no racket"
+          ],
+          "score": 0.04809713363647461,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What color is the racket held by the man playing tennis?",
+          "answers": [
+            "blue",
+            "red",
+            "green"
+          ],
+          "score": 0.0539097785949707
+        },
+        {
+          "question": "Question: What color is the racket held by the man playing tennis?",
+          "answers": [
+            "blue",
+            "red",
+            "green"
+          ],
+          "score": 0.0539097785949707,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a man in a blue shirt and white shorts on a tennis court is in motion to return the tennis ball, wearing no hat",
+      "question": "what color are the shoes worn by the man playing tennis?",
+      "answer": "white",
+      "query_after": "a man in a blue shirt and white shorts and white shoes is on a tennis court, returning a tennis ball, with no hat on",
+      "displayed_ids": [
+        18037,
+        49807,
+        39261,
+        22865,
+        27844,
+        4722,
+        7365,
+        22305,
+        17637,
+        44394
+      ],
+      "selected_ids": [
+        14870,
+        22313,
+        46523,
+        78,
+        48895,
+        17183,
+        35123,
+        46400,
+        29429,
+        49916
+      ],
+      "rejected_count": 27,
+      "usual_paths": [
+        {
+          "question": "what is the surface material of the tennis court where the man in the blue shirt and white shorts is playing?",
+          "answers": [
+            "clay",
+            "grass",
+            "hard court"
+          ],
+          "score": 0.027437686920166016
+        },
+        {
+          "question": "what is the surface material of the tennis court where the man in the blue shirt and white shorts is playing?",
+          "answers": [
+            "clay",
+            "grass",
+            "hard court"
+          ],
+          "score": 0.027437686920166016,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the ocean where the man is surfing?",
+          "answers": [
+            "blue",
+            "green",
+            "brown"
+          ],
+          "score": 0.021794795989990234
+        },
+        {
+          "question": "what is the surface material of the tennis court?",
+          "answers": [
+            "clay",
+            "grass",
+            "hard"
+          ],
+          "score": 0.05335855484008789
+        },
+        {
+          "question": "what is the surface material of the tennis court?",
+          "answers": [
+            "clay",
+            "grass",
+            "hard"
+          ],
+          "score": 0.05335855484008789,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what type of shoes is the man wearing?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.03708839416503906
+        },
+        {
+          "question": "what color are the socks worn by the man playing tennis?",
+          "answers": [
+            "white",
+            "black",
+            "green"
+          ],
+          "score": 0.042932987213134766
+        },
+        {
+          "question": "what color are the shoes worn by the man playing tennis?",
+          "answers": [
+            "red",
+            "black",
+            "white"
+          ],
+          "score": 0.06331634521484375
+        },
+        {
+          "question": "what color is the racket held by the man playing tennis?",
+          "answers": [
+            "green",
+            "blue",
+            "black"
+          ],
+          "score": 0.04067230224609375
+        },
+        {
+          "question": "Question: what is the color of the court where the man is playing tennis?",
+          "answers": [
+            "clay",
+            "grass",
+            "hard court"
+          ],
+          "score": 0.04945564270019531
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a man in a blue shirt and white shorts and white shoes is on a tennis court, returning a tennis ball, with no hat on",
+      "question": "what is the color of the tennis ball in the image?",
+      "answer": "yellow",
+      "query_after": "a man in a blue shirt and white shorts with white shoes is on a tennis court, swinging to return a yellow tennis ball, with no hat on his head",
+      "displayed_ids": [
+        18037,
+        49807,
+        17637,
+        28259,
+        22865,
+        44574,
+        39261,
+        27844,
+        7365,
+        22305
+      ],
+      "selected_ids": [
+        48895,
+        2320,
+        41984,
+        48235,
+        29429,
+        46400,
+        2433,
+        28743,
+        78,
+        46523
+      ],
+      "rejected_count": 28,
+      "usual_paths": [
+        {
+          "question": "what is the tennis player doing to return the ball?",
+          "answers": [
+            "swinging racquet",
+            "jumping",
+            "running"
+          ],
+          "score": 0.03071737289428711
+        },
+        {
+          "question": "what color is the shirt worn by the man in the red t shirt playing tennis?",
+          "answers": [
+            "red"
+          ],
+          "note": "fewer than 2 answers",
+          "score": null
+        },
+        {
+          "question": "what is the position of the tennis player relative to the crowd?",
+          "answers": [
+            "in front of",
+            "behind",
+            "close to"
+          ],
+          "score": 0.002270221710205078
+        },
+        {
+          "question": "what is the action the man in the red t shirt is performing with the ball?",
+          "answers": [
+            "hitting",
+            "serving",
+            "volleying"
+          ],
+          "score": 0.012671947479248047
+        },
+        {
+          "question": "what is the gender of the tennis player wearing a blue dress?",
+          "answers": [
+            "male",
+            "female"
+          ],
+          "score": 0.06135416030883789
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the tennis ball in the image?",
+          "answers": [
+            "green",
+            "yellow",
+            "orange"
+          ],
+          "score": 0.062468528747558594
+        },
+        {
+          "question": "what color is the tennis ball in the image?",
+          "answers": [
+            "green",
+            "yellow",
+            "orange"
+          ],
+          "score": 0.062468528747558594,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the tennis ball in the image?",
+          "answers": [
+            "green",
+            "yellow",
+            "orange"
+          ],
+          "score": 0.062468528747558594,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the tennis ball?",
+          "answers": [
+            "green",
+            "yellow",
+            "orange"
+          ],
+          "score": 0.05173349380493164
+        },
+        {
+          "question": "what is the color of the tennis ball in the image?",
+          "answers": [
+            "yellow",
+            "green",
+            "orange"
+          ],
+          "score": 0.07358980178833008
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a man in a blue shirt and white shorts with white shoes is on a tennis court, swinging to return a yellow tennis ball, with no hat on his head",
+      "question": "what is the color of the tennis net in the image?",
+      "answer": "white",
+      "query_after": "a man in a blue shirt and white shorts and white shoes is in motion on a tennis court with a white net, returning a yellow tennis ball, and is not wearing a hat",
+      "displayed_ids": [
+        39137,
+        28259,
+        17637,
+        44574,
+        24107,
+        9168,
+        42481,
+        49807,
+        12438,
+        24533
+      ],
+      "selected_ids": [
+        7895,
+        2607,
+        30252,
+        9394,
+        32546,
+        16211,
+        78,
+        11600,
+        7218,
+        49278
+      ],
+      "rejected_count": 33,
+      "usual_paths": [
+        {
+          "question": "what is the color of the court where the man in the blue shirt is playing tennis?",
+          "answers": [
+            "blue",
+            "red",
+            "green"
+          ],
+          "score": 0.040929317474365234
+        },
+        {
+          "question": "what is the color of the court where the man in the blue shirt is playing tennis?",
+          "answers": [
+            "blue",
+            "red",
+            "green"
+          ],
+          "score": 0.040929317474365234,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the court where the man in the blue shirt is playing tennis?",
+          "answers": [
+            "blue",
+            "red",
+            "green"
+          ],
+          "score": 0.040929317474365234,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the court where the man in the blue shirt is playing tennis?",
+          "answers": [
+            "blue",
+            "red",
+            "green"
+          ],
+          "score": 0.040929317474365234,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the court where the man in the blue shirt is playing tennis?",
+          "answers": [
+            "blue",
+            "red",
+            "green"
+          ],
+          "score": 0.040929317474365234,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the tennis court where the man in the blue shirt is playing?",
+          "answers": [
+            "blue",
+            "red",
+            "green"
+          ],
+          "score": 0.04386472702026367
+        },
+        {
+          "question": "what color is the tennis court where the man in the blue shirt is playing?",
+          "answers": [
+            "blue",
+            "red",
+            "green"
+          ],
+          "score": 0.04386472702026367,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the court where the man in the blue shirt is playing tennis?",
+          "answers": [
+            "blue",
+            "red",
+            "green"
+          ],
+          "score": 0.043756961822509766
+        },
+        {
+          "question": "what color is the tennis court?",
+          "answers": [
+            "blue",
+            "red",
+            "green"
+          ],
+          "score": 0.04578876495361328
+        },
+        {
+          "question": "what is the color of the tennis net in the image?",
+          "answers": [
+            "white",
+            "green",
+            "blue"
+          ],
+          "score": 0.049520015716552734
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a man in a blue shirt and white shorts and white shoes is in motion on a tennis court with a white net, returning a yellow tennis ball, and is not wearing a hat",
+      "question": "What color is the racket held by the man playing tennis?",
+      "answer": "black",
+      "query_after": "a man in a blue shirt and white shorts with white shoes and no hat is on a tennis court, swinging a black racket to return a yellow ball over a white net",
+      "displayed_ids": [
+        44394,
+        40397,
+        39137,
+        7005,
+        28259,
+        39261,
+        25715,
+        3919,
+        17637,
+        12438
+      ],
+      "selected_ids": [
+        2320,
+        32870,
+        47175,
+        35048,
+        4335,
+        25217,
+        17637,
+        11058,
+        3832,
+        3707
+      ],
+      "rejected_count": 35,
+      "usual_paths": [
+        {
+          "question": "what is the name of the racket held by the man in the blue shirt and white shorts?",
+          "answers": [
+            "wooden",
+            "graphite",
+            "metal"
+          ],
+          "score": 0.0031538009643554688
+        },
+        {
+          "question": "What color is the racket held by the man playing tennis?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.025640010833740234
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "racket",
+            "net",
+            "ball"
+          ],
+          "score": 0.0025391578674316406
+        },
+        {
+          "question": "what is the name of the racket held by the man in the blue shirt and white shorts?",
+          "answers": [
+            "wooden",
+            "graphite",
+            "metal"
+          ],
+          "score": 0.0031538009643554688,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the name of the racket held by the man in the blue shirt and white shorts?",
+          "answers": [
+            "wooden",
+            "graphite",
+            "metal"
+          ],
+          "score": 0.0031538009643554688,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the tennis racket held by the man in the blue shirt?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.021681785583496094
+        },
+        {
+          "question": "what color is the tennis racket held by the man in the blue shirt?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.021681785583496094,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the tennis racket held by the man in the blue shirt?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.021681785583496094,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the tennis racket held by the man in the blue shirt?",
+          "answers": [
+            "black",
+            "blue",
+            "green"
+          ],
+          "score": 0.02311849594116211
+        },
+        {
+          "question": "what is the color of the tennis racket held by the man in the blue shirt?",
+          "answers": [
+            "black",
+            "blue",
+            "green"
+          ],
+          "score": 0.02311849594116211,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a man in a blue shirt and white shorts with white shoes and no hat is on a tennis court, swinging a black racket to return a yellow ball over a white net",
+      "question": "what is the specific motion of the man in the blue shirt playing tennis?",
+      "answer": "forehand",
+      "query_after": "a man in a blue shirt and white shorts with white shoes is on a tennis court, swinging a black racket to hit a yellow ball with a forehand motion, with no hat on his head and a white net in the background",
+      "displayed_ids": [
+        44394,
+        9168,
+        12175,
+        40397,
+        44574,
+        7005,
+        39137,
+        3919,
+        44336,
+        1307
+      ],
+      "selected_ids": [
+        7510,
+        1220,
+        17930,
+        7359,
+        25217,
+        17637,
+        7218,
+        9168,
+        28259,
+        24838
+      ],
+      "rejected_count": 38,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "tennis ball",
+            "tennis racket",
+            "tennis net"
+          ],
+          "score": 0.005446910858154297
+        },
+        {
+          "question": "what is the man in the blue shirt doing?",
+          "answers": [
+            "jumping",
+            "running",
+            "standing"
+          ],
+          "score": 0.022120952606201172
+        },
+        {
+          "question": "what is the specific motion of the man in the blue shirt playing tennis?",
+          "answers": [
+            "running",
+            "jumping",
+            "waiting"
+          ],
+          "score": 0.029176712036132812
+        },
+        {
+          "question": "what is the man in the blue shirt doing with the tennis ball?",
+          "answers": [
+            "return",
+            "hit",
+            "serve"
+          ],
+          "score": 0.004462242126464844
+        },
+        {
+          "question": "what is the color of the shorts worn by the man playing tennis?",
+          "answers": [
+            "white",
+            "black",
+            "blue"
+          ],
+          "score": 0.0170745849609375
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the court where the man in the blue shirt is playing tennis?",
+          "answers": [
+            "green",
+            "blue",
+            "white"
+          ],
+          "score": 0.016335010528564453
+        },
+        {
+          "question": "what color is the court where the man in the blue shirt is playing tennis?",
+          "answers": [
+            "green",
+            "blue",
+            "clay"
+          ],
+          "score": 0.015923023223876953
+        },
+        {
+          "question": "what is the color of the tennis court where the man in the blue shirt is playing?",
+          "answers": [
+            "green",
+            "blue",
+            "clay"
+          ],
+          "score": 0.020534038543701172
+        },
+        {
+          "question": "what color is the court where the man is playing tennis?",
+          "answers": [
+            "green",
+            "blue",
+            "clay"
+          ],
+          "score": 0.023633956909179688
+        },
+        {
+          "question": "what is the color of the court where the man is playing tennis?",
+          "answers": [
+            "green",
+            "blue",
+            "hard"
+          ],
+          "score": 0.016802310943603516
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "a man in a blue shirt and white shorts with white shoes is on a tennis court, swinging a black racket to hit a yellow ball with a forehand motion, with no hat on his head and a white net in the background",
+      "question": "what is the color of the tennis court in the image?",
+      "answer": "green",
+      "query_after": "a man in a blue shirt and white shorts plays a forehand on a green tennis court, wearing white shoes and holding a black racket, with no hat and a yellow tennis ball, against a white net",
+      "displayed_ids": [
+        44394,
+        39137,
+        3919,
+        17637,
+        7005,
+        40397,
+        29281,
+        29112,
+        18106,
+        12438
+      ],
+      "selected_ids": [
+        29812,
+        18106,
+        12340,
+        25217,
+        9394,
+        27366,
+        9168,
+        17637,
+        36399,
+        41848
+      ],
+      "rejected_count": 39,
+      "usual_paths": [
+        {
+          "question": "what is the color of the tennis court where the man in the blue shirt is playing?",
+          "answers": [
+            "green",
+            "blue",
+            "blue/green"
+          ],
+          "score": 0.00955343246459961
+        },
+        {
+          "question": "what is the color of the tennis court in the image?",
+          "answers": [
+            "blue",
+            "green",
+            "clay"
+          ],
+          "score": 0.032115936279296875
+        },
+        {
+          "question": "what color is the background surface where the man in the blue shirt is playing tennis?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.010043144226074219
+        },
+        {
+          "question": "what color is the background surface where the man in the blue shirt is playing tennis?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.010043144226074219,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the background surface where the man in the blue shirt is playing tennis?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.012001514434814453
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the tennis court where the man in the blue shirt is playing?",
+          "answers": [
+            "green",
+            "blue",
+            "blue/green"
+          ],
+          "score": 0.00955343246459961
+        },
+        {
+          "question": "what color is the background of the tennis court?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.022904396057128906
+        },
+        {
+          "question": "what is the color of the line marking the boundary on the tennis court?",
+          "answers": [
+            "green",
+            "white",
+            "blue"
+          ],
+          "score": 0.019014835357666016
+        },
+        {
+          "question": "what color is the net on the tennis court?",
+          "answers": [
+            "white",
+            "no net",
+            "blue"
+          ],
+          "score": 0.010156631469726562
+        },
+        {
+          "question": "what color is the court surface where the man in the blue shirt is playing tennis?",
+          "answers": [
+            "blue",
+            "green",
+            "various"
+          ],
+          "score": 0.008703231811523438
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

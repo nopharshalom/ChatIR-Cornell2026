@@ -1,0 +1,1335 @@
+{
+  "qid": 1510,
+  "sample": "original",
+  "target": "unlabeled2017/000000542203.jpg",
+  "queries": [
+    "a tennis player attempts to hit a tennis ball",
+    "a man in a black shirt attempts to hit a tennis ball",
+    "a man in a black shirt and blue pants attempts to hit a tennis ball",
+    "a man wearing a black shirt, blue pants, and white shoes attempts to hit a tennis ball",
+    "a man wearing a black shirt, blue pants, and white shoes attempts to hit a yellow tennis ball",
+    "a man wearing a black shirt, blue pants, and white shoes attempts to hit a yellow tennis ball on a green court",
+    "A man dressed in a black shirt, blue pants, and white shoes tries to hit a yellow tennis ball on a green court.",
+    "a man wearing a black shirt, blue pants, and white shoes attempts to hit a yellow tennis ball on a green court with spectators in the background",
+    "a man wearing a black shirt and blue pants with white shoes stands on a green tennis court, holding a black racket, attempting to hit a yellow ball with spectators in the background",
+    "a male tennis player wearing a black shirt, blue pants, and white shoes stands on a green court with spectators in the background, holding a black racket and attempting to hit a yellow tennis ball",
+    "A male tennis player, dressed in a black shirt, blue pants, and white shoes, stands on a green court with spectators visible in the background. He is holding a black racket and preparing to strike a yellow tennis ball."
+  ],
+  "ranks": [
+    613,
+    56,
+    71,
+    109,
+    119,
+    122,
+    134,
+    11,
+    53,
+    24,
+    8
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a tennis player attempts to hit a tennis ball",
+      "question": "Question: What color is the shirt worn by the man attempting to hit the tennis ball?",
+      "answer": "Black.",
+      "query_after": "a man in a black shirt attempts to hit a tennis ball",
+      "displayed_ids": [
+        29971,
+        36476,
+        13218,
+        93,
+        27844,
+        29281,
+        32025,
+        46523,
+        40104,
+        40397
+      ],
+      "selected_ids": [
+        14870,
+        39459,
+        7359,
+        40176,
+        41870,
+        11363,
+        12328,
+        32546,
+        11600,
+        45632
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: What color is the shirt worn by the man attempting to hit the tennis ball?",
+          "answers": [
+            "red",
+            "orange",
+            "green"
+          ],
+          "score": 0.11913061141967773
+        },
+        {
+          "question": "Question: What is the color of the hat worn by the man attempting to hit the tennis ball?",
+          "answers": [
+            "green",
+            "none",
+            "blue"
+          ],
+          "score": 0.04526376724243164
+        },
+        {
+          "question": "Question: Where is the man attempting to hit the tennis ball located?",
+          "answers": [
+            "on a red clay court",
+            "in the air",
+            "on a tennis court with a racquet and audience"
+          ],
+          "score": 0.10529422760009766
+        },
+        {
+          "question": "Question: What color is the shirt worn by the man attempting to hit the tennis ball?",
+          "answers": [
+            "red",
+            "orange",
+            "green"
+          ],
+          "score": 0.11913061141967773,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the activity being performed by the man wearing a green and black shirt?",
+          "answers": [
+            "playing tennis",
+            "hitting a tennis ball",
+            "serving"
+          ],
+          "score": 0.006486415863037109
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the shirt worn by the man attempting to hit the tennis ball?",
+          "answers": [
+            "red",
+            "orange",
+            "green"
+          ],
+          "score": 0.11913061141967773
+        },
+        {
+          "question": "Question: What is the color of the hat worn by the man attempting to hit the tennis ball?",
+          "answers": [
+            "green",
+            "none",
+            "blue"
+          ],
+          "score": 0.04526376724243164
+        },
+        {
+          "question": "Question: What color is the shirt worn by the man attempting to hit the tennis ball?",
+          "answers": [
+            "red",
+            "orange",
+            "green"
+          ],
+          "score": 0.11913061141967773,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the shirt worn by the man attempting to hit the tennis ball?",
+          "answers": [
+            "red",
+            "orange",
+            "green"
+          ],
+          "score": 0.11913061141967773,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the shirt worn by the man attempting to hit the tennis ball?",
+          "answers": [
+            "red",
+            "orange",
+            "green"
+          ],
+          "score": 0.11913061141967773,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a man in a black shirt attempts to hit a tennis ball",
+      "question": "Question: What color are the pants worn by the man attempting to hit the tennis ball?",
+      "answer": "Blue",
+      "query_after": "a man in a black shirt and blue pants attempts to hit a tennis ball",
+      "displayed_ids": [
+        35954,
+        27946,
+        12841,
+        8474,
+        39409,
+        31471,
+        33260,
+        31284,
+        7371,
+        33703
+      ],
+      "selected_ids": [
+        9394,
+        7359,
+        44755,
+        30399,
+        6693,
+        9898,
+        17467,
+        37089,
+        30577,
+        14870
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "Question: Where is the man attempting to hit the tennis ball located?",
+          "answers": [
+            "On a tennis court.",
+            "In a stadium.",
+            "In front of a crowd of spectators."
+          ],
+          "score": 0.06459808349609375
+        },
+        {
+          "question": "Question: What color are the pants worn by the man attempting to hit the tennis ball?",
+          "answers": [
+            "White",
+            "Green",
+            "Red and orange"
+          ],
+          "score": 0.22062253952026367
+        },
+        {
+          "question": "Question: What is the color of the pants worn by the man playing tennis?",
+          "answers": [
+            "White",
+            "Green",
+            "Red"
+          ],
+          "score": 0.20740556716918945
+        },
+        {
+          "question": "Question: What is the location where the man attempting to hit the tennis ball is playing?",
+          "answers": [
+            "tennis court",
+            "stadium",
+            "front of a crowd of spectators"
+          ],
+          "score": 0.05968952178955078
+        },
+        {
+          "question": "Question: What color are the pants worn by the man playing tennis?",
+          "answers": [
+            "Black",
+            "Green",
+            "White"
+          ],
+          "score": 0.02449512481689453
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color are the pants worn by the man attempting to hit the tennis ball?",
+          "answers": [
+            "Black",
+            "Green",
+            "Red"
+          ],
+          "score": 0.11030101776123047
+        },
+        {
+          "question": "Question: What color are the pants worn by the man attempting to hit the tennis ball?",
+          "answers": [
+            "Black",
+            "Green",
+            "Red"
+          ],
+          "score": 0.11030101776123047,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color are the pants worn by the man attempting to hit the tennis ball?",
+          "answers": [
+            "Black",
+            "Green",
+            "Red"
+          ],
+          "score": 0.11030101776123047,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Where is the man attempting to hit the tennis ball?",
+          "answers": [
+            "On a tennis court",
+            "In a stadium",
+            "In front of a crowd"
+          ],
+          "score": 0.08552217483520508
+        },
+        {
+          "question": "Question: What color are the pants worn by the man attempting to hit the tennis ball?",
+          "answers": [
+            "Black",
+            "Green",
+            "Red"
+          ],
+          "score": 0.11030101776123047,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a man in a black shirt and blue pants attempts to hit a tennis ball",
+      "question": "what is the color of the shoes worn by the man attempting to hit the tennis ball?",
+      "answer": "white",
+      "query_after": "a man wearing a black shirt, blue pants, and white shoes attempts to hit a tennis ball",
+      "displayed_ids": [
+        33260,
+        28804,
+        7371,
+        8474,
+        28259,
+        29342,
+        34940,
+        27366,
+        3919,
+        12841
+      ],
+      "selected_ids": [
+        31005,
+        2954,
+        19798,
+        78,
+        22683,
+        11532,
+        35123,
+        46400,
+        10714,
+        39045
+      ],
+      "rejected_count": 26,
+      "usual_paths": [
+        {
+          "question": "Question: What color are the shoes worn by the man attempting to hit the tennis ball?",
+          "answers": [
+            "Blue",
+            "White",
+            "Black"
+          ],
+          "score": 0.05245542526245117
+        },
+        {
+          "question": "what is the color of the shoes worn by the man attempting to hit the tennis ball?",
+          "answers": [
+            "Blue",
+            "White",
+            "Green"
+          ],
+          "score": 0.08156633377075195
+        },
+        {
+          "question": "what is the color of the shoes worn by the man attempting to hit the tennis ball?",
+          "answers": [
+            "Blue",
+            "White",
+            "Green"
+          ],
+          "score": 0.08156633377075195,
+          "duplicate_of": 1
+        },
+        {
+          "question": "What type of footwear is the man wearing?",
+          "answers": [
+            "tennis shoes",
+            "blue sneakers",
+            "blue shoes"
+          ],
+          "score": 0.0015716552734375
+        },
+        {
+          "question": "What color is the tennis ball the man is attempting to hit?",
+          "answers": [
+            "Yellow",
+            "Orange",
+            "Neon Green"
+          ],
+          "score": 0.07610368728637695
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color are the shoes worn by the man attempting to hit the tennis ball?",
+          "answers": [
+            "Blue",
+            "White",
+            "Black"
+          ],
+          "score": 0.05245542526245117
+        },
+        {
+          "question": "what color are the shoes worn by the man attempting to hit the tennis ball?",
+          "answers": [
+            "White",
+            "Blue",
+            "Black"
+          ],
+          "score": 0.05424308776855469
+        },
+        {
+          "question": "what color are the shoes worn by the man attempting to hit the tennis ball?",
+          "answers": [
+            "White",
+            "Blue",
+            "Black"
+          ],
+          "score": 0.05424308776855469,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What color are the shoes worn by the man attempting to hit the tennis ball?",
+          "answers": [
+            "Blue",
+            "White",
+            "Black"
+          ],
+          "score": 0.05245542526245117,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color are the shoes worn by the man attempting to hit the tennis ball?",
+          "answers": [
+            "Blue",
+            "White",
+            "Black"
+          ],
+          "score": 0.05245542526245117,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 3,
+      "query_before": "a man wearing a black shirt, blue pants, and white shoes attempts to hit a tennis ball",
+      "question": "What color is the tennis ball the man is attempting to hit?",
+      "answer": "yellow",
+      "query_after": "a man wearing a black shirt, blue pants, and white shoes attempts to hit a yellow tennis ball",
+      "displayed_ids": [
+        33260,
+        28804,
+        7371,
+        28259,
+        34940,
+        39137,
+        27366,
+        37348,
+        12438,
+        3919
+      ],
+      "selected_ids": [
+        48955,
+        22683,
+        10218,
+        19798,
+        78,
+        35123,
+        31005,
+        20841,
+        36575,
+        20061
+      ],
+      "rejected_count": 29,
+      "usual_paths": [
+        {
+          "question": "what is the man wearing the black shirt and blue pants holding in his hands?",
+          "answers": [
+            "a tennis ball",
+            "nothing",
+            "a racket"
+          ],
+          "score": 0.004745006561279297
+        },
+        {
+          "question": "What is the name of the tennis player attempting to hit the ball?",
+          "answers": [
+            "Novak Djokovic",
+            "Rafael Nadal",
+            "Roger Federer"
+          ],
+          "score": 0.010885238647460938
+        },
+        {
+          "question": "What color is the tennis ball the man is attempting to hit?",
+          "answers": [
+            "green",
+            "yellow",
+            "orange"
+          ],
+          "score": 0.09123468399047852
+        },
+        {
+          "question": "what is the location where the man wearing the black shirt and blue pants is playing tennis?",
+          "answers": [
+            "tennis court in front of an audience",
+            "a man running on the tennis court",
+            "a man playing tennis in front of a crowd of people"
+          ],
+          "score": 0.04352855682373047
+        },
+        {
+          "question": "what is the color of the tennis racket held by the man wearing the black shirt and blue pants?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.031093120574951172
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What color is the tennis racket held by the man attempting to hit the ball?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.06773233413696289
+        },
+        {
+          "question": "Question: What color is the tennis racket held by the man attempting to hit the ball?",
+          "answers": [
+            "Blue",
+            "Green",
+            "Red"
+          ],
+          "score": 0.08344030380249023
+        },
+        {
+          "question": "Question: What color is the tennis racket held by the man attempting to hit the ball?",
+          "answers": [
+            "Blue",
+            "Green",
+            "Red"
+          ],
+          "score": 0.08344030380249023,
+          "duplicate_of": 1
+        },
+        {
+          "question": "What is the color of the tennis racket held by the man attempting to hit the ball?",
+          "answers": [
+            "Black",
+            "Blue",
+            "White"
+          ],
+          "score": 0.04473876953125
+        },
+        {
+          "question": "Question: What color is the tennis racket held by the man attempting to hit the ball?",
+          "answers": [
+            "Blue",
+            "Green",
+            "Red"
+          ],
+          "score": 0.08344030380249023,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 4,
+      "query_before": "a man wearing a black shirt, blue pants, and white shoes attempts to hit a yellow tennis ball",
+      "question": "what is the color of the tennis court where the man is playing?",
+      "answer": "green",
+      "query_after": "a man wearing a black shirt, blue pants, and white shoes attempts to hit a yellow tennis ball on a green court",
+      "displayed_ids": [
+        34940,
+        33260,
+        7371,
+        39137,
+        8474,
+        12841,
+        28804,
+        27366,
+        7870,
+        28259
+      ],
+      "selected_ids": [
+        35123,
+        20061,
+        11532,
+        9845,
+        3832,
+        13244,
+        10218,
+        8760,
+        78,
+        31005
+      ],
+      "rejected_count": 30,
+      "usual_paths": [
+        {
+          "question": "what is the location where the man is attempting to hit the tennis ball?",
+          "answers": [
+            "tennis court",
+            "stadium",
+            "indoor arena"
+          ],
+          "score": 0.037163734436035156
+        },
+        {
+          "question": "what is the color of the tennis court where the man is attempting to hit the tennis ball?",
+          "answers": [
+            "green",
+            "blue",
+            "clay"
+          ],
+          "score": 0.041882991790771484
+        },
+        {
+          "question": "what is the crowd watching the man attempt to hit the ball doing?",
+          "answers": [
+            "sitting",
+            "standing",
+            "clapping"
+          ],
+          "score": 0.014451980590820312
+        },
+        {
+          "question": "what is the relationship between the people standing behind the man and the crowd of people?",
+          "answers": [
+            "part of the crowd",
+            "behind the crowd",
+            "in front of the crowd"
+          ],
+          "score": 0.0006380081176757812
+        },
+        {
+          "question": "what is the gender of the person attempting to hit the tennis ball?",
+          "answers": [
+            "man",
+            "woman",
+            "non-binary"
+          ],
+          "score": 0.03913116455078125
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the tennis court where the man is playing?",
+          "answers": [
+            "blue",
+            "green",
+            "red"
+          ],
+          "score": 0.0907125473022461
+        },
+        {
+          "question": "what is the color of the tennis court where the man is playing?",
+          "answers": [
+            "blue",
+            "green",
+            "red"
+          ],
+          "score": 0.0907125473022461,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the tennis racket held by the man attempting to hit the tennis ball?",
+          "answers": [
+            "red",
+            "black",
+            "blue"
+          ],
+          "score": 0.04867124557495117
+        },
+        {
+          "question": "what is the color of the tennis racket held by the man attempting to hit the tennis ball?",
+          "answers": [
+            "red",
+            "black",
+            "blue"
+          ],
+          "score": 0.04867124557495117,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the hair color of the man attempting to hit the tennis ball?",
+          "answers": [
+            "blond",
+            "brown",
+            "black"
+          ],
+          "score": 0.015430927276611328
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 5,
+      "query_before": "a man wearing a black shirt, blue pants, and white shoes attempts to hit a yellow tennis ball on a green court",
+      "question": "Question: What color is the shirt worn by the man attempting to hit the tennis ball?",
+      "answer": "Black.",
+      "query_after": "A man dressed in a black shirt, blue pants, and white shoes tries to hit a yellow tennis ball on a green court.",
+      "displayed_ids": [
+        33260,
+        7371,
+        28804,
+        7870,
+        39137,
+        7005,
+        44394,
+        27946,
+        12841,
+        12438
+      ],
+      "selected_ids": [
+        11058,
+        17637,
+        28259,
+        35123,
+        41475,
+        31005,
+        20841,
+        78,
+        38934
+      ],
+      "rejected_count": 32,
+      "usual_paths": [
+        {
+          "question": "What type of racket is the man using to hit the tennis ball?",
+          "answers": [
+            "wooden",
+            "metal",
+            "graphite"
+          ],
+          "score": 0.009452342987060547
+        },
+        {
+          "question": "Question: What color is the shirt worn by the man attempting to hit the tennis ball?",
+          "answers": [
+            "Black",
+            "Blue",
+            "White"
+          ],
+          "score": 0.0698847770690918
+        },
+        {
+          "question": "Question: What type of racket is the man using to hit the tennis ball?",
+          "answers": [
+            "wooden",
+            "metal",
+            "composite"
+          ],
+          "score": 0.009511947631835938
+        },
+        {
+          "question": "Question: What color are the pants worn by the man attempting to hit the tennis ball?",
+          "answers": [
+            "Blue",
+            "Black",
+            "White"
+          ],
+          "score": 0.03934144973754883
+        },
+        {
+          "question": "**Question:** What color are the pants worn by the man attempting to hit the tennis ball?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.04723930358886719
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the tennis racket held by the man attempting to hit the tennis ball?",
+          "answers": [
+            "black",
+            "blue",
+            "green"
+          ],
+          "score": 0.021009445190429688
+        },
+        {
+          "question": "what is the color of the tennis racket held by the man attempting to hit the tennis ball?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.04572153091430664
+        },
+        {
+          "question": "Question: What color is the tennis racket held by the man attempting to hit the tennis ball?",
+          "answers": [
+            "black",
+            "blue",
+            "green"
+          ],
+          "score": 0.021009445190429688,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the brand of the tennis racket held by the man attempting to hit the tennis ball?",
+          "answers": [
+            "Wilson",
+            "Head",
+            "Yonex"
+          ],
+          "score": 0.002487659454345703
+        },
+        {
+          "question": "what is the brand of the tennis racket held by the man attempting to hit the tennis ball?",
+          "answers": [
+            "Wilson",
+            "Head",
+            "Yonex"
+          ],
+          "score": 0.002487659454345703,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "A man dressed in a black shirt, blue pants, and white shoes tries to hit a yellow tennis ball on a green court.",
+      "question": "what is the background behind the man attempting to hit the tennis ball?",
+      "answer": "spectators",
+      "query_after": "a man wearing a black shirt, blue pants, and white shoes attempts to hit a yellow tennis ball on a green court with spectators in the background",
+      "displayed_ids": [
+        33260,
+        7371,
+        7870,
+        28804,
+        7005,
+        39137,
+        44394,
+        12841,
+        27946,
+        27366
+      ],
+      "selected_ids": [
+        78,
+        45158,
+        25099,
+        9394,
+        35123,
+        7870,
+        5665,
+        31005,
+        5580,
+        20841
+      ],
+      "rejected_count": 32,
+      "usual_paths": [
+        {
+          "question": "what is the background color behind the man attempting to hit the tennis ball?",
+          "answers": [
+            "green",
+            "blue",
+            "brown"
+          ],
+          "score": 0.02413797378540039
+        },
+        {
+          "question": "what is the background behind the man attempting to hit the tennis ball?",
+          "answers": [
+            "a crowd of people",
+            "an audience",
+            "green tennis court fencing"
+          ],
+          "score": 0.06988763809204102
+        },
+        {
+          "question": "what is the background behind the man attempting to hit the tennis ball?",
+          "answers": [
+            "a crowd of people",
+            "an audience",
+            "green tennis court fencing"
+          ],
+          "score": 0.06988763809204102,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the shorts worn by the man attempting to hit the tennis ball?",
+          "answers": [
+            "white",
+            "blue",
+            "black"
+          ],
+          "score": 0.05300140380859375
+        },
+        {
+          "question": "what is the color of the shorts worn by the man attempting to hit the tennis ball?",
+          "answers": [
+            "white",
+            "blue",
+            "black"
+          ],
+          "score": 0.05300140380859375,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the net on the tennis court?",
+          "answers": [
+            "White",
+            "Black",
+            "Green"
+          ],
+          "score": 0.02584218978881836
+        },
+        {
+          "question": "Question: What color is the net on the tennis court?",
+          "answers": [
+            "White",
+            "Black",
+            "Green"
+          ],
+          "score": 0.02584218978881836,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the net on the tennis court?",
+          "answers": [
+            "white",
+            "black",
+            "green"
+          ],
+          "score": 0.029134750366210938
+        },
+        {
+          "question": "What color is the net on the tennis court?",
+          "answers": [
+            "green",
+            "white",
+            "blue"
+          ],
+          "score": 0.03775167465209961
+        },
+        {
+          "question": "what is the color of the net on the tennis court?",
+          "answers": [
+            "white",
+            "black",
+            "green"
+          ],
+          "score": 0.029134750366210938,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a man wearing a black shirt, blue pants, and white shoes attempts to hit a yellow tennis ball on a green court with spectators in the background",
+      "question": "what is the color of the object the man is holding in his hand?",
+      "answer": "black",
+      "query_after": "a man wearing a black shirt and blue pants with white shoes stands on a green tennis court, holding a black racket, attempting to hit a yellow ball with spectators in the background",
+      "displayed_ids": [
+        12841,
+        33260,
+        3103,
+        9412,
+        7870,
+        40775,
+        17343,
+        32546,
+        33703,
+        49916
+      ],
+      "selected_ids": [
+        24993,
+        32546,
+        22833,
+        46400,
+        35123,
+        35954,
+        24123,
+        9394,
+        28804,
+        37089
+      ],
+      "rejected_count": 38,
+      "usual_paths": [
+        {
+          "question": "what is the object the man is holding in his hand?",
+          "answers": [
+            "racquet",
+            "shoes",
+            "ball"
+          ],
+          "score": 0.004544734954833984
+        },
+        {
+          "question": "what is the object the man is holding in his hand?",
+          "answers": [
+            "racquet",
+            "shoes",
+            "ball"
+          ],
+          "score": 0.004544734954833984,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the object the man is holding in his hand?",
+          "answers": [
+            "racquet",
+            "shoes",
+            "ball"
+          ],
+          "score": 0.004544734954833984,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the object the man is holding in his hand?",
+          "answers": [
+            "racquet",
+            "shoes",
+            "ball"
+          ],
+          "score": 0.004544734954833984,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the object the man is holding in his hand?",
+          "answers": [
+            "racquet",
+            "shoes",
+            "ball"
+          ],
+          "score": 0.004544734954833984,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the object the man is holding in his hand?",
+          "answers": [
+            "racquet",
+            "shoes",
+            "ball"
+          ],
+          "score": 0.004544734954833984
+        },
+        {
+          "question": "what is the color of the object the man is holding in his hand?",
+          "answers": [
+            "yellow",
+            "orange",
+            "blue"
+          ],
+          "score": 0.08210468292236328
+        },
+        {
+          "question": "what is the object the man is holding in his hand?",
+          "answers": [
+            "racquet",
+            "shoes",
+            "ball"
+          ],
+          "score": 0.004544734954833984,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the object the man is holding in his hand?",
+          "answers": [
+            "yellow",
+            "orange",
+            "blue"
+          ],
+          "score": 0.08210468292236328,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the object the man is holding in his hand?",
+          "answers": [
+            "yellow",
+            "orange",
+            "blue"
+          ],
+          "score": 0.08210468292236328,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a man wearing a black shirt and blue pants with white shoes stands on a green tennis court, holding a black racket, attempting to hit a yellow ball with spectators in the background",
+      "question": "Question: What is the gender of the person playing tennis?",
+      "answer": "male",
+      "query_after": "a male tennis player wearing a black shirt, blue pants, and white shoes stands on a green court with spectators in the background, holding a black racket and attempting to hit a yellow tennis ball",
+      "displayed_ids": [
+        17157,
+        1307,
+        24838,
+        46194,
+        3103,
+        7359,
+        12841,
+        33260,
+        29756,
+        44336
+      ],
+      "selected_ids": [
+        32103,
+        5665,
+        17495,
+        47891,
+        7217,
+        8137,
+        28259,
+        49916,
+        46400,
+        7359
+      ],
+      "rejected_count": 45,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "racquet",
+            "ball",
+            "net"
+          ],
+          "score": 0.009984493255615234
+        },
+        {
+          "question": "what is the gender of the person playing tennis?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.02237224578857422
+        },
+        {
+          "question": "Question: What is the gender of the person playing tennis?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.02277517318725586
+        },
+        {
+          "question": "what is the gender of the person playing tennis?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.02237224578857422,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the gender of the person playing tennis?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.02237224578857422,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the brand logo on the tennis racket the man is holding?",
+          "answers": [
+            "Nike",
+            "Adidas",
+            "Wilson"
+          ],
+          "score": 0.006230831146240234
+        },
+        {
+          "question": "what is the color of the tennis racket the man is holding?",
+          "answers": [
+            "black",
+            "yellow",
+            "white"
+          ],
+          "score": 0.012981414794921875
+        },
+        {
+          "question": "what is the color of the tennis racket the man is holding?",
+          "answers": [
+            "black",
+            "yellow",
+            "white"
+          ],
+          "score": 0.012981414794921875,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the tennis racket the man is holding?",
+          "answers": [
+            "black",
+            "yellow",
+            "white"
+          ],
+          "score": 0.012981414794921875,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the tennis racket the man is holding?",
+          "answers": [
+            "black",
+            "yellow",
+            "white"
+          ],
+          "score": 0.012981414794921875,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "a male tennis player wearing a black shirt, blue pants, and white shoes stands on a green court with spectators in the background, holding a black racket and attempting to hit a yellow tennis ball",
+      "question": "Question: What is the color of the tennis court where the man is playing?",
+      "answer": "green",
+      "query_after": "A male tennis player, dressed in a black shirt, blue pants, and white shoes, stands on a green court with spectators visible in the background. He is holding a black racket and preparing to strike a yellow tennis ball.",
+      "displayed_ids": [
+        17157,
+        12841,
+        1307,
+        3103,
+        46194,
+        24838,
+        7359,
+        44336,
+        9412,
+        33260
+      ],
+      "selected_ids": [
+        31067,
+        35123,
+        32103,
+        7359,
+        9412,
+        3103,
+        32546,
+        5665,
+        29756
+      ],
+      "rejected_count": 45,
+      "usual_paths": [
+        {
+          "question": "what is the position or orientation of the tennis racquet held by the man?",
+          "answers": [
+            "up",
+            "down",
+            "side"
+          ],
+          "score": 0.001220703125
+        },
+        {
+          "question": "what is the state of the racquet held by the man in the black shirt?",
+          "answers": [
+            "ready",
+            "in air",
+            "raised"
+          ],
+          "score": 0.01321554183959961
+        },
+        {
+          "question": "what is the position or orientation of the tennis racquet held by the man attempting to hit the tennis ball?",
+          "answers": [
+            "up",
+            "down",
+            "sideways"
+          ],
+          "score": 0.0005459785461425781
+        },
+        {
+          "question": "what is the state of the racquet held by the man in the black shirt?",
+          "answers": [
+            "ready",
+            "in air",
+            "raised"
+          ],
+          "score": 0.01321554183959961,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Based on the provided information, here is a generated question and the explanation of how the sources were utilized:\n\n**Generated Question:**\n\"What is the color of?",
+          "answers": [
+            "green",
+            "blue",
+            "black"
+          ],
+          "score": 0.01818561553955078
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the position or orientation of the tennis racket held by the man in the black shirt?",
+          "answers": [
+            "up",
+            "down",
+            "side"
+          ],
+          "score": 0.0006690025329589844
+        },
+        {
+          "question": "what is the color of the tennis ball the man in the black shirt is attempting to hit?",
+          "answers": [
+            "yellow"
+          ],
+          "note": "fewer than 2 answers",
+          "score": null
+        },
+        {
+          "question": "Question: What is the color of the tennis court where the man is playing?",
+          "answers": [
+            "green",
+            "blue",
+            "red"
+          ],
+          "score": 0.022346019744873047
+        },
+        {
+          "question": "what is the action of the man in the black shirt and blue pants performing with the tennis racket?",
+          "answers": [
+            "attempting to hit",
+            "hitting",
+            "playing"
+          ],
+          "score": 0.0019364356994628906
+        },
+        {
+          "question": "what is the color of the tennis racket held by the man in the black shirt?",
+          "answers": [
+            "black",
+            "blue",
+            "green"
+          ],
+          "score": 0.018249988555908203
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

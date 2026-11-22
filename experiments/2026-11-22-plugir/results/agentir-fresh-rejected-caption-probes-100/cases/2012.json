@@ -1,0 +1,180 @@
+{
+  "qid": 2012,
+  "initial": "the plate of food has broccoli and other vegetables",
+  "initial_rank": 41,
+  "displayed": [
+    8213,
+    10991,
+    11255,
+    16814,
+    34733,
+    35175,
+    42921,
+    41328,
+    18797,
+    29841
+  ],
+  "evidence": [
+    "a bowl of stir fried vegetables and noodles",
+    "a white plate with a sandwich, carrots, and pickles on it",
+    "a big bowl full of broccoli salad",
+    "a plate with meat, salad and bread sitting on top of it",
+    "a white plate of carrots, potatoes, and chicken",
+    "a bowl full of mixed ingredients in a wok",
+    "a white plate topped with beans, rice, and a fork",
+    "a plate of meat, veggies and potatoes",
+    "steak on a white plate",
+    "a plate of meat and a sweet potato"
+  ],
+  "rejected_captions": [
+    "the plate is round",
+    "mushroom sauce on top of chicken with broccoli",
+    "a blue platter of food on it",
+    "a white plate with a white ring around it",
+    "a round plate with vegetables on it",
+    "the food is black",
+    "a white and blue plate",
+    "a plate with beef on it",
+    "an egg, potato, beans, broccoli and a toasted slice of bread",
+    "food is on a plate"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the primary protein or main dish served on the plate alongside the broccoli?",
+      "what is the color of the plate holding the food with broccoli?",
+      "what is the color of the plate holding the food with broccoli?",
+      "Question: What is the color of the plate holding the food with broccoli?",
+      "what is the color of the plate holding the food with broccoli?"
+    ],
+    "question": "what is the primary protein or main dish served on the plate alongside the broccoli?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the primary protein or main dish served on the plate alongside the broccoli?",
+          "answers": [
+            "steak",
+            "chicken",
+            "beans"
+          ],
+          "score": 0.14069032669067383
+        },
+        {
+          "question": "what is the color of the plate holding the food with broccoli?",
+          "answers": [
+            "white",
+            "green",
+            "brown"
+          ],
+          "score": 0.018187522888183594
+        },
+        {
+          "question": "what is the color of the plate holding the food with broccoli?",
+          "answers": [
+            "white",
+            "green",
+            "brown"
+          ],
+          "score": 0.018187522888183594,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the plate holding the food with broccoli?",
+          "answers": [
+            "white",
+            "black",
+            "green"
+          ],
+          "score": 0.07548379898071289
+        },
+        {
+          "question": "what is the color of the plate holding the food with broccoli?",
+          "answers": [
+            "white",
+            "green",
+            "brown"
+          ],
+          "score": 0.018187522888183594,
+          "duplicate_of": 1
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.164,
+      "probe_selection_seconds": 1.414,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "steak",
+    "rewrite": "a plate of food featuring steak, broccoli, and other vegetables",
+    "raw_rank": 49,
+    "unseen_rank": 45
+  },
+  "rejected": {
+    "candidates": [
+      "what color is the plate holding the food with broccoli and other vegetables?",
+      "what is the color of the plate holding the food with broccoli and other vegetables?",
+      "what is the shape of the plate holding the food with broccoli and other vegetables?",
+      "Question: What is the main protein or meat item served on the plate with broccoli and other vegetables?",
+      "Question: What is the main protein or meat item served on the plate with broccoli and other vegetables?"
+    ],
+    "question": "what is the shape of the plate holding the food with broccoli and other vegetables?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what color is the plate holding the food with broccoli and other vegetables?",
+          "answers": [
+            "white",
+            "green",
+            "transparent"
+          ],
+          "score": 0.015186786651611328
+        },
+        {
+          "question": "what is the color of the plate holding the food with broccoli and other vegetables?",
+          "answers": [
+            "white",
+            "green",
+            "brown"
+          ],
+          "score": 0.04326343536376953
+        },
+        {
+          "question": "what is the shape of the plate holding the food with broccoli and other vegetables?",
+          "answers": [
+            "round",
+            "square",
+            "oval"
+          ],
+          "score": 0.05722618103027344
+        },
+        {
+          "question": "Question: What is the main protein or meat item served on the plate with broccoli and other vegetables?",
+          "answers": [
+            "chicken",
+            "meat",
+            "none"
+          ],
+          "score": 0.017063140869140625
+        },
+        {
+          "question": "Question: What is the main protein or meat item served on the plate with broccoli and other vegetables?",
+          "answers": [
+            "chicken",
+            "meat",
+            "none"
+          ],
+          "score": 0.017063140869140625,
+          "duplicate_of": 3
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.155,
+      "probe_selection_seconds": 1.85,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "round",
+    "rewrite": "a round plate of food with broccoli and other vegetables",
+    "raw_rank": 87,
+    "unseen_rank": 77
+  }
+}

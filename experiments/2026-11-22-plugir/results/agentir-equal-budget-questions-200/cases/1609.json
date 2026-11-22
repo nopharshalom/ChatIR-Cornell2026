@@ -1,0 +1,79 @@
+{
+  "qid": 1609,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the jacket worn by the man sitting on the motorcycle?",
+    "Question: What is the color of the jacket worn by the man sitting on the motorcycle?",
+    "what is the color of the motorcycle the man is sitting on?",
+    "what is the color of the motorcycle the man is sitting on?",
+    "Question: What is the color of the jacket worn by the man sitting on the motorcycle?"
+  ],
+  "second_candidates": [
+    "what color is the helmet worn by the man riding the motorcycle in the middle of the street?",
+    "what color is the jacket worn by the man riding the motorcycle in the middle of the street?",
+    "Question: **What is the color of the motorcycle the man is riding?",
+    "what is the color of the motorcycle the man is riding in the middle of the street?",
+    "what is the color of the motorcycle the man is riding in the middle of the street?"
+  ],
+  "paths": [
+    {
+      "question": "what color is the helmet worn by the man riding the motorcycle in the middle of the street?",
+      "answers": [
+        "black",
+        "yellow",
+        "white"
+      ],
+      "score": 0.16066503524780273
+    },
+    {
+      "question": "what color is the jacket worn by the man riding the motorcycle in the middle of the street?",
+      "answers": [
+        "yellow",
+        "blue",
+        "black"
+      ],
+      "score": 0.16640520095825195
+    },
+    {
+      "question": "Question: **What is the color of the motorcycle the man is riding?",
+      "answers": [
+        "black",
+        "red",
+        "police"
+      ],
+      "score": 0.2053847312927246
+    },
+    {
+      "question": "what is the color of the motorcycle the man is riding in the middle of the street?",
+      "answers": [
+        "black",
+        "red",
+        "blue"
+      ],
+      "score": 0.18741226196289062
+    },
+    {
+      "question": "what is the color of the motorcycle the man is riding in the middle of the street?",
+      "answers": [
+        "black",
+        "red",
+        "blue"
+      ],
+      "score": 0.18741226196289062,
+      "duplicate_of": 3
+    }
+  ],
+  "control": {
+    "question": "Question: **What is the color of the motorcycle the man is riding?",
+    "score": 0.2053847312927246
+  },
+  "mixed": {
+    "question": "what is the color of the jacket worn by the man sitting on the motorcycle?",
+    "score": 0.19110584259033203
+  },
+  "control_rank": 12,
+  "mixed_rank": 85,
+  "usual_rank": 85,
+  "new_answer": "black",
+  "new_rewrite": "a man sitting on a black motorcycle in the middle of the street"
+}

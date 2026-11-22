@@ -1,0 +1,91 @@
+{
+  "ids": [
+    187,
+    9735,
+    15875,
+    21424
+  ],
+  "prefix": [
+    "3 zebras standing and grazing in a grassy area",
+    "what is the other object in the image? zebra"
+  ],
+  "default": "what is the other object in the image?",
+  "chosen": "what is the number of zebras in the image?",
+  "trials": {
+    "what is the other object in the image?": {
+      "answers": [
+        "zebras",
+        "zebra",
+        "zebra",
+        "zebra"
+      ],
+      "rewrites": {
+        "zebras": "three zebras standing and grazing in a grassy area",
+        "zebra": "three zebras standing and grazing in a grassy area"
+      },
+      "ranks": [
+        12,
+        26,
+        31,
+        49
+      ],
+      "hits": 0
+    },
+    "what is the specific activity the zebras are performing in the image?": {
+      "answers": [
+        "grazing",
+        "grazing",
+        "grazing",
+        "grazing"
+      ],
+      "rewrites": {
+        "grazing": "three zebras standing and grazing in a grassy area"
+      },
+      "ranks": [
+        12,
+        26,
+        31,
+        49
+      ],
+      "hits": 0
+    },
+    "what is the specific location where the zebras are grazing?": {
+      "answers": [
+        "unsure",
+        "unsure",
+        "unsure",
+        "unsure"
+      ],
+      "rewrites": {
+        "unsure": "three zebras standing and grazing in a grassy area"
+      },
+      "ranks": [
+        12,
+        26,
+        31,
+        49
+      ],
+      "hits": 0
+    },
+    "what is the number of zebras in the image?": {
+      "answers": [
+        "3",
+        "3",
+        "5",
+        "2"
+      ],
+      "rewrites": {
+        "3": "three zebras standing and grazing in a grassy area",
+        "5": "five zebras standing and grazing in a grassy area",
+        "2": "two zebras standing and grazing in a grassy area"
+      },
+      "ranks": [
+        12,
+        26,
+        6,
+        8
+      ],
+      "hits": 2
+    }
+  }
+}

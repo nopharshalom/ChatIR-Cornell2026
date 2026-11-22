@@ -1,0 +1,100 @@
+{
+  "qid": 770,
+  "initial": "a young man jumping a skateboard with a crowd watching",
+  "initial_rank": 33,
+  "evidence": [
+    "tennis players and fans playing tennis",
+    "two guys skateboarding in a park with graffiti on the walls",
+    "a young man is doing a skateboard trick at a sidewalk",
+    "people on a field watching a team play frisbee",
+    "two boys riding a skateboard on some steps in an urban area",
+    "some kids are skateboarding on a concrete ramp",
+    "a person skateboarding in the air in a skate park at night",
+    "two boys on skateboards doing a trick at a building",
+    "skateboarders on the edge of a ramp",
+    "a boy is skateboarding on concrete steps"
+  ],
+  "candidates": [
+    "what is the location where the young man is jumping his skateboard with the crowd watching?",
+    "what is the time of day when the young man is jumping his skateboard with the crowd watching?",
+    "what is the specific location or surface where the young man is jumping his skateboard?",
+    "Based on the provided information sources, here is the generated question and the explanation of how it was derived:\n\n**Generated Question:**\n**Question:** what is?",
+    "**Generated Question:**\nWhat is the gender of the skateboarder performing the jump in front of the crowd?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the location where the young man is jumping his skateboard with the crowd watching?",
+      "answers": [
+        "skate park",
+        "sidewalk",
+        "field"
+      ],
+      "score": 0.057337284088134766
+    },
+    {
+      "question": "what is the time of day when the young man is jumping his skateboard with the crowd watching?",
+      "answers": [
+        "morning",
+        "afternoon",
+        "night"
+      ],
+      "score": 0.05988740921020508
+    },
+    {
+      "question": "what is the specific location or surface where the young man is jumping his skateboard?",
+      "answers": [
+        "skate park",
+        "sidewalk",
+        "ramp"
+      ],
+      "score": 0.07886743545532227
+    },
+    {
+      "question": "Based on the provided information sources, here is the generated question and the explanation of how it was derived:\n\n**Generated Question:**\n**Question:** what is?",
+      "answers": [
+        "tennis",
+        "skateboarding",
+        "frisbee"
+      ],
+      "score": 0.03757143020629883
+    },
+    {
+      "question": "**Generated Question:**\nWhat is the gender of the skateboarder performing the jump in front of the crowd?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.009859085083007812
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.066,
+  "probe_selection_seconds": 2.718,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the specific location or surface where the young man is jumping his skateboard?",
+      "answer": "a wooden box or ledge",
+      "rewrite": "a young man jumping his skateboard on a wooden box or ledge with a crowd watching",
+      "rank": 11,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the time of day when the young man is jumping his skateboard with the crowd watching?",
+      "answer": "daytime",
+      "rewrite": "a young man jumping a skateboard with a crowd watching during the daytime",
+      "rank": 20,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the specific location or surface where the young man is jumping his skateboard?",
+      "answer": "a wooden box or ledge",
+      "rewrite": "a young man jumping his skateboard on a wooden box or ledge with a crowd watching",
+      "rank": 11,
+      "hit": false
+    }
+  },
+  "seconds": 18.186
+}

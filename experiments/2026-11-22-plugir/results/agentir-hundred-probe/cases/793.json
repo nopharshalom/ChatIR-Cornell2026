@@ -1,0 +1,102 @@
+{
+  "qid": 793,
+  "initial": "an office desk is covered with several papers and 2 computers",
+  "initial_rank": 34,
+  "evidence": [
+    "group of people with laptops at a table",
+    "a desk with two computer monitors and a keyboard",
+    "the desk contains a cat and writing materials",
+    "two computers with two monitors",
+    "a two computer monitor computer desk near a window",
+    "a desk has two monitors, a keyboard, and a computer on it",
+    "two desks with monitors and a chair sitting in front of them",
+    "a laptop sitting on a table with other items beside it",
+    "a man sitting at a desk with four monitors in front of him",
+    "desk with lots of books and various items"
+  ],
+  "candidates": [
+    "what is the color of the man's shirt sitting at the desk with four monitors?",
+    "what is the color of the man's shirt sitting at the desk with four monitors?",
+    "what is the object sitting on the desk with two monitors?",
+    "what is the object sitting on the desk with two monitors?",
+    "what is the object sitting on the desk with four monitors?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the man's shirt sitting at the desk with four monitors?",
+      "answers": [
+        "blue",
+        "white",
+        "black"
+      ],
+      "score": 0.06537532806396484
+    },
+    {
+      "question": "what is the color of the man's shirt sitting at the desk with four monitors?",
+      "answers": [
+        "blue",
+        "white",
+        "black"
+      ],
+      "score": 0.06537532806396484,
+      "duplicate_of": 0
+    },
+    {
+      "question": "what is the object sitting on the desk with two monitors?",
+      "answers": [
+        "papers",
+        "cat",
+        "laptop"
+      ],
+      "score": 0.059809207916259766
+    },
+    {
+      "question": "what is the object sitting on the desk with two monitors?",
+      "answers": [
+        "papers",
+        "cat",
+        "laptop"
+      ],
+      "score": 0.059809207916259766,
+      "duplicate_of": 2
+    },
+    {
+      "question": "what is the object sitting on the desk with four monitors?",
+      "answers": [
+        "a man",
+        "a computer",
+        "a cat"
+      ],
+      "score": 0.05620861053466797
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.064,
+  "probe_selection_seconds": 1.449,
+  "probe_llm_calls": 3,
+  "probe_search_queries": 9,
+  "arms": {
+    "kl": {
+      "question": "what is the object sitting on the desk with two monitors?",
+      "answer": "laptop",
+      "rewrite": "an office desk is covered with several papers, two computers, and a laptop",
+      "rank": 22,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the object sitting on the desk with two monitors?",
+      "answer": "laptop",
+      "rewrite": "an office desk is covered with several papers, two computers, and a laptop",
+      "rank": 22,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the color of the man's shirt sitting at the desk with four monitors?",
+      "answer": "blue",
+      "rewrite": "an office desk covered with several papers and 2 computers, with a man in a blue shirt sitting at the desk with four monitors",
+      "rank": 83,
+      "hit": false
+    }
+  },
+  "seconds": 14.315
+}

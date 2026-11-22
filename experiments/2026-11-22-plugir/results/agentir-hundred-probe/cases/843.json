@@ -1,0 +1,102 @@
+{
+  "qid": 843,
+  "initial": "a plate of food with fruit and veggies are on a table with a mug of coffee",
+  "initial_rank": 14,
+  "evidence": [
+    "a breakfast plate with sausage, eggs, potatoes and toast",
+    "a bowl with a handful of fruit in it",
+    "a cup with a cup of coffee on it next to a bowl of cereal",
+    "three containers with sandwiches, fruit and vegetables are on a table",
+    "a slice of pizza with green and purple vegetables",
+    "two plates with a sandwich, salad, and a beer",
+    "a white plate with grilled meat, broccoli, and potatoes",
+    "a white plate containing different vegetables and meats",
+    "a white plate with a sandwich, carrots, and pickles on it",
+    "a bowl full of fruit and a cup next to it"
+  ],
+  "candidates": [
+    "what is the color of the plate containing the fruit and vegetables?",
+    "what is the color of the plate containing the fruit and vegetables?",
+    "what is the color of the plate?",
+    "Question: what is the color of the plate containing the fruit and vegetables?",
+    "what is the color of the plate containing the fruit and vegetables?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the plate containing the fruit and vegetables?",
+      "answers": [
+        "white",
+        "brown",
+        "blue"
+      ],
+      "score": 0.07495594024658203
+    },
+    {
+      "question": "what is the color of the plate containing the fruit and vegetables?",
+      "answers": [
+        "white",
+        "brown",
+        "blue"
+      ],
+      "score": 0.07495594024658203,
+      "duplicate_of": 0
+    },
+    {
+      "question": "what is the color of the plate?",
+      "answers": [
+        "white",
+        "blue",
+        "green"
+      ],
+      "score": 0.08391523361206055
+    },
+    {
+      "question": "Question: what is the color of the plate containing the fruit and vegetables?",
+      "answers": [
+        "white",
+        "colored",
+        "black"
+      ],
+      "score": 0.055928707122802734
+    },
+    {
+      "question": "what is the color of the plate containing the fruit and vegetables?",
+      "answers": [
+        "white",
+        "brown",
+        "blue"
+      ],
+      "score": 0.07495594024658203,
+      "duplicate_of": 0
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.06,
+  "probe_selection_seconds": 1.545,
+  "probe_llm_calls": 3,
+  "probe_search_queries": 9,
+  "arms": {
+    "kl": {
+      "question": "what is the color of the plate?",
+      "answer": "black",
+      "rewrite": "a black plate of food with fruit and veggies is on a table with a mug of coffee",
+      "rank": 2,
+      "hit": true
+    },
+    "random": {
+      "question": "what is the color of the plate containing the fruit and vegetables?",
+      "answer": "black",
+      "rewrite": "a black plate containing fruit and vegetables sits on a table next to a mug of coffee",
+      "rank": 1,
+      "hit": true
+    },
+    "probe": {
+      "question": "what is the color of the plate?",
+      "answer": "black",
+      "rewrite": "a black plate of food with fruit and veggies is on a table with a mug of coffee",
+      "rank": 2,
+      "hit": true
+    }
+  },
+  "seconds": 12.203
+}

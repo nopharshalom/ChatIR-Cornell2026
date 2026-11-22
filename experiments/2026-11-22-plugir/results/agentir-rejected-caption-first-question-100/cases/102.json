@@ -1,0 +1,71 @@
+{
+  "qid": 102,
+  "initial": "a man slides down a snowy slope on a snowboard",
+  "initial_rank": 66,
+  "evidence": [
+    "skier on skis riding up a slope with trees in the background",
+    "a skier in blue racing down a hill",
+    "three snowboarders in mid air performing a trick",
+    "a man and woman in the air during a snowboard trick",
+    "the man sitting on the ground holding his snowboard",
+    "a man wearing a blue jacket skiing down a snow covered hill",
+    "a man is jumping in the air with a snowboard",
+    "two snowboarders laying down on the snow",
+    "a person in midair in the air, with snowboard in front of him",
+    "a woman wearing a yellow jacket and yellow pants is on her skis"
+  ],
+  "displayed_ids": [
+    15732,
+    26674,
+    15396,
+    2896,
+    33014,
+    40011,
+    37887,
+    33697,
+    42809,
+    14304
+  ],
+  "rejected_captions": [
+    "a skier on a slope",
+    "a snow covered hill",
+    "a man is lying down on the snow",
+    "snowy mountains with snowy landscape",
+    "a man sitting on a snowboard sitting on top of snow covered mountains",
+    "a man with a snowboard stomping down a hill",
+    "the man is riding a snowboard down a slope",
+    "two people in the snow on snowboards",
+    "a man is on snow board",
+    "a man in black riding a snowboard on a snowy slope"
+  ],
+  "candidates": [
+    "what is the color of the man's jacket?",
+    "Question: what is the color of the man's pants?",
+    "Question: What color is the snowboard the man is riding?",
+    "what is the background scenery behind the man sliding down the snowy slope?",
+    "what is the gender of the person performing the trick in mid-air?"
+  ],
+  "control_candidates": [
+    "what is the color of the jacket worn by the man sliding down the snowy slope on a snowboard?",
+    "Question: what is the color of the jacket worn by the man performing the trick on the snowboard?",
+    "what is the gender of the person wearing the blue jacket while skiing down the snow covered hill?",
+    "what is the other object in the image?",
+    "what is the gender of the person sitting on the ground holding their snowboard?"
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "answer": "snowboard",
+    "rewrite": "A man descends a snowy slope on a snowboard.",
+    "rank": 39,
+    "hit": false,
+    "raw_rank": 39,
+    "unseen_rank": 36
+  },
+  "variant": {
+    "question": "Question: What color is the snowboard the man is riding?",
+    "answer": "black",
+    "rewrite": "a man slides down a snowy slope on a black snowboard",
+    "raw_rank": 142,
+    "unseen_rank": 132
+  }
+}

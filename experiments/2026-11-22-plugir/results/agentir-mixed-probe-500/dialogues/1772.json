@@ -1,0 +1,275 @@
+{
+  "qid": 1772,
+  "sample": "original",
+  "target": "unlabeled2017/000000376152.jpg",
+  "queries": [
+    "a white computer mouse sitting on top of a mouse pad",
+    "a white computer mouse sitting on top of a mouse pad next to a keyboard",
+    "a white computer mouse sitting on top of an orange mouse pad next to a keyboard"
+  ],
+  "ranks": [
+    17,
+    24,
+    2
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a white computer mouse sitting on top of a mouse pad",
+      "question": "what is the other object in the image?",
+      "answer": "keyboard",
+      "query_after": "a white computer mouse sitting on top of a mouse pad next to a keyboard",
+      "displayed_ids": [
+        15976,
+        20765,
+        20432,
+        33984,
+        8967,
+        8395,
+        22352,
+        11848,
+        25120,
+        1517
+      ],
+      "selected_ids": [
+        17862,
+        25697,
+        37883,
+        41365,
+        23098,
+        22284,
+        14658,
+        26921,
+        27779,
+        48882
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the woman riding the horse in the field?",
+          "answers": [
+            "white",
+            "brown",
+            "black"
+          ],
+          "score": 0.02689981460571289
+        },
+        {
+          "question": "what color is the mouse pad on top of which the white computer mouse is sitting?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.09203195571899414
+        },
+        {
+          "question": "what color is the laptop computer that the cat is laying near?",
+          "answers": [
+            "gray",
+            "white",
+            "black"
+          ],
+          "score": 0.030253887176513672
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "laptop",
+            "keyboard",
+            "desk"
+          ],
+          "score": 0.10291194915771484
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "laptop",
+            "keyboard",
+            "desk"
+          ],
+          "score": 0.10291194915771484,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the mouse pad?",
+          "answers": [
+            "white",
+            "black",
+            "blue"
+          ],
+          "score": 0.042754173278808594
+        },
+        {
+          "question": "what is the color of the woman riding the white horse?",
+          "answers": [
+            "white",
+            "black",
+            "red"
+          ],
+          "score": 0.03474569320678711
+        },
+        {
+          "question": "Question: What is the color of the laptop computer in the image?",
+          "answers": [
+            "gray",
+            "white",
+            "black"
+          ],
+          "score": 0.02520608901977539
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "laptop",
+            "keyboard",
+            "desk"
+          ],
+          "score": 0.10291194915771484
+        },
+        {
+          "question": "Question: What is the color of the mouse pad?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.03446531295776367
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a white computer mouse sitting on top of a mouse pad next to a keyboard",
+      "question": "what is the color of the mouse pad that the white computer mouse is sitting on?",
+      "answer": "orange",
+      "query_after": "a white computer mouse sitting on top of an orange mouse pad next to a keyboard",
+      "displayed_ids": [
+        11848,
+        15976,
+        16645,
+        7275,
+        33984,
+        9537,
+        8967,
+        42916,
+        4476,
+        20432
+      ],
+      "selected_ids": [
+        21638,
+        39826,
+        25697,
+        3323,
+        22448,
+        24046,
+        45455,
+        26921,
+        1807,
+        17051
+      ],
+      "rejected_count": 15,
+      "usual_paths": [
+        {
+          "question": "what is the color of the mouse pad that the white computer mouse is sitting on?",
+          "answers": [
+            "black",
+            "blue",
+            "green"
+          ],
+          "score": 0.0681304931640625
+        },
+        {
+          "question": "what is the color of the computer mouse?",
+          "answers": [
+            "white",
+            "black",
+            "silver"
+          ],
+          "score": 0.03696298599243164
+        },
+        {
+          "question": "what is the color of the computer mouse in the image?",
+          "answers": [
+            "white",
+            "black",
+            "silver"
+          ],
+          "score": 0.03956413269042969
+        },
+        {
+          "question": "what is the color of the computer mouse?",
+          "answers": [
+            "white",
+            "black",
+            "silver"
+          ],
+          "score": 0.03696298599243164,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the computer mouse?",
+          "answers": [
+            "white",
+            "black",
+            "silver"
+          ],
+          "score": 0.03696298599243164,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the mouse pad in the image?",
+          "answers": [
+            "white",
+            "black",
+            "blue"
+          ],
+          "score": 0.06638479232788086
+        },
+        {
+          "question": "what is the color of the keyboard in the image?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.03263568878173828
+        },
+        {
+          "question": "what is the color of the desk in the image?",
+          "answers": [
+            "white",
+            "black",
+            "gray"
+          ],
+          "score": 0.03497123718261719
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "keyboard",
+            "monitor",
+            "mouse"
+          ],
+          "score": 0.04161214828491211
+        },
+        {
+          "question": "What color is the mouse pad?",
+          "answers": [
+            "white",
+            "black",
+            "blue"
+          ],
+          "score": 0.041015625
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

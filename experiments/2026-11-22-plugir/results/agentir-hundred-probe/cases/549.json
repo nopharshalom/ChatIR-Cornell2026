@@ -1,0 +1,99 @@
+{
+  "qid": 549,
+  "initial": "a person on a bicycle on a city street in front of a large truck",
+  "initial_rank": 13,
+  "evidence": [
+    "the truck is yellow",
+    "a man riding his bike on a sidewalk next to a bus",
+    "a large truck parked in front of an industrial building",
+    "a truck with a big box in it",
+    "a woman rides a bike with a dog on it",
+    "a street with lots of people riding bikes and riding scooters",
+    "trucks driving down a highway on a cloudy day",
+    "the man riding his bike is wearing glasses",
+    "a large truck in front of two workers"
+  ],
+  "candidates": [
+    "Question: What is the gender of the person riding the bicycle in front of the large truck?",
+    "what is the color of the truck in front of which the person is riding their bicycle?",
+    "what is the color of the shirt worn by the person riding the bicycle?",
+    "Question: What is the color of the shirt worn by the person riding the bicycle?",
+    "what is the gender of the person riding the bicycle?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: What is the gender of the person riding the bicycle in front of the large truck?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.02110910415649414
+    },
+    {
+      "question": "what is the color of the truck in front of which the person is riding their bicycle?",
+      "answers": [
+        "yellow",
+        "blue",
+        "red"
+      ],
+      "score": 0.09697961807250977
+    },
+    {
+      "question": "what is the color of the shirt worn by the person riding the bicycle?",
+      "answers": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "score": 0.09635639190673828
+    },
+    {
+      "question": "Question: What is the color of the shirt worn by the person riding the bicycle?",
+      "answers": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "score": 0.07961702346801758
+    },
+    {
+      "question": "what is the gender of the person riding the bicycle?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.01770496368408203
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.063,
+  "probe_selection_seconds": 2.327,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the color of the truck in front of which the person is riding their bicycle?",
+      "answer": "white",
+      "rewrite": "a person on a bicycle riding on a city street in front of a large white truck",
+      "rank": 8,
+      "hit": true
+    },
+    "random": {
+      "question": "Question: What is the gender of the person riding the bicycle in front of the large truck?",
+      "answer": "male",
+      "rewrite": "a male person riding a bicycle on a city street in front of a large truck",
+      "rank": 13,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the color of the truck in front of which the person is riding their bicycle?",
+      "answer": "white",
+      "rewrite": "a person on a bicycle riding on a city street in front of a large white truck",
+      "rank": 8,
+      "hit": true
+    }
+  },
+  "seconds": 14.375
+}

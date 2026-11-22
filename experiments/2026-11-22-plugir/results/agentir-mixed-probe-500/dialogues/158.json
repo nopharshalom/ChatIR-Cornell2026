@@ -1,0 +1,405 @@
+{
+  "qid": 158,
+  "sample": "original",
+  "target": "unlabeled2017/000000335252.jpg",
+  "queries": [
+    "a man-made river with boats and a bridge crossing it",
+    "a man-made river with boats and a green bridge crossing it",
+    "A man-made river featuring boats and a green bridge that spans across it.",
+    "a man-made river with blue boats and a green bridge crossing it"
+  ],
+  "ranks": [
+    32,
+    36,
+    30,
+    5
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a man-made river with boats and a bridge crossing it",
+      "question": "Question: What is the color of the bridge crossing the man-made river?",
+      "answer": "green",
+      "query_after": "a man-made river with boats and a green bridge crossing it",
+      "displayed_ids": [
+        47780,
+        16294,
+        6933,
+        33727,
+        27713,
+        29171,
+        2580,
+        8896,
+        37946,
+        23783
+      ],
+      "selected_ids": [
+        37837,
+        49233,
+        24031,
+        36635,
+        7941,
+        19732,
+        28974,
+        11629,
+        38568,
+        31243
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the bridge crossing the man-made river?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.04065656661987305
+        },
+        {
+          "question": "what type of boats are present in the man-made river?",
+          "answers": [
+            "fishing boats",
+            "small boats",
+            "wooden boats"
+          ],
+          "score": 0.018492698669433594
+        },
+        {
+          "question": "Question: What is the specific type of bridge crossing the man-made river?",
+          "answers": [
+            "wooden",
+            "arch",
+            "metal"
+          ],
+          "score": 0.055298805236816406
+        },
+        {
+          "question": "Question: What is the color of the bridge crossing the man-made river?",
+          "answers": [
+            "red",
+            "green",
+            "white"
+          ],
+          "score": 0.06621599197387695
+        },
+        {
+          "question": "what is the color of the bridge crossing the man-made river?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.04065656661987305,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Are there people watching the activity in the scene?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0009298324584960938
+        },
+        {
+          "question": "Question: What is the type of bridge crossing the river?",
+          "answers": [
+            "wooden",
+            "metal",
+            "concrete"
+          ],
+          "score": 0.0364689826965332
+        },
+        {
+          "question": "Question: What is the material of the boats visible in the scene?",
+          "answers": [
+            "wooden",
+            "metal",
+            "plastic"
+          ],
+          "score": 0.037876129150390625
+        },
+        {
+          "question": "Question: Are there boats docked in a marina in the scene?",
+          "answers": [
+            "yes",
+            "no",
+            "not sure"
+          ],
+          "score": 0.0005173683166503906
+        },
+        {
+          "question": "Question: Question: Is there a lighthouse visible in the scene?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0006885528564453125
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a man-made river with boats and a green bridge crossing it",
+      "question": "Question: What is the color of the man's shirt in the image?",
+      "answer": "unsure",
+      "query_after": "A man-made river featuring boats and a green bridge that spans across it.",
+      "displayed_ids": [
+        49509,
+        47780,
+        25601,
+        19759,
+        27713,
+        2453,
+        17228,
+        33727,
+        22189,
+        23622
+      ],
+      "selected_ids": [
+        42126,
+        28974,
+        22517,
+        19288,
+        11629,
+        25056,
+        42479,
+        36635,
+        23585,
+        45342
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "What type of boats are present in the man-made river?",
+          "answers": [
+            "fishing boats",
+            "airplanes",
+            "small boats"
+          ],
+          "score": 0.026176929473876953
+        },
+        {
+          "question": "what is the location where the boats are parked?",
+          "answers": [
+            "shore",
+            "marina",
+            "dock"
+          ],
+          "score": 0.0067234039306640625
+        },
+        {
+          "question": "Based on the provided information sources, here is the generated question:\n\n**Question: Are there people inside the boats?",
+          "answers": [
+            "Yes",
+            "No",
+            "I'm not sure"
+          ],
+          "score": 0.007808685302734375
+        },
+        {
+          "question": "What types of boats are in the man-made river?",
+          "answers": [
+            "fishing boats",
+            "airplanes",
+            "surfboards"
+          ],
+          "score": 0.04330778121948242
+        },
+        {
+          "question": "What type of boats are floating on the man-made river?",
+          "answers": [
+            "fishing boats",
+            "airplanes",
+            "surfboard"
+          ],
+          "score": 0.034070491790771484
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the material of the platforms on the boats in the river?",
+          "answers": [
+            "wooden",
+            "metal",
+            "concrete"
+          ],
+          "score": 0.04242706298828125
+        },
+        {
+          "question": "Question: What are the boats in the man-made river?",
+          "answers": [
+            "fishing boats",
+            "airplanes",
+            "surfing"
+          ],
+          "score": 0.02893972396850586
+        },
+        {
+          "question": "Question: How many boats are visible in the man-made river?",
+          "answers": [
+            "2",
+            "3",
+            "several"
+          ],
+          "score": 0.0028533935546875
+        },
+        {
+          "question": "Question: What is the color of the man's shirt in the image?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.054341793060302734
+        },
+        {
+          "question": "Question: What is the material of the platforms on the boats in the river?",
+          "answers": [
+            "wooden",
+            "metal",
+            "concrete"
+          ],
+          "score": 0.04242706298828125,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "A man-made river featuring boats and a green bridge that spans across it.",
+      "question": "what is the color of the boats in the image?",
+      "answer": "blue",
+      "query_after": "a man-made river with blue boats and a green bridge crossing it",
+      "displayed_ids": [
+        17228,
+        2453,
+        47780,
+        25601,
+        49509,
+        27713,
+        33727,
+        19759,
+        42237,
+        22189
+      ],
+      "selected_ids": [
+        31243,
+        11629,
+        36635,
+        23585,
+        35811,
+        11556,
+        9475,
+        42468,
+        42126,
+        7941
+      ],
+      "rejected_count": 18,
+      "usual_paths": [
+        {
+          "question": "what is the color of the boats in the image?",
+          "answers": [
+            "green",
+            "blue",
+            "red"
+          ],
+          "score": 0.06872844696044922
+        },
+        {
+          "question": "what is the color of the boats in the image?",
+          "answers": [
+            "green",
+            "blue",
+            "red"
+          ],
+          "score": 0.06872844696044922,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the man's shirt in the image?",
+          "answers": [
+            "green",
+            "red",
+            "blue"
+          ],
+          "score": 0.06629228591918945
+        },
+        {
+          "question": "what is the color of the boats in the image?",
+          "answers": [
+            "green",
+            "blue",
+            "red"
+          ],
+          "score": 0.06872844696044922,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bridge crossing the man-made river?",
+          "answers": [
+            "green",
+            "blue",
+            "red"
+          ],
+          "score": 0.060778141021728516
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the water level of the river in the image?",
+          "answers": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "score": 0.0068492889404296875
+        },
+        {
+          "question": "Question: What type of boat is visible in the image?",
+          "answers": [
+            "fishing boat",
+            "small boat",
+            "produce boat"
+          ],
+          "score": 0.023996829986572266
+        },
+        {
+          "question": "Question: What is the color of the water in the image?",
+          "answers": [
+            "blue",
+            "green",
+            "brown"
+          ],
+          "score": 0.05300760269165039
+        },
+        {
+          "question": "Question: How many boats are visible in the image?",
+          "answers": [
+            "one",
+            "two",
+            "three"
+          ],
+          "score": 0.005805015563964844
+        },
+        {
+          "question": "Question: What is the background scenery behind the boats (e.g., buildings, houses, or nature)?",
+          "answers": [
+            "buildings",
+            "houses",
+            "nature"
+          ],
+          "score": 0.007097721099853516
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

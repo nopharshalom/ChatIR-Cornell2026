@@ -1,0 +1,82 @@
+{
+  "qid": 1112,
+  "candidates": [
+    "Question: Are the giraffes standing next to rocks or in an open field?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "kl": {
+    "question": "what is the other object in the image?",
+    "answer": "giraffe",
+    "rewrite": "two giraffes standing inside of a zoo enclosure",
+    "raw_rank": 25,
+    "unseen_rank": 15
+  },
+  "probe": {
+    "question": "what is the other object in the image?",
+    "answer": "giraffe",
+    "rewrite": "two giraffes standing inside of a zoo enclosure",
+    "raw_rank": 25,
+    "unseen_rank": 15
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: Are the giraffes standing next to rocks or in an open field?",
+        "answers": [
+          "rocks",
+          "open field",
+          "both"
+        ],
+        "score": 0.01423501968383789
+      },
+      {
+        "question": "what is the other object in the image?",
+        "answers": [
+          "fence",
+          "rocks",
+          "trees"
+        ],
+        "score": 0.17342472076416016
+      },
+      {
+        "question": "what is the other object in the image?",
+        "answers": [
+          "fence",
+          "rocks",
+          "trees"
+        ],
+        "score": 0.17342472076416016,
+        "duplicate_of": 1
+      },
+      {
+        "question": "what is the other object in the image?",
+        "answers": [
+          "fence",
+          "rocks",
+          "trees"
+        ],
+        "score": 0.17342472076416016,
+        "duplicate_of": 1
+      },
+      {
+        "question": "what is the other object in the image?",
+        "answers": [
+          "fence",
+          "rocks",
+          "trees"
+        ],
+        "score": 0.17342472076416016,
+        "duplicate_of": 1
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.051,
+    "probe_selection_seconds": 1.025,
+    "probe_llm_calls": 2,
+    "probe_search_queries": 6
+  },
+  "reused_outcome": true
+}

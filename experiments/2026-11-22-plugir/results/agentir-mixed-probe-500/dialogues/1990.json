@@ -1,0 +1,145 @@
+{
+  "qid": 1990,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000139288.jpg",
+  "queries": [
+    "a train parked at the station on a cloudy day",
+    "a yellow train parked at the station on a cloudy day"
+  ],
+  "ranks": [
+    21,
+    2
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a train parked at the station on a cloudy day",
+      "question": "what is the color of the train parked at the station?",
+      "answer": "yellow",
+      "query_after": "a yellow train parked at the station on a cloudy day",
+      "displayed_ids": [
+        38084,
+        8483,
+        49756,
+        17511,
+        36447,
+        41001,
+        48715,
+        587,
+        12710,
+        13285
+      ],
+      "selected_ids": [
+        36216,
+        23276,
+        21794,
+        15630,
+        27965,
+        22902,
+        19511,
+        41672,
+        49049,
+        20293
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what color is the train parked at the station?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.24289226531982422
+        },
+        {
+          "question": "what is the color of the train parked at the station?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.2817044258117676
+        },
+        {
+          "question": "Question: What is the color of the train parked at the station?",
+          "answers": [
+            "red",
+            "blue and yellow",
+            "yellow, blue and black"
+          ],
+          "score": 0.21602296829223633
+        },
+        {
+          "question": "what is the color of the train engine parked on the track?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.2739701271057129
+        },
+        {
+          "question": "what is the color of the train engine parked on the track?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.2739701271057129,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the train parked at the station?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.2817044258117676
+        },
+        {
+          "question": "Question: What is the color of the engine of the train parked at the station?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.2515110969543457
+        },
+        {
+          "question": "Question: What is the color of the train parked at the station?",
+          "answers": [
+            "red",
+            "blue and yellow",
+            "yellow, blue and black"
+          ],
+          "score": 0.21602296829223633
+        },
+        {
+          "question": "Question: What is the color of the train parked at the station?",
+          "answers": [
+            "red",
+            "blue and yellow",
+            "yellow, blue and black"
+          ],
+          "score": 0.21602296829223633,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the bus stopped by the street?",
+          "answers": [
+            "blue",
+            "blue and white",
+            "blue and yellow"
+          ],
+          "score": 0.06456708908081055
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

@@ -1,0 +1,100 @@
+{
+  "qid": 1866,
+  "initial": "a street sign on a busy street surrounded by tall buildings",
+  "initial_rank": 20,
+  "evidence": [
+    "a sign with a black background and a blue background",
+    "the cars are driving along side of a crowded sidewalk",
+    "a street sign pole has several signs on it",
+    "blue street signs in front of a tall building",
+    "busy times square at night",
+    "a street sign on a pole with a blue sky and building behind it",
+    "a group of people on bikes and a few on cars are crossing a street",
+    "a busy street with pedestrians and buses",
+    "there are many cars and a lot of people in the picture",
+    "a stop sign with the ohio street signs"
+  ],
+  "candidates": [
+    "Question: What is the time of day depicted in the image?",
+    "Question: What is the sky color visible behind the street sign?",
+    "Question: What is the specific detail written on the street sign?",
+    "Question: Question: Which color is the background of the street sign?",
+    "Question: What is the specific location name indicated on the street sign?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: What is the time of day depicted in the image?",
+      "answers": [
+        "daytime",
+        "night",
+        "dusk"
+      ],
+      "score": 0.056545257568359375
+    },
+    {
+      "question": "Question: What is the sky color visible behind the street sign?",
+      "answers": [
+        "blue",
+        "black",
+        "white"
+      ],
+      "score": 0.022975921630859375
+    },
+    {
+      "question": "Question: What is the specific detail written on the street sign?",
+      "answers": [
+        "Ohio",
+        "5th Avenue",
+        "Broadway"
+      ],
+      "score": 0.05725669860839844
+    },
+    {
+      "question": "Question: Question: Which color is the background of the street sign?",
+      "answers": [
+        "blue",
+        "black",
+        "white"
+      ],
+      "score": 0.02694988250732422
+    },
+    {
+      "question": "Question: What is the specific location name indicated on the street sign?",
+      "answers": [
+        "Times Square",
+        "Ohio",
+        "Unknown"
+      ],
+      "score": 0.04903745651245117
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.058,
+  "probe_selection_seconds": 2.47,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "Question: What is the specific detail written on the street sign?",
+      "answer": "Lomoumba St.",
+      "rewrite": "a street sign reading \"Lomoumba St.\" on a busy street surrounded by tall buildings",
+      "rank": 1,
+      "hit": true
+    },
+    "random": {
+      "question": "Question: What is the time of day depicted in the image?",
+      "answer": "daytime",
+      "rewrite": "a street sign on a busy street surrounded by tall buildings during the daytime",
+      "rank": 15,
+      "hit": false
+    },
+    "probe": {
+      "question": "Question: What is the specific detail written on the street sign?",
+      "answer": "Lomoumba St.",
+      "rewrite": "a street sign reading \"Lomoumba St.\" on a busy street surrounded by tall buildings",
+      "rank": 1,
+      "hit": true
+    }
+  },
+  "seconds": 14.34
+}

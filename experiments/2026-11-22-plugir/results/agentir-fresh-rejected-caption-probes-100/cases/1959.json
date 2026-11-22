@@ -1,0 +1,181 @@
+{
+  "qid": 1959,
+  "initial": "a small bathroom with beige tile and a white shower curtain",
+  "initial_rank": 11,
+  "displayed": [
+    46932,
+    32017,
+    2146,
+    39068,
+    20146,
+    7639,
+    34968,
+    14985,
+    40676,
+    17643
+  ],
+  "evidence": [
+    "a bathroom with two sinks and a large mirror",
+    "a white toilet in a tiled bathroom",
+    "this is a bathroom containing a tub, mirror, and sink",
+    "toilet a new urinal and a broken one",
+    "a bathroom has a patterned curtain over the tub",
+    "a toilet with a lid is on the floor of a bathroom",
+    "a bathroom that has the sink, tub, and shower",
+    "a bathroom with two sinks and a shower",
+    "a bathroom with two sinks and a shower curtain",
+    "a white bathroom with a sink, mirror, and tub"
+  ],
+  "rejected_captions": [
+    "bathroom with a toilet and a shower",
+    "a white toilet and a shower curtain",
+    "a small bathroom has a toilet, shower and a shower curtain",
+    "a bath with white shower curtains",
+    "the white bathroom shower curtain is dripping",
+    "a toilet next to a shower and a shower curtain",
+    "a bathroom with an open window and tile floor",
+    "this bathroom has a shower curtain",
+    "the bathroom is a white bathroom with a toilet and tub",
+    "bathroom sink has blue tapware"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the other object in the image?",
+      "what is the color of the toilet in the small bathroom with beige tile and a white shower curtain?",
+      "what is the color of the toilet in the bathroom with beige tile?",
+      "what is the color of the toilet in the bathroom with beige tile and a white shower curtain?",
+      "what is the color of the toilet in the small bathroom with beige tile and a white shower curtain?"
+    ],
+    "question": "what is the other object in the image?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sink",
+            "toilet",
+            "tub"
+          ],
+          "score": 0.08800220489501953
+        },
+        {
+          "question": "what is the color of the toilet in the small bathroom with beige tile and a white shower curtain?",
+          "answers": [
+            "white",
+            "beige",
+            "off-white"
+          ],
+          "score": 0.005981922149658203
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom with beige tile?",
+          "answers": [
+            "white",
+            "beige",
+            "broken"
+          ],
+          "score": 0.008437633514404297
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom with beige tile and a white shower curtain?",
+          "answers": [
+            "white",
+            "beige",
+            "patterned"
+          ],
+          "score": 0.016927242279052734
+        },
+        {
+          "question": "what is the color of the toilet in the small bathroom with beige tile and a white shower curtain?",
+          "answers": [
+            "white",
+            "beige",
+            "off-white"
+          ],
+          "score": 0.005981922149658203,
+          "duplicate_of": 1
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.154,
+      "probe_selection_seconds": 1.968,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "toilet",
+    "rewrite": "a small bathroom with beige tile, a white shower curtain, and a toilet",
+    "raw_rank": 18,
+    "unseen_rank": 8
+  },
+  "rejected": {
+    "candidates": [
+      "what is the other object in the image?",
+      "what is the other object in the image?",
+      "what is the other object in the image?",
+      "what is the other object in the image?",
+      "Question: What is the color of the toilet in the small bathroom?"
+    ],
+    "question": "what is the other object in the image?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sink",
+            "toilet",
+            "tub"
+          ],
+          "score": 0.08800220489501953
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sink",
+            "toilet",
+            "tub"
+          ],
+          "score": 0.08800220489501953,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sink",
+            "toilet",
+            "tub"
+          ],
+          "score": 0.08800220489501953,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sink",
+            "toilet",
+            "tub"
+          ],
+          "score": 0.08800220489501953,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the toilet in the small bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "blue"
+          ],
+          "score": 0.04001188278198242
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.147,
+      "probe_selection_seconds": 0.951,
+      "probe_llm_calls": 2,
+      "probe_search_queries": 6
+    },
+    "answer": "toilet",
+    "rewrite": "a small bathroom with beige tile, a white shower curtain, and a toilet",
+    "raw_rank": 18,
+    "unseen_rank": 8
+  }
+}

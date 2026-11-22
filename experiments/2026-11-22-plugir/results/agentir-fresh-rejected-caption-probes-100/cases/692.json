@@ -1,0 +1,181 @@
+{
+  "qid": 692,
+  "initial": "a man smiles at a man who plans on shaking his hand",
+  "initial_rank": 22,
+  "displayed": [
+    18496,
+    26732,
+    15269,
+    35027,
+    6913,
+    21747,
+    5097,
+    9842,
+    32807,
+    3621
+  ],
+  "evidence": [
+    "a man standing in the middle of a room and interacting with people",
+    "a group of men dressed up in suits and ties",
+    "two men looking at their cell phones in the street",
+    "two young men sitting on a couch and enjoying their game",
+    "two tennis players are standing next to a net",
+    "a group of people sitting at a table drinking wine",
+    "two men with surfboards walking on a beach",
+    "two men on a field with a frisbee in their hands",
+    "a man in a suit and tie stands outside",
+    "two men wearing black suits and black tie in a room"
+  ],
+  "rejected_captions": [
+    "a man in a blue jacket, brown tie and tie in a library",
+    "a man talking",
+    "a man holding a video game controller",
+    "a man shakes hands with another man",
+    "sultan syed maoz is shaking hands with some men",
+    "two tennis players are on a court",
+    "two men shaking hands in front of a wall with chinese and yuan flags",
+    "men in black suits",
+    "kyrgyz president nebojsa khrushchev speaks with a group of businessmen",
+    "two tennis players are standing next to a net"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the location of the two men?",
+      "what is the clothing of the man who is smiling?",
+      "what is the location of the two men in the image?",
+      "what is the location of the two men in the image?",
+      "what is the location of the two men in the image?"
+    ],
+    "question": "what is the location of the two men?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the location of the two men?",
+          "answers": [
+            "a room",
+            "a beach",
+            "outside"
+          ],
+          "score": 0.15739202499389648
+        },
+        {
+          "question": "what is the clothing of the man who is smiling?",
+          "answers": [
+            "casual",
+            "suits",
+            "black suits"
+          ],
+          "score": 0.09395933151245117
+        },
+        {
+          "question": "what is the location of the two men in the image?",
+          "answers": [
+            "a room",
+            "the street",
+            "outside"
+          ],
+          "score": 0.15399169921875
+        },
+        {
+          "question": "what is the location of the two men in the image?",
+          "answers": [
+            "a room",
+            "the street",
+            "outside"
+          ],
+          "score": 0.15399169921875,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the location of the two men in the image?",
+          "answers": [
+            "a room",
+            "the street",
+            "outside"
+          ],
+          "score": 0.15399169921875,
+          "duplicate_of": 2
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.06,
+      "probe_selection_seconds": 1.424,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "outdoors",
+    "rewrite": "two men smiling outdoors, one shaking the other's hand",
+    "raw_rank": 3,
+    "unseen_rank": 2
+  },
+  "rejected": {
+    "candidates": [
+      "what is the location of the two men?",
+      "what is the location of the two men?",
+      "what are the two men wearing?",
+      "Question: what is the location of the two men?",
+      "what is the location of the two men?"
+    ],
+    "question": "what are the two men wearing?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the location of the two men?",
+          "answers": [
+            "a room",
+            "a beach",
+            "outside"
+          ],
+          "score": 0.15739202499389648
+        },
+        {
+          "question": "what is the location of the two men?",
+          "answers": [
+            "a room",
+            "a beach",
+            "outside"
+          ],
+          "score": 0.15739202499389648,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what are the two men wearing?",
+          "answers": [
+            "suits and ties",
+            "black suits and black tie",
+            "surfsuits"
+          ],
+          "score": 0.17821359634399414
+        },
+        {
+          "question": "Question: what is the location of the two men?",
+          "answers": [
+            "street",
+            "field",
+            "beach"
+          ],
+          "score": 0.07962942123413086
+        },
+        {
+          "question": "what is the location of the two men?",
+          "answers": [
+            "a room",
+            "a beach",
+            "outside"
+          ],
+          "score": 0.15739202499389648,
+          "duplicate_of": 0
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.056,
+      "probe_selection_seconds": 1.514,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "suits",
+    "rewrite": "two men in suits, one smiling at the other who is extending his hand for a handshake",
+    "raw_rank": 5,
+    "unseen_rank": 2
+  }
+}

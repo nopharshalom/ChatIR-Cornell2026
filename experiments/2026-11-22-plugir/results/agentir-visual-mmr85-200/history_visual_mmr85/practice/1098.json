@@ -1,0 +1,95 @@
+{
+  "ids": [
+    11052,
+    176,
+    16751,
+    43930
+  ],
+  "prefix": [
+    "a green and white bus stands at an intersection",
+    "Is there a stop sign visible near the green and white bus? no"
+  ],
+  "default": "what is the color of the bus in the image where a stop sign is visible?",
+  "chosen": "what is the color of the bus in the image where a stop sign is visible?",
+  "trials": {
+    "what is the color of the bus in the image where a stop sign is visible?": {
+      "answers": [
+        "green and blue",
+        "teal and white",
+        "blue",
+        "white"
+      ],
+      "rewrites": {
+        "green and blue": "a green and blue bus stands at an intersection without a visible stop sign",
+        "teal and white": "a teal and white bus stands at an intersection without a visible stop sign",
+        "blue": "a blue and white bus stands at an intersection without a visible stop sign",
+        "white": "a white bus stands at an intersection without a visible stop sign"
+      },
+      "ranks": [
+        10,
+        2,
+        226,
+        30
+      ],
+      "hits": 2
+    },
+    "what is the status of the green and white bus (e.g., driving or parked)?": {
+      "answers": [
+        "driving",
+        "parked",
+        "driving",
+        "driving"
+      ],
+      "rewrites": {
+        "driving": "a green and white bus is driving through an intersection without a visible stop sign",
+        "parked": "a parked green and white bus stands at an intersection without a visible stop sign"
+      },
+      "ranks": [
+        7,
+        20,
+        70,
+        52
+      ],
+      "hits": 1
+    },
+    "what is the background object behind the green and white bus?": {
+      "answers": [
+        "building",
+        "trees",
+        "a building",
+        "trees"
+      ],
+      "rewrites": {
+        "building": "a green and white bus stands at an intersection with a building in the background",
+        "trees": "a green and white bus stands at an intersection with trees in the background",
+        "a building": "a green and white bus stands at an intersection with a building in the background"
+      },
+      "ranks": [
+        12,
+        33,
+        37,
+        24
+      ],
+      "hits": 0
+    },
+    "Question: Which of the following images shows a green and white bus that is driving down a street?": {
+      "answers": [
+        "The image shows a green and white bus that is driving down a street.",
+        "The image shows a green and white bus that is driving down a street.",
+        "The first image.",
+        "The first image."
+      ],
+      "rewrites": {
+        "The image shows a green and white bus that is driving down a street.": "a green and white bus driving down a street",
+        "The first image.": "a green and white bus driving down a street"
+      },
+      "ranks": [
+        14,
+        10,
+        36,
+        28
+      ],
+      "hits": 1
+    }
+  }
+}

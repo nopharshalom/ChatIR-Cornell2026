@@ -1,0 +1,78 @@
+{
+  "qid": 1587,
+  "sample": 2,
+  "first_candidates": [
+    "what is the type of food being eaten by the people at the table?",
+    "Question: Who are the people sitting at the dinner table?",
+    "Question: how many people are sitting at the table?",
+    "what is the location of the dinner table where the people are eating?",
+    "what color is the table where the people are sitting and eating?"
+  ],
+  "second_candidates": [
+    "what is the gender of the people sitting at the dinner table?",
+    "Question: what is the specific food being eaten by the people at the table?",
+    "what is the specific location of the group of people eating pizza?",
+    "what is the number of people sitting at the table?",
+    "what is the specific food being eaten by the group of people sitting at the table?"
+  ],
+  "paths": [
+    {
+      "question": "what is the gender of the people sitting at the dinner table?",
+      "answers": [
+        "male",
+        "female",
+        "mixed"
+      ],
+      "score": 0.029314041137695312
+    },
+    {
+      "question": "Question: what is the specific food being eaten by the people at the table?",
+      "answers": [
+        "pizza",
+        "wine and cheese",
+        "unknown food"
+      ],
+      "score": 0.12336492538452148
+    },
+    {
+      "question": "what is the specific location of the group of people eating pizza?",
+      "answers": [
+        "indoor bar",
+        "outdoor table",
+        "dinner table"
+      ],
+      "score": 0.12177419662475586
+    },
+    {
+      "question": "what is the number of people sitting at the table?",
+      "answers": [
+        "three",
+        "four",
+        "five"
+      ],
+      "score": 0.006871700286865234
+    },
+    {
+      "question": "what is the specific food being eaten by the group of people sitting at the table?",
+      "answers": [
+        "pizza",
+        "pasta",
+        "steak"
+      ],
+      "score": 0.15251922607421875
+    }
+  ],
+  "control": {
+    "question": "what is the specific food being eaten by the group of people sitting at the table?",
+    "score": 0.15251922607421875
+  },
+  "mixed": {
+    "question": "what color is the table where the people are sitting and eating?",
+    "score": 0.12568330764770508
+  },
+  "control_rank": 45,
+  "mixed_rank": 39,
+  "usual_rank": 39,
+  "new_answer": "pizza",
+  "new_rewrite": "a group of people are sitting at a dinner table eating pizza"
+}

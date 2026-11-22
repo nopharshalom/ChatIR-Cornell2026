@@ -1,0 +1,1325 @@
+{
+  "qid": 853,
+  "sample": "original",
+  "target": "unlabeled2017/000000106939.jpg",
+  "queries": [
+    "a person skiing performing a ski jump on a snowy slope",
+    "a person in black clothing skiing and performing a jump on a snowy slope",
+    "a person in black clothing skiing and performing a ski jump on a snowy slope",
+    "a person in black clothing performing a ski jump on a snowy slope with a snowy mountain in the background",
+    "a person in black clothing performs a ski jump on a snowy slope with a snowy mountain in the background",
+    "a person in black clothing is skiing and performing a jump on a snowy slope with a snowy mountain in the background, while a snowboarder in black clothing is also visible",
+    "a person in black clothing performing a ski jump on a snowy slope with a snowy mountain background",
+    "A person dressed in black is executing a ski jump down a snowy slope, set against the backdrop of a snow-covered mountain.",
+    "a person in black clothing performs a ski jump on a snowy slope with a snowy mountain background",
+    "a skier wearing a black outfit and a white hat performs a ski jump against a snowy mountain backdrop",
+    "A skier dressed in a black outfit and wearing a white hat executes a ski jump against a snowy mountain backdrop."
+  ],
+  "ranks": [
+    30,
+    50,
+    25,
+    18,
+    18,
+    31,
+    23,
+    28,
+    20,
+    67,
+    81
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a person skiing performing a ski jump on a snowy slope",
+      "question": "Question: What is the color of the clothing worn by the skier?",
+      "answer": "black",
+      "query_after": "a person in black clothing skiing and performing a jump on a snowy slope",
+      "displayed_ids": [
+        12968,
+        19132,
+        13589,
+        47479,
+        9619,
+        26703,
+        3211,
+        35424,
+        21000,
+        43934
+      ],
+      "selected_ids": [
+        27185,
+        14401,
+        39054,
+        31539,
+        38066,
+        43983,
+        3211,
+        40886,
+        32273,
+        27847
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: What is the color of the jacket worn by the person performing the ski jump on the snowy slope?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.15498971939086914
+        },
+        {
+          "question": "what is the current action of the person wearing the yellow jacket?",
+          "answers": [
+            "skiing",
+            "jumping",
+            "falling"
+          ],
+          "score": 0.008884429931640625
+        },
+        {
+          "question": "what is the background scenery behind the person performing the ski jump on the snowy slope?",
+          "answers": [
+            "trees",
+            "sky",
+            "snow"
+          ],
+          "score": 0.06280374526977539
+        },
+        {
+          "question": "what is the color of the jacket worn by the person performing a ski jump on a snowy slope?",
+          "answers": [
+            "black",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.15666818618774414
+        },
+        {
+          "question": "what is the color of the jacket worn by the person performing a ski jump on a snowy slope?",
+          "answers": [
+            "black",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.15666818618774414,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the clothing worn by the skier?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.16260290145874023
+        },
+        {
+          "question": "Question: What is the color of the skier's clothing?",
+          "answers": [
+            "blue",
+            "red",
+            "black"
+          ],
+          "score": 0.16093206405639648
+        },
+        {
+          "question": "Question: What is the gender of the person performing the ski jump?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.018124103546142578
+        },
+        {
+          "question": "Question: What is the gender of the person performing the ski jump?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.018124103546142578,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the gender of the person performing the ski jump?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.018124103546142578,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a person in black clothing skiing and performing a jump on a snowy slope",
+      "question": "Question: What is the color of the clothing worn by the skier?",
+      "answer": "black",
+      "query_after": "a person in black clothing skiing and performing a ski jump on a snowy slope",
+      "displayed_ids": [
+        5532,
+        28038,
+        2541,
+        12968,
+        19132,
+        19913,
+        18462,
+        39804,
+        9619,
+        12963
+      ],
+      "selected_ids": [
+        4132,
+        43983,
+        40202,
+        10847,
+        33386,
+        27185,
+        48655,
+        43549,
+        39054,
+        33667
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "what is the background scenery behind the person performing the ski jump?",
+          "answers": [
+            "trees",
+            "snowy slope",
+            "sky"
+          ],
+          "score": 0.0734553337097168
+        },
+        {
+          "question": "what is the background scenery behind the person performing the ski jump?",
+          "answers": [
+            "trees",
+            "snowy slope",
+            "sky"
+          ],
+          "score": 0.0734553337097168,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the clothing worn by the skier?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.13469505310058594
+        },
+        {
+          "question": "what is the background scenery behind the person performing the ski jump?",
+          "answers": [
+            "trees",
+            "snowy slope",
+            "sky"
+          ],
+          "score": 0.0734553337097168,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the clothing worn by the skier?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.052657127380371094
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the specific object or structure that the skier jumps over?",
+          "answers": [
+            "trees",
+            "hill",
+            "ramp"
+          ],
+          "score": 0.07359027862548828
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "snow",
+            "snowboard",
+            "trees"
+          ],
+          "score": 0.09168577194213867
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "snow",
+            "snowboard",
+            "trees"
+          ],
+          "score": 0.09168577194213867,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "snow",
+            "snowboard",
+            "trees"
+          ],
+          "score": 0.09168577194213867,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the horse in the image?",
+          "answers": [
+            "black",
+            "brown",
+            "white"
+          ],
+          "score": 0.01995992660522461
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "a person in black clothing skiing and performing a ski jump on a snowy slope",
+      "question": "what is the specific background scenery behind the skier?",
+      "answer": "snowy mountain",
+      "query_after": "a person in black clothing performing a ski jump on a snowy slope with a snowy mountain in the background",
+      "displayed_ids": [
+        28038,
+        19132,
+        5532,
+        9619,
+        12968,
+        39804,
+        2541,
+        18462,
+        19913,
+        33501
+      ],
+      "selected_ids": [
+        43549,
+        33386,
+        19748,
+        39054,
+        43983,
+        1432,
+        33667,
+        3937,
+        5451,
+        27185
+      ],
+      "rejected_count": 18,
+      "usual_paths": [
+        {
+          "question": "what is the name of the sport that the person in the air with a skateboard is participating in?",
+          "answers": [
+            "skateboarding",
+            "skating",
+            "boarding"
+          ],
+          "score": 0.0017933845520019531
+        },
+        {
+          "question": "Question: What is the name of the sport that the person in the air with a skateboard is participating in?",
+          "answers": [
+            "skateboarding",
+            "skateboard",
+            "boarding"
+          ],
+          "score": 0.0014362335205078125
+        },
+        {
+          "question": "what is the color of the clothing worn by the skier in the image of the man jumping a snow board off of a roof?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.06655550003051758
+        },
+        {
+          "question": "what is the color of the clothing worn by the skier in the image of the man jumping a snow board off of a roof?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.06655550003051758,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the clothing worn by the person in the air with a skateboard?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.1114954948425293
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the location of the ski jump being performed?",
+          "answers": [
+            "forest",
+            "slope",
+            "roof"
+          ],
+          "score": 0.04918193817138672
+        },
+        {
+          "question": "Question: What is the color of the snowboard being used by the person in the air?",
+          "answers": [
+            "white",
+            "red",
+            "blue"
+          ],
+          "score": 0.08580493927001953
+        },
+        {
+          "question": "what is the specific background scenery behind the skier?",
+          "answers": [
+            "trees",
+            "rocky slope",
+            "roof"
+          ],
+          "score": 0.12549400329589844
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "skis",
+            "snowboard",
+            "trees"
+          ],
+          "score": 0.0905303955078125
+        },
+        {
+          "question": "Question: What is the color of the snowboard being used by the person in the air?",
+          "answers": [
+            "white",
+            "red",
+            "blue"
+          ],
+          "score": 0.08580493927001953,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a person in black clothing performing a ski jump on a snowy slope with a snowy mountain in the background",
+      "question": "what is the color of the skier's clothing?",
+      "answer": "black",
+      "query_after": "a person in black clothing performs a ski jump on a snowy slope with a snowy mountain in the background",
+      "displayed_ids": [
+        17698,
+        2541,
+        29142,
+        7654,
+        1522,
+        13922,
+        47722,
+        47479,
+        11840,
+        22172
+      ],
+      "selected_ids": [
+        44572,
+        39054,
+        30877,
+        32454,
+        33667,
+        46443,
+        30655,
+        29142,
+        33639,
+        11664
+      ],
+      "rejected_count": 26,
+      "usual_paths": [
+        {
+          "question": "what is the object being used by the person in the background scenery?",
+          "answers": [
+            "skiers",
+            "snowboarders",
+            "people"
+          ],
+          "score": 0.035001277923583984
+        },
+        {
+          "question": "what is the object being used by the person in the background scenery?",
+          "answers": [
+            "skiers",
+            "snowboarders",
+            "people"
+          ],
+          "score": 0.035001277923583984,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the object being used by the person in the background scenery?",
+          "answers": [
+            "skiers",
+            "snowboarders",
+            "people"
+          ],
+          "score": 0.035001277923583984,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the snowboard being used by the person in the background scenery?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.03974485397338867
+        },
+        {
+          "question": "what is the color of the snowboard being used by the person in the background scenery?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.03974485397338867,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the name of the specific ski jump trick the person is performing?",
+          "answers": [
+            "mogul",
+            "parallel",
+            "aerial"
+          ],
+          "score": 0.0071048736572265625
+        },
+        {
+          "question": "What is the name of the specific jump trick the skier is performing?",
+          "answers": [
+            "double",
+            "gogo",
+            "corkscrew"
+          ],
+          "score": 0.004174232482910156
+        },
+        {
+          "question": "what is the name of the ski jump feature the person is using?",
+          "answers": [
+            "Kiltau",
+            "Krenns",
+            "Palfau"
+          ],
+          "score": 0.0010423660278320312
+        },
+        {
+          "question": "what is the color of the snowboarder's clothing?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.08100318908691406
+        },
+        {
+          "question": "what is the color of the skier's clothing?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.10353708267211914
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a person in black clothing performs a ski jump on a snowy slope with a snowy mountain in the background",
+      "question": "what is the color of the clothing worn by the person performing the trick with the snowboard?",
+      "answer": "black",
+      "query_after": "a person in black clothing is skiing and performing a jump on a snowy slope with a snowy mountain in the background, while a snowboarder in black clothing is also visible",
+      "displayed_ids": [
+        17698,
+        2541,
+        29142,
+        7654,
+        13922,
+        1522,
+        11840,
+        47722,
+        47479,
+        14629
+      ],
+      "selected_ids": [
+        1752,
+        41327,
+        11664,
+        33667,
+        33639,
+        44572,
+        39054,
+        22415,
+        32454,
+        31797
+      ],
+      "rejected_count": 27,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "snowy mountain",
+            "snowboard",
+            "tent"
+          ],
+          "score": 0.025640010833740234
+        },
+        {
+          "question": "what is the name of the sport being performed by the person in the black clothing?",
+          "answers": [
+            "skier",
+            "snowboarder",
+            "surfer"
+          ],
+          "score": 0.031244277954101562
+        },
+        {
+          "question": "Question: What is the name of the specific jump structure the skier is using?",
+          "answers": [
+            "Killer Bee",
+            "Super Pipe",
+            "Mammoth Mountain"
+          ],
+          "score": 0.020958423614501953
+        },
+        {
+          "question": "what is the color of the clothing worn by the person performing the trick with the snowboard?",
+          "answers": [
+            "orange",
+            "yellow",
+            "white"
+          ],
+          "score": 0.09878349304199219
+        },
+        {
+          "question": "what is the specific object the person in black clothing is using to perform the jump?",
+          "answers": [
+            "skis",
+            "a snowboard",
+            "a tent"
+          ],
+          "score": 0.028648853302001953
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "snowy mountain",
+            "snowboard",
+            "tent"
+          ],
+          "score": 0.025640010833740234
+        },
+        {
+          "question": "what is the name of the sport the person is performing?",
+          "answers": [
+            "skier",
+            "snowboarder",
+            "skiers"
+          ],
+          "score": 0.025923728942871094
+        },
+        {
+          "question": "what is the specific equipment the person is using to perform the jump?",
+          "answers": [
+            "skis",
+            "snowboard",
+            "tent"
+          ],
+          "score": 0.02957916259765625
+        },
+        {
+          "question": "what is the specific sport being performed by the person in the image?",
+          "answers": [
+            "skiing",
+            "snowboarding",
+            "skateboarding"
+          ],
+          "score": 0.023079872131347656
+        },
+        {
+          "question": "what is the specific equipment the person is using to perform the jump?",
+          "answers": [
+            "skis",
+            "snowboard",
+            "tent"
+          ],
+          "score": 0.02957916259765625,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a person in black clothing is skiing and performing a jump on a snowy slope with a snowy mountain in the background, while a snowboarder in black clothing is also visible",
+      "question": "what is the color of the clothing worn by the person performing the ski jump on the snowy slope?",
+      "answer": "black",
+      "query_after": "a person in black clothing performing a ski jump on a snowy slope with a snowy mountain background",
+      "displayed_ids": [
+        17698,
+        14629,
+        13922,
+        2541,
+        3948,
+        3526,
+        27305,
+        11840,
+        29142,
+        37676
+      ],
+      "selected_ids": [
+        40886,
+        18462,
+        14160,
+        29401,
+        41129,
+        48523,
+        22415,
+        1522,
+        32454,
+        27847
+      ],
+      "rejected_count": 31,
+      "usual_paths": [
+        {
+          "question": "What is the name of the trick the person is performing on the snow?",
+          "answers": [
+            "ski jump",
+            "backflip",
+            "slalom"
+          ],
+          "score": 0.010804176330566406
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "ski poles",
+            "snowboard",
+            "helmet"
+          ],
+          "score": 0.014241695404052734
+        },
+        {
+          "question": "what is the color of the clothing worn by the person performing the ski jump on the snowy slope?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.06722831726074219
+        },
+        {
+          "question": "what is the specific action being performed by the person performing the ski jump on the snowy slope?",
+          "answers": [
+            "jumping",
+            "flying",
+            "descending"
+          ],
+          "score": 0.0050201416015625
+        },
+        {
+          "question": "what is the color of the clothing worn by the person performing the jump on the snow?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.0546879768371582
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the hat worn by the person performing the trick?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.0407252311706543
+        },
+        {
+          "question": "Question: What color is the hat worn by the person performing the trick?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.0407252311706543,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the hat worn by the skier?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.0492396354675293
+        },
+        {
+          "question": "what color is the hat worn by the person performing the trick?",
+          "answers": [
+            "black",
+            "blue",
+            "none"
+          ],
+          "score": 0.030323028564453125
+        },
+        {
+          "question": "Question: What is the color of the hat worn by the person performing the trick?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.04800128936767578
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a person in black clothing performing a ski jump on a snowy slope with a snowy mountain background",
+      "question": "what is the color of the jacket worn by the man in the air?",
+      "answer": "black",
+      "query_after": "A person dressed in black is executing a ski jump down a snowy slope, set against the backdrop of a snow-covered mountain.",
+      "displayed_ids": [
+        17698,
+        2541,
+        7654,
+        47479,
+        29142,
+        1522,
+        13922,
+        47722,
+        14629,
+        22172
+      ],
+      "selected_ids": [
+        44572,
+        30548,
+        12525,
+        33386,
+        3211,
+        1752,
+        33639,
+        32454,
+        7601
+      ],
+      "rejected_count": 31,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "snow",
+            "snowboard",
+            "ski lift"
+          ],
+          "score": 0.03647136688232422
+        },
+        {
+          "question": "Question: What is the color of the clothing worn by the person performing the trick with the snowboard?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.09340333938598633
+        },
+        {
+          "question": "what is the color of the clothing worn by the person performing the ski jump on the snowy slope?",
+          "answers": [
+            "black",
+            "white",
+            "yellow"
+          ],
+          "score": 0.07662534713745117
+        },
+        {
+          "question": "what is the color of the clothing worn by the person in the air?",
+          "answers": [
+            "black",
+            "yellow"
+          ],
+          "score": 0.07692766189575195
+        },
+        {
+          "question": "what is the color of the jacket worn by the man in the air?",
+          "answers": [
+            "yellow",
+            "black",
+            "blue"
+          ],
+          "score": 0.10866785049438477
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the hat worn by the person performing the ski jump?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.09855508804321289
+        },
+        {
+          "question": "what color is the hat worn by the person performing the ski jump?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.09855508804321289,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the hat worn by the skier?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.0670771598815918
+        },
+        {
+          "question": "what is the color of the hat worn by the person performing the ski jump?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.0517125129699707
+        },
+        {
+          "question": "what is the color of the hat worn by the person performing the ski jump?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.0517125129699707,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "A person dressed in black is executing a ski jump down a snowy slope, set against the backdrop of a snow-covered mountain.",
+      "question": "what is the color of the clothing worn by the person performing the trick on the snowy slope?",
+      "answer": "black",
+      "query_after": "a person in black clothing performs a ski jump on a snowy slope with a snowy mountain background",
+      "displayed_ids": [
+        17698,
+        2541,
+        4598,
+        7654,
+        47722,
+        22172,
+        1522,
+        29142,
+        2817,
+        11840
+      ],
+      "selected_ids": [
+        1017,
+        44572,
+        32454,
+        11840,
+        12525,
+        3211,
+        27022,
+        14160,
+        33667,
+        1752
+      ],
+      "rejected_count": 33,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "snow",
+            "ski",
+            "slope"
+          ],
+          "score": 0.0025453567504882812
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "snow",
+            "ski",
+            "slope"
+          ],
+          "score": 0.0025453567504882812,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the clothing worn by the person performing the trick on the snowy slope?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.10219383239746094
+        },
+        {
+          "question": "Based on the **Description** (\"a person skiing performing a ski jump on a snowy slope\") and the **Dialogue**, we know the following about the target image?",
+          "answers": [
+            "black",
+            "snowy mountain",
+            "skiing"
+          ],
+          "score": 0.0025577545166015625
+        },
+        {
+          "question": "what is the color of the clothing worn by the person performing the trick on the snowy slope?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.10219383239746094,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the type of footwear or binding attached to the person's feet in the image?",
+          "answers": [
+            "skis",
+            "snowboard",
+            "none"
+          ],
+          "score": 0.012743949890136719
+        },
+        {
+          "question": "what color is the snowboarder's helmet?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.07047700881958008
+        },
+        {
+          "question": "what is the color of the helmet worn by the skier?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.05793905258178711
+        },
+        {
+          "question": "what is the color of the helmet worn by the skier?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.05793905258178711,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what color is the snowboarder's helmet?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.07047700881958008,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a person in black clothing performs a ski jump on a snowy slope with a snowy mountain background",
+      "question": "what is the color of the hat worn by the skier?",
+      "answer": "white",
+      "query_after": "a skier wearing a black outfit and a white hat performs a ski jump against a snowy mountain backdrop",
+      "displayed_ids": [
+        17698,
+        2541,
+        7654,
+        47479,
+        29142,
+        13922,
+        1522,
+        14629,
+        47722,
+        11840
+      ],
+      "selected_ids": [
+        33501,
+        19659,
+        13262,
+        18462,
+        5532,
+        3211,
+        1522,
+        18193,
+        11840,
+        6951
+      ],
+      "rejected_count": 33,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "snowy slope",
+            "snow",
+            "sky"
+          ],
+          "score": 0.009061336517333984
+        },
+        {
+          "question": "what is the color of the jacket worn by the person performing the jump on the snowy slope?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.09958124160766602
+        },
+        {
+          "question": "what is the name of the specific winter sport equipment the person is using to perform the jump on the snowy slope?",
+          "answers": [
+            "skis",
+            "snowboard",
+            "skiing gear"
+          ],
+          "score": 0.019490718841552734
+        },
+        {
+          "question": "what is the name of the specific winter sport equipment the person is using to perform the jump on the snowy slope?",
+          "answers": [
+            "skis",
+            "snowboard",
+            "skiing gear"
+          ],
+          "score": 0.019490718841552734,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the name of the specific winter sport equipment the person is using to perform the jump on the snowy slope?",
+          "answers": [
+            "skis",
+            "snowboard",
+            "skiing gear"
+          ],
+          "score": 0.019490718841552734,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "snowy slope",
+            "snow",
+            "sky"
+          ],
+          "score": 0.009061336517333984
+        },
+        {
+          "question": "what color hat is the skier wearing?",
+          "answers": [
+            "black",
+            "none",
+            "unknown"
+          ],
+          "score": 0.0010552406311035156
+        },
+        {
+          "question": "what is the color of the hat worn by the skier?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.10756206512451172
+        },
+        {
+          "question": "what is the color of the hat worn by the skier?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.10756206512451172,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the color of the hat worn by the skier?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.06321477890014648
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "a skier wearing a black outfit and a white hat performs a ski jump against a snowy mountain backdrop",
+      "question": "what is the color of the pants worn by the skier?",
+      "answer": "black",
+      "query_after": "A skier dressed in a black outfit and wearing a white hat executes a ski jump against a snowy mountain backdrop.",
+      "displayed_ids": [
+        2541,
+        17698,
+        4598,
+        1522,
+        47722,
+        7654,
+        15604,
+        22172,
+        39804,
+        46938
+      ],
+      "selected_ids": [
+        5532,
+        49424,
+        5346,
+        13262,
+        15671,
+        7654,
+        20866,
+        33501,
+        11840,
+        17698
+      ],
+      "rejected_count": 35,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "ski poles",
+            "backboard",
+            "snowboard"
+          ],
+          "score": 0.029461383819580078
+        },
+        {
+          "question": "what is the color of the pants worn by the skier?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.1345653533935547
+        },
+        {
+          "question": "what is the specific background scenery behind the skier?",
+          "answers": [
+            "snowy mountain",
+            "snow covered hill",
+            "white out"
+          ],
+          "score": 0.022039413452148438
+        },
+        {
+          "question": "what is the color of the pants worn by the skier?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.1345653533935547,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the specific background scenery behind the skier?",
+          "answers": [
+            "snowy mountain",
+            "snow covered hill",
+            "white out"
+          ],
+          "score": 0.022039413452148438,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the gender of the skier performing the jump?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.02038097381591797
+        },
+        {
+          "question": "what is the gender of the person performing the ski jump on the snowy slope?",
+          "answers": [
+            "male",
+            "female"
+          ],
+          "score": 0.022426605224609375
+        },
+        {
+          "question": "what is the gender of the skier performing a jump in the air?",
+          "answers": [
+            "male",
+            "female"
+          ],
+          "score": 0.019981861114501953
+        },
+        {
+          "question": "what is the gender of the skier in the image?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.020532608032226562
+        },
+        {
+          "question": "what is the gender of the person performing the trick on the snowy slope?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.01787090301513672
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

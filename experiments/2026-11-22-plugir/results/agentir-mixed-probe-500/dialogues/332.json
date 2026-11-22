@@ -1,0 +1,273 @@
+{
+  "qid": 332,
+  "sample": "original",
+  "target": "unlabeled2017/000000290919.jpg",
+  "queries": [
+    "a group of zebra grazing in a field",
+    "a group of zebras grazing in an unspecified field",
+    "a group of zebras grazing in a field with yellow grass"
+  ],
+  "ranks": [
+    15,
+    25,
+    9
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a group of zebra grazing in a field",
+      "question": "What is the specific location where the zebras are grazing?",
+      "answer": "unsure",
+      "query_after": "a group of zebras grazing in an unspecified field",
+      "displayed_ids": [
+        9706,
+        2492,
+        35009,
+        1842,
+        23682,
+        11413,
+        25020,
+        35141,
+        29392,
+        17800
+      ],
+      "selected_ids": [
+        7645,
+        9659,
+        362,
+        33219,
+        33394,
+        28546,
+        32387,
+        23889,
+        11049,
+        41485
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "What is the specific location where the zebras are grazing?",
+          "answers": [
+            "zoo enclosure",
+            "field of dry grass",
+            "field with tall grass and trees"
+          ],
+          "score": 0.1871347427368164
+        },
+        {
+          "question": "Question: How many zebras are in the group?",
+          "answers": [
+            "2",
+            "5",
+            "6"
+          ],
+          "score": 0.0009436607360839844
+        },
+        {
+          "question": "Question: What type of grass are the zebras grazing on?",
+          "answers": [
+            "short grass",
+            "tall grass",
+            "dry grass"
+          ],
+          "score": 0.0585322380065918
+        },
+        {
+          "question": "Question: Which of the following images shows a group of zebras grazing in a field?",
+          "answers": [
+            "2",
+            "6"
+          ],
+          "score": 0.00048065185546875
+        },
+        {
+          "question": "How many zebras are there in the field?",
+          "answers": [
+            "Two",
+            "Three",
+            "Four"
+          ],
+          "score": 0.012757301330566406
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: How many zebras are in the group?",
+          "answers": [
+            "2",
+            "3",
+            "4"
+          ],
+          "score": 0.0006279945373535156
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "zebra",
+            "grass",
+            "trees"
+          ],
+          "score": 0.04599475860595703
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "zebra",
+            "grass",
+            "trees"
+          ],
+          "score": 0.04599475860595703,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the zebras in the group?",
+          "answers": [
+            "black and white",
+            "zebra",
+            "striped"
+          ],
+          "score": 0.027759075164794922
+        },
+        {
+          "question": "Question: What is the specific animal species present in the group, given that some candidates show only zebras while others show mixed groups?",
+          "answers": [
+            "Zebras",
+            "Zebras and giraffes",
+            "Elephants and giraffes"
+          ],
+          "score": 0.06328821182250977
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a group of zebras grazing in an unspecified field",
+      "question": "Question: What color is the grass in the field where the zebras are grazing?",
+      "answer": "yellow",
+      "query_after": "a group of zebras grazing in a field with yellow grass",
+      "displayed_ids": [
+        9706,
+        35009,
+        11413,
+        49013,
+        1842,
+        1440,
+        35710,
+        9665,
+        2492,
+        23682
+      ],
+      "selected_ids": [
+        29305,
+        5858,
+        23669,
+        41485,
+        32387,
+        36776,
+        48551,
+        6055,
+        42278,
+        48692
+      ],
+      "rejected_count": 14,
+      "usual_paths": [
+        {
+          "question": "Question: How many zebras are in the group?",
+          "answers": [
+            "two",
+            "three",
+            "a few"
+          ],
+          "score": 0.006108760833740234
+        },
+        {
+          "question": "Question: What is the specific type of grass where the zebras are grazing?",
+          "answers": [
+            "tall grass",
+            "brown grass",
+            "short grass"
+          ],
+          "score": 0.011448860168457031
+        },
+        {
+          "question": "Question: What is the background scenery behind the zebras?",
+          "answers": [
+            "trees",
+            "grass",
+            "dry plain"
+          ],
+          "score": 0.07456207275390625
+        },
+        {
+          "question": "Question: What is the color of the grass where the zebras are grazing?",
+          "answers": [
+            "green",
+            "brown",
+            "mixed"
+          ],
+          "score": 0.024489879608154297
+        },
+        {
+          "question": "Question: What is the gender of the zebra mentioned in the group?",
+          "answers": [
+            "male",
+            "female",
+            "both"
+          ],
+          "score": 0.0015721321105957031
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "How many zebras are in the group grazing in the field?",
+          "answers": [
+            "two",
+            "three",
+            "a group"
+          ],
+          "score": 0.011233806610107422
+        },
+        {
+          "question": "Question: What color is the grass in the field where the zebras are grazing?",
+          "answers": [
+            "green",
+            "brown",
+            "yellow"
+          ],
+          "score": 0.0967860221862793
+        },
+        {
+          "question": "Question: What is the color of the grass in the field where the zebras are grazing?",
+          "answers": [
+            "green",
+            "brown",
+            "mixed"
+          ],
+          "score": 0.0582890510559082
+        },
+        {
+          "question": "Question: What is the specific color of the grass in the field where the zebras are grazing?",
+          "answers": [
+            "green",
+            "brown",
+            "mixed"
+          ],
+          "score": 0.0601496696472168
+        },
+        {
+          "question": "Question: What is the specific color of the grass in the field where the zebras are grazing?",
+          "answers": [
+            "green",
+            "brown",
+            "mixed"
+          ],
+          "score": 0.0601496696472168,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

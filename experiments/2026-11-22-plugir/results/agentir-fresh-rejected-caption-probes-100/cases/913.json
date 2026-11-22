@@ -1,0 +1,177 @@
+{
+  "qid": 913,
+  "initial": "a sheep is looking up while it is surrounded by other sheep and a chicken",
+  "initial_rank": 14,
+  "displayed": [
+    6895,
+    34168,
+    15596,
+    48378,
+    32405,
+    39058,
+    43459,
+    34755,
+    5220,
+    1012
+  ],
+  "evidence": [
+    "sheep grazing on green grass with a hill behind them",
+    "many sheep walk on the road in front of trees",
+    "sheep on a green field",
+    "three cows laying in the grass",
+    "a giraffe is standing in a field with a bird in the background",
+    "three sheep standing in front of a fence",
+    "three sheep grazing in a field of green grass",
+    "a dog is on a beach with a crow",
+    "two sheep standing in a green field",
+    "sheep in a grassy pasture on a field"
+  ],
+  "rejected_captions": [
+    "sheep in a grassy area",
+    "a group of sheep and lambs standing next to each other",
+    "a field of grass",
+    "a group of goats stand in a grassy field",
+    "a group of sheep in the field",
+    "a white dog is in the background of a large group of sheep",
+    "sheep standing in dirt",
+    "the hill has green grass",
+    "two sheep in the field",
+    "a herd of sheep and a pheasant on a hill"
+  ],
+  "usual": {
+    "candidates": [
+      "Question: Which animal is the sheep looking up at?",
+      "what is the color of the sheep looking up at the chicken?",
+      "what is the background scenery behind the sheep and the chicken?",
+      "what is the location where the sheep and chicken are standing?",
+      "Question: How many sheep are in the image?"
+    ],
+    "question": "what is the background scenery behind the sheep and the chicken?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: Which animal is the sheep looking up at?",
+          "answers": [
+            "chicken",
+            "dog",
+            "bird"
+          ],
+          "score": 0.017853736877441406
+        },
+        {
+          "question": "what is the color of the sheep looking up at the chicken?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.07318353652954102
+        },
+        {
+          "question": "what is the background scenery behind the sheep and the chicken?",
+          "answers": [
+            "trees",
+            "fence",
+            "hill"
+          ],
+          "score": 0.1390848159790039
+        },
+        {
+          "question": "what is the location where the sheep and chicken are standing?",
+          "answers": [
+            "grass",
+            "field",
+            "pasture"
+          ],
+          "score": 0.0077972412109375
+        },
+        {
+          "question": "Question: How many sheep are in the image?",
+          "answers": [
+            "1",
+            "2",
+            "3"
+          ],
+          "score": 0.00015115737915039062
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.059,
+      "probe_selection_seconds": 2.216,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "grass",
+    "rewrite": "a sheep looking up while surrounded by other sheep and a chicken on a grassy background",
+    "raw_rank": 14,
+    "unseen_rank": 6
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What color is the chicken (or bird) that the sheep is looking at?",
+      "Question: What is the background setting of the sheep (e.g., a field, a hill, or a road)?",
+      "Question: How many sheep are visible in the image?",
+      "Question: What color is the sheep that is looking up?",
+      "Question: Question: What is the surface the sheep and the chicken are standing on?"
+    ],
+    "question": "Question: Question: What is the surface the sheep and the chicken are standing on?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What color is the chicken (or bird) that the sheep is looking at?",
+          "answers": [
+            "white",
+            "brown",
+            "black"
+          ],
+          "score": 0.039235591888427734
+        },
+        {
+          "question": "Question: What is the background setting of the sheep (e.g., a field, a hill, or a road)?",
+          "answers": [
+            "a field",
+            "a hill",
+            "a road"
+          ],
+          "score": 0.00634002685546875
+        },
+        {
+          "question": "Question: How many sheep are visible in the image?",
+          "answers": [
+            "one",
+            "two",
+            "three"
+          ],
+          "score": 0.004490852355957031
+        },
+        {
+          "question": "Question: What color is the sheep that is looking up?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.05309295654296875
+        },
+        {
+          "question": "Question: Question: What is the surface the sheep and the chicken are standing on?",
+          "answers": [
+            "grass",
+            "road",
+            "beach"
+          ],
+          "score": 0.08370447158813477
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.061,
+      "probe_selection_seconds": 2.239,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "grass",
+    "rewrite": "a sheep looking up while surrounded by other sheep and a chicken, all standing on grass",
+    "raw_rank": 13,
+    "unseen_rank": 6
+  }
+}

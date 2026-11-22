@@ -1,0 +1,80 @@
+{
+  "qid": 690,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the baseball player's uniform?",
+    "Question: What object is the baseball player holding in front of the crowd?",
+    "Question: Is the baseball player wearing a red uniform?",
+    "Question: Question: Who else is standing behind the baseball player at home plate?",
+    "Question: **Who is standing behind the baseball player at home plate?"
+  ],
+  "second_candidates": [
+    "what is the color of the baseball player's uniform?",
+    "what is the color of the baseball player's uniform?",
+    "Question: What is the color of the baseball player's uniform?",
+    "what is the other object in the image?",
+    "Question: What is the color of the baseball player's uniform?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the baseball player's uniform?",
+      "answers": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "score": 0.1936054229736328
+    },
+    {
+      "question": "what is the color of the baseball player's uniform?",
+      "answers": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "score": 0.1936054229736328,
+      "duplicate_of": 0
+    },
+    {
+      "question": "Question: What is the color of the baseball player's uniform?",
+      "answers": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "score": 0.16918563842773438
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "catcher",
+        "umpire",
+        "baseball bat"
+      ],
+      "score": 0.006783008575439453
+    },
+    {
+      "question": "Question: What is the color of the baseball player's uniform?",
+      "answers": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "score": 0.16918563842773438,
+      "duplicate_of": 2
+    }
+  ],
+  "control": {
+    "question": "what is the color of the baseball player's uniform?",
+    "score": 0.1936054229736328
+  },
+  "mixed": {
+    "question": "what color is the baseball player's uniform?",
+    "score": 0.20712566375732422
+  },
+  "control_rank": 27,
+  "mixed_rank": 27,
+  "usual_rank": 27,
+  "new_answer": null,
+  "new_rewrite": null
+}

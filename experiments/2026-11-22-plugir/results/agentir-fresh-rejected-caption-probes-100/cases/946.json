@@ -1,0 +1,179 @@
+{
+  "qid": 946,
+  "initial": "2 men stand while using video game remotes",
+  "initial_rank": 121,
+  "displayed": [
+    4266,
+    31017,
+    17084,
+    32081,
+    47172,
+    24556,
+    21065,
+    17328,
+    11144,
+    25169
+  ],
+  "evidence": [
+    "a girl in a red and black jacket",
+    "there are people playing a video game in the living room",
+    "two men sitting on a bench in a garden",
+    "a field with trees and two people playing frisbee",
+    "a woman is playing wii",
+    "a man in a room playing a video game",
+    "a woman in a gray sweater standing in front of a couch",
+    "two men walking on a tennis court",
+    "a young woman and a man standing in the living room playing a video game",
+    "young boy with wii remote playing games in a living room"
+  ],
+  "rejected_captions": [
+    "two men are playing wii",
+    "a man and his friend play video game controllers in the background",
+    "two men in a living room with a wii remote",
+    "white stools are in the background",
+    "people are in a room",
+    "two men playing video games in the living room",
+    "man in a black shirt",
+    "brown carpet",
+    "two men in a living room playing the wii",
+    "two men playing wii"
+  ],
+  "usual": {
+    "candidates": [
+      "What is the location where the two men are playing the video game?",
+      "Question: What are the two men wearing?",
+      "Question: What is the specific room or setting where the two men are playing the video game?",
+      "what is the color of the jacket worn by the girl playing a video game in the living room?",
+      "what is the gender of the person playing the video game in the room wearing a gray sweater?"
+    ],
+    "question": "What is the location where the two men are playing the video game?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "What is the location where the two men are playing the video game?",
+          "answers": [
+            "living room",
+            "garden",
+            "tennis court"
+          ],
+          "score": 0.14837026596069336
+        },
+        {
+          "question": "Question: What are the two men wearing?",
+          "answers": [
+            "shirts",
+            "jackets",
+            "suits"
+          ],
+          "score": 0.10735940933227539
+        },
+        {
+          "question": "Question: What is the specific room or setting where the two men are playing the video game?",
+          "answers": [
+            "living room",
+            "garden",
+            "tennis court"
+          ],
+          "score": 0.1195521354675293
+        },
+        {
+          "question": "what is the color of the jacket worn by the girl playing a video game in the living room?",
+          "answers": [
+            "red",
+            "black",
+            "blue"
+          ],
+          "score": 0.07215118408203125
+        },
+        {
+          "question": "what is the gender of the person playing the video game in the room wearing a gray sweater?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.07142400741577148
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.078,
+      "probe_selection_seconds": 2.382,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "living room",
+    "rewrite": "two men stand in a living room while using video game remotes",
+    "raw_rank": 141,
+    "unseen_rank": 131
+  },
+  "rejected": {
+    "candidates": [
+      "what color is the jacket worn by the girl in the image?",
+      "Question: What color is the shirt worn by the man in the image?",
+      "Question: What color is the shirt worn by the man in the image?",
+      "Question: What color is the jacket worn by the girl in the image?",
+      "Question: What color is the jacket worn by the girl in the image?"
+    ],
+    "question": "Question: What color is the shirt worn by the man in the image?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what color is the jacket worn by the girl in the image?",
+          "answers": [
+            "red",
+            "black",
+            "blue"
+          ],
+          "score": 0.06791973114013672
+        },
+        {
+          "question": "Question: What color is the shirt worn by the man in the image?",
+          "answers": [
+            "red",
+            "black",
+            "blue"
+          ],
+          "score": 0.07353687286376953
+        },
+        {
+          "question": "Question: What color is the shirt worn by the man in the image?",
+          "answers": [
+            "red",
+            "black",
+            "blue"
+          ],
+          "score": 0.07353687286376953,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What color is the jacket worn by the girl in the image?",
+          "answers": [
+            "red and black",
+            "blue",
+            "green"
+          ],
+          "score": 0.07236337661743164
+        },
+        {
+          "question": "Question: What color is the jacket worn by the girl in the image?",
+          "answers": [
+            "red and black",
+            "blue",
+            "green"
+          ],
+          "score": 0.07236337661743164,
+          "duplicate_of": 3
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.065,
+      "probe_selection_seconds": 1.38,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "black",
+    "rewrite": "two men in black shirts stand while using video game remotes",
+    "raw_rank": 35,
+    "unseen_rank": 26
+  }
+}

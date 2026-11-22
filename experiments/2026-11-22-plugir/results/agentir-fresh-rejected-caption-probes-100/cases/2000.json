@@ -1,0 +1,178 @@
+{
+  "qid": 2000,
+  "initial": "a horse jumping over a fence under a rider's control",
+  "initial_rank": 29,
+  "displayed": [
+    15982,
+    989,
+    48655,
+    41079,
+    6472,
+    41883,
+    18016,
+    31024,
+    18253,
+    123
+  ],
+  "evidence": [
+    "a plane is flying in the air over water",
+    "a man on a horse",
+    "a young girl is riding a brown horse in an enclosed area",
+    "a surfer doing a jump on the wave",
+    "a white tennis player jumping up to hit the ball",
+    "a dog jumping into the air to catch a frisbee",
+    "brown and black horse with short black hair",
+    "the girl on a horse is standing still",
+    "people on horseback are riding down a race track",
+    "a woman riding a brown horse on an open field"
+  ],
+  "rejected_captions": [
+    "the rider is on a horse",
+    "a woman riding a horse",
+    "a brown horse jumps over a barrier",
+    "the horses are jumping over an obstacle",
+    "a gray horse with white stripe",
+    "a man jumps a horse over a fence",
+    "a horse with its head up",
+    "a green field with trees",
+    "horse with a black man jumping over a barrier",
+    "a woman jumping a horse"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the color of the horse being ridden in the image?",
+      "what is the location where the horse is jumping over the fence?",
+      "what is the gender of the rider on the horse?",
+      "what is the color of the rider's clothing?",
+      "what is the gender of the rider on the horse?"
+    ],
+    "question": "what is the color of the rider's clothing?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the horse being ridden in the image?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.042777061462402344
+        },
+        {
+          "question": "what is the location where the horse is jumping over the fence?",
+          "answers": [
+            "race track",
+            "open field",
+            "enclosed area"
+          ],
+          "score": 0.028024673461914062
+        },
+        {
+          "question": "what is the gender of the rider on the horse?",
+          "answers": [
+            "female",
+            "male",
+            "unknown"
+          ],
+          "score": 0.01607370376586914
+        },
+        {
+          "question": "what is the color of the rider's clothing?",
+          "answers": [
+            "white",
+            "black",
+            "blue"
+          ],
+          "score": 0.08016347885131836
+        },
+        {
+          "question": "what is the gender of the rider on the horse?",
+          "answers": [
+            "female",
+            "male",
+            "unknown"
+          ],
+          "score": 0.01607370376586914,
+          "duplicate_of": 2
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.139,
+      "probe_selection_seconds": 1.895,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "black",
+    "rewrite": "a horse jumping over a fence under a rider's control, with the rider wearing black clothing",
+    "raw_rank": 18,
+    "unseen_rank": 10
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the gender of the rider on the horse?",
+      "Question: What is the color of the horse jumping over the fence?",
+      "Question: What is the location where the horse is jumping?",
+      "Question: What is the color of the horse?",
+      "Question: What is the color of the fence the horse is jumping over?"
+    ],
+    "question": "Question: What is the color of the horse?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the gender of the rider on the horse?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.014349937438964844
+        },
+        {
+          "question": "Question: What is the color of the horse jumping over the fence?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.036670684814453125
+        },
+        {
+          "question": "Question: What is the location where the horse is jumping?",
+          "answers": [
+            "race track",
+            "open field",
+            "enclosed area"
+          ],
+          "score": 0.023973941802978516
+        },
+        {
+          "question": "Question: What is the color of the horse?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.06940650939941406
+        },
+        {
+          "question": "Question: What is the color of the fence the horse is jumping over?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.0435185432434082
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.155,
+      "probe_selection_seconds": 2.356,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "brown",
+    "rewrite": "a brown horse jumping over a fence under a rider's control",
+    "raw_rank": 22,
+    "unseen_rank": 14
+  }
+}

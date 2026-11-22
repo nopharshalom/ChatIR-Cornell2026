@@ -1,0 +1,1319 @@
+{
+  "qid": 310,
+  "sample": "original",
+  "target": "unlabeled2017/000000487960.jpg",
+  "queries": [
+    "a messy computer desk with a pc and a laptop",
+    "a brown messy computer desk with a PC and a laptop",
+    "a messy brown computer desk featuring a PC, laptop, keyboard, mouse, papers, books, remote, tape, and a blue lamp",
+    "a messy brown computer desk featuring a silver laptop, a PC, a keyboard, mouse, papers, books, a remote, tape, and a blue lamp",
+    "a messy brown computer desk featuring a silver laptop, a PC, a keyboard, mouse, papers, books, a remote, tape, and a blue lamp, with a red blanket on the floor",
+    "A cluttered brown computer desk is set up with a silver laptop, a PC, a keyboard, a mouse, papers, books, a remote, tape, and a blue lamp, while a red blanket lies on the floor.",
+    "a messy wooden computer desk with a brown surface, holding a silver laptop, a PC, a keyboard, a mouse, papers, books, a remote, and a blue lamp, with a red blanket on the floor",
+    "a messy wooden computer desk with a silver PC and a silver laptop, cluttered with a keyboard, mouse, papers, books, a remote, tape, and a blue lamp, with a red blanket on the floor",
+    "a messy wooden computer desk with a silver PC and a silver laptop, surrounded by a keyboard, mouse, papers, books, a remote, tape, and a blue lamp, with a red blanket on the floor",
+    "A cluttered wooden computer desk holds a silver PC and a silver laptop, surrounded by a keyboard, mouse, papers, books, a remote, tape, and a blue lamp, with a red blanket lying on the floor.",
+    "a messy wooden computer desk with a silver PC and a silver laptop, surrounded by a keyboard, mouse, papers, books, a remote, tape, and a blue lamp, with a red blanket on the floor"
+  ],
+  "ranks": [
+    33,
+    91,
+    168,
+    357,
+    641,
+    513,
+    669,
+    294,
+    317,
+    448,
+    317
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a messy computer desk with a pc and a laptop",
+      "question": "Question: What color is the desk?",
+      "answer": "Brown.",
+      "query_after": "a brown messy computer desk with a PC and a laptop",
+      "displayed_ids": [
+        25011,
+        12731,
+        28914,
+        10541,
+        9970,
+        27807,
+        9961,
+        45577,
+        8458,
+        20408
+      ],
+      "selected_ids": [
+        20481,
+        24393,
+        6263,
+        29544,
+        27622,
+        8600,
+        23300,
+        27410,
+        27084,
+        46575
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: What items are visible on the messy computer desk besides the PC and laptop?",
+          "answers": [
+            "keyboard",
+            "mouse",
+            "books"
+          ],
+          "score": 0.02598094940185547
+        },
+        {
+          "question": "Question: What color is the desk?",
+          "answers": [
+            "wooden",
+            "black",
+            "white"
+          ],
+          "score": 0.05168437957763672
+        },
+        {
+          "question": "Question: What types of other electronic devices or peripherals are visible on the desk besides the PC and laptop?",
+          "answers": [
+            "keyboard",
+            "mouse",
+            "water bottle"
+          ],
+          "score": 0.04455852508544922
+        },
+        {
+          "question": "Question: What is the color of the desk in the image?",
+          "answers": [
+            "black",
+            "wooden",
+            "white"
+          ],
+          "score": 0.047899723052978516
+        },
+        {
+          "question": "Question: Question: What is the color of the desk in the image?",
+          "answers": [
+            "wooden",
+            "black",
+            "white"
+          ],
+          "score": 0.039673805236816406
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What object is sitting on the desk besides the computer and laptop?",
+          "answers": [
+            "keyboard",
+            "mouse",
+            "none"
+          ],
+          "score": 0.0057811737060546875
+        },
+        {
+          "question": "Question: What color is the desk?",
+          "answers": [
+            "wooden",
+            "black",
+            "white"
+          ],
+          "score": 0.05168437957763672
+        },
+        {
+          "question": "Question: What writing materials are on the desk besides the computer and laptop?",
+          "answers": [
+            "pens",
+            "notebooks",
+            "papers"
+          ],
+          "score": 0.008252620697021484
+        },
+        {
+          "question": "Question: What is the surface material of the desk?",
+          "answers": [
+            "wooden",
+            "metal",
+            "glass"
+          ],
+          "score": 0.036313533782958984
+        },
+        {
+          "question": "Question: How many monitors are visible on the desk?",
+          "answers": [
+            "1",
+            "2",
+            "3"
+          ],
+          "score": 7.963180541992188e-05
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a brown messy computer desk with a PC and a laptop",
+      "question": "Question: What specific items are sitting on the messy computer desk besides the pc and laptop?",
+      "answer": "keyboard, mouse, papers, books, remote, tape, and a blue lamp",
+      "query_after": "a messy brown computer desk featuring a PC, laptop, keyboard, mouse, papers, books, remote, tape, and a blue lamp",
+      "displayed_ids": [
+        12731,
+        25011,
+        10541,
+        28914,
+        30302,
+        9961,
+        5263,
+        40455,
+        21248,
+        45577
+      ],
+      "selected_ids": [
+        24393,
+        39518,
+        3529,
+        27410,
+        46575,
+        20481,
+        23300,
+        12825,
+        30891,
+        16128
+      ],
+      "rejected_count": 14,
+      "usual_paths": [
+        {
+          "question": "what items are on the computer desk besides the PC and laptop?",
+          "answers": [
+            "keyboard",
+            "monitor",
+            "chair"
+          ],
+          "score": 0.020101070404052734
+        },
+        {
+          "question": "Question: Where is the laptop located in relation to the PC on the desk?",
+          "answers": [
+            "next to the PC",
+            "in front of the PC",
+            "behind the PC"
+          ],
+          "score": 0.0017857551574707031
+        },
+        {
+          "question": "Question: Is there a keyboard on the desk?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0005254745483398438
+        },
+        {
+          "question": "Question: What items are on the messy computer desk besides the PC and laptop?",
+          "answers": [
+            "keyboard",
+            "monitor",
+            "mouse"
+          ],
+          "score": 0.010486125946044922
+        },
+        {
+          "question": "Based on the provided information sources, here is the next logical question to generate:\n\n**Question:** What items are on the messy computer desk besides the PC and?",
+          "answers": [
+            "laptop",
+            "monitor",
+            "keyboard"
+          ],
+          "score": 0.012769222259521484
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what items are sitting on the messy computer desk besides the pc and laptop?",
+          "answers": [
+            "keyboard",
+            "monitor",
+            "chair"
+          ],
+          "score": 0.018392086029052734
+        },
+        {
+          "question": "Question: What specific items are sitting on the desk besides the pc and laptop?",
+          "answers": [
+            "keyboard",
+            "monitor",
+            "book"
+          ],
+          "score": 0.029526710510253906
+        },
+        {
+          "question": "Question: What specific items are sitting on the messy computer desk besides the pc and laptop?",
+          "answers": [
+            "keyboard and mouse",
+            "phone and water bottle",
+            "notebooks and pens"
+          ],
+          "score": 0.0673832893371582
+        },
+        {
+          "question": "Question: What items are sitting on the messy computer desk besides the pc and laptop?",
+          "answers": [
+            "keyboard",
+            "monitor",
+            "mouse"
+          ],
+          "score": 0.025553226470947266
+        },
+        {
+          "question": "Question: Are there any books visible on the desk?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.00041961669921875
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a messy brown computer desk featuring a PC, laptop, keyboard, mouse, papers, books, remote, tape, and a blue lamp",
+      "question": "Question: What is the primary color of the laptop on the desk?",
+      "answer": "Silver",
+      "query_after": "a messy brown computer desk featuring a silver laptop, a PC, a keyboard, mouse, papers, books, a remote, tape, and a blue lamp",
+      "displayed_ids": [
+        10541,
+        20686,
+        30302,
+        42299,
+        24136,
+        49258,
+        12731,
+        5263,
+        38550,
+        10622
+      ],
+      "selected_ids": [
+        28970,
+        13697,
+        11420,
+        22547,
+        21638,
+        20481,
+        23300,
+        46575,
+        39602,
+        24393
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what is the color of the laptop sitting on the brown desk?",
+          "answers": [
+            "Silver",
+            "Black",
+            "Gray"
+          ],
+          "score": 0.03026437759399414
+        },
+        {
+          "question": "what is the color of the laptop sitting on the brown desk?",
+          "answers": [
+            "Silver",
+            "Black",
+            "Gray"
+          ],
+          "score": 0.03026437759399414,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the laptop sitting on the brown desk?",
+          "answers": [
+            "Silver",
+            "Black",
+            "Gray"
+          ],
+          "score": 0.03026437759399414,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the laptop sitting on the brown desk?",
+          "answers": [
+            "Silver",
+            "Black",
+            "Gray"
+          ],
+          "score": 0.03026437759399414,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the laptop sitting on the brown desk?",
+          "answers": [
+            "Silver",
+            "Black",
+            "Gray"
+          ],
+          "score": 0.03026437759399414,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the laptop on the desk?",
+          "answers": [
+            "Silver",
+            "Black",
+            "White"
+          ],
+          "score": 0.0450444221496582
+        },
+        {
+          "question": "Question: What color is the laptop on the desk?",
+          "answers": [
+            "Black",
+            "White",
+            "Silver"
+          ],
+          "score": 0.027564525604248047
+        },
+        {
+          "question": "Question: What is the primary color of the laptop on the desk?",
+          "answers": [
+            "Black",
+            "Silver",
+            "White"
+          ],
+          "score": 0.04590749740600586
+        },
+        {
+          "question": "what color is the laptop on the desk?",
+          "answers": [
+            "Black",
+            "Silver",
+            "White"
+          ],
+          "score": 0.028500080108642578
+        },
+        {
+          "question": "what is the color of the laptop on the desk?",
+          "answers": [
+            "Black",
+            "Silver",
+            "White"
+          ],
+          "score": 0.03327798843383789
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a messy brown computer desk featuring a silver laptop, a PC, a keyboard, mouse, papers, books, a remote, tape, and a blue lamp",
+      "question": "Question: What color is the blanket on the floor in the room?",
+      "answer": "red",
+      "query_after": "a messy brown computer desk featuring a silver laptop, a PC, a keyboard, mouse, papers, books, a remote, tape, and a blue lamp, with a red blanket on the floor",
+      "displayed_ids": [
+        42299,
+        49258,
+        38588,
+        10541,
+        20686,
+        12078,
+        12731,
+        30302,
+        24136,
+        38550
+      ],
+      "selected_ids": [
+        23300,
+        35763,
+        24393,
+        39785,
+        27410,
+        11420,
+        15835,
+        20546,
+        36095,
+        31068
+      ],
+      "rejected_count": 22,
+      "usual_paths": [
+        {
+          "question": "Question: What is the color of the chair sitting in front of the desk with two monitors?",
+          "answers": [
+            "Black",
+            "Gray",
+            "Blue"
+          ],
+          "score": 0.012095928192138672
+        },
+        {
+          "question": "what color is the chair sitting in front of the desk with two monitors?",
+          "answers": [
+            "Black",
+            "Gray",
+            "White"
+          ],
+          "score": 0.011368751525878906
+        },
+        {
+          "question": "what is the color of the blanket on the floor in the small bedroom?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.015005111694335938
+        },
+        {
+          "question": "what is the color of the blanket on the floor in the small bedroom?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.015005111694335938,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the blanket on the floor in the small bedroom?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.015005111694335938,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the blanket in the room shown in the image?",
+          "answers": [
+            "Blue",
+            "Brown",
+            "Black"
+          ],
+          "score": 0.013103485107421875
+        },
+        {
+          "question": "Question: What color is the blanket on the floor in the room?",
+          "answers": [
+            "Blue",
+            "Brown",
+            "Green"
+          ],
+          "score": 0.020393848419189453
+        },
+        {
+          "question": "Question: What is the color of the blanket on the floor in the room?",
+          "answers": [
+            "Blue",
+            "Gray",
+            "White"
+          ],
+          "score": 0.008141517639160156
+        },
+        {
+          "question": "Question: Is the desk in the image made of wood?",
+          "answers": [
+            "Yes",
+            "No",
+            "I don't know"
+          ],
+          "score": 0.0007052421569824219
+        },
+        {
+          "question": "Question: What color is the blanket on the floor in the room?",
+          "answers": [
+            "Blue",
+            "Brown",
+            "Green"
+          ],
+          "score": 0.020393848419189453,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a messy brown computer desk featuring a silver laptop, a PC, a keyboard, mouse, papers, books, a remote, tape, and a blue lamp, with a red blanket on the floor",
+      "question": "what is the other object in the image?",
+      "answer": "laptop",
+      "query_after": "A cluttered brown computer desk is set up with a silver laptop, a PC, a keyboard, a mouse, papers, books, a remote, tape, and a blue lamp, while a red blanket lies on the floor.",
+      "displayed_ids": [
+        10541,
+        23190,
+        42299,
+        41613,
+        9981,
+        40016,
+        25573,
+        49258,
+        12731,
+        21335
+      ],
+      "selected_ids": [
+        24393,
+        27807,
+        3812,
+        2396,
+        2997,
+        32419,
+        6329,
+        40046,
+        18191,
+        20546
+      ],
+      "rejected_count": 28,
+      "usual_paths": [
+        {
+          "question": "What is the brand of the PC on the messy desk?",
+          "answers": [
+            "Dell",
+            "HP",
+            "Lenovo"
+          ],
+          "score": 0.0059795379638671875
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "monitor",
+            "printer",
+            "speaker"
+          ],
+          "score": 0.022953033447265625
+        },
+        {
+          "question": "What is the brand of the PC on the desk?",
+          "answers": [
+            "Dell",
+            "HP",
+            "Apple"
+          ],
+          "score": 0.010436534881591797
+        },
+        {
+          "question": "what color is the PC on the messy computer desk?",
+          "answers": [
+            "Silver",
+            "Black",
+            "White"
+          ],
+          "score": 0.011979103088378906
+        },
+        {
+          "question": "what is the color of the PC on the messy computer desk?",
+          "answers": [
+            "Black",
+            "White",
+            "Gray"
+          ],
+          "score": 0.013381481170654297
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the brand of the PC on the messy desk?",
+          "answers": [
+            "Dell",
+            "HP",
+            "Lenovo"
+          ],
+          "score": 0.0059795379638671875
+        },
+        {
+          "question": "Question: What is the brand of the PC on the messy desk?",
+          "answers": [
+            "Dell",
+            "HP",
+            "Lenovo"
+          ],
+          "score": 0.005211830139160156
+        },
+        {
+          "question": "Question: What is the brand of the PC on the messy desk?",
+          "answers": [
+            "Dell",
+            "HP",
+            "Lenovo"
+          ],
+          "score": 0.005211830139160156,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the blanket on the floor in the room?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.01471853256225586
+        },
+        {
+          "question": "Question: What is the color of the blanket on the floor in the room?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.013712882995605469
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "A cluttered brown computer desk is set up with a silver laptop, a PC, a keyboard, a mouse, papers, books, a remote, tape, and a blue lamp, while a red blanket lies on the floor.",
+      "question": "what is the material of the desk in the image?",
+      "answer": "wood",
+      "query_after": "a messy wooden computer desk with a brown surface, holding a silver laptop, a PC, a keyboard, a mouse, papers, books, a remote, and a blue lamp, with a red blanket on the floor",
+      "displayed_ids": [
+        5263,
+        28970,
+        40016,
+        10541,
+        42299,
+        42370,
+        41613,
+        12731,
+        45933,
+        21335
+      ],
+      "selected_ids": [
+        25867,
+        440,
+        26670,
+        32419,
+        18191,
+        6329,
+        20546,
+        3812,
+        35570,
+        13697
+      ],
+      "rejected_count": 31,
+      "usual_paths": [
+        {
+          "question": "What color is the PC on the messy computer desk?",
+          "answers": [
+            "Black",
+            "White",
+            "Silver"
+          ],
+          "score": 0.010254383087158203
+        },
+        {
+          "question": "what is the color of the PC on the messy computer desk?",
+          "answers": [
+            "Black",
+            "White",
+            "Gray"
+          ],
+          "score": 0.008464336395263672
+        },
+        {
+          "question": "What is the color of the PC on the messy computer desk?",
+          "answers": [
+            "Black",
+            "White",
+            "Silver"
+          ],
+          "score": 0.008249282836914062
+        },
+        {
+          "question": "what is the color of the lamp on the desk?",
+          "answers": [
+            "blue",
+            "red",
+            "brown"
+          ],
+          "score": 0.008172988891601562
+        },
+        {
+          "question": "Question: What color is the PC on the messy computer desk?",
+          "answers": [
+            "Black",
+            "Silver",
+            "White"
+          ],
+          "score": 0.007059574127197266
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What color is the PC on the messy computer desk?",
+          "answers": [
+            "Black",
+            "White",
+            "Silver"
+          ],
+          "score": 0.010254383087158203
+        },
+        {
+          "question": "Question: What is the color of the blanket on the floor in the room?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.008030891418457031
+        },
+        {
+          "question": "what is the material of the desk in the image?",
+          "answers": [
+            "wood",
+            "metal",
+            "plastic"
+          ],
+          "score": 0.012404441833496094
+        },
+        {
+          "question": "what is the color of the PC on the messy computer desk?",
+          "answers": [
+            "Black",
+            "White",
+            "Silver"
+          ],
+          "score": 0.008249282836914062
+        },
+        {
+          "question": "Question: What is the color of the blanket on the floor in the room?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.008030891418457031,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a messy wooden computer desk with a brown surface, holding a silver laptop, a PC, a keyboard, a mouse, papers, books, a remote, and a blue lamp, with a red blanket on the floor",
+      "question": "What color is the PC on the messy computer desk?",
+      "answer": "Silver.",
+      "query_after": "a messy wooden computer desk with a silver PC and a silver laptop, cluttered with a keyboard, mouse, papers, books, a remote, tape, and a blue lamp, with a red blanket on the floor",
+      "displayed_ids": [
+        5263,
+        2292,
+        21335,
+        10541,
+        23190,
+        25573,
+        9253,
+        28970,
+        49258,
+        41613
+      ],
+      "selected_ids": [
+        17670,
+        18191,
+        41613,
+        9961,
+        26670,
+        48758,
+        1935,
+        35570,
+        43553
+      ],
+      "rejected_count": 33,
+      "usual_paths": [
+        {
+          "question": "what color is the monitor on the desk?",
+          "answers": [
+            "Silver",
+            "Black",
+            "Blue"
+          ],
+          "score": 0.012420177459716797
+        },
+        {
+          "question": "what is the color of the monitor on the desk?",
+          "answers": [
+            "silver",
+            "blue",
+            "black"
+          ],
+          "score": 0.012073993682861328
+        },
+        {
+          "question": "what is the color of the monitor on the desk?",
+          "answers": [
+            "silver",
+            "blue",
+            "black"
+          ],
+          "score": 0.012073993682861328,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the monitor on the desk?",
+          "answers": [
+            "silver",
+            "blue",
+            "black"
+          ],
+          "score": 0.012073993682861328,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the monitor on the desk?",
+          "answers": [
+            "silver",
+            "blue",
+            "black"
+          ],
+          "score": 0.012073993682861328,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What color is the PC on the messy computer desk?",
+          "answers": [
+            "Silver",
+            "Black",
+            "White"
+          ],
+          "score": 0.016811847686767578
+        },
+        {
+          "question": "Where is the laptop positioned relative to the PC on the desk?",
+          "answers": [
+            "left",
+            "right",
+            "behind"
+          ],
+          "score": 0.0018563270568847656
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "laptop",
+            "keyboard",
+            "mouse"
+          ],
+          "score": 0.01222372055053711
+        },
+        {
+          "question": "What color is the PC on the desk?",
+          "answers": [
+            "Silver",
+            "Black",
+            "White"
+          ],
+          "score": 0.016019344329833984
+        },
+        {
+          "question": "what is the color of the PC on the desk?",
+          "answers": [
+            "Black",
+            "White",
+            "Silver"
+          ],
+          "score": 0.016714096069335938
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a messy wooden computer desk with a silver PC and a silver laptop, cluttered with a keyboard, mouse, papers, books, a remote, tape, and a blue lamp, with a red blanket on the floor",
+      "question": "**Question:** What is the laptop sitting on?",
+      "answer": "desk",
+      "query_after": "a messy wooden computer desk with a silver PC and a silver laptop, surrounded by a keyboard, mouse, papers, books, a remote, tape, and a blue lamp, with a red blanket on the floor",
+      "displayed_ids": [
+        40016,
+        12731,
+        10541,
+        5263,
+        42370,
+        32095,
+        42299,
+        2292,
+        31212,
+        41613
+      ],
+      "selected_ids": [
+        28970,
+        25867,
+        30696,
+        27201,
+        31068,
+        45280,
+        33058,
+        41613,
+        8601,
+        24641
+      ],
+      "rejected_count": 35,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "laptop",
+            "mouse",
+            "keyboard"
+          ],
+          "score": 0.010143756866455078
+        },
+        {
+          "question": "**Question:** What color is the blanket on the floor in the room?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.015019416809082031
+        },
+        {
+          "question": "**Question:** What is the surface the silver laptop is sitting on?",
+          "answers": [
+            "desk",
+            "bed",
+            "sandpaper"
+          ],
+          "score": 0.017829418182373047
+        },
+        {
+          "question": "**Question:** What is the surface the silver laptop is sitting on?",
+          "answers": [
+            "desk",
+            "bed",
+            "sandpaper"
+          ],
+          "score": 0.017829418182373047,
+          "duplicate_of": 2
+        },
+        {
+          "question": "**Question:** What is the surface the silver laptop is sitting on?",
+          "answers": [
+            "desk",
+            "bed",
+            "sandpaper"
+          ],
+          "score": 0.017829418182373047,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "laptop",
+            "mouse",
+            "keyboard"
+          ],
+          "score": 0.010143756866455078
+        },
+        {
+          "question": "**Question:** What color is the blanket on the floor in the room?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.015019416809082031
+        },
+        {
+          "question": "**Question:** What is the laptop sitting on?",
+          "answers": [
+            "desk",
+            "bed",
+            "sandpaper"
+          ],
+          "score": 0.026289939880371094
+        },
+        {
+          "question": "**Question:** What color is the blanket on the floor in the room?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.015019416809082031,
+          "duplicate_of": 1
+        },
+        {
+          "question": "**Question:** What is the laptop sitting on?",
+          "answers": [
+            "desk",
+            "bed",
+            "sandpaper"
+          ],
+          "score": 0.026289939880371094,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a messy wooden computer desk with a silver PC and a silver laptop, surrounded by a keyboard, mouse, papers, books, a remote, tape, and a blue lamp, with a red blanket on the floor",
+      "question": "what is the other object in the image?",
+      "answer": "laptop",
+      "query_after": "A cluttered wooden computer desk holds a silver PC and a silver laptop, surrounded by a keyboard, mouse, papers, books, a remote, tape, and a blue lamp, with a red blanket lying on the floor.",
+      "displayed_ids": [
+        41613,
+        40016,
+        12731,
+        25845,
+        10541,
+        21335,
+        49258,
+        42299,
+        24136,
+        36043
+      ],
+      "selected_ids": [
+        9253,
+        28970,
+        33058,
+        45280,
+        19503,
+        27201,
+        20310,
+        30696
+      ],
+      "rejected_count": 37,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "laptop",
+            "monitor",
+            "keyboard"
+          ],
+          "score": 0.019026756286621094
+        },
+        {
+          "question": "what is the material of the desk in the image?",
+          "answers": [
+            "wood",
+            "black",
+            "brown"
+          ],
+          "score": 0.015325546264648438
+        },
+        {
+          "question": "**Question:** What color is the blanket on the floor in the room?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.011560916900634766
+        },
+        {
+          "question": "**Question:** What is the material of the desk in the image?",
+          "answers": [
+            "wood",
+            "black",
+            "brown"
+          ],
+          "score": 0.010074138641357422
+        },
+        {
+          "question": "**Question:** What is the specific item sitting on the laptop in the image?",
+          "answers": [
+            "mouse",
+            "keyboard",
+            "papers"
+          ],
+          "score": 0.00597381591796875
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "laptop",
+            "monitor",
+            "keyboard"
+          ],
+          "score": 0.019026756286621094
+        },
+        {
+          "question": "**Question:** What color is the blanket on the floor?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.016173362731933594
+        },
+        {
+          "question": "**Question:** What color is the blanket on the floor?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.016173362731933594,
+          "duplicate_of": 1
+        },
+        {
+          "question": "**Question:** What color is the blanket on the floor in the room?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.011560916900634766
+        },
+        {
+          "question": "**Question:** What is the color of the blanket on the floor in the room?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.011062145233154297
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "A cluttered wooden computer desk holds a silver PC and a silver laptop, surrounded by a keyboard, mouse, papers, books, a remote, tape, and a blue lamp, with a red blanket lying on the floor.",
+      "question": "what is the other object in the image?",
+      "answer": "laptop",
+      "query_after": "a messy wooden computer desk with a silver PC and a silver laptop, surrounded by a keyboard, mouse, papers, books, a remote, tape, and a blue lamp, with a red blanket on the floor",
+      "displayed_ids": [
+        41613,
+        23190,
+        21335,
+        2292,
+        28970,
+        12731,
+        42299,
+        10541,
+        42370,
+        45933
+      ],
+      "selected_ids": [
+        41613,
+        12237,
+        20310,
+        28970,
+        10622,
+        35442,
+        31068,
+        24136,
+        41537
+      ],
+      "rejected_count": 37,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "laptop",
+            "monitor",
+            "printer"
+          ],
+          "score": 0.023628711700439453
+        },
+        {
+          "question": "what is the color of the blanket on the floor in the room?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.018063068389892578
+        },
+        {
+          "question": "Question: What is the color of the lamp on the messy computer desk?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.008685111999511719
+        },
+        {
+          "question": "what is the color of the blanket on the floor in the room?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.018063068389892578,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the material of the desk in the image?",
+          "answers": [
+            "wood",
+            "brown",
+            "metal"
+          ],
+          "score": 0.006463527679443359
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "laptop",
+            "monitor",
+            "printer"
+          ],
+          "score": 0.023628711700439453
+        },
+        {
+          "question": "Question: What color is the blanket on the floor in the room?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.017277240753173828
+        },
+        {
+          "question": "Question: What color is the lamp on the desk?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.012162208557128906
+        },
+        {
+          "question": "Question: What color is the blanket on the floor in the room?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.017277240753173828,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the desk in the image?",
+          "answers": [
+            "wood",
+            "brown",
+            "black"
+          ],
+          "score": 0.013088226318359375
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

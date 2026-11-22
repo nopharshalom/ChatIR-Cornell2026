@@ -1,0 +1,78 @@
+{
+  "qid": 363,
+  "sample": 1,
+  "first_candidates": [
+    "what color are the kitchen cabinets?",
+    "Question: what is the color of the kitchen cabinets?",
+    "Question: What color are the kitchen cabinets?",
+    "what color are the kitchen cabinets?",
+    "what color are the kitchen cabinets and what is the color of the counter?"
+  ],
+  "second_candidates": [
+    "Question: What color are the kitchen cabinets?",
+    "what color are the kitchen appliances?",
+    "Question: What is the material of the kitchen cabinets?",
+    "what is the color of the kitchen counter?",
+    "Question: What is the color of the kitchen floor?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What color are the kitchen cabinets?",
+      "answers": [
+        "wood",
+        "silver",
+        "white"
+      ],
+      "score": 0.12170743942260742
+    },
+    {
+      "question": "what color are the kitchen appliances?",
+      "answers": [
+        "silver",
+        "white",
+        "black"
+      ],
+      "score": 0.16960477828979492
+    },
+    {
+      "question": "Question: What is the material of the kitchen cabinets?",
+      "answers": [
+        "wood",
+        "silver",
+        "white"
+      ],
+      "score": 0.15564537048339844
+    },
+    {
+      "question": "what is the color of the kitchen counter?",
+      "answers": [
+        "white",
+        "silver",
+        "green"
+      ],
+      "score": 0.14316749572753906
+    },
+    {
+      "question": "Question: What is the color of the kitchen floor?",
+      "answers": [
+        "wood",
+        "hardwood",
+        "tiled"
+      ],
+      "score": 0.1075139045715332
+    }
+  ],
+  "control": {
+    "question": "what color are the kitchen appliances?",
+    "score": 0.16960477828979492
+  },
+  "mixed": {
+    "question": "Question: What is the color of the kitchen?",
+    "score": 0.17965316772460938
+  },
+  "control_rank": 122,
+  "mixed_rank": 17,
+  "usual_rank": 17,
+  "new_answer": "black",
+  "new_rewrite": "a kitchen with black appliances and the lights turned on during the day"
+}

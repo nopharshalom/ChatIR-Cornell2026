@@ -1,0 +1,102 @@
+{
+  "qid": 838,
+  "initial": "a street lined full of cars and buses",
+  "initial_rank": 363,
+  "evidence": [
+    "a bus in a parking lot",
+    "two red buses parked on the street next to each other",
+    "a man on a bike rides a motorcycle near a bus",
+    "a double decker bus is parked on the road next to trees",
+    "a large white and blue bus sitting at a bus stop",
+    "two busses sitting side by side",
+    "white cars sitting on the street at night",
+    "a red car driving in traffic in a city",
+    "a man is walking to his bus on a city street",
+    "an orange bus parked on the street"
+  ],
+  "candidates": [
+    "Question: What is the primary color of the bus visible in the image?",
+    "Question: What is the primary color of the bus visible in the image?",
+    "Question: What is the primary color of the bus visible in the image?",
+    "Question: Which specific vehicle is positioned next to the bus in the image?",
+    "Question: Question: What is the primary color of the bus visible in the image?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: What is the primary color of the bus visible in the image?",
+      "answers": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "score": 0.0890951156616211
+    },
+    {
+      "question": "Question: What is the primary color of the bus visible in the image?",
+      "answers": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "score": 0.0890951156616211,
+      "duplicate_of": 0
+    },
+    {
+      "question": "Question: What is the primary color of the bus visible in the image?",
+      "answers": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "score": 0.0890951156616211,
+      "duplicate_of": 0
+    },
+    {
+      "question": "Question: Which specific vehicle is positioned next to the bus in the image?",
+      "answers": [
+        "cars",
+        "motorcycle",
+        "trees"
+      ],
+      "score": 0.10356712341308594
+    },
+    {
+      "question": "Question: Question: What is the primary color of the bus visible in the image?",
+      "answers": [
+        "red",
+        "white",
+        "orange"
+      ],
+      "score": 0.06391716003417969
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.06,
+  "probe_selection_seconds": 1.419,
+  "probe_llm_calls": 3,
+  "probe_search_queries": 9,
+  "arms": {
+    "kl": {
+      "question": "Question: What is the primary color of the bus visible in the image?",
+      "answer": "red",
+      "rewrite": "a street lined with cars and a red bus",
+      "rank": 500,
+      "hit": false
+    },
+    "random": {
+      "question": "Question: What is the primary color of the bus visible in the image?",
+      "answer": "red",
+      "rewrite": "a street lined with cars and a red bus",
+      "rank": 500,
+      "hit": false
+    },
+    "probe": {
+      "question": "Question: Which specific vehicle is positioned next to the bus in the image?",
+      "answer": "blue car",
+      "rewrite": "a street lined with cars and buses, featuring a blue car positioned next to the bus",
+      "rank": 503,
+      "hit": false
+    }
+  },
+  "seconds": 11.418
+}

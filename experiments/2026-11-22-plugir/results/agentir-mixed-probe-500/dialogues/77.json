@@ -1,0 +1,669 @@
+{
+  "qid": 77,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000546554.jpg",
+  "queries": [
+    "the bathroom features a large tub in the middle of a private bathroom and a large shower",
+    "a private bathroom featuring a large tub in the middle, a large shower, and a tiled floor",
+    "a private bathroom featuring a large tub in the middle, a large shower, beige walls, and a tiled floor",
+    "a private bathroom featuring a large white bathtub in the middle, a large shower, beige walls, and a tiled floor",
+    "a private bathroom featuring a large white bathtub and a large shower, with beige walls and a tiled floor",
+    "a private bathroom featuring a large white tub in the middle, a large shower with a green shower curtain, beige walls, and a tiled floor"
+  ],
+  "ranks": [
+    14,
+    13,
+    25,
+    16,
+    22,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "the bathroom features a large tub in the middle of a private bathroom and a large shower",
+      "question": "what is the material of the floor in the bathroom that features a large tub in the middle of a private bathroom and a large shower?",
+      "answer": "tile",
+      "query_after": "a private bathroom featuring a large tub in the middle, a large shower, and a tiled floor",
+      "displayed_ids": [
+        44505,
+        33775,
+        31090,
+        27914,
+        16326,
+        22351,
+        9020,
+        16433,
+        10073,
+        25618
+      ],
+      "selected_ids": [
+        730,
+        21991,
+        44263,
+        12797,
+        11653,
+        2146,
+        39299,
+        2681,
+        45760,
+        18855
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the tiles in the bathroom that features a large tub in the middle of a private bathroom and a large shower?",
+          "answers": [
+            "white",
+            "tan",
+            "marble"
+          ],
+          "score": 0.037312984466552734
+        },
+        {
+          "question": "what is the material of the floor in the bathroom that features a large tub in the middle of a private bathroom and a large shower?",
+          "answers": [
+            "white tiles",
+            "marble",
+            "wood"
+          ],
+          "score": 0.08562326431274414
+        },
+        {
+          "question": "what is the material of the walls in the bathroom that features a large tub in the middle of a private bathroom and a large shower?",
+          "answers": [
+            "tiled",
+            "marble",
+            "white tiles"
+          ],
+          "score": 0.04344034194946289
+        },
+        {
+          "question": "what is the color of the tub in the bathroom that features a large tub in the middle of a private bathroom and a large shower?",
+          "answers": [
+            "white",
+            "tan",
+            "marble"
+          ],
+          "score": 0.04375934600830078
+        },
+        {
+          "question": "what is the primary color of the bathroom that features a large tub in the middle of a private bathroom and a large shower?",
+          "answers": [
+            "white",
+            "tan",
+            "marble"
+          ],
+          "score": 0.0421595573425293
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is the bathroom white or tan?",
+          "answers": [
+            "white",
+            "tan",
+            "marble"
+          ],
+          "score": 0.029460906982421875
+        },
+        {
+          "question": "Question: Does the bathroom have a large mirror?",
+          "answers": [
+            "Yes",
+            "No",
+            "It depends"
+          ],
+          "score": 0.0026874542236328125
+        },
+        {
+          "question": "Question: Does the bathroom have a shower curtain?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0043849945068359375
+        },
+        {
+          "question": "Question: Does the bathroom have a glass shower door?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.03528118133544922
+        },
+        {
+          "question": "Question: Does the bathroom have dual sinks?",
+          "answers": [
+            "No",
+            "Yes",
+            "Maybe"
+          ],
+          "score": 0.0006685256958007812
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a private bathroom featuring a large tub in the middle, a large shower, and a tiled floor",
+      "question": "**Question:** What color are the walls in the bathroom featuring a large tub and a large shower?",
+      "answer": "beige",
+      "query_after": "a private bathroom featuring a large tub in the middle, a large shower, beige walls, and a tiled floor",
+      "displayed_ids": [
+        9020,
+        31090,
+        22351,
+        16433,
+        44505,
+        25618,
+        33775,
+        16326,
+        27914,
+        44787
+      ],
+      "selected_ids": [
+        2146,
+        32017,
+        14686,
+        26877,
+        45760,
+        13481,
+        37565,
+        11653,
+        730,
+        29592
+      ],
+      "rejected_count": 11,
+      "usual_paths": [
+        {
+          "question": "what is the color of the bathroom that features a large tub in the middle of a private bathroom and a large shower?",
+          "answers": [
+            "white",
+            "tan",
+            "cream"
+          ],
+          "score": 0.01798105239868164
+        },
+        {
+          "question": "what is the color of the bathroom that features a large tub in the middle of a private bathroom and a large shower?",
+          "answers": [
+            "white",
+            "tan",
+            "cream"
+          ],
+          "score": 0.01798105239868164,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the size of the bathroom that features a large tub in the middle of a private bathroom and a large shower?",
+          "answers": [
+            "small",
+            "medium",
+            "large"
+          ],
+          "score": 0.004467010498046875
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom that features a large tub in the middle of a private bathroom and a large shower?",
+          "answers": [
+            "white",
+            "tan",
+            "beige"
+          ],
+          "score": 0.021176815032958984
+        },
+        {
+          "question": "what is the color of the bathroom that features a large tub in the middle of a private bathroom and a large shower?",
+          "answers": [
+            "white",
+            "tan",
+            "cream"
+          ],
+          "score": 0.01798105239868164,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "**Question:** What color are the walls in the bathroom featuring a large tub and a large shower?",
+          "answers": [
+            "white",
+            "tan",
+            "cream"
+          ],
+          "score": 0.03996133804321289
+        },
+        {
+          "question": "What is the color of the walls in the bathroom featuring a large tub and a large shower?",
+          "answers": [
+            "white",
+            "tan",
+            "beige"
+          ],
+          "score": 0.02279043197631836
+        },
+        {
+          "question": "what is the color of the walls in the bathroom featuring a large tub and a large shower?",
+          "answers": [
+            "white",
+            "tan",
+            "beige"
+          ],
+          "score": 0.02279043197631836
+        },
+        {
+          "question": "what is the color of the walls in the bathroom featuring a large tub and a large shower?",
+          "answers": [
+            "white",
+            "tan",
+            "beige"
+          ],
+          "score": 0.02279043197631836,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What color are the walls in the bathroom featuring a large tub and a large shower?",
+          "answers": [
+            "white",
+            "beige",
+            "tan"
+          ],
+          "score": 0.024436473846435547
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a private bathroom featuring a large tub in the middle, a large shower, beige walls, and a tiled floor",
+      "question": "what color is the bathtub in the bathroom?",
+      "answer": "white",
+      "query_after": "a private bathroom featuring a large white bathtub in the middle, a large shower, beige walls, and a tiled floor",
+      "displayed_ids": [
+        25618,
+        22351,
+        7707,
+        31090,
+        9020,
+        27914,
+        10073,
+        44787,
+        16433,
+        33775
+      ],
+      "selected_ids": [
+        35244,
+        33554,
+        26877,
+        29592,
+        42905,
+        2681,
+        12421,
+        18855,
+        2146,
+        45760
+      ],
+      "rejected_count": 12,
+      "usual_paths": [
+        {
+          "question": "what is the color of the bathtub in the bathroom featuring a large tub and a large shower?",
+          "answers": [
+            "white",
+            "beige",
+            "cream"
+          ],
+          "score": 0.010802268981933594
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom featuring a large tub and a large shower?",
+          "answers": [
+            "white",
+            "beige",
+            "cream"
+          ],
+          "score": 0.010802268981933594,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom featuring a large tub and a large shower?",
+          "answers": [
+            "white",
+            "beige",
+            "cream"
+          ],
+          "score": 0.010802268981933594,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the bathtub in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "wood"
+          ],
+          "score": 0.0540928840637207
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom featuring a large tub and a large shower?",
+          "answers": [
+            "white",
+            "beige",
+            "cream"
+          ],
+          "score": 0.010802268981933594,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "**Question:** What color is the bathtub in the bathroom featuring a large tub and a large shower?",
+          "answers": [
+            "white",
+            "beige",
+            "cream"
+          ],
+          "score": 0.010469436645507812
+        },
+        {
+          "question": "What color is the bathtub in the bathroom featuring a large tub and a large shower?",
+          "answers": [
+            "white",
+            "beige",
+            "cream"
+          ],
+          "score": 0.012439250946044922
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom featuring a large tub and a large shower?",
+          "answers": [
+            "white",
+            "beige",
+            "cream"
+          ],
+          "score": 0.010802268981933594
+        },
+        {
+          "question": "what color is the bathtub in the bathroom featuring a large tub and a large shower?",
+          "answers": [
+            "white",
+            "beige",
+            "gray"
+          ],
+          "score": 0.028739452362060547
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom featuring a large tub and a large shower?",
+          "answers": [
+            "white",
+            "beige",
+            "cream"
+          ],
+          "score": 0.010802268981933594,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a private bathroom featuring a large white bathtub in the middle, a large shower, beige walls, and a tiled floor",
+      "question": "what is the color of the large tub in the bathroom?",
+      "answer": "white",
+      "query_after": "a private bathroom featuring a large white bathtub and a large shower, with beige walls and a tiled floor",
+      "displayed_ids": [
+        22351,
+        25618,
+        9020,
+        27914,
+        31090,
+        7707,
+        44505,
+        33775,
+        10073,
+        43283
+      ],
+      "selected_ids": [
+        17969,
+        18855,
+        32017,
+        4497,
+        36566,
+        16679,
+        2146,
+        26864,
+        45760,
+        29592
+      ],
+      "rejected_count": 13,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "shower",
+            "tub",
+            "window"
+          ],
+          "score": 0.030648231506347656
+        },
+        {
+          "question": "what is the color of the wall next to the large tub in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "cream"
+          ],
+          "score": 0.009891986846923828
+        },
+        {
+          "question": "what is the color of the wall next to the large tub in the bathroom that features a large tub in the middle of a private bathroom and a large shower?",
+          "answers": [
+            "beige",
+            "white",
+            "unknown"
+          ],
+          "score": 0.008483409881591797
+        },
+        {
+          "question": "what is the color of the large tub in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "blue"
+          ],
+          "score": 0.059287071228027344
+        },
+        {
+          "question": "Question: what color are the walls in the bathroom featuring a large tub in the middle of a private bathroom and a large shower?",
+          "answers": [
+            "beige",
+            "white",
+            "cream"
+          ],
+          "score": 0.010593414306640625
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "shower",
+            "tub",
+            "window"
+          ],
+          "score": 0.030648231506347656
+        },
+        {
+          "question": "What color is the shower in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "tile"
+          ],
+          "score": 0.011786460876464844
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "shower",
+            "tub",
+            "window"
+          ],
+          "score": 0.030648231506347656,
+          "duplicate_of": 0
+        },
+        {
+          "question": "What is the color of the shower in the bathroom that features a large tub and a large shower?",
+          "answers": [
+            "white",
+            "beige",
+            "gray"
+          ],
+          "score": 0.021570682525634766
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "shower",
+            "tub",
+            "window"
+          ],
+          "score": 0.030648231506347656,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a private bathroom featuring a large white bathtub and a large shower, with beige walls and a tiled floor",
+      "question": "what is the color of the shower curtain in the bathroom featuring a large tub and a large shower?",
+      "answer": "green",
+      "query_after": "a private bathroom featuring a large white tub in the middle, a large shower with a green shower curtain, beige walls, and a tiled floor",
+      "displayed_ids": [
+        22351,
+        25618,
+        27914,
+        9020,
+        7707,
+        31090,
+        43283,
+        45822,
+        44505,
+        10073
+      ],
+      "selected_ids": [
+        35295,
+        45760,
+        2146,
+        29592,
+        26877,
+        11653,
+        32017,
+        8673,
+        18855,
+        17969
+      ],
+      "rejected_count": 14,
+      "usual_paths": [
+        {
+          "question": "what type of door is present in the bathroom featuring a large tub and a large shower?",
+          "answers": [
+            "glass shower door",
+            "interior door",
+            "sliding glass door"
+          ],
+          "score": 0.014930248260498047
+        },
+        {
+          "question": "what color is the door in the bathroom featuring a large tub and a large shower?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.015998363494873047
+        },
+        {
+          "question": "what material is the door in the bathroom featuring a large tub and a large shower made of?",
+          "answers": [
+            "white",
+            "wood",
+            "glass"
+          ],
+          "score": 0.058721065521240234
+        },
+        {
+          "question": "what is the color of the shower curtain in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "patterned"
+          ],
+          "score": 0.03007364273071289
+        },
+        {
+          "question": "what is the color of the shower curtain in the bathroom featuring a large tub and a large shower?",
+          "answers": [
+            "white",
+            "beige",
+            "silver"
+          ],
+          "score": 0.02472829818725586
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the shower curtain in the bathroom featuring a large tub and a large shower?",
+          "answers": [
+            "white",
+            "blue",
+            "patterned"
+          ],
+          "score": 0.07292795181274414
+        },
+        {
+          "question": "what color is the large shower curtain in the bathroom featuring a large tub and a large shower?",
+          "answers": [
+            "white",
+            "beige",
+            "patterned"
+          ],
+          "score": 0.026361942291259766
+        },
+        {
+          "question": "what color is the large shower curtain in the bathroom featuring a large tub and a large shower?",
+          "answers": [
+            "white",
+            "beige",
+            "patterned"
+          ],
+          "score": 0.026361942291259766,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the shower curtain in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "patterned"
+          ],
+          "score": 0.03007364273071289
+        },
+        {
+          "question": "Question: is there a shower curtain visible in the bathroom featuring a large tub and a large shower?",
+          "answers": [
+            "no",
+            "yes",
+            "uncertain"
+          ],
+          "score": 0.004368782043457031
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

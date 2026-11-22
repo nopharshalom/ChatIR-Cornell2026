@@ -1,0 +1,80 @@
+{
+  "qid": 882,
+  "candidates": [
+    "Question: What color is the man's clothing?",
+    "Question: Is the man wearing a wetsuit?",
+    "Question: Is the man sitting on a decorated bench?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "kl": {
+    "question": "what is the other object in the image?",
+    "answer": "boat",
+    "rewrite": "a man is sitting on a bench by the water with a boat",
+    "raw_rank": 8,
+    "unseen_rank": 5
+  },
+  "probe": {
+    "question": "what is the other object in the image?",
+    "answer": "boat",
+    "rewrite": "a man is sitting on a bench by the water with a boat",
+    "raw_rank": 8,
+    "unseen_rank": 5
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What color is the man's clothing?",
+        "answers": [
+          "black",
+          "white",
+          "blue"
+        ],
+        "score": 0.05020475387573242
+      },
+      {
+        "question": "Question: Is the man wearing a wetsuit?",
+        "answers": [
+          "yes",
+          "no",
+          "maybe"
+        ],
+        "score": 0.0013637542724609375
+      },
+      {
+        "question": "Question: Is the man sitting on a decorated bench?",
+        "answers": [
+          "yes",
+          "no",
+          "maybe"
+        ],
+        "score": 0.002265453338623047
+      },
+      {
+        "question": "what is the other object in the image?",
+        "answers": [
+          "water",
+          "beach",
+          "city"
+        ],
+        "score": 0.10993432998657227
+      },
+      {
+        "question": "what is the other object in the image?",
+        "answers": [
+          "water",
+          "beach",
+          "city"
+        ],
+        "score": 0.10993432998657227,
+        "duplicate_of": 3
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.05,
+    "probe_selection_seconds": 1.767,
+    "probe_llm_calls": 4,
+    "probe_search_queries": 12
+  },
+  "reused_outcome": true
+}

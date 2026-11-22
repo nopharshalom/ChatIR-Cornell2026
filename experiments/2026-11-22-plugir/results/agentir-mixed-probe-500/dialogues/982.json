@@ -1,0 +1,802 @@
+{
+  "qid": 982,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000237956.jpg",
+  "queries": [
+    "a bus parked next to a city sidewalk",
+    "a red bus parked next to a city sidewalk",
+    "a red bus parked in a parking lot",
+    "a red double-decker bus parked in a parking lot",
+    "A red double-decker bus is parked in a parking lot.",
+    "a red double-decker bus parked next to another red bus at a parking lot",
+    "a red double-decker bus parked next to a city sidewalk with pedestrians walking by and traffic lights visible"
+  ],
+  "ranks": [
+    137,
+    21,
+    539,
+    209,
+    220,
+    299,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a bus parked next to a city sidewalk",
+      "question": "what is the color of the bus parked at a parking lot?",
+      "answer": "red",
+      "query_after": "a red bus parked next to a city sidewalk",
+      "displayed_ids": [
+        47634,
+        29784,
+        18000,
+        29004,
+        8562,
+        14982,
+        1000,
+        38635,
+        9988,
+        20811
+      ],
+      "selected_ids": [
+        1946,
+        5237,
+        42025,
+        3903,
+        26386,
+        35574,
+        8766,
+        37382,
+        36882,
+        2718
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the bus parked next to the city sidewalk?",
+          "answers": [
+            "white and blue",
+            "red and yellow",
+            "white"
+          ],
+          "score": 0.20677804946899414
+        },
+        {
+          "question": "what is the color of the bus parked next to the city sidewalk?",
+          "answers": [
+            "white and blue",
+            "red and yellow",
+            "white"
+          ],
+          "score": 0.20677804946899414,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bus parked at a parking lot?",
+          "answers": [
+            "white and blue",
+            "red and yellow"
+          ],
+          "score": 0.27500057220458984
+        },
+        {
+          "question": "what is the color of the bus parked next to a city sidewalk?",
+          "answers": [
+            "white and blue",
+            "red and yellow",
+            "white"
+          ],
+          "score": 0.2002568244934082
+        },
+        {
+          "question": "what is the color of the bus parked next to a city sidewalk?",
+          "answers": [
+            "white and blue",
+            "red and yellow",
+            "white"
+          ],
+          "score": 0.2002568244934082,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the bus?",
+          "answers": [
+            "white and blue",
+            "red and yellow",
+            "white"
+          ],
+          "score": 0.2470684051513672
+        },
+        {
+          "question": "What is the color of the bus parked next to the city sidewalk?",
+          "answers": [
+            "white and blue",
+            "red and yellow",
+            "orange and red"
+          ],
+          "score": 0.23712873458862305
+        },
+        {
+          "question": "Question: What is the color of the bus parked next to the city sidewalk?",
+          "answers": [
+            "white and blue",
+            "red and yellow",
+            "white"
+          ],
+          "score": 0.17463207244873047
+        },
+        {
+          "question": "Question: How many bicycles are attached to the bus?",
+          "answers": [
+            "none",
+            "one",
+            "two"
+          ],
+          "score": 0.002995014190673828
+        },
+        {
+          "question": "Question: What is the color of the bus parked next to the city sidewalk?",
+          "answers": [
+            "white and blue",
+            "red and yellow",
+            "white"
+          ],
+          "score": 0.17463207244873047,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a red bus parked next to a city sidewalk",
+      "question": "what is the other object in the image?",
+      "answer": "red bus",
+      "query_after": "a red bus parked in a parking lot",
+      "displayed_ids": [
+        29004,
+        13540,
+        6769,
+        49794,
+        42191,
+        48047,
+        18282,
+        29724,
+        18144,
+        5015
+      ],
+      "selected_ids": [
+        41330,
+        10323,
+        6168,
+        2718,
+        44317,
+        36774,
+        4977,
+        46395,
+        28870,
+        40909
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "people",
+            "street",
+            "clock tower"
+          ],
+          "score": 0.09101533889770508
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "people",
+            "street",
+            "clock tower"
+          ],
+          "score": 0.09101533889770508,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bus parked next to the city sidewalk?",
+          "answers": [
+            "red",
+            "white",
+            "orange"
+          ],
+          "score": 0.06001996994018555
+        },
+        {
+          "question": "what is the color of the bus parked next to the city sidewalk?",
+          "answers": [
+            "red",
+            "white",
+            "orange"
+          ],
+          "score": 0.06001996994018555,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the bus parked next to the city sidewalk?",
+          "answers": [
+            "red",
+            "white",
+            "orange"
+          ],
+          "score": 0.06001996994018555,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is there a clock tower visible next to the bus parked at the city sidewalk?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0011076927185058594
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "people",
+            "clock tower",
+            "street"
+          ],
+          "score": 0.09101533889770508
+        },
+        {
+          "question": "Question: Is there a clock tower visible next to the bus parked at the city sidewalk?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0011076927185058594,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: Is there a clock tower visible next to the bus?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0009622573852539062
+        },
+        {
+          "question": "Question: Is there a clock tower visible next to the bus parked next to the city sidewalk?",
+          "answers": [
+            "yes",
+            "no",
+            "uncertain"
+          ],
+          "score": 0.0020818710327148438
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a red bus parked in a parking lot",
+      "question": "what is the type of the bus parked next to a city sidewalk?",
+      "answer": "double-decker",
+      "query_after": "a red double-decker bus parked in a parking lot",
+      "displayed_ids": [
+        2104,
+        21366,
+        46758,
+        28812,
+        19433,
+        3344,
+        34317,
+        35187,
+        29722,
+        23553
+      ],
+      "selected_ids": [
+        9992,
+        19914,
+        6168,
+        36512,
+        15229,
+        26386,
+        3233,
+        26802,
+        19006,
+        1329
+      ],
+      "rejected_count": 29,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "red",
+            "white",
+            "orange"
+          ],
+          "score": 0.08394908905029297
+        },
+        {
+          "question": "what is the location where the red bus is parked?",
+          "answers": [
+            "city sidewalk",
+            "parking lot",
+            "street"
+          ],
+          "score": 0.030054092407226562
+        },
+        {
+          "question": "what is the location where the red bus is parked?",
+          "answers": [
+            "city sidewalk",
+            "parking lot",
+            "street"
+          ],
+          "score": 0.030054092407226562,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the location where the red bus is parked?",
+          "answers": [
+            "city sidewalk",
+            "parking lot",
+            "street"
+          ],
+          "score": 0.030054092407226562,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Based on the provided sources, here is the generated question and the explanation of how the information sources were utilized.\n\n**Generated Question:**\n\"What is the other?",
+          "answers": [
+            "bus",
+            "sidewalk",
+            "city"
+          ],
+          "score": 0.011199951171875
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "red",
+            "white",
+            "orange"
+          ],
+          "score": 0.08394908905029297
+        },
+        {
+          "question": "what is the type of road surface where the red bus is parked?",
+          "answers": [
+            "asphalt",
+            "stone",
+            "cobblestone"
+          ],
+          "score": 0.035531044006347656
+        },
+        {
+          "question": "Question: What is the color of the bus parked next to a city sidewalk?",
+          "answers": [
+            "red",
+            "orange",
+            "white"
+          ],
+          "score": 0.05290079116821289
+        },
+        {
+          "question": "what is the object parked next to the red bus?",
+          "answers": [
+            "green bushes",
+            "people",
+            "buildings"
+          ],
+          "score": 0.11006975173950195
+        },
+        {
+          "question": "what is the type of the bus parked next to a city sidewalk?",
+          "answers": [
+            "double decker",
+            "delivery",
+            "train"
+          ],
+          "score": 0.1146855354309082
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 3,
+      "query_before": "a red double-decker bus parked in a parking lot",
+      "question": "what is the other object in the image?",
+      "answer": "red bus",
+      "query_after": "A red double-decker bus is parked in a parking lot.",
+      "displayed_ids": [
+        19433,
+        3344,
+        4977,
+        25783,
+        18428,
+        12077,
+        8647,
+        21927,
+        33794,
+        16045
+      ],
+      "selected_ids": [
+        10323,
+        1992,
+        20265,
+        39243,
+        29722,
+        9465,
+        3233,
+        48057,
+        8565,
+        44495
+      ],
+      "rejected_count": 37,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "double decker bus",
+            "crowd of people",
+            "apartment building"
+          ],
+          "score": 0.12684965133666992
+        },
+        {
+          "question": "what is the location of the red double-decker bus parked next to the city sidewalk?",
+          "answers": [
+            "city sidewalk",
+            "apartment building",
+            "bus stop"
+          ],
+          "score": 0.025188446044921875
+        },
+        {
+          "question": "what is the object located next to the red double-decker bus?",
+          "answers": [
+            "a city sidewalk",
+            "a big ben",
+            "an apartment building"
+          ],
+          "score": 0.05201864242553711
+        },
+        {
+          "question": "what is the object located next to the red double-decker bus?",
+          "answers": [
+            "a city sidewalk",
+            "a big ben",
+            "an apartment building"
+          ],
+          "score": 0.05201864242553711,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the other object in the image next to the red double-decker bus?",
+          "answers": [
+            "a crowd of people",
+            "Big Ben",
+            "an apartment building"
+          ],
+          "score": 0.08774042129516602
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "double decker bus",
+            "crowd of people",
+            "apartment building"
+          ],
+          "score": 0.12684965133666992
+        },
+        {
+          "question": "what is the object located behind the red double-decker bus?",
+          "answers": [
+            "city",
+            "apartment building",
+            "airplane"
+          ],
+          "score": 0.08174610137939453
+        },
+        {
+          "question": "what is the specific background object located behind the red double-decker bus?",
+          "answers": [
+            "apartment building",
+            "city",
+            "Big Ben"
+          ],
+          "score": 0.03603553771972656
+        },
+        {
+          "question": "what is the specific background object located behind the red double-decker bus?",
+          "answers": [
+            "apartment building",
+            "city",
+            "Big Ben"
+          ],
+          "score": 0.03603553771972656,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the specific background object located behind the red double-decker bus?",
+          "answers": [
+            "apartment building",
+            "city",
+            "Big Ben"
+          ],
+          "score": 0.03603553771972656,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "A red double-decker bus is parked in a parking lot.",
+      "question": "what is the color of the bus parked next to the red double-decker bus?",
+      "answer": "red",
+      "query_after": "a red double-decker bus parked next to another red bus at a parking lot",
+      "displayed_ids": [
+        19433,
+        3344,
+        4977,
+        25783,
+        18428,
+        8647,
+        21927,
+        12077,
+        16045,
+        33794
+      ],
+      "selected_ids": [
+        6168,
+        2104,
+        26848,
+        1992,
+        47987,
+        29722,
+        10323,
+        39243,
+        8565,
+        19914
+      ],
+      "rejected_count": 37,
+      "usual_paths": [
+        {
+          "question": "what are the objects located next to the red double-decker bus?",
+          "answers": [
+            "buildings",
+            "bus stop",
+            "crowd"
+          ],
+          "score": 0.03642702102661133
+        },
+        {
+          "question": "what is the object located next to the red double-decker bus?",
+          "answers": [
+            "building",
+            "sidewalk",
+            "people"
+          ],
+          "score": 0.0554661750793457
+        },
+        {
+          "question": "what is the object located next to the red double-decker bus?",
+          "answers": [
+            "building",
+            "sidewalk",
+            "people"
+          ],
+          "score": 0.0554661750793457,
+          "duplicate_of": 1
+        },
+        {
+          "question": "What is the color of the double-decker bus parked next to the city sidewalk?",
+          "answers": [
+            "red",
+            "red double decker",
+            "red double decker bus"
+          ],
+          "score": 0.004939556121826172
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "red bus",
+            "red truck",
+            "red and white airplane"
+          ],
+          "score": 0.10149526596069336
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what are the objects surrounding the red double-decker bus?",
+          "answers": [
+            "buildings",
+            "stop",
+            "apartment building"
+          ],
+          "score": 0.02912282943725586
+        },
+        {
+          "question": "what is the type of vehicle parked next to the red double-decker bus?",
+          "answers": [
+            "cars",
+            "truck",
+            "people"
+          ],
+          "score": 0.02075672149658203
+        },
+        {
+          "question": "what is the type of vehicle parked next to the red double-decker bus?",
+          "answers": [
+            "cars",
+            "truck",
+            "people"
+          ],
+          "score": 0.02075672149658203,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the bus parked next to the red double-decker bus?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.10982656478881836
+        },
+        {
+          "question": "what is the object located next to the red double-decker bus?",
+          "answers": [
+            "buildings",
+            "city sidewalk",
+            "people"
+          ],
+          "score": 0.04233598709106445
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a red double-decker bus parked next to another red bus at a parking lot",
+      "question": "what are the other objects in the image besides the red double-decker bus?",
+      "answer": "Based on the image, besides the red double-decker bus, the other visible objects include:\n\n*   **Pedestrians:** Several people are walking on the sidewalk.\n*   **Traffic Lights:** A set of traffic lights is",
+      "query_after": "a red double-decker bus parked next to a city sidewalk with pedestrians walking by and traffic lights visible",
+      "displayed_ids": [
+        4977,
+        19433,
+        8647,
+        34462,
+        15443,
+        25783,
+        3468,
+        27609,
+        28062,
+        34230
+      ],
+      "selected_ids": [
+        29798,
+        12475,
+        21277,
+        10323,
+        9890,
+        6168,
+        29722,
+        39243,
+        32203,
+        44495
+      ],
+      "rejected_count": 43,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "red double decker bus",
+            "fire trucks",
+            "busses"
+          ],
+          "score": 0.04200887680053711
+        },
+        {
+          "question": "what are the other objects in the image besides the red double-decker bus?",
+          "answers": [
+            "a crowd of people walking down a street near a red double decker bus",
+            "a red double decker bus driving down the street in front of a large building",
+            "a red bus pulls into a bus stop in front of an apartment building"
+          ],
+          "score": 0.10903167724609375
+        },
+        {
+          "question": "what is the color of the double-decker bus parked next to a city sidewalk?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.06493854522705078
+        },
+        {
+          "question": "what is the location where the red double-decker bus is parked?",
+          "answers": [
+            "city sidewalk",
+            "parking lot",
+            "street"
+          ],
+          "score": 0.012786388397216797
+        },
+        {
+          "question": "what is the location where the red double-decker bus is parked?",
+          "answers": [
+            "city sidewalk",
+            "parking lot",
+            "street"
+          ],
+          "score": 0.012786388397216797,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "red double decker bus",
+            "fire trucks",
+            "busses"
+          ],
+          "score": 0.04200887680053711
+        },
+        {
+          "question": "what are the details of the city sidewalk next to the red double-decker bus?",
+          "answers": [
+            "paved",
+            "brick",
+            "concrete"
+          ],
+          "score": 0.008190155029296875
+        },
+        {
+          "question": "what is the background scene behind the red double-decker bus?",
+          "answers": [
+            "a large building",
+            "a crowd of people",
+            "another bus"
+          ],
+          "score": 0.07111644744873047
+        },
+        {
+          "question": "Question: Is there a crowd of people visible next to the red double-decker bus?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0033049583435058594
+        },
+        {
+          "question": "Question: Is there a building visible in the background behind the red double-decker bus?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.004446506500244141
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

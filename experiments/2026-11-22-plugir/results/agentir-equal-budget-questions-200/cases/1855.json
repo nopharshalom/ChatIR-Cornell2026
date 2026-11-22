@@ -1,0 +1,78 @@
+{
+  "qid": 1855,
+  "sample": 2,
+  "first_candidates": [
+    "Question: Is the adult helping the young boy, or are they brushing their teeth independently?",
+    "what is the gender of the adult brushing their teeth beside the young boy?",
+    "what is the location where the young boy and the adult are brushing their teeth?",
+    "Question: What is the gender of the adult?",
+    "Question: What is the gender of the adult brushing their teeth beside the young boy?"
+  ],
+  "second_candidates": [
+    "what is the location where the young boy is brushing his teeth?",
+    "Question: who is the adult standing next to the young boy?",
+    "Question: What is the gender of the adult standing next to the young boy?",
+    "Question: What is the relationship between the young boy and the adult brushing their teeth?",
+    "what is the gender of the adult standing next to the young boy?"
+  ],
+  "paths": [
+    {
+      "question": "what is the location where the young boy is brushing his teeth?",
+      "answers": [
+        "bathroom",
+        "field",
+        "park"
+      ],
+      "score": 0.08791923522949219
+    },
+    {
+      "question": "Question: who is the adult standing next to the young boy?",
+      "answers": [
+        "his",
+        "her",
+        "someone"
+      ],
+      "score": 0.0027747154235839844
+    },
+    {
+      "question": "Question: What is the gender of the adult standing next to the young boy?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.007781028747558594
+    },
+    {
+      "question": "Question: What is the relationship between the young boy and the adult brushing their teeth?",
+      "answers": [
+        "father and son",
+        "mother and son",
+        "guardian and child"
+      ],
+      "score": 0.015204906463623047
+    },
+    {
+      "question": "what is the gender of the adult standing next to the young boy?",
+      "answers": [
+        "male",
+        "female",
+        "not sure"
+      ],
+      "score": 0.011279106140136719
+    }
+  ],
+  "control": {
+    "question": "what is the location where the young boy is brushing his teeth?",
+    "score": 0.08791923522949219
+  },
+  "mixed": {
+    "question": "Question: Where are the boy and the adult located?",
+    "score": 0.07977962493896484
+  },
+  "control_rank": 7,
+  "mixed_rank": 7,
+  "usual_rank": 7,
+  "new_answer": "bathroom",
+  "new_rewrite": "a young boy brushing his teeth beside an adult in a bathroom"
+}

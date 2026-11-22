@@ -1,0 +1,78 @@
+{
+  "qid": 1420,
+  "sample": 1,
+  "first_candidates": [
+    "what color are the umbrellas held by the people in the city scene?",
+    "what color is the clock tower located in the city scene?",
+    "what objects are the people sitting on in front of the clock tower?",
+    "what is the color of the double decker bus located in the city scene?",
+    "what is the color of the double decker bus located in the city scene?"
+  ],
+  "second_candidates": [
+    "what is the color of the double decker bus in the image?",
+    "what is the location of the double decker bus in the image?",
+    "Question: what is the color of the clock tower in the image?",
+    "Question: what is the color of the double decker bus?",
+    "what is the color of the clock tower in the image?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the double decker bus in the image?",
+      "answers": [
+        "red",
+        "yellow",
+        "blue"
+      ],
+      "score": 0.06252717971801758
+    },
+    {
+      "question": "what is the location of the double decker bus in the image?",
+      "answers": [
+        "London",
+        "Paris",
+        "Unknown city"
+      ],
+      "score": 0.03944730758666992
+    },
+    {
+      "question": "Question: what is the color of the clock tower in the image?",
+      "answers": [
+        "black",
+        "blue",
+        "grey"
+      ],
+      "score": 0.017238140106201172
+    },
+    {
+      "question": "Question: what is the color of the double decker bus?",
+      "answers": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "score": 0.06167030334472656
+    },
+    {
+      "question": "what is the color of the clock tower in the image?",
+      "answers": [
+        "red",
+        "brown",
+        "orange"
+      ],
+      "score": 0.026175975799560547
+    }
+  ],
+  "control": {
+    "question": "what is the color of the double decker bus in the image?",
+    "score": 0.06252717971801758
+  },
+  "mixed": {
+    "question": "what type of vehicles are visible in the city scene?",
+    "score": 0.09984350204467773
+  },
+  "control_rank": 354,
+  "mixed_rank": 2,
+  "usual_rank": 98,
+  "new_answer": "red",
+  "new_rewrite": "a red double decker bus is visible in a city scene with many people walking on the sidewalk and others sitting on the steps"
+}

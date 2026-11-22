@@ -1,0 +1,81 @@
+{
+  "qid": 683,
+  "candidates": [
+    "Question: What is the person holding the sheep near?",
+    "what is the gender of the person holding the sheep?",
+    "Question: What is the gender of the person holding the sheep?",
+    "Question: What is the gender of the person holding the sheep?",
+    "Question: What is the gender of the person holding the sheep?"
+  ],
+  "kl": {
+    "question": "what is the gender of the person holding the sheep?",
+    "answer": "female",
+    "rewrite": "a female person gripping a sheep by the neck",
+    "raw_rank": 10,
+    "unseen_rank": 6
+  },
+  "probe": {
+    "answer": "metal fence",
+    "rewrite": "a person gripping a sheep's neck near a metal fence",
+    "raw_rank": 11,
+    "unseen_rank": 9,
+    "question": "Question: What is the person holding the sheep near?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the person holding the sheep near?",
+        "answers": [
+          "a wooden fence",
+          "a field",
+          "a ring"
+        ],
+        "score": 0.11287498474121094
+      },
+      {
+        "question": "what is the gender of the person holding the sheep?",
+        "answers": [
+          "male",
+          "female",
+          "unknown"
+        ],
+        "score": 0.0328826904296875
+      },
+      {
+        "question": "Question: What is the gender of the person holding the sheep?",
+        "answers": [
+          "male",
+          "female",
+          "unknown"
+        ],
+        "score": 0.029108047485351562
+      },
+      {
+        "question": "Question: What is the gender of the person holding the sheep?",
+        "answers": [
+          "male",
+          "female",
+          "unknown"
+        ],
+        "score": 0.029108047485351562,
+        "duplicate_of": 2
+      },
+      {
+        "question": "Question: What is the gender of the person holding the sheep?",
+        "answers": [
+          "male",
+          "female",
+          "unknown"
+        ],
+        "score": 0.029108047485351562,
+        "duplicate_of": 2
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.043,
+    "probe_selection_seconds": 1.382,
+    "probe_llm_calls": 3,
+    "probe_search_queries": 9
+  },
+  "reused_outcome": false
+}

@@ -1,0 +1,82 @@
+{
+  "qid": 1789,
+  "candidates": [
+    "Question: What color is the shirt of the man hitting the tennis ball?",
+    "Question: What color is the hat worn by the man hitting the tennis ball?",
+    "Question: What color is the hat worn by the man hitting the tennis ball?",
+    "Question: What color is the shirt of the man hitting the tennis ball?",
+    "Question: What color is the hat worn by the man hitting the tennis ball?"
+  ],
+  "kl": {
+    "question": "Question: What color is the shirt of the man hitting the tennis ball?",
+    "answer": "white",
+    "rewrite": "a man in a white shirt is hitting a tennis ball as a crowd watches",
+    "raw_rank": 73,
+    "unseen_rank": 67
+  },
+  "probe": {
+    "question": "Question: What color is the shirt of the man hitting the tennis ball?",
+    "answer": "white",
+    "rewrite": "a man in a white shirt is hitting a tennis ball as a crowd watches",
+    "raw_rank": 73,
+    "unseen_rank": 67
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What color is the shirt of the man hitting the tennis ball?",
+        "answers": [
+          "green",
+          "red and orange",
+          "white"
+        ],
+        "score": 0.09348630905151367
+      },
+      {
+        "question": "Question: What color is the hat worn by the man hitting the tennis ball?",
+        "answers": [
+          "green",
+          "red and orange",
+          "none"
+        ],
+        "score": 0.03947591781616211
+      },
+      {
+        "question": "Question: What color is the hat worn by the man hitting the tennis ball?",
+        "answers": [
+          "green",
+          "red and orange",
+          "none"
+        ],
+        "score": 0.03947591781616211,
+        "duplicate_of": 1
+      },
+      {
+        "question": "Question: What color is the shirt of the man hitting the tennis ball?",
+        "answers": [
+          "green",
+          "red and orange",
+          "white"
+        ],
+        "score": 0.09348630905151367,
+        "duplicate_of": 0
+      },
+      {
+        "question": "Question: What color is the hat worn by the man hitting the tennis ball?",
+        "answers": [
+          "green",
+          "red and orange",
+          "none"
+        ],
+        "score": 0.03947591781616211,
+        "duplicate_of": 1
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.061,
+    "probe_selection_seconds": 0.954,
+    "probe_llm_calls": 2,
+    "probe_search_queries": 6
+  },
+  "reused_outcome": true
+}

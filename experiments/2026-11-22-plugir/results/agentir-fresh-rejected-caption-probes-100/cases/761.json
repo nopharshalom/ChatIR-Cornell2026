@@ -1,0 +1,177 @@
+{
+  "qid": 761,
+  "initial": "the man is holding the young child and feeding him",
+  "initial_rank": 92,
+  "displayed": [
+    11858,
+    30444,
+    8441,
+    17558,
+    7248,
+    20049,
+    10002,
+    40317,
+    9536,
+    10710
+  ],
+  "evidence": [
+    "two women and two children with a stroller",
+    "a baby is eating out of a high chair",
+    "a woman is using a brush on her baby",
+    "a woman putting on a small children's hair",
+    "a woman is hand feeding a giraffe from a wooden fence",
+    "a child and mother sitting on a grassy field",
+    "man at a table eating a sandwich",
+    "a woman and child standing in an orchard of apples",
+    "giraffe with neck pointing towards a table",
+    "a group of people eating food in front of some food stands"
+  ],
+  "rejected_captions": [
+    "the boy is petting the giraffe",
+    "a white crib",
+    "a man holding a baby and brushing his teeth",
+    "a child with green pants",
+    "a man in a high chair at a restaurant",
+    "man is a man",
+    "the child's diaper is off",
+    "a man in a red shirt",
+    "a gray shirt on a man",
+    "a young boy holding a giraffe's head"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the man feeding the child with?",
+      "what is the man wearing?",
+      "Question: where is the man feeding the child?",
+      "what is the man feeding the child with, and where is this taking place?",
+      "what is the man holding the young child with?"
+    ],
+    "question": "what is the man feeding the child with, and where is this taking place?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the man feeding the child with?",
+          "answers": [
+            "hand",
+            "bottle",
+            "plate"
+          ],
+          "score": 0.043201446533203125
+        },
+        {
+          "question": "what is the man wearing?",
+          "answers": [
+            "shirt",
+            "jacket",
+            "t-shirt"
+          ],
+          "score": 0.05277252197265625
+        },
+        {
+          "question": "Question: where is the man feeding the child?",
+          "answers": [
+            "table",
+            "orchard",
+            "grassy field"
+          ],
+          "score": 0.16216802597045898
+        },
+        {
+          "question": "what is the man feeding the child with, and where is this taking place?",
+          "answers": [
+            "sandwich, at a table",
+            "baby food, in a high chair",
+            "giraffe, at a table"
+          ],
+          "score": 0.18373727798461914
+        },
+        {
+          "question": "what is the man holding the young child with?",
+          "answers": [
+            "nothing",
+            "a bottle",
+            "a spoon"
+          ],
+          "score": 0.0464930534362793
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.065,
+      "probe_selection_seconds": 2.604,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "the man is feeding the child with a spoon, and this is taking place in a kitchen.",
+    "rewrite": "a man holding a young child and feeding him with a spoon in a kitchen",
+    "raw_rank": 15,
+    "unseen_rank": 8
+  },
+  "rejected": {
+    "candidates": [
+      "what is the location where the man is feeding the young child?",
+      "what is the man wearing while holding and feeding the young child?",
+      "Question: What is the man feeding the young child?",
+      "Question: What type of container or furniture is the man holding the young child while feeding him?",
+      "Question: What is the man wearing on his head?"
+    ],
+    "question": "what is the location where the man is feeding the young child?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the location where the man is feeding the young child?",
+          "answers": [
+            "a wooden fence",
+            "a grassy field",
+            "an orchard of apples"
+          ],
+          "score": 0.21490764617919922
+        },
+        {
+          "question": "what is the man wearing while holding and feeding the young child?",
+          "answers": [
+            "shirt",
+            "jacket",
+            "t-shirt"
+          ],
+          "score": 0.041097164154052734
+        },
+        {
+          "question": "Question: What is the man feeding the young child?",
+          "answers": [
+            "sandwich",
+            "bread",
+            "apple"
+          ],
+          "score": 0.0777735710144043
+        },
+        {
+          "question": "Question: What type of container or furniture is the man holding the young child while feeding him?",
+          "answers": [
+            "arms",
+            "lap",
+            "chair"
+          ],
+          "score": 0.023567676544189453
+        },
+        {
+          "question": "Question: What is the man wearing on his head?",
+          "answers": [
+            "cap",
+            "none",
+            "headband"
+          ],
+          "score": 0.014523506164550781
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.066,
+      "probe_selection_seconds": 2.413,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "kitchen",
+    "rewrite": "a man is holding a young child and feeding him in a kitchen",
+    "raw_rank": 9,
+    "unseen_rank": 3
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "qid": 298,
+  "initial": "the elephant is standing on grass by the water",
+  "initial_rank": 28,
+  "evidence": [
+    "a giraffe standing in the zoo field near rocks",
+    "a gray elephant in an enclosure",
+    "a large passenger plane taking off over water",
+    "a grey elephant walking on dirt in a fenced in area",
+    "elephant walking in an enclosure with some trees and dirt",
+    "a group of people on a bench next to a body of water",
+    "three elephants are walking in the wild and are near some trees",
+    "a bird on a green grassy field with a boat behind",
+    "a bear is standing on some rocks near a body of water",
+    "a field of sheep drinking water near a small lake"
+  ],
+  "candidates": [
+    "Question: What color is the elephant standing on the grass by the water?",
+    "Question: What is the color of the elephant standing on the grass by the water?",
+    "what is the color of the elephant standing next to a body of water?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: What color is the elephant standing on the grass by the water?",
+      "answers": [
+        "gray",
+        "grey",
+        "brown"
+      ],
+      "score": 0.018605709075927734
+    },
+    {
+      "question": "Question: What is the color of the elephant standing on the grass by the water?",
+      "answers": [
+        "gray",
+        "grey",
+        "dark gray"
+      ],
+      "score": 0.00438690185546875
+    },
+    {
+      "question": "what is the color of the elephant standing next to a body of water?",
+      "answers": [
+        "gray",
+        "grey"
+      ],
+      "score": 9.250640869140625e-05
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "grass",
+        "water"
+      ],
+      "score": 0.0055522918701171875
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "grass",
+        "water"
+      ],
+      "score": 0.0055522918701171875,
+      "duplicate_of": 3
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.057,
+  "probe_selection_seconds": 1.915,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 10,
+  "arms": {
+    "kl": {
+      "question": "what is the other object in the image?",
+      "answer": "water",
+      "rewrite": "an elephant standing on grass by the water",
+      "rank": 29,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the other object in the image?",
+      "answer": "water",
+      "rewrite": "an elephant standing on grass by the water",
+      "rank": 29,
+      "hit": false
+    },
+    "probe": {
+      "question": "Question: What color is the elephant standing on the grass by the water?",
+      "answer": "gray",
+      "rewrite": "a gray elephant is standing on grass by the water",
+      "rank": 28,
+      "hit": false
+    }
+  },
+  "seconds": 19.809
+}

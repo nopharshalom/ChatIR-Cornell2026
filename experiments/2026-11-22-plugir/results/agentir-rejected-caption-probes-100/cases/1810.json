@@ -1,0 +1,82 @@
+{
+  "qid": 1810,
+  "candidates": [
+    "Question: What color is the baseball bat the man is holding?",
+    "Question: What color is the baseball bat the man is holding?",
+    "Question: What color is the baseball bat the man is holding?",
+    "Question: What color is the baseball bat the man is holding?",
+    "what is the color of the baseball bat the man is holding?"
+  ],
+  "kl": {
+    "question": "what is the color of the baseball bat the man is holding?",
+    "answer": "brown",
+    "rewrite": "a man holding a brown baseball bat in a park",
+    "raw_rank": 4,
+    "unseen_rank": 1
+  },
+  "probe": {
+    "question": "what is the color of the baseball bat the man is holding?",
+    "answer": "brown",
+    "rewrite": "a man holding a brown baseball bat in a park",
+    "raw_rank": 4,
+    "unseen_rank": 1
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What color is the baseball bat the man is holding?",
+        "answers": [
+          "black",
+          "wood",
+          "metal"
+        ],
+        "score": 0.023012638092041016
+      },
+      {
+        "question": "Question: What color is the baseball bat the man is holding?",
+        "answers": [
+          "black",
+          "wood",
+          "metal"
+        ],
+        "score": 0.023012638092041016,
+        "duplicate_of": 0
+      },
+      {
+        "question": "Question: What color is the baseball bat the man is holding?",
+        "answers": [
+          "black",
+          "wood",
+          "metal"
+        ],
+        "score": 0.023012638092041016,
+        "duplicate_of": 0
+      },
+      {
+        "question": "Question: What color is the baseball bat the man is holding?",
+        "answers": [
+          "black",
+          "wood",
+          "metal"
+        ],
+        "score": 0.023012638092041016,
+        "duplicate_of": 0
+      },
+      {
+        "question": "what is the color of the baseball bat the man is holding?",
+        "answers": [
+          "black",
+          "wood",
+          "silver"
+        ],
+        "score": 0.024322032928466797
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.054,
+    "probe_selection_seconds": 0.882,
+    "probe_llm_calls": 2,
+    "probe_search_queries": 6
+  },
+  "reused_outcome": true
+}

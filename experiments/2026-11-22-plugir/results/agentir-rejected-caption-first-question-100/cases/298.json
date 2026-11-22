@@ -1,0 +1,71 @@
+{
+  "qid": 298,
+  "initial": "the elephant is standing on grass by the water",
+  "initial_rank": 28,
+  "evidence": [
+    "a giraffe standing in the zoo field near rocks",
+    "a gray elephant in an enclosure",
+    "a large passenger plane taking off over water",
+    "a grey elephant walking on dirt in a fenced in area",
+    "elephant walking in an enclosure with some trees and dirt",
+    "a group of people on a bench next to a body of water",
+    "three elephants are walking in the wild and are near some trees",
+    "a bird on a green grassy field with a boat behind",
+    "a bear is standing on some rocks near a body of water",
+    "a field of sheep drinking water near a small lake"
+  ],
+  "displayed_ids": [
+    42974,
+    16288,
+    8235,
+    6838,
+    10089,
+    42751,
+    22761,
+    40243,
+    21317,
+    30149
+  ],
+  "rejected_captions": [
+    "the horizon is the sun",
+    "an elephant stands by a body of water",
+    "a large elephant standing near water",
+    "an elephant walking through tall grass",
+    "elephant walking around",
+    "a large elephant standing in a tall grassy plain",
+    "a large elephant with brown tusks walking down by the river",
+    "elephant at etsa river nsw in kenya",
+    "a gray elephant walking on a grassy area near the water",
+    "a large elephant walking in a field"
+  ],
+  "candidates": [
+    "Question: Is the elephant gray or brown?",
+    "Question: Is the elephant standing near rocks or in an enclosure?",
+    "Question: Is the elephant near trees or rocks?",
+    "Question: Is the elephant standing alone or with other elephants?",
+    "Question: Is there a boat visible in the background?"
+  ],
+  "control_candidates": [
+    "Question: What color is the elephant standing on the grass by the water?",
+    "Question: What is the color of the elephant standing on the grass by the water?",
+    "what is the color of the elephant standing next to a body of water?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "answer": "water",
+    "rewrite": "an elephant standing on grass by the water",
+    "rank": 29,
+    "hit": false,
+    "raw_rank": 29,
+    "unseen_rank": 19
+  },
+  "variant": {
+    "question": "Question: Is there a boat visible in the background?",
+    "answer": "no",
+    "rewrite": "an elephant stands on grass by the water with no boat visible in the background",
+    "raw_rank": 27,
+    "unseen_rank": 17
+  }
+}

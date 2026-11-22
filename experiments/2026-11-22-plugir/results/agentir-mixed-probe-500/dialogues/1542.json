@@ -1,0 +1,1321 @@
+{
+  "qid": 1542,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000223363.jpg",
+  "queries": [
+    "an living room is arranged with a couch, a chaise lounge, 2 single chairs, a square table, a circular table, a long rectangular table, and a television",
+    "a living room arranged with a couch, a chaise lounge, two single chairs, a square table, a circular table, a long rectangular table, and a black television",
+    "a living room with beige furniture, including a couch, chaise lounge, two single chairs, a square table, a circular table, and a long rectangular table, featuring a black television",
+    "a beige living room arranged with a couch, a chaise lounge, two single chairs, a square table, a circular table, a long rectangular table, and a black television",
+    "The living room is beige and furnished with a couch, a chaise lounge, two single chairs, a square table, a circular table, a long rectangular table, and a black television.",
+    "a beige living room with brown flooring, featuring a couch, chaise lounge, two single chairs, a square table, a circular table, a long rectangular table, and a black television",
+    "a beige living room features a beige couch, chaise lounge, two single chairs, a square table, a circular table, a long rectangular table, and a black television, all arranged on a brown floor",
+    "a beige living room features a brown floor, a black television, a beige couch, a beige chaise lounge, two beige single chairs, a beige square table, a beige circular table, and a beige long rectangular table",
+    "a beige living room with brown floors features a black television, a beige chaise lounge, a beige couch, two beige single chairs, a square table, a circular table, and a long rectangular table, all made of fabric",
+    "a beige living room with brown floors features a fabric couch, a beige chaise lounge, two single chairs, a square table, a white coffee table, a long rectangular table, and a black television",
+    "a beige living room with brown floors features a beige fabric couch, a beige chaise lounge, two single chairs, a square table, a white coffee table, and a black rectangular television"
+  ],
+  "ranks": [
+    13,
+    56,
+    60,
+    54,
+    66,
+    73,
+    69,
+    106,
+    78,
+    50,
+    43
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "an living room is arranged with a couch, a chaise lounge, 2 single chairs, a square table, a circular table, a long rectangular table, and a television",
+      "question": "what is the color of the television in the living room?",
+      "answer": "black",
+      "query_after": "a living room arranged with a couch, a chaise lounge, two single chairs, a square table, a circular table, a long rectangular table, and a black television",
+      "displayed_ids": [
+        6574,
+        18475,
+        12056,
+        163,
+        11541,
+        30109,
+        5257,
+        40139,
+        28183,
+        42894
+      ],
+      "selected_ids": [
+        28521,
+        28807,
+        49477,
+        37973,
+        6419,
+        45693,
+        20444,
+        23486,
+        39885,
+        32808
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what color is the couch in the living room?",
+          "answers": [
+            "brown",
+            "tan",
+            "blue"
+          ],
+          "score": 0.08408975601196289
+        },
+        {
+          "question": "what is the color of the television in the living room?",
+          "answers": [
+            "black",
+            "red",
+            "silver"
+          ],
+          "score": 0.12009572982788086
+        },
+        {
+          "question": "what is the color of the television in the living room?",
+          "answers": [
+            "black",
+            "red",
+            "silver"
+          ],
+          "score": 0.12009572982788086,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the television in the living room?",
+          "answers": [
+            "black",
+            "red",
+            "silver"
+          ],
+          "score": 0.12009572982788086,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "fireplace",
+            "table",
+            "couch"
+          ],
+          "score": 0.07503747940063477
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the television in the living room?",
+          "answers": [
+            "black",
+            "tan",
+            "brown"
+          ],
+          "score": 0.05681180953979492
+        },
+        {
+          "question": "Question: What is the color of the television in the living room?",
+          "answers": [
+            "black",
+            "red",
+            "silver"
+          ],
+          "score": 0.10863780975341797
+        },
+        {
+          "question": "what color is the couch in the living room?",
+          "answers": [
+            "brown",
+            "tan",
+            "black"
+          ],
+          "score": 0.07247400283813477
+        },
+        {
+          "question": "what is the color of the couch in the living room?",
+          "answers": [
+            "tan",
+            "brown",
+            "blue"
+          ],
+          "score": 0.08629274368286133
+        },
+        {
+          "question": "what is the color of the table in the living room?",
+          "answers": [
+            "brown",
+            "tan",
+            "black"
+          ],
+          "score": 0.059415340423583984
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a living room arranged with a couch, a chaise lounge, two single chairs, a square table, a circular table, a long rectangular table, and a black television",
+      "question": "what is the color of the living room furniture?",
+      "answer": "beige",
+      "query_after": "a living room with beige furniture, including a couch, chaise lounge, two single chairs, a square table, a circular table, and a long rectangular table, featuring a black television",
+      "displayed_ids": [
+        8602,
+        11541,
+        12203,
+        17701,
+        23062,
+        29976,
+        15080,
+        19965,
+        29763,
+        47877
+      ],
+      "selected_ids": [
+        49477,
+        6419,
+        28521,
+        25657,
+        23486,
+        32808,
+        23919,
+        45693,
+        14459,
+        23166
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "what is the color of the couch in the living room?",
+          "answers": [
+            "black",
+            "brown",
+            "beige"
+          ],
+          "score": 0.03032064437866211
+        },
+        {
+          "question": "what is the color of the couch in the living room?",
+          "answers": [
+            "black",
+            "brown",
+            "beige"
+          ],
+          "score": 0.03032064437866211,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the coffee table in the living room?",
+          "answers": [
+            "brown",
+            "black",
+            "wood"
+          ],
+          "score": 0.02134561538696289
+        },
+        {
+          "question": "what is the color of the living room furniture?",
+          "answers": [
+            "beige",
+            "brown",
+            "black"
+          ],
+          "score": 0.03493356704711914
+        },
+        {
+          "question": "what is the color of the chair in the living room?",
+          "answers": [
+            "black",
+            "brown",
+            "beige"
+          ],
+          "score": 0.02979278564453125
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the couch in the living room?",
+          "answers": [
+            "black",
+            "brown",
+            "beige"
+          ],
+          "score": 0.03032064437866211
+        },
+        {
+          "question": "what is the color of the chaise lounge in the living room?",
+          "answers": [
+            "brown",
+            "beige",
+            "tan"
+          ],
+          "score": 0.01278543472290039
+        },
+        {
+          "question": "Question: what is the color of the square table in the living room?",
+          "answers": [
+            "brown",
+            "black",
+            "wood"
+          ],
+          "score": 0.023120880126953125
+        },
+        {
+          "question": "what is the color of the single chairs in the living room?",
+          "answers": [
+            "beige",
+            "brown",
+            "black"
+          ],
+          "score": 0.030742168426513672
+        },
+        {
+          "question": "what is the color of the circular table in the living room?",
+          "answers": [
+            "black",
+            "brown",
+            "wood"
+          ],
+          "score": 0.022561073303222656
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a living room with beige furniture, including a couch, chaise lounge, two single chairs, a square table, a circular table, and a long rectangular table, featuring a black television",
+      "question": "what is the color of the living room furniture?",
+      "answer": "beige",
+      "query_after": "a beige living room arranged with a couch, a chaise lounge, two single chairs, a square table, a circular table, a long rectangular table, and a black television",
+      "displayed_ids": [
+        11541,
+        40139,
+        12056,
+        8208,
+        29067,
+        32300,
+        18475,
+        46836,
+        41852,
+        42894
+      ],
+      "selected_ids": [
+        37973,
+        49947,
+        6419,
+        1156,
+        32808,
+        49477,
+        37191,
+        44012,
+        34898
+      ],
+      "rejected_count": 24,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "couch",
+            "chaise lounge",
+            "single chairs"
+          ],
+          "score": 0.010889530181884766
+        },
+        {
+          "question": "what is the color of the living room furniture?",
+          "answers": [
+            "beige",
+            "brown",
+            "gray"
+          ],
+          "score": 0.017267704010009766
+        },
+        {
+          "question": "what is the color of the television in the living room that has beige furniture?",
+          "answers": [
+            "black",
+            "beige",
+            "unknown"
+          ],
+          "score": 0.006740093231201172
+        },
+        {
+          "question": "what is the color of the couch in the living room that has beige furniture?",
+          "answers": [
+            "beige"
+          ],
+          "note": "fewer than 2 answers"
+        },
+        {
+          "question": "what is the color of the coffee table in the living room that has beige furniture?",
+          "answers": [
+            "beige",
+            "brown",
+            "wood"
+          ],
+          "score": 0.009472846984863281
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the size of the television in the living room?",
+          "answers": [
+            "small",
+            "medium",
+            "large"
+          ],
+          "score": 0.0027594566345214844
+        },
+        {
+          "question": "Question: What is the color of the television in the living room?",
+          "answers": [
+            "black",
+            "beige",
+            "brown"
+          ],
+          "score": 0.011174678802490234
+        },
+        {
+          "question": "Question: What is the shape of the table in the living room?",
+          "answers": [
+            "square",
+            "circular",
+            "rectangular"
+          ],
+          "score": 0.005376338958740234
+        },
+        {
+          "question": "Question: How many chairs are in the living room?",
+          "answers": [
+            "2",
+            "4",
+            "6"
+          ],
+          "score": 0.0012264251708984375
+        },
+        {
+          "question": "Question: What is the shape of the television in the living room?",
+          "answers": [
+            "rectangular",
+            "square",
+            "round"
+          ],
+          "score": 0.0054950714111328125
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 3,
+      "query_before": "a beige living room arranged with a couch, a chaise lounge, two single chairs, a square table, a circular table, a long rectangular table, and a black television",
+      "question": "what is the other object in the image?",
+      "answer": "television",
+      "query_after": "The living room is beige and furnished with a couch, a chaise lounge, two single chairs, a square table, a circular table, a long rectangular table, and a black television.",
+      "displayed_ids": [
+        11541,
+        12056,
+        17701,
+        41852,
+        40139,
+        8208,
+        29067,
+        46836,
+        8602,
+        12203
+      ],
+      "selected_ids": [
+        5726,
+        6419,
+        23166,
+        5426,
+        12227,
+        28807,
+        37973,
+        22802,
+        23486,
+        49477
+      ],
+      "rejected_count": 24,
+      "usual_paths": [
+        {
+          "question": "what is the type of flooring in the living room?",
+          "answers": [
+            "wood floors",
+            "carpet",
+            "tile"
+          ],
+          "score": 0.05916118621826172
+        },
+        {
+          "question": "what is the floor covering in the living room?",
+          "answers": [
+            "wood",
+            "carpet",
+            "tile"
+          ],
+          "score": 0.0499267578125
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "fireplace",
+            "coffee table",
+            "window"
+          ],
+          "score": 0.06740856170654297
+        },
+        {
+          "question": "Is there a rug on the floor of the living room?",
+          "answers": [
+            "yes",
+            "no",
+            "uncertain"
+          ],
+          "score": 0.004446983337402344
+        },
+        {
+          "question": "what is the type of flooring in the living room?",
+          "answers": [
+            "wood floors",
+            "carpet",
+            "tile"
+          ],
+          "score": 0.05916118621826172,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the coffee table in the living room?",
+          "answers": [
+            "wood",
+            "beige",
+            "brown"
+          ],
+          "score": 0.013766288757324219
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "beige",
+            "black",
+            "wooden"
+          ],
+          "score": 0.02571249008178711
+        },
+        {
+          "question": "what is the color of the coffee table in the living room?",
+          "answers": [
+            "wood",
+            "beige",
+            "brown"
+          ],
+          "score": 0.013766288757324219,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the shape of the coffee table in the living room?",
+          "answers": [
+            "square",
+            "circular",
+            "rectangular"
+          ],
+          "score": 0.006702899932861328
+        },
+        {
+          "question": "what is the color of the coffee table in the living room?",
+          "answers": [
+            "wood",
+            "beige",
+            "brown"
+          ],
+          "score": 0.013766288757324219,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 4,
+      "query_before": "The living room is beige and furnished with a couch, a chaise lounge, two single chairs, a square table, a circular table, a long rectangular table, and a black television.",
+      "question": "what is the color of the floor in the living room?",
+      "answer": "brown",
+      "query_after": "a beige living room with brown flooring, featuring a couch, chaise lounge, two single chairs, a square table, a circular table, a long rectangular table, and a black television",
+      "displayed_ids": [
+        11541,
+        12056,
+        40139,
+        12203,
+        41852,
+        29067,
+        32300,
+        8208,
+        17701,
+        18475
+      ],
+      "selected_ids": [
+        42913,
+        6419,
+        11974,
+        48158,
+        47489,
+        5426,
+        1156,
+        47616,
+        49478,
+        5726
+      ],
+      "rejected_count": 24,
+      "usual_paths": [
+        {
+          "question": "what is the shape of the couch in the living room?",
+          "answers": [
+            "L-shaped",
+            "Straight",
+            "Sectional"
+          ],
+          "score": 0.003437519073486328
+        },
+        {
+          "question": "what is the color of the chaise lounge in the living room?",
+          "answers": [
+            "beige",
+            "white",
+            "gray"
+          ],
+          "score": 0.023435115814208984
+        },
+        {
+          "question": "what is the color of the chaise lounge in the living room?",
+          "answers": [
+            "beige",
+            "white",
+            "gray"
+          ],
+          "score": 0.023435115814208984,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the shape of the couch in the living room?",
+          "answers": [
+            "L-shaped",
+            "Straight",
+            "Sectional"
+          ],
+          "score": 0.003437519073486328,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the furniture in the living room that contains a circular table?",
+          "answers": [
+            "beige",
+            "brown",
+            "white"
+          ],
+          "score": 0.02497720718383789
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "television",
+            "rug",
+            "laptop"
+          ],
+          "score": 0.023050308227539062
+        },
+        {
+          "question": "what is the shape of the couch in the living room?",
+          "answers": [
+            "L-shaped",
+            "Rectangular",
+            "Square"
+          ],
+          "score": 0.0013780593872070312
+        },
+        {
+          "question": "what is the color of the couch in the living room?",
+          "answers": [
+            "beige",
+            "black",
+            "brown"
+          ],
+          "score": 0.016463756561279297
+        },
+        {
+          "question": "what is the material of the couch in the living room?",
+          "answers": [
+            "leather",
+            "fabric",
+            "velvet"
+          ],
+          "score": 0.03140735626220703
+        },
+        {
+          "question": "what is the color of the floor in the living room?",
+          "answers": [
+            "wood",
+            "carpet",
+            "tile"
+          ],
+          "score": 0.050486087799072266
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 5,
+      "query_before": "a beige living room with brown flooring, featuring a couch, chaise lounge, two single chairs, a square table, a circular table, a long rectangular table, and a black television",
+      "question": "Question: What is the color of the chaise lounge in the living room?",
+      "answer": "beige",
+      "query_after": "a beige living room features a beige couch, chaise lounge, two single chairs, a square table, a circular table, a long rectangular table, and a black television, all arranged on a brown floor",
+      "displayed_ids": [
+        32300,
+        12056,
+        18475,
+        11541,
+        163,
+        12203,
+        22774,
+        23792,
+        40139,
+        48615
+      ],
+      "selected_ids": [
+        44225,
+        28521,
+        47616,
+        23486,
+        6419,
+        4609,
+        20670,
+        12086,
+        23166,
+        49477
+      ],
+      "rejected_count": 27,
+      "usual_paths": [
+        {
+          "question": "what is the color of the couch in the living room?",
+          "answers": [
+            "beige",
+            "brown",
+            "tan"
+          ],
+          "score": 0.004840850830078125
+        },
+        {
+          "question": "what is the color of the chaise lounge in the living room?",
+          "answers": [
+            "beige",
+            "brown",
+            "white"
+          ],
+          "score": 0.02167987823486328
+        },
+        {
+          "question": "what is the color of the single chairs in the living room?",
+          "answers": [
+            "beige",
+            "brown",
+            "white"
+          ],
+          "score": 0.02067422866821289
+        },
+        {
+          "question": "what is the color of the square table in the living room?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.017844200134277344
+        },
+        {
+          "question": "what is the color of the circular table in the living room?",
+          "answers": [
+            "brown",
+            "white",
+            "beige"
+          ],
+          "score": 0.01721811294555664
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "where is the television located in the living room?",
+          "answers": [
+            "on the wall",
+            "on a stand",
+            "on the floor"
+          ],
+          "score": 0.00408172607421875
+        },
+        {
+          "question": "what is the shape of the television in the living room?",
+          "answers": [
+            "rectangular",
+            "square",
+            "circular"
+          ],
+          "score": 0.006465435028076172
+        },
+        {
+          "question": "what is the color of the chaise lounge in the living room?",
+          "answers": [
+            "beige",
+            "brown",
+            "white"
+          ],
+          "score": 0.02167987823486328
+        },
+        {
+          "question": "what is the color of the chaise lounge in the living room?",
+          "answers": [
+            "beige",
+            "brown",
+            "white"
+          ],
+          "score": 0.02167987823486328,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the color of the chaise lounge in the living room?",
+          "answers": [
+            "beige",
+            "white",
+            "black"
+          ],
+          "score": 0.02712535858154297
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a beige living room features a beige couch, chaise lounge, two single chairs, a square table, a circular table, a long rectangular table, and a black television, all arranged on a brown floor",
+      "question": "what is the other object in the image?",
+      "answer": "television",
+      "query_after": "a beige living room features a brown floor, a black television, a beige couch, a beige chaise lounge, two beige single chairs, a beige square table, a beige circular table, and a beige long rectangular table",
+      "displayed_ids": [
+        11541,
+        12056,
+        18475,
+        32300,
+        40139,
+        42894,
+        1474,
+        29067,
+        8208,
+        22774
+      ],
+      "selected_ids": [
+        16559,
+        23486,
+        5726,
+        42913,
+        43610,
+        6419,
+        13086,
+        38171,
+        47616,
+        28807
+      ],
+      "rejected_count": 28,
+      "usual_paths": [
+        {
+          "question": "what is the color of the square table in the living room?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.012881755828857422
+        },
+        {
+          "question": "Question: What is the color of the square table in the living room?",
+          "answers": [
+            "beige",
+            "brown",
+            "wood"
+          ],
+          "score": 0.012386798858642578
+        },
+        {
+          "question": "what is the color of the circular table in the living room?",
+          "answers": [
+            "brown",
+            "beige",
+            "white"
+          ],
+          "score": 0.01235818862915039
+        },
+        {
+          "question": "what is the color of the long rectangular table in the living room?",
+          "answers": [
+            "beige",
+            "white",
+            "wood"
+          ],
+          "score": 0.021684646606445312
+        },
+        {
+          "question": "Question: What is the material of the furniture in the living room?",
+          "answers": [
+            "leather",
+            "wood",
+            "fabric"
+          ],
+          "score": 0.027942657470703125
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the color of the square table in the living room?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.012881755828857422
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "television",
+            "lamp",
+            "fireplace"
+          ],
+          "score": 0.051827430725097656
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "television",
+            "lamp",
+            "fireplace"
+          ],
+          "score": 0.051827430725097656,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the circular table in the living room?",
+          "answers": [
+            "beige",
+            "white",
+            "wood"
+          ],
+          "score": 0.018421173095703125
+        },
+        {
+          "question": "Question: What is the color of the circular table in the living room?",
+          "answers": [
+            "beige",
+            "white",
+            "wood"
+          ],
+          "score": 0.018421173095703125,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a beige living room features a brown floor, a black television, a beige couch, a beige chaise lounge, two beige single chairs, a beige square table, a beige circular table, and a beige long rectangular table",
+      "question": "what is the material of the living room furniture?",
+      "answer": "fabric",
+      "query_after": "a beige living room with brown floors features a black television, a beige chaise lounge, a beige couch, two beige single chairs, a square table, a circular table, and a long rectangular table, all made of fabric",
+      "displayed_ids": [
+        18475,
+        12056,
+        11541,
+        22774,
+        40139,
+        8208,
+        42894,
+        25137,
+        9169,
+        49326
+      ],
+      "selected_ids": [
+        23486,
+        34014,
+        567,
+        37963,
+        15278,
+        12765,
+        49947,
+        38737,
+        33488
+      ],
+      "rejected_count": 31,
+      "usual_paths": [
+        {
+          "question": "what is the material of the living room furniture?",
+          "answers": [
+            "leather",
+            "fabric",
+            "wood"
+          ],
+          "score": 0.015080928802490234
+        },
+        {
+          "question": "Question: What is the material of the living room furniture?",
+          "answers": [
+            "leather",
+            "wood",
+            "fabric"
+          ],
+          "score": 0.01439046859741211
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "television",
+            "chair",
+            "table"
+          ],
+          "score": 0.009028434753417969
+        },
+        {
+          "question": "what is the material of the living room furniture?",
+          "answers": [
+            "leather",
+            "fabric",
+            "wood"
+          ],
+          "score": 0.015080928802490234,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the material of the living room furniture?",
+          "answers": [
+            "leather",
+            "wood",
+            "fabric"
+          ],
+          "score": 0.01439046859741211,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the rug in the living room?",
+          "answers": [
+            "beige",
+            "brown",
+            "tan"
+          ],
+          "score": 0.0010404586791992188
+        },
+        {
+          "question": "Question: What is the color of the rug in the living room?",
+          "answers": [
+            "beige",
+            "brown",
+            "tan"
+          ],
+          "score": 0.0010404586791992188,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the rug in the living room?",
+          "answers": [
+            "beige",
+            "brown",
+            "tan"
+          ],
+          "score": 0.0010404586791992188,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the rug in the living room?",
+          "answers": [
+            "beige",
+            "brown",
+            "tan"
+          ],
+          "score": 0.0010404586791992188,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Based on the provided information sources, here is the next question to generate:\n\n**Question:** What is the color of the rug in the living room?",
+          "answers": [
+            "beige",
+            "brown",
+            "black"
+          ],
+          "score": 0.003292083740234375
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a beige living room with brown floors features a black television, a beige chaise lounge, a beige couch, two beige single chairs, a square table, a circular table, and a long rectangular table, all made of fabric",
+      "question": "what is the material of the coffee table in the living room?",
+      "answer": "white",
+      "query_after": "a beige living room with brown floors features a fabric couch, a beige chaise lounge, two single chairs, a square table, a white coffee table, a long rectangular table, and a black television",
+      "displayed_ids": [
+        18475,
+        12056,
+        11541,
+        8208,
+        521,
+        32300,
+        25137,
+        9169,
+        40139,
+        12203
+      ],
+      "selected_ids": [
+        15278,
+        18400,
+        23792,
+        39885,
+        916,
+        33488,
+        16257,
+        9419,
+        38686,
+        23486
+      ],
+      "rejected_count": 32,
+      "usual_paths": [
+        {
+          "question": "what is the material of the coffee table in the living room?",
+          "answers": [
+            "wood",
+            "glass",
+            "metal"
+          ],
+          "score": 0.020101547241210938
+        },
+        {
+          "question": "what is the color of the coffee table in the living room?",
+          "answers": [
+            "beige",
+            "brown",
+            "wood"
+          ],
+          "score": 0.006903171539306641
+        },
+        {
+          "question": "what is the color of the coffee table in the living room?",
+          "answers": [
+            "beige",
+            "brown",
+            "wood"
+          ],
+          "score": 0.006903171539306641,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the material of the coffee table in the living room?",
+          "answers": [
+            "wood",
+            "glass",
+            "metal"
+          ],
+          "score": 0.020101547241210938,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the coffee table in the living room?",
+          "answers": [
+            "brown",
+            "beige",
+            "wood"
+          ],
+          "score": 0.006851673126220703
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Where is the television located within the living room?",
+          "answers": [
+            "on the wall",
+            "on a stand",
+            "on the floor"
+          ],
+          "score": 0.0033202171325683594
+        },
+        {
+          "question": "what is the location of the television within the living room?",
+          "answers": [
+            "left side",
+            "right side",
+            "center"
+          ],
+          "score": 0.0017495155334472656
+        },
+        {
+          "question": "Question: What is the shape of the table in the living room?",
+          "answers": [
+            "square",
+            "circular",
+            "long rectangular"
+          ],
+          "score": 0.005000114440917969
+        },
+        {
+          "question": "Question: What is the shape of the table in the living room?",
+          "answers": [
+            "square",
+            "circular",
+            "long rectangular"
+          ],
+          "score": 0.005000114440917969,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the color of the television in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.014835834503173828
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "a beige living room with brown floors features a fabric couch, a beige chaise lounge, two single chairs, a square table, a white coffee table, a long rectangular table, and a black television",
+      "question": "what is the shape of the television in the living room?",
+      "answer": "rectangular",
+      "query_after": "a beige living room with brown floors features a beige fabric couch, a beige chaise lounge, two single chairs, a square table, a white coffee table, and a black rectangular television",
+      "displayed_ids": [
+        32300,
+        18475,
+        12056,
+        27562,
+        20193,
+        23792,
+        22774,
+        11541,
+        29067,
+        2936
+      ],
+      "selected_ids": [
+        37191,
+        11541,
+        9419,
+        20193,
+        46836,
+        48805,
+        2936,
+        15469,
+        35555
+      ],
+      "rejected_count": 35,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "television",
+            "coffee table",
+            "chaise lounge"
+          ],
+          "score": 0.008334636688232422
+        },
+        {
+          "question": "what is the color of the coffee table in the living room?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.007765293121337891
+        },
+        {
+          "question": "what is the color of the coffee table in the living room?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.007765293121337891,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the coffee table in the living room?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.007765293121337891,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the large wood dining table in the living room?",
+          "answers": [
+            "brown",
+            "wood",
+            "rectangular"
+          ],
+          "score": 0.0021376609802246094
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "television",
+            "coffee table",
+            "chaise lounge"
+          ],
+          "score": 0.008334636688232422
+        },
+        {
+          "question": "Question: What is the shape of the coffee table in the living room?",
+          "answers": [
+            "square",
+            "circular",
+            "rectangular"
+          ],
+          "score": 0.007506370544433594
+        },
+        {
+          "question": "Question: What is the shape of the television in the living room?",
+          "answers": [
+            "rectangular",
+            "square",
+            "circular"
+          ],
+          "score": 0.00822591781616211
+        },
+        {
+          "question": "what is the shape of the television in the living room?",
+          "answers": [
+            "square",
+            "circular",
+            "rectangular"
+          ],
+          "score": 0.008635997772216797
+        },
+        {
+          "question": "Question: What is the shape of the television in the living room?",
+          "answers": [
+            "rectangular",
+            "square",
+            "circular"
+          ],
+          "score": 0.00822591781616211,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

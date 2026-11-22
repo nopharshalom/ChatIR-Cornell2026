@@ -1,0 +1,87 @@
+{
+  "qid": 955,
+  "arm": "probe",
+  "after_round": 5,
+  "ranks": [
+    102,
+    388,
+    328,
+    330,
+    442,
+    308,
+    276,
+    308,
+    580,
+    629,
+    583
+  ],
+  "continuation": [
+    {
+      "round": 6,
+      "query_before": "a skateboarder in a black long-sleeve shirt and jeans stands on a skateboard at a skatepark during the day, preparing to go off a ramp",
+      "question": "Is the scene taking place during the day or at night?",
+      "answer": "day",
+      "query_after": "During the daytime, a skateboarder wearing a black long-sleeve shirt and jeans is standing on a skateboard at a skatepark, getting ready to ride down a ramp.",
+      "searches": [
+        {
+          "query": "a skateboarder in a black long sleeve shirt and jeans performing a trick on a ramp during the day",
+          "ids": [
+            10847,
+            43109,
+            21138
+          ],
+          "captions": [
+            "the boy is in mid air",
+            "a person is riding a skateboard in a skate park",
+            "a man doing a trick on his skateboard on a ramp"
+          ]
+        },
+        {
+          "query": "a skateboarder in a black long sleeve shirt and jeans performing a trick on a ramp at night",
+          "ids": [
+            1128,
+            10501,
+            48344
+          ],
+          "captions": [
+            "a man skateboarding in the air while people watch him",
+            "the man is skateboarding",
+            "a man is in the middle of a skate board"
+          ]
+        }
+      ],
+      "raw_plan": "a skateboarder in a black long sleeve shirt and jeans performing a trick on a ramp during the day\na skateboarder in a black long sleeve shirt and jeans performing a trick on a ramp at night",
+      "generated": "Is the scene taking place during the day or at night?",
+      "fallback": false
+    },
+    {
+      "round": 7,
+      "query_before": "During the daytime, a skateboarder wearing a black long-sleeve shirt and jeans is standing on a skateboard at a skatepark, getting ready to ride down a ramp.",
+      "question": "what is the other object in the image?",
+      "answer": "skateboard",
+      "query_after": "a skateboarder in a black long-sleeve shirt and jeans stands on a skateboard at a skatepark during the day, preparing to go off a ramp"
+    },
+    {
+      "round": 8,
+      "query_before": "a skateboarder in a black long-sleeve shirt and jeans stands on a skateboard at a skatepark during the day, preparing to go off a ramp",
+      "question": "Question: What is the color of the shirt worn by the skateboarder?",
+      "answer": "black",
+      "query_after": "a skateboarder in a black long-sleeve shirt and jeans is mid-trick at a skatepark during the day, with a skateboard visible"
+    },
+    {
+      "round": 9,
+      "query_before": "a skateboarder in a black long-sleeve shirt and jeans is mid-trick at a skatepark during the day, with a skateboard visible",
+      "question": "what is the other object in the image?",
+      "answer": "skateboard",
+      "query_after": "a skateboarder in a black long-sleeve shirt and jeans is mid-air at a skatepark during the day, appearing to launch off a ramp with a skateboard"
+    },
+    {
+      "round": 10,
+      "query_before": "a skateboarder in a black long-sleeve shirt and jeans is mid-air at a skatepark during the day, appearing to launch off a ramp with a skateboard",
+      "question": "what is the other object in the image?",
+      "answer": "skateboard",
+      "query_after": "A skateboarder, dressed in a black long-sleeve shirt and jeans, is captured mid-air at a skatepark during the day, seemingly having just launched off a ramp with their skateboard."
+    }
+  ],
+  "seconds": 97.0
+}

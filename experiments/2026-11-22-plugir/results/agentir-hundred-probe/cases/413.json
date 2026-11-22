@@ -1,0 +1,101 @@
+{
+  "qid": 413,
+  "initial": "the lights in the city are well lit at night",
+  "initial_rank": 275,
+  "evidence": [
+    "a red light pointing west along a busy street in an urban setting",
+    "signs indicating where pedestrians can cross a street",
+    "a busy street with pedestrians and buses",
+    "a city street full of traffic with tall buildings and a huge bus",
+    "some traffic lights at a busy intersection",
+    "a couple with an umbrella stands in a crowd of people",
+    "a huge building standing on a river near the clock tower of big ben",
+    "a crowded road with people walking around a sign"
+  ],
+  "candidates": [
+    "what is the color of the light pointing west along a busy street in an urban setting?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the light pointing west along a busy street in an urban setting?",
+      "answers": [
+        "red",
+        "green",
+        "yellow"
+      ],
+      "score": 0.17027902603149414
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "a city street full of traffic with tall buildings and a huge bus",
+        "a couple with an umbrella stands in a crowd of people",
+        "a huge building standing on a river near the clock tower of big ben"
+      ],
+      "score": 0.5056943893432617
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "a city street full of traffic with tall buildings and a huge bus",
+        "a couple with an umbrella stands in a crowd of people",
+        "a huge building standing on a river near the clock tower of big ben"
+      ],
+      "score": 0.5056943893432617,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "a city street full of traffic with tall buildings and a huge bus",
+        "a couple with an umbrella stands in a crowd of people",
+        "a huge building standing on a river near the clock tower of big ben"
+      ],
+      "score": 0.5056943893432617,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "a city street full of traffic with tall buildings and a huge bus",
+        "a couple with an umbrella stands in a crowd of people",
+        "a huge building standing on a river near the clock tower of big ben"
+      ],
+      "score": 0.5056943893432617,
+      "duplicate_of": 1
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.062,
+  "probe_selection_seconds": 1.569,
+  "probe_llm_calls": 2,
+  "probe_search_queries": 6,
+  "arms": {
+    "kl": {
+      "question": "what is the other object in the image?",
+      "answer": "traffic light",
+      "rewrite": "the city lights are well lit at night with a traffic light visible",
+      "rank": 337,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the other object in the image?",
+      "answer": "traffic light",
+      "rewrite": "the city lights are well lit at night with a traffic light visible",
+      "rank": 337,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the other object in the image?",
+      "answer": "traffic light",
+      "rewrite": "the city lights are well lit at night with a traffic light visible",
+      "rank": 337,
+      "hit": false
+    }
+  },
+  "seconds": 15.786
+}

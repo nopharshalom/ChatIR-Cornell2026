@@ -1,0 +1,78 @@
+{
+  "qid": 1767,
+  "sample": 1,
+  "first_candidates": [
+    "Question: What is the location where the person is taking the photo?",
+    "Question: What is the person holding to take the photo?",
+    "Question: What is the gender of the person taking the photo?",
+    "Question: What is the surface the person is standing on?",
+    "Question: Where is the person taking the photo?"
+  ],
+  "second_candidates": [
+    "what is the location where the person is taking the photo?",
+    "what is the person holding in their hand while taking the photo?",
+    "what is the gender of the person taking the photo?",
+    "what is the surface or object that the person is taking the photo of?",
+    "what is the specific location or room where the person is standing and taking the photo?"
+  ],
+  "paths": [
+    {
+      "question": "what is the location where the person is taking the photo?",
+      "answers": [
+        "street",
+        "bathroom",
+        "beach"
+      ],
+      "score": 0.34340620040893555
+    },
+    {
+      "question": "what is the person holding in their hand while taking the photo?",
+      "answers": [
+        "phone",
+        "camera",
+        "mirror"
+      ],
+      "score": 0.0905294418334961
+    },
+    {
+      "question": "what is the gender of the person taking the photo?",
+      "answers": [
+        "male",
+        "female",
+        "non-binary"
+      ],
+      "score": 0.04659605026245117
+    },
+    {
+      "question": "what is the surface or object that the person is taking the photo of?",
+      "answers": [
+        "mirror",
+        "street",
+        "beach"
+      ],
+      "score": 0.2798480987548828
+    },
+    {
+      "question": "what is the specific location or room where the person is standing and taking the photo?",
+      "answers": [
+        "street",
+        "bathroom",
+        "doorway"
+      ],
+      "score": 0.20807886123657227
+    }
+  ],
+  "control": {
+    "question": "what is the location where the person is taking the photo?",
+    "score": 0.34340620040893555
+  },
+  "mixed": {
+    "question": "Question: What is the location where the person is taking the photo?",
+    "score": 0.3180708885192871
+  },
+  "control_rank": 1,
+  "mixed_rank": 1,
+  "usual_rank": 1,
+  "new_answer": "bus stop",
+  "new_rewrite": "a person is standing at a bus stop taking a photo"
+}

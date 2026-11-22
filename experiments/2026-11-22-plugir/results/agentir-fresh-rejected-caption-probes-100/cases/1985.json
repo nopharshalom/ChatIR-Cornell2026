@@ -1,0 +1,178 @@
+{
+  "qid": 1985,
+  "initial": "2 dogs running towards each other in dirt",
+  "initial_rank": 19,
+  "displayed": [
+    9294,
+    1212,
+    36460,
+    14699,
+    27354,
+    15152,
+    11362,
+    28127,
+    2236,
+    43429
+  ],
+  "evidence": [
+    "two giraffes standing side by side in a park",
+    "a pair of elephants standing near rocks in a zoo",
+    "a brown dog holds a frisbee",
+    "two cowboys on horses with cows in the ring",
+    "two black bears are standing on a rocky area in the zoo",
+    "the dog has a frisbee in his mouth",
+    "three zebras are walking in an enclosure with rocks in the background",
+    "a dog in a green grass field",
+    "a dog sitting on the sidewalk with a frisbee",
+    "dog is playing frisbee in a grassy field"
+  ],
+  "rejected_captions": [
+    "a black and brown dog running toward a stray brown cow",
+    "a brown dog next to a blue dog",
+    "two dogs walking on the ground of a street with cars and buildings",
+    "the dunes of zion",
+    "a dalmatian dog catching a frisbee",
+    "two zebras are running across a dirt field",
+    "a brown dog holds a frisbee",
+    "a dog is on a beach with a crow",
+    "crowd watching bull riding",
+    "two dogs playing with frisbees"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the color of the dogs?",
+      "what are the dogs holding?",
+      "what is the color of the dogs?",
+      "Based on the provided information sources, here is the next logical question to generate:\n\n**Question:** What is the background environment where the two dogs are running?",
+      "**Question:** What is the ground surface where the two dogs are running?"
+    ],
+    "question": "what is the color of the dogs?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the dogs?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.0991663932800293
+        },
+        {
+          "question": "what are the dogs holding?",
+          "answers": [
+            "nothing",
+            "nothing at all",
+            "nada"
+          ],
+          "score": 0.0016560554504394531
+        },
+        {
+          "question": "what is the color of the dogs?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.0991663932800293,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Based on the provided information sources, here is the next logical question to generate:\n\n**Question:** What is the background environment where the two dogs are running?",
+          "answers": [
+            "dirt",
+            "grass",
+            "concrete"
+          ],
+          "score": 0.04263782501220703
+        },
+        {
+          "question": "**Question:** What is the ground surface where the two dogs are running?",
+          "answers": [
+            "dirt",
+            "grass",
+            "concrete"
+          ],
+          "score": 0.022912025451660156
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.07,
+      "probe_selection_seconds": 1.938,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "black and white",
+    "rewrite": "two black and white dogs running towards each other in dirt",
+    "raw_rank": 15,
+    "unseen_rank": 7
+  },
+  "rejected": {
+    "candidates": [
+      "what color are the two dogs running in the dirt?",
+      "what is the other object in the image?",
+      "what are the breeds of the two dogs running towards each other in the dirt?",
+      "what is the color of the dirt where the dogs are running?",
+      "what color is the frisbee held by the dog in the image?"
+    ],
+    "question": "what is the other object in the image?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what color are the two dogs running in the dirt?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.039166927337646484
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "frisbee",
+            "ball",
+            "tree"
+          ],
+          "score": 0.07027149200439453
+        },
+        {
+          "question": "what are the breeds of the two dogs running towards each other in the dirt?",
+          "answers": [
+            "Labrador",
+            "Golden Retriever",
+            "Border Collie"
+          ],
+          "score": 0.06697988510131836
+        },
+        {
+          "question": "what is the color of the dirt where the dogs are running?",
+          "answers": [
+            "brown",
+            "red",
+            "black"
+          ],
+          "score": 0.04373788833618164
+        },
+        {
+          "question": "what color is the frisbee held by the dog in the image?",
+          "answers": [
+            "blue",
+            "red",
+            "green"
+          ],
+          "score": 0.06550121307373047
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.085,
+      "probe_selection_seconds": 2.375,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "dog",
+    "rewrite": "two dogs running towards each other in dirt",
+    "raw_rank": 18,
+    "unseen_rank": 8
+  }
+}

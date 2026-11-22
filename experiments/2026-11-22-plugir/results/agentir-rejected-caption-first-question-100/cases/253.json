@@ -1,0 +1,71 @@
+{
+  "qid": 253,
+  "initial": "a herd of zebra at the treeline eating",
+  "initial_rank": 23,
+  "evidence": [
+    "two zebras standing in the grass of an open area",
+    "two zebras with stripes in a field",
+    "a group of zebras by a puddle",
+    "two zebras eating in an enclosure",
+    "a black and white zebra and a black and white zebra",
+    "a zebra and her young one in a field",
+    "a black and white zebra eating green grass",
+    "two giraffes standing near a tree in their pen",
+    "two zebras in a zoo enclosure",
+    "a herd of elephants walking through a dry plain"
+  ],
+  "displayed_ids": [
+    30792,
+    2492,
+    25020,
+    37160,
+    30784,
+    33883,
+    29392,
+    9777,
+    25969,
+    13179
+  ],
+  "rejected_captions": [
+    "a herd of zebras in the wild",
+    "herd of zebras on the grass",
+    "the zebras are grazing on the brown grass",
+    "zebras are grazing with the sun behind them",
+    "a group of zebras grazing on grasses",
+    "several zebras eat in a grassy field",
+    "grassy land with lots of trees",
+    "four zebras graze in a grassy field",
+    "herd of zebras in a tall grassy field",
+    "an open field with grass and bushes"
+  ],
+  "candidates": [
+    "Question: How many zebras are visible in the image?",
+    "Question: What is the color of the grass where the herd of zebras is eating?",
+    "Question: Question: What is the specific location or type of enclosure where the zebras are eating?",
+    "Question: What is the specific location or type of enclosure where the zebras are eating?",
+    "Question: What animal is the young one of the zebra in the image?"
+  ],
+  "control_candidates": [
+    "what is the specific color pattern of the zebras in the image?",
+    "Question: What type of enclosure is the herd of zebras standing in?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "answer": "zebra",
+    "rewrite": "a herd of zebras at the treeline eating",
+    "rank": 23,
+    "hit": false,
+    "raw_rank": 23,
+    "unseen_rank": 13
+  },
+  "variant": {
+    "question": "Question: How many zebras are visible in the image?",
+    "answer": "5",
+    "rewrite": "a herd of five zebras at the treeline eating",
+    "raw_rank": 21,
+    "unseen_rank": 13
+  }
+}

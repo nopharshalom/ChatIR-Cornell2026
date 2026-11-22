@@ -1,0 +1,71 @@
+{
+  "qid": 690,
+  "initial": "a baseball player stands at home plate prepared to hit the hit as the catcher and umpire stand behind him",
+  "initial_rank": 72,
+  "evidence": [
+    "a baseball player swinging a bat in front of the crowd",
+    "a baseball player in a red uniform hitting a pitch",
+    "an older kid and a catcher standing behind them",
+    "a baseball player standing on the mound",
+    "young boy is playing baseball with a batter and catcher",
+    "a baseball player swinging a bat at a ball while crowds are watching",
+    "a baseball player holds a bat in front of the crowd",
+    "a baseball player swings at a baseball during a game",
+    "a baseball player swings his bat at a ball while fans watch",
+    "a man is swinging a baseball bat in front of a crowd of people"
+  ],
+  "displayed_ids": [
+    39272,
+    39397,
+    18034,
+    13386,
+    26851,
+    13928,
+    13826,
+    20502,
+    21281,
+    4694
+  ],
+  "rejected_captions": [
+    "a baseball player is ready for a hit",
+    "the catcher is wearing a red shirt",
+    "a batter in a baseball game",
+    "the baseball player stands on the home plate",
+    "a man standing next to a batter swinging a bat",
+    "a baseball player with a bat standing on home plate",
+    "baseball player in the middle of the field",
+    "a baseball player in a game",
+    "the catcher is standing in front of the pitcher",
+    "a baseball player is hitting the ball"
+  ],
+  "candidates": [
+    "what color is the baseball player's uniform?",
+    "Question: what is the color of the shirt worn by the catcher standing behind the baseball player?",
+    "Question: What color is the bat held by the baseball player?",
+    "Question: What is the color of the catcher's uniform?",
+    "Question: What color is the baseball player's uniform?"
+  ],
+  "control_candidates": [
+    "what is the color of the baseball player's uniform?",
+    "Question: What object is the baseball player holding in front of the crowd?",
+    "Question: Is the baseball player wearing a red uniform?",
+    "Question: Question: Who else is standing behind the baseball player at home plate?",
+    "Question: **Who is standing behind the baseball player at home plate?"
+  ],
+  "control": {
+    "question": "Question: **Who is standing behind the baseball player at home plate?",
+    "answer": "Catcher.",
+    "rewrite": "a baseball player stands at home plate prepared to hit, with a catcher standing behind him",
+    "rank": 36,
+    "hit": false,
+    "raw_rank": 36,
+    "unseen_rank": 26
+  },
+  "variant": {
+    "question": "what color is the baseball player's uniform?",
+    "answer": "maroon and white",
+    "rewrite": "a baseball player in a maroon and white uniform stands at home plate prepared to hit, with the catcher and umpire behind him",
+    "raw_rank": 27,
+    "unseen_rank": 26
+  }
+}

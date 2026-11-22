@@ -1,0 +1,80 @@
+{
+  "qid": 869,
+  "candidates": [
+    "Question: What color is the soccer ball being chased by the players?",
+    "what color are the soccer players wearing?",
+    "Question: Are the soccer players wearing red or blue uniforms?",
+    "Question: What color is the soccer ball?",
+    "Question: Are the soccer players wearing red or blue uniforms?"
+  ],
+  "kl": {
+    "question": "Question: What color is the soccer ball being chased by the players?",
+    "answer": "white",
+    "rewrite": "soccer players racing to get a white soccer ball on a soccer field",
+    "raw_rank": 35,
+    "unseen_rank": 25
+  },
+  "probe": {
+    "answer": "red and blue",
+    "rewrite": "soccer players in red and blue jerseys racing to get the ball on a soccer field",
+    "raw_rank": 2,
+    "unseen_rank": 1,
+    "question": "what color are the soccer players wearing?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What color is the soccer ball being chased by the players?",
+        "answers": [
+          "white",
+          "black",
+          "multicolored"
+        ],
+        "score": 0.018167972564697266
+      },
+      {
+        "question": "what color are the soccer players wearing?",
+        "answers": [
+          "red",
+          "white",
+          "blue"
+        ],
+        "score": 0.09520530700683594
+      },
+      {
+        "question": "Question: Are the soccer players wearing red or blue uniforms?",
+        "answers": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "score": 0.032948970794677734
+      },
+      {
+        "question": "Question: What color is the soccer ball?",
+        "answers": [
+          "white",
+          "black",
+          "blue"
+        ],
+        "score": 0.046112060546875
+      },
+      {
+        "question": "Question: Are the soccer players wearing red or blue uniforms?",
+        "answers": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "score": 0.032948970794677734,
+        "duplicate_of": 2
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.069,
+    "probe_selection_seconds": 1.767,
+    "probe_llm_calls": 4,
+    "probe_search_queries": 12
+  },
+  "reused_outcome": false
+}

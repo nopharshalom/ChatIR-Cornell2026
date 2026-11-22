@@ -1,0 +1,83 @@
+{
+  "qid": 1823,
+  "candidates": [
+    "Question: What is the color of the train?",
+    "Question: What color is the car waiting near the train?",
+    "Question: What is the color of the train?",
+    "Question: What is the color of the car waiting near the train?",
+    "Question: What is the color of the train?"
+  ],
+  "kl": {
+    "question": "Question: What is the color of the car waiting near the train?",
+    "answer": "black",
+    "rewrite": "a black car waiting near a train moving down the tracks",
+    "raw_rank": 89,
+    "unseen_rank": 80
+  },
+  "probe": {
+    "question": "Question: What is the color of the train?",
+    "answer": "red",
+    "rewrite": "a red train moving down the tracks while a car waits",
+    "rank": 123,
+    "hit": false,
+    "raw_rank": 123,
+    "unseen_rank": 119
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the color of the train?",
+        "answers": [
+          "red",
+          "blue",
+          "black"
+        ],
+        "score": 0.19515752792358398
+      },
+      {
+        "question": "Question: What color is the car waiting near the train?",
+        "answers": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "score": 0.12365961074829102
+      },
+      {
+        "question": "Question: What is the color of the train?",
+        "answers": [
+          "red",
+          "blue",
+          "black"
+        ],
+        "score": 0.19515752792358398,
+        "duplicate_of": 0
+      },
+      {
+        "question": "Question: What is the color of the car waiting near the train?",
+        "answers": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "score": 0.12757253646850586
+      },
+      {
+        "question": "Question: What is the color of the train?",
+        "answers": [
+          "red",
+          "blue",
+          "black"
+        ],
+        "score": 0.19515752792358398,
+        "duplicate_of": 0
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.065,
+    "probe_selection_seconds": 1.327,
+    "probe_llm_calls": 3,
+    "probe_search_queries": 9
+  },
+  "reused_outcome": true
+}

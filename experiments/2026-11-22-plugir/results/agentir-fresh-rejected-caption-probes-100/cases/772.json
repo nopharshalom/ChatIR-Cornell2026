@@ -1,0 +1,179 @@
+{
+  "qid": 772,
+  "initial": "a girl holding a video game controller like a bow and arrow",
+  "initial_rank": 55,
+  "displayed": [
+    36927,
+    18201,
+    38949,
+    10757,
+    4234,
+    48059,
+    19604,
+    10441,
+    35298,
+    5993
+  ],
+  "evidence": [
+    "a young man playing a video game in his living room",
+    "the little girl is cleaning her teeth",
+    "a little girl is holding a kite in the park",
+    "little girl standing with two men in a living room",
+    "a living room with 3 people holding gaming controllers",
+    "two people playing video games in a lobby",
+    "two people stand in front of a man and woman flying kites",
+    "a girl smiles with a man in blue jacket",
+    "a man holding two video game controllers in one hand",
+    "a little girl is standing in a tennis court"
+  ],
+  "rejected_captions": [
+    "the girl has long brown hair",
+    "the woman has a nintendo wii remote in her hand",
+    "a grey shirt",
+    "two women playing a game",
+    "a small girl playing a wii game",
+    "a woman in a colorful dress",
+    "young girl playing wii",
+    "a lady holding a wii remote",
+    "a little girl playing with a game controller",
+    "a man wearing black shirt with a white collar"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the location where the girl is holding the video game controller?",
+      "what is the girl holding in the other hand besides the video game controller?",
+      "Question: What is the girl holding in the other hand besides the video game controller?",
+      "what is the location where the girl is holding a video game controller?",
+      "what is the girl holding in the other hand besides the video game controller?"
+    ],
+    "question": "what is the location where the girl is holding the video game controller?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the location where the girl is holding the video game controller?",
+          "answers": [
+            "living room",
+            "lobby",
+            "tennis court"
+          ],
+          "score": 0.08545589447021484
+        },
+        {
+          "question": "what is the girl holding in the other hand besides the video game controller?",
+          "answers": [
+            "holding a bow",
+            "holding an arrow",
+            "nothing"
+          ],
+          "score": 0.005530834197998047
+        },
+        {
+          "question": "Question: What is the girl holding in the other hand besides the video game controller?",
+          "answers": [
+            "bow and arrow",
+            "arrow",
+            "bow"
+          ],
+          "score": 0.0024499893188476562
+        },
+        {
+          "question": "what is the location where the girl is holding a video game controller?",
+          "answers": [
+            "living room",
+            "lobby",
+            "tennis court"
+          ],
+          "score": 0.0850520133972168
+        },
+        {
+          "question": "what is the girl holding in the other hand besides the video game controller?",
+          "answers": [
+            "holding a bow",
+            "holding an arrow",
+            "nothing"
+          ],
+          "score": 0.005530834197998047,
+          "duplicate_of": 1
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.057,
+      "probe_selection_seconds": 1.969,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "living room",
+    "rewrite": "a girl holding a video game controller like a bow and arrow in a living room",
+    "raw_rank": 71,
+    "unseen_rank": 61
+  },
+  "rejected": {
+    "candidates": [
+      "Question: Where is the girl holding the video game controller?",
+      "Question: What color is the girl's hair?",
+      "Question: What is the girl holding the video game controller standing on?",
+      "Question: What color is the jacket the girl is wearing?",
+      "Question: What is the girl holding the video game controller standing on?"
+    ],
+    "question": "Question: Where is the girl holding the video game controller?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: Where is the girl holding the video game controller?",
+          "answers": [
+            "living room",
+            "lobby",
+            "tennis court"
+          ],
+          "score": 0.17061853408813477
+        },
+        {
+          "question": "Question: What color is the girl's hair?",
+          "answers": [
+            "brown",
+            "blonde",
+            "black"
+          ],
+          "score": 0.07409429550170898
+        },
+        {
+          "question": "Question: What is the girl holding the video game controller standing on?",
+          "answers": [
+            "living room",
+            "park",
+            "tennis court"
+          ],
+          "score": 0.16033267974853516
+        },
+        {
+          "question": "Question: What color is the jacket the girl is wearing?",
+          "answers": [
+            "blue",
+            "red",
+            "green"
+          ],
+          "score": 0.1009678840637207
+        },
+        {
+          "question": "Question: What is the girl holding the video game controller standing on?",
+          "answers": [
+            "living room",
+            "park",
+            "tennis court"
+          ],
+          "score": 0.16033267974853516,
+          "duplicate_of": 2
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.058,
+      "probe_selection_seconds": 1.871,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "in front of her",
+    "rewrite": "a girl holding a video game controller in front of her like a bow and arrow",
+    "raw_rank": 56,
+    "unseen_rank": 46
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "qid": 1112,
+  "initial": "2 giraffes standing inside of a zoo enclosure",
+  "initial_rank": 34,
+  "evidence": [
+    "a pair of elephants standing near rocks in a zoo",
+    "a small giraffe standing near a building in a zoo",
+    "a fenced in area with some rocks and zebras",
+    "a giraffe standing in an open field near some trees",
+    "a giraffe that is laying down in a pen with a fence around it",
+    "several giraffes and zebras in the grassy field",
+    "a giraffe is standing on the dirt of an enclosure",
+    "two giraffes standing in a field of tall grass",
+    "a giraffe in the woods next to a tree",
+    "giraffe in a zoo with rocks on a dirt path"
+  ],
+  "candidates": [
+    "Question: What is the specific surface the giraffes are standing on?",
+    "Question: What animal is standing next to the giraffes in the enclosure?",
+    "Question: What is the specific surface the giraffes are standing on inside the zoo enclosure?",
+    "Question: What is the specific surface the giraffes are standing on inside the zoo enclosure?",
+    "what is the color of the giraffes standing inside the zoo enclosure?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: What is the specific surface the giraffes are standing on?",
+      "answers": [
+        "zoo",
+        "field",
+        "woods"
+      ],
+      "score": 0.06554126739501953
+    },
+    {
+      "question": "Question: What animal is standing next to the giraffes in the enclosure?",
+      "answers": [
+        "zebras",
+        "elephants",
+        "none"
+      ],
+      "score": 0.05255889892578125
+    },
+    {
+      "question": "Question: What is the specific surface the giraffes are standing on inside the zoo enclosure?",
+      "answers": [
+        "dirt",
+        "grass",
+        "rocks"
+      ],
+      "score": 0.13606500625610352
+    },
+    {
+      "question": "Question: What is the specific surface the giraffes are standing on inside the zoo enclosure?",
+      "answers": [
+        "dirt",
+        "grass",
+        "rocks"
+      ],
+      "score": 0.13606500625610352,
+      "duplicate_of": 2
+    },
+    {
+      "question": "what is the color of the giraffes standing inside the zoo enclosure?",
+      "answers": [
+        "brown",
+        "tan",
+        "orange"
+      ],
+      "score": 0.012095451354980469
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.061,
+  "probe_selection_seconds": 2.098,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "what is the color of the giraffes standing inside the zoo enclosure?",
+      "answer": "brown and white",
+      "rewrite": "two brown and white giraffes standing inside a zoo enclosure",
+      "rank": 22,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the color of the giraffes standing inside the zoo enclosure?",
+      "answer": "brown and white",
+      "rewrite": "two brown and white giraffes standing inside a zoo enclosure",
+      "rank": 22,
+      "hit": false
+    },
+    "probe": {
+      "question": "Question: What is the specific surface the giraffes are standing on inside the zoo enclosure?",
+      "answer": "dirt",
+      "rewrite": "two giraffes standing on dirt inside a zoo enclosure",
+      "rank": 34,
+      "hit": false
+    }
+  },
+  "seconds": 12.607
+}

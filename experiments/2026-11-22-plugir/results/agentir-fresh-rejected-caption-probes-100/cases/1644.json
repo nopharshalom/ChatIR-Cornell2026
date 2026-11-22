@@ -1,0 +1,178 @@
+{
+  "qid": 1644,
+  "initial": "the fruits and vegetables are on dishes on the table",
+  "initial_rank": 54,
+  "displayed": [
+    18745,
+    45910,
+    12520,
+    46291,
+    26639,
+    18335,
+    5921,
+    8495,
+    46118,
+    10631
+  ],
+  "evidence": [
+    "fresh carrots, oranges, cucumbers, and broccoli",
+    "two containers of mixed veggies",
+    "two plates with food and dessert on them",
+    "a table has a bunch of dishes with chop sticks on them",
+    "an outdoor food stand filled with fresh bananas",
+    "a plate with a wine glass and two dishes",
+    "all of the fruit are fresh",
+    "a stand selling lots of fresh vegetables",
+    "a brown plate with two bowls of soup, rice and noodles",
+    "a large number of vegetables laid out"
+  ],
+  "rejected_captions": [
+    "the fruits are on a white platter",
+    "a small table on the ground",
+    "two images of food on a counter next to a kitchen sink",
+    "a large plate of broccoli",
+    "a plate topped with vegetables and fruit",
+    "a tray of fruit and pastries",
+    "a glass dish with fruit on it",
+    "fresh food in containers on a counter top",
+    "a table filled with many different kinds of food",
+    "a table with many plates of fruit and food"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the specific type of produce displayed on the dishes on the table?",
+      "what color are the bowls of soup on the table?",
+      "what is the color of the plate holding the dishes on the table?",
+      "Question: are the fruits and vegetables on the table fresh or mixed?",
+      "What items of produce are displayed on the dishes on the table?"
+    ],
+    "question": "what is the specific type of produce displayed on the dishes on the table?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the specific type of produce displayed on the dishes on the table?",
+          "answers": [
+            "fresh carrots, oranges, cucumbers, and broccoli",
+            "two containers of mixed veggies",
+            "a plate with a wine glass and two dishes"
+          ],
+          "score": 0.18239831924438477
+        },
+        {
+          "question": "what color are the bowls of soup on the table?",
+          "answers": [
+            "brown",
+            "white",
+            "clear"
+          ],
+          "score": 0.024964332580566406
+        },
+        {
+          "question": "what is the color of the plate holding the dishes on the table?",
+          "answers": [
+            "green",
+            "white",
+            "brown"
+          ],
+          "score": 0.055841922760009766
+        },
+        {
+          "question": "Question: are the fruits and vegetables on the table fresh or mixed?",
+          "answers": [
+            "fresh",
+            "mixed",
+            "both"
+          ],
+          "score": 0.003367900848388672
+        },
+        {
+          "question": "What items of produce are displayed on the dishes on the table?",
+          "answers": [
+            "fresh carrots, oranges, cucumbers, and broccoli",
+            "two containers of mixed veggies",
+            "two plates with food and dessert on them"
+          ],
+          "score": 0.15876531600952148
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.074,
+      "probe_selection_seconds": 2.998,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "carrots",
+    "rewrite": "carrots are displayed on dishes on the table",
+    "raw_rank": 99,
+    "unseen_rank": 96
+  },
+  "rejected": {
+    "candidates": [
+      "what color is the plate holding the fruits and vegetables?",
+      "what color is the plate holding the fruits and vegetables?",
+      "what is the color of the plate holding the fruits and vegetables?",
+      "Question: what is the color of the plate holding the fruits and vegetables?",
+      "What color is the plate holding the fruits and vegetables?"
+    ],
+    "question": "what is the color of the plate holding the fruits and vegetables?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what color is the plate holding the fruits and vegetables?",
+          "answers": [
+            "green",
+            "white",
+            "brown"
+          ],
+          "score": 0.047486305236816406
+        },
+        {
+          "question": "what color is the plate holding the fruits and vegetables?",
+          "answers": [
+            "green",
+            "white",
+            "brown"
+          ],
+          "score": 0.047486305236816406,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the plate holding the fruits and vegetables?",
+          "answers": [
+            "white",
+            "brown",
+            "blue"
+          ],
+          "score": 0.0811319351196289
+        },
+        {
+          "question": "Question: what is the color of the plate holding the fruits and vegetables?",
+          "answers": [
+            "white",
+            "brown",
+            "blue"
+          ],
+          "score": 0.06563568115234375
+        },
+        {
+          "question": "What color is the plate holding the fruits and vegetables?",
+          "answers": [
+            "green",
+            "brown",
+            "white"
+          ],
+          "score": 0.047486305236816406
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.063,
+      "probe_selection_seconds": 1.82,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "white",
+    "rewrite": "white dishes holding fruits and vegetables on a table",
+    "raw_rank": 14,
+    "unseen_rank": 10
+  }
+}

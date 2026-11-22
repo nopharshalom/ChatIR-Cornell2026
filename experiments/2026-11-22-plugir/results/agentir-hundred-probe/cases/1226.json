@@ -1,0 +1,102 @@
+{
+  "qid": 1226,
+  "initial": "3 or 4 giraffes are outside in a field with a shrub or tree",
+  "initial_rank": 27,
+  "evidence": [
+    "a giraffe is walking across the field in a dry brush",
+    "two giraffes are standing near a feeder",
+    "a pair of giraffe standing in a lush green environment",
+    "the two giraffes are standing side by side",
+    "a giraffe that is laying down in a pen with a fence around it",
+    "two giraffes standing outside a wooden structure",
+    "two giraffes at the zoo",
+    "two giraffe standing side by side in front of a tree",
+    "two giraffes standing near a tree in their pen",
+    "herd of zebras in a tall grassy field"
+  ],
+  "candidates": [
+    "what is the color of the grass in the field where the giraffes are standing?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the color of the animal that is standing with the giraffes?",
+    "what is the color of the animal that is standing with the giraffes?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the grass in the field where the giraffes are standing?",
+      "answers": [
+        "green",
+        "brown",
+        "dry"
+      ],
+      "score": 0.026720523834228516
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "a tree",
+        "a shrub",
+        "a feeder"
+      ],
+      "score": 0.015029430389404297
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "a tree",
+        "a shrub",
+        "a feeder"
+      ],
+      "score": 0.015029430389404297,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the color of the animal that is standing with the giraffes?",
+      "answers": [
+        "green",
+        "brown",
+        "black"
+      ],
+      "score": 0.03437376022338867
+    },
+    {
+      "question": "what is the color of the animal that is standing with the giraffes?",
+      "answers": [
+        "green",
+        "brown",
+        "black"
+      ],
+      "score": 0.03437376022338867,
+      "duplicate_of": 3
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.172,
+  "probe_selection_seconds": 1.604,
+  "probe_llm_calls": 3,
+  "probe_search_queries": 9,
+  "arms": {
+    "kl": {
+      "question": "what is the other object in the image?",
+      "answer": "giraffe",
+      "rewrite": "3 or 4 giraffes are outside in a field with a shrub or tree and another giraffe",
+      "rank": 20,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the color of the animal that is standing with the giraffes?",
+      "answer": "brown",
+      "rewrite": "three or four giraffes and one brown animal are standing outside in a field with a shrub or tree",
+      "rank": 55,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the color of the animal that is standing with the giraffes?",
+      "answer": "brown",
+      "rewrite": "three or four giraffes and one brown animal are standing outside in a field with a shrub or tree",
+      "rank": 55,
+      "hit": false
+    }
+  },
+  "seconds": 20.371
+}

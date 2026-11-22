@@ -1,0 +1,145 @@
+{
+  "qid": 1118,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000543990.jpg",
+  "queries": [
+    "3 bovines are standing on a grassy field",
+    "three bovines are standing on a grassy field with trees in the background"
+  ],
+  "ranks": [
+    20,
+    2
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "3 bovines are standing on a grassy field",
+      "question": "what is the object located behind the three bovines?",
+      "answer": "trees",
+      "query_after": "three bovines are standing on a grassy field with trees in the background",
+      "displayed_ids": [
+        1447,
+        15144,
+        6745,
+        44200,
+        4118,
+        11578,
+        40801,
+        4736,
+        16366,
+        46483
+      ],
+      "selected_ids": [
+        5114,
+        1578,
+        38631,
+        41565,
+        37788,
+        35830,
+        7219,
+        14131,
+        1344,
+        42927
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what color is the cow standing on the grassy field?",
+          "answers": [
+            "black and white",
+            "brown and white",
+            "brown and black"
+          ],
+          "score": 0.0706796646118164
+        },
+        {
+          "question": "Question: What are the colors of the three bovines standing on the grassy field?",
+          "answers": [
+            "black and white",
+            "brown and white",
+            "brown and black"
+          ],
+          "score": 0.08048629760742188
+        },
+        {
+          "question": "Question: Which of the three bovines is a sheep?",
+          "answers": [
+            "none",
+            "one",
+            "two"
+          ],
+          "score": 0.000370025634765625
+        },
+        {
+          "question": "What is the color of the three bovines in the grassy field?",
+          "answers": [
+            "black and white",
+            "brown and white",
+            "brown and black"
+          ],
+          "score": 0.05792808532714844
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "cow",
+            "sheep",
+            "lamb"
+          ],
+          "score": 0.0635061264038086
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the bovines?",
+          "answers": [
+            "black and white",
+            "brown and white",
+            "brown and black"
+          ],
+          "score": 0.05976104736328125
+        },
+        {
+          "question": "Question: What is the color of the bovines?",
+          "answers": [
+            "black and white",
+            "brown and white",
+            "brown and black"
+          ],
+          "score": 0.05976104736328125,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the object located behind the three bovines?",
+          "answers": [
+            "grass",
+            "fence",
+            "rocky hillside"
+          ],
+          "score": 0.14467144012451172
+        },
+        {
+          "question": "what is the color of the sheep feeding a lamb?",
+          "answers": [
+            "white",
+            "brown",
+            "black"
+          ],
+          "score": 0.06497430801391602
+        },
+        {
+          "question": "Question: What is the color of the bovines?",
+          "answers": [
+            "black and white",
+            "brown and white",
+            "brown and black"
+          ],
+          "score": 0.05976104736328125,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

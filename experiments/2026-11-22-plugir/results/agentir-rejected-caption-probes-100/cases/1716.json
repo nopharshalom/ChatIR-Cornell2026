@@ -1,0 +1,79 @@
+{
+  "qid": 1716,
+  "candidates": [
+    "Question: What color is the shirt of one of the players jumping for the ball?",
+    "Question: What color is the ball being jumped for?",
+    "Question: What color is the field where the guys are playing soccer?",
+    "Question: What color is the grass on the field where the guys are playing soccer?",
+    "Question: What color is the shirt of the player wearing it?"
+  ],
+  "kl": {
+    "question": "Question: What color is the ball being jumped for?",
+    "answer": "Black and white.",
+    "rewrite": "a field of guys playing soccer, with two guys from opposite teams jumping for a black and white ball",
+    "raw_rank": 33,
+    "unseen_rank": 23
+  },
+  "probe": {
+    "question": "Question: What color is the shirt of the player wearing it?",
+    "answer": "blue",
+    "rewrite": "a field of guys playing soccer, with two players from opposite teams jumping for the ball, one wearing a blue shirt",
+    "raw_rank": 9,
+    "unseen_rank": 5
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What color is the shirt of one of the players jumping for the ball?",
+        "answers": [
+          "red",
+          "white",
+          "blue"
+        ],
+        "score": 0.06386661529541016
+      },
+      {
+        "question": "Question: What color is the ball being jumped for?",
+        "answers": [
+          "red",
+          "white",
+          "black"
+        ],
+        "score": 0.024492740631103516
+      },
+      {
+        "question": "Question: What color is the field where the guys are playing soccer?",
+        "answers": [
+          "green",
+          "blue",
+          "black"
+        ],
+        "score": 0.0747685432434082
+      },
+      {
+        "question": "Question: What color is the grass on the field where the guys are playing soccer?",
+        "answers": [
+          "green",
+          "brown",
+          "red"
+        ],
+        "score": 0.04444169998168945
+      },
+      {
+        "question": "Question: What color is the shirt of the player wearing it?",
+        "answers": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "score": 0.12466716766357422
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.056,
+    "probe_selection_seconds": 2.259,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": true
+}

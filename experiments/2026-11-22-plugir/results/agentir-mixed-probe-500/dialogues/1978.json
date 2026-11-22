@@ -1,0 +1,1320 @@
+{
+  "qid": 1978,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000329168.jpg",
+  "queries": [
+    "a tile covered counter with a white sink is next to a window",
+    "a beige walled room features a tile covered counter with a white sink next to a window",
+    "a beige walled bathroom features a white sink on a tiled counter next to a white window",
+    "a bathroom featuring beige walls, a white window, and a tile-covered counter with a white sink",
+    "a bathroom featuring beige walls, a white window, a white toilet, and a white tile counter",
+    "a bathroom featuring beige walls, a white window, a white toilet, a white sink, a beige cabinet, and a tile counter",
+    "a bathroom featuring beige walls, a white window, a white sink, a white toilet, a beige cabinet, and a tile counter",
+    "a bathroom with beige walls, a white window, a white sink, a white toilet, a beige cabinet, and a tile counter",
+    "The bathroom features beige walls, a white window, a white sink, a white toilet, a beige cabinet, and a tiled counter.",
+    "a bathroom with beige walls, a white window, a white sink, a white toilet, a white bathtub, a beige cabinet, and a tile counter",
+    "a bathroom with beige walls, a white window, a white sink, a white toilet, a white bathtub, a beige cabinet, a white mirror, and a tile counter"
+  ],
+  "ranks": [
+    41,
+    11,
+    14,
+    34,
+    445,
+    162,
+    160,
+    163,
+    192,
+    344,
+    267
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a tile covered counter with a white sink is next to a window",
+      "question": "what color are the walls in the room containing the white sink and window?",
+      "answer": "beige",
+      "query_after": "a beige walled room features a tile covered counter with a white sink next to a window",
+      "displayed_ids": [
+        46540,
+        44191,
+        12704,
+        41348,
+        23087,
+        43239,
+        35797,
+        3923,
+        18198,
+        17969
+      ],
+      "selected_ids": [
+        26877,
+        44263,
+        37652,
+        819,
+        4633,
+        2681,
+        15869,
+        39259,
+        22566,
+        6498
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what color are the walls in the room containing the white sink and window?",
+          "answers": [
+            "white",
+            "green",
+            "marble"
+          ],
+          "score": 0.10799121856689453
+        },
+        {
+          "question": "what color are the walls in the room containing the white sink and window?",
+          "answers": [
+            "white",
+            "green",
+            "marble"
+          ],
+          "score": 0.10799121856689453,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color are the walls in the room containing the white sink and window?",
+          "answers": [
+            "white",
+            "green",
+            "marble"
+          ],
+          "score": 0.10799121856689453,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the floor in the room containing the white sink and window?",
+          "answers": [
+            "white",
+            "green",
+            "tiled"
+          ],
+          "score": 0.06539487838745117
+        },
+        {
+          "question": "what is the color of the walls in the room containing the white sink and window?",
+          "answers": [
+            "white",
+            "green",
+            "marble"
+          ],
+          "score": 0.09109067916870117
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color are the walls in the bathroom that contains a tile covered counter with a white sink next to a window?",
+          "answers": [
+            "white",
+            "green",
+            "marble"
+          ],
+          "score": 0.08179903030395508
+        },
+        {
+          "question": "Question: What color is the floor in the bathroom that contains a tile covered counter with a white sink next to a window?",
+          "answers": [
+            "white",
+            "green",
+            "tiled"
+          ],
+          "score": 0.05974149703979492
+        },
+        {
+          "question": "Question: What color is the countertop in the bathroom that contains a tile covered counter with a white sink next to a window?",
+          "answers": [
+            "white",
+            "green",
+            "marble"
+          ],
+          "score": 0.08621931076049805
+        },
+        {
+          "question": "Question: What type of window is visible in the bathroom with the tile covered counter and white sink?",
+          "answers": [
+            "toilet",
+            "tub",
+            "shower"
+          ],
+          "score": 0.10485553741455078
+        },
+        {
+          "question": "Question: What color is the countertop in the bathroom that contains a tile covered counter with a white sink next to a window?",
+          "answers": [
+            "white",
+            "green",
+            "marble"
+          ],
+          "score": 0.08621931076049805,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a beige walled room features a tile covered counter with a white sink next to a window",
+      "question": "what color is the window in the bathroom with the white sink and beige walls?",
+      "answer": "white",
+      "query_after": "a beige walled bathroom features a white sink on a tiled counter next to a white window",
+      "displayed_ids": [
+        46540,
+        35797,
+        9102,
+        5116,
+        13496,
+        17969,
+        25653,
+        23087,
+        12704,
+        48182
+      ],
+      "selected_ids": [
+        39419,
+        31090,
+        24618,
+        22566,
+        6498,
+        16721,
+        26877,
+        44263,
+        32867
+      ],
+      "rejected_count": 15,
+      "usual_paths": [
+        {
+          "question": "what color is the tile on the counter where the white sink is located?",
+          "answers": [
+            "white",
+            "beige",
+            "grey"
+          ],
+          "score": 0.02314138412475586
+        },
+        {
+          "question": "what is the color of the tile on the counter where the white sink is located?",
+          "answers": [
+            "white",
+            "gray",
+            "beige"
+          ],
+          "score": 0.02130603790283203
+        },
+        {
+          "question": "what is the color of the tile on the counter?",
+          "answers": [
+            "white",
+            "gray",
+            "black"
+          ],
+          "score": 0.06096363067626953
+        },
+        {
+          "question": "what is the color of the tile on the counter?",
+          "answers": [
+            "white",
+            "gray",
+            "black"
+          ],
+          "score": 0.06096363067626953,
+          "duplicate_of": 2
+        },
+        {
+          "question": "What color is the tile on the counter next to the window?",
+          "answers": [
+            "white",
+            "beige",
+            "gray"
+          ],
+          "score": 0.016108989715576172
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the tile on the counter?",
+          "answers": [
+            "white",
+            "beige",
+            "gray"
+          ],
+          "score": 0.022813796997070312
+        },
+        {
+          "question": "what color is the window in the bathroom with the white sink and beige walls?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.07419538497924805
+        },
+        {
+          "question": "what color is the window in the room with the white sink and beige walls?",
+          "answers": [
+            "white",
+            "cream",
+            "yellow"
+          ],
+          "score": 0.02505207061767578
+        },
+        {
+          "question": "what color is the floor in the room with the white sink, beige walls, and window?",
+          "answers": [
+            "white tile",
+            "wood",
+            "tile"
+          ],
+          "score": 0.025150299072265625
+        },
+        {
+          "question": "what color is the floor in the room with the white sink, beige walls, and window?",
+          "answers": [
+            "white tile",
+            "wood",
+            "tile"
+          ],
+          "score": 0.025150299072265625,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a beige walled bathroom features a white sink on a tiled counter next to a white window",
+      "question": "what material is the counter in the bathroom with the white sink, beige walls, and white window made of?",
+      "answer": "tile",
+      "query_after": "a bathroom featuring beige walls, a white window, and a tile-covered counter with a white sink",
+      "displayed_ids": [
+        18484,
+        48182,
+        46540,
+        9102,
+        12704,
+        41348,
+        13496,
+        37262,
+        5653,
+        33735
+      ],
+      "selected_ids": [
+        32867,
+        31090,
+        46776,
+        26877,
+        1480,
+        37902,
+        49846,
+        6112,
+        21336
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "what color are the tiles on the counter where the white sink is located?",
+          "answers": [
+            "white",
+            "beige",
+            "gray"
+          ],
+          "score": 0.024632930755615234
+        },
+        {
+          "question": "what color are the tiles on the counter in the bathroom with the white sink, beige walls, and white window?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.013062000274658203
+        },
+        {
+          "question": "what material is the counter in the bathroom with the white sink, beige walls, and white window made of?",
+          "answers": [
+            "tile",
+            "marble",
+            "wood"
+          ],
+          "score": 0.046755313873291016
+        },
+        {
+          "question": "what is the color of the tiles on the counter in the bathroom with the white sink, beige walls, and white window?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.0143890380859375
+        },
+        {
+          "question": "what is the color of the counter in the bathroom with the white sink, beige walls, and white window?",
+          "answers": [
+            "white",
+            "beige",
+            "gray"
+          ],
+          "score": 0.012329578399658203
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "window",
+            "plant",
+            "cabinet"
+          ],
+          "score": 0.0362858772277832
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "window",
+            "plant",
+            "cabinet"
+          ],
+          "score": 0.0362858772277832,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "window",
+            "plant",
+            "cabinet"
+          ],
+          "score": 0.0362858772277832,
+          "duplicate_of": 0
+        },
+        {
+          "question": "What type of tiles are covering the counter next to the white sink and window?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.014315128326416016
+        },
+        {
+          "question": "what color is the sink counter next to the window?",
+          "answers": [
+            "white",
+            "beige",
+            "gray"
+          ],
+          "score": 0.022235870361328125
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a bathroom featuring beige walls, a white window, and a tile-covered counter with a white sink",
+      "question": "what color is the toilet in the room with the white sink, beige walls, white window, and tile counter?",
+      "answer": "white",
+      "query_after": "a bathroom featuring beige walls, a white window, a white toilet, and a white tile counter",
+      "displayed_ids": [
+        46540,
+        13496,
+        37262,
+        18484,
+        48182,
+        33735,
+        28773,
+        17969,
+        41348,
+        34933
+      ],
+      "selected_ids": [
+        26877,
+        35517,
+        32527,
+        40676,
+        6526,
+        27196,
+        31090,
+        19968,
+        6112,
+        11225
+      ],
+      "rejected_count": 21,
+      "usual_paths": [
+        {
+          "question": "what color is the toilet in the room containing the white sink, beige walls, and white window?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.01596689224243164
+        },
+        {
+          "question": "what color is the toilet in the room with the white sink, beige walls, white window, and tile counter?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.016930580139160156
+        },
+        {
+          "question": "what color is the toilet in the room with the white sink, beige walls, white window, and tile counter?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.016930580139160156,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what color is the toilet in the room with the white sink, beige walls, white window, and tile counter?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.016930580139160156,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what color is the toilet in the room with the white sink, beige walls, white window, and tile counter?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.016930580139160156,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the toilet in the bathroom with the white sink, beige walls, and white window?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.0155487060546875
+        },
+        {
+          "question": "what color is the toilet in the bathroom with the white sink, beige walls, and white window?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.0155487060546875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the toilet in the bathroom with the white sink, beige walls, and white window?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.0155487060546875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the toilet in the bathroom with the white sink, beige walls, and white window?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.0155487060546875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the toilet in the bathroom with the white sink, beige walls, and white window?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.0155487060546875,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a bathroom featuring beige walls, a white window, a white toilet, and a white tile counter",
+      "question": "What color is the cabinet under the tile counter in the bathroom with the white sink, beige walls, and white window?",
+      "answer": "beige",
+      "query_after": "a bathroom featuring beige walls, a white window, a white toilet, a white sink, a beige cabinet, and a tile counter",
+      "displayed_ids": [
+        38432,
+        31326,
+        15445,
+        13496,
+        43630,
+        18484,
+        24439,
+        10723,
+        13731,
+        29410
+      ],
+      "selected_ids": [
+        33554,
+        37131,
+        28240,
+        24543,
+        22529,
+        1493,
+        39412,
+        19910,
+        34482,
+        6781
+      ],
+      "rejected_count": 29,
+      "usual_paths": [
+        {
+          "question": "what color is the sink in the bathroom with the tile counter, beige walls, white window, and white toilet?",
+          "answers": [
+            "white"
+          ],
+          "note": "fewer than 2 answers",
+          "score": null
+        },
+        {
+          "question": "what material is the window in the bathroom with the tile counter, beige walls, and white toilet made of?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.018093109130859375
+        },
+        {
+          "question": "what color is the sink in the bathroom with the tile counter, beige walls, white window, and white toilet?",
+          "answers": [
+            "white"
+          ],
+          "note": "fewer than 2 answers",
+          "duplicate_of": 0,
+          "score": null
+        },
+        {
+          "question": "what color is the sink in the bathroom with the tile counter, beige walls, white window, and white toilet?",
+          "answers": [
+            "white"
+          ],
+          "note": "fewer than 2 answers",
+          "duplicate_of": 0,
+          "score": null
+        },
+        {
+          "question": "what color is the sink in the bathroom with the tile counter, beige walls, white window, and white toilet?",
+          "answers": [
+            "white"
+          ],
+          "note": "fewer than 2 answers",
+          "duplicate_of": 0,
+          "score": null
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What color is the cabinet under the tile counter in the bathroom with the white sink, beige walls, and white window?",
+          "answers": [
+            "white",
+            "beige",
+            "wood"
+          ],
+          "score": 0.019804954528808594
+        },
+        {
+          "question": "Is there a mirror above the white sink in the bathroom with beige walls, a white window, and a tile counter?",
+          "answers": [
+            "yes",
+            "no"
+          ],
+          "score": 0.003426074981689453
+        },
+        {
+          "question": "what color is the cabinet under the tile counter in the bathroom with the white sink, beige walls, and white window?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.01836872100830078
+        },
+        {
+          "question": "Question: Is there a mirror visible in the bathroom with the white sink, beige walls, white window, and tile counter?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.007662296295166016
+        },
+        {
+          "question": "what color is the sink in the bathroom with beige walls, a white window, and a tile counter?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.017698287963867188
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a bathroom featuring beige walls, a white window, a white toilet, a white sink, a beige cabinet, and a tile counter",
+      "question": "what is the color of the sink in the bathroom with beige walls, a white window, and a tile counter?",
+      "answer": "white",
+      "query_after": "a bathroom featuring beige walls, a white window, a white sink, a white toilet, a beige cabinet, and a tile counter",
+      "displayed_ids": [
+        18484,
+        38432,
+        43630,
+        40604,
+        20146,
+        28773,
+        33735,
+        46739,
+        1108,
+        37287
+      ],
+      "selected_ids": [
+        37720,
+        31090,
+        18630,
+        42186,
+        43974,
+        30236,
+        37512,
+        34482,
+        3849,
+        45521
+      ],
+      "rejected_count": 34,
+      "usual_paths": [
+        {
+          "question": "Is there a mirror above the white sink in the bathroom with beige walls and a tile counter?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.006126880645751953
+        },
+        {
+          "question": "Is there a mirror above the white sink in the bathroom with beige walls?",
+          "answers": [
+            "Yes",
+            "No"
+          ],
+          "score": 0.015616416931152344
+        },
+        {
+          "question": "what is the color of the sink in the bathroom with beige walls, a white window, and a tile counter?",
+          "answers": [
+            "white",
+            "beige",
+            "green"
+          ],
+          "score": 0.034639835357666016
+        },
+        {
+          "question": "Question: Are there any cupboards in the bathroom with beige walls, a tile counter, white sink, white window, and beige cabinet?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.004490852355957031
+        },
+        {
+          "question": "Based on the provided [Retrieval Candidates] and the current state of the [Dialogue], here is the next logical question to generate:\n\n**Question:**?",
+          "answers": [
+            "white",
+            "beige",
+            "tile"
+          ],
+          "score": 0.0055866241455078125
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Is there a mirror above the white sink in the bathroom with beige walls and a tile counter?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.006126880645751953
+        },
+        {
+          "question": "Is there a mirror above the white sink in the bathroom with beige walls?",
+          "answers": [
+            "Yes",
+            "No"
+          ],
+          "score": 0.015616416931152344
+        },
+        {
+          "question": "what color is the cabinet under the sink in the bathroom with the white window, beige walls, and tile counter?",
+          "answers": [
+            "beige",
+            "white",
+            "wood"
+          ],
+          "score": 0.015461921691894531
+        },
+        {
+          "question": "Is there a mirror above the white sink in the bathroom with beige walls, a tile counter, and a white window?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.005300998687744141
+        },
+        {
+          "question": "Question: Is there a mirror above the white sink in the bathroom with beige walls, a tile counter, and a white window?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.006004810333251953
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a bathroom featuring beige walls, a white window, a white sink, a white toilet, a beige cabinet, and a tile counter",
+      "question": "Question: what color is the toilet in the bathroom with beige walls, a white window, and a tile counter?",
+      "answer": "white",
+      "query_after": "a bathroom with beige walls, a white window, a white sink, a white toilet, a beige cabinet, and a tile counter",
+      "displayed_ids": [
+        18484,
+        38432,
+        43630,
+        40604,
+        20146,
+        28773,
+        1108,
+        33735,
+        46739,
+        31326
+      ],
+      "selected_ids": [
+        34482,
+        30656,
+        48838,
+        19910,
+        11205,
+        45245,
+        26371,
+        31090,
+        18630
+      ],
+      "rejected_count": 34,
+      "usual_paths": [
+        {
+          "question": "what color is the bathtub in the bathroom with beige walls, a white window, and a tile counter?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.01098489761352539
+        },
+        {
+          "question": "what color is the bathtub in the bathroom with beige walls, a white window, and a tile counter?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.01098489761352539,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with beige walls, a white window, and a tile counter?",
+          "answers": [
+            "white",
+            "brown",
+            "cream"
+          ],
+          "score": 0.01165151596069336
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with beige walls, a white window, and a tile counter?",
+          "answers": [
+            "white",
+            "brown",
+            "cream"
+          ],
+          "score": 0.01165151596069336,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with beige walls, a white window, and a tile counter?",
+          "answers": [
+            "white",
+            "brown",
+            "cream"
+          ],
+          "score": 0.01165151596069336,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the position of the window relative to the tile counter in the bathroom with beige walls and a white sink?",
+          "answers": [
+            "left",
+            "right",
+            "above"
+          ],
+          "score": 0.0018210411071777344
+        },
+        {
+          "question": "what color is the toilet in the bathroom with beige walls, a white window, a tile counter, and a white sink?",
+          "answers": [
+            "white",
+            "brown",
+            "beige"
+          ],
+          "score": 0.009538650512695312
+        },
+        {
+          "question": "what color is the sink in the bathroom with beige walls, a white window, a tile counter, and a white sink?",
+          "answers": [
+            "white"
+          ],
+          "note": "fewer than 2 answers",
+          "score": null
+        },
+        {
+          "question": "what color is the toilet in the bathroom with beige walls, a white window, and a tile counter?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.010994911193847656
+        },
+        {
+          "question": "Question: what color is the toilet in the bathroom with beige walls, a white window, and a tile counter?",
+          "answers": [
+            "white",
+            "blue",
+            "beige"
+          ],
+          "score": 0.030913829803466797
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a bathroom with beige walls, a white window, a white sink, a white toilet, a beige cabinet, and a tile counter",
+      "question": "what color is the toilet in the bathroom with beige walls, a white window, and a tile counter?",
+      "answer": "white",
+      "query_after": "The bathroom features beige walls, a white window, a white sink, a white toilet, a beige cabinet, and a tiled counter.",
+      "displayed_ids": [
+        18484,
+        38432,
+        43630,
+        40604,
+        20146,
+        28773,
+        33735,
+        1108,
+        31326,
+        46739
+      ],
+      "selected_ids": [
+        3482,
+        34933,
+        19910,
+        4362,
+        9667,
+        11357,
+        18630,
+        37512,
+        5475,
+        34482
+      ],
+      "rejected_count": 34,
+      "usual_paths": [
+        {
+          "question": "what color is the bathtub in the bathroom with beige walls, a white window, a tile counter, and a white toilet?",
+          "answers": [
+            "white",
+            "beige",
+            "pink"
+          ],
+          "score": 0.03243684768676758
+        },
+        {
+          "question": "what color is the bathtub in the bathroom with beige walls, a white window, a tile counter, and a white toilet?",
+          "answers": [
+            "white",
+            "beige",
+            "pink"
+          ],
+          "score": 0.03243684768676758,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what material is the bathtub in the bathroom with beige walls, a white window, a tile counter, and a white toilet made of?",
+          "answers": [
+            "white",
+            "no",
+            "not present"
+          ],
+          "score": 0.004887104034423828
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with beige walls, a white window, a tile counter, and a white toilet?",
+          "answers": [
+            "white",
+            "cream",
+            "beige"
+          ],
+          "score": 0.0021948814392089844
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with beige walls, a white window, a tile counter, and a white toilet?",
+          "answers": [
+            "white",
+            "cream",
+            "beige"
+          ],
+          "score": 0.0021948814392089844,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the location of the bathroom featuring the tile counter, white sink, beige walls, and white window?",
+          "answers": [
+            "bedroom",
+            "guest room",
+            "powder room"
+          ],
+          "score": 0.007096767425537109
+        },
+        {
+          "question": "what color is the toilet in the bathroom with beige walls, a white window, and a tile counter?",
+          "answers": [
+            "white",
+            "black",
+            "blue"
+          ],
+          "score": 0.0439448356628418
+        },
+        {
+          "question": "Question: What color is the toilet in the bathroom with beige walls, a white window, and a tile counter?",
+          "answers": [
+            "white",
+            "beige",
+            "pink"
+          ],
+          "score": 0.031058788299560547
+        },
+        {
+          "question": "Question: what is the color of the counter in the bathroom with beige walls, a white window, and a white sink?",
+          "answers": [
+            "beige",
+            "blue",
+            "gray"
+          ],
+          "score": 0.028972148895263672
+        },
+        {
+          "question": "Question: Is there a window visible in the bathroom with beige walls, a tile counter, and a white sink?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0036525726318359375
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "The bathroom features beige walls, a white window, a white sink, a white toilet, a beige cabinet, and a tiled counter.",
+      "question": "Question: what color is the bathtub in the bathroom with beige walls, a white window, and a tile counter?",
+      "answer": "white",
+      "query_after": "a bathroom with beige walls, a white window, a white sink, a white toilet, a white bathtub, a beige cabinet, and a tile counter",
+      "displayed_ids": [
+        18484,
+        38432,
+        43630,
+        40604,
+        20146,
+        28773,
+        1108,
+        46739,
+        33735,
+        44544
+      ],
+      "selected_ids": [
+        38928,
+        30656,
+        37949,
+        47766,
+        43630,
+        37512,
+        44966,
+        34933,
+        49461,
+        3482
+      ],
+      "rejected_count": 35,
+      "usual_paths": [
+        {
+          "question": "Question: what color is the bathtub in the bathroom with beige walls, a white window, and a tile counter?",
+          "answers": [
+            "white",
+            "yellow",
+            "brown"
+          ],
+          "score": 0.02899169921875
+        },
+        {
+          "question": "what color is the bathtub in the bathroom with beige walls, a white window, and a tile counter?",
+          "answers": [
+            "white",
+            "beige",
+            "yellow"
+          ],
+          "score": 0.018693923950195312
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with beige walls, a white window, and a tile counter?",
+          "answers": [
+            "white",
+            "yellow",
+            "brown"
+          ],
+          "score": 0.028651714324951172
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with beige walls, a white window, and a tile counter?",
+          "answers": [
+            "white",
+            "yellow",
+            "brown"
+          ],
+          "score": 0.028651714324951172,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what color is the bathtub in the bathroom with beige walls, a white window, and a tile counter?",
+          "answers": [
+            "white",
+            "beige",
+            "yellow"
+          ],
+          "score": 0.018693923950195312,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: what color is the shower curtain in the bathroom with beige walls, a white window, a tile counter, and a white toilet?",
+          "answers": [
+            "white",
+            "yellow",
+            "brown"
+          ],
+          "score": 0.025747299194335938
+        },
+        {
+          "question": "what color is the shower curtain in the bathroom with beige walls, a white window, a tile counter, and a white toilet?",
+          "answers": [
+            "white",
+            "beige",
+            "yellow"
+          ],
+          "score": 0.019600391387939453
+        },
+        {
+          "question": "what color is the shower curtain in the bathroom with beige walls, a white window, a tile counter, and a white toilet?",
+          "answers": [
+            "white",
+            "beige",
+            "yellow"
+          ],
+          "score": 0.019600391387939453,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what color is the shower curtain in the bathroom with beige walls, a white window, a tile counter, and a white toilet?",
+          "answers": [
+            "white",
+            "beige",
+            "yellow"
+          ],
+          "score": 0.019600391387939453,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what color is the shower curtain in the bathroom with beige walls, a white window, a tile counter, and a white toilet?",
+          "answers": [
+            "white",
+            "beige",
+            "yellow"
+          ],
+          "score": 0.019600391387939453,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "a bathroom with beige walls, a white window, a white sink, a white toilet, a white bathtub, a beige cabinet, and a tile counter",
+      "question": "what is the other object in the image?",
+      "answer": "mirror",
+      "query_after": "a bathroom with beige walls, a white window, a white sink, a white toilet, a white bathtub, a beige cabinet, a white mirror, and a tile counter",
+      "displayed_ids": [
+        32451,
+        20146,
+        46739,
+        42428,
+        11612,
+        34933,
+        30224,
+        19910,
+        37949,
+        39068
+      ],
+      "selected_ids": [
+        9399,
+        10723,
+        45521,
+        37262,
+        38432,
+        40676,
+        19910,
+        31090,
+        30224,
+        8231
+      ],
+      "rejected_count": 42,
+      "usual_paths": [
+        {
+          "question": "what type of flooring is present in the bathroom featuring a tile counter, white sink, beige walls, and white window?",
+          "answers": [
+            "tile",
+            "wood",
+            "carpet"
+          ],
+          "score": 0.017469406127929688
+        },
+        {
+          "question": "what color is the floor in the bathroom with beige walls, a white window, and a tile counter?",
+          "answers": [
+            "white",
+            "beige",
+            "gray"
+          ],
+          "score": 0.012258529663085938
+        },
+        {
+          "question": "what color is the floor in the bathroom with beige walls, a white window, and a tile counter?",
+          "answers": [
+            "white",
+            "beige",
+            "gray"
+          ],
+          "score": 0.012258529663085938,
+          "duplicate_of": 1
+        },
+        {
+          "question": "What color is the faucet on the white sink in the bathroom with beige walls, a white window, and a tile counter?",
+          "answers": [
+            "chrome",
+            "white",
+            "silver"
+          ],
+          "score": 0.008015632629394531
+        },
+        {
+          "question": "What is the shape of the window in the bathroom with beige walls, a white sink, and a tile counter?",
+          "answers": [
+            "rectangular",
+            "square",
+            "round"
+          ],
+          "score": 0.010563850402832031
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "shower",
+            "tub",
+            "toilet"
+          ],
+          "score": 0.026735305786132812
+        },
+        {
+          "question": "Question: Is there a bathtub or a shower in the bathroom with beige walls, a white window, and a tile counter?",
+          "answers": [
+            "bathtub",
+            "shower",
+            "both"
+          ],
+          "score": 0.003475666046142578
+        },
+        {
+          "question": "Question: Is there a shower or a tub in the bathroom with beige walls, a white window, and a tile counter?",
+          "answers": [
+            "shower",
+            "tub",
+            "neither"
+          ],
+          "score": 0.004977226257324219
+        },
+        {
+          "question": "Question: Is there a bathtub in the bathroom with beige walls, a white window, and a tile counter?",
+          "answers": [
+            "yes",
+            "no"
+          ],
+          "score": 0.002570629119873047
+        },
+        {
+          "question": "Is there a shower in the bathroom with beige walls, a white window, and a tile counter?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.003418445587158203
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

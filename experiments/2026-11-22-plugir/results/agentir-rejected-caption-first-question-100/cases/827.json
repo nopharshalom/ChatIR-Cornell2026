@@ -1,0 +1,71 @@
+{
+  "qid": 827,
+  "initial": "4 small white bowls of associated foods on a table",
+  "initial_rank": 11,
+  "evidence": [
+    "several sheep in a grassy area near a pond",
+    "a table full of plates, condiments and burgers",
+    "a plate with a sandwich on it next to a glass of a beer",
+    "brown table with two tables with trays of food",
+    "a bowl of broccoli and peppers with a dinning placemat",
+    "a large table with many plates of food",
+    "a bowl of cereal next to an apple",
+    "this is a picture of a bowl of mixed vegetables with a spoon in it",
+    "three containers with sandwiches, fruit and vegetables are on a table",
+    "two police officers are riding motorcycles on a city street"
+  ],
+  "displayed_ids": [
+    38248,
+    45146,
+    37307,
+    23001,
+    20675,
+    22026,
+    28888,
+    35528,
+    14247,
+    10996
+  ],
+  "rejected_captions": [
+    "several bowls of sliced vegetables are on a wooden table",
+    "there are two bowls with food on them",
+    "a white bowl of food",
+    "two bowls with tortillas, food and salsa",
+    "several bowls of food on a table",
+    "bowls of food piled on a table",
+    "a colorful spread of salads",
+    "the pasta is cooked",
+    "an orange bowl",
+    "a big pile of bowls with a lot of food in them"
+  ],
+  "candidates": [
+    "Question: What type of food is in the bowls?",
+    "Question: Where is the table with the bowls located?",
+    "what is the surface material of the table holding the bowls?",
+    "Question: What type of food is in the bowls on the table?",
+    "Question: What color is the table holding the small white bowls of food?"
+  ],
+  "control_candidates": [
+    "what is the specific type of food contained in each of the four small white bowls on the table?",
+    "Question: What is the specific type of food contained in each of the four small white bowls on the table?",
+    "Question: What is the color of the table upon which the four small white bowls of food are placed?",
+    "Question: What is the color of the table holding the four small white bowls of food?",
+    "what is the specific type of food contained in each of the four small white bowls on the table?"
+  ],
+  "control": {
+    "question": "what is the specific type of food contained in each of the four small white bowls on the table?",
+    "answer": "1. Tortillas\n2. Crackers\n3. Strawberries\n4. Carrots",
+    "rewrite": "four small white bowls on a table containing tortillas, crackers, strawberries, and carrots",
+    "rank": 1,
+    "hit": true,
+    "raw_rank": 1,
+    "unseen_rank": 1
+  },
+  "variant": {
+    "question": "what is the surface material of the table holding the bowls?",
+    "answer": "plastic",
+    "rewrite": "4 small white bowls of associated foods on a plastic table",
+    "raw_rank": 6,
+    "unseen_rank": 2
+  }
+}

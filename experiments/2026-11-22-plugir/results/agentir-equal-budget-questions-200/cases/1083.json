@@ -1,0 +1,78 @@
+{
+  "qid": 1083,
+  "sample": 2,
+  "first_candidates": [
+    "what color is the woman's outfit?",
+    "what is the color of the woman's outfit?",
+    "what is the color of the woman's outfit?",
+    "what is the color of the woman's outfit?",
+    "Question: What color is the woman's tennis outfit?"
+  ],
+  "second_candidates": [
+    "what color is the outfit of the woman playing tennis?",
+    "Question: What is the color of the woman's dress?",
+    "Question: what color is the background of the tennis court?",
+    "Question: Is the woman playing tennis wearing a white outfit or a colored top?",
+    "what is the color of the woman's tennis outfit?"
+  ],
+  "paths": [
+    {
+      "question": "what color is the outfit of the woman playing tennis?",
+      "answers": [
+        "white",
+        "orange",
+        "red"
+      ],
+      "score": 0.15937566757202148
+    },
+    {
+      "question": "Question: What is the color of the woman's dress?",
+      "answers": [
+        "white",
+        "orange",
+        "red"
+      ],
+      "score": 0.20334577560424805
+    },
+    {
+      "question": "Question: what color is the background of the tennis court?",
+      "answers": [
+        "green",
+        "blue",
+        "orange"
+      ],
+      "score": 0.09995317459106445
+    },
+    {
+      "question": "Question: Is the woman playing tennis wearing a white outfit or a colored top?",
+      "answers": [
+        "white",
+        "colored",
+        "orange"
+      ],
+      "score": 0.04123401641845703
+    },
+    {
+      "question": "what is the color of the woman's tennis outfit?",
+      "answers": [
+        "white",
+        "orange",
+        "red"
+      ],
+      "score": 0.1931743621826172
+    }
+  ],
+  "control": {
+    "question": "Question: What is the color of the woman's dress?",
+    "score": 0.20334577560424805
+  },
+  "mixed": {
+    "question": "Question: What color is the woman's dress?",
+    "score": 0.20592069625854492
+  },
+  "control_rank": 3,
+  "mixed_rank": 3,
+  "usual_rank": 4,
+  "new_answer": "orange",
+  "new_rewrite": "an orange-dressed woman tennis player waits to return the ball"
+}

@@ -1,0 +1,102 @@
+{
+  "qid": 253,
+  "initial": "a herd of zebra at the treeline eating",
+  "initial_rank": 23,
+  "evidence": [
+    "two zebras standing in the grass of an open area",
+    "two zebras with stripes in a field",
+    "a group of zebras by a puddle",
+    "two zebras eating in an enclosure",
+    "a black and white zebra and a black and white zebra",
+    "a zebra and her young one in a field",
+    "a black and white zebra eating green grass",
+    "two giraffes standing near a tree in their pen",
+    "two zebras in a zoo enclosure",
+    "a herd of elephants walking through a dry plain"
+  ],
+  "candidates": [
+    "what is the specific color pattern of the zebras in the image?",
+    "Question: What type of enclosure is the herd of zebras standing in?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the specific color pattern of the zebras in the image?",
+      "answers": [
+        "black and white",
+        "striped",
+        "brown and white"
+      ],
+      "score": 0.031021595001220703
+    },
+    {
+      "question": "Question: What type of enclosure is the herd of zebras standing in?",
+      "answers": [
+        "zoo enclosure",
+        "open area",
+        "field"
+      ],
+      "score": 0.02755451202392578
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "a tree",
+        "a bush",
+        "a rock"
+      ],
+      "score": 0.07644367218017578
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "a tree",
+        "a bush",
+        "a rock"
+      ],
+      "score": 0.07644367218017578,
+      "duplicate_of": 2
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "a tree",
+        "a bush",
+        "a rock"
+      ],
+      "score": 0.07644367218017578,
+      "duplicate_of": 2
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.063,
+  "probe_selection_seconds": 1.593,
+  "probe_llm_calls": 3,
+  "probe_search_queries": 9,
+  "arms": {
+    "kl": {
+      "question": "what is the other object in the image?",
+      "answer": "zebra",
+      "rewrite": "a herd of zebras at the treeline eating",
+      "rank": 23,
+      "hit": false
+    },
+    "random": {
+      "question": "Question: What type of enclosure is the herd of zebras standing in?",
+      "answer": "zoo",
+      "rewrite": "a herd of zebras stands at the treeline eating within a zoo enclosure",
+      "rank": 1,
+      "hit": true
+    },
+    "probe": {
+      "question": "what is the other object in the image?",
+      "answer": "zebra",
+      "rewrite": "a herd of zebras at the treeline eating",
+      "rank": 23,
+      "hit": false
+    }
+  },
+  "seconds": 17.328
+}

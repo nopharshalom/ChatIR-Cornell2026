@@ -1,0 +1,79 @@
+{
+  "qid": 892,
+  "sample": 2,
+  "first_candidates": [
+    "what is the lighting condition or time of day in the image where a young man is jumping a skateboard off an edge?",
+    "Question: Is the image in color or black and white?",
+    "Question: Is the young man jumping off an edge in a city square?",
+    "what is the lighting condition or time of day in the image where a young man is jumping a skateboard off an edge?",
+    "Question: Is there a crowd watching the young man perform the trick?"
+  ],
+  "second_candidates": [
+    "Question: Is the young man performing his skateboard trick in front of a crowd or in a city square?",
+    "Question: Is the young man performing his skateboard trick at night or in a black and white photo?",
+    "Where is the young man jumping the skateboard off?",
+    "Question: What is the lighting condition or photo style of the scene where the young man is jumping off the edge?",
+    "Question: Is the young man performing his skateboard trick in front of a crowd or in a city square?"
+  ],
+  "paths": [
+    {
+      "question": "Question: Is the young man performing his skateboard trick in front of a crowd or in a city square?",
+      "answers": [
+        "in front of a crowd",
+        "in a city square",
+        "at a skate park"
+      ],
+      "score": 0.04935121536254883
+    },
+    {
+      "question": "Question: Is the young man performing his skateboard trick at night or in a black and white photo?",
+      "answers": [
+        "at night",
+        "in black and white",
+        "both"
+      ],
+      "score": 0.03177309036254883
+    },
+    {
+      "question": "Where is the young man jumping the skateboard off?",
+      "answers": [
+        "at a skate park",
+        "in a city square",
+        "off an edge"
+      ],
+      "score": 0.14825725555419922
+    },
+    {
+      "question": "Question: What is the lighting condition or photo style of the scene where the young man is jumping off the edge?",
+      "answers": [
+        "daytime",
+        "nighttime",
+        "black and white"
+      ],
+      "score": 0.08616113662719727
+    },
+    {
+      "question": "Question: Is the young man performing his skateboard trick in front of a crowd or in a city square?",
+      "answers": [
+        "in front of a crowd",
+        "in a city square",
+        "at a skate park"
+      ],
+      "score": 0.04935121536254883,
+      "duplicate_of": 0
+    }
+  ],
+  "control": {
+    "question": "Where is the young man jumping the skateboard off?",
+    "score": 0.14825725555419922
+  },
+  "mixed": {
+    "question": "what is the lighting condition of the scene where the young man is jumping the skateboard?",
+    "score": 0.12413167953491211
+  },
+  "control_rank": 35,
+  "mixed_rank": 220,
+  "usual_rank": 154,
+  "new_answer": "picnic table",
+  "new_rewrite": "a young man jumping a skateboard off a picnic table"
+}

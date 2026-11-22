@@ -1,0 +1,80 @@
+{
+  "qid": 937,
+  "sample": 1,
+  "first_candidates": [
+    "Question: What is the color of the taxi?",
+    "what is the color of the car behind the taxi?",
+    "What is the background scenery of the image containing the red traffic light?",
+    "what is the location of the red traffic light in the image?",
+    "what is the color of the car behind the taxi?"
+  ],
+  "second_candidates": [
+    "What is the color of the car behind the taxi at the red light?",
+    "What color is the car behind the taxi at the red light?",
+    "What color is the car behind the taxi at the red light?",
+    "What color is the car behind the taxi at the red light?",
+    "what is the color of the traffic light in front of the car?"
+  ],
+  "paths": [
+    {
+      "question": "What is the color of the car behind the taxi at the red light?",
+      "answers": [
+        "red",
+        "blue",
+        "white"
+      ],
+      "score": 0.018730640411376953
+    },
+    {
+      "question": "What color is the car behind the taxi at the red light?",
+      "answers": [
+        "red",
+        "blue",
+        "black"
+      ],
+      "score": 0.016655921936035156
+    },
+    {
+      "question": "What color is the car behind the taxi at the red light?",
+      "answers": [
+        "red",
+        "blue",
+        "black"
+      ],
+      "score": 0.016655921936035156,
+      "duplicate_of": 1
+    },
+    {
+      "question": "What color is the car behind the taxi at the red light?",
+      "answers": [
+        "red",
+        "blue",
+        "black"
+      ],
+      "score": 0.016655921936035156,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the color of the traffic light in front of the car?",
+      "answers": [
+        "red",
+        "yellow",
+        "green"
+      ],
+      "score": 0.04165935516357422
+    }
+  ],
+  "control": {
+    "question": "What is the background scenery of the image containing the red traffic light?",
+    "score": 0.06111001968383789
+  },
+  "mixed": {
+    "question": "What is the background scenery of the image containing the red traffic light?",
+    "score": 0.06111001968383789
+  },
+  "control_rank": 1,
+  "mixed_rank": 1,
+  "usual_rank": 1,
+  "new_answer": null,
+  "new_rewrite": null
+}

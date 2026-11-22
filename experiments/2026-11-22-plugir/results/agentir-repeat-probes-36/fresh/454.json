@@ -1,0 +1,46 @@
+{
+  "qid": 454,
+  "arm": "fresh",
+  "after_round": 7,
+  "ranks": [
+    16,
+    27,
+    85,
+    113,
+    74,
+    129,
+    69,
+    94,
+    27,
+    19,
+    25
+  ],
+  "continuation": [
+    {
+      "round": 8,
+      "query_before": "a brown giraffe stands on a grassy surface among shorter trees and brush, with a sky background and other trees visible in the distance",
+      "question": "Is the giraffe eating leaves from a tree?",
+      "answer": "yes",
+      "query_after": "a brown giraffe stands on grass among shorter trees and brush, eating leaves from a tree, with a sky background and trees approximately 10 feet tall.",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Is the giraffe eating leaves from a tree?",
+      "fallback": false
+    },
+    {
+      "round": 9,
+      "query_before": "a brown giraffe stands on grass among shorter trees and brush, eating leaves from a tree, with a sky background and trees approximately 10 feet tall.",
+      "question": "what is the lighting condition of the area where the giraffe is standing?",
+      "answer": "overcast",
+      "query_after": "a brown giraffe stands on grass among shorter trees and brush, eating leaves from a tree under overcast skies, with other trees visible in the background."
+    },
+    {
+      "round": 10,
+      "query_before": "a brown giraffe stands on grass among shorter trees and brush, eating leaves from a tree under overcast skies, with other trees visible in the background.",
+      "question": "what is the other object in the image?",
+      "answer": "trees",
+      "query_after": "Under an overcast sky, a brown giraffe stands on the grass among shorter trees and brush, feeding on leaves from a tree, with additional trees visible in the background."
+    }
+  ],
+  "seconds": 38.3
+}

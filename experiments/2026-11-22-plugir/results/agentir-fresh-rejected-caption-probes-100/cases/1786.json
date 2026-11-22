@@ -1,0 +1,180 @@
+{
+  "qid": 1786,
+  "initial": "a skateboarder performing a trick down a staircase",
+  "initial_rank": 76,
+  "displayed": [
+    34642,
+    10823,
+    11553,
+    4852,
+    11704,
+    41217,
+    13485,
+    29178,
+    28140,
+    10832
+  ],
+  "evidence": [
+    "a man doing a skateboard trick on a rail while many people watch",
+    "black and white photo of people skating in a competition",
+    "a skateboarder on a rail in the evening",
+    "a skateboarder in the air above a tree",
+    "a group of men in a skateboarding rink",
+    "a skateboarder in the air on a cement sidewalk",
+    "a person on skis on a ramp at night",
+    "a park filled with people riding skateboards",
+    "a young man is doing a skateboard trick at a sidewalk",
+    "crowd is watching men do tricks on skateboards"
+  ],
+  "rejected_captions": [
+    "the metal railing",
+    "a person is doing tricks on a skateboard",
+    "a skateboarder riding on railings",
+    "a man on a skateboard riding down a staircase",
+    "the guy is doing a skateboard trick",
+    "a man is skateboarding and is on the ground",
+    "a boy is skateboarding on concrete steps",
+    "a skate boarder performing a trick",
+    "a man is doing tricks with a skateboard on stairs at night",
+    "a man riding a skateboard on the steps of a building"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the time of day when the skateboarder is performing the trick down the staircase?",
+      "Question: What is the gender of the skateboarder performing the trick down the staircase?",
+      "what is the other object in the image?",
+      "Question: What is the gender of the skateboarder performing the trick down the staircase?",
+      "what is the gender of the skateboarder performing the trick down the staircase?"
+    ],
+    "question": "what is the time of day when the skateboarder is performing the trick down the staircase?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the time of day when the skateboarder is performing the trick down the staircase?",
+          "answers": [
+            "morning",
+            "afternoon",
+            "night"
+          ],
+          "score": 0.08847951889038086
+        },
+        {
+          "question": "Question: What is the gender of the skateboarder performing the trick down the staircase?",
+          "answers": [
+            "male",
+            "female",
+            "not specified"
+          ],
+          "score": 0.02251577377319336
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "stairs",
+            "concrete",
+            "skateboard"
+          ],
+          "score": 0.03572225570678711
+        },
+        {
+          "question": "Question: What is the gender of the skateboarder performing the trick down the staircase?",
+          "answers": [
+            "male",
+            "female",
+            "not specified"
+          ],
+          "score": 0.02251577377319336,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the gender of the skateboarder performing the trick down the staircase?",
+          "answers": [
+            "male",
+            "female",
+            "non-binary"
+          ],
+          "score": 0.02039480209350586
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.071,
+      "probe_selection_seconds": 1.938,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "daytime",
+    "rewrite": "a skateboarder performing a trick down a staircase during the daytime",
+    "raw_rank": 59,
+    "unseen_rank": 49
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the lighting condition or time of day when the skateboarder is performing the trick down the staircase?",
+      "Question: What is the lighting condition or time of day when the skateboarder is performing the trick down the staircase?",
+      "Question: What is the surface material of the staircase the skateboarder is performing the trick on?",
+      "Question: What is the gender of the skateboarder performing the trick down the staircase?",
+      "Question: What is the gender of the skateboarder performing the trick down the staircase?"
+    ],
+    "question": "Question: What is the lighting condition or time of day when the skateboarder is performing the trick down the staircase?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the lighting condition or time of day when the skateboarder is performing the trick down the staircase?",
+          "answers": [
+            "Daytime",
+            "Evening",
+            "Night"
+          ],
+          "score": 0.055272579193115234
+        },
+        {
+          "question": "Question: What is the lighting condition or time of day when the skateboarder is performing the trick down the staircase?",
+          "answers": [
+            "Daytime",
+            "Evening",
+            "Night"
+          ],
+          "score": 0.055272579193115234,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the surface material of the staircase the skateboarder is performing the trick on?",
+          "answers": [
+            "concrete",
+            "brick",
+            "wood"
+          ],
+          "score": 0.051746368408203125
+        },
+        {
+          "question": "Question: What is the gender of the skateboarder performing the trick down the staircase?",
+          "answers": [
+            "male",
+            "female",
+            "non-binary"
+          ],
+          "score": 0.023928165435791016
+        },
+        {
+          "question": "Question: What is the gender of the skateboarder performing the trick down the staircase?",
+          "answers": [
+            "male",
+            "female",
+            "non-binary"
+          ],
+          "score": 0.023928165435791016,
+          "duplicate_of": 3
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.094,
+      "probe_selection_seconds": 1.562,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "daytime",
+    "rewrite": "a skateboarder performing a trick down a staircase during the daytime",
+    "raw_rank": 59,
+    "unseen_rank": 49
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "qid": 1530,
+  "initial": "a man wearing a formal outfit smiling for a photography shoot",
+  "initial_rank": 15,
+  "evidence": [
+    "an elderly man is sitting on a ledge outside",
+    "a man is sitting down with a tie",
+    "man sitting at a table and smiling",
+    "a couple and a woman standing together with flowers",
+    "a man carrying a camera across the floor of a meeting",
+    "a man with a black blazer on",
+    "a man wearing glasses and a blue jacket",
+    "a boy with a shirt and tie",
+    "a young man wearing glasses a tie and a shirt",
+    "man in a business suit is walking down a busy street"
+  ],
+  "candidates": [
+    "Question: What is the color and type of the jacket worn by the man in the formal outfit?",
+    "what is the color of the jacket worn by the man in the formal outfit?",
+    "what is the type of jacket worn by the man in the formal outfit?",
+    "what is the location where the man in the formal outfit is taking a photograph?",
+    "what is the color of the tie worn by the man in the formal outfit?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: What is the color and type of the jacket worn by the man in the formal outfit?",
+      "answers": [
+        "blue",
+        "black",
+        "green"
+      ],
+      "score": 0.13367414474487305
+    },
+    {
+      "question": "what is the color of the jacket worn by the man in the formal outfit?",
+      "answers": [
+        "blue",
+        "black",
+        "brown"
+      ],
+      "score": 0.11123895645141602
+    },
+    {
+      "question": "what is the type of jacket worn by the man in the formal outfit?",
+      "answers": [
+        "black blazer",
+        "blue jacket",
+        "suit"
+      ],
+      "score": 0.03636312484741211
+    },
+    {
+      "question": "what is the location where the man in the formal outfit is taking a photograph?",
+      "answers": [
+        "office",
+        "studio",
+        "studio with a white wall"
+      ],
+      "score": 0.06734418869018555
+    },
+    {
+      "question": "what is the color of the tie worn by the man in the formal outfit?",
+      "answers": [
+        "red",
+        "blue",
+        "black"
+      ],
+      "score": 0.19504785537719727
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.066,
+  "probe_selection_seconds": 2.357,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the color of the tie worn by the man in the formal outfit?",
+      "answer": "orange",
+      "rewrite": "a man wearing a formal outfit and an orange tie smiling for a photography shoot",
+      "rank": 4,
+      "hit": true
+    },
+    "random": {
+      "question": "what is the location where the man in the formal outfit is taking a photograph?",
+      "answer": "outdoors",
+      "rewrite": "a man in a formal outfit smiling for a photography shoot outdoors",
+      "rank": 6,
+      "hit": true
+    },
+    "probe": {
+      "question": "what is the color of the tie worn by the man in the formal outfit?",
+      "answer": "orange",
+      "rewrite": "a man wearing a formal outfit and an orange tie smiling for a photography shoot",
+      "rank": 4,
+      "hit": true
+    }
+  },
+  "seconds": 14.774
+}

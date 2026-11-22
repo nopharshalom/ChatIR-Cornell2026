@@ -1,0 +1,78 @@
+{
+  "qid": 770,
+  "sample": 1,
+  "first_candidates": [
+    "what is the location where the young man is jumping his skateboard with the crowd watching?",
+    "what is the time of day when the young man is jumping his skateboard with the crowd watching?",
+    "what is the specific location or surface where the young man is jumping his skateboard?",
+    "Based on the provided information sources, here is the generated question and the explanation of how it was derived:\n\n**Generated Question:**\n**Question:** what is?",
+    "**Generated Question:**\nWhat is the gender of the skateboarder performing the jump in front of the crowd?"
+  ],
+  "second_candidates": [
+    "what is the location where the young man is jumping the skateboard?",
+    "What is the age group of the man jumping the skateboard?",
+    "Who is the young man jumping on the skateboard?",
+    "Who is in the crowd watching the young man jump the skateboard?",
+    "Question: Who is in the crowd watching the young man jump the skateboard?"
+  ],
+  "paths": [
+    {
+      "question": "what is the location where the young man is jumping the skateboard?",
+      "answers": [
+        "skate park",
+        "sidewalk",
+        "urban area"
+      ],
+      "score": 0.05814981460571289
+    },
+    {
+      "question": "What is the age group of the man jumping the skateboard?",
+      "answers": [
+        "young",
+        "middle-aged",
+        "elderly"
+      ],
+      "score": 0.010883331298828125
+    },
+    {
+      "question": "Who is the young man jumping on the skateboard?",
+      "answers": [
+        "A professional athlete",
+        "A local hobbyist",
+        "A famous celebrity"
+      ],
+      "score": 0.021354198455810547
+    },
+    {
+      "question": "Who is in the crowd watching the young man jump the skateboard?",
+      "answers": [
+        "tennis players",
+        "skateboarders",
+        "fans"
+      ],
+      "score": 0.02287912368774414
+    },
+    {
+      "question": "Question: Who is in the crowd watching the young man jump the skateboard?",
+      "answers": [
+        "friends",
+        "family",
+        "strangers"
+      ],
+      "score": 0.0073528289794921875
+    }
+  ],
+  "control": {
+    "question": "what is the specific location or surface where the young man is jumping his skateboard?",
+    "score": 0.07886743545532227
+  },
+  "mixed": {
+    "question": "Based on the provided information, here is the next question to generate:\n\n**Question:** What is the color of the shirt worn by the young man?",
+    "score": 0.09549665451049805
+  },
+  "control_rank": 11,
+  "mixed_rank": 6,
+  "usual_rank": 11,
+  "new_answer": null,
+  "new_rewrite": null
+}

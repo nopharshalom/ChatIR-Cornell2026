@@ -1,0 +1,71 @@
+{
+  "qid": 2014,
+  "initial": "the black and white photo shows a woman with an umbrella",
+  "initial_rank": 56,
+  "evidence": [
+    "a man and woman walking down a street with suitcases and baskets",
+    "a man walking along the street with his umbrella",
+    "silhouette of surfer in black and white",
+    "a small child standing on the sidewalk holding an umbrella",
+    "a vintage photograph of a man and women on elephants",
+    "man with an umbrella walking on a rainy day",
+    "a woman carrying a red umbrella on a brick walkway in the rain",
+    "black and white photo of a man walking with luggage",
+    "people walking on a sidewalk with umbrellas",
+    "a man walking down a narrow alley with a small umbrella"
+  ],
+  "displayed_ids": [
+    37136,
+    23323,
+    42742,
+    27942,
+    37516,
+    14881,
+    9799,
+    16332,
+    33436,
+    35202
+  ],
+  "rejected_captions": [
+    "a woman is holding an umbrella in the rain",
+    "woman carrying an umbrella",
+    "woman holding an umbrella",
+    "people walking on wet pavement",
+    "a woman walking with an umbrella",
+    "a woman standing next to a set of steps with an umbrella",
+    "a woman holding an umbrella on a wet sidewalk",
+    "person in black coat",
+    "an old looking building",
+    "black and white photo of a girl standing under an umbrella"
+  ],
+  "candidates": [
+    "Question: Is the woman wearing a hat?",
+    "Question: Is the woman walking alone or with a man?",
+    "Question: What is the gender of the person holding the umbrella in the image?",
+    "Question: What color is the umbrella the woman is holding?",
+    "what is the object the woman is carrying or holding besides the umbrella?"
+  ],
+  "control_candidates": [
+    "what is the location where the woman with the umbrella is standing?",
+    "what is the surface or ground material beneath the woman with the umbrella?",
+    "what color is the umbrella held by the woman in the black and white photo?",
+    "what is the location where the woman with the umbrella is standing?",
+    "what is the specific object or animal that the woman in the black and white photo is riding?"
+  ],
+  "control": {
+    "question": "what is the location where the woman with the umbrella is standing?",
+    "answer": "nw couch st",
+    "rewrite": "a black and white photo shows a woman with an umbrella standing on nw couch st",
+    "rank": 5,
+    "hit": true,
+    "raw_rank": 5,
+    "unseen_rank": 3
+  },
+  "variant": {
+    "question": "what is the object the woman is carrying or holding besides the umbrella?",
+    "answer": "nothing",
+    "rewrite": "a black and white photo of a woman holding an umbrella with no other objects",
+    "raw_rank": 85,
+    "unseen_rank": 75
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "qid": 1215,
+  "initial": "a man riding a wave on his surfboard",
+  "initial_rank": 337,
+  "displayed": [
+    49538,
+    32197,
+    14035,
+    43895,
+    26323,
+    23302,
+    8261,
+    8214,
+    44248,
+    22688
+  ],
+  "evidence": [
+    "the surfer in a black wetsuit",
+    "man in black wetsuit surfing in waves",
+    "some people are riding on waves in the ocean",
+    "a person surfing in the ocean on a yellow surfboard",
+    "surfers jumping out of a wave",
+    "a person surfing on a yellow surfboard on a large wave",
+    "the ocean is dark with waves slapping against the shore",
+    "a person rides a wave in black and white",
+    "a surfer riding a wave on a green surfboard"
+  ],
+  "rejected_captions": [
+    "white water on a surfboard",
+    "a black and white photo of a surfer riding a wave in the ocean",
+    "the wave is in the water",
+    "a person is surfing a wave",
+    "the ocean has a huge wave in it",
+    "a surfer in a wetsuit",
+    "a man riding the waves on a surfboard in the ocean",
+    "a man in the water surfing on a board",
+    "a man riding a wave on a surfboard",
+    "white water in the ocean"
+  ],
+  "usual": {
+    "candidates": [
+      "what color is the man's wetsuit?",
+      "Question: what color is the surfboard the man is riding?",
+      "what is the color of the man's wetsuit?",
+      "what is the color of the man's surfboard?",
+      "what is the color of the surfboard the man is riding?"
+    ],
+    "question": "what is the color of the man's surfboard?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what color is the man's wetsuit?",
+          "answers": [
+            "black",
+            "green",
+            "yellow"
+          ],
+          "score": 0.11481237411499023
+        },
+        {
+          "question": "Question: what color is the surfboard the man is riding?",
+          "answers": [
+            "black",
+            "yellow",
+            "green"
+          ],
+          "score": 0.09475994110107422
+        },
+        {
+          "question": "what is the color of the man's wetsuit?",
+          "answers": [
+            "black",
+            "white",
+            "green"
+          ],
+          "score": 0.08670473098754883
+        },
+        {
+          "question": "what is the color of the man's surfboard?",
+          "answers": [
+            "black",
+            "yellow",
+            "green"
+          ],
+          "score": 0.1424727439880371
+        },
+        {
+          "question": "what is the color of the surfboard the man is riding?",
+          "answers": [
+            "black",
+            "yellow",
+            "green"
+          ],
+          "score": 0.11745262145996094
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.137,
+      "probe_selection_seconds": 2.151,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "white",
+    "rewrite": "a man riding a white wave on his surfboard",
+    "raw_rank": 328,
+    "unseen_rank": 318
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What color is the surfboard the man is riding?",
+      "Question: What color is the wetsuit the man is wearing?",
+      "Question: What color is the surfboard the man is riding?",
+      "Question: What color is the wetsuit the man is wearing?",
+      "Question: What color is the surfboard the man is riding?"
+    ],
+    "question": "Question: What color is the wetsuit the man is wearing?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What color is the surfboard the man is riding?",
+          "answers": [
+            "black",
+            "yellow",
+            "green"
+          ],
+          "score": 0.09475994110107422
+        },
+        {
+          "question": "Question: What color is the wetsuit the man is wearing?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.11540460586547852
+        },
+        {
+          "question": "Question: What color is the surfboard the man is riding?",
+          "answers": [
+            "black",
+            "yellow",
+            "green"
+          ],
+          "score": 0.09475994110107422,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the wetsuit the man is wearing?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.11540460586547852,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What color is the surfboard the man is riding?",
+          "answers": [
+            "black",
+            "yellow",
+            "green"
+          ],
+          "score": 0.09475994110107422,
+          "duplicate_of": 0
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.053,
+      "probe_selection_seconds": 0.866,
+      "probe_llm_calls": 2,
+      "probe_search_queries": 6
+    },
+    "answer": "black",
+    "rewrite": "a man in a black wetsuit riding a wave on his surfboard",
+    "raw_rank": 375,
+    "unseen_rank": 368
+  }
+}

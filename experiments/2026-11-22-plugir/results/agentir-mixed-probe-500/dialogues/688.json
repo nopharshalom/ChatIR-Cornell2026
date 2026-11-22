@@ -1,0 +1,146 @@
+{
+  "qid": 688,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000316504.jpg",
+  "queries": [
+    "a person is holding a magnifying glass over a computer mouse",
+    "a person is holding a magnifying glass over a computer mouse placed on a yellow surface"
+  ],
+  "ranks": [
+    11,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a person is holding a magnifying glass over a computer mouse",
+      "question": "what object is the computer mouse placed on?",
+      "answer": "yellow surface",
+      "query_after": "a person is holding a magnifying glass over a computer mouse placed on a yellow surface",
+      "displayed_ids": [
+        24238,
+        23690,
+        18366,
+        40089,
+        22352,
+        25598,
+        15582,
+        20432,
+        32255,
+        16532
+      ],
+      "selected_ids": [
+        40915,
+        24555,
+        394,
+        3330,
+        11213,
+        31041,
+        39417,
+        4476,
+        27779,
+        5800
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what object is the computer mouse placed on?",
+          "answers": [
+            "shelf",
+            "baseball field",
+            "pot on a stove"
+          ],
+          "score": 0.21759414672851562
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "mouse",
+            "keyboard",
+            "laptop"
+          ],
+          "score": 0.0721278190612793
+        },
+        {
+          "question": "what is the person holding over the computer mouse?",
+          "answers": [
+            "a magnifying glass",
+            "nothing",
+            "a computer keyboard"
+          ],
+          "score": 0.02001047134399414
+        },
+        {
+          "question": "what is the person holding over the computer mouse?",
+          "answers": [
+            "a magnifying glass",
+            "nothing",
+            "a computer keyboard"
+          ],
+          "score": 0.02001047134399414,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the person holding over the computer mouse?",
+          "answers": [
+            "a magnifying glass",
+            "nothing",
+            "a computer keyboard"
+          ],
+          "score": 0.02001047134399414,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the computer mouse the person is holding a magnifying glass over?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.011936187744140625
+        },
+        {
+          "question": "Question: What is the color of the mouse pad under the computer mouse the person is holding a magnifying glass over?",
+          "answers": [
+            "black",
+            "white",
+            "colorless"
+          ],
+          "score": 0.0069484710693359375
+        },
+        {
+          "question": "Question: What is the color of the computer mouse the person is holding a magnifying glass over?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.011936187744140625,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the cat laying on the desk in the similar image?",
+          "answers": [
+            "black",
+            "white",
+            "grey"
+          ],
+          "score": 0.016387462615966797
+        },
+        {
+          "question": "Question: What color is the mouse pad under the computer mouse the person is holding a magnifying glass over?",
+          "answers": [
+            "green",
+            "black",
+            "silver"
+          ],
+          "score": 0.015575408935546875
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

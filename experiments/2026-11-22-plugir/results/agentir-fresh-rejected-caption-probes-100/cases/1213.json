@@ -1,0 +1,180 @@
+{
+  "qid": 1213,
+  "initial": "a man standing on a boardwalk holding a surfboard",
+  "initial_rank": 11,
+  "displayed": [
+    41083,
+    38745,
+    27112,
+    21195,
+    11952,
+    37388,
+    20787,
+    30581,
+    24109,
+    2114
+  ],
+  "evidence": [
+    "a group of people holding snowboards walking down a ski slope",
+    "two girls in a wetsuit walking along the beach with surfboards",
+    "a young woman walking along the sand in the ocean with a surf board",
+    "a man holding his blue surfboard in the water on a beach",
+    "a group of men are standing in a park drawing",
+    "person is walking to shore on beach",
+    "a surfboard in the sand",
+    "a group of kids and a man in a red shirt are in a zoo",
+    "man in black wetsuit surfing in waves",
+    "this is a surfer woman with a surfboard"
+  ],
+  "rejected_captions": [
+    "a man is holding his surfboard outside",
+    "the person is wearing a backpack and carrying a surfboard",
+    "a boy holding a surfboard next to the beach",
+    "a wooden fence",
+    "a man on a boardwalk carries a surfboard",
+    "a man with surfboard",
+    "people with surfboards walking down the beach",
+    "a man holding a surfboard at a beach",
+    "man holding a surfboard on sand",
+    "white surfboard in hand"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the color of the surfboard the man is holding?",
+      "what is the color of the wetsuit worn by the man holding the surfboard?",
+      "what is the other object in the image?",
+      "what is the color of the wetsuit worn by the man holding the surfboard?",
+      "Question: What is the color of the surfboard the man is holding?"
+    ],
+    "question": "what is the color of the surfboard the man is holding?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the surfboard the man is holding?",
+          "answers": [
+            "blue",
+            "red",
+            "yellow"
+          ],
+          "score": 0.08222198486328125
+        },
+        {
+          "question": "what is the color of the wetsuit worn by the man holding the surfboard?",
+          "answers": [
+            "black",
+            "blue",
+            "green"
+          ],
+          "score": 0.08002853393554688
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "boardwalk",
+            "beach",
+            "water"
+          ],
+          "score": 0.032941341400146484
+        },
+        {
+          "question": "what is the color of the wetsuit worn by the man holding the surfboard?",
+          "answers": [
+            "black",
+            "blue",
+            "green"
+          ],
+          "score": 0.08002853393554688,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the surfboard the man is holding?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.02288532257080078
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.065,
+      "probe_selection_seconds": 1.906,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "white",
+    "rewrite": "a man standing on a boardwalk holding a white surfboard",
+    "raw_rank": 10,
+    "unseen_rank": 3
+  },
+  "rejected": {
+    "candidates": [
+      "what is the color of the surfboard the man is holding?",
+      "what is the color of the man's wetsuit?",
+      "Question: What is the color of the man's wetsuit?",
+      "Question: What is the color of the man's wetsuit?",
+      "Question: What is the color of the man's wetsuit?"
+    ],
+    "question": "what is the color of the surfboard the man is holding?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the surfboard the man is holding?",
+          "answers": [
+            "blue",
+            "red",
+            "yellow"
+          ],
+          "score": 0.08222198486328125
+        },
+        {
+          "question": "what is the color of the man's wetsuit?",
+          "answers": [
+            "black",
+            "blue",
+            "gray"
+          ],
+          "score": 0.038172245025634766
+        },
+        {
+          "question": "Question: What is the color of the man's wetsuit?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.05708885192871094
+        },
+        {
+          "question": "Question: What is the color of the man's wetsuit?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.05708885192871094,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the color of the man's wetsuit?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.05708885192871094,
+          "duplicate_of": 2
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.059,
+      "probe_selection_seconds": 1.41,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "white",
+    "rewrite": "a man standing on a boardwalk holding a white surfboard",
+    "raw_rank": 10,
+    "unseen_rank": 3
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "qid": 1112,
+  "sample": 1,
+  "first_candidates": [
+    "Question: What is the specific surface the giraffes are standing on?",
+    "Question: What animal is standing next to the giraffes in the enclosure?",
+    "Question: What is the specific surface the giraffes are standing on inside the zoo enclosure?",
+    "Question: What is the specific surface the giraffes are standing on inside the zoo enclosure?",
+    "what is the color of the giraffes standing inside the zoo enclosure?"
+  ],
+  "second_candidates": [
+    "What is the specific ground surface where the two giraffes are standing in the zoo enclosure?",
+    "Question: What is the specific ground surface where the two giraffes are standing in the zoo enclosure?",
+    "Question: What is the specific ground surface where the two giraffes are standing in the zoo enclosure?",
+    "Question: What is the specific ground surface where the two giraffes are standing inside the zoo enclosure?",
+    "Question: What is the specific ground surface where the two giraffes are standing inside the zoo enclosure?"
+  ],
+  "paths": [
+    {
+      "question": "What is the specific ground surface where the two giraffes are standing in the zoo enclosure?",
+      "answers": [
+        "dirt",
+        "grass",
+        "concrete"
+      ],
+      "score": 0.07809066772460938
+    },
+    {
+      "question": "Question: What is the specific ground surface where the two giraffes are standing in the zoo enclosure?",
+      "answers": [
+        "dirt",
+        "grass",
+        "sand"
+      ],
+      "score": 0.11499500274658203
+    },
+    {
+      "question": "Question: What is the specific ground surface where the two giraffes are standing in the zoo enclosure?",
+      "answers": [
+        "dirt",
+        "grass",
+        "sand"
+      ],
+      "score": 0.11499500274658203,
+      "duplicate_of": 1
+    },
+    {
+      "question": "Question: What is the specific ground surface where the two giraffes are standing inside the zoo enclosure?",
+      "answers": [
+        "dirt",
+        "grass",
+        "rocks"
+      ],
+      "score": 0.12550020217895508
+    },
+    {
+      "question": "Question: What is the specific ground surface where the two giraffes are standing inside the zoo enclosure?",
+      "answers": [
+        "dirt",
+        "grass",
+        "rocks"
+      ],
+      "score": 0.12550020217895508,
+      "duplicate_of": 3
+    }
+  ],
+  "control": {
+    "question": "Question: What is the specific surface the giraffes are standing on inside the zoo enclosure?",
+    "score": 0.13606500625610352
+  },
+  "mixed": {
+    "question": "what is the other object in the image?",
+    "score": 0.17342472076416016
+  },
+  "control_rank": 34,
+  "mixed_rank": 25,
+  "usual_rank": 34,
+  "new_answer": null,
+  "new_rewrite": null
+}

@@ -1,0 +1,77 @@
+{
+  "qid": 830,
+  "sample": 2,
+  "first_candidates": [
+    "what is the species of the animal with the black and white stripes?",
+    "what is the animal doing in the image?",
+    "what is the color of the stripes on the animal in the image?",
+    "what is the species of the animal with the black stripes?",
+    "Question: What is the species of the animal with the black and white stripes?"
+  ],
+  "second_candidates": [
+    "what is the species of the animal with black stripes standing in the grass?",
+    "what is the location where the foal with black stripes is standing?",
+    "what is the age of the animal with black stripes standing in the grass?",
+    "what is the color of the animal with black stripes standing in the grass?",
+    "what is the color of the adult animal standing next to the foal with black stripes?"
+  ],
+  "paths": [
+    {
+      "question": "what is the species of the animal with black stripes standing in the grass?",
+      "answers": [
+        "zebra",
+        "faded zebra",
+        "striped zebra"
+      ],
+      "score": 0.0020041465759277344
+    },
+    {
+      "question": "what is the location where the foal with black stripes is standing?",
+      "answers": [
+        "grass",
+        "dirt path",
+        "enclosure"
+      ],
+      "score": 0.026671409606933594
+    },
+    {
+      "question": "what is the age of the animal with black stripes standing in the grass?",
+      "answers": [
+        "baby",
+        "foal",
+        "young"
+      ],
+      "score": 0.009474754333496094
+    },
+    {
+      "question": "what is the color of the animal with black stripes standing in the grass?",
+      "answers": [
+        "black",
+        "white and black",
+        "black and white"
+      ],
+      "score": 0.014777183532714844
+    },
+    {
+      "question": "what is the color of the adult animal standing next to the foal with black stripes?",
+      "answers": [
+        "black and white",
+        "black"
+      ],
+      "score": 0.013429641723632812
+    }
+  ],
+  "control": {
+    "question": "Question: What is the species of the animal with the black and white stripes?",
+    "score": 0.07005596160888672
+  },
+  "mixed": {
+    "question": "what is the other object in the image?",
+    "score": 0.27650022506713867
+  },
+  "control_rank": 13,
+  "mixed_rank": 10,
+  "usual_rank": 13,
+  "new_answer": null,
+  "new_rewrite": null
+}

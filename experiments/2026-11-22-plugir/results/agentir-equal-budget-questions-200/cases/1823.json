@@ -1,0 +1,80 @@
+{
+  "qid": 1823,
+  "sample": 1,
+  "first_candidates": [
+    "Question: What is the color of the train in the image?",
+    "What is the color of the car waiting near the train?",
+    "what is the color of the car waiting near the train?",
+    "Question: What is the color of the train?",
+    "what is the color of the car waiting near the train?"
+  ],
+  "second_candidates": [
+    "what color is the train moving down the tracks?",
+    "what is the color of the car waiting on the side of the track?",
+    "what is the color of the car waiting on the side of the track?",
+    "Question: What color is the car waiting on the side of the track?",
+    "what is the color of the car waiting on the side of the track?"
+  ],
+  "paths": [
+    {
+      "question": "what color is the train moving down the tracks?",
+      "answers": [
+        "red",
+        "blue and yellow",
+        "yellow and black"
+      ],
+      "score": 0.18593931198120117
+    },
+    {
+      "question": "what is the color of the car waiting on the side of the track?",
+      "answers": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "score": 0.1765589714050293
+    },
+    {
+      "question": "what is the color of the car waiting on the side of the track?",
+      "answers": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "score": 0.1765589714050293,
+      "duplicate_of": 1
+    },
+    {
+      "question": "Question: What color is the car waiting on the side of the track?",
+      "answers": [
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "score": 0.15360498428344727
+    },
+    {
+      "question": "what is the color of the car waiting on the side of the track?",
+      "answers": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "score": 0.1765589714050293,
+      "duplicate_of": 1
+    }
+  ],
+  "control": {
+    "question": "Question: What is the color of the train?",
+    "score": 0.24918889999389648
+  },
+  "mixed": {
+    "question": "Question: What is the color of the train?",
+    "score": 0.24918889999389648
+  },
+  "control_rank": 123,
+  "mixed_rank": 123,
+  "usual_rank": 123,
+  "new_answer": null,
+  "new_rewrite": null
+}

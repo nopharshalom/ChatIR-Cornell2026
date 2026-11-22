@@ -1,0 +1,80 @@
+{
+  "qid": 141,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color combination of the wetsuit worn by the girl sitting on the surfboard?",
+    "what is the color of the wetsuit worn by the person surfing on the wave?",
+    "what is the other object in the image?",
+    "what is the activity of the people in the image?",
+    "what is the color of the water where the people are swimming?"
+  ],
+  "second_candidates": [
+    "Question: What are the people wearing in the image?",
+    "what is the color of the water where the people are swimming?",
+    "what is the color of the water in the image?",
+    "what is the color of the water in the image?",
+    "what is the color of the water in the image?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What are the people wearing in the image?",
+      "answers": [
+        "swimsuits",
+        "nothing",
+        "bathing suits"
+      ],
+      "score": 0.00653839111328125
+    },
+    {
+      "question": "what is the color of the water where the people are swimming?",
+      "answers": [
+        "blue",
+        "green",
+        "transparent"
+      ],
+      "score": 0.03542900085449219
+    },
+    {
+      "question": "what is the color of the water in the image?",
+      "answers": [
+        "blue",
+        "green",
+        "dark blue"
+      ],
+      "score": 0.04962348937988281
+    },
+    {
+      "question": "what is the color of the water in the image?",
+      "answers": [
+        "blue",
+        "green",
+        "dark blue"
+      ],
+      "score": 0.04962348937988281,
+      "duplicate_of": 2
+    },
+    {
+      "question": "what is the color of the water in the image?",
+      "answers": [
+        "blue",
+        "green",
+        "dark blue"
+      ],
+      "score": 0.04962348937988281,
+      "duplicate_of": 2
+    }
+  ],
+  "control": {
+    "question": "what is the activity of the people in the image?",
+    "score": 0.14203691482543945
+  },
+  "mixed": {
+    "question": "what is the activity of the people in the image?",
+    "score": 0.14203691482543945
+  },
+  "control_rank": 5,
+  "mixed_rank": 5,
+  "usual_rank": 5,
+  "new_answer": null,
+  "new_rewrite": null
+}

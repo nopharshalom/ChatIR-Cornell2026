@@ -1,0 +1,146 @@
+{
+  "qid": 754,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000496822.jpg",
+  "queries": [
+    "a tall water tower stands behind a metal fence",
+    "a tall water tower stands behind a metal fence with a bus nearby"
+  ],
+  "ranks": [
+    70,
+    2
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a tall water tower stands behind a metal fence",
+      "question": "what is the other object in the image?",
+      "answer": "bus",
+      "query_after": "a tall water tower stands behind a metal fence with a bus nearby",
+      "displayed_ids": [
+        49701,
+        11008,
+        37414,
+        17357,
+        12099,
+        9190,
+        34328,
+        15581,
+        41002,
+        18501
+      ],
+      "selected_ids": [
+        35199,
+        5837,
+        42499,
+        1459,
+        1463,
+        37349,
+        35600,
+        15317,
+        14683,
+        8233
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the tall water tower standing behind the metal fence?",
+          "answers": [
+            "white",
+            "green",
+            "yellow"
+          ],
+          "score": 0.04469633102416992
+        },
+        {
+          "question": "what is the color of the clock tower in the brick building?",
+          "answers": [
+            "red",
+            "white",
+            "brown"
+          ],
+          "score": 0.04155921936035156
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a fence",
+            "a tree",
+            "a car"
+          ],
+          "score": 0.0651702880859375
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a fence",
+            "a tree",
+            "a car"
+          ],
+          "score": 0.0651702880859375,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the tall water tower?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.05314016342163086
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the water tower?",
+          "answers": [
+            "blue",
+            "white",
+            "yellow"
+          ],
+          "score": 0.05263710021972656
+        },
+        {
+          "question": "Question: What color is the metal fence in front of the water tower?",
+          "answers": [
+            "green",
+            "silver",
+            "gray"
+          ],
+          "score": 0.028447628021240234
+        },
+        {
+          "question": "Question: What is the color of the water tower?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.06136751174926758
+        },
+        {
+          "question": "Question: What color is the water tower?",
+          "answers": [
+            "blue",
+            "white",
+            "yellow"
+          ],
+          "score": 0.05263710021972656,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the water tower?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.06136751174926758,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

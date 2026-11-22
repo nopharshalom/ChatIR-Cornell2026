@@ -1,0 +1,144 @@
+{
+  "qid": 400,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000188270.jpg",
+  "queries": [
+    "a train that is parked next to another train",
+    "a green train parked next to another train"
+  ],
+  "ranks": [
+    38,
+    10
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a train that is parked next to another train",
+      "question": "Question: What is the color of the parked train?",
+      "answer": "green",
+      "query_after": "a green train parked next to another train",
+      "displayed_ids": [
+        36447,
+        10234,
+        24156,
+        13125,
+        32930,
+        21985,
+        9694,
+        24195,
+        8676,
+        38242
+      ],
+      "selected_ids": [
+        45648,
+        48183,
+        33640,
+        23276,
+        4521,
+        29814,
+        26022,
+        6398,
+        36216,
+        28870
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the train that is parked next to another train?",
+          "answers": [
+            "green",
+            "blue",
+            "red"
+          ],
+          "score": 0.26650381088256836
+        },
+        {
+          "question": "what is the color of the second train parked next to the first train?",
+          "answers": [
+            "green",
+            "blue",
+            "red"
+          ],
+          "score": 0.23146438598632812
+        },
+        {
+          "question": "what is the color of the train that is parked next to the other train?",
+          "answers": [
+            "green",
+            "blue",
+            "red"
+          ],
+          "score": 0.28275156021118164
+        },
+        {
+          "question": "what is the color of the train parked next to another train, and what is the color of the train it is parked next to?",
+          "answers": [
+            "yellow, black",
+            "blue, white",
+            "red, white"
+          ],
+          "score": 0.21064329147338867
+        },
+        {
+          "question": "what is the color of the train that is parked next to another train?",
+          "answers": [
+            "green",
+            "blue",
+            "red"
+          ],
+          "score": 0.26650381088256836,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the parked train?",
+          "answers": [
+            "red",
+            "yellow",
+            "green"
+          ],
+          "score": 0.29660701751708984
+        },
+        {
+          "question": "Question: What is the color of the train parked next to the other train?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.23869657516479492
+        },
+        {
+          "question": "what is the color of the other train parked next to the main train?",
+          "answers": [
+            "yellow",
+            "green",
+            "blue"
+          ],
+          "score": 0.21745967864990234
+        },
+        {
+          "question": "Question: What is the color of the other train parked next to the main train?",
+          "answers": [
+            "yellow",
+            "green",
+            "blue"
+          ],
+          "score": 0.15561485290527344
+        },
+        {
+          "question": "what is the color of the locomotive on the parked train?",
+          "answers": [
+            "blue",
+            "green",
+            "red"
+          ],
+          "score": 0.2962775230407715
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

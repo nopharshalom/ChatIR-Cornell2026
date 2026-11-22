@@ -1,0 +1,937 @@
+{
+  "qid": 1820,
+  "sample": "original",
+  "target": "unlabeled2017/000000007540.jpg",
+  "queries": [
+    "a single toilet sits inside an unfinished bathroom",
+    "a single toilet and a bathtub sit inside an unfinished bathroom",
+    "a single white bathtub and a toilet sit inside an unfinished bathroom",
+    "a single white bathtub and a toilet sit inside a bathroom with plastic walls",
+    "a single white bathtub sits next to a toilet inside an unfinished bathroom with plastic walls under construction",
+    "a single white toilet sits inside an unfinished bathroom with white plastic walls and a white bathtub, clearly under construction",
+    "a single white toilet sits on a white floor inside an unfinished bathroom with white plastic walls and a white bathtub, under construction",
+    "a single white toilet sits on a white floor inside an unfinished bathroom with white plastic walls and a white bathtub"
+  ],
+  "ranks": [
+    50,
+    11,
+    17,
+    15,
+    23,
+    16,
+    14,
+    6
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a single toilet sits inside an unfinished bathroom",
+      "question": "what is the other object in the image?",
+      "answer": "bathtub",
+      "query_after": "a single toilet and a bathtub sit inside an unfinished bathroom",
+      "displayed_ids": [
+        27310,
+        46550,
+        3690,
+        47790,
+        13372,
+        12432,
+        21127,
+        462,
+        3511,
+        29712
+      ],
+      "selected_ids": [
+        19569,
+        22582,
+        6830,
+        27503,
+        37225,
+        47802,
+        8038,
+        27423,
+        24095,
+        7482
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: Is the toilet white?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0008206367492675781
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sink",
+            "bathtub",
+            "window"
+          ],
+          "score": 0.12133169174194336
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sink",
+            "bathtub",
+            "window"
+          ],
+          "score": 0.12133169174194336,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sink",
+            "bathtub",
+            "window"
+          ],
+          "score": 0.12133169174194336,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the toilet in the image?",
+          "answers": [
+            "white",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.07876873016357422
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the toilet in the unfinished bathroom?",
+          "answers": [
+            "white",
+            "blue",
+            "brown"
+          ],
+          "score": 0.0554509162902832
+        },
+        {
+          "question": "Question: Is the toilet in the unfinished bathroom broken?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0011591911315917969
+        },
+        {
+          "question": "Question: What is the state of the toilet seat?",
+          "answers": [
+            "open",
+            "closed",
+            "missing"
+          ],
+          "score": 0.007925033569335938
+        },
+        {
+          "question": "Question: Is there a bathtub present in the bathroom with the single toilet?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0003590583801269531
+        },
+        {
+          "question": "Question: What is the color of the toilet in the unfinished bathroom?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.06856107711791992
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a single toilet and a bathtub sit inside an unfinished bathroom",
+      "question": "what is the color of the bathtub in the image?",
+      "answer": "white",
+      "query_after": "a single white bathtub and a toilet sit inside an unfinished bathroom",
+      "displayed_ids": [
+        13372,
+        44244,
+        26716,
+        9915,
+        39293,
+        43093,
+        462,
+        26761,
+        25077,
+        11040
+      ],
+      "selected_ids": [
+        6781,
+        6919,
+        45244,
+        27423,
+        47488,
+        12531,
+        26396,
+        2400,
+        45518,
+        11205
+      ],
+      "rejected_count": 18,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "shower",
+            "sink",
+            "mirror"
+          ],
+          "score": 0.04450798034667969
+        },
+        {
+          "question": "what is the condition of the bathroom containing the single toilet?",
+          "answers": [
+            "unfinished",
+            "dirty",
+            "old"
+          ],
+          "score": 0.015224933624267578
+        },
+        {
+          "question": "what is the state of repair of the bathroom containing the single toilet?",
+          "answers": [
+            "unfinished",
+            "dirty",
+            "old"
+          ],
+          "score": 0.012875556945800781
+        },
+        {
+          "question": "what objects are missing from the bathroom described as having a single toilet?",
+          "answers": [
+            "sink",
+            "tub",
+            "shower"
+          ],
+          "score": 0.01381063461303711
+        },
+        {
+          "question": "what is the condition of the bathroom containing the single toilet?",
+          "answers": [
+            "unfinished",
+            "dirty",
+            "old"
+          ],
+          "score": 0.015224933624267578,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: what is the color of the toilet in the image?",
+          "answers": [
+            "white",
+            "blue",
+            "beige"
+          ],
+          "score": 0.05795478820800781
+        },
+        {
+          "question": "what is the color of the bathtub in the image?",
+          "answers": [
+            "white",
+            "blue",
+            "cream"
+          ],
+          "score": 0.05967283248901367
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bathtub",
+            "sink",
+            "mirror"
+          ],
+          "score": 0.03919506072998047
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bathtub",
+            "sink",
+            "mirror"
+          ],
+          "score": 0.03919506072998047,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the condition of the bathroom in the image?",
+          "answers": [
+            "unfinished",
+            "dirty",
+            "old"
+          ],
+          "score": 0.022289752960205078
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a single white bathtub and a toilet sit inside an unfinished bathroom",
+      "question": "what is the material of the walls in the bathroom in the image?",
+      "answer": "plastic",
+      "query_after": "a single white bathtub and a toilet sit inside a bathroom with plastic walls",
+      "displayed_ids": [
+        13372,
+        26716,
+        44244,
+        9915,
+        39293,
+        43093,
+        25077,
+        462,
+        844,
+        24293
+      ],
+      "selected_ids": [
+        24514,
+        26864,
+        47488,
+        2400,
+        9417,
+        28381,
+        27423,
+        6781,
+        45521,
+        36099
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bathtub",
+            "shower",
+            "sink"
+          ],
+          "score": 0.03613615036010742
+        },
+        {
+          "question": "what is the state of repair of the toilet in the image?",
+          "answers": [
+            "broken",
+            "new",
+            "old"
+          ],
+          "score": 0.017754077911376953
+        },
+        {
+          "question": "what is the state of repair of the toilet in the image?",
+          "answers": [
+            "broken",
+            "new",
+            "old"
+          ],
+          "score": 0.017754077911376953,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the state of repair of the toilet in the image?",
+          "answers": [
+            "broken",
+            "new",
+            "old"
+          ],
+          "score": 0.017754077911376953,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the material of the walls in the bathroom in the image?",
+          "answers": [
+            "white",
+            "wood",
+            "brick"
+          ],
+          "score": 0.14751863479614258
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bathtub",
+            "shower",
+            "sink"
+          ],
+          "score": 0.03613615036010742
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bathtub",
+            "shower",
+            "sink"
+          ],
+          "score": 0.03613615036010742,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the toilet in the image?",
+          "answers": [
+            "white",
+            "blue",
+            "toilet"
+          ],
+          "score": 0.04255199432373047
+        },
+        {
+          "question": "what is the color of the toilet in the image?",
+          "answers": [
+            "white",
+            "blue",
+            "toilet"
+          ],
+          "score": 0.04255199432373047,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the toilet in the image?",
+          "answers": [
+            "white",
+            "blue",
+            "toilet"
+          ],
+          "score": 0.04255199432373047,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a single white bathtub and a toilet sit inside a bathroom with plastic walls",
+      "question": "what is the condition of the bathroom in the image?",
+      "answer": "under construction",
+      "query_after": "a single white bathtub sits next to a toilet inside an unfinished bathroom with plastic walls under construction",
+      "displayed_ids": [
+        13372,
+        9915,
+        26716,
+        8875,
+        28763,
+        14645,
+        31147,
+        41680,
+        44244,
+        43093
+      ],
+      "selected_ids": [
+        29853,
+        36099,
+        2146,
+        2400,
+        6371,
+        1727,
+        11546,
+        45518,
+        35244,
+        16819
+      ],
+      "rejected_count": 25,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bathtub",
+            "sink",
+            "shower"
+          ],
+          "score": 0.030540943145751953
+        },
+        {
+          "question": "what is the condition of the bathroom in the image?",
+          "answers": [
+            "unfinished",
+            "tiled",
+            "small"
+          ],
+          "score": 0.04388427734375
+        },
+        {
+          "question": "Question: What is the condition of the bathroom in the image?",
+          "answers": [
+            "unfinished",
+            "completed",
+            "under construction"
+          ],
+          "score": 0.009802818298339844
+        },
+        {
+          "question": "what is the color of the toilet in the image?",
+          "answers": [
+            "white",
+            "blue",
+            "off-white"
+          ],
+          "score": 0.04384469985961914
+        },
+        {
+          "question": "Based on the provided information, here is the next logical question to generate:\n\n**Question:** What is the material of the walls in the bathroom in the image?",
+          "answers": [
+            "drywall",
+            "plaster",
+            "brick"
+          ],
+          "score": 0.038564205169677734
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bathtub",
+            "sink",
+            "shower"
+          ],
+          "score": 0.030540943145751953
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bathtub",
+            "sink",
+            "shower"
+          ],
+          "score": 0.030540943145751953,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the toilet in the image?",
+          "answers": [
+            "white",
+            "cream",
+            "off-white"
+          ],
+          "score": 0.010947704315185547
+        },
+        {
+          "question": "what is the color of the toilet in the image?",
+          "answers": [
+            "white",
+            "cream",
+            "off-white"
+          ],
+          "score": 0.010947704315185547,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the toilet in the image?",
+          "answers": [
+            "white",
+            "cream",
+            "off-white"
+          ],
+          "score": 0.010947704315185547,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a single white bathtub sits next to a toilet inside an unfinished bathroom with plastic walls under construction",
+      "question": "what is the color of the toilet in the image?",
+      "answer": "white",
+      "query_after": "a single white toilet sits inside an unfinished bathroom with white plastic walls and a white bathtub, clearly under construction",
+      "displayed_ids": [
+        13372,
+        9915,
+        39293,
+        26716,
+        44244,
+        25077,
+        16440,
+        43093,
+        1395,
+        462
+      ],
+      "selected_ids": [
+        15647,
+        29499,
+        8673,
+        45518,
+        6371,
+        38284,
+        39519,
+        6781,
+        9417,
+        38928
+      ],
+      "rejected_count": 27,
+      "usual_paths": [
+        {
+          "question": "what is the specific type of sink present in the unfinished bathroom?",
+          "answers": [
+            "drop-in sink",
+            "pedestal sink",
+            "wall-hung sink"
+          ],
+          "score": 0.01336812973022461
+        },
+        {
+          "question": "what is the specific type of sink present in the unfinished bathroom?",
+          "answers": [
+            "drop-in sink",
+            "pedestal sink",
+            "wall-hung sink"
+          ],
+          "score": 0.01336812973022461,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the toilet in the unfinished bathroom?",
+          "answers": [
+            "white",
+            "cream",
+            "blue"
+          ],
+          "score": 0.03905820846557617
+        },
+        {
+          "question": "what is the color of the toilet in the unfinished bathroom?",
+          "answers": [
+            "white",
+            "cream",
+            "blue"
+          ],
+          "score": 0.03905820846557617,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the toilet in the unfinished bathroom?",
+          "answers": [
+            "white",
+            "cream",
+            "blue"
+          ],
+          "score": 0.03905820846557617,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the toilet in the image?",
+          "answers": [
+            "white",
+            "brown",
+            "blue"
+          ],
+          "score": 0.04928159713745117
+        },
+        {
+          "question": "what is the color of the toilet in the image?",
+          "answers": [
+            "white",
+            "brown",
+            "blue"
+          ],
+          "score": 0.04928159713745117,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the toilet in the image?",
+          "answers": [
+            "white",
+            "cream",
+            "blue"
+          ],
+          "score": 0.0365447998046875
+        },
+        {
+          "question": "what color is the toilet in the image?",
+          "answers": [
+            "white",
+            "cream",
+            "blue"
+          ],
+          "score": 0.0365447998046875,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what color is the toilet in the image?",
+          "answers": [
+            "white",
+            "cream",
+            "blue"
+          ],
+          "score": 0.0365447998046875,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a single white toilet sits inside an unfinished bathroom with white plastic walls and a white bathtub, clearly under construction",
+      "question": "what color is the floor in the bathroom?",
+      "answer": "white",
+      "query_after": "a single white toilet sits on a white floor inside an unfinished bathroom with white plastic walls and a white bathtub, under construction",
+      "displayed_ids": [
+        13372,
+        26716,
+        43093,
+        9915,
+        44244,
+        462,
+        27310,
+        39293,
+        3690,
+        25077
+      ],
+      "selected_ids": [
+        33775,
+        49942,
+        6830,
+        38284,
+        6781,
+        446,
+        32451,
+        47488,
+        31570,
+        26396
+      ],
+      "rejected_count": 27,
+      "usual_paths": [
+        {
+          "question": "what is the state of the floor in the image?",
+          "answers": [
+            "plastic",
+            "trash",
+            "unfinished"
+          ],
+          "score": 0.012583732604980469
+        },
+        {
+          "question": "what is the condition of the floor in the bathroom?",
+          "answers": [
+            "unfinished",
+            "under construction",
+            "damaged"
+          ],
+          "score": 0.014562606811523438
+        },
+        {
+          "question": "what is the state of the floor in the bathroom in the image?",
+          "answers": [
+            "unfinished",
+            "under construction",
+            "damaged"
+          ],
+          "score": 0.016042709350585938
+        },
+        {
+          "question": "what is the condition of the floor in the bathroom in the image?",
+          "answers": [
+            "[under construction, bare, damaged]"
+          ],
+          "note": "fewer than 2 answers",
+          "score": null
+        },
+        {
+          "question": "what is the condition of the floor in the bathroom in the image?",
+          "answers": [
+            "[under construction, bare, damaged]"
+          ],
+          "note": "fewer than 2 answers",
+          "duplicate_of": 3,
+          "score": null
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the floor in the image?",
+          "answers": [
+            "white",
+            "beige",
+            "gray"
+          ],
+          "score": 0.016640663146972656
+        },
+        {
+          "question": "what is the color of the floor in the bathroom?",
+          "answers": [
+            "white",
+            "gray",
+            "beige"
+          ],
+          "score": 0.01779031753540039
+        },
+        {
+          "question": "what color is the floor in the bathroom?",
+          "answers": [
+            "white",
+            "gray",
+            "wood"
+          ],
+          "score": 0.0395350456237793
+        },
+        {
+          "question": "what is the color of the floor in the bathroom?",
+          "answers": [
+            "white",
+            "gray",
+            "beige"
+          ],
+          "score": 0.01779031753540039,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the floor in the bathroom?",
+          "answers": [
+            "white",
+            "gray",
+            "beige"
+          ],
+          "score": 0.01779031753540039,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a single white toilet sits on a white floor inside an unfinished bathroom with white plastic walls and a white bathtub, under construction",
+      "question": "what is the material of the bathroom walls in the image?",
+      "answer": "plastic",
+      "query_after": "a single white toilet sits on a white floor inside an unfinished bathroom with white plastic walls and a white bathtub",
+      "displayed_ids": [
+        13372,
+        43093,
+        26716,
+        462,
+        44244,
+        3690,
+        30516,
+        9915,
+        39293,
+        27310
+      ],
+      "selected_ids": [
+        6781,
+        31570,
+        49609,
+        49761,
+        26761,
+        26396,
+        20875,
+        14882,
+        7135,
+        47488
+      ],
+      "rejected_count": 28,
+      "usual_paths": [
+        {
+          "question": "what is the brand of the toilet in the image?",
+          "answers": [
+            "American Standard",
+            "Toto",
+            "Kohler"
+          ],
+          "score": 0.006247520446777344
+        },
+        {
+          "question": "what is the brand of the toilet in the image?",
+          "answers": [
+            "American Standard",
+            "Toto",
+            "Kohler"
+          ],
+          "score": 0.006247520446777344,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the state of the bathroom walls?",
+          "answers": [
+            "unpainted",
+            "exposed drywall",
+            "unfinished"
+          ],
+          "score": 0.004700660705566406
+        },
+        {
+          "question": "what is the condition of the bathroom walls?",
+          "answers": [
+            "plastic",
+            "unfinished",
+            "tiled"
+          ],
+          "score": 0.010961055755615234
+        },
+        {
+          "question": "what is the material of the bathroom walls in the image?",
+          "answers": [
+            "plastic",
+            "drywall",
+            "wood"
+          ],
+          "score": 0.024961471557617188
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the brand of the toilet in the image?",
+          "answers": [
+            "American Standard",
+            "Toto",
+            "Kohler"
+          ],
+          "score": 0.006247520446777344
+        },
+        {
+          "question": "what are the walls covered with?",
+          "answers": [
+            "plastic",
+            "unpainted drywall",
+            "exposed studs"
+          ],
+          "score": 0.009496212005615234
+        },
+        {
+          "question": "What is the condition of the toilet in the image?",
+          "answers": [
+            "pristine",
+            "dirty",
+            "broken"
+          ],
+          "score": 0.02137279510498047
+        },
+        {
+          "question": "what is the condition of the toilet in the image?",
+          "answers": [
+            "white",
+            "stained",
+            "old"
+          ],
+          "score": 0.00839376449584961
+        },
+        {
+          "question": "what is the color of the floor in the bathroom?",
+          "answers": [
+            "white",
+            "plastic",
+            "beige"
+          ],
+          "score": 0.006178855895996094
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

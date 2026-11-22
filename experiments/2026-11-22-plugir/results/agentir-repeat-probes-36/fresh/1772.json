@@ -1,0 +1,49 @@
+{
+  "qid": 1772,
+  "arm": "fresh",
+  "after_round": 2,
+  "ranks": [
+    17,
+    24,
+    24,
+    43,
+    42,
+    34,
+    2
+  ],
+  "continuation": [
+    {
+      "round": 3,
+      "query_before": "A white computer mouse is placed on a mouse pad beside a keyboard.",
+      "question": "Is the computer a laptop or a desktop?",
+      "answer": "desktop",
+      "query_after": "a white computer mouse sitting on top of a mouse pad, with a keyboard and a desktop computer nearby",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Is the computer a laptop or a desktop?",
+      "fallback": false
+    },
+    {
+      "round": 4,
+      "query_before": "a white computer mouse sitting on top of a mouse pad, with a keyboard and a desktop computer nearby",
+      "question": "what is the other object in the image?",
+      "answer": "keyboard",
+      "query_after": "A white computer mouse rests on a mouse pad, positioned near a keyboard and a desktop computer."
+    },
+    {
+      "round": 5,
+      "query_before": "A white computer mouse rests on a mouse pad, positioned near a keyboard and a desktop computer.",
+      "question": "what is the color of the computer mouse?",
+      "answer": "white",
+      "query_after": "a white computer mouse sitting on top of a mouse pad, next to a keyboard, with a desktop computer in the background"
+    },
+    {
+      "round": 6,
+      "query_before": "a white computer mouse sitting on top of a mouse pad, next to a keyboard, with a desktop computer in the background",
+      "question": "what is the color of the mouse pad?",
+      "answer": "orange",
+      "query_after": "a white computer mouse sits on an orange mouse pad, positioned next to a keyboard on a desktop computer"
+    }
+  ],
+  "seconds": 52.5
+}

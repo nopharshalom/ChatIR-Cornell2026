@@ -1,0 +1,177 @@
+{
+  "qid": 623,
+  "initial": "an older lady standing in front of a green billboard while talking on the phone",
+  "initial_rank": 29,
+  "displayed": [
+    11997,
+    8158,
+    41817,
+    33083,
+    40278,
+    8305,
+    7545,
+    7732,
+    8571,
+    26424
+  ],
+  "evidence": [
+    "a woman is cutting a cake in a room full of people",
+    "two men holding umbrellas and a child on a sidewalk",
+    "a city street sign and two street signs sitting next to each other",
+    "a young girl is taking a call on her cell phone",
+    "a woman plays a tennis match at a sports court",
+    "a man is crossing the road next to a building",
+    "the two signs are on the side of a street",
+    "a man is standing on a curb next to a bus",
+    "a person wearing a long black coat is talking on his cell phone",
+    "man holding umbrella in front of store"
+  ],
+  "rejected_captions": [
+    "a woman wearing a hat and green",
+    "a woman is holding a green necklace and a green scarf",
+    "a man jogging near a douglas park",
+    "woman is wearing a green shirt",
+    "a child is standing in front of a green building",
+    "woman sitting on bench",
+    "a big green tractor trailer",
+    "an elderly woman is walking past a storefront window",
+    "man is wearing white shirt",
+    "a woman is swinging her tennis racket"
+  ],
+  "usual": {
+    "candidates": [
+      "What is the color of the coat worn by the person talking on the phone?",
+      "what is the age of the person talking on the phone?",
+      "what is the activity the older lady is performing while standing in front of the green billboard?",
+      "what is the color of the coat worn by the older lady talking on the phone?",
+      "what is the color of the billboard in front of which the older lady is standing?"
+    ],
+    "question": "What is the color of the coat worn by the person talking on the phone?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "What is the color of the coat worn by the person talking on the phone?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.03667449951171875
+        },
+        {
+          "question": "what is the age of the person talking on the phone?",
+          "answers": [
+            "young",
+            "adult",
+            "older"
+          ],
+          "score": 0.002349376678466797
+        },
+        {
+          "question": "what is the activity the older lady is performing while standing in front of the green billboard?",
+          "answers": [
+            "talking on the phone",
+            "answering a call",
+            "using a cell phone"
+          ],
+          "score": 0.002933025360107422
+        },
+        {
+          "question": "what is the color of the coat worn by the older lady talking on the phone?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.030833721160888672
+        },
+        {
+          "question": "what is the color of the billboard in front of which the older lady is standing?",
+          "answers": [
+            "green",
+            "blue",
+            "red"
+          ],
+          "score": 0.023064613342285156
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.078,
+      "probe_selection_seconds": 2.615,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "black",
+    "rewrite": "an older lady in a black coat standing in front of a green billboard while talking on the phone",
+    "raw_rank": 35,
+    "unseen_rank": 29
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What color is the shirt worn by the older lady?",
+      "Question: What is the man doing in the background of the image?",
+      "Question: What is the color of the coat worn by the person on the phone?",
+      "Question: What is the gender of the person on the phone?",
+      "what is the color of the billboard behind the older lady?"
+    ],
+    "question": "Question: What is the man doing in the background of the image?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What color is the shirt worn by the older lady?",
+          "answers": [
+            "green",
+            "blue",
+            "red"
+          ],
+          "score": 0.03463125228881836
+        },
+        {
+          "question": "Question: What is the man doing in the background of the image?",
+          "answers": [
+            "talking on phone",
+            "crossing road",
+            "holding umbrella"
+          ],
+          "score": 0.08905887603759766
+        },
+        {
+          "question": "Question: What is the color of the coat worn by the person on the phone?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.02981853485107422
+        },
+        {
+          "question": "Question: What is the gender of the person on the phone?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.02362203598022461
+        },
+        {
+          "question": "what is the color of the billboard behind the older lady?",
+          "answers": [
+            "green",
+            "blue",
+            "red"
+          ],
+          "score": 0.035413265228271484
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.074,
+      "probe_selection_seconds": 2.502,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "pointing",
+    "rewrite": "an older lady standing in front of a green billboard while talking on the phone, with a man in the background pointing",
+    "raw_rank": 1,
+    "unseen_rank": 1
+  }
+}

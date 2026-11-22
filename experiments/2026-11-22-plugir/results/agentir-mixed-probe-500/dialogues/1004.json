@@ -1,0 +1,931 @@
+{
+  "qid": 1004,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000312260.jpg",
+  "queries": [
+    "4 people standing on a snowy slope with skis",
+    "four people standing on a snowy slope with skis, location unknown",
+    "four people wearing black, red, blue, and green coats standing on a snowy slope with skis",
+    "four people wearing black, red, blue, and green coats stand on a snowy slope with skis, including a male in a blue jacket",
+    "four people wearing black, red, blue, and green coats stand on a snowy slope with skis, including two males in blue and black jackets",
+    "four people (two males in black and blue jackets, one female in a red jacket) standing on a snowy slope with skis, wearing coats in black, red, blue, and green",
+    "four people (two males in black and blue jackets, one female in a red jacket) stand on a snowy slope with skis, ski poles, and coats in black, red, blue, and green colors",
+    "four people (two males in black and blue jackets, one female in a red jacket) are skiing on a snowy slope, wearing black, red, blue, and green coats, holding skis and ski poles"
+  ],
+  "ranks": [
+    30,
+    36,
+    21,
+    24,
+    29,
+    24,
+    24,
+    5
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "4 people standing on a snowy slope with skis",
+      "question": "what is the specific location where the four people are standing on the snowy slope with skis?",
+      "answer": "unsure",
+      "query_after": "four people standing on a snowy slope with skis, location unknown",
+      "displayed_ids": [
+        41155,
+        16375,
+        49086,
+        29955,
+        5946,
+        23528,
+        4773,
+        21479,
+        3821,
+        22140
+      ],
+      "selected_ids": [
+        16429,
+        36626,
+        49858,
+        34265,
+        48304,
+        42744,
+        3664,
+        12590,
+        34625,
+        21882
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: What is the gender of the people standing on the snowy slope with skis?",
+          "answers": [
+            "men",
+            "women",
+            "men and women"
+          ],
+          "score": 0.05184650421142578
+        },
+        {
+          "question": "what is the specific location where the four people are standing on the snowy slope with skis?",
+          "answers": [
+            "ski resort",
+            "mountain top",
+            "picnic area"
+          ],
+          "score": 0.0775613784790039
+        },
+        {
+          "question": "Question: Which candidate image shows four people standing on a snowy slope with skis?",
+          "answers": [
+            "0",
+            "3"
+          ],
+          "score": 0.0007686614990234375
+        },
+        {
+          "question": "Question: What is the gender of the people standing on the snowy slope with skis?",
+          "answers": [
+            "men",
+            "women",
+            "men and women"
+          ],
+          "score": 0.05184650421142578,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: Which candidate image shows a group of people holding snowboards?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0010256767272949219
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color are the coats of the people in the image?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.05643796920776367
+        },
+        {
+          "question": "Question: What is the gender of the people in the image?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.011708736419677734
+        },
+        {
+          "question": "Question: What is the gender of the people in the image?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.011708736419677734,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: Question: What is the gender of the people in the image?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.011015892028808594
+        },
+        {
+          "question": "Question: What is the gender of the people in the image?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.011708736419677734,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "four people standing on a snowy slope with skis, location unknown",
+      "question": "Question: What color are the coats worn by the group of people?",
+      "answer": "Black, red, blue, green.",
+      "query_after": "four people wearing black, red, blue, and green coats standing on a snowy slope with skis",
+      "displayed_ids": [
+        49086,
+        5946,
+        29955,
+        23528,
+        16375,
+        21012,
+        46018,
+        4773,
+        41155,
+        3821
+      ],
+      "selected_ids": [
+        9376,
+        26157,
+        36380,
+        7439,
+        21063,
+        34265,
+        18215,
+        5451,
+        17332,
+        44295
+      ],
+      "rejected_count": 12,
+      "usual_paths": [
+        {
+          "question": "Question: What are the people wearing on their heads?",
+          "answers": [
+            "hats",
+            "helmets",
+            "no headwear"
+          ],
+          "score": 0.007658481597900391
+        },
+        {
+          "question": "What are the people wearing on their heads?",
+          "answers": [
+            "hats",
+            "helmets",
+            "nothing"
+          ],
+          "score": 0.006790637969970703
+        },
+        {
+          "question": "what are the people wearing on their heads?",
+          "answers": [
+            "hats",
+            "helmets",
+            "no headwear"
+          ],
+          "score": 0.00882101058959961
+        },
+        {
+          "question": "Question: What are the people wearing on their heads?",
+          "answers": [
+            "hats",
+            "helmets",
+            "no headwear"
+          ],
+          "score": 0.007658481597900391,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What are the people wearing on their heads?",
+          "answers": [
+            "hats",
+            "helmets",
+            "no headwear"
+          ],
+          "score": 0.007658481597900391,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color are the coats worn by the group of people?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.08871746063232422
+        },
+        {
+          "question": "what is the color of the coats worn by the people in the rejected photo 9?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.055544376373291016
+        },
+        {
+          "question": "Question: What color are the coats worn by the four people standing on the snowy slope with skis?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.0478510856628418
+        },
+        {
+          "question": "Question: What color are the coats worn by the four people standing on the snowy slope with skis?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.0478510856628418,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What color are the coats worn by the people standing on the snowy slope?",
+          "answers": [
+            "red and blue",
+            "black and white",
+            "green and yellow"
+          ],
+          "score": 0.08119010925292969
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "four people wearing black, red, blue, and green coats standing on a snowy slope with skis",
+      "question": "what is the gender of the person wearing a blue jacket in the group of people posing with their snowboards?",
+      "answer": "male",
+      "query_after": "four people wearing black, red, blue, and green coats stand on a snowy slope with skis, including a male in a blue jacket",
+      "displayed_ids": [
+        7049,
+        12761,
+        5946,
+        22058,
+        3821,
+        31043,
+        3744,
+        49086,
+        2318,
+        19596
+      ],
+      "selected_ids": [
+        37779,
+        25677,
+        34265,
+        36626,
+        29129,
+        22742,
+        4878,
+        30739,
+        29875,
+        48304
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "what is the gender of the person wearing a blue jacket in the group?",
+          "answers": [
+            "male",
+            "female",
+            "man"
+          ],
+          "score": 0.02073383331298828
+        },
+        {
+          "question": "what is the gender of the person wearing a blue jacket in the group?",
+          "answers": [
+            "male",
+            "female",
+            "man"
+          ],
+          "score": 0.02073383331298828,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the age of the person wearing a blue jacket in the group?",
+          "answers": [
+            "young",
+            "adult",
+            "elderly"
+          ],
+          "score": 0.00890207290649414
+        },
+        {
+          "question": "what is the gender and age of the person wearing a blue jacket in the group of people posing with their snowboards?",
+          "answers": [
+            "male child",
+            "female child",
+            "male adult"
+          ],
+          "score": 0.03314352035522461
+        },
+        {
+          "question": "what is the gender of the person wearing a blue jacket in the group of people posing with their snowboards?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.03345537185668945
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Who are the four people standing on the snowy slope with skis?",
+          "answers": [
+            "friends",
+            "family",
+            "a team"
+          ],
+          "score": 0.012298583984375
+        },
+        {
+          "question": "Question: What color are the pants worn by the group of people?",
+          "answers": [
+            "Black",
+            "Red",
+            "Blue"
+          ],
+          "score": 0.008211612701416016
+        },
+        {
+          "question": "Question: What is the gender of the person wearing the green coat?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.013709068298339844
+        },
+        {
+          "question": "Question: What is the gender of the person wearing the green coat?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.013709068298339844,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What color is the coat worn by the person standing on the snowy slope with skis?",
+          "answers": [
+            "Black",
+            "Red",
+            "Blue"
+          ],
+          "score": 0.01604175567626953
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "four people wearing black, red, blue, and green coats stand on a snowy slope with skis, including a male in a blue jacket",
+      "question": "what is the gender of the person wearing the black jacket in the group of people?",
+      "answer": "male",
+      "query_after": "four people wearing black, red, blue, and green coats stand on a snowy slope with skis, including two males in blue and black jackets",
+      "displayed_ids": [
+        7049,
+        12761,
+        3821,
+        5946,
+        31043,
+        19596,
+        2318,
+        22058,
+        49086,
+        25752
+      ],
+      "selected_ids": [
+        4878,
+        25677,
+        49429,
+        21149,
+        48304,
+        34265,
+        18887,
+        28329,
+        17118,
+        29562
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what is the gender of the person wearing a red coat in the group of people?",
+          "answers": [
+            "male",
+            "female",
+            "not enough information"
+          ],
+          "score": 0.017168045043945312
+        },
+        {
+          "question": "what is the gender of the person wearing a green coat in the group of people?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.016798973083496094
+        },
+        {
+          "question": "what is the gender of the person wearing a black coat in the group of people?",
+          "answers": [
+            "male",
+            "female",
+            "both"
+          ],
+          "score": 0.01623821258544922
+        },
+        {
+          "question": "what is the gender of the person wearing a yellow coat in the group of people?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.01633930206298828
+        },
+        {
+          "question": "what is the gender of the person wearing a yellow coat in the group of people?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.01633930206298828,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the gender of the person wearing a red jacket in the group of people?",
+          "answers": [
+            "male",
+            "female",
+            "not enough info"
+          ],
+          "score": 0.017242908477783203
+        },
+        {
+          "question": "what is the gender of the person wearing a green jacket in the group of people?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.017390727996826172
+        },
+        {
+          "question": "what is the gender of the person wearing the black jacket in the group of people?",
+          "answers": [
+            "male",
+            "female"
+          ],
+          "score": 0.021411895751953125
+        },
+        {
+          "question": "what is the gender of the person wearing a red jacket in the group of people?",
+          "answers": [
+            "male",
+            "female",
+            "not enough info"
+          ],
+          "score": 0.017242908477783203,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: Which color jackets are worn by the four people standing on the snowy slope?",
+          "answers": [
+            "Black, red, blue, green",
+            "Blue, black, white, gray",
+            "Red, blue, green, yellow"
+          ],
+          "score": 0.020366668701171875
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "four people wearing black, red, blue, and green coats stand on a snowy slope with skis, including two males in blue and black jackets",
+      "question": "what is the gender of the person wearing the red jacket in the group of people standing on the snowy slope with skis?",
+      "answer": "female",
+      "query_after": "four people (two males in black and blue jackets, one female in a red jacket) standing on a snowy slope with skis, wearing coats in black, red, blue, and green",
+      "displayed_ids": [
+        7049,
+        12761,
+        5946,
+        3821,
+        22058,
+        19596,
+        31043,
+        2318,
+        49086,
+        3744
+      ],
+      "selected_ids": [
+        29875,
+        30894,
+        4878,
+        48304,
+        34265,
+        39764,
+        17332,
+        23401,
+        16894,
+        45636
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what is the gender of the person wearing the red jacket in the group of people?",
+          "answers": [
+            "male",
+            "female",
+            "child"
+          ],
+          "score": 0.02259206771850586
+        },
+        {
+          "question": "what is the gender of the person wearing the red jacket in the group of people?",
+          "answers": [
+            "male",
+            "female",
+            "child"
+          ],
+          "score": 0.02259206771850586,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the gender of the person wearing the red jacket in the group of people?",
+          "answers": [
+            "male",
+            "female",
+            "child"
+          ],
+          "score": 0.02259206771850586,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the gender of the person wearing the green jacket in the group of people?",
+          "answers": [
+            "male"
+          ],
+          "note": "fewer than 2 answers",
+          "score": null
+        },
+        {
+          "question": "what is the gender of the person wearing the red jacket in the group of people standing on the snowy slope with skis?",
+          "answers": [
+            "male",
+            "female",
+            "either"
+          ],
+          "score": 0.02308797836303711
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the gender of the four people standing on the snowy slope?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.014215946197509766
+        },
+        {
+          "question": "Question: What is the gender of the four people standing on the snowy slope?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.014215946197509766,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the gender of the four people standing on the snowy slope?",
+          "answers": [
+            "male",
+            "female",
+            "male and female"
+          ],
+          "score": 0.017188549041748047
+        },
+        {
+          "question": "what is the gender of the four people standing on the snowy slope?",
+          "answers": [
+            "male",
+            "female",
+            "male and female"
+          ],
+          "score": 0.017188549041748047,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what are the genders of the four people standing on the snowy slope?",
+          "answers": [
+            "male, female, male, female",
+            "male, male, male, female",
+            "male, male, female, male"
+          ],
+          "score": 0.0027570724487304688
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "four people (two males in black and blue jackets, one female in a red jacket) standing on a snowy slope with skis, wearing coats in black, red, blue, and green",
+      "question": "what is the other object in the image?",
+      "answer": "ski poles",
+      "query_after": "four people (two males in black and blue jackets, one female in a red jacket) stand on a snowy slope with skis, ski poles, and coats in black, red, blue, and green colors",
+      "displayed_ids": [
+        7049,
+        22058,
+        31043,
+        36346,
+        2318,
+        12761,
+        3821,
+        28854,
+        5946,
+        7387
+      ],
+      "selected_ids": [
+        21149,
+        23484,
+        34265,
+        10175,
+        4878,
+        36626,
+        492,
+        11344,
+        17332
+      ],
+      "rejected_count": 23,
+      "usual_paths": [
+        {
+          "question": "what is the gender of the person wearing the green jacket in the group of people?",
+          "answers": [
+            "male",
+            "female",
+            "unsure"
+          ],
+          "score": 0.0071849822998046875
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "skis",
+            "backpack",
+            "goggles"
+          ],
+          "score": 0.019534587860107422
+        },
+        {
+          "question": "what is the color of the jacket worn by the second person in the group of four people standing on a snowy slope with skis?",
+          "answers": [
+            "Black",
+            "Red",
+            "Blue"
+          ],
+          "score": 0.002147674560546875
+        },
+        {
+          "question": "what is the gender of the person wearing the green jacket in the group of people standing on the snowy slope with skis?",
+          "answers": [
+            "male",
+            "female",
+            "unsure"
+          ],
+          "score": 0.0026702880859375
+        },
+        {
+          "question": "what is the gender of the person wearing the green jacket in the group of four people standing on a snowy slope with skis?",
+          "answers": [
+            "male",
+            "female",
+            "unsure"
+          ],
+          "score": 0.002337932586669922
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the gender of the person wearing the green jacket in the group of people?",
+          "answers": [
+            "male",
+            "female",
+            "unsure"
+          ],
+          "score": 0.0071849822998046875
+        },
+        {
+          "question": "what is the gender of the person wearing the green jacket in the group of people standing on the snowy slope?",
+          "answers": [
+            "male",
+            "female",
+            "unsure"
+          ],
+          "score": 0.0037622451782226562
+        },
+        {
+          "question": "Question: What is the gender of the person wearing the green jacket in the group of people standing on the snowy slope?",
+          "answers": [
+            "male",
+            "female",
+            "unclear"
+          ],
+          "score": 0.0041103363037109375
+        },
+        {
+          "question": "Question: What is the gender of the person wearing the green jacket in the group of people?",
+          "answers": [
+            "male",
+            "female",
+            "unsure"
+          ],
+          "score": 0.005467414855957031
+        },
+        {
+          "question": "Question: What is the gender of the person wearing the green jacket in the group of people standing on the snowy slope?",
+          "answers": [
+            "male",
+            "female",
+            "unclear"
+          ],
+          "score": 0.0041103363037109375,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "four people (two males in black and blue jackets, one female in a red jacket) stand on a snowy slope with skis, ski poles, and coats in black, red, blue, and green colors",
+      "question": "what is the activity the four people are engaged in?",
+      "answer": "skiing",
+      "query_after": "four people (two males in black and blue jackets, one female in a red jacket) are skiing on a snowy slope, wearing black, red, blue, and green coats, holding skis and ski poles",
+      "displayed_ids": [
+        7049,
+        31043,
+        28854,
+        12761,
+        22058,
+        36346,
+        16738,
+        2318,
+        3821,
+        7387
+      ],
+      "selected_ids": [
+        11344,
+        34265,
+        43357,
+        4878,
+        29955,
+        509,
+        16429,
+        11078,
+        2650,
+        3821
+      ],
+      "rejected_count": 24,
+      "usual_paths": [
+        {
+          "question": "What is the gender of the person wearing the green jacket in the group of people standing on the snowy slope with skis?",
+          "answers": [
+            "male",
+            "female",
+            "unsure"
+          ],
+          "score": 0.0034852027893066406
+        },
+        {
+          "question": "what is the gender of the person wearing the blue jacket in the group of people standing on the snowy slope with skis?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.0037827491760253906
+        },
+        {
+          "question": "Question: What is the gender of the person wearing the blue jacket in the group of people standing on the snowy slope with skis?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.004711627960205078
+        },
+        {
+          "question": "what is the gender of the person wearing the blue jacket in the group of people standing on the snowy slope with skis?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.0037827491760253906,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the gender of the person wearing the blue jacket in the group of people standing on the snowy slope with skis?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.0037827491760253906,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the specific location where the four people are standing on the snowy slope with skis?",
+          "answers": [
+            "mountain top",
+            "ski resort",
+            "forest path"
+          ],
+          "score": 0.030918121337890625
+        },
+        {
+          "question": "what is the specific location where the four people are standing on the snowy slope with skis?",
+          "answers": [
+            "mountain top",
+            "ski resort",
+            "forest path"
+          ],
+          "score": 0.030918121337890625,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the activity the four people are engaged in?",
+          "answers": [
+            "skiing",
+            "standing",
+            "posing"
+          ],
+          "score": 0.0336155891418457
+        },
+        {
+          "question": "what is the gender of the person wearing the green jacket in the group of people?",
+          "answers": [
+            "female",
+            "male",
+            "unsure"
+          ],
+          "score": 0.004275321960449219
+        },
+        {
+          "question": "Question: Are the people standing on the slope or posing for a photo?",
+          "answers": [
+            "standing",
+            "posing",
+            "unclear"
+          ],
+          "score": 0.007065296173095703
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

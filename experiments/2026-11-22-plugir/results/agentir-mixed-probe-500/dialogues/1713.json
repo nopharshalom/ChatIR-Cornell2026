@@ -1,0 +1,1074 @@
+{
+  "qid": 1713,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000034208.jpg",
+  "queries": [
+    "a batter swinging the bat with people watching",
+    "a batter in a white uniform swinging the bat with people watching",
+    "a batter in a white uniform swinging a bat at a white ball with people watching",
+    "a man in a white uniform swinging a bat at a white ball with spectators watching",
+    "a man in a white uniform swings a bat at a white ball, with a male spectator watching",
+    "a man in a white uniform swings a bat at a white ball at home plate, with a male spectator watching",
+    "a man in a white uniform swings a bat at a white ball at home plate, with a male spectator watching and a catcher in a blue shirt",
+    "a man in a white uniform swings a bat at a white ball at home plate, with a male catcher in a blue shirt and spectators in various colors watching",
+    "a man wearing a white Cubs uniform swings a bat at a white ball at home plate, with a catcher in a blue shirt and male spectators in various colors watching"
+  ],
+  "ranks": [
+    136,
+    87,
+    137,
+    150,
+    193,
+    174,
+    84,
+    60,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a batter swinging the bat with people watching",
+      "question": "Question: What color is the batter's uniform?",
+      "answer": "white",
+      "query_after": "a batter in a white uniform swinging the bat with people watching",
+      "displayed_ids": [
+        27293,
+        30124,
+        4716,
+        31705,
+        25640,
+        35942,
+        34253,
+        28220,
+        23956,
+        11200
+      ],
+      "selected_ids": [
+        44307,
+        1057,
+        244,
+        40830,
+        9989,
+        27378,
+        26179,
+        44766,
+        23642
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what color is the uniform of the batter swinging the bat?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.13702630996704102
+        },
+        {
+          "question": "what is the age of the batter swinging the bat?",
+          "answers": [
+            "child",
+            "adult",
+            "teenager"
+          ],
+          "score": 0.025547027587890625
+        },
+        {
+          "question": "what is the location where the batter is swinging the bat?",
+          "answers": [
+            "stadium",
+            "baseball field",
+            "outdoors"
+          ],
+          "score": 0.024219989776611328
+        },
+        {
+          "question": "what is the gender of the batter swinging the bat?",
+          "answers": [
+            "[boy, man, woman]"
+          ],
+          "note": "fewer than 2 answers"
+        },
+        {
+          "question": "what is the location where the batter is swinging the bat?",
+          "answers": [
+            "stadium",
+            "baseball field",
+            "outdoors"
+          ],
+          "score": 0.024219989776611328,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the batter's uniform?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.1374521255493164
+        },
+        {
+          "question": "Question: What color are the shorts of the person in the image?",
+          "answers": [
+            "red",
+            "white and blue",
+            "blue"
+          ],
+          "score": 0.09053230285644531
+        },
+        {
+          "question": "Question: How many people are watching the game?",
+          "answers": [
+            "one",
+            "a few",
+            "many"
+          ],
+          "score": 0.000640869140625
+        },
+        {
+          "question": "Question: What color is the batter's uniform?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.1374521255493164,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the batter's uniform?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.1374521255493164,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a batter in a white uniform swinging the bat with people watching",
+      "question": "Question: What color is the ball being hit?",
+      "answer": "white",
+      "query_after": "a batter in a white uniform swinging a bat at a white ball with people watching",
+      "displayed_ids": [
+        30124,
+        37418,
+        35942,
+        5672,
+        45282,
+        14895,
+        26189,
+        41183,
+        44121,
+        39985
+      ],
+      "selected_ids": [
+        34318,
+        29414,
+        14081,
+        20722,
+        43169,
+        23642,
+        37034,
+        17047,
+        27378,
+        9989
+      ],
+      "rejected_count": 18,
+      "usual_paths": [
+        {
+          "question": "Question: What is the gender of the batter?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.013885021209716797
+        },
+        {
+          "question": "what is the gender of the baseball player in the grey uniform holding a bat?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.037348270416259766
+        },
+        {
+          "question": "Question: What is the gender of the baseball player wearing a white uniform?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.02332925796508789
+        },
+        {
+          "question": "Question: How many people are watching the batter swing the bat?",
+          "answers": [
+            "one",
+            "two",
+            "three"
+          ],
+          "score": 0.0016474723815917969
+        },
+        {
+          "question": "what is the gender of the baseball player swinging the bat while the catcher and umpire are at home plate?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.018854618072509766
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the ball being hit?",
+          "answers": [
+            "white",
+            "yellow",
+            "orange"
+          ],
+          "score": 0.04002237319946289
+        },
+        {
+          "question": "What is the gender of the batter swinging the bat?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.015734195709228516
+        },
+        {
+          "question": "Where are the spectators standing in relation to the batter?",
+          "answers": [
+            "behind",
+            "in front of",
+            "to the side"
+          ],
+          "score": 0.0004858970642089844
+        },
+        {
+          "question": "Question: What is the gender of the batter swinging the bat?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.021355628967285156
+        },
+        {
+          "question": "Question: How many spectators are visible in the background?",
+          "answers": [
+            "0",
+            "5",
+            "7"
+          ],
+          "score": 0.00011920928955078125
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "a batter in a white uniform swinging a bat at a white ball with people watching",
+      "question": "Question: Is the batter a young boy or a man?",
+      "answer": "man",
+      "query_after": "a man in a white uniform swinging a bat at a white ball with spectators watching",
+      "displayed_ids": [
+        31585,
+        5672,
+        27083,
+        9834,
+        14895,
+        37418,
+        30124,
+        35942,
+        39985,
+        21853
+      ],
+      "selected_ids": [
+        1126,
+        27378,
+        9989,
+        24555,
+        20722,
+        43647,
+        44307,
+        34318,
+        6733,
+        6936
+      ],
+      "rejected_count": 22,
+      "usual_paths": [
+        {
+          "question": "what is the identity or role of the person standing behind the batter?",
+          "answers": [
+            "catcher",
+            "umpire",
+            "fan"
+          ],
+          "score": 0.00955820083618164
+        },
+        {
+          "question": "Question: What is the identity or role of the person standing behind the batter?",
+          "answers": [
+            "catcher",
+            "umpire",
+            "spectator"
+          ],
+          "score": 0.009179115295410156
+        },
+        {
+          "question": "Question: Is the batter a young boy or a man?",
+          "answers": [
+            "young boy",
+            "man",
+            "woman"
+          ],
+          "score": 0.032273292541503906
+        },
+        {
+          "question": "Question: What is the location where the batter is swinging the bat?",
+          "answers": [
+            "baseball field",
+            "stadium",
+            "outdoor field"
+          ],
+          "score": 0.01413726806640625
+        },
+        {
+          "question": "Question: What is the name of the person standing behind the batter?",
+          "answers": [
+            "catcher",
+            "umpire",
+            "spectator"
+          ],
+          "score": 0.009109973907470703
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Who is standing behind the batter?",
+          "answers": [
+            "catcher",
+            "umpire",
+            "fan"
+          ],
+          "score": 0.009177684783935547
+        },
+        {
+          "question": "Question: What is the gender of the batter?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.025332927703857422
+        },
+        {
+          "question": "Question: Is the batter male or female?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.005744457244873047
+        },
+        {
+          "question": "Question: What is the gender of the batter?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.025332927703857422,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the gender of the batter?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.025332927703857422,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a man in a white uniform swinging a bat at a white ball with spectators watching",
+      "question": "Question: What is the gender of the person watching the game?",
+      "answer": "male",
+      "query_after": "a man in a white uniform swings a bat at a white ball, with a male spectator watching",
+      "displayed_ids": [
+        9834,
+        27083,
+        31585,
+        5672,
+        32025,
+        30124,
+        40945,
+        14895,
+        44121,
+        20740
+      ],
+      "selected_ids": [
+        20722,
+        45035,
+        8477,
+        34318,
+        31544,
+        6937,
+        4373,
+        47723,
+        9989,
+        14081
+      ],
+      "rejected_count": 25,
+      "usual_paths": [
+        {
+          "question": "what is the position of the person standing behind the batter?",
+          "answers": [
+            "catcher",
+            "umpire",
+            "spectator"
+          ],
+          "score": 0.0117950439453125
+        },
+        {
+          "question": "what is the position of the person standing behind the batter?",
+          "answers": [
+            "catcher",
+            "umpire",
+            "spectator"
+          ],
+          "score": 0.0117950439453125,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the position of the person standing behind the batter?",
+          "answers": [
+            "catcher",
+            "umpire",
+            "spectator"
+          ],
+          "score": 0.0117950439453125,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the position of the person standing behind the batter?",
+          "answers": [
+            "catcher",
+            "umpire",
+            "spectator"
+          ],
+          "score": 0.0117950439453125,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the position of the person standing behind the batter?",
+          "answers": [
+            "catcher",
+            "umpire",
+            "spectator"
+          ],
+          "score": 0.0117950439453125,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the gender of the person watching the game?",
+          "answers": [
+            "male",
+            "female",
+            "both"
+          ],
+          "score": 0.01955556869506836
+        },
+        {
+          "question": "Question: What is the gender of the person watching the game?",
+          "answers": [
+            "male",
+            "female",
+            "both"
+          ],
+          "score": 0.01955556869506836,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the gender of the person watching the game?",
+          "answers": [
+            "male",
+            "female",
+            "both"
+          ],
+          "score": 0.01955556869506836,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the gender of the person watching the game?",
+          "answers": [
+            "male",
+            "female",
+            "both"
+          ],
+          "score": 0.01955556869506836,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the gender of the person watching the game?",
+          "answers": [
+            "male",
+            "female",
+            "both"
+          ],
+          "score": 0.01955556869506836,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a man in a white uniform swings a bat at a white ball, with a male spectator watching",
+      "question": "what is the location where the batter is swinging the bat?",
+      "answer": "home plate",
+      "query_after": "a man in a white uniform swings a bat at a white ball at home plate, with a male spectator watching",
+      "displayed_ids": [
+        40945,
+        26189,
+        32025,
+        9834,
+        31585,
+        21853,
+        7856,
+        5672,
+        46351,
+        35942
+      ],
+      "selected_ids": [
+        32165,
+        45035,
+        3408,
+        20722,
+        31209,
+        3979,
+        47865,
+        27378,
+        17467,
+        14422
+      ],
+      "rejected_count": 27,
+      "usual_paths": [
+        {
+          "question": "what is the location where the batter is swinging the bat?",
+          "answers": [
+            "stadium",
+            "baseball field",
+            "green screen"
+          ],
+          "score": 0.046564579010009766
+        },
+        {
+          "question": "what is the location where the batter is swinging the bat?",
+          "answers": [
+            "stadium",
+            "baseball field",
+            "green screen"
+          ],
+          "score": 0.046564579010009766,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the location where the batter is swinging the bat?",
+          "answers": [
+            "stadium",
+            "baseball field",
+            "green screen"
+          ],
+          "score": 0.046564579010009766,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the location where the batter is swinging the bat?",
+          "answers": [
+            "stadium",
+            "field",
+            "indoor"
+          ],
+          "score": 0.01580953598022461
+        },
+        {
+          "question": "Question: What is the location where the batter is swinging the bat?",
+          "answers": [
+            "stadium",
+            "field",
+            "indoor"
+          ],
+          "score": 0.01580953598022461,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the background setting of the baseball game?",
+          "answers": [
+            "stadium",
+            "crowd of people",
+            "green screen"
+          ],
+          "score": 0.04614734649658203
+        },
+        {
+          "question": "Question: Are there any animals visible in the background?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0015187263488769531
+        },
+        {
+          "question": "Question: What is the background setting of the baseball game?",
+          "answers": [
+            "stadium",
+            "crowd of people",
+            "green screen"
+          ],
+          "score": 0.04614734649658203,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the background setting of the baseball game?",
+          "answers": [
+            "stadium",
+            "crowd of people",
+            "green screen"
+          ],
+          "score": 0.04614734649658203,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the background setting of the baseball game?",
+          "answers": [
+            "stadium",
+            "crowd of people",
+            "green screen"
+          ],
+          "score": 0.04614734649658203,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a man in a white uniform swings a bat at a white ball at home plate, with a male spectator watching",
+      "question": "what color is the catcher's shirt?",
+      "answer": "blue",
+      "query_after": "a man in a white uniform swings a bat at a white ball at home plate, with a male spectator watching and a catcher in a blue shirt",
+      "displayed_ids": [
+        31585,
+        9834,
+        35942,
+        46351,
+        40178,
+        5672,
+        40945,
+        7856,
+        21853,
+        45282
+      ],
+      "selected_ids": [
+        6169,
+        8477,
+        38325,
+        37078,
+        27378,
+        39397,
+        41183,
+        3408,
+        32389,
+        31209
+      ],
+      "rejected_count": 28,
+      "usual_paths": [
+        {
+          "question": "Question: What color is the shirt of the person watching the game?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.11157083511352539
+        },
+        {
+          "question": "what is the color of the shirt worn by the catcher?",
+          "answers": [
+            "red",
+            "white",
+            "black"
+          ],
+          "score": 0.08705329895019531
+        },
+        {
+          "question": "what is the color of the shirt worn by the person watching the game?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.11554861068725586
+        },
+        {
+          "question": "what is the color of the shirt worn by the catcher?",
+          "answers": [
+            "red",
+            "white",
+            "black"
+          ],
+          "score": 0.08705329895019531,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the shirt worn by the catcher?",
+          "answers": [
+            "red",
+            "white",
+            "black"
+          ],
+          "score": 0.08705329895019531,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the batter's helmet?",
+          "answers": [
+            "white",
+            "black",
+            "red"
+          ],
+          "score": 0.09619140625
+        },
+        {
+          "question": "what color is the batter's helmet?",
+          "answers": [
+            "white",
+            "red",
+            "black"
+          ],
+          "score": 0.09758615493774414
+        },
+        {
+          "question": "what is the color of the batter's helmet?",
+          "answers": [
+            "white",
+            "red",
+            "black"
+          ],
+          "score": 0.09537267684936523
+        },
+        {
+          "question": "what is the color of the batter's helmet?",
+          "answers": [
+            "white",
+            "red",
+            "black"
+          ],
+          "score": 0.09537267684936523,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what color is the catcher's shirt?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.13217496871948242
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a man in a white uniform swings a bat at a white ball at home plate, with a male spectator watching and a catcher in a blue shirt",
+      "question": "what is the color of the spectators' clothing?",
+      "answer": "various colors",
+      "query_after": "a man in a white uniform swings a bat at a white ball at home plate, with a male catcher in a blue shirt and spectators in various colors watching",
+      "displayed_ids": [
+        10917,
+        40945,
+        34593,
+        31585,
+        45282,
+        40178,
+        35942,
+        27603,
+        17921,
+        41183
+      ],
+      "selected_ids": [
+        19808,
+        15029,
+        41183,
+        42735,
+        23900,
+        17359,
+        6169,
+        9989,
+        43341,
+        18652
+      ],
+      "rejected_count": 32,
+      "usual_paths": [
+        {
+          "question": "Where are the spectators watching the game from?",
+          "answers": [
+            "stadium seats",
+            "bleachers",
+            "stands"
+          ],
+          "score": 0.008847236633300781
+        },
+        {
+          "question": "what is the gender of the person standing behind the pitcher?",
+          "answers": [
+            "male",
+            "female",
+            "not sure"
+          ],
+          "score": 0.006367683410644531
+        },
+        {
+          "question": "Question: What is the gender of the batter swinging the bat?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.009819507598876953
+        },
+        {
+          "question": "what is the gender of the person standing behind the pitcher?",
+          "answers": [
+            "male",
+            "female",
+            "not sure"
+          ],
+          "score": 0.006367683410644531,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the gender of the person standing behind the pitcher?",
+          "answers": [
+            "male",
+            "female",
+            "not sure"
+          ],
+          "score": 0.006367683410644531,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Where are the spectators watching the game from?",
+          "answers": [
+            "stadium seats",
+            "bleachers",
+            "stands"
+          ],
+          "score": 0.008847236633300781
+        },
+        {
+          "question": "what is the location where the batter is swinging the bat?",
+          "answers": [
+            "home plate",
+            "dugout",
+            "bench"
+          ],
+          "score": 0.006176948547363281
+        },
+        {
+          "question": "what is the gender of the person watching the game?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.004642963409423828
+        },
+        {
+          "question": "what is the gender of the person watching the game?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.004642963409423828,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the spectators' clothing?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.1112356185913086
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a man in a white uniform swings a bat at a white ball at home plate, with a male catcher in a blue shirt and spectators in various colors watching",
+      "question": "what is the team name or logo on the batter's uniform?",
+      "answer": "cubs",
+      "query_after": "a man wearing a white Cubs uniform swings a bat at a white ball at home plate, with a catcher in a blue shirt and male spectators in various colors watching",
+      "displayed_ids": [
+        41183,
+        35942,
+        25707,
+        31585,
+        39985,
+        21051,
+        2778,
+        25372,
+        46555,
+        30203
+      ],
+      "selected_ids": [
+        18652,
+        6169,
+        38325,
+        39689,
+        14081,
+        9989,
+        24295,
+        23260,
+        17359
+      ],
+      "rejected_count": 38,
+      "usual_paths": [
+        {
+          "question": "what is the team name of the baseball player swinging the bat?",
+          "answers": [
+            "Yankees",
+            "Red Sox",
+            "Cardinals"
+          ],
+          "score": 0.05478525161743164
+        },
+        {
+          "question": "what is the team name of the baseball player swinging the bat?",
+          "answers": [
+            "Yankees",
+            "Red Sox",
+            "Cardinals"
+          ],
+          "score": 0.05478525161743164,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the team name of the baseball player swinging the bat?",
+          "answers": [
+            "Yankees",
+            "Red Sox",
+            "Cardinals"
+          ],
+          "score": 0.05478525161743164,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the team name of the baseball player swinging the bat?",
+          "answers": [
+            "Yankees",
+            "Red Sox",
+            "Cardinals"
+          ],
+          "score": 0.05478525161743164,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the team name of the baseball player swinging the bat?",
+          "answers": [
+            "Yankees",
+            "Red Sox",
+            "Cardinals"
+          ],
+          "score": 0.05478525161743164,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the team name or logo on the batter's uniform?",
+          "answers": [
+            "St. Louis Cardinals",
+            "New York Yankees",
+            "Boston Red Sox"
+          ],
+          "score": 0.058785438537597656
+        },
+        {
+          "question": "what is the team name or logo on the batter's uniform?",
+          "answers": [
+            "St. Louis Cardinals",
+            "New York Yankees",
+            "Boston Red Sox"
+          ],
+          "score": 0.058785438537597656,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the catcher's pants?",
+          "answers": [
+            "white",
+            "blue",
+            "gray"
+          ],
+          "score": 0.021011829376220703
+        },
+        {
+          "question": "what is the color of the catcher's pants?",
+          "answers": [
+            "white",
+            "blue",
+            "gray"
+          ],
+          "score": 0.021011829376220703,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the catcher's pants?",
+          "answers": [
+            "white",
+            "blue",
+            "gray"
+          ],
+          "score": 0.021011829376220703,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

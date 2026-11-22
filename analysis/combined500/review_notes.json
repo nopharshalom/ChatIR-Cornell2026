@@ -1,0 +1,390 @@
+{
+  "method": "Nonexclusive qualitative notes for all 54 discordant dialogues, based on each pair\u2019s successful final Q/A, largest losing rank deterioration and repetition profile; full histories inspected for selected mechanisms. Tags describe observations across runs, not adjudicated causes. Images inspected for 106,343,1399,1406 and all six universal failures.",
+  "notes": {
+    "56": {
+      "tags": [
+        "repetition",
+        "useful_setting"
+      ],
+      "note": "MMR asks time of day (night) and hits at r1; vanilla loops on objects and light location."
+    },
+    "69": {
+      "tags": [
+        "question_path",
+        "entity_addition"
+      ],
+      "note": "Vanilla reaches logs and zoo; alternatives accumulate vegetation/deer details. Existence of deer not image-verified here."
+    },
+    "106": {
+      "tags": [
+        "premise_leak",
+        "repetition"
+      ],
+      "note": "Probe imports cat from questions while answers confirm sink/mirror colours. Image has no cat; later simulator denial also contradicts it. Removing cat partly repairs retrieval."
+    },
+    "161": {
+      "tags": [
+        "wording_sensitivity",
+        "premise_leak",
+        "repetition"
+      ],
+      "note": "Vanilla hits with yellow and green; probe first obtains green and yellow, then invents a second moving train. CPU colour-order-only replay crosses top-10."
+    },
+    "233": {
+      "tags": [
+        "useful_activity",
+        "entity_addition"
+      ],
+      "note": "MMR succeeds with crouching; vanilla adds a second blue-shirted person after a gender question. No image verification of the second person."
+    },
+    "234": {
+      "tags": [
+        "uncertainty",
+        "repetition",
+        "useful_setting"
+      ],
+      "note": "Vanilla repeats generic questions after an unsure answer; MMR/probe reach field/fence details. Probe also contains a malformed question, so success is not evidence of uniformly good questions."
+    },
+    "297": {
+      "tags": [
+        "fact_assignment",
+        "entity_addition",
+        "repetition"
+      ],
+      "note": "S2 ends with black office/black cat and loses bookcase emphasis; vanilla reaches brown bookcase and chandelier. Some black attributes spread across objects."
+    },
+    "332": {
+      "tags": [
+        "repetition",
+        "useful_count"
+      ],
+      "note": "Vanilla asks how many and gets four; MMR loops on zebra without recovering the count."
+    },
+    "343": {
+      "tags": [
+        "premise_leak",
+        "uncertainty"
+      ],
+      "note": "Probe adds sandwich and then pizza from colour-question premises; simulator later says unsure about sandwich. Target image contains small food bowls, no sandwich/pizza. Removing sandwich partly repairs retrieval."
+    },
+    "454": {
+      "tags": [
+        "useful_activity",
+        "repetition"
+      ],
+      "note": "MMR obtains eating and succeeds; vanilla foregrounds a sky background and loops on generic objects."
+    },
+    "504": {
+      "tags": [
+        "query_focus",
+        "question_path"
+      ],
+      "note": "Vanilla succeeds immediately from yellow sink; MMR pursues beige flooring/toilet/tub and pink towels, with the sink dropped from final focus."
+    },
+    "508": {
+      "tags": [
+        "useful_identity",
+        "repetition"
+      ],
+      "note": "Vanilla gets Wimbledon immediately; probe accumulates common clothing/court attributes and repeats court colour."
+    },
+    "621": {
+      "tags": [
+        "answer_ambiguity",
+        "query_focus"
+      ],
+      "note": "Vanilla describes white pants; MMR gets white shorts and succeeds. S2 success also imports white headband from a question premise. Probe later gets banner detail. Do not attribute every win to cleaner grounding."
+    },
+    "670": {
+      "tags": [
+        "query_focus",
+        "repetition"
+      ],
+      "note": "Vanilla succeeds after an unsure breed answer and rewording; probe adds colours and loses late-in-the-day emphasis. A hit here does not establish informative questioning."
+    },
+    "701": {
+      "tags": [
+        "useful_attribute",
+        "repetition"
+      ],
+      "note": "S2/probe reach yellow building; vanilla adds a stone and crowd and repeats traffic-light questions."
+    },
+    "722": {
+      "tags": [
+        "useful_attribute",
+        "fact_assignment"
+      ],
+      "note": "All variants eventually use red kite; probe asks it first. Vanilla changes two children into a female/male/group description while pursuing background questions."
+    },
+    "742": {
+      "tags": [
+        "query_focus",
+        "repetition"
+      ],
+      "note": "Vanilla succeeds with clothing (shorts/black shirt); MMR repeatedly retrieves pink-kite information and later introduces khaki pants."
+    },
+    "767": {
+      "tags": [
+        "repetition",
+        "answer_ambiguity"
+      ],
+      "note": "Vanilla repeats fire-hydrant answers; probe gets naked when asked shirt colour. S2 gets skinny to a colour question and succeeds, a semantically odd but retrieval-helpful answer."
+    },
+    "858": {
+      "tags": [
+        "answer_ambiguity",
+        "repetition"
+      ],
+      "note": "S2 calls clock tower metal after a material question, while vanilla uses stone and reaches lamp details. Material correctness not image-verified."
+    },
+    "894": {
+      "tags": [
+        "answer_ambiguity",
+        "question_path"
+      ],
+      "note": "Early blue-jacket answer hurts S2/probe; vanilla eventually finds gray hat and fence. S2 has a question referring to image 6 rather than a grounded target attribute."
+    },
+    "955": {
+      "tags": [
+        "useful_setting",
+        "repetition"
+      ],
+      "note": "Probe eventually gets cloudy lighting; vanilla deteriorates after black shirt and repeats generic questions."
+    },
+    "975": {
+      "tags": [
+        "contradiction",
+        "useful_setting"
+      ],
+      "note": "Vanilla changes big wave to small from simulator answer; S2/probe reach cloudy weather. Initial caption and answer conflict; no automatic rule establishes which is correct."
+    },
+    "1004": {
+      "tags": [
+        "useful_attribute",
+        "repetition"
+      ],
+      "note": "Vanilla reaches multicoloured clothing at r10; S2 calls four people men, probe repeats black skis. Clothing specificity differs."
+    },
+    "1078": {
+      "tags": [
+        "useful_setting",
+        "repetition"
+      ],
+      "note": "S2 succeeds with detailed street-corner surroundings; probe reaches street signs; vanilla repeats stop sign and suffers from changing long rewrites."
+    },
+    "1098": {
+      "tags": [
+        "initial_caption_correction",
+        "repetition"
+      ],
+      "note": "Vanilla eventually changes green/white bus to blue/white and hits; MMR preserves initial bus colours and adds traffic-light details. Image not inspected for colour truth."
+    },
+    "1109": {
+      "tags": [
+        "contradiction",
+        "premise_leak"
+      ],
+      "note": "Probe describes a white acrylic bathtub while saying bathtub not visible; vanilla reaches water heater and sink."
+    },
+    "1111": {
+      "tags": [
+        "useful_attribute",
+        "query_focus"
+      ],
+      "note": "MMR obtains object inventory then yellow wall; vanilla focuses on appliance colours and materials."
+    },
+    "1169": {
+      "tags": [
+        "useful_attribute",
+        "fact_assignment",
+        "repetition"
+      ],
+      "note": "S2/probe eventually get black desk; vanilla changes computers into two laptops on a wooden desk and repeats laptop."
+    },
+    "1288": {
+      "tags": [
+        "question_path",
+        "repetition"
+      ],
+      "note": "Vanilla succeeds from giraffes eating from a wall; S2 uses leaves and repeats location. Image not checked, so do not assume either object answer is correct."
+    },
+    "1301": {
+      "tags": [
+        "query_focus",
+        "repetition"
+      ],
+      "note": "Vanilla enumerates many doughnut varieties and table/tablecloth details; S2 reaches metal container and brown doughnuts. More descriptive text is not necessarily better retrieval."
+    },
+    "1399": {
+      "tags": [
+        "initial_caption_correction",
+        "denial"
+      ],
+      "note": "Target visually is a double-decker bus. MMR revises initial trolley caption and hits r6; vanilla retains trolley while adding buses/vans/ferris wheel."
+    },
+    "1406": {
+      "tags": [
+        "initial_caption_correction",
+        "denial"
+      ],
+      "note": "Target visually shows traffic signals, not flags. Vanilla uses the correction and hits; S2 collapses query toward clear sky/no flags. Preserving the initial description blindly would be wrong."
+    },
+    "1411": {
+      "tags": [
+        "query_focus",
+        "repetition"
+      ],
+      "note": "Vanilla succeeds after repeating wood windowsill; probe adds many colours and a gray countertop. This is a counterexample to assuming repetition always causes failure."
+    },
+    "1466": {
+      "tags": [
+        "fact_assignment",
+        "repetition"
+      ],
+      "note": "Vanilla collapses group of motorcycles into a black motorcycle and drifts; S2 later includes surrounding mountains."
+    },
+    "1510": {
+      "tags": [
+        "answer_ambiguity",
+        "query_focus"
+      ],
+      "note": "Vanilla includes crowd and black shirt; MMR begins with ambiguous behind him, then focuses on common court/racket/ball details."
+    },
+    "1540": {
+      "tags": [
+        "wording_sensitivity",
+        "repetition"
+      ],
+      "note": "Vanilla succeeds with large green open field; S2 substitutes savanna and loops, although both descriptions could be valid."
+    },
+    "1542": {
+      "tags": [
+        "premise_leak",
+        "repetition"
+      ],
+      "note": "Probe introduces fireplace from television-colour question; removing only fireplace clause improves rank 70 to 19. Vanilla succeeds before that path."
+    },
+    "1543": {
+      "tags": [
+        "useful_attribute",
+        "repetition"
+      ],
+      "note": "Probe reaches beige walls; vanilla repeats colours and adds wood vanity material to an already complex bathroom description."
+    },
+    "1577": {
+      "tags": [
+        "query_focus",
+        "repetition"
+      ],
+      "note": "S2 reaches wood and bathtub; vanilla accumulates fixtures and white tiled surfaces. Logs alone cannot isolate the decisive detail."
+    },
+    "1579": {
+      "tags": [
+        "useful_activity",
+        "initial_caption_correction",
+        "repetition"
+      ],
+      "note": "MMR adds directing traffic and replaces red truck with car; vanilla remains near top-10 while repeating traffic light. Final successful step is a generic repeat, not a novel question."
+    },
+    "1598": {
+      "tags": [
+        "entity_addition",
+        "query_focus"
+      ],
+      "note": "Vanilla invents another blue-shirted man while handling socks; probe reaches black hair and succeeds. MMR also ends with another tennis ball."
+    },
+    "1639": {
+      "tags": [
+        "fact_assignment",
+        "query_focus"
+      ],
+      "note": "MMR succeeds from laptop immediately. Vanilla later changes standing people into a woman holding a laptop and adds another laptop; S2 eventually reaches typing."
+    },
+    "1640": {
+      "tags": [
+        "answer_ambiguity",
+        "query_focus"
+      ],
+      "note": "Vanilla succeeds after malformed question unexpectedly elicits blue cutting board; alternatives stay on stainless-steel cabinets/fridge. Win is not clean evidence of question quality."
+    },
+    "1676": {
+      "tags": [
+        "fact_assignment",
+        "query_focus"
+      ],
+      "note": "Vanilla has people holding bikes and hits; S2 rewrites them as riding bikes and adds cloudy weather/red signal."
+    },
+    "1713": {
+      "tags": [
+        "useful_identity",
+        "fact_assignment"
+      ],
+      "note": "MMR gets Chicago Cubs and probe Wrigley Field; vanilla adds white shorts, ball colour and catcher-mitt details."
+    },
+    "1731": {
+      "tags": [
+        "useful_identity",
+        "entity_addition",
+        "repetition"
+      ],
+      "note": "Vanilla eventually gets Jack Russell; S2 adds hat, MMR repeats species/object questions. Hat correctness not verified."
+    },
+    "1732": {
+      "tags": [
+        "entity_addition",
+        "answer_ambiguity"
+      ],
+      "note": "MMR turns one player into two, one mid-air, after a qualified likely jump-serve answer; vanilla gets blond hair and hits."
+    },
+    "1788": {
+      "tags": [
+        "question_path",
+        "repetition"
+      ],
+      "note": "Vanilla identifies living room and lamp; MMR adds cabinets and repeats wall colours."
+    },
+    "1840": {
+      "tags": [
+        "useful_identity",
+        "query_focus"
+      ],
+      "note": "Probe finds Air India; vanilla stays with white trucks/planes. Airline identity is a concrete differentiator."
+    },
+    "1862": {
+      "tags": [
+        "query_focus",
+        "entity_addition"
+      ],
+      "note": "Vanilla accumulates orange house/building and stop sign; variants reach car/traffic-light features. MMR final hit follows unsure answer, so question informativeness is ambiguous."
+    },
+    "1894": {
+      "tags": [
+        "denial",
+        "query_focus"
+      ],
+      "note": "Vanilla includes without a fireplace after denial and rank deteriorates. Probe corrects absent television and gets red chair; S2/MMR reach seating colours. Removing fireplace-negation alone helps partly."
+    },
+    "2003": {
+      "tags": [
+        "query_focus",
+        "repetition"
+      ],
+      "note": "Vanilla reaches blue dress; S2 focuses on hard court/white racket and MMR repeats court/object. Clothing description differs."
+    },
+    "2029": {
+      "tags": [
+        "useful_setting",
+        "repetition"
+      ],
+      "note": "S2 gets river early; vanilla/MMR repeat elephant and fail. Probe also fails, so the useful setting is not reliably selected."
+    },
+    "2057": {
+      "tags": [
+        "answer_ambiguity",
+        "premise_leak",
+        "repetition"
+      ],
+      "note": "Vanilla succeeds after malformed candidate-image question elicits a broader scene description; probe adds orange stop sign. S2 repeats other object. No clean cause from outcome alone."
+    }
+  }
+}

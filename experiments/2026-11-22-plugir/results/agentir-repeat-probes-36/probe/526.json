@@ -1,0 +1,52 @@
+{
+  "qid": 526,
+  "arm": "probe",
+  "after_round": 2,
+  "ranks": [
+    69,
+    25,
+    32,
+    4
+  ],
+  "continuation": [
+    {
+      "round": 3,
+      "query_before": "A fit young man wearing a Nike shirt and gym shorts is preparing to serve a tennis ball during a match.",
+      "question": "Is the man wearing a white shirt or a blue shirt?",
+      "answer": "blue shirt",
+      "query_after": "a fit young man in a blue shirt and gym shorts about to serve a tennis ball in a match",
+      "searches": [
+        {
+          "query": "fit young man in Nike shirt and gym shorts about to serve a tennis ball on a blue court",
+          "ids": [
+            47979,
+            8760,
+            37348
+          ],
+          "captions": [
+            "man standing at the tennis court",
+            "blue tennis court",
+            "a man holding a tennis racket"
+          ]
+        },
+        {
+          "query": "fit young man in Nike shirt and gym shorts about to serve a tennis ball on a green grassy court",
+          "ids": [
+            6794,
+            35803,
+            5225
+          ],
+          "captions": [
+            "a man holding a tennis racket",
+            "a man is serving a tennis ball on a tennis court",
+            "a guy is swinging a tennis racket as he prepares to hit a ball"
+          ]
+        }
+      ],
+      "raw_plan": "fit young man in Nike shirt and gym shorts about to serve a tennis ball on a blue court\nfit young man in Nike shirt and gym shorts about to serve a tennis ball on a green grassy court",
+      "generated": "Is the man wearing a white shirt or a blue shirt?",
+      "fallback": false
+    }
+  ],
+  "seconds": 2.6
+}

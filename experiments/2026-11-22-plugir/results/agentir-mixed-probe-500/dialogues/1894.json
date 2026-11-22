@@ -1,0 +1,414 @@
+{
+  "qid": 1894,
+  "sample": "original",
+  "target": "unlabeled2017/000000380534.jpg",
+  "queries": [
+    "furniture decor in a living room setting inside a house",
+    "brown furniture decor in a living room setting inside a house",
+    "brown couch furniture decor in a living room setting inside a house with no television",
+    "brown couch and red chair in a living room setting inside a house"
+  ],
+  "ranks": [
+    18,
+    33,
+    36,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "furniture decor in a living room setting inside a house",
+      "question": "what type of couch is present in the living room?",
+      "answer": "brown",
+      "query_after": "brown furniture decor in a living room setting inside a house",
+      "displayed_ids": [
+        34384,
+        7321,
+        17912,
+        18232,
+        10314,
+        48731,
+        6983,
+        48094,
+        24351,
+        25687
+      ],
+      "selected_ids": [
+        31466,
+        22288,
+        45693,
+        37973,
+        46836,
+        26298,
+        49477,
+        16642,
+        21795,
+        11715
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what color are the chairs in the living room?",
+          "answers": [
+            "red",
+            "white",
+            "leather"
+          ],
+          "score": 0.15566539764404297
+        },
+        {
+          "question": "what type of flooring is present in the living room?",
+          "answers": [
+            "carpet",
+            "hardwood floors",
+            "orange walls"
+          ],
+          "score": 0.14448785781860352
+        },
+        {
+          "question": "what is the color of the television in the living room?",
+          "answers": [
+            "black",
+            "red",
+            "orange"
+          ],
+          "score": 0.16021299362182617
+        },
+        {
+          "question": "what type of fireplace is present in the living room?",
+          "answers": [
+            "wood",
+            "black",
+            "orange"
+          ],
+          "score": 0.1231698989868164
+        },
+        {
+          "question": "what type of couch is present in the living room?",
+          "answers": [
+            "leather",
+            "red",
+            "wood floors"
+          ],
+          "score": 0.21889448165893555
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Are there red chairs in the living room?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0003609657287597656
+        },
+        {
+          "question": "Question: Is the television screen facing up or down?",
+          "answers": [
+            "up",
+            "down",
+            "unknown"
+          ],
+          "score": 0.001968860626220703
+        },
+        {
+          "question": "Question: What is the color of the television?",
+          "answers": [
+            "black",
+            "red",
+            "unknown"
+          ],
+          "score": 0.11429882049560547
+        },
+        {
+          "question": "Question: What is the flooring material in the living room?",
+          "answers": [
+            "carpet",
+            "wood floors",
+            "hardwood floors"
+          ],
+          "score": 0.07155370712280273
+        },
+        {
+          "question": "Question: What color are the chairs in the living room?",
+          "answers": [
+            "red",
+            "leather",
+            "white"
+          ],
+          "score": 0.15119028091430664
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "brown furniture decor in a living room setting inside a house",
+      "question": "what is the color of the television in the living room?",
+      "answer": "there is no television in the image.",
+      "query_after": "brown couch furniture decor in a living room setting inside a house with no television",
+      "displayed_ids": [
+        18232,
+        15380,
+        16642,
+        28681,
+        7321,
+        6636,
+        37454,
+        1371,
+        41251,
+        26324
+      ],
+      "selected_ids": [
+        49477,
+        16642,
+        30190,
+        6419,
+        37973,
+        45693,
+        45192,
+        23486,
+        32443,
+        31694
+      ],
+      "rejected_count": 18,
+      "usual_paths": [
+        {
+          "question": "what is the color of the television in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.042031288146972656
+        },
+        {
+          "question": "what is the color of the television in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.042031288146972656,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the television in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.042031288146972656,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the television in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.042031288146972656,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the television in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.042031288146972656,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the television screen in the living room?",
+          "answers": [
+            "black",
+            "off",
+            "down"
+          ],
+          "score": 0.015886783599853516
+        },
+        {
+          "question": "what is the color of the television screen in the living room?",
+          "answers": [
+            "on",
+            "off",
+            "black"
+          ],
+          "score": 0.016837120056152344
+        },
+        {
+          "question": "what is the color of the television screen in the living room?",
+          "answers": [
+            "on",
+            "off",
+            "black"
+          ],
+          "score": 0.016837120056152344,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the television screen in the living room?",
+          "answers": [
+            "on",
+            "off",
+            "black"
+          ],
+          "score": 0.016837120056152344,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the television screen in the living room?",
+          "answers": [
+            "on",
+            "off",
+            "black"
+          ],
+          "score": 0.016837120056152344,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "brown couch furniture decor in a living room setting inside a house with no television",
+      "question": "what is the other object in the image?",
+      "answer": "red chair",
+      "query_after": "brown couch and red chair in a living room setting inside a house",
+      "displayed_ids": [
+        12765,
+        38029,
+        15380,
+        29698,
+        37176,
+        16642,
+        37454,
+        44002,
+        12006,
+        1306
+      ],
+      "selected_ids": [
+        43584,
+        5426,
+        6419,
+        14025,
+        45693,
+        18529,
+        16642,
+        1156,
+        20044,
+        7163
+      ],
+      "rejected_count": 25,
+      "usual_paths": [
+        {
+          "question": "what is the flooring material in the living room?",
+          "answers": [
+            "wood",
+            "carpet",
+            "tile"
+          ],
+          "score": 0.03937244415283203
+        },
+        {
+          "question": "what color are the floors in the living room?",
+          "answers": [
+            "wood",
+            "tile",
+            "carpet"
+          ],
+          "score": 0.04635000228881836
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "laptop",
+            "computer",
+            "fireplace"
+          ],
+          "score": 0.09954595565795898
+        },
+        {
+          "question": "what is the flooring material in the living room?",
+          "answers": [
+            "wood",
+            "carpet",
+            "tile"
+          ],
+          "score": 0.03937244415283203,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the flooring material in the living room?",
+          "answers": [
+            "wood",
+            "carpet",
+            "tile"
+          ],
+          "score": 0.03937244415283203,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the floor in the living room?",
+          "answers": [
+            "wood",
+            "carpet",
+            "tile"
+          ],
+          "score": 0.08828926086425781
+        },
+        {
+          "question": "what is the color of the floor in the living room?",
+          "answers": [
+            "wood",
+            "carpet",
+            "tile"
+          ],
+          "score": 0.08828926086425781,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the floor in the living room?",
+          "answers": [
+            "wood",
+            "carpet",
+            "tile"
+          ],
+          "score": 0.08828926086425781,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the floor in the living room?",
+          "answers": [
+            "wood",
+            "carpet",
+            "tile"
+          ],
+          "score": 0.08828926086425781,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the floor in the living room?",
+          "answers": [
+            "wood",
+            "carpet",
+            "tile"
+          ],
+          "score": 0.08828926086425781,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

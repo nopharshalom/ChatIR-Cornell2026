@@ -1,0 +1,79 @@
+{
+  "qid": 1439,
+  "candidates": [
+    "Question: Are there people riding the motorcycles in the image?",
+    "Question: What color is the motorcycle that is parked next to a car in the image?",
+    "Question: What is the color of the people standing next to the motorcycles?",
+    "Question: What is the color of the motorcycles in the row?",
+    "Question: What is the background setting of the motorcycles in the row?"
+  ],
+  "kl": {
+    "question": "Question: What is the background setting of the motorcycles in the row?",
+    "answer": "A white tent.",
+    "rewrite": "a row of motorcycles parked in front of a white tent with a group of people around them",
+    "raw_rank": 1,
+    "unseen_rank": 1
+  },
+  "probe": {
+    "answer": "white",
+    "rewrite": "a row of motorcycles with a group of people around them, including a white motorcycle parked next to a car",
+    "raw_rank": 3,
+    "unseen_rank": 3,
+    "question": "Question: What color is the motorcycle that is parked next to a car in the image?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: Are there people riding the motorcycles in the image?",
+        "answers": [
+          "Yes",
+          "No",
+          "Some"
+        ],
+        "score": 0.0009937286376953125
+      },
+      {
+        "question": "Question: What color is the motorcycle that is parked next to a car in the image?",
+        "answers": [
+          "red",
+          "black",
+          "white"
+        ],
+        "score": 0.19035768508911133
+      },
+      {
+        "question": "Question: What is the color of the people standing next to the motorcycles?",
+        "answers": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "score": 0.08596515655517578
+      },
+      {
+        "question": "Question: What is the color of the motorcycles in the row?",
+        "answers": [
+          "red",
+          "black",
+          "white"
+        ],
+        "score": 0.08108282089233398
+      },
+      {
+        "question": "Question: What is the background setting of the motorcycles in the row?",
+        "answers": [
+          "city street",
+          "parking lot",
+          "asphalt street"
+        ],
+        "score": 0.05305194854736328
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.048,
+    "probe_selection_seconds": 2.278,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": false
+}

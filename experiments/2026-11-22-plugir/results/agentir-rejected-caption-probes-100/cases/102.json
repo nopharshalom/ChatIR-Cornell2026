@@ -1,0 +1,79 @@
+{
+  "qid": 102,
+  "candidates": [
+    "what is the color of the man's jacket?",
+    "Question: what is the color of the man's pants?",
+    "Question: What color is the snowboard the man is riding?",
+    "what is the background scenery behind the man sliding down the snowy slope?",
+    "what is the gender of the person performing the trick in mid-air?"
+  ],
+  "kl": {
+    "question": "Question: What color is the snowboard the man is riding?",
+    "answer": "black",
+    "rewrite": "a man slides down a snowy slope on a black snowboard",
+    "raw_rank": 142,
+    "unseen_rank": 132
+  },
+  "probe": {
+    "answer": "purple",
+    "rewrite": "a man in a purple jacket slides down a snowy slope on a snowboard",
+    "raw_rank": 1,
+    "unseen_rank": 1,
+    "question": "what is the color of the man's jacket?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "what is the color of the man's jacket?",
+        "answers": [
+          "blue",
+          "yellow",
+          "black"
+        ],
+        "score": 0.16553544998168945
+      },
+      {
+        "question": "Question: what is the color of the man's pants?",
+        "answers": [
+          "blue",
+          "black",
+          "white"
+        ],
+        "score": 0.04898834228515625
+      },
+      {
+        "question": "Question: What color is the snowboard the man is riding?",
+        "answers": [
+          "black",
+          "white",
+          "blue"
+        ],
+        "score": 0.04563283920288086
+      },
+      {
+        "question": "what is the background scenery behind the man sliding down the snowy slope?",
+        "answers": [
+          "trees",
+          "mountains",
+          "snow"
+        ],
+        "score": 0.06615543365478516
+      },
+      {
+        "question": "what is the gender of the person performing the trick in mid-air?",
+        "answers": [
+          "male",
+          "female",
+          "person"
+        ],
+        "score": 0.008482933044433594
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.06,
+    "probe_selection_seconds": 2.359,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": false
+}

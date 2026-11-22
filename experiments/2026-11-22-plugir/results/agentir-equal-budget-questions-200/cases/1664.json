@@ -1,0 +1,78 @@
+{
+  "qid": 1664,
+  "sample": 2,
+  "first_candidates": [
+    "what is the color of the jacket worn by the person skiing on the slope?",
+    "what is the gender of the person skiing on the slope covered in snow?",
+    "what is the location where the person is skiing?",
+    "what is the activity being performed by the person wearing a red jacket?",
+    "what is the location where the person wearing a red jacket is skiing?"
+  ],
+  "second_candidates": [
+    "what color is the jacket worn by the person skiing on the snow-covered slope?",
+    "what is the color of the jacket worn by the person skiing on the snow-covered slope?",
+    "what is the color of the pants worn by the skier in the red jacket?",
+    "Question: What is the gender of the person skiing on the snow-covered slope?",
+    "what is the activity being performed by the person wearing the red jacket?"
+  ],
+  "paths": [
+    {
+      "question": "what color is the jacket worn by the person skiing on the snow-covered slope?",
+      "answers": [
+        "red",
+        "blue",
+        "purple"
+      ],
+      "score": 0.2618985176086426
+    },
+    {
+      "question": "what is the color of the jacket worn by the person skiing on the snow-covered slope?",
+      "answers": [
+        "red",
+        "blue",
+        "purple"
+      ],
+      "score": 0.2520289421081543
+    },
+    {
+      "question": "what is the color of the pants worn by the skier in the red jacket?",
+      "answers": [
+        "red",
+        "black",
+        "blue"
+      ],
+      "score": 0.037894248962402344
+    },
+    {
+      "question": "Question: What is the gender of the person skiing on the snow-covered slope?",
+      "answers": [
+        "male",
+        "female",
+        "child"
+      ],
+      "score": 0.03961896896362305
+    },
+    {
+      "question": "what is the activity being performed by the person wearing the red jacket?",
+      "answers": [
+        "skiing",
+        "snowboarding",
+        "standing"
+      ],
+      "score": 0.022418975830078125
+    }
+  ],
+  "control": {
+    "question": "what color is the jacket worn by the person skiing on the snow-covered slope?",
+    "score": 0.2618985176086426
+  },
+  "mixed": {
+    "question": "what is the color of the jacket worn by the skier?",
+    "score": 0.26822996139526367
+  },
+  "control_rank": 11,
+  "mixed_rank": 11,
+  "usual_rank": 11,
+  "new_answer": "black",
+  "new_rewrite": "a person wearing a black jacket is skiing on a snow-covered slope"
+}

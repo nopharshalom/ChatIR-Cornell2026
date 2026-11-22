@@ -1,0 +1,71 @@
+{
+  "qid": 552,
+  "initial": "a man on a skateboard jumping over an obstacle",
+  "initial_rank": 35,
+  "evidence": [
+    "a black and white photo of a skateboarder doing a trick",
+    "a skateboarder on a ramp in front of spectators",
+    "brown horse jumping over hurdles",
+    "crowd is watching men do tricks on skateboards",
+    "a black and white photo of people skateboarding in the park",
+    "a skateboarder in the air on a cement sidewalk",
+    "a young boy doing a skateboard trick in a crowded street",
+    "skateboarders skateboarding in a park with benches",
+    "a young man is skateboarding in the middle of a city square",
+    "skateboarders doing tricks at night at a skate park"
+  ],
+  "displayed_ids": [
+    20098,
+    43529,
+    42975,
+    15980,
+    12965,
+    30714,
+    26387,
+    26661,
+    7658,
+    47572
+  ],
+  "rejected_captions": [
+    "a person skateboarding over an obstacle",
+    "two boys sitting in a park",
+    "a person riding a skateboard in mid air",
+    "a skateboarder riding in the air",
+    "man riding a skateboard outdoors",
+    "boy in a hat and jeans is performing a skateboard trick",
+    "a skateboarder riding his skateboard over barrels",
+    "a young skateboarder performing a trick on the rail",
+    "a man is riding a skateboard",
+    "the person is on a skateboard"
+  ],
+  "candidates": [
+    "what type of obstacle is the man jumping over?",
+    "Question: what is the setting of the scene where the man is jumping over the obstacle?",
+    "Question: what is the lighting condition of the scene?",
+    "what is the color of the photo showing the man jumping over an obstacle?",
+    "what is the clothing of the man jumping over the obstacle?"
+  ],
+  "control_candidates": [
+    "What is the lighting condition of the scene where the man is skateboarding?",
+    "Question: Is the scene where the man is skateboarding in black and white or in color?",
+    "Question: What is the surface or type of obstacle the man is jumping over?",
+    "What is the man wearing while performing the skateboard trick?",
+    "What is the man wearing while performing the trick?"
+  ],
+  "control": {
+    "question": "What is the man wearing while performing the trick?",
+    "answer": "black shirt and shorts",
+    "rewrite": "a man in a black shirt and shorts on a skateboard jumping over an obstacle",
+    "rank": 9,
+    "hit": true,
+    "raw_rank": 9,
+    "unseen_rank": 7
+  },
+  "variant": {
+    "question": "what type of obstacle is the man jumping over?",
+    "answer": "a rail.",
+    "rewrite": "a man on a skateboard jumping over a rail",
+    "raw_rank": 105,
+    "unseen_rank": 97
+  }
+}

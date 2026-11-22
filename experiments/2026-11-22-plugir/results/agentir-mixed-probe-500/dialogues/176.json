@@ -1,0 +1,276 @@
+{
+  "qid": 176,
+  "sample": "original",
+  "target": "unlabeled2017/000000538790.jpg",
+  "queries": [
+    "2 kites flying over the sand by the ocean shore",
+    "two black kites flying over the sand by the ocean shore",
+    "Two black kites soar over the sand along the ocean shore."
+  ],
+  "ranks": [
+    13,
+    12,
+    7
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "2 kites flying over the sand by the ocean shore",
+      "question": "what is the color of the kites flying over the sand by the ocean shore?",
+      "answer": "black",
+      "query_after": "two black kites flying over the sand by the ocean shore",
+      "displayed_ids": [
+        3698,
+        43869,
+        34732,
+        7120,
+        19556,
+        27782,
+        17329,
+        13169,
+        45031,
+        16730
+      ],
+      "selected_ids": [
+        1048,
+        560,
+        7720,
+        16086,
+        7413,
+        34819,
+        48995,
+        2489,
+        8072,
+        47099
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: what color is one of the kites flying over the sand?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.051987648010253906
+        },
+        {
+          "question": "what is the surface or ground where the kites are flying?",
+          "answers": [
+            "sand",
+            "beach",
+            "shore"
+          ],
+          "score": 0.0015225410461425781
+        },
+        {
+          "question": "what is the color of the kites flying over the sand by the ocean shore?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.13451480865478516
+        },
+        {
+          "question": "Question: what color is the sand where the kites are flying?",
+          "answers": [
+            "white",
+            "brown",
+            "golden"
+          ],
+          "score": 0.02401447296142578
+        },
+        {
+          "question": "what is the color of the sand where the kites are flying?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.01617908477783203
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the sand where the kites are flying?",
+          "answers": [
+            "White",
+            "Brown",
+            "Golden"
+          ],
+          "score": 0.031289100646972656
+        },
+        {
+          "question": "Question: What is the color of the sand where the kites are flying?",
+          "answers": [
+            "White",
+            "Brown",
+            "Golden"
+          ],
+          "score": 0.031289100646972656,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the sky in the image?",
+          "answers": [
+            "blue",
+            "orange",
+            "purple"
+          ],
+          "score": 0.07737970352172852
+        },
+        {
+          "question": "Question: Are the kites in the image red?",
+          "answers": [
+            "yes",
+            "no",
+            "sometimes"
+          ],
+          "score": 0.0006909370422363281
+        },
+        {
+          "question": "Question: What is the color of the sand?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.014613628387451172
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "two black kites flying over the sand by the ocean shore",
+      "question": "what is the other object in the image?",
+      "answer": "the other object is a kite.",
+      "query_after": "Two black kites soar over the sand along the ocean shore.",
+      "displayed_ids": [
+        34732,
+        4486,
+        19040,
+        7120,
+        13169,
+        19556,
+        43869,
+        3698,
+        23942,
+        49587
+      ],
+      "selected_ids": [
+        34819,
+        4615,
+        1048,
+        7413,
+        27731,
+        49353,
+        42980,
+        9922,
+        16086,
+        15450
+      ],
+      "rejected_count": 14,
+      "usual_paths": [
+        {
+          "question": "what is the activity of the person near the kites flying over the sand?",
+          "answers": [
+            "flying a kite",
+            "standing",
+            "sailing"
+          ],
+          "score": 0.008603572845458984
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a bird",
+            "a dog",
+            "a car"
+          ],
+          "score": 0.03752422332763672
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a bird",
+            "a dog",
+            "a car"
+          ],
+          "score": 0.03752422332763672,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a bird",
+            "a dog",
+            "a car"
+          ],
+          "score": 0.03752422332763672,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a bird",
+            "a dog",
+            "a car"
+          ],
+          "score": 0.03752422332763672,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: is the person flying the kites alone or with someone else?",
+          "answers": [
+            "alone",
+            "with someone else",
+            "together with others"
+          ],
+          "score": 0.00879812240600586
+        },
+        {
+          "question": "Question: Is the person flying the kites alone or with someone else?",
+          "answers": [
+            "alone",
+            "with someone else",
+            "unclear"
+          ],
+          "score": 0.002475261688232422
+        },
+        {
+          "question": "what is the color of the sky in the image where two kites are flying over the ocean?",
+          "answers": [
+            "black",
+            "blue",
+            "gray"
+          ],
+          "score": 0.026289939880371094
+        },
+        {
+          "question": "Question: what is the sky condition in the image where two kites are flying over the sand?",
+          "answers": [
+            "clear",
+            "cloudy",
+            "overcast"
+          ],
+          "score": 0.030527114868164062
+        },
+        {
+          "question": "Question: What activity is the person performing while near the kites (sailing with a parachute, kitesurfing, or standing with a kite)?",
+          "answers": [
+            "standing with a kite",
+            "kitesurfing",
+            "sailing with a parachute"
+          ],
+          "score": 0.004679203033447266
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

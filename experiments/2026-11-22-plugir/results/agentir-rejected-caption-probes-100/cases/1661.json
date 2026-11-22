@@ -1,0 +1,80 @@
+{
+  "qid": 1661,
+  "candidates": [
+    "Question: What is the color of the airplane?",
+    "Question: What is the color of the airplane?",
+    "Question: What is the type of airplane being flown?",
+    "Question: What is the specific location or background where the airplane is flying?",
+    "what is the color of the airplane?"
+  ],
+  "kl": {
+    "question": "Question: What is the type of airplane being flown?",
+    "answer": "airliner",
+    "rewrite": "an airliner flying in the air on a sunny day",
+    "raw_rank": 157,
+    "unseen_rank": 147
+  },
+  "probe": {
+    "answer": "white",
+    "rewrite": "a white airplane flying in the air on a sunny day",
+    "raw_rank": 219,
+    "unseen_rank": 209,
+    "question": "what is the color of the airplane?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the color of the airplane?",
+        "answers": [
+          "grey",
+          "black and white",
+          "white and red"
+        ],
+        "score": 0.11992359161376953
+      },
+      {
+        "question": "Question: What is the color of the airplane?",
+        "answers": [
+          "grey",
+          "black and white",
+          "white and red"
+        ],
+        "score": 0.11992359161376953,
+        "duplicate_of": 0
+      },
+      {
+        "question": "Question: What is the type of airplane being flown?",
+        "answers": [
+          "propeller airplane",
+          "passenger jet",
+          "fighter planes"
+        ],
+        "score": 0.08919715881347656
+      },
+      {
+        "question": "Question: What is the specific location or background where the airplane is flying?",
+        "answers": [
+          "cloudy sky",
+          "park",
+          "large body of water"
+        ],
+        "score": 0.12410640716552734
+      },
+      {
+        "question": "what is the color of the airplane?",
+        "answers": [
+          "grey",
+          "black and white",
+          "white and red"
+        ],
+        "score": 0.16185951232910156
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.066,
+    "probe_selection_seconds": 3.007,
+    "probe_llm_calls": 4,
+    "probe_search_queries": 12
+  },
+  "reused_outcome": false
+}

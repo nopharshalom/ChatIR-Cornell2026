@@ -1,0 +1,78 @@
+{
+  "qid": 433,
+  "sample": 1,
+  "first_candidates": [
+    "Question: What is the player wearing on his head?",
+    "Who is the specific player preparing to hit for the Yankees?",
+    "what team does the player belong to?",
+    "what is the player wearing on his head?",
+    "what is the player holding in his hands?"
+  ],
+  "second_candidates": [
+    "Question: Who is the baseball player in the image?",
+    "Question: What is the baseball player wearing?",
+    "Who is the baseball player preparing to hit?",
+    "what is the specific action the baseball player is performing in the image?",
+    "what is the name of the baseball team the player belongs to?"
+  ],
+  "paths": [
+    {
+      "question": "Question: Who is the baseball player in the image?",
+      "answers": [
+        "Abe",
+        "Babe",
+        "Lou"
+      ],
+      "score": 0.007161140441894531
+    },
+    {
+      "question": "Question: What is the baseball player wearing?",
+      "answers": [
+        "white jersey",
+        "blue hat",
+        "red socks"
+      ],
+      "score": 0.11003255844116211
+    },
+    {
+      "question": "Who is the baseball player preparing to hit?",
+      "answers": [
+        "Derek Jeter",
+        "Aaron Judge",
+        "Yankees"
+      ],
+      "score": 0.012180805206298828
+    },
+    {
+      "question": "what is the specific action the baseball player is performing in the image?",
+      "answers": [
+        "swinging",
+        "waiting",
+        "standing"
+      ],
+      "score": 0.048128604888916016
+    },
+    {
+      "question": "what is the name of the baseball team the player belongs to?",
+      "answers": [
+        "Yankees",
+        "Giants",
+        "Red Sox"
+      ],
+      "score": 0.030167102813720703
+    }
+  ],
+  "control": {
+    "question": "Question: What is the baseball player wearing?",
+    "score": 0.11003255844116211
+  },
+  "mixed": {
+    "question": "Question: What is the color of the player's uniform?",
+    "score": 0.07416391372680664
+  },
+  "control_rank": 2,
+  "mixed_rank": 7,
+  "usual_rank": 13,
+  "new_answer": "Gray uniform with number 25.",
+  "new_rewrite": "a yankees player wearing a gray uniform with the number 25 is preparing to hit again"
+}

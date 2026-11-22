@@ -1,0 +1,79 @@
+{
+  "qid": 1427,
+  "sample": 2,
+  "first_candidates": [
+    "Question: What is the color of the toilet in the image?",
+    "Question: What is the surface material of the floor in the image containing the broken toilet?",
+    "What is the specific type of debris surrounding the broken toilet?",
+    "Question: What is the material of the bowl next to the broken toilet?",
+    "Based on the provided information sources, here is the next logical question and the explanation of how it was derived:\n\n**Question:**\nWhat is the specific type?"
+  ],
+  "second_candidates": [
+    "what is the surface material of the floor in the image with the broken toilet?",
+    "Question: What color is the toilet in the image with the broken toilet?",
+    "what is the color of the bucket located next to the broken toilet?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "paths": [
+    {
+      "question": "what is the surface material of the floor in the image with the broken toilet?",
+      "answers": [
+        "wooden",
+        "tiled",
+        "dirt"
+      ],
+      "score": 0.0528254508972168
+    },
+    {
+      "question": "Question: What color is the toilet in the image with the broken toilet?",
+      "answers": [
+        "white",
+        "wooden",
+        "black"
+      ],
+      "score": 0.03497934341430664
+    },
+    {
+      "question": "what is the color of the bucket located next to the broken toilet?",
+      "answers": [
+        "black",
+        "white",
+        "brown"
+      ],
+      "score": 0.020913124084472656
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "toilet",
+        "bucket",
+        "boat"
+      ],
+      "score": 0.050920963287353516
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "toilet",
+        "bucket",
+        "boat"
+      ],
+      "score": 0.050920963287353516,
+      "duplicate_of": 3
+    }
+  ],
+  "control": {
+    "question": "What is the specific type of debris surrounding the broken toilet?",
+    "score": 0.0685281753540039
+  },
+  "mixed": {
+    "question": "What is the specific type of debris surrounding the broken toilet?",
+    "score": 0.0685281753540039
+  },
+  "control_rank": 4,
+  "mixed_rank": 4,
+  "usual_rank": 4,
+  "new_answer": null,
+  "new_rewrite": null
+}

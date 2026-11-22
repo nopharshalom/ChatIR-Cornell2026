@@ -1,0 +1,69 @@
+{
+  "chosen": "what is the sky condition during the scene with the herd of sheep and a dog?",
+  "default": "what type of animal is present with the herd of sheep in the scene?",
+  "ids": [
+    16653,
+    35553,
+    17775,
+    11160
+  ],
+  "trials": {
+    "what type of animal is present with the herd of sheep in the scene?": {
+      "answers": [
+        "cow",
+        "goat",
+        "goat",
+        "sheep"
+      ],
+      "rewrites": {
+        "cow": "a herd of white, black, and brown sheep walking on dirt surrounded by grass and trees, accompanied by a cow",
+        "goat": "a herd of white, black, and brown sheep walking on dirt surrounded by grass and trees, accompanied by a goat",
+        "sheep": "a herd of white, black, and brown sheep walking around dirt, surrounded by grass and trees, with no other animals present"
+      },
+      "ranks": [
+        56,
+        56,
+        27,
+        41
+      ],
+      "hits": 0
+    },
+    "what is the sky condition during the scene with the herd of sheep and a dog?": {
+      "answers": [
+        "clear",
+        "cloudy",
+        "cloudy",
+        "cloudy"
+      ],
+      "rewrites": {
+        "clear": "a herd of white, black, and brown sheep walking around dirt surrounded by grass and trees with a dog, under a clear sky",
+        "cloudy": "a herd of white, black, and brown sheep walking around dirt surrounded by grass and trees, with a dog present, under a cloudy sky"
+      },
+      "ranks": [
+        10,
+        89,
+        13,
+        201
+      ],
+      "hits": 1
+    },
+    "what is the color of the sheep's wool in the scene with the herd of sheep and a dog?": {
+      "answers": [
+        "white",
+        "white",
+        "white",
+        "white"
+      ],
+      "rewrites": {
+        "white": "a herd of white sheep walking around dirt surrounded by grass and trees with a dog"
+      },
+      "ranks": [
+        27,
+        171,
+        20,
+        287
+      ],
+      "hits": 0
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "qid": 1772,
+  "arm": "probe",
+  "after_round": 2,
+  "ranks": [
+    17,
+    24,
+    24,
+    43,
+    41,
+    1
+  ],
+  "continuation": [
+    {
+      "round": 3,
+      "query_before": "A white computer mouse is placed on a mouse pad beside a keyboard.",
+      "question": "Is the computer a laptop or a desktop?",
+      "answer": "desktop",
+      "query_after": "a white computer mouse sitting on top of a mouse pad, with a keyboard and a desktop computer nearby",
+      "searches": [
+        {
+          "query": "a white computer mouse sitting on top of a mouse pad with a black keyboard nearby",
+          "ids": [
+            15976,
+            27491,
+            20432
+          ],
+          "captions": [
+            "a remote control sits on top of a table",
+            "keyboard and mouse are white",
+            "a computer mouse on a desk"
+          ]
+        },
+        {
+          "query": "a white computer mouse sitting on top of a mouse pad with a silver keyboard nearby",
+          "ids": [
+            11848,
+            16645,
+            33984
+          ],
+          "captions": [
+            "a keyboard on top of a mouse on top of the keyboard",
+            "mouse is white",
+            "an apple mouse in a box next to a white keyboard"
+          ]
+        }
+      ],
+      "raw_plan": "a white computer mouse sitting on top of a mouse pad with a black keyboard nearby\na white computer mouse sitting on top of a mouse pad with a silver keyboard nearby",
+      "generated": "Is the computer a laptop or a desktop?",
+      "fallback": false
+    },
+    {
+      "round": 4,
+      "query_before": "a white computer mouse sitting on top of a mouse pad, with a keyboard and a desktop computer nearby",
+      "question": "what is the color of the computer mouse?",
+      "answer": "white",
+      "query_after": "a white computer mouse sitting on top of a mouse pad, next to a keyboard, with a desktop computer"
+    },
+    {
+      "round": 5,
+      "query_before": "a white computer mouse sitting on top of a mouse pad, next to a keyboard, with a desktop computer",
+      "question": "what is the color of the mouse pad?",
+      "answer": "orange",
+      "query_after": "a white computer mouse sitting on an orange mouse pad, next to a desktop computer"
+    }
+  ],
+  "seconds": 22.9
+}

@@ -1,0 +1,276 @@
+{
+  "qid": 135,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000065853.jpg",
+  "queries": [
+    "this is a clean living room with a fireplace in the middle",
+    "a clean living room with a black couch and a fireplace in the middle",
+    "a clean living room with a black couch, a fireplace in the middle, and hardwood flooring"
+  ],
+  "ranks": [
+    21,
+    14,
+    9
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "this is a clean living room with a fireplace in the middle",
+      "question": "what color is the couch in the living room?",
+      "answer": "black",
+      "query_after": "a clean living room with a black couch and a fireplace in the middle",
+      "displayed_ids": [
+        40145,
+        31334,
+        7321,
+        24532,
+        11909,
+        46363,
+        45364,
+        41251,
+        39087,
+        3966
+      ],
+      "selected_ids": [
+        49380,
+        37461,
+        39885,
+        2936,
+        38737,
+        22132,
+        47616,
+        45752,
+        29299,
+        49370
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what color is the couch in the living room with a fireplace?",
+          "answers": [
+            "brown",
+            "red",
+            "white"
+          ],
+          "score": 0.08690357208251953
+        },
+        {
+          "question": "what is the color of the fireplace in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "brown"
+          ],
+          "score": 0.07031583786010742
+        },
+        {
+          "question": "what type of flooring is visible in the clean living room with a fireplace in the middle?",
+          "answers": [
+            "carpet",
+            "rug",
+            "wood floor"
+          ],
+          "score": 0.09498405456542969
+        },
+        {
+          "question": "what color is the fireplace in the living room with a white bed?",
+          "answers": [
+            "white",
+            "black",
+            "brick"
+          ],
+          "score": 0.05247783660888672
+        },
+        {
+          "question": "what is the color of the living room that contains a brown couch and a fireplace?",
+          "answers": [
+            "tan",
+            "brown",
+            "white"
+          ],
+          "score": 0.0488734245300293
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the couch in the living room?",
+          "answers": [
+            "brown",
+            "red",
+            "black leather"
+          ],
+          "score": 0.15513372421264648
+        },
+        {
+          "question": "Question: what is the color of the fireplace in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "tan"
+          ],
+          "score": 0.048372745513916016
+        },
+        {
+          "question": "what color is the floor in the living room?",
+          "answers": [
+            "wood",
+            "carpet",
+            "white"
+          ],
+          "score": 0.052222251892089844
+        },
+        {
+          "question": "what color is the rug in the living room?",
+          "answers": [
+            "white",
+            "tan",
+            "brown"
+          ],
+          "score": 0.03552103042602539
+        },
+        {
+          "question": "Question: what type of floor is in the living room?",
+          "answers": [
+            "wood floor",
+            "carpet",
+            "rug"
+          ],
+          "score": 0.06426668167114258
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a clean living room with a black couch and a fireplace in the middle",
+      "question": "what type of flooring is in the living room?",
+      "answer": "hardwood",
+      "query_after": "a clean living room with a black couch, a fireplace in the middle, and hardwood flooring",
+      "displayed_ids": [
+        39728,
+        44197,
+        36536,
+        47275,
+        13182,
+        20303,
+        45364,
+        26617,
+        37454,
+        47305
+      ],
+      "selected_ids": [
+        38737,
+        37461,
+        12276,
+        16642,
+        10493,
+        15725,
+        7769,
+        1978,
+        5256,
+        19655
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "what material are the couches in the living room?",
+          "answers": [
+            "black",
+            "brown",
+            "leather"
+          ],
+          "score": 0.026823043823242188
+        },
+        {
+          "question": "what is the color of the fireplace in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.039136409759521484
+        },
+        {
+          "question": "what is the color of the fireplace in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.039136409759521484,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the fireplace in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.039136409759521484,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the fireplace in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.039136409759521484,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the fireplace in the living room?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.021362781524658203
+        },
+        {
+          "question": "what is the color of the fireplace in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.039136409759521484
+        },
+        {
+          "question": "what type of flooring is in the living room?",
+          "answers": [
+            "wood",
+            "carpet",
+            "tile"
+          ],
+          "score": 0.041884422302246094
+        },
+        {
+          "question": "what color are the floors in the living room?",
+          "answers": [
+            "wood",
+            "carpet",
+            "tile"
+          ],
+          "score": 0.037244319915771484
+        },
+        {
+          "question": "what is the color of the fireplace in the living room?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.039136409759521484,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

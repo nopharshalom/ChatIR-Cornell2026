@@ -1,0 +1,59 @@
+{
+  "qid": 675,
+  "arm": "probe",
+  "after_round": 9,
+  "ranks": [
+    776,
+    925,
+    1710,
+    660,
+    471,
+    439,
+    425,
+    462,
+    217,
+    218,
+    86
+  ],
+  "continuation": [
+    {
+      "round": 10,
+      "query_before": "a male catcher in a white uniform with red sleeves and a black hat crouches behind a batter in a white uniform, extending his arm to catch a white ball, with a crowd visible in the background",
+      "question": "Is the batter swinging at the ball or standing ready to swing?",
+      "answer": "swinging at the ball",
+      "query_after": "A male catcher in a white uniform with red sleeves and a black hat crouches behind a batter in a white uniform who is swinging at a white ball, with a crowd visible in the background.",
+      "searches": [
+        {
+          "query": "A male baseball catcher in a red-sleeved uniform and black hat crouches behind a batter in a white uniform to catch a white ball, with a crowd visible in the background.",
+          "ids": [
+            45128,
+            3361,
+            17089
+          ],
+          "captions": [
+            "a red player is running to catch a ball",
+            "the catcher has white shorts",
+            "a catcher is a player during a baseball game"
+          ]
+        },
+        {
+          "query": "A male baseball catcher in a red-sleeved uniform and black hat crouches behind a batter in a white uniform to catch a white ball, with a stadium seating area visible in the background.",
+          "ids": [
+            45128,
+            17089,
+            29530
+          ],
+          "captions": [
+            "a red player is running to catch a ball",
+            "a catcher is a player during a baseball game",
+            "a man is trying to slide into first base"
+          ]
+        }
+      ],
+      "raw_plan": "A male baseball catcher in a red-sleeved uniform and black hat crouches behind a batter in a white uniform to catch a white ball, with a crowd visible in the background.\nA male baseball catcher in a red-sleeved uniform and black hat crouches behind a batter in a white uniform to catch a white ball, with a stadium seating area visible in the background.",
+      "generated": "Is the batter swinging at the ball or standing ready to swing?",
+      "fallback": false
+    }
+  ],
+  "seconds": 3.9
+}

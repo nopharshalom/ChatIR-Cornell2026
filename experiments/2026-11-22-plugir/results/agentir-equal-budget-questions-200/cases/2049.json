@@ -1,0 +1,78 @@
+{
+  "qid": 2049,
+  "sample": 2,
+  "first_candidates": [
+    "what is the gender of the person skiing on the path through the snow?",
+    "what is the gender of the person skiing on the path through the snow?",
+    "what is the location where the person is skiing on the path through the snow?",
+    "Question: what is the gender of the person skiing on the path through the snow?",
+    "what is the clothing worn by the person skiing on the path through the snow?"
+  ],
+  "second_candidates": [
+    "what is the gender of the person skiing on a path through the snow?",
+    "Question: what is the location where the people are skiing?",
+    "what color are the ski jackets worn by the people skiing on the path through the snow?",
+    "Question: Are the skiers in the image male or female?",
+    "what is the gender of the person skiing in the forest?"
+  ],
+  "paths": [
+    {
+      "question": "what is the gender of the person skiing on a path through the snow?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.030667781829833984
+    },
+    {
+      "question": "Question: what is the location where the people are skiing?",
+      "answers": [
+        "mountaintop",
+        "wooded trail",
+        "snowy park"
+      ],
+      "score": 0.0666346549987793
+    },
+    {
+      "question": "what color are the ski jackets worn by the people skiing on the path through the snow?",
+      "answers": [
+        "red",
+        "blue",
+        "black"
+      ],
+      "score": 0.0644230842590332
+    },
+    {
+      "question": "Question: Are the skiers in the image male or female?",
+      "answers": [
+        "male",
+        "female",
+        "mixed"
+      ],
+      "score": 0.006238460540771484
+    },
+    {
+      "question": "what is the gender of the person skiing in the forest?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.028607845306396484
+    }
+  ],
+  "control": {
+    "question": "what is the clothing worn by the person skiing on the path through the snow?",
+    "score": 0.11920547485351562
+  },
+  "mixed": {
+    "question": "what is the clothing worn by the person skiing on the path through the snow?",
+    "score": 0.11920547485351562
+  },
+  "control_rank": 19,
+  "mixed_rank": 19,
+  "usual_rank": 19,
+  "new_answer": null,
+  "new_rewrite": null
+}

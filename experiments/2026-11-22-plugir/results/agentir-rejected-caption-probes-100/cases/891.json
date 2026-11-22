@@ -1,0 +1,80 @@
+{
+  "qid": 891,
+  "candidates": [
+    "Question: What color is the animal standing in the field?",
+    "Question: What type of animal is standing in the field?",
+    "Question: Is the animal in the field a giraffe, cow, sheep, horse, or zebra?",
+    "Question: Is the animal in the field a giraffe, cow, sheep, horse, or zebra?",
+    "Question: Is the animal in the field a giraffe?"
+  ],
+  "kl": {
+    "question": "Question: What type of animal is standing in the field?",
+    "answer": "giraffe",
+    "rewrite": "a giraffe is standing in the fields outside",
+    "raw_rank": 73,
+    "unseen_rank": 73
+  },
+  "probe": {
+    "question": "Question: What type of animal is standing in the field?",
+    "answer": "giraffe",
+    "rewrite": "a giraffe is standing in the fields outside",
+    "raw_rank": 73,
+    "unseen_rank": 73
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What color is the animal standing in the field?",
+        "answers": [
+          "black",
+          "brown",
+          "white"
+        ],
+        "score": 0.09206676483154297
+      },
+      {
+        "question": "Question: What type of animal is standing in the field?",
+        "answers": [
+          "sheep",
+          "cow",
+          "zebra"
+        ],
+        "score": 0.25372838973999023
+      },
+      {
+        "question": "Question: Is the animal in the field a giraffe, cow, sheep, horse, or zebra?",
+        "answers": [
+          "giraffe",
+          "cow",
+          "sheep"
+        ],
+        "score": 0.03755664825439453
+      },
+      {
+        "question": "Question: Is the animal in the field a giraffe, cow, sheep, horse, or zebra?",
+        "answers": [
+          "giraffe",
+          "cow",
+          "sheep"
+        ],
+        "score": 0.03755664825439453,
+        "duplicate_of": 2
+      },
+      {
+        "question": "Question: Is the animal in the field a giraffe?",
+        "answers": [
+          "yes",
+          "no",
+          "maybe"
+        ],
+        "score": 0.0022306442260742188
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.046,
+    "probe_selection_seconds": 1.931,
+    "probe_llm_calls": 4,
+    "probe_search_queries": 12
+  },
+  "reused_outcome": true
+}

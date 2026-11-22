@@ -1,0 +1,80 @@
+{
+  "qid": 1221,
+  "candidates": [
+    "Question: What is the unusual background setting of the parking meter?",
+    "Question: What color is the parking meter?",
+    "Question: What is the parking meter next to?",
+    "Question: Where is the parking meter located?",
+    "Question: What is the parking meter next to?"
+  ],
+  "kl": {
+    "question": "Question: What is the unusual background setting of the parking meter?",
+    "answer": "The parking meter is mounted on a wooden board attached to a brick wall with peeling paint.",
+    "rewrite": "a parking meter mounted on a wooden board attached to a brick wall with peeling paint",
+    "raw_rank": 1,
+    "unseen_rank": 1
+  },
+  "probe": {
+    "answer": "wood",
+    "rewrite": "a parking meter next to a wooden post",
+    "raw_rank": 3,
+    "unseen_rank": 3,
+    "question": "Question: What is the parking meter next to?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the unusual background setting of the parking meter?",
+        "answers": [
+          "a wooden shed",
+          "a city street",
+          "fallen leaves"
+        ],
+        "score": 0.22212505340576172
+      },
+      {
+        "question": "Question: What color is the parking meter?",
+        "answers": [
+          "black",
+          "red",
+          "white"
+        ],
+        "score": 0.10594558715820312
+      },
+      {
+        "question": "Question: What is the parking meter next to?",
+        "answers": [
+          "a busy city street",
+          "a no parking sign",
+          "a wooden shed"
+        ],
+        "score": 0.25545549392700195
+      },
+      {
+        "question": "Question: Where is the parking meter located?",
+        "answers": [
+          "next to a street",
+          "on top of a building",
+          "in a wooden shed"
+        ],
+        "score": 0.22989177703857422
+      },
+      {
+        "question": "Question: What is the parking meter next to?",
+        "answers": [
+          "a busy city street",
+          "a no parking sign",
+          "a wooden shed"
+        ],
+        "score": 0.25545549392700195,
+        "duplicate_of": 2
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.062,
+    "probe_selection_seconds": 2.205,
+    "probe_llm_calls": 4,
+    "probe_search_queries": 12
+  },
+  "reused_outcome": false
+}

@@ -1,0 +1,177 @@
+{
+  "qid": 1427,
+  "initial": "a broken toilet in the middle of all kinds of debris",
+  "initial_rank": 21,
+  "displayed": [
+    49942,
+    446,
+    7380,
+    21127,
+    29238,
+    19125,
+    29634,
+    1281,
+    5645,
+    46546
+  ],
+  "evidence": [
+    "a bathroom has a toilet inside and a wooden bowl",
+    "a tiled bathroom with a white toilet and black bucket",
+    "a small white toilet in a bathroom with tiled floor",
+    "a dog standing in a field looking at a car",
+    "several old wooden boats are anchored in a jungle",
+    "old tv's scattered on a dirt road",
+    "a truck with a truck on the back full of furniture on the road",
+    "several old wooden boxes with a stop sign on them",
+    "an empty lot next to a small group of boats"
+  ],
+  "rejected_captions": [
+    "a toilet is sitting in a bathroom with trash all around it",
+    "a toilet in a bathroom with broken down tile and trash",
+    "a toilet in a toilet hole",
+    "the toilet seat is on the floor",
+    "a broken up toilet in a bathroom",
+    "a bathroom is broken down and in need of repair",
+    "a toilet is destroyed in a bathroom",
+    "a toilet seat sitting on a green patch of grass",
+    "a bathroom with a broken toilet and some debris",
+    "a dirty toilet in a dirty bathroom"
+  ],
+  "usual": {
+    "candidates": [
+      "Question: What is the color of the toilet in the image?",
+      "Question: What is the surface material of the floor in the image containing the broken toilet?",
+      "What is the specific type of debris surrounding the broken toilet?",
+      "Question: What is the material of the bowl next to the broken toilet?",
+      "Based on the provided information sources, here is the next logical question and the explanation of how it was derived:\n\n**Question:**\nWhat is the specific type?"
+    ],
+    "question": "What is the specific type of debris surrounding the broken toilet?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the color of the toilet in the image?",
+          "answers": [
+            "white",
+            "black",
+            "wooden"
+          ],
+          "score": 0.042583465576171875
+        },
+        {
+          "question": "Question: What is the surface material of the floor in the image containing the broken toilet?",
+          "answers": [
+            "dirt",
+            "wood",
+            "metal"
+          ],
+          "score": 0.06836223602294922
+        },
+        {
+          "question": "What is the specific type of debris surrounding the broken toilet?",
+          "answers": [
+            "wooden bowl",
+            "black bucket",
+            "tiled floor"
+          ],
+          "score": 0.0685281753540039
+        },
+        {
+          "question": "Question: What is the material of the bowl next to the broken toilet?",
+          "answers": [
+            "wood",
+            "plastic",
+            "metal"
+          ],
+          "score": 0.03856086730957031
+        },
+        {
+          "question": "Based on the provided information sources, here is the next logical question and the explanation of how it was derived:\n\n**Question:**\nWhat is the specific type?",
+          "answers": [
+            "porcelain",
+            "ceramic",
+            "wood"
+          ],
+          "score": 0.05031728744506836
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.177,
+      "probe_selection_seconds": 2.706,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "The debris includes broken toilet parts, scattered papers, and a plastic container.",
+    "rewrite": "a broken toilet surrounded by debris including broken toilet parts, scattered papers, and a plastic container",
+    "raw_rank": 4,
+    "unseen_rank": 1
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What color is the floor of the room containing the broken toilet?",
+      "Question: What type of container is visible next to the broken toilet?",
+      "Question: Question: What is the color of the toilet in the image?",
+      "Question: What type of container is visible next to the broken toilet?",
+      "Question: What color is the toilet in the image?"
+    ],
+    "question": "Question: What color is the toilet in the image?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What color is the floor of the room containing the broken toilet?",
+          "answers": [
+            "wooden",
+            "tiled",
+            "dirt"
+          ],
+          "score": 0.030213356018066406
+        },
+        {
+          "question": "Question: What type of container is visible next to the broken toilet?",
+          "answers": [
+            "wooden bowl",
+            "black bucket",
+            "wooden boxes"
+          ],
+          "score": 0.03455829620361328
+        },
+        {
+          "question": "Question: Question: What is the color of the toilet in the image?",
+          "answers": [
+            "black",
+            "white",
+            "brown"
+          ],
+          "score": 0.02622699737548828
+        },
+        {
+          "question": "Question: What type of container is visible next to the broken toilet?",
+          "answers": [
+            "wooden bowl",
+            "black bucket",
+            "wooden boxes"
+          ],
+          "score": 0.03455829620361328,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What color is the toilet in the image?",
+          "answers": [
+            "black",
+            "white",
+            "wooden"
+          ],
+          "score": 0.042545318603515625
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.177,
+      "probe_selection_seconds": 1.96,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "white",
+    "rewrite": "a broken white toilet in the middle of all kinds of debris",
+    "raw_rank": 17,
+    "unseen_rank": 7
+  }
+}

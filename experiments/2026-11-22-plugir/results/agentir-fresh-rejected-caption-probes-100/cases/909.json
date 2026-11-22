@@ -1,0 +1,182 @@
+{
+  "qid": 909,
+  "initial": "a boy talks to someone while walking by a building",
+  "initial_rank": 13,
+  "displayed": [
+    41847,
+    15349,
+    47088,
+    48133,
+    9817,
+    13803,
+    4758,
+    41817,
+    17087,
+    13778
+  ],
+  "evidence": [
+    "a woman on a cell phone walking down a street",
+    "an old building in a city street with a sign",
+    "a person walks on a sidewalk next to a store",
+    "two men in a black suit",
+    "many people walking down a crowded street with shops",
+    "a street has people walking down the side",
+    "people walking down a street with an intersection",
+    "a woman talks on her cellphone near a black van",
+    "people on a skateboard near a large, rectangular building",
+    "a young boy is riding a skateboard in the backyard"
+  ],
+  "rejected_captions": [
+    "an old stone house in the foreground",
+    "a man on a cell phone in a building",
+    "young boy and woman holding a teddy bear",
+    "white shirt on a young man",
+    "a cement wall with a graffiti wall",
+    "a street with several people",
+    "a woman walking past a street sign",
+    "a man jogging near a douglas park",
+    "a man walking on a street",
+    "a man walking near a sidewalk near a building"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the location where the boy is talking to someone while walking by a building?",
+      "what is the object the boy is holding or using while talking?",
+      "what is the boy riding on while walking by a building?",
+      "what is the boy riding on while walking by a building?",
+      "what is the boy riding on while walking by a building?"
+    ],
+    "question": "what is the object the boy is holding or using while talking?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the location where the boy is talking to someone while walking by a building?",
+          "answers": [
+            "backyard",
+            "city street",
+            "skatepark"
+          ],
+          "score": 0.04499197006225586
+        },
+        {
+          "question": "what is the object the boy is holding or using while talking?",
+          "answers": [
+            "cellphone",
+            "skateboard",
+            "nothing"
+          ],
+          "score": 0.10763692855834961
+        },
+        {
+          "question": "what is the boy riding on while walking by a building?",
+          "answers": [
+            "skateboard",
+            "nothing",
+            "none"
+          ],
+          "score": 0.05903959274291992
+        },
+        {
+          "question": "what is the boy riding on while walking by a building?",
+          "answers": [
+            "skateboard",
+            "nothing",
+            "none"
+          ],
+          "score": 0.05903959274291992,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the boy riding on while walking by a building?",
+          "answers": [
+            "skateboard",
+            "nothing",
+            "none"
+          ],
+          "score": 0.05903959274291992,
+          "duplicate_of": 2
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.062,
+      "probe_selection_seconds": 1.478,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "nothing",
+    "rewrite": "a boy walks by a building talking to someone without holding or using any object",
+    "raw_rank": 13,
+    "unseen_rank": 6
+  },
+  "rejected": {
+    "candidates": [
+      "Who is the boy talking to while walking by the building?",
+      "Who is the boy talking to?",
+      "Who is the boy talking to while walking by the building?",
+      "Who is the boy talking to?",
+      "Who is the boy talking to?"
+    ],
+    "question": "Who is the boy talking to?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Who is the boy talking to while walking by the building?",
+          "answers": [
+            "A girl",
+            "A man",
+            "A woman"
+          ],
+          "score": 0.01688861846923828
+        },
+        {
+          "question": "Who is the boy talking to?",
+          "answers": [
+            "a woman",
+            "a man",
+            "someone"
+          ],
+          "score": 0.02125406265258789
+        },
+        {
+          "question": "Who is the boy talking to while walking by the building?",
+          "answers": [
+            "A girl",
+            "A man",
+            "A woman"
+          ],
+          "score": 0.01688861846923828,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Who is the boy talking to?",
+          "answers": [
+            "a woman",
+            "a man",
+            "someone"
+          ],
+          "score": 0.02125406265258789,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Who is the boy talking to?",
+          "answers": [
+            "a woman",
+            "a man",
+            "someone"
+          ],
+          "score": 0.02125406265258789,
+          "duplicate_of": 1
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.071,
+      "probe_selection_seconds": 1.025,
+      "probe_llm_calls": 2,
+      "probe_search_queries": 6
+    },
+    "answer": "I'm not sure.",
+    "rewrite": "a boy talking to an unknown person while walking by a building",
+    "raw_rank": 52,
+    "unseen_rank": 42
+  }
+}

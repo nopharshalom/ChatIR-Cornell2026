@@ -1,0 +1,79 @@
+{
+  "qid": 1226,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the grass in the field where the giraffes are standing?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the color of the animal that is standing with the giraffes?",
+    "what is the color of the animal that is standing with the giraffes?"
+  ],
+  "second_candidates": [
+    "what is the specific type of enclosure or structure surrounding the giraffes?",
+    "what is the other object in the image?",
+    "what is the color of the giraffes in the image?",
+    "what is the gender of the giraffe standing next to the other giraffe in the image?",
+    "what is the specific type of enclosure or structure surrounding the giraffes?"
+  ],
+  "paths": [
+    {
+      "question": "what is the specific type of enclosure or structure surrounding the giraffes?",
+      "answers": [
+        "open field",
+        "pen with fence",
+        "outside wooden structure"
+      ],
+      "score": 0.059635162353515625
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "a tree",
+        "a shrub",
+        "a feeder"
+      ],
+      "score": 0.015029430389404297
+    },
+    {
+      "question": "what is the color of the giraffes in the image?",
+      "answers": [
+        "brown and white",
+        "yellow and brown",
+        "orange and white"
+      ],
+      "score": 0.013442516326904297
+    },
+    {
+      "question": "what is the gender of the giraffe standing next to the other giraffe in the image?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.004431247711181641
+    },
+    {
+      "question": "what is the specific type of enclosure or structure surrounding the giraffes?",
+      "answers": [
+        "open field",
+        "pen with fence",
+        "outside wooden structure"
+      ],
+      "score": 0.059635162353515625,
+      "duplicate_of": 0
+    }
+  ],
+  "control": {
+    "question": "what is the specific type of enclosure or structure surrounding the giraffes?",
+    "score": 0.059635162353515625
+  },
+  "mixed": {
+    "question": "Question: What is the color of the grass in the field where the giraffes are standing?",
+    "score": 0.03782987594604492
+  },
+  "control_rank": 45,
+  "mixed_rank": 14,
+  "usual_rank": 55,
+  "new_answer": "none",
+  "new_rewrite": "3 or 4 giraffes are outside in a field with a shrub or tree, with no specific enclosure or structure surrounding them"
+}

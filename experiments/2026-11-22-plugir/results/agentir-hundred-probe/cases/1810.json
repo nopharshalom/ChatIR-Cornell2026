@@ -1,0 +1,100 @@
+{
+  "qid": 1810,
+  "initial": "a man holding a baseball bat in a park",
+  "initial_rank": 16,
+  "evidence": [
+    "a baseball player swinging a bat while the catcher and uber is at home plate",
+    "a catcher swinging a bat while another player is in the catcher's box",
+    "a child swinging a baseball bat at a ball",
+    "a professional baseball game in progress",
+    "man hitting a ball at a baseball field",
+    "players in a baseball game",
+    "players in the batter's box are in a game",
+    "the catcher wearing a blue and white uniform",
+    "the man is throwing an orange frisbee at the trees",
+    "four people are playing a game of frisbee in a park"
+  ],
+  "candidates": [
+    "Question: what is the main action the man is performing with the baseball bat?",
+    "what is the color of the baseball uniform the man is wearing?",
+    "what is the object the man is about to hit with the baseball bat?",
+    "Question: What is the man holding in his hand?",
+    "Based on the provided information sources, here is the generated question and the explanation of how the sources were utilized:\n\n**Generated Question:**\n\"Is the man?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: what is the main action the man is performing with the baseball bat?",
+      "answers": [
+        "swinging",
+        "throwing",
+        "holding"
+      ],
+      "score": 0.026816844940185547
+    },
+    {
+      "question": "what is the color of the baseball uniform the man is wearing?",
+      "answers": [
+        "blue",
+        "white",
+        "red"
+      ],
+      "score": 0.21606016159057617
+    },
+    {
+      "question": "what is the object the man is about to hit with the baseball bat?",
+      "answers": [
+        "baseball",
+        "frisbee",
+        "ball"
+      ],
+      "score": 0.042977333068847656
+    },
+    {
+      "question": "Question: What is the man holding in his hand?",
+      "answers": [
+        "baseball bat",
+        "frisbee",
+        "nothing"
+      ],
+      "score": 0.06024026870727539
+    },
+    {
+      "question": "Based on the provided information sources, here is the generated question and the explanation of how the sources were utilized:\n\n**Generated Question:**\n\"Is the man?",
+      "answers": [
+        "yes",
+        "no",
+        "maybe"
+      ],
+      "score": 0.0018892288208007812
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.069,
+  "probe_selection_seconds": 2.496,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "Question: what is the main action the man is performing with the baseball bat?",
+      "answer": "holding",
+      "rewrite": "A man holding a baseball bat in a park.",
+      "rank": 16,
+      "hit": false
+    },
+    "random": {
+      "question": "Question: what is the main action the man is performing with the baseball bat?",
+      "answer": "holding",
+      "rewrite": "A man holding a baseball bat in a park.",
+      "rank": 16,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the color of the baseball uniform the man is wearing?",
+      "answer": "blue",
+      "rewrite": "a man in a blue baseball uniform holding a baseball bat in a park",
+      "rank": 116,
+      "hit": false
+    }
+  },
+  "seconds": 20.052
+}

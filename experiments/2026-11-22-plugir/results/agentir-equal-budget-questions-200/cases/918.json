@@ -1,0 +1,78 @@
+{
+  "qid": 918,
+  "sample": 2,
+  "first_candidates": [
+    "what is the primary furniture item present in the very dark and empty room?",
+    "what is the location of the very dark and empty room?",
+    "what is the color of the traffic lights visible in the parking lot at night?",
+    "what is the name of the room described as very dark and empty?",
+    "what is the color of the furniture present in the very dark and empty room?"
+  ],
+  "second_candidates": [
+    "what is the color of the floor in the empty, dark room?",
+    "what is the color of the wall in the empty, dark room?",
+    "what is the lighting condition of the room where the bed is located?",
+    "what is the color of the couch in the empty, dark room?",
+    "what is the furniture arrangement in the empty, dark room?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the floor in the empty, dark room?",
+      "answers": [
+        "gray",
+        "black",
+        "brown"
+      ],
+      "score": 0.022781848907470703
+    },
+    {
+      "question": "what is the color of the wall in the empty, dark room?",
+      "answers": [
+        "black",
+        "dark",
+        "unknown"
+      ],
+      "score": 0.009872913360595703
+    },
+    {
+      "question": "what is the lighting condition of the room where the bed is located?",
+      "answers": [
+        "dark",
+        "empty",
+        "late at night"
+      ],
+      "score": 0.006273746490478516
+    },
+    {
+      "question": "what is the color of the couch in the empty, dark room?",
+      "answers": [
+        "black",
+        "brown",
+        "beige"
+      ],
+      "score": 0.03233957290649414
+    },
+    {
+      "question": "what is the furniture arrangement in the empty, dark room?",
+      "answers": [
+        "just a bed and couch",
+        "a bed, couch, and chair",
+        "bed, couch, and painting"
+      ],
+      "score": 0.015974998474121094
+    }
+  ],
+  "control": {
+    "question": "what is the primary furniture item present in the very dark and empty room?",
+    "score": 0.1572871208190918
+  },
+  "mixed": {
+    "question": "what is the primary furniture item present in the very dark and empty room?",
+    "score": 0.1572871208190918
+  },
+  "control_rank": 68,
+  "mixed_rank": 68,
+  "usual_rank": 68,
+  "new_answer": null,
+  "new_rewrite": null
+}

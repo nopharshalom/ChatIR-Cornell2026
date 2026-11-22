@@ -1,0 +1,79 @@
+{
+  "qid": 253,
+  "candidates": [
+    "Question: How many zebras are visible in the image?",
+    "Question: What is the color of the grass where the herd of zebras is eating?",
+    "Question: Question: What is the specific location or type of enclosure where the zebras are eating?",
+    "Question: What is the specific location or type of enclosure where the zebras are eating?",
+    "Question: What animal is the young one of the zebra in the image?"
+  ],
+  "kl": {
+    "question": "Question: How many zebras are visible in the image?",
+    "answer": "5",
+    "rewrite": "a herd of five zebras at the treeline eating",
+    "raw_rank": 21,
+    "unseen_rank": 13
+  },
+  "probe": {
+    "answer": "The zebras are eating in a zoo enclosure.",
+    "rewrite": "a herd of zebras eating in a zoo enclosure at the treeline",
+    "raw_rank": 3,
+    "unseen_rank": 3,
+    "question": "Question: What is the specific location or type of enclosure where the zebras are eating?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: How many zebras are visible in the image?",
+        "answers": [
+          "1",
+          "2",
+          "3"
+        ],
+        "score": 0.00013685226440429688
+      },
+      {
+        "question": "Question: What is the color of the grass where the herd of zebras is eating?",
+        "answers": [
+          "green",
+          "brown",
+          "dry"
+        ],
+        "score": 0.0881505012512207
+      },
+      {
+        "question": "Question: Question: What is the specific location or type of enclosure where the zebras are eating?",
+        "answers": [
+          "zoo enclosure",
+          "open area",
+          "field"
+        ],
+        "score": 0.04105043411254883
+      },
+      {
+        "question": "Question: What is the specific location or type of enclosure where the zebras are eating?",
+        "answers": [
+          "an open field",
+          "a zoo enclosure",
+          "by a puddle"
+        ],
+        "score": 0.12908649444580078
+      },
+      {
+        "question": "Question: What animal is the young one of the zebra in the image?",
+        "answers": [
+          "foal",
+          "colt",
+          "pup"
+        ],
+        "score": 0.0037488937377929688
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.056,
+    "probe_selection_seconds": 2.437,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": false
+}

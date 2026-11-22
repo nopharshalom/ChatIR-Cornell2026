@@ -1,0 +1,95 @@
+{
+  "qid": 1099,
+  "chosen": "what is the weather condition in the image?",
+  "plain": "what is the weather condition in the image?",
+  "plain_rank": 10,
+  "outcome": {
+    "question": "what is the weather condition in the image?",
+    "answer": "cloudy",
+    "rewrite": "cars stopped at a red light on a cloudy day, with buildings and houses on the block next to the road",
+    "rank": 10,
+    "hit": true
+  },
+  "evidence": {
+    "what is the other object in the image?": {
+      "labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "weights": null,
+      "score": 0.013207435607910156
+    },
+    "what is the weather condition in the image?": {
+      "labels": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        3,
+        0,
+        0
+      ],
+      "weights": null,
+      "score": 0.09086227416992188
+    },
+    "Question: what is the weather condition in the image?": {
+      "labels": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weights": null,
+      "score": 0.07002401351928711
+    },
+    "Question: What is the weather condition in the image?": {
+      "labels": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        3,
+        0,
+        0
+      ],
+      "weights": null,
+      "score": 0.0894160270690918
+    },
+    "what is the color of the traffic light in the image?": {
+      "labels": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weights": null,
+      "score": 0.024429798126220703
+    }
+  }
+}

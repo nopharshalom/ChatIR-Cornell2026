@@ -1,0 +1,71 @@
+{
+  "qid": 1716,
+  "initial": "a field of guys playing soccer 2 guys from opposite teams are jumping for the ball",
+  "initial_rank": 13,
+  "evidence": [
+    "a baseball field with a green field behind the pitcher",
+    "a pitcher getting ready to throw the ball at a baseball game",
+    "a tennis court with a green line",
+    "a girl in a red soccer uniform chasing a ball",
+    "a group of children are kicking a ball",
+    "a surfer doing a jump on the wave",
+    "man is jumping in the air and trying to catch the frisbee",
+    "a boy is playing soccer with a black soccer ball",
+    "two young men playing frisbee in a park",
+    "a crowd of people watching a tennis player play"
+  ],
+  "displayed_ids": [
+    42489,
+    38674,
+    34341,
+    12342,
+    19371,
+    21861,
+    24420,
+    39910,
+    27316,
+    30550
+  ],
+  "rejected_captions": [
+    "several people playing soccer on a field",
+    "players catching the ball in midair",
+    "a soccer player in the air",
+    "two young men playing soccer on a field",
+    "a football field with several people playing soccer",
+    "a person standing in the grass watching the soccer game",
+    "soccer players react to shots as they pass the ball",
+    "four men are playing soccer in a park",
+    "soccer players in a soccer game",
+    "two men on a soccer field"
+  ],
+  "candidates": [
+    "Question: What color is the shirt of one of the players jumping for the ball?",
+    "Question: What color is the ball being jumped for?",
+    "Question: What color is the field where the guys are playing soccer?",
+    "Question: What color is the grass on the field where the guys are playing soccer?",
+    "Question: What color is the shirt of the player wearing it?"
+  ],
+  "control_candidates": [
+    "what is the color of the soccer ball being kicked by the group of children?",
+    "what are the players wearing?",
+    "Question: Are the players in the image wearing red uniforms?",
+    "what is the location where the soccer game is taking place?",
+    "what is the other object in the image?"
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "answer": "the ball.",
+    "rewrite": "a field of guys playing soccer with a ball, where two guys from opposite teams are jumping for it",
+    "rank": 16,
+    "hit": false,
+    "raw_rank": 16,
+    "unseen_rank": 6
+  },
+  "variant": {
+    "question": "Question: What color is the ball being jumped for?",
+    "answer": "Black and white.",
+    "rewrite": "a field of guys playing soccer, with two guys from opposite teams jumping for a black and white ball",
+    "raw_rank": 33,
+    "unseen_rank": 23
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "qid": 1473,
+  "sample": 1,
+  "first_candidates": [
+    "what color is the umbrella the woman is holding?",
+    "what is the surface the woman is standing on?",
+    "Question: what color is the woman's dress?",
+    "Question: what is the color of the umbrella the woman is holding?",
+    "What color is the umbrella the woman is holding?"
+  ],
+  "second_candidates": [
+    "Question: What is the color of the umbrella the woman is holding?",
+    "what is the color of the umbrella the woman is carrying on a brick walkway?",
+    "what is the location where the woman is holding the red umbrella?",
+    "Question: What is the color of the umbrella the woman is holding?",
+    "what is the location where the woman is holding the red umbrella?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What is the color of the umbrella the woman is holding?",
+      "answers": [
+        "red",
+        "blue",
+        "black and white"
+      ],
+      "score": 0.14464759826660156
+    },
+    {
+      "question": "what is the color of the umbrella the woman is carrying on a brick walkway?",
+      "answers": [
+        "red",
+        "blue",
+        "black"
+      ],
+      "score": 0.12495183944702148
+    },
+    {
+      "question": "what is the location where the woman is holding the red umbrella?",
+      "answers": [
+        "brick walkway",
+        "street",
+        "crosswalk"
+      ],
+      "score": 0.06280946731567383
+    },
+    {
+      "question": "Question: What is the color of the umbrella the woman is holding?",
+      "answers": [
+        "red",
+        "blue",
+        "black and white"
+      ],
+      "score": 0.14464759826660156,
+      "duplicate_of": 0
+    },
+    {
+      "question": "what is the location where the woman is holding the red umbrella?",
+      "answers": [
+        "brick walkway",
+        "street",
+        "crosswalk"
+      ],
+      "score": 0.06280946731567383,
+      "duplicate_of": 2
+    }
+  ],
+  "control": {
+    "question": "what color is the umbrella the woman is holding?",
+    "score": 0.16843032836914062
+  },
+  "mixed": {
+    "question": "what color is the umbrella the woman is holding?",
+    "score": 0.16843032836914062
+  },
+  "control_rank": 6,
+  "mixed_rank": 6,
+  "usual_rank": 6,
+  "new_answer": null,
+  "new_rewrite": null
+}

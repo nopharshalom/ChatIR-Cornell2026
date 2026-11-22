@@ -1,0 +1,78 @@
+{
+  "qid": 946,
+  "sample": 2,
+  "first_candidates": [
+    "What is the location where the two men are playing the video game?",
+    "Question: What are the two men wearing?",
+    "Question: What is the specific room or setting where the two men are playing the video game?",
+    "what is the color of the jacket worn by the girl playing a video game in the living room?",
+    "what is the gender of the person playing the video game in the room wearing a gray sweater?"
+  ],
+  "second_candidates": [
+    "Question: Where are the two men located?",
+    "what color are the shirts of the two men playing video games?",
+    "Question: What color are the pants worn by the two men playing video games?",
+    "what color are the shirts of the two men standing and using video game remotes?",
+    "what color are the pants worn by the two men standing and using video game remotes?"
+  ],
+  "paths": [
+    {
+      "question": "Question: Where are the two men located?",
+      "answers": [
+        "living room",
+        "garden",
+        "tennis court"
+      ],
+      "score": 0.1532120704650879
+    },
+    {
+      "question": "what color are the shirts of the two men playing video games?",
+      "answers": [
+        "red",
+        "black",
+        "blue"
+      ],
+      "score": 0.06930685043334961
+    },
+    {
+      "question": "Question: What color are the pants worn by the two men playing video games?",
+      "answers": [
+        "black",
+        "white",
+        "blue"
+      ],
+      "score": 0.021663188934326172
+    },
+    {
+      "question": "what color are the shirts of the two men standing and using video game remotes?",
+      "answers": [
+        "red and black",
+        "gray",
+        "white"
+      ],
+      "score": 0.04651212692260742
+    },
+    {
+      "question": "what color are the pants worn by the two men standing and using video game remotes?",
+      "answers": [
+        "black",
+        "gray",
+        "blue"
+      ],
+      "score": 0.02281045913696289
+    }
+  ],
+  "control": {
+    "question": "Question: Where are the two men located?",
+    "score": 0.1532120704650879
+  },
+  "mixed": {
+    "question": "What is the location where the two men are playing the video game?",
+    "score": 0.14837026596069336
+  },
+  "control_rank": 141,
+  "mixed_rank": 141,
+  "usual_rank": 141,
+  "new_answer": "living room",
+  "new_rewrite": "two men stand in a living room while using video game remotes"
+}

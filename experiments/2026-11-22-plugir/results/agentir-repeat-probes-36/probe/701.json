@@ -1,0 +1,59 @@
+{
+  "qid": 701,
+  "arm": "probe",
+  "after_round": 9,
+  "ranks": [
+    33,
+    19,
+    66,
+    81,
+    169,
+    225,
+    776,
+    369,
+    80,
+    101,
+    33
+  ],
+  "continuation": [
+    {
+      "round": 10,
+      "query_before": "The image shows a Red Lobster restaurant with a blue awning. A man wearing an orange shirt is walking toward the entrance. Outside, a black one-way sign and a black traffic light are visible, along with a large round stone where people are standing.",
+      "question": "Is the building in the image a Red Lobster restaurant?",
+      "answer": "yes",
+      "query_after": "a Red Lobster restaurant with a blue awning, featuring a black one-way sign and a black traffic light, where a man in an orange shirt walks toward the entrance near a large round stone, with people standing in front of the building.",
+      "searches": [
+        {
+          "query": "A red lobster restaurant with a blue and black striped awning, a black one-way sign, a black traffic light, and a man in an orange shirt walking toward the entrance near a large round stone.",
+          "ids": [
+            18024,
+            28449,
+            3530
+          ],
+          "captions": [
+            "street signs are on the side of a brick building",
+            "the sidewalk is paved",
+            "a parking meter sits in the street in front of a restaurant"
+          ]
+        },
+        {
+          "query": "A red lobster restaurant with a blue and black striped awning, a black one-way sign, a black traffic light, and a man in a blue shirt walking toward the entrance near a large round stone.",
+          "ids": [
+            8717,
+            17131,
+            49708
+          ],
+          "captions": [
+            "the front facade of a building has blue and black striped awning",
+            "large restaurant sign",
+            "a building with a mascot"
+          ]
+        }
+      ],
+      "raw_plan": "A red lobster restaurant with a blue and black striped awning, a black one-way sign, a black traffic light, and a man in an orange shirt walking toward the entrance near a large round stone.\nA red lobster restaurant with a blue and black striped awning, a black one-way sign, a black traffic light, and a man in a blue shirt walking toward the entrance near a large round stone.",
+      "generated": "Is the building in the image a Red Lobster restaurant?",
+      "fallback": false
+    }
+  ],
+  "seconds": 4.1
+}

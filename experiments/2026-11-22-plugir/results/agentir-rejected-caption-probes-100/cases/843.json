@@ -1,0 +1,80 @@
+{
+  "qid": 843,
+  "candidates": [
+    "Question: What color is the plate holding the food and fruit?",
+    "what color is the mug of coffee next to the plate of food?",
+    "Question: What type of fruit is on the plate?",
+    "Question: What color is the mug of coffee next to the plate?",
+    "Question: What color is the mug of coffee next to the plate?"
+  ],
+  "kl": {
+    "question": "Question: What type of fruit is on the plate?",
+    "answer": "apple",
+    "rewrite": "a plate of food with apples, veggies, and a mug of coffee on a table",
+    "raw_rank": 1,
+    "unseen_rank": 1
+  },
+  "probe": {
+    "question": "Question: What type of fruit is on the plate?",
+    "answer": "apple",
+    "rewrite": "a plate of food with apples, veggies, and a mug of coffee on a table",
+    "raw_rank": 1,
+    "unseen_rank": 1
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What color is the plate holding the food and fruit?",
+        "answers": [
+          "white",
+          "brown",
+          "blue"
+        ],
+        "score": 0.07022476196289062
+      },
+      {
+        "question": "what color is the mug of coffee next to the plate of food?",
+        "answers": [
+          "white",
+          "brown",
+          "black"
+        ],
+        "score": 0.059800148010253906
+      },
+      {
+        "question": "Question: What type of fruit is on the plate?",
+        "answers": [
+          "apples",
+          "bananas",
+          "grapes"
+        ],
+        "score": 0.08243370056152344
+      },
+      {
+        "question": "Question: What color is the mug of coffee next to the plate?",
+        "answers": [
+          "white",
+          "black",
+          "brown"
+        ],
+        "score": 0.039035797119140625
+      },
+      {
+        "question": "Question: What color is the mug of coffee next to the plate?",
+        "answers": [
+          "white",
+          "black",
+          "brown"
+        ],
+        "score": 0.039035797119140625,
+        "duplicate_of": 3
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.05,
+    "probe_selection_seconds": 1.939,
+    "probe_llm_calls": 4,
+    "probe_search_queries": 12
+  },
+  "reused_outcome": true
+}

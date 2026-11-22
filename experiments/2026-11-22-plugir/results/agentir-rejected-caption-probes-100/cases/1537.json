@@ -1,0 +1,81 @@
+{
+  "qid": 1537,
+  "candidates": [
+    "Question: How many people are playing the video game in the image?",
+    "Question: What is the gender composition of the group playing the video game?",
+    "Question: What is the name of the video game console being used by the group?",
+    "Question: Where is the group of people playing the video game?",
+    "Question: Which specific video game console is being used by the group?"
+  ],
+  "kl": {
+    "question": "Question: How many people are playing the video game in the image?",
+    "answer": "2",
+    "rewrite": "two young people playing video games",
+    "raw_rank": 53,
+    "unseen_rank": 51
+  },
+  "probe": {
+    "question": "Question: Where is the group of people playing the video game?",
+    "answer": "Living room.",
+    "rewrite": "a group of young people playing video games in a living room",
+    "rank": 25,
+    "hit": false,
+    "raw_rank": 25,
+    "unseen_rank": 21
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: How many people are playing the video game in the image?",
+        "answers": [
+          "2",
+          "3",
+          "4"
+        ],
+        "score": 0.000156402587890625
+      },
+      {
+        "question": "Question: What is the gender composition of the group playing the video game?",
+        "answers": [
+          "male",
+          "female",
+          "mixed"
+        ],
+        "score": 0.022380352020263672
+      },
+      {
+        "question": "Question: What is the name of the video game console being used by the group?",
+        "answers": [
+          "Wii",
+          "Xbox",
+          "PlayStation"
+        ],
+        "score": 0.0130462646484375
+      },
+      {
+        "question": "Question: Where is the group of people playing the video game?",
+        "answers": [
+          "living room",
+          "gym",
+          "cafeteria"
+        ],
+        "score": 0.1379685401916504
+      },
+      {
+        "question": "Question: Which specific video game console is being used by the group?",
+        "answers": [
+          "Wii",
+          "PlayStation",
+          "Xbox"
+        ],
+        "score": 0.014682292938232422
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.052,
+    "probe_selection_seconds": 2.521,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": true
+}

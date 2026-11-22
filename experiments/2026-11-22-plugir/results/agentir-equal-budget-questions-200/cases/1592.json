@@ -1,0 +1,78 @@
+{
+  "qid": 1592,
+  "sample": 2,
+  "first_candidates": [
+    "Question: How many people are playing tennis on the court in the image?",
+    "Question: What is the gender of the person playing tennis on the court?",
+    "what is the color of the shirt worn by the person playing tennis on the court?",
+    "what is the color of the court where the person is playing tennis?",
+    "what is the gender of the people accompanying the person playing tennis?"
+  ],
+  "second_candidates": [
+    "what is the gender of the person playing tennis on the court?",
+    "Question: what is the color of the tennis player's clothing?",
+    "Question: What is the specific activity being performed by the man playing tennis in front of the crowd?",
+    "Question: How many people are playing tennis on the court?",
+    "Question: is the person playing tennis wearing a red shirt or a white dress?"
+  ],
+  "paths": [
+    {
+      "question": "what is the gender of the person playing tennis on the court?",
+      "answers": [
+        "male",
+        "female",
+        "girl"
+      ],
+      "score": 0.07154321670532227
+    },
+    {
+      "question": "Question: what is the color of the tennis player's clothing?",
+      "answers": [
+        "white",
+        "red",
+        "blue"
+      ],
+      "score": 0.19926071166992188
+    },
+    {
+      "question": "Question: What is the specific activity being performed by the man playing tennis in front of the crowd?",
+      "answers": [
+        "serving",
+        "returning",
+        "volleying"
+      ],
+      "score": 0.028357982635498047
+    },
+    {
+      "question": "Question: How many people are playing tennis on the court?",
+      "answers": [
+        "one",
+        "two",
+        "three"
+      ],
+      "score": 0.002716541290283203
+    },
+    {
+      "question": "Question: is the person playing tennis wearing a red shirt or a white dress?",
+      "answers": [
+        "red shirt",
+        "white dress",
+        "unknown"
+      ],
+      "score": 0.036989688873291016
+    }
+  ],
+  "control": {
+    "question": "what is the color of the shirt worn by the person playing tennis on the court?",
+    "score": 0.21251916885375977
+  },
+  "mixed": {
+    "question": "Question: What is the color of the shirt worn by the person playing tennis?",
+    "score": 0.2652578353881836
+  },
+  "control_rank": 165,
+  "mixed_rank": 165,
+  "usual_rank": 165,
+  "new_answer": null,
+  "new_rewrite": null
+}

@@ -1,0 +1,60 @@
+{
+  "qid": 1820,
+  "arm": "probe",
+  "after_round": 2,
+  "ranks": [
+    50,
+    11,
+    22,
+    11,
+    10
+  ],
+  "continuation": [
+    {
+      "round": 3,
+      "query_before": "An unfinished bathroom contains a single toilet and a bathtub.",
+      "question": "Is the bathroom unfinished or clean?",
+      "answer": "unfinished",
+      "query_after": "a single toilet and a bathtub sit inside an unfinished bathroom",
+      "searches": [
+        {
+          "query": "An unfinished bathroom containing a single toilet and a bathtub, possibly with exposed framing or missing fixtures.",
+          "ids": [
+            13372,
+            44244,
+            26716
+          ],
+          "captions": [
+            "a bathroom with an unfinished tub and toilet",
+            "small bathroom with sink tub and toilet",
+            "this is a rudimentary bathroom in need of remodeling"
+          ]
+        },
+        {
+          "query": "A dilapidated bathroom featuring a broken toilet and a bathtub, perhaps with water damage or debris scattered around.",
+          "ids": [
+            23925,
+            17818,
+            5645
+          ],
+          "captions": [
+            "a bathtub and toilet surrounded by dirty water",
+            "a toilet is broken in the shower",
+            "a bathroom with a broken toilet and some debris"
+          ]
+        }
+      ],
+      "raw_plan": "An unfinished bathroom containing a single toilet and a bathtub, possibly with exposed framing or missing fixtures.\nA dilapidated bathroom featuring a broken toilet and a bathtub, perhaps with water damage or debris scattered around.",
+      "generated": "Is the bathroom unfinished or clean?",
+      "fallback": false
+    },
+    {
+      "round": 4,
+      "query_before": "a single toilet and a bathtub sit inside an unfinished bathroom",
+      "question": "what is the material of the floor in the unfinished bathroom?",
+      "answer": "tile",
+      "query_after": "a single toilet and a bathtub sit inside an unfinished bathroom with a tiled floor"
+    }
+  ],
+  "seconds": 15.3
+}

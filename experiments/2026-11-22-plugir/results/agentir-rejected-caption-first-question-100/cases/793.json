@@ -1,0 +1,71 @@
+{
+  "qid": 793,
+  "initial": "an office desk is covered with several papers and 2 computers",
+  "initial_rank": 34,
+  "evidence": [
+    "group of people with laptops at a table",
+    "a desk with two computer monitors and a keyboard",
+    "the desk contains a cat and writing materials",
+    "two computers with two monitors",
+    "a two computer monitor computer desk near a window",
+    "a desk has two monitors, a keyboard, and a computer on it",
+    "two desks with monitors and a chair sitting in front of them",
+    "a laptop sitting on a table with other items beside it",
+    "a man sitting at a desk with four monitors in front of him",
+    "desk with lots of books and various items"
+  ],
+  "displayed_ids": [
+    28914,
+    9961,
+    10812,
+    7169,
+    41142,
+    2466,
+    40455,
+    25011,
+    49361,
+    5298
+  ],
+  "rejected_captions": [
+    "an office desk with two computer monitors",
+    "a desk with several computers and a monitor",
+    "a desk with three computers and a keyboard",
+    "the desk has a keyboard and a mouse",
+    "a desk cluttered with a computer, computer and some papers",
+    "two laptops on the desk",
+    "wooden desk with many things on it",
+    "a computer with a laptop and a mouse",
+    "a computer with a paperclip is atop a desk",
+    "black office chair"
+  ],
+  "candidates": [
+    "what is the color of the office desk?",
+    "what is the color of the office desk?",
+    "what is the number of monitors on the office desk?",
+    "Question: what is the number of monitors on the office desk?",
+    "what is the color of the office desk?"
+  ],
+  "control_candidates": [
+    "what is the color of the man's shirt sitting at the desk with four monitors?",
+    "what is the color of the man's shirt sitting at the desk with four monitors?",
+    "what is the object sitting on the desk with two monitors?",
+    "what is the object sitting on the desk with two monitors?",
+    "what is the object sitting on the desk with four monitors?"
+  ],
+  "control": {
+    "question": "what is the object sitting on the desk with two monitors?",
+    "answer": "laptop",
+    "rewrite": "an office desk is covered with several papers, two computers, and a laptop",
+    "rank": 22,
+    "hit": false,
+    "raw_rank": 22,
+    "unseen_rank": 12
+  },
+  "variant": {
+    "question": "what is the color of the office desk?",
+    "answer": "black",
+    "rewrite": "a black office desk is covered with several papers and 2 computers",
+    "raw_rank": 23,
+    "unseen_rank": 15
+  }
+}

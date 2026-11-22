@@ -1,0 +1,178 @@
+{
+  "qid": 1034,
+  "initial": "2 people walking down a city street lined with stores",
+  "initial_rank": 174,
+  "displayed": [
+    34381,
+    18141,
+    30285,
+    31113,
+    2638,
+    37029,
+    43762,
+    9133,
+    37975,
+    26878
+  ],
+  "evidence": [
+    "many signs hanging in the chinese district of a city",
+    "a woman wearing an umbrella walks outside of a shop near a bicycle",
+    "a crosswalk with bus and car traffic and a group of people",
+    "a car pulls up next to a building with a umbrella in the rain",
+    "a road with lots of cars on it",
+    "two people crossing the street in the evening near a street light",
+    "the woman holding an umbrella is standing near a farmers market",
+    "many people on skateboards in an intersection",
+    "a man wearing a blue shirt is walking with a woman on the street",
+    "couple in rain"
+  ],
+  "rejected_captions": [
+    "people walking down a street with large buildings in the background",
+    "a city street in a city",
+    "a man walking on the street",
+    "an overhanging door",
+    "a bike and scooter ride through the streets",
+    "man is riding on motorcycle",
+    "people walking down a city street",
+    "a couple walks down a city street",
+    "a street in an italian city with people and a crosswalk",
+    "a busy street with several stores and people"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the weather condition in the image where 2 people are walking down a city street lined with stores?",
+      "what is the woman wearing on her head or body while walking with the other person?",
+      "what is the name of the store or the specific type of street where the two people are walking?",
+      "what is the weather condition in the image where 2 people are walking down a city street lined with stores?",
+      "what is the man wearing on the street where the two people are walking?"
+    ],
+    "question": "what is the weather condition in the image where 2 people are walking down a city street lined with stores?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the weather condition in the image where 2 people are walking down a city street lined with stores?",
+          "answers": [
+            "rainy",
+            "sunny",
+            "cloudy"
+          ],
+          "score": 0.09846162796020508
+        },
+        {
+          "question": "what is the woman wearing on her head or body while walking with the other person?",
+          "answers": [
+            "an umbrella",
+            "a hat",
+            "nothing"
+          ],
+          "score": 0.09174203872680664
+        },
+        {
+          "question": "what is the name of the store or the specific type of street where the two people are walking?",
+          "answers": [
+            "Habitat 67",
+            "Corktown",
+            "Downtown"
+          ],
+          "score": 0.03917407989501953
+        },
+        {
+          "question": "what is the weather condition in the image where 2 people are walking down a city street lined with stores?",
+          "answers": [
+            "rainy",
+            "sunny",
+            "cloudy"
+          ],
+          "score": 0.09846162796020508,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the man wearing on the street where the two people are walking?",
+          "answers": [
+            "blue shirt",
+            "red shirt",
+            "jacket"
+          ],
+          "score": 0.09819173812866211
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.16,
+      "probe_selection_seconds": 2.318,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "cloudy",
+    "rewrite": "two people walking down a city street lined with stores on a cloudy day",
+    "raw_rank": 278,
+    "unseen_rank": 268
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the weather condition in the image where two people are walking down a city street lined with stores?",
+      "Question: Are the people walking down the city street wearing umbrellas?",
+      "Question: What is the color of the shirt worn by the man walking with the woman?",
+      "Question: What is the time of day depicted in the scene with the two people walking down the city street?",
+      "Question: What is the color of the umbrella held by the woman walking with the man?"
+    ],
+    "question": "Question: What is the weather condition in the image where two people are walking down a city street lined with stores?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the weather condition in the image where two people are walking down a city street lined with stores?",
+          "answers": [
+            "rainy",
+            "sunny",
+            "cloudy"
+          ],
+          "score": 0.0862274169921875
+        },
+        {
+          "question": "Question: Are the people walking down the city street wearing umbrellas?",
+          "answers": [
+            "Yes",
+            "No",
+            "Only one"
+          ],
+          "score": 0.0014948844909667969
+        },
+        {
+          "question": "Question: What is the color of the shirt worn by the man walking with the woman?",
+          "answers": [
+            "blue",
+            "red",
+            "black"
+          ],
+          "score": 0.07502365112304688
+        },
+        {
+          "question": "Question: What is the time of day depicted in the scene with the two people walking down the city street?",
+          "answers": [
+            "day",
+            "evening",
+            "night"
+          ],
+          "score": 0.053743839263916016
+        },
+        {
+          "question": "Question: What is the color of the umbrella held by the woman walking with the man?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.08345508575439453
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.087,
+      "probe_selection_seconds": 2.543,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "The weather condition in the image is sunny.",
+    "rewrite": "two people walking down a sunny city street lined with stores",
+    "raw_rank": 195,
+    "unseen_rank": 185
+  }
+}

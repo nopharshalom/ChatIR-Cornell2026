@@ -1,0 +1,177 @@
+{
+  "qid": 1709,
+  "initial": "a person is has a kite on a beach",
+  "initial_rank": 164,
+  "displayed": [
+    26328,
+    434,
+    37014,
+    22684,
+    12762,
+    28069,
+    13807,
+    6793,
+    37283,
+    14415
+  ],
+  "evidence": [
+    "red and yellow kite in the sky",
+    "a group of people are in the sky with kites in the air",
+    "a red kite flying across the sky",
+    "three children flying kites in the desert",
+    "a red kite is flying in the air",
+    "man sitting in park holding kite",
+    "a man parasailing on a wave in the ocean",
+    "a large ocean with a person walking along it with a surfboard",
+    "kitesurfers and surfers in the ocean",
+    "a group of people watching a large group of kites flying"
+  ],
+  "rejected_captions": [
+    "a person flying a kite on a beach",
+    "a man standing on a beach while flying kites",
+    "a person standing on the beach holding a large parachute",
+    "the clouds are blue",
+    "a child is flying a colorful kite on a beach",
+    "person flying a kite",
+    "a woman flying a kite",
+    "a kite in the air",
+    "a girl flying a kite on a beach",
+    "man standing on beach"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the color of the kite?",
+      "what is the other object in the image?",
+      "what is the activity the person is doing with the kite?",
+      "what is the location where the person is holding the kite?",
+      "what is the color of the kite the person is holding on the beach?"
+    ],
+    "question": "what is the color of the kite?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the kite?",
+          "answers": [
+            "red",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.18802165985107422
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "beach",
+            "ocean",
+            "sky"
+          ],
+          "score": 0.02924823760986328
+        },
+        {
+          "question": "what is the activity the person is doing with the kite?",
+          "answers": [
+            "flying",
+            "holding",
+            "watching"
+          ],
+          "score": 0.023268699645996094
+        },
+        {
+          "question": "what is the location where the person is holding the kite?",
+          "answers": [
+            "beach",
+            "park",
+            "sky"
+          ],
+          "score": 0.021090030670166016
+        },
+        {
+          "question": "what is the color of the kite the person is holding on the beach?",
+          "answers": [
+            "red",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.11296892166137695
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.075,
+      "probe_selection_seconds": 2.293,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "red",
+    "rewrite": "a person with a red kite on a beach",
+    "raw_rank": 31,
+    "unseen_rank": 29
+  },
+  "rejected": {
+    "candidates": [
+      "what is the color of the kite the person is holding on the beach?",
+      "Question: Where exactly is the person on the beach located (e.g., sitting, standing, or walking)?",
+      "Question: What is the color of the kite the person is holding on the beach?",
+      "Question: What is the gender of the person on the beach?",
+      "Question: What is the gender of the person holding the kite on the beach?"
+    ],
+    "question": "what is the color of the kite the person is holding on the beach?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the kite the person is holding on the beach?",
+          "answers": [
+            "red",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.11296892166137695
+        },
+        {
+          "question": "Question: Where exactly is the person on the beach located (e.g., sitting, standing, or walking)?",
+          "answers": [
+            "sitting",
+            "standing",
+            "walking"
+          ],
+          "score": 0.004299640655517578
+        },
+        {
+          "question": "Question: What is the color of the kite the person is holding on the beach?",
+          "answers": [
+            "red",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.0804600715637207
+        },
+        {
+          "question": "Question: What is the gender of the person on the beach?",
+          "answers": [
+            "male",
+            "female",
+            "child"
+          ],
+          "score": 0.04002714157104492
+        },
+        {
+          "question": "Question: What is the gender of the person holding the kite on the beach?",
+          "answers": [
+            "male",
+            "female",
+            "child"
+          ],
+          "score": 0.05254030227661133
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.087,
+      "probe_selection_seconds": 2.225,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "red",
+    "rewrite": "a person holding a red kite on a beach",
+    "raw_rank": 68,
+    "unseen_rank": 65
+  }
+}

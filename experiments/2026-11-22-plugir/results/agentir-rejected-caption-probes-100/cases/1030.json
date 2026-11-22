@@ -1,0 +1,79 @@
+{
+  "qid": 1030,
+  "candidates": [
+    "Question: What is the primary color of the bathroom walls?",
+    "Question: Where is the phone located in the bathroom?",
+    "Question: Question: What color are the phone and toilet roll dispensers in the bathroom?",
+    "Question: Question: What type of flooring is visible in the bathroom?",
+    "Question: What material is the phone mounted on in the bathroom?"
+  ],
+  "kl": {
+    "question": "Question: What material is the phone mounted on in the bathroom?",
+    "answer": "wall",
+    "rewrite": "a bathroom with a phone mounted on the wall and 2 toilet roll dispensers",
+    "raw_rank": 14,
+    "unseen_rank": 4
+  },
+  "probe": {
+    "answer": "tiled",
+    "rewrite": "a bathroom with tiled flooring, a phone, and 2 toilet roll dispensers",
+    "raw_rank": 16,
+    "unseen_rank": 11,
+    "question": "Question: Question: What type of flooring is visible in the bathroom?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the primary color of the bathroom walls?",
+        "answers": [
+          "White",
+          "Brown",
+          "Tiled"
+        ],
+        "score": 0.06747579574584961
+      },
+      {
+        "question": "Question: Where is the phone located in the bathroom?",
+        "answers": [
+          "on the wall",
+          "on the counter",
+          "on the sink"
+        ],
+        "score": 0.033257484436035156
+      },
+      {
+        "question": "Question: Question: What color are the phone and toilet roll dispensers in the bathroom?",
+        "answers": [
+          "white",
+          "silver",
+          "gold"
+        ],
+        "score": 0.038469791412353516
+      },
+      {
+        "question": "Question: Question: What type of flooring is visible in the bathroom?",
+        "answers": [
+          "Tile",
+          "Wood",
+          "Carpet"
+        ],
+        "score": 0.08257055282592773
+      },
+      {
+        "question": "Question: What material is the phone mounted on in the bathroom?",
+        "answers": [
+          "wall",
+          "mirror",
+          "screen"
+        ],
+        "score": 0.029682636260986328
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.055,
+    "probe_selection_seconds": 2.342,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": false
+}

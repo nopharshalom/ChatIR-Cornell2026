@@ -1,0 +1,70 @@
+{
+  "chosen": "what is the color of the woman's outfit?",
+  "default": "Question: What is the location of the woman?",
+  "ids": [
+    9496,
+    25883,
+    36045,
+    885
+  ],
+  "trials": {
+    "Question: What is the location of the woman?": {
+      "answers": [
+        "tennis court",
+        "tennis court",
+        "tennis court",
+        "tennis court"
+      ],
+      "rewrites": {
+        "tennis court": "a woman stands on one foot with her arms out, holding a tennis racquet on a tennis court"
+      },
+      "ranks": [
+        21,
+        13,
+        35,
+        32
+      ],
+      "hits": 0
+    },
+    "Question: What color is the woman's outfit?": {
+      "answers": [
+        "Blue and white.",
+        "White.",
+        "white",
+        "Blue and white."
+      ],
+      "rewrites": {
+        "Blue and white.": "a woman in a blue and white outfit stands on one foot with her arms out, holding a tennis racquet",
+        "White.": "a woman in a white outfit stands on one foot with her arms out, holding a tennis racquet",
+        "white": "a woman in a white outfit stands on one foot with her arms out, holding a tennis racquet"
+      },
+      "ranks": [
+        3,
+        14,
+        6,
+        11
+      ],
+      "hits": 2
+    },
+    "what is the color of the woman's outfit?": {
+      "answers": [
+        "blue and white",
+        "white",
+        "white",
+        "light blue"
+      ],
+      "rewrites": {
+        "blue and white": "a woman in a blue and white outfit stands on one foot with her arms out, holding a tennis racquet",
+        "white": "a woman in a white outfit stands on one foot with her arms out, holding a tennis racquet",
+        "light blue": "a woman in a light blue outfit is standing on one foot with her arms out, holding a tennis racquet"
+      },
+      "ranks": [
+        3,
+        14,
+        6,
+        5
+      ],
+      "hits": 3
+    }
+  }
+}

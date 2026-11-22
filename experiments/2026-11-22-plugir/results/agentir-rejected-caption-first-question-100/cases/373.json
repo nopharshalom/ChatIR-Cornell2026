@@ -1,0 +1,71 @@
+{
+  "qid": 373,
+  "initial": "a graffiti covered train sitting on the tracks",
+  "initial_rank": 24,
+  "evidence": [
+    "a white truck that is painted graffiti",
+    "an electric locomotive is passing a town on the tracks",
+    "a bathroom with a lot of graffiti and a small sink",
+    "a blue and yellow train goes through countryside",
+    "the yellow and red train is traveling along tracks",
+    "a yellow and blue train is on the tracks",
+    "a yellow, blue and black train coming into a station",
+    "a train traveling down a railroad track with a few trees",
+    "a red train on train tracks with red striped cars",
+    "a white and blue bus parked outside of a house"
+  ],
+  "displayed_ids": [
+    24504,
+    21273,
+    49682,
+    32392,
+    42350,
+    26763,
+    32847,
+    41266,
+    20668,
+    18090
+  ],
+  "rejected_captions": [
+    "a graffiti covered train is sitting in a city",
+    "a train with graffiti and graffiti on its side",
+    "red and white train car",
+    "a train with graffiti painted on it and another one on the platform",
+    "graffiti on the side of a train",
+    "an old train with graffiti on it",
+    "graffiti on the rail yard",
+    "the green train is dirty",
+    "a green train with graffiti on the side",
+    "a white and black train car parked in a train station"
+  ],
+  "candidates": [
+    "Question: Is the graffiti on the train predominantly white, or is it a mix of other colors like yellow and red?",
+    "Question: What color is the graffiti-covered train?",
+    "Question: What color is the graffiti-covered train?",
+    "Question: Is the graffiti on the train predominantly white, or is it a mix of other colors like yellow and red?",
+    "Question: Is the train in the image yellow, blue, or red?"
+  ],
+  "control_candidates": [
+    "Question: what is the primary color of the graffiti-covered train?",
+    "what is the primary color of the graffiti-covered train?",
+    "what is the primary color of the graffiti-covered train?",
+    "what is the primary color of the graffiti-covered train?",
+    "what is the primary color of the train in the image where the train is painted with graffiti?"
+  ],
+  "control": {
+    "question": "what is the primary color of the graffiti-covered train?",
+    "answer": "red",
+    "rewrite": "a red graffiti-covered train sitting on the tracks",
+    "rank": 15,
+    "hit": false,
+    "raw_rank": 15,
+    "unseen_rank": 11
+  },
+  "variant": {
+    "question": "Question: What color is the graffiti-covered train?",
+    "answer": "Red.",
+    "rewrite": "a red graffiti-covered train sitting on the tracks",
+    "raw_rank": 15,
+    "unseen_rank": 11
+  }
+}

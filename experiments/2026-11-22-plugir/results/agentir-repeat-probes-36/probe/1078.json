@@ -1,0 +1,86 @@
+{
+  "qid": 1078,
+  "arm": "probe",
+  "after_round": 4,
+  "ranks": [
+    42,
+    30,
+    38,
+    49,
+    47,
+    65,
+    63,
+    86,
+    106,
+    6
+  ],
+  "continuation": [
+    {
+      "round": 5,
+      "query_before": "a stop sign is set up where three roads intersect on a paved surface, with street signs located behind it",
+      "question": "Is the stop sign located in a grassy area or on a paved road?",
+      "answer": "paved road",
+      "query_after": "a stop sign is set up on a paved road at the intersection of three roads, accompanied by street signs located behind it",
+      "searches": [
+        {
+          "query": "a stop sign at the intersection of three paved roads with street signs mounted behind it",
+          "ids": [
+            40027,
+            34392,
+            9636
+          ],
+          "captions": [
+            "a street sign with several signs on it",
+            "a stop sign is in a grassy area",
+            "the top of a pole has three traffic signs"
+          ]
+        },
+        {
+          "query": "a stop sign at the intersection of three paved roads with street signs mounted behind it, featuring a black and yellow directional sign on a pole next to a building",
+          "ids": [
+            32038,
+            29717,
+            37123
+          ],
+          "captions": [
+            "a stop sign atop a pole",
+            "a city street with a stop sign",
+            "the stone wall is made of stone"
+          ]
+        }
+      ],
+      "raw_plan": "a stop sign at the intersection of three paved roads with street signs mounted behind it\na stop sign at the intersection of three paved roads with street signs mounted behind it, featuring a black and yellow directional sign on a pole next to a building",
+      "generated": "Is the stop sign located in a grassy area or on a paved road?",
+      "fallback": false
+    },
+    {
+      "round": 6,
+      "query_before": "a stop sign is set up on a paved road at the intersection of three roads, accompanied by street signs located behind it",
+      "question": "what is the other object in the image?",
+      "answer": "stop sign",
+      "query_after": "a stop sign is set up on a paved road at the intersection of three roads, with street signs located behind it"
+    },
+    {
+      "round": 7,
+      "query_before": "a stop sign is set up on a paved road at the intersection of three roads, with street signs located behind it",
+      "question": "what is the weather condition in the image?",
+      "answer": "clear",
+      "query_after": "a stop sign stands on a paved road at the intersection of three roads, accompanied by street signs behind it under clear weather conditions"
+    },
+    {
+      "round": 8,
+      "query_before": "a stop sign stands on a paved road at the intersection of three roads, accompanied by street signs behind it under clear weather conditions",
+      "question": "what is the type of intersection where the stop sign is located?",
+      "answer": "T-intersection.",
+      "query_after": "a stop sign stands on a paved road at a T-intersection, accompanied by street signs behind it under clear weather conditions."
+    },
+    {
+      "round": 9,
+      "query_before": "a stop sign stands on a paved road at a T-intersection, accompanied by street signs behind it under clear weather conditions.",
+      "question": "what is the background scene behind the stop sign?",
+      "answer": "The background scene behind the stop sign includes:\n\n- A street corner with buildings (one appears to be a house or small apartment building with a balcony).\n- Power lines and utility poles.\n- Two cars parked or stopped on the",
+      "query_after": "A stop sign stands on a paved road at a T-intersection under clear skies, accompanied by street signs behind it, with a background featuring a street corner, buildings, utility poles, and two parked cars."
+    }
+  ],
+  "seconds": 73.4
+}

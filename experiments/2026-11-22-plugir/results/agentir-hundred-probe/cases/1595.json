@@ -1,0 +1,101 @@
+{
+  "qid": 1595,
+  "initial": "a workstation with a laptop and an extra monitor",
+  "initial_rank": 99,
+  "evidence": [
+    "two black laptops next to each other",
+    "a couple of laptop computers with their screen lit up",
+    "two cats laying on a desk",
+    "two desks with monitors and a chair sitting in front of them",
+    "a man sitting at a desk with four monitors in front of him",
+    "a desk with two computer monitors and a keyboard",
+    "a laptop on a desk with an electronic cord",
+    "a small home office with lots of books",
+    "three monitors mounted on a desk",
+    "two laptops are on a table next to a window"
+  ],
+  "candidates": [
+    "what is the color of the laptop in the workstation?",
+    "what is the location of the laptop in the workstation?",
+    "what is the color of the extra monitor in the workstation?",
+    "Question: Is the laptop in the workstation placed on a desk or a table?",
+    "what is the color of the extra monitor in the workstation?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the laptop in the workstation?",
+      "answers": [
+        "black",
+        "silver",
+        "white"
+      ],
+      "score": 0.04756975173950195
+    },
+    {
+      "question": "what is the location of the laptop in the workstation?",
+      "answers": [
+        "on a desk",
+        "on a table",
+        "on the floor"
+      ],
+      "score": 0.037642478942871094
+    },
+    {
+      "question": "what is the color of the extra monitor in the workstation?",
+      "answers": [
+        "black",
+        "white",
+        "blue"
+      ],
+      "score": 0.051161766052246094
+    },
+    {
+      "question": "Question: Is the laptop in the workstation placed on a desk or a table?",
+      "answers": [
+        "desk",
+        "table",
+        "unknown"
+      ],
+      "score": 0.0022683143615722656
+    },
+    {
+      "question": "what is the color of the extra monitor in the workstation?",
+      "answers": [
+        "black",
+        "white",
+        "blue"
+      ],
+      "score": 0.051161766052246094,
+      "duplicate_of": 2
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.064,
+  "probe_selection_seconds": 1.965,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "what is the location of the laptop in the workstation?",
+      "answer": "The laptop is in the center of the workstation.",
+      "rewrite": "a workstation featuring a laptop positioned in the center and an extra monitor",
+      "rank": 58,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the color of the extra monitor in the workstation?",
+      "answer": "black",
+      "rewrite": "a workstation with a laptop and a black extra monitor",
+      "rank": 91,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the color of the extra monitor in the workstation?",
+      "answer": "black",
+      "rewrite": "a workstation with a laptop and a black extra monitor",
+      "rank": 91,
+      "hit": false
+    }
+  },
+  "seconds": 12.945
+}

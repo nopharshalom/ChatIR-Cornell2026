@@ -1,0 +1,101 @@
+{
+  "qid": 532,
+  "arm": "probe",
+  "after_round": 3,
+  "ranks": [
+    95,
+    25,
+    20,
+    20,
+    150,
+    65,
+    63,
+    60,
+    55,
+    58,
+    50
+  ],
+  "continuation": [
+    {
+      "round": 4,
+      "query_before": "A baseball player wearing a gray uniform stands on the mound, gripping a bat and poised to swing.",
+      "question": "Is the player on the mound holding a bat or a ball?",
+      "answer": "ball",
+      "query_after": "a baseball player in a gray uniform stands on the mound holding a ball, ready to pitch",
+      "searches": [
+        {
+          "query": "a baseball player in a gray uniform holding a bat on the mound, swinging at a ball",
+          "ids": [
+            21965,
+            16243,
+            7856
+          ],
+          "captions": [
+            "baseball player throwing a pitch",
+            "the batter is swinging at a baseball",
+            "a baseball player swinging the bat"
+          ]
+        },
+        {
+          "query": "a baseball player in a white uniform holding a bat on the mound, swinging at a ball",
+          "ids": [
+            46351,
+            14834,
+            31585
+          ],
+          "captions": [
+            "the batter swings a bat while playing baseball",
+            "a baseball player with the bat is about to swing",
+            "a man swinging a baseball"
+          ]
+        }
+      ],
+      "raw_plan": "a baseball player in a gray uniform holding a bat on the mound, swinging at a ball\na baseball player in a white uniform holding a bat on the mound, swinging at a ball",
+      "generated": "Is the player on the mound holding a bat or a ball?",
+      "fallback": false
+    },
+    {
+      "round": 5,
+      "query_before": "a baseball player in a gray uniform stands on the mound holding a ball, ready to pitch",
+      "question": "what is the other object in the image?",
+      "answer": "crowd",
+      "query_after": "a baseball player in a gray uniform stands on the mound holding a ball, with a crowd in the background"
+    },
+    {
+      "round": 6,
+      "query_before": "a baseball player in a gray uniform stands on the mound holding a ball, with a crowd in the background",
+      "question": "Question: Which team is the baseball player representing?",
+      "answer": "Boston.",
+      "query_after": "a Boston baseball player in a gray uniform stands on the mound holding a ball, with a crowd in the background"
+    },
+    {
+      "round": 7,
+      "query_before": "a Boston baseball player in a gray uniform stands on the mound holding a ball, with a crowd in the background",
+      "question": "what is the other object in the image?",
+      "answer": "crowd",
+      "query_after": "A Boston baseball player wearing a gray uniform stands on the mound holding a ball, with a crowd visible in the background."
+    },
+    {
+      "round": 8,
+      "query_before": "A Boston baseball player wearing a gray uniform stands on the mound holding a ball, with a crowd visible in the background.",
+      "question": "what is the color of the fence in the background?",
+      "answer": "blue",
+      "query_after": "a Boston baseball player in a gray uniform stands on the mound holding a ball, with a crowd and a blue fence in the background"
+    },
+    {
+      "round": 9,
+      "query_before": "a Boston baseball player in a gray uniform stands on the mound holding a ball, with a crowd and a blue fence in the background",
+      "question": "what is the other object in the image?",
+      "answer": "crowd",
+      "query_after": "a Boston baseball player in a gray uniform stands on the mound holding a ball, with a blue fence and a crowd in the background"
+    },
+    {
+      "round": 10,
+      "query_before": "a Boston baseball player in a gray uniform stands on the mound holding a ball, with a blue fence and a crowd in the background",
+      "question": "what is the other object in the image?",
+      "answer": "crowd",
+      "query_after": "A Boston baseball player wearing a gray uniform is positioned on the mound holding a ball, with a blue fence and a crowd visible in the background."
+    }
+  ],
+  "seconds": 132.3
+}

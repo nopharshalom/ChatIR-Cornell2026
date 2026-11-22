@@ -1,0 +1,79 @@
+{
+  "qid": 298,
+  "candidates": [
+    "Question: Is the elephant gray or brown?",
+    "Question: Is the elephant standing near rocks or in an enclosure?",
+    "Question: Is the elephant near trees or rocks?",
+    "Question: Is the elephant standing alone or with other elephants?",
+    "Question: Is there a boat visible in the background?"
+  ],
+  "kl": {
+    "question": "Question: Is there a boat visible in the background?",
+    "answer": "no",
+    "rewrite": "an elephant stands on grass by the water with no boat visible in the background",
+    "raw_rank": 27,
+    "unseen_rank": 17
+  },
+  "probe": {
+    "answer": "alone",
+    "rewrite": "an elephant stands alone on grass by the water",
+    "raw_rank": 32,
+    "unseen_rank": 22,
+    "question": "Question: Is the elephant standing alone or with other elephants?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: Is the elephant gray or brown?",
+        "answers": [
+          "gray",
+          "brown",
+          "dark gray"
+        ],
+        "score": 0.003901958465576172
+      },
+      {
+        "question": "Question: Is the elephant standing near rocks or in an enclosure?",
+        "answers": [
+          "rocks",
+          "enclosure",
+          "neither"
+        ],
+        "score": 0.0047321319580078125
+      },
+      {
+        "question": "Question: Is the elephant near trees or rocks?",
+        "answers": [
+          "trees",
+          "rocks",
+          "neither"
+        ],
+        "score": 0.006407737731933594
+      },
+      {
+        "question": "Question: Is the elephant standing alone or with other elephants?",
+        "answers": [
+          "alone",
+          "with others",
+          "with a group"
+        ],
+        "score": 0.017383575439453125
+      },
+      {
+        "question": "Question: Is there a boat visible in the background?",
+        "answers": [
+          "yes",
+          "no",
+          "maybe"
+        ],
+        "score": 0.0009427070617675781
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.048,
+    "probe_selection_seconds": 2.327,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": false
+}

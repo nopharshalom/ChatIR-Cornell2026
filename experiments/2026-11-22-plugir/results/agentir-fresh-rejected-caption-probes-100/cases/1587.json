@@ -1,0 +1,177 @@
+{
+  "qid": 1587,
+  "initial": "people are sitting at a dinner table eating",
+  "initial_rank": 71,
+  "displayed": [
+    46799,
+    29447,
+    863,
+    45015,
+    25001,
+    8165,
+    45268,
+    46440,
+    39460,
+    20161
+  ],
+  "evidence": [
+    "five men at a table sitting together",
+    "group photo of some people at tables and some with laptops",
+    "a group of people eating and drinking pizza in a bar",
+    "a white table is adorned with plates of food and utensils",
+    "several women sitting at an outdoor table enjoying pizza",
+    "four people sitting around an outdoor table",
+    "three women and one man are preparing pizza",
+    "a woman is grabbing food while standing next to a plate of food",
+    "a plate with a wine glass and two dishes",
+    "a family is eating pizza at a table with three children around them"
+  ],
+  "rejected_captions": [
+    "a woman drinking wine",
+    "four people sitting around a table",
+    "the group of people have plates full of food at a restaurant",
+    "a group of people are sitting around a table eating lunch",
+    "a group of people sitting at a dinner table",
+    "a group of people sitting at a table",
+    "a group of people are sitting at a table together",
+    "a group of people eating at a table",
+    "a bunch of friends sit at a dinner table",
+    "a long dining table of people"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the type of food being eaten by the people at the table?",
+      "Question: Who are the people sitting at the dinner table?",
+      "Question: how many people are sitting at the table?",
+      "what is the location of the dinner table where the people are eating?",
+      "what color is the table where the people are sitting and eating?"
+    ],
+    "question": "what color is the table where the people are sitting and eating?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the type of food being eaten by the people at the table?",
+          "answers": [
+            "pizza",
+            "generic food",
+            "unknown"
+          ],
+          "score": 0.10110187530517578
+        },
+        {
+          "question": "Question: Who are the people sitting at the dinner table?",
+          "answers": [
+            "family",
+            "women",
+            "men"
+          ],
+          "score": 0.06727457046508789
+        },
+        {
+          "question": "Question: how many people are sitting at the table?",
+          "answers": [
+            "three",
+            "four",
+            "five"
+          ],
+          "score": 0.007183551788330078
+        },
+        {
+          "question": "what is the location of the dinner table where the people are eating?",
+          "answers": [
+            "indoor",
+            "outdoor",
+            "bar"
+          ],
+          "score": 0.12285852432250977
+        },
+        {
+          "question": "what color is the table where the people are sitting and eating?",
+          "answers": [
+            "white",
+            "wooden",
+            "outdoor"
+          ],
+          "score": 0.12568330764770508
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.074,
+      "probe_selection_seconds": 2.485,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "brown",
+    "rewrite": "people are sitting at a brown dinner table eating",
+    "raw_rank": 39,
+    "unseen_rank": 32
+  },
+  "rejected": {
+    "candidates": [
+      "Question: How many people are sitting at the table?",
+      "Question: Are the people eating pizza or just lunch/dinner?",
+      "what is the gender composition of the group sitting at the table?",
+      "what type of table are the people sitting at?",
+      "Question: Are there any children present at the table?"
+    ],
+    "question": "what type of table are the people sitting at?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: How many people are sitting at the table?",
+          "answers": [
+            "three",
+            "four",
+            "five"
+          ],
+          "score": 0.007183551788330078
+        },
+        {
+          "question": "Question: Are the people eating pizza or just lunch/dinner?",
+          "answers": [
+            "Pizza",
+            "Just lunch or dinner",
+            "Something else"
+          ],
+          "score": 0.009060382843017578
+        },
+        {
+          "question": "what is the gender composition of the group sitting at the table?",
+          "answers": [
+            "all men",
+            "all women",
+            "mixed"
+          ],
+          "score": 0.06852293014526367
+        },
+        {
+          "question": "what type of table are the people sitting at?",
+          "answers": [
+            "indoor table",
+            "outdoor table",
+            "dinner table"
+          ],
+          "score": 0.11852788925170898
+        },
+        {
+          "question": "Question: Are there any children present at the table?",
+          "answers": [
+            "Yes, there are children.",
+            "No, only adults.",
+            "Maybe, it's hard to tell."
+          ],
+          "score": 0.006722450256347656
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.085,
+      "probe_selection_seconds": 3.04,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "wooden",
+    "rewrite": "people are sitting at a wooden dinner table eating",
+    "raw_rank": 19,
+    "unseen_rank": 16
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "qid": 1219,
+  "sample": 1,
+  "first_candidates": [
+    "what color is the shower curtain in the bathroom with a shower?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the color of the walls in the bathroom with a shower?",
+    "what is the color of the walls in the bathroom with a shower?"
+  ],
+  "second_candidates": [
+    "what color is the curtain in the bathroom with a shower?",
+    "what is the other object in the image?",
+    "Question: Which candidate image shows a bathroom with gray walls and a shower?",
+    "what is the color of the walls in the bathroom with a shower?",
+    "what color is the wall in the bathroom with a shower?"
+  ],
+  "paths": [
+    {
+      "question": "what color is the curtain in the bathroom with a shower?",
+      "answers": [
+        "blue",
+        "white",
+        "gray"
+      ],
+      "score": 0.0415959358215332
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "toilet",
+        "sink",
+        "mirror"
+      ],
+      "score": 0.10426139831542969
+    },
+    {
+      "question": "Question: Which candidate image shows a bathroom with gray walls and a shower?",
+      "answers": [
+        "0",
+        "3",
+        "4"
+      ],
+      "score": 0.0002803802490234375
+    },
+    {
+      "question": "what is the color of the walls in the bathroom with a shower?",
+      "answers": [
+        "gray",
+        "white",
+        "blue"
+      ],
+      "score": 0.043824195861816406
+    },
+    {
+      "question": "what color is the wall in the bathroom with a shower?",
+      "answers": [
+        "gray",
+        "white",
+        "blue"
+      ],
+      "score": 0.04191398620605469
+    }
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "score": 0.10426139831542969
+  },
+  "mixed": {
+    "question": "what is the other object in the image?",
+    "score": 0.10426139831542969
+  },
+  "control_rank": 47,
+  "mixed_rank": 47,
+  "usual_rank": 47,
+  "new_answer": null,
+  "new_rewrite": null
+}

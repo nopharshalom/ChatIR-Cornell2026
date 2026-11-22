@@ -1,0 +1,79 @@
+{
+  "qid": 552,
+  "candidates": [
+    "what type of obstacle is the man jumping over?",
+    "Question: what is the setting of the scene where the man is jumping over the obstacle?",
+    "Question: what is the lighting condition of the scene?",
+    "what is the color of the photo showing the man jumping over an obstacle?",
+    "what is the clothing of the man jumping over the obstacle?"
+  ],
+  "kl": {
+    "question": "what type of obstacle is the man jumping over?",
+    "answer": "a rail.",
+    "rewrite": "a man on a skateboard jumping over a rail",
+    "raw_rank": 105,
+    "unseen_rank": 97
+  },
+  "probe": {
+    "question": "Question: what is the lighting condition of the scene?",
+    "answer": "sunset",
+    "rewrite": "a man on a skateboard jumping over an obstacle at sunset",
+    "raw_rank": 5,
+    "unseen_rank": 5
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "what type of obstacle is the man jumping over?",
+        "answers": [
+          "ramp",
+          "hurdles",
+          "sidewalk"
+        ],
+        "score": 0.08381843566894531
+      },
+      {
+        "question": "Question: what is the setting of the scene where the man is jumping over the obstacle?",
+        "answers": [
+          "a ramp",
+          "a cement sidewalk",
+          "a park"
+        ],
+        "score": 0.07238149642944336
+      },
+      {
+        "question": "Question: what is the lighting condition of the scene?",
+        "answers": [
+          "day",
+          "night",
+          "indoor"
+        ],
+        "score": 0.09381246566772461
+      },
+      {
+        "question": "what is the color of the photo showing the man jumping over an obstacle?",
+        "answers": [
+          "black and white",
+          "color",
+          "brown"
+        ],
+        "score": 0.06158018112182617
+      },
+      {
+        "question": "what is the clothing of the man jumping over the obstacle?",
+        "answers": [
+          "jeans and t-shirt",
+          "hoodie and shorts",
+          "backwards cap and jacket"
+        ],
+        "score": 0.05436992645263672
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.053,
+    "probe_selection_seconds": 2.607,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": true
+}

@@ -1,0 +1,84 @@
+{
+  "qid": 1226,
+  "candidates": [
+    "Question: What is the color of the grass in the field where the giraffes are standing?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "kl": {
+    "question": "what is the other object in the image?",
+    "answer": "giraffe",
+    "rewrite": "3 or 4 giraffes are outside in a field with a shrub or tree and another giraffe",
+    "rank": 20,
+    "hit": false,
+    "raw_rank": 20,
+    "unseen_rank": 10
+  },
+  "probe": {
+    "answer": "yellow",
+    "rewrite": "3 or 4 giraffes are standing in a field with yellow grass, accompanied by a shrub or tree.",
+    "raw_rank": 14,
+    "unseen_rank": 8,
+    "question": "Question: What is the color of the grass in the field where the giraffes are standing?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the color of the grass in the field where the giraffes are standing?",
+        "answers": [
+          "green",
+          "brown",
+          "dry"
+        ],
+        "score": 0.03782987594604492
+      },
+      {
+        "question": "what is the other object in the image?",
+        "answers": [
+          "a tree",
+          "a shrub",
+          "a feeder"
+        ],
+        "score": 0.015029430389404297
+      },
+      {
+        "question": "what is the other object in the image?",
+        "answers": [
+          "a tree",
+          "a shrub",
+          "a feeder"
+        ],
+        "score": 0.015029430389404297,
+        "duplicate_of": 1
+      },
+      {
+        "question": "what is the other object in the image?",
+        "answers": [
+          "a tree",
+          "a shrub",
+          "a feeder"
+        ],
+        "score": 0.015029430389404297,
+        "duplicate_of": 1
+      },
+      {
+        "question": "what is the other object in the image?",
+        "answers": [
+          "a tree",
+          "a shrub",
+          "a feeder"
+        ],
+        "score": 0.015029430389404297,
+        "duplicate_of": 1
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.051,
+    "probe_selection_seconds": 1.024,
+    "probe_llm_calls": 2,
+    "probe_search_queries": 6
+  },
+  "reused_outcome": false
+}

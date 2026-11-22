@@ -1,0 +1,78 @@
+{
+  "qid": 827,
+  "sample": 1,
+  "first_candidates": [
+    "what is the specific type of food contained in each of the four small white bowls on the table?",
+    "Question: What is the specific type of food contained in each of the four small white bowls on the table?",
+    "Question: What is the color of the table upon which the four small white bowls of food are placed?",
+    "Question: What is the color of the table holding the four small white bowls of food?",
+    "what is the specific type of food contained in each of the four small white bowls on the table?"
+  ],
+  "second_candidates": [
+    "what is the specific type of food contained in the 4 small white bowls on the table?",
+    "what color is the table on which the 4 small white bowls of associated foods are placed?",
+    "what is the specific food item present in the bowl located next to the apple?",
+    "What are the specific types of food contained in the four small white bowls?",
+    "what is the color of the table on which the 4 small white bowls are placed?"
+  ],
+  "paths": [
+    {
+      "question": "what is the specific type of food contained in the 4 small white bowls on the table?",
+      "answers": [
+        "broccoli",
+        "cereal",
+        "sandwiches"
+      ],
+      "score": 0.13988590240478516
+    },
+    {
+      "question": "what color is the table on which the 4 small white bowls of associated foods are placed?",
+      "answers": [
+        "brown",
+        "black",
+        "white"
+      ],
+      "score": 0.06541824340820312
+    },
+    {
+      "question": "what is the specific food item present in the bowl located next to the apple?",
+      "answers": [
+        "cereal",
+        "fruit",
+        "vegetables"
+      ],
+      "score": 0.025967121124267578
+    },
+    {
+      "question": "What are the specific types of food contained in the four small white bowls?",
+      "answers": [
+        "broccoli",
+        "cereal",
+        "peppers"
+      ],
+      "score": 0.07123327255249023
+    },
+    {
+      "question": "what is the color of the table on which the 4 small white bowls are placed?",
+      "answers": [
+        "brown",
+        "white",
+        "wood"
+      ],
+      "score": 0.03849315643310547
+    }
+  ],
+  "control": {
+    "question": "what is the specific type of food contained in the 4 small white bowls on the table?",
+    "score": 0.13988590240478516
+  },
+  "mixed": {
+    "question": "what is the specific type of food contained in each of the four small white bowls on the table?",
+    "score": 0.11512470245361328
+  },
+  "control_rank": 1,
+  "mixed_rank": 1,
+  "usual_rank": 1,
+  "new_answer": "snacks",
+  "new_rewrite": "4 small white bowls containing snacks on a table"
+}

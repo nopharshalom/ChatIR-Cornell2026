@@ -1,0 +1,182 @@
+{
+  "qid": 1235,
+  "initial": "2 adult and 2 young giraffes look to the left of the view screen while walking along an enclosed area",
+  "initial_rank": 18,
+  "displayed": [
+    4308,
+    3357,
+    38352,
+    13909,
+    25775,
+    38182,
+    6596,
+    28795,
+    29947,
+    34991
+  ],
+  "evidence": [
+    "three zebras are near a big rock wall",
+    "two giraffes standing in the grass under a tree",
+    "two giraffes stand in a grassy field",
+    "two giraffes standing near a tree in their pen",
+    "giraffes are walking in the grass on a very green and dry plain",
+    "the giraffes are in a grassy field with some trees",
+    "two giraffes in an enclosure outside of a building",
+    "two giraffes in the wild running across a grassy field",
+    "a woman is hand feeding a giraffe from a wooden fence",
+    "the giraffe is standing in a pen with some stones"
+  ],
+  "rejected_captions": [
+    "three giraffes walk in an enclosure",
+    "giraffe standing in a field next to a fence",
+    "the giraffes are all zoo animals",
+    "two giraffes standing next to one another",
+    "the trees in the background are green",
+    "giraffes eating at a zoo",
+    "three giraffes in a zoo",
+    "four giraffes grazing in a zoo enclosure",
+    "two giraffes standing on a fence",
+    "large brown and white giraffes standing around a small giraffe"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the color of the giraffes in the image?",
+      "what is the color of the giraffes in the image?",
+      "what is the other object in the image?",
+      "what is the other object in the image?",
+      "what is the other object in the image?"
+    ],
+    "question": "what is the other object in the image?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the giraffes in the image?",
+          "answers": [
+            "brown and white",
+            "tawny and white",
+            "golden and white"
+          ],
+          "score": 0.004708766937255859
+        },
+        {
+          "question": "what is the color of the giraffes in the image?",
+          "answers": [
+            "brown and white",
+            "tawny and white",
+            "golden and white"
+          ],
+          "score": 0.004708766937255859,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "trees",
+            "stones",
+            "fence"
+          ],
+          "score": 0.09721899032592773
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "trees",
+            "stones",
+            "fence"
+          ],
+          "score": 0.09721899032592773,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "trees",
+            "stones",
+            "fence"
+          ],
+          "score": 0.09721899032592773,
+          "duplicate_of": 2
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.142,
+      "probe_selection_seconds": 1.113,
+      "probe_llm_calls": 2,
+      "probe_search_queries": 6
+    },
+    "answer": "giraffes",
+    "rewrite": "four giraffes, two adults and two young ones, are walking along an enclosed area while looking to the left of the view screen",
+    "raw_rank": 10,
+    "unseen_rank": 4
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the color of the young giraffe?",
+      "Question: What color are the zebras?",
+      "Question: Question: What is the color of the young giraffe?",
+      "Question: What is the color of the young giraffe?",
+      "Question: What is the color of the young giraffe?"
+    ],
+    "question": "Question: What color are the zebras?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the color of the young giraffe?",
+          "answers": [
+            "brown and white",
+            "tawny with spots",
+            "patterned with spots"
+          ],
+          "score": 0.006287574768066406
+        },
+        {
+          "question": "Question: What color are the zebras?",
+          "answers": [
+            "black and white",
+            "zebra",
+            "striped"
+          ],
+          "score": 0.006646156311035156
+        },
+        {
+          "question": "Question: Question: What is the color of the young giraffe?",
+          "answers": [
+            "brown and white",
+            "orange and white",
+            "yellow and white"
+          ],
+          "score": 0.004472255706787109
+        },
+        {
+          "question": "Question: What is the color of the young giraffe?",
+          "answers": [
+            "brown and white",
+            "tawny with spots",
+            "patterned with spots"
+          ],
+          "score": 0.006287574768066406,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the young giraffe?",
+          "answers": [
+            "brown and white",
+            "tawny with spots",
+            "patterned with spots"
+          ],
+          "score": 0.006287574768066406,
+          "duplicate_of": 0
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.181,
+      "probe_selection_seconds": 4.256,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "I'm sorry, but the image does not show any zebras. It shows giraffes.",
+    "rewrite": "two adult giraffes and two young giraffes look to the left while walking along an enclosed area",
+    "raw_rank": 19,
+    "unseen_rank": 9
+  }
+}

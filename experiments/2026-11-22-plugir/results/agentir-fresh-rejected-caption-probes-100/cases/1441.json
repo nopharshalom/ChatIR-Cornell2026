@@ -1,0 +1,179 @@
+{
+  "qid": 1441,
+  "initial": "a group of people in a field playing baseball",
+  "initial_rank": 110,
+  "displayed": [
+    47018,
+    39491,
+    41161,
+    3753,
+    43188,
+    27855,
+    20643,
+    18914,
+    46116,
+    27502
+  ],
+  "evidence": [
+    "a man is swinging a baseball bat in front of a crowd of people",
+    "a red player is running to catch a ball",
+    "an athlete swinging the baseball bat while the umpire watches",
+    "men in red uniforms running up the field",
+    "two baseball players standing on the mound while a crowd is watching",
+    "baseball player at bat and umpire in the stands",
+    "two young boys playing softball",
+    "a person swinging a baseball bat while the crowd watches",
+    "a baseball player at bat while people watch him in the crowd"
+  ],
+  "rejected_captions": [
+    "two catcher and a batter playing baseball",
+    "a baseball field with a player at the plate",
+    "a group of people at the game",
+    "a young boy is about to hit a pitch in a baseball game",
+    "a baseball player swinging a bat",
+    "a baseball player is taking a hit",
+    "a baseball field with several players standing on it",
+    "man in black shirt and red cap",
+    "the field has green grass on it",
+    "a group of baseball players on a field"
+  ],
+  "usual": {
+    "candidates": [
+      "what are the colors of the uniforms worn by the group of people playing baseball?",
+      "what is the gender of the people playing baseball?",
+      "what is the gender of the player at bat?",
+      "Question: what is the gender of the player at bat?",
+      "what are the colors of the uniforms worn by the baseball players?"
+    ],
+    "question": "what are the colors of the uniforms worn by the baseball players?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what are the colors of the uniforms worn by the group of people playing baseball?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.1378641128540039
+        },
+        {
+          "question": "what is the gender of the people playing baseball?",
+          "answers": [
+            "men",
+            "women",
+            "boys"
+          ],
+          "score": 0.029761791229248047
+        },
+        {
+          "question": "what is the gender of the player at bat?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.02613210678100586
+        },
+        {
+          "question": "Question: what is the gender of the player at bat?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.023647785186767578
+        },
+        {
+          "question": "what are the colors of the uniforms worn by the baseball players?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.16229820251464844
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.061,
+      "probe_selection_seconds": 2.286,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "white",
+    "rewrite": "a group of people in white uniforms playing baseball in a field",
+    "raw_rank": 72,
+    "unseen_rank": 70
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What color are the shirts of the people playing baseball?",
+      "Question: What color are the shirts of the people playing baseball?",
+      "Question: What color are the shirts of the people playing baseball?",
+      "Question: What color are the shirts of the people playing baseball?",
+      "Question: What color is the cap worn by the man in the black shirt?"
+    ],
+    "question": "Question: What color are the shirts of the people playing baseball?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What color are the shirts of the people playing baseball?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.10967493057250977
+        },
+        {
+          "question": "Question: What color are the shirts of the people playing baseball?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.10967493057250977,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color are the shirts of the people playing baseball?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.10967493057250977,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color are the shirts of the people playing baseball?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.10967493057250977,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the cap worn by the man in the black shirt?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.030135154724121094
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.057,
+      "probe_selection_seconds": 0.936,
+      "probe_llm_calls": 2,
+      "probe_search_queries": 6
+    },
+    "answer": "white",
+    "rewrite": "a group of people in white shirts playing baseball in a field",
+    "raw_rank": 13,
+    "unseen_rank": 10
+  }
+}

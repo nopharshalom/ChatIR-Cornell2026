@@ -1,0 +1,80 @@
+{
+  "qid": 736,
+  "candidates": [
+    "what color are the umbrellas under which people are standing?",
+    "what color is the awning on the street where people are standing?",
+    "what color is the awning on the street where people are standing?",
+    "Question: Is the crowd standing under blue umbrellas or standing in line to protest?",
+    "what color are the awnings on the street where people are standing?"
+  ],
+  "kl": {
+    "question": "what color are the awnings on the street where people are standing?",
+    "answer": "black",
+    "rewrite": "a lot in front of a hotel with people mingling about, featuring black awnings on the street",
+    "raw_rank": 159,
+    "unseen_rank": 150
+  },
+  "probe": {
+    "question": "what color are the awnings on the street where people are standing?",
+    "answer": "black",
+    "rewrite": "a lot in front of a hotel with people mingling about, featuring black awnings on the street",
+    "raw_rank": 159,
+    "unseen_rank": 150
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "what color are the umbrellas under which people are standing?",
+        "answers": [
+          "blue",
+          "red",
+          "black"
+        ],
+        "score": 0.06221199035644531
+      },
+      {
+        "question": "what color is the awning on the street where people are standing?",
+        "answers": [
+          "red",
+          "blue",
+          "white"
+        ],
+        "score": 0.042682647705078125
+      },
+      {
+        "question": "what color is the awning on the street where people are standing?",
+        "answers": [
+          "red",
+          "blue",
+          "white"
+        ],
+        "score": 0.042682647705078125,
+        "duplicate_of": 1
+      },
+      {
+        "question": "Question: Is the crowd standing under blue umbrellas or standing in line to protest?",
+        "answers": [
+          "blue umbrellas",
+          "protest",
+          "neither"
+        ],
+        "score": 0.026871681213378906
+      },
+      {
+        "question": "what color are the awnings on the street where people are standing?",
+        "answers": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "score": 0.08052873611450195
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.061,
+    "probe_selection_seconds": 1.933,
+    "probe_llm_calls": 4,
+    "probe_search_queries": 12
+  },
+  "reused_outcome": true
+}

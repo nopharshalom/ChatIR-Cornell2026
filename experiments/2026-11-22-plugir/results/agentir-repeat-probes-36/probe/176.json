@@ -1,0 +1,53 @@
+{
+  "qid": 176,
+  "arm": "probe",
+  "after_round": 3,
+  "ranks": [
+    13,
+    16,
+    11,
+    12,
+    3
+  ],
+  "continuation": [
+    {
+      "round": 4,
+      "query_before": "Two kites soar above a sandy beach by the ocean.",
+      "question": "Are there people or animals visible in the sky with the kites?",
+      "answer": "no",
+      "query_after": "two kites flying over the sandy beach with no people or animals visible in the sky",
+      "searches": [
+        {
+          "query": "Two kites flying over the sandy beach near the ocean shore with a person standing nearby holding a second kite.",
+          "ids": [
+            434,
+            28069,
+            34732
+          ],
+          "captions": [
+            "a man standing on a beach while flying kites",
+            "person flying a kite",
+            "a sky with clear blue clouds"
+          ]
+        },
+        {
+          "query": "Two kites flying over the sandy beach near the ocean shore with a person standing nearby holding a second kite, where the ground is wet sand instead of dry sand.",
+          "ids": [
+            5493,
+            16633,
+            19260
+          ],
+          "captions": [
+            "a kite is flying over a beach",
+            "two people flying a kite on the beach",
+            "ocean waves and sand"
+          ]
+        }
+      ],
+      "raw_plan": "Two kites flying over the sandy beach near the ocean shore with a person standing nearby holding a second kite.\nTwo kites flying over the sandy beach near the ocean shore with a person standing nearby holding a second kite, where the ground is wet sand instead of dry sand.",
+      "generated": "Are there people or animals visible in the sky with the kites?",
+      "fallback": false
+    }
+  ],
+  "seconds": 2.9
+}

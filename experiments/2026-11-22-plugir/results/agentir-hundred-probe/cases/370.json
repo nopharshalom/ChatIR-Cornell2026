@@ -1,0 +1,100 @@
+{
+  "qid": 370,
+  "initial": "a clock that is positioned on an outside building",
+  "initial_rank": 94,
+  "evidence": [
+    "a tall brick building with a clock tower on top",
+    "the large brick building is a church",
+    "a clock with numbers on it is hung on a street pole",
+    "a black clock sitting on a post beside a street",
+    "an old red brick building with a clock tower on top",
+    "a large tree is near a brick building",
+    "a large stone building with a clock tower and windows",
+    "some people standing under a red brick wall",
+    "a large red clock hanging from a pole near a tree",
+    "the front building is made of stone"
+  ],
+  "candidates": [
+    "**Question:** What is the material of the building where the clock is positioned?",
+    "Question: What is the color of the brick building where the clock is positioned?",
+    "What is the specific type of building (e.g., church) where the clock is positioned?",
+    "Question: What is the color of the clock that is positioned on the outside building?",
+    "Question: What is the material of the building where the clock is positioned?"
+  ],
+  "answer_paths": [
+    {
+      "question": "**Question:** What is the material of the building where the clock is positioned?",
+      "answers": [
+        "brick",
+        "stone",
+        "wood"
+      ],
+      "score": 0.07606029510498047
+    },
+    {
+      "question": "Question: What is the color of the brick building where the clock is positioned?",
+      "answers": [
+        "red",
+        "black",
+        "stone"
+      ],
+      "score": 0.04210996627807617
+    },
+    {
+      "question": "What is the specific type of building (e.g., church) where the clock is positioned?",
+      "answers": [
+        "church",
+        "post",
+        "street"
+      ],
+      "score": 0.027462482452392578
+    },
+    {
+      "question": "Question: What is the color of the clock that is positioned on the outside building?",
+      "answers": [
+        "black",
+        "red",
+        "white"
+      ],
+      "score": 0.0518946647644043
+    },
+    {
+      "question": "Question: What is the material of the building where the clock is positioned?",
+      "answers": [
+        "brick",
+        "stone",
+        "wood"
+      ],
+      "score": 0.055809974670410156
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.063,
+  "probe_selection_seconds": 2.165,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "Question: What is the material of the building where the clock is positioned?",
+      "answer": "brick",
+      "rewrite": "a clock positioned on the outside of a brick building",
+      "rank": 18,
+      "hit": false
+    },
+    "random": {
+      "question": "Question: What is the color of the brick building where the clock is positioned?",
+      "answer": "beige",
+      "rewrite": "a beige brick building with a clock positioned on the outside",
+      "rank": 9,
+      "hit": true
+    },
+    "probe": {
+      "question": "**Question:** What is the material of the building where the clock is positioned?",
+      "answer": "brick",
+      "rewrite": "a clock positioned on the outside of a brick building",
+      "rank": 18,
+      "hit": false
+    }
+  },
+  "seconds": 13.513
+}

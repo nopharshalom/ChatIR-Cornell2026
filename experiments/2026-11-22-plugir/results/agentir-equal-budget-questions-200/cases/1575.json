@@ -1,0 +1,78 @@
+{
+  "qid": 1575,
+  "sample": 2,
+  "first_candidates": [
+    "what color is the train that is parked in the station?",
+    "Question: What is the color of the train that is sitting at the platform?",
+    "Question: What is the color of the train that is going down the tracks?",
+    "what is the color of the train that is going down the tracks?",
+    "Question: what is the color of the train that is parked in the station?"
+  ],
+  "second_candidates": [
+    "what is the color of the train that is not moving on the tracks?",
+    "Question: what is the color of the train that is parked in the station?",
+    "Question: what is the color of the train that is going down the tracks?",
+    "Question: What is the color of the train that is sitting at the platform?",
+    "what is the color of the train that is moving through the countryside?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the train that is not moving on the tracks?",
+      "answers": [
+        "red",
+        "black and yellow",
+        "white and yellow"
+      ],
+      "score": 0.25544261932373047
+    },
+    {
+      "question": "Question: what is the color of the train that is parked in the station?",
+      "answers": [
+        "red",
+        "blue and white",
+        "yellow and blue"
+      ],
+      "score": 0.28550195693969727
+    },
+    {
+      "question": "Question: what is the color of the train that is going down the tracks?",
+      "answers": [
+        "black and yellow",
+        "yellow",
+        "blue and yellow"
+      ],
+      "score": 0.06345891952514648
+    },
+    {
+      "question": "Question: What is the color of the train that is sitting at the platform?",
+      "answers": [
+        "white",
+        "black",
+        "blue"
+      ],
+      "score": 0.11296367645263672
+    },
+    {
+      "question": "what is the color of the train that is moving through the countryside?",
+      "answers": [
+        "blue",
+        "yellow",
+        "blue and yellow"
+      ],
+      "score": 0.16958856582641602
+    }
+  ],
+  "control": {
+    "question": "what color is the train that is parked in the station?",
+    "score": 0.3054666519165039
+  },
+  "mixed": {
+    "question": "Question: what is the color of the train?",
+    "score": 0.3617897033691406
+  },
+  "control_rank": 563,
+  "mixed_rank": 500,
+  "usual_rank": 563,
+  "new_answer": null,
+  "new_rewrite": null
+}

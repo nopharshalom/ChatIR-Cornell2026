@@ -1,0 +1,83 @@
+{
+  "qid": 780,
+  "candidates": [
+    "Question: What color is the motorcycle the man is sitting on?",
+    "Question: What color is the motorcycle the man is sitting on?",
+    "Question: What color is the motorcycle the man is sitting on?",
+    "What is the man wearing?",
+    "What is the color of the motorcycle that the man is sitting on?"
+  ],
+  "kl": {
+    "question": "Question: What color is the motorcycle the man is sitting on?",
+    "answer": "black",
+    "rewrite": "a man sitting on a black motorcycle stopped on the road",
+    "rank": 8,
+    "hit": true,
+    "raw_rank": 8,
+    "unseen_rank": 5
+  },
+  "probe": {
+    "answer": "black",
+    "rewrite": "a man sitting on a black motorcycle stopped on the road",
+    "raw_rank": 8,
+    "unseen_rank": 5,
+    "question": "What is the color of the motorcycle that the man is sitting on?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What color is the motorcycle the man is sitting on?",
+        "answers": [
+          "black",
+          "red",
+          "blue"
+        ],
+        "score": 0.10832834243774414
+      },
+      {
+        "question": "Question: What color is the motorcycle the man is sitting on?",
+        "answers": [
+          "black",
+          "red",
+          "blue"
+        ],
+        "score": 0.10832834243774414,
+        "duplicate_of": 0
+      },
+      {
+        "question": "Question: What color is the motorcycle the man is sitting on?",
+        "answers": [
+          "black",
+          "red",
+          "blue"
+        ],
+        "score": 0.10832834243774414,
+        "duplicate_of": 0
+      },
+      {
+        "question": "What is the man wearing?",
+        "answers": [
+          "a leather jacket",
+          "a t-shirt",
+          "a suit"
+        ],
+        "score": 0.11039543151855469
+      },
+      {
+        "question": "What is the color of the motorcycle that the man is sitting on?",
+        "answers": [
+          "black",
+          "blue",
+          "red"
+        ],
+        "score": 0.12537050247192383
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.065,
+    "probe_selection_seconds": 1.413,
+    "probe_llm_calls": 3,
+    "probe_search_queries": 9
+  },
+  "reused_outcome": false
+}

@@ -1,0 +1,71 @@
+{
+  "qid": 256,
+  "initial": "a block tower attached to a brick building",
+  "initial_rank": 33,
+  "evidence": [
+    "a black and white photograph of a truck parked by a street corner",
+    "a street light next to a black sign",
+    "a lamp stands on a side of the sidewalk",
+    "a clock tower sits on top of a circular plaza",
+    "a tall tower in a church with a clock above it",
+    "a large tower with a clock on top",
+    "people are walking along a city street near a clock tower",
+    "a red bus traveling along a city street with a clock tower",
+    "a large clock tower with clouds over it",
+    "a fire hydrant is sitting next to a car and some pavement"
+  ],
+  "displayed_ids": [
+    46698,
+    1731,
+    49911,
+    21783,
+    38017,
+    2487,
+    19680,
+    36245,
+    11893,
+    8160
+  ],
+  "rejected_captions": [
+    "a small brick building has a clock on it",
+    "a clock mounted on a brick building",
+    "a building a brick",
+    "white and black clock",
+    "a tall clock tower sitting on a stone building",
+    "blue sky behind clock tower",
+    "the clock is made of steel",
+    "a building with a clock",
+    "the brick is brown",
+    "the building is brick"
+  ],
+  "candidates": [
+    "Question: What is the color of the building the block tower is attached to?",
+    "Question: What is the color of the clock on the tower?",
+    "Question: What is the material of the building that the clock tower is attached to?",
+    "Question: What is the color of the bus traveling near the clock tower?",
+    "Question: What is the color of the sky behind the clock tower?"
+  ],
+  "control_candidates": [
+    "Question: Is the clock tower made of brick?",
+    "Question: What type of building is the clock tower attached to?",
+    "Question: What is the material of the clock tower?",
+    "what is the color of the clock tower?",
+    "Question: Is there a clock on top of the tower?"
+  ],
+  "control": {
+    "question": "Question: What is the material of the clock tower?",
+    "answer": "brick",
+    "rewrite": "a brick clock tower attached to a brick building",
+    "rank": 19,
+    "hit": false,
+    "raw_rank": 19,
+    "unseen_rank": 14
+  },
+  "variant": {
+    "question": "Question: What is the material of the building that the clock tower is attached to?",
+    "answer": "brick",
+    "rewrite": "A block tower that is attached to a brick building.",
+    "raw_rank": 39,
+    "unseen_rank": 29
+  }
+}

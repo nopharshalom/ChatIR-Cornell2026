@@ -1,0 +1,407 @@
+{
+  "qid": 1098,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000253021.jpg",
+  "queries": [
+    "a green and white bus stands at an intersection",
+    "a green and white bus stands on an asphalt road at an intersection",
+    "a green and white bus stands on an asphalt road at an intersection, with a car nearby",
+    "a blue and white bus stands at an intersection on an asphalt road with a car nearby"
+  ],
+  "ranks": [
+    83,
+    83,
+    125,
+    6
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a green and white bus stands at an intersection",
+      "question": "Question: What type of road surface is beneath the bus?",
+      "answer": "Asphalt.",
+      "query_after": "a green and white bus stands on an asphalt road at an intersection",
+      "displayed_ids": [
+        33396,
+        48599,
+        32290,
+        49528,
+        45240,
+        23727,
+        8652,
+        49221,
+        23521,
+        26959
+      ],
+      "selected_ids": [
+        49598,
+        14494,
+        7116,
+        39322,
+        21434,
+        2556,
+        13042,
+        36882,
+        19633,
+        23009
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the background environment surrounding the green and white bus at the intersection?",
+          "answers": [
+            "street",
+            "intersection",
+            "parking lot"
+          ],
+          "score": 0.017955303192138672
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "white",
+            "green",
+            "white and green"
+          ],
+          "score": 0.004620075225830078
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "white",
+            "green",
+            "white and green"
+          ],
+          "score": 0.004620075225830078,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "white",
+            "green",
+            "white and green"
+          ],
+          "score": 0.004620075225830078,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: Which candidate image features a green and white bus?",
+          "answers": [
+            "0",
+            "8"
+          ],
+          "score": 0.0003085136413574219
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the roof of the bus?",
+          "answers": [
+            "green",
+            "white",
+            "blue"
+          ],
+          "score": 0.030433177947998047
+        },
+        {
+          "question": "Question: What color is the roof of the bus?",
+          "answers": [
+            "green",
+            "white",
+            "blue"
+          ],
+          "score": 0.030433177947998047,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the roof of the bus?",
+          "answers": [
+            "green",
+            "white",
+            "blue"
+          ],
+          "score": 0.030433177947998047,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the ground surface beneath the bus?",
+          "answers": [
+            "asphalt",
+            "concrete",
+            "dirt"
+          ],
+          "score": 0.02036142349243164
+        },
+        {
+          "question": "Question: What type of road surface is beneath the bus?",
+          "answers": [
+            "dirt",
+            "asphalt",
+            "grass"
+          ],
+          "score": 0.03128480911254883
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a green and white bus stands on an asphalt road at an intersection",
+      "question": "what is the other object in the image?",
+      "answer": "a car",
+      "query_after": "a green and white bus stands on an asphalt road at an intersection, with a car nearby",
+      "displayed_ids": [
+        33396,
+        45240,
+        23727,
+        48599,
+        32290,
+        23521,
+        8652,
+        49221,
+        14796,
+        28642
+      ],
+      "selected_ids": [
+        47196,
+        21372,
+        40474,
+        18840,
+        49598,
+        19633,
+        23009,
+        15229,
+        42006,
+        39800
+      ],
+      "rejected_count": 12,
+      "usual_paths": [
+        {
+          "question": "Question: What is the color of the bus that is stopped on a sidewalk with a sign?",
+          "answers": [
+            "white",
+            "green",
+            "red"
+          ],
+          "score": 0.028916358947753906
+        },
+        {
+          "question": "Question: What color is the bus that is stopped on the sidewalk?",
+          "answers": [
+            "green",
+            "white",
+            "green and white"
+          ],
+          "score": 0.006453514099121094
+        },
+        {
+          "question": "Question: What is the color of the bus that is stopped on the sidewalk?",
+          "answers": [
+            "white",
+            "red and white",
+            "green and yellow"
+          ],
+          "score": 0.07202529907226562
+        },
+        {
+          "question": "Question: What is the color of the bus that is stopped on the sidewalk?",
+          "answers": [
+            "white",
+            "red and white",
+            "green and yellow"
+          ],
+          "score": 0.07202529907226562,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What color is the bus that is stopped on the sidewalk?",
+          "answers": [
+            "green",
+            "white",
+            "green and white"
+          ],
+          "score": 0.006453514099121094,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is there a large tree in the background of the bus?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0024480819702148438
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "tree",
+            "building",
+            "intersection"
+          ],
+          "score": 0.08032608032226562
+        },
+        {
+          "question": "Question: Is there a large tree in the background of the bus?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0024480819702148438,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color are the stripes on the bus?",
+          "answers": [
+            "green and white",
+            "green and yellow",
+            "red, white, and blue"
+          ],
+          "score": 0.06358814239501953
+        },
+        {
+          "question": "Question: Does the bus have a sign next to it?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.002003192901611328
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "a green and white bus stands on an asphalt road at an intersection, with a car nearby",
+      "question": "Question: What is the color of the bus standing at the intersection?",
+      "answer": "blue and white",
+      "query_after": "a blue and white bus stands at an intersection on an asphalt road with a car nearby",
+      "displayed_ids": [
+        33396,
+        32290,
+        23727,
+        45240,
+        23521,
+        26641,
+        26959,
+        48599,
+        14796,
+        28642
+      ],
+      "selected_ids": [
+        18840,
+        23993,
+        21372,
+        9152,
+        49598,
+        36882,
+        23009,
+        19633,
+        37382,
+        15003
+      ],
+      "rejected_count": 13,
+      "usual_paths": [
+        {
+          "question": "what is the color of the bus that is driving down a street with trees in the background?",
+          "answers": [
+            "blue and white"
+          ],
+          "note": "fewer than 2 answers",
+          "score": null
+        },
+        {
+          "question": "What color is the bus standing at the intersection?",
+          "answers": [
+            "Green and white",
+            "Green",
+            "White"
+          ],
+          "score": 0.010303020477294922
+        },
+        {
+          "question": "what is the color of the bus that is driving down a street with trees in the background?",
+          "answers": [
+            "blue and white"
+          ],
+          "note": "fewer than 2 answers",
+          "duplicate_of": 0,
+          "score": null
+        },
+        {
+          "question": "Question: What is the color of the bus standing at the intersection?",
+          "answers": [
+            "green and white",
+            "blue and white",
+            "red, white, and blue"
+          ],
+          "score": 0.05236530303955078
+        },
+        {
+          "question": "what is the color of the bus standing at the intersection?",
+          "answers": [
+            "green",
+            "white",
+            "green and white"
+          ],
+          "score": 0.009804725646972656
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a car",
+            "a person",
+            "a building"
+          ],
+          "score": 0.03954648971557617
+        },
+        {
+          "question": "what is the action of the green and white bus standing at the intersection?",
+          "answers": [
+            "stopped",
+            "waiting",
+            "parked"
+          ],
+          "score": 0.002910614013671875
+        },
+        {
+          "question": "what is the action of the green and white bus standing at the intersection?",
+          "answers": [
+            "stopped",
+            "waiting",
+            "parked"
+          ],
+          "score": 0.002910614013671875,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the location of the green and white bus standing at the intersection?",
+          "answers": [
+            "street",
+            "sidewalk",
+            "dirt road"
+          ],
+          "score": 0.04161262512207031
+        },
+        {
+          "question": "what color is the bus standing at the intersection?",
+          "answers": [
+            "green",
+            "white",
+            "green and white"
+          ],
+          "score": 0.010303020477294922
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

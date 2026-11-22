@@ -1,0 +1,179 @@
+{
+  "qid": 684,
+  "initial": "a street sign with an apartment building in the background",
+  "initial_rank": 21,
+  "displayed": [
+    4009,
+    22079,
+    33665,
+    24999,
+    20369,
+    39229,
+    34701,
+    37628,
+    31672,
+    3689
+  ],
+  "evidence": [
+    "two street signs are at the side of the road in the middle of a wooded area",
+    "a beautiful front yard has trees and a stop sign",
+    "a traffic light is attached to a light pole in nyc",
+    "large grey buildings in a city",
+    "parking sign next to trees in a city street",
+    "blue and white arrow signs on a wall",
+    "a red and green colored house",
+    "a large light is near the street signs",
+    "a stop sign in front of a driveway",
+    "the street lights are high on a cloudy day"
+  ],
+  "rejected_captions": [
+    "a street sign attached to a pole in a building",
+    "a building with bricks",
+    "large building with tall windows",
+    "the sign is not readable in the snow",
+    "a blue sign with street number and building name",
+    "two street signs are on a pole in front of a tall building",
+    "a white street sign on the side of a pole",
+    "a yellow bus and a red building",
+    "a street sign with a couple of parking spaces on a corner",
+    "a bike is next to a red brick building with a parking sign"
+  ],
+  "usual": {
+    "candidates": [
+      "What color is the street sign visible in the image?",
+      "Question: What is the color of the street sign visible in the image?",
+      "Question: What is the color of the street sign visible in the image?",
+      "What is the text written on the street sign?",
+      "**Generated Question:**\nWhat is the background behind the street sign?"
+    ],
+    "question": "What is the text written on the street sign?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "What color is the street sign visible in the image?",
+          "answers": [
+            "Blue",
+            "White",
+            "Red"
+          ],
+          "score": 0.06479215621948242
+        },
+        {
+          "question": "Question: What is the color of the street sign visible in the image?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.06162309646606445
+        },
+        {
+          "question": "Question: What is the color of the street sign visible in the image?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.06162309646606445,
+          "duplicate_of": 1
+        },
+        {
+          "question": "What is the text written on the street sign?",
+          "answers": [
+            "New York",
+            "Stop",
+            "Parking"
+          ],
+          "score": 0.16676568984985352
+        },
+        {
+          "question": "**Generated Question:**\nWhat is the background behind the street sign?",
+          "answers": [
+            "apartment building",
+            "house",
+            "wooded area"
+          ],
+          "score": 0.04479646682739258
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.063,
+      "probe_selection_seconds": 1.817,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "Lindargata, Frakkastigur",
+    "rewrite": "a street sign reading \"Lindargata, Frakkastigur\" with an apartment building in the background",
+    "raw_rank": 1,
+    "unseen_rank": 1
+  },
+  "rejected": {
+    "candidates": [
+      "What color is the house in the background?",
+      "Question: What is the color of the street sign?",
+      "What is the text written on the street sign?",
+      "What does the street sign say?",
+      "What is the text written on the street sign?"
+    ],
+    "question": "Question: What is the color of the street sign?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "What color is the house in the background?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.06193876266479492
+        },
+        {
+          "question": "Question: What is the color of the street sign?",
+          "answers": [
+            "black and white",
+            "red and white",
+            "blue and white"
+          ],
+          "score": 0.11545515060424805
+        },
+        {
+          "question": "What is the text written on the street sign?",
+          "answers": [
+            "123 Main St",
+            "456 Oak Ave",
+            "789 Pine Rd"
+          ],
+          "score": 0.08985614776611328
+        },
+        {
+          "question": "What does the street sign say?",
+          "answers": [
+            "ONE WAY",
+            "NO PARKING",
+            "SPEED LIMIT"
+          ],
+          "score": 0.10692930221557617
+        },
+        {
+          "question": "What is the text written on the street sign?",
+          "answers": [
+            "123 Main St",
+            "456 Oak Ave",
+            "789 Pine Rd"
+          ],
+          "score": 0.08985614776611328,
+          "duplicate_of": 2
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.075,
+      "probe_selection_seconds": 2.233,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "white",
+    "rewrite": "a white street sign with an apartment building in the background",
+    "raw_rank": 23,
+    "unseen_rank": 14
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "qid": 2000,
+  "sample": 2,
+  "first_candidates": [
+    "what is the color of the horse being ridden in the image?",
+    "what is the location where the horse is jumping over the fence?",
+    "what is the gender of the rider on the horse?",
+    "what is the color of the rider's clothing?",
+    "what is the gender of the rider on the horse?"
+  ],
+  "second_candidates": [
+    "what is the color of the horse being ridden?",
+    "what is the location where the horse is jumping over the fence?",
+    "Question: what is the gender of the rider on the horse?",
+    "what is the gender of the rider on the horse?",
+    "what is the color of the hair on the horse being ridden?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the horse being ridden?",
+      "answers": [
+        "brown",
+        "black",
+        "white"
+      ],
+      "score": 0.06505632400512695
+    },
+    {
+      "question": "what is the location where the horse is jumping over the fence?",
+      "answers": [
+        "race track",
+        "open field",
+        "enclosed area"
+      ],
+      "score": 0.028024673461914062
+    },
+    {
+      "question": "Question: what is the gender of the rider on the horse?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.014349937438964844
+    },
+    {
+      "question": "what is the gender of the rider on the horse?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.01607370376586914
+    },
+    {
+      "question": "what is the color of the hair on the horse being ridden?",
+      "answers": [
+        "black",
+        "brown",
+        "white"
+      ],
+      "score": 0.04487037658691406
+    }
+  ],
+  "control": {
+    "question": "what is the color of the rider's clothing?",
+    "score": 0.08016347885131836
+  },
+  "mixed": {
+    "question": "what is the color of the rider's clothing?",
+    "score": 0.08016347885131836
+  },
+  "control_rank": 18,
+  "mixed_rank": 18,
+  "usual_rank": 18,
+  "new_answer": null,
+  "new_rewrite": null
+}

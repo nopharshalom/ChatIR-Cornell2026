@@ -1,0 +1,1347 @@
+{
+  "qid": 2019,
+  "sample": "original",
+  "target": "unlabeled2017/000000208269.jpg",
+  "queries": [
+    "the lady in the black shirt and shorts prepares to hit the green tennis ball with a racket",
+    "a man in a black shirt and black shorts prepares to hit a green tennis ball with a racket",
+    "A man wearing a black shirt and black shorts is getting ready to strike a green tennis ball with his racket.",
+    "a man and a lady, both dressed in black shirts and shorts, prepare to hit a green tennis ball with a racket",
+    "a man, a lady, and a boy, all dressed in black shirts and black shorts, stand together preparing to hit a green tennis ball with a racket",
+    "a man and a boy, both wearing black shirts and black shorts, stand with a man holding a blue racket, preparing to hit a green tennis ball with a lady in a black shirt",
+    "a man in a black shirt and black shorts holding a blue racket, a boy in a black shirt, and a lady in a black shirt preparing to hit a green tennis ball",
+    "a man in a black shirt and black shorts holding a blue racket stands on a tennis court next to a lady in a black shirt and shorts who is preparing to hit a green tennis ball",
+    "a man and a boy in black shirts and shorts stand on a tennis court with blue rackets, while a lady in a black shirt prepares to hit a green tennis ball with a blue racket",
+    "a man and a boy in black shirts and shorts stand on a tennis court with blue rackets, while a lady in a black shirt prepares to hit a green tennis ball with her blue racket",
+    "a man and a boy in black shirts and black shorts stand on a tennis court with a blue racket, while a lady in a black shirt prepares to hit a green tennis ball with her own blue racket"
+  ],
+  "ranks": [
+    12,
+    232,
+    221,
+    53,
+    209,
+    260,
+    299,
+    151,
+    376,
+    255,
+    263
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "the lady in the black shirt and shorts prepares to hit the green tennis ball with a racket",
+      "question": "Question: What color are the man's shorts?",
+      "answer": "black",
+      "query_after": "a man in a black shirt and black shorts prepares to hit a green tennis ball with a racket",
+      "displayed_ids": [
+        16788,
+        4550,
+        5580,
+        9327,
+        2712,
+        14975,
+        35640,
+        42508,
+        39559,
+        6693
+      ],
+      "selected_ids": [
+        12328,
+        26211,
+        23507,
+        9369,
+        37089,
+        16808,
+        32452,
+        30870,
+        31358,
+        20348
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what color is the tennis racket held by the lady preparing to hit the ball?",
+          "answers": [
+            "green",
+            "blue",
+            "black"
+          ],
+          "score": 0.04571247100830078
+        },
+        {
+          "question": "what is the location where the lady in the black shirt and shorts is playing tennis?",
+          "answers": [
+            "outdoors",
+            "on a court",
+            "at a stadium"
+          ],
+          "score": 0.047493934631347656
+        },
+        {
+          "question": "what color is the tennis dress worn by the female tennis player holding a racket?",
+          "answers": [
+            "white",
+            "pink",
+            "red"
+          ],
+          "score": 0.09293556213378906
+        },
+        {
+          "question": "what type of shoes is the lady wearing?",
+          "answers": [
+            "white",
+            "black",
+            "blue"
+          ],
+          "score": 0.12268304824829102
+        },
+        {
+          "question": "what color is the racket held by the lady wearing a black shirt and shorts?",
+          "answers": [
+            "black",
+            "silver",
+            "white"
+          ],
+          "score": 0.034848690032958984
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color are the man's shorts?",
+          "answers": [
+            "green",
+            "blue",
+            "white"
+          ],
+          "score": 0.13685369491577148
+        },
+        {
+          "question": "Question: What color is the racket the lady is holding?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.09808158874511719
+        },
+        {
+          "question": "Question: What color is the shirt the man is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "green"
+          ],
+          "score": 0.09249162673950195
+        },
+        {
+          "question": "Question: What color are the shorts the man is wearing?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.10378789901733398
+        },
+        {
+          "question": "Question: What color is the shirt the man is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "green"
+          ],
+          "score": 0.09249162673950195,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a man in a black shirt and black shorts prepares to hit a green tennis ball with a racket",
+      "question": "what color is the shirt the man is wearing?",
+      "answer": "black",
+      "query_after": "A man wearing a black shirt and black shorts is getting ready to strike a green tennis ball with his racket.",
+      "displayed_ids": [
+        33260,
+        12841,
+        35954,
+        28804,
+        8474,
+        27946,
+        12328,
+        31284,
+        20886,
+        21912
+      ],
+      "selected_ids": [
+        20841,
+        3832,
+        29920,
+        9394,
+        28259,
+        10466,
+        44755,
+        41816,
+        6693,
+        37089
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "What color is the shirt the lady is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.12642431259155273
+        },
+        {
+          "question": "What color is the shirt the lady is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.12642431259155273,
+          "duplicate_of": 0
+        },
+        {
+          "question": "What color is the tennis ball the lady is preparing to hit?",
+          "answers": [
+            "green",
+            "yellow",
+            "white"
+          ],
+          "score": 0.1311473846435547
+        },
+        {
+          "question": "what is the activity the lady is performing?",
+          "answers": [
+            "preparing to hit the ball",
+            "playing tennis",
+            "swinging a racket"
+          ],
+          "score": 0.003269195556640625
+        },
+        {
+          "question": "what color is the shirt the man is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.1342458724975586
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What color is the shirt the lady is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.12642431259155273
+        },
+        {
+          "question": "What color is the shirt the lady is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.12642431259155273,
+          "duplicate_of": 0
+        },
+        {
+          "question": "What color is the tennis ball the lady is preparing to hit?",
+          "answers": [
+            "green",
+            "yellow",
+            "white"
+          ],
+          "score": 0.1311473846435547
+        },
+        {
+          "question": "Question: What color are the shorts the man is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "green"
+          ],
+          "score": 0.10071611404418945
+        },
+        {
+          "question": "what color is the shirt the lady is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.12642431259155273
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "A man wearing a black shirt and black shorts is getting ready to strike a green tennis ball with his racket.",
+      "question": "what color is the shirt the lady is wearing?",
+      "answer": "black",
+      "query_after": "a man and a lady, both dressed in black shirts and shorts, prepare to hit a green tennis ball with a racket",
+      "displayed_ids": [
+        33260,
+        12841,
+        28804,
+        35954,
+        27946,
+        8474,
+        20886,
+        31284,
+        12328,
+        40775
+      ],
+      "selected_ids": [
+        31500,
+        31005,
+        5665,
+        3832,
+        3494,
+        6693,
+        10466,
+        45158,
+        266,
+        29920
+      ],
+      "rejected_count": 21,
+      "usual_paths": [
+        {
+          "question": "what color is the shirt the lady is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "green"
+          ],
+          "score": 0.10628747940063477
+        },
+        {
+          "question": "what color is the shirt the lady is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "green"
+          ],
+          "score": 0.10628747940063477,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the shirt the lady is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "green"
+          ],
+          "score": 0.10628747940063477,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the shirt the lady is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "green"
+          ],
+          "score": 0.10628747940063477,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the shirt the lady is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "green"
+          ],
+          "score": 0.10628747940063477,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the shirt the lady is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "green"
+          ],
+          "score": 0.10628747940063477
+        },
+        {
+          "question": "what color is the skirt the lady is wearing?",
+          "answers": [
+            "black"
+          ],
+          "note": "fewer than 2 answers",
+          "score": null
+        },
+        {
+          "question": "what color is the racket the lady is holding?",
+          "answers": [
+            "black",
+            "blue",
+            "silver"
+          ],
+          "score": 0.05864143371582031
+        },
+        {
+          "question": "what color is the ball the lady is preparing to hit?",
+          "answers": [
+            "green",
+            "yellow",
+            "orange"
+          ],
+          "score": 0.07823038101196289
+        },
+        {
+          "question": "Question: What color is the shirt the lady is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "green"
+          ],
+          "score": 0.07827377319335938
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a man and a lady, both dressed in black shirts and shorts, prepare to hit a green tennis ball with a racket",
+      "question": "what color is the shirt the boy is wearing?",
+      "answer": "black",
+      "query_after": "a man, a lady, and a boy, all dressed in black shirts and black shorts, stand together preparing to hit a green tennis ball with a racket",
+      "displayed_ids": [
+        25338,
+        16788,
+        41592,
+        5665,
+        1018,
+        5580,
+        38420,
+        25099,
+        266,
+        31284
+      ],
+      "selected_ids": [
+        15337,
+        8733,
+        8739,
+        3506,
+        12328,
+        10030,
+        3919,
+        23716,
+        37089,
+        35916
+      ],
+      "rejected_count": 28,
+      "usual_paths": [
+        {
+          "question": "what color is the racket being used by the lady in the black shirt?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.06445026397705078
+        },
+        {
+          "question": "what color is the shirt the boy is wearing?",
+          "answers": [
+            "black",
+            "green",
+            "white"
+          ],
+          "score": 0.10685062408447266
+        },
+        {
+          "question": "what color is the racket being used by the girl in the retrieval candidates?",
+          "answers": [
+            "black",
+            "green",
+            "no racket"
+          ],
+          "score": 0.0076904296875
+        },
+        {
+          "question": "what color is the ball being hit by the man in the black shirt?",
+          "answers": [
+            "green",
+            "yellow",
+            "orange"
+          ],
+          "score": 0.04223155975341797
+        },
+        {
+          "question": "what color is the racket being used by the man in the black shirt?",
+          "answers": [
+            "green",
+            "black",
+            "red"
+          ],
+          "score": 0.04411792755126953
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the net on the tennis court?",
+          "answers": [
+            "white",
+            "blue",
+            "black"
+          ],
+          "score": 0.054700374603271484
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "tennis racket",
+            "green ball",
+            "shorts"
+          ],
+          "score": 0.016434192657470703
+        },
+        {
+          "question": "Question: What color is the net on the tennis court?",
+          "answers": [
+            "white",
+            "blue",
+            "black"
+          ],
+          "score": 0.054700374603271484,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the net on the tennis court?",
+          "answers": [
+            "white",
+            "blue",
+            "black"
+          ],
+          "score": 0.054700374603271484,
+          "duplicate_of": 0
+        },
+        {
+          "question": "What color is the tennis ball the lady is preparing to hit?",
+          "answers": [
+            "green",
+            "yellow",
+            "white"
+          ],
+          "score": 0.05911445617675781
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a man, a lady, and a boy, all dressed in black shirts and black shorts, stand together preparing to hit a green tennis ball with a racket",
+      "question": "what color is the racket the man is holding?",
+      "answer": "blue",
+      "query_after": "a man and a boy, both wearing black shirts and black shorts, stand with a man holding a blue racket, preparing to hit a green tennis ball with a lady in a black shirt",
+      "displayed_ids": [
+        25338,
+        17050,
+        266,
+        16788,
+        13454,
+        5552,
+        21142,
+        5665,
+        20994,
+        34914
+      ],
+      "selected_ids": [
+        47239,
+        47198,
+        23716,
+        46883,
+        3013,
+        5665,
+        8491,
+        12328,
+        12340,
+        12055
+      ],
+      "rejected_count": 34,
+      "usual_paths": [
+        {
+          "question": "what color is the racket the man is holding?",
+          "answers": [
+            "black",
+            "white",
+            "orange"
+          ],
+          "score": 0.022670269012451172
+        },
+        {
+          "question": "what color is the racket the lady is holding?",
+          "answers": [
+            "black",
+            "green",
+            "white"
+          ],
+          "score": 0.008202075958251953
+        },
+        {
+          "question": "what color is the racket the man is holding?",
+          "answers": [
+            "black",
+            "white",
+            "orange"
+          ],
+          "score": 0.022670269012451172,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the racket the man is holding?",
+          "answers": [
+            "black",
+            "white",
+            "orange"
+          ],
+          "score": 0.022670269012451172,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the racket the man is holding?",
+          "answers": [
+            "black",
+            "white",
+            "orange"
+          ],
+          "score": 0.022670269012451172,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "racket",
+            "shorts",
+            "ball"
+          ],
+          "score": 0.0037398338317871094
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "racket",
+            "shorts",
+            "ball"
+          ],
+          "score": 0.0037398338317871094,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "racket",
+            "shorts",
+            "ball"
+          ],
+          "score": 0.0037398338317871094,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "racket",
+            "shorts",
+            "ball"
+          ],
+          "score": 0.0037398338317871094,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "racket",
+            "shorts",
+            "ball"
+          ],
+          "score": 0.0037398338317871094,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a man and a boy, both wearing black shirts and black shorts, stand with a man holding a blue racket, preparing to hit a green tennis ball with a lady in a black shirt",
+      "question": "what color is the tennis ball the lady is preparing to hit?",
+      "answer": "green",
+      "query_after": "a man in a black shirt and black shorts holding a blue racket, a boy in a black shirt, and a lady in a black shirt preparing to hit a green tennis ball",
+      "displayed_ids": [
+        25338,
+        21142,
+        34914,
+        38420,
+        5552,
+        5665,
+        15776,
+        25099,
+        13454,
+        16788
+      ],
+      "selected_ids": [
+        19729,
+        47198,
+        12328,
+        8739,
+        44006,
+        12340,
+        39409,
+        16854,
+        23716,
+        11242
+      ],
+      "rejected_count": 35,
+      "usual_paths": [
+        {
+          "question": "what color is the racket the lady is holding?",
+          "answers": [
+            "blue",
+            "green",
+            "red"
+          ],
+          "score": 0.021105289459228516
+        },
+        {
+          "question": "what color are the shorts the lady is wearing?",
+          "answers": [
+            "black",
+            "green",
+            "blue"
+          ],
+          "score": 0.008097648620605469
+        },
+        {
+          "question": "what color is the tennis ball the lady is preparing to hit?",
+          "answers": [
+            "green",
+            "yellow",
+            "orange"
+          ],
+          "score": 0.021246910095214844
+        },
+        {
+          "question": "what color are the shorts the lady is wearing?",
+          "answers": [
+            "black",
+            "green",
+            "blue"
+          ],
+          "score": 0.008097648620605469,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what color is the racket the lady is holding?",
+          "answers": [
+            "blue",
+            "green",
+            "red"
+          ],
+          "score": 0.021105289459228516,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the racket the lady is holding?",
+          "answers": [
+            "blue",
+            "green",
+            "red"
+          ],
+          "score": 0.021105289459228516
+        },
+        {
+          "question": "what color is the racket the lady is holding?",
+          "answers": [
+            "blue",
+            "green",
+            "red"
+          ],
+          "score": 0.021105289459228516,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the racket the lady is holding?",
+          "answers": [
+            "blue",
+            "green",
+            "red"
+          ],
+          "score": 0.021105289459228516,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color are the shorts the lady is wearing?",
+          "answers": [
+            "black",
+            "green",
+            "white"
+          ],
+          "score": 0.013936996459960938
+        },
+        {
+          "question": "what color are the shorts the lady is wearing?",
+          "answers": [
+            "black",
+            "green",
+            "white"
+          ],
+          "score": 0.013936996459960938,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a man in a black shirt and black shorts holding a blue racket, a boy in a black shirt, and a lady in a black shirt preparing to hit a green tennis ball",
+      "question": "What is the location where the lady is preparing to hit the green tennis ball?",
+      "answer": "tennis court",
+      "query_after": "a man in a black shirt and black shorts holding a blue racket stands on a tennis court next to a lady in a black shirt and shorts who is preparing to hit a green tennis ball",
+      "displayed_ids": [
+        34914,
+        25338,
+        29371,
+        13454,
+        34533,
+        25099,
+        28985,
+        16788,
+        266,
+        14876
+      ],
+      "selected_ids": [
+        32911,
+        36475,
+        13506,
+        45206,
+        23716,
+        8739,
+        19466,
+        34533,
+        12328
+      ],
+      "rejected_count": 39,
+      "usual_paths": [
+        {
+          "question": "what color are the shorts the lady is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.024694442749023438
+        },
+        {
+          "question": "what is the color of the shorts the man is wearing?",
+          "answers": [
+            "black",
+            "green",
+            "unknown"
+          ],
+          "score": 0.002300739288330078
+        },
+        {
+          "question": "what color are the shorts the lady is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.024694442749023438,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color are the shorts the lady is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.024694442749023438,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the shorts the lady is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.023567676544189453
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the location where the lady is preparing to hit the green tennis ball?",
+          "answers": [
+            "tennis court",
+            "billiards court",
+            "indoor"
+          ],
+          "score": 0.035465240478515625
+        },
+        {
+          "question": "Where is the lady preparing to hit the green tennis ball?",
+          "answers": [
+            "tennis court",
+            "billiards court",
+            "soccer field"
+          ],
+          "score": 0.022705554962158203
+        },
+        {
+          "question": "Question: What color is the tennis court?",
+          "answers": [
+            "blue",
+            "green",
+            "black"
+          ],
+          "score": 0.011258125305175781
+        },
+        {
+          "question": "Question: What color is the tennis court?",
+          "answers": [
+            "blue",
+            "green",
+            "black"
+          ],
+          "score": 0.011258125305175781,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What color is the tennis court?",
+          "answers": [
+            "blue",
+            "green",
+            "black"
+          ],
+          "score": 0.011258125305175781,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a man in a black shirt and black shorts holding a blue racket stands on a tennis court next to a lady in a black shirt and shorts who is preparing to hit a green tennis ball",
+      "question": "what color is the racket the lady is holding?",
+      "answer": "blue",
+      "query_after": "a man and a boy in black shirts and shorts stand on a tennis court with blue rackets, while a lady in a black shirt prepares to hit a green tennis ball with a blue racket",
+      "displayed_ids": [
+        25338,
+        34914,
+        16788,
+        38420,
+        41592,
+        266,
+        25099,
+        33260,
+        28985,
+        40457
+      ],
+      "selected_ids": [
+        49027,
+        23716,
+        8468,
+        34533,
+        8538,
+        12340,
+        29173,
+        47198,
+        33356,
+        12328
+      ],
+      "rejected_count": 40,
+      "usual_paths": [
+        {
+          "question": "what color is the racket the lady is holding?",
+          "answers": [
+            "blue",
+            "black",
+            "green"
+          ],
+          "score": 0.01189565658569336
+        },
+        {
+          "question": "what color is the racket the lady is holding?",
+          "answers": [
+            "blue",
+            "black",
+            "green"
+          ],
+          "score": 0.01189565658569336,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the racket the lady is holding?",
+          "answers": [
+            "blue",
+            "black",
+            "green"
+          ],
+          "score": 0.01189565658569336,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the racket the lady is holding?",
+          "answers": [
+            "blue",
+            "black",
+            "green"
+          ],
+          "score": 0.01189565658569336,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the racket the lady is holding?",
+          "answers": [
+            "blue",
+            "black",
+            "green"
+          ],
+          "score": 0.01189565658569336,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the racket the lady is holding?",
+          "answers": [
+            "blue",
+            "black",
+            "green"
+          ],
+          "score": 0.01189565658569336
+        },
+        {
+          "question": "what color is the racket the lady is holding?",
+          "answers": [
+            "blue",
+            "black",
+            "green"
+          ],
+          "score": 0.01189565658569336,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the racket the lady is holding?",
+          "answers": [
+            "blue",
+            "black",
+            "green"
+          ],
+          "score": 0.01189565658569336,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the racket the lady is holding?",
+          "answers": [
+            "blue",
+            "black",
+            "green"
+          ],
+          "score": 0.01189565658569336,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the racket the lady is holding?",
+          "answers": [
+            "blue",
+            "black",
+            "green"
+          ],
+          "score": 0.01189565658569336,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a man and a boy in black shirts and shorts stand on a tennis court with blue rackets, while a lady in a black shirt prepares to hit a green tennis ball with a blue racket",
+      "question": "what is the other object in the image?",
+      "answer": "tennis ball",
+      "query_after": "a man and a boy in black shirts and shorts stand on a tennis court with blue rackets, while a lady in a black shirt prepares to hit a green tennis ball with her blue racket",
+      "displayed_ids": [
+        25338,
+        34914,
+        34533,
+        42772,
+        15776,
+        5665,
+        21142,
+        38420,
+        1999,
+        25099
+      ],
+      "selected_ids": [
+        35045,
+        12055,
+        16365,
+        12340,
+        8538,
+        35954,
+        34533,
+        41384,
+        5665,
+        28259
+      ],
+      "rejected_count": 42,
+      "usual_paths": [
+        {
+          "question": "what color are the shorts the lady is wearing?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.008375167846679688
+        },
+        {
+          "question": "what color are the shorts the lady is wearing?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.008375167846679688,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color are the shorts the lady is wearing?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.008375167846679688,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color are the shorts the lady is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.008327484130859375
+        },
+        {
+          "question": "what color are the shorts the lady is wearing?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.008375167846679688,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color are the shorts the lady is wearing?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.008375167846679688
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "net",
+            "ball",
+            "racket"
+          ],
+          "score": 0.018993377685546875
+        },
+        {
+          "question": "what color are the shorts the lady is wearing?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.008375167846679688,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the racket the boy is holding?",
+          "answers": [
+            "blue",
+            "green",
+            "black"
+          ],
+          "score": 0.0028624534606933594
+        },
+        {
+          "question": "what color are the shorts the lady is wearing?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.008375167846679688,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "a man and a boy in black shirts and shorts stand on a tennis court with blue rackets, while a lady in a black shirt prepares to hit a green tennis ball with her blue racket",
+      "question": "Question: What color are the shorts the lady is wearing?",
+      "answer": "black",
+      "query_after": "a man and a boy in black shirts and black shorts stand on a tennis court with a blue racket, while a lady in a black shirt prepares to hit a green tennis ball with her own blue racket",
+      "displayed_ids": [
+        25338,
+        34914,
+        34533,
+        42772,
+        5665,
+        15776,
+        47538,
+        23653,
+        21142,
+        5552
+      ],
+      "selected_ids": [
+        41384,
+        8739,
+        5665,
+        29371,
+        47538,
+        3919,
+        34533,
+        41592,
+        31256,
+        15776
+      ],
+      "rejected_count": 44,
+      "usual_paths": [
+        {
+          "question": "what is the gender of the person wearing the black shirt and holding the blue racket?",
+          "answers": [
+            "lady",
+            "man",
+            "person"
+          ],
+          "score": 0.004083156585693359
+        },
+        {
+          "question": "what is the gender of the person wearing the black shirt and holding the blue racket?",
+          "answers": [
+            "lady",
+            "man",
+            "person"
+          ],
+          "score": 0.004083156585693359,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the gender of the person wearing the black shirt and holding the blue racket?",
+          "answers": [
+            "lady",
+            "man",
+            "person"
+          ],
+          "score": 0.004083156585693359,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the gender of the person wearing the black shirt and holding the blue racket?",
+          "answers": [
+            "lady",
+            "man",
+            "person"
+          ],
+          "score": 0.004083156585693359,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the gender of the person wearing the black shirt and holding the blue racket?",
+          "answers": [
+            "lady",
+            "man",
+            "person"
+          ],
+          "score": 0.004083156585693359,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color are the shorts the lady is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "pink"
+          ],
+          "score": 0.023029804229736328
+        },
+        {
+          "question": "Question: What color are the shorts the lady is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "pink"
+          ],
+          "score": 0.023029804229736328,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color are the shorts the lady is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.00877237319946289
+        },
+        {
+          "question": "Question: What color are the shorts the lady is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "pink"
+          ],
+          "score": 0.023029804229736328,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color are the shorts the lady is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.00877237319946289,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

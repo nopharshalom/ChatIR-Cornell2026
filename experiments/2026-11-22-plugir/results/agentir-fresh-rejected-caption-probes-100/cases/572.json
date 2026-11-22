@@ -1,0 +1,177 @@
+{
+  "qid": 572,
+  "initial": "a man in a white shirt is holding a tennis racket on a tennis court",
+  "initial_rank": 238,
+  "displayed": [
+    29415,
+    24634,
+    28120,
+    3549,
+    40638,
+    49713,
+    35042,
+    4335,
+    11269,
+    34492
+  ],
+  "evidence": [
+    "two young men on a tennis court walking and holding tennis rackets",
+    "a person swinging a tennis racquet at a ball",
+    "a tennis player is playing in front of an audience",
+    "a tennis player leaps in the air to hit a ball",
+    "a man is posing in front of a crowd of people",
+    "a tennis player in white clothes is in the air",
+    "man jumping while hitting a tennis ball",
+    "a large tennis court is filled with people and fans",
+    "man reaching up for a tennis ball",
+    "a tennis player in front of a crowd"
+  ],
+  "rejected_captions": [
+    "a man on the tennis court",
+    "man with tennis racket",
+    "a person is on a tennis court",
+    "the tennis player is on the court",
+    "a man playing tennis",
+    "tennis court is blue",
+    "black and white tennis racket",
+    "the man is wearing white shirts",
+    "a tennis player holding a racket",
+    "a man holding a tennis racket"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the other object in the image?",
+      "what is the color of the shirt of the man in the air hitting a tennis ball?",
+      "what is the color of the shirt of the man in the white shirt holding a tennis racket?",
+      "what is the color of the shirt of the man who is jumping or in the air?",
+      "what is the action of the man in the white shirt holding a tennis racket?"
+    ],
+    "question": "what is the color of the shirt of the man who is jumping or in the air?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "tennis ball",
+            "net",
+            "bench"
+          ],
+          "score": 0.044877052307128906
+        },
+        {
+          "question": "what is the color of the shirt of the man in the air hitting a tennis ball?",
+          "answers": [
+            "white",
+            "black",
+            "red"
+          ],
+          "score": 0.07989072799682617
+        },
+        {
+          "question": "what is the color of the shirt of the man in the white shirt holding a tennis racket?",
+          "answers": [
+            "white",
+            "black",
+            "blue"
+          ],
+          "score": 0.0696406364440918
+        },
+        {
+          "question": "what is the color of the shirt of the man who is jumping or in the air?",
+          "answers": [
+            "white",
+            "green",
+            "blue"
+          ],
+          "score": 0.08135223388671875
+        },
+        {
+          "question": "what is the action of the man in the white shirt holding a tennis racket?",
+          "answers": [
+            "holding",
+            "swinging",
+            "posing"
+          ],
+          "score": 0.02506113052368164
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.152,
+      "probe_selection_seconds": 2.385,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "white",
+    "rewrite": "a man in a white shirt is jumping in the air holding a tennis racket on a tennis court",
+    "raw_rank": 92,
+    "unseen_rank": 91
+  },
+  "rejected": {
+    "candidates": [
+      "Question: Is the man in the white shirt jumping in the air?",
+      "Question: Does the man in the white shirt appear to be posing or actively playing?",
+      "Question: What color is the tennis racket the man in the white shirt is holding?",
+      "Question: Is there an audience or crowd visible in the background?",
+      "Question: Is the man in the white shirt holding the tennis racket with both hands or one hand?"
+    ],
+    "question": "Question: What color is the tennis racket the man in the white shirt is holding?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: Is the man in the white shirt jumping in the air?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.001964569091796875
+        },
+        {
+          "question": "Question: Does the man in the white shirt appear to be posing or actively playing?",
+          "answers": [
+            "posing",
+            "playing",
+            "unclear"
+          ],
+          "score": 0.004031181335449219
+        },
+        {
+          "question": "Question: What color is the tennis racket the man in the white shirt is holding?",
+          "answers": [
+            "blue",
+            "green",
+            "black"
+          ],
+          "score": 0.08198356628417969
+        },
+        {
+          "question": "Question: Is there an audience or crowd visible in the background?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0037059783935546875
+        },
+        {
+          "question": "Question: Is the man in the white shirt holding the tennis racket with both hands or one hand?",
+          "answers": [
+            "one hand",
+            "two hands",
+            "unclear"
+          ],
+          "score": 0.0026984214782714844
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.159,
+      "probe_selection_seconds": 2.445,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "orange",
+    "rewrite": "a man in a white shirt holding an orange tennis racket on a tennis court",
+    "raw_rank": 195,
+    "unseen_rank": 185
+  }
+}

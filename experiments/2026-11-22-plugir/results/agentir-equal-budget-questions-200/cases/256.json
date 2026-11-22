@@ -1,0 +1,80 @@
+{
+  "qid": 256,
+  "sample": 1,
+  "first_candidates": [
+    "Question: Is the clock tower made of brick?",
+    "Question: What type of building is the clock tower attached to?",
+    "Question: What is the material of the clock tower?",
+    "what is the color of the clock tower?",
+    "Question: Is there a clock on top of the tower?"
+  ],
+  "second_candidates": [
+    "Question: Is the clock tower in the image red?",
+    "Question: What is the material of the building the clock tower is attached to?",
+    "Question: What is the color of the clock tower in the image?",
+    "Question: What is the material of the building the clock tower is attached to?",
+    "Question: What is the material of the building the clock tower is attached to?"
+  ],
+  "paths": [
+    {
+      "question": "Question: Is the clock tower in the image red?",
+      "answers": [
+        "Yes",
+        "No",
+        "It's not a clock tower"
+      ],
+      "score": 0.0034193992614746094
+    },
+    {
+      "question": "Question: What is the material of the building the clock tower is attached to?",
+      "answers": [
+        "brick",
+        "concrete",
+        "stone"
+      ],
+      "score": 0.010317325592041016
+    },
+    {
+      "question": "Question: What is the color of the clock tower in the image?",
+      "answers": [
+        "black",
+        "white",
+        "red"
+      ],
+      "score": 0.04954195022583008
+    },
+    {
+      "question": "Question: What is the material of the building the clock tower is attached to?",
+      "answers": [
+        "brick",
+        "concrete",
+        "stone"
+      ],
+      "score": 0.010317325592041016,
+      "duplicate_of": 1
+    },
+    {
+      "question": "Question: What is the material of the building the clock tower is attached to?",
+      "answers": [
+        "brick",
+        "concrete",
+        "stone"
+      ],
+      "score": 0.010317325592041016,
+      "duplicate_of": 1
+    }
+  ],
+  "control": {
+    "question": "what is the color of the clock tower?",
+    "score": 0.07719993591308594
+  },
+  "mixed": {
+    "question": "what is the color of the clock tower?",
+    "score": 0.07719993591308594
+  },
+  "control_rank": 3,
+  "mixed_rank": 3,
+  "usual_rank": 3,
+  "new_answer": null,
+  "new_rewrite": null
+}

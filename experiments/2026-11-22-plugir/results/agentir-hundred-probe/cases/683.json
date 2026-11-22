@@ -1,0 +1,103 @@
+{
+  "qid": 683,
+  "initial": "a person gripped on a sheep neck",
+  "initial_rank": 22,
+  "evidence": [
+    "a man is carrying a teddy bear around a group of people",
+    "woman walking a horse in a ring",
+    "woman with a red jacket and t-shirt walking dogs",
+    "a person water skiing on the ocean",
+    "an old man standing in a field with oxen",
+    "a lamb stands next to its mother near a wooden fence",
+    "a woman standing next to an owl in a park",
+    "kids are standing around a group of sheep",
+    "people feeding goats",
+    "two sheep with one kid on a field"
+  ],
+  "candidates": [
+    "what is the other object in the image?",
+    "Who is the person gripping the sheep's neck?",
+    "Who is the person gripping the sheep's neck?",
+    "Who is the person gripping the sheep's neck?",
+    "Who is the person gripping the sheep's neck?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "sheep",
+        "fence",
+        "grass"
+      ],
+      "score": 0.1296534538269043
+    },
+    {
+      "question": "Who is the person gripping the sheep's neck?",
+      "answers": [
+        "man",
+        "woman",
+        "child"
+      ],
+      "score": 0.08432912826538086
+    },
+    {
+      "question": "Who is the person gripping the sheep's neck?",
+      "answers": [
+        "man",
+        "woman",
+        "child"
+      ],
+      "score": 0.08432912826538086,
+      "duplicate_of": 1
+    },
+    {
+      "question": "Who is the person gripping the sheep's neck?",
+      "answers": [
+        "man",
+        "woman",
+        "child"
+      ],
+      "score": 0.08432912826538086,
+      "duplicate_of": 1
+    },
+    {
+      "question": "Who is the person gripping the sheep's neck?",
+      "answers": [
+        "man",
+        "woman",
+        "child"
+      ],
+      "score": 0.08432912826538086,
+      "duplicate_of": 1
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.061,
+  "probe_selection_seconds": 0.957,
+  "probe_llm_calls": 2,
+  "probe_search_queries": 6,
+  "arms": {
+    "kl": {
+      "question": "what is the other object in the image?",
+      "answer": "sheep",
+      "rewrite": "a person gripping a sheep by the neck",
+      "rank": 22,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the other object in the image?",
+      "answer": "sheep",
+      "rewrite": "a person gripping a sheep by the neck",
+      "rank": 22,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the other object in the image?",
+      "answer": "sheep",
+      "rewrite": "a person gripping a sheep by the neck",
+      "rank": 22,
+      "hit": false
+    }
+  },
+  "seconds": 17.366
+}

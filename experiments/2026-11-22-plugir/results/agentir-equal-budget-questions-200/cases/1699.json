@@ -1,0 +1,78 @@
+{
+  "qid": 1699,
+  "sample": 2,
+  "first_candidates": [
+    "what is the specific location where the large group of people are sitting with wine glasses?",
+    "Question: What is the gender composition of the group of people sitting around the table with wine glasses?",
+    "what is the specific setting or background behind the table where the large group of people are sitting with wine glasses?",
+    "Question: what is the food being served on the table with the large group of people?",
+    "what is the age of the people in the group sitting around the table with wine glasses?"
+  ],
+  "second_candidates": [
+    "Question: Are the people in the image men or women?",
+    "Question: What is the specific location where the group of people are drinking wine?",
+    "Question: Are the people sitting at the table with wine glasses wearing glasses?",
+    "Question: Question: Are there any laptops on the tables where the group of people are sitting?",
+    "Who are the people sitting around the table with wine glasses?"
+  ],
+  "paths": [
+    {
+      "question": "Question: Are the people in the image men or women?",
+      "answers": [
+        "men",
+        "women",
+        "mixed"
+      ],
+      "score": 0.004443168640136719
+    },
+    {
+      "question": "Question: What is the specific location where the group of people are drinking wine?",
+      "answers": [
+        "bar",
+        "winery",
+        "restaurant"
+      ],
+      "score": 0.036427974700927734
+    },
+    {
+      "question": "Question: Are the people sitting at the table with wine glasses wearing glasses?",
+      "answers": [
+        "yes",
+        "no",
+        "some"
+      ],
+      "score": 0.01817798614501953
+    },
+    {
+      "question": "Question: Question: Are there any laptops on the tables where the group of people are sitting?",
+      "answers": [
+        "yes",
+        "no",
+        "maybe"
+      ],
+      "score": 0.005276203155517578
+    },
+    {
+      "question": "Who are the people sitting around the table with wine glasses?",
+      "answers": [
+        "office workers",
+        "wine enthusiasts",
+        "diners"
+      ],
+      "score": 0.03765583038330078
+    }
+  ],
+  "control": {
+    "question": "Question: what is the food being served on the table with the large group of people?",
+    "score": 0.09295272827148438
+  },
+  "mixed": {
+    "question": "Question: What food item is on the table in front of the group?",
+    "score": 0.13824892044067383
+  },
+  "control_rank": 13,
+  "mixed_rank": 31,
+  "usual_rank": 13,
+  "new_answer": null,
+  "new_rewrite": null
+}

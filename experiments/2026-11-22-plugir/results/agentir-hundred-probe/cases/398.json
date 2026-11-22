@@ -1,0 +1,100 @@
+{
+  "qid": 398,
+  "initial": "a snowboarder is snowboarding down a snow covered hill",
+  "initial_rank": 239,
+  "evidence": [
+    "a man in a red jacket skiing down the side of the mountain",
+    "a man wearing a green jacket standing on a snowboard",
+    "a man on skis accross the slope in front of some trees",
+    "the snowboard is green",
+    "a man in orange and yellow doing a trick",
+    "three people on snowboards that are on top of a cliff",
+    "skier on skis riding up a slope with trees in the background",
+    "a man does a trick on a snowboard over a ramp at night",
+    "a person in midair in the air, with snowboard in front of him",
+    "a skier in blue racing down a hill"
+  ],
+  "candidates": [
+    "what is the color of the jacket worn by the man snowboarding down the hill?",
+    "Question: What is the color of the jacket worn by the man snowboarding down the hill?",
+    "what is the color of the snowboard worn by the man snowboarding down the hill?",
+    "Question: What is the color of the snowboard worn by the man snowboarding down the hill?",
+    "Question: what is the color of the jacket worn by the man snowboarding down the hill?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the jacket worn by the man snowboarding down the hill?",
+      "answers": [
+        "red",
+        "green",
+        "orange and yellow"
+      ],
+      "score": 0.1881103515625
+    },
+    {
+      "question": "Question: What is the color of the jacket worn by the man snowboarding down the hill?",
+      "answers": [
+        "red",
+        "green",
+        "orange"
+      ],
+      "score": 0.12875986099243164
+    },
+    {
+      "question": "what is the color of the snowboard worn by the man snowboarding down the hill?",
+      "answers": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "score": 0.17199993133544922
+    },
+    {
+      "question": "Question: What is the color of the snowboard worn by the man snowboarding down the hill?",
+      "answers": [
+        "green",
+        "blue",
+        "black"
+      ],
+      "score": 0.09923696517944336
+    },
+    {
+      "question": "Question: what is the color of the jacket worn by the man snowboarding down the hill?",
+      "answers": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "score": 0.15516090393066406
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.074,
+  "probe_selection_seconds": 2.587,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the color of the snowboard worn by the man snowboarding down the hill?",
+      "answer": "black",
+      "rewrite": "a man snowboarding down a snow-covered hill on a black snowboard",
+      "rank": 160,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the color of the snowboard worn by the man snowboarding down the hill?",
+      "answer": "black",
+      "rewrite": "a man snowboarding down a snow-covered hill on a black snowboard",
+      "rank": 160,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the color of the jacket worn by the man snowboarding down the hill?",
+      "answer": "black",
+      "rewrite": "a man in a black jacket is snowboarding down a snow-covered hill",
+      "rank": 348,
+      "hit": false
+    }
+  },
+  "seconds": 13.373
+}

@@ -1,0 +1,1332 @@
+{
+  "qid": 955,
+  "sample": "original",
+  "target": "unlabeled2017/000000322805.jpg",
+  "queries": [
+    "a skateboarder in jeans and a long sleeve shirt and jeans looking like he is going to go off a ramp",
+    "a skateboarder wearing a black long-sleeve shirt and jeans, looking like he is about to go off a ramp",
+    "a skateboarder wearing a black long-sleeve shirt and jeans is at a skate park, looking like he is about to go off a ramp",
+    "a skateboarder wearing a black long-sleeve shirt and jeans is at a skate park, preparing to go off a ramp with a black skateboard",
+    "A skateboarder dressed in a black long-sleeve shirt and jeans is at a skate park, getting ready to launch off a ramp on a black skateboard.",
+    "a skateboarder wearing a black long-sleeve shirt and jeans is positioned at a skate park, appearing ready to launch off a ramp with a black skateboard.",
+    "a skateboarder wearing a black long-sleeve shirt and jeans is positioned at a skate park, appearing ready to launch off a ramp with a black skateboard",
+    "a skateboarder wearing a black long-sleeve shirt and jeans is positioned at a skate park, appearing ready to launch off a ramp with a black skateboard.",
+    "a skateboarder wearing a black long-sleeve shirt and black pants is about to go off a ramp at a skate park, riding a black skateboard",
+    "A skateboarder dressed in a black long-sleeve shirt and black pants is preparing to launch off a ramp at a skate park while riding a black skateboard.",
+    "a skateboarder wearing a black long-sleeve shirt and black pants is positioned at a skate park, appearing ready to launch off a ramp, riding a black skateboard"
+  ],
+  "ranks": [
+    102,
+    388,
+    434,
+    434,
+    372,
+    228,
+    271,
+    228,
+    299,
+    225,
+    196
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a skateboarder in jeans and a long sleeve shirt and jeans looking like he is going to go off a ramp",
+      "question": "Question: What is the color of the shirt worn by the skateboarder?",
+      "answer": "black",
+      "query_after": "a skateboarder wearing a black long-sleeve shirt and jeans, looking like he is about to go off a ramp",
+      "displayed_ids": [
+        17599,
+        40115,
+        26068,
+        43109,
+        36516,
+        3571,
+        10847,
+        24654,
+        3433,
+        10627
+      ],
+      "selected_ids": [
+        19703,
+        35131,
+        21626,
+        3571,
+        38302,
+        40804,
+        3986,
+        15682,
+        8654,
+        45381
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "What is the color of the shirt worn by the skateboarder in the image?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.13177108764648438
+        },
+        {
+          "question": "Question: What is the color of the shirt worn by the skateboarder in the image?",
+          "answers": [
+            "black",
+            "blue",
+            "orange"
+          ],
+          "score": 0.12938499450683594
+        },
+        {
+          "question": "Question: What is the color of the shirt worn by the skateboarder?",
+          "answers": [
+            "blue",
+            "red",
+            "orange"
+          ],
+          "score": 0.14087581634521484
+        },
+        {
+          "question": "Question: Is the skateboarder performing the trick at night?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0019659996032714844
+        },
+        {
+          "question": "Question: What is the location where the skateboarder is performing the trick?",
+          "answers": [
+            "skate park",
+            "sidewalk",
+            "ramp"
+          ],
+          "score": 0.06480741500854492
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the color of the skateboarder's shirt?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.13110685348510742
+        },
+        {
+          "question": "Question: What is the color of the skateboarder's shirt?",
+          "answers": [
+            "black",
+            "blue",
+            "orange"
+          ],
+          "score": 0.12486028671264648
+        },
+        {
+          "question": "Question: What is the color of the skateboarder's shirt?",
+          "answers": [
+            "black",
+            "blue",
+            "orange"
+          ],
+          "score": 0.12486028671264648,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What color are the jeans worn by the skateboarder?",
+          "answers": [
+            "blue",
+            "black",
+            "dark"
+          ],
+          "score": 0.024666786193847656
+        },
+        {
+          "question": "Question: Is the skateboarder performing the trick at night?",
+          "answers": [
+            "Yes",
+            "No",
+            "I don't know"
+          ],
+          "score": 0.0020270347595214844
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a skateboarder wearing a black long-sleeve shirt and jeans, looking like he is about to go off a ramp",
+      "question": "Question: What is the location where the skateboarder is performing the trick?",
+      "answer": "skate park",
+      "query_after": "a skateboarder wearing a black long-sleeve shirt and jeans is at a skate park, looking like he is about to go off a ramp",
+      "displayed_ids": [
+        10847,
+        43109,
+        1128,
+        41493,
+        28140,
+        26470,
+        36516,
+        27806,
+        49022,
+        33345
+      ],
+      "selected_ids": [
+        30877,
+        21107,
+        20042,
+        20866,
+        38573,
+        30326,
+        48090,
+        6658,
+        34215,
+        34627
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "what is the location where the skateboarder in the black long sleeve shirt is going to go off?",
+          "answers": [
+            "ramp",
+            "street",
+            "park"
+          ],
+          "score": 0.016289234161376953
+        },
+        {
+          "question": "Question: What is the lighting condition or time of day depicted in the scene where the skateboarder in the black long sleeve shirt is going off the ramp?",
+          "answers": [
+            "night",
+            "day",
+            "dusk"
+          ],
+          "score": 0.01883983612060547
+        },
+        {
+          "question": "what is the gender of the person performing the trick on the skateboard?",
+          "answers": [
+            "male",
+            "female",
+            "non-binary"
+          ],
+          "score": 0.02655649185180664
+        },
+        {
+          "question": "what is the gender of the person wearing the black long sleeve shirt and jeans who is going off the ramp?",
+          "answers": [
+            "he",
+            "boy",
+            "man"
+          ],
+          "score": 0.00261688232421875
+        },
+        {
+          "question": "Question: What is the gender of the person wearing the black long sleeve shirt and jeans who is going off the ramp?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.01893138885498047
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the location where the skateboarder is performing the trick?",
+          "answers": [
+            "skate park",
+            "street",
+            "ramp"
+          ],
+          "score": 0.03873443603515625
+        },
+        {
+          "question": "Question: Is the trick being performed at night?",
+          "answers": [
+            "yes",
+            "no",
+            "unclear"
+          ],
+          "score": 0.003155231475830078
+        },
+        {
+          "question": "Question: What is the lighting condition (day or night) when the skateboarder is performing the trick?",
+          "answers": [
+            "day",
+            "night",
+            "dusk"
+          ],
+          "score": 0.013309478759765625
+        },
+        {
+          "question": "Question: What is the gender of the skateboarder?",
+          "answers": [
+            "man",
+            "boy",
+            "girl"
+          ],
+          "score": 0.02355813980102539
+        },
+        {
+          "question": "Question: What is the gender of the skateboarder?",
+          "answers": [
+            "man",
+            "boy",
+            "girl"
+          ],
+          "score": 0.02355813980102539,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a skateboarder wearing a black long-sleeve shirt and jeans is at a skate park, looking like he is about to go off a ramp",
+      "question": "Question: What is the color of the skateboard worn by the man?",
+      "answer": "black",
+      "query_after": "a skateboarder wearing a black long-sleeve shirt and jeans is at a skate park, preparing to go off a ramp with a black skateboard",
+      "displayed_ids": [
+        10847,
+        43109,
+        36516,
+        1128,
+        3149,
+        20576,
+        22173,
+        12578,
+        43445,
+        41493
+      ],
+      "selected_ids": [
+        38302,
+        37241,
+        34215,
+        37571,
+        30877,
+        39886,
+        23002,
+        1128,
+        7377,
+        40021
+      ],
+      "rejected_count": 22,
+      "usual_paths": [
+        {
+          "question": "what is the time of day when the skateboarder is performing the trick?",
+          "answers": [
+            "day",
+            "night",
+            "dusk"
+          ],
+          "score": 0.05708646774291992
+        },
+        {
+          "question": "Question: What is the time of day when the skateboarder is performing the trick?",
+          "answers": [
+            "day",
+            "night",
+            "dusk"
+          ],
+          "score": 0.047670841217041016
+        },
+        {
+          "question": "what is the time of day depicted in the image of the man skateboarding on a ramp?",
+          "answers": [
+            "day",
+            "night",
+            "dusk"
+          ],
+          "score": 0.05298137664794922
+        },
+        {
+          "question": "Question: Is the skateboarder performing the trick at night?",
+          "answers": [
+            "yes",
+            "no",
+            "unclear"
+          ],
+          "score": 0.0006737709045410156
+        },
+        {
+          "question": "Question: What is the color of the skateboard used by the skateboarder?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.05695533752441406
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the skateboard worn by the man?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.06156301498413086
+        },
+        {
+          "question": "Question: What is the color of the skateboard?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.03970193862915039
+        },
+        {
+          "question": "Question: What is the color of the skateboard?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.03970193862915039,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the skateboard?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.03970193862915039,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "skateboard",
+            "ramp",
+            "skate park"
+          ],
+          "score": 0.0028939247131347656
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a skateboarder wearing a black long-sleeve shirt and jeans is at a skate park, preparing to go off a ramp with a black skateboard",
+      "question": "Question: What is the location where the skateboarder is performing the trick?",
+      "answer": "skate park",
+      "query_after": "A skateboarder dressed in a black long-sleeve shirt and jeans is at a skate park, getting ready to launch off a ramp on a black skateboard.",
+      "displayed_ids": [
+        10847,
+        43109,
+        22173,
+        36516,
+        20576,
+        41493,
+        3149,
+        20842,
+        49022,
+        43445
+      ],
+      "selected_ids": [
+        37571,
+        1128,
+        38302,
+        13887,
+        40021,
+        28140,
+        3986,
+        11904,
+        25407,
+        16512
+      ],
+      "rejected_count": 23,
+      "usual_paths": [
+        {
+          "question": "Question: What is the time of day when the skateboarder is performing the trick?",
+          "answers": [
+            "night",
+            "day",
+            "dusk"
+          ],
+          "score": 0.05090188980102539
+        },
+        {
+          "question": "Question: What is the time of day when the skateboarder is performing the trick?",
+          "answers": [
+            "night",
+            "day",
+            "dusk"
+          ],
+          "score": 0.05090188980102539,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the location where the skateboarder is performing the trick?",
+          "answers": [
+            "skate park",
+            "night",
+            "street"
+          ],
+          "score": 0.0746455192565918
+        },
+        {
+          "question": "Question: What is the time of day when the skateboarder is performing the trick?",
+          "answers": [
+            "night",
+            "day",
+            "dusk"
+          ],
+          "score": 0.05090188980102539,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the time of day when the skateboarder is performing the trick?",
+          "answers": [
+            "night",
+            "day",
+            "dusk"
+          ],
+          "score": 0.05090188980102539,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the type of ramp the skateboarder is preparing to go off of?",
+          "answers": [
+            "halfpipe",
+            "quarter pipe",
+            "ramp"
+          ],
+          "score": 0.0019483566284179688
+        },
+        {
+          "question": "Question: What is the color of the ramp the skateboarder is preparing to go off of?",
+          "answers": [
+            "blue",
+            "red",
+            "wooden"
+          ],
+          "score": 0.04441499710083008
+        },
+        {
+          "question": "Question: What is the color of the ramp the skateboarder is preparing to go off of?",
+          "answers": [
+            "blue",
+            "red",
+            "wooden"
+          ],
+          "score": 0.04441499710083008,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the ramp the skateboarder is preparing to go off of?",
+          "answers": [
+            "blue",
+            "red",
+            "wooden"
+          ],
+          "score": 0.04441499710083008,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What type of ramp is the skateboarder preparing to go off of?",
+          "answers": [
+            "quarter pipe",
+            "half pipe",
+            "ramp"
+          ],
+          "score": 0.0018467903137207031
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "A skateboarder dressed in a black long-sleeve shirt and jeans is at a skate park, getting ready to launch off a ramp on a black skateboard.",
+      "question": "Question: What is the color of the skateboard worn by the man?",
+      "answer": "black",
+      "query_after": "a skateboarder wearing a black long-sleeve shirt and jeans is positioned at a skate park, appearing ready to launch off a ramp with a black skateboard.",
+      "displayed_ids": [
+        10847,
+        43109,
+        41493,
+        22173,
+        40013,
+        3270,
+        49022,
+        43445,
+        26494,
+        24837
+      ],
+      "selected_ids": [
+        3986,
+        28140,
+        38302,
+        11904,
+        34215,
+        39886,
+        3571,
+        15724,
+        37571
+      ],
+      "rejected_count": 27,
+      "usual_paths": [
+        {
+          "question": "Question: What is the time of day when the skateboarder is performing the trick?",
+          "answers": [
+            "day",
+            "night",
+            "dusk"
+          ],
+          "score": 0.049774169921875
+        },
+        {
+          "question": "Question: Is the skateboarder performing the trick at night or during the day?",
+          "answers": [
+            "night",
+            "day",
+            "indoors"
+          ],
+          "score": 0.02537822723388672
+        },
+        {
+          "question": "Question: What is the color of the skateboard ramp?",
+          "answers": [
+            "wood",
+            "concrete",
+            "metal"
+          ],
+          "score": 0.016183853149414062
+        },
+        {
+          "question": "Question: What is the time of day when the skateboarder is performing the trick?",
+          "answers": [
+            "day",
+            "night",
+            "dusk"
+          ],
+          "score": 0.049774169921875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the skateboard ramp?",
+          "answers": [
+            "wood",
+            "concrete",
+            "metal"
+          ],
+          "score": 0.016183853149414062,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "skateboard",
+            "ramp",
+            "light"
+          ],
+          "score": 0.003578662872314453
+        },
+        {
+          "question": "Question: What color are the jeans worn by the skateboarder?",
+          "answers": [
+            "blue",
+            "black",
+            "grey"
+          ],
+          "score": 0.017432689666748047
+        },
+        {
+          "question": "Question: What is the color of the skateboard worn by the man?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.05859088897705078
+        },
+        {
+          "question": "Question: What is the color of the skateboard worn by the man?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.05859088897705078,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the color of the skateboard worn by the man?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.05859088897705078,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a skateboarder wearing a black long-sleeve shirt and jeans is positioned at a skate park, appearing ready to launch off a ramp with a black skateboard.",
+      "question": "Question: What is the color of the skateboard worn by the man?",
+      "answer": "black",
+      "query_after": "a skateboarder wearing a black long-sleeve shirt and jeans is positioned at a skate park, appearing ready to launch off a ramp with a black skateboard",
+      "displayed_ids": [
+        10847,
+        43109,
+        41493,
+        49022,
+        22173,
+        43445,
+        10501,
+        26494,
+        28140,
+        1128
+      ],
+      "selected_ids": [
+        13289,
+        40833,
+        10847,
+        38302,
+        5622,
+        28140,
+        16512,
+        20042,
+        3216,
+        20576
+      ],
+      "rejected_count": 28,
+      "usual_paths": [
+        {
+          "question": "Question: What is the gender of the skateboarder performing the trick?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.024869918823242188
+        },
+        {
+          "question": "Question: What is the gender of the skateboarder performing the trick?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.024869918823242188,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the gender of the skateboarder performing the trick?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.024869918823242188,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the specific location name where the skateboarder is performing the trick?",
+          "answers": [
+            "skate park",
+            "parking lot",
+            "city square"
+          ],
+          "score": 0.009109973907470703
+        },
+        {
+          "question": "Question: What is the gender of the skateboarder performing the trick?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.024869918823242188,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "ramp",
+            "skate park",
+            "fence"
+          ],
+          "score": 0.01394796371459961
+        },
+        {
+          "question": "Question: What is the color of the skateboard worn by the man?",
+          "answers": [
+            "black",
+            "white",
+            "colorful"
+          ],
+          "score": 0.039853572845458984
+        },
+        {
+          "question": "Question: What is the color of the pants worn by the skateboarder?",
+          "answers": [
+            "blue",
+            "black",
+            "jeans"
+          ],
+          "score": 0.020406246185302734
+        },
+        {
+          "question": "Question: What is the color of the pants worn by the skateboarder?",
+          "answers": [
+            "blue",
+            "black",
+            "jeans"
+          ],
+          "score": 0.020406246185302734,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What color is the skateboard?",
+          "answers": [
+            "black",
+            "yellow",
+            "white"
+          ],
+          "score": 0.03585386276245117
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a skateboarder wearing a black long-sleeve shirt and jeans is positioned at a skate park, appearing ready to launch off a ramp with a black skateboard",
+      "question": "Question: What is the color of the shirt worn by the skateboarder?",
+      "answer": "black",
+      "query_after": "a skateboarder wearing a black long-sleeve shirt and jeans is positioned at a skate park, appearing ready to launch off a ramp with a black skateboard.",
+      "displayed_ids": [
+        10847,
+        43109,
+        41493,
+        43445,
+        49022,
+        22173,
+        10501,
+        26494,
+        28140,
+        3270
+      ],
+      "selected_ids": [
+        37571,
+        1429,
+        10847,
+        46261,
+        28140,
+        33345,
+        38302,
+        3571,
+        40021
+      ],
+      "rejected_count": 28,
+      "usual_paths": [
+        {
+          "question": "Question: What is the lighting condition of the scene where the skateboarder is performing the trick?",
+          "answers": [
+            "day",
+            "night",
+            "indoor"
+          ],
+          "score": 0.046525001525878906
+        },
+        {
+          "question": "what is the time of day depicted in the image where the skateboarder is performing a trick?",
+          "answers": [
+            "night",
+            "day",
+            "dusk"
+          ],
+          "score": 0.05152559280395508
+        },
+        {
+          "question": "Question: What is the lighting condition of the scene where the skateboarder is performing the trick?",
+          "answers": [
+            "day",
+            "night",
+            "indoor"
+          ],
+          "score": 0.046525001525878906,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "skateboard",
+            "ramp",
+            "jeans"
+          ],
+          "score": 0.004494190216064453
+        },
+        {
+          "question": "Question: What is the lighting condition of the scene where the skateboarder is performing the trick?",
+          "answers": [
+            "day",
+            "night",
+            "indoor"
+          ],
+          "score": 0.046525001525878906,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "ramp",
+            "skateboard",
+            "skate park"
+          ],
+          "score": 0.0025010108947753906
+        },
+        {
+          "question": "Question: What is the color of the skateboard worn by the man?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.058289527893066406
+        },
+        {
+          "question": "Question: What is the color of the jeans worn by the skateboarder?",
+          "answers": [
+            "blue",
+            "black",
+            "dark"
+          ],
+          "score": 0.011556625366210938
+        },
+        {
+          "question": "Question: What is the color of the skateboard worn by the man?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.058289527893066406,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the shirt worn by the skateboarder?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.06123828887939453
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a skateboarder wearing a black long-sleeve shirt and jeans is positioned at a skate park, appearing ready to launch off a ramp with a black skateboard.",
+      "question": "Question: What is the color of the pants worn by the skateboarder?",
+      "answer": "black",
+      "query_after": "a skateboarder wearing a black long-sleeve shirt and black pants is about to go off a ramp at a skate park, riding a black skateboard",
+      "displayed_ids": [
+        10847,
+        43109,
+        41493,
+        49022,
+        22173,
+        43445,
+        10501,
+        26494,
+        28140,
+        1128
+      ],
+      "selected_ids": [
+        22634,
+        37571,
+        8726,
+        15724,
+        18801,
+        28140,
+        20576,
+        40631,
+        38302,
+        3571
+      ],
+      "rejected_count": 28,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "skateboard",
+            "ramp",
+            "jeans"
+          ],
+          "score": 0.0050983428955078125
+        },
+        {
+          "question": "Question: What is the color of the pants worn by the skateboarder?",
+          "answers": [
+            "blue",
+            "black",
+            "grey"
+          ],
+          "score": 0.029278278350830078
+        },
+        {
+          "question": "Question: What is the color of the pants worn by the skateboarder?",
+          "answers": [
+            "blue",
+            "black",
+            "grey"
+          ],
+          "score": 0.029278278350830078,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the pants worn by the skateboarder?",
+          "answers": [
+            "blue",
+            "black",
+            "grey"
+          ],
+          "score": 0.029278278350830078,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the pants worn by the skateboarder?",
+          "answers": [
+            "blue",
+            "black",
+            "grey"
+          ],
+          "score": 0.029278278350830078,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "skateboard",
+            "ramp",
+            "jeans"
+          ],
+          "score": 0.0050983428955078125
+        },
+        {
+          "question": "Question: What is the color of the pants worn by the skateboarder?",
+          "answers": [
+            "blue",
+            "black",
+            "grey"
+          ],
+          "score": 0.029278278350830078
+        },
+        {
+          "question": "Question: What color are the pants worn by the skateboarder?",
+          "answers": [
+            "blue",
+            "black",
+            "jeans"
+          ],
+          "score": 0.019284725189208984
+        },
+        {
+          "question": "Question: What is the color of the pants worn by the skateboarder?",
+          "answers": [
+            "blue",
+            "black",
+            "grey"
+          ],
+          "score": 0.029278278350830078,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What color is the hat worn by the skateboarder?",
+          "answers": [
+            "black",
+            "grey",
+            "white"
+          ],
+          "score": 0.019043445587158203
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a skateboarder wearing a black long-sleeve shirt and black pants is about to go off a ramp at a skate park, riding a black skateboard",
+      "question": "Based on the provided dialogue, the following attributes have already been answered for the target image:\n1.  **Shirt Color**: Black (Answered in the?",
+      "answer": "black",
+      "query_after": "A skateboarder dressed in a black long-sleeve shirt and black pants is preparing to launch off a ramp at a skate park while riding a black skateboard.",
+      "displayed_ids": [
+        22173,
+        41913,
+        10847,
+        27806,
+        970,
+        36440,
+        3270,
+        2387,
+        21648,
+        43109
+      ],
+      "selected_ids": [
+        40631,
+        7025,
+        20576,
+        41905,
+        39467,
+        28140,
+        18801,
+        30877,
+        40013
+      ],
+      "rejected_count": 33,
+      "usual_paths": [
+        {
+          "question": "what is the color of the hat worn by the man performing the trick on the skateboard?",
+          "answers": [
+            "black",
+            "blue",
+            "none"
+          ],
+          "score": 0.030765056610107422
+        },
+        {
+          "question": "Question: What is the color of the hat worn by the man performing the trick on the skateboard?",
+          "answers": [
+            "black",
+            "white",
+            "gray"
+          ],
+          "score": 0.014031410217285156
+        },
+        {
+          "question": "what is the color of the hat worn by the man performing the trick on the skateboard?",
+          "answers": [
+            "black",
+            "blue",
+            "none"
+          ],
+          "score": 0.030765056610107422,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the hat worn by the man performing the trick on the skateboard?",
+          "answers": [
+            "black",
+            "blue",
+            "none"
+          ],
+          "score": 0.030765056610107422,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the hat worn by the man performing the trick on the skateboard?",
+          "answers": [
+            "black",
+            "blue",
+            "none"
+          ],
+          "score": 0.030765056610107422,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "hat",
+            "skateboard",
+            "ramp"
+          ],
+          "score": 0.01010894775390625
+        },
+        {
+          "question": "Question: What is the name of the specific structure or obstacle the skateboarder is performing the trick over?",
+          "answers": [
+            "ramp",
+            "stairs",
+            "none"
+          ],
+          "score": 0.010478496551513672
+        },
+        {
+          "question": "Question: What is the color of the pants worn by the skateboarder?",
+          "answers": [
+            "black",
+            "blue",
+            "grey"
+          ],
+          "score": 0.0438838005065918
+        },
+        {
+          "question": "Question: What is the color of the pants worn by the skateboarder?",
+          "answers": [
+            "black",
+            "blue",
+            "grey"
+          ],
+          "score": 0.0438838005065918,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Based on the provided dialogue, the following attributes have already been answered for the target image:\n1.  **Shirt Color**: Black (Answered in the?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.05431699752807617
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "A skateboarder dressed in a black long-sleeve shirt and black pants is preparing to launch off a ramp at a skate park while riding a black skateboard.",
+      "question": "Question: What is the color of the pants worn by the skateboarder?",
+      "answer": "black",
+      "query_after": "a skateboarder wearing a black long-sleeve shirt and black pants is positioned at a skate park, appearing ready to launch off a ramp, riding a black skateboard",
+      "displayed_ids": [
+        22173,
+        36440,
+        3270,
+        41913,
+        24837,
+        18386,
+        10847,
+        41493,
+        45572,
+        21648
+      ],
+      "selected_ids": [
+        33345,
+        19853,
+        42127,
+        40013,
+        39467,
+        20576,
+        28140,
+        9404,
+        47530,
+        10847
+      ],
+      "rejected_count": 35,
+      "usual_paths": [
+        {
+          "question": "What type of footwear is the skateboarder wearing?",
+          "answers": [
+            "sneakers",
+            "shoes",
+            "slippers"
+          ],
+          "score": 0.0010843276977539062
+        },
+        {
+          "question": "Question: What color pants is the skateboarder wearing?",
+          "answers": [
+            "black",
+            "blue",
+            "grey"
+          ],
+          "score": 0.04162931442260742
+        },
+        {
+          "question": "Question: What color are the pants worn by the skateboarder?",
+          "answers": [
+            "black",
+            "blue",
+            "gray"
+          ],
+          "score": 0.04118537902832031
+        },
+        {
+          "question": "Question: What color are the pants worn by the skateboarder?",
+          "answers": [
+            "black",
+            "blue",
+            "gray"
+          ],
+          "score": 0.04118537902832031,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the color of the pants worn by the skateboarder?",
+          "answers": [
+            "black",
+            "blue",
+            "green"
+          ],
+          "score": 0.06745672225952148
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What type of footwear is the skateboarder wearing?",
+          "answers": [
+            "sneakers",
+            "shoes",
+            "slippers"
+          ],
+          "score": 0.0010843276977539062
+        },
+        {
+          "question": "Question: What color are the pants worn by the skateboarder?",
+          "answers": [
+            "black",
+            "blue",
+            "grey"
+          ],
+          "score": 0.04085683822631836
+        },
+        {
+          "question": "Question: What color are the pants worn by the skateboarder?",
+          "answers": [
+            "black",
+            "blue",
+            "grey"
+          ],
+          "score": 0.04085683822631836,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What color are the pants worn by the skateboarder?",
+          "answers": [
+            "black",
+            "blue",
+            "grey"
+          ],
+          "score": 0.04085683822631836,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the pants worn by the skateboarder?",
+          "answers": [
+            "black",
+            "blue",
+            "green"
+          ],
+          "score": 0.06745672225952148
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

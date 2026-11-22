@@ -1,0 +1,46 @@
+{
+  "qid": 858,
+  "arm": "fresh",
+  "after_round": 7,
+  "ranks": [
+    160,
+    173,
+    87,
+    39,
+    50,
+    67,
+    22,
+    24,
+    22,
+    11,
+    31
+  ],
+  "continuation": [
+    {
+      "round": 8,
+      "query_before": "On an overcast gray day, a large white stone building featuring a clock tower is situated at the corner of a city block, with a cobblestone street leading up to it and a street lamp standing nearby.",
+      "question": "Is the building in the image white or red?",
+      "answer": "white",
+      "query_after": "a large white stone building with a clock tower stands at the corner of a city block on an overcast gray sky, featuring a cobblestone street in front and a street lamp nearby",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Is the building in the image white or red?",
+      "fallback": false
+    },
+    {
+      "round": 9,
+      "query_before": "a large white stone building with a clock tower stands at the corner of a city block on an overcast gray sky, featuring a cobblestone street in front and a street lamp nearby",
+      "question": "what is the color of the street lamp next to the large white stone building?",
+      "answer": "black",
+      "query_after": "a large white stone building with a clock tower stands at the corner of a city block on an overcast gray sky, featuring a black street lamp and a cobblestone street, with another street lamp visible nearby"
+    },
+    {
+      "round": 10,
+      "query_before": "a large white stone building with a clock tower stands at the corner of a city block on an overcast gray sky, featuring a black street lamp and a cobblestone street, with another street lamp visible nearby",
+      "question": "what is the object located on top of the clock tower?",
+      "answer": "a weather vane",
+      "query_after": "a large white stone building with a clock tower topped by a weather vane stands at the corner of a city block, featuring a black street lamp nearby, set against a gray overcast sky with a cobblestone street in front."
+    }
+  ],
+  "seconds": 20.7
+}

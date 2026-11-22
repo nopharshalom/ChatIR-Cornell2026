@@ -1,0 +1,100 @@
+{
+  "qid": 1114,
+  "initial": "2 skiers move down a snowy path",
+  "initial_rank": 33,
+  "evidence": [
+    "a man skis down a hill with trees around him",
+    "two snowboarders at the top of a slope",
+    "a woman is on skis on a wooded trail",
+    "two people walking through a path in the woods",
+    "a group of skiers on the slopes in the clouds",
+    "a man wearing a ski jacket racing through a forest",
+    "three people on skis holding skis",
+    "a man is skiing down a mountain on a sunny day",
+    "a lot of skiers on a slope and a building",
+    "three people on snowboards that are on top of a cliff"
+  ],
+  "candidates": [
+    "Question: Are the skiers in the image wearing jackets?",
+    "what is the gender of the skier in the image?",
+    "what is the gender of the skiers in the image?",
+    "Question: What is the gender of the person in the image?",
+    "Question: Which specific gender is the person skiing in the image?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: Are the skiers in the image wearing jackets?",
+      "answers": [
+        "Yes",
+        "No",
+        "Maybe"
+      ],
+      "score": 0.000705718994140625
+    },
+    {
+      "question": "what is the gender of the skier in the image?",
+      "answers": [
+        "male",
+        "female",
+        "boy"
+      ],
+      "score": 0.03839302062988281
+    },
+    {
+      "question": "what is the gender of the skiers in the image?",
+      "answers": [
+        "male",
+        "female",
+        "mixed"
+      ],
+      "score": 0.035147666931152344
+    },
+    {
+      "question": "Question: What is the gender of the person in the image?",
+      "answers": [
+        "male",
+        "female",
+        "person"
+      ],
+      "score": 0.019177913665771484
+    },
+    {
+      "question": "Question: Which specific gender is the person skiing in the image?",
+      "answers": [
+        "male",
+        "female",
+        "unspecified"
+      ],
+      "score": 0.019075393676757812
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.153,
+  "probe_selection_seconds": 2.563,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "Question: What is the gender of the person in the image?",
+      "answer": "unsure",
+      "rewrite": "two skiers of unknown gender move down a snowy path",
+      "rank": 88,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the gender of the skiers in the image?",
+      "answer": "unsure",
+      "rewrite": "two skiers of unknown gender move down a snowy path",
+      "rank": 88,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the gender of the skier in the image?",
+      "answer": "unsure",
+      "rewrite": "two skiers of unknown gender move down a snowy path",
+      "rank": 88,
+      "hit": false
+    }
+  },
+  "seconds": 22.237
+}

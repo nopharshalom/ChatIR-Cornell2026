@@ -1,0 +1,143 @@
+{
+  "qid": 742,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000160418.jpg",
+  "queries": [
+    "a man flying a kite on the sand at the beach",
+    "a man wearing shorts and a black shirt flying a kite on the sand at the beach"
+  ],
+  "ranks": [
+    34,
+    5
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a man flying a kite on the sand at the beach",
+      "question": "what is the man wearing while flying the kite on the beach?",
+      "answer": "shorts and a black shirt",
+      "query_after": "a man wearing shorts and a black shirt flying a kite on the sand at the beach",
+      "displayed_ids": [
+        5526,
+        30539,
+        19790,
+        14415,
+        35956,
+        40417,
+        2844,
+        47194,
+        7888,
+        4183
+      ],
+      "selected_ids": [
+        41368,
+        20639,
+        7505,
+        36670,
+        3450,
+        24791,
+        397,
+        11661,
+        49972,
+        40532
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: What is the sky condition for the man flying the kite on the beach?",
+          "answers": [
+            "cloudy",
+            "sunny",
+            "overcast"
+          ],
+          "score": 0.036475181579589844
+        },
+        {
+          "question": "what is the color of the kite the man is flying on the beach?",
+          "answers": [
+            "blue",
+            "red",
+            "yellow"
+          ],
+          "score": 0.06900167465209961
+        },
+        {
+          "question": "what is the man wearing while flying the kite on the beach?",
+          "answers": [
+            "a red shirt",
+            "a blue shirt",
+            "a black shirt"
+          ],
+          "score": 0.09114599227905273
+        },
+        {
+          "question": "what is the color of the sand where the man is flying the kite?",
+          "answers": [
+            "beige",
+            "brown",
+            "white"
+          ],
+          "score": 0.012413501739501953
+        },
+        {
+          "question": "Question: Is the man flying the kite alone, or is he with a group of people?",
+          "answers": [
+            "alone",
+            "with a group",
+            "with people"
+          ],
+          "score": 0.013760566711425781
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the man's shirt?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.06625795364379883
+        },
+        {
+          "question": "Question: What is the color of the kite the man is flying?",
+          "answers": [
+            "blue",
+            "red",
+            "yellow"
+          ],
+          "score": 0.08135318756103516
+        },
+        {
+          "question": "Question: Is the man flying the kite alone or with a group of people?",
+          "answers": [
+            "alone",
+            "with a group",
+            "with friends"
+          ],
+          "score": 0.025592327117919922
+        },
+        {
+          "question": "Question: What is the color of the sand where the man is standing?",
+          "answers": [
+            "beige",
+            "brown",
+            "white"
+          ],
+          "score": 0.009372234344482422
+        },
+        {
+          "question": "Question: Question: What is the color of the sand where the man is standing?",
+          "answers": [
+            "beige",
+            "tan",
+            "golden"
+          ],
+          "score": 0.021014690399169922
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

@@ -1,0 +1,1320 @@
+{
+  "qid": 1406,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000474407.jpg",
+  "queries": [
+    "the flags are moving in the middle of the city",
+    "red flags are moving in the middle of the city",
+    "red flags moving in the middle of the city with tall buildings in the background",
+    "red flags moving in the middle of the city with tall buildings in the background and a blue traffic light hanging in front of a skyscraper",
+    "red flags moving in the middle of the city with tall buildings in the background, a blue traffic light hanging in front of a skyscraper, and a red traffic light visible in the foreground",
+    "red flags moving in the middle of the city with tall buildings in the background, a blue traffic light hanging in front of a skyscraper, and cloudy weather",
+    "red flags move in the middle of a city with tall buildings in the background, under cloudy skies, featuring a blue traffic light hanging in front of a skyscraper and a red traffic light visible in the scene, with no octopus-shaped kite present.",
+    "red flags move in the middle of a city with tall buildings in the background, under cloudy skies, featuring a blue traffic light hanging in front of a skyscraper and a red kite flying nearby",
+    "red flags move in the middle of a city with tall buildings and a blue traffic light hanging in front of a skyscraper, under cloudy skies, with a red kite visible in the scene",
+    "red flags moving in the middle of a city with tall buildings in the background, under cloudy skies, featuring a red traffic light and a red kite",
+    "red flags waving in the middle of a city with tall buildings in the background, under cloudy skies, featuring a red traffic light and a red kite"
+  ],
+  "ranks": [
+    105,
+    370,
+    170,
+    40,
+    38,
+    56,
+    44,
+    119,
+    81,
+    115,
+    114
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "the flags are moving in the middle of the city",
+      "question": "Question: What is the specific color of the flags moving in the middle of the city?",
+      "answer": "red",
+      "query_after": "red flags are moving in the middle of the city",
+      "displayed_ids": [
+        29740,
+        36508,
+        31538,
+        42474,
+        24523,
+        33151,
+        25045,
+        28271,
+        36803,
+        46694
+      ],
+      "selected_ids": [
+        8091,
+        15721,
+        11293,
+        28936,
+        447,
+        29740,
+        40696,
+        32342,
+        40741,
+        7906
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: What is the color of the flags moving in the middle of the city?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.11152887344360352
+        },
+        {
+          "question": "Question: What is the time of day when the flags are moving in the middle of the city?",
+          "answers": [
+            "daytime",
+            "night",
+            "dusk"
+          ],
+          "score": 0.07610845565795898
+        },
+        {
+          "question": "Where exactly in the city are the flags located?",
+          "answers": [
+            "at the city center",
+            "in a public square",
+            "near the town hall"
+          ],
+          "score": 0.026431560516357422
+        },
+        {
+          "question": "Question: What color are the flags moving in the middle of the city?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.04912614822387695
+        },
+        {
+          "question": "Question: What is the color of the flags moving in the middle of the city?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.11152887344360352,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the sail boat?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.0546875
+        },
+        {
+          "question": "Question: Where is the sail boat located?",
+          "answers": [
+            "in the night",
+            "by the water",
+            "during the day"
+          ],
+          "score": 0.09409284591674805
+        },
+        {
+          "question": "Question: What is the color of the flags?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.10120534896850586
+        },
+        {
+          "question": "Question: What is the time of day when the flags are moving in the city?",
+          "answers": [
+            "day",
+            "night",
+            "dusk"
+          ],
+          "score": 0.03972339630126953
+        },
+        {
+          "question": "Question: What is the specific color of the flags moving in the middle of the city?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.1311182975769043
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "red flags are moving in the middle of the city",
+      "question": "what is the specific background scene visible behind the red flags moving in the middle of the city?",
+      "answer": "tall buildings",
+      "query_after": "red flags moving in the middle of the city with tall buildings in the background",
+      "displayed_ids": [
+        5353,
+        36508,
+        2238,
+        33545,
+        45005,
+        13475,
+        31538,
+        24523,
+        9941,
+        21104
+      ],
+      "selected_ids": [
+        46848,
+        22606,
+        15316,
+        18168,
+        39994,
+        17147,
+        45717,
+        33391,
+        26626,
+        20872
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "what is the background scene visible behind the red flags moving in the middle of the city?",
+          "answers": [
+            "a traffic light with traffic in the background",
+            "a railroad track crossing a city street",
+            "an old brick building with an old yellow trolley that is parked on the corner"
+          ],
+          "score": 0.16951751708984375
+        },
+        {
+          "question": "what is the background scene visible behind the red flags moving in the middle of the city?",
+          "answers": [
+            "a traffic light with traffic in the background",
+            "a railroad track crossing a city street",
+            "an old brick building with an old yellow trolley that is parked on the corner"
+          ],
+          "score": 0.16951751708984375,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the specific background scene visible behind the red flags moving in the middle of the city?",
+          "answers": [
+            "a crowd of people walking in the rain near some buildings",
+            "an old brick building with an old yellow trolley that is parked on the corner",
+            "a railroad track crossing a city street"
+          ],
+          "score": 0.23955345153808594
+        },
+        {
+          "question": "what is the background scene visible behind the red flags moving in the middle of the city?",
+          "answers": [
+            "a traffic light with traffic in the background",
+            "a railroad track crossing a city street",
+            "an old brick building with an old yellow trolley that is parked on the corner"
+          ],
+          "score": 0.16951751708984375,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the flags flying in the sky?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.027934551239013672
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Where exactly in the middle of the city are the red flags located?",
+          "answers": [
+            "in a city square",
+            "near a government building",
+            "at a busy intersection"
+          ],
+          "score": 0.049137115478515625
+        },
+        {
+          "question": "Where exactly in the city are the red flags located?",
+          "answers": [
+            "in a square",
+            "on a street corner",
+            "near the river"
+          ],
+          "score": 0.05603504180908203
+        },
+        {
+          "question": "Where exactly in the city are the red flags located?",
+          "answers": [
+            "in a square",
+            "on a street corner",
+            "near the river"
+          ],
+          "score": 0.05603504180908203,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the background setting where the red flags are moving?",
+          "answers": [
+            "city street",
+            "beach",
+            "park"
+          ],
+          "score": 0.06279850006103516
+        },
+        {
+          "question": "what is the type of building in the background where the red flags are moving?",
+          "answers": [
+            "skyscraper",
+            "office building",
+            "commercial building"
+          ],
+          "score": 0.02171468734741211
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "red flags moving in the middle of the city with tall buildings in the background",
+      "question": "what is the color of the traffic light hanging in front of the skyscraper?",
+      "answer": "blue",
+      "query_after": "red flags moving in the middle of the city with tall buildings in the background and a blue traffic light hanging in front of a skyscraper",
+      "displayed_ids": [
+        2238,
+        5353,
+        36508,
+        45005,
+        33545,
+        46971,
+        9941,
+        13475,
+        24523,
+        31538
+      ],
+      "selected_ids": [
+        39429,
+        49249,
+        21104,
+        40991,
+        3032,
+        1749,
+        25139,
+        41545,
+        19055,
+        46895
+      ],
+      "rejected_count": 18,
+      "usual_paths": [
+        {
+          "question": "what is the specific object flying in the sky above the tall buildings in the city?",
+          "answers": [
+            "kites",
+            "flags",
+            "none"
+          ],
+          "score": 0.024264812469482422
+        },
+        {
+          "question": "what is the specific object flying in the sky above the tall buildings in the city?",
+          "answers": [
+            "kites",
+            "flags",
+            "none"
+          ],
+          "score": 0.024264812469482422,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Are the flags being blown by the wind or hanging still?",
+          "answers": [
+            "Blown by the wind",
+            "Hanging still",
+            "Moving gently"
+          ],
+          "score": 0.004939556121826172
+        },
+        {
+          "question": "what is the specific color of the objects flying in the sky above the tall buildings?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.051332950592041016
+        },
+        {
+          "question": "Question: What color are the kites flying in the sky above the tall buildings?",
+          "answers": [
+            "red and white",
+            "red",
+            "blue"
+          ],
+          "score": 0.0387110710144043
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the traffic light hanging in front of the skyscraper?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.05697488784790039
+        },
+        {
+          "question": "Question: What is the object flying in the air above the city street with red flags?",
+          "answers": [
+            "kites",
+            "birds",
+            "clouds"
+          ],
+          "score": 0.03050374984741211
+        },
+        {
+          "question": "Question: What is the object flying in the air above the city street with red flags?",
+          "answers": [
+            "kites",
+            "birds",
+            "clouds"
+          ],
+          "score": 0.03050374984741211,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the kite flying in the air above the city street with red flags?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.03182268142700195
+        },
+        {
+          "question": "Question: What is the shape of the kite visible in the air above the city street with red flags?",
+          "answers": [
+            "triangular",
+            "diamond",
+            "rectangular"
+          ],
+          "score": 0.0034933090209960938
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "red flags moving in the middle of the city with tall buildings in the background and a blue traffic light hanging in front of a skyscraper",
+      "question": "Question: What is the specific color of the traffic light visible in the image with red flags and tall buildings?",
+      "answer": "red",
+      "query_after": "red flags moving in the middle of the city with tall buildings in the background, a blue traffic light hanging in front of a skyscraper, and a red traffic light visible in the foreground",
+      "displayed_ids": [
+        46971,
+        9941,
+        2238,
+        23130,
+        24523,
+        45824,
+        33612,
+        29350,
+        9628,
+        44273
+      ],
+      "selected_ids": [
+        38128,
+        9888,
+        4144,
+        3032,
+        13135,
+        43132,
+        3148,
+        25034,
+        15928,
+        49249
+      ],
+      "rejected_count": 24,
+      "usual_paths": [
+        {
+          "question": "Question: Which candidate image depicts a traffic light with a blue light hanging in front of a skyscraper?",
+          "answers": [
+            "4",
+            "7"
+          ],
+          "score": 0.0006117820739746094
+        },
+        {
+          "question": "Question: Which candidate image shows red flags moving in the middle of the city?",
+          "answers": [
+            "1",
+            "2",
+            "9"
+          ],
+          "score": 0.0009593963623046875
+        },
+        {
+          "question": "Question: Which candidate image shows red flags moving in the middle of the city with tall buildings in the background?",
+          "answers": [
+            "0",
+            "5",
+            "6"
+          ],
+          "score": 0.0010528564453125
+        },
+        {
+          "question": "Question: Which candidate image shows red flags moving in the middle of the city with tall buildings in the background and a blue traffic light?",
+          "answers": [
+            "no"
+          ],
+          "note": "fewer than 2 answers",
+          "score": null
+        },
+        {
+          "question": "Question: Which candidate image shows red flags moving in the middle of the city with tall buildings in the background and a blue traffic light?",
+          "answers": [
+            "no"
+          ],
+          "note": "fewer than 2 answers",
+          "duplicate_of": 3,
+          "score": null
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Is there a person visible in the image near the red flags?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.005245685577392578
+        },
+        {
+          "question": "Question: What is the color of the traffic light hanging in front of the tall buildings?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.0413970947265625
+        },
+        {
+          "question": "Question: What is the color of the traffic light visible in the image with red flags and tall buildings?",
+          "answers": [
+            "red",
+            "green",
+            "blue"
+          ],
+          "score": 0.026983261108398438
+        },
+        {
+          "question": "Question: What is the specific color of the traffic light visible in the image with red flags and tall buildings?",
+          "answers": [
+            "blue",
+            "green",
+            "yellow"
+          ],
+          "score": 0.044550418853759766
+        },
+        {
+          "question": "Question: Is there a person visible in the image near the red flags?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.003238201141357422
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "red flags moving in the middle of the city with tall buildings in the background, a blue traffic light hanging in front of a skyscraper, and a red traffic light visible in the foreground",
+      "question": "What is the weather condition in the image where red flags are moving in the middle of the city?",
+      "answer": "cloudy",
+      "query_after": "red flags moving in the middle of the city with tall buildings in the background, a blue traffic light hanging in front of a skyscraper, and cloudy weather",
+      "displayed_ids": [
+        46971,
+        9941,
+        43682,
+        9628,
+        23631,
+        45824,
+        24523,
+        33612,
+        23130,
+        26016
+      ],
+      "selected_ids": [
+        15721,
+        1077,
+        43132,
+        25034,
+        33850,
+        39211,
+        3148,
+        13118,
+        5353,
+        5411
+      ],
+      "rejected_count": 27,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "traffic light",
+            "skyscraper",
+            "street sign"
+          ],
+          "score": 0.0251922607421875
+        },
+        {
+          "question": "Question: What is the color of the traffic light?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.027276039123535156
+        },
+        {
+          "question": "what is the color of the traffic light visible in the image with red flags and tall buildings?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.021316051483154297
+        },
+        {
+          "question": "Based on the provided [Dialogue], the user has already asked multiple questions about the color of the traffic light (which is answered as \"blue\" or \"red?",
+          "answers": [
+            "blue",
+            "red",
+            "green"
+          ],
+          "score": 0.013256549835205078
+        },
+        {
+          "question": "what is the color of the traffic light in the image with red flags and tall buildings?",
+          "answers": [
+            "red",
+            "green",
+            "blue"
+          ],
+          "score": 0.02163839340209961
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Are there construction workers visible near the street light in the image with red flags and tall buildings?",
+          "answers": [
+            "yes",
+            "no",
+            "not sure"
+          ],
+          "score": 0.0006480216979980469
+        },
+        {
+          "question": "What is the weather condition in the image where red flags are moving in the middle of the city?",
+          "answers": [
+            "sunny",
+            "cloudy",
+            "rainy"
+          ],
+          "score": 0.0407567024230957
+        },
+        {
+          "question": "Question: Are there construction workers visible near the street light in the image with red flags and tall buildings?",
+          "answers": [
+            "yes",
+            "no",
+            "not sure"
+          ],
+          "score": 0.0006480216979980469,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: Are there construction workers visible near the street light in the image with red flags and tall buildings?",
+          "answers": [
+            "yes",
+            "no",
+            "not sure"
+          ],
+          "score": 0.0006480216979980469,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: Are there construction workers visible near the street light in the image with red flags and tall buildings?",
+          "answers": [
+            "yes",
+            "no",
+            "not sure"
+          ],
+          "score": 0.0006480216979980469,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "red flags moving in the middle of the city with tall buildings in the background, a blue traffic light hanging in front of a skyscraper, and cloudy weather",
+      "question": "Question: What is the specific color of the octopus-shaped kite?",
+      "answer": "I'm sorry, but the image does not show an octopus-shaped kite.",
+      "query_after": "red flags move in the middle of a city with tall buildings in the background, under cloudy skies, featuring a blue traffic light hanging in front of a skyscraper and a red traffic light visible in the scene, with no octopus-shaped kite present.",
+      "displayed_ids": [
+        45824,
+        9628,
+        2238,
+        26141,
+        46971,
+        9941,
+        44273,
+        43393,
+        40085,
+        29350
+      ],
+      "selected_ids": [
+        14994,
+        20806,
+        3032,
+        447,
+        46895,
+        45717,
+        17465,
+        33545,
+        48753,
+        14334
+      ],
+      "rejected_count": 30,
+      "usual_paths": [
+        {
+          "question": "what is the color of the kites flying over the water?",
+          "answers": [
+            "red",
+            "white",
+            "red and white"
+          ],
+          "score": 0.007972240447998047
+        },
+        {
+          "question": "Question: What is the specific color of the octopus-shaped kite?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.035481929779052734
+        },
+        {
+          "question": "what is the color of the octopus-shaped kite?",
+          "answers": [
+            "red",
+            "orange",
+            "yellow"
+          ],
+          "score": 0.028947830200195312
+        },
+        {
+          "question": "what is the color of the octopus-shaped kite?",
+          "answers": [
+            "red",
+            "orange",
+            "yellow"
+          ],
+          "score": 0.028947830200195312,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the octopus-shaped kite flying over the water?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.029107093811035156
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the direction in which the red flags are moving in the middle of the city?",
+          "answers": [
+            "upwards",
+            "downwards",
+            "sideways"
+          ],
+          "score": 0.0014290809631347656
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sky",
+            "city",
+            "clouds"
+          ],
+          "score": 0.01071310043334961
+        },
+        {
+          "question": "Question: What is the color of the sky in the image with red flags and tall buildings?",
+          "answers": [
+            "blue",
+            "cloudy",
+            "gray"
+          ],
+          "score": 0.01865673065185547
+        },
+        {
+          "question": "Question: What is the color of the traffic light in the image with red flags and tall buildings?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.026294708251953125
+        },
+        {
+          "question": "Question: What is the direction in which the red flags are moving in the middle of the city?",
+          "answers": [
+            "up",
+            "down",
+            "left"
+          ],
+          "score": 0.0011439323425292969
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "red flags move in the middle of a city with tall buildings in the background, under cloudy skies, featuring a blue traffic light hanging in front of a skyscraper and a red traffic light visible in the scene, with no octopus-shaped kite present.",
+      "question": "Question: What is the color of the kite visible in the image with red flags and tall buildings?",
+      "answer": "red",
+      "query_after": "red flags move in the middle of a city with tall buildings in the background, under cloudy skies, featuring a blue traffic light hanging in front of a skyscraper and a red kite flying nearby",
+      "displayed_ids": [
+        2238,
+        26141,
+        45824,
+        13475,
+        9628,
+        35578,
+        5353,
+        33545,
+        11682,
+        46450
+      ],
+      "selected_ids": [
+        10016,
+        41133,
+        25034,
+        39994,
+        17465,
+        38128,
+        33129,
+        44003,
+        784
+      ],
+      "rejected_count": 33,
+      "usual_paths": [
+        {
+          "question": "Based on the provided information sources, here is the next question:\n\n**Question: What is the specific color of the kite flying at the beach?",
+          "answers": [
+            "blue and green",
+            "octopus-shaped",
+            "multiple"
+          ],
+          "score": 0.015601158142089844
+        },
+        {
+          "question": "**Question: What is the color of the kite flying at the beach?",
+          "answers": [
+            "blue",
+            "green",
+            "blue and green"
+          ],
+          "score": 0.011936187744140625
+        },
+        {
+          "question": "**Question: What is the color of the octopus-shaped kite flying at the beach?",
+          "answers": [
+            "blue",
+            "green",
+            "I'm sorry, but the image does not show an octopus-shaped kite."
+          ],
+          "score": 0.01504659652709961
+        },
+        {
+          "question": "**Question:** What is the color of the kite flying at the beach?",
+          "answers": [
+            "blue",
+            "green",
+            "blue and green"
+          ],
+          "score": 0.012721538543701172
+        },
+        {
+          "question": "**Question:** What is the color of the kite flying at the beach?",
+          "answers": [
+            "blue",
+            "green",
+            "blue and green"
+          ],
+          "score": 0.012721538543701172,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the kite visible in the image with red flags and tall buildings?",
+          "answers": [
+            "blue and green",
+            "octopus-shaped",
+            "none"
+          ],
+          "score": 0.017829418182373047
+        },
+        {
+          "question": "Question: What is the color of the kite visible in the image with red flags and tall buildings?",
+          "answers": [
+            "blue and green",
+            "octopus-shaped",
+            "none"
+          ],
+          "score": 0.017829418182373047,
+          "duplicate_of": 0
+        },
+        {
+          "question": "What is the color of the kite visible in the image with red flags and tall buildings?",
+          "answers": [
+            "blue",
+            "green",
+            "I'm sorry, but the image does not show a kite."
+          ],
+          "score": 0.013677120208740234
+        },
+        {
+          "question": "Question: What is the color of the kite visible in the image with red flags and tall buildings?",
+          "answers": [
+            "blue and green",
+            "octopus-shaped",
+            "none"
+          ],
+          "score": 0.017829418182373047,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the kite visible in the image with red flags and tall buildings?",
+          "answers": [
+            "blue and green",
+            "octopus-shaped",
+            "none"
+          ],
+          "score": 0.017829418182373047,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "red flags move in the middle of a city with tall buildings in the background, under cloudy skies, featuring a blue traffic light hanging in front of a skyscraper and a red kite flying nearby",
+      "question": "Question: What is the specific color of the traffic light visible in the image with red flags and tall buildings?",
+      "answer": "red",
+      "query_after": "red flags move in the middle of a city with tall buildings and a blue traffic light hanging in front of a skyscraper, under cloudy skies, with a red kite visible in the scene",
+      "displayed_ids": [
+        2238,
+        26141,
+        29535,
+        13475,
+        45824,
+        45005,
+        9628,
+        18541,
+        33545,
+        5353
+      ],
+      "selected_ids": [
+        33612,
+        29740,
+        33545,
+        46895,
+        45005,
+        12457,
+        21099,
+        3032,
+        8091,
+        20628
+      ],
+      "rejected_count": 35,
+      "usual_paths": [
+        {
+          "question": "Question: Are there any people visible in the image with red flags and tall buildings?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.002460956573486328
+        },
+        {
+          "question": "Question: Are there any people visible in the image with red flags and tall buildings?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.002460956573486328,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: Are there any people visible in the image with red flags and tall buildings?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.002460956573486328,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: Are there any people visible in the image with red flags and tall buildings?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.002460956573486328,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: Are there any people visible in the image with red flags and tall buildings?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.002460956573486328,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Are there people flying kites in the image with red flags and tall buildings?",
+          "answers": [
+            "yes",
+            "no",
+            "unclear"
+          ],
+          "score": 0.0020585060119628906
+        },
+        {
+          "question": "Question: Are there people flying kites in the image with red flags and tall buildings?",
+          "answers": [
+            "yes",
+            "no",
+            "unclear"
+          ],
+          "score": 0.0020585060119628906,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: Are there people flying kites in the image with red flags and tall buildings?",
+          "answers": [
+            "yes",
+            "no",
+            "unclear"
+          ],
+          "score": 0.0020585060119628906,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the specific color of the traffic light visible in the image with red flags and tall buildings?",
+          "answers": [
+            "red",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.015734195709228516
+        },
+        {
+          "question": "Question: What is the weather condition in the image with red flags and tall buildings?",
+          "answers": [
+            "cloudy",
+            "sunny",
+            "rainy"
+          ],
+          "score": 0.01448822021484375
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "red flags move in the middle of a city with tall buildings and a blue traffic light hanging in front of a skyscraper, under cloudy skies, with a red kite visible in the scene",
+      "question": "what is the other object in the image?",
+      "answer": "traffic light",
+      "query_after": "red flags moving in the middle of a city with tall buildings in the background, under cloudy skies, featuring a red traffic light and a red kite",
+      "displayed_ids": [
+        2238,
+        26141,
+        45824,
+        13475,
+        29535,
+        9628,
+        46971,
+        9941,
+        45005,
+        44273
+      ],
+      "selected_ids": [
+        40085,
+        45005,
+        46895,
+        3032,
+        45824,
+        447,
+        27867,
+        26053,
+        15092
+      ],
+      "rejected_count": 35,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "traffic light",
+            "clouds",
+            "tall buildings"
+          ],
+          "score": 0.03834962844848633
+        },
+        {
+          "question": "what color is the traffic light visible in the image with red flags and tall buildings?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.018764972686767578
+        },
+        {
+          "question": "what is the specific color of the flags moving in the middle of the city?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.01905965805053711
+        },
+        {
+          "question": "what is the color of the traffic light?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.022265911102294922
+        },
+        {
+          "question": "Question: What is the color of the traffic light visible in the image with red flags and tall buildings?",
+          "answers": [
+            "red",
+            "green",
+            "blue"
+          ],
+          "score": 0.017303466796875
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "traffic light",
+            "clouds",
+            "tall buildings"
+          ],
+          "score": 0.03834962844848633
+        },
+        {
+          "question": "Question: Is there a kite visible in the image with red flags and tall buildings?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0013232231140136719
+        },
+        {
+          "question": "Question: Are there any kites visible in the image with red flags and tall buildings?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0013108253479003906
+        },
+        {
+          "question": "Question: What is the weather condition in the image where red flags are moving in the middle of the city?",
+          "answers": [
+            "clear",
+            "cloudy",
+            "foggy"
+          ],
+          "score": 0.018087387084960938
+        },
+        {
+          "question": "Question: What is the color of the traffic light visible in the image?",
+          "answers": [
+            "red",
+            "blue",
+            "I'm sorry, but the image does not show a traffic light."
+          ],
+          "score": 0.012974262237548828
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "red flags moving in the middle of a city with tall buildings in the background, under cloudy skies, featuring a red traffic light and a red kite",
+      "question": "what is the specific color of the traffic light visible in the image with red flags and tall buildings?",
+      "answer": "red",
+      "query_after": "red flags waving in the middle of a city with tall buildings in the background, under cloudy skies, featuring a red traffic light and a red kite",
+      "displayed_ids": [
+        2238,
+        5353,
+        9628,
+        45824,
+        26694,
+        27652,
+        9941,
+        36508,
+        29350,
+        26141
+      ],
+      "selected_ids": [
+        33612,
+        35738,
+        26694,
+        40085,
+        15092,
+        18541,
+        33545,
+        1077
+      ],
+      "rejected_count": 37,
+      "usual_paths": [
+        {
+          "question": "What is the direction in which the red flags are moving in the middle of the city?",
+          "answers": [
+            "up",
+            "down",
+            "swaying"
+          ],
+          "score": 0.0019330978393554688
+        },
+        {
+          "question": "what is the specific color of the traffic light visible in the image with red flags and tall buildings?",
+          "answers": [
+            "red",
+            "blue",
+            "I'm sorry, but the image does not show an octopus-shaped kite."
+          ],
+          "score": 0.05158519744873047
+        },
+        {
+          "question": "Question: What is the weather condition in the image with red flags, tall buildings, and a red traffic light?",
+          "answers": [
+            "cloudy",
+            "sunny",
+            "foggy"
+          ],
+          "score": 0.025665283203125
+        },
+        {
+          "question": "Question: What is the shape of the kite visible in the image with red flags and tall buildings?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.036844730377197266
+        },
+        {
+          "question": "what is the color of the traffic light in the image with red flags and tall buildings?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.03461503982543945
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the direction in which the red flags are moving in the middle of the city?",
+          "answers": [
+            "up",
+            "down",
+            "swaying"
+          ],
+          "score": 0.0019330978393554688
+        },
+        {
+          "question": "Question: Is the traffic light in the image red or blue?",
+          "answers": [
+            "red",
+            "blue",
+            "I'm sorry, but the image does not show an octopus-shaped kite."
+          ],
+          "score": 0.03964090347290039
+        },
+        {
+          "question": "Question: What is the direction in which the red flags are moving in the middle of the city?",
+          "answers": [
+            "up",
+            "down",
+            "left"
+          ],
+          "score": 0.0013456344604492188
+        },
+        {
+          "question": "Question: What is the direction in which the red flags are moving in the middle of the city?",
+          "answers": [
+            "up",
+            "down",
+            "left"
+          ],
+          "score": 0.0013456344604492188,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the direction in which the red flags are moving in the middle of the city?",
+          "answers": [
+            "up",
+            "down",
+            "left"
+          ],
+          "score": 0.0013456344604492188,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

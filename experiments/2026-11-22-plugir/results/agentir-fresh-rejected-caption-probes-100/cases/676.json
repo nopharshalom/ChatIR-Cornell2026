@@ -1,0 +1,180 @@
+{
+  "qid": 676,
+  "initial": "a close up of 2 zebras in the middle of a field",
+  "initial_rank": 14,
+  "displayed": [
+    25142,
+    17322,
+    28177,
+    44063,
+    49862,
+    44740,
+    4212,
+    2240,
+    32476,
+    41976
+  ],
+  "evidence": [
+    "a zebra rolling in a field full of rocks",
+    "two giraffes standing side by side in a park",
+    "a fenced in area with some rocks and zebras",
+    "two rams standing in an enclosure",
+    "a black and white zebra standing near some rocks",
+    "a zebra with stripes walking on a muddy dirt road",
+    "two giraffe standing side by side in front of a tree",
+    "a group of zebras eating from tall dry grass",
+    "a zebra walking in the dirt near a pond",
+    "two giraffes standing in a field of tall grass"
+  ],
+  "rejected_captions": [
+    "two zebras stand together in an open field with water",
+    "two zebras in the grass",
+    "zebras walking in the dry ground",
+    "two zebras standing in a grassy field",
+    "zebras in a field",
+    "black and white zebras",
+    "some grassy fields",
+    "two zebras standing in a field together",
+    "there are two zebras",
+    "two zebras stand together in the dirt"
+  ],
+  "usual": {
+    "candidates": [
+      "what are the two zebras doing in the middle of the field?",
+      "what are the 2 zebras standing next to in the middle of the field?",
+      "what are the two zebras standing next to in the middle of the field?",
+      "what is the specific action or behavior of the two zebras in the middle of the field?",
+      "what are the two zebras doing in the middle of the field?"
+    ],
+    "question": "what are the 2 zebras standing next to in the middle of the field?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what are the two zebras doing in the middle of the field?",
+          "answers": [
+            "eating",
+            "standing",
+            "walking"
+          ],
+          "score": 0.0858311653137207
+        },
+        {
+          "question": "what are the 2 zebras standing next to in the middle of the field?",
+          "answers": [
+            "rocks",
+            "grass",
+            "a tree"
+          ],
+          "score": 0.14406919479370117
+        },
+        {
+          "question": "what are the two zebras standing next to in the middle of the field?",
+          "answers": [
+            "a field of tall dry grass",
+            "a field",
+            "tall dry grass"
+          ],
+          "score": 0.07243061065673828
+        },
+        {
+          "question": "what is the specific action or behavior of the two zebras in the middle of the field?",
+          "answers": [
+            "standing",
+            "walking",
+            "eating"
+          ],
+          "score": 0.08927297592163086
+        },
+        {
+          "question": "what are the two zebras doing in the middle of the field?",
+          "answers": [
+            "eating",
+            "standing",
+            "walking"
+          ],
+          "score": 0.0858311653137207,
+          "duplicate_of": 0
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.058,
+      "probe_selection_seconds": 2.053,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "zebra",
+    "rewrite": "a close up of 2 zebras standing next to each other in the middle of a field",
+    "raw_rank": 12,
+    "unseen_rank": 3
+  },
+  "rejected": {
+    "candidates": [
+      "Question: Are the zebras eating or walking?",
+      "Question: What is the specific ground surface beneath the zebras?",
+      "Question: Are the zebras near water or rocks?",
+      "Question: What is the specific ground surface beneath the zebras?",
+      "Question: What is the specific ground surface beneath the zebras?"
+    ],
+    "question": "Question: What is the specific ground surface beneath the zebras?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: Are the zebras eating or walking?",
+          "answers": [
+            "eating",
+            "walking",
+            "standing"
+          ],
+          "score": 0.008410930633544922
+        },
+        {
+          "question": "Question: What is the specific ground surface beneath the zebras?",
+          "answers": [
+            "rocky field",
+            "grass field",
+            "muddy road"
+          ],
+          "score": 0.10390949249267578
+        },
+        {
+          "question": "Question: Are the zebras near water or rocks?",
+          "answers": [
+            "rocks",
+            "water",
+            "both"
+          ],
+          "score": 0.008727550506591797
+        },
+        {
+          "question": "Question: What is the specific ground surface beneath the zebras?",
+          "answers": [
+            "rocky field",
+            "grass field",
+            "muddy road"
+          ],
+          "score": 0.10390949249267578,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the specific ground surface beneath the zebras?",
+          "answers": [
+            "rocky field",
+            "grass field",
+            "muddy road"
+          ],
+          "score": 0.10390949249267578,
+          "duplicate_of": 1
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.079,
+      "probe_selection_seconds": 1.44,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "grass",
+    "rewrite": "a close up of 2 zebras standing on grass",
+    "raw_rank": 10,
+    "unseen_rank": 6
+  }
+}

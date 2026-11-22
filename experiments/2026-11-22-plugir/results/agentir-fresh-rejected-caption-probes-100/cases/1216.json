@@ -1,0 +1,178 @@
+{
+  "qid": 1216,
+  "initial": "the food on the plate looks appetizing",
+  "initial_rank": 37,
+  "displayed": [
+    18752,
+    33602,
+    16814,
+    32611,
+    13878,
+    24986,
+    19526,
+    49788,
+    44496,
+    25289
+  ],
+  "evidence": [
+    "a plate with broccoli and meat",
+    "a plate with a french fries, chicken sandwich and pickle",
+    "the plate contains broccoli, steak and rice",
+    "a plate of broccoli, a carrot, and a sauce on a table",
+    "a sandwich topped with eggs, bacon, and ham",
+    "a big plate with meat, broccoli and carrots",
+    "a cheese pizza with broccoli, spinach, and other vegetables",
+    "a plate of broccoli, carrots, and other veggies",
+    "a plate with a steak, broccoli, and potatoes",
+    "ham, toast, avocado and avocado"
+  ],
+  "rejected_captions": [
+    "eggs benedict with potatoes and fries on a plate",
+    "a slice of bread with parmesan cheese and beans",
+    "a white plate with a white ring around it",
+    "a square glass plate of food on a table",
+    "an avnue with condiments, and a burger with some lettuce",
+    "a meal on a plate",
+    "a platter of eats",
+    "the plate is big",
+    "a food on a plate",
+    "the plate of food has chicken on it"
+  ],
+  "usual": {
+    "candidates": [
+      "what types of food are on the plate?",
+      "Question: what is the specific type of meat and the specific type of green vegetable served on the plate?",
+      "Question: What is the specific type of meat served on the plate?",
+      "Question: What is the specific type of meat served on the plate?",
+      "what is the type of bread or base (e.g., pizza, toast, sandwich, rice) used for the food on the plate?"
+    ],
+    "question": "what types of food are on the plate?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what types of food are on the plate?",
+          "answers": [
+            "broccoli and meat",
+            "steak and potatoes",
+            "carrot, broccoli and sauce"
+          ],
+          "score": 0.22429466247558594
+        },
+        {
+          "question": "Question: what is the specific type of meat and the specific type of green vegetable served on the plate?",
+          "answers": [
+            "broccoli and steak",
+            "broccoli and ham",
+            "broccoli and chicken"
+          ],
+          "score": 0.11208915710449219
+        },
+        {
+          "question": "Question: What is the specific type of meat served on the plate?",
+          "answers": [
+            "broccoli",
+            "steak",
+            "chicken"
+          ],
+          "score": 0.13164234161376953
+        },
+        {
+          "question": "Question: What is the specific type of meat served on the plate?",
+          "answers": [
+            "broccoli",
+            "steak",
+            "chicken"
+          ],
+          "score": 0.13164234161376953,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the type of bread or base (e.g., pizza, toast, sandwich, rice) used for the food on the plate?",
+          "answers": [
+            "pizza",
+            "sandwich",
+            "toast"
+          ],
+          "score": 0.024202823638916016
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.078,
+      "probe_selection_seconds": 2.399,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "broccoli, mushrooms, green beans, arugula, and some kind of patty or meat",
+    "rewrite": "a plate of appetizing food featuring broccoli, mushrooms, green beans, arugula, and a patty or meat",
+    "raw_rank": 1,
+    "unseen_rank": 1
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What specific vegetables are present on the plate?",
+      "Question: What color is the plate holding the food?",
+      "Question: What is the main protein item on the plate?",
+      "Question: What is the color of the plate holding the food?",
+      "Question: Question: What type of plate is holding the food?"
+    ],
+    "question": "Question: What specific vegetables are present on the plate?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What specific vegetables are present on the plate?",
+          "answers": [
+            "broccoli",
+            "carrots",
+            "spinach"
+          ],
+          "score": 0.16866016387939453
+        },
+        {
+          "question": "Question: What color is the plate holding the food?",
+          "answers": [
+            "white",
+            "black",
+            "blue"
+          ],
+          "score": 0.08959817886352539
+        },
+        {
+          "question": "Question: What is the main protein item on the plate?",
+          "answers": [
+            "broccoli",
+            "chicken",
+            "steak"
+          ],
+          "score": 0.1337432861328125
+        },
+        {
+          "question": "Question: What is the color of the plate holding the food?",
+          "answers": [
+            "white",
+            "black",
+            "colorful"
+          ],
+          "score": 0.0591583251953125
+        },
+        {
+          "question": "Question: Question: What type of plate is holding the food?",
+          "answers": [
+            "white",
+            "black",
+            "colorful"
+          ],
+          "score": 0.05042457580566406
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.076,
+      "probe_selection_seconds": 2.311,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "broccoli",
+    "rewrite": "a plate of appetizing food featuring broccoli",
+    "raw_rank": 43,
+    "unseen_rank": 40
+  }
+}

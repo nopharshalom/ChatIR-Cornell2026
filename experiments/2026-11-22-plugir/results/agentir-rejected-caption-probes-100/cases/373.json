@@ -1,0 +1,81 @@
+{
+  "qid": 373,
+  "candidates": [
+    "Question: Is the graffiti on the train predominantly white, or is it a mix of other colors like yellow and red?",
+    "Question: What color is the graffiti-covered train?",
+    "Question: What color is the graffiti-covered train?",
+    "Question: Is the graffiti on the train predominantly white, or is it a mix of other colors like yellow and red?",
+    "Question: Is the train in the image yellow, blue, or red?"
+  ],
+  "kl": {
+    "question": "Question: What color is the graffiti-covered train?",
+    "answer": "Red.",
+    "rewrite": "a red graffiti-covered train sitting on the tracks",
+    "raw_rank": 15,
+    "unseen_rank": 11
+  },
+  "probe": {
+    "question": "Question: What color is the graffiti-covered train?",
+    "answer": "Red.",
+    "rewrite": "a red graffiti-covered train sitting on the tracks",
+    "raw_rank": 15,
+    "unseen_rank": 11
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: Is the graffiti on the train predominantly white, or is it a mix of other colors like yellow and red?",
+        "answers": [
+          "white",
+          "yellow and red",
+          "a mix"
+        ],
+        "score": 0.009783744812011719
+      },
+      {
+        "question": "Question: What color is the graffiti-covered train?",
+        "answers": [
+          "white",
+          "blue",
+          "yellow"
+        ],
+        "score": 0.10653448104858398
+      },
+      {
+        "question": "Question: What color is the graffiti-covered train?",
+        "answers": [
+          "white",
+          "blue",
+          "yellow"
+        ],
+        "score": 0.10653448104858398,
+        "duplicate_of": 1
+      },
+      {
+        "question": "Question: Is the graffiti on the train predominantly white, or is it a mix of other colors like yellow and red?",
+        "answers": [
+          "white",
+          "yellow and red",
+          "a mix"
+        ],
+        "score": 0.009783744812011719,
+        "duplicate_of": 0
+      },
+      {
+        "question": "Question: Is the train in the image yellow, blue, or red?",
+        "answers": [
+          "yellow",
+          "blue",
+          "red"
+        ],
+        "score": 0.01108551025390625
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.052,
+    "probe_selection_seconds": 1.406,
+    "probe_llm_calls": 3,
+    "probe_search_queries": 9
+  },
+  "reused_outcome": true
+}

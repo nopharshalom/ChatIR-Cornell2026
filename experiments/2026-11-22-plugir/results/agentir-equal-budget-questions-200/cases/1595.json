@@ -1,0 +1,77 @@
+{
+  "qid": 1595,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the laptop in the workstation?",
+    "what is the location of the laptop in the workstation?",
+    "what is the color of the extra monitor in the workstation?",
+    "Question: Is the laptop in the workstation placed on a desk or a table?",
+    "what is the color of the extra monitor in the workstation?"
+  ],
+  "second_candidates": [
+    "what is the man sitting at doing in the image?",
+    "what is the background object located next to the laptop and monitor in the image?",
+    "what is the surface the laptop and extra monitor are placed on?",
+    "what is the surface the laptop and extra monitor are placed on?",
+    "what is the color of the laptop in the image?"
+  ],
+  "paths": [
+    {
+      "question": "what is the man sitting at doing in the image?",
+      "answers": [
+        "working",
+        "coding",
+        "looking at screens"
+      ],
+      "score": 0.025318622589111328
+    },
+    {
+      "question": "what is the background object located next to the laptop and monitor in the image?",
+      "answers": [
+        "window",
+        "desk",
+        "chair"
+      ],
+      "score": 0.02729511260986328
+    },
+    {
+      "question": "what is the surface the laptop and extra monitor are placed on?",
+      "answers": [
+        "desk",
+        "table"
+      ],
+      "score": 0.0024690628051757812
+    },
+    {
+      "question": "what is the surface the laptop and extra monitor are placed on?",
+      "answers": [
+        "desk",
+        "table"
+      ],
+      "score": 0.0024690628051757812,
+      "duplicate_of": 2
+    },
+    {
+      "question": "what is the color of the laptop in the image?",
+      "answers": [
+        "black",
+        "white",
+        "silver"
+      ],
+      "score": 0.04503154754638672
+    }
+  ],
+  "control": {
+    "question": "what is the color of the extra monitor in the workstation?",
+    "score": 0.051161766052246094
+  },
+  "mixed": {
+    "question": "Question: What is the color of the desk in the workstation?",
+    "score": 0.05628347396850586
+  },
+  "control_rank": 91,
+  "mixed_rank": 48,
+  "usual_rank": 91,
+  "new_answer": null,
+  "new_rewrite": null
+}

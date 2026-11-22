@@ -1,0 +1,80 @@
+{
+  "qid": 413,
+  "candidates": [
+    "Question: What is the color of the light in the city?",
+    "Question: What is the color of the street light in the well-lit city scene?",
+    "Question: What is the name of the prominent clock tower visible near the river in the city scene?",
+    "Question: What is the name of the prominent clock tower visible near the river in the city scene?",
+    "Question: What is the prominent clock tower visible near the river in the city scene?"
+  ],
+  "kl": {
+    "question": "Question: What is the color of the light in the city?",
+    "answer": "green",
+    "rewrite": "the city lights are glowing green at night",
+    "raw_rank": 964,
+    "unseen_rank": 954
+  },
+  "probe": {
+    "answer": "yellow",
+    "rewrite": "a well-lit city at night with yellow street lights",
+    "raw_rank": 524,
+    "unseen_rank": 514,
+    "question": "Question: What is the color of the street light in the well-lit city scene?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the color of the light in the city?",
+        "answers": [
+          "red",
+          "green",
+          "yellow"
+        ],
+        "score": 0.13363981246948242
+      },
+      {
+        "question": "Question: What is the color of the street light in the well-lit city scene?",
+        "answers": [
+          "red",
+          "green",
+          "yellow"
+        ],
+        "score": 0.1602640151977539
+      },
+      {
+        "question": "Question: What is the name of the prominent clock tower visible near the river in the city scene?",
+        "answers": [
+          "Big Ben",
+          "Tower Bridge",
+          "London Eye"
+        ],
+        "score": 0.057291507720947266
+      },
+      {
+        "question": "Question: What is the name of the prominent clock tower visible near the river in the city scene?",
+        "answers": [
+          "Big Ben",
+          "Tower Bridge",
+          "London Eye"
+        ],
+        "score": 0.057291507720947266,
+        "duplicate_of": 2
+      },
+      {
+        "question": "Question: What is the prominent clock tower visible near the river in the city scene?",
+        "answers": [
+          "Big Ben",
+          "Eiffel Tower",
+          "Sydney Opera House"
+        ],
+        "score": 0.06917858123779297
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.052,
+    "probe_selection_seconds": 1.913,
+    "probe_llm_calls": 4,
+    "probe_search_queries": 12
+  },
+  "reused_outcome": false
+}

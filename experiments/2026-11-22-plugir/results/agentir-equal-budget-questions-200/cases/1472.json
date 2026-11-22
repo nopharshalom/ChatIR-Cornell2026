@@ -1,0 +1,80 @@
+{
+  "qid": 1472,
+  "sample": 1,
+  "first_candidates": [
+    "Question: Is the group of horses white or grey?",
+    "Question: Are there any fences or enclosures around the horses?",
+    "what is the color of the horses in the image?",
+    "what are the horses doing in the image?",
+    "what is the color of the horses in the image?"
+  ],
+  "second_candidates": [
+    "what is the other object in the image?",
+    "what is the color of the horses in the image?",
+    "what is the color of the horses in the image?",
+    "Question: how many horses are in the image?",
+    "what is the color of the horses in the image?"
+  ],
+  "paths": [
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "grassland",
+        "fence",
+        "forest"
+      ],
+      "score": 0.14565277099609375
+    },
+    {
+      "question": "what is the color of the horses in the image?",
+      "answers": [
+        "black and white",
+        "white",
+        "brown"
+      ],
+      "score": 0.1269688606262207
+    },
+    {
+      "question": "what is the color of the horses in the image?",
+      "answers": [
+        "black and white",
+        "white",
+        "brown"
+      ],
+      "score": 0.1269688606262207,
+      "duplicate_of": 1
+    },
+    {
+      "question": "Question: how many horses are in the image?",
+      "answers": [
+        "2",
+        "a pair",
+        "two"
+      ],
+      "score": 0.02320384979248047
+    },
+    {
+      "question": "what is the color of the horses in the image?",
+      "answers": [
+        "black and white",
+        "white",
+        "brown"
+      ],
+      "score": 0.1269688606262207,
+      "duplicate_of": 1
+    }
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "score": 0.14565277099609375
+  },
+  "mixed": {
+    "question": "what is the other object in the image?",
+    "score": 0.22708845138549805
+  },
+  "control_rank": 80,
+  "mixed_rank": 80,
+  "usual_rank": 41,
+  "new_answer": null,
+  "new_rewrite": null
+}

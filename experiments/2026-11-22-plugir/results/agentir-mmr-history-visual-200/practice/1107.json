@@ -1,0 +1,90 @@
+{
+  "chosen": "what is the number of giraffes in the group walking next to the wooden fence?",
+  "default": "what is the other object in the image?",
+  "ids": [
+    49868,
+    15028,
+    6906,
+    7096
+  ],
+  "trials": {
+    "what is the other object in the image?": {
+      "answers": [
+        "giraffe",
+        "giraffe",
+        "building",
+        "other giraffe"
+      ],
+      "rewrites": {
+        "giraffe": "a group of giraffes walk next to a wooden fence",
+        "building": "a group of giraffes walk next to a wooden fence and a building",
+        "other giraffe": "a group of giraffes walk next to a wooden fence"
+      },
+      "ranks": [
+        11,
+        23,
+        8,
+        43
+      ],
+      "hits": 1
+    },
+    "what is the color of the trees in the background?": {
+      "answers": [
+        "green",
+        "green",
+        "green",
+        "green"
+      ],
+      "rewrites": {
+        "green": "a group of giraffes walk next to a wooden fence with green trees in the background"
+      },
+      "ranks": [
+        27,
+        16,
+        126,
+        46
+      ],
+      "hits": 0
+    },
+    "what is the number of giraffes in the group walking next to the wooden fence?": {
+      "answers": [
+        "2",
+        "3",
+        "2",
+        "1"
+      ],
+      "rewrites": {
+        "2": "two giraffes walk next to a wooden fence",
+        "3": "a group of three giraffes walk next to a wooden fence",
+        "1": "a single giraffe walks next to a wooden fence"
+      },
+      "ranks": [
+        2,
+        11,
+        10,
+        39
+      ],
+      "hits": 2
+    },
+    "How many giraffes are walking next to the wooden fence?": {
+      "answers": [
+        "2",
+        "3",
+        "2",
+        "1"
+      ],
+      "rewrites": {
+        "2": "two giraffes walk next to a wooden fence",
+        "3": "three giraffes walk next to a wooden fence",
+        "1": "a single giraffe walks next to a wooden fence"
+      },
+      "ranks": [
+        2,
+        11,
+        10,
+        39
+      ],
+      "hits": 2
+    }
+  }
+}

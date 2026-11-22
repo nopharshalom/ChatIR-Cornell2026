@@ -1,0 +1,102 @@
+{
+  "qid": 373,
+  "initial": "a graffiti covered train sitting on the tracks",
+  "initial_rank": 24,
+  "evidence": [
+    "a white truck that is painted graffiti",
+    "an electric locomotive is passing a town on the tracks",
+    "a bathroom with a lot of graffiti and a small sink",
+    "a blue and yellow train goes through countryside",
+    "the yellow and red train is traveling along tracks",
+    "a yellow and blue train is on the tracks",
+    "a yellow, blue and black train coming into a station",
+    "a train traveling down a railroad track with a few trees",
+    "a red train on train tracks with red striped cars",
+    "a white and blue bus parked outside of a house"
+  ],
+  "candidates": [
+    "Question: what is the primary color of the graffiti-covered train?",
+    "what is the primary color of the graffiti-covered train?",
+    "what is the primary color of the graffiti-covered train?",
+    "what is the primary color of the graffiti-covered train?",
+    "what is the primary color of the train in the image where the train is painted with graffiti?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: what is the primary color of the graffiti-covered train?",
+      "answers": [
+        "white",
+        "blue",
+        "yellow"
+      ],
+      "score": 0.12061357498168945
+    },
+    {
+      "question": "what is the primary color of the graffiti-covered train?",
+      "answers": [
+        "white",
+        "blue",
+        "yellow"
+      ],
+      "score": 0.1522531509399414
+    },
+    {
+      "question": "what is the primary color of the graffiti-covered train?",
+      "answers": [
+        "white",
+        "blue",
+        "yellow"
+      ],
+      "score": 0.1522531509399414,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the primary color of the graffiti-covered train?",
+      "answers": [
+        "white",
+        "blue",
+        "yellow"
+      ],
+      "score": 0.1522531509399414,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the primary color of the train in the image where the train is painted with graffiti?",
+      "answers": [
+        "white",
+        "blue",
+        "yellow"
+      ],
+      "score": 0.19134950637817383
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.058,
+  "probe_selection_seconds": 1.316,
+  "probe_llm_calls": 3,
+  "probe_search_queries": 9,
+  "arms": {
+    "kl": {
+      "question": "what is the primary color of the graffiti-covered train?",
+      "answer": "red",
+      "rewrite": "a red graffiti-covered train sitting on the tracks",
+      "rank": 15,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the primary color of the graffiti-covered train?",
+      "answer": "red",
+      "rewrite": "a red graffiti-covered train sitting on the tracks",
+      "rank": 15,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the primary color of the train in the image where the train is painted with graffiti?",
+      "answer": "red",
+      "rewrite": "a red train covered in graffiti sitting on the tracks",
+      "rank": 13,
+      "hit": false
+    }
+  },
+  "seconds": 10.279
+}

@@ -1,0 +1,78 @@
+{
+  "qid": 2026,
+  "sample": 1,
+  "first_candidates": [
+    "what color is the front cab of the train?",
+    "what is the color of the train cab that is currently moving down the tracks?",
+    "what is the color of the train cab that is currently parked on the tracks?",
+    "what is the maximum length of the train cab that is parked on the tracks?",
+    "what is the color of the train cab that is parked on the tracks?"
+  ],
+  "second_candidates": [
+    "Question: What is the color of the train's front cab?",
+    "what is the color of the train's front cab?",
+    "what is the color of the train cab?",
+    "what type of train is featured in the image?",
+    "Question: What is the color of the train cab?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What is the color of the train's front cab?",
+      "answers": [
+        "red",
+        "yellow",
+        "blue"
+      ],
+      "score": 0.1920790672302246
+    },
+    {
+      "question": "what is the color of the train's front cab?",
+      "answers": [
+        "red",
+        "yellow",
+        "blue"
+      ],
+      "score": 0.22731351852416992
+    },
+    {
+      "question": "what is the color of the train cab?",
+      "answers": [
+        "red",
+        "yellow",
+        "blue"
+      ],
+      "score": 0.2500119209289551
+    },
+    {
+      "question": "what type of train is featured in the image?",
+      "answers": [
+        "steam engine",
+        "yellow train",
+        "rusting engine"
+      ],
+      "score": 0.17760038375854492
+    },
+    {
+      "question": "Question: What is the color of the train cab?",
+      "answers": [
+        "red",
+        "yellow",
+        "blue"
+      ],
+      "score": 0.2042531967163086
+    }
+  ],
+  "control": {
+    "question": "what is the color of the train cab that is currently parked on the tracks?",
+    "score": 0.2673830986022949
+  },
+  "mixed": {
+    "question": "what is the color of the train cab that is currently parked on the tracks?",
+    "score": 0.2673830986022949
+  },
+  "control_rank": 6,
+  "mixed_rank": 6,
+  "usual_rank": 6,
+  "new_answer": null,
+  "new_rewrite": null
+}

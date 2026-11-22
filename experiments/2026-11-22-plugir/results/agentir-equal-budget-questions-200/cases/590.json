@@ -1,0 +1,78 @@
+{
+  "qid": 590,
+  "sample": 2,
+  "first_candidates": [
+    "what is the color of the surfboard the person is sitting on?",
+    "what is the gender of the person sitting on the surfboard?",
+    "what is the color of the surfboard the person is sitting on?",
+    "what is the color of the surfboard the person is sitting on?",
+    "what is the gender of the person sitting on the surfboard?"
+  ],
+  "second_candidates": [
+    "what color is the surfboard that the person is sitting on?",
+    "what is the color of the surfboard in the image?",
+    "Question: is the person sitting on the surfboard wearing a wetsuit?",
+    "what is the color of the wetsuit worn by the person sitting on the surfboard?",
+    "what is the gender of the person sitting on the surfboard?"
+  ],
+  "paths": [
+    {
+      "question": "what color is the surfboard that the person is sitting on?",
+      "answers": [
+        "red",
+        "green",
+        "yellow"
+      ],
+      "score": 0.1154022216796875
+    },
+    {
+      "question": "what is the color of the surfboard in the image?",
+      "answers": [
+        "red",
+        "black and white",
+        "yellow"
+      ],
+      "score": 0.1995711326599121
+    },
+    {
+      "question": "Question: is the person sitting on the surfboard wearing a wetsuit?",
+      "answers": [
+        "yes",
+        "no",
+        "maybe"
+      ],
+      "score": 0.0016627311706542969
+    },
+    {
+      "question": "what is the color of the wetsuit worn by the person sitting on the surfboard?",
+      "answers": [
+        "black",
+        "blue",
+        "red"
+      ],
+      "score": 0.10570621490478516
+    },
+    {
+      "question": "what is the gender of the person sitting on the surfboard?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.034615516662597656
+    }
+  ],
+  "control": {
+    "question": "what is the color of the surfboard in the image?",
+    "score": 0.1995711326599121
+  },
+  "mixed": {
+    "question": "what is the color of the surfboard the person is sitting on?",
+    "score": 0.17495203018188477
+  },
+  "control_rank": 2,
+  "mixed_rank": 2,
+  "usual_rank": 2,
+  "new_answer": "yellow",
+  "new_rewrite": "a person sits on a yellow surfboard while coming back to the shore"
+}

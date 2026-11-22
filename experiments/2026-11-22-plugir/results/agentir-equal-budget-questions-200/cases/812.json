@@ -1,0 +1,81 @@
+{
+  "qid": 812,
+  "sample": 2,
+  "first_candidates": [
+    "what is the color of the train travelling down the tracks outside a city?",
+    "Question: what is the color of the train travelling down the tracks outside a city?",
+    "Question: What is the color of the train travelling down the tracks outside a city?",
+    "what is the color of the train travelling down the tracks outside a city?",
+    "what is the specific color scheme of the train travelling down the tracks outside a city?"
+  ],
+  "second_candidates": [
+    "what is the color of the train travelling down the tracks outside a city?",
+    "what is the color of the train travelling down the tracks outside a city?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the color of the train travelling down the tracks outside a city?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the train travelling down the tracks outside a city?",
+      "answers": [
+        "yellow",
+        "blue",
+        "red"
+      ],
+      "score": 0.23887968063354492
+    },
+    {
+      "question": "what is the color of the train travelling down the tracks outside a city?",
+      "answers": [
+        "yellow",
+        "blue",
+        "red"
+      ],
+      "score": 0.23887968063354492,
+      "duplicate_of": 0
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "tracks",
+        "city",
+        "sky"
+      ],
+      "score": 0.018167972564697266
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "tracks",
+        "city",
+        "sky"
+      ],
+      "score": 0.018167972564697266,
+      "duplicate_of": 2
+    },
+    {
+      "question": "what is the color of the train travelling down the tracks outside a city?",
+      "answers": [
+        "yellow",
+        "blue",
+        "red"
+      ],
+      "score": 0.23887968063354492,
+      "duplicate_of": 0
+    }
+  ],
+  "control": {
+    "question": "what is the color of the train travelling down the tracks outside a city?",
+    "score": 0.23887968063354492
+  },
+  "mixed": {
+    "question": "what is the color of the train?",
+    "score": 0.3791036605834961
+  },
+  "control_rank": 3,
+  "mixed_rank": 3,
+  "usual_rank": 3,
+  "new_answer": null,
+  "new_rewrite": null
+}

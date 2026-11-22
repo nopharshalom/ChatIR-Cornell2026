@@ -1,0 +1,76 @@
+{
+  "qid": 1165,
+  "sample": 2,
+  "first_candidates": [
+    "what color is the bathtub in the bathroom with the blue carpet?",
+    "what is the other object in the image?",
+    "what type of bathtub is in the bathroom with the white toilet and blue carpet?",
+    "what color is the carpet in the bathroom with the white toilet?",
+    "what color is the carpet in the bathroom with the white toilet?"
+  ],
+  "second_candidates": [
+    "what type of bathtub is in the bathroom with the white toilet and blue carpets?",
+    "what color is the bathtub in the bathroom with the white toilet and blue carpets?",
+    "what color are the walls in the room containing the white toilet and blue carpets?",
+    "what is the other object in the image?",
+    "what color is the toilet in the room with blue carpets?"
+  ],
+  "paths": [
+    {
+      "question": "what type of bathtub is in the bathroom with the white toilet and blue carpets?",
+      "answers": [
+        "wooden",
+        "large",
+        "tiled"
+      ],
+      "score": 0.03472328186035156
+    },
+    {
+      "question": "what color is the bathtub in the bathroom with the white toilet and blue carpets?",
+      "answers": [
+        "blue",
+        "white",
+        "green"
+      ],
+      "score": 0.04801034927368164
+    },
+    {
+      "question": "what color are the walls in the room containing the white toilet and blue carpets?",
+      "answers": [
+        "white",
+        "blue",
+        "light blue"
+      ],
+      "score": 0.011162281036376953
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "blue carpet"
+      ],
+      "note": "fewer than 2 answers"
+    },
+    {
+      "question": "what color is the toilet in the room with blue carpets?",
+      "answers": [
+        "white",
+        "blue",
+        "black"
+      ],
+      "score": 0.010725021362304688
+    }
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "score": 0.09521293640136719
+  },
+  "mixed": {
+    "question": "what is the other object in the image?",
+    "score": 0.09521293640136719
+  },
+  "control_rank": 3,
+  "mixed_rank": 3,
+  "usual_rank": 3,
+  "new_answer": null,
+  "new_rewrite": null
+}

@@ -1,0 +1,100 @@
+{
+  "qid": 1621,
+  "initial": "a shower with white tiles and a window in it for light",
+  "initial_rank": 43,
+  "evidence": [
+    "a toilet with the lid down and a trash can beside it",
+    "a bathroom with a bathtub, sink, shower and a toilet",
+    "a bathroom with two sinks and a large mirror",
+    "a clean and white bathroom with two sinks and bathtub",
+    "a sink with two pans on it next to a window",
+    "this is a bathroom containing a tub, mirror, and sink",
+    "a white bathroom with a toilet, sink, and bathtub",
+    "a bathroom with a black sink, mirror and windows",
+    "a toilet with a lid is on the floor of a bathroom",
+    "a bathroom with a bathtub, mirror, and sink"
+  ],
+  "candidates": [
+    "what is the color of the bathroom containing the shower?",
+    "what is the color of the window in the shower?",
+    "what is the location of the window with white tiles?",
+    "what is the color of the window in the bathroom with white tiles?",
+    "what is the location of the shower with white tiles?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the bathroom containing the shower?",
+      "answers": [
+        "white",
+        "black",
+        "beige"
+      ],
+      "score": 0.04875755310058594
+    },
+    {
+      "question": "what is the color of the window in the shower?",
+      "answers": [
+        "white",
+        "blue",
+        "green"
+      ],
+      "score": 0.0635685920715332
+    },
+    {
+      "question": "what is the location of the window with white tiles?",
+      "answers": [
+        "bathroom",
+        "shower",
+        "window"
+      ],
+      "score": 0.0020284652709960938
+    },
+    {
+      "question": "what is the color of the window in the bathroom with white tiles?",
+      "answers": [
+        "white",
+        "clear",
+        "tinted"
+      ],
+      "score": 0.005125999450683594
+    },
+    {
+      "question": "what is the location of the shower with white tiles?",
+      "answers": [
+        "in the bathroom",
+        "in the shower",
+        "inside the tile"
+      ],
+      "score": 0.004928112030029297
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.071,
+  "probe_selection_seconds": 2.722,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the location of the window with white tiles?",
+      "answer": "above the toilet",
+      "rewrite": "a shower with white tiles and a window located above the toilet",
+      "rank": 14,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the color of the window in the shower?",
+      "answer": "clear",
+      "rewrite": "a shower with white tiles and a clear window for light",
+      "rank": 31,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the color of the window in the shower?",
+      "answer": "clear",
+      "rewrite": "a shower with white tiles and a clear window for light",
+      "rank": 31,
+      "hit": false
+    }
+  },
+  "seconds": 23.521
+}

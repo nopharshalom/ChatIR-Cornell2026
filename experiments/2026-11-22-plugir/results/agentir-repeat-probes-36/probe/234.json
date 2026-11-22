@@ -1,0 +1,66 @@
+{
+  "qid": 234,
+  "arm": "probe",
+  "after_round": 8,
+  "ranks": [
+    268,
+    355,
+    71,
+    74,
+    98,
+    54,
+    64,
+    27,
+    31,
+    24,
+    23
+  ],
+  "continuation": [
+    {
+      "round": 9,
+      "query_before": "a brown giraffe stands in the bottom right of the image, looking at an unclear object, positioned above green weeds with a chain link fence behind it",
+      "question": "Is the giraffe standing in a zoo or in a wild savannah?",
+      "answer": "zoo",
+      "query_after": "a brown giraffe stands in a zoo, looking at something while positioned above green weeds in the bottom right corner, with a chain link fence behind it",
+      "searches": [
+        {
+          "query": "brown giraffe standing above green weeds in bottom right corner looking at something with a chain link fence behind",
+          "ids": [
+            41112,
+            8619,
+            42098
+          ],
+          "captions": [
+            "a giraffe standing near a fence",
+            "the giraffe's neck is out of the picture",
+            "a giraffe standing near a green field with trees"
+          ]
+        },
+        {
+          "query": "brown giraffe standing above green weeds in bottom right corner looking at something with a solid wooden fence behind",
+          "ids": [
+            5391,
+            8486,
+            24203
+          ],
+          "captions": [
+            "the giraffe is a male giraffe",
+            "the giraffe is looking up at the camera",
+            "giraffe is standing in a zoo"
+          ]
+        }
+      ],
+      "raw_plan": "brown giraffe standing above green weeds in bottom right corner looking at something with a chain link fence behind\nbrown giraffe standing above green weeds in bottom right corner looking at something with a solid wooden fence behind",
+      "generated": "Is the giraffe standing in a zoo or in a wild savannah?",
+      "fallback": false
+    },
+    {
+      "round": 10,
+      "query_before": "a brown giraffe stands in a zoo, looking at something while positioned above green weeds in the bottom right corner, with a chain link fence behind it",
+      "question": "what is the other object in the image?",
+      "answer": "fence",
+      "query_after": "a brown giraffe stands in a zoo, looking at something while positioned above green weeds in the bottom right, with a chain link fence behind it"
+    }
+  ],
+  "seconds": 19.0
+}

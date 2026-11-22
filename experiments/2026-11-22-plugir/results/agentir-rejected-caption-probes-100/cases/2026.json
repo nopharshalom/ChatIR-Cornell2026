@@ -1,0 +1,80 @@
+{
+  "qid": 2026,
+  "candidates": [
+    "Question: What is the color of the train cab?",
+    "Question: What is the main color of the train cab?",
+    "Question: What color is the front cab of the long train?",
+    "Question: What is the color of the front cab of the long train?",
+    "Question: What is the color of the front cab of the long train?"
+  ],
+  "kl": {
+    "question": "Question: What color is the front cab of the long train?",
+    "answer": "yellow",
+    "rewrite": "the front cab of a long yellow train at a railroad yard",
+    "raw_rank": 33,
+    "unseen_rank": 32
+  },
+  "probe": {
+    "answer": "yellow",
+    "rewrite": "the front cab of a long yellow train at a railroad yard",
+    "raw_rank": 33,
+    "unseen_rank": 32,
+    "question": "Question: What is the main color of the train cab?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the color of the train cab?",
+        "answers": [
+          "red and black",
+          "yellow and black",
+          "yellow, blue and black"
+        ],
+        "score": 0.1357731819152832
+      },
+      {
+        "question": "Question: What is the main color of the train cab?",
+        "answers": [
+          "red",
+          "yellow",
+          "blue"
+        ],
+        "score": 0.19555997848510742
+      },
+      {
+        "question": "Question: What color is the front cab of the long train?",
+        "answers": [
+          "red",
+          "yellow",
+          "blue"
+        ],
+        "score": 0.19515752792358398
+      },
+      {
+        "question": "Question: What is the color of the front cab of the long train?",
+        "answers": [
+          "red",
+          "yellow",
+          "blue"
+        ],
+        "score": 0.16689157485961914
+      },
+      {
+        "question": "Question: What is the color of the front cab of the long train?",
+        "answers": [
+          "red",
+          "yellow",
+          "blue"
+        ],
+        "score": 0.16689157485961914,
+        "duplicate_of": 3
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.05,
+    "probe_selection_seconds": 1.893,
+    "probe_llm_calls": 4,
+    "probe_search_queries": 12
+  },
+  "reused_outcome": false
+}

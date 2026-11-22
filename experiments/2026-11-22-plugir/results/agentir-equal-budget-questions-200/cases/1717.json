@@ -1,0 +1,79 @@
+{
+  "qid": 1717,
+  "sample": 2,
+  "first_candidates": [
+    "Question: What specific ingredients are visible on the white plate in the image?",
+    "What type of Japanese dish is shown in the bowl?",
+    "what is the primary food item served in the bowl?",
+    "what is the color of the bowl containing the rice?",
+    "what is the color of the bowl containing the rice?"
+  ],
+  "second_candidates": [
+    "what type of eating utensil is being used with the food in the bowl?",
+    "Answer: chop sticks\n\nQuestion: what type of food is served on the white plate alongside the rice?",
+    "Question: What color is the plate containing the rice?",
+    "what is the specific type of meat served on the white plate with the rice?",
+    "what is the specific type of meat served on the white plate with the rice?"
+  ],
+  "paths": [
+    {
+      "question": "what type of eating utensil is being used with the food in the bowl?",
+      "answers": [
+        "chopsticks",
+        "spoon",
+        "none"
+      ],
+      "score": 0.02671194076538086
+    },
+    {
+      "question": "Answer: chop sticks\n\nQuestion: what type of food is served on the white plate alongside the rice?",
+      "answers": [
+        "broccoli and chicken",
+        "steak and rice",
+        "vegetables"
+      ],
+      "score": 0.06961536407470703
+    },
+    {
+      "question": "Question: What color is the plate containing the rice?",
+      "answers": [
+        "white",
+        "black",
+        "blue"
+      ],
+      "score": 0.03669023513793945
+    },
+    {
+      "question": "what is the specific type of meat served on the white plate with the rice?",
+      "answers": [
+        "chicken",
+        "steak",
+        "none"
+      ],
+      "score": 0.03373241424560547
+    },
+    {
+      "question": "what is the specific type of meat served on the white plate with the rice?",
+      "answers": [
+        "chicken",
+        "steak",
+        "none"
+      ],
+      "score": 0.03373241424560547,
+      "duplicate_of": 3
+    }
+  ],
+  "control": {
+    "question": "Question: What specific ingredients are visible on the white plate in the image?",
+    "score": 0.09683561325073242
+  },
+  "mixed": {
+    "question": "Question: What specific ingredients are visible on the white plate in the image?",
+    "score": 0.09683561325073242
+  },
+  "control_rank": 2,
+  "mixed_rank": 2,
+  "usual_rank": 2,
+  "new_answer": null,
+  "new_rewrite": null
+}

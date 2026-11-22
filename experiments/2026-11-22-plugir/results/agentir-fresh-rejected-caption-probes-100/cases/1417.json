@@ -1,0 +1,178 @@
+{
+  "qid": 1417,
+  "initial": "a lady with scissors is smiling at the camera next to red yarn",
+  "initial_rank": 37,
+  "displayed": [
+    14777,
+    486,
+    28756,
+    10150,
+    48665,
+    21494,
+    32813,
+    34240,
+    38881,
+    43046
+  ],
+  "evidence": [
+    "the woman in a pink and purple jacket is smiling",
+    "scissors and paper cut into different shapes",
+    "a pouch with scissors and other sewing items",
+    "woman smiling as she eats her food",
+    "a woman sits at a table and hands a dog a bone",
+    "a young man with black hair ad a mirror",
+    "a man wearing skis is on the track",
+    "a person in red playing tennis",
+    "two women are standing in a park and talking to a kite",
+    "a woman sitting on a motorcycle in a grassy area"
+  ],
+  "rejected_captions": [
+    "a smiling woman holding scissors and a sticker",
+    "a cat pattern on a white fabric bag",
+    "a girl wearing a black shirt",
+    "a blue felt book with embroidery scissors next to it",
+    "a woman in black standing next to a pickup truck",
+    "a girl in a school costume is standing on a couch",
+    "a woman holding a tennis racket",
+    "the woman is holding an electric toothbrush",
+    "a guy with red eyes",
+    "the girl is sitting on the couch"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the color of the jacket the smiling lady with scissors is wearing?",
+      "what is the location of the lady with scissors?",
+      "what is the color of the yarn next to the smiling lady with scissors?",
+      "what is the color of the yarn next to the smiling lady with scissors?",
+      "what is the color of the yarn next to the smiling lady with scissors?"
+    ],
+    "question": "what is the location of the lady with scissors?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the jacket the smiling lady with scissors is wearing?",
+          "answers": [
+            "pink",
+            "purple",
+            "red"
+          ],
+          "score": 0.029371261596679688
+        },
+        {
+          "question": "what is the location of the lady with scissors?",
+          "answers": [
+            "indoors",
+            "outdoors",
+            "studio"
+          ],
+          "score": 0.07431364059448242
+        },
+        {
+          "question": "what is the color of the yarn next to the smiling lady with scissors?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.02678537368774414
+        },
+        {
+          "question": "what is the color of the yarn next to the smiling lady with scissors?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.02678537368774414,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the yarn next to the smiling lady with scissors?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.02678537368774414,
+          "duplicate_of": 2
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.155,
+      "probe_selection_seconds": 1.389,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "bar",
+    "rewrite": "a lady with scissors is smiling at the camera next to red yarn in a bar",
+    "raw_rank": 4,
+    "unseen_rank": 2
+  },
+  "rejected": {
+    "candidates": [
+      "Question: Is the woman wearing a jacket, or is she sitting on a motorcycle?",
+      "Question: What is the color of the jacket the woman is wearing?",
+      "Question: Where is the woman sitting?",
+      "what color is the yarn the woman is working with?",
+      "Question: What is the color of the woman's jacket?"
+    ],
+    "question": "Question: Where is the woman sitting?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: Is the woman wearing a jacket, or is she sitting on a motorcycle?",
+          "answers": [
+            "jacket",
+            "sitting on a motorcycle"
+          ],
+          "score": 0.04472541809082031
+        },
+        {
+          "question": "Question: What is the color of the jacket the woman is wearing?",
+          "answers": [
+            "pink",
+            "purple",
+            "red"
+          ],
+          "score": 0.03839731216430664
+        },
+        {
+          "question": "Question: Where is the woman sitting?",
+          "answers": [
+            "at a table",
+            "on a motorcycle",
+            "in a park"
+          ],
+          "score": 0.14004802703857422
+        },
+        {
+          "question": "what color is the yarn the woman is working with?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.026272296905517578
+        },
+        {
+          "question": "Question: What is the color of the woman's jacket?",
+          "answers": [
+            "pink",
+            "purple",
+            "red"
+          ],
+          "score": 0.023607254028320312
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.077,
+      "probe_selection_seconds": 2.416,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 14
+    },
+    "answer": "at bar",
+    "rewrite": "a lady with scissors is smiling at the camera next to red yarn while sitting at a bar",
+    "raw_rank": 2,
+    "unseen_rank": 2
+  }
+}

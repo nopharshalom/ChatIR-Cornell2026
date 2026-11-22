@@ -1,0 +1,93 @@
+{
+  "chosen": "what is the color of the flag hanging on the building?",
+  "default": "what is the city where the flags are moving located?",
+  "ids": [
+    20872,
+    28134,
+    10967,
+    2889
+  ],
+  "trials": {
+    "what is the city where the flags are moving located?": {
+      "answers": [
+        "I'm not sure.",
+        "kidderminster",
+        "Based on the visual evidence in the image, the city is **Shanghai, China**.\n\nHere's the reasoning:\n- The prominent red flags are the **flag of the People's Republic of China**.\n- The street scene,",
+        "london"
+      ],
+      "rewrites": {
+        "I'm not sure.": "flags moving in the middle of an unknown city",
+        "kidderminster": "the flags are moving in the middle of Kidderminster",
+        "Based on the visual evidence in the image, the city is **Shanghai, China**.\n\nHere's the reasoning:\n- The prominent red flags are the **flag of the People's Republic of China**.\n- The street scene,": "red flags of the People's Republic of China waving in the middle of Shanghai, China",
+        "london": "the flags are moving in the middle of London"
+      },
+      "ranks": [
+        15,
+        103,
+        12,
+        17
+      ],
+      "hits": 0
+    },
+    "what is the color of the flag hanging on the building?": {
+      "answers": [
+        "purple",
+        "white",
+        "red",
+        "white"
+      ],
+      "rewrites": {
+        "purple": "purple flags are moving in the middle of the city",
+        "white": "white flags are moving in the middle of the city",
+        "red": "red flags are moving in the middle of the city"
+      },
+      "ranks": [
+        59,
+        8,
+        59,
+        89
+      ],
+      "hits": 1
+    },
+    "what is the object that the flags are attached to in the middle of the city?": {
+      "answers": [
+        "poles",
+        "building",
+        "building",
+        "building"
+      ],
+      "rewrites": {
+        "poles": "flags attached to poles moving in the middle of the city",
+        "building": "flags attached to a building in the middle of the city"
+      },
+      "ranks": [
+        7,
+        29,
+        84,
+        921
+      ],
+      "hits": 1
+    },
+    "Question: What is the country associated with the flags moving in the middle of the city?": {
+      "answers": [
+        "japan",
+        "united kingdom",
+        "China",
+        "uk"
+      ],
+      "rewrites": {
+        "japan": "japanese flags waving in the middle of a city",
+        "united kingdom": "the united kingdom flags are moving in the middle of the city",
+        "China": "Chinese flags waving in the middle of a city",
+        "uk": "the uk flags are moving in the middle of the city"
+      },
+      "ranks": [
+        47,
+        111,
+        5,
+        23
+      ],
+      "hits": 1
+    }
+  }
+}

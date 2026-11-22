@@ -1,0 +1,71 @@
+{
+  "qid": 1221,
+  "initial": "a parking meter that seems out of place",
+  "initial_rank": 12,
+  "evidence": [
+    "a clock surrounded by trees",
+    "a small white fridge in a wooden shed",
+    "an orange and yellow fire hydrant sits next to a street in front of some sidewalks",
+    "black suv parked on the curb",
+    "a no parking sign is placed on the no parking meter in front of a busy city street",
+    "a bicycle is attached to a pole in the middle of a city street",
+    "a man standing by a building with a traffic light on top of him",
+    "a clock in a mess of fallen leaves",
+    "a large clock above a window",
+    "the view of a green light next to a tall building"
+  ],
+  "displayed_ids": [
+    15228,
+    11227,
+    37668,
+    6697,
+    48622,
+    11591,
+    18704,
+    45239,
+    36956,
+    10462
+  ],
+  "rejected_captions": [
+    "parking meter on a pole",
+    "parking meter is on the side of the street",
+    "the parking meter is wet",
+    "parking meter on the side of the road",
+    "a street car is driving down the street",
+    "a parking meter next to a city street",
+    "a parking meter on a sidewalk",
+    "parking meter is on a sidewalk in front of a building",
+    "parking meter sitting on sidewalk",
+    "the side of the road is dirt"
+  ],
+  "candidates": [
+    "Question: What is the unusual background setting of the parking meter?",
+    "Question: What color is the parking meter?",
+    "Question: What is the parking meter next to?",
+    "Question: Where is the parking meter located?",
+    "Question: What is the parking meter next to?"
+  ],
+  "control_candidates": [
+    "what is the color of the parking meter in the image?",
+    "what is the location of the parking meter in the image?",
+    "Question: what is the object placed on top of the parking meter in the image?",
+    "what object is placed on top of the parking meter in the image?",
+    "Question: what is the object placed on top of the parking meter in the image?"
+  ],
+  "control": {
+    "question": "what is the location of the parking meter in the image?",
+    "answer": "right side",
+    "rewrite": "a parking meter located on the right side",
+    "rank": 48,
+    "hit": false,
+    "raw_rank": 48,
+    "unseen_rank": 38
+  },
+  "variant": {
+    "question": "Question: What is the unusual background setting of the parking meter?",
+    "answer": "The parking meter is mounted on a wooden board attached to a brick wall with peeling paint.",
+    "rewrite": "a parking meter mounted on a wooden board attached to a brick wall with peeling paint",
+    "raw_rank": 1,
+    "unseen_rank": 1
+  }
+}

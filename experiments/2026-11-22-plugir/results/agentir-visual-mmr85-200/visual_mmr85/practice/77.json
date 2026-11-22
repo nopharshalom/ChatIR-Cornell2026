@@ -1,0 +1,90 @@
+{
+  "chosen": "What is the size of the bathtub in the bathroom?",
+  "default": "what is the other object in the image?",
+  "ids": [
+    7707,
+    32032,
+    26094,
+    10695
+  ],
+  "trials": {
+    "what is the other object in the image?": {
+      "answers": [
+        "shower",
+        "shower",
+        "bathtub",
+        "bathtub"
+      ],
+      "rewrites": {
+        "shower": "a private bathroom featuring a large tub in the middle and a large shower",
+        "bathtub": "a private bathroom featuring a large shower and a large bathtub"
+      },
+      "ranks": [
+        8,
+        18,
+        25,
+        57
+      ],
+      "hits": 1
+    },
+    "what is the color of the walls in the bathroom that features a large tub in the middle and a large shower?": {
+      "answers": [
+        "beige",
+        "beige",
+        "beige",
+        "beige"
+      ],
+      "rewrites": {
+        "beige": "a private bathroom featuring a large beige-walled space with a large tub in the middle and a large shower"
+      },
+      "ranks": [
+        6,
+        34,
+        72,
+        15
+      ],
+      "hits": 1
+    },
+    "what is the material of the walls in the bathroom that features a large tub in the middle and a large shower?": {
+      "answers": [
+        "paint",
+        "tile",
+        "tiled",
+        "tile."
+      ],
+      "rewrites": {
+        "paint": "a private bathroom featuring a large tub in the middle and a large shower, with walls painted",
+        "tile": "a private bathroom featuring a large tub in the middle and a large shower, with tiled walls",
+        "tiled": "a private bathroom featuring a large tiled tub in the middle and a large tiled shower",
+        "tile.": "a private bathroom featuring a large tub in the middle and a large shower, with tiled walls"
+      },
+      "ranks": [
+        18,
+        31,
+        37,
+        93
+      ],
+      "hits": 0
+    },
+    "What is the size of the bathtub in the bathroom?": {
+      "answers": [
+        "large",
+        "small",
+        "standard",
+        "small"
+      ],
+      "rewrites": {
+        "large": "a large bathtub and a large shower in a private bathroom",
+        "small": "a small bathtub and a large shower in a private bathroom",
+        "standard": "a private bathroom featuring a standard-sized bathtub in the middle and a large shower"
+      },
+      "ranks": [
+        7,
+        1,
+        17,
+        103
+      ],
+      "hits": 2
+    }
+  }
+}

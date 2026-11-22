@@ -1,0 +1,79 @@
+{
+  "qid": 750,
+  "candidates": [
+    "Question: What color is the bathtub in the bathroom?",
+    "Question: What is the color of the bathtub?",
+    "Question: What is the width of the bathroom?",
+    "Question: How many sinks are in the narrow bathroom with a long bathtub?",
+    "Question: What is the color of the bathtub in the narrow bathroom?"
+  ],
+  "kl": {
+    "question": "Question: What is the width of the bathroom?",
+    "answer": "I'm unsure, the image does not provide enough information to determine the width of the bathroom.",
+    "rewrite": "a narrow bathroom with a long bathtub",
+    "raw_rank": 8,
+    "unseen_rank": 2
+  },
+  "probe": {
+    "answer": "White",
+    "rewrite": "a narrow bathroom with a long white bathtub",
+    "raw_rank": 9,
+    "unseen_rank": 3,
+    "question": "Question: What color is the bathtub in the bathroom?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What color is the bathtub in the bathroom?",
+        "answers": [
+          "white",
+          "black",
+          "blue"
+        ],
+        "score": 0.07857036590576172
+      },
+      {
+        "question": "Question: What is the color of the bathtub?",
+        "answers": [
+          "white",
+          "blue",
+          "black"
+        ],
+        "score": 0.0774545669555664
+      },
+      {
+        "question": "Question: What is the width of the bathroom?",
+        "answers": [
+          "narrow",
+          "wide",
+          "medium"
+        ],
+        "score": 0.0013661384582519531
+      },
+      {
+        "question": "Question: How many sinks are in the narrow bathroom with a long bathtub?",
+        "answers": [
+          "0",
+          "2",
+          "5"
+        ],
+        "score": 0.0003724098205566406
+      },
+      {
+        "question": "Question: What is the color of the bathtub in the narrow bathroom?",
+        "answers": [
+          "white",
+          "dark",
+          "patterned"
+        ],
+        "score": 0.059990882873535156
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.054,
+    "probe_selection_seconds": 2.219,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": false
+}

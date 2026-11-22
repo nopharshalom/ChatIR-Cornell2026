@@ -1,0 +1,99 @@
+{
+  "qid": 1683,
+  "initial": "a man is holding scissors above a woman's head",
+  "initial_rank": 18,
+  "evidence": [
+    "two women playing a video game in their living room",
+    "a tennis player jumping in the air to hit a tennis ball",
+    "a man with a pair of scissors on him",
+    "a girl is dancing with a boy at a convention",
+    "a red kite is flying high in the sky",
+    "a group of people in a crowd cheering while a man in a red shirt",
+    "a man and woman walking down a street with suitcases and baskets",
+    "a man is walking on a sidewalk in front of a crowd",
+    "two people standing in a living room playing a game"
+  ],
+  "candidates": [
+    "what is the color of the man's shirt in the image where a man is holding scissors above a woman's head?",
+    "what is the location of the man holding scissors above a woman's head?",
+    "what is the color of the scissors the man is holding?",
+    "what is the relationship between the man and the woman in the image where a man is holding scissors above a woman's head?",
+    "what is the color of the woman's hair in the image where a man is holding scissors above a woman's head?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the man's shirt in the image where a man is holding scissors above a woman's head?",
+      "answers": [
+        "red",
+        "blue",
+        "black"
+      ],
+      "score": 0.038845062255859375
+    },
+    {
+      "question": "what is the location of the man holding scissors above a woman's head?",
+      "answers": [
+        "living room",
+        "stage",
+        "outside"
+      ],
+      "score": 0.05498075485229492
+    },
+    {
+      "question": "what is the color of the scissors the man is holding?",
+      "answers": [
+        "red",
+        "silver",
+        "black"
+      ],
+      "score": 0.02818441390991211
+    },
+    {
+      "question": "what is the relationship between the man and the woman in the image where a man is holding scissors above a woman's head?",
+      "answers": [
+        "husband and wife",
+        "doctor and patient",
+        "perpetrator and victim"
+      ],
+      "score": 0.024544239044189453
+    },
+    {
+      "question": "what is the color of the woman's hair in the image where a man is holding scissors above a woman's head?",
+      "answers": [
+        "blonde",
+        "brown",
+        "black"
+      ],
+      "score": 0.03476762771606445
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.059,
+  "probe_selection_seconds": 2.802,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the relationship between the man and the woman in the image where a man is holding scissors above a woman's head?",
+      "answer": "husband and wife",
+      "rewrite": "a husband is holding scissors above his wife's head",
+      "rank": 5,
+      "hit": true
+    },
+    "random": {
+      "question": "what is the color of the man's shirt in the image where a man is holding scissors above a woman's head?",
+      "answer": "black",
+      "rewrite": "a man in a black shirt is holding scissors above a woman's head",
+      "rank": 21,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the location of the man holding scissors above a woman's head?",
+      "answer": "behind",
+      "rewrite": "a man is holding scissors above a woman's head, positioned behind her",
+      "rank": 21,
+      "hit": false
+    }
+  },
+  "seconds": 17.829
+}

@@ -1,0 +1,100 @@
+{
+  "qid": 561,
+  "initial": "a crowd of people walk together beside a busy street downtown",
+  "initial_rank": 46,
+  "evidence": [
+    "a man with a balancing board on a lamp post",
+    "a city bus is traveling through a city full of cars",
+    "a group of people standing near a building with many umbrellas",
+    "crowd of people are standing in line to protest their riding",
+    "a city at night with brightly lit stores",
+    "two people crossing the street in the evening near a street light",
+    "a group of people standing around a marketplace with umbrellas",
+    "the buildings on this corner are tall and tall",
+    "a city street full of cars and buses",
+    "a photo of old buildings with horse drawn carriages"
+  ],
+  "candidates": [
+    "what is the time of day and lighting condition of the scene where the crowd is walking?",
+    "what are the people in the crowd holding?",
+    "what are the people in the crowd wearing?",
+    "what is the specific location or type of street where the crowd of people is walking together?",
+    "what is the color of the umbrellas held by the crowd of people walking beside the busy street?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the time of day and lighting condition of the scene where the crowd is walking?",
+      "answers": [
+        "day",
+        "evening",
+        "night"
+      ],
+      "score": 0.05980062484741211
+    },
+    {
+      "question": "what are the people in the crowd holding?",
+      "answers": [
+        "umbrellas",
+        "signs",
+        "food"
+      ],
+      "score": 0.14520502090454102
+    },
+    {
+      "question": "what are the people in the crowd wearing?",
+      "answers": [
+        "raincoats",
+        "umbrellas",
+        "coats"
+      ],
+      "score": 0.11134624481201172
+    },
+    {
+      "question": "what is the specific location or type of street where the crowd of people is walking together?",
+      "answers": [
+        "downtown",
+        "busy street",
+        "city street"
+      ],
+      "score": 0.0027260780334472656
+    },
+    {
+      "question": "what is the color of the umbrellas held by the crowd of people walking beside the busy street?",
+      "answers": [
+        "red",
+        "black",
+        "clear"
+      ],
+      "score": 0.060900211334228516
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.166,
+  "probe_selection_seconds": 2.713,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the specific location or type of street where the crowd of people is walking together?",
+      "answer": "the crowd is walking on a city street, likely in downtown new york, given the tall buildings and traffic.",
+      "rewrite": "a crowd of people walk together on a busy city street in downtown New York, surrounded by tall buildings and traffic",
+      "rank": 6,
+      "hit": true
+    },
+    "random": {
+      "question": "what is the color of the umbrellas held by the crowd of people walking beside the busy street?",
+      "answer": "black",
+      "rewrite": "a crowd of people holding black umbrellas walk together beside a busy street downtown",
+      "rank": 88,
+      "hit": false
+    },
+    "probe": {
+      "question": "what are the people in the crowd holding?",
+      "answer": "umbrellas",
+      "rewrite": "a crowd of people holding umbrellas walk together beside a busy street downtown",
+      "rank": 149,
+      "hit": false
+    }
+  },
+  "seconds": 22.985
+}

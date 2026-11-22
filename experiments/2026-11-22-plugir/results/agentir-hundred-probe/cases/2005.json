@@ -1,0 +1,101 @@
+{
+  "qid": 2005,
+  "initial": "a speedboat in the middle of a lake headed towards a bridge",
+  "initial_rank": 12,
+  "evidence": [
+    "a group of boats are docked in a marina next to a lighthouse",
+    "a river in the city near a city building and a bridge",
+    "a small dock with several boats docked",
+    "large white river boat parked next to a bridge",
+    "a man riding a boat down a river surrounded by trees",
+    "a row of two boats tied to a rope in a river",
+    "a train is going over an old bridge with trees",
+    "a man water skiing in a blue shirt",
+    "a sailboat on the water in front of a lighthouse",
+    "an airplane flying low over a city and bridge"
+  ],
+  "candidates": [
+    "what is the color of the speedboat?",
+    "what is the color of the bridge that the speedboat is heading towards?",
+    "what is the location of the speedboat?",
+    "what is the color of the bridge that the speedboat is heading towards?",
+    "Question: What is the color of the bridge that the speedboat is heading towards?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the speedboat?",
+      "answers": [
+        "red",
+        "blue",
+        "black"
+      ],
+      "score": 0.07744503021240234
+    },
+    {
+      "question": "what is the color of the bridge that the speedboat is heading towards?",
+      "answers": [
+        "red",
+        "white",
+        "brown"
+      ],
+      "score": 0.09779787063598633
+    },
+    {
+      "question": "what is the location of the speedboat?",
+      "answers": [
+        "lake",
+        "river",
+        "sea"
+      ],
+      "score": 0.008882999420166016
+    },
+    {
+      "question": "what is the color of the bridge that the speedboat is heading towards?",
+      "answers": [
+        "red",
+        "white",
+        "brown"
+      ],
+      "score": 0.09779787063598633,
+      "duplicate_of": 1
+    },
+    {
+      "question": "Question: What is the color of the bridge that the speedboat is heading towards?",
+      "answers": [
+        "red",
+        "white",
+        "green"
+      ],
+      "score": 0.06228303909301758
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.078,
+  "probe_selection_seconds": 1.942,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "what is the location of the speedboat?",
+      "answer": "on the water",
+      "rewrite": "a speedboat on the water headed towards a bridge",
+      "rank": 11,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the color of the bridge that the speedboat is heading towards?",
+      "answer": "black",
+      "rewrite": "a black bridge in the distance with a speedboat heading towards it on a lake",
+      "rank": 2,
+      "hit": true
+    },
+    "probe": {
+      "question": "what is the color of the bridge that the speedboat is heading towards?",
+      "answer": "black",
+      "rewrite": "a black bridge in the distance with a speedboat heading towards it on a lake",
+      "rank": 2,
+      "hit": true
+    }
+  },
+  "seconds": 16.776
+}

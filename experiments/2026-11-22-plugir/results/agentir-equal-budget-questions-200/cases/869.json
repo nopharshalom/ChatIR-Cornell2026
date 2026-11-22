@@ -1,0 +1,78 @@
+{
+  "qid": 869,
+  "sample": 1,
+  "first_candidates": [
+    "Question: What color is the soccer ball being used by the players?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "Who are the soccer players racing on the field?"
+  ],
+  "second_candidates": [
+    "what is the color of the soccer ball used by the players on the field?",
+    "Question: What is the color of the ball being kicked by the boy on the field?",
+    "what is the number of players visible in the image?",
+    "what is the gender of the player kicking the soccer ball?",
+    "Question: What is the gender of the players racing for the ball?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the soccer ball used by the players on the field?",
+      "answers": [
+        "black",
+        "white",
+        "green"
+      ],
+      "score": 0.04028940200805664
+    },
+    {
+      "question": "Question: What is the color of the ball being kicked by the boy on the field?",
+      "answers": [
+        "black",
+        "white",
+        "blue"
+      ],
+      "score": 0.03863525390625
+    },
+    {
+      "question": "what is the number of players visible in the image?",
+      "answers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "score": 0.0003209114074707031
+    },
+    {
+      "question": "what is the gender of the player kicking the soccer ball?",
+      "answers": [
+        "boy",
+        "man",
+        "girl"
+      ],
+      "score": 0.08818721771240234
+    },
+    {
+      "question": "Question: What is the gender of the players racing for the ball?",
+      "answers": [
+        "male",
+        "female",
+        "mixed"
+      ],
+      "score": 0.06067609786987305
+    }
+  ],
+  "control": {
+    "question": "Who are the soccer players racing on the field?",
+    "score": 0.13112592697143555
+  },
+  "mixed": {
+    "question": "Who are the soccer players racing on the field?",
+    "score": 0.13112592697143555
+  },
+  "control_rank": 13,
+  "mixed_rank": 13,
+  "usual_rank": 13,
+  "new_answer": null,
+  "new_rewrite": null
+}

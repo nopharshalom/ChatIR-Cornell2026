@@ -1,0 +1,402 @@
+{
+  "qid": 1540,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000499669.jpg",
+  "queries": [
+    "a herd of zebras eating in a large open field",
+    "a herd of zebras eating on a grassy field",
+    "a herd of zebras eating on grass in an open grassland",
+    "a herd of zebras eating on grass next to wildebeest in an open grassland"
+  ],
+  "ranks": [
+    33,
+    79,
+    36,
+    2
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a herd of zebras eating in a large open field",
+      "question": "Question: What is the specific type of terrain or ground surface the zebras are standing on?",
+      "answer": "grass",
+      "query_after": "a herd of zebras eating on a grassy field",
+      "displayed_ids": [
+        9706,
+        1842,
+        35009,
+        35710,
+        3831,
+        9665,
+        15866,
+        11960,
+        40641,
+        14653
+      ],
+      "selected_ids": [
+        42951,
+        9453,
+        41485,
+        14790,
+        13882,
+        10578,
+        19726,
+        10506,
+        43122,
+        38892
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: What is the specific color pattern of the zebras in the image?",
+          "answers": [
+            "black and white stripes",
+            "striped",
+            "black and white"
+          ],
+          "score": 0.018804073333740234
+        },
+        {
+          "question": "what is the background scenery behind the herd of zebras eating in the field?",
+          "answers": [
+            "mountains",
+            "dirt plain",
+            "dry plain"
+          ],
+          "score": 0.0880584716796875
+        },
+        {
+          "question": "Question: What is the specific color pattern of the zebras in the image?",
+          "answers": [
+            "black and white stripes",
+            "striped",
+            "black and white"
+          ],
+          "score": 0.018804073333740234,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "one zebra",
+            "two zebras",
+            "three zebras"
+          ],
+          "score": 0.03127145767211914
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "one zebra",
+            "two zebras",
+            "three zebras"
+          ],
+          "score": 0.03127145767211914,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: How many zebras are in the herd?",
+          "answers": [
+            "two",
+            "three",
+            "many"
+          ],
+          "score": 0.009337902069091797
+        },
+        {
+          "question": "Question: Are there baby zebras in the herd?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0005545616149902344
+        },
+        {
+          "question": "Question: Question: Are there mountains visible in the background?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.00022554397583007812
+        },
+        {
+          "question": "Question: What is the color of the herd of zebras?",
+          "answers": [
+            "black and white",
+            "striped",
+            "black"
+          ],
+          "score": 0.009900093078613281
+        },
+        {
+          "question": "Question: What is the specific type of terrain or ground surface the zebras are standing on?",
+          "answers": [
+            "green field",
+            "dirt plain",
+            "dry grass"
+          ],
+          "score": 0.12719488143920898
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a herd of zebras eating on a grassy field",
+      "question": "what is the specific setting or enclosure where the zebras are located?",
+      "answer": "open grassland",
+      "query_after": "a herd of zebras eating on grass in an open grassland",
+      "displayed_ids": [
+        9706,
+        1842,
+        2492,
+        35009,
+        23682,
+        15875,
+        11413,
+        25020,
+        17800,
+        24941
+      ],
+      "selected_ids": [
+        6226,
+        48877,
+        41485,
+        10578,
+        16921,
+        19726,
+        45943,
+        13882,
+        7645
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "what is the color pattern of the zebras in the image?",
+          "answers": [
+            "black and white stripes",
+            "striped",
+            "zebra"
+          ],
+          "score": 0.004688739776611328
+        },
+        {
+          "question": "what is the color pattern of the zebras in the image?",
+          "answers": [
+            "black and white stripes",
+            "striped",
+            "zebra"
+          ],
+          "score": 0.004688739776611328,
+          "duplicate_of": 0
+        },
+        {
+          "question": "How many zebras are in the herd?",
+          "answers": [
+            "one",
+            "two",
+            "three"
+          ],
+          "score": 0.017467021942138672
+        },
+        {
+          "question": "Question: What animals are present in the image besides the zebras?",
+          "answers": [
+            "none",
+            "birds",
+            "other animals"
+          ],
+          "score": 0.02040719985961914
+        },
+        {
+          "question": "what is the specific setting or enclosure where the zebras are located?",
+          "answers": [
+            "open field",
+            "zoo enclosure",
+            "wilderness"
+          ],
+          "score": 0.03358793258666992
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: How many zebras are visible in the image?",
+          "answers": [
+            "one",
+            "two",
+            "three"
+          ],
+          "score": 0.010959625244140625
+        },
+        {
+          "question": "How many zebras are visible in the herd?",
+          "answers": [
+            "two",
+            "three",
+            "many"
+          ],
+          "score": 0.019321918487548828
+        },
+        {
+          "question": "Question: What is the specific color of the zebras in the image?",
+          "answers": [
+            "black and white",
+            "brown and white",
+            "striped"
+          ],
+          "score": 0.030995845794677734
+        },
+        {
+          "question": "Question: Which specific animal is seen running alongside the zebras in the image?",
+          "answers": [
+            "wildebeest",
+            "antelopes",
+            "elephants"
+          ],
+          "score": 0.027309894561767578
+        },
+        {
+          "question": "Question: What is the specific color of the zebra in the image?",
+          "answers": [
+            "black and white",
+            "white and black",
+            "striped"
+          ],
+          "score": 0.017906665802001953
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "a herd of zebras eating on grass in an open grassland",
+      "question": "what is the specific type of animal the zebras are laying next to?",
+      "answer": "wildebeest",
+      "query_after": "a herd of zebras eating on grass next to wildebeest in an open grassland",
+      "displayed_ids": [
+        9706,
+        1842,
+        35009,
+        23682,
+        35710,
+        11413,
+        15875,
+        15866,
+        3831,
+        2492
+      ],
+      "selected_ids": [
+        41485,
+        48877,
+        30286,
+        36776,
+        14671,
+        13882,
+        10578,
+        43122
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "Question: Which animal is the zebra laying next to?",
+          "answers": [
+            "a giraffe",
+            "a zebra",
+            "an antelope"
+          ],
+          "score": 0.04712724685668945
+        },
+        {
+          "question": "what is the specific action the zebras are performing in the image?",
+          "answers": [
+            "eating",
+            "running",
+            "standing"
+          ],
+          "score": 0.015572547912597656
+        },
+        {
+          "question": "Question: What animal is the zebra laying next to?",
+          "answers": [
+            "a giraffe",
+            "an antelope",
+            "another zebra"
+          ],
+          "score": 0.051024436950683594
+        },
+        {
+          "question": "Question: Which animal is the zebra laying next to in the image?",
+          "answers": [
+            "a giraffe",
+            "a zebra",
+            "no other animal"
+          ],
+          "score": 0.034388065338134766
+        },
+        {
+          "question": "what is the specific type of animal the zebras are laying next to?",
+          "answers": [
+            "a giraffe",
+            "no other animal",
+            "nothing"
+          ],
+          "score": 0.05414772033691406
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: How many zebras are visible in the image?",
+          "answers": [
+            "one",
+            "two",
+            "several"
+          ],
+          "score": 0.007965564727783203
+        },
+        {
+          "question": "Question: Are there any other animals besides zebras present in the image?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0016298294067382812
+        },
+        {
+          "question": "Question: What is the color scheme of the image (e.g., is it black and white, or in color)?",
+          "answers": [
+            "in color",
+            "black and white",
+            "sepia"
+          ],
+          "score": 0.03684425354003906
+        },
+        {
+          "question": "Question: Are there any other animals besides zebras present in the image?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0016298294067382812,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the zebras in the image?",
+          "answers": [
+            "black and white",
+            "brown and white",
+            "striped"
+          ],
+          "score": 0.0268096923828125
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

@@ -1,0 +1,407 @@
+{
+  "qid": 858,
+  "sample": "original",
+  "target": "unlabeled2017/000000227006.jpg",
+  "queries": [
+    "a large building with a clock tower is at the corner of a city block",
+    "a large building with a black clock tower is at the corner of a city block",
+    "A large building featuring a black clock tower is located at the corner of a city block.",
+    "a large black clock tower stands at the corner of a city block, adjacent to a large light-colored building with a red-tiled roof, with a street featuring parked cars and pedestrians, and a blue sign nearby"
+  ],
+  "ranks": [
+    160,
+    44,
+    59,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a large building with a clock tower is at the corner of a city block",
+      "question": "Question: What is the color of the clock tower in the image?",
+      "answer": "black",
+      "query_after": "a large building with a black clock tower is at the corner of a city block",
+      "displayed_ids": [
+        46922,
+        34656,
+        30496,
+        7386,
+        48926,
+        38933,
+        45701,
+        32126,
+        45234,
+        39713
+      ],
+      "selected_ids": [
+        6588,
+        42511,
+        15608,
+        4544,
+        14383,
+        10324,
+        17444,
+        11575,
+        29269,
+        47426
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: What is the time displayed on the clock face of the large building?",
+          "answers": [
+            "12:00",
+            "6:00",
+            "9:00"
+          ],
+          "score": 0.0005054473876953125
+        },
+        {
+          "question": "what is the time displayed on the clock face of the large building?",
+          "answers": [
+            "4:20",
+            "12:00",
+            "check the image"
+          ],
+          "score": 0.009673595428466797
+        },
+        {
+          "question": "Question: What is the sky condition above the large building with a clock tower?",
+          "answers": [
+            "cloudy",
+            "night sky",
+            "clear"
+          ],
+          "score": 0.07152175903320312
+        },
+        {
+          "question": "what is the color of the large building with the clock tower?",
+          "answers": [
+            "black",
+            "white",
+            "color"
+          ],
+          "score": 0.09234046936035156
+        },
+        {
+          "question": "what is the color of the clock face on the large building?",
+          "answers": [
+            "black and white",
+            "red",
+            "tall"
+          ],
+          "score": 0.12233495712280273
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the sky in the image?",
+          "answers": [
+            "blue",
+            "grey",
+            "dark"
+          ],
+          "score": 0.06064462661743164
+        },
+        {
+          "question": "Question: What is the color of the sky in the image?",
+          "answers": [
+            "blue",
+            "grey",
+            "dark"
+          ],
+          "score": 0.06064462661743164,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the clock tower in the image?",
+          "answers": [
+            "black and white",
+            "red",
+            "gold"
+          ],
+          "score": 0.12561273574829102
+        },
+        {
+          "question": "Question: What is the material of the clock tower in the image?",
+          "answers": [
+            "stone",
+            "metal",
+            "brick"
+          ],
+          "score": 0.05979156494140625
+        },
+        {
+          "question": "Question: What is the color of the clock tower in the image?",
+          "answers": [
+            "black and white",
+            "red",
+            "gold"
+          ],
+          "score": 0.12561273574829102,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a large building with a black clock tower is at the corner of a city block",
+      "question": "what is the color of the clock tower in the image?",
+      "answer": "black",
+      "query_after": "A large building featuring a black clock tower is located at the corner of a city block.",
+      "displayed_ids": [
+        34656,
+        30496,
+        23595,
+        30883,
+        46922,
+        2578,
+        38781,
+        39414,
+        45701,
+        8717
+      ],
+      "selected_ids": [
+        10044,
+        14383,
+        3020,
+        6588,
+        29269,
+        8566,
+        29543,
+        30165,
+        3760,
+        4544
+      ],
+      "rejected_count": 16,
+      "usual_paths": [
+        {
+          "question": "what is the time displayed on the face of the clock tower?",
+          "answers": [
+            "12:00",
+            "6:00",
+            "9:00"
+          ],
+          "score": 0.0008397102355957031
+        },
+        {
+          "question": "Question: What is the time displayed on the face of the clock tower?",
+          "answers": [
+            "12:00",
+            "6:00",
+            "9:00"
+          ],
+          "score": 0.0005311965942382812
+        },
+        {
+          "question": "what is the lighting condition or time of day depicted in the image?",
+          "answers": [
+            "dusk",
+            "cloudy day",
+            "night"
+          ],
+          "score": 0.06158304214477539
+        },
+        {
+          "question": "what is the color of the sign located at the side of the busy city street in the image?",
+          "answers": [
+            "yellow",
+            "green",
+            "red"
+          ],
+          "score": 0.10338354110717773
+        },
+        {
+          "question": "what is the color of the clock tower in the image?",
+          "answers": [
+            "black",
+            "red",
+            "white"
+          ],
+          "score": 0.14101505279541016
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "blue",
+            "gray",
+            "dark"
+          ],
+          "score": 0.07239055633544922
+        },
+        {
+          "question": "Question: What is the color of the sky in the image?",
+          "answers": [
+            "blue",
+            "gray",
+            "black"
+          ],
+          "score": 0.04213142395019531
+        },
+        {
+          "question": "Question: What is the color of the sky in the image?",
+          "answers": [
+            "blue",
+            "gray",
+            "black"
+          ],
+          "score": 0.04213142395019531,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the sky in the image?",
+          "answers": [
+            "blue",
+            "gray",
+            "black"
+          ],
+          "score": 0.04213142395019531,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the sky in the image?",
+          "answers": [
+            "blue",
+            "gray",
+            "black"
+          ],
+          "score": 0.04213142395019531,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "A large building featuring a black clock tower is located at the corner of a city block.",
+      "question": "What objects are located near the large clock tower in the image?",
+      "answer": "Based on the image, the objects located near the large clock tower are:\n\n- A large, light-colored building with a red-tiled roof.\n- A street with parked cars and pedestrians.\n- A blue sign with the word",
+      "query_after": "a large black clock tower stands at the corner of a city block, adjacent to a large light-colored building with a red-tiled roof, with a street featuring parked cars and pedestrians, and a blue sign nearby",
+      "displayed_ids": [
+        34656,
+        23595,
+        38781,
+        30496,
+        30883,
+        46922,
+        2578,
+        8717,
+        45701,
+        39414
+      ],
+      "selected_ids": [
+        3020,
+        29269,
+        48789,
+        14383,
+        30165,
+        16265,
+        39994,
+        14490,
+        16665
+      ],
+      "rejected_count": 16,
+      "usual_paths": [
+        {
+          "question": "What objects are located near the large clock tower in the image?",
+          "answers": [
+            "clouds",
+            "a person",
+            "a car"
+          ],
+          "score": 0.07815265655517578
+        },
+        {
+          "question": "What type of building is located next to the clock tower?",
+          "answers": [
+            "a small building",
+            "a large building",
+            "a brick building"
+          ],
+          "score": 0.02549886703491211
+        },
+        {
+          "question": "What architectural style is the large building with the clock tower?",
+          "answers": [
+            "Gothic",
+            "Baroque",
+            "Art Deco"
+          ],
+          "score": 0.058562278747558594
+        },
+        {
+          "question": "what is the color of the clock tower in the image?",
+          "answers": [
+            "black",
+            "white",
+            "gray"
+          ],
+          "score": 0.055655479431152344
+        },
+        {
+          "question": "Question: What is the color of the clock tower in the image?",
+          "answers": [
+            "black",
+            "white",
+            "unknown"
+          ],
+          "score": 0.02800893783569336
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what material is the large clock tower made of?",
+          "answers": [
+            "brick",
+            "stone",
+            "metal"
+          ],
+          "score": 0.06453275680541992
+        },
+        {
+          "question": "what material is the large clock tower made of?",
+          "answers": [
+            "brick",
+            "stone",
+            "metal"
+          ],
+          "score": 0.06453275680541992,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the sky in the image?",
+          "answers": [
+            "black",
+            "blue",
+            "grey"
+          ],
+          "score": 0.044298648834228516
+        },
+        {
+          "question": "Question: what color is the sky in the image?",
+          "answers": [
+            "blue",
+            "gray",
+            "white"
+          ],
+          "score": 0.06458616256713867
+        },
+        {
+          "question": "what color is the sky in the image?",
+          "answers": [
+            "black",
+            "blue",
+            "grey"
+          ],
+          "score": 0.044298648834228516,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

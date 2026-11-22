@@ -1,0 +1,75 @@
+{
+  "ids": [
+    12133,
+    42441,
+    32668,
+    19811
+  ],
+  "prefix": [
+    "a bathroom sink with a mirror and lights",
+    "what color are the light fixtures in the bathroom? silver"
+  ],
+  "default": "what type of sink is in the bathroom?",
+  "chosen": "what type of sink is in the bathroom?",
+  "trials": {
+    "what type of sink is in the bathroom?": {
+      "answers": [
+        "vessel sink",
+        "pedestal",
+        "vanity sink",
+        "double sink"
+      ],
+      "rewrites": {
+        "vessel sink": "a silver light fixture above a vessel sink in a bathroom with a mirror",
+        "pedestal": "a silver light fixture above a pedestal sink in a bathroom with a mirror",
+        "vanity sink": "a silver vanity sink with a mirror and silver light fixtures",
+        "double sink": "a bathroom featuring a double sink, a mirror, and silver light fixtures"
+      },
+      "ranks": [
+        56,
+        1,
+        52,
+        74
+      ],
+      "hits": 1
+    },
+    "what is the color of the bathroom sink?": {
+      "answers": [
+        "white",
+        "white",
+        "beige",
+        "white"
+      ],
+      "rewrites": {
+        "white": "a white bathroom sink with a mirror and silver light fixtures",
+        "beige": "a beige bathroom sink with a mirror and silver light fixtures"
+      },
+      "ranks": [
+        2,
+        11,
+        13,
+        121
+      ],
+      "hits": 1
+    },
+    "what color is the bathroom sink?": {
+      "answers": [
+        "white",
+        "white",
+        "beige",
+        "white"
+      ],
+      "rewrites": {
+        "white": "a white bathroom sink with a mirror and silver light fixtures",
+        "beige": "a beige bathroom sink with a mirror and silver light fixtures"
+      },
+      "ranks": [
+        2,
+        11,
+        13,
+        121
+      ],
+      "hits": 1
+    }
+  }
+}

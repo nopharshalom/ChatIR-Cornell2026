@@ -1,0 +1,806 @@
+{
+  "qid": 670,
+  "sample": "original",
+  "target": "unlabeled2017/000000403461.jpg",
+  "queries": [
+    "a dog stands among many sheep late in the day",
+    "a dog stands among many sheep in a field late in the day",
+    "a dog stands among many sheep in a field late in the day with no fence surrounding them",
+    "a white dog stands among many sheep in a field with no fence, late in the day",
+    "a white dog stands among 15 sheep in a field with no fence, late in the day",
+    "a white dog stands among 15 sheep in a field with a building in the background, with no fence visible",
+    "a white dog stands among 15 sheep in a brown field near a building, with no fence visible"
+  ],
+  "ranks": [
+    11,
+    27,
+    33,
+    28,
+    30,
+    34,
+    10
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a dog stands among many sheep late in the day",
+      "question": "Question: what is the specific location or type of field where the dog and sheep are situated?",
+      "answer": "field",
+      "query_after": "a dog stands among many sheep in a field late in the day",
+      "displayed_ids": [
+        29651,
+        39058,
+        15231,
+        43459,
+        49402,
+        79,
+        40022,
+        33335,
+        941,
+        32405
+      ],
+      "selected_ids": [
+        35719,
+        8148,
+        33143,
+        22397,
+        12960,
+        33462,
+        6443,
+        46413,
+        40684
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the dog that is standing among the sheep?",
+          "answers": [
+            "black",
+            "brown",
+            "white"
+          ],
+          "score": 0.026089191436767578
+        },
+        {
+          "question": "Question: what is the color of the field where the dog is standing among the sheep?",
+          "answers": [
+            "green",
+            "brown",
+            "yellow"
+          ],
+          "score": 0.04468536376953125
+        },
+        {
+          "question": "what is the breed or specific name of the dog standing among the sheep?",
+          "answers": [
+            "Golden Retriever",
+            "Border Collie",
+            "Black Lab"
+          ],
+          "score": 0.04309225082397461
+        },
+        {
+          "question": "Question: what is the color of the field where the dog is standing among the sheep?",
+          "answers": [
+            "green",
+            "brown",
+            "yellow"
+          ],
+          "score": 0.04468536376953125,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the dog that is standing among the sheep?",
+          "answers": [
+            "black",
+            "brown",
+            "white"
+          ],
+          "score": 0.026089191436767578,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the dog?",
+          "answers": [
+            "black",
+            "brown",
+            "white"
+          ],
+          "score": 0.053872108459472656
+        },
+        {
+          "question": "what is the color of the dog standing among the sheep?",
+          "answers": [
+            "black",
+            "white",
+            "brown"
+          ],
+          "score": 0.025341033935546875
+        },
+        {
+          "question": "what is the background surface where the dog and sheep are located?",
+          "answers": [
+            "grass",
+            "field",
+            "pasture"
+          ],
+          "score": 0.003879547119140625
+        },
+        {
+          "question": "Question: what is the specific location or type of field where the dog and sheep are situated?",
+          "answers": [
+            "green pasture",
+            "farm field",
+            "mountain road"
+          ],
+          "score": 0.1170344352722168
+        },
+        {
+          "question": "what is the color of the grass in the field where the dog and sheep are located?",
+          "answers": [
+            "green",
+            "brown",
+            "grey"
+          ],
+          "score": 0.04750251770019531
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a dog stands among many sheep in a field late in the day",
+      "question": "Question: What is the color of the fence surrounding the dog and sheep?",
+      "answer": "There is no fence.",
+      "query_after": "a dog stands among many sheep in a field late in the day with no fence surrounding them",
+      "displayed_ids": [
+        29651,
+        79,
+        941,
+        33335,
+        39058,
+        40022,
+        4604,
+        49402,
+        43459,
+        6444
+      ],
+      "selected_ids": [
+        32665,
+        20974,
+        31429,
+        18924,
+        15737,
+        7149,
+        28127,
+        38196,
+        17486,
+        40763
+      ],
+      "rejected_count": 12,
+      "usual_paths": [
+        {
+          "question": "what is the color of the fence surrounding the dog and sheep?",
+          "answers": [
+            "wooden",
+            "barbed wire",
+            "metal"
+          ],
+          "score": 0.030251026153564453
+        },
+        {
+          "question": "what is the color of the field where the dog is standing?",
+          "answers": [
+            "green",
+            "brown",
+            "gray"
+          ],
+          "score": 0.019670963287353516
+        },
+        {
+          "question": "what is the color of the fence surrounding the dog and sheep?",
+          "answers": [
+            "wooden",
+            "barbed wire",
+            "metal"
+          ],
+          "score": 0.030251026153564453,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the fence surrounding the dog and sheep?",
+          "answers": [
+            "wooden",
+            "barbed wire",
+            "metal"
+          ],
+          "score": 0.030251026153564453,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the fence surrounding the dog and sheep?",
+          "answers": [
+            "white",
+            "wooden",
+            "black"
+          ],
+          "score": 0.07343244552612305
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the dog standing among the sheep?",
+          "answers": [
+            "black",
+            "white",
+            "brown"
+          ],
+          "score": 0.02197885513305664
+        },
+        {
+          "question": "what is the color of the sheep in the image with the dog?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.04776144027709961
+        },
+        {
+          "question": "Question: What is the color of the dog standing among the sheep?",
+          "answers": [
+            "black",
+            "brown",
+            "white"
+          ],
+          "score": 0.04457998275756836
+        },
+        {
+          "question": "what is the color of the sheep in the image with the dog?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.04776144027709961,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the dog standing among the sheep?",
+          "answers": [
+            "black",
+            "brown",
+            "white"
+          ],
+          "score": 0.04457998275756836,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "a dog stands among many sheep in a field late in the day with no fence surrounding them",
+      "question": "what is the color of the dog in the image?",
+      "answer": "white",
+      "query_after": "a white dog stands among many sheep in a field with no fence, late in the day",
+      "displayed_ids": [
+        29651,
+        79,
+        43459,
+        49402,
+        39058,
+        33335,
+        15231,
+        941,
+        16653,
+        10442
+      ],
+      "selected_ids": [
+        22397,
+        14790,
+        14598,
+        3994,
+        40684,
+        17486,
+        3009,
+        12960,
+        28972,
+        38196
+      ],
+      "rejected_count": 14,
+      "usual_paths": [
+        {
+          "question": "what is the color of the dog standing among the sheep?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.08359146118164062
+        },
+        {
+          "question": "what is the coat color of the dog in the image?",
+          "answers": [
+            "black",
+            "brown",
+            "white"
+          ],
+          "score": 0.0957794189453125
+        },
+        {
+          "question": "what is the color of the dog in the image?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.09684324264526367
+        },
+        {
+          "question": "what is the color of the dog in the image?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.09684324264526367,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the dog standing among the sheep?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.08359146118164062,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the dog standing among the sheep?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.06925439834594727
+        },
+        {
+          "question": "Question: What color is the grass in the field where the dog and sheep are situated?",
+          "answers": [
+            "green",
+            "brown",
+            "tan"
+          ],
+          "score": 0.025776386260986328
+        },
+        {
+          "question": "what is the color of the grass in the field where the dog and sheep are situated?",
+          "answers": [
+            "green",
+            "brown",
+            "yellow"
+          ],
+          "score": 0.029747962951660156
+        },
+        {
+          "question": "Question: What is the color of the dog standing among the sheep?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.06925439834594727,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the dog standing among the sheep?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.06925439834594727,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a white dog stands among many sheep in a field with no fence, late in the day",
+      "question": "Question: How many sheep are visible in the image?",
+      "answer": "15",
+      "query_after": "a white dog stands among 15 sheep in a field with no fence, late in the day",
+      "displayed_ids": [
+        29651,
+        39058,
+        43459,
+        79,
+        49402,
+        40022,
+        16653,
+        6444,
+        10442,
+        40291
+      ],
+      "selected_ids": [
+        1756,
+        14790,
+        39256,
+        18557,
+        22018,
+        38719,
+        15522,
+        39718,
+        26562,
+        22397
+      ],
+      "rejected_count": 15,
+      "usual_paths": [
+        {
+          "question": "what is the color of the grass in the field where the dog and sheep are located?",
+          "answers": [
+            "green",
+            "brown",
+            "dry"
+          ],
+          "score": 0.03653573989868164
+        },
+        {
+          "question": "what is the color of the grass in the field where the dog and sheep are located?",
+          "answers": [
+            "green",
+            "brown",
+            "dry"
+          ],
+          "score": 0.03653573989868164,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the grass in the field where the dog and sheep are located?",
+          "answers": [
+            "green",
+            "brown",
+            "dry"
+          ],
+          "score": 0.03653573989868164,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sheep",
+            "dog",
+            "grass"
+          ],
+          "score": 0.01762247085571289
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sheep",
+            "dog",
+            "grass"
+          ],
+          "score": 0.01762247085571289,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "white",
+            "dog",
+            "sheep"
+          ],
+          "score": 0.011531352996826172
+        },
+        {
+          "question": "Question: What is the lighting condition or time of day depicted in the image?",
+          "answers": [
+            "daytime",
+            "sunset",
+            "dusk"
+          ],
+          "score": 0.023228168487548828
+        },
+        {
+          "question": "Question: What is the specific action or posture of the dog in the image?",
+          "answers": [
+            "standing",
+            "sitting",
+            "lying down"
+          ],
+          "score": 0.019123554229736328
+        },
+        {
+          "question": "Question: What is the weather condition in the image?",
+          "answers": [
+            "sunny",
+            "cloudy",
+            "rainy"
+          ],
+          "score": 0.03638458251953125
+        },
+        {
+          "question": "Question: How many sheep are visible in the image?",
+          "answers": [
+            "many",
+            "three",
+            "two"
+          ],
+          "score": 0.0398106575012207
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a white dog stands among 15 sheep in a field with no fence, late in the day",
+      "question": "what is the other object in the image?",
+      "answer": "a building",
+      "query_after": "a white dog stands among 15 sheep in a field with a building in the background, with no fence visible",
+      "displayed_ids": [
+        29651,
+        43459,
+        39058,
+        79,
+        40022,
+        49402,
+        10442,
+        40291,
+        6444,
+        41702
+      ],
+      "selected_ids": [
+        15877,
+        2542,
+        14790,
+        2338,
+        40763,
+        1756,
+        3387,
+        22018
+      ],
+      "rejected_count": 16,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "tree",
+            "fence",
+            "grass"
+          ],
+          "score": 0.05887413024902344
+        },
+        {
+          "question": "what is the specific action the dog is performing in the image?",
+          "answers": [
+            "standing",
+            "watching",
+            "looking"
+          ],
+          "score": 0.004423618316650391
+        },
+        {
+          "question": "what is the action of the dog in the image?",
+          "answers": [
+            "standing",
+            "watching",
+            "herding"
+          ],
+          "score": 0.008985519409179688
+        },
+        {
+          "question": "what is the specific action the dog is performing in the image?",
+          "answers": [
+            "standing",
+            "watching",
+            "looking"
+          ],
+          "score": 0.004423618316650391,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the dog in the image?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.050599098205566406
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "tree",
+            "fence",
+            "grass"
+          ],
+          "score": 0.05887413024902344
+        },
+        {
+          "question": "what is the color of the sheep in the image?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.049767494201660156
+        },
+        {
+          "question": "Question: What is the color of the sheep in the image?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.04309797286987305
+        },
+        {
+          "question": "Question: What is the color of the sheep in the image?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.04309797286987305,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the lighting condition depicted in the image?",
+          "answers": [
+            "sunny",
+            "late in the day",
+            "dusk"
+          ],
+          "score": 0.014417648315429688
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a white dog stands among 15 sheep in a field with a building in the background, with no fence visible",
+      "question": "what is the color of the grass where the dog and sheep are located?",
+      "answer": "brown",
+      "query_after": "a white dog stands among 15 sheep in a brown field near a building, with no fence visible",
+      "displayed_ids": [
+        29651,
+        32335,
+        10442,
+        39058,
+        36908,
+        30610,
+        41702,
+        33795,
+        14375,
+        47906
+      ],
+      "selected_ids": [
+        3387,
+        15522,
+        30651,
+        22397,
+        39718,
+        27123,
+        40763,
+        14377,
+        18255,
+        1756
+      ],
+      "rejected_count": 22,
+      "usual_paths": [
+        {
+          "question": "what is the color of the grass in the image?",
+          "answers": [
+            "green",
+            "brown",
+            "yellow"
+          ],
+          "score": 0.03429269790649414
+        },
+        {
+          "question": "what is the color of the grass where the dog and sheep are located?",
+          "answers": [
+            "green",
+            "brown",
+            "dirt"
+          ],
+          "score": 0.03799247741699219
+        },
+        {
+          "question": "what is the color of the grass in the image?",
+          "answers": [
+            "green",
+            "brown",
+            "yellow"
+          ],
+          "score": 0.03429269790649414,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the grass in the image?",
+          "answers": [
+            "green",
+            "brown",
+            "yellow"
+          ],
+          "score": 0.03429269790649414,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the grass in the image?",
+          "answers": [
+            "green",
+            "brown",
+            "yellow"
+          ],
+          "score": 0.03429269790649414,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the building in the image?",
+          "answers": [
+            "white",
+            "brown",
+            "blue"
+          ],
+          "score": 0.029642105102539062
+        },
+        {
+          "question": "what is the color of the building visible in the image?",
+          "answers": [
+            "white",
+            "brown",
+            "red"
+          ],
+          "score": 0.02957439422607422
+        },
+        {
+          "question": "what is the color of the building visible in the image?",
+          "answers": [
+            "white",
+            "brown",
+            "red"
+          ],
+          "score": 0.02957439422607422,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the building visible in the image?",
+          "answers": [
+            "white",
+            "brown",
+            "red"
+          ],
+          "score": 0.02957439422607422,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the building visible in the image?",
+          "answers": [
+            "white",
+            "brown",
+            "red"
+          ],
+          "score": 0.02957439422607422,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

@@ -1,0 +1,78 @@
+{
+  "qid": 1088,
+  "sample": 2,
+  "first_candidates": [
+    "Question: Who is the person swinging the baseball bat?",
+    "what is the location of the baseball player swinging the bat?",
+    "Question: Who is watching the baseball player swinging the bat?",
+    "Question: What is the gender and age group of the baseball player swinging the bat?",
+    "what is the professional level or skill type of the baseball player swinging the bat?"
+  ],
+  "second_candidates": [
+    "Question: Is the baseball player in the image a professional or a young boy?",
+    "Question: Who is the person swinging the bat in the image?",
+    "Question: Is the crowd watching the baseball player from the stands?",
+    "what is the condition of the grass on the field in the image?",
+    "what is the size of the venue where the baseball game is being played?"
+  ],
+  "paths": [
+    {
+      "question": "Question: Is the baseball player in the image a professional or a young boy?",
+      "answers": [
+        "professional",
+        "young boy",
+        "amateur"
+      ],
+      "score": 0.01071310043334961
+    },
+    {
+      "question": "Question: Who is the person swinging the bat in the image?",
+      "answers": [
+        "a professional baseball player",
+        "a young boy",
+        "a person"
+      ],
+      "score": 0.10586214065551758
+    },
+    {
+      "question": "Question: Is the crowd watching the baseball player from the stands?",
+      "answers": [
+        "yes",
+        "no",
+        "maybe"
+      ],
+      "score": 0.0004773139953613281
+    },
+    {
+      "question": "what is the condition of the grass on the field in the image?",
+      "answers": [
+        "well-maintained",
+        "overgrown",
+        "muddy"
+      ],
+      "score": 0.023857593536376953
+    },
+    {
+      "question": "what is the size of the venue where the baseball game is being played?",
+      "answers": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "score": 0.0008873939514160156
+    }
+  ],
+  "control": {
+    "question": "Question: Who is the person swinging the baseball bat?",
+    "score": 0.12056779861450195
+  },
+  "mixed": {
+    "question": "Question: Who is the person swinging the baseball bat?",
+    "score": 0.12056779861450195
+  },
+  "control_rank": 68,
+  "mixed_rank": 68,
+  "usual_rank": 68,
+  "new_answer": null,
+  "new_rewrite": null
+}

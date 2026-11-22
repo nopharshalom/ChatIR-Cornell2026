@@ -1,0 +1,79 @@
+{
+  "qid": 2044,
+  "sample": 2,
+  "first_candidates": [
+    "what is the color of the train traveling down the tracks?",
+    "Question: What is the color of the small train traveling down the tracks away from the station?",
+    "what is the color of the train parked in the countryside?",
+    "what is the color of the steam engine?",
+    "Question: Where is the red train traveling?"
+  ],
+  "second_candidates": [
+    "Question: What is the color of the train traveling down the tracks away from the station?",
+    "what is the color of the train traveling down the tracks?",
+    "what is the color of the train that is parked in the countryside?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What is the color of the train traveling down the tracks away from the station?",
+      "answers": [
+        "red",
+        "yellow",
+        "blue"
+      ],
+      "score": 0.32268619537353516
+    },
+    {
+      "question": "what is the color of the train traveling down the tracks?",
+      "answers": [
+        "red",
+        "yellow",
+        "blue"
+      ],
+      "score": 0.30604982376098633
+    },
+    {
+      "question": "what is the color of the train that is parked in the countryside?",
+      "answers": [
+        "red and white",
+        "yellow and black",
+        "yellow and blue"
+      ],
+      "score": 0.27992820739746094
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "tracks",
+        "countryside",
+        "building"
+      ],
+      "score": 0.0621027946472168
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "tracks",
+        "countryside",
+        "building"
+      ],
+      "score": 0.0621027946472168,
+      "duplicate_of": 3
+    }
+  ],
+  "control": {
+    "question": "Question: What is the color of the train traveling down the tracks away from the station?",
+    "score": 0.32268619537353516
+  },
+  "mixed": {
+    "question": "Question: What is the color of the train?",
+    "score": 0.3237771987915039
+  },
+  "control_rank": 82,
+  "mixed_rank": 90,
+  "usual_rank": 30,
+  "new_answer": "green",
+  "new_rewrite": "a small green train is traveling down the tracks away from the station"
+}

@@ -1,0 +1,79 @@
+{
+  "qid": 1754,
+  "sample": 1,
+  "first_candidates": [
+    "what is the specific type of food served on the white plate?",
+    "what is the specific arrangement of food items on the white plate?",
+    "what is the material of the table where the white plate is sitting?",
+    "what is the color of the plate containing the food?",
+    "what is the specific food item located on the left side of the white plate?"
+  ],
+  "second_candidates": [
+    "what is the specific type of food served on the white plate?",
+    "what food items are present on the white plate?",
+    "what is the color of the table where the white plate is sitting?",
+    "what food items are present on the white plate?",
+    "what is the object being used as a plate in the image?"
+  ],
+  "paths": [
+    {
+      "question": "what is the specific type of food served on the white plate?",
+      "answers": [
+        "broccoli and steak",
+        "sandwich and chips",
+        "breakfast plate"
+      ],
+      "score": 0.25916242599487305
+    },
+    {
+      "question": "what food items are present on the white plate?",
+      "answers": [
+        "broccoli and steak",
+        "breakfast items",
+        "pizza"
+      ],
+      "score": 0.2129216194152832
+    },
+    {
+      "question": "what is the color of the table where the white plate is sitting?",
+      "answers": [
+        "brown",
+        "dark",
+        "tan"
+      ],
+      "score": 0.017981529235839844
+    },
+    {
+      "question": "what food items are present on the white plate?",
+      "answers": [
+        "broccoli and steak",
+        "breakfast items",
+        "pizza"
+      ],
+      "score": 0.2129216194152832,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the object being used as a plate in the image?",
+      "answers": [
+        "glass",
+        "ceramic",
+        "plastic"
+      ],
+      "score": 0.03476524353027344
+    }
+  ],
+  "control": {
+    "question": "what is the specific type of food served on the white plate?",
+    "score": 0.25916242599487305
+  },
+  "mixed": {
+    "question": "Question: What specific items are on the white plate?",
+    "score": 0.4034552574157715
+  },
+  "control_rank": 38,
+  "mixed_rank": 1,
+  "usual_rank": 38,
+  "new_answer": null,
+  "new_rewrite": null
+}

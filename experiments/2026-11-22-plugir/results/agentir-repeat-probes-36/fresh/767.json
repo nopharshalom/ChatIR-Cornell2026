@@ -1,0 +1,74 @@
+{
+  "qid": 767,
+  "arm": "fresh",
+  "after_round": 3,
+  "ranks": [
+    11,
+    17,
+    17,
+    17,
+    17,
+    14,
+    17,
+    14,
+    17,
+    14,
+    17
+  ],
+  "continuation": [
+    {
+      "round": 4,
+      "query_before": "a man stands on top of a red fire hydrant next to a pole",
+      "question": "Is the person on a skateboard or standing on the fire hydrant?",
+      "answer": "standing on the fire hydrant",
+      "query_after": "A man is standing on top of a red fire hydrant beside a pole.",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Is the person on a skateboard or standing on the fire hydrant?",
+      "fallback": false
+    },
+    {
+      "round": 5,
+      "query_before": "A man is standing on top of a red fire hydrant beside a pole.",
+      "question": "what is the color of the pole next to the man standing on the fire hydrant?",
+      "answer": "black",
+      "query_after": "a man stands on top of a red fire hydrant next to a black pole"
+    },
+    {
+      "round": 6,
+      "query_before": "a man stands on top of a red fire hydrant next to a black pole",
+      "question": "**Question:** Is the man standing on top of the fire hydrant?",
+      "answer": "yes",
+      "query_after": "A man is standing atop a red fire hydrant beside a black pole."
+    },
+    {
+      "round": 7,
+      "query_before": "A man is standing atop a red fire hydrant beside a black pole.",
+      "question": "what is the other object in the image?",
+      "answer": "a fire hydrant.",
+      "query_after": "a man stands on top of a red fire hydrant next to a black pole"
+    },
+    {
+      "round": 8,
+      "query_before": "a man stands on top of a red fire hydrant next to a black pole",
+      "question": "what is the other object in the image?",
+      "answer": "a fire hydrant.",
+      "query_after": "A man is standing atop a red fire hydrant beside a black pole."
+    },
+    {
+      "round": 9,
+      "query_before": "A man is standing atop a red fire hydrant beside a black pole.",
+      "question": "what is the other object in the image?",
+      "answer": "a fire hydrant.",
+      "query_after": "a man stands on top of a red fire hydrant next to a black pole"
+    },
+    {
+      "round": 10,
+      "query_before": "a man stands on top of a red fire hydrant next to a black pole",
+      "question": "what is the other object in the image?",
+      "answer": "a fire hydrant.",
+      "query_after": "A man is standing atop a red fire hydrant beside a black pole."
+    }
+  ],
+  "seconds": 100.2
+}

@@ -1,0 +1,407 @@
+{
+  "qid": 1091,
+  "sample": "original",
+  "target": "unlabeled2017/000000142911.jpg",
+  "queries": [
+    "3 fighter jets flying through the sky leaving a path",
+    "three white fighter jets flying through the sky leaving a trail",
+    "three white fighter jets flying through the sky leaving a trail, with another airplane visible",
+    "three white fighter jets flying through a blue sky, leaving a trail behind them, with another airplane visible in the background"
+  ],
+  "ranks": [
+    14,
+    12,
+    11,
+    8
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "3 fighter jets flying through the sky leaving a path",
+      "question": "Question: What is the color of the fighter jets?",
+      "answer": "white",
+      "query_after": "three white fighter jets flying through the sky leaving a trail",
+      "displayed_ids": [
+        47913,
+        25869,
+        14483,
+        33202,
+        22605,
+        2135,
+        18436,
+        23504,
+        1641,
+        6926
+      ],
+      "selected_ids": [
+        44340,
+        28445,
+        45368,
+        13046,
+        4308,
+        42744,
+        47947,
+        39393,
+        16178,
+        4486
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the fighter jets flying through the sky?",
+          "answers": [
+            "black",
+            "grey",
+            "silver"
+          ],
+          "score": 0.020660400390625
+        },
+        {
+          "question": "Question: What is the color of the fighter jets flying through the sky?",
+          "answers": [
+            "green",
+            "silver",
+            "grey"
+          ],
+          "score": 0.021285533905029297
+        },
+        {
+          "question": "Question: What is the color of the fighter jets?",
+          "answers": [
+            "yellow",
+            "blue",
+            "red"
+          ],
+          "score": 0.12367773056030273
+        },
+        {
+          "question": "Question: Which jet is leaving a path in the sky, the grey jet or the black jet?",
+          "answers": [
+            "grey jet",
+            "black jet",
+            "neither"
+          ],
+          "score": 0.008954524993896484
+        },
+        {
+          "question": "Question: What is the color of the jet that is leaving a path in the sky?",
+          "answers": [
+            "grey",
+            "black",
+            "blue"
+          ],
+          "score": 0.0728459358215332
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the fighter jets?",
+          "answers": [
+            "black",
+            "grey",
+            "orange"
+          ],
+          "score": 0.046991825103759766
+        },
+        {
+          "question": "Question: What is the color of the fighter jets?",
+          "answers": [
+            "black",
+            "grey",
+            "orange"
+          ],
+          "score": 0.046991825103759766,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the fighter jets?",
+          "answers": [
+            "black",
+            "grey",
+            "orange"
+          ],
+          "score": 0.046991825103759766,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the sky like in the image where the fighter jets are leaving a path?",
+          "answers": [
+            "cloudy",
+            "clear",
+            "blue"
+          ],
+          "score": 0.06664228439331055
+        },
+        {
+          "question": "Question: What is the color of the path left by the fighter jets?",
+          "answers": [
+            "white",
+            "grey",
+            "black"
+          ],
+          "score": 0.02006053924560547
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "three white fighter jets flying through the sky leaving a trail",
+      "question": "what is the other object in the image?",
+      "answer": "airplane",
+      "query_after": "three white fighter jets flying through the sky leaving a trail, with another airplane visible",
+      "displayed_ids": [
+        33202,
+        47913,
+        6926,
+        26570,
+        25869,
+        2135,
+        47181,
+        34889,
+        18436,
+        1641
+      ],
+      "selected_ids": [
+        24340,
+        43268,
+        4486,
+        24555,
+        44292,
+        29194,
+        13046,
+        15928,
+        21149,
+        16178
+      ],
+      "rejected_count": 13,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "clouds",
+            "sky",
+            "vapor trail"
+          ],
+          "score": 0.025121212005615234
+        },
+        {
+          "question": "Question: What is the shape of the fighter jets?",
+          "answers": [
+            "triangular",
+            "delta",
+            "arrow"
+          ],
+          "score": 0.007552623748779297
+        },
+        {
+          "question": "what is the number of fighter jets in the image?",
+          "answers": [
+            "1",
+            "2",
+            "3"
+          ],
+          "score": 6.341934204101562e-05
+        },
+        {
+          "question": "what is the shape of the fighter jets?",
+          "answers": [
+            "triangular",
+            "sleek",
+            "aerodynamic"
+          ],
+          "score": 0.00616455078125
+        },
+        {
+          "question": "what is the shape of the fighter jets?",
+          "answers": [
+            "triangular",
+            "sleek",
+            "aerodynamic"
+          ],
+          "score": 0.00616455078125,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the trail or path left by the white fighter jets?",
+          "answers": [
+            "white",
+            "grey",
+            "black"
+          ],
+          "score": 0.005709171295166016
+        },
+        {
+          "question": "Question: What is the color of the trail or path left by the white fighter jets?",
+          "answers": [
+            "white",
+            "black",
+            "grey"
+          ],
+          "score": 0.01999807357788086
+        },
+        {
+          "question": "Question: What is the color of the trail or path left by the white fighter jets?",
+          "answers": [
+            "white",
+            "black",
+            "grey"
+          ],
+          "score": 0.01999807357788086,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the trail or path left by the white fighter jets?",
+          "answers": [
+            "white",
+            "black",
+            "grey"
+          ],
+          "score": 0.01999807357788086,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "clouds",
+            "sky",
+            "trail"
+          ],
+          "score": 0.01841449737548828
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "three white fighter jets flying through the sky leaving a trail, with another airplane visible",
+      "question": "what is the background of the sky in the image?",
+      "answer": "blue",
+      "query_after": "three white fighter jets flying through a blue sky, leaving a trail behind them, with another airplane visible in the background",
+      "displayed_ids": [
+        33202,
+        47913,
+        6926,
+        26570,
+        25869,
+        2135,
+        47181,
+        34889,
+        18436,
+        8552
+      ],
+      "selected_ids": [
+        21149,
+        29194,
+        24555,
+        44292,
+        29539,
+        2111,
+        42,
+        9506,
+        16178,
+        13046
+      ],
+      "rejected_count": 14,
+      "usual_paths": [
+        {
+          "question": "what is the color of the other airplane in the image?",
+          "answers": [
+            "white",
+            "blue",
+            "gray"
+          ],
+          "score": 0.046341896057128906
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "airplane",
+            "clouds",
+            "sky"
+          ],
+          "score": 0.014081954956054688
+        },
+        {
+          "question": "what is the color of the jet in the image?",
+          "answers": [
+            "white",
+            "black",
+            "blue"
+          ],
+          "score": 0.02628040313720703
+        },
+        {
+          "question": "what is the color of the fighter jets?",
+          "answers": [
+            "white",
+            "black",
+            "red"
+          ],
+          "score": 0.037763118743896484
+        },
+        {
+          "question": "what is the color of the other airplane in the image?",
+          "answers": [
+            "white",
+            "blue",
+            "gray"
+          ],
+          "score": 0.046341896057128906,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the background of the sky in the image?",
+          "answers": [
+            "blue",
+            "cloudy",
+            "clear"
+          ],
+          "score": 0.057385921478271484
+        },
+        {
+          "question": "Question: What is the color of the sky in the image?",
+          "answers": [
+            "blue",
+            "gray",
+            "black"
+          ],
+          "score": 0.042409420013427734
+        },
+        {
+          "question": "what is the formation of the three fighter jets?",
+          "answers": [
+            "V-formation",
+            "Line-abreast",
+            "Echelon"
+          ],
+          "score": 0.0028710365295410156
+        },
+        {
+          "question": "Question: What is the color of the path left by the three fighter jets?",
+          "answers": [
+            "white",
+            "black",
+            "gray"
+          ],
+          "score": 0.01682901382446289
+        },
+        {
+          "question": "what is the color of the path left by the three fighter jets?",
+          "answers": [
+            "white",
+            "black",
+            "grey"
+          ],
+          "score": 0.01994943618774414
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

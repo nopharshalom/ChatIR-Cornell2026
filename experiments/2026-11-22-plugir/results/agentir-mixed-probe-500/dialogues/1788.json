@@ -1,0 +1,144 @@
+{
+  "qid": 1788,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000101921.jpg",
+  "queries": [
+    "the inside of a house with yellow and blue walls",
+    "the inside of a house with yellow and blue walls, featuring a lamp next to the couch"
+  ],
+  "ranks": [
+    19,
+    8
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "the inside of a house with yellow and blue walls",
+      "question": "what object is located next to the couch in the room?",
+      "answer": "lamp",
+      "query_after": "the inside of a house with yellow and blue walls, featuring a lamp next to the couch",
+      "displayed_ids": [
+        24175,
+        10430,
+        9200,
+        2911,
+        46942,
+        36132,
+        21031,
+        25012,
+        49607,
+        49654
+      ],
+      "selected_ids": [
+        35865,
+        22755,
+        39556,
+        49286,
+        367,
+        34439,
+        45963,
+        31792,
+        34995,
+        28782
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: Is the room shown in the image a living room or a kitchen?",
+          "answers": [
+            "living room",
+            "kitchen",
+            "bedroom"
+          ],
+          "score": 0.047326087951660156
+        },
+        {
+          "question": "Question: Is there a bed or a couch in the room?",
+          "answers": [
+            "Yes, both",
+            "Yes, a bed",
+            "Yes, a couch"
+          ],
+          "score": 0.012334823608398438
+        },
+        {
+          "question": "what object is located next to the couch in the room?",
+          "answers": [
+            "a blue chair with cat in it",
+            "a couch is next to a tv and a fire place",
+            "a room with a bed, a couch and a chair, and a painting"
+          ],
+          "score": 0.16987085342407227
+        },
+        {
+          "question": "what color is the chair in the room?",
+          "answers": [
+            "blue",
+            "yellow",
+            "white"
+          ],
+          "score": 0.014985084533691406
+        },
+        {
+          "question": "what color is the chair in the room?",
+          "answers": [
+            "blue",
+            "yellow",
+            "white"
+          ],
+          "score": 0.014985084533691406,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the wall behind the mirror?",
+          "answers": [
+            "yellow",
+            "blue",
+            "green"
+          ],
+          "score": 0.024702072143554688
+        },
+        {
+          "question": "Question: What furniture is visible in the room with yellow and blue walls?",
+          "answers": [
+            "bed",
+            "couch",
+            "chair"
+          ],
+          "score": 0.11910438537597656
+        },
+        {
+          "question": "Question: What color is the chair in the room with yellow and blue walls?",
+          "answers": [
+            "blue",
+            "yellow",
+            "green"
+          ],
+          "score": 0.015147686004638672
+        },
+        {
+          "question": "what color is the wall behind the mirror?",
+          "answers": [
+            "yellow",
+            "blue",
+            "white"
+          ],
+          "score": 0.012269020080566406
+        },
+        {
+          "question": "what color is the wall next to the kitchen island?",
+          "answers": [
+            "yellow",
+            "blue",
+            "white"
+          ],
+          "score": 0.011569976806640625
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

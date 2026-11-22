@@ -1,0 +1,101 @@
+{
+  "qid": 1750,
+  "initial": "a woman sitting at a tall table working on a laptop",
+  "initial_rank": 27,
+  "evidence": [
+    "a group of people are at a table drinking wine",
+    "a cat is sitting on a laptop computer",
+    "a woman sits in a restaurant with a group of people",
+    "a woman sitting at a wooden bench and eating food",
+    "a woman is selling food in a boat",
+    "woman using her cell phone in a bar",
+    "a group of people are using laptops at a convention",
+    "laptops in a classroom",
+    "the woman is smiling as she eats her food",
+    "a man typing in front of a laptop"
+  ],
+  "candidates": [
+    "Question: What is the material of the table where the woman is sitting?",
+    "Question: What is the color of the table where the woman is sitting?",
+    "what is the woman wearing?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: What is the material of the table where the woman is sitting?",
+      "answers": [
+        "wood",
+        "glass",
+        "metal"
+      ],
+      "score": 0.04159879684448242
+    },
+    {
+      "question": "Question: What is the color of the table where the woman is sitting?",
+      "answers": [
+        "wooden",
+        "glass",
+        "metal"
+      ],
+      "score": 0.03662729263305664
+    },
+    {
+      "question": "what is the woman wearing?",
+      "answers": [
+        "a white shirt",
+        "a black dress",
+        "a blue jacket"
+      ],
+      "score": 0.13210248947143555
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "laptop",
+        "coffee cup",
+        "notebook"
+      ],
+      "score": 0.03295421600341797
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "laptop",
+        "coffee cup",
+        "notebook"
+      ],
+      "score": 0.03295421600341797,
+      "duplicate_of": 3
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.064,
+  "probe_selection_seconds": 2.034,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "Question: What is the material of the table where the woman is sitting?",
+      "answer": "wood",
+      "rewrite": "a woman sitting at a tall wooden table working on a laptop",
+      "rank": 70,
+      "hit": false
+    },
+    "random": {
+      "question": "Question: What is the color of the table where the woman is sitting?",
+      "answer": "black",
+      "rewrite": "a woman sitting at a black tall table working on a laptop",
+      "rank": 8,
+      "hit": true
+    },
+    "probe": {
+      "question": "what is the woman wearing?",
+      "answer": "woman wearing a hijab",
+      "rewrite": "a woman wearing a hijab sitting at a tall table working on a laptop",
+      "rank": 15,
+      "hit": false
+    }
+  },
+  "seconds": 20.054
+}

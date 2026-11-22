@@ -1,0 +1,101 @@
+{
+  "qid": 1221,
+  "initial": "a parking meter that seems out of place",
+  "initial_rank": 12,
+  "evidence": [
+    "a clock surrounded by trees",
+    "a small white fridge in a wooden shed",
+    "an orange and yellow fire hydrant sits next to a street in front of some sidewalks",
+    "black suv parked on the curb",
+    "a no parking sign is placed on the no parking meter in front of a busy city street",
+    "a bicycle is attached to a pole in the middle of a city street",
+    "a man standing by a building with a traffic light on top of him",
+    "a clock in a mess of fallen leaves",
+    "a large clock above a window",
+    "the view of a green light next to a tall building"
+  ],
+  "candidates": [
+    "what is the color of the parking meter in the image?",
+    "what is the location of the parking meter in the image?",
+    "Question: what is the object placed on top of the parking meter in the image?",
+    "what object is placed on top of the parking meter in the image?",
+    "Question: what is the object placed on top of the parking meter in the image?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the parking meter in the image?",
+      "answers": [
+        "black",
+        "white",
+        "red"
+      ],
+      "score": 0.1305985450744629
+    },
+    {
+      "question": "what is the location of the parking meter in the image?",
+      "answers": [
+        "wooden shed",
+        "city street",
+        "traffic light"
+      ],
+      "score": 0.19098949432373047
+    },
+    {
+      "question": "Question: what is the object placed on top of the parking meter in the image?",
+      "answers": [
+        "traffic light",
+        "clock",
+        "none"
+      ],
+      "score": 0.11298274993896484
+    },
+    {
+      "question": "what object is placed on top of the parking meter in the image?",
+      "answers": [
+        "traffic light",
+        "clock",
+        "trees"
+      ],
+      "score": 0.1914067268371582
+    },
+    {
+      "question": "Question: what is the object placed on top of the parking meter in the image?",
+      "answers": [
+        "traffic light",
+        "clock",
+        "none"
+      ],
+      "score": 0.11298274993896484,
+      "duplicate_of": 2
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.064,
+  "probe_selection_seconds": 2.016,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "what is the location of the parking meter in the image?",
+      "answer": "right side",
+      "rewrite": "a parking meter located on the right side",
+      "rank": 48,
+      "hit": false
+    },
+    "random": {
+      "question": "Question: what is the object placed on top of the parking meter in the image?",
+      "answer": "parking meter",
+      "rewrite": "a parking meter with another parking meter placed on top of it",
+      "rank": 52,
+      "hit": false
+    },
+    "probe": {
+      "question": "what object is placed on top of the parking meter in the image?",
+      "answer": "parking meter",
+      "rewrite": "a parking meter with another parking meter placed on top of it",
+      "rank": 52,
+      "hit": false
+    }
+  },
+  "seconds": 13.343
+}

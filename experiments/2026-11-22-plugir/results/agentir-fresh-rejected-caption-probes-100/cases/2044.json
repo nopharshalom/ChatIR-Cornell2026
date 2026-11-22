@@ -1,0 +1,178 @@
+{
+  "qid": 2044,
+  "initial": "a small train is traveling down tracks away from the station",
+  "initial_rank": 11,
+  "displayed": [
+    11028,
+    37463,
+    15688,
+    7975,
+    28328,
+    12327,
+    23209,
+    30630,
+    9695,
+    22950
+  ],
+  "evidence": [
+    "red train travelling on a concrete platform",
+    "a red train going through the countryside",
+    "the steam engine is red and black",
+    "a yellow and blue train is on the tracks",
+    "a blue and white train sitting at the platform of a train station",
+    "red and white train parked in the countryside",
+    "a yellow and black train on the train tracks next to a building",
+    "a blue and yellow train goes through countryside",
+    "a yellow, blue and black train coming into a station",
+    "a yellow train pulling into a station with a platform nearby"
+  ],
+  "rejected_captions": [
+    "a blue train on the tracks near a building",
+    "a steam train on train tracks",
+    "a white and yellow train coming down a track",
+    "a red and white train coming down the train tracks near a train station",
+    "old train on tracks",
+    "an empty subway platform with two red and white trains",
+    "the train is moving along a track",
+    "an old blue train on a track near a red brick house",
+    "a train with orange and white paint is parked in a yard",
+    "small train going down train track"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the color of the train traveling down the tracks?",
+      "Question: What is the color of the small train traveling down the tracks away from the station?",
+      "what is the color of the train parked in the countryside?",
+      "what is the color of the steam engine?",
+      "Question: Where is the red train traveling?"
+    ],
+    "question": "what is the color of the train traveling down the tracks?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the train traveling down the tracks?",
+          "answers": [
+            "red",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.30604982376098633
+        },
+        {
+          "question": "Question: What is the color of the small train traveling down the tracks away from the station?",
+          "answers": [
+            "red",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.28461694717407227
+        },
+        {
+          "question": "what is the color of the train parked in the countryside?",
+          "answers": [
+            "red",
+            "yellow"
+          ],
+          "score": 0.2476663589477539
+        },
+        {
+          "question": "what is the color of the steam engine?",
+          "answers": [
+            "red",
+            "black",
+            "yellow"
+          ],
+          "score": 0.25028276443481445
+        },
+        {
+          "question": "Question: Where is the red train traveling?",
+          "answers": [
+            "on a concrete platform",
+            "through the countryside",
+            "next to a building"
+          ],
+          "score": 0.13079452514648438
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.065,
+      "probe_selection_seconds": 2.281,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 14
+    },
+    "answer": "green and yellow",
+    "rewrite": "a small green and yellow train is traveling down the tracks away from the station",
+    "raw_rank": 30,
+    "unseen_rank": 29
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the color of the train?",
+      "Question: What is the color of the train?",
+      "what is the other object in the image?",
+      "What color is the small train traveling down the tracks?",
+      "what is the other object in the image?"
+    ],
+    "question": "Question: What is the color of the train?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the color of the train?",
+          "answers": [
+            "red",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.3237771987915039
+        },
+        {
+          "question": "Question: What is the color of the train?",
+          "answers": [
+            "red",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.3237771987915039,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "concrete platform",
+            "countryside",
+            "building"
+          ],
+          "score": 0.11149930953979492
+        },
+        {
+          "question": "What color is the small train traveling down the tracks?",
+          "answers": [
+            "red",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.23458433151245117
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "concrete platform",
+            "countryside",
+            "building"
+          ],
+          "score": 0.11149930953979492,
+          "duplicate_of": 2
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.071,
+      "probe_selection_seconds": 1.389,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "green",
+    "rewrite": "a small green train is traveling down tracks away from the station",
+    "raw_rank": 90,
+    "unseen_rank": 85
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "qid": 1472,
+  "initial": "the horses are grazing along the grassland outside",
+  "initial_rank": 72,
+  "evidence": [
+    "a large group of zebras on grassland in a field",
+    "the two horses stand on the ground",
+    "two horses grazing on a mountain",
+    "two horses standing in an enclosure",
+    "a small flock of sheep and goats",
+    "two horses standing behind a fence in the forest",
+    "many grey elephants walking through a dry field",
+    "two horses are standing on a trail in the middle of a forest",
+    "a fenced pasture with a herd of white cows"
+  ],
+  "displayed_ids": [
+    30789,
+    31819,
+    1408,
+    10520,
+    25635,
+    11434,
+    15958,
+    6302,
+    2772,
+    8940
+  ],
+  "rejected_captions": [
+    "a group of brown horses grazing on grass in front of a river",
+    "a couple of horses grazing in the field",
+    "horses grazing on a hill",
+    "a group of horses in the field",
+    "a group of horses eating grass in a hillside",
+    "several horses standing in a field in a green pasture",
+    "the scene is over a valley",
+    "horses grazing on the grass",
+    "there is a bunch of horses in a green field",
+    "horses are eating in the field"
+  ],
+  "candidates": [
+    "Question: Is the group of animals consisting of two horses, or is it a larger group?",
+    "Question: What is the color of the horses?",
+    "Question: Question: Is there a fence visible in the scene with the horses?",
+    "what is the other object in the image?",
+    "What is the color of the horses grazing on the grassland?"
+  ],
+  "control_candidates": [
+    "Question: Is the group of horses white or grey?",
+    "Question: Are there any fences or enclosures around the horses?",
+    "what is the color of the horses in the image?",
+    "what are the horses doing in the image?",
+    "what is the color of the horses in the image?"
+  ],
+  "control": {
+    "question": "what are the horses doing in the image?",
+    "answer": "grazing",
+    "rewrite": "horses grazing along the grassland outside",
+    "rank": 41,
+    "hit": false,
+    "raw_rank": 41,
+    "unseen_rank": 31
+  },
+  "variant": {
+    "question": "what is the other object in the image?",
+    "answer": "the other object is a horse.",
+    "rewrite": "the horses are grazing along the grassland outside, with another horse visible in the image",
+    "raw_rank": 80,
+    "unseen_rank": 70
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "qid": 1073,
+  "initial": "a sunny day at the shore with a kite in the sky",
+  "initial_rank": 14,
+  "displayed": [
+    49431,
+    20782,
+    2481,
+    26996,
+    26333,
+    10837,
+    11686,
+    42236,
+    34985,
+    29952
+  ],
+  "evidence": [
+    "four people are flying kites on a grassy field",
+    "a man is flying on the water while others surf with kites",
+    "a bunch of people flying kites over a green field",
+    "a man flying a kite while someone near by stands with kite flying in their hands",
+    "a group of people are laying on the beach at a beach",
+    "a group of people are in the sky with kites in the air",
+    "a group of people in the sand flying kites on the beach",
+    "a man windsurfing in the ocean with kites over his head",
+    "a rocky shore with many boats floating",
+    "a bench sits on a large rock by the water"
+  ],
+  "rejected_captions": [
+    "the kite flying high in the air",
+    "a sandy beach with a kite",
+    "a man is flying a kite near a beach",
+    "a lot of trees and grass",
+    "a person is flying a kite near the water",
+    "a large group of people on the beach",
+    "a guy kiteboarding on a beach",
+    "a kite flies over the ocean",
+    "the beach is dry",
+    "a large beach area"
+  ],
+  "usual": {
+    "candidates": [
+      "what color is the kite in the sky?",
+      "what is the activity the people are performing on the surface?",
+      "what is the other object in the image?",
+      "what is the color of the kite in the sky?",
+      "what is the color of the shirt worn by the man flying the kite in the sky?"
+    ],
+    "question": "what is the other object in the image?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what color is the kite in the sky?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.07300710678100586
+        },
+        {
+          "question": "what is the activity the people are performing on the surface?",
+          "answers": [
+            "flying",
+            "surfing",
+            "laying"
+          ],
+          "score": 0.046370506286621094
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "boat",
+            "bench",
+            "rock"
+          ],
+          "score": 0.11843395233154297
+        },
+        {
+          "question": "what is the color of the kite in the sky?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.08860540390014648
+        },
+        {
+          "question": "what is the color of the shirt worn by the man flying the kite in the sky?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.08697748184204102
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.072,
+      "probe_selection_seconds": 2.431,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "beach",
+    "rewrite": "a sunny day at the shore with a kite in the sky and a beach",
+    "raw_rank": 30,
+    "unseen_rank": 20
+  },
+  "rejected": {
+    "candidates": [
+      "Question: Is the ground where the kite is flying covered in sand or grass?",
+      "Question: What color is the kite flying in the sky?",
+      "Question: What type of activity is the person performing on the water?",
+      "Question: What color is the shirt of the person flying the kite?",
+      "Question: Is the person flying the kite located on the beach or in a grassy field?"
+    ],
+    "question": "Question: Is the ground where the kite is flying covered in sand or grass?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: Is the ground where the kite is flying covered in sand or grass?",
+          "answers": [
+            "sand",
+            "grass",
+            "rock"
+          ],
+          "score": 0.11115789413452148
+        },
+        {
+          "question": "Question: What color is the kite flying in the sky?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.059531211853027344
+        },
+        {
+          "question": "Question: What type of activity is the person performing on the water?",
+          "answers": [
+            "Surfing",
+            "Windsurfing",
+            "Kiteboarding"
+          ],
+          "score": 0.016634464263916016
+        },
+        {
+          "question": "Question: What color is the shirt of the person flying the kite?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.030795574188232422
+        },
+        {
+          "question": "Question: Is the person flying the kite located on the beach or in a grassy field?",
+          "answers": [
+            "beach",
+            "grassy field",
+            "ocean"
+          ],
+          "score": 0.02553272247314453
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.075,
+      "probe_selection_seconds": 2.737,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "sand",
+    "rewrite": "a sunny day at the shore with a kite in the sky, flying over sandy ground",
+    "raw_rank": 15,
+    "unseen_rank": 9
+  }
+}

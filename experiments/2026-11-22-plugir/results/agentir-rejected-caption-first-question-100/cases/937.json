@@ -1,0 +1,71 @@
+{
+  "qid": 937,
+  "initial": "a car is behind a taxi at a red light",
+  "initial_rank": 22,
+  "evidence": [
+    "a traffic light pole with a green sign near the street",
+    "an old road with some traffic lights on the side",
+    "a street in front of a large building with a street light in front",
+    "a parking lot at night with red traffic lights",
+    "buses driving past cars and bikes on a street",
+    "a large group of people riding motorcycles in a busy road",
+    "a traffic light with some clouds above",
+    "an empty street and a traffic light at the corner",
+    "a yellow taxi",
+    "the camera is looking at the red traffic light"
+  ],
+  "displayed_ids": [
+    21089,
+    15234,
+    2150,
+    23217,
+    22937,
+    5721,
+    15185,
+    4169,
+    22873,
+    45201
+  ],
+  "rejected_captions": [
+    "the taxicab is black",
+    "a white car in a city",
+    "a van driving along the road",
+    "an empty taxi cab",
+    "a cab with a sign",
+    "a parking lot in an area with trees",
+    "a group of street lights with a stop sign",
+    "white cars sitting on the street at night",
+    "the bus is parked",
+    "this is a picture of a city in asia"
+  ],
+  "candidates": [
+    "Question: What is the color of the car behind the taxi?",
+    "Question: What is the color of the taxi?",
+    "what is the location or type of the street where the car and taxi are stopped?",
+    "What is the color of the car behind the taxi at the red light?",
+    "What color is the car behind the taxi at the red light?"
+  ],
+  "control_candidates": [
+    "Question: What is the color of the taxi?",
+    "what is the color of the car behind the taxi?",
+    "What is the background scenery of the image containing the red traffic light?",
+    "what is the location of the red traffic light in the image?",
+    "what is the color of the car behind the taxi?"
+  ],
+  "control": {
+    "question": "what is the location of the red traffic light in the image?",
+    "answer": "The red traffic light is on the left side of the image.",
+    "rewrite": "a car is behind a taxi at a red traffic light located on the left side of the image",
+    "rank": 28,
+    "hit": false,
+    "raw_rank": 28,
+    "unseen_rank": 18
+  },
+  "variant": {
+    "question": "What color is the car behind the taxi at the red light?",
+    "answer": "red",
+    "rewrite": "a red car is behind a taxi at a red light",
+    "raw_rank": 30,
+    "unseen_rank": 22
+  }
+}
