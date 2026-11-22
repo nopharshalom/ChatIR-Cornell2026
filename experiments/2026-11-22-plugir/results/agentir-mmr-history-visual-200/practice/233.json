@@ -1,0 +1,87 @@
+{
+  "chosen": "what is the color of the tennis ball the woman is hitting?",
+  "default": "what is the other object in the image?",
+  "ids": [
+    40408,
+    20729,
+    32176,
+    12510
+  ],
+  "trials": {
+    "what is the other object in the image?": {
+      "answers": [
+        "tennis ball",
+        "tennis ball",
+        "tennis ball",
+        "tennis net"
+      ],
+      "rewrites": {
+        "tennis ball": "a woman is hitting a tennis ball on a tennis court",
+        "tennis net": "a woman is hitting a tennis ball on a tennis court with a tennis net"
+      },
+      "ranks": [
+        11,
+        21,
+        32,
+        15
+      ],
+      "hits": 0
+    },
+    "Question: Does the woman appear to be in the middle of a match?": {
+      "answers": [
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "rewrites": {
+        "yes": "a woman is hitting a tennis ball on a tennis court, appearing to be in the middle of a match"
+      },
+      "ranks": [
+        15,
+        19,
+        18,
+        133
+      ],
+      "hits": 0
+    },
+    "what is the color of the tennis racket the woman is holding?": {
+      "answers": [
+        "black",
+        "orange",
+        "yellow",
+        "black"
+      ],
+      "rewrites": {
+        "black": "a woman holding a black tennis racket hits a tennis ball on a tennis court",
+        "orange": "a woman holding an orange tennis racket hits a tennis ball on a tennis court",
+        "yellow": "a woman holding a yellow tennis racket hits a tennis ball on a tennis court"
+      },
+      "ranks": [
+        83,
+        34,
+        18,
+        14
+      ],
+      "hits": 0
+    },
+    "what is the color of the tennis ball the woman is hitting?": {
+      "answers": [
+        "yellow",
+        "yellow",
+        "yellow",
+        "yellow"
+      ],
+      "rewrites": {
+        "yellow": "a woman is hitting a yellow tennis ball on a tennis court"
+      },
+      "ranks": [
+        13,
+        50,
+        7,
+        160
+      ],
+      "hits": 1
+    }
+  }
+}

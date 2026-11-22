@@ -1,0 +1,82 @@
+{
+  "qid": 298,
+  "chosen": "Question: What color is the elephant standing on the grass by the water?",
+  "plain": "Question: What color is the elephant standing on the grass by the water?",
+  "plain_rank": 28,
+  "outcome": {
+    "question": "Question: What color is the elephant standing on the grass by the water?",
+    "answer": "gray",
+    "rewrite": "a gray elephant is standing on grass by the water",
+    "rank": 28,
+    "hit": false
+  },
+  "evidence": {
+    "Question: What color is the elephant standing on the grass by the water?": {
+      "labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weights": null,
+      "score": 0.018605709075927734
+    },
+    "Question: What is the color of the elephant standing on the grass by the water?": {
+      "labels": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weights": null,
+      "score": 0.00438690185546875
+    },
+    "what is the color of the elephant standing next to a body of water?": {
+      "labels": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weights": null,
+      "score": 9.250640869140625e-05
+    },
+    "what is the other object in the image?": {
+      "labels": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "weights": [
+        0.8571428656578064,
+        0.1428571492433548
+      ],
+      "score": 0.002731800079345703
+    }
+  }
+}

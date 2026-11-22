@@ -1,0 +1,405 @@
+{
+  "qid": 847,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000470578.jpg",
+  "queries": [
+    "the man in the front is playing the wii game",
+    "a man in the kitchen playing a wii game",
+    "a man in a gray shirt is playing a wii game in a kitchen",
+    "two men are playing a Wii game in a kitchen, with the man in the front wearing a gray shirt"
+  ],
+  "ranks": [
+    65,
+    51,
+    18,
+    2
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "the man in the front is playing the wii game",
+      "question": "Question: What is the location where the man is playing the video game?",
+      "answer": "kitchen",
+      "query_after": "a man in the kitchen playing a wii game",
+      "displayed_ids": [
+        10060,
+        24396,
+        7865,
+        21500,
+        28229,
+        1165,
+        41718,
+        335,
+        2290,
+        47793
+      ],
+      "selected_ids": [
+        36582,
+        14419,
+        9204,
+        3579,
+        13549,
+        40629,
+        38300,
+        44719,
+        760,
+        38266
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: What is the location where the man is playing the video game?",
+          "answers": [
+            "living room",
+            "tennis court",
+            "chairs"
+          ],
+          "score": 0.13968992233276367
+        },
+        {
+          "question": "Question: What is the person with the man playing the video game?",
+          "answers": [
+            "a young woman",
+            "a little girl",
+            "two girls"
+          ],
+          "score": 0.050498008728027344
+        },
+        {
+          "question": "Question: What is the gender of the person standing next to the man who is playing the Wii game?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.044229984283447266
+        },
+        {
+          "question": "Who is the man playing the Wii game in the front?",
+          "answers": [
+            "the man in the front",
+            "John",
+            "Ken"
+          ],
+          "score": 0.006217479705810547
+        },
+        {
+          "question": "what is the gender of the man playing the video game in the front?",
+          "answers": [
+            "male",
+            "female",
+            "non-binary"
+          ],
+          "score": 0.026044845581054688
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color jacket is the woman wearing?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.05404806137084961
+        },
+        {
+          "question": "Question: What is the gender of the person standing in the front?",
+          "answers": [
+            "man",
+            "woman",
+            "girl"
+          ],
+          "score": 0.0384068489074707
+        },
+        {
+          "question": "Question: What color jacket is the man wearing?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.07948827743530273
+        },
+        {
+          "question": "Question: What color jacket is the man wearing?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.07948827743530273,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What color is the jacket worn by the man playing the Wii game?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.029802799224853516
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a man in the kitchen playing a wii game",
+      "question": "what is the color of the shirt worn by the man playing the wii game in the kitchen?",
+      "answer": "gray",
+      "query_after": "a man in a gray shirt is playing a wii game in a kitchen",
+      "displayed_ids": [
+        4775,
+        7865,
+        20496,
+        9202,
+        3956,
+        43154,
+        43385,
+        4654,
+        40292,
+        49617
+      ],
+      "selected_ids": [
+        49592,
+        36660,
+        41409,
+        18265,
+        7560,
+        31517,
+        17542,
+        6637,
+        14580,
+        45604
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "what is the man holding in his other hand while playing the wii game?",
+          "answers": [
+            "hand cuff",
+            "laptop",
+            "stove top"
+          ],
+          "score": 0.07694005966186523
+        },
+        {
+          "question": "what is the man holding in his other hand while playing the wii game?",
+          "answers": [
+            "hand cuff",
+            "laptop",
+            "stove top"
+          ],
+          "score": 0.07694005966186523,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the man holding in his left hand while playing the wii game?",
+          "answers": [
+            "nintendo wii game",
+            "wii remote",
+            "hand cuff"
+          ],
+          "score": 0.012957096099853516
+        },
+        {
+          "question": "what is the man holding in his right hand while playing the wii game?",
+          "answers": [
+            "wii remote",
+            "hand cuff",
+            "controller"
+          ],
+          "score": 0.010094642639160156
+        },
+        {
+          "question": "what is the man holding in his right hand while playing the wii game?",
+          "answers": [
+            "wii remote",
+            "hand cuff",
+            "controller"
+          ],
+          "score": 0.010094642639160156,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the man wearing in the front while playing the wii game?",
+          "answers": [
+            "casual clothes",
+            "shirt and shorts",
+            "t-shirt"
+          ],
+          "score": 0.04411172866821289
+        },
+        {
+          "question": "Question: What color is the shirt of the man playing the Wii game in the kitchen?",
+          "answers": [
+            "white",
+            "blue",
+            "black"
+          ],
+          "score": 0.05152416229248047
+        },
+        {
+          "question": "Question: Where is the man playing the Wii game in the kitchen standing relative to the stove?",
+          "answers": [
+            "in front of the stove",
+            "next to the stove",
+            "near the stove"
+          ],
+          "score": 0.0011277198791503906
+        },
+        {
+          "question": "Question: What is the man doing with the stove in the kitchen?",
+          "answers": [
+            "cleaning",
+            "cooking",
+            "nothing"
+          ],
+          "score": 0.00890350341796875
+        },
+        {
+          "question": "what is the color of the shirt worn by the man playing the wii game in the kitchen?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.11032772064208984
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a man in a gray shirt is playing a wii game in a kitchen",
+      "question": "Who else is playing the wii game with the man in the front?",
+      "answer": "another man",
+      "query_after": "two men are playing a Wii game in a kitchen, with the man in the front wearing a gray shirt",
+      "displayed_ids": [
+        4654,
+        4775,
+        32719,
+        20496,
+        20518,
+        6187,
+        3956,
+        9202,
+        17366,
+        14008
+      ],
+      "selected_ids": [
+        27563,
+        43386,
+        14580,
+        39426,
+        20932,
+        3330,
+        47052,
+        41670,
+        16224,
+        41241
+      ],
+      "rejected_count": 24,
+      "usual_paths": [
+        {
+          "question": "what is the other person doing in the scene with the man playing the wii game?",
+          "answers": [
+            "watching",
+            "cooking",
+            "standing"
+          ],
+          "score": 0.017226696014404297
+        },
+        {
+          "question": "what is the color of the pants worn by the man playing the wii game in the kitchen?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.05380058288574219
+        },
+        {
+          "question": "what is the color of the pants worn by the other person in the scene with the man playing the wii game?",
+          "answers": [
+            "black pants",
+            "blue jeans",
+            "gray pants"
+          ],
+          "score": 0.023233890533447266
+        },
+        {
+          "question": "what is the activity being performed by the other person in the scene with the man playing the wii game?",
+          "answers": [
+            "standing next to the man",
+            "watching the screen",
+            "playing the game with him"
+          ],
+          "score": 0.014609336853027344
+        },
+        {
+          "question": "what is the color of the shirt worn by the other person in the scene with the man playing the wii game?",
+          "answers": [
+            "gray",
+            "black",
+            "white"
+          ],
+          "score": 0.02397632598876953
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Who else is playing the wii game with the man in the front?",
+          "answers": [
+            "two men",
+            "a woman",
+            "no one else"
+          ],
+          "score": 0.06190633773803711
+        },
+        {
+          "question": "Question: What is the man wearing on his head while playing the Wii game in the kitchen?",
+          "answers": [
+            "cap",
+            "glasses",
+            "none"
+          ],
+          "score": 0.02814483642578125
+        },
+        {
+          "question": "What is the gender of the other person playing the video game with the man in the kitchen?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.029643535614013672
+        },
+        {
+          "question": "Question: What is the gender of the other person playing the video game with the man in the kitchen?",
+          "answers": [
+            "male",
+            "female",
+            "both"
+          ],
+          "score": 0.032726287841796875
+        },
+        {
+          "question": "Question: What is the gender of the other person playing the video game with the man in the kitchen?",
+          "answers": [
+            "male",
+            "female",
+            "both"
+          ],
+          "score": 0.032726287841796875,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

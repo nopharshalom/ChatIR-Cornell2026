@@ -1,0 +1,41 @@
+{
+  "qid": 1579,
+  "arm": "fresh",
+  "after_round": 2,
+  "ranks": [
+    86,
+    31,
+    34,
+    31,
+    23,
+    4
+  ],
+  "continuation": [
+    {
+      "round": 3,
+      "query_before": "A man is standing in the middle of the road, with a red truck driving up and a traffic light visible.",
+      "question": "Is the truck red or dark?",
+      "answer": "red",
+      "query_after": "a man stands in the middle of a road with a red truck driving up and a traffic light visible",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Is the truck red or dark?",
+      "fallback": false
+    },
+    {
+      "round": 4,
+      "query_before": "a man stands in the middle of a road with a red truck driving up and a traffic light visible",
+      "question": "what is the other object in the image?",
+      "answer": "traffic light",
+      "query_after": "A man is standing in the middle of a road, with a red truck driving toward him and a traffic light visible."
+    },
+    {
+      "round": 5,
+      "query_before": "A man is standing in the middle of a road, with a red truck driving toward him and a traffic light visible.",
+      "question": "what is the location of the man standing in the middle of the road with the red truck?",
+      "answer": "the man is standing on the left side of the road, near the traffic lights and bridge railing.",
+      "query_after": "a man stands on the left side of a road near traffic lights and a bridge railing, while a red truck drives up"
+    }
+  ],
+  "seconds": 28.2
+}

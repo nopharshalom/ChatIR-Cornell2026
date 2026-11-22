@@ -1,0 +1,82 @@
+{
+  "qid": 1574,
+  "candidates": [
+    "Question: What color are the pants worn by the man skiing down the slope?",
+    "Question: What color is the jacket worn by the man skiing down the slope?",
+    "Question: What color is the jacket worn by the man skiing down the slope?",
+    "Question: What color is the jacket worn by the man skiing down the slope?",
+    "Question: What color are the pants worn by the man skiing down the slope?"
+  ],
+  "kl": {
+    "question": "Question: What color is the jacket worn by the man skiing down the slope?",
+    "answer": "blue",
+    "rewrite": "A man wearing a blue jacket is skiing down the slope.",
+    "raw_rank": 78,
+    "unseen_rank": 68
+  },
+  "probe": {
+    "question": "Question: What color is the jacket worn by the man skiing down the slope?",
+    "answer": "blue",
+    "rewrite": "A man wearing a blue jacket is skiing down the slope.",
+    "raw_rank": 78,
+    "unseen_rank": 68
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What color are the pants worn by the man skiing down the slope?",
+        "answers": [
+          "blue",
+          "black",
+          "jeans"
+        ],
+        "score": 0.015672683715820312
+      },
+      {
+        "question": "Question: What color is the jacket worn by the man skiing down the slope?",
+        "answers": [
+          "blue",
+          "red",
+          "green"
+        ],
+        "score": 0.12062215805053711
+      },
+      {
+        "question": "Question: What color is the jacket worn by the man skiing down the slope?",
+        "answers": [
+          "blue",
+          "red",
+          "green"
+        ],
+        "score": 0.12062215805053711,
+        "duplicate_of": 1
+      },
+      {
+        "question": "Question: What color is the jacket worn by the man skiing down the slope?",
+        "answers": [
+          "blue",
+          "red",
+          "green"
+        ],
+        "score": 0.12062215805053711,
+        "duplicate_of": 1
+      },
+      {
+        "question": "Question: What color are the pants worn by the man skiing down the slope?",
+        "answers": [
+          "blue",
+          "black",
+          "jeans"
+        ],
+        "score": 0.015672683715820312,
+        "duplicate_of": 0
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.053,
+    "probe_selection_seconds": 0.958,
+    "probe_llm_calls": 2,
+    "probe_search_queries": 6
+  },
+  "reused_outcome": true
+}

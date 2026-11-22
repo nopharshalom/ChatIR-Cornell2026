@@ -1,0 +1,81 @@
+{
+  "qid": 937,
+  "candidates": [
+    "Question: What is the color of the car behind the taxi?",
+    "Question: What is the color of the taxi?",
+    "what is the location or type of the street where the car and taxi are stopped?",
+    "What is the color of the car behind the taxi at the red light?",
+    "What color is the car behind the taxi at the red light?"
+  ],
+  "kl": {
+    "question": "What color is the car behind the taxi at the red light?",
+    "answer": "red",
+    "rewrite": "a red car is behind a taxi at a red light",
+    "raw_rank": 30,
+    "unseen_rank": 22
+  },
+  "probe": {
+    "question": "Question: What is the color of the taxi?",
+    "answer": "yellow",
+    "rewrite": "a yellow taxi is in front of a car at a red light",
+    "rank": 15,
+    "hit": false,
+    "raw_rank": 15,
+    "unseen_rank": 10
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the color of the car behind the taxi?",
+        "answers": [
+          "red",
+          "blue",
+          "white"
+        ],
+        "score": 0.029157638549804688
+      },
+      {
+        "question": "Question: What is the color of the taxi?",
+        "answers": [
+          "yellow",
+          "black",
+          "white"
+        ],
+        "score": 0.03003835678100586
+      },
+      {
+        "question": "what is the location or type of the street where the car and taxi are stopped?",
+        "answers": [
+          "busy road",
+          "large street",
+          "street corner"
+        ],
+        "score": 0.011668682098388672
+      },
+      {
+        "question": "What is the color of the car behind the taxi at the red light?",
+        "answers": [
+          "red",
+          "blue",
+          "white"
+        ],
+        "score": 0.018730640411376953
+      },
+      {
+        "question": "What color is the car behind the taxi at the red light?",
+        "answers": [
+          "red",
+          "blue",
+          "black"
+        ],
+        "score": 0.016655921936035156
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.068,
+    "probe_selection_seconds": 2.244,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": true
+}

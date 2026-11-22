@@ -1,0 +1,182 @@
+{
+  "qid": 1546,
+  "initial": "a man riding a horse in a field with grass all over",
+  "initial_rank": 13,
+  "displayed": [
+    23874,
+    35623,
+    46415,
+    2542,
+    34771,
+    2664,
+    29755,
+    29346,
+    7066,
+    22556
+  ],
+  "evidence": [
+    "a girl wearing a helmet sits on the back of a horse",
+    "a zebra is standing in a green field",
+    "woman walking a horse in a ring",
+    "the girl on a horse is standing still",
+    "a brown horse jumps over a brown wooden barrier",
+    "a woman is leading a horse through the desert",
+    "a ballplayer throwing a ball",
+    "a motorcyclist rides on a race track with a bike rider",
+    "two women in blue and white dress posing on horses",
+    "a man is riding his horse in front of a flock of cattle"
+  ],
+  "rejected_captions": [
+    "a man on a horse is walking with his ponies",
+    "a cowboy riding his horse through a grassy field",
+    "the man is wearing a cowboy hat",
+    "a man and a dog grazing in a grassy field",
+    "the girl on a horse is standing still",
+    "a man wearing a cowboy hat riding a horse",
+    "a man in a cowboy hat riding on top of a horse",
+    "a man riding a horse",
+    "man on horse with a bag and hat in a field",
+    "a man riding a horse"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the color of the horse being ridden by the man?",
+      "what is the other object in the image?",
+      "What is the color of the horse that the man is riding in the grassy field?",
+      "what is the other object in the image?",
+      "what is the color of the horse being ridden by the man?"
+    ],
+    "question": "What is the color of the horse that the man is riding in the grassy field?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the horse being ridden by the man?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.03484487533569336
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "grass",
+            "field",
+            "green field"
+          ],
+          "score": 0.008581161499023438
+        },
+        {
+          "question": "What is the color of the horse that the man is riding in the grassy field?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.16556787490844727
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "grass",
+            "field",
+            "green field"
+          ],
+          "score": 0.008581161499023438,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the horse being ridden by the man?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.03484487533569336,
+          "duplicate_of": 0
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.077,
+      "probe_selection_seconds": 1.339,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "brown",
+    "rewrite": "a man riding a brown horse in a grassy field",
+    "raw_rank": 2,
+    "unseen_rank": 1
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What color is the horse the man is riding?",
+      "Question: What color is the horse the man is riding?",
+      "Question: What is the color of the horse the man is riding?",
+      "Question: What is the color of the horse the man is riding?",
+      "Question: What is the color of the horse the man is riding?"
+    ],
+    "question": "Question: What is the color of the horse the man is riding?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What color is the horse the man is riding?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.03538703918457031
+        },
+        {
+          "question": "Question: What color is the horse the man is riding?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.03538703918457031,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the horse the man is riding?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.045897483825683594
+        },
+        {
+          "question": "Question: What is the color of the horse the man is riding?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.045897483825683594,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the color of the horse the man is riding?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.045897483825683594,
+          "duplicate_of": 2
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.1,
+      "probe_selection_seconds": 0.875,
+      "probe_llm_calls": 2,
+      "probe_search_queries": 6
+    },
+    "answer": "brown",
+    "rewrite": "a man riding a brown horse in a grassy field",
+    "raw_rank": 2,
+    "unseen_rank": 1
+  }
+}

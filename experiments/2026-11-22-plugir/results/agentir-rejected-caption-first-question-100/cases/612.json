@@ -1,0 +1,71 @@
+{
+  "qid": 612,
+  "initial": "a woman is holding her phone over her head while standing on a beach",
+  "initial_rank": 33,
+  "evidence": [
+    "kite flying over a beach with a child",
+    "woman looking at cell phone",
+    "a man is playing soccer with his dog on the beach",
+    "a group of girls catching a softball",
+    "a man is holding up a bicycle over the beach",
+    "woman talking on her cellphone in the rain",
+    "four men on a beach holding surfboards",
+    "a man flying a kite on the beach near the ocean",
+    "woman wearing glasses and sunglasses talking on a cellphone",
+    "woman holding her phone up to camera"
+  ],
+  "displayed_ids": [
+    35,
+    43785,
+    18294,
+    132,
+    6946,
+    34666,
+    37901,
+    23704,
+    13807,
+    40608
+  ],
+  "rejected_captions": [
+    "a girl is standing in the sand on a beach",
+    "a pair of people are standing on the beach",
+    "a man at the beach",
+    "the woman is standing in the water",
+    "a group of people are flying kites at the beach",
+    "a woman talking on the phone on a balcony",
+    "girl standing on the beach",
+    "a woman wearing a bikini",
+    "a woman flying a kite",
+    "woman is laying on a blanket"
+  ],
+  "candidates": [
+    "Question: What is the weather condition during the scene where the woman is holding her phone over her head on the beach?",
+    "Question: What kind of phone is the woman holding?",
+    "Question: What is the woman wearing?",
+    "Question: What is the weather condition during the scene?",
+    "Question: What is the woman wearing?"
+  ],
+  "control_candidates": [
+    "what is the weather condition where the woman is holding her phone over her head on the beach?",
+    "what is the woman wearing in the image where she is holding her phone over her head on the beach?",
+    "what is the woman holding her phone up to while standing on the beach?",
+    "what is the woman holding her phone up to in the image where she is standing on a beach?",
+    "what is the woman holding her phone up to in the image where she is holding her phone over her head while standing on a beach?"
+  ],
+  "control": {
+    "question": "what is the woman holding her phone up to in the image where she is holding her phone over her head while standing on a beach?",
+    "answer": "camera",
+    "rewrite": "a woman stands on a beach holding her phone up to a camera",
+    "rank": 9,
+    "hit": true,
+    "raw_rank": 9,
+    "unseen_rank": 2
+  },
+  "variant": {
+    "question": "Question: What kind of phone is the woman holding?",
+    "answer": "Black smartphone.",
+    "rewrite": "a woman holding a black smartphone over her head while standing on a beach",
+    "raw_rank": 10,
+    "unseen_rank": 3
+  }
+}

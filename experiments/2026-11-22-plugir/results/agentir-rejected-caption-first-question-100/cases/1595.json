@@ -1,0 +1,71 @@
+{
+  "qid": 1595,
+  "initial": "a workstation with a laptop and an extra monitor",
+  "initial_rank": 99,
+  "evidence": [
+    "two black laptops next to each other",
+    "a couple of laptop computers with their screen lit up",
+    "two cats laying on a desk",
+    "two desks with monitors and a chair sitting in front of them",
+    "a man sitting at a desk with four monitors in front of him",
+    "a desk with two computer monitors and a keyboard",
+    "a laptop on a desk with an electronic cord",
+    "a small home office with lots of books",
+    "three monitors mounted on a desk",
+    "two laptops are on a table next to a window"
+  ],
+  "displayed_ids": [
+    21841,
+    25373,
+    46575,
+    8906,
+    25656,
+    22744,
+    2466,
+    5419,
+    47084,
+    14531
+  ],
+  "rejected_captions": [
+    "two computer monitors sitting on a desk",
+    "a small desk is on the table",
+    "three monitors mounted on a desk",
+    "a monitor with a clock and an arm rest",
+    "a desktop computer with two monitors",
+    "a white computer screen is on a white desk",
+    "two laptops on the desk",
+    "a monitor is mounted on a desk",
+    "a desk with a computer, computer, and a keyboard",
+    "a desk with a computer on it"
+  ],
+  "candidates": [
+    "Question: Is the extra monitor mounted on the desk or sitting next to the laptop?",
+    "what color is the laptop in the workstation?",
+    "Question: What is the color of the desk in the workstation?",
+    "Question: What is the color of the laptop in the workstation?",
+    "Question: Is the laptop on the desk or placed on a table?"
+  ],
+  "control_candidates": [
+    "what is the color of the laptop in the workstation?",
+    "what is the location of the laptop in the workstation?",
+    "what is the color of the extra monitor in the workstation?",
+    "Question: Is the laptop in the workstation placed on a desk or a table?",
+    "what is the color of the extra monitor in the workstation?"
+  ],
+  "control": {
+    "question": "what is the location of the laptop in the workstation?",
+    "answer": "The laptop is in the center of the workstation.",
+    "rewrite": "a workstation featuring a laptop positioned in the center and an extra monitor",
+    "rank": 58,
+    "hit": false,
+    "raw_rank": 58,
+    "unseen_rank": 48
+  },
+  "variant": {
+    "question": "Question: Is the extra monitor mounted on the desk or sitting next to the laptop?",
+    "answer": "sitting next to the laptop",
+    "rewrite": "a workstation featuring a laptop and an extra monitor sitting next to it",
+    "raw_rank": 79,
+    "unseen_rank": 69
+  }
+}

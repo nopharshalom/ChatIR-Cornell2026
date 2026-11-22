@@ -1,0 +1,177 @@
+{
+  "qid": 1146,
+  "initial": "the people are standing and walking outside by the umbrella",
+  "initial_rank": 107,
+  "displayed": [
+    27890,
+    37659,
+    16309,
+    16157,
+    13762,
+    14557,
+    32493,
+    12430,
+    4356,
+    7465
+  ],
+  "evidence": [
+    "two people walk across a street in a rain storm",
+    "some people sitting on a bench and the rain is falling on their umbrellas",
+    "wet sidewalk at night",
+    "two people walking in the rain on a city street",
+    "a bricked street full of people walking",
+    "a female walking through the forest with an umbrella",
+    "two people on a rainy day in the city",
+    "a person holding a black umbrella in a rainstorm",
+    "a woman walks under an umbrella on a rainy city street",
+    "a woman is crossing a street on a rainy day"
+  ],
+  "rejected_captions": [
+    "a couple with an umbrella stands in a crowd of people",
+    "two people are holding umbrellas",
+    "people walking around with umbrellas",
+    "black and white image of a woman and man on the sidewalk",
+    "a man with a white umbrella",
+    "a group of people walking down a sidewalk with umbrellas",
+    "a person walking around",
+    "person walking with umbrella",
+    "a man walking with a rainbow umbrella in front of buildings",
+    "several people walking"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the time of day depicted in the scene where people are standing and walking outside by the umbrella?",
+      "what is the gender of the person holding the umbrella in the scene where people are standing and walking outside by the umbrella?",
+      "Question: How many people are standing and walking outside by the umbrella?",
+      "what color are the umbrellas held by the people outside?",
+      "what is the surface or ground type where the people are standing and walking outside by the umbrella?"
+    ],
+    "question": "what is the surface or ground type where the people are standing and walking outside by the umbrella?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the time of day depicted in the scene where people are standing and walking outside by the umbrella?",
+          "answers": [
+            "day",
+            "night",
+            "dusk"
+          ],
+          "score": 0.06164979934692383
+        },
+        {
+          "question": "what is the gender of the person holding the umbrella in the scene where people are standing and walking outside by the umbrella?",
+          "answers": [
+            "female",
+            "male",
+            "women"
+          ],
+          "score": 0.04285764694213867
+        },
+        {
+          "question": "Question: How many people are standing and walking outside by the umbrella?",
+          "answers": [
+            "one",
+            "two",
+            "many"
+          ],
+          "score": 0.010005474090576172
+        },
+        {
+          "question": "what color are the umbrellas held by the people outside?",
+          "answers": [
+            "black",
+            "clear",
+            "transparent"
+          ],
+          "score": 0.034070491790771484
+        },
+        {
+          "question": "what is the surface or ground type where the people are standing and walking outside by the umbrella?",
+          "answers": [
+            "wet sidewalk",
+            "bricked street",
+            "city street"
+          ],
+          "score": 0.06677055358886719
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.124,
+      "probe_selection_seconds": 2.4,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "cobblestone",
+    "rewrite": "people standing and walking on cobblestone outside by an umbrella",
+    "raw_rank": 43,
+    "unseen_rank": 34
+  },
+  "rejected": {
+    "candidates": [
+      "what is the color of the umbrella being held by the people?",
+      "Question: Is the person holding the umbrella female or male?",
+      "Question: What is the color of the umbrella being held by the people?",
+      "what is the time of day depicted in the image?",
+      "Question: What is the gender of the person holding the umbrella?"
+    ],
+    "question": "what is the time of day depicted in the image?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the umbrella being held by the people?",
+          "answers": [
+            "black",
+            "blue",
+            "clear"
+          ],
+          "score": 0.062016963958740234
+        },
+        {
+          "question": "Question: Is the person holding the umbrella female or male?",
+          "answers": [
+            "female",
+            "male",
+            "mixed"
+          ],
+          "score": 0.005372524261474609
+        },
+        {
+          "question": "Question: What is the color of the umbrella being held by the people?",
+          "answers": [
+            "black",
+            "blue",
+            "transparent"
+          ],
+          "score": 0.06981945037841797
+        },
+        {
+          "question": "what is the time of day depicted in the image?",
+          "answers": [
+            "daytime",
+            "night",
+            "dusk"
+          ],
+          "score": 0.07688474655151367
+        },
+        {
+          "question": "Question: What is the gender of the person holding the umbrella?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.015162467956542969
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.071,
+      "probe_selection_seconds": 2.205,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "daytime",
+    "rewrite": "people standing and walking outside under an umbrella during the daytime",
+    "raw_rank": 90,
+    "unseen_rank": 80
+  }
+}

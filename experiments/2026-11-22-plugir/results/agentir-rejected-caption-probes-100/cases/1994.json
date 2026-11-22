@@ -1,0 +1,75 @@
+{
+  "qid": 1994,
+  "candidates": [
+    "Question: What is the color of the large airplane next to the group of people?",
+    "Question: What is the color of the airplane in the rejected photo featuring a double decker bus?",
+    "Question: What is the color of the airplane in the rejected photo featuring a double decker bus?",
+    "Question: What is the color of the airplane in the rejected photo featuring a double decker bus?",
+    "Question: What color is the large airplane in the target image?"
+  ],
+  "kl": {
+    "question": "Question: What is the color of the large airplane next to the group of people?",
+    "answer": "white",
+    "rewrite": "a group of people are walking next to a large white airplane",
+    "raw_rank": 9,
+    "unseen_rank": 2
+  },
+  "probe": {
+    "question": "Question: What is the color of the large airplane next to the group of people?",
+    "answer": "white",
+    "rewrite": "a group of people are walking next to a large white airplane",
+    "raw_rank": 9,
+    "unseen_rank": 2
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the color of the large airplane next to the group of people?",
+        "answers": [
+          "red",
+          "blue",
+          "white"
+        ],
+        "score": 0.08701610565185547
+      },
+      {
+        "question": "Question: What is the color of the airplane in the rejected photo featuring a double decker bus?",
+        "answers": [
+          "red"
+        ],
+        "note": "fewer than 2 answers"
+      },
+      {
+        "question": "Question: What is the color of the airplane in the rejected photo featuring a double decker bus?",
+        "answers": [
+          "red"
+        ],
+        "note": "fewer than 2 answers",
+        "duplicate_of": 1
+      },
+      {
+        "question": "Question: What is the color of the airplane in the rejected photo featuring a double decker bus?",
+        "answers": [
+          "red"
+        ],
+        "note": "fewer than 2 answers",
+        "duplicate_of": 1
+      },
+      {
+        "question": "Question: What color is the large airplane in the target image?",
+        "answers": [
+          "white",
+          "blue",
+          "red"
+        ],
+        "score": 0.03853797912597656
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.055,
+    "probe_selection_seconds": 1.205,
+    "probe_llm_calls": 3,
+    "probe_search_queries": 6
+  },
+  "reused_outcome": true
+}

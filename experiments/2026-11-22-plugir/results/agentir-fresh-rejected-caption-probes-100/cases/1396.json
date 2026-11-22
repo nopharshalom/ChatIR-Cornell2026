@@ -1,0 +1,177 @@
+{
+  "qid": 1396,
+  "initial": "a display of bathroom sinks in a department store",
+  "initial_rank": 105,
+  "displayed": [
+    6595,
+    22776,
+    13255,
+    39658,
+    30085,
+    785,
+    31950,
+    43381,
+    46057,
+    2892
+  ],
+  "evidence": [
+    "a toilet containing two sinks and two toilet seats",
+    "there is an asian market selling lots of kites",
+    "a bathroom with two sinks and two mirrors",
+    "a store display with many stuffed animals and bags",
+    "a display of plastic dessert cases in a store",
+    "large pizzas in a display case",
+    "large boxes are on carts in a moving crowd",
+    "an en suite bathroom with a sink and mirror",
+    "blue glass case",
+    "toilets line the sidewalk outside of an apartment building"
+  ],
+  "rejected_captions": [
+    "boxes are stacked in a large storage room",
+    "a bathroom filled with white toilets, bathtubs, and sinks",
+    "rows of old styled sinks in a bathroom",
+    "a toilet containing two sinks and two toilet seats",
+    "a shop filled with toilets and sinks in different colors",
+    "a shop sells toilets in a japanese style store",
+    "many wooden cabinets in a warehouse",
+    "a shelf of different types of toothbrushes on sale",
+    "a row of toothbrushes on a store shelf",
+    "a hallway with rows of bathroom sinks and mirrors"
+  ],
+  "usual": {
+    "candidates": [
+      "Question: How many sinks are visible in the bathroom display?",
+      "Question: What color is the glass case where the bathroom sinks are being displayed?",
+      "Question: What type of mirrors are visible in the bathroom display?",
+      "Question: What are the sinks in the bathroom display placed inside?",
+      "Question: How many toilet seats are visible in the display of bathroom sinks?"
+    ],
+    "question": "Question: What are the sinks in the bathroom display placed inside?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: How many sinks are visible in the bathroom display?",
+          "answers": [
+            "two",
+            "three",
+            "four"
+          ],
+          "score": 0.001842498779296875
+        },
+        {
+          "question": "Question: What color is the glass case where the bathroom sinks are being displayed?",
+          "answers": [
+            "blue",
+            "clear",
+            "white"
+          ],
+          "score": 0.021189212799072266
+        },
+        {
+          "question": "Question: What type of mirrors are visible in the bathroom display?",
+          "answers": [
+            "bathroom mirrors",
+            "wall mirrors",
+            "vanity mirrors"
+          ],
+          "score": 0.0020737648010253906
+        },
+        {
+          "question": "Question: What are the sinks in the bathroom display placed inside?",
+          "answers": [
+            "bathroom",
+            "toilet",
+            "glass case"
+          ],
+          "score": 0.037933349609375
+        },
+        {
+          "question": "Question: How many toilet seats are visible in the display of bathroom sinks?",
+          "answers": [
+            "0",
+            "1",
+            "2"
+          ],
+          "score": 0.00019359588623046875
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.273,
+      "probe_selection_seconds": 6.384,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "sinks",
+    "rewrite": "a display of bathroom sinks placed inside a cabinet",
+    "raw_rank": 32,
+    "unseen_rank": 28
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What type of mirrors are displayed with the sinks in the bathroom display?",
+      "Question: Which color are the glass display cases in the bathroom sink display?",
+      "Question: What type of toilets are displayed with the sinks?",
+      "Question: What is the surface material of the bathroom sinks displayed in the store?",
+      "Question: What is the color of the glass display case containing the sinks?"
+    ],
+    "question": "Question: What is the color of the glass display case containing the sinks?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What type of mirrors are displayed with the sinks in the bathroom display?",
+          "answers": [
+            "vanity mirrors",
+            "bathroom mirrors",
+            "no mirrors"
+          ],
+          "score": 0.003094196319580078
+        },
+        {
+          "question": "Question: Which color are the glass display cases in the bathroom sink display?",
+          "answers": [
+            "blue",
+            "clear",
+            "white"
+          ],
+          "score": 0.01919269561767578
+        },
+        {
+          "question": "Question: What type of toilets are displayed with the sinks?",
+          "answers": [
+            "toilet seats",
+            "two toilet seats",
+            "none"
+          ],
+          "score": 0.00791025161743164
+        },
+        {
+          "question": "Question: What is the surface material of the bathroom sinks displayed in the store?",
+          "answers": [
+            "plastic",
+            "ceramic",
+            "glass"
+          ],
+          "score": 0.015147209167480469
+        },
+        {
+          "question": "Question: What is the color of the glass display case containing the sinks?",
+          "answers": [
+            "blue",
+            "clear",
+            "white"
+          ],
+          "score": 0.023980140686035156
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.057,
+      "probe_selection_seconds": 2.322,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "white",
+    "rewrite": "a display of bathroom sinks in a department store featuring a white glass display case",
+    "raw_rank": 141,
+    "unseen_rank": 131
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "qid": 1227,
+  "candidates": [
+    "Question: What type of vessel is seen on the river?",
+    "Question: How many boats are visible in the image?",
+    "Question: What is the activity of the person seen on the board in the river?",
+    "Question: What is the color of the buildings near the river?",
+    "Question: What is the background setting behind the boats or the person on the board?"
+  ],
+  "kl": {
+    "question": "Question: What is the color of the buildings near the river?",
+    "answer": "brown",
+    "rewrite": "a blue river with brown buildings near it",
+    "raw_rank": 81,
+    "unseen_rank": 71
+  },
+  "probe": {
+    "answer": "Rowing boat.",
+    "rewrite": "a blue river with buildings nearby, featuring a rowing boat on the water",
+    "raw_rank": 3,
+    "unseen_rank": 2,
+    "question": "Question: What type of vessel is seen on the river?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What type of vessel is seen on the river?",
+        "answers": [
+          "boat",
+          "airplane",
+          "train"
+        ],
+        "score": 0.0761876106262207
+      },
+      {
+        "question": "Question: How many boats are visible in the image?",
+        "answers": [
+          "1",
+          "2",
+          "several"
+        ],
+        "score": 0.0028700828552246094
+      },
+      {
+        "question": "Question: What is the activity of the person seen on the board in the river?",
+        "answers": [
+          "skating",
+          "boarding",
+          "standing"
+        ],
+        "score": 0.018559932708740234
+      },
+      {
+        "question": "Question: What is the color of the buildings near the river?",
+        "answers": [
+          "white",
+          "gray",
+          "brown"
+        ],
+        "score": 0.022186756134033203
+      },
+      {
+        "question": "Question: What is the background setting behind the boats or the person on the board?",
+        "answers": [
+          "a river with houses",
+          "a city with tall buildings",
+          "a bridge"
+        ],
+        "score": 0.055217742919921875
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.051,
+    "probe_selection_seconds": 2.419,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": false
+}

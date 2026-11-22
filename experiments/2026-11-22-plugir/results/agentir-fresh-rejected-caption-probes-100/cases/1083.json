@@ -1,0 +1,180 @@
+{
+  "qid": 1083,
+  "initial": "a womans tennis player waits to return the ball",
+  "initial_rank": 31,
+  "displayed": [
+    33211,
+    30038,
+    32538,
+    6416,
+    21870,
+    26355,
+    13744,
+    34780,
+    44956,
+    27880
+  ],
+  "evidence": [
+    "a tennis player swinging her racquet up to hit a ball",
+    "a tennis player is standing in a green and blue tennis court with an audience in the stands",
+    "the girl is wearing a white outfit",
+    "a woman in a white dress on a tennis court",
+    "woman wearing white and black",
+    "woman in orange top",
+    "two women in white dresses",
+    "a man is playing tennis with a racquet and a crowd behind him",
+    "a woman wearing a white tennis dress on a court",
+    "woman in red standing on the court holding tennis racquet"
+  ],
+  "rejected_captions": [
+    "a woman playing tennis with her racket",
+    "a woman standing on a tennis court",
+    "woman holding tennis racquet",
+    "woman is playing tennis",
+    "a female tennis player wearing yellow top and shorts",
+    "young woman on tennis court",
+    "a woman with a tennis racket is swinging a ball",
+    "a woman with a racket swinging back and forth",
+    "a tennis player holding a racket on a tennis court",
+    "a woman swinging a tennis racquet on the tennis court"
+  ],
+  "usual": {
+    "candidates": [
+      "what color is the woman's outfit?",
+      "what is the color of the woman's outfit?",
+      "what is the color of the woman's outfit?",
+      "what is the color of the woman's outfit?",
+      "Question: What color is the woman's tennis outfit?"
+    ],
+    "question": "what is the color of the woman's outfit?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what color is the woman's outfit?",
+          "answers": [
+            "white",
+            "orange",
+            "red"
+          ],
+          "score": 0.16333913803100586
+        },
+        {
+          "question": "what is the color of the woman's outfit?",
+          "answers": [
+            "white",
+            "orange",
+            "red"
+          ],
+          "score": 0.20322275161743164
+        },
+        {
+          "question": "what is the color of the woman's outfit?",
+          "answers": [
+            "white",
+            "orange",
+            "red"
+          ],
+          "score": 0.20322275161743164,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the woman's outfit?",
+          "answers": [
+            "white",
+            "orange",
+            "red"
+          ],
+          "score": 0.20322275161743164,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What color is the woman's tennis outfit?",
+          "answers": [
+            "white",
+            "orange",
+            "red"
+          ],
+          "score": 0.1742396354675293
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.088,
+      "probe_selection_seconds": 1.408,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "orange",
+    "rewrite": "an orange-clad woman tennis player waits to return the ball",
+    "raw_rank": 4,
+    "unseen_rank": 4
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What color is the woman's top?",
+      "Question: What color is the woman's dress?",
+      "Question: What color is the woman's dress?",
+      "Question: What color is the woman's hair?",
+      "Question: What color is the tennis racquet the woman is holding?"
+    ],
+    "question": "Question: What color is the woman's dress?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What color is the woman's top?",
+          "answers": [
+            "white",
+            "orange",
+            "red"
+          ],
+          "score": 0.1673283576965332
+        },
+        {
+          "question": "Question: What color is the woman's dress?",
+          "answers": [
+            "white",
+            "orange",
+            "red"
+          ],
+          "score": 0.20592069625854492
+        },
+        {
+          "question": "Question: What color is the woman's dress?",
+          "answers": [
+            "white",
+            "orange",
+            "red"
+          ],
+          "score": 0.20592069625854492,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What color is the woman's hair?",
+          "answers": [
+            "blonde",
+            "brown",
+            "black"
+          ],
+          "score": 0.0748591423034668
+        },
+        {
+          "question": "Question: What color is the tennis racquet the woman is holding?",
+          "answers": [
+            "black",
+            "blue",
+            "green"
+          ],
+          "score": 0.058976173400878906
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.158,
+      "probe_selection_seconds": 1.934,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "orange",
+    "rewrite": "an orange-dressed woman tennis player waits to return the ball",
+    "raw_rank": 3,
+    "unseen_rank": 3
+  }
+}

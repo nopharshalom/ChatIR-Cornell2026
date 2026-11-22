@@ -1,0 +1,50 @@
+{
+  "trials": {
+    "what is the other object in the image?": {
+      "answers": [
+        "zebras",
+        "zebra",
+        "zebras",
+        "zebra"
+      ],
+      "rewrites": {
+        "zebras": "three zebras standing and grazing in a grassy area",
+        "zebra": "three zebras standing and grazing in a grassy area"
+      },
+      "ranks": [
+        12,
+        26,
+        29,
+        54
+      ],
+      "hits": 0
+    },
+    "what is the specific color pattern of the zebras in the image?": {
+      "answers": [
+        "black and white stripes",
+        "black and white stripes",
+        "black and white stripes",
+        "black and white stripes"
+      ],
+      "rewrites": {
+        "black and white stripes": "three zebras with black and white stripes standing and grazing in a grassy area"
+      },
+      "ranks": [
+        14,
+        13,
+        33,
+        41
+      ],
+      "hits": 0
+    }
+  },
+  "ids": [
+    187,
+    9735,
+    25020,
+    2509
+  ],
+  "default": "what is the other object in the image?",
+  "chosen": "what is the other object in the image?",
+  "source": "identical cached proxy/question trials"
+}

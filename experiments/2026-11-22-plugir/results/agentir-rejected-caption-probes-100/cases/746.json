@@ -1,0 +1,81 @@
+{
+  "qid": 746,
+  "candidates": [
+    "Question: What is the color of the cars behind the red train engine?",
+    "Question: What is the color of the train engine?",
+    "Question: What is the color of the train engine?",
+    "what is the color of the cars behind the red train engine?",
+    "Question: What is the color of the train engine?"
+  ],
+  "kl": {
+    "question": "Question: What is the color of the train engine?",
+    "answer": "orange",
+    "rewrite": "an orange train engine with cars behind it next to a small foothill",
+    "raw_rank": 6,
+    "unseen_rank": 6
+  },
+  "probe": {
+    "answer": "brown",
+    "rewrite": "a red train engine with brown cars behind it next to a small foothill",
+    "raw_rank": 41,
+    "unseen_rank": 31,
+    "question": "Question: What is the color of the cars behind the red train engine?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the color of the cars behind the red train engine?",
+        "answers": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "score": 0.05048084259033203
+      },
+      {
+        "question": "Question: What is the color of the train engine?",
+        "answers": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "score": 0.04261922836303711
+      },
+      {
+        "question": "Question: What is the color of the train engine?",
+        "answers": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "score": 0.04261922836303711,
+        "duplicate_of": 1
+      },
+      {
+        "question": "what is the color of the cars behind the red train engine?",
+        "answers": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "score": 0.03575277328491211
+      },
+      {
+        "question": "Question: What is the color of the train engine?",
+        "answers": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "score": 0.04261922836303711,
+        "duplicate_of": 1
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.045,
+    "probe_selection_seconds": 1.38,
+    "probe_llm_calls": 3,
+    "probe_search_queries": 9
+  },
+  "reused_outcome": false
+}

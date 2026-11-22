@@ -1,0 +1,408 @@
+{
+  "qid": 649,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000355580.jpg",
+  "queries": [
+    "a black train on the tracks going through grass area",
+    "a black train on the tracks going through a grass area",
+    "A black train traveling along the tracks through a grassy area.",
+    "a black train on the tracks going through a grassy area with mountains in the background"
+  ],
+  "ranks": [
+    28,
+    25,
+    34,
+    2
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a black train on the tracks going through grass area",
+      "question": "what is the color of the train in the image?",
+      "answer": "black",
+      "query_after": "a black train on the tracks going through a grass area",
+      "displayed_ids": [
+        19139,
+        3241,
+        24374,
+        8090,
+        47502,
+        40746,
+        27073,
+        28752,
+        1854,
+        27167
+      ],
+      "selected_ids": [
+        28870,
+        29749,
+        26226,
+        28311,
+        25078,
+        37672,
+        30064,
+        18799,
+        9017,
+        7557
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "grass",
+            "trees",
+            "cars"
+          ],
+          "score": 0.035004615783691406
+        },
+        {
+          "question": "Question: what is the color of the train and what is the background scenery?",
+          "answers": [
+            "black and grass",
+            "red and trees",
+            "yellow and woods"
+          ],
+          "score": 0.11812686920166016
+        },
+        {
+          "question": "Question: What is the color of the train?",
+          "answers": [
+            "black",
+            "red",
+            "yellow"
+          ],
+          "score": 0.09841394424438477
+        },
+        {
+          "question": "what is the color of the train in the image?",
+          "answers": [
+            "black",
+            "red",
+            "yellow"
+          ],
+          "score": 0.12751388549804688
+        },
+        {
+          "question": "what is the color of the train?",
+          "answers": [
+            "black",
+            "red",
+            "yellow"
+          ],
+          "score": 0.12529563903808594
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "grass",
+            "trees",
+            "cars"
+          ],
+          "score": 0.035004615783691406
+        },
+        {
+          "question": "Question: What is the color of the train?",
+          "answers": [
+            "black",
+            "red",
+            "yellow"
+          ],
+          "score": 0.09841394424438477
+        },
+        {
+          "question": "Question: What is the color of the train?",
+          "answers": [
+            "black",
+            "red",
+            "yellow"
+          ],
+          "score": 0.09841394424438477,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the smoke coming from the train?",
+          "answers": [
+            "black",
+            "white",
+            "gray"
+          ],
+          "score": 0.006917476654052734
+        },
+        {
+          "question": "Question: What is the color of the smoke coming from the train?",
+          "answers": [
+            "black",
+            "white",
+            "gray"
+          ],
+          "score": 0.006917476654052734,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a black train on the tracks going through a grass area",
+      "question": "Question: What is the color of the train in the image?",
+      "answer": "black",
+      "query_after": "A black train traveling along the tracks through a grassy area.",
+      "displayed_ids": [
+        24374,
+        19139,
+        3241,
+        47502,
+        28752,
+        40746,
+        8090,
+        27073,
+        1854,
+        19509
+      ],
+      "selected_ids": [
+        25078,
+        30325,
+        28870,
+        11801,
+        4521,
+        47588,
+        9017,
+        8337,
+        32028,
+        2089
+      ],
+      "rejected_count": 11,
+      "usual_paths": [
+        {
+          "question": "what is the type of the black train on the tracks?",
+          "answers": [
+            "steam locomotive",
+            "freight train",
+            "passenger train"
+          ],
+          "score": 0.047853946685791016
+        },
+        {
+          "question": "Question: What type of train is the black train?",
+          "answers": [
+            "steam train",
+            "freight train",
+            "locomotive"
+          ],
+          "score": 0.03196573257446289
+        },
+        {
+          "question": "what is the type of the black train on the tracks?",
+          "answers": [
+            "steam locomotive",
+            "freight train",
+            "passenger train"
+          ],
+          "score": 0.047853946685791016,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What type of train is the black train in the image?",
+          "answers": [
+            "steam locomotive",
+            "freight train",
+            "passenger train"
+          ],
+          "score": 0.04796266555786133
+        },
+        {
+          "question": "what is the object accompanying the black train in the image?",
+          "answers": [
+            "grass",
+            "trees",
+            "cow"
+          ],
+          "score": 0.0600132942199707
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "black cows",
+            "grass",
+            "field"
+          ],
+          "score": 0.06611442565917969
+        },
+        {
+          "question": "what is the color of the tracks in the image?",
+          "answers": [
+            "brown",
+            "green",
+            "gray"
+          ],
+          "score": 0.0502467155456543
+        },
+        {
+          "question": "what is the color of the tracks in the image?",
+          "answers": [
+            "brown",
+            "green",
+            "gray"
+          ],
+          "score": 0.0502467155456543,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the grass in the image?",
+          "answers": [
+            "green",
+            "brown",
+            "yellow"
+          ],
+          "score": 0.06767988204956055
+        },
+        {
+          "question": "Question: What is the color of the train in the image?",
+          "answers": [
+            "black",
+            "red",
+            "yellow"
+          ],
+          "score": 0.10061311721801758
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "A black train traveling along the tracks through a grassy area.",
+      "question": "what is the other object in the image?",
+      "answer": "mountains",
+      "query_after": "a black train on the tracks going through a grassy area with mountains in the background",
+      "displayed_ids": [
+        19139,
+        3241,
+        8090,
+        27073,
+        27167,
+        40746,
+        1854,
+        15555,
+        29749,
+        24374
+      ],
+      "selected_ids": [
+        9017,
+        25078,
+        28752,
+        26226,
+        29749,
+        37383,
+        650,
+        987,
+        5399,
+        31965
+      ],
+      "rejected_count": 13,
+      "usual_paths": [
+        {
+          "question": "Question: Is the train in the image a steam locomotive or a modern electric train?",
+          "answers": [
+            "steam",
+            "electric",
+            "diesel"
+          ],
+          "score": 0.01849365234375
+        },
+        {
+          "question": "Question: Is there smoke coming from the train in the image?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.00036525726318359375
+        },
+        {
+          "question": "Question: What is the color of the smoke coming from the train?",
+          "answers": [
+            "white",
+            "grey",
+            "black"
+          ],
+          "score": 0.007498264312744141
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "grass",
+            "tracks",
+            "smoke"
+          ],
+          "score": 0.06687498092651367
+        },
+        {
+          "question": "Question: What is the color of the smoke coming from the train?",
+          "answers": [
+            "white",
+            "grey",
+            "black"
+          ],
+          "score": 0.007498264312744141,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is there smoke coming from the train?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0005807876586914062
+        },
+        {
+          "question": "Question: Is there smoke coming from the train?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0005807876586914062,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What type of train engine is in the image?",
+          "answers": [
+            "steam",
+            "diesel",
+            "electric"
+          ],
+          "score": 0.054697513580322266
+        },
+        {
+          "question": "Question: Is there smoke coming from the train?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0005807876586914062,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the smoke coming from the train?",
+          "answers": [
+            "black",
+            "white",
+            "grey"
+          ],
+          "score": 0.007498741149902344
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

@@ -1,0 +1,71 @@
+{
+  "qid": 917,
+  "initial": "a group of adult zebra with a baby zebra by his mom",
+  "initial_rank": 13,
+  "evidence": [
+    "herd of zebras in a tall grassy field",
+    "two zebras standing in a grassy area with some animals in the distance",
+    "two zebras standing in a pen on a dirt floor",
+    "four giraffes are standing near a wall in an enclosure",
+    "two zebras are standing in a field with tall grass and trees",
+    "a herd of zebras graze in tall grass",
+    "four zebras drink from a small body of water",
+    "an animal and a baby grazing in the grass",
+    "a zebra standing behind rocks in the zoo",
+    "two giraffes standing next to each other in the zoo"
+  ],
+  "displayed_ids": [
+    49231,
+    35452,
+    27298,
+    327,
+    21257,
+    26225,
+    46122,
+    42993,
+    14428,
+    13882
+  ],
+  "rejected_captions": [
+    "zebra with baby standing on the grass",
+    "the female is standing",
+    "the zebras are standing near trees",
+    "zebras in a field",
+    "the baby zebra standing in a field",
+    "two zebras with one baby grazing in a field",
+    "zebras stand near tree",
+    "a baby zebra and adult zebra eating in the grass",
+    "zebras standing in a dirt field",
+    "two zebras with stripes in a field"
+  ],
+  "candidates": [
+    "What is the background environment of the group of adult zebras with a baby zebra?",
+    "Question: How many zebras are in the group with the baby zebra?",
+    "Question: Is the baby zebra standing with its mother in a field or in a zoo enclosure?",
+    "Question: What is the specific action the baby zebra is performing in the group with its mother?",
+    "Question: What is the color of the adult zebra's mane?"
+  ],
+  "control_candidates": [
+    "where is the group of adult zebra with a baby zebra by his mom located?",
+    "what is the background environment of the group of adult zebra with a baby zebra by his mom?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "How many adult zebras are in the group with the baby zebra?"
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "answer": "zebra",
+    "rewrite": "a group of adult zebras with a baby zebra by its mom",
+    "rank": 15,
+    "hit": false,
+    "raw_rank": 15,
+    "unseen_rank": 5
+  },
+  "variant": {
+    "question": "What is the background environment of the group of adult zebras with a baby zebra?",
+    "answer": "forest",
+    "rewrite": "a group of adult zebras with a baby zebra by his mom in a forest",
+    "raw_rank": 5,
+    "unseen_rank": 1
+  }
+}

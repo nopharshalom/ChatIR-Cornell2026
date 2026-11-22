@@ -1,0 +1,82 @@
+{
+  "qid": 398,
+  "candidates": [
+    "Question: What color is the snowboarder's jacket?",
+    "Question: What is the color of the snowboarder's jacket?",
+    "Question: What is the color of the snowboarder's jacket?",
+    "Question: What color is the snowboarder's jacket?",
+    "Question: What is the color of the snowboarder's jacket?"
+  ],
+  "kl": {
+    "question": "Question: What is the color of the snowboarder's jacket?",
+    "answer": "black",
+    "rewrite": "a snowboarder wearing a black jacket is snowboarding down a snow-covered hill",
+    "raw_rank": 245,
+    "unseen_rank": 235
+  },
+  "probe": {
+    "question": "Question: What is the color of the snowboarder's jacket?",
+    "answer": "black",
+    "rewrite": "a snowboarder wearing a black jacket is snowboarding down a snow-covered hill",
+    "raw_rank": 245,
+    "unseen_rank": 235
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What color is the snowboarder's jacket?",
+        "answers": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "score": 0.16519594192504883
+      },
+      {
+        "question": "Question: What is the color of the snowboarder's jacket?",
+        "answers": [
+          "red",
+          "green",
+          "orange"
+        ],
+        "score": 0.1922774314880371
+      },
+      {
+        "question": "Question: What is the color of the snowboarder's jacket?",
+        "answers": [
+          "red",
+          "green",
+          "orange"
+        ],
+        "score": 0.1922774314880371,
+        "duplicate_of": 1
+      },
+      {
+        "question": "Question: What color is the snowboarder's jacket?",
+        "answers": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "score": 0.16519594192504883,
+        "duplicate_of": 0
+      },
+      {
+        "question": "Question: What is the color of the snowboarder's jacket?",
+        "answers": [
+          "red",
+          "green",
+          "orange"
+        ],
+        "score": 0.1922774314880371,
+        "duplicate_of": 1
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.049,
+    "probe_selection_seconds": 0.96,
+    "probe_llm_calls": 2,
+    "probe_search_queries": 6
+  },
+  "reused_outcome": true
+}

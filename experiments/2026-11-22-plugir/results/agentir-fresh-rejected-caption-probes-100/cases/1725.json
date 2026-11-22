@@ -1,0 +1,178 @@
+{
+  "qid": 1725,
+  "initial": "the people appear to be skiing on the mountain",
+  "initial_rank": 115,
+  "displayed": [
+    28174,
+    36662,
+    30894,
+    15191,
+    46336,
+    24384,
+    36356,
+    31015,
+    25968,
+    43148
+  ],
+  "evidence": [
+    "three people on skis walking across a forest path",
+    "a group of snowboarders performing tricks",
+    "a person is skiing up a mountain with a large mountain in the background",
+    "an old woman in a blue jacket on skis",
+    "two women skiing down a snowy slope",
+    "three people on snowboards that are on top of a cliff",
+    "a group of skiers gathered at a sign",
+    "a person is going down a snow covered slope with a ski lift",
+    "a skier in a snow covered grove",
+    "four people wearing ski jackets pose for a photo"
+  ],
+  "rejected_captions": [
+    "a skier is skiing down a mountain",
+    "snowy, sloppy hill",
+    "people ski down a snow covered slope",
+    "a group of people riding skis and holding ski poles",
+    "a group of people riding a ski slope",
+    "a snow covered mountain",
+    "people skiing on snowy trails",
+    "a lot of people skiing at a mountaintop",
+    "skiers stand on a snowy mountainside",
+    "a small group of skiers are in the snow"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the clothing color of one of the people skiing on the mountain?",
+      "what is the color of the jacket worn by the old woman skiing?",
+      "Question: What is the background scenery behind the people skiing on the mountain?",
+      "Question: What is the gender of one of the people skiing on the mountain?",
+      "what is the number of people skiing on the mountain?"
+    ],
+    "question": "what is the color of the jacket worn by the old woman skiing?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the clothing color of one of the people skiing on the mountain?",
+          "answers": [
+            "blue",
+            "white",
+            "black"
+          ],
+          "score": 0.10022401809692383
+        },
+        {
+          "question": "what is the color of the jacket worn by the old woman skiing?",
+          "answers": [
+            "blue",
+            "red",
+            "black"
+          ],
+          "score": 0.1354808807373047
+        },
+        {
+          "question": "Question: What is the background scenery behind the people skiing on the mountain?",
+          "answers": [
+            "a large mountain",
+            "a ski lift",
+            "a snowy grove"
+          ],
+          "score": 0.10648727416992188
+        },
+        {
+          "question": "Question: What is the gender of one of the people skiing on the mountain?",
+          "answers": [
+            "male",
+            "female",
+            "child"
+          ],
+          "score": 0.06165170669555664
+        },
+        {
+          "question": "what is the number of people skiing on the mountain?",
+          "answers": [
+            "1",
+            "2",
+            "3"
+          ],
+          "score": 0.0013256072998046875
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.078,
+      "probe_selection_seconds": 2.389,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "blue",
+    "rewrite": "an old woman wearing a blue jacket is skiing on a mountain",
+    "raw_rank": 187,
+    "unseen_rank": 187
+  },
+  "rejected": {
+    "candidates": [
+      "Question: How many people are skiing in the image?",
+      "Question: What color jacket is the person skiing wearing?",
+      "what is the gender of the person skiing in the image?",
+      "what is the other object in the image?",
+      "what is the other object in the image?"
+    ],
+    "question": "Question: What color jacket is the person skiing wearing?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: How many people are skiing in the image?",
+          "answers": [
+            "one",
+            "two",
+            "three"
+          ],
+          "score": 0.026888370513916016
+        },
+        {
+          "question": "Question: What color jacket is the person skiing wearing?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.13573074340820312
+        },
+        {
+          "question": "what is the gender of the person skiing in the image?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.03196239471435547
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "ski lift",
+            "mountain",
+            "snow"
+          ],
+          "score": 0.08044910430908203
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "ski lift",
+            "mountain",
+            "snow"
+          ],
+          "score": 0.08044910430908203,
+          "duplicate_of": 3
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.154,
+      "probe_selection_seconds": 1.892,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "blue",
+    "rewrite": "a person wearing a blue jacket is skiing on a mountain",
+    "raw_rank": 39,
+    "unseen_rank": 39
+  }
+}

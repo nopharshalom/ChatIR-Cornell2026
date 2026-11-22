@@ -1,0 +1,178 @@
+{
+  "qid": 1393,
+  "initial": "a cat is sitting with their paws on top of a computer keyboard",
+  "initial_rank": 17,
+  "displayed": [
+    38331,
+    1807,
+    4980,
+    67,
+    10237,
+    36923,
+    39305,
+    48584,
+    44465,
+    24805
+  ],
+  "evidence": [
+    "a dog on a laptop",
+    "a black cat lays down on a laptop keyboard",
+    "a keyboard with an imac mouse is sitting on a desk",
+    "a black and gray cat sitting on a laptop",
+    "a black cat laying on a bed with a remote",
+    "a black cat is sitting on a laptop on a table",
+    "a guy on a surfboard falls off his board",
+    "orange and white cat sitting on wooden chair",
+    "a white computer keyboard with a man's hand on it",
+    "a cat is sleeping on a desk with a computer, laptop and books"
+  ],
+  "rejected_captions": [
+    "cat is black and white",
+    "a cat laying on a keyboard",
+    "a cat on a desk",
+    "the cat is sitting on top of a computer keyboard",
+    "small kitten sits on a laptop on a wooden table",
+    "a white computer",
+    "cat sitting in front of a monitor",
+    "a cat that is on top of a keyboard",
+    "a cat sleeping on a computer keyboard",
+    "a cat sits on a keyboard"
+  ],
+  "usual": {
+    "candidates": [
+      "what color is the cat sitting on the laptop with its paws on the keyboard?",
+      "what is the color of the cat sitting on the desk with a computer, laptop and books?",
+      "what is the color of the cat sitting on the bed with a remote?",
+      "what is the color of the cat that is laying on a laptop keyboard?",
+      "what is the color of the cat sitting on the laptop on a table?"
+    ],
+    "question": "what is the color of the cat sitting on the laptop on a table?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what color is the cat sitting on the laptop with its paws on the keyboard?",
+          "answers": [
+            "black",
+            "white",
+            "orange and white"
+          ],
+          "score": 0.18524599075317383
+        },
+        {
+          "question": "what is the color of the cat sitting on the desk with a computer, laptop and books?",
+          "answers": [
+            "black",
+            "gray",
+            "black and gray"
+          ],
+          "score": 0.0446014404296875
+        },
+        {
+          "question": "what is the color of the cat sitting on the bed with a remote?",
+          "answers": [
+            "black",
+            "orange and white",
+            "white"
+          ],
+          "score": 0.200103759765625
+        },
+        {
+          "question": "what is the color of the cat that is laying on a laptop keyboard?",
+          "answers": [
+            "black",
+            "black and gray"
+          ],
+          "score": 0.03638410568237305
+        },
+        {
+          "question": "what is the color of the cat sitting on the laptop on a table?",
+          "answers": [
+            "black",
+            "gray",
+            "orange and white"
+          ],
+          "score": 0.27181148529052734
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.059,
+      "probe_selection_seconds": 2.333,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 14
+    },
+    "answer": "brown",
+    "rewrite": "a brown cat is sitting with its paws on top of a computer keyboard on a table",
+    "raw_rank": 14,
+    "unseen_rank": 9
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the color of the cat sitting on the keyboard?",
+      "Question: What is the color of the cat sitting on the keyboard?",
+      "Question: What is the color of the cat's fur?",
+      "Question: What is the color of the cat sitting on the keyboard?",
+      "What color is the cat sitting on the computer keyboard?"
+    ],
+    "question": "Question: What is the color of the cat's fur?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the color of the cat sitting on the keyboard?",
+          "answers": [
+            "black",
+            "white",
+            "orange"
+          ],
+          "score": 0.08541154861450195
+        },
+        {
+          "question": "Question: What is the color of the cat sitting on the keyboard?",
+          "answers": [
+            "black",
+            "white",
+            "orange"
+          ],
+          "score": 0.08541154861450195,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the cat's fur?",
+          "answers": [
+            "black",
+            "white",
+            "orange"
+          ],
+          "score": 0.13715410232543945
+        },
+        {
+          "question": "Question: What is the color of the cat sitting on the keyboard?",
+          "answers": [
+            "black",
+            "white",
+            "orange"
+          ],
+          "score": 0.08541154861450195,
+          "duplicate_of": 0
+        },
+        {
+          "question": "What color is the cat sitting on the computer keyboard?",
+          "answers": [
+            "black",
+            "orange and white",
+            "white"
+          ],
+          "score": 0.10278654098510742
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.057,
+      "probe_selection_seconds": 1.349,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "brown",
+    "rewrite": "a brown cat is sitting with its paws on top of a computer keyboard",
+    "raw_rank": 8,
+    "unseen_rank": 4
+  }
+}

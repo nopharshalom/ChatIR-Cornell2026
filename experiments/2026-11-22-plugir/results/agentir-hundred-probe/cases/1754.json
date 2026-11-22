@@ -1,0 +1,100 @@
+{
+  "qid": 1754,
+  "initial": "a white plate full of food sitting on a wooden table",
+  "initial_rank": 34,
+  "evidence": [
+    "a sandwich and salad with chips and ketchup on a plate",
+    "the plate contains broccoli, steak and rice",
+    "a toasted sandwich with french fries",
+    "a plate of broccoli, carrots, and other veggies",
+    "a breakfast plate with sausage, eggs, potatoes and toast",
+    "a plate with a rice, broccoli and steak",
+    "eggs benedict with potatoes and fries on a plate",
+    "a pizza on a plate topped with corn chips and a coke",
+    "a plate of broccoli, a carrot, and a sauce on a table",
+    "a half sandwich and potato chips sitting on a plate"
+  ],
+  "candidates": [
+    "what is the specific type of food served on the white plate?",
+    "what is the specific arrangement of food items on the white plate?",
+    "what is the material of the table where the white plate is sitting?",
+    "what is the color of the plate containing the food?",
+    "what is the specific food item located on the left side of the white plate?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the specific type of food served on the white plate?",
+      "answers": [
+        "broccoli and steak",
+        "sandwich and chips",
+        "breakfast plate"
+      ],
+      "score": 0.25916242599487305
+    },
+    {
+      "question": "what is the specific arrangement of food items on the white plate?",
+      "answers": [
+        "broccoli and steak",
+        "steak and rice",
+        "broccoli and carrots"
+      ],
+      "score": 0.15470123291015625
+    },
+    {
+      "question": "what is the material of the table where the white plate is sitting?",
+      "answers": [
+        "wooden",
+        "plastic",
+        "glass"
+      ],
+      "score": 0.026412010192871094
+    },
+    {
+      "question": "what is the color of the plate containing the food?",
+      "answers": [
+        "white",
+        "black",
+        "blue"
+      ],
+      "score": 0.04633188247680664
+    },
+    {
+      "question": "what is the specific food item located on the left side of the white plate?",
+      "answers": [
+        "sandwich",
+        "broccoli",
+        "toasted sandwich"
+      ],
+      "score": 0.2339029312133789
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.151,
+  "probe_selection_seconds": 2.662,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the material of the table where the white plate is sitting?",
+      "answer": "wood",
+      "rewrite": "A white plate filled with food resting on a wooden table.",
+      "rank": 68,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the specific food item located on the left side of the white plate?",
+      "answer": "sandwich",
+      "rewrite": "a white plate with a sandwich on the left side, full of food, sitting on a wooden table",
+      "rank": 2,
+      "hit": true
+    },
+    "probe": {
+      "question": "what is the specific type of food served on the white plate?",
+      "answer": "sandwich",
+      "rewrite": "a white plate with a sandwich sitting on a wooden table",
+      "rank": 38,
+      "hit": false
+    }
+  },
+  "seconds": 26.896
+}

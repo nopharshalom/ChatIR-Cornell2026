@@ -1,0 +1,79 @@
+{
+  "qid": 1113,
+  "sample": 2,
+  "first_candidates": [
+    "Question: Are there bananas on the table?",
+    "Question: Do the items on the table include vegetables?",
+    "Question: Which specific fruit items are present on the table?",
+    "Question: Is there a cup of tea on the table besides the fruit?",
+    "Question: Question: What is the color of the fruit bowl on the table?"
+  ],
+  "second_candidates": [
+    "Question: What is the specific arrangement of fruit items on the table?",
+    "Question: Which specific fruits are present on the table?",
+    "Question: Is there a cup of tea on the table with the fruit?",
+    "Question: Question: What is the color of the fruit bowl on the table?",
+    "Question: Question: What is the color of the fruit bowl on the table?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What is the specific arrangement of fruit items on the table?",
+      "answers": [
+        "just oranges",
+        "mixed fruit with bowls",
+        "only vegetables"
+      ],
+      "score": 0.07615280151367188
+    },
+    {
+      "question": "Question: Which specific fruits are present on the table?",
+      "answers": [
+        "apples",
+        "bananas",
+        "oranges"
+      ],
+      "score": 0.1364741325378418
+    },
+    {
+      "question": "Question: Is there a cup of tea on the table with the fruit?",
+      "answers": [
+        "yes",
+        "no",
+        "unsure"
+      ],
+      "score": 0.0014491081237792969
+    },
+    {
+      "question": "Question: Question: What is the color of the fruit bowl on the table?",
+      "answers": [
+        "orange",
+        "red",
+        "yellow"
+      ],
+      "score": 0.056406497955322266
+    },
+    {
+      "question": "Question: Question: What is the color of the fruit bowl on the table?",
+      "answers": [
+        "orange",
+        "red",
+        "yellow"
+      ],
+      "score": 0.056406497955322266,
+      "duplicate_of": 3
+    }
+  ],
+  "control": {
+    "question": "Question: Which specific fruits are present on the table?",
+    "score": 0.1364741325378418
+  },
+  "mixed": {
+    "question": "Question: What specific fruits are visible on the table?",
+    "score": 0.13360977172851562
+  },
+  "control_rank": 27,
+  "mixed_rank": 27,
+  "usual_rank": 27,
+  "new_answer": "Apples and oranges.",
+  "new_rewrite": "a table is filled with assorted fruit, specifically apples and oranges, along with bowls"
+}

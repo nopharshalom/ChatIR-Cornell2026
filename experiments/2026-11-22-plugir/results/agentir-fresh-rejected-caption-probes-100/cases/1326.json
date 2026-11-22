@@ -1,0 +1,180 @@
+{
+  "qid": 1326,
+  "initial": "a person skies down a snow covered hill",
+  "initial_rank": 20,
+  "displayed": [
+    24560,
+    10607,
+    18686,
+    30059,
+    1232,
+    33435,
+    11931,
+    17093,
+    48212,
+    36314
+  ],
+  "evidence": [
+    "a snowboarder going down a slope with a tree in the background",
+    "two trees and lots of snow on the ground",
+    "a young girl is on skis in the woods",
+    "a group of skiers on a race track",
+    "a person in a red coat standing in a wooded area",
+    "skier is skidding on top of a steep rocky cliff",
+    "a skier wearing red clothes racing",
+    "man riding snow skis in a forest covered in snow",
+    "two people are skiing on the slopes in the distance",
+    "a man in an orange jacket skis down a hill"
+  ],
+  "rejected_captions": [
+    "a man on skis in the snow",
+    "a skier riding down a hill",
+    "a person skiing down a hill",
+    "a man riding on skis down a slope",
+    "a skier is going down a hill",
+    "a person skiing down a snow covered slope",
+    "a person is skiing down a snow covered mountain",
+    "a person skiing down a slope covered in snow",
+    "a person skiing down a snowy slope",
+    "the skier is on a slope"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the color of the person's jacket?",
+      "Question: What is the gender of the person skiing down the snow-covered hill?",
+      "what is the specific location where the person is skiing?",
+      "Question: What color is the jacket worn by the person skiing down the snow-covered hill?",
+      "what is the gender of the skier wearing the red coat?"
+    ],
+    "question": "what is the color of the person's jacket?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the person's jacket?",
+          "answers": [
+            "red",
+            "orange",
+            "blue"
+          ],
+          "score": 0.1875753402709961
+        },
+        {
+          "question": "Question: What is the gender of the person skiing down the snow-covered hill?",
+          "answers": [
+            "male",
+            "female",
+            "child"
+          ],
+          "score": 0.04848957061767578
+        },
+        {
+          "question": "what is the specific location where the person is skiing?",
+          "answers": [
+            "a forest",
+            "a slope",
+            "a cliff"
+          ],
+          "score": 0.1511092185974121
+        },
+        {
+          "question": "Question: What color is the jacket worn by the person skiing down the snow-covered hill?",
+          "answers": [
+            "red",
+            "orange",
+            "blue"
+          ],
+          "score": 0.16795110702514648
+        },
+        {
+          "question": "what is the gender of the skier wearing the red coat?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.023936748504638672
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.152,
+      "probe_selection_seconds": 2.291,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "red",
+    "rewrite": "a person in a red jacket skies down a snow covered hill",
+    "raw_rank": 15,
+    "unseen_rank": 13
+  },
+  "rejected": {
+    "candidates": [
+      "what is the color of the person's jacket?",
+      "Question: What is the color of the person's jacket?",
+      "Question: What is the color of the person's jacket?",
+      "Question: What is the color of the person's jacket?",
+      "Question: What is the color of the person's jacket?"
+    ],
+    "question": "what is the color of the person's jacket?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the person's jacket?",
+          "answers": [
+            "red",
+            "orange",
+            "blue"
+          ],
+          "score": 0.1875753402709961
+        },
+        {
+          "question": "Question: What is the color of the person's jacket?",
+          "answers": [
+            "red",
+            "orange",
+            "white"
+          ],
+          "score": 0.1497182846069336
+        },
+        {
+          "question": "Question: What is the color of the person's jacket?",
+          "answers": [
+            "red",
+            "orange",
+            "white"
+          ],
+          "score": 0.1497182846069336,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the person's jacket?",
+          "answers": [
+            "red",
+            "orange",
+            "white"
+          ],
+          "score": 0.1497182846069336,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the person's jacket?",
+          "answers": [
+            "red",
+            "orange",
+            "white"
+          ],
+          "score": 0.1497182846069336,
+          "duplicate_of": 1
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.151,
+      "probe_selection_seconds": 0.884,
+      "probe_llm_calls": 2,
+      "probe_search_queries": 6
+    },
+    "answer": "red",
+    "rewrite": "a person in a red jacket skies down a snow covered hill",
+    "raw_rank": 15,
+    "unseen_rank": 13
+  }
+}

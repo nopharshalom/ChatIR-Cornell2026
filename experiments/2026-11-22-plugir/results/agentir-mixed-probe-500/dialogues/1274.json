@@ -1,0 +1,280 @@
+{
+  "qid": 1274,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000321934.jpg",
+  "queries": [
+    "a motorcycle parked on the side of the road",
+    "a black motorcycle parked on the side of the road",
+    "a black motorcycle parked on a rural road stretching into the distance, flanked by open fields and a line of trees on the horizon, under a clear sky with a soft gradient suggesting early morning or late evening light"
+  ],
+  "ranks": [
+    21,
+    22,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a motorcycle parked on the side of the road",
+      "question": "what is the color of the motorcycle in the image?",
+      "answer": "black",
+      "query_after": "a black motorcycle parked on the side of the road",
+      "displayed_ids": [
+        14218,
+        10271,
+        18571,
+        45611,
+        36138,
+        18659,
+        31395,
+        35494,
+        14339,
+        47982
+      ],
+      "selected_ids": [
+        10870,
+        49032,
+        18308,
+        46326,
+        24041,
+        40405,
+        22271,
+        45436,
+        30383,
+        13527
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the motorcycle parked on the side of the road?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.2120037078857422
+        },
+        {
+          "question": "what is the color of the motorcycle in the image?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.2529778480529785
+        },
+        {
+          "question": "what is the color of the motorcycle in the image?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.2529778480529785,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the motorcycle parked on the side of the road?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.2120037078857422,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the motorcycle parked on the side of the road?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.2120037078857422,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the motorcycle parked on the side of the road?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.2120037078857422
+        },
+        {
+          "question": "Question: What color is the helmet worn by the person riding the motorcycle?",
+          "answers": [
+            "black",
+            "yellow",
+            "none"
+          ],
+          "score": 0.09704065322875977
+        },
+        {
+          "question": "Question: What color is the jacket worn by the person riding the motorcycle?",
+          "answers": [
+            "black",
+            "blue",
+            "none"
+          ],
+          "score": 0.06078052520751953
+        },
+        {
+          "question": "Question: What is the color of the jacket worn by the person riding the motorcycle?",
+          "answers": [
+            "black",
+            "yellow",
+            "none"
+          ],
+          "score": 0.08703804016113281
+        },
+        {
+          "question": "what is the color of the motorcycle parked on the side of the road?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.2120037078857422,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a black motorcycle parked on the side of the road",
+      "question": "what is the background scenery behind the parked black motorcycle?",
+      "answer": "The background scenery behind the parked black motorcycle includes a rural road stretching into the distance, flanked by open fields and a line of trees on the horizon. The sky is clear with a soft gradient, suggesting either early morning or late evening light",
+      "query_after": "a black motorcycle parked on a rural road stretching into the distance, flanked by open fields and a line of trees on the horizon, under a clear sky with a soft gradient suggesting early morning or late evening light",
+      "displayed_ids": [
+        18659,
+        10228,
+        14339,
+        10271,
+        14218,
+        22446,
+        49399,
+        21539,
+        47982,
+        41917
+      ],
+      "selected_ids": [
+        4282,
+        45436,
+        27235,
+        44495,
+        34453,
+        13527,
+        9963,
+        49399,
+        49032,
+        37904
+      ],
+      "rejected_count": 15,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "trees",
+            "sky",
+            "road"
+          ],
+          "score": 0.08624601364135742
+        },
+        {
+          "question": "what is the color of the motorcycles parked in the parking lot?",
+          "answers": [
+            "black",
+            "red",
+            "white"
+          ],
+          "score": 0.06714057922363281
+        },
+        {
+          "question": "what is the color of the motorcycle parked on the side of the road?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.06675004959106445
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "trees",
+            "sky",
+            "road"
+          ],
+          "score": 0.08624601364135742,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the motorcycle parked on the side of the road?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.06675004959106445,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the background scenery behind the parked black motorcycle?",
+          "answers": [
+            "trees",
+            "street",
+            "building"
+          ],
+          "score": 0.08959150314331055
+        },
+        {
+          "question": "Question: Is the parked black motorcycle sitting in front of a building, near a lake, or on a street corner?",
+          "answers": [
+            "in front of a building",
+            "near a lake",
+            "on a street corner"
+          ],
+          "score": 0.010207653045654297
+        },
+        {
+          "question": "Question: Is the parked black motorcycle parked in a parking lot, on a street corner, or near a lake?",
+          "answers": [
+            "parking lot",
+            "street corner",
+            "near a lake"
+          ],
+          "score": 0.01549530029296875
+        },
+        {
+          "question": "what is the background scenery behind the parked black motorcycle?",
+          "answers": [
+            "trees",
+            "street",
+            "building"
+          ],
+          "score": 0.08959150314331055,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the background scenery behind the parked black motorcycle?",
+          "answers": [
+            "trees",
+            "street",
+            "building"
+          ],
+          "score": 0.08959150314331055,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

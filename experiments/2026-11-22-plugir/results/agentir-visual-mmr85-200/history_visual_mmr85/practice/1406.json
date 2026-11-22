@@ -1,0 +1,119 @@
+{
+  "ids": [
+    25701,
+    19565,
+    48873,
+    44273
+  ],
+  "prefix": [
+    "the flags are moving in the middle of the city",
+    "what is the color of the flag hanging on the building? there is no flag visible in the image."
+  ],
+  "default": "what are the flags moving in the middle of the city?",
+  "chosen": "what are the flags moving in the middle of the city?",
+  "trials": {
+    "what are the flags moving in the middle of the city?": {
+      "answers": [
+        "prayer flags",
+        "wind",
+        "pink",
+        "there are no flags visible in the image."
+      ],
+      "rewrites": {
+        "prayer flags": "prayer flags are moving in the middle of the city, with no flag visible hanging on the building",
+        "wind": "the flags are moving in the middle of the city due to the wind, with no flag visible hanging on the building",
+        "pink": "pink flags are moving in the middle of the city",
+        "there are no flags visible in the image.": "an empty city street with no visible flags"
+      },
+      "ranks": [
+        1,
+        23,
+        5,
+        58
+      ],
+      "hits": 2
+    },
+    "Question: Are there any people visible in the image?": {
+      "answers": [
+        "yes",
+        "no",
+        "Yes",
+        "yes"
+      ],
+      "rewrites": {
+        "yes": "the flags are moving in the middle of the city, with no flag visible on the building, and people are present in the image",
+        "no": "no flags are visible in the image, and there are no people present",
+        "Yes": "the flags are moving in the middle of the city, with no flag visible on the building, and people are present in the image"
+      },
+      "ranks": [
+        15,
+        122,
+        24,
+        163
+      ],
+      "hits": 0
+    },
+    "what is the type of building where the flags are hanging?": {
+      "answers": [
+        "temple",
+        "clock tower",
+        "a pavilion",
+        "skyscraper"
+      ],
+      "rewrites": {
+        "temple": "a temple in the middle of the city with flags moving in front of it",
+        "clock tower": "a clock tower in the middle of the city with flags moving in the wind, with no flag visible hanging on the building itself",
+        "a pavilion": "flags are moving in the middle of the city in front of a pavilion",
+        "skyscraper": "skyscrapers with flags moving in the middle of the city"
+      },
+      "ranks": [
+        3,
+        15,
+        35,
+        20
+      ],
+      "hits": 1
+    },
+    "what is the weather condition in the image?": {
+      "answers": [
+        "sunny",
+        "clear",
+        "sunny",
+        "partly cloudy"
+      ],
+      "rewrites": {
+        "sunny": "sunny city scene with flags moving in the middle, though no flag is visible hanging on the building",
+        "clear": "clear weather in the middle of the city with no visible flags",
+        "partly cloudy": "the flags are moving in the middle of the city under partly cloudy skies, with no flag visible hanging on the building"
+      },
+      "ranks": [
+        10,
+        69,
+        91,
+        23
+      ],
+      "hits": 1
+    },
+    "what is the color of the flags moving in the middle of the city?": {
+      "answers": [
+        "multicolored",
+        "red, white, and blue",
+        "pink",
+        "blue"
+      ],
+      "rewrites": {
+        "multicolored": "multicolored flags are moving in the middle of the city, with no flag visible on the building",
+        "red, white, and blue": "red, white, and blue flags are moving in the middle of the city",
+        "pink": "pink flags moving in the middle of the city",
+        "blue": "blue flags moving in the middle of the city"
+      },
+      "ranks": [
+        9,
+        54,
+        5,
+        44
+      ],
+      "hits": 2
+    }
+  }
+}

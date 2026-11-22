@@ -1,0 +1,101 @@
+{
+  "qid": 1823,
+  "initial": "a train moving down the tracks while a car waits",
+  "initial_rank": 341,
+  "evidence": [
+    "a red train goes down railroad tracks near a farm",
+    "a blue and yellow train goes through countryside",
+    "an empty subway platform with two red and white trains",
+    "a yellow and black train traveling on the tracks at night",
+    "a red and blue train is on a track passing by some buildings",
+    "a red and white train near a city train station",
+    "a black and yellow train in a field",
+    "a large red and white train going down the tracks near some trees",
+    "a yellow and black train engine",
+    "a red train going through the countryside"
+  ],
+  "candidates": [
+    "Question: What is the color of the train in the image?",
+    "What is the color of the car waiting near the train?",
+    "what is the color of the car waiting near the train?",
+    "Question: What is the color of the train?",
+    "what is the color of the car waiting near the train?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: What is the color of the train in the image?",
+      "answers": [
+        "red",
+        "blue",
+        "black"
+      ],
+      "score": 0.16000843048095703
+    },
+    {
+      "question": "What is the color of the car waiting near the train?",
+      "answers": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "score": 0.16607141494750977
+    },
+    {
+      "question": "what is the color of the car waiting near the train?",
+      "answers": [
+        "red",
+        "blue",
+        "black"
+      ],
+      "score": 0.13113975524902344
+    },
+    {
+      "question": "Question: What is the color of the train?",
+      "answers": [
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "score": 0.24918889999389648
+    },
+    {
+      "question": "what is the color of the car waiting near the train?",
+      "answers": [
+        "red",
+        "blue",
+        "black"
+      ],
+      "score": 0.13113975524902344,
+      "duplicate_of": 2
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.067,
+  "probe_selection_seconds": 1.844,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "What is the color of the car waiting near the train?",
+      "answer": "black",
+      "rewrite": "a black car waiting near a train moving down the tracks",
+      "rank": 89,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the color of the car waiting near the train?",
+      "answer": "black",
+      "rewrite": "a black car waits near a train moving down the tracks",
+      "rank": 75,
+      "hit": false
+    },
+    "probe": {
+      "question": "Question: What is the color of the train?",
+      "answer": "red",
+      "rewrite": "a red train moving down the tracks while a car waits",
+      "rank": 123,
+      "hit": false
+    }
+  },
+  "seconds": 13.194
+}

@@ -1,0 +1,407 @@
+{
+  "qid": 1288,
+  "sample": "original",
+  "target": "unlabeled2017/000000574982.jpg",
+  "queries": [
+    "some giraffes in a closed zoo area eating",
+    "some giraffes standing on dirt in a closed zoo area eating",
+    "some giraffes standing on a dirt ground in a closed zoo area, with one giraffe eating and another giraffe standing nearby",
+    "some giraffes standing on dirt in a closed zoo area, eating from a stone structure, with another giraffe standing nearby"
+  ],
+  "ranks": [
+    11,
+    19,
+    43,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "some giraffes in a closed zoo area eating",
+      "question": "Question: What is the ground surface where the giraffes are standing?",
+      "answer": "dirt",
+      "query_after": "some giraffes standing on dirt in a closed zoo area eating",
+      "displayed_ids": [
+        1730,
+        47434,
+        44174,
+        38832,
+        47565,
+        2872,
+        24536,
+        49396,
+        45599,
+        35579
+      ],
+      "selected_ids": [
+        49358,
+        7216,
+        41757,
+        15696,
+        41074,
+        29754,
+        39479,
+        32756,
+        33189,
+        1219
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: Is the giraffe standing barefoot?",
+          "answers": [
+            "yes",
+            "no",
+            "not visible"
+          ],
+          "score": 0.000820159912109375
+        },
+        {
+          "question": "Question: Is the giraffe being hand-fed by a woman?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0011334419250488281
+        },
+        {
+          "question": "Question: Are there zebras in the image with the giraffes?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0022478103637695312
+        },
+        {
+          "question": "Question: What is the ground surface where the giraffes are standing?",
+          "answers": [
+            "wooden structure",
+            "woods",
+            "enclosure with stones"
+          ],
+          "score": 0.1521143913269043
+        },
+        {
+          "question": "Question: What is the man (or person) doing in relation to the giraffes?",
+          "answers": [
+            "feeding",
+            "feeding from fence",
+            "feeding by hand"
+          ],
+          "score": 0.03260469436645508
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is the giraffe wearing a scarf?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0006260871887207031
+        },
+        {
+          "question": "Question: What is the giraffes eating?",
+          "answers": [
+            "leaves",
+            "hay",
+            "grass"
+          ],
+          "score": 0.06787443161010742
+        },
+        {
+          "question": "Question: How many giraffes are present in the image?",
+          "answers": [
+            "two",
+            "three",
+            "one"
+          ],
+          "score": 0.014479637145996094
+        },
+        {
+          "question": "what is the material of the fence or structure near the giraffes?",
+          "answers": [
+            "wooden",
+            "metal",
+            "concrete"
+          ],
+          "score": 0.0629277229309082
+        },
+        {
+          "question": "what is the color of the grass in the field where the giraffes are standing?",
+          "answers": [
+            "green",
+            "brown",
+            "tiled"
+          ],
+          "score": 0.014146804809570312
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "some giraffes standing on dirt in a closed zoo area eating",
+      "question": "what type of animal is standing near the giraffe that is eating?",
+      "answer": "giraffe",
+      "query_after": "some giraffes standing on a dirt ground in a closed zoo area, with one giraffe eating and another giraffe standing nearby",
+      "displayed_ids": [
+        38832,
+        47565,
+        1730,
+        47434,
+        45767,
+        2872,
+        38159,
+        49396,
+        6596,
+        44916
+      ],
+      "selected_ids": [
+        23173,
+        39479,
+        15696,
+        38223,
+        1219,
+        11892,
+        28845,
+        26595,
+        41074,
+        8083
+      ],
+      "rejected_count": 14,
+      "usual_paths": [
+        {
+          "question": "What is the color of the spots on the giraffe that is eating?",
+          "answers": [
+            "brown",
+            "white",
+            "black"
+          ],
+          "score": 0.022480487823486328
+        },
+        {
+          "question": "what type of animal is standing near the giraffe that is eating?",
+          "answers": [
+            "elephants",
+            "zebras",
+            "truck"
+          ],
+          "score": 0.0834970474243164
+        },
+        {
+          "question": "what is the color of the spots on the giraffe that is eating?",
+          "answers": [
+            "brown",
+            "white",
+            "black"
+          ],
+          "score": 0.022480487823486328
+        },
+        {
+          "question": "what is the color of the spots on the giraffe that is eating?",
+          "answers": [
+            "brown",
+            "white",
+            "black"
+          ],
+          "score": 0.022480487823486328,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the spots on the giraffe that is eating?",
+          "answers": [
+            "brown",
+            "white",
+            "black"
+          ],
+          "score": 0.022480487823486328,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the giraffe's spots?",
+          "answers": [
+            "brown",
+            "white",
+            "black"
+          ],
+          "score": 0.020192623138427734
+        },
+        {
+          "question": "Question: How many giraffes are visible in the image?",
+          "answers": [
+            "one",
+            "two",
+            "three"
+          ],
+          "score": 0.04610109329223633
+        },
+        {
+          "question": "what is the color of the giraffe's spots?",
+          "answers": [
+            "brown",
+            "white",
+            "black"
+          ],
+          "score": 0.020192623138427734,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the giraffe's spots?",
+          "answers": [
+            "brown",
+            "tan",
+            "dark brown"
+          ],
+          "score": 0.004724025726318359
+        },
+        {
+          "question": "what is the color of the giraffe's spots?",
+          "answers": [
+            "brown",
+            "white",
+            "black"
+          ],
+          "score": 0.020192623138427734,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "some giraffes standing on a dirt ground in a closed zoo area, with one giraffe eating and another giraffe standing nearby",
+      "question": "what is the material of the structure the giraffes are eating from?",
+      "answer": "stone",
+      "query_after": "some giraffes standing on dirt in a closed zoo area, eating from a stone structure, with another giraffe standing nearby",
+      "displayed_ids": [
+        47565,
+        38832,
+        1730,
+        45767,
+        6596,
+        44174,
+        2184,
+        47434,
+        24536,
+        38352
+      ],
+      "selected_ids": [
+        26595,
+        42549,
+        41074,
+        27068,
+        37375,
+        28363,
+        20706,
+        1219,
+        23173,
+        8191
+      ],
+      "rejected_count": 16,
+      "usual_paths": [
+        {
+          "question": "what is the structure or object that the giraffes are eating from?",
+          "answers": [
+            "basket",
+            "fence",
+            "unknown"
+          ],
+          "score": 0.031885623931884766
+        },
+        {
+          "question": "what is the material of the structure the giraffes are eating from?",
+          "answers": [
+            "wooden fence",
+            "basket",
+            "rock formation"
+          ],
+          "score": 0.09949493408203125
+        },
+        {
+          "question": "what is the location of the giraffes that are eating from the wooden fence?",
+          "answers": [
+            "wooden fence",
+            "closed zoo area",
+            "rock formation"
+          ],
+          "score": 0.0480804443359375
+        },
+        {
+          "question": "what is the location of the giraffes that are eating from the wooden fence?",
+          "answers": [
+            "wooden fence",
+            "closed zoo area",
+            "rock formation"
+          ],
+          "score": 0.0480804443359375,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the number of giraffes eating from the wooden fence?",
+          "answers": [
+            "2",
+            "9"
+          ],
+          "score": 0.004312992095947266
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the object the giraffes are eating from?",
+          "answers": [
+            "basket",
+            "fence",
+            "leaves"
+          ],
+          "score": 0.047039031982421875
+        },
+        {
+          "question": "what is the specific object the giraffes are eating from in the image?",
+          "answers": [
+            "basket",
+            "fence",
+            "leaves"
+          ],
+          "score": 0.0543212890625
+        },
+        {
+          "question": "what is the material of the object the giraffes are eating from?",
+          "answers": [
+            "dirt",
+            "basket",
+            "fence"
+          ],
+          "score": 0.0393223762512207
+        },
+        {
+          "question": "what is the object the giraffes are eating from?",
+          "answers": [
+            "basket",
+            "fence",
+            "leaves"
+          ],
+          "score": 0.047039031982421875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the material of the object the giraffes are eating from?",
+          "answers": [
+            "dirt",
+            "basket",
+            "fence"
+          ],
+          "score": 0.0393223762512207,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

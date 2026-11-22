@@ -1,0 +1,1328 @@
+{
+  "qid": 894,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000225737.jpg",
+  "queries": [
+    "a child in winter gear standing on skis",
+    "a child in a blue winter jacket standing on skis",
+    "a child in a blue winter jacket skiing",
+    "a child in a blue winter jacket skiing on skis against a snowy background",
+    "a child wearing a blue jacket and gray hat stands on skis in a snowy background, skiing",
+    "a child wearing a blue jacket, gray hat, and black pants stands on skis in a snowy landscape, engaged in skiing",
+    "a female child in a blue jacket, gray hat, and black pants stands on skis, skiing on a snowy background",
+    "a female child in a blue jacket, gray hat, and black pants stands on white skis, skiing on a snowy background",
+    "a female child in a blue jacket, black pants, and a gray hat stands on white skis wearing pink gloves, skiing on a snowy background",
+    "a female child wearing a blue jacket, gray hat, black pants, and pink gloves stands on white skis against a snowy background, with a white scarf around her neck",
+    "a female child in a blue jacket, black pants, gray hat, and pink gloves stands on white skis, wearing a white scarf, skiing on a snowy background"
+  ],
+  "ranks": [
+    15,
+    98,
+    100,
+    130,
+    164,
+    168,
+    113,
+    102,
+    29,
+    11,
+    19
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a child in winter gear standing on skis",
+      "question": "what is the color of the jacket worn by the child?",
+      "answer": "blue",
+      "query_after": "a child in a blue winter jacket standing on skis",
+      "displayed_ids": [
+        21994,
+        27753,
+        17581,
+        30961,
+        19594,
+        2090,
+        45636,
+        40255,
+        49668,
+        44422
+      ],
+      "selected_ids": [
+        47936,
+        5000,
+        17859,
+        40657,
+        18452,
+        35403,
+        45742,
+        8643,
+        39598,
+        20246
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: What color is the jacket worn by the child standing on the skis?",
+          "answers": [
+            "blue",
+            "red"
+          ],
+          "score": 0.0578913688659668
+        },
+        {
+          "question": "what color is the jacket worn by the person in image 6?",
+          "answers": [
+            "blue",
+            "white",
+            "black"
+          ],
+          "score": 0.07985353469848633
+        },
+        {
+          "question": "what is the color of the jacket worn by the person in image 1?",
+          "answers": [
+            "black",
+            "dark",
+            "gray"
+          ],
+          "score": 0.03293943405151367
+        },
+        {
+          "question": "what is the color of the jacket worn by the child?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.1660776138305664
+        },
+        {
+          "question": "what is the color of the jacket worn by the person in image 2?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.13832521438598633
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the jacket worn by the child standing on the skis?",
+          "answers": [
+            "blue",
+            "red"
+          ],
+          "score": 0.0578913688659668
+        },
+        {
+          "question": "Question: What color is the jacket worn by the child standing on the skis?",
+          "answers": [
+            "blue",
+            "red"
+          ],
+          "score": 0.0578913688659668,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the jacket worn by the child standing on the skis?",
+          "answers": [
+            "blue",
+            "red"
+          ],
+          "score": 0.0578913688659668,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the jacket worn by the child?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.1227421760559082
+        },
+        {
+          "question": "Question: What color is the jacket worn by the person standing on the skis?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.05966329574584961
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a child in a blue winter jacket standing on skis",
+      "question": "what is the activity the child is performing on the skis?",
+      "answer": "skiing",
+      "query_after": "a child in a blue winter jacket skiing",
+      "displayed_ids": [
+        11874,
+        27753,
+        24661,
+        21994,
+        15962,
+        2090,
+        37520,
+        19919,
+        45636,
+        44422
+      ],
+      "selected_ids": [
+        20040,
+        8643,
+        43549,
+        5000,
+        47889,
+        8334,
+        15386,
+        20246,
+        40657,
+        35403
+      ],
+      "rejected_count": 15,
+      "usual_paths": [
+        {
+          "question": "what is the color of the pants worn by the child?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.028597354888916016
+        },
+        {
+          "question": "what is the color of the pants worn by the child?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.028597354888916016,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the pants worn by the child?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.025488853454589844
+        },
+        {
+          "question": "what is the color of the pants worn by the child in the image?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.025709152221679688
+        },
+        {
+          "question": "what is the activity the child is performing on the skis?",
+          "answers": [
+            "standing",
+            "sitting",
+            "lying down"
+          ],
+          "score": 0.028853416442871094
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the pants worn by the child?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.028597354888916016
+        },
+        {
+          "question": "what color is the hat worn by the child?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.019012928009033203
+        },
+        {
+          "question": "what is the color of the hat worn by the child?",
+          "answers": [
+            "blue",
+            "red",
+            "black"
+          ],
+          "score": 0.022562503814697266
+        },
+        {
+          "question": "Question: what is the color of the pants worn by the child?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.025488853454589844
+        },
+        {
+          "question": "what is the gender of the child standing on skis?",
+          "answers": [
+            "boy",
+            "girl",
+            "child"
+          ],
+          "score": 0.016985416412353516
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a child in a blue winter jacket skiing",
+      "question": "what is the background scenery where the child is skiing?",
+      "answer": "snow",
+      "query_after": "a child in a blue winter jacket skiing on skis against a snowy background",
+      "displayed_ids": [
+        11874,
+        27753,
+        32663,
+        19919,
+        44422,
+        45636,
+        40657,
+        15962,
+        37520,
+        42600
+      ],
+      "selected_ids": [
+        15962,
+        1159,
+        46255,
+        42264,
+        40657,
+        36167,
+        49628,
+        5000,
+        43549,
+        24765
+      ],
+      "rejected_count": 18,
+      "usual_paths": [
+        {
+          "question": "what is the background scenery where the child is skiing?",
+          "answers": [
+            "woods",
+            "mountain",
+            "slope"
+          ],
+          "score": 0.04554319381713867
+        },
+        {
+          "question": "what is the background scenery where the child is skiing?",
+          "answers": [
+            "woods",
+            "mountain",
+            "slope"
+          ],
+          "score": 0.04554319381713867,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the pants worn by the child?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.03812837600708008
+        },
+        {
+          "question": "what is the gender of the child standing on skis?",
+          "answers": [
+            "boy",
+            "girl",
+            "man"
+          ],
+          "score": 0.03273725509643555
+        },
+        {
+          "question": "what is the gender of the child standing on skis?",
+          "answers": [
+            "boy",
+            "girl",
+            "man"
+          ],
+          "score": 0.03273725509643555,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the gender of the child standing on the skis?",
+          "answers": [
+            "boy",
+            "girl",
+            "man"
+          ],
+          "score": 0.03355884552001953
+        },
+        {
+          "question": "what is the gender of the child standing on the skis?",
+          "answers": [
+            "boy",
+            "girl",
+            "man"
+          ],
+          "score": 0.03355884552001953,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the pants worn by the child?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.03812837600708008
+        },
+        {
+          "question": "what is the color of the pants worn by the child?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.03812837600708008,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the setting of the scene where the child is skiing?",
+          "answers": [
+            "snowy hill",
+            "woods",
+            "slope"
+          ],
+          "score": 0.04408454895019531
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 3,
+      "query_before": "a child in a blue winter jacket skiing on skis against a snowy background",
+      "question": "what is the color of the hat worn by the child?",
+      "answer": "gray",
+      "query_after": "a child wearing a blue jacket and gray hat stands on skis in a snowy background, skiing",
+      "displayed_ids": [
+        11874,
+        32663,
+        27753,
+        19919,
+        24661,
+        44422,
+        45636,
+        37520,
+        40657,
+        42600
+      ],
+      "selected_ids": [
+        43501,
+        15386,
+        7959,
+        30265,
+        15962,
+        41518,
+        8642,
+        31539,
+        43549,
+        46255
+      ],
+      "rejected_count": 18,
+      "usual_paths": [
+        {
+          "question": "what is the gender of the child in the image?",
+          "answers": [
+            "boy",
+            "girl",
+            "other"
+          ],
+          "score": 0.015491962432861328
+        },
+        {
+          "question": "what is the gender of the child in the image?",
+          "answers": [
+            "boy",
+            "girl",
+            "other"
+          ],
+          "score": 0.015491962432861328,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the gender of the child wearing a blue jacket in the snow?",
+          "answers": [
+            "boy",
+            "girl"
+          ],
+          "score": 0.029102802276611328
+        },
+        {
+          "question": "what is the gender of the child in the image?",
+          "answers": [
+            "boy",
+            "girl",
+            "other"
+          ],
+          "score": 0.015491962432861328,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the gender of the child wearing a blue jacket in the snow?",
+          "answers": [
+            "boy",
+            "girl"
+          ],
+          "score": 0.029102802276611328,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the hair color of the child?",
+          "answers": [
+            "blonde",
+            "brown",
+            "black"
+          ],
+          "score": 0.015668869018554688
+        },
+        {
+          "question": "what is the gender of the child?",
+          "answers": [
+            "boy",
+            "girl"
+          ],
+          "score": 0.02136087417602539
+        },
+        {
+          "question": "Question: Is the child wearing a hat?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0007700920104980469
+        },
+        {
+          "question": "what is the color of the pants worn by the child?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.02171945571899414
+        },
+        {
+          "question": "what is the color of the hat worn by the child?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.07803773880004883
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 4,
+      "query_before": "a child wearing a blue jacket and gray hat stands on skis in a snowy background, skiing",
+      "question": "what color are the pants worn by the child?",
+      "answer": "black",
+      "query_after": "a child wearing a blue jacket, gray hat, and black pants stands on skis in a snowy landscape, engaged in skiing",
+      "displayed_ids": [
+        27753,
+        11874,
+        19919,
+        32663,
+        24661,
+        37520,
+        44422,
+        2090,
+        15962,
+        40729
+      ],
+      "selected_ids": [
+        15962,
+        47889,
+        34147,
+        5079,
+        46255,
+        43549,
+        17288,
+        18452,
+        5000,
+        10175
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "what is the color of the pants worn by the child?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.09707260131835938
+        },
+        {
+          "question": "what is the color of the pants worn by the child?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.09707260131835938,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the pants worn by the child?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.09707260131835938,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the gender of the child wearing the blue jacket and gray hat?",
+          "answers": [
+            "boy",
+            "girl",
+            "man"
+          ],
+          "score": 0.0326385498046875
+        },
+        {
+          "question": "what is the gender of the child wearing the blue jacket and gray hat?",
+          "answers": [
+            "boy",
+            "girl",
+            "man"
+          ],
+          "score": 0.0326385498046875,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the pants worn by the child?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.09707260131835938
+        },
+        {
+          "question": "what is the color of the pants worn by the child?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.09707260131835938,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the pants worn by the child?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.09707260131835938,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color are the pants worn by the child?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.09836006164550781
+        },
+        {
+          "question": "what color are the pants worn by the child?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.09836006164550781,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a child wearing a blue jacket, gray hat, and black pants stands on skis in a snowy landscape, engaged in skiing",
+      "question": "what is the gender of the child in the image?",
+      "answer": "female",
+      "query_after": "a female child in a blue jacket, gray hat, and black pants stands on skis, skiing on a snowy background",
+      "displayed_ids": [
+        11874,
+        27753,
+        24661,
+        19919,
+        37520,
+        32663,
+        44422,
+        6927,
+        40413,
+        37361
+      ],
+      "selected_ids": [
+        30265,
+        18452,
+        47889,
+        45742,
+        46255,
+        5572,
+        40657,
+        48714,
+        5000,
+        35101
+      ],
+      "rejected_count": 22,
+      "usual_paths": [
+        {
+          "question": "what is the gender of the child in the image?",
+          "answers": [
+            "boy",
+            "girl",
+            "man"
+          ],
+          "score": 0.02729034423828125
+        },
+        {
+          "question": "what is the gender of the child in the image?",
+          "answers": [
+            "boy",
+            "girl",
+            "man"
+          ],
+          "score": 0.02729034423828125,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the gender of the child in the image?",
+          "answers": [
+            "boy",
+            "girl",
+            "man"
+          ],
+          "score": 0.02729034423828125,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the gender of the child in the image?",
+          "answers": [
+            "boy",
+            "girl",
+            "man"
+          ],
+          "score": 0.02729034423828125,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the gender of the child in the image?",
+          "answers": [
+            "boy",
+            "girl",
+            "man"
+          ],
+          "score": 0.02729034423828125,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the snowboard worn by the child?",
+          "answers": [
+            "blue",
+            "black",
+            "gray"
+          ],
+          "score": 0.010266780853271484
+        },
+        {
+          "question": "what is the color of the snowboard worn by the child?",
+          "answers": [
+            "blue",
+            "black",
+            "gray"
+          ],
+          "score": 0.024141788482666016
+        },
+        {
+          "question": "what is the gender of the child in the image?",
+          "answers": [
+            "boy",
+            "girl",
+            "man"
+          ],
+          "score": 0.02729034423828125
+        },
+        {
+          "question": "what is the gender of the child in the image?",
+          "answers": [
+            "boy",
+            "girl",
+            "man"
+          ],
+          "score": 0.02729034423828125,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the snowboard worn by the child?",
+          "answers": [
+            "blue",
+            "black",
+            "gray"
+          ],
+          "score": 0.024141788482666016,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a female child in a blue jacket, gray hat, and black pants stands on skis, skiing on a snowy background",
+      "question": "what is the color of the skis worn by the child?",
+      "answer": "white",
+      "query_after": "a female child in a blue jacket, gray hat, and black pants stands on white skis, skiing on a snowy background",
+      "displayed_ids": [
+        27753,
+        44422,
+        32663,
+        11874,
+        19919,
+        6783,
+        21994,
+        40657,
+        9014,
+        6927
+      ],
+      "selected_ids": [
+        10175,
+        34063,
+        5572,
+        5000,
+        46255,
+        40657,
+        43549,
+        19919,
+        24962,
+        47889
+      ],
+      "rejected_count": 24,
+      "usual_paths": [
+        {
+          "question": "what is the color of the skis worn by the child?",
+          "answers": [
+            "blue",
+            "red",
+            "black"
+          ],
+          "score": 0.06993627548217773
+        },
+        {
+          "question": "what is the color of the skis worn by the child?",
+          "answers": [
+            "blue",
+            "red",
+            "black"
+          ],
+          "score": 0.06993627548217773,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the skis worn by the female child?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.06643295288085938
+        },
+        {
+          "question": "what is the color of the skis worn by the female child?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.06643295288085938,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the skis worn by the female child?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.06643295288085938,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the snowboard worn by the person?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.0684657096862793
+        },
+        {
+          "question": "what is the color of the snowboard worn by the person?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.0684657096862793,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the brand of the skis the child is using?",
+          "answers": [
+            "Nike",
+            "Salomon",
+            "Atomic"
+          ],
+          "score": 0.004095554351806641
+        },
+        {
+          "question": "what is the gender of the person wearing the blue jacket?",
+          "answers": [
+            "female",
+            "male"
+          ],
+          "score": 0.008069515228271484
+        },
+        {
+          "question": "how many people are visible in the image?",
+          "answers": [
+            "one",
+            "two",
+            "three"
+          ],
+          "score": 0.007555961608886719
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a female child in a blue jacket, gray hat, and black pants stands on white skis, skiing on a snowy background",
+      "question": "what color are the gloves worn by the child?",
+      "answer": "pink",
+      "query_after": "a female child in a blue jacket, black pants, and a gray hat stands on white skis wearing pink gloves, skiing on a snowy background",
+      "displayed_ids": [
+        27753,
+        44422,
+        32663,
+        19919,
+        40657,
+        11874,
+        40413,
+        9014,
+        6927,
+        6783
+      ],
+      "selected_ids": [
+        48714,
+        5572,
+        24962,
+        40657,
+        19919,
+        32825,
+        8411,
+        40347,
+        33099
+      ],
+      "rejected_count": 24,
+      "usual_paths": [
+        {
+          "question": "what is the brand of the skis the child is standing on?",
+          "answers": [
+            "Nike",
+            "Salomon",
+            "Atomic"
+          ],
+          "score": 0.004737377166748047
+        },
+        {
+          "question": "what is the background scenery of the man wearing a blue jacket and standing on skis?",
+          "answers": [
+            "snow",
+            "trees",
+            "mountain"
+          ],
+          "score": 0.02650928497314453
+        },
+        {
+          "question": "what is the color of the jacket worn by the man who is skiing down the snow covered hill?",
+          "answers": [
+            "blue",
+            "green",
+            "unknown"
+          ],
+          "score": 0.0439448356628418
+        },
+        {
+          "question": "what is the age of the person wearing a blue jacket and standing on skis?",
+          "answers": [
+            "child",
+            "boy",
+            "girl"
+          ],
+          "score": 0.006980419158935547
+        },
+        {
+          "question": "what is the brand of the skis worn by the child in the image?",
+          "answers": [
+            "Nordica",
+            "Atomic",
+            "Salomon"
+          ],
+          "score": 0.006175518035888672
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the name of the teddy bear headband worn by the child?",
+          "answers": [
+            "brown",
+            "red",
+            "pink"
+          ],
+          "score": 0.03337574005126953
+        },
+        {
+          "question": "what is the name of the teddy bear headband worn by the child?",
+          "answers": [
+            "brown",
+            "red",
+            "pink"
+          ],
+          "score": 0.03337574005126953,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the name of the teddy bear headband worn by the child?",
+          "answers": [
+            "brown",
+            "red",
+            "pink"
+          ],
+          "score": 0.03337574005126953,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color are the gloves worn by the child?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.05224275588989258
+        },
+        {
+          "question": "what is the color of the gloves worn by the child?",
+          "answers": [
+            "blue",
+            "red",
+            "black"
+          ],
+          "score": 0.0486760139465332
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a female child in a blue jacket, black pants, and a gray hat stands on white skis wearing pink gloves, skiing on a snowy background",
+      "question": "what color is the scarf worn by the child?",
+      "answer": "white",
+      "query_after": "a female child wearing a blue jacket, gray hat, black pants, and pink gloves stands on white skis against a snowy background, with a white scarf around her neck",
+      "displayed_ids": [
+        27753,
+        44422,
+        19919,
+        15962,
+        32663,
+        21994,
+        8643,
+        17581,
+        25884,
+        6783
+      ],
+      "selected_ids": [
+        34063,
+        36158,
+        27747,
+        2990,
+        17849,
+        15568,
+        19919,
+        34451,
+        24962
+      ],
+      "rejected_count": 26,
+      "usual_paths": [
+        {
+          "question": "what is the brand of the hat worn by the child?",
+          "answers": [
+            "The North Face",
+            "Columbia",
+            "Patagonia"
+          ],
+          "score": 0.006230354309082031
+        },
+        {
+          "question": "what is the brand of the hat worn by the child?",
+          "answers": [
+            "The North Face",
+            "Columbia",
+            "Patagonia"
+          ],
+          "score": 0.006230354309082031,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the hair color of the female child in the image?",
+          "answers": [
+            "blonde",
+            "brown",
+            "black"
+          ],
+          "score": 0.01445627212524414
+        },
+        {
+          "question": "what is the gender of the child wearing the blue jacket and black pants?",
+          "answers": [
+            "female",
+            "male"
+          ],
+          "score": 0.009856700897216797
+        },
+        {
+          "question": "what is the activity the woman in the image is performing?",
+          "answers": [
+            "skiing",
+            "posing",
+            "riding"
+          ],
+          "score": 0.015254497528076172
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the boots worn by the child?",
+          "answers": [
+            "black",
+            "blue",
+            "brown"
+          ],
+          "score": 0.013981819152832031
+        },
+        {
+          "question": "what is the color of the boots worn by the child?",
+          "answers": [
+            "black",
+            "blue",
+            "brown"
+          ],
+          "score": 0.013981819152832031,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the scarf worn by the child?",
+          "answers": [
+            "pink",
+            "blue",
+            "gray"
+          ],
+          "score": 0.02313089370727539
+        },
+        {
+          "question": "what is the color of the boots worn by the child?",
+          "answers": [
+            "black",
+            "blue",
+            "brown"
+          ],
+          "score": 0.013981819152832031,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the boots worn by the child?",
+          "answers": [
+            "black",
+            "blue",
+            "brown"
+          ],
+          "score": 0.013981819152832031,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "a female child wearing a blue jacket, gray hat, black pants, and pink gloves stands on white skis against a snowy background, with a white scarf around her neck",
+      "question": "what is the color of the pants worn by the child?",
+      "answer": "black",
+      "query_after": "a female child in a blue jacket, black pants, gray hat, and pink gloves stands on white skis, wearing a white scarf, skiing on a snowy background",
+      "displayed_ids": [
+        27753,
+        44422,
+        21994,
+        17581,
+        15962,
+        19919,
+        47936,
+        34063,
+        43334,
+        48554
+      ],
+      "selected_ids": [
+        27747,
+        45893,
+        8411,
+        10175,
+        34063,
+        36714,
+        19919,
+        16790,
+        22025,
+        40657
+      ],
+      "rejected_count": 30,
+      "usual_paths": [
+        {
+          "question": "what is the name of the child in the image?",
+          "answers": [
+            "Emma",
+            "Lily",
+            "Sophie"
+          ],
+          "score": 0.0008797645568847656
+        },
+        {
+          "question": "what is the name of the child in the image?",
+          "answers": [
+            "Emma",
+            "Lily",
+            "Sophie"
+          ],
+          "score": 0.0008797645568847656,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Based on the provided information, here is the generated question:\n\n**Question:** What is the name of the child in the image?",
+          "answers": [
+            "Emma",
+            "Lily",
+            "Sophie"
+          ],
+          "score": 0.0008172988891601562
+        },
+        {
+          "question": "**Question:** What is the activity the child is performing?",
+          "answers": [
+            "standing",
+            "skiing",
+            "waiting"
+          ],
+          "score": 0.010189056396484375
+        },
+        {
+          "question": "**Question:** What is the activity the child is performing?",
+          "answers": [
+            "standing",
+            "skiing",
+            "waiting"
+          ],
+          "score": 0.010189056396484375,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Who is the child standing on the skis?",
+          "answers": [
+            "a young boy",
+            "a young girl",
+            "a small boy"
+          ],
+          "score": 0.0073451995849609375
+        },
+        {
+          "question": "what is the name of the child standing on the skis?",
+          "answers": [
+            "Emma",
+            "Lisa",
+            "Noah"
+          ],
+          "score": 0.0019631385803222656
+        },
+        {
+          "question": "what is the color of the pants worn by the child?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.017156124114990234
+        },
+        {
+          "question": "what is the age group of the child standing on the skis?",
+          "answers": [
+            "toddler",
+            "young child",
+            "preschooler"
+          ],
+          "score": 0.0033850669860839844
+        },
+        {
+          "question": "what is the name of the child standing on the skis?",
+          "answers": [
+            "Emma",
+            "Lisa",
+            "Noah"
+          ],
+          "score": 0.0019631385803222656,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

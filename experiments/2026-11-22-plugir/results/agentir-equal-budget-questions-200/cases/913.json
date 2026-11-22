@@ -1,0 +1,79 @@
+{
+  "qid": 913,
+  "sample": 2,
+  "first_candidates": [
+    "Question: Which animal is the sheep looking up at?",
+    "what is the color of the sheep looking up at the chicken?",
+    "what is the background scenery behind the sheep and the chicken?",
+    "what is the location where the sheep and chicken are standing?",
+    "Question: How many sheep are in the image?"
+  ],
+  "second_candidates": [
+    "Question: How many sheep are visible in the image?",
+    "Question: What is the background scenery behind the sheep and the chicken?",
+    "What is the sheep looking up at?",
+    "What is the sheep looking at?",
+    "What is the sheep looking at?"
+  ],
+  "paths": [
+    {
+      "question": "Question: How many sheep are visible in the image?",
+      "answers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "score": 0.0003199577331542969
+    },
+    {
+      "question": "Question: What is the background scenery behind the sheep and the chicken?",
+      "answers": [
+        "fence",
+        "trees",
+        "hill"
+      ],
+      "score": 0.12015390396118164
+    },
+    {
+      "question": "What is the sheep looking up at?",
+      "answers": [
+        "cloud",
+        "plane",
+        "cat"
+      ],
+      "score": 0.021242618560791016
+    },
+    {
+      "question": "What is the sheep looking at?",
+      "answers": [
+        "the sky",
+        "a bird",
+        "a chicken"
+      ],
+      "score": 0.02349710464477539
+    },
+    {
+      "question": "What is the sheep looking at?",
+      "answers": [
+        "the sky",
+        "a bird",
+        "a chicken"
+      ],
+      "score": 0.02349710464477539,
+      "duplicate_of": 3
+    }
+  ],
+  "control": {
+    "question": "what is the background scenery behind the sheep and the chicken?",
+    "score": 0.1390848159790039
+  },
+  "mixed": {
+    "question": "what is the background scenery behind the sheep and the chicken?",
+    "score": 0.1390848159790039
+  },
+  "control_rank": 14,
+  "mixed_rank": 14,
+  "usual_rank": 14,
+  "new_answer": null,
+  "new_rewrite": null
+}

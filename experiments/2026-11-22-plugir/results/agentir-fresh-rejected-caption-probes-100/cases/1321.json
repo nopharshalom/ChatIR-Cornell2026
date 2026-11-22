@@ -1,0 +1,177 @@
+{
+  "qid": 1321,
+  "initial": "a living room with large windows and the tv turned on",
+  "initial_rank": 43,
+  "displayed": [
+    20307,
+    11541,
+    45963,
+    27817,
+    9233,
+    18138,
+    22456,
+    29299,
+    9663,
+    12056
+  ],
+  "evidence": [
+    "an open plan living room with a nice couch, chairs and window",
+    "a computer with a red cover on top sitting on a table next to the television",
+    "a living room with chairs, couches, table, TV and fireplace",
+    "a black television with the screen facing down",
+    "a gray couch in a room with an array of color rugs",
+    "the living room has brown leather furniture",
+    "a living room with brown leather furniture and a fireplace",
+    "a laptop is being used on a television",
+    "the chairs and couches are upholstered",
+    "a bedroom with a bedroom door and patio"
+  ],
+  "rejected_captions": [
+    "a living room with white furniture and a large glass window",
+    "a large room with a small screen tv and an open view of the city",
+    "a couch is next to a tv and a fire place",
+    "a small living room with a fireplace and a tv",
+    "the living room contains a window seat and lots of windows",
+    "a living room with a couch and tv",
+    "a sitting room with a tv in the middle",
+    "wood floor and a white kitchen",
+    "white couch and white pillows",
+    "a living room with couches and chairs in the middle of it"
+  ],
+  "usual": {
+    "candidates": [
+      "what color is the cover on the computer sitting on the table in the living room?",
+      "what color are the rugs in the living room with brown leather furniture?",
+      "what is the color of the television in the living room with brown leather furniture?",
+      "what is the color of the television in the living room?",
+      "what is the color of the television in the living room with large windows and the tv turned on?"
+    ],
+    "question": "what color is the cover on the computer sitting on the table in the living room?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what color is the cover on the computer sitting on the table in the living room?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.11083650588989258
+        },
+        {
+          "question": "what color are the rugs in the living room with brown leather furniture?",
+          "answers": [
+            "brown",
+            "beige",
+            "gray"
+          ],
+          "score": 0.01131296157836914
+        },
+        {
+          "question": "what is the color of the television in the living room with brown leather furniture?",
+          "answers": [
+            "black",
+            "brown",
+            "unknown"
+          ],
+          "score": 0.024817943572998047
+        },
+        {
+          "question": "what is the color of the television in the living room?",
+          "answers": [
+            "black",
+            "grey",
+            "silver"
+          ],
+          "score": 0.032183170318603516
+        },
+        {
+          "question": "what is the color of the television in the living room with large windows and the tv turned on?",
+          "answers": [
+            "black",
+            "gray",
+            "red"
+          ],
+          "score": 0.08330202102661133
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.086,
+      "probe_selection_seconds": 2.296,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "black",
+    "rewrite": "a living room with large windows and the tv turned on, featuring a table with a black computer cover",
+    "raw_rank": 135,
+    "unseen_rank": 126
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the color of the couch in the living room?",
+      "Question: What is the color of the television screen in the living room?",
+      "Question: What is the material of the furniture in the living room?",
+      "Question: Where is the television located in the living room?",
+      "what is the color of the rug in the living room?"
+    ],
+    "question": "what is the color of the rug in the living room?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the color of the couch in the living room?",
+          "answers": [
+            "brown leather",
+            "gray",
+            "none"
+          ],
+          "score": 0.07849502563476562
+        },
+        {
+          "question": "Question: What is the color of the television screen in the living room?",
+          "answers": [
+            "black",
+            "red",
+            "gray"
+          ],
+          "score": 0.0643925666809082
+        },
+        {
+          "question": "Question: What is the material of the furniture in the living room?",
+          "answers": [
+            "brown leather",
+            "upholstered",
+            "gray"
+          ],
+          "score": 0.08697843551635742
+        },
+        {
+          "question": "Question: Where is the television located in the living room?",
+          "answers": [
+            "on a table next to the television",
+            "screen facing down",
+            "being used on"
+          ],
+          "score": 0.019628524780273438
+        },
+        {
+          "question": "what is the color of the rug in the living room?",
+          "answers": [
+            "blue",
+            "green",
+            "red"
+          ],
+          "score": 0.1003117561340332
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.058,
+      "probe_selection_seconds": 2.623,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "beige",
+    "rewrite": "a living room with large windows, a beige rug, and the tv turned on",
+    "raw_rank": 117,
+    "unseen_rank": 108
+  }
+}

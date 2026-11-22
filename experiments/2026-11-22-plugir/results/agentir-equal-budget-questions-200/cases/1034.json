@@ -1,0 +1,78 @@
+{
+  "qid": 1034,
+  "sample": 2,
+  "first_candidates": [
+    "what is the weather condition in the image where 2 people are walking down a city street lined with stores?",
+    "what is the woman wearing on her head or body while walking with the other person?",
+    "what is the name of the store or the specific type of street where the two people are walking?",
+    "what is the weather condition in the image where 2 people are walking down a city street lined with stores?",
+    "what is the man wearing on the street where the two people are walking?"
+  ],
+  "second_candidates": [
+    "what is the weather condition depicted in the scene with the two people walking down the city street?",
+    "what is the specific location where the two people are walking down the city street?",
+    "what is the gender of the two people walking down the city street?",
+    "Question: What are the two people walking down the city street wearing or holding?",
+    "Question: What color shirt is one of the people wearing in the scene with two people walking down the city street?"
+  ],
+  "paths": [
+    {
+      "question": "what is the weather condition depicted in the scene with the two people walking down the city street?",
+      "answers": [
+        "rainy",
+        "sunny",
+        "cloudy"
+      ],
+      "score": 0.09036731719970703
+    },
+    {
+      "question": "what is the specific location where the two people are walking down the city street?",
+      "answers": [
+        "downtown",
+        "suburbs",
+        "tourist area"
+      ],
+      "score": 0.020095348358154297
+    },
+    {
+      "question": "what is the gender of the two people walking down the city street?",
+      "answers": [
+        "male",
+        "female",
+        "male and female"
+      ],
+      "score": 0.011653423309326172
+    },
+    {
+      "question": "Question: What are the two people walking down the city street wearing or holding?",
+      "answers": [
+        "raincoats",
+        "umbrellas",
+        "backpacks"
+      ],
+      "score": 0.11362361907958984
+    },
+    {
+      "question": "Question: What color shirt is one of the people wearing in the scene with two people walking down the city street?",
+      "answers": [
+        "blue",
+        "red",
+        "white"
+      ],
+      "score": 0.04228925704956055
+    }
+  ],
+  "control": {
+    "question": "Question: What are the two people walking down the city street wearing or holding?",
+    "score": 0.11362361907958984
+  },
+  "mixed": {
+    "question": "what is the weather condition in the image where 2 people are walking down a city street lined with stores?",
+    "score": 0.09846162796020508
+  },
+  "control_rank": 1,
+  "mixed_rank": 278,
+  "usual_rank": 278,
+  "new_answer": "Based on the image:\n\n*   The person on the left is wearing a light blue hoodie with white sleeves and is holding a purple and yellow stuffed animal.\n*   The person on the right is wearing a blue t-shirt with dark",
+  "new_rewrite": "two people walking down a city street lined with stores; the person on the left wears a light blue hoodie with white sleeves and holds a purple and yellow stuffed animal, while the person on the right wears a blue t-shirt"
+}

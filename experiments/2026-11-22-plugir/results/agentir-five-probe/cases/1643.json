@@ -1,0 +1,100 @@
+{
+  "qid": 1643,
+  "initial": "a skier wearing a red hat carries poles in their arms as they move down a slight hill",
+  "initial_rank": 57,
+  "evidence": [
+    "a woman is on skis on a wooded trail",
+    "a young girl is on skis in the woods",
+    "a woman is skiing down a slope with trees behind her",
+    "three people on skis walking across a forest path",
+    "young girl on water skis being pulled in",
+    "a person is skiing up a mountain with a large mountain in the background",
+    "man wearing red jacket and ski pants",
+    "a person in a red coat standing in a wooded area",
+    "a young girl with skis posing in front of a crowd",
+    "a woman in red wearing a red jacket skiing downhill"
+  ],
+  "candidates": [
+    "what is the gender of the skier wearing a red hat?",
+    "Question: What color is the jacket worn by the man in the image?",
+    "what is the color of the skier's jacket?",
+    "what is the color of the jacket worn by the skier?",
+    "what is the gender of the person wearing a red jacket and carrying poles?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the gender of the skier wearing a red hat?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.036017417907714844
+    },
+    {
+      "question": "Question: What color is the jacket worn by the man in the image?",
+      "answers": [
+        "red",
+        "blue",
+        "black"
+      ],
+      "score": 0.03198575973510742
+    },
+    {
+      "question": "what is the color of the skier's jacket?",
+      "answers": [
+        "red",
+        "blue",
+        "black"
+      ],
+      "score": 0.034293174743652344
+    },
+    {
+      "question": "what is the color of the jacket worn by the skier?",
+      "answers": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "score": 0.046027183532714844
+    },
+    {
+      "question": "what is the gender of the person wearing a red jacket and carrying poles?",
+      "answers": [
+        "male",
+        "female",
+        "young girl"
+      ],
+      "score": 0.05130195617675781
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.063,
+  "probe_selection_seconds": 2.347,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the gender of the skier wearing a red hat?",
+      "answer": "female",
+      "rewrite": "a female skier wearing a red hat carries poles in her arms as she moves down a slight hill",
+      "rank": 86,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the color of the jacket worn by the skier?",
+      "answer": "black",
+      "rewrite": "a skier wearing a black jacket and a red hat carries poles in their arms as they move down a slight hill",
+      "rank": 54,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the gender of the person wearing a red jacket and carrying poles?",
+      "answer": "female",
+      "rewrite": "a female skier wearing a red hat and jacket carries poles in her arms as she moves down a slight hill",
+      "rank": 110,
+      "hit": false
+    }
+  },
+  "seconds": 18.13
+}

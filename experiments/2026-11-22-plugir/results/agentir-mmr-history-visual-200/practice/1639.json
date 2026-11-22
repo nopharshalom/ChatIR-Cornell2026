@@ -1,0 +1,116 @@
+{
+  "chosen": "Question: what is the location where the people are standing at the counter?",
+  "default": "what is the other object in the image?",
+  "ids": [
+    7909,
+    16217,
+    8098,
+    48210
+  ],
+  "trials": {
+    "what is the other object in the image?": {
+      "answers": [
+        "the other object is a person.",
+        "laptop",
+        "person",
+        "people"
+      ],
+      "rewrites": {
+        "the other object is a person.": "people are standing at a counter in front of windows trying to order, with another person present",
+        "laptop": "people are standing at a counter in front of windows trying to order, with a laptop on the counter",
+        "person": "people are standing at a counter in front of windows trying to order, with another person present",
+        "people": "people standing at a counter in front of windows trying to order, with another group of people visible"
+      },
+      "ranks": [
+        34,
+        10,
+        60,
+        26
+      ],
+      "hits": 1
+    },
+    "what is the type of food being prepared or ordered by the people in the counter?": {
+      "answers": [
+        "bakery items",
+        "unsure",
+        "unsure",
+        "fruit"
+      ],
+      "rewrites": {
+        "bakery items": "people are standing at a counter in front of windows trying to order bakery items",
+        "unsure": "people are standing at a counter in front of windows trying to order food, though the specific type of food is unclear",
+        "fruit": "people are standing at a counter in front of windows trying to order fruit"
+      },
+      "ranks": [
+        2,
+        168,
+        228,
+        2
+      ],
+      "hits": 2
+    },
+    "Question: what is the location where the people are standing at the counter?": {
+      "answers": [
+        "bakery",
+        "school",
+        "office",
+        "food stand"
+      ],
+      "rewrites": {
+        "bakery": "people are standing at a counter in front of windows trying to order at a bakery",
+        "school": "people are standing at a counter in front of windows trying to order at a school",
+        "office": "people are standing at a counter in front of windows in an office, trying to order",
+        "food stand": "people are standing at a counter in front of windows at a food stand trying to order"
+      },
+      "ranks": [
+        2,
+        2,
+        3,
+        26
+      ],
+      "hits": 3
+    },
+    "what is the specific type of shop or establishment where the people are standing at the counter?": {
+      "answers": [
+        "bakery",
+        "science center",
+        "office",
+        "grocery store"
+      ],
+      "rewrites": {
+        "bakery": "people are standing at a counter in a bakery, trying to order",
+        "science center": "people are standing at a counter in front of windows trying to order at a science center",
+        "office": "people are standing at a counter in front of windows trying to order in an office",
+        "grocery store": "people are standing at a counter in front of windows trying to order in a grocery store"
+      },
+      "ranks": [
+        4,
+        7,
+        2,
+        17
+      ],
+      "hits": 3
+    },
+    "What is the name of the establishment where people are standing at the counter?": {
+      "answers": [
+        "bakery",
+        "unsure",
+        "office",
+        "cafeteria"
+      ],
+      "rewrites": {
+        "bakery": "people are standing at a counter in a bakery, trying to order",
+        "unsure": "people are standing at a counter in front of windows trying to order, location unknown",
+        "office": "people are standing at a counter in front of windows trying to order at an office",
+        "cafeteria": "people are standing at a counter in a cafeteria, trying to order"
+      },
+      "ranks": [
+        4,
+        40,
+        3,
+        11
+      ],
+      "hits": 2
+    }
+  }
+}

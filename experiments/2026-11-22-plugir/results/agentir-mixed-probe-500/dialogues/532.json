@@ -1,0 +1,1189 @@
+{
+  "qid": 532,
+  "sample": "original",
+  "target": "unlabeled2017/000000434734.jpg",
+  "queries": [
+    "a baseball player is on the mound ready to swing",
+    "a gray-uniformed baseball player is on the mound ready to swing",
+    "a baseball player in a gray uniform stands on the mound holding a bat, ready to swing",
+    "a male baseball player in a gray uniform stands on the mound holding a bat, ready to swing",
+    "a male baseball player in a gray uniform stands on a green grass mound holding a bat, ready to swing",
+    "a male baseball player in a gray uniform stands on a green mound holding a brown bat, ready to swing",
+    "a male baseball player wearing a gray uniform stands on a green grass mound holding a brown bat, waiting for a pitch",
+    "A male baseball player in a gray uniform stands on a green grass mound, gripping a brown bat as he awaits a pitch.",
+    "a male baseball player wearing a gray uniform stands on a green field holding a brown bat, waiting for a pitch",
+    "a male baseball player wearing a gray uniform stands on a green field holding a brown bat, waiting for a pitch with a crowd in the background"
+  ],
+  "ranks": [
+    95,
+    33,
+    20,
+    27,
+    33,
+    33,
+    23,
+    32,
+    24,
+    9
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a baseball player is on the mound ready to swing",
+      "question": "Question: What color is the baseball player's uniform?",
+      "answer": "gray",
+      "query_after": "a gray-uniformed baseball player is on the mound ready to swing",
+      "displayed_ids": [
+        36866,
+        10419,
+        7567,
+        21639,
+        34244,
+        48813,
+        35649,
+        41945,
+        37537,
+        45323
+      ],
+      "selected_ids": [
+        36866,
+        11131,
+        14076,
+        27378,
+        47843,
+        12599,
+        33583,
+        19143,
+        45323,
+        18652
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: What color is the uniform of the baseball player on the mound?",
+          "answers": [
+            "red and white",
+            "blue and orange",
+            "black and yellow"
+          ],
+          "score": 0.21134519577026367
+        },
+        {
+          "question": "Question: Is the baseball player on the mound wearing a red and white uniform?",
+          "answers": [
+            "yes",
+            "no",
+            "uncertain"
+          ],
+          "score": 0.0009894371032714844
+        },
+        {
+          "question": "Question: What is the baseball player on the mound doing in the image?",
+          "answers": [
+            "pitching",
+            "throwing",
+            "ready to throw"
+          ],
+          "score": 0.002986907958984375
+        },
+        {
+          "question": "Question: Question: Is the baseball player on the mound wearing a red and white uniform?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0011272430419921875
+        },
+        {
+          "question": "Question: What is the baseball player on the mound holding?",
+          "answers": [
+            "A ball",
+            "A glove",
+            "Nothing"
+          ],
+          "score": 0.006492137908935547
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the baseball player's uniform?",
+          "answers": [
+            "red and white",
+            "blue and gray",
+            "black and yellow"
+          ],
+          "score": 0.2619967460632324
+        },
+        {
+          "question": "Question: What is the position of the baseball player on the mound?",
+          "answers": [
+            "pitcher",
+            "catcher",
+            "batter"
+          ],
+          "score": 0.01751232147216797
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "catcher",
+            "umpire",
+            "bat"
+          ],
+          "score": 0.025887489318847656
+        },
+        {
+          "question": "Who is the baseball player on the mound, and what team do they play for?",
+          "answers": [
+            "A pitcher",
+            "An umpire",
+            "A batter"
+          ],
+          "score": 0.05344247817993164
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "catcher",
+            "umpire",
+            "bat"
+          ],
+          "score": 0.025887489318847656,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a gray-uniformed baseball player is on the mound ready to swing",
+      "question": "what is the baseball player holding in front of them while on the mound?",
+      "answer": "bat",
+      "query_after": "a baseball player in a gray uniform stands on the mound holding a bat, ready to swing",
+      "displayed_ids": [
+        7567,
+        34244,
+        27908,
+        14323,
+        48812,
+        6796,
+        17574,
+        39374,
+        15532,
+        18034
+      ],
+      "selected_ids": [
+        11170,
+        18652,
+        20722,
+        49685,
+        7127,
+        34748,
+        19143,
+        10446,
+        12599,
+        33583
+      ],
+      "rejected_count": 18,
+      "usual_paths": [
+        {
+          "question": "what is the baseball player holding in front of them while on the mound?",
+          "answers": [
+            "bat",
+            "glove",
+            "ball"
+          ],
+          "score": 0.028050899505615234
+        },
+        {
+          "question": "what is the baseball player on the mound holding?",
+          "answers": [
+            "bat",
+            "glove",
+            "ball"
+          ],
+          "score": 0.0186004638671875
+        },
+        {
+          "question": "what is the baseball player on the mound holding?",
+          "answers": [
+            "bat",
+            "glove",
+            "ball"
+          ],
+          "score": 0.0186004638671875,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the baseball player on the mound holding?",
+          "answers": [
+            "bat",
+            "glove",
+            "ball"
+          ],
+          "score": 0.0186004638671875,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the baseball player on the mound holding?",
+          "answers": [
+            "bat",
+            "glove",
+            "ball"
+          ],
+          "score": 0.0186004638671875,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Who is standing behind the baseball player on the mound?",
+          "answers": [
+            "Nobody",
+            "A coach",
+            "A fan"
+          ],
+          "score": 0.005087852478027344
+        },
+        {
+          "question": "Question: Who is standing behind the baseball player on the mound?",
+          "answers": [
+            "Nobody",
+            "A coach",
+            "A fan"
+          ],
+          "score": 0.005087852478027344,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the baseball player holding?",
+          "answers": [
+            "bat",
+            "glove",
+            "ball"
+          ],
+          "score": 0.018259525299072266
+        },
+        {
+          "question": "Question: What is the baseball player holding?",
+          "answers": [
+            "bat",
+            "glove",
+            "ball"
+          ],
+          "score": 0.018259525299072266,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the baseball player holding?",
+          "answers": [
+            "bat",
+            "glove",
+            "ball"
+          ],
+          "score": 0.018259525299072266,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "a baseball player in a gray uniform stands on the mound holding a bat, ready to swing",
+      "question": "what is the gender of the baseball player on the mound?",
+      "answer": "male",
+      "query_after": "a male baseball player in a gray uniform stands on the mound holding a bat, ready to swing",
+      "displayed_ids": [
+        17574,
+        27908,
+        14323,
+        39374,
+        48812,
+        26768,
+        49685,
+        26632,
+        18034,
+        7567
+      ],
+      "selected_ids": [
+        20722,
+        12599,
+        19143,
+        18652,
+        48905,
+        26738,
+        24332,
+        27378,
+        34748,
+        12849
+      ],
+      "rejected_count": 21,
+      "usual_paths": [
+        {
+          "question": "Question: Who is the baseball player wearing the gray uniform facing?",
+          "answers": [
+            "pitcher",
+            "catcher",
+            "bat"
+          ],
+          "score": 0.013887405395507812
+        },
+        {
+          "question": "what is the baseball player wearing the gray uniform holding in front of them?",
+          "answers": [
+            "bat",
+            "glove",
+            "nothing"
+          ],
+          "score": 0.006810188293457031
+        },
+        {
+          "question": "Based on the provided information, here is the next logical question and the explanation for its generation:\n\n**Question:** Where is the baseball player wearing the gray uniform?",
+          "answers": [
+            "on the mound",
+            "at bat",
+            "in the field"
+          ],
+          "score": 0.009238243103027344
+        },
+        {
+          "question": "**Question:** Is the baseball player wearing the gray uniform standing on the mound?",
+          "answers": [
+            "yes",
+            "no"
+          ],
+          "score": 0.000644683837890625
+        },
+        {
+          "question": "**Question:** What is the baseball player wearing the gray uniform holding in front of them?",
+          "answers": [
+            "bat",
+            "glove",
+            "nothing"
+          ],
+          "score": 0.007277011871337891
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Who is the baseball player on the mound facing?",
+          "answers": [
+            "catcher",
+            "pitcher",
+            "baseball"
+          ],
+          "score": 0.0137481689453125
+        },
+        {
+          "question": "Question: Who is the baseball player on the mound facing?",
+          "answers": [
+            "catcher",
+            "pitcher",
+            "baseball"
+          ],
+          "score": 0.0137481689453125,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: Who is the baseball player on the mound facing?",
+          "answers": [
+            "catcher",
+            "pitcher",
+            "baseball"
+          ],
+          "score": 0.0137481689453125,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the gender of the baseball player on the mound?",
+          "answers": [
+            "male",
+            "female"
+          ],
+          "score": 0.026128292083740234
+        },
+        {
+          "question": "what is the gender of the baseball player on the mound?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.03460693359375
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a male baseball player in a gray uniform stands on the mound holding a bat, ready to swing",
+      "question": "what is the color of the grass on the baseball field where the player is standing?",
+      "answer": "green",
+      "query_after": "a male baseball player in a gray uniform stands on a green grass mound holding a bat, ready to swing",
+      "displayed_ids": [
+        17574,
+        27908,
+        26768,
+        49685,
+        14323,
+        48812,
+        26632,
+        39374,
+        7567,
+        3000
+      ],
+      "selected_ids": [
+        23642,
+        18652,
+        20722,
+        49685,
+        12599,
+        35070,
+        8455,
+        3000,
+        11170
+      ],
+      "rejected_count": 22,
+      "usual_paths": [
+        {
+          "question": "Question: Who is the baseball player holding the bat in front of?",
+          "answers": [
+            "the pitcher",
+            "the catcher",
+            "no one"
+          ],
+          "score": 0.010033607482910156
+        },
+        {
+          "question": "what is the gender of the baseball player swinging the bat at home plate?",
+          "answers": [
+            "male",
+            "female"
+          ],
+          "score": 0.007719993591308594
+        },
+        {
+          "question": "what is the specific location of the baseball player holding the bat?",
+          "answers": [
+            "baseball mound",
+            "pitcher's mound",
+            "field"
+          ],
+          "score": 0.00797271728515625
+        },
+        {
+          "question": "what is the baseball player wearing on his head?",
+          "answers": [
+            "cap",
+            "helmet",
+            "none"
+          ],
+          "score": 0.007586479187011719
+        },
+        {
+          "question": "what is the baseball player wearing on his head?",
+          "answers": [
+            "cap",
+            "helmet",
+            "none"
+          ],
+          "score": 0.007586479187011719,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the background setting behind the baseball player on the mound?",
+          "answers": [
+            "a crowd",
+            "a stadium",
+            "a field"
+          ],
+          "score": 0.016632080078125
+        },
+        {
+          "question": "what is the specific role of the baseball player on the mound?",
+          "answers": [
+            "pitcher",
+            "catcher",
+            "umpire"
+          ],
+          "score": 0.022121429443359375
+        },
+        {
+          "question": "Question: Who is the baseball player on the mound?",
+          "answers": [
+            "Mike Trout",
+            "Aaron Judge",
+            "Shohei Ohtani"
+          ],
+          "score": 0.011499881744384766
+        },
+        {
+          "question": "what is the position of the catcher relative to the baseball player on the mound?",
+          "answers": [
+            "behind",
+            "in front of",
+            "to the side"
+          ],
+          "score": 0.0006999969482421875
+        },
+        {
+          "question": "what is the color of the grass on the baseball field where the player is standing?",
+          "answers": [
+            "green",
+            "brown",
+            "artificial"
+          ],
+          "score": 0.02378225326538086
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a male baseball player in a gray uniform stands on a green grass mound holding a bat, ready to swing",
+      "question": "what is the color of the bat the male baseball player is holding?",
+      "answer": "brown",
+      "query_after": "a male baseball player in a gray uniform stands on a green mound holding a brown bat, ready to swing",
+      "displayed_ids": [
+        14323,
+        12641,
+        27908,
+        48812,
+        49685,
+        5218,
+        18034,
+        3000,
+        17574,
+        7567
+      ],
+      "selected_ids": [
+        18652,
+        3000,
+        32748,
+        34367,
+        48905,
+        18494,
+        43261,
+        5119,
+        49685,
+        12657
+      ],
+      "rejected_count": 24,
+      "usual_paths": [
+        {
+          "question": "what is the color of the bat the male baseball player on the mound is holding?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.04919910430908203
+        },
+        {
+          "question": "what is the color of the bat the male baseball player on the mound is holding?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.04919910430908203,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bat the male baseball player on the mound is holding?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.04919910430908203,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bat the male baseball player on the mound is holding?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.04919910430908203,
+          "duplicate_of": 0
+        },
+        {
+          "question": "What is the color of the bat the male baseball player on the mound is holding?",
+          "answers": [
+            "blue",
+            "white",
+            "black"
+          ],
+          "score": 0.04919910430908203
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the bat the male baseball player is holding?",
+          "answers": [
+            "white",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.08348894119262695
+        },
+        {
+          "question": "what is the color of the bat the male baseball player is holding?",
+          "answers": [
+            "white",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.08348894119262695,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bat the male baseball player is holding?",
+          "answers": [
+            "white",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.08348894119262695,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bat the male baseball player is holding?",
+          "answers": [
+            "white",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.08348894119262695,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the bat the male baseball player is holding?",
+          "answers": [
+            "blue",
+            "white",
+            "black"
+          ],
+          "score": 0.07264280319213867
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a male baseball player in a gray uniform stands on a green mound holding a brown bat, ready to swing",
+      "question": "**Question:** What is the baseball player wearing a gray uniform and holding a brown bat doing?",
+      "answer": "waiting for pitch",
+      "query_after": "a male baseball player wearing a gray uniform stands on a green grass mound holding a brown bat, waiting for a pitch",
+      "displayed_ids": [
+        14323,
+        49685,
+        27908,
+        48812,
+        12641,
+        7567,
+        3000,
+        26632,
+        39374,
+        26768
+      ],
+      "selected_ids": [
+        18652,
+        20722,
+        48905,
+        3000,
+        34367,
+        11670,
+        15554,
+        41604,
+        49685,
+        18494
+      ],
+      "rejected_count": 24,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "catcher",
+            "umpire",
+            "bat helmet"
+          ],
+          "score": 0.014500617980957031
+        },
+        {
+          "question": "what is the color of the baseball player's pants?",
+          "answers": [
+            "gray",
+            "white",
+            "black"
+          ],
+          "score": 0.0356907844543457
+        },
+        {
+          "question": "what is the object the male baseball player wearing a gray uniform and holding a brown bat is preparing to hit?",
+          "answers": [
+            "baseball",
+            "pitch",
+            "ball"
+          ],
+          "score": 0.0006232261657714844
+        },
+        {
+          "question": "**Question:** What is the male baseball player wearing a gray uniform and holding a brown bat doing?",
+          "answers": [
+            "swinging",
+            "preparing to bat",
+            "standing"
+          ],
+          "score": 0.029580116271972656
+        },
+        {
+          "question": "**Question:** What is the baseball player wearing a gray uniform and holding a brown bat doing?",
+          "answers": [
+            "swinging",
+            "standing",
+            "walking"
+          ],
+          "score": 0.04654216766357422
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "catcher",
+            "umpire",
+            "bat helmet"
+          ],
+          "score": 0.014500617980957031
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "catcher",
+            "umpire",
+            "bat helmet"
+          ],
+          "score": 0.014500617980957031,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the position of the baseball player on the mound relative to the other players or objects in the scene?",
+          "answers": [
+            "in front of a catcher",
+            "near another pitcher",
+            "with a batter in the box"
+          ],
+          "score": 0.012773990631103516
+        },
+        {
+          "question": "what is the object being held by the other person in the scene?",
+          "answers": [
+            "bat",
+            "glove",
+            "mask"
+          ],
+          "score": 0.010210990905761719
+        },
+        {
+          "question": "what is the gender of the other person visible in the scene with the baseball player on the mound?",
+          "answers": [
+            "male",
+            "female",
+            "none"
+          ],
+          "score": 0.007607460021972656
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a male baseball player wearing a gray uniform stands on a green grass mound holding a brown bat, waiting for a pitch",
+      "question": "**Question:** Is the baseball player wearing a gray uniform and holding a brown bat swinging or waiting for a pitch?",
+      "answer": "waiting for a pitch",
+      "query_after": "A male baseball player in a gray uniform stands on a green grass mound, gripping a brown bat as he awaits a pitch.",
+      "displayed_ids": [
+        27908,
+        12641,
+        14323,
+        49685,
+        8526,
+        18034,
+        48812,
+        3000,
+        39374,
+        46561
+      ],
+      "selected_ids": [
+        20643,
+        35070,
+        18652,
+        11767,
+        49685,
+        4685,
+        24332,
+        47079,
+        27232,
+        25360
+      ],
+      "rejected_count": 26,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "ball",
+            "mitt",
+            "base"
+          ],
+          "score": 0.007964611053466797
+        },
+        {
+          "question": "**Question:** Is the baseball player wearing a gray uniform and holding a brown bat swinging or waiting for a pitch?",
+          "answers": [
+            "swinging",
+            "waiting",
+            "batting"
+          ],
+          "score": 0.009099006652832031
+        },
+        {
+          "question": "what is the baseball player wearing a gray uniform and holding a brown bat standing on?",
+          "answers": [
+            "mound",
+            "baseball field",
+            "dirt patch"
+          ],
+          "score": 0.00389862060546875
+        },
+        {
+          "question": "**Question:** What is the baseball player wearing a gray uniform and holding a brown bat standing on?",
+          "answers": [
+            "mound",
+            "field",
+            "dirt"
+          ],
+          "score": 0.003837108612060547
+        },
+        {
+          "question": "**Question:** What is the gender of the baseball player wearing a gray uniform and holding a brown bat?",
+          "answers": [
+            "male",
+            "female",
+            "non-binary"
+          ],
+          "score": 0.006946563720703125
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "ball",
+            "mitt",
+            "base"
+          ],
+          "score": 0.007964611053466797
+        },
+        {
+          "question": "**Question:** Is there a crowd watching the baseball player?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.006064414978027344
+        },
+        {
+          "question": "Question: What is the baseball player wearing a gray uniform and holding a brown bat holding in their other hand?",
+          "answers": [
+            "glove",
+            "helmet",
+            "ball"
+          ],
+          "score": 0.004950046539306641
+        },
+        {
+          "question": "**Question:** Is there a crowd watching the baseball player?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.006064414978027344,
+          "duplicate_of": 1
+        },
+        {
+          "question": "**Question:** Is there a catcher visible in the image?",
+          "answers": [
+            "yes",
+            "no",
+            "unclear"
+          ],
+          "score": 0.0029296875
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "A male baseball player in a gray uniform stands on a green grass mound, gripping a brown bat as he awaits a pitch.",
+      "question": "**Question:** What is the color of the baseball player's uniform?",
+      "answer": "gray",
+      "query_after": "a male baseball player wearing a gray uniform stands on a green field holding a brown bat, waiting for a pitch",
+      "displayed_ids": [
+        27908,
+        14323,
+        49685,
+        12641,
+        3000,
+        18034,
+        48812,
+        8526,
+        39374,
+        17574
+      ],
+      "selected_ids": [
+        795,
+        35070,
+        503,
+        3000,
+        25360,
+        47079,
+        26738,
+        18652,
+        49875
+      ],
+      "rejected_count": 26,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "baseball glove",
+            "pitcher's cap",
+            "baseball bat"
+          ],
+          "score": 0.019970417022705078
+        },
+        {
+          "question": "**Question:** Is the baseball player on the mound wearing a gray uniform and holding a brown bat?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.00038242340087890625
+        },
+        {
+          "question": "Based on the provided information, here is the generated question and the explanation of how the sources were utilized:\n\n**Question:** What is the baseball player wearing a?",
+          "answers": [
+            "uniform",
+            "helmet",
+            "shoes"
+          ],
+          "score": 0.0032625198364257812
+        },
+        {
+          "question": "**Question:** What is the baseball player wearing a gray uniform and holding a brown bat doing?",
+          "answers": [
+            "waiting for pitch",
+            "swinging",
+            "standing"
+          ],
+          "score": 0.030643463134765625
+        },
+        {
+          "question": "**Question:** Where is the baseball player standing in the image?",
+          "answers": [
+            "on the mound",
+            "at home plate",
+            "in the outfield"
+          ],
+          "score": 0.012384891510009766
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "baseball glove",
+            "pitcher's cap",
+            "baseball bat"
+          ],
+          "score": 0.019970417022705078
+        },
+        {
+          "question": "**Question:** Is the baseball player standing on the mound?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0004496574401855469
+        },
+        {
+          "question": "Based on the provided information, here is the generated question and the explanation of how the sources were utilized:\n\n**Question:** What is the baseball player wearing a?",
+          "answers": [
+            "uniform",
+            "helmet",
+            "shoes"
+          ],
+          "score": 0.0032625198364257812
+        },
+        {
+          "question": "**Question:** What is the color of the baseball player's uniform?",
+          "answers": [
+            "gray",
+            "white",
+            "blue"
+          ],
+          "score": 0.0633840560913086
+        },
+        {
+          "question": "**Question:** What is the baseball player wearing a gray uniform and holding a brown bat doing?",
+          "answers": [
+            "waiting for pitch",
+            "waiting for a pitch",
+            "not swinging"
+          ],
+          "score": 0.02639150619506836
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a male baseball player wearing a gray uniform stands on a green field holding a brown bat, waiting for a pitch",
+      "question": "what is the other object in the image?",
+      "answer": "crowd",
+      "query_after": "a male baseball player wearing a gray uniform stands on a green field holding a brown bat, waiting for a pitch with a crowd in the background",
+      "displayed_ids": [
+        49685,
+        5218,
+        39374,
+        27908,
+        26768,
+        12641,
+        17574,
+        48812,
+        8526,
+        14323
+      ],
+      "selected_ids": [
+        27232,
+        3000,
+        27378,
+        26738,
+        18652,
+        16701,
+        23260,
+        15207,
+        47079,
+        3720
+      ],
+      "rejected_count": 26,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "umpire",
+            "crowd",
+            "bench"
+          ],
+          "score": 0.03702259063720703
+        },
+        {
+          "question": "what is the baseball player wearing a gray uniform and holding a brown bat standing on?",
+          "answers": [
+            "mound",
+            "pitcher's mound",
+            "baseball field"
+          ],
+          "score": 0.01548147201538086
+        },
+        {
+          "question": "**Question:** What is the baseball player wearing a gray uniform and holding a brown bat standing on?",
+          "answers": [
+            "mound",
+            "field",
+            "infield"
+          ],
+          "score": 0.009781837463378906
+        },
+        {
+          "question": "Question: What is the baseball player wearing a gray uniform and holding a brown bat standing on?",
+          "answers": [
+            "mound",
+            "field",
+            "ground"
+          ],
+          "score": 0.009717464447021484
+        },
+        {
+          "question": "what is the baseball player wearing a gray uniform and holding a brown bat standing on?",
+          "answers": [
+            "mound",
+            "pitcher's mound",
+            "baseball field"
+          ],
+          "score": 0.01548147201538086,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "umpire",
+            "crowd",
+            "bench"
+          ],
+          "score": 0.03702259063720703
+        },
+        {
+          "question": "what is the baseball player wearing a gray uniform and holding a brown bat standing on?",
+          "answers": [
+            "mound",
+            "pitcher's mound",
+            "baseball field"
+          ],
+          "score": 0.01548147201538086
+        },
+        {
+          "question": "**Question:** What is the baseball player wearing a gray uniform and holding a brown bat standing on?",
+          "answers": [
+            "mound",
+            "field",
+            "infield"
+          ],
+          "score": 0.009781837463378906
+        },
+        {
+          "question": "Question: Is the baseball player standing on the mound or in the field?",
+          "answers": [
+            "on the mound",
+            "in the field",
+            "at bat"
+          ],
+          "score": 0.007175922393798828
+        },
+        {
+          "question": "**Question:** What is the position of the baseball player wearing a gray uniform and holding a brown bat?",
+          "answers": [
+            "on the mound",
+            "at bat",
+            "waiting for pitch"
+          ],
+          "score": 0.01448822021484375
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

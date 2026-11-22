@@ -1,0 +1,78 @@
+{
+  "qid": 1221,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the parking meter in the image?",
+    "what is the location of the parking meter in the image?",
+    "Question: what is the object placed on top of the parking meter in the image?",
+    "what object is placed on top of the parking meter in the image?",
+    "Question: what is the object placed on top of the parking meter in the image?"
+  ],
+  "second_candidates": [
+    "what is the object standing next to the parking meter in the image?",
+    "Question: What is the object located next to the parking meter in the image?",
+    "what is the color of the parking meter in the image?",
+    "what is the location of the parking meter in the image?",
+    "Based on the provided sources, here is the next question and the explanation of how it was generated:\n\n**Question:**\nWhat is the object standing next to?"
+  ],
+  "paths": [
+    {
+      "question": "what is the object standing next to the parking meter in the image?",
+      "answers": [
+        "trees",
+        "wooden shed",
+        "street"
+      ],
+      "score": 0.22619295120239258
+    },
+    {
+      "question": "Question: What is the object located next to the parking meter in the image?",
+      "answers": [
+        "trees",
+        "a wooden shed",
+        "sidewalks"
+      ],
+      "score": 0.2032017707824707
+    },
+    {
+      "question": "what is the color of the parking meter in the image?",
+      "answers": [
+        "black",
+        "white",
+        "yellow"
+      ],
+      "score": 0.11731863021850586
+    },
+    {
+      "question": "what is the location of the parking meter in the image?",
+      "answers": [
+        "middle of a city street",
+        "front of a busy city street",
+        "wooden shed"
+      ],
+      "score": 0.21774959564208984
+    },
+    {
+      "question": "Based on the provided sources, here is the next question and the explanation of how it was generated:\n\n**Question:**\nWhat is the object standing next to?",
+      "answers": [
+        "trees",
+        "wooden shed",
+        "sidewalks"
+      ],
+      "score": 0.09640645980834961
+    }
+  ],
+  "control": {
+    "question": "what is the object standing next to the parking meter in the image?",
+    "score": 0.22619295120239258
+  },
+  "mixed": {
+    "question": "Question: What is the parking meter next to?",
+    "score": 0.25545549392700195
+  },
+  "control_rank": 2,
+  "mixed_rank": 3,
+  "usual_rank": 52,
+  "new_answer": "wooden board",
+  "new_rewrite": "a wooden board standing next to a parking meter that seems out of place"
+}

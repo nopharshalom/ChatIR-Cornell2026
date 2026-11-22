@@ -1,0 +1,100 @@
+{
+  "qid": 267,
+  "initial": "a person on skis in a flat snowy area with many trees",
+  "initial_rank": 22,
+  "evidence": [
+    "a man skis down a slope in a red jacket",
+    "a woman in red wearing a pair of skis",
+    "a skier wearing red clothes racing",
+    "a girl in pink skiing down a snow covered hill",
+    "an old woman in a blue jacket on skis",
+    "a man is riding his snowboard down the side of a mountain",
+    "a woman dressed in a purple jacket standing on skis",
+    "three people on skis walking across a forest path",
+    "a snowboarder going down a slope with a tree in the background",
+    "a woman wearing a blue jacket going down a snowy slope"
+  ],
+  "candidates": [
+    "what is the color of the jacket worn by the person on skis in the flat snowy area?",
+    "what is the color of the jacket worn by the person on skis in the flat snowy area?",
+    "Question: what is the gender of the person on skis in the flat snowy area?",
+    "Question: Is the person on skis in the flat snowy area male or female?",
+    "what is the gender of the person on skis in the flat snowy area?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the jacket worn by the person on skis in the flat snowy area?",
+      "answers": [
+        "red",
+        "pink",
+        "blue"
+      ],
+      "score": 0.10673236846923828
+    },
+    {
+      "question": "what is the color of the jacket worn by the person on skis in the flat snowy area?",
+      "answers": [
+        "red",
+        "pink",
+        "blue"
+      ],
+      "score": 0.10673236846923828,
+      "duplicate_of": 0
+    },
+    {
+      "question": "Question: what is the gender of the person on skis in the flat snowy area?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.04088020324707031
+    },
+    {
+      "question": "Question: Is the person on skis in the flat snowy area male or female?",
+      "answers": [
+        "male",
+        "female"
+      ],
+      "score": 0.006865501403808594
+    },
+    {
+      "question": "what is the gender of the person on skis in the flat snowy area?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.04467964172363281
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.06,
+  "probe_selection_seconds": 1.981,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 11,
+  "arms": {
+    "kl": {
+      "question": "Question: what is the gender of the person on skis in the flat snowy area?",
+      "answer": "male",
+      "rewrite": "a male person on skis in a flat snowy area with many trees",
+      "rank": 27,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the color of the jacket worn by the person on skis in the flat snowy area?",
+      "answer": "black",
+      "rewrite": "a person wearing a black jacket on skis in a flat snowy area with many trees",
+      "rank": 18,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the color of the jacket worn by the person on skis in the flat snowy area?",
+      "answer": "black",
+      "rewrite": "a person wearing a black jacket on skis in a flat snowy area with many trees",
+      "rank": 18,
+      "hit": false
+    }
+  },
+  "seconds": 15.182
+}

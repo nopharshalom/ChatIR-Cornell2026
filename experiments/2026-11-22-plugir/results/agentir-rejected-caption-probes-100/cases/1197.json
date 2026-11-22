@@ -1,0 +1,79 @@
+{
+  "qid": 1197,
+  "candidates": [
+    "Question: What is the color of the cats laying on the cushions?",
+    "Question: What is the color of the cats?",
+    "Question: What is the species of the two cats laying in front of each other on cushions?",
+    "Question: What is the species of the two cats laying on the cushions?",
+    "Question: Are the two cats laying on a bed or on a couch?"
+  ],
+  "kl": {
+    "question": "Question: What is the species of the two cats laying on the cushions?",
+    "answer": "cat",
+    "rewrite": "two cats laying in front of each other on cushions",
+    "raw_rank": 48,
+    "unseen_rank": 38
+  },
+  "probe": {
+    "answer": "brown",
+    "rewrite": "two brown cats laying in front of each other on cushions",
+    "raw_rank": 32,
+    "unseen_rank": 25,
+    "question": "Question: What is the color of the cats?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the color of the cats laying on the cushions?",
+        "answers": [
+          "black",
+          "orange",
+          "brown"
+        ],
+        "score": 0.0792379379272461
+      },
+      {
+        "question": "Question: What is the color of the cats?",
+        "answers": [
+          "black",
+          "orange",
+          "brown and orange"
+        ],
+        "score": 0.12037897109985352
+      },
+      {
+        "question": "Question: What is the species of the two cats laying in front of each other on cushions?",
+        "answers": [
+          "black",
+          "orange",
+          "brown"
+        ],
+        "score": 0.10959815979003906
+      },
+      {
+        "question": "Question: What is the species of the two cats laying on the cushions?",
+        "answers": [
+          "black cats",
+          "orange cats",
+          "mixed breed cats"
+        ],
+        "score": 0.11411190032958984
+      },
+      {
+        "question": "Question: Are the two cats laying on a bed or on a couch?",
+        "answers": [
+          "bed",
+          "couch",
+          "pillows"
+        ],
+        "score": 0.007836341857910156
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.055,
+    "probe_selection_seconds": 2.343,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": false
+}

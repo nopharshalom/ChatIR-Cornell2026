@@ -1,0 +1,99 @@
+{
+  "qid": 1789,
+  "initial": "a man is hitting a tennis ball as a crowd watches",
+  "initial_rank": 95,
+  "evidence": [
+    "a tennis player in white clothes is in the air",
+    "a man in blue standing with a tennis racquet on a blue court",
+    "woman tennis player in white shirt and skirt",
+    "a man wearing a green green shirt and green tennis hat",
+    "man wearing red and orange shirt",
+    "man reaching up for a tennis ball",
+    "a man wearing white shirt swinging a baseball bat",
+    "a man wearing a green and black shirt hitting a tennis ball",
+    "a tennis player is standing in a green and blue tennis court with an audience in the stands"
+  ],
+  "candidates": [
+    "what color shirt is the man wearing?",
+    "Question: What color is the hat worn by the man hitting the tennis ball?",
+    "Question: where is the man hitting the tennis ball located?",
+    "Question: what is the color of the shirt and hat worn by the man hitting the tennis ball?",
+    "what color is the shirt and hat worn by the man hitting the tennis ball?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what color shirt is the man wearing?",
+      "answers": [
+        "green",
+        "red and orange",
+        "white"
+      ],
+      "score": 0.17396020889282227
+    },
+    {
+      "question": "Question: What color is the hat worn by the man hitting the tennis ball?",
+      "answers": [
+        "green",
+        "red and orange",
+        "none"
+      ],
+      "score": 0.03947591781616211
+    },
+    {
+      "question": "Question: where is the man hitting the tennis ball located?",
+      "answers": [
+        "on a blue court",
+        "on a green and blue tennis court",
+        "not specified"
+      ],
+      "score": 0.05749225616455078
+    },
+    {
+      "question": "Question: what is the color of the shirt and hat worn by the man hitting the tennis ball?",
+      "answers": [
+        "white",
+        "blue",
+        "green"
+      ],
+      "score": 0.024658203125
+    },
+    {
+      "question": "what color is the shirt and hat worn by the man hitting the tennis ball?",
+      "answers": [
+        "green",
+        "red",
+        "white"
+      ],
+      "score": 0.06857013702392578
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.077,
+  "probe_selection_seconds": 2.621,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "Question: where is the man hitting the tennis ball located?",
+      "answer": "on the tennis court",
+      "rewrite": "a man is hitting a tennis ball on a tennis court as a crowd watches",
+      "rank": 58,
+      "hit": false
+    },
+    "random": {
+      "question": "what color is the shirt and hat worn by the man hitting the tennis ball?",
+      "answer": "white",
+      "rewrite": "a man in a white shirt and white hat hits a tennis ball as a crowd watches",
+      "rank": 93,
+      "hit": false
+    },
+    "probe": {
+      "question": "what color shirt is the man wearing?",
+      "answer": "white",
+      "rewrite": "a man in a white shirt is hitting a tennis ball as a crowd watches",
+      "rank": 73,
+      "hit": false
+    }
+  },
+  "seconds": 15.296
+}

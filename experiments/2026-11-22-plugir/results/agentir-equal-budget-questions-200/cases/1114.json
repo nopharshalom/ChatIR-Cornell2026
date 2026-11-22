@@ -1,0 +1,78 @@
+{
+  "qid": 1114,
+  "sample": 1,
+  "first_candidates": [
+    "Question: Are the skiers in the image wearing jackets?",
+    "what is the gender of the skier in the image?",
+    "what is the gender of the skiers in the image?",
+    "Question: What is the gender of the person in the image?",
+    "Question: Which specific gender is the person skiing in the image?"
+  ],
+  "second_candidates": [
+    "what is the other object in the image?",
+    "what is the color of the skiers' clothing?",
+    "what is the background scenery behind the two skiers moving down the snowy path?",
+    "Question: What is the color of the skiers' clothing?",
+    "Question: What is the specific environment or setting where the two skiers are moving down the snowy path?"
+  ],
+  "paths": [
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "trees",
+        "snow",
+        "ski poles"
+      ],
+      "score": 0.04441547393798828
+    },
+    {
+      "question": "what is the color of the skiers' clothing?",
+      "answers": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "score": 0.14267683029174805
+    },
+    {
+      "question": "what is the background scenery behind the two skiers moving down the snowy path?",
+      "answers": [
+        "trees",
+        "cliff",
+        "sunny day"
+      ],
+      "score": 0.08657455444335938
+    },
+    {
+      "question": "Question: What is the color of the skiers' clothing?",
+      "answers": [
+        "red",
+        "blue",
+        "white"
+      ],
+      "score": 0.11915826797485352
+    },
+    {
+      "question": "Question: What is the specific environment or setting where the two skiers are moving down the snowy path?",
+      "answers": [
+        "trees",
+        "cliff",
+        "city"
+      ],
+      "score": 0.14294815063476562
+    }
+  ],
+  "control": {
+    "question": "Question: What is the specific environment or setting where the two skiers are moving down the snowy path?",
+    "score": 0.14294815063476562
+  },
+  "mixed": {
+    "question": "Question: What is the lighting condition or time of day in the image?",
+    "score": 0.06676483154296875
+  },
+  "control_rank": 13,
+  "mixed_rank": 27,
+  "usual_rank": 88,
+  "new_answer": "ski slope",
+  "new_rewrite": "two skiers move down a snowy ski slope"
+}

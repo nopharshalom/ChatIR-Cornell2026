@@ -1,0 +1,78 @@
+{
+  "qid": 1050,
+  "sample": 2,
+  "first_candidates": [
+    "what is the specific type of cake being cut by the bride and groom?",
+    "what is the setting or location where the bride and groom are cutting their wedding cake?",
+    "Question: What is the setting or location where the bride and groom are cutting their wedding cake?",
+    "Question: What is the number of tiers on the cake being cut by the bride and groom?",
+    "what is the specific type of cake being cut by the bride and groom?"
+  ],
+  "second_candidates": [
+    "what is the color of the cake being cut by the bride and groom?",
+    "what is the setting or location where the bride and groom are cutting the cake?",
+    "what is the attire of the bride and groom cutting the cake?",
+    "what is the number of tiers on the cake being cut by the bride and groom?",
+    "what is the type of table the bride and groom are cutting the cake on?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the cake being cut by the bride and groom?",
+      "answers": [
+        "white",
+        "pink",
+        "red"
+      ],
+      "score": 0.06679344177246094
+    },
+    {
+      "question": "what is the setting or location where the bride and groom are cutting the cake?",
+      "answers": [
+        "at a wedding reception",
+        "indoors",
+        "outdoors"
+      ],
+      "score": 0.06646394729614258
+    },
+    {
+      "question": "what is the attire of the bride and groom cutting the cake?",
+      "answers": [
+        "wedding attire",
+        "formal wear",
+        "evening gowns and suits"
+      ],
+      "score": 0.004357337951660156
+    },
+    {
+      "question": "what is the number of tiers on the cake being cut by the bride and groom?",
+      "answers": [
+        "one",
+        "two",
+        "three"
+      ],
+      "score": 0.017017841339111328
+    },
+    {
+      "question": "what is the type of table the bride and groom are cutting the cake on?",
+      "answers": [
+        "wooden",
+        "marble",
+        "glass"
+      ],
+      "score": 0.04132556915283203
+    }
+  ],
+  "control": {
+    "question": "what is the color of the cake being cut by the bride and groom?",
+    "score": 0.06679344177246094
+  },
+  "mixed": {
+    "question": "Question: What is the surface or setting where the bride and groom are cutting the cake?",
+    "score": 0.08438634872436523
+  },
+  "control_rank": 18,
+  "mixed_rank": 17,
+  "usual_rank": 16,
+  "new_answer": "white",
+  "new_rewrite": "a bride and groom cutting into a white wedding cake together"
+}

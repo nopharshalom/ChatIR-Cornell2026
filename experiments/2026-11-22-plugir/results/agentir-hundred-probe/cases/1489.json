@@ -1,0 +1,100 @@
+{
+  "qid": 1489,
+  "initial": "the blue clock is sitting on the ledge",
+  "initial_rank": 234,
+  "evidence": [
+    "a red clock tower with black numerals in the middle",
+    "a large clock that is hanging on a pole in a sidewalk",
+    "blue street signs in front of a tall building",
+    "a clock tower on a building against the sky",
+    "a clock sitting on a hill beside a church",
+    "antique clock in black and gold",
+    "a blue suitcase sitting on a table in the closet",
+    "a black clock hanging above a dark ceiling",
+    "a blue toilet",
+    "a large blue plane sits on the tarmac"
+  ],
+  "candidates": [
+    "what color are the numerals on the clock tower?",
+    "Question: What is the location where the blue clock is sitting?",
+    "what is the object sitting on the ledge next to the blue clock?",
+    "Question: What is the color of the clock tower in the image?",
+    "what is the object sitting next to the blue clock on the ledge?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what color are the numerals on the clock tower?",
+      "answers": [
+        "black",
+        "white",
+        "blue"
+      ],
+      "score": 0.023927688598632812
+    },
+    {
+      "question": "Question: What is the location where the blue clock is sitting?",
+      "answers": [
+        "ledge",
+        "table",
+        "hill"
+      ],
+      "score": 0.035428524017333984
+    },
+    {
+      "question": "what is the object sitting on the ledge next to the blue clock?",
+      "answers": [
+        "a blue suitcase",
+        "a red clock tower",
+        "a blue plane"
+      ],
+      "score": 0.09601449966430664
+    },
+    {
+      "question": "Question: What is the color of the clock tower in the image?",
+      "answers": [
+        "blue",
+        "black",
+        "red"
+      ],
+      "score": 0.056849002838134766
+    },
+    {
+      "question": "what is the object sitting next to the blue clock on the ledge?",
+      "answers": [
+        "a bench",
+        "a statue",
+        "a tree"
+      ],
+      "score": 0.08510446548461914
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.059,
+  "probe_selection_seconds": 2.321,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "Question: What is the location where the blue clock is sitting?",
+      "answer": "desk",
+      "rewrite": "a blue clock is sitting on a desk",
+      "rank": 2,
+      "hit": true
+    },
+    "random": {
+      "question": "what is the object sitting on the ledge next to the blue clock?",
+      "answer": "a pen holder",
+      "rewrite": "a blue clock and a pen holder are sitting on the ledge",
+      "rank": 23,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the object sitting on the ledge next to the blue clock?",
+      "answer": "a pen holder",
+      "rewrite": "a blue clock and a pen holder are sitting on the ledge",
+      "rank": 23,
+      "hit": false
+    }
+  },
+  "seconds": 20.476
+}

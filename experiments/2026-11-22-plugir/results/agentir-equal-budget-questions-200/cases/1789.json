@@ -1,0 +1,79 @@
+{
+  "qid": 1789,
+  "sample": 1,
+  "first_candidates": [
+    "what color shirt is the man wearing?",
+    "Question: What color is the hat worn by the man hitting the tennis ball?",
+    "Question: where is the man hitting the tennis ball located?",
+    "Question: what is the color of the shirt and hat worn by the man hitting the tennis ball?",
+    "what color is the shirt and hat worn by the man hitting the tennis ball?"
+  ],
+  "second_candidates": [
+    "what color is the shirt worn by the man hitting the tennis ball?",
+    "what is the color of the hat worn by the man hitting the tennis ball?",
+    "what is the color of the shirt worn by the man hitting the tennis ball?",
+    "what is the color of the hat worn by the man hitting the tennis ball?",
+    "Question: What is the color of the court where the man is hitting the tennis ball?"
+  ],
+  "paths": [
+    {
+      "question": "what color is the shirt worn by the man hitting the tennis ball?",
+      "answers": [
+        "green",
+        "red and orange",
+        "white"
+      ],
+      "score": 0.14883995056152344
+    },
+    {
+      "question": "what is the color of the hat worn by the man hitting the tennis ball?",
+      "answers": [
+        "green",
+        "red and orange",
+        "none"
+      ],
+      "score": 0.04491090774536133
+    },
+    {
+      "question": "what is the color of the shirt worn by the man hitting the tennis ball?",
+      "answers": [
+        "white",
+        "blue",
+        "green"
+      ],
+      "score": 0.13016176223754883
+    },
+    {
+      "question": "what is the color of the hat worn by the man hitting the tennis ball?",
+      "answers": [
+        "green",
+        "red and orange",
+        "none"
+      ],
+      "score": 0.04491090774536133,
+      "duplicate_of": 1
+    },
+    {
+      "question": "Question: What is the color of the court where the man is hitting the tennis ball?",
+      "answers": [
+        "blue",
+        "green",
+        "green and blue"
+      ],
+      "score": 0.033208370208740234
+    }
+  ],
+  "control": {
+    "question": "what color shirt is the man wearing?",
+    "score": 0.17396020889282227
+  },
+  "mixed": {
+    "question": "what color shirt is the man wearing?",
+    "score": 0.17396020889282227
+  },
+  "control_rank": 73,
+  "mixed_rank": 73,
+  "usual_rank": 73,
+  "new_answer": null,
+  "new_rewrite": null
+}

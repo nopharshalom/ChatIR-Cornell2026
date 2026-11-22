@@ -1,0 +1,71 @@
+{
+  "qid": 1099,
+  "initial": "cars stopped at a red light where there are buildings and houses on the block next to the road",
+  "initial_rank": 61,
+  "evidence": [
+    "the street lights are high on a cloudy day",
+    "the train is passing a red traffic light",
+    "there is a white taxi parked on a busy street with a bunch of people",
+    "a traffic signal with a street sign, lights, and a stop light",
+    "a traffic light with some clouds above",
+    "a traffic light hanging in a cloudy sky",
+    "a residential street sign in the middle of a residential street",
+    "this photo shows a light at night",
+    "a boy skateboarding down a street near a couple of homes",
+    "street lights in a large parking lot"
+  ],
+  "displayed_ids": [
+    20010,
+    1498,
+    9269,
+    21757,
+    18766,
+    38612,
+    33188,
+    4544,
+    25951,
+    33240
+  ],
+  "rejected_captions": [
+    "a street scene with cars, cars and street lights",
+    "a street has many buildings on it",
+    "the tree on the street",
+    "a car stopped at a red light",
+    "a street sign",
+    "the road is gray",
+    "a traffic light on a intersection",
+    "a pedestrian and vehicle crossing at a stop light",
+    "a street with a traffic light above a brick building",
+    "large sky with white clouds"
+  ],
+  "candidates": [
+    "Question: Are there people visible in the scene with the cars stopped at the red light?",
+    "Question: What is the state of the sky in the scene with the cars stopped at a red light?",
+    "Question: What color is the taxi in the scene with the cars stopped at a red light?",
+    "Question: What color is the traffic light that the cars are stopped at?",
+    "Question: What color are the buildings located on the block next to the road where the cars are stopped at the red light?"
+  ],
+  "control_candidates": [
+    "what is the other object in the image?",
+    "what is the weather condition in the image?",
+    "Question: what is the weather condition in the image?",
+    "Question: What is the weather condition in the image?",
+    "what is the color of the traffic light in the image?"
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "answer": "traffic lights",
+    "rewrite": "cars stopped at a red light with traffic lights, where there are buildings and houses on the block next to the road",
+    "rank": 24,
+    "hit": false,
+    "raw_rank": 24,
+    "unseen_rank": 14
+  },
+  "variant": {
+    "question": "Question: What color are the buildings located on the block next to the road where the cars are stopped at the red light?",
+    "answer": "white",
+    "rewrite": "cars stopped at a red light on a block with white buildings and houses next to the road",
+    "raw_rank": 39,
+    "unseen_rank": 30
+  }
+}

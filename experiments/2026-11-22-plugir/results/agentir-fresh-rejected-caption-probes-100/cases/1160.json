@@ -1,0 +1,176 @@
+{
+  "qid": 1160,
+  "initial": "a bus is stopping at a bus station with some people waiting",
+  "initial_rank": 40,
+  "displayed": [
+    40236,
+    46395,
+    21434,
+    25651,
+    49580,
+    18282,
+    42131,
+    10859,
+    36347,
+    7239
+  ],
+  "evidence": [
+    "a blue and white bus parked on a side street",
+    "a white and blue bus is parked in front of buildings and trees",
+    "an old bus that is red and yellow",
+    "a blue and white bus driving down a street with trees and traffic in the background",
+    "two red city buses are parked by some buildings",
+    "red and yellow train at the station",
+    "two white and blue buses driving down the street",
+    "red and yellow double decker bus on the street",
+    "white and blue city bus"
+  ],
+  "rejected_captions": [
+    "a red and white bus with a green and white stripe",
+    "the bus is white and orange",
+    "white and blue city bus",
+    "two buses in front of a building",
+    "a large red and white bus that is parked",
+    "a red bus is stopped at a bus stop by a large sidewalk",
+    "a bus on the road with people waiting for it",
+    "a bus is parked at the side of a sidewalk",
+    "bus is double decked",
+    "a line of buses parked in front of a building"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the color of the bus stopping at the bus station?",
+      "Question: how many people are waiting at the bus station where the bus is stopping?",
+      "Question: what is the color of the bus stopping at the bus station?",
+      "Question: Is there a green bus parked on a side street?",
+      "Question: Is there a red and yellow bus stopping at the bus station?"
+    ],
+    "question": "Question: what is the color of the bus stopping at the bus station?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the bus stopping at the bus station?",
+          "answers": [
+            "red and yellow",
+            "blue and white",
+            "white and blue"
+          ],
+          "score": 0.21507644653320312
+        },
+        {
+          "question": "Question: how many people are waiting at the bus station where the bus is stopping?",
+          "answers": [
+            "one",
+            "two",
+            "three"
+          ],
+          "score": 0.004204750061035156
+        },
+        {
+          "question": "Question: what is the color of the bus stopping at the bus station?",
+          "answers": [
+            "red and yellow",
+            "white and blue",
+            "blue and white"
+          ],
+          "score": 0.2645559310913086
+        },
+        {
+          "question": "Question: Is there a green bus parked on a side street?",
+          "answers": [
+            "No, it's blue and white",
+            "No, it's red and yellow",
+            "No, it's driving"
+          ],
+          "score": 0.19739055633544922
+        },
+        {
+          "question": "Question: Is there a red and yellow bus stopping at the bus station?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0021576881408691406
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.061,
+      "probe_selection_seconds": 2.809,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "yellow",
+    "rewrite": "a yellow bus is stopping at a bus station with some people waiting",
+    "raw_rank": 14,
+    "unseen_rank": 13
+  },
+  "rejected": {
+    "candidates": [
+      "what is the color of the bus stopping at the bus station?",
+      "Question: Is the bus a single decker or a double decker?",
+      "what is the other object in the image?",
+      "Question: What color is the bus stopping at the bus station?",
+      "Question: Is the bus red and yellow?"
+    ],
+    "question": "what is the color of the bus stopping at the bus station?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the bus stopping at the bus station?",
+          "answers": [
+            "red and yellow",
+            "blue and white",
+            "white and blue"
+          ],
+          "score": 0.21507644653320312
+        },
+        {
+          "question": "Question: Is the bus a single decker or a double decker?",
+          "answers": [
+            "single decker",
+            "double decker",
+            "unknown"
+          ],
+          "score": 0.0052032470703125
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "people waiting",
+            "bus station",
+            "trees"
+          ],
+          "score": 0.08319425582885742
+        },
+        {
+          "question": "Question: What color is the bus stopping at the bus station?",
+          "answers": [
+            "red and yellow",
+            "blue and white",
+            "double decker"
+          ],
+          "score": 0.17971277236938477
+        },
+        {
+          "question": "Question: Is the bus red and yellow?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0018157958984375
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.056,
+      "probe_selection_seconds": 2.526,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "yellow",
+    "rewrite": "a yellow bus is stopping at a bus station with some people waiting",
+    "raw_rank": 14,
+    "unseen_rank": 13
+  }
+}

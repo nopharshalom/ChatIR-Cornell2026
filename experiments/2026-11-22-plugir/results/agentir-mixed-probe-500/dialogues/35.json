@@ -1,0 +1,281 @@
+{
+  "qid": 35,
+  "sample": "original",
+  "target": "unlabeled2017/000000416756.jpg",
+  "queries": [
+    "a bird sitting on a branch of a tree",
+    "a brown-headed bird sitting on a tree branch",
+    "a brown-headed bird sitting on a branch of a tree with small, blurry leaves"
+  ],
+  "ranks": [
+    14,
+    30,
+    10
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a bird sitting on a branch of a tree",
+      "question": "what is the color of the bird's head?",
+      "answer": "brown",
+      "query_after": "a brown-headed bird sitting on a tree branch",
+      "displayed_ids": [
+        6106,
+        12309,
+        42787,
+        15446,
+        13892,
+        48220,
+        28181,
+        2156,
+        17137,
+        32172
+      ],
+      "selected_ids": [
+        7270,
+        12484,
+        22310,
+        18107,
+        12158,
+        22588,
+        49460,
+        21862,
+        11937,
+        48421
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the bird's head?",
+          "answers": [
+            "red",
+            "white",
+            "yellow"
+          ],
+          "score": 0.18829584121704102
+        },
+        {
+          "question": "what is the color of the bird's head?",
+          "answers": [
+            "red",
+            "white",
+            "yellow"
+          ],
+          "score": 0.18829584121704102,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the location of the tree where the bird is sitting?",
+          "answers": [
+            "field",
+            "jungle",
+            "forest"
+          ],
+          "score": 0.035363197326660156
+        },
+        {
+          "question": "what is the location of the tree where the bird is sitting?",
+          "answers": [
+            "field",
+            "jungle",
+            "forest"
+          ],
+          "score": 0.035363197326660156,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the tree branch where the bird is sitting?",
+          "answers": [
+            "green",
+            "brown",
+            "black"
+          ],
+          "score": 0.06734418869018555
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the bird sitting on the branch?",
+          "answers": [
+            "red",
+            "white",
+            "black"
+          ],
+          "score": 0.07133150100708008
+        },
+        {
+          "question": "Question: What is the color of the bird sitting on the branch?",
+          "answers": [
+            "red",
+            "black",
+            "white"
+          ],
+          "score": 0.07386207580566406
+        },
+        {
+          "question": "What is the color of the bird sitting on the branch?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.060091495513916016
+        },
+        {
+          "question": "Question: What color is the bird sitting on the branch?",
+          "answers": [
+            "red",
+            "white",
+            "black"
+          ],
+          "score": 0.07133150100708008,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the bird sitting on the branch?",
+          "answers": [
+            "red",
+            "white",
+            "black"
+          ],
+          "score": 0.07133150100708008,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a brown-headed bird sitting on a tree branch",
+      "question": "what is the specific type of tree the bird is sitting on?",
+      "answer": "I'm sorry, but I cannot determine the specific type of tree from this image. The leaves are too small and blurry to identify the species with certainty.",
+      "query_after": "a brown-headed bird sitting on a branch of a tree with small, blurry leaves",
+      "displayed_ids": [
+        13892,
+        12309,
+        17679,
+        48220,
+        17137,
+        42787,
+        28181,
+        38836,
+        25148,
+        33157
+      ],
+      "selected_ids": [
+        20113,
+        22588,
+        33670,
+        12484,
+        46567,
+        31171,
+        49460,
+        46262,
+        8805,
+        31128
+      ],
+      "rejected_count": 14,
+      "usual_paths": [
+        {
+          "question": "what is the color of the bird's body?",
+          "answers": [
+            "brown",
+            "white",
+            "gray"
+          ],
+          "score": 0.050137996673583984
+        },
+        {
+          "question": "what is the color of the bird's body?",
+          "answers": [
+            "brown",
+            "white",
+            "gray"
+          ],
+          "score": 0.050137996673583984,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bird's body?",
+          "answers": [
+            "brown",
+            "white",
+            "gray"
+          ],
+          "score": 0.050137996673583984,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the specific type of tree the bird is sitting on?",
+          "answers": [
+            "banana tree",
+            "empty tree",
+            "stone"
+          ],
+          "score": 0.13772821426391602
+        },
+        {
+          "question": "what is the color of the bird's body?",
+          "answers": [
+            "brown",
+            "white",
+            "gray"
+          ],
+          "score": 0.050137996673583984,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the tree branch the bird is sitting on?",
+          "answers": [
+            "brown",
+            "gray",
+            "white"
+          ],
+          "score": 0.027803421020507812
+        },
+        {
+          "question": "what is the type of tree the bird is sitting on?",
+          "answers": [
+            "empty tree",
+            "old tree",
+            "wrought iron rod"
+          ],
+          "score": 0.10521888732910156
+        },
+        {
+          "question": "what is the color of the bird's body?",
+          "answers": [
+            "brown",
+            "gray",
+            "white"
+          ],
+          "score": 0.050137996673583984
+        },
+        {
+          "question": "what is the color of the tree branch the bird is sitting on?",
+          "answers": [
+            "brown",
+            "gray",
+            "white"
+          ],
+          "score": 0.027803421020507812,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the type of tree the bird is sitting on?",
+          "answers": [
+            "empty tree",
+            "old tree",
+            "wrought iron rod"
+          ],
+          "score": 0.10521888732910156,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

@@ -1,0 +1,79 @@
+{
+  "qid": 679,
+  "candidates": [
+    "Question: What is the location where the boy is swinging the bat?",
+    "Question: What color is the shirt the boy is wearing?",
+    "Question: What color is the helmet the boy is wearing?",
+    "what is the other object in the image?",
+    "What is the boy wearing while swinging the bat?"
+  ],
+  "kl": {
+    "question": "What is the boy wearing while swinging the bat?",
+    "answer": "hoodie",
+    "rewrite": "a little boy wearing a hoodie swings a large bat and hits a ball",
+    "raw_rank": 2,
+    "unseen_rank": 1
+  },
+  "probe": {
+    "answer": "blue",
+    "rewrite": "a little boy in a blue shirt swings a large bat and hits a ball",
+    "raw_rank": 13,
+    "unseen_rank": 4,
+    "question": "Question: What color is the shirt the boy is wearing?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the location where the boy is swinging the bat?",
+        "answers": [
+          "baseball field",
+          "empty parking lot",
+          "home plate"
+        ],
+        "score": 0.06550264358520508
+      },
+      {
+        "question": "Question: What color is the shirt the boy is wearing?",
+        "answers": [
+          "red",
+          "blue",
+          "yellow"
+        ],
+        "score": 0.18262004852294922
+      },
+      {
+        "question": "Question: What color is the helmet the boy is wearing?",
+        "answers": [
+          "white",
+          "blue",
+          "black"
+        ],
+        "score": 0.06792879104614258
+      },
+      {
+        "question": "what is the other object in the image?",
+        "answers": [
+          "a baseball field",
+          "a catcher",
+          "a crowd"
+        ],
+        "score": 0.06735754013061523
+      },
+      {
+        "question": "What is the boy wearing while swinging the bat?",
+        "answers": [
+          "a red hat",
+          "a blue shirt",
+          "no shirt"
+        ],
+        "score": 0.1086740493774414
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.061,
+    "probe_selection_seconds": 2.447,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": false
+}

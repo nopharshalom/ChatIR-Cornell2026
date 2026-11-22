@@ -1,0 +1,77 @@
+{
+  "qid": 681,
+  "sample": 2,
+  "first_candidates": [
+    "Question: What is the color of the bike parked outside with a cat?",
+    "what is the color of the bike parked outside with a cat?",
+    "what is the color of the bike parked outside with a cat?",
+    "Question: What is the color of the bike outside with a cat?",
+    "what is the color of the bike parked outside with a cat?"
+  ],
+  "second_candidates": [
+    "what is the color of the bike?",
+    "Question: Is the bike a bicycle or a motorcycle?",
+    "what is the color of the cat interacting with the bike?",
+    "Question: Who is interacting with the cat and the bike?",
+    "Question: What is the color of the cat interacting with the bike?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the bike?",
+      "answers": [
+        "black",
+        "red",
+        "white"
+      ],
+      "score": 0.10764312744140625
+    },
+    {
+      "question": "Question: Is the bike a bicycle or a motorcycle?",
+      "answers": [
+        "bicycle",
+        "motorcycle"
+      ],
+      "score": 0.01410055160522461
+    },
+    {
+      "question": "what is the color of the cat interacting with the bike?",
+      "answers": [
+        "black",
+        "orange",
+        "white"
+      ],
+      "score": 0.08253288269042969
+    },
+    {
+      "question": "Question: Who is interacting with the cat and the bike?",
+      "answers": [
+        "a person",
+        "man",
+        "woman"
+      ],
+      "score": 0.01869344711303711
+    },
+    {
+      "question": "Question: What is the color of the cat interacting with the bike?",
+      "answers": [
+        "black",
+        "white",
+        "orange"
+      ],
+      "score": 0.07232093811035156
+    }
+  ],
+  "control": {
+    "question": "what is the color of the bike?",
+    "score": 0.10764312744140625
+  },
+  "mixed": {
+    "question": "Question: What is the color of the motorcycle parked next to the cat?",
+    "score": 0.08024358749389648
+  },
+  "control_rank": 8,
+  "mixed_rank": 117,
+  "usual_rank": 10,
+  "new_answer": "blue",
+  "new_rewrite": "a blue bike is outside with a cat next to it"
+}

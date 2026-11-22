@@ -1,0 +1,141 @@
+{
+  "qid": 1508,
+  "sample": "original",
+  "target": "unlabeled2017/000000519402.jpg",
+  "queries": [
+    "simple but effective plant protector for small flowers, ideal for home with cats",
+    "a simple but effective plant protector for small flowers, featuring a decorative cage design, ideal for home use with cats (though no cat is visible in the image)"
+  ],
+  "ranks": [
+    14,
+    2
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "simple but effective plant protector for small flowers, ideal for home with cats",
+      "question": "Question: What is the color of the cat in the image?",
+      "answer": "I am unsure. The image shows a plant in a decorative cage, not a cat.",
+      "query_after": "a simple but effective plant protector for small flowers, featuring a decorative cage design, ideal for home use with cats (though no cat is visible in the image)",
+      "displayed_ids": [
+        30829,
+        43466,
+        25040,
+        19670,
+        14579,
+        15438,
+        49939,
+        11867,
+        3879,
+        24901
+      ],
+      "selected_ids": [
+        42943,
+        45817,
+        43840,
+        17434,
+        46019,
+        31735,
+        100,
+        6803,
+        9901,
+        45726
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: Is the cat in the image sitting on a wooden chair or on a white armchair?",
+          "answers": [
+            "wooden chair",
+            "white armchair",
+            "neither"
+          ],
+          "score": 0.021594524383544922
+        },
+        {
+          "question": "Question: What type of plant protector is being used for the small flowers in the image?",
+          "answers": [
+            "mesh",
+            "netting",
+            "cage"
+          ],
+          "score": 0.03214550018310547
+        },
+        {
+          "question": "Question: What is the color of the armchair or chair the cat is sitting on?",
+          "answers": [
+            "white",
+            "wooden"
+          ],
+          "score": 0.05774354934692383
+        },
+        {
+          "question": "Question: What is the material of the chair the cat is sitting on?",
+          "answers": [
+            "wooden",
+            "white",
+            "leather"
+          ],
+          "score": 0.0791935920715332
+        },
+        {
+          "question": "Question: Question: Where is the cat sitting in the image, on a chair or in a window?",
+          "answers": [
+            "on a chair",
+            "in a window"
+          ],
+          "score": 0.016006946563720703
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the cat in the image?",
+          "answers": [
+            "white",
+            "orange",
+            "black"
+          ],
+          "score": 0.13670587539672852
+        },
+        {
+          "question": "Question: What type of chair is the cat sitting on?",
+          "answers": [
+            "armchair",
+            "chair",
+            "wooden chair"
+          ],
+          "score": 0.021702289581298828
+        },
+        {
+          "question": "Question: What is the location where the cat is sitting?",
+          "answers": [
+            "armchair",
+            "window",
+            "field"
+          ],
+          "score": 0.11565160751342773
+        },
+        {
+          "question": "Question: What color are the flowers in the vase?",
+          "answers": [
+            "white",
+            "pink",
+            "orange"
+          ],
+          "score": 0.09146833419799805
+        },
+        {
+          "question": "Question: What is the material of the chair the cat is sitting on?",
+          "answers": [
+            "wooden",
+            "armchair",
+            "unknown"
+          ],
+          "score": 0.039435386657714844
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

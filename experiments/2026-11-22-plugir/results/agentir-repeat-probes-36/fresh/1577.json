@@ -1,0 +1,53 @@
+{
+  "qid": 1577,
+  "arm": "fresh",
+  "after_round": 6,
+  "ranks": [
+    244,
+    159,
+    175,
+    113,
+    74,
+    89,
+    105,
+    96,
+    187,
+    113,
+    123
+  ],
+  "continuation": [
+    {
+      "round": 7,
+      "query_before": "a white bathroom with 2 sinks, a white bathtub, a white toilet, and many white towels, featuring tiled walls",
+      "question": "Is there a TV in the bathroom?",
+      "answer": "no",
+      "query_after": "a white bathroom featuring two sinks, a white bathtub, a white toilet, and many white towels, with tiled walls and no TV",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Is there a TV in the bathroom?",
+      "fallback": false
+    },
+    {
+      "round": 8,
+      "query_before": "a white bathroom featuring two sinks, a white bathtub, a white toilet, and many white towels, with tiled walls and no TV",
+      "question": "what is the other object in the image?",
+      "answer": "bathtub",
+      "query_after": "The bathroom is entirely white, featuring a bathtub, a toilet, and two sinks, all accompanied by numerous white towels, tiled walls, and no television."
+    },
+    {
+      "round": 9,
+      "query_before": "The bathroom is entirely white, featuring a bathtub, a toilet, and two sinks, all accompanied by numerous white towels, tiled walls, and no television.",
+      "question": "what is the material of the toilet in the bathroom with 2 sinks and a lot of towels?",
+      "answer": "porcelain",
+      "query_after": "a white bathroom featuring two sinks, a white porcelain toilet, a white bathtub, and many white towels, with tiled walls and no TV"
+    },
+    {
+      "round": 10,
+      "query_before": "a white bathroom featuring two sinks, a white porcelain toilet, a white bathtub, and many white towels, with tiled walls and no TV",
+      "question": "what is the other object in the image?",
+      "answer": "bathtub",
+      "query_after": "a white bathroom with 2 sinks, a white porcelain toilet, a white bathtub, and many white towels, featuring tiled walls and no TV"
+    }
+  ],
+  "seconds": 70.7
+}

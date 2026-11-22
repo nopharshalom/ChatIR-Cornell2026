@@ -1,0 +1,181 @@
+{
+  "qid": 1358,
+  "initial": "a person in a red helmet and uniform is riding a motorcycle",
+  "initial_rank": 17,
+  "displayed": [
+    38052,
+    19598,
+    19925,
+    16579,
+    43289,
+    17031,
+    32033,
+    5209,
+    45836,
+    783
+  ],
+  "evidence": [
+    "a man skateboarding down a street with cones in the path",
+    "a man in a red and white baseball uniform at bat",
+    "the skier is in red and white clothing",
+    "a man on a blue motorcycle in a town",
+    "man on a motorcycle with a cargo trailer",
+    "three people on motorcycles on a busy street",
+    "a yellow and white race motorcycle with racing stripes",
+    "a girl is riding on top of a horse in an arena",
+    "a woman is sitting on a black motorcycle",
+    "blue and black motorbike"
+  ],
+  "rejected_captions": [
+    "man riding a motor bike",
+    "man racing motor bike on track",
+    "a person riding a motorcycle on a race track",
+    "person on motorcycle",
+    "a person riding a motorcycle in a circle",
+    "a man riding a motorcycle",
+    "the man is on a bike",
+    "the man has his helmet on his head",
+    "a motorcyclist rides his bike",
+    "two motorcyclists on a motorcycle"
+  ],
+  "usual": {
+    "candidates": [
+      "what color is the motorcycle worn by the person in the red helmet?",
+      "what is the gender of the person in the red helmet and uniform riding the motorcycle?",
+      "what is the gender of the person in the red helmet and uniform riding the motorcycle?",
+      "what is the other object in the image?",
+      "what is the other object in the image?"
+    ],
+    "question": "what color is the motorcycle worn by the person in the red helmet?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what color is the motorcycle worn by the person in the red helmet?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.06540489196777344
+        },
+        {
+          "question": "what is the gender of the person in the red helmet and uniform riding the motorcycle?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.022951126098632812
+        },
+        {
+          "question": "what is the gender of the person in the red helmet and uniform riding the motorcycle?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.022951126098632812,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a person",
+            "a helmet",
+            "a uniform"
+          ],
+          "score": 0.006391048431396484
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a person",
+            "a helmet",
+            "a uniform"
+          ],
+          "score": 0.006391048431396484,
+          "duplicate_of": 3
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.069,
+      "probe_selection_seconds": 1.37,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "green and white",
+    "rewrite": "a person in a red helmet and uniform rides a green and white motorcycle",
+    "raw_rank": 1,
+    "unseen_rank": 1
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the color of the motorcycle being ridden by the person in the red helmet and uniform?",
+      "Question: What is the location where the person in the red helmet and uniform is riding?",
+      "Question: What is the color of the motorcycle?",
+      "Question: What is the color of the motorcycle?",
+      "Question: What is the color of the motorcycle being ridden by the person in the red helmet and uniform?"
+    ],
+    "question": "Question: What is the color of the motorcycle?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the color of the motorcycle being ridden by the person in the red helmet and uniform?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.0634455680847168
+        },
+        {
+          "question": "Question: What is the location where the person in the red helmet and uniform is riding?",
+          "answers": [
+            "a town",
+            "a busy street",
+            "an arena"
+          ],
+          "score": 0.07390451431274414
+        },
+        {
+          "question": "Question: What is the color of the motorcycle?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.07691001892089844
+        },
+        {
+          "question": "Question: What is the color of the motorcycle?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.07691001892089844,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the color of the motorcycle being ridden by the person in the red helmet and uniform?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.0634455680847168,
+          "duplicate_of": 0
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.158,
+      "probe_selection_seconds": 1.448,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "green and white",
+    "rewrite": "a person in a red helmet and uniform is riding a green and white motorcycle",
+    "raw_rank": 1,
+    "unseen_rank": 1
+  }
+}

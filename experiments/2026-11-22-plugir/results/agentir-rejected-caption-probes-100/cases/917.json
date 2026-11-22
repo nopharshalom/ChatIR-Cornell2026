@@ -1,0 +1,79 @@
+{
+  "qid": 917,
+  "candidates": [
+    "What is the background environment of the group of adult zebras with a baby zebra?",
+    "Question: How many zebras are in the group with the baby zebra?",
+    "Question: Is the baby zebra standing with its mother in a field or in a zoo enclosure?",
+    "Question: What is the specific action the baby zebra is performing in the group with its mother?",
+    "Question: What is the color of the adult zebra's mane?"
+  ],
+  "kl": {
+    "question": "What is the background environment of the group of adult zebras with a baby zebra?",
+    "answer": "forest",
+    "rewrite": "a group of adult zebras with a baby zebra by his mom in a forest",
+    "raw_rank": 5,
+    "unseen_rank": 1
+  },
+  "probe": {
+    "answer": "nursing",
+    "rewrite": "a group of adult zebras with a baby zebra nursing from its mother",
+    "raw_rank": 11,
+    "unseen_rank": 3,
+    "question": "Question: What is the specific action the baby zebra is performing in the group with its mother?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "What is the background environment of the group of adult zebras with a baby zebra?",
+        "answers": [
+          "tall grassy field",
+          "grassy area with animals in distance",
+          "field with tall grass and trees"
+        ],
+        "score": 0.07691240310668945
+      },
+      {
+        "question": "Question: How many zebras are in the group with the baby zebra?",
+        "answers": [
+          "zero",
+          "one",
+          "two"
+        ],
+        "score": 0.0008797645568847656
+      },
+      {
+        "question": "Question: Is the baby zebra standing with its mother in a field or in a zoo enclosure?",
+        "answers": [
+          "field",
+          "zoo enclosure",
+          "pen"
+        ],
+        "score": 0.016819000244140625
+      },
+      {
+        "question": "Question: What is the specific action the baby zebra is performing in the group with its mother?",
+        "answers": [
+          "grazing",
+          "standing",
+          "drinking water"
+        ],
+        "score": 0.09648561477661133
+      },
+      {
+        "question": "Question: What is the color of the adult zebra's mane?",
+        "answers": [
+          "black and white",
+          "black",
+          "white"
+        ],
+        "score": 0.00555419921875
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.058,
+    "probe_selection_seconds": 2.728,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": false
+}

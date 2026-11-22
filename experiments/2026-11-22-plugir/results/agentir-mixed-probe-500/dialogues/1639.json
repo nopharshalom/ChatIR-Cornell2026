@@ -1,0 +1,407 @@
+{
+  "qid": 1639,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000575299.jpg",
+  "queries": [
+    "people are standing at a counter in front of windows trying to order",
+    "people are standing at a counter in front of windows trying to order, at an unknown establishment",
+    "people are standing at a counter outdoors in front of glass doors or windows, trying to order",
+    "people standing at a counter outdoors in front of glass doors, with a laptop nearby"
+  ],
+  "ranks": [
+    62,
+    225,
+    14,
+    2
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "people are standing at a counter in front of windows trying to order",
+      "question": "what is the name of the establishment where the people are standing at the counter?",
+      "answer": "I'm not sure.",
+      "query_after": "people are standing at a counter in front of windows trying to order, at an unknown establishment",
+      "displayed_ids": [
+        14352,
+        40471,
+        49772,
+        22150,
+        43633,
+        2832,
+        11063,
+        10299,
+        15259,
+        38602
+      ],
+      "selected_ids": [
+        25458,
+        29322,
+        12917,
+        15310,
+        46389,
+        27249,
+        11799,
+        35145,
+        14068,
+        39198
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the name of the establishment where the people are standing at the counter?",
+          "answers": [
+            "restaurant",
+            "food truck",
+            "cafe"
+          ],
+          "score": 0.08979225158691406
+        },
+        {
+          "question": "what is the gender of the person standing at the counter in front of the window?",
+          "answers": [
+            "male",
+            "female",
+            "both"
+          ],
+          "score": 0.02154254913330078
+        },
+        {
+          "question": "Question: What is the gender of the person standing at the counter in front of the window?",
+          "answers": [
+            "male",
+            "female",
+            "both"
+          ],
+          "score": 0.01491689682006836
+        },
+        {
+          "question": "what is the gender of the person standing at the counter in front of the window?",
+          "answers": [
+            "male",
+            "female",
+            "both"
+          ],
+          "score": 0.02154254913330078,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the name of the establishment where the people are standing at the counter?",
+          "answers": [
+            "restaurant",
+            "food truck",
+            "cafe"
+          ],
+          "score": 0.08979225158691406,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the food truck?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.08969259262084961
+        },
+        {
+          "question": "Question: what is the gender of the people standing at the counter?",
+          "answers": [
+            "men",
+            "women",
+            "mixed"
+          ],
+          "score": 0.029520511627197266
+        },
+        {
+          "question": "what is the gender of the people standing at the counter?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.01509714126586914
+        },
+        {
+          "question": "what is the gender of the people standing at the counter?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.01509714126586914,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the food truck in front of the people standing at the counter?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.037017822265625
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "people are standing at a counter in front of windows trying to order, at an unknown establishment",
+      "question": "what is the location of the people sitting by themselves or with others in front of glass doors or windows?",
+      "answer": "outdoors",
+      "query_after": "people are standing at a counter outdoors in front of glass doors or windows, trying to order",
+      "displayed_ids": [
+        14352,
+        40471,
+        38602,
+        43633,
+        11562,
+        14009,
+        49772,
+        10299,
+        15259,
+        22150
+      ],
+      "selected_ids": [
+        29322,
+        36653,
+        27249,
+        40239,
+        21001,
+        39198,
+        46389,
+        49592,
+        41040
+      ],
+      "rejected_count": 12,
+      "usual_paths": [
+        {
+          "question": "Question: How many people are visible in the scene where people are standing at a counter in front of windows trying to order?",
+          "answers": [
+            "1",
+            "2",
+            "3"
+          ],
+          "score": 0.003509521484375
+        },
+        {
+          "question": "what is the gender of the person sitting by himself in front of a glass door?",
+          "answers": [
+            "male",
+            "female",
+            "man"
+          ],
+          "score": 0.019983291625976562
+        },
+        {
+          "question": "Question: How many people are standing at the counter in front of windows trying to order?",
+          "answers": [
+            "One",
+            "Two",
+            "Three"
+          ],
+          "score": 0.0016169548034667969
+        },
+        {
+          "question": "what is the location of the people sitting by themselves or with others in front of glass doors or windows?",
+          "answers": [
+            "a front door of a bakery",
+            "a large kitchen with two cooks preparing food",
+            "a kitchen with two cooks working together"
+          ],
+          "score": 0.1010732650756836
+        },
+        {
+          "question": "what is the gender of the people standing at the counter in front of windows trying to order?",
+          "answers": [
+            "male",
+            "female",
+            "both"
+          ],
+          "score": 0.016576290130615234
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the gender of the person who is standing at the counter?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.018306732177734375
+        },
+        {
+          "question": "what is the gender of the person who is standing at the counter?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.018306732177734375,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what are the people standing at the counter wearing?",
+          "answers": [
+            "raincoats",
+            "aprons",
+            "t-shirts"
+          ],
+          "score": 0.07373380661010742
+        },
+        {
+          "question": "what is the number of people standing at the counter?",
+          "answers": [
+            "one",
+            "two",
+            "three"
+          ],
+          "score": 0.012531757354736328
+        },
+        {
+          "question": "what is the gender of the person standing at the counter?",
+          "answers": [
+            "male",
+            "female",
+            "not visible"
+          ],
+          "score": 0.04342842102050781
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "people are standing at a counter outdoors in front of glass doors or windows, trying to order",
+      "question": "what is the other object in the image?",
+      "answer": "laptop",
+      "query_after": "people standing at a counter outdoors in front of glass doors, with a laptop nearby",
+      "displayed_ids": [
+        11562,
+        21224,
+        13749,
+        43633,
+        40471,
+        14352,
+        2687,
+        49075,
+        981,
+        49772
+      ],
+      "selected_ids": [
+        40239,
+        16394,
+        28564,
+        39198,
+        29322,
+        39505,
+        11750,
+        27249,
+        36653,
+        35145
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "Question: What is the gender of the people standing at the counter in front of the windows?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.017856121063232422
+        },
+        {
+          "question": "what is the gender of the people standing at the counter in front of the windows?",
+          "answers": [
+            "female",
+            "male",
+            "mixed"
+          ],
+          "score": 0.02043771743774414
+        },
+        {
+          "question": "what is the gender of the people standing at the counter in front of the windows?",
+          "answers": [
+            "female",
+            "male",
+            "mixed"
+          ],
+          "score": 0.02043771743774414,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the gender of the people standing at the counter in front of the windows?",
+          "answers": [
+            "female",
+            "male",
+            "mixed"
+          ],
+          "score": 0.02043771743774414,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the gender of the person carrying a bike and a cart full of fruit?",
+          "answers": [
+            "male",
+            "female",
+            "not specified"
+          ],
+          "score": 0.0171661376953125
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "food",
+            "menu",
+            "cocktail"
+          ],
+          "score": 0.05300474166870117
+        },
+        {
+          "question": "What is the gender of the people standing at the counter?",
+          "answers": [
+            "female",
+            "male",
+            "mixed"
+          ],
+          "score": 0.03812360763549805
+        },
+        {
+          "question": "**Question:** Are the people standing at the counter inside or outside?",
+          "answers": [
+            "inside",
+            "outside",
+            "both"
+          ],
+          "score": 0.0019502639770507812
+        },
+        {
+          "question": "what is the gender of the people standing at the counter?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.03812360763549805
+        },
+        {
+          "question": "what is the gender of the people standing at the counter?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.03812360763549805,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

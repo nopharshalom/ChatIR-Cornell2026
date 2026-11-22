@@ -1,0 +1,78 @@
+{
+  "qid": 709,
+  "sample": 2,
+  "first_candidates": [
+    "what is the background environment of the giraffe's head in the close-up shot?",
+    "what is the specific background setting (e.g., field, zoo, bridge) where the giraffe is standing?",
+    "what is the color of the giraffe's head in the close-up shot?",
+    "what is the specific posture of the giraffe in the image (e.g., standing, lying down)?",
+    "what is the color of the giraffe's head in the image?"
+  ],
+  "second_candidates": [
+    "what is the background environment where the giraffe is standing?",
+    "Question: Is the giraffe standing or laying down?",
+    "what color is the giraffe's head visible in the close-up shot?",
+    "Question: Is the giraffe wearing a collar or any identification tag?",
+    "what is the specific background feature visible behind the giraffe's head in the close-up shot?"
+  ],
+  "paths": [
+    {
+      "question": "what is the background environment where the giraffe is standing?",
+      "answers": [
+        "wooden bridge",
+        "field with trees",
+        "zoo enclosure"
+      ],
+      "score": 0.17042016983032227
+    },
+    {
+      "question": "Question: Is the giraffe standing or laying down?",
+      "answers": [
+        "standing",
+        "laying down",
+        "unknown"
+      ],
+      "score": 0.009119033813476562
+    },
+    {
+      "question": "what color is the giraffe's head visible in the close-up shot?",
+      "answers": [
+        "brown",
+        "white",
+        "tan"
+      ],
+      "score": 0.00975799560546875
+    },
+    {
+      "question": "Question: Is the giraffe wearing a collar or any identification tag?",
+      "answers": [
+        "no collar, just natural markings",
+        "no, it's unbranded",
+        "no, nothing on it"
+      ],
+      "score": 0.0023517608642578125
+    },
+    {
+      "question": "what is the specific background feature visible behind the giraffe's head in the close-up shot?",
+      "answers": [
+        "trees",
+        "rocks",
+        "fence"
+      ],
+      "score": 0.10065031051635742
+    }
+  ],
+  "control": {
+    "question": "what is the background environment where the giraffe is standing?",
+    "score": 0.17042016983032227
+  },
+  "mixed": {
+    "question": "Question: What is the specific background element visible behind the giraffe's head?",
+    "score": 0.1568470001220703
+  },
+  "control_rank": 1,
+  "mixed_rank": 2,
+  "usual_rank": 1,
+  "new_answer": "mountainous",
+  "new_rewrite": "a close up shot shows the head of a giraffe looking to the right of the camera against a mountainous background"
+}

@@ -1,0 +1,1315 @@
+{
+  "qid": 233,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000270717.jpg",
+  "queries": [
+    "a woman is hitting a tennis ball on a tennis court",
+    "a woman in a white shirt is hitting a tennis ball on a tennis court",
+    "a woman in a white outfit hits a tennis ball on a tennis court",
+    "a woman in a white outfit and white shorts hits a tennis ball on a tennis court",
+    "a woman in a white outfit is hitting a tennis ball on a tennis court with a black racket",
+    "a woman in a white outfit is hitting a tennis ball on a tennis court, holding a black racket",
+    "a woman in a white outfit is hitting a tennis ball on a green court, holding a black racket",
+    "A woman dressed in white is hitting a tennis ball on a green court while holding a black racket.",
+    "a woman in a white outfit is hitting a black tennis ball on a green court with a black racket",
+    "a woman in a white outfit hits a yellow tennis ball with a black racket on a green tennis court",
+    "a woman in a white outfit and tennis shoes hits a yellow tennis ball with a black racket on a green tennis court"
+  ],
+  "ranks": [
+    225,
+    78,
+    57,
+    57,
+    67,
+    64,
+    73,
+    70,
+    69,
+    44,
+    35
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a woman is hitting a tennis ball on a tennis court",
+      "question": "what color is the shirt of the woman playing tennis?",
+      "answer": "white",
+      "query_after": "a woman in a white shirt is hitting a tennis ball on a tennis court",
+      "displayed_ids": [
+        18104,
+        336,
+        35164,
+        1755,
+        30658,
+        41552,
+        45922,
+        7502,
+        18256,
+        13677
+      ],
+      "selected_ids": [
+        25315,
+        16859,
+        34662,
+        9369,
+        11600,
+        26211,
+        9463,
+        11425,
+        17637,
+        41870
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what color shirt is the woman wearing while playing tennis?",
+          "answers": [
+            "white",
+            "red",
+            "orange"
+          ],
+          "score": 0.16483688354492188
+        },
+        {
+          "question": "what color is the skirt of the woman playing tennis?",
+          "answers": [
+            "red",
+            "white",
+            "orange"
+          ],
+          "score": 0.08161783218383789
+        },
+        {
+          "question": "Question: What color is the shirt of the woman playing tennis?",
+          "answers": [
+            "red",
+            "white",
+            "orange"
+          ],
+          "score": 0.15092086791992188
+        },
+        {
+          "question": "what color is the shirt of the woman playing tennis?",
+          "answers": [
+            "white",
+            "red",
+            "orange"
+          ],
+          "score": 0.16626787185668945
+        },
+        {
+          "question": "what color is the shirt of the woman playing tennis?",
+          "answers": [
+            "white",
+            "red",
+            "orange"
+          ],
+          "score": 0.16626787185668945,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the woman's shirt?",
+          "answers": [
+            "white",
+            "orange",
+            "red"
+          ],
+          "score": 0.15449953079223633
+        },
+        {
+          "question": "Question: What color is the skirt worn by the woman?",
+          "answers": [
+            "red",
+            "white",
+            "orange"
+          ],
+          "score": 0.10715436935424805
+        },
+        {
+          "question": "Question: What color is the woman's shirt?",
+          "answers": [
+            "red",
+            "white",
+            "orange"
+          ],
+          "score": 0.15645647048950195
+        },
+        {
+          "question": "Question: What color is the court where the woman is playing tennis?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.07689476013183594
+        },
+        {
+          "question": "Question: What color is the court where the woman is playing tennis?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.07689476013183594,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a woman in a white shirt is hitting a tennis ball on a tennis court",
+      "question": "what is the color of the outfit worn by the woman playing tennis?",
+      "answer": "white",
+      "query_after": "a woman in a white outfit hits a tennis ball on a tennis court",
+      "displayed_ids": [
+        12510,
+        11363,
+        14088,
+        48112,
+        18104,
+        30658,
+        101,
+        37170,
+        1755,
+        18256
+      ],
+      "selected_ids": [
+        20841,
+        24936,
+        49919,
+        26211,
+        7023,
+        3566,
+        31001,
+        43761,
+        6693,
+        17467
+      ],
+      "rejected_count": 16,
+      "usual_paths": [
+        {
+          "question": "what color are the shorts of the woman playing tennis?",
+          "answers": [
+            "white",
+            "orange",
+            "black"
+          ],
+          "score": 0.03690481185913086
+        },
+        {
+          "question": "what is the color of the shorts worn by the woman playing tennis?",
+          "answers": [
+            "white",
+            "orange",
+            "black"
+          ],
+          "score": 0.1318068504333496
+        },
+        {
+          "question": "what is the color of the shorts worn by the woman playing tennis?",
+          "answers": [
+            "white",
+            "orange",
+            "black"
+          ],
+          "score": 0.1318068504333496,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the shorts worn by the woman playing tennis?",
+          "answers": [
+            "white",
+            "orange",
+            "black"
+          ],
+          "score": 0.1318068504333496,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the shorts worn by the woman playing tennis?",
+          "answers": [
+            "white",
+            "orange",
+            "black"
+          ],
+          "score": 0.1318068504333496,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the shorts worn by the woman playing tennis?",
+          "answers": [
+            "white",
+            "orange",
+            "black"
+          ],
+          "score": 0.1318068504333496
+        },
+        {
+          "question": "what is the color of the shorts worn by the woman playing tennis?",
+          "answers": [
+            "white",
+            "orange",
+            "black"
+          ],
+          "score": 0.1318068504333496,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the skirt of the woman playing tennis?",
+          "answers": [
+            "white",
+            "orange",
+            "black"
+          ],
+          "score": 0.04437589645385742
+        },
+        {
+          "question": "what is the color of the outfit worn by the woman playing tennis?",
+          "answers": [
+            "white",
+            "orange",
+            "black"
+          ],
+          "score": 0.14037132263183594
+        },
+        {
+          "question": "Question: What color is the outfit worn by the woman playing tennis?",
+          "answers": [
+            "white",
+            "orange",
+            "black"
+          ],
+          "score": 0.1385822296142578
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a woman in a white outfit hits a tennis ball on a tennis court",
+      "question": "what is the color of the shorts worn by the woman playing tennis?",
+      "answer": "white",
+      "query_after": "a woman in a white outfit and white shorts hits a tennis ball on a tennis court",
+      "displayed_ids": [
+        40408,
+        1755,
+        48931,
+        18104,
+        18256,
+        37170,
+        13211,
+        34318,
+        46665,
+        1763
+      ],
+      "selected_ids": [
+        9588,
+        12919,
+        49278,
+        31001,
+        9369,
+        7218,
+        26211,
+        31358,
+        10351
+      ],
+      "rejected_count": 22,
+      "usual_paths": [
+        {
+          "question": "what is the color of the shorts worn by the woman playing tennis?",
+          "answers": [
+            "orange",
+            "white",
+            "blue"
+          ],
+          "score": 0.14721441268920898
+        },
+        {
+          "question": "what is the color of the shorts worn by the woman playing tennis?",
+          "answers": [
+            "orange",
+            "white",
+            "blue"
+          ],
+          "score": 0.14721441268920898,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the shorts worn by the lady in the image?",
+          "answers": [
+            "orange",
+            "yellow",
+            "white"
+          ],
+          "score": 0.09911727905273438
+        },
+        {
+          "question": "what is the color of the shorts worn by the woman playing tennis?",
+          "answers": [
+            "orange",
+            "white",
+            "blue"
+          ],
+          "score": 0.14721441268920898,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the shorts worn by the woman playing tennis?",
+          "answers": [
+            "orange",
+            "white",
+            "blue"
+          ],
+          "score": 0.14721441268920898,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the shorts worn by the woman playing tennis?",
+          "answers": [
+            "orange",
+            "white",
+            "blue"
+          ],
+          "score": 0.14721441268920898
+        },
+        {
+          "question": "what type of footwear is the woman playing tennis wearing?",
+          "answers": [
+            "white shoes",
+            "shorts",
+            "dress"
+          ],
+          "score": 0.007399082183837891
+        },
+        {
+          "question": "what is the color of the shorts worn by the woman playing tennis?",
+          "answers": [
+            "orange",
+            "white",
+            "blue"
+          ],
+          "score": 0.14721441268920898,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the footwear worn by the woman playing tennis?",
+          "answers": [
+            "white",
+            "blue",
+            "black"
+          ],
+          "score": 0.1318364143371582
+        },
+        {
+          "question": "what is the color of the footwear worn by the woman playing tennis?",
+          "answers": [
+            "white",
+            "blue",
+            "black"
+          ],
+          "score": 0.1318364143371582,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a woman in a white outfit and white shorts hits a tennis ball on a tennis court",
+      "question": "Question: What is the color of the racket held by the woman?",
+      "answer": "black",
+      "query_after": "a woman in a white outfit is hitting a tennis ball on a tennis court with a black racket",
+      "displayed_ids": [
+        40408,
+        48931,
+        1755,
+        35461,
+        13211,
+        18104,
+        34318,
+        37170,
+        18256,
+        46665
+      ],
+      "selected_ids": [
+        9588,
+        9369,
+        24936,
+        49864,
+        7218,
+        26211,
+        12919,
+        42961,
+        11076,
+        32794
+      ],
+      "rejected_count": 23,
+      "usual_paths": [
+        {
+          "question": "Question: What type of racket is the woman holding?",
+          "answers": [
+            "tennis",
+            "tennis racket",
+            "no racket"
+          ],
+          "score": 0.0018572807312011719
+        },
+        {
+          "question": "Question: What color is the racket held by the woman?",
+          "answers": [
+            "blue",
+            "black",
+            "silver"
+          ],
+          "score": 0.09021806716918945
+        },
+        {
+          "question": "Question: What is the color of the racket held by the woman?",
+          "answers": [
+            "green",
+            "black",
+            "blue"
+          ],
+          "score": 0.1155691146850586
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "racket",
+            "net",
+            "ball"
+          ],
+          "score": 0.0032067298889160156
+        },
+        {
+          "question": "what is the gender of the person holding the racket?",
+          "answers": [
+            "female",
+            "male",
+            "woman"
+          ],
+          "score": 0.019454002380371094
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the color of the tennis ball being hit?",
+          "answers": [
+            "green",
+            "yellow",
+            "orange"
+          ],
+          "score": 0.09919595718383789
+        },
+        {
+          "question": "Question: Is the woman playing tennis wearing a skirt or shorts?",
+          "answers": [
+            "skirt",
+            "shorts"
+          ],
+          "score": 0.000507354736328125
+        },
+        {
+          "question": "Question: What is the color of the tennis ball being hit?",
+          "answers": [
+            "yellow",
+            "green",
+            "orange"
+          ],
+          "score": 0.09048128128051758
+        },
+        {
+          "question": "Question: What is the color of the shorts worn by the woman playing tennis?",
+          "answers": [
+            "white",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.08663749694824219
+        },
+        {
+          "question": "What color is the tennis ball being hit by the woman?",
+          "answers": [
+            "yellow",
+            "green",
+            "orange"
+          ],
+          "score": 0.08875751495361328
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a woman in a white outfit is hitting a tennis ball on a tennis court with a black racket",
+      "question": "what is the color of the racket held by the woman playing tennis?",
+      "answer": "black",
+      "query_after": "a woman in a white outfit is hitting a tennis ball on a tennis court, holding a black racket",
+      "displayed_ids": [
+        1755,
+        40408,
+        18256,
+        30658,
+        18104,
+        11675,
+        43938,
+        1763,
+        20600,
+        48931
+      ],
+      "selected_ids": [
+        24936,
+        31358,
+        5311,
+        43761,
+        28606,
+        24331,
+        39186,
+        25339,
+        31001,
+        20285
+      ],
+      "rejected_count": 26,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "black",
+            "tennis court",
+            "crowd"
+          ],
+          "score": 0.07120370864868164
+        },
+        {
+          "question": "what is the color of the shorts worn by the woman playing tennis?",
+          "answers": [
+            "white",
+            "orange"
+          ],
+          "score": 0.06615924835205078
+        },
+        {
+          "question": "what is the color of the racket held by the woman playing tennis?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.08942890167236328
+        },
+        {
+          "question": "Question: Who else is present in the image besides the woman?",
+          "answers": [
+            "a man",
+            "two women",
+            "a crowd"
+          ],
+          "score": 0.07975053787231445
+        },
+        {
+          "question": "what is the color of the shorts worn by the woman playing tennis?",
+          "answers": [
+            "white",
+            "orange"
+          ],
+          "score": 0.06615924835205078,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "black",
+            "tennis court",
+            "crowd"
+          ],
+          "score": 0.07120370864868164
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "black",
+            "tennis court",
+            "crowd"
+          ],
+          "score": 0.07120370864868164,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the shorts worn by the woman playing tennis?",
+          "answers": [
+            "white",
+            "orange",
+            "any color"
+          ],
+          "score": 0.0383448600769043
+        },
+        {
+          "question": "Question: What is the color of the skirt worn by the woman playing tennis?",
+          "answers": [
+            "white",
+            "orange",
+            "not wearing a skirt"
+          ],
+          "score": 0.04680347442626953
+        },
+        {
+          "question": "Question: What is the color of the skirt worn by the woman playing tennis?",
+          "answers": [
+            "white",
+            "orange",
+            "not wearing a skirt"
+          ],
+          "score": 0.04680347442626953,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a woman in a white outfit is hitting a tennis ball on a tennis court, holding a black racket",
+      "question": "what is the color of the ground?",
+      "answer": "green",
+      "query_after": "a woman in a white outfit is hitting a tennis ball on a green court, holding a black racket",
+      "displayed_ids": [
+        1755,
+        18256,
+        30658,
+        40408,
+        11675,
+        18104,
+        43938,
+        11363,
+        48931,
+        1763
+      ],
+      "selected_ids": [
+        25080,
+        10978,
+        39186,
+        23547,
+        22897,
+        43625,
+        10351,
+        5841,
+        46588
+      ],
+      "rejected_count": 26,
+      "usual_paths": [
+        {
+          "question": "Question: What is the background color of the tennis court where the woman is playing?",
+          "answers": [
+            "blue",
+            "green",
+            "clay"
+          ],
+          "score": 0.09728336334228516
+        },
+        {
+          "question": "what is the color of the background behind the woman playing tennis?",
+          "answers": [
+            "blue",
+            "green",
+            "yellow"
+          ],
+          "score": 0.09588193893432617
+        },
+        {
+          "question": "what is the color of the ground?",
+          "answers": [
+            "blue",
+            "green",
+            "brown"
+          ],
+          "score": 0.11562490463256836
+        },
+        {
+          "question": "what is the color of the court where the woman is playing tennis?",
+          "answers": [
+            "green",
+            "blue",
+            "clay"
+          ],
+          "score": 0.0968174934387207
+        },
+        {
+          "question": "what is the color of the court where the woman is playing tennis?",
+          "answers": [
+            "green",
+            "blue",
+            "clay"
+          ],
+          "score": 0.0968174934387207,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the color of the tennis ball being hit by the woman?",
+          "answers": [
+            "green",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.09489870071411133
+        },
+        {
+          "question": "what is the color of the ball being hit by the woman playing tennis?",
+          "answers": [
+            "green",
+            "yellow",
+            "orange"
+          ],
+          "score": 0.06770753860473633
+        },
+        {
+          "question": "Question: What is the color of the ground in the image?",
+          "answers": [
+            "blue",
+            "green",
+            "brown"
+          ],
+          "score": 0.10198068618774414
+        },
+        {
+          "question": "Question: What is the color of the ground in the image?",
+          "answers": [
+            "blue",
+            "green",
+            "brown"
+          ],
+          "score": 0.10198068618774414,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the color of the ground in the image?",
+          "answers": [
+            "blue",
+            "green",
+            "brown"
+          ],
+          "score": 0.10198068618774414,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a woman in a white outfit is hitting a tennis ball on a green court, holding a black racket",
+      "question": "Question: What is the color of the racket held by the woman playing tennis?",
+      "answer": "black",
+      "query_after": "A woman dressed in white is hitting a tennis ball on a green court while holding a black racket.",
+      "displayed_ids": [
+        18256,
+        1755,
+        18104,
+        40408,
+        24500,
+        41870,
+        11363,
+        3924,
+        48112,
+        15607
+      ],
+      "selected_ids": [
+        47660,
+        39186,
+        43625,
+        9369,
+        31500,
+        31001,
+        21870,
+        10351,
+        15607,
+        24331
+      ],
+      "rejected_count": 30,
+      "usual_paths": [
+        {
+          "question": "what is the hair color of the woman playing tennis?",
+          "answers": [
+            "blonde",
+            "brown",
+            "black"
+          ],
+          "score": 0.060338497161865234
+        },
+        {
+          "question": "what is the hair color of the woman wearing a white outfit and holding a black racket?",
+          "answers": [
+            "blonde",
+            "brown",
+            "black"
+          ],
+          "score": 0.03130769729614258
+        },
+        {
+          "question": "what is the hair color of the woman wearing a white outfit and holding a black racket on the green court?",
+          "answers": [
+            "black",
+            "brown",
+            "blonde"
+          ],
+          "score": 0.02732086181640625
+        },
+        {
+          "question": "what is the color of the shorts worn by the woman wearing a white outfit and holding a black racket on the green court?",
+          "answers": [
+            "white",
+            "orange",
+            "yellow"
+          ],
+          "score": 0.051395416259765625
+        },
+        {
+          "question": "what is the color of the hair of the woman wearing a white outfit and holding a black racket on the green court?",
+          "answers": [
+            "blonde",
+            "brown",
+            "black"
+          ],
+          "score": 0.027149200439453125
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is the woman in the photo jumping or standing?",
+          "answers": [
+            "jumping",
+            "standing"
+          ],
+          "score": 0.0018682479858398438
+        },
+        {
+          "question": "Question: What is the color of the racket held by the woman playing tennis?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.11003732681274414
+        },
+        {
+          "question": "Question: What is the color of the shorts worn by the woman playing tennis?",
+          "answers": [
+            "white",
+            "orange",
+            "yellow"
+          ],
+          "score": 0.050397396087646484
+        },
+        {
+          "question": "Question: Is the woman in the photo jumping or standing?",
+          "answers": [
+            "jumping",
+            "standing"
+          ],
+          "score": 0.0018682479858398438,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the shorts worn by the woman playing tennis?",
+          "answers": [
+            "white",
+            "orange",
+            "yellow"
+          ],
+          "score": 0.050397396087646484,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "A woman dressed in white is hitting a tennis ball on a green court while holding a black racket.",
+      "question": "Question: What is the color of the racket held by the woman playing tennis?",
+      "answer": "black",
+      "query_after": "a woman in a white outfit is hitting a black tennis ball on a green court with a black racket",
+      "displayed_ids": [
+        18256,
+        11363,
+        1755,
+        24500,
+        18104,
+        40408,
+        48112,
+        15607,
+        3924,
+        30475
+      ],
+      "selected_ids": [
+        10351,
+        47660,
+        26211,
+        10978,
+        15607,
+        30658,
+        49629,
+        31500
+      ],
+      "rejected_count": 31,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "ball",
+            "net",
+            "racket"
+          ],
+          "score": 0.0167388916015625
+        },
+        {
+          "question": "what is the color of the racket held by the woman playing tennis?",
+          "answers": [
+            "black",
+            "green",
+            "blue"
+          ],
+          "score": 0.05720186233520508
+        },
+        {
+          "question": "Question: What color is the shorts worn by the woman playing tennis?",
+          "answers": [
+            "white",
+            "black",
+            "green"
+          ],
+          "score": 0.0341038703918457
+        },
+        {
+          "question": "what is the object being hit by the woman with the racket?",
+          "answers": [
+            "tennis ball",
+            "ball",
+            "a ball"
+          ],
+          "score": 0.00035858154296875
+        },
+        {
+          "question": "Question: What color is the tennis ball being hit by the woman?",
+          "answers": [
+            "yellow",
+            "orange",
+            "white"
+          ],
+          "score": 0.03309488296508789
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "ball",
+            "net",
+            "racket"
+          ],
+          "score": 0.0167388916015625
+        },
+        {
+          "question": "Question: What is the action of the woman playing tennis?",
+          "answers": [
+            "hitting",
+            "leaping",
+            "walking"
+          ],
+          "score": 0.040882110595703125
+        },
+        {
+          "question": "Question: Is the woman jumping or standing on the tennis court?",
+          "answers": [
+            "jumping",
+            "standing"
+          ],
+          "score": 0.004058837890625
+        },
+        {
+          "question": "Question: Is the woman hitting the ball or leaping to catch the ball?",
+          "answers": [
+            "hitting the ball",
+            "leaping to catch the ball",
+            "not in the image"
+          ],
+          "score": 0.0037355422973632812
+        },
+        {
+          "question": "Question: What is the color of the racket held by the woman playing tennis?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.10929536819458008
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a woman in a white outfit is hitting a black tennis ball on a green court with a black racket",
+      "question": "what is the color of the ball being hit by the woman?",
+      "answer": "yellow",
+      "query_after": "a woman in a white outfit hits a yellow tennis ball with a black racket on a green tennis court",
+      "displayed_ids": [
+        11363,
+        18256,
+        24500,
+        1755,
+        40408,
+        48112,
+        18104,
+        43938,
+        15607,
+        14088
+      ],
+      "selected_ids": [
+        47660,
+        30658,
+        30922,
+        35823,
+        25829,
+        29613,
+        28103,
+        47945,
+        15607,
+        32870
+      ],
+      "rejected_count": 31,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "net",
+            "ball",
+            "fence"
+          ],
+          "score": 0.019493579864501953
+        },
+        {
+          "question": "what is the gender of the tennis player holding the black racket?",
+          "answers": [
+            "female",
+            "male",
+            "unknown"
+          ],
+          "score": 0.021902084350585938
+        },
+        {
+          "question": "what is the gender of the tennis player holding the black racket?",
+          "answers": [
+            "female",
+            "male",
+            "unknown"
+          ],
+          "score": 0.021902084350585938,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the gender of the tennis player holding the black racket?",
+          "answers": [
+            "female",
+            "male",
+            "unknown"
+          ],
+          "score": 0.021902084350585938,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the gender of the tennis player holding the black racket?",
+          "answers": [
+            "female",
+            "male",
+            "unknown"
+          ],
+          "score": 0.021902084350585938,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "net",
+            "ball",
+            "fence"
+          ],
+          "score": 0.019493579864501953
+        },
+        {
+          "question": "what is the gender of the tennis player?",
+          "answers": [
+            "female",
+            "male",
+            "unknown"
+          ],
+          "score": 0.018705368041992188
+        },
+        {
+          "question": "what is the gender of the tennis player?",
+          "answers": [
+            "female",
+            "male",
+            "unknown"
+          ],
+          "score": 0.018705368041992188,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the ball being hit by the woman?",
+          "answers": [
+            "yellow",
+            "orange",
+            "green"
+          ],
+          "score": 0.05484962463378906
+        },
+        {
+          "question": "Question: Is the woman in the air or standing on the ground?",
+          "answers": [
+            "in the air",
+            "standing on the ground",
+            "jumping"
+          ],
+          "score": 0.007224082946777344
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "a woman in a white outfit hits a yellow tennis ball with a black racket on a green tennis court",
+      "question": "What type of shoes is the woman wearing?",
+      "answer": "tennis shoes",
+      "query_after": "a woman in a white outfit and tennis shoes hits a yellow tennis ball with a black racket on a green tennis court",
+      "displayed_ids": [
+        33538,
+        40408,
+        3924,
+        18256,
+        1755,
+        13686,
+        24500,
+        18104,
+        43938,
+        11675
+      ],
+      "selected_ids": [
+        33845,
+        23196,
+        23547,
+        11363,
+        28103,
+        24500,
+        47945,
+        15607
+      ],
+      "rejected_count": 33,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "tennis ball",
+            "tennis racquet",
+            "net"
+          ],
+          "score": 0.017961978912353516
+        },
+        {
+          "question": "what is the action being performed by the woman playing tennis?",
+          "answers": [
+            "hitting",
+            "serving",
+            "leaping"
+          ],
+          "score": 0.029468059539794922
+        },
+        {
+          "question": "what is the gender of the tennis player holding the black racket?",
+          "answers": [
+            "female",
+            "male"
+          ],
+          "score": 0.029900550842285156
+        },
+        {
+          "question": "what is the color of the ball being hit by the woman?",
+          "answers": [
+            "yellow",
+            "green",
+            "white"
+          ],
+          "score": 0.022190093994140625
+        },
+        {
+          "question": "what is the color of the ball being hit by the woman playing tennis?",
+          "answers": [
+            "yellow",
+            "orange",
+            "green"
+          ],
+          "score": 0.017946243286132812
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "tennis ball",
+            "tennis racquet",
+            "net"
+          ],
+          "score": 0.017961978912353516
+        },
+        {
+          "question": "What type of shoes is the woman wearing?",
+          "answers": [
+            "white",
+            "black",
+            "blue"
+          ],
+          "score": 0.08202075958251953
+        },
+        {
+          "question": "Question: What is the gender of the tennis player?",
+          "answers": [
+            "female",
+            "male",
+            "non-binary"
+          ],
+          "score": 0.024195194244384766
+        },
+        {
+          "question": "what is the color of the shorts worn by the woman playing tennis?",
+          "answers": [
+            "white",
+            "black",
+            "not visible"
+          ],
+          "score": 0.02865123748779297
+        },
+        {
+          "question": "Question: What is the gender of the tennis player?",
+          "answers": [
+            "female",
+            "male",
+            "non-binary"
+          ],
+          "score": 0.024195194244384766,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

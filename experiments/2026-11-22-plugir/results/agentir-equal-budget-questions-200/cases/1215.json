@@ -1,0 +1,78 @@
+{
+  "qid": 1215,
+  "sample": 2,
+  "first_candidates": [
+    "what color is the man's wetsuit?",
+    "Question: what color is the surfboard the man is riding?",
+    "what is the color of the man's wetsuit?",
+    "what is the color of the man's surfboard?",
+    "what is the color of the surfboard the man is riding?"
+  ],
+  "second_candidates": [
+    "what color is the surfboard being ridden by the man in the image?",
+    "what color is the wetsuit worn by the man riding the wave?",
+    "what is the color of the wetsuit worn by the man riding the wave?",
+    "what is the location where the man is riding the wave?",
+    "what is the color of the surfboard?"
+  ],
+  "paths": [
+    {
+      "question": "what color is the surfboard being ridden by the man in the image?",
+      "answers": [
+        "black",
+        "yellow",
+        "green"
+      ],
+      "score": 0.09205198287963867
+    },
+    {
+      "question": "what color is the wetsuit worn by the man riding the wave?",
+      "answers": [
+        "black",
+        "blue",
+        "red"
+      ],
+      "score": 0.08831644058227539
+    },
+    {
+      "question": "what is the color of the wetsuit worn by the man riding the wave?",
+      "answers": [
+        "black",
+        "white",
+        "green"
+      ],
+      "score": 0.06304407119750977
+    },
+    {
+      "question": "what is the location where the man is riding the wave?",
+      "answers": [
+        "Hawaii",
+        "California",
+        "Indonesia"
+      ],
+      "score": 0.020836830139160156
+    },
+    {
+      "question": "what is the color of the surfboard?",
+      "answers": [
+        "black",
+        "yellow",
+        "green"
+      ],
+      "score": 0.14571762084960938
+    }
+  ],
+  "control": {
+    "question": "what is the color of the surfboard?",
+    "score": 0.14571762084960938
+  },
+  "mixed": {
+    "question": "what is the color of the man's surfboard?",
+    "score": 0.1424727439880371
+  },
+  "control_rank": 328,
+  "mixed_rank": 328,
+  "usual_rank": 328,
+  "new_answer": "white",
+  "new_rewrite": "a man riding a white wave on his surfboard"
+}

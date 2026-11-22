@@ -1,0 +1,71 @@
+{
+  "qid": 952,
+  "initial": "a man skateboarding in a park during the day",
+  "initial_rank": 83,
+  "evidence": [
+    "a man is skateboarding on a sidewalk near a tree",
+    "a group of skate boarders jumping off a wall",
+    "a skateboarder is doing a trick over a bench",
+    "a skateboarder in the air above a tree",
+    "some skateboarders doing stunts in an underground skate park",
+    "the boy is in mid air",
+    "a skateboarder jumps off the steps in a park",
+    "boy skateboarding in an indoor bowl",
+    "a man skateboarding down a street with cones in the path",
+    "black and white photo of people skating in a competition"
+  ],
+  "displayed_ids": [
+    48703,
+    47576,
+    32639,
+    22173,
+    39224,
+    47253,
+    33345,
+    42879,
+    3940,
+    37158
+  ],
+  "rejected_captions": [
+    "a group of people on skateboards",
+    "a man doing a skateboard trick in a park",
+    "a boy is riding his skateboard on a skateboard ramp",
+    "a person riding a skateboard down a ramp",
+    "a man skateboarding in an open space",
+    "a skateboarder riding his board at a skate park",
+    "a skateboarder performing a trick over a trash can",
+    "a skateboarder doing a trick on a concrete railing",
+    "a man on a skateboard",
+    "a man doing a skateboard trick"
+  ],
+  "candidates": [
+    "Question: What is the man wearing?",
+    "**Question:** What is the color of the man's shirt?",
+    "**Question:** What is the man skateboarding on?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "control_candidates": [
+    "what is the color of the man's shirt?",
+    "where is the man skateboarding in the park?",
+    "what is the specific location within the park where the man is skateboarding?",
+    "what is the gender of the person skateboarding in the park?",
+    "what is the color of the man's shirt?"
+  ],
+  "control": {
+    "question": "where is the man skateboarding in the park?",
+    "answer": "on a rail",
+    "rewrite": "a man skateboarding on a rail in a park during the day",
+    "rank": 21,
+    "hit": false,
+    "raw_rank": 21,
+    "unseen_rank": 21
+  },
+  "variant": {
+    "question": "what is the other object in the image?",
+    "answer": "skateboard",
+    "rewrite": "A man is skateboarding in a park during the day.",
+    "raw_rank": 82,
+    "unseen_rank": 72
+  }
+}

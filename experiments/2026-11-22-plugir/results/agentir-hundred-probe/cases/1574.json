@@ -1,0 +1,101 @@
+{
+  "qid": 1574,
+  "initial": "a man in a blue jacket is skiing down the slope",
+  "initial_rank": 92,
+  "evidence": [
+    "skier skiing down a snowy mountainside",
+    "a man skis down a slope in a red jacket",
+    "a man in a red jacket skiing down the side of the mountain",
+    "two people on skis in a wooded area",
+    "a snow boarder is taking off from a rail",
+    "a skier in the snow skiing down a mountain side",
+    "a skier down a mountain with snow falling from the sky",
+    "a girl is skiing down a snowy hill with some trees",
+    "a snowboarder going down a slope with a tree in the background",
+    "a man wearing a pair of blue jeans and a green shirt on a skateboard"
+  ],
+  "candidates": [
+    "Question: What color are the pants worn by the man skiing down the slope?",
+    "Question: What color is the jacket of the skier in the image?",
+    "what is the color of the pants worn by the man in the blue jacket?",
+    "what is the name of the sport the person wearing a blue jacket is performing?",
+    "what is the color of the pants worn by the man in the blue jacket?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: What color are the pants worn by the man skiing down the slope?",
+      "answers": [
+        "blue",
+        "black",
+        "jeans"
+      ],
+      "score": 0.015672683715820312
+    },
+    {
+      "question": "Question: What color is the jacket of the skier in the image?",
+      "answers": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "score": 0.07815837860107422
+    },
+    {
+      "question": "what is the color of the pants worn by the man in the blue jacket?",
+      "answers": [
+        "blue",
+        "black",
+        "grey"
+      ],
+      "score": 0.01982593536376953
+    },
+    {
+      "question": "what is the name of the sport the person wearing a blue jacket is performing?",
+      "answers": [
+        "skiing",
+        "snowboarding",
+        "skateboarding"
+      ],
+      "score": 0.02449941635131836
+    },
+    {
+      "question": "what is the color of the pants worn by the man in the blue jacket?",
+      "answers": [
+        "blue",
+        "black",
+        "grey"
+      ],
+      "score": 0.01982593536376953,
+      "duplicate_of": 2
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.058,
+  "probe_selection_seconds": 2.075,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "Question: What color is the jacket of the skier in the image?",
+      "answer": "blue",
+      "rewrite": "A man wearing a blue jacket is skiing down the hill.",
+      "rank": 80,
+      "hit": false
+    },
+    "random": {
+      "question": "Question: What color is the jacket of the skier in the image?",
+      "answer": "blue",
+      "rewrite": "A man wearing a blue jacket is skiing down the hill.",
+      "rank": 80,
+      "hit": false
+    },
+    "probe": {
+      "question": "Question: What color is the jacket of the skier in the image?",
+      "answer": "blue",
+      "rewrite": "A man wearing a blue jacket is skiing down the hill.",
+      "rank": 80,
+      "hit": false
+    }
+  },
+  "seconds": 21.354
+}

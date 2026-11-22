@@ -1,0 +1,100 @@
+{
+  "qid": 1663,
+  "initial": "a multiple signs at an intersection depicting direction of traffic, parking legality, and the names of adjoining roads",
+  "initial_rank": 174,
+  "evidence": [
+    "a green street sign with numbers in white letters",
+    "blue street signs in front of a tall building",
+    "a stop sign on a wooden pole near some homes",
+    "large grey buildings in a city",
+    "the cars are driving along side of a crowded sidewalk",
+    "a car in a car park on a busy street",
+    "a traffic light on a pole outside of a building",
+    "a group of street signs on a pole in front of an old building",
+    "a small road that goes past a grassy hillside with a stop sign in the distance",
+    "a stop sign, a bike, and a parked car"
+  ],
+  "candidates": [
+    "What is the background of the multiple signs at the intersection?",
+    "Question: What color are the street signs at the intersection?",
+    "Question: What is the object located next to the multiple signs at the intersection?",
+    "what is the color of the street signs at the intersection?",
+    "what is the location of the multiple signs at the intersection?"
+  ],
+  "answer_paths": [
+    {
+      "question": "What is the background of the multiple signs at the intersection?",
+      "answers": [
+        "an old building",
+        "a tall building",
+        "some homes"
+      ],
+      "score": 0.1128697395324707
+    },
+    {
+      "question": "Question: What color are the street signs at the intersection?",
+      "answers": [
+        "green",
+        "blue",
+        "black and white"
+      ],
+      "score": 0.10286474227905273
+    },
+    {
+      "question": "Question: What is the object located next to the multiple signs at the intersection?",
+      "answers": [
+        "old building",
+        "tall building",
+        "pole"
+      ],
+      "score": 0.027409076690673828
+    },
+    {
+      "question": "what is the color of the street signs at the intersection?",
+      "answers": [
+        "green",
+        "blue",
+        "white"
+      ],
+      "score": 0.1040334701538086
+    },
+    {
+      "question": "what is the location of the multiple signs at the intersection?",
+      "answers": [
+        "New York City",
+        "London",
+        "Tokyo"
+      ],
+      "score": 0.1344738006591797
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.15,
+  "probe_selection_seconds": 2.851,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "Question: What is the object located next to the multiple signs at the intersection?",
+      "answer": "tree",
+      "rewrite": "multiple signs at an intersection depicting direction of traffic, parking legality, and the names of adjoining roads, with a tree located next to them",
+      "rank": 96,
+      "hit": false
+    },
+    "random": {
+      "question": "Question: What color are the street signs at the intersection?",
+      "answer": "green",
+      "rewrite": "a multiple green signs at an intersection depicting direction of traffic, parking legality, and the names of adjoining roads",
+      "rank": 114,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the location of the multiple signs at the intersection?",
+      "answer": "christopher st",
+      "rewrite": "multiple signs at an intersection on Christopher St depicting direction of traffic, parking legality, and the names of adjoining roads",
+      "rank": 79,
+      "hit": false
+    }
+  },
+  "seconds": 16.045
+}

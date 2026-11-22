@@ -1,0 +1,80 @@
+{
+  "qid": 1633,
+  "candidates": [
+    "Question: What is the primary color of the plane?",
+    "Question: What is the specific airline or model of the plane?",
+    "Question: What is the color of the plane's tail fin?",
+    "Question: What is the color of the plane's tail fin?",
+    "Question: What is the color of the plane's wings?"
+  ],
+  "kl": {
+    "question": "Question: What is the specific airline or model of the plane?",
+    "answer": "helvetic",
+    "rewrite": "a Helvetic plane is parked on the tarmac",
+    "raw_rank": 26,
+    "unseen_rank": 21
+  },
+  "probe": {
+    "answer": "white",
+    "rewrite": "a white plane is parked on the tarmac",
+    "raw_rank": 132,
+    "unseen_rank": 124,
+    "question": "Question: What is the primary color of the plane?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the primary color of the plane?",
+        "answers": [
+          "blue",
+          "red",
+          "white"
+        ],
+        "score": 0.23210382461547852
+      },
+      {
+        "question": "Question: What is the specific airline or model of the plane?",
+        "answers": [
+          "Lufthansa",
+          "Air Force",
+          "Unknown"
+        ],
+        "score": 0.15653276443481445
+      },
+      {
+        "question": "Question: What is the color of the plane's tail fin?",
+        "answers": [
+          "blue",
+          "red",
+          "white"
+        ],
+        "score": 0.1372518539428711
+      },
+      {
+        "question": "Question: What is the color of the plane's tail fin?",
+        "answers": [
+          "blue",
+          "red",
+          "white"
+        ],
+        "score": 0.1372518539428711,
+        "duplicate_of": 2
+      },
+      {
+        "question": "Question: What is the color of the plane's wings?",
+        "answers": [
+          "blue",
+          "white",
+          "red"
+        ],
+        "score": 0.19013643264770508
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.063,
+    "probe_selection_seconds": 1.891,
+    "probe_llm_calls": 4,
+    "probe_search_queries": 12
+  },
+  "reused_outcome": false
+}

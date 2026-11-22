@@ -1,0 +1,79 @@
+{
+  "qid": 1472,
+  "candidates": [
+    "Question: Is the group of animals consisting of two horses, or is it a larger group?",
+    "Question: What is the color of the horses?",
+    "Question: Question: Is there a fence visible in the scene with the horses?",
+    "what is the other object in the image?",
+    "What is the color of the horses grazing on the grassland?"
+  ],
+  "kl": {
+    "question": "what is the other object in the image?",
+    "answer": "the other object is a horse.",
+    "rewrite": "the horses are grazing along the grassland outside, with another horse visible in the image",
+    "raw_rank": 80,
+    "unseen_rank": 70
+  },
+  "probe": {
+    "question": "what is the other object in the image?",
+    "answer": "the other object is a horse.",
+    "rewrite": "the horses are grazing along the grassland outside, with another horse visible in the image",
+    "raw_rank": 80,
+    "unseen_rank": 70
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: Is the group of animals consisting of two horses, or is it a larger group?",
+        "answers": [
+          "two horses",
+          "a large group",
+          "a small flock"
+        ],
+        "score": 0.03406667709350586
+      },
+      {
+        "question": "Question: What is the color of the horses?",
+        "answers": [
+          "black",
+          "brown",
+          "white"
+        ],
+        "score": 0.13124561309814453
+      },
+      {
+        "question": "Question: Question: Is there a fence visible in the scene with the horses?",
+        "answers": [
+          "yes",
+          "no",
+          "maybe"
+        ],
+        "score": 0.0006632804870605469
+      },
+      {
+        "question": "what is the other object in the image?",
+        "answers": [
+          "forest",
+          "fence",
+          "mountain"
+        ],
+        "score": 0.22708845138549805
+      },
+      {
+        "question": "What is the color of the horses grazing on the grassland?",
+        "answers": [
+          "brown",
+          "white",
+          "black"
+        ],
+        "score": 0.10477399826049805
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.059,
+    "probe_selection_seconds": 2.312,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": true
+}

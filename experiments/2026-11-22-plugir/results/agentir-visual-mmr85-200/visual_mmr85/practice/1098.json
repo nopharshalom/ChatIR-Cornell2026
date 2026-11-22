@@ -1,0 +1,85 @@
+{
+  "chosen": "Is there a stop sign visible near the green and white bus?",
+  "default": "Is there a stop sign visible near the green and white bus?",
+  "ids": [
+    14796,
+    28703,
+    34724,
+    43220
+  ],
+  "trials": {
+    "Is there a stop sign visible near the green and white bus?": {
+      "answers": [
+        "no",
+        "no",
+        "no",
+        "no"
+      ],
+      "rewrites": {
+        "no": "a green and white bus stands at an intersection without a visible stop sign"
+      },
+      "ranks": [
+        10,
+        19,
+        32,
+        61
+      ],
+      "hits": 1
+    },
+    "what is the traffic signal status at the intersection where the green and white bus is located?": {
+      "answers": [
+        "unsure",
+        "unsure",
+        "unsure",
+        "unsure"
+      ],
+      "rewrites": {
+        "unsure": "a green and white bus stands at an intersection with an unknown traffic signal status"
+      },
+      "ranks": [
+        27,
+        56,
+        57,
+        46
+      ],
+      "hits": 0
+    },
+    "a red stop sign is visible near the green and white bus at the intersection.\n\n**Explanation:**\nI generated this question by analyzing the **Description** (\"?": {
+      "answers": [
+        "I am unsure. The image does not show a red stop sign.",
+        "I am unsure. The image does not show a red stop sign.",
+        "I am unsure. The image does not show a red stop sign.",
+        "yes"
+      ],
+      "rewrites": {
+        "I am unsure. The image does not show a red stop sign.": "a green and white bus stands at an intersection without a red stop sign",
+        "yes": "a red stop sign is visible near a green and white bus at an intersection"
+      },
+      "ranks": [
+        8,
+        23,
+        34,
+        144
+      ],
+      "hits": 1
+    },
+    "Question: what is the traffic signal status at the intersection where the green and white bus is located?": {
+      "answers": [
+        "unsure",
+        "unsure",
+        "unsure",
+        "unsure"
+      ],
+      "rewrites": {
+        "unsure": "a green and white bus stands at an intersection with an unknown traffic signal status"
+      },
+      "ranks": [
+        27,
+        56,
+        57,
+        46
+      ],
+      "hits": 0
+    }
+  }
+}

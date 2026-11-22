@@ -1,0 +1,54 @@
+{
+  "ids": [
+    29067,
+    2521,
+    8208,
+    47598
+  ],
+  "prefix": [
+    "an living room is arranged with a couch, a chaise lounge, 2 single chairs, a square table, a circular table, a long rectangular table, and a television",
+    "what is the color of the table in the living room? white"
+  ],
+  "default": "what is the material of the sofa in the living room?",
+  "chosen": "what is the color of the sofa in the living room?",
+  "trials": {
+    "what is the material of the sofa in the living room?": {
+      "answers": [
+        "leather",
+        "fabric",
+        "fabric",
+        "fabric"
+      ],
+      "rewrites": {
+        "leather": "a living room featuring a white table, a leather sofa, a chaise lounge, two single chairs, a square table, a long rectangular table, and a television",
+        "fabric": "a living room featuring a white table, a fabric sofa, a chaise lounge, two single chairs, a square table, a long rectangular table, and a television"
+      },
+      "ranks": [
+        26,
+        38,
+        29,
+        51
+      ],
+      "hits": 0
+    },
+    "what is the color of the sofa in the living room?": {
+      "answers": [
+        "beige",
+        "blue",
+        "beige",
+        "blue"
+      ],
+      "rewrites": {
+        "beige": "a living room featuring a beige sofa, a white square table, a white circular table, a white long rectangular table, a white chaise lounge, two white single chairs, and a television",
+        "blue": "a living room with a blue sofa, a white square table, a white circular table, a white long rectangular table, a white chaise lounge, two white single chairs, and a television"
+      },
+      "ranks": [
+        26,
+        22,
+        8,
+        3
+      ],
+      "hits": 2
+    }
+  }
+}

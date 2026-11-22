@@ -1,0 +1,178 @@
+{
+  "qid": 1855,
+  "initial": "a young boy brushing his teeth beside an adult",
+  "initial_rank": 12,
+  "displayed": [
+    30293,
+    16709,
+    39722,
+    29709,
+    40317,
+    26017,
+    2965,
+    24314,
+    4018,
+    9536
+  ],
+  "evidence": [
+    "a woman is brushing her teeth in a bathroom mirror",
+    "a woman and her son playing with a kite in a field",
+    "an older man in black helps a young boy on a skateboard",
+    "the little girl is brushing her teeth",
+    "a little girl brushing her teeth in a bathroom sink",
+    "a person brushing their teeth",
+    "a man is standing and a young boy is standing",
+    "man and child playing frisbee in a grassy field",
+    "the woman is sitting on the park bench with her toddler",
+    "a woman brushing her teeth in a bathroom"
+  ],
+  "rejected_captions": [
+    "a man and baby are brushing their teeth",
+    "a young boy wearing a blue sweater brushing his teeth",
+    "the man is a man",
+    "the boy is blonde",
+    "a man in a red shirt",
+    "the child is brushing his teeth",
+    "a woman brushing a baby boy's teeth",
+    "a young boy brushing his teeth",
+    "white shirt on man",
+    "a gray shirt on a man"
+  ],
+  "usual": {
+    "candidates": [
+      "Question: Is the adult helping the young boy, or are they brushing their teeth independently?",
+      "what is the gender of the adult brushing their teeth beside the young boy?",
+      "what is the location where the young boy and the adult are brushing their teeth?",
+      "Question: What is the gender of the adult?",
+      "Question: What is the gender of the adult brushing their teeth beside the young boy?"
+    ],
+    "question": "what is the location where the young boy and the adult are brushing their teeth?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: Is the adult helping the young boy, or are they brushing their teeth independently?",
+          "answers": [
+            "helping",
+            "independently",
+            "both"
+          ],
+          "score": 0.0022950172424316406
+        },
+        {
+          "question": "what is the gender of the adult brushing their teeth beside the young boy?",
+          "answers": [
+            "male",
+            "female",
+            "either"
+          ],
+          "score": 0.013405323028564453
+        },
+        {
+          "question": "what is the location where the young boy and the adult are brushing their teeth?",
+          "answers": [
+            "bathroom",
+            "home",
+            "bedroom"
+          ],
+          "score": 0.03885698318481445
+        },
+        {
+          "question": "Question: What is the gender of the adult?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.007784366607666016
+        },
+        {
+          "question": "Question: What is the gender of the adult brushing their teeth beside the young boy?",
+          "answers": [
+            "male",
+            "female",
+            "man"
+          ],
+          "score": 0.014400959014892578
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.062,
+      "probe_selection_seconds": 2.417,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "bathroom",
+    "rewrite": "a young boy brushing his teeth beside an adult in a bathroom",
+    "raw_rank": 7,
+    "unseen_rank": 2
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What color is the shirt worn by the adult assisting the boy?",
+      "Question: What is the gender of the adult assisting the boy?",
+      "Question: Where are the boy and the adult located?",
+      "Question: Where is the boy brushing his teeth?",
+      "Question: What color is the shirt worn by the adult assisting the boy?"
+    ],
+    "question": "Question: Where are the boy and the adult located?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What color is the shirt worn by the adult assisting the boy?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.024114131927490234
+        },
+        {
+          "question": "Question: What is the gender of the adult assisting the boy?",
+          "answers": [
+            "male",
+            "female",
+            "adult"
+          ],
+          "score": 0.00673675537109375
+        },
+        {
+          "question": "Question: Where are the boy and the adult located?",
+          "answers": [
+            "bathroom",
+            "field",
+            "park"
+          ],
+          "score": 0.07977962493896484
+        },
+        {
+          "question": "Question: Where is the boy brushing his teeth?",
+          "answers": [
+            "bathroom sink",
+            "bathroom mirror",
+            "bathroom"
+          ],
+          "score": 0.026962757110595703
+        },
+        {
+          "question": "Question: What color is the shirt worn by the adult assisting the boy?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.024114131927490234,
+          "duplicate_of": 0
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.061,
+      "probe_selection_seconds": 1.836,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "bathroom",
+    "rewrite": "a young boy brushing his teeth beside an adult in a bathroom",
+    "raw_rank": 7,
+    "unseen_rank": 2
+  }
+}

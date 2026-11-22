@@ -1,0 +1,100 @@
+{
+  "qid": 23,
+  "initial": "a bathroom is filled with assorted items and a toilet in the floor",
+  "initial_rank": 566,
+  "evidence": [
+    "a kitchen is damaged",
+    "a toilet in a small bathroom with a paper towel holder",
+    "a sink and toilet is in a bathroom with tile and a mirror",
+    "a squat toilet in a public bathroom",
+    "a white toilet in a public bathroom",
+    "a broken toilet sitting on the floor of a rusty toilet in a restroom",
+    "a tiled bathroom with toilet, sink, mirror and bathtub",
+    "a white and brown tiled bathroom",
+    "a bag filled with personal belongings and electronics on the floor",
+    "this bathroom has tiled walls and a white toilet"
+  ],
+  "candidates": [
+    "what is the color of the toilet in the bathroom?",
+    "what is the color of the floor in the bathroom where the broken toilet is sitting?",
+    "what is the location of the bathroom where the broken toilet is sitting on the floor?",
+    "what is the condition of the toilet in the bathroom described as having a bag filled with personal belongings on the floor?",
+    "Question: what is the condition of the bathroom described as being damaged?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the toilet in the bathroom?",
+      "answers": [
+        "white",
+        "brown",
+        "rusty"
+      ],
+      "score": 0.09886884689331055
+    },
+    {
+      "question": "what is the color of the floor in the bathroom where the broken toilet is sitting?",
+      "answers": [
+        "rusty",
+        "tiled",
+        "white"
+      ],
+      "score": 0.09200191497802734
+    },
+    {
+      "question": "what is the location of the bathroom where the broken toilet is sitting on the floor?",
+      "answers": [
+        "public bathroom",
+        "rusty toilet",
+        "restroom"
+      ],
+      "score": 0.05917692184448242
+    },
+    {
+      "question": "what is the condition of the toilet in the bathroom described as having a bag filled with personal belongings on the floor?",
+      "answers": [
+        "broken",
+        "sitting on the floor",
+        "rusty"
+      ],
+      "score": 0.027501583099365234
+    },
+    {
+      "question": "Question: what is the condition of the bathroom described as being damaged?",
+      "answers": [
+        "damaged",
+        "clean",
+        "empty"
+      ],
+      "score": 0.03463172912597656
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.061,
+  "probe_selection_seconds": 2.584,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the condition of the toilet in the bathroom described as having a bag filled with personal belongings on the floor?",
+      "answer": "empty",
+      "rewrite": "an empty toilet in a bathroom filled with assorted items and a bag of personal belongings on the floor",
+      "rank": 1133,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the location of the bathroom where the broken toilet is sitting on the floor?",
+      "answer": "japan",
+      "rewrite": "a bathroom in Japan filled with assorted items, featuring a broken toilet sitting on the floor",
+      "rank": 497,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the color of the toilet in the bathroom?",
+      "answer": "white",
+      "rewrite": "a white toilet sits on the floor in a bathroom filled with assorted items",
+      "rank": 870,
+      "hit": false
+    }
+  },
+  "seconds": 15.941
+}

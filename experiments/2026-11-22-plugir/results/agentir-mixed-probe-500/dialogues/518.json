@@ -1,0 +1,145 @@
+{
+  "qid": 518,
+  "sample": "original",
+  "target": "unlabeled2017/000000290963.jpg",
+  "queries": [
+    "a dog hugs a stuffed animal while laying on the floor",
+    "a black dog hugs a stuffed animal while laying on the floor"
+  ],
+  "ranks": [
+    13,
+    2
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a dog hugs a stuffed animal while laying on the floor",
+      "question": "What color is the dog that is hugging a stuffed animal while laying on the floor?",
+      "answer": "black",
+      "query_after": "a black dog hugs a stuffed animal while laying on the floor",
+      "displayed_ids": [
+        39302,
+        35900,
+        2021,
+        34773,
+        9047,
+        13363,
+        32074,
+        4529,
+        38156,
+        27600
+      ],
+      "selected_ids": [
+        20390,
+        13693,
+        46318,
+        22859,
+        3963,
+        48889,
+        23265,
+        7586,
+        32820,
+        11837
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "What color is the dog that is hugging a stuffed animal while laying on the floor?",
+          "answers": [
+            "black",
+            "brown",
+            "tan"
+          ],
+          "score": 0.09337854385375977
+        },
+        {
+          "question": "Question: What is the color of the dog that is hugging a stuffed animal while laying on the floor?",
+          "answers": [
+            "black",
+            "brown",
+            "tan"
+          ],
+          "score": 0.04971170425415039
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "stuffed animal",
+            "dog",
+            "frisbee"
+          ],
+          "score": 0.03987741470336914
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "stuffed animal",
+            "dog",
+            "frisbee"
+          ],
+          "score": 0.03987741470336914,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "stuffed animal",
+            "dog",
+            "frisbee"
+          ],
+          "score": 0.03987741470336914,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the dog that is hugging the stuffed animal?",
+          "answers": [
+            "black",
+            "brown",
+            "tan"
+          ],
+          "score": 0.04782438278198242
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "stuffed animal",
+            "dog",
+            "blanket"
+          ],
+          "score": 0.03291034698486328
+        },
+        {
+          "question": "Question: Is the dog laying on the floor or on a bed/couch?",
+          "answers": [
+            "floor",
+            "bed",
+            "couch"
+          ],
+          "score": 0.01759815216064453
+        },
+        {
+          "question": "Question: Is the dog black or tan/brown?",
+          "answers": [
+            "black",
+            "tan",
+            "brown"
+          ],
+          "score": 0.004781246185302734
+        },
+        {
+          "question": "what color is the stuffed animal the dog is hugging?",
+          "answers": [
+            "brown",
+            "blue",
+            "white"
+          ],
+          "score": 0.0508427619934082
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

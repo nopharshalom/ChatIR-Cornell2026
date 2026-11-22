@@ -1,0 +1,178 @@
+{
+  "qid": 875,
+  "initial": "a picture of a beach with several people parasailing in the background",
+  "initial_rank": 30,
+  "displayed": [
+    49353,
+    20000,
+    40597,
+    10971,
+    8067,
+    35576,
+    37984,
+    3583,
+    33893,
+    28324
+  ],
+  "evidence": [
+    "a man in the water soaring around with a kite on the surface of the ocean",
+    "a crowded beach with many tables and chairs sat under umbrellas",
+    "this is a beach and the beach chair is on the edge",
+    "three surfers on top of their boards in a rough sea",
+    "many kites flying in the sky near cars",
+    "a man in a wet suit flying his kite in the ocean",
+    "many kites flying in the sky",
+    "a large group of kites flying over a grassy field",
+    "an orange and red kite",
+    "man on a kite flying on the ocean"
+  ],
+  "rejected_captions": [
+    "kitesurfers and surfers in the ocean",
+    "people on the beach flying kites",
+    "a sandy beach in the summer",
+    "a group of people on a sandy beach",
+    "the water is in the ocean",
+    "people are flying kites on a beach",
+    "mountain in the background",
+    "people are flying kites at the beach",
+    "a person parasailing over a beach",
+    "several people on a beach parasailing with kites"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the specific activity the people are doing on the beach?",
+      "what is the location where the people are parasailing?",
+      "what color is the kite the people are using to fly?",
+      "what is the location where the people are parasailing?",
+      "what is the color of the kite the people in the background are using?"
+    ],
+    "question": "what is the color of the kite the people in the background are using?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the specific activity the people are doing on the beach?",
+          "answers": [
+            "parasailing",
+            "kitesurfing",
+            "flying kites"
+          ],
+          "score": 0.04669761657714844
+        },
+        {
+          "question": "what is the location where the people are parasailing?",
+          "answers": [
+            "beach",
+            "ocean",
+            "water"
+          ],
+          "score": 0.006208896636962891
+        },
+        {
+          "question": "what color is the kite the people are using to fly?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.05908823013305664
+        },
+        {
+          "question": "what is the location where the people are parasailing?",
+          "answers": [
+            "beach",
+            "ocean",
+            "water"
+          ],
+          "score": 0.006208896636962891,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the kite the people in the background are using?",
+          "answers": [
+            "blue",
+            "red",
+            "green"
+          ],
+          "score": 0.12447690963745117
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.254,
+      "probe_selection_seconds": 2.139,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "green",
+    "rewrite": "a picture of a beach with several people parasailing in the background using green kites",
+    "raw_rank": 9,
+    "unseen_rank": 5
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the background activity of the people in the foreground?",
+      "what is the color of the kite being flown by the person in the foreground?",
+      "Question: What color is the kite being flown by the person in the foreground?",
+      "Question: How many people are parasailing in the background?",
+      "Question: What is the surface where the person in the foreground is located?"
+    ],
+    "question": "Question: What color is the kite being flown by the person in the foreground?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the background activity of the people in the foreground?",
+          "answers": [
+            "parasailing",
+            "kitesurfing",
+            "flying kites"
+          ],
+          "score": 0.036020755767822266
+        },
+        {
+          "question": "what is the color of the kite being flown by the person in the foreground?",
+          "answers": [
+            "blue",
+            "red",
+            "black"
+          ],
+          "score": 0.08880424499511719
+        },
+        {
+          "question": "Question: What color is the kite being flown by the person in the foreground?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.09920024871826172
+        },
+        {
+          "question": "Question: How many people are parasailing in the background?",
+          "answers": [
+            "1",
+            "2",
+            "3"
+          ],
+          "score": 0.0026907920837402344
+        },
+        {
+          "question": "Question: What is the surface where the person in the foreground is located?",
+          "answers": [
+            "beach",
+            "water",
+            "ocean"
+          ],
+          "score": 0.020700454711914062
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.153,
+      "probe_selection_seconds": 2.627,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "green",
+    "rewrite": "a picture of a beach with several people parasailing in the background, featuring a person in the foreground flying a green kite",
+    "raw_rank": 9,
+    "unseen_rank": 6
+  }
+}

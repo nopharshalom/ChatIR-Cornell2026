@@ -1,0 +1,179 @@
+{
+  "qid": 1201,
+  "initial": "1 large and 1 smaller elephant in a grassy field",
+  "initial_rank": 28,
+  "displayed": [
+    8735,
+    102,
+    21780,
+    13369,
+    1753,
+    46824,
+    42145,
+    1926,
+    30288,
+    9774
+  ],
+  "evidence": [
+    "elephant walking in an enclosure with some trees and dirt",
+    "two zebras with stripes in a field",
+    "three sheep and lambs in a green field",
+    "tall elephant walking on a rocky path with dirt around it",
+    "an elephant stands by a body of water",
+    "an elephant walking through a zoo area with a log in its front",
+    "a large brown elephant with its trunk on top of water",
+    "a cow and a baby calf standing near a metal fence",
+    "an elephant walking on a rocky trail with trees in the background",
+    "an elephant with a gray beard grazing in the woods"
+  ],
+  "rejected_captions": [
+    "three elephants walking in the grass",
+    "elephant and child standing in tall grass",
+    "the elephants are walking across a grassy field",
+    "an elephant in a field",
+    "a mother and her baby are in the grass",
+    "an elephant is walking in a green field",
+    "a group of elephants walking across a green field",
+    "this picture is of elephants",
+    "two elephants standing on a field together",
+    "a female elephant observing a baby elephant"
+  ],
+  "usual": {
+    "candidates": [
+      "Question: Are there any trees in the background of the scene with the two elephants?",
+      "what is the color of the large elephant's trunk?",
+      "Question: How many elephants are present in the scene with the trees in the background?",
+      "Question: What is the color of the smaller elephant in the scene?",
+      "Question: Question: What is the color of the larger elephant in the scene?"
+    ],
+    "question": "Question: What is the color of the smaller elephant in the scene?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: Are there any trees in the background of the scene with the two elephants?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0012650489807128906
+        },
+        {
+          "question": "what is the color of the large elephant's trunk?",
+          "answers": [
+            "gray",
+            "brown",
+            "black"
+          ],
+          "score": 0.022099018096923828
+        },
+        {
+          "question": "Question: How many elephants are present in the scene with the trees in the background?",
+          "answers": [
+            "1",
+            "2",
+            "3"
+          ],
+          "score": 0.0017857551574707031
+        },
+        {
+          "question": "Question: What is the color of the smaller elephant in the scene?",
+          "answers": [
+            "grey",
+            "brown",
+            "white"
+          ],
+          "score": 0.025949954986572266
+        },
+        {
+          "question": "Question: Question: What is the color of the larger elephant in the scene?",
+          "answers": [
+            "Gray",
+            "Brown",
+            "Pink"
+          ],
+          "score": 0.018522262573242188
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.074,
+      "probe_selection_seconds": 2.326,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "brown",
+    "rewrite": "1 large and 1 smaller brown elephant in a grassy field",
+    "raw_rank": 17,
+    "unseen_rank": 8
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the color of the large elephant?",
+      "Question: What is the color of the smaller elephant?",
+      "Question: What is the position of the smaller elephant relative to the large one?",
+      "Question: What is the color of the large elephant?",
+      "Question: What is the color of the large elephant?"
+    ],
+    "question": "Question: What is the color of the smaller elephant?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the color of the large elephant?",
+          "answers": [
+            "grey",
+            "brown",
+            "black"
+          ],
+          "score": 0.032883644104003906
+        },
+        {
+          "question": "Question: What is the color of the smaller elephant?",
+          "answers": [
+            "gray",
+            "brown",
+            "white"
+          ],
+          "score": 0.035939693450927734
+        },
+        {
+          "question": "Question: What is the position of the smaller elephant relative to the large one?",
+          "answers": [
+            "in front",
+            "behind",
+            "next to"
+          ],
+          "score": 0.003159046173095703
+        },
+        {
+          "question": "Question: What is the color of the large elephant?",
+          "answers": [
+            "grey",
+            "brown",
+            "black"
+          ],
+          "score": 0.032883644104003906,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the large elephant?",
+          "answers": [
+            "grey",
+            "brown",
+            "black"
+          ],
+          "score": 0.032883644104003906,
+          "duplicate_of": 0
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.068,
+      "probe_selection_seconds": 1.465,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "brown",
+    "rewrite": "a large brown elephant and a smaller brown elephant in a grassy field",
+    "raw_rank": 9,
+    "unseen_rank": 4
+  }
+}

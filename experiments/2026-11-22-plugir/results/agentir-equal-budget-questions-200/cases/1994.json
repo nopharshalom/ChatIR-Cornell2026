@@ -1,0 +1,78 @@
+{
+  "qid": 1994,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the large airplane that the group of people are walking next to?",
+    "Question: What is the color of the airplane in the image?",
+    "Question: What is the color of the airplane that the group of people are walking next to?",
+    "Question: What is the specific color of the airplane in the image?",
+    "Question: Question: What color is the airplane that the group of people are walking next to?"
+  ],
+  "second_candidates": [
+    "what color is the large airplane that the group of people are walking next to?",
+    "Question: what color is the airplane that is on the runway?",
+    "Question: what is the color of the airplane?",
+    "Question: Where is the group of people walking next to the large airplane?",
+    "Question: Question: What is the color of the airplane in the image where a group of people are walking next to it?"
+  ],
+  "paths": [
+    {
+      "question": "what color is the large airplane that the group of people are walking next to?",
+      "answers": [
+        "white",
+        "blue",
+        "red"
+      ],
+      "score": 0.10274028778076172
+    },
+    {
+      "question": "Question: what color is the airplane that is on the runway?",
+      "answers": [
+        "blue and yellow",
+        "white and red",
+        "white and blue"
+      ],
+      "score": 0.07390975952148438
+    },
+    {
+      "question": "Question: what is the color of the airplane?",
+      "answers": [
+        "blue",
+        "red",
+        "white"
+      ],
+      "score": 0.10392427444458008
+    },
+    {
+      "question": "Question: Where is the group of people walking next to the large airplane?",
+      "answers": [
+        "on the runway",
+        "at the airport",
+        "near the red double decker bus"
+      ],
+      "score": 0.06907129287719727
+    },
+    {
+      "question": "Question: Question: What is the color of the airplane in the image where a group of people are walking next to it?",
+      "answers": [
+        "white",
+        "blue",
+        "red"
+      ],
+      "score": 0.06739234924316406
+    }
+  ],
+  "control": {
+    "question": "Question: What is the specific color of the airplane in the image?",
+    "score": 0.13417816162109375
+  },
+  "mixed": {
+    "question": "Question: What is the specific color of the airplane in the image?",
+    "score": 0.13417816162109375
+  },
+  "control_rank": 9,
+  "mixed_rank": 9,
+  "usual_rank": 9,
+  "new_answer": null,
+  "new_rewrite": null
+}

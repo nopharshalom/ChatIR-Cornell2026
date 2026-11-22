@@ -1,0 +1,78 @@
+{
+  "qid": 102,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the jacket worn by the man sliding down the snowy slope on a snowboard?",
+    "Question: what is the color of the jacket worn by the man performing the trick on the snowboard?",
+    "what is the gender of the person wearing the blue jacket while skiing down the snow covered hill?",
+    "what is the other object in the image?",
+    "what is the gender of the person sitting on the ground holding their snowboard?"
+  ],
+  "second_candidates": [
+    "what is the color of the jacket worn by the man sliding down the snowy slope on a snowboard?",
+    "Question: what is the color of the jacket worn by the man sliding down the snowy slope on a snowboard?",
+    "Question: What is the color of the jacket worn by the man in the image?",
+    "Question: What is the color of the jacket worn by the man?",
+    "Question: Question: What is the color of the jacket worn by the man?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the jacket worn by the man sliding down the snowy slope on a snowboard?",
+      "answers": [
+        "blue",
+        "black",
+        "red"
+      ],
+      "score": 0.10454559326171875
+    },
+    {
+      "question": "Question: what is the color of the jacket worn by the man sliding down the snowy slope on a snowboard?",
+      "answers": [
+        "blue",
+        "white",
+        "black"
+      ],
+      "score": 0.05046844482421875
+    },
+    {
+      "question": "Question: What is the color of the jacket worn by the man in the image?",
+      "answers": [
+        "blue",
+        "black",
+        "red"
+      ],
+      "score": 0.1315021514892578
+    },
+    {
+      "question": "Question: What is the color of the jacket worn by the man?",
+      "answers": [
+        "blue",
+        "red",
+        "black"
+      ],
+      "score": 0.12652349472045898
+    },
+    {
+      "question": "Question: Question: What is the color of the jacket worn by the man?",
+      "answers": [
+        "blue",
+        "red",
+        "black"
+      ],
+      "score": 0.16733455657958984
+    }
+  ],
+  "control": {
+    "question": "Question: Question: What is the color of the jacket worn by the man?",
+    "score": 0.16733455657958984
+  },
+  "mixed": {
+    "question": "what is the color of the man's jacket?",
+    "score": 0.16553544998168945
+  },
+  "control_rank": 1,
+  "mixed_rank": 1,
+  "usual_rank": 1,
+  "new_answer": "Purple.",
+  "new_rewrite": "a man in a purple jacket slides down a snowy slope on a snowboard"
+}

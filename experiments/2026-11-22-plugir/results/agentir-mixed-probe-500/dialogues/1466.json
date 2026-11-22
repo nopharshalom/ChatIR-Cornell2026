@@ -1,0 +1,672 @@
+{
+  "qid": 1466,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000308779.jpg",
+  "queries": [
+    "a group of motorcycles parked in a parking lot",
+    "a group of motorcycles parked in a parking lot with no cars nearby",
+    "a group of black motorcycles parked in a parking lot with no cars nearby",
+    "a group of black and silver motorcycles parked in a parking lot with no cars nearby",
+    "a group of black and silver motorcycles parked in a parking lot, with no cars nearby",
+    "a group of black and silver motorcycles parked in a lot with mountains in the background"
+  ],
+  "ranks": [
+    67,
+    64,
+    101,
+    121,
+    124,
+    4
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a group of motorcycles parked in a parking lot",
+      "question": "Question: Which car is parked next to the motorcycles?",
+      "answer": "There are no cars in the image.",
+      "query_after": "a group of motorcycles parked in a parking lot with no cars nearby",
+      "displayed_ids": [
+        32612,
+        25630,
+        16388,
+        38493,
+        25127,
+        41709,
+        24848,
+        8009,
+        30642,
+        43543
+      ],
+      "selected_ids": [
+        29161,
+        39903,
+        24416,
+        41093,
+        48400,
+        9107,
+        9585,
+        34312,
+        17111,
+        26082
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the motorcycle parked in the lot?",
+          "answers": [
+            "black",
+            "red",
+            "brown"
+          ],
+          "score": 0.10172271728515625
+        },
+        {
+          "question": "what is the color of the motorcycle parked in the lot?",
+          "answers": [
+            "black",
+            "red",
+            "brown"
+          ],
+          "score": 0.10172271728515625,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the motorcycle parked next to a brown vintage car?",
+          "answers": [
+            "red",
+            "black",
+            "unknown"
+          ],
+          "score": 0.02486276626586914
+        },
+        {
+          "question": "what is the total number of motorcycles visible in the parking lot?",
+          "answers": [
+            "1",
+            "2",
+            "3"
+          ],
+          "score": 0.0003895759582519531
+        },
+        {
+          "question": "Question: How many motorcycles are parked in the lot?",
+          "answers": [
+            "3",
+            "4",
+            "6"
+          ],
+          "score": 0.000133514404296875
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the motorcycles parked in the parking lot?",
+          "answers": [
+            "black",
+            "red",
+            "chrome"
+          ],
+          "score": 0.07293844223022461
+        },
+        {
+          "question": "Question: Which car is parked next to the motorcycles?",
+          "answers": [
+            "red classic car",
+            "brown vintage car",
+            "buses"
+          ],
+          "score": 0.10914897918701172
+        },
+        {
+          "question": "Question: How many motorcycles are parked in the parking lot?",
+          "answers": [
+            "one",
+            "two",
+            "three"
+          ],
+          "score": 0.004063129425048828
+        },
+        {
+          "question": "Question: Are there people present in the scene with the parked motorcycles?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0008530616760253906
+        },
+        {
+          "question": "Question: What is the color of the car parked next to the motorcycles?",
+          "answers": [
+            "red",
+            "black",
+            "brown"
+          ],
+          "score": 0.0538020133972168
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a group of motorcycles parked in a parking lot with no cars nearby",
+      "question": "Question: What is the color of the motorcycle?",
+      "answer": "black",
+      "query_after": "a group of black motorcycles parked in a parking lot with no cars nearby",
+      "displayed_ids": [
+        32612,
+        25630,
+        30642,
+        38493,
+        8009,
+        24848,
+        25127,
+        16388,
+        43543,
+        41709
+      ],
+      "selected_ids": [
+        1662,
+        12359,
+        41093,
+        13859,
+        34312,
+        16444,
+        33219,
+        39174,
+        48400,
+        45097
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: What is the color of the motorcycle parked in the woods?",
+          "answers": [
+            "black",
+            "red",
+            "yellow"
+          ],
+          "score": 0.05747652053833008
+        },
+        {
+          "question": "what is the color of the motorcycle that is parked in the woods?",
+          "answers": [
+            "green",
+            "brown",
+            "dark"
+          ],
+          "score": 0.0836334228515625
+        },
+        {
+          "question": "what is the color of the motorcycles parked in the parking lot?",
+          "answers": [
+            "black",
+            "yellow",
+            "red"
+          ],
+          "score": 0.10873031616210938
+        },
+        {
+          "question": "what is the color of the motorcycles parked in the woods?",
+          "answers": [
+            "black",
+            "yellow",
+            "red"
+          ],
+          "score": 0.10056591033935547
+        },
+        {
+          "question": "How many motorcycles are parked in the lot?",
+          "answers": [
+            "1",
+            "2",
+            "3"
+          ],
+          "score": 0.00028133392333984375
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the motorcycle in the image?",
+          "answers": [
+            "black",
+            "red",
+            "yellow"
+          ],
+          "score": 0.12179088592529297
+        },
+        {
+          "question": "Question: What is the color of the motorcycle?",
+          "answers": [
+            "black",
+            "red",
+            "yellow"
+          ],
+          "score": 0.1723933219909668
+        },
+        {
+          "question": "what is the surface material of the parking lot where the motorcycles are parked?",
+          "answers": [
+            "asphalt",
+            "concrete",
+            "dirt"
+          ],
+          "score": 0.04091691970825195
+        },
+        {
+          "question": "what is the color of the motorcycles parked in the parking lot?",
+          "answers": [
+            "red",
+            "black",
+            "yellow"
+          ],
+          "score": 0.10873031616210938
+        },
+        {
+          "question": "Question: What is the background location where the motorcycles are parked?",
+          "answers": [
+            "a parking lot",
+            "a woods",
+            "an airport tarmac"
+          ],
+          "score": 0.09279346466064453
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "a group of black motorcycles parked in a parking lot with no cars nearby",
+      "question": "Question: What is the color of the motorcycle parked next to the black one?",
+      "answer": "silver",
+      "query_after": "a group of black and silver motorcycles parked in a parking lot with no cars nearby",
+      "displayed_ids": [
+        25630,
+        32557,
+        27513,
+        38493,
+        10023,
+        29501,
+        32612,
+        41709,
+        43543,
+        38768
+      ],
+      "selected_ids": [
+        45097,
+        39174,
+        34117,
+        49346,
+        9672,
+        58,
+        12747,
+        25127,
+        1380,
+        9017
+      ],
+      "rejected_count": 15,
+      "usual_paths": [
+        {
+          "question": "How many motorcycles are parked in the lot?",
+          "answers": [
+            "one",
+            "two",
+            "many"
+          ],
+          "score": 0.0036983489990234375
+        },
+        {
+          "question": "Question: How many motorcycles are parked in the lot?",
+          "answers": [
+            "one",
+            "two",
+            "three"
+          ],
+          "score": 0.002090930938720703
+        },
+        {
+          "question": "what is the background object next to the group of black motorcycles in the parking lot?",
+          "answers": [
+            "cone",
+            "skeleton",
+            "bus"
+          ],
+          "score": 0.07094192504882812
+        },
+        {
+          "question": "what is the background object next to the group of black motorcycles in the parking lot?",
+          "answers": [
+            "cone",
+            "skeleton",
+            "bus"
+          ],
+          "score": 0.07094192504882812,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the background object next to the group of black motorcycles in the parking lot?",
+          "answers": [
+            "cone",
+            "skeleton",
+            "bus"
+          ],
+          "score": 0.07094192504882812,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the motorcycle parked next to the black one?",
+          "answers": [
+            "white",
+            "red",
+            "blue"
+          ],
+          "score": 0.2325725555419922
+        },
+        {
+          "question": "Question: What is the color of the motorcycle parked next to the black one?",
+          "answers": [
+            "white",
+            "red",
+            "blue"
+          ],
+          "score": 0.2325725555419922,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the surface type of the parking lot where the motorcycles are parked?",
+          "answers": [
+            "Asphalt",
+            "Concrete",
+            "Grass"
+          ],
+          "score": 0.03036212921142578
+        },
+        {
+          "question": "Question: What is the color of the motorcycle parked next to the black one?",
+          "answers": [
+            "white",
+            "red",
+            "blue"
+          ],
+          "score": 0.2325725555419922,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the surface type of the parking lot where the motorcycles are parked?",
+          "answers": [
+            "Asphalt",
+            "Concrete",
+            "Grass"
+          ],
+          "score": 0.03036212921142578,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a group of black and silver motorcycles parked in a parking lot with no cars nearby",
+      "question": "What is the color of the motorcycle parked next to the silver one?",
+      "answer": "black",
+      "query_after": "a group of black and silver motorcycles parked in a parking lot, with no cars nearby",
+      "displayed_ids": [
+        25630,
+        38493,
+        27513,
+        49543,
+        29501,
+        41464,
+        32557,
+        38768,
+        32612,
+        41709
+      ],
+      "selected_ids": [
+        12139,
+        1380,
+        8700,
+        9107,
+        18424,
+        48400,
+        19418,
+        45097,
+        9672,
+        20569
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "Question: What is the specific name of the parking lot where the group of motorcycles is parked?",
+          "answers": [
+            "unknown",
+            "any specific name",
+            "cannot be determined"
+          ],
+          "score": 0.0026259422302246094
+        },
+        {
+          "question": "Question: What is the color of the motorcycle parked next to the silver one?",
+          "answers": [
+            "black",
+            "brown",
+            "red"
+          ],
+          "score": 0.06298065185546875
+        },
+        {
+          "question": "Question: What is the color of the motorcycle parked next to the silver one?",
+          "answers": [
+            "black",
+            "brown",
+            "red"
+          ],
+          "score": 0.06298065185546875,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the motorcycle parked next to the silver one?",
+          "answers": [
+            "black",
+            "brown",
+            "red"
+          ],
+          "score": 0.06298065185546875,
+          "duplicate_of": 1
+        },
+        {
+          "question": "What is the color of the motorcycle parked next to the silver one?",
+          "answers": [
+            "yellow",
+            "red",
+            "blue"
+          ],
+          "score": 0.2175745964050293
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the surface type of the parking lot where the motorcycles are parked?",
+          "answers": [
+            "asphalt",
+            "concrete",
+            "grass"
+          ],
+          "score": 0.01923084259033203
+        },
+        {
+          "question": "Question: What is the surface type of the parking lot where the motorcycles are parked?",
+          "answers": [
+            "asphalt",
+            "concrete",
+            "grass"
+          ],
+          "score": 0.01923084259033203,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the surface type of the parking lot where the motorcycles are parked?",
+          "answers": [
+            "asphalt",
+            "concrete",
+            "grass"
+          ],
+          "score": 0.01923084259033203,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the surface type of the parking lot where the motorcycles are parked?",
+          "answers": [
+            "asphalt",
+            "concrete",
+            "grass"
+          ],
+          "score": 0.01923084259033203,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the surface type of the parking lot where the motorcycles are parked?",
+          "answers": [
+            "asphalt",
+            "concrete",
+            "grass"
+          ],
+          "score": 0.01923084259033203,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a group of black and silver motorcycles parked in a parking lot, with no cars nearby",
+      "question": "Question: What is the background scenery behind the parked motorcycles?",
+      "answer": "Mountains.",
+      "query_after": "a group of black and silver motorcycles parked in a lot with mountains in the background",
+      "displayed_ids": [
+        25630,
+        38493,
+        27513,
+        49543,
+        29501,
+        41464,
+        32557,
+        38768,
+        32612,
+        41709
+      ],
+      "selected_ids": [
+        1380,
+        22358,
+        12232,
+        9672,
+        20569,
+        43067,
+        19418,
+        13859,
+        12139,
+        23329
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "What is the time of day when the motorcycles are parked in the lot?",
+          "answers": [
+            "morning",
+            "afternoon",
+            "evening"
+          ],
+          "score": 0.028775691986083984
+        },
+        {
+          "question": "Where exactly are the motorcycles parked in the parking lot?",
+          "answers": [
+            "In a parking lot",
+            "On a street",
+            "On a sidewalk"
+          ],
+          "score": 0.026532649993896484
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bikes",
+            "motorcycle",
+            "parking lot"
+          ],
+          "score": 0.005754947662353516
+        },
+        {
+          "question": "Where exactly within the parking lot are the motorcycles parked?",
+          "answers": [
+            "next to the silver motorcycle",
+            "next to the black motorcycle",
+            "at the edge of the lot"
+          ],
+          "score": 0.012083053588867188
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bikes",
+            "motorcycle",
+            "parking lot"
+          ],
+          "score": 0.005754947662353516,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the surface where the group of motorcycles is parked?",
+          "answers": [
+            "asphalt",
+            "concrete",
+            "pavement"
+          ],
+          "score": 0.007025718688964844
+        },
+        {
+          "question": "Question: What is the color of the surface where the group of motorcycles is parked?",
+          "answers": [
+            "asphalt",
+            "concrete",
+            "grass"
+          ],
+          "score": 0.022968769073486328
+        },
+        {
+          "question": "Question: What is the specific arrangement or pattern of the black and silver motorcycles in the group?",
+          "answers": [
+            "The black motorcycle is parked in the middle of the silver ones.",
+            "The silver motorcycle is parked on the left side of the black one.",
+            "The black motorcycle is parked at the end of the silver line."
+          ],
+          "score": 0.010586738586425781
+        },
+        {
+          "question": "Question: What is the specific arrangement of the motorcycles in the group?",
+          "answers": [
+            "lined up in a row",
+            "clustered together",
+            "parked randomly"
+          ],
+          "score": 0.012858390808105469
+        },
+        {
+          "question": "Question: What is the background scenery behind the parked motorcycles?",
+          "answers": [
+            "a parking lot",
+            "a city street",
+            "a grassy area"
+          ],
+          "score": 0.052425384521484375
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

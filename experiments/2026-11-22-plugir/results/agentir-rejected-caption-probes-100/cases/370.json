@@ -1,0 +1,81 @@
+{
+  "qid": 370,
+  "candidates": [
+    "**Question:** What is the material of the building where the clock is positioned?",
+    "Question: What is the color of the clock?",
+    "what is the type of the building where the clock is positioned?",
+    "Question: What is the material of the clock?",
+    "Question: What is the color of the building where the clock is positioned?"
+  ],
+  "kl": {
+    "question": "what is the type of the building where the clock is positioned?",
+    "answer": "brick",
+    "rewrite": "a clock positioned on the outside of a brick building",
+    "raw_rank": 18,
+    "unseen_rank": 11
+  },
+  "probe": {
+    "question": "**Question:** What is the material of the building where the clock is positioned?",
+    "answer": "brick",
+    "rewrite": "a clock positioned on the outside of a brick building",
+    "rank": 18,
+    "hit": false,
+    "raw_rank": 18,
+    "unseen_rank": 11
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "**Question:** What is the material of the building where the clock is positioned?",
+        "answers": [
+          "brick",
+          "stone",
+          "wood"
+        ],
+        "score": 0.07606029510498047
+      },
+      {
+        "question": "Question: What is the color of the clock?",
+        "answers": [
+          "black",
+          "red",
+          "white"
+        ],
+        "score": 0.06148672103881836
+      },
+      {
+        "question": "what is the type of the building where the clock is positioned?",
+        "answers": [
+          "brick",
+          "stone",
+          "church"
+        ],
+        "score": 0.07077646255493164
+      },
+      {
+        "question": "Question: What is the material of the clock?",
+        "answers": [
+          "metal",
+          "plastic",
+          "wood"
+        ],
+        "score": 0.029761791229248047
+      },
+      {
+        "question": "Question: What is the color of the building where the clock is positioned?",
+        "answers": [
+          "brick",
+          "stone",
+          "red"
+        ],
+        "score": 0.05800771713256836
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.058,
+    "probe_selection_seconds": 2.207,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": true
+}

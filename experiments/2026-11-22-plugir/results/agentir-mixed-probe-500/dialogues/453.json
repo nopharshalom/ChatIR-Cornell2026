@@ -1,0 +1,141 @@
+{
+  "qid": 453,
+  "sample": "original",
+  "target": "unlabeled2017/000000214711.jpg",
+  "queries": [
+    "a pizza on a plate with a glass of beer",
+    "a pepperoni pizza on a plate with a glass of beer"
+  ],
+  "ranks": [
+    32,
+    3
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a pizza on a plate with a glass of beer",
+      "question": "Question: What toppings are on the pizza?",
+      "answer": "pepperoni",
+      "query_after": "a pepperoni pizza on a plate with a glass of beer",
+      "displayed_ids": [
+        38541,
+        41539,
+        44797,
+        37282,
+        38269,
+        17886,
+        35361,
+        6515,
+        18642,
+        4123
+      ],
+      "selected_ids": [
+        3225,
+        5309,
+        7044,
+        6355,
+        9041,
+        49717,
+        49448,
+        375,
+        35389
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the topping on the pizza served on a plate with a glass of beer?",
+          "answers": [
+            "pepperoni and pepper",
+            "mushrooms and onion",
+            "pepperoni and mushroom"
+          ],
+          "score": 0.08177661895751953
+        },
+        {
+          "question": "what is the color of the pizza served on a plate with a glass of beer?",
+          "answers": [
+            "red",
+            "white",
+            "green"
+          ],
+          "score": 0.027310848236083984
+        },
+        {
+          "question": "what is the color of the table where the pizza is placed?",
+          "answers": [
+            "wooden",
+            "white"
+          ],
+          "score": 0.038263797760009766
+        },
+        {
+          "question": "what is the specific topping on the pizza that is served on a plate with a glass of beer?",
+          "answers": [
+            "peppers and pepperoni",
+            "broccoli, tomatoes and greens",
+            "tomatoes, peppers, onion, mushrooms"
+          ],
+          "score": 0.11067676544189453
+        },
+        {
+          "question": "what is the color of the plate where the pizza with beer is served?",
+          "answers": [
+            "white",
+            "green",
+            "blue"
+          ],
+          "score": 0.02985858917236328
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What toppings are on the pizza?",
+          "answers": [
+            "pepperoni and pepper",
+            "mushrooms and onion",
+            "broccoli and tomatoes"
+          ],
+          "score": 0.1261610984802246
+        },
+        {
+          "question": "Question: What color is the plate holding the pizza?",
+          "answers": [
+            "white",
+            "red",
+            "blue"
+          ],
+          "score": 0.033182621002197266
+        },
+        {
+          "question": "Question: What is the color of the plate holding the pizza?",
+          "answers": [
+            "white",
+            "green",
+            "blue"
+          ],
+          "score": 0.0363011360168457
+        },
+        {
+          "question": "Question: Is the pizza topped with pepperoni?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0008683204650878906
+        },
+        {
+          "question": "Question: What is the color of the pizza?",
+          "answers": [
+            "red",
+            "green",
+            "white"
+          ],
+          "score": 0.03811359405517578
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

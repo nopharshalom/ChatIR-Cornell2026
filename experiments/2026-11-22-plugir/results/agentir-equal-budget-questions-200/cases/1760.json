@@ -1,0 +1,78 @@
+{
+  "qid": 1760,
+  "sample": 1,
+  "first_candidates": [
+    "what type of sandwich is on the plate?",
+    "Question: What fruit is next to the sandwich halves on the plate?",
+    "Question: What color is the plate holding the sandwich halves and fruit?",
+    "Question: What is the other item on the plate besides the sandwich halves and the fruit?",
+    "**Question:** Is there a banana on the plate with the sandwich halves?"
+  ],
+  "second_candidates": [
+    "what type of fruit is located next to the sandwich halves on the plate?",
+    "Question: what is the type of sandwich being served on the plate?",
+    "what is the specific type of meat or protein found in the sandwich halves on the plate?",
+    "Question: Is the fruit located next to the sandwich halves a banana or an apple?",
+    "what is the color of the fruit located next to the sandwich halves on the plate?"
+  ],
+  "paths": [
+    {
+      "question": "what type of fruit is located next to the sandwich halves on the plate?",
+      "answers": [
+        "apples",
+        "bananas",
+        "grapes"
+      ],
+      "score": 0.07524919509887695
+    },
+    {
+      "question": "Question: what is the type of sandwich being served on the plate?",
+      "answers": [
+        "chicken sandwich",
+        "meat sandwich",
+        "sandwich"
+      ],
+      "score": 0.03708028793334961
+    },
+    {
+      "question": "what is the specific type of meat or protein found in the sandwich halves on the plate?",
+      "answers": [
+        "bacon",
+        "chicken",
+        "meat"
+      ],
+      "score": 0.05324697494506836
+    },
+    {
+      "question": "Question: Is the fruit located next to the sandwich halves a banana or an apple?",
+      "answers": [
+        "banana",
+        "apple",
+        "both"
+      ],
+      "score": 0.005534172058105469
+    },
+    {
+      "question": "what is the color of the fruit located next to the sandwich halves on the plate?",
+      "answers": [
+        "green",
+        "yellow",
+        "red"
+      ],
+      "score": 0.09814882278442383
+    }
+  ],
+  "control": {
+    "question": "what is the color of the fruit located next to the sandwich halves on the plate?",
+    "score": 0.09814882278442383
+  },
+  "mixed": {
+    "question": "Question: What is the color of the plate holding the sandwich and fruit?",
+    "score": 0.09642314910888672
+  },
+  "control_rank": 2,
+  "mixed_rank": 8,
+  "usual_rank": 8,
+  "new_answer": "yellow",
+  "new_rewrite": "the halves of a sandwich sit on a plate near a yellow piece of fruit"
+}

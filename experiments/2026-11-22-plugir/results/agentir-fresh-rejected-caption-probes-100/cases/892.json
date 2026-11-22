@@ -1,0 +1,178 @@
+{
+  "qid": 892,
+  "initial": "a young man jumping a skateboard off an edge",
+  "initial_rank": 131,
+  "displayed": [
+    21337,
+    34997,
+    41516,
+    9556,
+    20375,
+    14921,
+    34642,
+    44192,
+    41493,
+    9060
+  ],
+  "evidence": [
+    "a black and white photo of a skateboarder performing tricks",
+    "skateboarders doing tricks at night at a skate park",
+    "a skateboarder is performing stunts in front of a crowd",
+    "a man is performing a trick on a skateboard in front of a crowd",
+    "a group of people watching someone do tricks on a skateboard",
+    "a black and white photo of people skateboarding in the park",
+    "a man doing a skateboard trick on a rail while many people watch",
+    "a man on a skateboard at night",
+    "a skateboarder in motion at night",
+    "a young man is skateboarding in the middle of a city square"
+  ],
+  "rejected_captions": [
+    "a skateboarder doing a trick",
+    "a man on a skateboard boarding",
+    "a person doing a skateboard trick at a skate park",
+    "a young man performing a skateboard trick",
+    "a young man riding his skateboard over a curb",
+    "man is skateboarding in a parking lot",
+    "the metal railing",
+    "a young man in a blue t-shirt jumping on a skateboard",
+    "the skater is in midair",
+    "a young man performing a skateboard trick in front of a building"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the lighting condition or time of day in the image where a young man is jumping a skateboard off an edge?",
+      "Question: Is the image in color or black and white?",
+      "Question: Is the young man jumping off an edge in a city square?",
+      "what is the lighting condition or time of day in the image where a young man is jumping a skateboard off an edge?",
+      "Question: Is there a crowd watching the young man perform the trick?"
+    ],
+    "question": "what is the lighting condition or time of day in the image where a young man is jumping a skateboard off an edge?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the lighting condition or time of day in the image where a young man is jumping a skateboard off an edge?",
+          "answers": [
+            "daytime",
+            "night",
+            "twilight"
+          ],
+          "score": 0.06305170059204102
+        },
+        {
+          "question": "Question: Is the image in color or black and white?",
+          "answers": [
+            "color",
+            "black and white",
+            "sepia"
+          ],
+          "score": 0.02439737319946289
+        },
+        {
+          "question": "Question: Is the young man jumping off an edge in a city square?",
+          "answers": [
+            "Yes",
+            "No, he's in a skate park",
+            "No, he's in front of a crowd"
+          ],
+          "score": 0.059186458587646484
+        },
+        {
+          "question": "what is the lighting condition or time of day in the image where a young man is jumping a skateboard off an edge?",
+          "answers": [
+            "daytime",
+            "night",
+            "twilight"
+          ],
+          "score": 0.06305170059204102,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: Is there a crowd watching the young man perform the trick?",
+          "answers": [
+            "Yes",
+            "No",
+            "Can't tell"
+          ],
+          "score": 0.0004448890686035156
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.09,
+      "probe_selection_seconds": 2.391,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "daytime",
+    "rewrite": "a young man jumping a skateboard off an edge during the daytime",
+    "raw_rank": 154,
+    "unseen_rank": 144
+  },
+  "rejected": {
+    "candidates": [
+      "what is the lighting condition of the scene where the young man is jumping the skateboard?",
+      "Question: What is the color of the photo (e.g., black and white or color)?",
+      "Question: What is the location where the young man is jumping the skateboard?",
+      "what is the object the young man is jumping the skateboard off of?",
+      "what is the outfit of the young man performing the skateboard trick?"
+    ],
+    "question": "what is the lighting condition of the scene where the young man is jumping the skateboard?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the lighting condition of the scene where the young man is jumping the skateboard?",
+          "answers": [
+            "daylight",
+            "night",
+            "indoors"
+          ],
+          "score": 0.12413167953491211
+        },
+        {
+          "question": "Question: What is the color of the photo (e.g., black and white or color)?",
+          "answers": [
+            "black and white",
+            "color",
+            "sepia"
+          ],
+          "score": 0.025988101959228516
+        },
+        {
+          "question": "Question: What is the location where the young man is jumping the skateboard?",
+          "answers": [
+            "a skate park",
+            "a city square",
+            "a parking garage"
+          ],
+          "score": 0.10486125946044922
+        },
+        {
+          "question": "what is the object the young man is jumping the skateboard off of?",
+          "answers": [
+            "a ramp",
+            "a ledge",
+            "a curb"
+          ],
+          "score": 0.028043270111083984
+        },
+        {
+          "question": "what is the outfit of the young man performing the skateboard trick?",
+          "answers": [
+            "black t-shirt",
+            "blue jeans",
+            "red hat"
+          ],
+          "score": 0.10477638244628906
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.072,
+      "probe_selection_seconds": 2.757,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "daylight",
+    "rewrite": "a young man jumping a skateboard off an edge in daylight",
+    "raw_rank": 220,
+    "unseen_rank": 210
+  }
+}

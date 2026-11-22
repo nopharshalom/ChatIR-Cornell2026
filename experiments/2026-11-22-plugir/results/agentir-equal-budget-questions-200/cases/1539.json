@@ -1,0 +1,78 @@
+{
+  "qid": 1539,
+  "sample": 1,
+  "first_candidates": [
+    "what is the specific type of sign described as red, white, and blue located on the sidewalk?",
+    "Question: What is the specific object located next to the red, white, and blue sign on the sidewalk?",
+    "Question: What is the color of the bus in the image?",
+    "Question: What color is the sign located on the sidewalk by the city street?",
+    "what is the background color behind the red, white, and blue sign located on the sidewalk?"
+  ],
+  "second_candidates": [
+    "what is the specific type of sign described as being red, white, and blue located on the sidewalk by a city street?",
+    "Question: What color is the bus located near the sign described as being red, white, and blue on the sidewalk?",
+    "what is the color of the bus located near the red, white, and blue sign on the sidewalk?",
+    "Question: What color is the bus located near the red, white, and blue sign on the sidewalk?",
+    "What color is the bus located near the red, white, and blue sign on the sidewalk?"
+  ],
+  "paths": [
+    {
+      "question": "what is the specific type of sign described as being red, white, and blue located on the sidewalk by a city street?",
+      "answers": [
+        "stop sign",
+        "fire hydrant",
+        "bus"
+      ],
+      "score": 0.15848731994628906
+    },
+    {
+      "question": "Question: What color is the bus located near the sign described as being red, white, and blue on the sidewalk?",
+      "answers": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "score": 0.004546642303466797
+    },
+    {
+      "question": "what is the color of the bus located near the red, white, and blue sign on the sidewalk?",
+      "answers": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "score": 0.009422779083251953
+    },
+    {
+      "question": "Question: What color is the bus located near the red, white, and blue sign on the sidewalk?",
+      "answers": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "score": 0.0042324066162109375
+    },
+    {
+      "question": "What color is the bus located near the red, white, and blue sign on the sidewalk?",
+      "answers": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "score": 0.004011631011962891
+    }
+  ],
+  "control": {
+    "question": "what is the specific type of sign described as being red, white, and blue located on the sidewalk by a city street?",
+    "score": 0.15848731994628906
+  },
+  "mixed": {
+    "question": "Question: What is the specific object located next to the red, white, and blue sign on the sidewalk?",
+    "score": 0.12674999237060547
+  },
+  "control_rank": 1,
+  "mixed_rank": 3,
+  "usual_rank": 3,
+  "new_answer": "welcome to enmore",
+  "new_rewrite": "a red, white, and blue \"Welcome to Enmore\" sign on the sidewalk by a city street"
+}

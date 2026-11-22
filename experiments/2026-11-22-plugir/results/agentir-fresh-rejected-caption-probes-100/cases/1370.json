@@ -1,0 +1,177 @@
+{
+  "qid": 1370,
+  "initial": "2 men walking on the beach towards the ocean",
+  "initial_rank": 38,
+  "displayed": [
+    19736,
+    42980,
+    31504,
+    5088,
+    1130,
+    34141,
+    33759,
+    8256,
+    44736,
+    28586
+  ],
+  "evidence": [
+    "boy holding a surfboard at sunset",
+    "a woman carrying her surfboard along the beach at sunset",
+    "kite flying over a beach with a child",
+    "two young men on a tennis court walking and holding tennis rackets",
+    "a dog with a surfboard walking next to two surfers",
+    "a surfer walks down the beach holding a surfboard",
+    "two men walking through a park",
+    "a boy holding a surfboard next to the beach",
+    "a red kite is flying in the air",
+    "a woman rides a horse on the beach"
+  ],
+  "rejected_captions": [
+    "three surfers walking on a beach",
+    "a group of people walking down the beach",
+    "young man is holding blue surfboard",
+    "beach surfers stand next to a house on the sand",
+    "four surfers walking along a beach holding surfboards",
+    "the two guys are walking on the beach",
+    "a person walks along the ocean",
+    "palm trees on the beach",
+    "two men walking along the beach carrying surfboards",
+    "some people walking down a beach with surfboards"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the object that the two men are holding while walking on the beach?",
+      "Question: what color of shirt are the two men wearing while walking on the beach?",
+      "what is the other object in the image?",
+      "Question: what is the direction the two men are walking on the beach?",
+      "what are the two men walking on the beach holding?"
+    ],
+    "question": "what is the other object in the image?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the object that the two men are holding while walking on the beach?",
+          "answers": [
+            "tennis rackets",
+            "surfboards",
+            "nothing"
+          ],
+          "score": 0.05184602737426758
+        },
+        {
+          "question": "Question: what color of shirt are the two men wearing while walking on the beach?",
+          "answers": [
+            "white",
+            "blue",
+            "black"
+          ],
+          "score": 0.019138813018798828
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "tennis rackets",
+            "surfboard",
+            "horse"
+          ],
+          "score": 0.19875144958496094
+        },
+        {
+          "question": "Question: what is the direction the two men are walking on the beach?",
+          "answers": [
+            "towards the ocean",
+            "away from the ocean",
+            "parallel to the shoreline"
+          ],
+          "score": 0.003239154815673828
+        },
+        {
+          "question": "what are the two men walking on the beach holding?",
+          "answers": [
+            "tennis rackets",
+            "nothing",
+            "a surfboard"
+          ],
+          "score": 0.05620241165161133
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.111,
+      "probe_selection_seconds": 2.724,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "beach",
+    "rewrite": "two men walking on a beach towards the ocean",
+    "raw_rank": 32,
+    "unseen_rank": 22
+  },
+  "rejected": {
+    "candidates": [
+      "Question: Is the person with the surfboard a boy or a woman?",
+      "What color are the surfboards held by the two men walking on the beach?",
+      "Question: Is there a kite flying in the background of the scene?",
+      "Question: What is the color of the sky in the image?",
+      "Question: What is the color of the surfboards held by the two men?"
+    ],
+    "question": "Question: What is the color of the sky in the image?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: Is the person with the surfboard a boy or a woman?",
+          "answers": [
+            "boy",
+            "man",
+            "woman"
+          ],
+          "score": 0.002383708953857422
+        },
+        {
+          "question": "What color are the surfboards held by the two men walking on the beach?",
+          "answers": [
+            "blue",
+            "green",
+            "yellow"
+          ],
+          "score": 0.055891990661621094
+        },
+        {
+          "question": "Question: Is there a kite flying in the background of the scene?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0005388259887695312
+        },
+        {
+          "question": "Question: What is the color of the sky in the image?",
+          "answers": [
+            "blue",
+            "orange",
+            "purple"
+          ],
+          "score": 0.06164073944091797
+        },
+        {
+          "question": "Question: What is the color of the surfboards held by the two men?",
+          "answers": [
+            "Blue",
+            "Green",
+            "White"
+          ],
+          "score": 0.04490518569946289
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.082,
+      "probe_selection_seconds": 2.262,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "blue",
+    "rewrite": "two men walking on a beach towards the ocean under a blue sky",
+    "raw_rank": 14,
+    "unseen_rank": 10
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "qid": 243,
+  "arm": "fresh",
+  "after_round": 4,
+  "ranks": [
+    25,
+    25,
+    18,
+    16,
+    14,
+    75,
+    117,
+    104,
+    128,
+    102,
+    110
+  ],
+  "continuation": [
+    {
+      "round": 5,
+      "query_before": "a gray parking reader displaying \"expired\" on a city street, with white cars parked nearby",
+      "question": "Is the sign next to the tree white or gray?",
+      "answer": "gray",
+      "query_after": "a gray parking reader sign displaying \"expired\" stands next to a tree on a city street, with white cars parked nearby",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Is the sign next to the tree white or gray?",
+      "fallback": false
+    },
+    {
+      "round": 6,
+      "query_before": "a gray parking reader sign displaying \"expired\" stands next to a tree on a city street, with white cars parked nearby",
+      "question": "what is the other object in the image?",
+      "answer": "cars",
+      "query_after": "A gray sign reading \"expired\" is posted on a tree along a city street, with white cars parked in the vicinity."
+    },
+    {
+      "round": 7,
+      "query_before": "A gray sign reading \"expired\" is posted on a tree along a city street, with white cars parked in the vicinity.",
+      "question": "what is the text written on the sign in the image?",
+      "answer": "expired",
+      "query_after": "a gray parking sign reading \"expired\" stands next to a tree on a city street, with white cars parked nearby"
+    },
+    {
+      "round": 8,
+      "query_before": "a gray parking sign reading \"expired\" stands next to a tree on a city street, with white cars parked nearby",
+      "question": "what is the specific location or type of street where the expired sign is located?",
+      "answer": "unsure",
+      "query_after": "A gray parking sign displaying the word \"expired\" is situated beside a tree on a city street, with white cars parked in the vicinity."
+    },
+    {
+      "round": 9,
+      "query_before": "A gray parking sign displaying the word \"expired\" is situated beside a tree on a city street, with white cars parked in the vicinity.",
+      "question": "what is the color of the background behind the sign in the image?",
+      "answer": "gray",
+      "query_after": "a gray parking sign displaying the text \"expired\" stands next to a tree on a city street, with a white car visible in the background"
+    },
+    {
+      "round": 10,
+      "query_before": "a gray parking sign displaying the text \"expired\" stands next to a tree on a city street, with a white car visible in the background",
+      "question": "what is the other object in the image?",
+      "answer": "cars",
+      "query_after": "a gray parking sign displaying the text \"expired\" stands next to a tree on a city street, with white cars parked in the background"
+    }
+  ],
+  "seconds": 108.3
+}

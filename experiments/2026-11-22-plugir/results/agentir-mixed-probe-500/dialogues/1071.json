@@ -1,0 +1,406 @@
+{
+  "qid": 1071,
+  "sample": "original",
+  "target": "unlabeled2017/000000374207.jpg",
+  "queries": [
+    "2 women cooking together in a large kitchen",
+    "two women wearing green and orange cooking together in a large kitchen",
+    "two women, one wearing green and the other orange, are cooking together in a large kitchen, with the girl in orange wearing an orange backpack",
+    "two women, one wearing green and the other orange, are cooking together in a rustic kitchen, with one of them wearing an orange backpack"
+  ],
+  "ranks": [
+    111,
+    16,
+    18,
+    9
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "2 women cooking together in a large kitchen",
+      "question": "Question: Question: What color are the two women wearing?",
+      "answer": "green and orange",
+      "query_after": "two women wearing green and orange cooking together in a large kitchen",
+      "displayed_ids": [
+        23349,
+        10205,
+        33994,
+        13151,
+        7454,
+        1811,
+        43142,
+        41502,
+        49470,
+        43286
+      ],
+      "selected_ids": [
+        34509,
+        47894,
+        15711,
+        45054,
+        43362,
+        36424,
+        6557,
+        38604,
+        21923,
+        7779
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the size of the kitchen where the two women are cooking?",
+          "answers": [
+            "small",
+            "medium",
+            "large"
+          ],
+          "score": 0.0005555152893066406
+        },
+        {
+          "question": "Question: What objects are the two women using to cook in the large kitchen?",
+          "answers": [
+            "pots",
+            "pans",
+            "stove"
+          ],
+          "score": 0.013712406158447266
+        },
+        {
+          "question": "what are the two women cooking in the large kitchen?",
+          "answers": [
+            "sandwiches",
+            "drinks",
+            "pizza"
+          ],
+          "score": 0.061448097229003906
+        },
+        {
+          "question": "Who are the two women cooking with in the large kitchen?",
+          "answers": [
+            "A woman",
+            "A man",
+            "A dog"
+          ],
+          "score": 0.06477880477905273
+        },
+        {
+          "question": "Question: What is the specific type of kitchen where the two women are cooking?",
+          "answers": [
+            "home",
+            "commercial",
+            "outdoor"
+          ],
+          "score": 0.03568458557128906
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What objects are the two women using to prepare the food?",
+          "answers": [
+            "cell phones",
+            "pots",
+            "food"
+          ],
+          "score": 0.02658987045288086
+        },
+        {
+          "question": "Question: Question: What are the two women wearing?",
+          "answers": [
+            "aprons",
+            "coats",
+            "dresses"
+          ],
+          "score": 0.03126955032348633
+        },
+        {
+          "question": "what is the specific type of kitchen where the two women are cooking?",
+          "answers": [
+            "home",
+            "commercial",
+            "office"
+          ],
+          "score": 0.012049198150634766
+        },
+        {
+          "question": "Question: Question: What color are the two women wearing?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.07498407363891602
+        },
+        {
+          "question": "Question: Question: What objects are the two women using to prepare the food?",
+          "answers": [
+            "cell phones",
+            "pots and pans",
+            "sandwiches and drinks"
+          ],
+          "score": 0.03368234634399414
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "two women wearing green and orange cooking together in a large kitchen",
+      "question": "what is the specific color of the backpack worn by the girl in the image?",
+      "answer": "orange",
+      "query_after": "two women, one wearing green and the other orange, are cooking together in a large kitchen, with the girl in orange wearing an orange backpack",
+      "displayed_ids": [
+        23349,
+        17062,
+        33994,
+        1811,
+        41502,
+        8365,
+        32445,
+        25287,
+        23505,
+        28902
+      ],
+      "selected_ids": [
+        43081,
+        30328,
+        32106,
+        11448,
+        6557,
+        8739,
+        47894,
+        34589,
+        4686,
+        22417
+      ],
+      "rejected_count": 16,
+      "usual_paths": [
+        {
+          "question": "what objects are the two women using to cook in the kitchen?",
+          "answers": [
+            "pots",
+            "pans",
+            "utensils"
+          ],
+          "score": 0.005004405975341797
+        },
+        {
+          "question": "what is the specific color of the backpack worn by the girl in the image?",
+          "answers": [
+            "green and orange",
+            "blue and yellow",
+            "red and black"
+          ],
+          "score": 0.03154945373535156
+        },
+        {
+          "question": "what is the color of the apron worn by the man in the kitchen?",
+          "answers": [
+            "green",
+            "orange",
+            "red"
+          ],
+          "score": 0.018802642822265625
+        },
+        {
+          "question": "what is the color of the backpack worn by the girl in the image?",
+          "answers": [
+            "green",
+            "orange",
+            "colorful"
+          ],
+          "score": 0.006632804870605469
+        },
+        {
+          "question": "what is the color of the backpack worn by the girl in the image?",
+          "answers": [
+            "green",
+            "orange",
+            "colorful"
+          ],
+          "score": 0.006632804870605469,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what appliance are the two women using to cook?",
+          "answers": [
+            "stove",
+            "oven",
+            "counter"
+          ],
+          "score": 0.006209850311279297
+        },
+        {
+          "question": "what is the specific activity the two women are performing with the pot they are holding?",
+          "answers": [
+            "cooking",
+            "serving",
+            "cleaning"
+          ],
+          "score": 0.01114797592163086
+        },
+        {
+          "question": "what is the specific activity the two women are performing with the pot they are holding?",
+          "answers": [
+            "cooking",
+            "serving",
+            "cleaning"
+          ],
+          "score": 0.01114797592163086,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the specific activity the two women are performing with the pot they are holding?",
+          "answers": [
+            "cooking",
+            "serving",
+            "cleaning"
+          ],
+          "score": 0.01114797592163086,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the state of the oven in the kitchen where the two women are cooking?",
+          "answers": [
+            "open",
+            "closed",
+            "on"
+          ],
+          "score": 0.0006952285766601562
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "two women, one wearing green and the other orange, are cooking together in a large kitchen, with the girl in orange wearing an orange backpack",
+      "question": "what is the type of kitchen where the two women are cooking?",
+      "answer": "rustic",
+      "query_after": "two women, one wearing green and the other orange, are cooking together in a rustic kitchen, with one of them wearing an orange backpack",
+      "displayed_ids": [
+        23349,
+        1811,
+        33994,
+        17062,
+        8365,
+        29726,
+        42277,
+        41750,
+        48723,
+        41502
+      ],
+      "selected_ids": [
+        11448,
+        34474,
+        12020,
+        35195,
+        26687,
+        16060,
+        42496,
+        27517,
+        28664,
+        43081
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what is the color of the apron worn by one of the women in the kitchen?",
+          "answers": [
+            "green",
+            "orange",
+            "white"
+          ],
+          "score": 0.01412057876586914
+        },
+        {
+          "question": "what is the color of the other apron worn by the second woman in the kitchen?",
+          "answers": [
+            "green",
+            "orange",
+            "unknown"
+          ],
+          "score": 0.0046482086181640625
+        },
+        {
+          "question": "what is the color of the apron worn by the first woman in the kitchen?",
+          "answers": [
+            "green",
+            "orange",
+            "blue"
+          ],
+          "score": 0.014315128326416016
+        },
+        {
+          "question": "what color is the apron worn by the second woman in the kitchen?",
+          "answers": [
+            "green",
+            "orange",
+            "red"
+          ],
+          "score": 0.011378765106201172
+        },
+        {
+          "question": "what is the color of the apron worn by the second woman in the kitchen?",
+          "answers": [
+            "green",
+            "orange",
+            "unknown"
+          ],
+          "score": 0.005182743072509766
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the type of kitchen where the two women are cooking?",
+          "answers": [
+            "open kitchen",
+            "kitchen with dark wooden cabinetry",
+            "kitchen with a wooden dining room table"
+          ],
+          "score": 0.04517984390258789
+        },
+        {
+          "question": "what is the size of the kitchen where the two women are cooking?",
+          "answers": [
+            "small",
+            "medium",
+            "large"
+          ],
+          "score": 0.0022859573364257812
+        },
+        {
+          "question": "what is the size of the kitchen where the two women are cooking?",
+          "answers": [
+            "small",
+            "medium",
+            "large"
+          ],
+          "score": 0.0022859573364257812,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "green",
+            "orange",
+            "apron"
+          ],
+          "score": 0.007248401641845703
+        },
+        {
+          "question": "what is the type of kitchen where the two women are cooking?",
+          "answers": [
+            "open kitchen",
+            "kitchen with dark wooden cabinetry",
+            "kitchen with a wooden dining room table"
+          ],
+          "score": 0.04517984390258789,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

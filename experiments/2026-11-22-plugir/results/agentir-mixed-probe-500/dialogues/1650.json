@@ -1,0 +1,145 @@
+{
+  "qid": 1650,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000018902.jpg",
+  "queries": [
+    "the bench faces toward the concrete walkway outside",
+    "an orange bench facing a concrete walkway outside"
+  ],
+  "ranks": [
+    15,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "the bench faces toward the concrete walkway outside",
+      "question": "what is the color of the bench?",
+      "answer": "orange",
+      "query_after": "an orange bench facing a concrete walkway outside",
+      "displayed_ids": [
+        10338,
+        19986,
+        49423,
+        21611,
+        19019,
+        36324,
+        12403,
+        49420,
+        10276,
+        8783
+      ],
+      "selected_ids": [
+        44195,
+        3882,
+        19563,
+        1789,
+        10498,
+        24423,
+        17872,
+        37422,
+        20218,
+        17077
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the material of the bench?",
+          "answers": [
+            "wood",
+            "brick",
+            "leather"
+          ],
+          "score": 0.0581202507019043
+        },
+        {
+          "question": "Question: what is the color of the bench?",
+          "answers": [
+            "wooden",
+            "leather",
+            "black"
+          ],
+          "score": 0.05472421646118164
+        },
+        {
+          "question": "what is the object located next to the bench?",
+          "answers": [
+            "trees",
+            "stone bench",
+            "bush"
+          ],
+          "score": 0.07839250564575195
+        },
+        {
+          "question": "what is the color of the bench?",
+          "answers": [
+            "wooden",
+            "black",
+            "orange"
+          ],
+          "score": 0.11254644393920898
+        },
+        {
+          "question": "what is the color of the walkway where the bench is located?",
+          "answers": [
+            "concrete",
+            "brick",
+            "wood"
+          ],
+          "score": 0.0422053337097168
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the material of the bench?",
+          "answers": [
+            "wood",
+            "brick",
+            "leather"
+          ],
+          "score": 0.05540657043457031
+        },
+        {
+          "question": "Question: What is the color of the bench?",
+          "answers": [
+            "wooden",
+            "leather",
+            "black"
+          ],
+          "score": 0.05472421646118164
+        },
+        {
+          "question": "Question: What is the object next to the bench?",
+          "answers": [
+            "trees",
+            "stone bench",
+            "bush"
+          ],
+          "score": 0.07867670059204102
+        },
+        {
+          "question": "Question: What is the object next to the bench?",
+          "answers": [
+            "trees",
+            "stone bench",
+            "bush"
+          ],
+          "score": 0.07867670059204102,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the color of the bench?",
+          "answers": [
+            "wooden",
+            "leather",
+            "black"
+          ],
+          "score": 0.05472421646118164,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

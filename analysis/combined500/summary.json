@@ -1,0 +1,160 @@
+{
+  "sample_size": 500,
+  "initial_hits": 364,
+  "common_failure_ids": [
+    310,
+    675,
+    786,
+    853,
+    1648,
+    1743
+  ],
+  "discordant_pair_count": 87,
+  "discordant_dialogue_count": 54,
+  "oracle_union": {
+    "1": 431,
+    "2": 455,
+    "5": 485,
+    "10": 494
+  },
+  "questions": {
+    "vanilla": 646,
+    "s2": 621,
+    "s3": 634,
+    "probe": 640
+  },
+  "first_divergence": {
+    "s2": {
+      "all": {
+        "n": 95,
+        "rank_better": 46,
+        "rank_worse": 37,
+        "rank_tied": 12,
+        "immediate_gained": 15,
+        "immediate_lost": 11
+      },
+      "same_evidence_and_candidates": {
+        "n": 0,
+        "rank_better": 0,
+        "rank_worse": 0,
+        "rank_tied": 0,
+        "immediate_gained": 0,
+        "immediate_lost": 0
+      },
+      "better_immediately_but_final_loss": [
+        297,
+        1004,
+        2003
+      ]
+    },
+    "s3": {
+      "all": {
+        "n": 131,
+        "rank_better": 61,
+        "rank_worse": 60,
+        "rank_tied": 10,
+        "immediate_gained": 18,
+        "immediate_lost": 14
+      },
+      "same_evidence_and_candidates": {
+        "n": 0,
+        "rank_better": 0,
+        "rank_worse": 0,
+        "rank_tied": 0,
+        "immediate_gained": 0,
+        "immediate_lost": 0
+      },
+      "better_immediately_but_final_loss": [
+        106,
+        161,
+        332,
+        1098,
+        1406,
+        1732,
+        1788
+      ]
+    },
+    "probe": {
+      "all": {
+        "n": 126,
+        "rank_better": 71,
+        "rank_worse": 41,
+        "rank_tied": 14,
+        "immediate_gained": 20,
+        "immediate_lost": 16
+      },
+      "same_evidence_and_candidates": {
+        "n": 99,
+        "rank_better": 53,
+        "rank_worse": 34,
+        "rank_tied": 12,
+        "immediate_gained": 15,
+        "immediate_lost": 15
+      },
+      "better_immediately_but_final_loss": [
+        106,
+        161,
+        343,
+        1004,
+        1109,
+        1411,
+        1640
+      ]
+    }
+  },
+  "failure_signals": {
+    "vanilla": {
+      "n": 32,
+      "repetition": 22,
+      "generic_loop": 20,
+      "ever_pool": 31,
+      "ever_shown": 6
+    },
+    "s2": {
+      "n": 32,
+      "repetition": 27,
+      "generic_loop": 23,
+      "ever_pool": 30,
+      "ever_shown": 5
+    },
+    "s3": {
+      "n": 32,
+      "repetition": 26,
+      "generic_loop": 23,
+      "ever_pool": 31,
+      "ever_shown": 1
+    },
+    "probe": {
+      "n": 31,
+      "repetition": 20,
+      "generic_loop": 12,
+      "ever_pool": 30,
+      "ever_shown": 4
+    }
+  },
+  "generic_selection": {
+    "vanilla": {
+      "selected": 170,
+      "alternatives_available": 169
+    },
+    "s2": {
+      "selected": 150,
+      "alternatives_available": 149
+    },
+    "s3": {
+      "selected": 178,
+      "alternatives_available": 175
+    },
+    "probe": {
+      "selected": 78,
+      "alternatives_available": 77
+    }
+  },
+  "conventions": {
+    "failure_first_hit": "blank in CSV; internally 11 (beyond horizon)",
+    "ci": "paired dialogue bootstrap, 20,000 resamples, seed 20261117; exploratory comparisons",
+    "scene": "lexical initial-caption groups; descriptive only",
+    "signals": "nonexclusive observations, not causal diagnoses",
+    "replay": "matched observed branches only; no new generated answers"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "ids": [
+    500,
+    29401,
+    32959,
+    9516
+  ],
+  "prefix": [
+    "a man is riding a snowboard and he is high above the snow",
+    "what is the color of the snowboard the man is riding in the air? black"
+  ],
+  "default": "what is the name of the object the man is jumping over?",
+  "chosen": "what is the name of the object the man is jumping over?",
+  "trials": {
+    "what is the name of the object the man is jumping over?": {
+      "answers": [
+        "tree",
+        "snow",
+        "ramp",
+        "halfpipe"
+      ],
+      "rewrites": {
+        "tree": "a man is riding a black snowboard high above a tree",
+        "snow": "a man is riding a black snowboard and he is high above the snow",
+        "ramp": "a man is riding a black snowboard high above a ramp",
+        "halfpipe": "a man is riding a black snowboard high above a halfpipe"
+      },
+      "ranks": [
+        4,
+        17,
+        56,
+        7
+      ],
+      "hits": 2
+    },
+    "what is the location where the man is performing the jump?": {
+      "answers": [
+        "snowy mountain",
+        "snow",
+        "snowboard",
+        "snow"
+      ],
+      "rewrites": {
+        "snowy mountain": "a man is riding a black snowboard high above a snowy mountain",
+        "snow": "a man is riding a black snowboard high above the snow",
+        "snowboard": "a man is riding a black snowboard high above the snow in a location called Snowboard"
+      },
+      "ranks": [
+        25,
+        20,
+        35,
+        31
+      ],
+      "hits": 0
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "qid": 659,
+  "initial": "a small modern bathroom with top mount white bowl sink",
+  "initial_rank": 255,
+  "displayed": [
+    12704,
+    32867,
+    20195,
+    15926,
+    24335,
+    17473,
+    6371,
+    7711,
+    36938,
+    37969
+  ],
+  "evidence": [
+    "a small white bathroom has a tiled floor, toilet, and mirror",
+    "a bathroom with a toilet, shower and tub",
+    "a bathroom with toilet, tub, and shower",
+    "a bathroom scene consists of a shower, tub and toilet",
+    "this bathroom is very spacious with large mirror over sink and lighting",
+    "modern bathroom with large shower and toilet",
+    "a small bathroom with a toilet, shower and sink",
+    "a bathroom with white tiles, a toilet, a tub and shower",
+    "the toilet and sink are on the white tiled floor",
+    "a bathroom with a wooden counter, sink, mirror and cupboard"
+  ],
+  "rejected_captions": [
+    "a white bowl shaped sink in a bathroom near the window",
+    "a white bathroom sink in front of a mirrored wall",
+    "white sink and white toilet next to a mirror",
+    "a bathroom sink sits beneath a vanity mirror",
+    "this bathroom is very spacious with large mirror over sink and lighting",
+    "the toilet is white",
+    "bathroom in which a sink and a bathtub are present",
+    "a toilet and sink in a bathroom with a phone on the wall",
+    "a wooden sink surrounded by mirrors in a bathroom",
+    "this is a bathroom in a hotel"
+  ],
+  "usual": {
+    "candidates": [
+      "what color is the toilet in the small modern bathroom with a top mount white bowl sink?",
+      "what material is the counter in the small modern bathroom with a top mount white bowl sink?",
+      "what color are the tiles in the small modern bathroom with a top mount white bowl sink?",
+      "what color is the counter in the small modern bathroom with a top mount white bowl sink?",
+      "what color is the mirror in the small modern bathroom with a top mount white bowl sink?"
+    ],
+    "question": "what color is the toilet in the small modern bathroom with a top mount white bowl sink?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what color is the toilet in the small modern bathroom with a top mount white bowl sink?",
+          "answers": [
+            "white",
+            "blue",
+            "black"
+          ],
+          "score": 0.11863136291503906
+        },
+        {
+          "question": "what material is the counter in the small modern bathroom with a top mount white bowl sink?",
+          "answers": [
+            "wooden",
+            "white tiled",
+            "grey countertop"
+          ],
+          "score": 0.0876607894897461
+        },
+        {
+          "question": "what color are the tiles in the small modern bathroom with a top mount white bowl sink?",
+          "answers": [
+            "white",
+            "gray",
+            "beige"
+          ],
+          "score": 0.045805931091308594
+        },
+        {
+          "question": "what color is the counter in the small modern bathroom with a top mount white bowl sink?",
+          "answers": [
+            "white",
+            "wooden",
+            "black"
+          ],
+          "score": 0.09938669204711914
+        },
+        {
+          "question": "what color is the mirror in the small modern bathroom with a top mount white bowl sink?",
+          "answers": [
+            "white",
+            "black",
+            "silver"
+          ],
+          "score": 0.06941843032836914
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.056,
+      "probe_selection_seconds": 2.527,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "white",
+    "rewrite": "a small modern bathroom with a white top mount bowl sink and a white toilet",
+    "raw_rank": 133,
+    "unseen_rank": 128
+  },
+  "rejected": {
+    "candidates": [
+      "what color is the countertop in the bathroom?",
+      "what material is the countertop in the bathroom made of?",
+      "what color are the tiles in the bathroom?",
+      "what color is the wall behind the sink in the bathroom?",
+      "what color is the toilet in the bathroom?"
+    ],
+    "question": "what color is the countertop in the bathroom?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what color is the countertop in the bathroom?",
+          "answers": [
+            "white",
+            "wooden",
+            "black"
+          ],
+          "score": 0.0814518928527832
+        },
+        {
+          "question": "what material is the countertop in the bathroom made of?",
+          "answers": [
+            "wood",
+            "tile",
+            "white"
+          ],
+          "score": 0.061223506927490234
+        },
+        {
+          "question": "what color are the tiles in the bathroom?",
+          "answers": [
+            "white",
+            "gray",
+            "beige"
+          ],
+          "score": 0.0332036018371582
+        },
+        {
+          "question": "what color is the wall behind the sink in the bathroom?",
+          "answers": [
+            "white",
+            "beige",
+            "gray"
+          ],
+          "score": 0.02945566177368164
+        },
+        {
+          "question": "what color is the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "blue",
+            "black"
+          ],
+          "score": 0.06854724884033203
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.156,
+      "probe_selection_seconds": 2.361,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "gray",
+    "rewrite": "a small modern bathroom with a gray countertop and a top mount white bowl sink",
+    "raw_rank": 28,
+    "unseen_rank": 22
+  }
+}

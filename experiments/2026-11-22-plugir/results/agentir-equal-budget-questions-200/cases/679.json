@@ -1,0 +1,78 @@
+{
+  "qid": 679,
+  "sample": 1,
+  "first_candidates": [
+    "Question: what is the location where the little boy is swinging the bat?",
+    "what is the age of the person swinging the bat?",
+    "what is the color of the bat that the little boy is swinging?",
+    "what is the color of the ball that the little boy is hitting?",
+    "Question: what is the setting or background of the scene where the little boy is swinging the bat?"
+  ],
+  "second_candidates": [
+    "Question: What is the player in the image wearing on their head?",
+    "Question: Where is the player located in the image?",
+    "Question: Question: What is the player holding in the image?",
+    "Question: What is the player swinging the bat wearing on their head?",
+    "Question: Question: Which candidate image shows a little boy swinging a large bat instead of a baseball player?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What is the player in the image wearing on their head?",
+      "answers": [
+        "helmet",
+        "cap",
+        "no hat"
+      ],
+      "score": 0.010823726654052734
+    },
+    {
+      "question": "Question: Where is the player located in the image?",
+      "answers": [
+        "at home plate",
+        "at bat",
+        "in a stadium"
+      ],
+      "score": 0.04381608963012695
+    },
+    {
+      "question": "Question: Question: What is the player holding in the image?",
+      "answers": [
+        "baseball bat",
+        "tennis racket",
+        "soccer ball"
+      ],
+      "score": 0.08500909805297852
+    },
+    {
+      "question": "Question: What is the player swinging the bat wearing on their head?",
+      "answers": [
+        "a helmet",
+        "nothing",
+        "a hat"
+      ],
+      "score": 0.012409210205078125
+    },
+    {
+      "question": "Question: Question: Which candidate image shows a little boy swinging a large bat instead of a baseball player?",
+      "answers": [
+        "0",
+        "5",
+        "9"
+      ],
+      "score": 0.0020928382873535156
+    }
+  ],
+  "control": {
+    "question": "what is the color of the bat that the little boy is swinging?",
+    "score": 0.1155543327331543
+  },
+  "mixed": {
+    "question": "Question: What color is the shirt the boy is wearing?",
+    "score": 0.18262004852294922
+  },
+  "control_rank": 8,
+  "mixed_rank": 13,
+  "usual_rank": 8,
+  "new_answer": null,
+  "new_rewrite": null
+}

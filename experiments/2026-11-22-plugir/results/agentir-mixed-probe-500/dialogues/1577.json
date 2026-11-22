@@ -1,0 +1,1338 @@
+{
+  "qid": 1577,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000325630.jpg",
+  "queries": [
+    "a bathroom with 2 sinks and a lot of towels",
+    "a bathroom with 2 sinks, a lot of towels, and green walls",
+    "a bathroom with green walls, white toilet, 2 sinks, and a lot of towels",
+    "a bathroom with green walls, a white toilet, and a brown towel rack, featuring 2 sinks and a lot of towels",
+    "a bathroom with green walls, a white toilet, a brown towel rack, and a white bathtub, featuring two sinks and a lot of towels",
+    "a bathroom with green walls, a white toilet, a brown towel rack, a white bathtub, and a second bathtub",
+    "a bathroom with green walls, white toilet and bathtub, a brown towel rack, and two sinks",
+    "a bathroom with green walls, a white toilet, a white bathtub, a brown towel rack, beige flooring, and a second bathtub",
+    "a bathroom with green walls, a white toilet, a white bathtub, and a wooden vanity, featuring a brown towel rack and beige flooring",
+    "a bathroom with green walls, a white toilet, a white bathtub, and a brown wooden towel rack, featuring beige flooring and white towels",
+    "a bathroom with green walls, a white toilet, a white bathtub, and a wooden vanity, featuring a brown towel rack holding white towels, with a beige floor"
+  ],
+  "ranks": [
+    244,
+    104,
+    209,
+    223,
+    28,
+    188,
+    45,
+    110,
+    90,
+    137,
+    91
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a bathroom with 2 sinks and a lot of towels",
+      "question": "what is the color of the walls in the bathroom with 2 sinks and a lot of towels?",
+      "answer": "green",
+      "query_after": "a bathroom with 2 sinks, a lot of towels, and green walls",
+      "displayed_ids": [
+        20051,
+        39415,
+        4457,
+        29288,
+        28585,
+        43655,
+        4503,
+        45561,
+        36408,
+        27537
+      ],
+      "selected_ids": [
+        37512,
+        32527,
+        45238,
+        31090,
+        44263,
+        3849,
+        47639,
+        2681,
+        22776,
+        29160
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what color are the tiles in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "green",
+            "blue"
+          ],
+          "score": 0.10753393173217773
+        },
+        {
+          "question": "Question: How many towels are visible in the bathroom with 2 sinks?",
+          "answers": [
+            "1",
+            "2",
+            "3"
+          ],
+          "score": 3.2901763916015625e-05
+        },
+        {
+          "question": "what is the color of the towels in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.10307550430297852
+        },
+        {
+          "question": "what is the color of the tiles in the bathroom with 2 sinks?",
+          "answers": [
+            "white",
+            "green",
+            "blue"
+          ],
+          "score": 0.10074424743652344
+        },
+        {
+          "question": "what is the color of the walls in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "green",
+            "yellow"
+          ],
+          "score": 0.1267085075378418
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the walls in the bathroom?",
+          "answers": [
+            "white",
+            "green",
+            "yellow"
+          ],
+          "score": 0.11945962905883789
+        },
+        {
+          "question": "Question: What color are the towels in the bathroom?",
+          "answers": [
+            "white",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.08334827423095703
+        },
+        {
+          "question": "Question: How many bathtubs are visible in the bathroom?",
+          "answers": [
+            "0",
+            "1",
+            "7"
+          ],
+          "score": 0.0002956390380859375
+        },
+        {
+          "question": "Question: What color are the towels in the bathroom?",
+          "answers": [
+            "white",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.08334827423095703,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the towels in the bathroom?",
+          "answers": [
+            "White",
+            "Blue",
+            "Green"
+          ],
+          "score": 0.08011436462402344
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a bathroom with 2 sinks, a lot of towels, and green walls",
+      "question": "what is the color of the toilet in the bathroom with 2 sinks?",
+      "answer": "white",
+      "query_after": "a bathroom with green walls, white toilet, 2 sinks, and a lot of towels",
+      "displayed_ids": [
+        8060,
+        40529,
+        2044,
+        23089,
+        14042,
+        28585,
+        29439,
+        30911,
+        13997,
+        5409
+      ],
+      "selected_ids": [
+        730,
+        31570,
+        16626,
+        8060,
+        1375,
+        37512,
+        45760,
+        49781,
+        26096,
+        31090
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "what color are the towels in the bathroom with 2 sinks?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.01659679412841797
+        },
+        {
+          "question": "what color is the table cloth in the bathroom with 2 sinks?",
+          "answers": [
+            "green",
+            "yellow",
+            "unknown"
+          ],
+          "score": 0.03784799575805664
+        },
+        {
+          "question": "what is the material of the towels in the bathroom with 2 sinks?",
+          "answers": [
+            "cotton",
+            "towel",
+            "hand"
+          ],
+          "score": 0.003105640411376953
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom with 2 sinks?",
+          "answers": [
+            "white",
+            "blue",
+            "cream"
+          ],
+          "score": 0.059963226318359375
+        },
+        {
+          "question": "what color is the toilet in the bathroom with 2 sinks?",
+          "answers": [
+            "white",
+            "cream",
+            "off-white"
+          ],
+          "score": 0.01098775863647461
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the floor in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "green",
+            "beige"
+          ],
+          "score": 0.028869152069091797
+        },
+        {
+          "question": "what color are the towels in the bathroom with 2 sinks?",
+          "answers": [
+            "green",
+            "blue",
+            "white"
+          ],
+          "score": 0.016597270965576172
+        },
+        {
+          "question": "what is the color of the floor in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "green",
+            "beige"
+          ],
+          "score": 0.028869152069091797,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the floor in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "green",
+            "beige"
+          ],
+          "score": 0.028869152069091797,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color are the towels in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "green",
+            "blue"
+          ],
+          "score": 0.04510784149169922
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a bathroom with green walls, white toilet, 2 sinks, and a lot of towels",
+      "question": "what color is the towel rack in the bathroom with 2 sinks and a lot of towels?",
+      "answer": "brown",
+      "query_after": "a bathroom with green walls, a white toilet, and a brown towel rack, featuring 2 sinks and a lot of towels",
+      "displayed_ids": [
+        30851,
+        8060,
+        40529,
+        10738,
+        42451,
+        7002,
+        42622,
+        14042,
+        32992,
+        2044
+      ],
+      "selected_ids": [
+        2400,
+        10780,
+        31895,
+        8060,
+        47919,
+        26371,
+        47592,
+        14903,
+        11653,
+        730
+      ],
+      "rejected_count": 25,
+      "usual_paths": [
+        {
+          "question": "what is the type of shower in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "glass door",
+            "tub and shower",
+            "no shower"
+          ],
+          "score": 0.0351872444152832
+        },
+        {
+          "question": "Question: what color are the walls in the bathroom that has a glass shower door?",
+          "answers": [
+            "green",
+            "white",
+            "tan"
+          ],
+          "score": 0.010612964630126953
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom that has a glass shower door?",
+          "answers": [
+            "white",
+            "green",
+            "purple"
+          ],
+          "score": 0.02908802032470703
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "green",
+            "beige"
+          ],
+          "score": 0.016551971435546875
+        },
+        {
+          "question": "what is the type of shower in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "glass door",
+            "tub and shower",
+            "no shower"
+          ],
+          "score": 0.0351872444152832,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color are the floors in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "tan",
+            "tile",
+            "white"
+          ],
+          "score": 0.012760162353515625
+        },
+        {
+          "question": "what color are the floors in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "tan",
+            "tile",
+            "white"
+          ],
+          "score": 0.012760162353515625,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color are the floors in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "tan",
+            "tile",
+            "white"
+          ],
+          "score": 0.012760162353515625,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color are the floors in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "tan",
+            "tile",
+            "white"
+          ],
+          "score": 0.012760162353515625,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the towel rack in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "silver",
+            "gold",
+            "black"
+          ],
+          "score": 0.045870304107666016
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 3,
+      "query_before": "a bathroom with green walls, a white toilet, and a brown towel rack, featuring 2 sinks and a lot of towels",
+      "question": "what color is the bathtub in the bathroom with 2 sinks and a lot of towels?",
+      "answer": "white",
+      "query_after": "a bathroom with green walls, a white toilet, a brown towel rack, and a white bathtub, featuring two sinks and a lot of towels",
+      "displayed_ids": [
+        30851,
+        40529,
+        8060,
+        32992,
+        42451,
+        23089,
+        10738,
+        26983,
+        44262,
+        2044
+      ],
+      "selected_ids": [
+        26096,
+        12346,
+        34567,
+        14938,
+        730,
+        41157,
+        36965,
+        5123,
+        37512,
+        22404
+      ],
+      "rejected_count": 27,
+      "usual_paths": [
+        {
+          "question": "what color is the bathtub in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "brown",
+            "yellow"
+          ],
+          "score": 0.036792755126953125
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "green",
+            "brown"
+          ],
+          "score": 0.029557228088378906
+        },
+        {
+          "question": "what color is the bathtub in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "brown",
+            "yellow"
+          ],
+          "score": 0.036792755126953125,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: Which candidate image shows a bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "0",
+            "5"
+          ],
+          "score": 0.0005412101745605469
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "green",
+            "brown"
+          ],
+          "score": 0.029557228088378906,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the bathtub in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "brown",
+            "yellow"
+          ],
+          "score": 0.036792755126953125
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "green",
+            "brown"
+          ],
+          "score": 0.029557228088378906
+        },
+        {
+          "question": "what color is the bathtub in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "brown",
+            "yellow"
+          ],
+          "score": 0.036792755126953125,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the bathtub in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "tan",
+            "green"
+          ],
+          "score": 0.01776742935180664
+        },
+        {
+          "question": "What is the color of the bathtub in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "green",
+            "tan"
+          ],
+          "score": 0.021873950958251953
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a bathroom with green walls, a white toilet, a brown towel rack, and a white bathtub, featuring two sinks and a lot of towels",
+      "question": "what is the other object in the image?",
+      "answer": "bathtub",
+      "query_after": "a bathroom with green walls, a white toilet, a brown towel rack, a white bathtub, and a second bathtub",
+      "displayed_ids": [
+        32992,
+        2044,
+        17003,
+        42622,
+        30851,
+        8060,
+        47247,
+        44262,
+        49903,
+        6512
+      ],
+      "selected_ids": [
+        26877,
+        4362,
+        37512,
+        730,
+        22630,
+        26371,
+        2681,
+        8060,
+        31090,
+        32336
+      ],
+      "rejected_count": 31,
+      "usual_paths": [
+        {
+          "question": "Question: what color is the shower curtain in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "brown",
+            "no shower curtain"
+          ],
+          "score": 0.014325141906738281
+        },
+        {
+          "question": "what color are the tiles in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "tan",
+            "yellow"
+          ],
+          "score": 0.027845382690429688
+        },
+        {
+          "question": "what color are the tiles in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "tan",
+            "yellow"
+          ],
+          "score": 0.027845382690429688,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "toilet",
+            "shower",
+            "window"
+          ],
+          "score": 0.0344243049621582
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "brown",
+            "black"
+          ],
+          "score": 0.03319692611694336
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: what is the color of the floor in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "cream",
+            "beige"
+          ],
+          "score": 0.007938385009765625
+        },
+        {
+          "question": "what is the color of the floor in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "tan",
+            "brown"
+          ],
+          "score": 0.013248920440673828
+        },
+        {
+          "question": "what is the material of the floor in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "wood",
+            "tile",
+            "linoleum"
+          ],
+          "score": 0.02558755874633789
+        },
+        {
+          "question": "what is the color of the floor in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "tan",
+            "brown"
+          ],
+          "score": 0.013248920440673828,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the floor in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "tan",
+            "brown"
+          ],
+          "score": 0.013248920440673828,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a bathroom with green walls, a white toilet, a brown towel rack, a white bathtub, and a second bathtub",
+      "question": "what is the color of the towel rack in the bathroom with 2 sinks and a lot of towels?",
+      "answer": "brown",
+      "query_after": "a bathroom with green walls, white toilet and bathtub, a brown towel rack, and two sinks",
+      "displayed_ids": [
+        32992,
+        17003,
+        10723,
+        12346,
+        42622,
+        17739,
+        15571,
+        44262,
+        32017,
+        49903
+      ],
+      "selected_ids": [
+        39299,
+        36099,
+        730,
+        26877,
+        35329,
+        40676,
+        14938,
+        26396,
+        5645,
+        15351
+      ],
+      "rejected_count": 36,
+      "usual_paths": [
+        {
+          "question": "what is the color of the walls in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "green",
+            "white",
+            "tan"
+          ],
+          "score": 0.024234771728515625
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "brown",
+            "green"
+          ],
+          "score": 0.026540279388427734
+        },
+        {
+          "question": "what is the color of the towel rack in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "brown",
+            "black",
+            "silver"
+          ],
+          "score": 0.032217979431152344
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "green",
+            "any"
+          ],
+          "score": 0.011814117431640625
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "brown",
+            "green"
+          ],
+          "score": 0.026540279388427734,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the floor in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "tan",
+            "brown"
+          ],
+          "score": 0.019930362701416016
+        },
+        {
+          "question": "what is the color of the floor in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "tan",
+            "brown"
+          ],
+          "score": 0.019930362701416016,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the floor in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "tan",
+            "brown"
+          ],
+          "score": 0.019930362701416016,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the floor in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "tan",
+            "brown"
+          ],
+          "score": 0.019930362701416016,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the floor in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "tan",
+            "brown"
+          ],
+          "score": 0.019930362701416016,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a bathroom with green walls, white toilet and bathtub, a brown towel rack, and two sinks",
+      "question": "what is the color of the floor in the bathroom with 2 sinks and a lot of towels?",
+      "answer": "beige",
+      "query_after": "a bathroom with green walls, a white toilet, a white bathtub, a brown towel rack, beige flooring, and a second bathtub",
+      "displayed_ids": [
+        32992,
+        42622,
+        30851,
+        17003,
+        2044,
+        15571,
+        47247,
+        49903,
+        26826,
+        44262
+      ],
+      "selected_ids": [
+        35329,
+        36099,
+        2681,
+        25985,
+        730,
+        27914,
+        11653,
+        15213,
+        41044,
+        26877
+      ],
+      "rejected_count": 37,
+      "usual_paths": [
+        {
+          "question": "what is the color of the bathtub in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "cream",
+            "off-white"
+          ],
+          "score": 0.006329059600830078
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "cream",
+            "off-white"
+          ],
+          "score": 0.006329059600830078,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "cream",
+            "off-white"
+          ],
+          "score": 0.006329059600830078,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "cream",
+            "off-white"
+          ],
+          "score": 0.006329059600830078,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "cream",
+            "off-white"
+          ],
+          "score": 0.006329059600830078,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the floor in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "beige",
+            "brown",
+            "white"
+          ],
+          "score": 0.01422739028930664
+        },
+        {
+          "question": "what is the color of the floor in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "beige",
+            "brown",
+            "white"
+          ],
+          "score": 0.01422739028930664,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the floor in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "beige",
+            "brown",
+            "white"
+          ],
+          "score": 0.01422739028930664,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the floor in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "beige",
+            "brown",
+            "white"
+          ],
+          "score": 0.01422739028930664,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the floor in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "brown",
+            "beige"
+          ],
+          "score": 0.008486747741699219
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a bathroom with green walls, a white toilet, a white bathtub, a brown towel rack, beige flooring, and a second bathtub",
+      "question": "what is the material of the vanity in the bathroom with 2 sinks and a lot of towels?",
+      "answer": "wood",
+      "query_after": "a bathroom with green walls, a white toilet, a white bathtub, and a wooden vanity, featuring a brown towel rack and beige flooring",
+      "displayed_ids": [
+        10723,
+        32992,
+        17003,
+        12346,
+        36819,
+        47003,
+        44399,
+        32017,
+        42622,
+        24293
+      ],
+      "selected_ids": [
+        1727,
+        33672,
+        35329,
+        14938,
+        8673,
+        25533,
+        36099,
+        6781,
+        730,
+        8935
+      ],
+      "rejected_count": 41,
+      "usual_paths": [
+        {
+          "question": "what is the material of the sink in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "glass",
+            "ceramic",
+            "white"
+          ],
+          "score": 0.01922750473022461
+        },
+        {
+          "question": "what is the material of the sink in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "glass",
+            "ceramic",
+            "white"
+          ],
+          "score": 0.01922750473022461,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the sink in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "pink",
+            "white",
+            "brown"
+          ],
+          "score": 0.04664182662963867
+        },
+        {
+          "question": "what is the color of the sink in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "pink",
+            "white",
+            "brown"
+          ],
+          "score": 0.04664182662963867,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the sink in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "pink",
+            "white",
+            "brown"
+          ],
+          "score": 0.04664182662963867,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the material of the vanity in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "wood",
+            "marble",
+            "metal"
+          ],
+          "score": 0.05653667449951172
+        },
+        {
+          "question": "what is the color of the vanity in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "brown",
+            "white",
+            "tan"
+          ],
+          "score": 0.012044906616210938
+        },
+        {
+          "question": "what color is the vanity in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "brown",
+            "tan"
+          ],
+          "score": 0.014094352722167969
+        },
+        {
+          "question": "what is the material of the vanity in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "wood",
+            "marble",
+            "metal"
+          ],
+          "score": 0.05653667449951172,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the vanity in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "brown",
+            "white",
+            "tan"
+          ],
+          "score": 0.012044906616210938,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a bathroom with green walls, a white toilet, a white bathtub, and a wooden vanity, featuring a brown towel rack and beige flooring",
+      "question": "what color is the towel in the bathroom with 2 sinks and a lot of towels?",
+      "answer": "white",
+      "query_after": "a bathroom with green walls, a white toilet, a white bathtub, and a brown wooden towel rack, featuring beige flooring and white towels",
+      "displayed_ids": [
+        32992,
+        17003,
+        30851,
+        10723,
+        26826,
+        40676,
+        17057,
+        42309,
+        44262,
+        8450
+      ],
+      "selected_ids": [
+        42451,
+        39519,
+        10738,
+        12346,
+        35329,
+        32992,
+        40676,
+        26983,
+        730,
+        33554
+      ],
+      "rejected_count": 45,
+      "usual_paths": [
+        {
+          "question": "what is the material of the vanity in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "wood",
+            "marble",
+            "white"
+          ],
+          "score": 0.03766775131225586
+        },
+        {
+          "question": "what is the material of the vanity in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "wood",
+            "marble",
+            "white"
+          ],
+          "score": 0.03766775131225586,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the material of the vanity in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "wood",
+            "marble",
+            "white"
+          ],
+          "score": 0.03766775131225586,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the vanity in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "wood",
+            "brown",
+            "natural"
+          ],
+          "score": 0.00997018814086914
+        },
+        {
+          "question": "what color is the vanity in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "wood",
+            "white",
+            "brown"
+          ],
+          "score": 0.016683578491210938
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the toilet in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "green",
+            "beige"
+          ],
+          "score": 0.014061927795410156
+        },
+        {
+          "question": "what is the color of the towel rack in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "brown",
+            "black",
+            "gold"
+          ],
+          "score": 0.03532838821411133
+        },
+        {
+          "question": "what is the color of the vanity in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "wood",
+            "brown",
+            "white"
+          ],
+          "score": 0.014907360076904297
+        },
+        {
+          "question": "what is the color of the floor in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "beige",
+            "tan",
+            "wood"
+          ],
+          "score": 0.01574993133544922
+        },
+        {
+          "question": "what color is the towel in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "blue",
+            "brown"
+          ],
+          "score": 0.0381159782409668
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "a bathroom with green walls, a white toilet, a white bathtub, and a brown wooden towel rack, featuring beige flooring and white towels",
+      "question": "what is the color of the towel rack in the bathroom with 2 sinks and a lot of towels?",
+      "answer": "brown",
+      "query_after": "a bathroom with green walls, a white toilet, a white bathtub, and a wooden vanity, featuring a brown towel rack holding white towels, with a beige floor",
+      "displayed_ids": [
+        32992,
+        10723,
+        32017,
+        42309,
+        44262,
+        17003,
+        8450,
+        39068,
+        44399,
+        12346
+      ],
+      "selected_ids": [
+        40676,
+        26826,
+        10723,
+        16679,
+        844,
+        14938,
+        49903,
+        32992,
+        42451
+      ],
+      "rejected_count": 46,
+      "usual_paths": [
+        {
+          "question": "what is the color of the bathtub in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "cream",
+            "off-white"
+          ],
+          "score": 0.0032434463500976562
+        },
+        {
+          "question": "what is the color of the towel in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "blue",
+            "beige"
+          ],
+          "score": 0.02866077423095703
+        },
+        {
+          "question": "what is the color of the towel in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "blue",
+            "beige"
+          ],
+          "score": 0.02866077423095703,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the towel rack in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "brown",
+            "black",
+            "gold"
+          ],
+          "score": 0.03551769256591797
+        },
+        {
+          "question": "what is the color of the towel in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "blue",
+            "beige"
+          ],
+          "score": 0.02866077423095703,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the bathtub in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "cream",
+            "off-white"
+          ],
+          "score": 0.0032434463500976562
+        },
+        {
+          "question": "what is the color of the towel rack in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.028159618377685547
+        },
+        {
+          "question": "what color is the towel rack in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "brown",
+            "black",
+            "silver"
+          ],
+          "score": 0.03001689910888672
+        },
+        {
+          "question": "what is the color of the towel rack in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.028159618377685547,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with 2 sinks and a lot of towels?",
+          "answers": [
+            "white",
+            "cream",
+            "off-white"
+          ],
+          "score": 0.0032434463500976562,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

@@ -1,0 +1,101 @@
+{
+  "qid": 1599,
+  "initial": "a baseball player swinging a baseball bat and missing",
+  "initial_rank": 264,
+  "evidence": [
+    "a baseball player swinging a bat at a ball while crowds are watching",
+    "a man is swinging a baseball bat in front of a crowd of people",
+    "fans watching a baseball game at a stadium",
+    "a baseball player standing on the mound",
+    "three baseball players and a catcher on a baseball field",
+    "a child swinging a baseball bat at a ball",
+    "a baseball player holds a bat in front of the crowd",
+    "a baseball game in front of a crowd",
+    "a baseball player swings his bat at a ball while fans watch",
+    "a baseball player in a red uniform hitting a pitch"
+  ],
+  "candidates": [
+    "what is the uniform color of the baseball player swinging the bat?",
+    "Question: What is the gender of the person swinging the bat?",
+    "what is the color of the uniform worn by the baseball player who swung the bat and missed?",
+    "Question: What is the gender of the baseball player swinging the bat?",
+    "Question: What is the gender of the baseball player swinging the bat?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the uniform color of the baseball player swinging the bat?",
+      "answers": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "score": 0.1565399169921875
+    },
+    {
+      "question": "Question: What is the gender of the person swinging the bat?",
+      "answers": [
+        "male",
+        "female",
+        "child"
+      ],
+      "score": 0.03680706024169922
+    },
+    {
+      "question": "what is the color of the uniform worn by the baseball player who swung the bat and missed?",
+      "answers": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "score": 0.18150043487548828
+    },
+    {
+      "question": "Question: What is the gender of the baseball player swinging the bat?",
+      "answers": [
+        "male",
+        "female",
+        "child"
+      ],
+      "score": 0.03884744644165039
+    },
+    {
+      "question": "Question: What is the gender of the baseball player swinging the bat?",
+      "answers": [
+        "male",
+        "female",
+        "child"
+      ],
+      "score": 0.03884744644165039,
+      "duplicate_of": 3
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.058,
+  "probe_selection_seconds": 1.824,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "what is the uniform color of the baseball player swinging the bat?",
+      "answer": "white",
+      "rewrite": "a baseball player in a white uniform swinging a baseball bat and missing",
+      "rank": 348,
+      "hit": false
+    },
+    "random": {
+      "question": "Question: What is the gender of the person swinging the bat?",
+      "answer": "male",
+      "rewrite": "a male baseball player swinging a baseball bat and missing",
+      "rank": 248,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the color of the uniform worn by the baseball player who swung the bat and missed?",
+      "answer": "white",
+      "rewrite": "a baseball player in a white uniform swinging a baseball bat and missing",
+      "rank": 348,
+      "hit": false
+    }
+  },
+  "seconds": 13.14
+}

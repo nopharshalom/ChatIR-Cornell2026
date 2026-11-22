@@ -1,0 +1,408 @@
+{
+  "qid": 541,
+  "sample": "original",
+  "target": "unlabeled2017/000000465136.jpg",
+  "queries": [
+    "a boy and couple riding atop on elephant",
+    "a boy and couple riding atop an elephant at a lake",
+    "a boy and couple riding atop an elephant on a dirt surface at a lake",
+    "a boy and a couple riding atop an elephant on a dirt surface at a lake, with a black umbrella attached to the back of the elephant"
+  ],
+  "ranks": [
+    60,
+    13,
+    11,
+    9
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a boy and couple riding atop on elephant",
+      "question": "what is the specific location or setting where the boy and couple are riding the elephant?",
+      "answer": "lake",
+      "query_after": "a boy and couple riding atop an elephant at a lake",
+      "displayed_ids": [
+        46016,
+        6356,
+        36978,
+        48041,
+        20580,
+        47580,
+        44515,
+        12949,
+        46533,
+        17397
+      ],
+      "selected_ids": [
+        12909,
+        32170,
+        8845,
+        35443,
+        33228,
+        31065,
+        17071,
+        10153,
+        5816,
+        47237
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "What is the background scenery behind the elephant?",
+          "answers": [
+            "street",
+            "dirt path",
+            "field"
+          ],
+          "score": 0.08984661102294922
+        },
+        {
+          "question": "what is the specific location or setting where the boy and couple are riding the elephant?",
+          "answers": [
+            "in a field",
+            "on a rocky trail",
+            "down the street"
+          ],
+          "score": 0.09277105331420898
+        },
+        {
+          "question": "what is the color of the elephant that the boy and couple are riding?",
+          "answers": [
+            "gray",
+            "brown",
+            "pink"
+          ],
+          "score": 0.028673648834228516
+        },
+        {
+          "question": "Question: Who is riding with the boy and couple on the elephant?",
+          "answers": [
+            "none",
+            "just the boy",
+            "the whole family"
+          ],
+          "score": 0.0054225921630859375
+        },
+        {
+          "question": "Question: What is the color of the elephant that the boy and couple are riding?",
+          "answers": [
+            "gray",
+            "brown",
+            "black"
+          ],
+          "score": 0.01450204849243164
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the background scenery behind the elephant?",
+          "answers": [
+            "street",
+            "dirt path",
+            "field"
+          ],
+          "score": 0.08984661102294922
+        },
+        {
+          "question": "Question: What is the color of the elephant?",
+          "answers": [
+            "gray",
+            "brown",
+            "black"
+          ],
+          "score": 0.02189922332763672
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "elephant",
+            "boy",
+            "couple"
+          ],
+          "score": 0.004561424255371094
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "elephant",
+            "boy",
+            "couple"
+          ],
+          "score": 0.004561424255371094,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "elephant",
+            "boy",
+            "couple"
+          ],
+          "score": 0.004561424255371094,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a boy and couple riding atop an elephant at a lake",
+      "question": "what is the surface or ground texture where the boy and couple are riding the elephant?",
+      "answer": "dirt",
+      "query_after": "a boy and couple riding atop an elephant on a dirt surface at a lake",
+      "displayed_ids": [
+        5764,
+        22012,
+        37055,
+        43544,
+        3761,
+        28008,
+        40294,
+        34989,
+        11996,
+        20580
+      ],
+      "selected_ids": [
+        33228,
+        45076,
+        40294,
+        18983,
+        1998,
+        1385,
+        24347,
+        17331,
+        30474,
+        24087
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "elephant",
+            "couple",
+            "boy"
+          ],
+          "score": 0.0035419464111328125
+        },
+        {
+          "question": "what is the gender of the person riding the elephant with the couple?",
+          "answers": [
+            "boy",
+            "man",
+            "girl"
+          ],
+          "score": 0.0027327537536621094
+        },
+        {
+          "question": "Question: what is the gender of the person riding the elephant with the couple?",
+          "answers": [
+            "boy",
+            "man",
+            "girl"
+          ],
+          "score": 0.003914356231689453
+        },
+        {
+          "question": "what is the gender of the person riding the elephant in the image?",
+          "answers": [
+            "boy",
+            "man",
+            "girl"
+          ],
+          "score": 0.004847049713134766
+        },
+        {
+          "question": "what is the gender of the person riding the elephant in the image?",
+          "answers": [
+            "boy",
+            "man",
+            "girl"
+          ],
+          "score": 0.004847049713134766,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the elephant that the boy and couple are riding?",
+          "answers": [
+            "gray",
+            "white",
+            "brown"
+          ],
+          "score": 0.011302947998046875
+        },
+        {
+          "question": "what is the surface or ground texture where the boy and couple are riding the elephant?",
+          "answers": [
+            "mud",
+            "grass",
+            "rocks"
+          ],
+          "score": 0.04630088806152344
+        },
+        {
+          "question": "what is the color of the elephant that the boy and couple are riding?",
+          "answers": [
+            "gray",
+            "white",
+            "brown"
+          ],
+          "score": 0.011302947998046875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "elephant",
+            "boy",
+            "couple"
+          ],
+          "score": 0.0035419464111328125
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "elephant",
+            "boy",
+            "couple"
+          ],
+          "score": 0.0035419464111328125,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a boy and couple riding atop an elephant on a dirt surface at a lake",
+      "question": "what color is the umbrella attached to the back of the elephant where the boy and couple are riding?",
+      "answer": "black",
+      "query_after": "a boy and a couple riding atop an elephant on a dirt surface at a lake, with a black umbrella attached to the back of the elephant",
+      "displayed_ids": [
+        5764,
+        20580,
+        6790,
+        22012,
+        43544,
+        3761,
+        37055,
+        34989,
+        6356,
+        38436
+      ],
+      "selected_ids": [
+        47237,
+        17331,
+        37869,
+        15075,
+        14608,
+        25247,
+        40854,
+        16170,
+        49078,
+        21037
+      ],
+      "rejected_count": 21,
+      "usual_paths": [
+        {
+          "question": "what is the object attached to the back of the elephant that the boy and couple are riding?",
+          "answers": [
+            "umbrella",
+            "saddle",
+            "branches"
+          ],
+          "score": 0.022649288177490234
+        },
+        {
+          "question": "what is the object attached to the back of the elephant that the boy and couple are riding?",
+          "answers": [
+            "umbrella",
+            "saddle",
+            "branches"
+          ],
+          "score": 0.022649288177490234,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the umbrella attached to the back of the elephant where the boy and couple are riding?",
+          "answers": [
+            "blue",
+            "red",
+            "green"
+          ],
+          "score": 0.04403257369995117
+        },
+        {
+          "question": "what color is the umbrella attached to the back of the elephant where the boy and couple are riding?",
+          "answers": [
+            "blue",
+            "red",
+            "green"
+          ],
+          "score": 0.04403257369995117,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the umbrella attached to the back of the elephant where the boy and couple are riding?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.04131269454956055
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the elephant in the image?",
+          "answers": [
+            "gray",
+            "brown",
+            "white"
+          ],
+          "score": 0.010445117950439453
+        },
+        {
+          "question": "what is the color of the elephant?",
+          "answers": [
+            "gray",
+            "brown",
+            "white"
+          ],
+          "score": 0.012163639068603516
+        },
+        {
+          "question": "what color is the elephant being ridden by the boy and couple in the lake on a dirt surface?",
+          "answers": [
+            "grey",
+            "brown",
+            "black"
+          ],
+          "score": 0.00897979736328125
+        },
+        {
+          "question": "what color is the elephant in the image?",
+          "answers": [
+            "grey",
+            "white",
+            "black"
+          ],
+          "score": 0.0077228546142578125
+        },
+        {
+          "question": "what is the color of the elephant being ridden by the boy and couple in the lake on a dirt surface?",
+          "answers": [
+            "gray",
+            "brown",
+            "black"
+          ],
+          "score": 0.009224414825439453
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

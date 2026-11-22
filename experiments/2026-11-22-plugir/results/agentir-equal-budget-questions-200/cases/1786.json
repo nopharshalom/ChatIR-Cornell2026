@@ -1,0 +1,79 @@
+{
+  "qid": 1786,
+  "sample": 2,
+  "first_candidates": [
+    "what is the time of day when the skateboarder is performing the trick down the staircase?",
+    "Question: What is the gender of the skateboarder performing the trick down the staircase?",
+    "what is the other object in the image?",
+    "Question: What is the gender of the skateboarder performing the trick down the staircase?",
+    "what is the gender of the skateboarder performing the trick down the staircase?"
+  ],
+  "second_candidates": [
+    "Based on the provided information sources, here is the generated question and the explanation of how the sources were utilized:\n\n**Generated Question:**\n\"Is the skateboard?",
+    "**Generated Question:**\nIs the skateboarder performing a jump or a slide down the staircase?",
+    "**Generated Question:**\nIs the skateboarder performing a jump or a slide down the staircase?",
+    "**Generated Question:**\nWhat color is the skateboarder's clothing?",
+    "**Generated Question:**\nWhat is the skateboarder performing on?"
+  ],
+  "paths": [
+    {
+      "question": "Based on the provided information sources, here is the generated question and the explanation of how the sources were utilized:\n\n**Generated Question:**\n\"Is the skateboard?",
+      "answers": [
+        "yes",
+        "no",
+        "unknown"
+      ],
+      "score": 0.0008974075317382812
+    },
+    {
+      "question": "**Generated Question:**\nIs the skateboarder performing a jump or a slide down the staircase?",
+      "answers": [
+        "jump",
+        "slide",
+        "neither"
+      ],
+      "score": 0.0048980712890625
+    },
+    {
+      "question": "**Generated Question:**\nIs the skateboarder performing a jump or a slide down the staircase?",
+      "answers": [
+        "jump",
+        "slide",
+        "neither"
+      ],
+      "score": 0.0048980712890625,
+      "duplicate_of": 1
+    },
+    {
+      "question": "**Generated Question:**\nWhat color is the skateboarder's clothing?",
+      "answers": [
+        "black",
+        "red",
+        "blue"
+      ],
+      "score": 0.10769176483154297
+    },
+    {
+      "question": "**Generated Question:**\nWhat is the skateboarder performing on?",
+      "answers": [
+        "staircase",
+        "rail",
+        "ramp"
+      ],
+      "score": 0.01689291000366211
+    }
+  ],
+  "control": {
+    "question": "**Generated Question:**\nWhat color is the skateboarder's clothing?",
+    "score": 0.10769176483154297
+  },
+  "mixed": {
+    "question": "what is the time of day when the skateboarder is performing the trick down the staircase?",
+    "score": 0.08847951889038086
+  },
+  "control_rank": 60,
+  "mixed_rank": 59,
+  "usual_rank": 59,
+  "new_answer": "Black and gray.",
+  "new_rewrite": "a skateboarder in black and gray clothing performing a trick down a staircase"
+}

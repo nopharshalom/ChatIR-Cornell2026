@@ -1,0 +1,78 @@
+{
+  "qid": 521,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the hat worn by the man wearing number 36?",
+    "Question: What is the color of the uniform worn by the man wearing number 36?",
+    "Question: What is the color of the uniform worn by the batter?",
+    "Question: What is the number on the uniform of the batter?",
+    "Question: What is the number on the uniform of the batter?"
+  ],
+  "second_candidates": [
+    "Question: What color is the hat worn by the batter?",
+    "Question: What color is the uniform worn by the batter?",
+    "Question: Is the batter wearing a hat?",
+    "Question: What color is the baseball bat being swung by the batter?",
+    "Question: What color is the baseball bat?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What color is the hat worn by the batter?",
+      "answers": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "score": 0.09678792953491211
+    },
+    {
+      "question": "Question: What color is the uniform worn by the batter?",
+      "answers": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "score": 0.1278705596923828
+    },
+    {
+      "question": "Question: Is the batter wearing a hat?",
+      "answers": [
+        "Yes",
+        "Maybe",
+        "No"
+      ],
+      "score": 0.0010471343994140625
+    },
+    {
+      "question": "Question: What color is the baseball bat being swung by the batter?",
+      "answers": [
+        "black",
+        "wood",
+        "brown"
+      ],
+      "score": 0.012719154357910156
+    },
+    {
+      "question": "Question: What color is the baseball bat?",
+      "answers": [
+        "black",
+        "white",
+        "red"
+      ],
+      "score": 0.056804656982421875
+    }
+  ],
+  "control": {
+    "question": "Question: What is the color of the uniform worn by the man wearing number 36?",
+    "score": 0.16699552536010742
+  },
+  "mixed": {
+    "question": "Question: What is the color of the uniform worn by the man wearing number 36?",
+    "score": 0.16699552536010742
+  },
+  "control_rank": 78,
+  "mixed_rank": 78,
+  "usual_rank": 78,
+  "new_answer": null,
+  "new_rewrite": null
+}

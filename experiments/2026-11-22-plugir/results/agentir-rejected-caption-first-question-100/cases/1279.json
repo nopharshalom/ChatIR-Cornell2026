@@ -1,0 +1,70 @@
+{
+  "qid": 1279,
+  "initial": "the a train is traveling down the tracks",
+  "initial_rank": 16,
+  "evidence": [
+    "a white and yellow train pulling into a station",
+    "blue, red and white trains near buildings",
+    "a large black train is going through a field",
+    "a yellow train pulling into a station with a platform nearby",
+    "an old red train on train tracks",
+    "a red, white, and blue train is on the tracks near some building",
+    "green and yellow train traveling down some tracks in a wooded area",
+    "a white, silver, and blue passenger train on the tracks",
+    "a red train goes down railroad tracks near a farm"
+  ],
+  "displayed_ids": [
+    40627,
+    24190,
+    42588,
+    27983,
+    44992,
+    31722,
+    21652,
+    12947,
+    46477,
+    37560
+  ],
+  "rejected_captions": [
+    "the train has brakes",
+    "train traveling down tracks",
+    "a train passing a town on some tracks",
+    "the train is on tracks",
+    "a green train engine",
+    "a train traveling down train tracks with trees",
+    "a train going on a train track",
+    "the train is on track",
+    "the train engine is black and yellow",
+    "an orange and white train traveling down the tracks"
+  ],
+  "candidates": [
+    "Question: What color is the train traveling down the tracks?",
+    "Question: Is the train traveling down the tracks near a station, a field, or a farm?",
+    "Question: What is the color of the train traveling down the tracks?",
+    "Question: Is the train traveling down the tracks in a wooded area or near a farm?",
+    "Question: Is the train traveling down the tracks in a wooded area or near a farm?"
+  ],
+  "control_candidates": [
+    "what is the color of the train traveling down the tracks?",
+    "what is the location or environment where the train is traveling down the tracks?",
+    "Question: Is the train traveling down the tracks near a station, a farm, or a wooded area?",
+    "Question: What is the primary color of the train traveling down the tracks?",
+    "Question: Is the train traveling down the tracks near a station, a farm, or a wooded area?"
+  ],
+  "control": {
+    "question": "what is the location or environment where the train is traveling down the tracks?",
+    "answer": "outdoors",
+    "rewrite": "a train is traveling down the tracks outdoors",
+    "rank": 16,
+    "hit": false,
+    "raw_rank": 16,
+    "unseen_rank": 8
+  },
+  "variant": {
+    "question": "Question: What is the color of the train traveling down the tracks?",
+    "answer": "black",
+    "rewrite": "a black train is traveling down the tracks",
+    "raw_rank": 1,
+    "unseen_rank": 1
+  }
+}

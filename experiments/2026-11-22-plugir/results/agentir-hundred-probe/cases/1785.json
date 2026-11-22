@@ -1,0 +1,100 @@
+{
+  "qid": 1785,
+  "initial": "a young man jumping his skateboard on a ramp",
+  "initial_rank": 62,
+  "evidence": [
+    "a man in a blue shirt is riding a skateboard over a railing",
+    "a man skateboarding on a railing at night",
+    "a skateboarder performing tricks in a crowd of spectators",
+    "a young boy is skateboarding in an indoor skate park",
+    "a black and white photo of people skateboarding in the park",
+    "the park has palm trees",
+    "a black and white photo of a skateboarder doing a trick",
+    "a man is performing a trick on a skateboard in front of a crowd",
+    "a skateboarder in the air above a tree",
+    "a skateboarder on a ramp in front of spectators"
+  ],
+  "candidates": [
+    "what is the location where the young man is performing the jump?",
+    "what is the color of the shirt worn by the young man performing the jump on the ramp?",
+    "Question: Is the scene of the young man jumping on the ramp captured in a black and white photo?",
+    "Question: Is the young man performing the jump on the ramp at night?",
+    "Question: Is there a crowd of spectators watching the young man jump on the ramp?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the location where the young man is performing the jump?",
+      "answers": [
+        "ramp",
+        "park",
+        "street"
+      ],
+      "score": 0.040207862854003906
+    },
+    {
+      "question": "what is the color of the shirt worn by the young man performing the jump on the ramp?",
+      "answers": [
+        "red",
+        "blue",
+        "black"
+      ],
+      "score": 0.0970606803894043
+    },
+    {
+      "question": "Question: Is the scene of the young man jumping on the ramp captured in a black and white photo?",
+      "answers": [
+        "Yes",
+        "No",
+        "I think so"
+      ],
+      "score": 0.0027475357055664062
+    },
+    {
+      "question": "Question: Is the young man performing the jump on the ramp at night?",
+      "answers": [
+        "Yes",
+        "No",
+        "I don't know"
+      ],
+      "score": 0.001495361328125
+    },
+    {
+      "question": "Question: Is there a crowd of spectators watching the young man jump on the ramp?",
+      "answers": [
+        "Yes",
+        "No",
+        "Maybe"
+      ],
+      "score": 0.0018396377563476562
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.06,
+  "probe_selection_seconds": 2.45,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the location where the young man is performing the jump?",
+      "answer": "skatepark",
+      "rewrite": "a young man jumping his skateboard on a ramp at a skatepark",
+      "rank": 36,
+      "hit": false
+    },
+    "random": {
+      "question": "Question: Is the scene of the young man jumping on the ramp captured in a black and white photo?",
+      "answer": "no",
+      "rewrite": "a young man jumping his skateboard on a ramp in a color photo",
+      "rank": 45,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the color of the shirt worn by the young man performing the jump on the ramp?",
+      "answer": "blue",
+      "rewrite": "a young man in a blue shirt jumping his skateboard on a ramp",
+      "rank": 1,
+      "hit": true
+    }
+  },
+  "seconds": 17.165
+}

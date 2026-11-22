@@ -1,0 +1,79 @@
+{
+  "qid": 912,
+  "sample": 2,
+  "first_candidates": [
+    "what is the color of the jacket the man is wearing?",
+    "what is the color of the jacket the man is wearing?",
+    "Question: What is the color of the jacket the man is wearing?",
+    "what is the color of the jacket the man is wearing?",
+    "Question: what is the color of the jacket the man is wearing?"
+  ],
+  "second_candidates": [
+    "what is the color of the jacket worn by the man standing on his skis?",
+    "what is the color of the jacket worn by the man holding a pair of skis?",
+    "what is the color of the jacket worn by the man standing still on his skis?",
+    "what is the color of the jacket worn by the man standing on his skis?",
+    "what is the other object in the image?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the jacket worn by the man standing on his skis?",
+      "answers": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "score": 0.11344766616821289
+    },
+    {
+      "question": "what is the color of the jacket worn by the man holding a pair of skis?",
+      "answers": [
+        "red",
+        "green",
+        "black"
+      ],
+      "score": 0.10806798934936523
+    },
+    {
+      "question": "what is the color of the jacket worn by the man standing still on his skis?",
+      "answers": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "score": 0.12518835067749023
+    },
+    {
+      "question": "what is the color of the jacket worn by the man standing on his skis?",
+      "answers": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "score": 0.11344766616821289,
+      "duplicate_of": 0
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "skis",
+        "snowboard",
+        "hat"
+      ],
+      "score": 0.04520082473754883
+    }
+  ],
+  "control": {
+    "question": "Question: What is the color of the jacket the man is wearing?",
+    "score": 0.20508050918579102
+  },
+  "mixed": {
+    "question": "Question: What color is the man's jacket?",
+    "score": 0.2355513572692871
+  },
+  "control_rank": 1,
+  "mixed_rank": 1,
+  "usual_rank": 1,
+  "new_answer": null,
+  "new_rewrite": null
+}

@@ -1,0 +1,78 @@
+{
+  "qid": 253,
+  "sample": 1,
+  "first_candidates": [
+    "what is the specific color pattern of the zebras in the image?",
+    "Question: What type of enclosure is the herd of zebras standing in?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "second_candidates": [
+    "Question: Is the herd of zebras eating grass or leaves?",
+    "Question: How many zebras are in the herd?",
+    "what is the specific color pattern of the zebras in the herd?",
+    "what is the specific species of the animals in the herd besides the zebras?",
+    "**Generated Question:**\n\"Are the zebras in the herd a black and white zebra and a young one, or two zebras with stripes?"
+  ],
+  "paths": [
+    {
+      "question": "Question: Is the herd of zebras eating grass or leaves?",
+      "answers": [
+        "We don't know",
+        "Grass",
+        "Leaves"
+      ],
+      "score": 0.003986358642578125
+    },
+    {
+      "question": "Question: How many zebras are in the herd?",
+      "answers": [
+        "2",
+        "3",
+        "5"
+      ],
+      "score": 0.00031375885009765625
+    },
+    {
+      "question": "what is the specific color pattern of the zebras in the herd?",
+      "answers": [
+        "black and white stripes",
+        "brown and white stripes",
+        "blue and white stripes"
+      ],
+      "score": 0.010475635528564453
+    },
+    {
+      "question": "what is the specific species of the animals in the herd besides the zebras?",
+      "answers": [
+        "None",
+        "Elephants",
+        "Giraffes"
+      ],
+      "score": 0.04651832580566406
+    },
+    {
+      "question": "**Generated Question:**\n\"Are the zebras in the herd a black and white zebra and a young one, or two zebras with stripes?",
+      "answers": [
+        "a zebra and her young one in a field",
+        "two zebras with stripes in a field",
+        "a herd of elephants walking through a dry plain"
+      ],
+      "score": 0.10920095443725586
+    }
+  ],
+  "control": {
+    "question": "**Generated Question:**\n\"Are the zebras in the herd a black and white zebra and a young one, or two zebras with stripes?",
+    "score": 0.10920095443725586
+  },
+  "mixed": {
+    "question": "Question: What is the specific location or type of enclosure where the zebras are eating?",
+    "score": 0.12908649444580078
+  },
+  "control_rank": 22,
+  "mixed_rank": 3,
+  "usual_rank": 23,
+  "new_answer": "two zebras with stripes.",
+  "new_rewrite": "a herd of black and white zebras with stripes eating at the treeline"
+}

@@ -1,0 +1,79 @@
+{
+  "qid": 684,
+  "sample": 2,
+  "first_candidates": [
+    "What color is the street sign visible in the image?",
+    "Question: What is the color of the street sign visible in the image?",
+    "Question: What is the color of the street sign visible in the image?",
+    "What is the text written on the street sign?",
+    "**Generated Question:**\nWhat is the background behind the street sign?"
+  ],
+  "second_candidates": [
+    "what is the color of the street sign?",
+    "what is the color of the apartment building in the background of the street sign?",
+    "what is the location of the street sign with the apartment building in the background?",
+    "what is the color of the street sign with an apartment building in the background?",
+    "what is the color of the apartment building in the background of the street sign?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the street sign?",
+      "answers": [
+        "white",
+        "black",
+        "red"
+      ],
+      "score": 0.057265281677246094
+    },
+    {
+      "question": "what is the color of the apartment building in the background of the street sign?",
+      "answers": [
+        "white",
+        "grey",
+        "beige"
+      ],
+      "score": 0.021683216094970703
+    },
+    {
+      "question": "what is the location of the street sign with the apartment building in the background?",
+      "answers": [
+        "wooded area",
+        "front yard",
+        "city"
+      ],
+      "score": 0.05464363098144531
+    },
+    {
+      "question": "what is the color of the street sign with an apartment building in the background?",
+      "answers": [
+        "green",
+        "blue",
+        "white"
+      ],
+      "score": 0.05765342712402344
+    },
+    {
+      "question": "what is the color of the apartment building in the background of the street sign?",
+      "answers": [
+        "white",
+        "grey",
+        "beige"
+      ],
+      "score": 0.021683216094970703,
+      "duplicate_of": 1
+    }
+  ],
+  "control": {
+    "question": "What is the text written on the street sign?",
+    "score": 0.16676568984985352
+  },
+  "mixed": {
+    "question": "What is the text written on the street sign?",
+    "score": 0.16676568984985352
+  },
+  "control_rank": 1,
+  "mixed_rank": 1,
+  "usual_rank": 1,
+  "new_answer": null,
+  "new_rewrite": null
+}

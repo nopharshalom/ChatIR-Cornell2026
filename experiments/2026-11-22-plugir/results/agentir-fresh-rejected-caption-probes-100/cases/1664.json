@@ -1,0 +1,179 @@
+{
+  "qid": 1664,
+  "initial": "a person is skiing on a slope covered in snow",
+  "initial_rank": 29,
+  "displayed": [
+    36314,
+    24560,
+    1232,
+    10607,
+    31983,
+    34147,
+    48887,
+    30059,
+    33435,
+    25102
+  ],
+  "evidence": [
+    "two people are skiing on the slopes in the distance",
+    "a young girl is on skis in the woods",
+    "a skier wearing red clothes racing",
+    "man riding snow skis in a forest covered in snow",
+    "man wearing red jacket and ski pants",
+    "a skier in blue racing down a hill",
+    "a person in a red coat standing in a wooded area",
+    "a woman dressed in a purple jacket standing on skis",
+    "a snowboarder going down a slope with a tree in the background",
+    "a man in a red jacket skiing down the side of the mountain"
+  ],
+  "rejected_captions": [
+    "the skier is on a slope",
+    "a man on skis in the snow",
+    "a skier is going down a hill",
+    "a skier riding down a hill",
+    "skiers down the mountain",
+    "a person on skis going down a steep slope",
+    "a person skiing down a snow covered slope",
+    "a man riding on skis down a slope",
+    "a person skiing down a snow covered slope",
+    "snow covered area"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the color of the jacket worn by the person skiing on the slope?",
+      "what is the gender of the person skiing on the slope covered in snow?",
+      "what is the location where the person is skiing?",
+      "what is the activity being performed by the person wearing a red jacket?",
+      "what is the location where the person wearing a red jacket is skiing?"
+    ],
+    "question": "what is the color of the jacket worn by the person skiing on the slope?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the jacket worn by the person skiing on the slope?",
+          "answers": [
+            "red",
+            "blue",
+            "purple"
+          ],
+          "score": 0.16478776931762695
+        },
+        {
+          "question": "what is the gender of the person skiing on the slope covered in snow?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.03922080993652344
+        },
+        {
+          "question": "what is the location where the person is skiing?",
+          "answers": [
+            "woods",
+            "slope",
+            "mountain"
+          ],
+          "score": 0.05857992172241211
+        },
+        {
+          "question": "what is the activity being performed by the person wearing a red jacket?",
+          "answers": [
+            "skiing",
+            "snowboarding",
+            "standing"
+          ],
+          "score": 0.02355813980102539
+        },
+        {
+          "question": "what is the location where the person wearing a red jacket is skiing?",
+          "answers": [
+            "forest",
+            "mountain",
+            "slope"
+          ],
+          "score": 0.06479024887084961
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.082,
+      "probe_selection_seconds": 2.457,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "black",
+    "rewrite": "a person wearing a black jacket is skiing on a snow-covered slope",
+    "raw_rank": 11,
+    "unseen_rank": 10
+  },
+  "rejected": {
+    "candidates": [
+      "what is the color of the jacket worn by the skier?",
+      "Question: What color is the jacket worn by the skier?",
+      "Question: What is the color of the jacket worn by the skier?",
+      "Question: What color is the jacket worn by the skier?",
+      "Question: What is the color of the jacket worn by the skier?"
+    ],
+    "question": "what is the color of the jacket worn by the skier?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the jacket worn by the skier?",
+          "answers": [
+            "red",
+            "blue",
+            "purple"
+          ],
+          "score": 0.26822996139526367
+        },
+        {
+          "question": "Question: What color is the jacket worn by the skier?",
+          "answers": [
+            "red",
+            "blue",
+            "purple"
+          ],
+          "score": 0.2140946388244629
+        },
+        {
+          "question": "Question: What is the color of the jacket worn by the skier?",
+          "answers": [
+            "red",
+            "blue",
+            "purple"
+          ],
+          "score": 0.21454429626464844
+        },
+        {
+          "question": "Question: What color is the jacket worn by the skier?",
+          "answers": [
+            "red",
+            "blue",
+            "purple"
+          ],
+          "score": 0.2140946388244629,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the jacket worn by the skier?",
+          "answers": [
+            "red",
+            "blue",
+            "purple"
+          ],
+          "score": 0.21454429626464844,
+          "duplicate_of": 2
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.149,
+      "probe_selection_seconds": 1.413,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "black",
+    "rewrite": "a person wearing a black jacket is skiing on a snow-covered slope",
+    "raw_rank": 11,
+    "unseen_rank": 10
+  }
+}

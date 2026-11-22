@@ -1,0 +1,179 @@
+{
+  "qid": 1165,
+  "initial": "the toilet is white and in the room with blue carpets",
+  "initial_rank": 19,
+  "displayed": [
+    16362,
+    39303,
+    36613,
+    22347,
+    38691,
+    42848,
+    22765,
+    28571,
+    12163,
+    31202
+  ],
+  "evidence": [
+    "a bathroom with a bathtub, sink, shower and a toilet",
+    "a bathroom has two sinks, a large mirror, and a bathtub",
+    "an empty bathroom with tiled walls, an overhead shower, and a wooden bathtub",
+    "a person standing on a dirty toilet",
+    "the bed has a blue canopy",
+    "the bathroom has a small, tiled toilet, a toilet brush and a shower stall",
+    "a toilet in a stall with a trash in the back",
+    "a dirty toilet in a dirty bathroom",
+    "a toilet in a stall with grab bars",
+    "a bathroom with a tiled shower and sink in it"
+  ],
+  "rejected_captions": [
+    "a small white bathroom with a white toilet",
+    "a toilet in a display booth",
+    "a toilet in a bathroom",
+    "a bathroom sink with a toilet next to it",
+    "a white toilet with a red phone attached",
+    "this bathroom is a very neat and clean area",
+    "a bathroom toilet",
+    "the wall is a tan color",
+    "the floor of the toilet is white",
+    "a toilet, sink, and washer dryer in a bathroom"
+  ],
+  "usual": {
+    "candidates": [
+      "what color is the bathtub in the bathroom with the blue carpet?",
+      "what is the other object in the image?",
+      "what type of bathtub is in the bathroom with the white toilet and blue carpet?",
+      "what color is the carpet in the bathroom with the white toilet?",
+      "what color is the carpet in the bathroom with the white toilet?"
+    ],
+    "question": "what is the other object in the image?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what color is the bathtub in the bathroom with the blue carpet?",
+          "answers": [
+            "blue",
+            "white",
+            "beige"
+          ],
+          "score": 0.006251335144042969
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sink",
+            "bathtub",
+            "shower"
+          ],
+          "score": 0.09521293640136719
+        },
+        {
+          "question": "what type of bathtub is in the bathroom with the white toilet and blue carpet?",
+          "answers": [
+            "wooden",
+            "large",
+            "small"
+          ],
+          "score": 0.026016712188720703
+        },
+        {
+          "question": "what color is the carpet in the bathroom with the white toilet?",
+          "answers": [
+            "blue",
+            "beige",
+            "gray"
+          ],
+          "score": 0.014539718627929688
+        },
+        {
+          "question": "what color is the carpet in the bathroom with the white toilet?",
+          "answers": [
+            "blue",
+            "beige",
+            "gray"
+          ],
+          "score": 0.014539718627929688,
+          "duplicate_of": 3
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.151,
+      "probe_selection_seconds": 2.019,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "toilet brush",
+    "rewrite": "a white toilet in a room with blue carpets, accompanied by a toilet brush",
+    "raw_rank": 3,
+    "unseen_rank": 1
+  },
+  "rejected": {
+    "candidates": [
+      "Question: Is there a bathtub in the bathroom?",
+      "Question: What color is the bathtub in the bathroom?",
+      "Question: What color is the carpet in the bathroom?",
+      "what is the color of the carpet in the bathroom where the white toilet is located?",
+      "what is the color of the carpet in the bathroom where the white toilet is located?"
+    ],
+    "question": "what is the color of the carpet in the bathroom where the white toilet is located?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: Is there a bathtub in the bathroom?",
+          "answers": [
+            "yes",
+            "no",
+            "unsure"
+          ],
+          "score": 0.0011262893676757812
+        },
+        {
+          "question": "Question: What color is the bathtub in the bathroom?",
+          "answers": [
+            "blue",
+            "white",
+            "black"
+          ],
+          "score": 0.020924091339111328
+        },
+        {
+          "question": "Question: What color is the carpet in the bathroom?",
+          "answers": [
+            "blue",
+            "white",
+            "red"
+          ],
+          "score": 0.026028156280517578
+        },
+        {
+          "question": "what is the color of the carpet in the bathroom where the white toilet is located?",
+          "answers": [
+            "blue",
+            "red",
+            "green"
+          ],
+          "score": 0.09144020080566406
+        },
+        {
+          "question": "what is the color of the carpet in the bathroom where the white toilet is located?",
+          "answers": [
+            "blue",
+            "red",
+            "green"
+          ],
+          "score": 0.09144020080566406,
+          "duplicate_of": 3
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.157,
+      "probe_selection_seconds": 1.815,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "blue",
+    "rewrite": "a white toilet in a room with blue carpets",
+    "raw_rank": 11,
+    "unseen_rank": 2
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "chosen": "Question: what is the object that the bench is facing outside?",
+  "default": "what is the material of the walkway the bench is facing?",
+  "ids": [
+    7695,
+    38089,
+    18637,
+    12426
+  ],
+  "trials": {
+    "what is the material of the walkway the bench is facing?": {
+      "answers": [
+        "concrete",
+        "grass",
+        "concrete",
+        "concrete"
+      ],
+      "rewrites": {
+        "concrete": "a bench facing a concrete walkway outside",
+        "grass": "a bench facing a grassy walkway"
+      },
+      "ranks": [
+        11,
+        6,
+        27,
+        69
+      ],
+      "hits": 1
+    },
+    "what is the material of the bench?": {
+      "answers": [
+        "wood",
+        "wood",
+        "wood",
+        "wood and metal"
+      ],
+      "rewrites": {
+        "wood": "a wooden bench facing a concrete walkway outside",
+        "wood and metal": "a bench made of wood and metal faces toward a concrete walkway outside"
+      },
+      "ranks": [
+        10,
+        48,
+        16,
+        4
+      ],
+      "hits": 2
+    },
+    "Question: what is the surface the bench is sitting on?": {
+      "answers": [
+        "concrete",
+        "ground",
+        "grass",
+        "pavement"
+      ],
+      "rewrites": {
+        "concrete": "the bench faces toward the concrete walkway outside and is situated on a concrete surface",
+        "ground": "the bench faces toward the concrete walkway outside and is sitting on the ground",
+        "grass": "the bench faces toward the concrete walkway outside, but it is actually sitting on a grassy surface",
+        "pavement": "the bench faces toward the concrete walkway outside and is sitting on pavement"
+      },
+      "ranks": [
+        13,
+        37,
+        16,
+        39
+      ],
+      "hits": 0
+    },
+    "what is the color of the bench?": {
+      "answers": [
+        "brown",
+        "gray",
+        "brown",
+        "brown"
+      ],
+      "rewrites": {
+        "brown": "a brown bench facing a concrete walkway outside",
+        "gray": "a gray bench facing a concrete walkway outside"
+      },
+      "ranks": [
+        21,
+        13,
+        45,
+        25
+      ],
+      "hits": 0
+    },
+    "Question: what is the object that the bench is facing outside?": {
+      "answers": [
+        "bench",
+        "grass",
+        "bird",
+        "street"
+      ],
+      "rewrites": {
+        "bench": "a bench facing a concrete walkway outside",
+        "grass": "a bench facing a grassy area outside",
+        "bird": "a bench facing a bird on a concrete walkway outside",
+        "street": "the bench faces toward the street outside"
+      },
+      "ranks": [
+        11,
+        3,
+        1,
+        9
+      ],
+      "hits": 3
+    }
+  }
+}

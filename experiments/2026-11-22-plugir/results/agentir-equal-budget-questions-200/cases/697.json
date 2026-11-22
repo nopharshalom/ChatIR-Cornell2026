@@ -1,0 +1,79 @@
+{
+  "qid": 697,
+  "sample": 2,
+  "first_candidates": [
+    "what is the color of the large kite being held by the man?",
+    "what is the shape of the very large kite being held by the man?",
+    "what is the specific location of the beach where the man is standing with the large kite?",
+    "what is the color of the man standing in the sand holding a very large kite?",
+    "what is the color of the man standing in the sand holding a very large kite?"
+  ],
+  "second_candidates": [
+    "what color is the very large kite that the man is holding?",
+    "what is the man holding in the sand besides the very large kite?",
+    "Question: What is the man standing in the sand holding besides the very large kite?",
+    "what is the man standing in the sand holding besides the very large kite?",
+    "what is the man standing in the sand holding besides the very large kite?"
+  ],
+  "paths": [
+    {
+      "question": "what color is the very large kite that the man is holding?",
+      "answers": [
+        "red",
+        "yellow",
+        "blue"
+      ],
+      "score": 0.06741762161254883
+    },
+    {
+      "question": "what is the man holding in the sand besides the very large kite?",
+      "answers": [
+        "surfboard",
+        "nothing",
+        "camera"
+      ],
+      "score": 0.027529239654541016
+    },
+    {
+      "question": "Question: What is the man standing in the sand holding besides the very large kite?",
+      "answers": [
+        "surfboard",
+        "nothing",
+        "camera"
+      ],
+      "score": 0.04005908966064453
+    },
+    {
+      "question": "what is the man standing in the sand holding besides the very large kite?",
+      "answers": [
+        "nothing",
+        "a surfboard",
+        "a camera"
+      ],
+      "score": 0.027323246002197266
+    },
+    {
+      "question": "what is the man standing in the sand holding besides the very large kite?",
+      "answers": [
+        "nothing",
+        "a surfboard",
+        "a camera"
+      ],
+      "score": 0.027323246002197266,
+      "duplicate_of": 3
+    }
+  ],
+  "control": {
+    "question": "what is the color of the large kite being held by the man?",
+    "score": 0.07666015625
+  },
+  "mixed": {
+    "question": "what is the color of the large kite being held by the man?",
+    "score": 0.07666015625
+  },
+  "control_rank": 9,
+  "mixed_rank": 9,
+  "usual_rank": 9,
+  "new_answer": null,
+  "new_rewrite": null
+}

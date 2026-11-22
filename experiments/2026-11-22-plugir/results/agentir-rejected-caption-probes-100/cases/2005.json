@@ -1,0 +1,81 @@
+{
+  "qid": 2005,
+  "candidates": [
+    "Question: What is the color of the speedboat?",
+    "Question: What is the background scenery behind the speedboat?",
+    "Question: What is the color of the speedboat?",
+    "Question: What color is the speedboat?",
+    "Question: What is the color of the speedboat?"
+  ],
+  "kl": {
+    "question": "Question: What is the background scenery behind the speedboat?",
+    "answer": "Trees.",
+    "rewrite": "a speedboat in the middle of a lake headed towards a bridge with trees in the background",
+    "raw_rank": 9,
+    "unseen_rank": 4
+  },
+  "probe": {
+    "answer": "black",
+    "rewrite": "a black speedboat in the middle of a lake headed towards a bridge",
+    "raw_rank": 10,
+    "unseen_rank": 4,
+    "question": "Question: What is the color of the speedboat?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the color of the speedboat?",
+        "answers": [
+          "red",
+          "blue",
+          "black"
+        ],
+        "score": 0.06930923461914062
+      },
+      {
+        "question": "Question: What is the background scenery behind the speedboat?",
+        "answers": [
+          "a bridge over a lake",
+          "a city bridge",
+          "a lighthouse"
+        ],
+        "score": 0.06546926498413086
+      },
+      {
+        "question": "Question: What is the color of the speedboat?",
+        "answers": [
+          "red",
+          "blue",
+          "black"
+        ],
+        "score": 0.06930923461914062,
+        "duplicate_of": 0
+      },
+      {
+        "question": "Question: What color is the speedboat?",
+        "answers": [
+          "red",
+          "blue",
+          "white"
+        ],
+        "score": 0.057849884033203125
+      },
+      {
+        "question": "Question: What is the color of the speedboat?",
+        "answers": [
+          "red",
+          "blue",
+          "black"
+        ],
+        "score": 0.06930923461914062,
+        "duplicate_of": 0
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.079,
+    "probe_selection_seconds": 1.559,
+    "probe_llm_calls": 3,
+    "probe_search_queries": 9
+  },
+  "reused_outcome": false
+}

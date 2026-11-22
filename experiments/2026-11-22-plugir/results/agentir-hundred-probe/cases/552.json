@@ -1,0 +1,100 @@
+{
+  "qid": 552,
+  "initial": "a man on a skateboard jumping over an obstacle",
+  "initial_rank": 35,
+  "evidence": [
+    "a black and white photo of a skateboarder doing a trick",
+    "a skateboarder on a ramp in front of spectators",
+    "brown horse jumping over hurdles",
+    "crowd is watching men do tricks on skateboards",
+    "a black and white photo of people skateboarding in the park",
+    "a skateboarder in the air on a cement sidewalk",
+    "a young boy doing a skateboard trick in a crowded street",
+    "skateboarders skateboarding in a park with benches",
+    "a young man is skateboarding in the middle of a city square",
+    "skateboarders doing tricks at night at a skate park"
+  ],
+  "candidates": [
+    "What is the lighting condition of the scene where the man is skateboarding?",
+    "Question: Is the scene where the man is skateboarding in black and white or in color?",
+    "Question: What is the surface or type of obstacle the man is jumping over?",
+    "What is the man wearing while performing the skateboard trick?",
+    "What is the man wearing while performing the trick?"
+  ],
+  "answer_paths": [
+    {
+      "question": "What is the lighting condition of the scene where the man is skateboarding?",
+      "answers": [
+        "daylight",
+        "night",
+        "indoor"
+      ],
+      "score": 0.10736846923828125
+    },
+    {
+      "question": "Question: Is the scene where the man is skateboarding in black and white or in color?",
+      "answers": [
+        "black and white",
+        "color",
+        "I'm not sure"
+      ],
+      "score": 0.007946491241455078
+    },
+    {
+      "question": "Question: What is the surface or type of obstacle the man is jumping over?",
+      "answers": [
+        "ramp",
+        "hurdles",
+        "sidewalk"
+      ],
+      "score": 0.06072092056274414
+    },
+    {
+      "question": "What is the man wearing while performing the skateboard trick?",
+      "answers": [
+        "a t-shirt and shorts",
+        "a jacket and jeans",
+        "a full-body suit"
+      ],
+      "score": 0.09390974044799805
+    },
+    {
+      "question": "What is the man wearing while performing the trick?",
+      "answers": [
+        "jeans and a t-shirt",
+        "a hoodie and shorts",
+        "a sweater and pants"
+      ],
+      "score": 0.07457780838012695
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.067,
+  "probe_selection_seconds": 2.947,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "What is the man wearing while performing the trick?",
+      "answer": "black shirt and shorts",
+      "rewrite": "a man in a black shirt and shorts on a skateboard jumping over an obstacle",
+      "rank": 9,
+      "hit": true
+    },
+    "random": {
+      "question": "Question: What is the surface or type of obstacle the man is jumping over?",
+      "answer": "obstacle is a small black rail.",
+      "rewrite": "a man on a skateboard jumps over a small black rail",
+      "rank": 9,
+      "hit": true
+    },
+    "probe": {
+      "question": "What is the lighting condition of the scene where the man is skateboarding?",
+      "answer": "sunset",
+      "rewrite": "a man on a skateboard jumping over an obstacle at sunset",
+      "rank": 5,
+      "hit": true
+    }
+  },
+  "seconds": 17.497
+}

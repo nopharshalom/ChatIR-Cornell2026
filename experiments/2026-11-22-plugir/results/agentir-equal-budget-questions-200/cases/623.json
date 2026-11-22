@@ -1,0 +1,80 @@
+{
+  "qid": 623,
+  "sample": 2,
+  "first_candidates": [
+    "What is the color of the coat worn by the person talking on the phone?",
+    "what is the age of the person talking on the phone?",
+    "what is the activity the older lady is performing while standing in front of the green billboard?",
+    "what is the color of the coat worn by the older lady talking on the phone?",
+    "what is the color of the billboard in front of which the older lady is standing?"
+  ],
+  "second_candidates": [
+    "Who is the older lady talking to on the phone?",
+    "**Generated Question:**\nWhat color is the billboard behind the woman talking on the phone?",
+    "**Generated Question:**\nWhat is the color of the billboard behind the woman talking on the phone?",
+    "**Generated Question:**\nWhat color is the billboard behind the woman talking on the phone?",
+    "**Generated Question:**\nWhat color is the billboard behind the woman talking on the phone?"
+  ],
+  "paths": [
+    {
+      "question": "Who is the older lady talking to on the phone?",
+      "answers": [
+        "Her mother",
+        "A doctor",
+        "Her boss"
+      ],
+      "score": 0.017385005950927734
+    },
+    {
+      "question": "**Generated Question:**\nWhat color is the billboard behind the woman talking on the phone?",
+      "answers": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "score": 0.03591585159301758
+    },
+    {
+      "question": "**Generated Question:**\nWhat is the color of the billboard behind the woman talking on the phone?",
+      "answers": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "score": 0.035268306732177734
+    },
+    {
+      "question": "**Generated Question:**\nWhat color is the billboard behind the woman talking on the phone?",
+      "answers": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "score": 0.03591585159301758,
+      "duplicate_of": 1
+    },
+    {
+      "question": "**Generated Question:**\nWhat color is the billboard behind the woman talking on the phone?",
+      "answers": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "score": 0.03591585159301758,
+      "duplicate_of": 1
+    }
+  ],
+  "control": {
+    "question": "What is the color of the coat worn by the person talking on the phone?",
+    "score": 0.03667449951171875
+  },
+  "mixed": {
+    "question": "Question: What is the man doing in the background of the image?",
+    "score": 0.08905887603759766
+  },
+  "control_rank": 35,
+  "mixed_rank": 1,
+  "usual_rank": 35,
+  "new_answer": null,
+  "new_rewrite": null
+}

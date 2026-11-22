@@ -1,0 +1,89 @@
+{
+  "ids": [
+    40406,
+    47315,
+    13909,
+    37110
+  ],
+  "prefix": [
+    "a group of giraffes walk next to a wooden fence",
+    "what is the number of giraffes in the group walking next to the wooden fence? 3"
+  ],
+  "default": "what is the color of the giraffes in the group walking next to the wooden fence?",
+  "chosen": "what is the color of the giraffes in the group walking next to the wooden fence?",
+  "trials": {
+    "what is the color of the giraffes in the group walking next to the wooden fence?": {
+      "answers": [
+        "brown",
+        "brown",
+        "brown",
+        "brown"
+      ],
+      "rewrites": {
+        "brown": "three brown giraffes walk next to a wooden fence"
+      },
+      "ranks": [
+        17,
+        28,
+        40,
+        43
+      ],
+      "hits": 0
+    },
+    "what is the color of the trees in the background behind the group of giraffes?": {
+      "answers": [
+        "green",
+        "green",
+        "green",
+        "green"
+      ],
+      "rewrites": {
+        "green": "three green trees in the background behind a group of three giraffes walking next to a wooden fence"
+      },
+      "ranks": [
+        20,
+        40,
+        50,
+        76
+      ],
+      "hits": 0
+    },
+    "what is the specific type of enclosure where the group of giraffes is located?": {
+      "answers": [
+        "zoo",
+        "zoo",
+        "zoo",
+        "zoo"
+      ],
+      "rewrites": {
+        "zoo": "three giraffes walk next to a wooden fence in a zoo"
+      },
+      "ranks": [
+        17,
+        22,
+        28,
+        36
+      ],
+      "hits": 0
+    },
+    "what is the material of the fence next to which the group of giraffes is standing?": {
+      "answers": [
+        "wood",
+        "metal",
+        "metal",
+        "metal"
+      ],
+      "rewrites": {
+        "wood": "three giraffes walk next to a wooden fence",
+        "metal": "three giraffes walk next to a metal fence"
+      },
+      "ranks": [
+        12,
+        73,
+        26,
+        28
+      ],
+      "hits": 0
+    }
+  }
+}

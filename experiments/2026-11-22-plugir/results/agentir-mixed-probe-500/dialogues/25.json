@@ -1,0 +1,278 @@
+{
+  "qid": 25,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000214573.jpg",
+  "queries": [
+    "a person riding skis down a hill with glasses on",
+    "a person wearing a black jacket and glasses riding skis down a hill",
+    "a person wearing a black jacket and orange glasses riding skis down a hill"
+  ],
+  "ranks": [
+    23,
+    22,
+    2
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a person riding skis down a hill with glasses on",
+      "question": "Question: What color is the jacket worn by the person riding skis down a hill?",
+      "answer": "black",
+      "query_after": "a person wearing a black jacket and glasses riding skis down a hill",
+      "displayed_ids": [
+        25589,
+        28289,
+        36897,
+        10761,
+        37183,
+        41639,
+        46646,
+        37459,
+        33547,
+        6783
+      ],
+      "selected_ids": [
+        3107,
+        42988,
+        33749,
+        49163,
+        5598,
+        1724,
+        8685,
+        43501,
+        17859,
+        20149
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what color is the jacket worn by the person riding skis down a hill?",
+          "answers": [
+            "green",
+            "pink",
+            "orange"
+          ],
+          "score": 0.17795896530151367
+        },
+        {
+          "question": "what is the color of the outfit worn by the person riding skis down a hill who is wearing glasses?",
+          "answers": [
+            "red",
+            "orange",
+            "purple"
+          ],
+          "score": 0.15111732482910156
+        },
+        {
+          "question": "Question: what color are the glasses worn by the person riding skis down a hill?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.11122465133666992
+        },
+        {
+          "question": "what is the gender of the person riding skis down a hill with glasses on?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.0381317138671875
+        },
+        {
+          "question": "what is the color of the snowboard being ridden by the person wearing glasses?",
+          "answers": [
+            "green",
+            "orange",
+            "red"
+          ],
+          "score": 0.1238551139831543
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the jacket worn by the person riding skis down a hill?",
+          "answers": [
+            "green",
+            "pink",
+            "orange"
+          ],
+          "score": 0.1889338493347168
+        },
+        {
+          "question": "Question: What color are the pants worn by the person riding skis down a hill?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.1361069679260254
+        },
+        {
+          "question": "Question: What color are the glasses worn by the person riding skis down a hill?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.11122465133666992
+        },
+        {
+          "question": "Question: What color is the jacket worn by the person riding skis down a hill?",
+          "answers": [
+            "green",
+            "pink",
+            "orange"
+          ],
+          "score": 0.1889338493347168,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the jacket worn by the person riding skis down a hill?",
+          "answers": [
+            "green",
+            "pink",
+            "orange"
+          ],
+          "score": 0.1889338493347168,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a person wearing a black jacket and glasses riding skis down a hill",
+      "question": "what color are the glasses worn by the person riding skis down a hill?",
+      "answer": "orange",
+      "query_after": "a person wearing a black jacket and orange glasses riding skis down a hill",
+      "displayed_ids": [
+        25589,
+        42566,
+        21282,
+        27905,
+        10761,
+        46646,
+        6552,
+        1081,
+        11931,
+        32468
+      ],
+      "selected_ids": [
+        39363,
+        47787,
+        23362,
+        43501,
+        13262,
+        14385,
+        14304,
+        49163,
+        31539,
+        35550
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "what color are the glasses worn by the person riding skis down a hill?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.15565919876098633
+        },
+        {
+          "question": "what is the color of the glasses worn by the person riding skis down a hill?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.14862346649169922
+        },
+        {
+          "question": "what is the color of the glasses worn by the person riding skis down a hill?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.14862346649169922,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What color are the glasses worn by the person riding skis down a hill?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.13904953002929688
+        },
+        {
+          "question": "what is the color of the glasses worn by the person riding skis down a hill?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.14862346649169922,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color are the glasses worn by the person riding skis down a hill?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.15565919876098633
+        },
+        {
+          "question": "what is the color of the pants worn by the person riding skis down a hill with black glasses?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.05468940734863281
+        },
+        {
+          "question": "what is the gender of the person riding skis down a hill with black glasses?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.025170326232910156
+        },
+        {
+          "question": "what is the gender of the person riding skis down a hill with black glasses?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.025170326232910156,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the gender of the person riding skis down a hill with black glasses?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.025170326232910156,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

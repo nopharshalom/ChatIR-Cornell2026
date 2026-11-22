@@ -1,0 +1,78 @@
+{
+  "qid": 2014,
+  "sample": 1,
+  "first_candidates": [
+    "what is the location where the woman with the umbrella is standing?",
+    "what is the surface or ground material beneath the woman with the umbrella?",
+    "what color is the umbrella held by the woman in the black and white photo?",
+    "what is the location where the woman with the umbrella is standing?",
+    "what is the specific object or animal that the woman in the black and white photo is riding?"
+  ],
+  "second_candidates": [
+    "what is the specific color of the umbrella held by the woman in the black and white photo?",
+    "Question: What is the gender of the person holding the red umbrella on the brick walkway in the rain?",
+    "what is the location where the woman with the umbrella is standing?",
+    "what is the specific location where the woman with the umbrella is standing?",
+    "What is the color of the umbrella the woman is holding in the black and white photo?"
+  ],
+  "paths": [
+    {
+      "question": "what is the specific color of the umbrella held by the woman in the black and white photo?",
+      "answers": [
+        "black",
+        "white",
+        "red"
+      ],
+      "score": 0.0312042236328125
+    },
+    {
+      "question": "Question: What is the gender of the person holding the red umbrella on the brick walkway in the rain?",
+      "answers": [
+        "male",
+        "female",
+        "not specified"
+      ],
+      "score": 0.009743690490722656
+    },
+    {
+      "question": "what is the location where the woman with the umbrella is standing?",
+      "answers": [
+        "sidewalk",
+        "brick walkway",
+        "narrow alley"
+      ],
+      "score": 0.08647537231445312
+    },
+    {
+      "question": "what is the specific location where the woman with the umbrella is standing?",
+      "answers": [
+        "sidewalk",
+        "brick walkway",
+        "narrow alley"
+      ],
+      "score": 0.08241558074951172
+    },
+    {
+      "question": "What is the color of the umbrella the woman is holding in the black and white photo?",
+      "answers": [
+        "black",
+        "white",
+        "gray"
+      ],
+      "score": 0.0035839080810546875
+    }
+  ],
+  "control": {
+    "question": "what is the location where the woman with the umbrella is standing?",
+    "score": 0.08647537231445312
+  },
+  "mixed": {
+    "question": "what is the object the woman is carrying or holding besides the umbrella?",
+    "score": 0.06110954284667969
+  },
+  "control_rank": 5,
+  "mixed_rank": 85,
+  "usual_rank": 139,
+  "new_answer": "nw couch st",
+  "new_rewrite": "a black and white photo shows a woman with an umbrella standing on nw couch st"
+}

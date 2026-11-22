@@ -1,0 +1,80 @@
+{
+  "qid": 465,
+  "candidates": [
+    "Question: What is the color of the shirt worn by the people playing frisbee in the target image?",
+    "Question: What is the gender of the group of people playing frisbee?",
+    "Question: What is the gender of the group of people playing frisbee?",
+    "Question: What color is the frisbee being played with by the group of people?",
+    "Question: What color are the shirts worn by the people playing frisbee?"
+  ],
+  "kl": {
+    "question": "Question: What is the gender of the group of people playing frisbee?",
+    "answer": "female",
+    "rewrite": "a group of females playing frisbee at a park",
+    "raw_rank": 36,
+    "unseen_rank": 30
+  },
+  "probe": {
+    "answer": "white",
+    "rewrite": "several people wearing white shirts are playing frisbee at a park",
+    "raw_rank": 27,
+    "unseen_rank": 22,
+    "question": "Question: What is the color of the shirt worn by the people playing frisbee in the target image?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the color of the shirt worn by the people playing frisbee in the target image?",
+        "answers": [
+          "red",
+          "blue",
+          "yellow"
+        ],
+        "score": 0.12961244583129883
+      },
+      {
+        "question": "Question: What is the gender of the group of people playing frisbee?",
+        "answers": [
+          "Men",
+          "Women",
+          "Mixed"
+        ],
+        "score": 0.037560462951660156
+      },
+      {
+        "question": "Question: What is the gender of the group of people playing frisbee?",
+        "answers": [
+          "Men",
+          "Women",
+          "Mixed"
+        ],
+        "score": 0.037560462951660156,
+        "duplicate_of": 1
+      },
+      {
+        "question": "Question: What color is the frisbee being played with by the group of people?",
+        "answers": [
+          "red",
+          "yellow",
+          "orange"
+        ],
+        "score": 0.12067365646362305
+      },
+      {
+        "question": "Question: What color are the shirts worn by the people playing frisbee?",
+        "answers": [
+          "red",
+          "blue",
+          "yellow"
+        ],
+        "score": 0.09828948974609375
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.045,
+    "probe_selection_seconds": 1.892,
+    "probe_llm_calls": 4,
+    "probe_search_queries": 12
+  },
+  "reused_outcome": false
+}

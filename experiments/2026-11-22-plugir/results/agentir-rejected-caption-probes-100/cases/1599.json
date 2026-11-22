@@ -1,0 +1,82 @@
+{
+  "qid": 1599,
+  "candidates": [
+    "Question: What color is the baseball player's uniform?",
+    "Question: What color is the baseball player's uniform?",
+    "Question: What color is the baseball player's uniform?",
+    "Question: What color is the baseball player's uniform?",
+    "Question: Where is the baseball player standing?"
+  ],
+  "kl": {
+    "question": "Question: Where is the baseball player standing?",
+    "answer": "at bat.",
+    "rewrite": "a baseball player standing at bat swinging a baseball bat and missing",
+    "raw_rank": 344,
+    "unseen_rank": 334
+  },
+  "probe": {
+    "answer": "White.",
+    "rewrite": "a baseball player in a white uniform swinging a baseball bat and missing",
+    "raw_rank": 348,
+    "unseen_rank": 338,
+    "question": "Question: What color is the baseball player's uniform?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What color is the baseball player's uniform?",
+        "answers": [
+          "red",
+          "white",
+          "blue"
+        ],
+        "score": 0.16646671295166016
+      },
+      {
+        "question": "Question: What color is the baseball player's uniform?",
+        "answers": [
+          "red",
+          "white",
+          "blue"
+        ],
+        "score": 0.16646671295166016,
+        "duplicate_of": 0
+      },
+      {
+        "question": "Question: What color is the baseball player's uniform?",
+        "answers": [
+          "red",
+          "white",
+          "blue"
+        ],
+        "score": 0.16646671295166016,
+        "duplicate_of": 0
+      },
+      {
+        "question": "Question: What color is the baseball player's uniform?",
+        "answers": [
+          "red",
+          "white",
+          "blue"
+        ],
+        "score": 0.16646671295166016,
+        "duplicate_of": 0
+      },
+      {
+        "question": "Question: Where is the baseball player standing?",
+        "answers": [
+          "on the mound",
+          "at bat",
+          "in a crowd"
+        ],
+        "score": 0.06850385665893555
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.049,
+    "probe_selection_seconds": 0.96,
+    "probe_llm_calls": 2,
+    "probe_search_queries": 6
+  },
+  "reused_outcome": false
+}

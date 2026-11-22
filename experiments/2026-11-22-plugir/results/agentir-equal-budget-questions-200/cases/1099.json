@@ -1,0 +1,78 @@
+{
+  "qid": 1099,
+  "sample": 1,
+  "first_candidates": [
+    "what is the other object in the image?",
+    "what is the weather condition in the image?",
+    "Question: what is the weather condition in the image?",
+    "Question: What is the weather condition in the image?",
+    "what is the color of the traffic light in the image?"
+  ],
+  "second_candidates": [
+    "what is the other object in the image?",
+    "Question: What is the sky condition in the image?",
+    "Question: Question: Is there a street sign visible in the image?",
+    "Question: Are there any people visible in the image?",
+    "Question: What is the color of the sky in the image?"
+  ],
+  "paths": [
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "buildings",
+        "houses",
+        "a block"
+      ],
+      "score": 0.013207435607910156
+    },
+    {
+      "question": "Question: What is the sky condition in the image?",
+      "answers": [
+        "cloudy",
+        "sunny",
+        "night"
+      ],
+      "score": 0.0720820426940918
+    },
+    {
+      "question": "Question: Question: Is there a street sign visible in the image?",
+      "answers": [
+        "yes",
+        "no",
+        "maybe"
+      ],
+      "score": 0.003921985626220703
+    },
+    {
+      "question": "Question: Are there any people visible in the image?",
+      "answers": [
+        "No",
+        "Yes",
+        "Hard to tell"
+      ],
+      "score": 0.00264739990234375
+    },
+    {
+      "question": "Question: What is the color of the sky in the image?",
+      "answers": [
+        "cloudy",
+        "blue",
+        "dark"
+      ],
+      "score": 0.0453028678894043
+    }
+  ],
+  "control": {
+    "question": "what is the weather condition in the image?",
+    "score": 0.09086227416992188
+  },
+  "mixed": {
+    "question": "what is the weather condition in the image?",
+    "score": 0.09086227416992188
+  },
+  "control_rank": 10,
+  "mixed_rank": 10,
+  "usual_rank": 10,
+  "new_answer": null,
+  "new_rewrite": null
+}

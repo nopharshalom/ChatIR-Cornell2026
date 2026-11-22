@@ -1,0 +1,179 @@
+{
+  "qid": 695,
+  "initial": "a snowboarder is sitting on the snow with a snowboard on their feet",
+  "initial_rank": 33,
+  "displayed": [
+    717,
+    7939,
+    4,
+    34941,
+    18203,
+    14304,
+    13460,
+    49843,
+    1724,
+    605
+  ],
+  "evidence": [
+    "a person snowboarding in the air in front of a bright blue sky",
+    "a girl is balancing on a surfboard",
+    "a man jumps a snow board off of a roof at a competition",
+    "a person sitting down on the ground with a skateboard",
+    "a small boy stands on a snow board in the snow",
+    "woman sitting on the sand",
+    "man sits on the ground with skis and poles",
+    "a snowboarder jumping down a snow covered mountain",
+    "three people on snowboards that are on top of a cliff",
+    "a man in the snow with a dog in the background"
+  ],
+  "rejected_captions": [
+    "man sitting in the snow",
+    "man on the snow",
+    "a snowboarder sits in the snow",
+    "a person wearing a jacket and hat sits on the ground",
+    "the mountain in the background",
+    "a man in black riding a snowboard on a snowy slope",
+    "a snowboarder sitting on a snowy slope",
+    "a man is sitting down with his snowboard",
+    "the snowboard is green",
+    "the man is on a snowboard"
+  ],
+  "usual": {
+    "candidates": [
+      "what color is the snowboard that the snowboarder is sitting on?",
+      "what is the gender of the person sitting on the snow?",
+      "what is the color of the clothing worn by the person sitting on the snow?",
+      "what is the gender of the person sitting on the snow with a snowboard on their feet?",
+      "what is the gender of the person sitting on the snow with a snowboard on their feet?"
+    ],
+    "question": "what is the color of the clothing worn by the person sitting on the snow?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what color is the snowboard that the snowboarder is sitting on?",
+          "answers": [
+            "blue",
+            "green",
+            "black"
+          ],
+          "score": 0.05940055847167969
+        },
+        {
+          "question": "what is the gender of the person sitting on the snow?",
+          "answers": [
+            "male",
+            "female",
+            "person"
+          ],
+          "score": 0.04268693923950195
+        },
+        {
+          "question": "what is the color of the clothing worn by the person sitting on the snow?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.06963634490966797
+        },
+        {
+          "question": "what is the gender of the person sitting on the snow with a snowboard on their feet?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.03875112533569336
+        },
+        {
+          "question": "what is the gender of the person sitting on the snow with a snowboard on their feet?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.03875112533569336,
+          "duplicate_of": 3
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.104,
+      "probe_selection_seconds": 1.967,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "black",
+    "rewrite": "a snowboarder wearing black clothing sits on the snow with a snowboard on their feet",
+    "raw_rank": 64,
+    "unseen_rank": 54
+  },
+  "rejected": {
+    "candidates": [
+      "Question: Is the snowboarder wearing a hat?",
+      "Question: What color is the snowboard?",
+      "Question: What is the background scenery behind the snowboarder?",
+      "Question: Is the snowboarder wearing a jacket?",
+      "Question: What color is the snowboard?"
+    ],
+    "question": "Question: What color is the snowboard?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: Is the snowboarder wearing a hat?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0016732215881347656
+        },
+        {
+          "question": "Question: What color is the snowboard?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.07019281387329102
+        },
+        {
+          "question": "Question: What is the background scenery behind the snowboarder?",
+          "answers": [
+            "snow",
+            "sky",
+            "mountain"
+          ],
+          "score": 0.018640995025634766
+        },
+        {
+          "question": "Question: Is the snowboarder wearing a jacket?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0013799667358398438
+        },
+        {
+          "question": "Question: What color is the snowboard?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.07019281387329102,
+          "duplicate_of": 1
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.168,
+      "probe_selection_seconds": 1.902,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "white",
+    "rewrite": "a snowboarder is sitting on the snow with a white snowboard on their feet",
+    "raw_rank": 25,
+    "unseen_rank": 15
+  }
+}

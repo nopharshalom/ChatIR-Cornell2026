@@ -1,0 +1,52 @@
+{
+  "chosen": "what is the background environment behind the stop sign?",
+  "default": "what is the other object in the image?",
+  "ids": [
+    9408,
+    29717,
+    19923,
+    9159
+  ],
+  "trials": {
+    "what is the other object in the image?": {
+      "answers": [
+        "stop sign",
+        "stop sign",
+        "stop sign",
+        "a truck"
+      ],
+      "rewrites": {
+        "stop sign": "a stop sign is set up where 3 roads intersect",
+        "a truck": "a stop sign is set up where 3 roads intersect, with a truck nearby"
+      },
+      "ranks": [
+        11,
+        21,
+        32,
+        1
+      ],
+      "hits": 1
+    },
+    "what is the background environment behind the stop sign?": {
+      "answers": [
+        "a hill with trees",
+        "a road",
+        "trees",
+        "a hill with dry grass and a truck on top"
+      ],
+      "rewrites": {
+        "a hill with trees": "a stop sign is set up where 3 roads intersect, with a hill and trees in the background",
+        "a road": "a stop sign is set up where 3 roads intersect, with a road in the background",
+        "trees": "a stop sign is set up where 3 roads intersect with trees in the background",
+        "a hill with dry grass and a truck on top": "a stop sign is set up where 3 roads intersect, with a hill featuring dry grass and a truck on top in the background"
+      },
+      "ranks": [
+        1,
+        6,
+        12,
+        1
+      ],
+      "hits": 3
+    }
+  }
+}

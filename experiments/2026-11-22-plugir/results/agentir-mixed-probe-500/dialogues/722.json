@@ -1,0 +1,277 @@
+{
+  "qid": 722,
+  "sample": "original",
+  "target": "unlabeled2017/000000407878.jpg",
+  "queries": [
+    "2 kids playing kite on a beach with more people in the background",
+    "two kids playing with a kite on a beach with other people in the background",
+    "two kids flying a red kite on a beach with other people in the background"
+  ],
+  "ranks": [
+    81,
+    81,
+    4
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "2 kids playing kite on a beach with more people in the background",
+      "question": "what is the other object in the image?",
+      "answer": "beach",
+      "query_after": "two kids playing with a kite on a beach with other people in the background",
+      "displayed_ids": [
+        7659,
+        41271,
+        20141,
+        2511,
+        8357,
+        7011,
+        11860,
+        35116,
+        41379,
+        2283
+      ],
+      "selected_ids": [
+        11485,
+        28828,
+        42547,
+        47583,
+        12417,
+        23942,
+        46189,
+        16715,
+        4615,
+        37154
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "How many people are visible in the background of the beach scene?",
+          "answers": [
+            "1",
+            "2",
+            "3"
+          ],
+          "score": 0.00010919570922851562
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "kite",
+            "beach",
+            "people"
+          ],
+          "score": 0.004136562347412109
+        },
+        {
+          "question": "what is the color of the kite being flown by the kids?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.04966306686401367
+        },
+        {
+          "question": "what is the gender of the primary kite flyer in the image?",
+          "answers": [
+            "boy",
+            "girl",
+            "man"
+          ],
+          "score": 0.02875518798828125
+        },
+        {
+          "question": "what is the gender of the primary kite flyer in the image?",
+          "answers": [
+            "boy",
+            "girl",
+            "man"
+          ],
+          "score": 0.02875518798828125,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the gender of the children playing with the kite?",
+          "answers": [
+            "boy and girl",
+            "two girls",
+            "two boys"
+          ],
+          "score": 0.03062725067138672
+        },
+        {
+          "question": "Question: **Is the child playing with the kite a boy or a girl?",
+          "answers": [
+            "boy",
+            "girl",
+            "unknown"
+          ],
+          "score": 0.011547088623046875
+        },
+        {
+          "question": "Question: **Are the children playing with the kite male or female?",
+          "answers": [
+            "male",
+            "female",
+            "both"
+          ],
+          "score": 0.029628753662109375
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "beach umbrella",
+            "swimming",
+            "bicycle"
+          ],
+          "score": 0.052950382232666016
+        },
+        {
+          "question": "How many people are visible in the background of the beach scene?",
+          "answers": [
+            "1",
+            "3",
+            "5"
+          ],
+          "score": 0.00015163421630859375
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "two kids playing with a kite on a beach with other people in the background",
+      "question": "Question: What is the color of the kite being flown by the kids?",
+      "answer": "red",
+      "query_after": "two kids flying a red kite on a beach with other people in the background",
+      "displayed_ids": [
+        7659,
+        20141,
+        41271,
+        35116,
+        8357,
+        2283,
+        7011,
+        2511,
+        45733,
+        44647
+      ],
+      "selected_ids": [
+        32154,
+        37154,
+        28828,
+        12055,
+        42547,
+        46189,
+        49801,
+        33302,
+        40532,
+        11377
+      ],
+      "rejected_count": 12,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "beach",
+            "ocean",
+            "sand"
+          ],
+          "score": 0.016037464141845703
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "beach",
+            "ocean",
+            "sand"
+          ],
+          "score": 0.016037464141845703,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the weather condition in the image where the kids are playing with kites?",
+          "answers": [
+            "sunny",
+            "clear",
+            "partly cloudy"
+          ],
+          "score": 0.037381649017333984
+        },
+        {
+          "question": "what is the age group of the people playing with kites in the image?",
+          "answers": [
+            "kids",
+            "children",
+            "adults"
+          ],
+          "score": 0.009960174560546875
+        },
+        {
+          "question": "what is the age group of the people playing with kites in the image?",
+          "answers": [
+            "kids",
+            "children",
+            "adults"
+          ],
+          "score": 0.009960174560546875,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "beach",
+            "ocean",
+            "sand"
+          ],
+          "score": 0.016037464141845703
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "beach",
+            "ocean",
+            "sand"
+          ],
+          "score": 0.016037464141845703,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what are the people in the background doing?",
+          "answers": [
+            "walking",
+            "playing",
+            "standing"
+          ],
+          "score": 0.004511356353759766
+        },
+        {
+          "question": "Question: What is the color of the kite being flown by the kids?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.10950279235839844
+        },
+        {
+          "question": "Question: What is the color of the kite being flown by the kids?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.10950279235839844,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

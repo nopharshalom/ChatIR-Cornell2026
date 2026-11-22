@@ -1,0 +1,79 @@
+{
+  "qid": 1683,
+  "candidates": [
+    "Question: What is the man wearing?",
+    "Question: Question: What is the color of the woman's clothing?",
+    "Question: Where is the man standing in relation to the woman?",
+    "Question: What is the action being performed by the man with the scissors?",
+    "Question: What is the color of the scissors the man is holding?"
+  ],
+  "kl": {
+    "question": "Question: What is the action being performed by the man with the scissors?",
+    "answer": "cutting",
+    "rewrite": "a man is cutting a woman's hair with scissors held above her head",
+    "raw_rank": 38,
+    "unseen_rank": 29
+  },
+  "probe": {
+    "question": "Question: What is the man wearing?",
+    "answer": "hat",
+    "rewrite": "a man wearing a hat is holding scissors above a woman's head",
+    "raw_rank": 2,
+    "unseen_rank": 1
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the man wearing?",
+        "answers": [
+          "shirt",
+          "pants",
+          "hat"
+        ],
+        "score": 0.04224443435668945
+      },
+      {
+        "question": "Question: Question: What is the color of the woman's clothing?",
+        "answers": [
+          "red",
+          "blue",
+          "black"
+        ],
+        "score": 0.03650045394897461
+      },
+      {
+        "question": "Question: Where is the man standing in relation to the woman?",
+        "answers": [
+          "above",
+          "behind",
+          "beside"
+        ],
+        "score": 0.0012536048889160156
+      },
+      {
+        "question": "Question: What is the action being performed by the man with the scissors?",
+        "answers": [
+          "holding",
+          "stabbing",
+          "chopping"
+        ],
+        "score": 0.009238719940185547
+      },
+      {
+        "question": "Question: What is the color of the scissors the man is holding?",
+        "answers": [
+          "red",
+          "black",
+          "silver"
+        ],
+        "score": 0.023934364318847656
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.061,
+    "probe_selection_seconds": 2.24,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": true
+}

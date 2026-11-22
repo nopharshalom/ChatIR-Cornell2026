@@ -1,0 +1,79 @@
+{
+  "qid": 2062,
+  "candidates": [
+    "Question: What is the material of the table where the breakfast plates are placed?",
+    "what color is the tablecloth on the table where the breakfast plates are placed?",
+    "What type of food is on the plates next to the people?",
+    "Question: What is the gender of the people sitting next to the breakfast plates?",
+    "Question: How many people are sitting next to the breakfast plates?"
+  ],
+  "kl": {
+    "question": "Question: What is the material of the table where the breakfast plates are placed?",
+    "answer": "wood",
+    "rewrite": "the breakfast plates are on a wooden table next to the people",
+    "raw_rank": 200,
+    "unseen_rank": 190
+  },
+  "probe": {
+    "answer": "pancakes",
+    "rewrite": "pancakes on plates are on the table next to the people",
+    "raw_rank": 36,
+    "unseen_rank": 34,
+    "question": "What type of food is on the plates next to the people?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the material of the table where the breakfast plates are placed?",
+        "answers": [
+          "wooden",
+          "glass",
+          "plastic"
+        ],
+        "score": 0.06309890747070312
+      },
+      {
+        "question": "what color is the tablecloth on the table where the breakfast plates are placed?",
+        "answers": [
+          "white",
+          "beige",
+          "checkered"
+        ],
+        "score": 0.028625011444091797
+      },
+      {
+        "question": "What type of food is on the plates next to the people?",
+        "answers": [
+          "egg on pizza",
+          "fried egg with vegetables",
+          "breakfast foods like fruits and bread"
+        ],
+        "score": 0.1313767433166504
+      },
+      {
+        "question": "Question: What is the gender of the people sitting next to the breakfast plates?",
+        "answers": [
+          "male",
+          "female",
+          "group"
+        ],
+        "score": 0.03016042709350586
+      },
+      {
+        "question": "Question: How many people are sitting next to the breakfast plates?",
+        "answers": [
+          "one",
+          "two",
+          "three"
+        ],
+        "score": 0.005305767059326172
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.045,
+    "probe_selection_seconds": 2.427,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": false
+}

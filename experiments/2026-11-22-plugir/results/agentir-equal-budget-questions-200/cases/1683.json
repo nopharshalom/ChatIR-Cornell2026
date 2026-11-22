@@ -1,0 +1,80 @@
+{
+  "qid": 1683,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the man's shirt in the image where a man is holding scissors above a woman's head?",
+    "what is the location of the man holding scissors above a woman's head?",
+    "what is the color of the scissors the man is holding?",
+    "what is the relationship between the man and the woman in the image where a man is holding scissors above a woman's head?",
+    "what is the color of the woman's hair in the image where a man is holding scissors above a woman's head?"
+  ],
+  "second_candidates": [
+    "What is the emotion or expression on the woman's face?",
+    "what is the other object in the image?",
+    "What is the woman's reaction to the man holding scissors above her head?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "paths": [
+    {
+      "question": "What is the emotion or expression on the woman's face?",
+      "answers": [
+        "scared",
+        "surprised",
+        "angry"
+      ],
+      "score": 0.0030679702758789062
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "woman",
+        "living room",
+        "crowd"
+      ],
+      "score": 0.18738603591918945
+    },
+    {
+      "question": "What is the woman's reaction to the man holding scissors above her head?",
+      "answers": [
+        "scared",
+        "laughing",
+        "angry"
+      ],
+      "score": 0.005029201507568359
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "woman",
+        "living room",
+        "crowd"
+      ],
+      "score": 0.18738603591918945,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "woman",
+        "living room",
+        "crowd"
+      ],
+      "score": 0.18738603591918945,
+      "duplicate_of": 1
+    }
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "score": 0.18738603591918945
+  },
+  "mixed": {
+    "question": "what is the location of the man holding scissors above a woman's head?",
+    "score": 0.05498075485229492
+  },
+  "control_rank": 12,
+  "mixed_rank": 21,
+  "usual_rank": 21,
+  "new_answer": "a woman",
+  "new_rewrite": "A man is holding scissors over a woman's head."
+}

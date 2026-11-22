@@ -1,0 +1,60 @@
+{
+  "qid": 2029,
+  "arm": "fresh",
+  "after_round": 5,
+  "ranks": [
+    21,
+    18,
+    26,
+    35,
+    24,
+    27,
+    24,
+    27,
+    24,
+    27,
+    26
+  ],
+  "continuation": [
+    {
+      "round": 6,
+      "query_before": "A man in a white hat is feeding a gray elephant.",
+      "question": "Is the man feeding the elephant or a giraffe?",
+      "answer": "elephant",
+      "query_after": "a man wearing a white hat feeds a gray elephant",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Is the man feeding the elephant or a giraffe?",
+      "fallback": false
+    },
+    {
+      "round": 7,
+      "query_before": "a man wearing a white hat feeds a gray elephant",
+      "question": "what is the other object in the image?",
+      "answer": "elephant",
+      "query_after": "a man wearing a white hat is feeding a gray elephant, with no other objects or specific background visible"
+    },
+    {
+      "round": 8,
+      "query_before": "a man wearing a white hat is feeding a gray elephant, with no other objects or specific background visible",
+      "question": "what is the other object in the image?",
+      "answer": "elephant",
+      "query_after": "a man wearing a white hat feeds a gray elephant"
+    },
+    {
+      "round": 9,
+      "query_before": "a man wearing a white hat feeds a gray elephant",
+      "question": "what is the other object in the image?",
+      "answer": "elephant",
+      "query_after": "A man in a white hat is feeding a gray elephant."
+    },
+    {
+      "round": 10,
+      "query_before": "A man in a white hat is feeding a gray elephant.",
+      "question": "what is the other object in the image?",
+      "answer": "elephant",
+      "query_after": "a man wearing a white hat is feeding a gray elephant"
+    }
+  ],
+  "seconds": 98.1
+}

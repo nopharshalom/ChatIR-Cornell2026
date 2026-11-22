@@ -1,0 +1,79 @@
+{
+  "qid": 882,
+  "sample": 1,
+  "first_candidates": [
+    "Question: What is the man sitting on the bench by the water wearing?",
+    "Question: What is the man sitting on the bench by the water holding?",
+    "what is the color of the bench where the man is sitting by the water?",
+    "what is the man sitting on the bench by the water holding?",
+    "what is the location of the bench where the man is sitting by the water?"
+  ],
+  "second_candidates": [
+    "Question: Is the man sitting on a decorated bench or an empty one?",
+    "what is the man sitting on the bench by the water wearing?",
+    "Question: Is the man sitting on the bench near a beach or in a city?",
+    "Question: What is the man sitting on the bench by the water wearing?",
+    "what is the man sitting on the bench by the water wearing?"
+  ],
+  "paths": [
+    {
+      "question": "Question: Is the man sitting on a decorated bench or an empty one?",
+      "answers": [
+        "decorated",
+        "empty",
+        "I don't know"
+      ],
+      "score": 0.006950855255126953
+    },
+    {
+      "question": "what is the man sitting on the bench by the water wearing?",
+      "answers": [
+        "black wetsuit",
+        "blue jacket",
+        "white shirt"
+      ],
+      "score": 0.1561121940612793
+    },
+    {
+      "question": "Question: Is the man sitting on the bench near a beach or in a city?",
+      "answers": [
+        "beach",
+        "city",
+        "unknown"
+      ],
+      "score": 0.010885238647460938
+    },
+    {
+      "question": "Question: What is the man sitting on the bench by the water wearing?",
+      "answers": [
+        "black wetsuit",
+        "swimsuit",
+        "tuxedo"
+      ],
+      "score": 0.07220172882080078
+    },
+    {
+      "question": "what is the man sitting on the bench by the water wearing?",
+      "answers": [
+        "black wetsuit",
+        "blue jacket",
+        "white shirt"
+      ],
+      "score": 0.1561121940612793,
+      "duplicate_of": 1
+    }
+  ],
+  "control": {
+    "question": "what is the man sitting on the bench by the water wearing?",
+    "score": 0.1561121940612793
+  },
+  "mixed": {
+    "question": "what is the other object in the image?",
+    "score": 0.10993432998657227
+  },
+  "control_rank": 2,
+  "mixed_rank": 8,
+  "usual_rank": 2,
+  "new_answer": "a red and white checkered shirt",
+  "new_rewrite": "a man wearing a red and white checkered shirt is sitting on a bench by the water"
+}

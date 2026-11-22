@@ -1,0 +1,78 @@
+{
+  "qid": 1828,
+  "sample": 1,
+  "first_candidates": [
+    "Question: What is the weather condition during the scene where the man is riding a bike down a city street?",
+    "Question: What is the man wearing while riding the bike?",
+    "Question: What color is the jacket the man is wearing while riding the bike?",
+    "Question: Is there a dog on the bike the man is riding?",
+    "Question: What is the weather condition during the scene where the man is riding a bike down a city street?"
+  ],
+  "second_candidates": [
+    "Question: What color jacket is the man riding the bike wearing?",
+    "Question: Is there a dog on the bike the man is riding?",
+    "Question: What color helmet is the man riding the bike wearing?",
+    "Question: What is the weather condition where the man is riding the bike?",
+    "what is the other object in the image?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What color jacket is the man riding the bike wearing?",
+      "answers": [
+        "blue",
+        "yellow",
+        "no jacket"
+      ],
+      "score": 0.08063077926635742
+    },
+    {
+      "question": "Question: Is there a dog on the bike the man is riding?",
+      "answers": [
+        "yes",
+        "no",
+        "maybe"
+      ],
+      "score": 0.0008053779602050781
+    },
+    {
+      "question": "Question: What color helmet is the man riding the bike wearing?",
+      "answers": [
+        "yellow",
+        "black",
+        "white"
+      ],
+      "score": 0.06665563583374023
+    },
+    {
+      "question": "Question: What is the weather condition where the man is riding the bike?",
+      "answers": [
+        "sunny",
+        "rainy",
+        "cloudy"
+      ],
+      "score": 0.06556940078735352
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "motorcycle",
+        "umbrella",
+        "street"
+      ],
+      "score": 0.15031099319458008
+    }
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "score": 0.15031099319458008
+  },
+  "mixed": {
+    "question": "Question: What is the man wearing while riding the bike?",
+    "score": 0.14984416961669922
+  },
+  "control_rank": 1,
+  "mixed_rank": 5,
+  "usual_rank": 5,
+  "new_answer": "stop sign",
+  "new_rewrite": "a man riding a bike down a city street with a stop sign"
+}

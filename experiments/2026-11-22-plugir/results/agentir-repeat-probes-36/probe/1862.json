@@ -1,0 +1,87 @@
+{
+  "qid": 1862,
+  "arm": "probe",
+  "after_round": 5,
+  "ranks": [
+    176,
+    301,
+    223,
+    196,
+    40,
+    42,
+    40,
+    55,
+    16,
+    41,
+    120
+  ],
+  "continuation": [
+    {
+      "round": 6,
+      "query_before": "A sunny city street scene featuring a green traffic light located in the upper right quadrant, along with a stop sign.",
+      "question": "Is the traffic light green or red?",
+      "answer": "green",
+      "query_after": "a sunny city street scene featuring a green traffic light in the upper right quadrant and a stop sign",
+      "searches": [
+        {
+          "query": "a city street during the middle of the day with a green traffic light in the upper right quadrant and a stop sign, featuring a busy crowd of people and cars",
+          "ids": [
+            5422,
+            40762,
+            19870
+          ],
+          "captions": [
+            "a street scene with a crowd of people and vehicles",
+            "old cars and people",
+            "a plane flying over a city street surrounded by people"
+          ]
+        },
+        {
+          "query": "a city street during the middle of the day with a green traffic light in the upper right quadrant and a stop sign, featuring a quiet empty intersection with no vehicles",
+          "ids": [
+            14399,
+            204,
+            49249
+          ],
+          "captions": [
+            "a street is going through a city that has trees",
+            "a street with an empty traffic signal",
+            "a city street crossing a street with trees and a street sign"
+          ]
+        }
+      ],
+      "raw_plan": "a city street during the middle of the day with a green traffic light in the upper right quadrant and a stop sign, featuring a busy crowd of people and cars\na city street during the middle of the day with a green traffic light in the upper right quadrant and a stop sign, featuring a quiet empty intersection with no vehicles",
+      "generated": "Is the traffic light green or red?",
+      "fallback": false
+    },
+    {
+      "round": 7,
+      "query_before": "a sunny city street scene featuring a green traffic light in the upper right quadrant and a stop sign",
+      "question": "what is the time of day depicted in the image?",
+      "answer": "daytime",
+      "query_after": "a sunny city street during the daytime featuring a green traffic light in the upper right quadrant and a stop sign"
+    },
+    {
+      "round": 8,
+      "query_before": "a sunny city street during the daytime featuring a green traffic light in the upper right quadrant and a stop sign",
+      "question": "what is the object located in the lower left quadrant of the image?",
+      "answer": "white car",
+      "query_after": "a sunny daytime city street scene featuring a green traffic light in the upper right quadrant and a stop sign, with a white car located in the lower left quadrant"
+    },
+    {
+      "round": 9,
+      "query_before": "a sunny daytime city street scene featuring a green traffic light in the upper right quadrant and a stop sign, with a white car located in the lower left quadrant",
+      "question": "what is the color of the building in the image?",
+      "answer": "orange",
+      "query_after": "a sunny daytime city street scene featuring an orange building, a green traffic light in the upper right, a stop sign, and a white car in the lower left"
+    },
+    {
+      "round": 10,
+      "query_before": "a sunny daytime city street scene featuring an orange building, a green traffic light in the upper right, a stop sign, and a white car in the lower left",
+      "question": "what is the other object in the image?",
+      "answer": "stop sign",
+      "query_after": "a sunny daytime city street scene featuring an orange building, a white car in the lower left, and a green traffic light in the upper right along with a stop sign"
+    }
+  ],
+  "seconds": 51.7
+}

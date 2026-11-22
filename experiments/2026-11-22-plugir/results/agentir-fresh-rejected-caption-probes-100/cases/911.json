@@ -1,0 +1,179 @@
+{
+  "qid": 911,
+  "initial": "the man is talking on his cell phone whilst making a strange face as someone else in a ny beanie has a face of shock on a busy street corner",
+  "initial_rank": 13,
+  "displayed": [
+    7851,
+    30541,
+    20671,
+    12915,
+    15001,
+    41882,
+    10206,
+    23479,
+    45272,
+    48133
+  ],
+  "evidence": [
+    "a person is skateboarding across a street",
+    "a woman talking on a cell phone at night",
+    "a person on a curb jumping over a sign",
+    "four men sitting on a curb with skateboards",
+    "a crosswalk with bus and car traffic and a group of people",
+    "an intersection with several police cars and motorcycles",
+    "three people are crossing a street with a skateboard",
+    "a group of people walking in the sidewalk near the sidewalk with luggage",
+    "a traffic light with two street signs hanging",
+    "a woman walking across a crowded street"
+  ],
+  "rejected_captions": [
+    "a person on a cellphone on a city street",
+    "an old fashioned car in the street",
+    "a man in an orange blazer walking",
+    "an old woman is holding a stick",
+    "a black and white photo of men walking down a street",
+    "a man in a hat on a cell phone",
+    "the man is talking on his cellphone",
+    "a street crossing and a building",
+    "the man has a camera on him",
+    "white shirt on a young man"
+  ],
+  "usual": {
+    "candidates": [
+      "What is the color of the beanie worn by the person who is shocked?",
+      "what is the color of the beanie worn by the man?",
+      "what is the other object in the image?",
+      "what is the color of the beanie worn by the person who is shocked?",
+      "what is the color of the beanie worn by the man?"
+    ],
+    "question": "what is the other object in the image?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "What is the color of the beanie worn by the person who is shocked?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.020832061767578125
+        },
+        {
+          "question": "what is the color of the beanie worn by the man?",
+          "answers": [
+            "black",
+            "blue",
+            "grey"
+          ],
+          "score": 0.017995357513427734
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a skateboard",
+            "a bus",
+            "a traffic light"
+          ],
+          "score": 0.14691686630249023
+        },
+        {
+          "question": "what is the color of the beanie worn by the person who is shocked?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.027736186981201172
+        },
+        {
+          "question": "what is the color of the beanie worn by the man?",
+          "answers": [
+            "black",
+            "blue",
+            "grey"
+          ],
+          "score": 0.017995357513427734,
+          "duplicate_of": 1
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.072,
+      "probe_selection_seconds": 1.948,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "person",
+    "rewrite": "a man talking on his cell phone with a strange face, standing next to a person in a New York beanie who has a shocked expression, on a busy street corner",
+    "raw_rank": 5,
+    "unseen_rank": 1
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the color of the beanie worn by the man talking on his cell phone?",
+      "what is the color of the beanie worn by the man talking on his cell phone?",
+      "Question: What is the background activity or setting of the busy street corner where the man is talking on his cell phone?",
+      "Question: What is the color of the beanie worn by the person showing a face of shock?",
+      "Question: What is the color of the beanie worn by the person showing a face of shock?"
+    ],
+    "question": "Question: What is the background activity or setting of the busy street corner where the man is talking on his cell phone?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the color of the beanie worn by the man talking on his cell phone?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.0279693603515625
+        },
+        {
+          "question": "what is the color of the beanie worn by the man talking on his cell phone?",
+          "answers": [
+            "black",
+            "blue",
+            "grey"
+          ],
+          "score": 0.020372390747070312
+        },
+        {
+          "question": "Question: What is the background activity or setting of the busy street corner where the man is talking on his cell phone?",
+          "answers": [
+            "a crosswalk with bus and car traffic and a group of people",
+            "an intersection with several police cars and motorcycles",
+            "a person is skateboarding across a street"
+          ],
+          "score": 0.10778999328613281
+        },
+        {
+          "question": "Question: What is the color of the beanie worn by the person showing a face of shock?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.03113269805908203
+        },
+        {
+          "question": "Question: What is the color of the beanie worn by the person showing a face of shock?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.03113269805908203,
+          "duplicate_of": 3
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.079,
+      "probe_selection_seconds": 2.366,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "The background shows a busy street corner at night with blurred lights from cars and buildings, suggesting an urban setting.",
+    "rewrite": "a man talking on his cell phone with a strange face stands on a busy urban street corner at night, with blurred lights from cars and buildings in the background, while another person wearing a New York beanie displays a shocked expression",
+    "raw_rank": 1,
+    "unseen_rank": 1
+  }
+}

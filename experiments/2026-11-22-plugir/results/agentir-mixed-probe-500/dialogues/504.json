@@ -1,0 +1,808 @@
+{
+  "qid": 504,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000129793.jpg",
+  "queries": [
+    "a bathroom with a shower, sink and toilet",
+    "a bathroom with yellow tiles, featuring a shower, sink, and toilet",
+    "a bathroom with a yellow-tiled shower, sink, and toilet",
+    "a bathroom with yellow tiles, a yellow shower, a white shower curtain, a sink, and a toilet",
+    "a bathroom with yellow tiles, a yellow shower, a white shower curtain, and yellow towels",
+    "a bathroom with yellow tiles, a yellow shower, a white shower curtain, yellow towels, and a yellow bathtub",
+    "a bathroom with yellow tiles, a yellow shower, a white shower curtain, yellow towels, a yellow bathtub, and a yellow sink"
+  ],
+  "ranks": [
+    315,
+    65,
+    51,
+    43,
+    62,
+    22,
+    9
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a bathroom with a shower, sink and toilet",
+      "question": "Question: What color are the tiles in the bathroom with a shower, sink, and toilet?",
+      "answer": "yellow",
+      "query_after": "a bathroom with yellow tiles, featuring a shower, sink, and toilet",
+      "displayed_ids": [
+        39086,
+        27457,
+        32083,
+        49540,
+        42580,
+        36963,
+        44230,
+        18783,
+        48838,
+        15300
+      ],
+      "selected_ids": [
+        37512,
+        2785,
+        11653,
+        2681,
+        20187,
+        49673,
+        2146,
+        23125,
+        30236,
+        39299
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: What is the color of the shower curtain in the bathroom with a shower, sink, and toilet?",
+          "answers": [
+            "blue",
+            "none",
+            "white"
+          ],
+          "score": 0.062252044677734375
+        },
+        {
+          "question": "Question: What is the color of the bathtub in the bathroom with a shower, sink, and toilet?",
+          "answers": [
+            "white",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.12623119354248047
+        },
+        {
+          "question": "Question: What color are the tiles in the bathroom with a shower, sink, and toilet?",
+          "answers": [
+            "white",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.1674027442932129
+        },
+        {
+          "question": "Question: What is the color of the toilet in the bathroom with a shower, sink, and toilet?",
+          "answers": [
+            "white",
+            "green",
+            "yellow"
+          ],
+          "score": 0.11641931533813477
+        },
+        {
+          "question": "Question: What is the color of the sink in the bathroom with a shower, sink, and toilet?",
+          "answers": [
+            "white",
+            "green",
+            "blue"
+          ],
+          "score": 0.1175537109375
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the shower curtain in the bathroom?",
+          "answers": [
+            "blue",
+            "white",
+            "none"
+          ],
+          "score": 0.06873416900634766
+        },
+        {
+          "question": "Question: What is the color of the bathtub in the bathroom?",
+          "answers": [
+            "white",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.14223241806030273
+        },
+        {
+          "question": "Question: What color are the tiles in the bathroom?",
+          "answers": [
+            "white",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.16535329818725586
+        },
+        {
+          "question": "Question: What is the color of the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "green",
+            "yellow"
+          ],
+          "score": 0.13256406784057617
+        },
+        {
+          "question": "Question: What color is the bathtub in the bathroom?",
+          "answers": [
+            "white",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.1348714828491211
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a bathroom with yellow tiles, featuring a shower, sink, and toilet",
+      "question": "what is the color of the shower in the bathroom with yellow tiles?",
+      "answer": "yellow",
+      "query_after": "a bathroom with a yellow-tiled shower, sink, and toilet",
+      "displayed_ids": [
+        32083,
+        42030,
+        1671,
+        22929,
+        47766,
+        49461,
+        15300,
+        5272,
+        23010,
+        22903
+      ],
+      "selected_ids": [
+        47186,
+        23696,
+        11546,
+        2681,
+        11653,
+        39299,
+        1122,
+        27914,
+        34482,
+        23322
+      ],
+      "rejected_count": 18,
+      "usual_paths": [
+        {
+          "question": "what is the color of the shower in the bathroom with a shower, sink, and toilet?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.08246707916259766
+        },
+        {
+          "question": "what is the color of the shower in the bathroom with a shower, sink, and toilet?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.08246707916259766,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the shower in the bathroom that has a glass shower door and dual sinks?",
+          "answers": [
+            "clear",
+            "transparent",
+            "white"
+          ],
+          "score": 0.009536266326904297
+        },
+        {
+          "question": "what is the color of the shower in the bathroom with a shower, sink, and toilet?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.08246707916259766,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the shower in the bathroom?",
+          "answers": [
+            "white",
+            "glass",
+            "yellow"
+          ],
+          "score": 0.026230812072753906
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the shower in the bathroom?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.06021738052368164
+        },
+        {
+          "question": "what is the material of the shower in the bathroom?",
+          "answers": [
+            "glass",
+            "white",
+            "tile"
+          ],
+          "score": 0.027161598205566406
+        },
+        {
+          "question": "what is the color of the shower in the bathroom with yellow tiles?",
+          "answers": [
+            "white",
+            "green",
+            "blue"
+          ],
+          "score": 0.08697509765625
+        },
+        {
+          "question": "what is the material of the shower in the bathroom with yellow tiles?",
+          "answers": [
+            "glass",
+            "tile",
+            "white"
+          ],
+          "score": 0.03852701187133789
+        },
+        {
+          "question": "what is the color of the shower in the bathroom with yellow tiles?",
+          "answers": [
+            "white",
+            "green",
+            "blue"
+          ],
+          "score": 0.08697509765625,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a bathroom with a yellow-tiled shower, sink, and toilet",
+      "question": "what is the color of the shower curtain in the bathroom with yellow tiles?",
+      "answer": "white",
+      "query_after": "a bathroom with yellow tiles, a yellow shower, a white shower curtain, a sink, and a toilet",
+      "displayed_ids": [
+        22929,
+        47766,
+        1671,
+        32083,
+        42030,
+        15895,
+        5272,
+        15300,
+        22903,
+        36092
+      ],
+      "selected_ids": [
+        22404,
+        28968,
+        1040,
+        1493,
+        11653,
+        39299,
+        41888,
+        11546,
+        39790
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what is the color of the shower curtain in the bathroom with yellow tiles?",
+          "answers": [
+            "blue",
+            "patterned",
+            "yellow"
+          ],
+          "score": 0.053429603576660156
+        },
+        {
+          "question": "what is the color of the shower curtain in the bathroom with yellow tiles?",
+          "answers": [
+            "blue",
+            "patterned",
+            "yellow"
+          ],
+          "score": 0.053429603576660156,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the shower curtain in the bathroom with yellow tiles?",
+          "answers": [
+            "blue",
+            "patterned",
+            "yellow"
+          ],
+          "score": 0.053429603576660156,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the shower curtain in the yellow tiled bathroom?",
+          "answers": [
+            "blue",
+            "patterned",
+            "unknown"
+          ],
+          "score": 0.045595645904541016
+        },
+        {
+          "question": "what is the color of the shower curtain in the bathroom with yellow tiles and a blue shower curtain?",
+          "answers": [
+            "blue",
+            "yellow",
+            "patterned"
+          ],
+          "score": 0.01012563705444336
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the shower curtain in the bathroom with yellow tiles?",
+          "answers": [
+            "blue",
+            "patterned",
+            "yellow"
+          ],
+          "score": 0.053429603576660156
+        },
+        {
+          "question": "what is the color of the shower curtain in the bathroom with yellow tiles?",
+          "answers": [
+            "blue",
+            "patterned",
+            "yellow"
+          ],
+          "score": 0.053429603576660156,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the shower curtain in the bathroom with yellow tiles?",
+          "answers": [
+            "blue",
+            "patterned",
+            "yellow"
+          ],
+          "score": 0.053429603576660156,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the sink in the bathroom with yellow tiles and a yellow shower?",
+          "answers": [
+            "yellow",
+            "white",
+            "blue"
+          ],
+          "score": 0.03975343704223633
+        },
+        {
+          "question": "what is the color of the shower curtain in the bathroom with yellow tiles and a yellow shower?",
+          "answers": [
+            "yellow",
+            "blue",
+            "patterned"
+          ],
+          "score": 0.034519195556640625
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a bathroom with yellow tiles, a yellow shower, a white shower curtain, a sink, and a toilet",
+      "question": "what is the color of the towels in the yellow bathroom with a shower and sink?",
+      "answer": "yellow",
+      "query_after": "a bathroom with yellow tiles, a yellow shower, a white shower curtain, and yellow towels",
+      "displayed_ids": [
+        22929,
+        28597,
+        47766,
+        15895,
+        36092,
+        1671,
+        37512,
+        49461,
+        31824,
+        7531
+      ],
+      "selected_ids": [
+        20187,
+        39299,
+        5475,
+        24836,
+        35766,
+        32992,
+        32336,
+        11546,
+        34482,
+        29592
+      ],
+      "rejected_count": 24,
+      "usual_paths": [
+        {
+          "question": "what is the color of the towel rack in the bathroom with yellow tiles?",
+          "answers": [
+            "white",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.025511741638183594
+        },
+        {
+          "question": "what is the color of the towel rack in the bathroom with yellow tiles?",
+          "answers": [
+            "white",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.025511741638183594,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom with yellow tiles?",
+          "answers": [
+            "white",
+            "yellow",
+            "cream"
+          ],
+          "score": 0.004979610443115234
+        },
+        {
+          "question": "what is the color of the towel rack in the bathroom with yellow tiles?",
+          "answers": [
+            "white",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.025511741638183594,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the towel rack in the bathroom with yellow tiles?",
+          "answers": [
+            "white",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.025511741638183594,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color are the towels in the yellow bathroom with a shower and sink?",
+          "answers": [
+            "white",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.02473306655883789
+        },
+        {
+          "question": "what is the color of the towels in the yellow bathroom with a shower and sink?",
+          "answers": [
+            "white",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.026252269744873047
+        },
+        {
+          "question": "what color are the towels in the bathroom that has yellow tiles and a white shower curtain?",
+          "answers": [
+            "white",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.024575233459472656
+        },
+        {
+          "question": "what color is the sink in the bathroom with yellow tiles and a white shower curtain?",
+          "answers": [
+            "white",
+            "yellow",
+            "silver"
+          ],
+          "score": 0.008778572082519531
+        },
+        {
+          "question": "what color is the toilet in the bathroom with yellow tiles and a white shower curtain?",
+          "answers": [
+            "white",
+            "cream",
+            "off-white"
+          ],
+          "score": 0.0036458969116210938
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a bathroom with yellow tiles, a yellow shower, a white shower curtain, and yellow towels",
+      "question": "what is the color of the bathtub in the bathroom with yellow tiles, a shower, and a sink?",
+      "answer": "yellow",
+      "query_after": "a bathroom with yellow tiles, a yellow shower, a white shower curtain, yellow towels, and a yellow bathtub",
+      "displayed_ids": [
+        22929,
+        1671,
+        36092,
+        7531,
+        15895,
+        32992,
+        47766,
+        28597,
+        5272,
+        23010
+      ],
+      "selected_ids": [
+        26096,
+        29592,
+        20187,
+        39299,
+        36186,
+        2146,
+        2824,
+        29052,
+        2785,
+        43774
+      ],
+      "rejected_count": 25,
+      "usual_paths": [
+        {
+          "question": "what is the color of the bathtub in the bathroom with yellow tiles, a shower, and a sink?",
+          "answers": [
+            "yellow",
+            "white",
+            "blue"
+          ],
+          "score": 0.031222820281982422
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom with yellow tiles, a shower, and a sink?",
+          "answers": [
+            "yellow",
+            "white",
+            "blue"
+          ],
+          "score": 0.026856422424316406
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with yellow tiles, a shower, and a sink?",
+          "answers": [
+            "yellow",
+            "white",
+            "blue"
+          ],
+          "score": 0.031222820281982422,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom with yellow tiles, a shower, and a sink?",
+          "answers": [
+            "yellow",
+            "white",
+            "blue"
+          ],
+          "score": 0.026856422424316406,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with yellow tiles, a shower, and a sink?",
+          "answers": [
+            "yellow",
+            "white",
+            "blue"
+          ],
+          "score": 0.031222820281982422,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the toilet in the bathroom with yellow tiles?",
+          "answers": [
+            "yellow",
+            "white",
+            "blue"
+          ],
+          "score": 0.02480936050415039
+        },
+        {
+          "question": "Question: What color is the toilet in the bathroom with yellow tiles?",
+          "answers": [
+            "yellow",
+            "white",
+            "blue"
+          ],
+          "score": 0.024383544921875
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom with yellow tiles?",
+          "answers": [
+            "yellow",
+            "white",
+            "blue"
+          ],
+          "score": 0.02480936050415039,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom with yellow tiles?",
+          "answers": [
+            "yellow",
+            "white",
+            "blue"
+          ],
+          "score": 0.02480936050415039,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom with yellow tiles?",
+          "answers": [
+            "yellow",
+            "white",
+            "blue"
+          ],
+          "score": 0.02480936050415039,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a bathroom with yellow tiles, a yellow shower, a white shower curtain, yellow towels, and a yellow bathtub",
+      "question": "what is the color of the sink in the bathroom with yellow tiles, a shower, and a toilet?",
+      "answer": "yellow",
+      "query_after": "a bathroom with yellow tiles, a yellow shower, a white shower curtain, yellow towels, a yellow bathtub, and a yellow sink",
+      "displayed_ids": [
+        1671,
+        28597,
+        22929,
+        47766,
+        7531,
+        23010,
+        5272,
+        32017,
+        837,
+        32992
+      ],
+      "selected_ids": [
+        19219,
+        40676,
+        26877,
+        2785,
+        2146,
+        24890,
+        39299,
+        29592,
+        23663,
+        730
+      ],
+      "rejected_count": 27,
+      "usual_paths": [
+        {
+          "question": "what is the color of the toilet in the bathroom with yellow tiles, a shower, and a sink?",
+          "answers": [
+            "yellow",
+            "white",
+            "blue"
+          ],
+          "score": 0.024204730987548828
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom with yellow tiles, a shower, and a sink?",
+          "answers": [
+            "yellow",
+            "white",
+            "blue"
+          ],
+          "score": 0.024204730987548828,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom with yellow tiles, a shower, and a sink?",
+          "answers": [
+            "yellow",
+            "white",
+            "blue"
+          ],
+          "score": 0.024204730987548828,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the sink in the bathroom with yellow tiles, a shower, and a toilet?",
+          "answers": [
+            "yellow",
+            "white",
+            "silver"
+          ],
+          "score": 0.013436317443847656
+        },
+        {
+          "question": "what is the color of the sink in the bathroom with yellow tiles, a shower, and a toilet?",
+          "answers": [
+            "yellow",
+            "white",
+            "silver"
+          ],
+          "score": 0.013436317443847656,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the toilet in the bathroom with yellow tiles, a shower, and a sink?",
+          "answers": [
+            "yellow",
+            "white",
+            "blue"
+          ],
+          "score": 0.024204730987548828
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom with yellow tiles, a shower, and a sink?",
+          "answers": [
+            "yellow",
+            "white",
+            "blue"
+          ],
+          "score": 0.024204730987548828,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the sink in the bathroom with yellow tiles, a shower, and a toilet?",
+          "answers": [
+            "yellow",
+            "white",
+            "blue"
+          ],
+          "score": 0.024268627166748047
+        },
+        {
+          "question": "what is the color of the sink in the bathroom with yellow tiles, a shower, and a toilet?",
+          "answers": [
+            "yellow",
+            "white",
+            "blue"
+          ],
+          "score": 0.024268627166748047,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the color of the sink in the bathroom with yellow tiles, a shower, and a toilet?",
+          "answers": [
+            "yellow",
+            "white",
+            "gray"
+          ],
+          "score": 0.014826297760009766
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

@@ -1,0 +1,51 @@
+{
+  "qid": 1731,
+  "arm": "fresh",
+  "after_round": 4,
+  "ranks": [
+    68,
+    77,
+    22,
+    29,
+    22,
+    28,
+    34,
+    15,
+    6
+  ],
+  "continuation": [
+    {
+      "round": 5,
+      "query_before": "a brown and white dog is laying on a cotton bed in front of a window",
+      "question": "Is the dog wearing a hat?",
+      "answer": "no",
+      "query_after": "a brown and white dog is laying on a cotton bed in front of a window, without a hat",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Is the dog wearing a hat?",
+      "fallback": false
+    },
+    {
+      "round": 6,
+      "query_before": "a brown and white dog is laying on a cotton bed in front of a window, without a hat",
+      "question": "what is the other object in the image?",
+      "answer": "window",
+      "query_after": "A brown and white dog is lying on a cotton bed in front of a window, not wearing a hat."
+    },
+    {
+      "round": 7,
+      "query_before": "A brown and white dog is lying on a cotton bed in front of a window, not wearing a hat.",
+      "question": "Is the window in the image open or closed?",
+      "answer": "closed",
+      "query_after": "a brown and white dog is laying on a cotton bed in front of a closed window"
+    },
+    {
+      "round": 8,
+      "query_before": "a brown and white dog is laying on a cotton bed in front of a closed window",
+      "question": "what is the color of the wall behind the window?",
+      "answer": "blue",
+      "query_after": "a brown and white dog is laying on a cotton bed in front of a closed window with a blue wall behind it"
+    }
+  ],
+  "seconds": 37.5
+}

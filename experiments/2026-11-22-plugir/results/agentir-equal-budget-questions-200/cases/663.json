@@ -1,0 +1,78 @@
+{
+  "qid": 663,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the building with the tall clock tower?",
+    "what is the material the tall tower with the clock near the top is made of?",
+    "what is the lighting condition of the image featuring the very tall tower with a clock near the top?",
+    "what is the location of the tall tower with the clock near the top?",
+    "what is the color of the clock on the very tall tower?"
+  ],
+  "second_candidates": [
+    "what is the color of the building in the image?",
+    "Question: what is the material of the very tall tower with a clock near the top?",
+    "Question: what is the color of the very tall tower with a clock near the top?",
+    "Question: What is the color of the clock tower?",
+    "what is the color of the clock tower in the image?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the building in the image?",
+      "answers": [
+        "red",
+        "grey",
+        "black and white"
+      ],
+      "score": 0.19411659240722656
+    },
+    {
+      "question": "Question: what is the material of the very tall tower with a clock near the top?",
+      "answers": [
+        "stone",
+        "brick",
+        "black and white"
+      ],
+      "score": 0.12539196014404297
+    },
+    {
+      "question": "Question: what is the color of the very tall tower with a clock near the top?",
+      "answers": [
+        "red brick",
+        "grey stone",
+        "black and white"
+      ],
+      "score": 0.22895431518554688
+    },
+    {
+      "question": "Question: What is the color of the clock tower?",
+      "answers": [
+        "red",
+        "grey",
+        "black and white"
+      ],
+      "score": 0.16430091857910156
+    },
+    {
+      "question": "what is the color of the clock tower in the image?",
+      "answers": [
+        "black",
+        "red",
+        "grey"
+      ],
+      "score": 0.13077068328857422
+    }
+  ],
+  "control": {
+    "question": "Question: what is the color of the very tall tower with a clock near the top?",
+    "score": 0.22895431518554688
+  },
+  "mixed": {
+    "question": "Question: What is the color of the clock tower itself?",
+    "score": 0.2264876365661621
+  },
+  "control_rank": 38,
+  "mixed_rank": 30,
+  "usual_rank": 20,
+  "new_answer": "brown",
+  "new_rewrite": "a very tall brown tower with a clock near the top"
+}

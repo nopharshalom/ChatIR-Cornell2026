@@ -1,0 +1,79 @@
+{
+  "qid": 1663,
+  "candidates": [
+    "what color are the street signs at the intersection?",
+    "Question: What object is visible next to the multiple signs at the intersection?",
+    "what is the background environment behind the multiple signs at the intersection?",
+    "what is the color of the pole holding the multiple signs at the intersection?",
+    "Question: What is the color of the street signs at the intersection?"
+  ],
+  "kl": {
+    "question": "what is the background environment behind the multiple signs at the intersection?",
+    "answer": "trees",
+    "rewrite": "multiple signs at an intersection depicting direction of traffic, parking legality, and the names of adjoining roads, with trees in the background",
+    "raw_rank": 81,
+    "unseen_rank": 72
+  },
+  "probe": {
+    "answer": "green",
+    "rewrite": "a green multiple sign at an intersection depicting direction of traffic, parking legality, and the names of adjoining roads",
+    "raw_rank": 177,
+    "unseen_rank": 167,
+    "question": "what color are the street signs at the intersection?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "what color are the street signs at the intersection?",
+        "answers": [
+          "green",
+          "blue",
+          "red"
+        ],
+        "score": 0.17606353759765625
+      },
+      {
+        "question": "Question: What object is visible next to the multiple signs at the intersection?",
+        "answers": [
+          "building",
+          "bike",
+          "car"
+        ],
+        "score": 0.04706001281738281
+      },
+      {
+        "question": "what is the background environment behind the multiple signs at the intersection?",
+        "answers": [
+          "an old building",
+          "a tall building",
+          "a grassy hillside"
+        ],
+        "score": 0.10674524307250977
+      },
+      {
+        "question": "what is the color of the pole holding the multiple signs at the intersection?",
+        "answers": [
+          "green",
+          "blue",
+          "black"
+        ],
+        "score": 0.10950517654418945
+      },
+      {
+        "question": "Question: What is the color of the street signs at the intersection?",
+        "answers": [
+          "green",
+          "blue",
+          "white"
+        ],
+        "score": 0.09700250625610352
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.053,
+    "probe_selection_seconds": 2.508,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": false
+}

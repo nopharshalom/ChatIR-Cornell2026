@@ -1,0 +1,79 @@
+{
+  "qid": 1219,
+  "candidates": [
+    "Question: What color is the toilet in the bathroom?",
+    "Question: What color is the shower curtain or shower door in the bathroom?",
+    "Question: What color is the sink in the bathroom?",
+    "what color is the toilet in the bathroom?",
+    "what color is the wall in the bathroom?"
+  ],
+  "kl": {
+    "question": "what color is the wall in the bathroom?",
+    "answer": "white",
+    "rewrite": "a bathroom with white walls and a shower",
+    "raw_rank": 315,
+    "unseen_rank": 308
+  },
+  "probe": {
+    "answer": "white",
+    "rewrite": "a bathroom with gray walls, a white toilet, and a shower",
+    "raw_rank": 356,
+    "unseen_rank": 346,
+    "question": "what color is the toilet in the bathroom?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What color is the toilet in the bathroom?",
+        "answers": [
+          "white",
+          "gray",
+          "blue"
+        ],
+        "score": 0.04272651672363281
+      },
+      {
+        "question": "Question: What color is the shower curtain or shower door in the bathroom?",
+        "answers": [
+          "gray",
+          "blue",
+          "white"
+        ],
+        "score": 0.04121875762939453
+      },
+      {
+        "question": "Question: What color is the sink in the bathroom?",
+        "answers": [
+          "white",
+          "black",
+          "silver"
+        ],
+        "score": 0.03956937789916992
+      },
+      {
+        "question": "what color is the toilet in the bathroom?",
+        "answers": [
+          "white",
+          "gray",
+          "blue"
+        ],
+        "score": 0.05278444290161133
+      },
+      {
+        "question": "what color is the wall in the bathroom?",
+        "answers": [
+          "gray",
+          "white",
+          "blue"
+        ],
+        "score": 0.04741621017456055
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.088,
+    "probe_selection_seconds": 2.203,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": false
+}

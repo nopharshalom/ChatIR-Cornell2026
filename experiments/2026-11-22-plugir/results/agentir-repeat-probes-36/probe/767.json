@@ -1,0 +1,61 @@
+{
+  "qid": 767,
+  "arm": "probe",
+  "after_round": 3,
+  "ranks": [
+    11,
+    17,
+    17,
+    17,
+    17,
+    6
+  ],
+  "continuation": [
+    {
+      "round": 4,
+      "query_before": "a man stands on top of a red fire hydrant next to a pole",
+      "question": "Is the person standing on the fire hydrant or riding a skateboard?",
+      "answer": "standing on the fire hydrant",
+      "query_after": "A man is standing on top of a red fire hydrant beside a pole.",
+      "searches": [
+        {
+          "query": "a man stands on top of a red fire hydrant next to a pole",
+          "ids": [
+            11001,
+            2179,
+            32262
+          ],
+          "captions": [
+            "a man taking a picture of a fire hydrant with his phone",
+            "a kid is on top of a fire hydrant",
+            "young man is standing on top of another man"
+          ]
+        },
+        {
+          "query": "a man stands on top of a blue fire hydrant next to a pole",
+          "ids": [
+            11397,
+            33172,
+            11001
+          ],
+          "captions": [
+            "a child looking up at a fire hydrant",
+            "a guy riding a snowboard on a pipe at night",
+            "a man taking a picture of a fire hydrant with his phone"
+          ]
+        }
+      ],
+      "raw_plan": "a man stands on top of a red fire hydrant next to a pole\na man stands on top of a blue fire hydrant next to a pole",
+      "generated": "Is the person standing on the fire hydrant or riding a skateboard?",
+      "fallback": false
+    },
+    {
+      "round": 5,
+      "query_before": "A man is standing on top of a red fire hydrant beside a pole.",
+      "question": "what is the color of the jacket worn by the man standing on the fire hydrant?",
+      "answer": "no jacket",
+      "query_after": "a man wearing no jacket stands on top of a red fire hydrant next to a pole"
+    }
+  ],
+  "seconds": 10.8
+}

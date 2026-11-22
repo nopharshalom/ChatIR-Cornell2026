@@ -1,0 +1,71 @@
+{
+  "qid": 679,
+  "initial": "a little boy swings a large bat and hits a ball",
+  "initial_rank": 13,
+  "evidence": [
+    "a baseball game is in progress",
+    "a child holding a tennis racket while walking through an empty parking lot",
+    "a catcher swinging a bat while another player is in the catcher's box",
+    "baseball player wearing white helmet",
+    "a baseball field with a large group of people playing baseball",
+    "a baseball player swinging a bat in front of the crowd",
+    "a group of baseball players on a field",
+    "young boy kicking a soccer ball",
+    "a baseball player has his bat ready",
+    "a baseball player swinging a bat while the catcher and uber is at home plate"
+  ],
+  "displayed_ids": [
+    43015,
+    43881,
+    7406,
+    22683,
+    12332,
+    31595,
+    26879,
+    44503,
+    6011,
+    14559
+  ],
+  "rejected_captions": [
+    "a child in a park swinging a bat",
+    "boy in blue shorts and green shirt",
+    "a little boy swinging a baseball bat at a ball",
+    "a child swinging a baseball bat at a ball",
+    "a small boy swinging a bat at a ball while in the yard",
+    "a small child is standing with a baseball bat",
+    "a child is swinging a baseball bat",
+    "a boy swinging a bat while at a baseball practice",
+    "the boy is swinging a baseball bat",
+    "the boy has a catcher's mitt"
+  ],
+  "candidates": [
+    "Question: What is the location where the boy is swinging the bat?",
+    "Question: What color is the shirt the boy is wearing?",
+    "Question: What color is the helmet the boy is wearing?",
+    "what is the other object in the image?",
+    "What is the boy wearing while swinging the bat?"
+  ],
+  "control_candidates": [
+    "Question: what is the location where the little boy is swinging the bat?",
+    "what is the age of the person swinging the bat?",
+    "what is the color of the bat that the little boy is swinging?",
+    "what is the color of the ball that the little boy is hitting?",
+    "Question: what is the setting or background of the scene where the little boy is swinging the bat?"
+  ],
+  "control": {
+    "question": "what is the age of the person swinging the bat?",
+    "answer": "toddler",
+    "rewrite": "a toddler swings a large bat and hits a ball",
+    "rank": 9,
+    "hit": true,
+    "raw_rank": 9,
+    "unseen_rank": 2
+  },
+  "variant": {
+    "question": "What is the boy wearing while swinging the bat?",
+    "answer": "hoodie",
+    "rewrite": "a little boy wearing a hoodie swings a large bat and hits a ball",
+    "raw_rank": 2,
+    "unseen_rank": 1
+  }
+}

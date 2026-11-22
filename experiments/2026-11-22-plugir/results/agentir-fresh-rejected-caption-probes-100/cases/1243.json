@@ -1,0 +1,178 @@
+{
+  "qid": 1243,
+  "initial": "2 people posing while sitting in a restaurant",
+  "initial_rank": 109,
+  "displayed": [
+    25693,
+    49495,
+    46214,
+    39241,
+    15916,
+    36648,
+    36893,
+    19856,
+    40404,
+    32045
+  ],
+  "evidence": [
+    "group photo of some people at tables and some with laptops",
+    "a man is sitting in a restaurant and eating pizza",
+    "a woman eats dinner at a table",
+    "a young girl is sitting at a dinner table in a restaurant",
+    "woman at a table with food and beverage",
+    "four women sitting at a table eating",
+    "a group of people eating pizza at a table outdoors",
+    "man standing next to woman wearing blue dress",
+    "two women sitting at a wooden table with wine",
+    "a trio of men sit in a table and drink"
+  ],
+  "rejected_captions": [
+    "a person standing beside the man",
+    "man and woman eating with chop sticks",
+    "man is smiling",
+    "a man and woman sitting at a table",
+    "a man and a woman sit at a table",
+    "the two people are in a restaurant",
+    "woman wearing a purple dress",
+    "a man in blue shirt",
+    "a man wearing a blue jacket",
+    "the couple is standing behind a bar"
+  ],
+  "usual": {
+    "candidates": [
+      "Question: What are the two people sitting in the restaurant eating?",
+      "what is the gender of the two people posing while sitting in the restaurant?",
+      "Question: What is the gender of the two people sitting at the table in the restaurant?",
+      "Is the table where the two people are sitting made of wood?",
+      "What are the two people in the image wearing?"
+    ],
+    "question": "What are the two people in the image wearing?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What are the two people sitting in the restaurant eating?",
+          "answers": [
+            "pizza",
+            "dinner",
+            "wine"
+          ],
+          "score": 0.13658905029296875
+        },
+        {
+          "question": "what is the gender of the two people posing while sitting in the restaurant?",
+          "answers": [
+            "male and female",
+            "female and female",
+            "male and male"
+          ],
+          "score": 0.013562679290771484
+        },
+        {
+          "question": "Question: What is the gender of the two people sitting at the table in the restaurant?",
+          "answers": [
+            "two men",
+            "two women",
+            "one man and one woman"
+          ],
+          "score": 0.029924392700195312
+        },
+        {
+          "question": "Is the table where the two people are sitting made of wood?",
+          "answers": [
+            "yes",
+            "no",
+            "don't know"
+          ],
+          "score": 0.0008225440979003906
+        },
+        {
+          "question": "What are the two people in the image wearing?",
+          "answers": [
+            "blue dress and casual clothes",
+            "both wearing business suits",
+            "one in a red shirt and the other in jeans"
+          ],
+          "score": 0.18149518966674805
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.076,
+      "probe_selection_seconds": 2.79,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "The two people in the image are wearing:\n\n- A purple shirt and sunglasses.\n- A black shirt with green accents and sunglasses.",
+    "rewrite": "two people wearing sunglasses, one in a purple shirt and the other in a black shirt with green accents, posing while sitting in a restaurant",
+    "raw_rank": 13,
+    "unseen_rank": 9
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the gender of the two people posing in the restaurant?",
+      "Question: What color is the dress worn by the woman in the photo?",
+      "Question: What color is the jacket worn by the man in the photo?",
+      "Question: What is the gender composition of the two people posing in the restaurant (e.g., two men, two women, or one of each)?",
+      "Question: What color is the jacket worn by the man in the photo?"
+    ],
+    "question": "Question: What color is the dress worn by the woman in the photo?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the gender of the two people posing in the restaurant?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.0136871337890625
+        },
+        {
+          "question": "Question: What color is the dress worn by the woman in the photo?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.07325458526611328
+        },
+        {
+          "question": "Question: What color is the jacket worn by the man in the photo?",
+          "answers": [
+            "black",
+            "blue",
+            "grey"
+          ],
+          "score": 0.036210060119628906
+        },
+        {
+          "question": "Question: What is the gender composition of the two people posing in the restaurant (e.g., two men, two women, or one of each)?",
+          "answers": [
+            "two men",
+            "two women",
+            "one man and one woman"
+          ],
+          "score": 0.013428688049316406
+        },
+        {
+          "question": "Question: What color is the jacket worn by the man in the photo?",
+          "answers": [
+            "black",
+            "blue",
+            "grey"
+          ],
+          "score": 0.036210060119628906,
+          "duplicate_of": 2
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.06,
+      "probe_selection_seconds": 1.868,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "purple",
+    "rewrite": "two people, a man and a woman in a purple dress, posing while sitting in a restaurant",
+    "raw_rank": 69,
+    "unseen_rank": 61
+  }
+}

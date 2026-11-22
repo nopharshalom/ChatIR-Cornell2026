@@ -1,0 +1,1321 @@
+{
+  "qid": 1111,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000223409.jpg",
+  "queries": [
+    "a small kitchen space is very clean with no dishes or food items",
+    "a small, very clean kitchen space with no dishes or food items, featuring a stainless steel sink",
+    "a small, very clean kitchen with white cabinets and a stainless steel sink, with no dishes or food items",
+    "a small, very clean white kitchen with white cabinets and a white stainless steel sink, containing no dishes or food items",
+    "a small, very clean kitchen with white cabinets and a white refrigerator, featuring a stainless steel sink and linoleum floors",
+    "a small, very clean kitchen with white cabinets and a white refrigerator, featuring a stainless steel sink, a black stove, and linoleum floors",
+    "a small, clean kitchen with white cabinets and a white refrigerator, featuring a stainless steel sink, a black stove, and linoleum floors",
+    "a small, very clean kitchen with white cabinets made of wood, a white refrigerator, a black stove, stainless steel sink, and linoleum floors, with no dishes or food items visible",
+    "a small, clean kitchen with white cabinets and a white refrigerator, featuring a stainless steel sink, a black stove, green countertops, and linoleum floors",
+    "a small, very clean kitchen with white cabinets made of wood, a white refrigerator, a black stove, a green countertop, and linoleum floors, with no dishes or food items visible",
+    "a small, clean kitchen with white cabinets made of wood, a white refrigerator, a black stove, a silver sink, a green countertop, and linoleum floors"
+  ],
+  "ranks": [
+    181,
+    216,
+    99,
+    149,
+    103,
+    182,
+    153,
+    423,
+    34,
+    36,
+    76
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a small kitchen space is very clean with no dishes or food items",
+      "question": "**Question:** What material is the sink in the kitchen?",
+      "answer": "stainless steel",
+      "query_after": "a small, very clean kitchen space with no dishes or food items, featuring a stainless steel sink",
+      "displayed_ids": [
+        17227,
+        38648,
+        42447,
+        46176,
+        77,
+        25690,
+        46978,
+        744,
+        13081,
+        46316
+      ],
+      "selected_ids": [
+        37836,
+        25258,
+        17279,
+        7746,
+        40070,
+        18865,
+        46123,
+        32524,
+        4686,
+        31833
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the stove in the kitchen?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.16009807586669922
+        },
+        {
+          "question": "what color are the cabinets in the kitchen?",
+          "answers": [
+            "black",
+            "silver",
+            "wood"
+          ],
+          "score": 0.1709156036376953
+        },
+        {
+          "question": "Question: what color is the refrigerator in the kitchen?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.14418601989746094
+        },
+        {
+          "question": "Question: What is the material of the floor in the kitchen?",
+          "answers": [
+            "wood",
+            "hardwood",
+            "stainless steel"
+          ],
+          "score": 0.14749670028686523
+        },
+        {
+          "question": "**Question:** What color is the sink in the kitchen?",
+          "answers": [
+            "stainless steel",
+            "black",
+            "silver"
+          ],
+          "score": 0.12267255783081055
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color are the cabinets in the kitchen?",
+          "answers": [
+            "black",
+            "white",
+            "wood"
+          ],
+          "score": 0.1405653953552246
+        },
+        {
+          "question": "what color is the floor in the kitchen?",
+          "answers": [
+            "wood",
+            "hardwood",
+            "stainless steel"
+          ],
+          "score": 0.12073707580566406
+        },
+        {
+          "question": "Question: What color is the refrigerator in the kitchen?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.14418601989746094
+        },
+        {
+          "question": "Question: What color is the stove in the kitchen?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.1322917938232422
+        },
+        {
+          "question": "**Question:** What material is the sink in the kitchen?",
+          "answers": [
+            "stainless steel",
+            "wood",
+            "black"
+          ],
+          "score": 0.22723102569580078
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a small, very clean kitchen space with no dishes or food items, featuring a stainless steel sink",
+      "question": "what color are the cabinets in the small kitchen?",
+      "answer": "white",
+      "query_after": "a small, very clean kitchen with white cabinets and a stainless steel sink, with no dishes or food items",
+      "displayed_ids": [
+        1775,
+        44936,
+        537,
+        761,
+        21888,
+        37655,
+        22927,
+        18481,
+        974,
+        24587
+      ],
+      "selected_ids": [
+        3592,
+        3230,
+        22566,
+        45267,
+        24418,
+        5676,
+        47832,
+        18865,
+        16780,
+        5576
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what color are the cabinets in the small kitchen?",
+          "answers": [
+            "white",
+            "wood",
+            "black"
+          ],
+          "score": 0.17833614349365234
+        },
+        {
+          "question": "what color are the cabinets in the small kitchen?",
+          "answers": [
+            "white",
+            "wood",
+            "black"
+          ],
+          "score": 0.17833614349365234,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color are the cabinets in the small kitchen space?",
+          "answers": [
+            "white",
+            "wooden",
+            "black"
+          ],
+          "score": 0.16912317276000977
+        },
+        {
+          "question": "what is the color of the ceiling in the small kitchen?",
+          "answers": [
+            "white",
+            "wooden",
+            "beige"
+          ],
+          "score": 0.12848806381225586
+        },
+        {
+          "question": "what is the color of the ceiling in the small kitchen?",
+          "answers": [
+            "white",
+            "wooden",
+            "beige"
+          ],
+          "score": 0.12848806381225586,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color are the cabinets in the small kitchen?",
+          "answers": [
+            "white",
+            "wood",
+            "black"
+          ],
+          "score": 0.17833614349365234
+        },
+        {
+          "question": "what color is the floor in the small kitchen?",
+          "answers": [
+            "wood",
+            "hardwood",
+            "tile"
+          ],
+          "score": 0.1259164810180664
+        },
+        {
+          "question": "what color is the refrigerator in the small kitchen?",
+          "answers": [
+            "white",
+            "black",
+            "stainless steel"
+          ],
+          "score": 0.13816499710083008
+        },
+        {
+          "question": "what color is the ceiling in the small kitchen?",
+          "answers": [
+            "white",
+            "wooden",
+            "beige"
+          ],
+          "score": 0.13058042526245117
+        },
+        {
+          "question": "What is the color of the cabinets in the small kitchen?",
+          "answers": [
+            "white",
+            "wooden",
+            "gray"
+          ],
+          "score": 0.13878536224365234
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "a small, very clean kitchen with white cabinets and a stainless steel sink, with no dishes or food items",
+      "question": "what color is the refrigerator in the small, clean kitchen?",
+      "answer": "white",
+      "query_after": "a small, very clean white kitchen with white cabinets and a white stainless steel sink, containing no dishes or food items",
+      "displayed_ids": [
+        1775,
+        45784,
+        11731,
+        761,
+        41305,
+        14797,
+        974,
+        24418,
+        24372,
+        24587
+      ],
+      "selected_ids": [
+        14946,
+        28882,
+        5676,
+        24418,
+        47832,
+        34091,
+        2287,
+        22566,
+        9769,
+        3230
+      ],
+      "rejected_count": 26,
+      "usual_paths": [
+        {
+          "question": "what appliance is missing from the small, clean kitchen?",
+          "answers": [
+            "dishwasher",
+            "oven",
+            "microwave"
+          ],
+          "score": 0.0653085708618164
+        },
+        {
+          "question": "what color is the refrigerator in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "black",
+            "silver"
+          ],
+          "score": 0.08949136734008789
+        },
+        {
+          "question": "what color is the stove in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "black",
+            "stainless steel"
+          ],
+          "score": 0.08936405181884766
+        },
+        {
+          "question": "what color is the microwave in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "stainless steel",
+            "black"
+          ],
+          "score": 0.08438730239868164
+        },
+        {
+          "question": "what is the color of the stove in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "black",
+            "silver"
+          ],
+          "score": 0.07461166381835938
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the refrigerator in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "black",
+            "silver"
+          ],
+          "score": 0.08949136734008789
+        },
+        {
+          "question": "what color is the stove in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "black",
+            "stainless steel"
+          ],
+          "score": 0.08936405181884766
+        },
+        {
+          "question": "what color is the floor in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "wooden",
+            "tile"
+          ],
+          "score": 0.07244300842285156
+        },
+        {
+          "question": "what color is the microwave in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "stainless steel",
+            "black"
+          ],
+          "score": 0.08438730239868164
+        },
+        {
+          "question": "What color is the stove in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "black",
+            "silver"
+          ],
+          "score": 0.08286619186401367
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a small, very clean white kitchen with white cabinets and a white stainless steel sink, containing no dishes or food items",
+      "question": "what material are the floors in the small, clean kitchen?",
+      "answer": "linoleum",
+      "query_after": "a small, very clean kitchen with white cabinets and a white refrigerator, featuring a stainless steel sink and linoleum floors",
+      "displayed_ids": [
+        1775,
+        11731,
+        45784,
+        41305,
+        24418,
+        761,
+        14974,
+        14797,
+        2455,
+        18299
+      ],
+      "selected_ids": [
+        30445,
+        22566,
+        22571,
+        24728,
+        21762,
+        2287,
+        9323,
+        6090,
+        3230,
+        10209
+      ],
+      "rejected_count": 29,
+      "usual_paths": [
+        {
+          "question": "what color are the floors in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "wooden",
+            "tile"
+          ],
+          "score": 0.052414894104003906
+        },
+        {
+          "question": "what material are the floors in the small, clean kitchen?",
+          "answers": [
+            "wooden",
+            "white tile",
+            "blue"
+          ],
+          "score": 0.10705280303955078
+        },
+        {
+          "question": "what is the color of the stove in the small, clean kitchen?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.05787038803100586
+        },
+        {
+          "question": "what material is the stove in the small, clean kitchen?",
+          "answers": [
+            "stainless steel",
+            "black",
+            "white"
+          ],
+          "score": 0.06538581848144531
+        },
+        {
+          "question": "what is the color of the stove in the small, clean kitchen?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.05787038803100586,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color are the floors in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "wooden",
+            "tile"
+          ],
+          "score": 0.052414894104003906
+        },
+        {
+          "question": "Question: What color are the floors in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "wooden",
+            "tile"
+          ],
+          "score": 0.06006431579589844
+        },
+        {
+          "question": "what color are the floors in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "wooden",
+            "tile"
+          ],
+          "score": 0.052414894104003906,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color are the floors in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "wooden",
+            "tile"
+          ],
+          "score": 0.052414894104003906,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the stove in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "black",
+            "silver"
+          ],
+          "score": 0.057869911193847656
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a small, very clean kitchen with white cabinets and a white refrigerator, featuring a stainless steel sink and linoleum floors",
+      "question": "what color is the stove in the small, clean kitchen?",
+      "answer": "black",
+      "query_after": "a small, very clean kitchen with white cabinets and a white refrigerator, featuring a stainless steel sink, a black stove, and linoleum floors",
+      "displayed_ids": [
+        38629,
+        17055,
+        11731,
+        1775,
+        24418,
+        35200,
+        77,
+        761,
+        17420,
+        7435
+      ],
+      "selected_ids": [
+        40880,
+        25420,
+        6090,
+        32524,
+        18865,
+        2287,
+        47752,
+        39018,
+        36643,
+        819
+      ],
+      "rejected_count": 34,
+      "usual_paths": [
+        {
+          "question": "what color is the stove in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "wood",
+            "silver"
+          ],
+          "score": 0.09088754653930664
+        },
+        {
+          "question": "what color is the stove in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "wood",
+            "silver"
+          ],
+          "score": 0.09088754653930664,
+          "duplicate_of": 0
+        },
+        {
+          "question": "What material is the stove in the small, clean kitchen?",
+          "answers": [
+            "stainless steel",
+            "white",
+            "wood"
+          ],
+          "score": 0.08937406539916992
+        },
+        {
+          "question": "what is the color of the stove in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "silver",
+            "wood"
+          ],
+          "score": 0.07622671127319336
+        },
+        {
+          "question": "what color is the stove in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "wood",
+            "silver"
+          ],
+          "score": 0.09088754653930664,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What appliance is located next to the refrigerator in the small, clean kitchen?",
+          "answers": [
+            "stove",
+            "dishwasher",
+            "oven"
+          ],
+          "score": 0.042919158935546875
+        },
+        {
+          "question": "Question: Is there a microwave in the small, clean kitchen?",
+          "answers": [
+            "yes",
+            "no",
+            "unsure"
+          ],
+          "score": 0.004622936248779297
+        },
+        {
+          "question": "Question: What color is the stove in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "silver",
+            "wood"
+          ],
+          "score": 0.07773828506469727
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "refrigerator",
+            "stove",
+            "dishwasher"
+          ],
+          "score": 0.08636760711669922
+        },
+        {
+          "question": "Where are the food items stored in the small, clean kitchen?",
+          "answers": [
+            "in the cabinets",
+            "in the refrigerator",
+            "nowhere"
+          ],
+          "score": 0.010667800903320312
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a small, very clean kitchen with white cabinets and a white refrigerator, featuring a stainless steel sink, a black stove, and linoleum floors",
+      "question": "**Generated Question:**\nWhat color is the refrigerator in the small, clean kitchen?",
+      "answer": "white",
+      "query_after": "a small, clean kitchen with white cabinets and a white refrigerator, featuring a stainless steel sink, a black stove, and linoleum floors",
+      "displayed_ids": [
+        45784,
+        11731,
+        36659,
+        38629,
+        48657,
+        17420,
+        26563,
+        24418,
+        761,
+        24968
+      ],
+      "selected_ids": [
+        2451,
+        18865,
+        709,
+        36186,
+        32524,
+        17672,
+        10617,
+        36643,
+        25258,
+        12730
+      ],
+      "rejected_count": 38,
+      "usual_paths": [
+        {
+          "question": "What is the lighting like in the small, clean kitchen?",
+          "answers": [
+            "bright",
+            "dim",
+            "natural"
+          ],
+          "score": 0.006293296813964844
+        },
+        {
+          "question": "what color is the refrigerator in the small, clean kitchen with black countertops?",
+          "answers": [
+            "white",
+            "black",
+            "silver"
+          ],
+          "score": 0.017949581146240234
+        },
+        {
+          "question": "Based on the provided information sources, here is the generated question and the explanation of the reasoning:\n\n**Generated Question:**\n\"What color is the countertop in?",
+          "answers": [
+            "tiled",
+            "hardwood",
+            "checkered"
+          ],
+          "score": 0.04347515106201172
+        },
+        {
+          "question": "**Generated Question:**\nWhat color is the countertop in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "black",
+            "gray"
+          ],
+          "score": 0.0350489616394043
+        },
+        {
+          "question": "**Generated Question:**\nWhat color is the refrigerator in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "black",
+            "silver"
+          ],
+          "score": 0.06052207946777344
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the countertop in the small, clean kitchen with white cabinets and a black stove?",
+          "answers": [
+            "white",
+            "black",
+            "gray"
+          ],
+          "score": 0.017244815826416016
+        },
+        {
+          "question": "what color is the countertop in the small, clean kitchen with white cabinets and a black stove?",
+          "answers": [
+            "white",
+            "black",
+            "gray"
+          ],
+          "score": 0.017244815826416016,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the countertop in the small, clean kitchen with white cabinets and a black stove?",
+          "answers": [
+            "white",
+            "black",
+            "gray"
+          ],
+          "score": 0.017244815826416016,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the countertop in the small, clean kitchen with white cabinets and a black stove?",
+          "answers": [
+            "white",
+            "black",
+            "gray"
+          ],
+          "score": 0.017244815826416016,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the countertop in the small, clean kitchen with white cabinets and a black stove?",
+          "answers": [
+            "white",
+            "black",
+            "gray"
+          ],
+          "score": 0.017244815826416016,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a small, clean kitchen with white cabinets and a white refrigerator, featuring a stainless steel sink, a black stove, and linoleum floors",
+      "question": "**Generated Question:** What material are the cabinets in the small, clean kitchen?",
+      "answer": "wood",
+      "query_after": "a small, very clean kitchen with white cabinets made of wood, a white refrigerator, a black stove, stainless steel sink, and linoleum floors, with no dishes or food items visible",
+      "displayed_ids": [
+        45784,
+        11731,
+        36659,
+        17420,
+        38629,
+        48657,
+        40917,
+        26563,
+        761,
+        24418
+      ],
+      "selected_ids": [
+        32524,
+        17672,
+        10617,
+        39778,
+        14797,
+        21787,
+        46176,
+        36643,
+        18865,
+        14946
+      ],
+      "rejected_count": 39,
+      "usual_paths": [
+        {
+          "question": "**Generated Question:**\nWhat is the material of the cabinets in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "silver",
+            "dark"
+          ],
+          "score": 0.053308963775634766
+        },
+        {
+          "question": "What color is the stove in the small, clean kitchen?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.054947853088378906
+        },
+        {
+          "question": "**Generated Question:** What material are the cabinets in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "silver",
+            "wood"
+          ],
+          "score": 0.08295965194702148
+        },
+        {
+          "question": "What is the material of the stove in the small, clean kitchen?",
+          "answers": [
+            "stainless steel",
+            "black",
+            "white"
+          ],
+          "score": 0.0626368522644043
+        },
+        {
+          "question": "**Generated Question:**\nWhat color is the stove in the small, clean kitchen?",
+          "answers": [
+            "black",
+            "silver",
+            "white"
+          ],
+          "score": 0.05964851379394531
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "cat",
+            "dishwasher",
+            "oven"
+          ],
+          "score": 0.032724857330322266
+        },
+        {
+          "question": "**Generated Question:**\nWhat color is the sink in the small, clean kitchen?",
+          "answers": [
+            "stainless steel",
+            "black",
+            "white"
+          ],
+          "score": 0.05991315841674805
+        },
+        {
+          "question": "**Generated Question:**\nIs there a cat in the kitchen?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0009250640869140625
+        },
+        {
+          "question": "**Generated Question:**\nIs there a cat in the small, clean kitchen?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0012178421020507812
+        },
+        {
+          "question": "Is there a cat in the small, clean kitchen?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0020689964294433594
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a small, very clean kitchen with white cabinets made of wood, a white refrigerator, a black stove, stainless steel sink, and linoleum floors, with no dishes or food items visible",
+      "question": "What color is the countertop in the small, clean kitchen?",
+      "answer": "green",
+      "query_after": "a small, clean kitchen with white cabinets and a white refrigerator, featuring a stainless steel sink, a black stove, green countertops, and linoleum floors",
+      "displayed_ids": [
+        45784,
+        9624,
+        18865,
+        77,
+        43973,
+        39010,
+        46857,
+        7746,
+        33392,
+        15524
+      ],
+      "selected_ids": [
+        2086,
+        32524,
+        31833,
+        17672,
+        20586,
+        49370,
+        18865,
+        9624,
+        36643
+      ],
+      "rejected_count": 47,
+      "usual_paths": [
+        {
+          "question": "**Generated Question:** What material are the countertops in the small, clean kitchen?",
+          "answers": [
+            "granite",
+            "white",
+            "wood"
+          ],
+          "score": 0.03002309799194336
+        },
+        {
+          "question": "**Generated Question:** What color is the countertop in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "wood",
+            "black"
+          ],
+          "score": 0.02895498275756836
+        },
+        {
+          "question": "**Generated Question:** What material are the countertops in the small, clean kitchen?",
+          "answers": [
+            "granite",
+            "white",
+            "wood"
+          ],
+          "score": 0.03002309799194336,
+          "duplicate_of": 0
+        },
+        {
+          "question": "What color are the countertops in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "wood",
+            "gray"
+          ],
+          "score": 0.03172445297241211
+        },
+        {
+          "question": "What color are the countertops in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "wood",
+            "gray"
+          ],
+          "score": 0.03172445297241211,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "**Generated Question:** What material are the countertops in the small, clean kitchen?",
+          "answers": [
+            "granite",
+            "white",
+            "wood"
+          ],
+          "score": 0.03002309799194336
+        },
+        {
+          "question": "**Generated Question:** What color is the countertop in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "wood",
+            "black"
+          ],
+          "score": 0.02895498275756836
+        },
+        {
+          "question": "**Generated Question:** What material are the countertops in the small, clean kitchen?",
+          "answers": [
+            "granite",
+            "white",
+            "wood"
+          ],
+          "score": 0.03002309799194336,
+          "duplicate_of": 0
+        },
+        {
+          "question": "What color is the countertop in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "wood",
+            "black"
+          ],
+          "score": 0.03572273254394531
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "cabinet",
+            "counter",
+            "stove"
+          ],
+          "score": 0.006341457366943359
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a small, clean kitchen with white cabinets and a white refrigerator, featuring a stainless steel sink, a black stove, green countertops, and linoleum floors",
+      "question": "What is the color of the countertop in the small, clean kitchen?",
+      "answer": "green",
+      "query_after": "a small, very clean kitchen with white cabinets made of wood, a white refrigerator, a black stove, a green countertop, and linoleum floors, with no dishes or food items visible",
+      "displayed_ids": [
+        40917,
+        25144,
+        7378,
+        45784,
+        17227,
+        44849,
+        36659,
+        38629,
+        33279,
+        6287
+      ],
+      "selected_ids": [
+        32524,
+        44849,
+        25126,
+        21233,
+        32862,
+        7378,
+        10617,
+        9624,
+        22566,
+        26803
+      ],
+      "rejected_count": 52,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sink",
+            "window",
+            "cabinet"
+          ],
+          "score": 0.02287578582763672
+        },
+        {
+          "question": "What is the color of the countertop in the small, clean kitchen?",
+          "answers": [
+            "green",
+            "white",
+            "wood"
+          ],
+          "score": 0.056742191314697266
+        },
+        {
+          "question": "What is the color of the countertop in the small, clean kitchen?",
+          "answers": [
+            "green",
+            "white",
+            "wood"
+          ],
+          "score": 0.056742191314697266,
+          "duplicate_of": 1
+        },
+        {
+          "question": "What is the color of the countertop in the small, clean kitchen?",
+          "answers": [
+            "green",
+            "white",
+            "wood"
+          ],
+          "score": 0.056742191314697266,
+          "duplicate_of": 1
+        },
+        {
+          "question": "What is the color of the countertop in the small, clean kitchen?",
+          "answers": [
+            "green",
+            "white",
+            "wood"
+          ],
+          "score": 0.056742191314697266,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sink",
+            "window",
+            "cabinet"
+          ],
+          "score": 0.02287578582763672
+        },
+        {
+          "question": "**Generated Question:** What is the color of the countertop in the small, clean kitchen?",
+          "answers": [
+            "green",
+            "white",
+            "wood"
+          ],
+          "score": 0.05013895034790039
+        },
+        {
+          "question": "What is the color of the countertop in the small, clean kitchen?",
+          "answers": [
+            "green",
+            "white",
+            "black"
+          ],
+          "score": 0.04546308517456055
+        },
+        {
+          "question": "**Question:** What color is the countertop in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "green",
+            "brown"
+          ],
+          "score": 0.030711650848388672
+        },
+        {
+          "question": "**Generated Question:** What color is the countertop in the small, clean kitchen?",
+          "answers": [
+            "green",
+            "wood",
+            "white"
+          ],
+          "score": 0.04951143264770508
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "a small, very clean kitchen with white cabinets made of wood, a white refrigerator, a black stove, a green countertop, and linoleum floors, with no dishes or food items visible",
+      "question": "Question: What color is the sink in the small, clean kitchen?",
+      "answer": "silver",
+      "query_after": "a small, clean kitchen with white cabinets made of wood, a white refrigerator, a black stove, a silver sink, a green countertop, and linoleum floors",
+      "displayed_ids": [
+        40917,
+        1004,
+        17227,
+        7378,
+        20472,
+        27551,
+        33261,
+        6287,
+        43973,
+        39010
+      ],
+      "selected_ids": [
+        17672,
+        25144,
+        38648,
+        13608,
+        46176,
+        43973,
+        5803,
+        33392,
+        18865,
+        9043
+      ],
+      "rejected_count": 56,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "stove",
+            "refrigerator",
+            "washer"
+          ],
+          "score": 0.01448678970336914
+        },
+        {
+          "question": "Based on the provided information sources, here is the generated question and the explanation of how the sources were utilized.\n\n**Generated Question:**\n```text\nWhat?",
+          "answers": [
+            "white",
+            "wood",
+            "green"
+          ],
+          "score": 0.006793022155761719
+        },
+        {
+          "question": "**Generated Question:**\nWhat is the color of the countertop in the small, clean kitchen?",
+          "answers": [
+            "green",
+            "white",
+            "black"
+          ],
+          "score": 0.018760204315185547
+        },
+        {
+          "question": "**Generated Question:**\nWhat color is the countertop in the small, clean kitchen?",
+          "answers": [
+            "green",
+            "white",
+            "black"
+          ],
+          "score": 0.021393299102783203
+        },
+        {
+          "question": "**Generated Question:**\nWhat is the color of the countertop in the small, clean kitchen?",
+          "answers": [
+            "green",
+            "white",
+            "black"
+          ],
+          "score": 0.018760204315185547,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "stove",
+            "refrigerator",
+            "washer"
+          ],
+          "score": 0.01448678970336914
+        },
+        {
+          "question": "**Generated Question:** What material is the countertop in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "wood",
+            "green"
+          ],
+          "score": 0.021047592163085938
+        },
+        {
+          "question": "**Question:** What color is the countertop in the small, clean kitchen?",
+          "answers": [
+            "green",
+            "white",
+            "black"
+          ],
+          "score": 0.02396535873413086
+        },
+        {
+          "question": "Question: What color is the countertop in the small, clean kitchen?",
+          "answers": [
+            "green",
+            "white",
+            "black"
+          ],
+          "score": 0.02232837677001953
+        },
+        {
+          "question": "Question: What color is the sink in the small, clean kitchen?",
+          "answers": [
+            "white",
+            "stainless steel",
+            "green"
+          ],
+          "score": 0.028590679168701172
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

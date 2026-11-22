@@ -1,0 +1,114 @@
+{
+  "chosen": "what are the colors of the coats worn by the four people on the snowy slope?",
+  "default": "Question: Are there any people standing on the snowy slope who are not wearing coats?",
+  "ids": [
+    46018,
+    33561,
+    21259,
+    29185
+  ],
+  "trials": {
+    "Question: Are there any people standing on the snowy slope who are not wearing coats?": {
+      "answers": [
+        "no",
+        "no",
+        "no",
+        "no"
+      ],
+      "rewrites": {
+        "no": "4 people wearing coats standing on a snowy slope with skis"
+      },
+      "ranks": [
+        13,
+        17,
+        28,
+        65
+      ],
+      "hits": 0
+    },
+    "what are the colors of the coats worn by the four people on the snowy slope?": {
+      "answers": [
+        "white, black, black, blue",
+        "gray, green and white, red, black, orange and white",
+        "Based on the image provided, here are the colors of the coats worn by the four visible people on the snowy slope:\n\n-   **Person on the far left:** Black\n-   **Person in the center:** Dark gray or charcoal",
+        "brown, white, brown, black"
+      ],
+      "rewrites": {
+        "white, black, black, blue": "four people wearing white, black, black, and blue coats standing on a snowy slope with skis",
+        "gray, green and white, red, black, orange and white": "four people wearing gray, green, white, red, black, and orange coats standing on a snowy slope with skis",
+        "Based on the image provided, here are the colors of the coats worn by the four visible people on the snowy slope:\n\n-   **Person on the far left:** Black\n-   **Person in the center:** Dark gray or charcoal": "four people standing on a snowy slope with skis, wearing black and dark gray coats",
+        "brown, white, brown, black": "four people standing on a snowy slope with skis, wearing brown, white, brown, and black coats respectively"
+      },
+      "ranks": [
+        2,
+        1,
+        9,
+        5
+      ],
+      "hits": 4
+    },
+    "what is the gender of the people standing on the snowy slope with skis?": {
+      "answers": [
+        "it's hard to tell for sure, but they appear to be male.",
+        "female",
+        "both male and female",
+        "male"
+      ],
+      "rewrites": {
+        "it's hard to tell for sure, but they appear to be male.": "four men standing on a snowy slope with skis",
+        "female": "four women standing on a snowy slope with skis",
+        "both male and female": "two males and two females standing on a snowy slope with skis",
+        "male": "four men standing on a snowy slope with skis"
+      },
+      "ranks": [
+        42,
+        46,
+        51,
+        44
+      ],
+      "hits": 0
+    },
+    "Question: what is the gender of the people standing on the snowy slope?": {
+      "answers": [
+        "unclear",
+        "female",
+        "both male and female",
+        "male"
+      ],
+      "rewrites": {
+        "unclear": "four people of unclear gender standing on a snowy slope with skis",
+        "female": "four women standing on a snowy slope with skis",
+        "both male and female": "4 people, both male and female, standing on a snowy slope with skis",
+        "male": "four men standing on a snowy slope with skis"
+      },
+      "ranks": [
+        14,
+        46,
+        43,
+        44
+      ],
+      "hits": 0
+    },
+    "Question: Which specific candidates from the list depict exactly four people standing on a snowy slope with skis?": {
+      "answers": [
+        "This image depicts exactly four people standing on a snowy slope with skis.",
+        "I'm sorry, but the image does not show exactly four people standing on a snowy slope with skis. There are five people in the image.",
+        "I'm sorry, but the image does not show exactly four people standing on a snowy slope with skis.",
+        "The image shows four people standing on a snowy slope with skis."
+      ],
+      "rewrites": {
+        "This image depicts exactly four people standing on a snowy slope with skis.": "four people standing on a snowy slope with skis",
+        "I'm sorry, but the image does not show exactly four people standing on a snowy slope with skis. There are five people in the image.": "five people standing on a snowy slope with skis",
+        "I'm sorry, but the image does not show exactly four people standing on a snowy slope with skis.": "no image matches the description of four people standing on a snowy slope with skis",
+        "The image shows four people standing on a snowy slope with skis.": "four people standing on a snowy slope with skis"
+      },
+      "ranks": [
+        10,
+        9,
+        28,
+        44
+      ],
+      "hits": 2
+    }
+  }
+}

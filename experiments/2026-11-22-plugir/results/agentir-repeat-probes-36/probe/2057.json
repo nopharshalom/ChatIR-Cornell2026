@@ -1,0 +1,85 @@
+{
+  "qid": 2057,
+  "arm": "probe",
+  "after_round": 3,
+  "ranks": [
+    175,
+    29,
+    14,
+    25,
+    18,
+    12,
+    19,
+    50,
+    6
+  ],
+  "continuation": [
+    {
+      "round": 4,
+      "query_before": "A close-up view of two white street signs, one reading \"E. 2nd St.\" and the other \"N. Oak St.\", set against a backdrop of buildings.",
+      "question": "Are the street signs white or blue?",
+      "answer": "white",
+      "query_after": "a close-up of two white street signs reading \"E. 2nd St.\" and \"N. Oak St.\" with buildings in the background",
+      "searches": [
+        {
+          "query": "close up of two white street signs reading E. 2nd St. and N. Oak St. with brick buildings in the background",
+          "ids": [
+            39229,
+            38513,
+            28335
+          ],
+          "captions": [
+            "two street signs are on a pole in front of a tall building",
+            "a building with two street signs on top of each other",
+            "a black metal sign"
+          ]
+        },
+        {
+          "query": "close up of two white street signs reading E. 2nd St. and N. Oak St. with modern glass skyscrapers in the background",
+          "ids": [
+            43132,
+            27737,
+            1638
+          ],
+          "captions": [
+            "two street signs and street light at night",
+            "a street sign on the side of a building",
+            "a street sign"
+          ]
+        }
+      ],
+      "raw_plan": "close up of two white street signs reading E. 2nd St. and N. Oak St. with brick buildings in the background\nclose up of two white street signs reading E. 2nd St. and N. Oak St. with modern glass skyscrapers in the background",
+      "generated": "Are the street signs white or blue?",
+      "fallback": false
+    },
+    {
+      "round": 5,
+      "query_before": "a close-up of two white street signs reading \"E. 2nd St.\" and \"N. Oak St.\" with buildings in the background",
+      "question": "What is the color of the buildings in the background of the street signs?",
+      "answer": "white",
+      "query_after": "a close-up of two white street signs reading \"E. 2nd St.\" and \"N. Oak St.\" with white buildings in the background"
+    },
+    {
+      "round": 6,
+      "query_before": "a close-up of two white street signs reading \"E. 2nd St.\" and \"N. Oak St.\" with white buildings in the background",
+      "question": "what is the color of the street signs in the image?",
+      "answer": "white",
+      "query_after": "A close-up view features two white street signs displaying \"E. 2nd St.\" and \"N. Oak St.\" set against a backdrop of white buildings."
+    },
+    {
+      "round": 7,
+      "query_before": "A close-up view features two white street signs displaying \"E. 2nd St.\" and \"N. Oak St.\" set against a backdrop of white buildings.",
+      "question": "what is the specific background object visible behind the street signs?",
+      "answer": "power lines",
+      "query_after": "a close-up of two white street signs reading \"E. 2nd St.\" and \"N. Oak St.\" set against a white building background with power lines visible behind them"
+    },
+    {
+      "round": 8,
+      "query_before": "a close-up of two white street signs reading \"E. 2nd St.\" and \"N. Oak St.\" set against a white building background with power lines visible behind them",
+      "question": "what is the material of the street signs in the image?",
+      "answer": "metal",
+      "query_after": "a close-up of two white metal street signs reading \"E. 2nd St.\" and \"N. Oak St.\" set against a background of white buildings and power lines"
+    }
+  ],
+  "seconds": 61.5
+}

@@ -1,0 +1,113 @@
+{
+  "chosen": "What is the specific color combination of the bus in the image?",
+  "default": "what is the destination or type of the white bus in the image?",
+  "ids": [
+    23756,
+    37179,
+    39044,
+    23727
+  ],
+  "trials": {
+    "what is the destination or type of the white bus in the image?": {
+      "answers": [
+        "The bus is a public transit bus, likely for the MTA (Metropolitan Transportation Authority), as indicated by the logo on the front.",
+        "cta",
+        "bice",
+        "ipswich central"
+      ],
+      "rewrites": {
+        "The bus is a public transit bus, likely for the MTA (Metropolitan Transportation Authority), as indicated by the logo on the front.": "a large white MTA public transit bus heading down the street",
+        "cta": "a large white CTA bus heading down the street",
+        "bice": "a large white bus with \"bice\" written on it heading down the street",
+        "ipswich central": "a large white bus heading down the street with \"ipswich central\" as its destination"
+      },
+      "ranks": [
+        12,
+        15,
+        70,
+        20
+      ],
+      "hits": 0
+    },
+    "Question: what is the destination or type of the white bus in the image?": {
+      "answers": [
+        "MTA",
+        "cta",
+        "bice 1",
+        "ipswich central"
+      ],
+      "rewrites": {
+        "MTA": "a large white MTA bus heading down the street",
+        "cta": "a large white CTA bus heading down the street",
+        "bice 1": "a large white bus labeled \"bice 1\" heading down the street",
+        "ipswich central": "a large white bus heading down the street with \"ipswich central\" as its destination"
+      },
+      "ranks": [
+        16,
+        15,
+        76,
+        20
+      ],
+      "hits": 0
+    },
+    "Question: What is the size of the bus in the image?": {
+      "answers": [
+        "large",
+        "large",
+        "large",
+        "large"
+      ],
+      "rewrites": {
+        "large": "a large white bus heading down the street"
+      },
+      "ranks": [
+        11,
+        22,
+        32,
+        42
+      ],
+      "hits": 0
+    },
+    "What is the specific color combination of the bus in the image?": {
+      "answers": [
+        "The bus in the image has a white body with blue stripes running along its side.",
+        "white and green",
+        "white and black",
+        "green and white"
+      ],
+      "rewrites": {
+        "The bus in the image has a white body with blue stripes running along its side.": "a large white bus with blue stripes running along its side heading down the street",
+        "white and green": "a large white and green bus heading down the street",
+        "white and black": "a large white and black bus heading down the street",
+        "green and white": "a large green and white bus heading down the street"
+      },
+      "ranks": [
+        11,
+        47,
+        4,
+        3
+      ],
+      "hits": 2
+    },
+    "**Generated Question:**\nIs the bus white or does it have a specific color combination?": {
+      "answers": [
+        "It has a specific color combination, primarily white with blue stripes.",
+        "white",
+        "white",
+        "It has a specific color combination: white and green."
+      ],
+      "rewrites": {
+        "It has a specific color combination, primarily white with blue stripes.": "a large white bus with blue stripes heading down the street",
+        "white": "a large white bus heading down the street",
+        "It has a specific color combination: white and green.": "a large white and green bus heading down the street"
+      },
+      "ranks": [
+        18,
+        22,
+        32,
+        1
+      ],
+      "hits": 1
+    }
+  }
+}

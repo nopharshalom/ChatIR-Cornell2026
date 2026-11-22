@@ -1,0 +1,100 @@
+{
+  "qid": 1030,
+  "initial": "a bathroom with a phone and 2 toilet roll dispensers",
+  "initial_rank": 16,
+  "evidence": [
+    "a tiled bathroom with toilet, sink, mirror, and towel",
+    "white toilet in a bathroom with a lid on the seat",
+    "a metal sign over a cell phone collection",
+    "a white and brown bathroom with a toilet, shower and tub",
+    "a bathroom with a toilet, sink, and shower",
+    "the toilet is on the grass",
+    "tiled bathroom with a toilet and shower",
+    "this bathroom has 3 sinks with a double mirror above them",
+    "a bathroom with two sinks and a shower",
+    "a toilet with the lid down and a trash can beside it"
+  ],
+  "candidates": [
+    "what type of flooring is in the bathroom containing the phone and 2 toilet roll dispensers?",
+    "what color is the bathroom that contains a phone and 2 toilet roll dispensers?",
+    "what is the color of the bathroom that contains a phone and 2 toilet roll dispensers?",
+    "what is the material of the sign above the phone in the bathroom with 2 toilet roll dispensers?",
+    "what objects are present in the bathroom with 2 toilet roll dispensers besides the phone and the sign?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what type of flooring is in the bathroom containing the phone and 2 toilet roll dispensers?",
+      "answers": [
+        "tiles",
+        "carpet",
+        "wood"
+      ],
+      "score": 0.03527069091796875
+    },
+    {
+      "question": "what color is the bathroom that contains a phone and 2 toilet roll dispensers?",
+      "answers": [
+        "white",
+        "brown",
+        "blue"
+      ],
+      "score": 0.04851055145263672
+    },
+    {
+      "question": "what is the color of the bathroom that contains a phone and 2 toilet roll dispensers?",
+      "answers": [
+        "white and brown",
+        "tiled",
+        "white"
+      ],
+      "score": 0.03217744827270508
+    },
+    {
+      "question": "what is the material of the sign above the phone in the bathroom with 2 toilet roll dispensers?",
+      "answers": [
+        "metal",
+        "wood",
+        "plastic"
+      ],
+      "score": 0.03208780288696289
+    },
+    {
+      "question": "what objects are present in the bathroom with 2 toilet roll dispensers besides the phone and the sign?",
+      "answers": [
+        "shower",
+        "tub",
+        "sink"
+      ],
+      "score": 0.03287363052368164
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.056,
+  "probe_selection_seconds": 2.447,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what color is the bathroom that contains a phone and 2 toilet roll dispensers?",
+      "answer": "white",
+      "rewrite": "a white bathroom with a phone and 2 toilet roll dispensers",
+      "rank": 14,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the material of the sign above the phone in the bathroom with 2 toilet roll dispensers?",
+      "answer": "towel",
+      "rewrite": "a bathroom with a towel sign above a phone and 2 toilet roll dispensers",
+      "rank": 51,
+      "hit": false
+    },
+    "probe": {
+      "question": "what color is the bathroom that contains a phone and 2 toilet roll dispensers?",
+      "answer": "white",
+      "rewrite": "a white bathroom with a phone and 2 toilet roll dispensers",
+      "rank": 14,
+      "hit": false
+    }
+  },
+  "seconds": 13.466
+}

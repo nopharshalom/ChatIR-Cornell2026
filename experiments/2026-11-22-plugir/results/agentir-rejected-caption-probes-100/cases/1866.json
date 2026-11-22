@@ -1,0 +1,81 @@
+{
+  "qid": 1866,
+  "candidates": [
+    "Question: What is the color of the street sign?",
+    "Question: What is the background color behind the street sign?",
+    "Question: What is the color of the street sign?",
+    "Question: What is the color of the street sign?",
+    "Question: What is the color of the street sign pole?"
+  ],
+  "kl": {
+    "question": "Question: What is the color of the street sign?",
+    "answer": "white",
+    "rewrite": "a white street sign on a busy street surrounded by tall buildings",
+    "raw_rank": 5,
+    "unseen_rank": 1
+  },
+  "probe": {
+    "question": "Question: What is the color of the street sign?",
+    "answer": "white",
+    "rewrite": "a white street sign on a busy street surrounded by tall buildings",
+    "raw_rank": 5,
+    "unseen_rank": 1
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the color of the street sign?",
+        "answers": [
+          "blue",
+          "black",
+          "red"
+        ],
+        "score": 0.08837890625
+      },
+      {
+        "question": "Question: What is the background color behind the street sign?",
+        "answers": [
+          "blue",
+          "black",
+          "blue sky"
+        ],
+        "score": 0.038019657135009766
+      },
+      {
+        "question": "Question: What is the color of the street sign?",
+        "answers": [
+          "blue",
+          "black",
+          "red"
+        ],
+        "score": 0.08837890625,
+        "duplicate_of": 0
+      },
+      {
+        "question": "Question: What is the color of the street sign?",
+        "answers": [
+          "blue",
+          "black",
+          "red"
+        ],
+        "score": 0.08837890625,
+        "duplicate_of": 0
+      },
+      {
+        "question": "Question: What is the color of the street sign pole?",
+        "answers": [
+          "black",
+          "blue",
+          "white"
+        ],
+        "score": 0.04290056228637695
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.076,
+    "probe_selection_seconds": 1.344,
+    "probe_llm_calls": 3,
+    "probe_search_queries": 9
+  },
+  "reused_outcome": true
+}

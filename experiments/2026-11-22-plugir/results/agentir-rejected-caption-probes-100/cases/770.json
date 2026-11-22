@@ -1,0 +1,80 @@
+{
+  "qid": 770,
+  "candidates": [
+    "Question: What is the time of day when the young man is jumping the skateboard with a crowd watching?",
+    "what color is the shirt worn by the young man jumping the skateboard with a crowd watching?",
+    "Question: What is the location where the young man is jumping the skateboard with a crowd watching?",
+    "Question: What is the location where the young man is jumping the skateboard with a crowd watching?",
+    "Based on the provided information, here is the next question to generate:\n\n**Question:** What is the color of the shirt worn by the young man?"
+  ],
+  "kl": {
+    "question": "Question: What is the time of day when the young man is jumping the skateboard with a crowd watching?",
+    "answer": "Daytime.",
+    "rewrite": "a young man jumping a skateboard with a crowd watching during the daytime",
+    "raw_rank": 20,
+    "unseen_rank": 10
+  },
+  "probe": {
+    "answer": "The young man is wearing a multicolored shirt.",
+    "rewrite": "a young man wearing a multicolored shirt jumps on a skateboard with a crowd watching",
+    "raw_rank": 6,
+    "unseen_rank": 4,
+    "question": "Based on the provided information, here is the next question to generate:\n\n**Question:** What is the color of the shirt worn by the young man?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the time of day when the young man is jumping the skateboard with a crowd watching?",
+        "answers": [
+          "day",
+          "night",
+          "sunset"
+        ],
+        "score": 0.08924293518066406
+      },
+      {
+        "question": "what color is the shirt worn by the young man jumping the skateboard with a crowd watching?",
+        "answers": [
+          "green",
+          "white",
+          "black"
+        ],
+        "score": 0.02532482147216797
+      },
+      {
+        "question": "Question: What is the location where the young man is jumping the skateboard with a crowd watching?",
+        "answers": [
+          "skate park",
+          "sidewalk",
+          "ramp"
+        ],
+        "score": 0.06567621231079102
+      },
+      {
+        "question": "Question: What is the location where the young man is jumping the skateboard with a crowd watching?",
+        "answers": [
+          "skate park",
+          "sidewalk",
+          "ramp"
+        ],
+        "score": 0.06567621231079102,
+        "duplicate_of": 2
+      },
+      {
+        "question": "Based on the provided information, here is the next question to generate:\n\n**Question:** What is the color of the shirt worn by the young man?",
+        "answers": [
+          "red",
+          "blue",
+          "black"
+        ],
+        "score": 0.09549665451049805
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.058,
+    "probe_selection_seconds": 1.985,
+    "probe_llm_calls": 4,
+    "probe_search_queries": 12
+  },
+  "reused_outcome": false
+}

@@ -1,0 +1,100 @@
+{
+  "qid": 1439,
+  "initial": "a row of motorcycles with a group of people around them",
+  "initial_rank": 14,
+  "evidence": [
+    "a group of elephants ride down a street",
+    "three police officers on motorcycles riding down the street",
+    "a bike and scooter ride through the streets",
+    "a motorcycle parked in front of a bike",
+    "a black and chrome harley davidson motorcycle parked by a red classic car",
+    "a motorcycle parked in a parking lot next to a skeleton",
+    "a red motorcycle is parked beside a white parked bike",
+    "people walk through a busy city on skateboards",
+    "two police officers are riding motorcycles on a city street",
+    "two people riding motorcycles on an asphalt street"
+  ],
+  "candidates": [
+    "Question: Are there people riding motorcycles in the image, or is a motorcycle parked next to a bike?",
+    "Question: What is the color of the motorcycle parked next to the bike?",
+    "what is the color of the people riding the motorcycles?",
+    "what is the location where the motorcycles are parked?",
+    "what is the specific arrangement or formation of the motorcycles in the image?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: Are there people riding motorcycles in the image, or is a motorcycle parked next to a bike?",
+      "answers": [
+        "People riding motorcycles",
+        "A motorcycle parked next to a bike",
+        "A parked motorcycle"
+      ],
+      "score": 0.040142059326171875
+    },
+    {
+      "question": "Question: What is the color of the motorcycle parked next to the bike?",
+      "answers": [
+        "red",
+        "black",
+        "white"
+      ],
+      "score": 0.05847454071044922
+    },
+    {
+      "question": "what is the color of the people riding the motorcycles?",
+      "answers": [
+        "black",
+        "white",
+        "blue"
+      ],
+      "score": 0.07147550582885742
+    },
+    {
+      "question": "what is the location where the motorcycles are parked?",
+      "answers": [
+        "a street",
+        "a parking lot",
+        "a city street"
+      ],
+      "score": 0.05341291427612305
+    },
+    {
+      "question": "what is the specific arrangement or formation of the motorcycles in the image?",
+      "answers": [
+        "in a line",
+        "in a circle",
+        "parked separately"
+      ],
+      "score": 0.008926868438720703
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.064,
+  "probe_selection_seconds": 2.546,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the specific arrangement or formation of the motorcycles in the image?",
+      "answer": "the motorcycles are parked in a row, side by side.",
+      "rewrite": "a row of motorcycles parked side by side with a group of people around them",
+      "rank": 17,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the specific arrangement or formation of the motorcycles in the image?",
+      "answer": "the motorcycles are parked in a row, side by side.",
+      "rewrite": "a row of motorcycles parked side by side with a group of people around them",
+      "rank": 17,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the color of the people riding the motorcycles?",
+      "answer": "black",
+      "rewrite": "a row of motorcycles with a group of people dressed in black around them",
+      "rank": 29,
+      "hit": false
+    }
+  },
+  "seconds": 14.768
+}

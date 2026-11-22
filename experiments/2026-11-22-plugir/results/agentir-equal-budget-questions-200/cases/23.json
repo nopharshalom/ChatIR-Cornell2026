@@ -1,0 +1,78 @@
+{
+  "qid": 23,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the toilet in the bathroom?",
+    "what is the color of the floor in the bathroom where the broken toilet is sitting?",
+    "what is the location of the bathroom where the broken toilet is sitting on the floor?",
+    "what is the condition of the toilet in the bathroom described as having a bag filled with personal belongings on the floor?",
+    "Question: what is the condition of the bathroom described as being damaged?"
+  ],
+  "second_candidates": [
+    "Question: Question: What color is the toilet in the bathroom?",
+    "Question: What color is the floor in the bathroom where the broken toilet is located?",
+    "Question: What color is the toilet in the bathroom?",
+    "Question: What is the condition of the toilet in the bathroom?",
+    "Based on the provided information sources, here is the generated question and the explanation of how it was derived:\n\n**Generated Question:**\n\"Is the broken toilet?"
+  ],
+  "paths": [
+    {
+      "question": "Question: Question: What color is the toilet in the bathroom?",
+      "answers": [
+        "white",
+        "brown",
+        "rusty"
+      ],
+      "score": 0.056446075439453125
+    },
+    {
+      "question": "Question: What color is the floor in the bathroom where the broken toilet is located?",
+      "answers": [
+        "rusty",
+        "tiled",
+        "white"
+      ],
+      "score": 0.09685850143432617
+    },
+    {
+      "question": "Question: What color is the toilet in the bathroom?",
+      "answers": [
+        "white",
+        "brown",
+        "rusty"
+      ],
+      "score": 0.08199071884155273
+    },
+    {
+      "question": "Question: What is the condition of the toilet in the bathroom?",
+      "answers": [
+        "broken",
+        "sitting on the floor",
+        "damaged"
+      ],
+      "score": 0.025727272033691406
+    },
+    {
+      "question": "Based on the provided information sources, here is the generated question and the explanation of how it was derived:\n\n**Generated Question:**\n\"Is the broken toilet?",
+      "answers": [
+        "yes",
+        "no",
+        "maybe"
+      ],
+      "score": 0.0026564598083496094
+    }
+  ],
+  "control": {
+    "question": "what is the color of the toilet in the bathroom?",
+    "score": 0.09886884689331055
+  },
+  "mixed": {
+    "question": "what is the color of the toilet in the bathroom?",
+    "score": 0.09886884689331055
+  },
+  "control_rank": 870,
+  "mixed_rank": 870,
+  "usual_rank": 870,
+  "new_answer": null,
+  "new_rewrite": null
+}

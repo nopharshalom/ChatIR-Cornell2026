@@ -1,0 +1,102 @@
+{
+  "qid": 1670,
+  "initial": "a man standing next to a movie poster",
+  "initial_rank": 12,
+  "evidence": [
+    "the sidewalk of the street is lined with people walking and cycling",
+    "a man in a suit standing in a room",
+    "a man with a tie and shirt, in a suit",
+    "a tennis player volleys a tennis ball on a poster",
+    "a man in an white shirt riding his bike past a building with the bible centre sign",
+    "a man in a suit, jacket and tie is standing in an open doorway",
+    "a group of people standing on the sidewalk by a building with signs",
+    "people standing on stage at a convention",
+    "man in a black coat",
+    "a man playing a video game in a classroom"
+  ],
+  "candidates": [
+    "what is the man standing next to wearing?",
+    "what is the man standing next to the movie poster wearing?",
+    "what is the man standing next to the movie poster wearing?",
+    "what is the man standing next to the movie poster wearing?",
+    "what is the name of the movie poster that the man is standing next to?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the man standing next to wearing?",
+      "answers": [
+        "a movie poster",
+        "a poster",
+        "a movie"
+      ],
+      "score": 0.0021300315856933594
+    },
+    {
+      "question": "what is the man standing next to the movie poster wearing?",
+      "answers": [
+        "suit",
+        "shirt and tie",
+        "black coat"
+      ],
+      "score": 0.07588624954223633
+    },
+    {
+      "question": "what is the man standing next to the movie poster wearing?",
+      "answers": [
+        "suit",
+        "shirt and tie",
+        "black coat"
+      ],
+      "score": 0.07588624954223633,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the man standing next to the movie poster wearing?",
+      "answers": [
+        "suit",
+        "shirt and tie",
+        "black coat"
+      ],
+      "score": 0.07588624954223633,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the name of the movie poster that the man is standing next to?",
+      "answers": [
+        "Inception",
+        "The Dark Knight",
+        "Avatar"
+      ],
+      "score": 0.05194425582885742
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.063,
+  "probe_selection_seconds": 1.566,
+  "probe_llm_calls": 3,
+  "probe_search_queries": 9,
+  "arms": {
+    "kl": {
+      "question": "what is the man standing next to the movie poster wearing?",
+      "answer": "a black suit with a white shirt and black tie.",
+      "rewrite": "a man in a black suit with a white shirt and black tie standing next to a movie poster",
+      "rank": 2,
+      "hit": true
+    },
+    "random": {
+      "question": "what is the man standing next to the movie poster wearing?",
+      "answer": "a black suit with a white shirt and black tie.",
+      "rewrite": "a man in a black suit with a white shirt and black tie standing next to a movie poster",
+      "rank": 2,
+      "hit": true
+    },
+    "probe": {
+      "question": "what is the man standing next to the movie poster wearing?",
+      "answer": "a black suit with a white shirt and black tie.",
+      "rewrite": "a man in a black suit with a white shirt and black tie standing next to a movie poster",
+      "rank": 2,
+      "hit": true
+    }
+  },
+  "seconds": 13.093
+}

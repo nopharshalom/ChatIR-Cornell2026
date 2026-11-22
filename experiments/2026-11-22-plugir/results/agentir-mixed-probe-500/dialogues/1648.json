@@ -1,0 +1,1316 @@
+{
+  "qid": 1648,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000307252.jpg",
+  "queries": [
+    "3 zebras standing and grazing in a grassy area",
+    "three zebras standing and grazing on a grassy surface",
+    "three zebras standing and grazing on grass",
+    "three zebras standing and grazing on a grassy surface",
+    "Three zebras are standing and grazing on a grassy field.",
+    "three zebras standing and grazing on grass in an open field",
+    "three zebras standing and grazing on green grass in an open field",
+    "Three zebras are standing and grazing on green grass in an open field.",
+    "three zebras standing and grazing on green grass in an open field",
+    "Three zebras are standing and grazing on green grass in an open field.",
+    "three zebras standing and grazing on a green grassy plain in an open field, positioned in the center-left of the image"
+  ],
+  "ranks": [
+    327,
+    345,
+    395,
+    345,
+    239,
+    190,
+    145,
+    108,
+    145,
+    108,
+    35
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "3 zebras standing and grazing in a grassy area",
+      "question": "Question: What specific surface is the zebra standing on?",
+      "answer": "grass",
+      "query_after": "three zebras standing and grazing on a grassy surface",
+      "displayed_ids": [
+        35141,
+        44772,
+        5351,
+        17800,
+        10578,
+        24864,
+        22165,
+        18587,
+        36286,
+        13882
+      ],
+      "selected_ids": [
+        23889,
+        3626,
+        40256,
+        20733,
+        7645,
+        33394,
+        124,
+        28857,
+        36776,
+        362
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: Are the zebras in the image located in a zoo or in a natural habitat?",
+          "answers": [
+            "zoo",
+            "natural habitat",
+            "both"
+          ],
+          "score": 0.010439872741699219
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "rock",
+            "tree",
+            "bird"
+          ],
+          "score": 0.09929847717285156
+        },
+        {
+          "question": "Question: Are the zebras in the image located in a zoo or in a natural habitat?",
+          "answers": [
+            "zoo",
+            "natural habitat",
+            "both"
+          ],
+          "score": 0.010439872741699219,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the number of zebras visible in the image?",
+          "answers": [
+            "3",
+            "2",
+            "4"
+          ],
+          "score": 6.008148193359375e-05
+        },
+        {
+          "question": "what is the texture of the ground where the zebras are standing?",
+          "answers": [
+            "grass",
+            "muddy dirt",
+            "rock"
+          ],
+          "score": 0.058238983154296875
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Are the zebras standing in a zoo enclosure or in the wild?",
+          "answers": [
+            "zoo",
+            "wild",
+            "both"
+          ],
+          "score": 0.0014510154724121094
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "rock",
+            "tree",
+            "bird"
+          ],
+          "score": 0.09929847717285156
+        },
+        {
+          "question": "Question: What is the color of the grass in the image?",
+          "answers": [
+            "green",
+            "brown",
+            "yellow"
+          ],
+          "score": 0.05754232406616211
+        },
+        {
+          "question": "Question: What is the color of the grass in the image?",
+          "answers": [
+            "green",
+            "brown",
+            "yellow"
+          ],
+          "score": 0.05754232406616211,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What specific surface is the zebra standing on?",
+          "answers": [
+            "grass",
+            "muddy dirt road",
+            "stone"
+          ],
+          "score": 0.1026453971862793
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "three zebras standing and grazing on a grassy surface",
+      "question": "what is the other object in the image?",
+      "answer": "zebra",
+      "query_after": "three zebras standing and grazing on grass",
+      "displayed_ids": [
+        44772,
+        22165,
+        5351,
+        35141,
+        17800,
+        18587,
+        10578,
+        187,
+        36286,
+        24864
+      ],
+      "selected_ids": [
+        25215,
+        5760,
+        3626,
+        7645,
+        47309,
+        28857,
+        32387,
+        40256,
+        362,
+        124
+      ],
+      "rejected_count": 11,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "rocks",
+            "trees",
+            "grass"
+          ],
+          "score": 0.12208032608032227
+        },
+        {
+          "question": "Question: Which candidate image shows exactly three zebras standing and grazing in a grassy area?",
+          "answers": [
+            "Image 5",
+            "Image 8",
+            "Image 9"
+          ],
+          "score": 0.0004734992980957031
+        },
+        {
+          "question": "what is the other animal present in the image besides the zebras?",
+          "answers": [
+            "tree",
+            "grass",
+            "rock"
+          ],
+          "score": 0.0985422134399414
+        },
+        {
+          "question": "Question: Which candidate image shows zebras standing in a zoo enclosure?",
+          "answers": [
+            "8",
+            "9"
+          ],
+          "score": 1.0967254638671875e-05
+        },
+        {
+          "question": "Question: Which candidate image shows exactly three zebras standing and grazing in a grassy area?",
+          "answers": [
+            "Image 5",
+            "Image 8",
+            "Image 9"
+          ],
+          "score": 0.0004734992980957031,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Are there trees in the background of the image?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0004744529724121094
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "trees",
+            "rocks",
+            "grass"
+          ],
+          "score": 0.12207937240600586
+        },
+        {
+          "question": "Question: How many zebras are standing in the image?",
+          "answers": [
+            "one",
+            "two",
+            "three"
+          ],
+          "score": 0.002353668212890625
+        },
+        {
+          "question": "Question: What is the background environment of the zebras (e.g., rocks, woods, zoo enclosure, or back yard)?",
+          "answers": [
+            "field",
+            "woods",
+            "zoo enclosure"
+          ],
+          "score": 0.008854866027832031
+        },
+        {
+          "question": "Question: Is the zebra standing on a grassy area or a muddy dirt road?",
+          "answers": [
+            "grassy area",
+            "muddy dirt road",
+            "zoo enclosure"
+          ],
+          "score": 0.062113285064697266
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "three zebras standing and grazing on grass",
+      "question": "what is the other object in the image?",
+      "answer": "zebra",
+      "query_after": "three zebras standing and grazing on a grassy surface",
+      "displayed_ids": [
+        44772,
+        22165,
+        35141,
+        5351,
+        18587,
+        17800,
+        10578,
+        24864,
+        187,
+        36286
+      ],
+      "selected_ids": [
+        7645,
+        32387,
+        362,
+        39381,
+        23889,
+        40256,
+        4798,
+        30579,
+        33394,
+        20321
+      ],
+      "rejected_count": 11,
+      "usual_paths": [
+        {
+          "question": "what is the specific location of the zebras?",
+          "answers": [
+            "grass",
+            "field",
+            "zoo"
+          ],
+          "score": 0.03571891784667969
+        },
+        {
+          "question": "what is the specific location of the zebras?",
+          "answers": [
+            "grass",
+            "field",
+            "zoo"
+          ],
+          "score": 0.03571891784667969,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the specific location of the zebras?",
+          "answers": [
+            "grass",
+            "field",
+            "zoo"
+          ],
+          "score": 0.03571891784667969,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the specific location or enclosure type where the zebras are standing?",
+          "answers": [
+            "field",
+            "zoo enclosure",
+            "grassy area"
+          ],
+          "score": 0.021631717681884766
+        },
+        {
+          "question": "what is the specific location or enclosure type where the zebras are standing?",
+          "answers": [
+            "zoo enclosure",
+            "field",
+            "pen"
+          ],
+          "score": 0.02918529510498047
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the specific location of the zebras?",
+          "answers": [
+            "grass",
+            "field",
+            "zoo"
+          ],
+          "score": 0.03099536895751953
+        },
+        {
+          "question": "Question: Is the zebra standing in a zoo enclosure or in the wild?",
+          "answers": [
+            "zoo",
+            "wild",
+            "pen"
+          ],
+          "score": 0.0062274932861328125
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "zebra",
+            "none",
+            "rock"
+          ],
+          "score": 0.05152750015258789
+        },
+        {
+          "question": "Question: What is the specific location of the zebras (a zoo enclosure or the wild)?",
+          "answers": [
+            "zoo enclosure",
+            "wild",
+            "enclosure"
+          ],
+          "score": 0.018414974212646484
+        },
+        {
+          "question": "Question: What is the background feature behind the zebras (e.g., a tree, rocks, or tall grass)?",
+          "answers": [
+            "tall grass",
+            "tree",
+            "rocks"
+          ],
+          "score": 0.025135517120361328
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "three zebras standing and grazing on a grassy surface",
+      "question": "what is the other object in the image?",
+      "answer": "zebra",
+      "query_after": "Three zebras are standing and grazing on a grassy field.",
+      "displayed_ids": [
+        44772,
+        22165,
+        5351,
+        35141,
+        17800,
+        18587,
+        10578,
+        187,
+        36286,
+        24864
+      ],
+      "selected_ids": [
+        32387,
+        540,
+        32358,
+        28857,
+        28546,
+        7645,
+        29305,
+        23889,
+        19418,
+        40256
+      ],
+      "rejected_count": 11,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "zebra",
+            "giraffe",
+            "sheep"
+          ],
+          "score": 0.0989084243774414
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "zebra",
+            "giraffe",
+            "sheep"
+          ],
+          "score": 0.0989084243774414,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the zebras in the image?",
+          "answers": [
+            "black and white",
+            "black and white and yellow",
+            "black and white and brown"
+          ],
+          "score": 0.014668941497802734
+        },
+        {
+          "question": "what is the background environment where the zebras are standing?",
+          "answers": [
+            "field",
+            "dirt",
+            "woods"
+          ],
+          "score": 0.06429624557495117
+        },
+        {
+          "question": "what is the specific type of grass or vegetation the zebras are grazing on?",
+          "answers": [
+            "green grass",
+            "tall grass",
+            "dirt"
+          ],
+          "score": 0.027977943420410156
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the specific type of vegetation the zebras are grazing on?",
+          "answers": [
+            "grass",
+            "dirt",
+            "green grass"
+          ],
+          "score": 0.023384571075439453
+        },
+        {
+          "question": "what is the color of the zebras in the image?",
+          "answers": [
+            "black and white",
+            "black",
+            "brown and white"
+          ],
+          "score": 0.03554677963256836
+        },
+        {
+          "question": "what is the specific background environment where the zebras are standing?",
+          "answers": [
+            "field",
+            "dirt",
+            "woods"
+          ],
+          "score": 0.057363033294677734
+        },
+        {
+          "question": "what is the specific type of grass or ground surface the zebras are grazing on?",
+          "answers": [
+            "grass",
+            "dirt",
+            "ground"
+          ],
+          "score": 0.025794506072998047
+        },
+        {
+          "question": "Question: What is the specific background environment where the zebras are standing?",
+          "answers": [
+            "field",
+            "dirt covered ground",
+            "woods"
+          ],
+          "score": 0.0571136474609375
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "Three zebras are standing and grazing on a grassy field.",
+      "question": "**Question:** What is the specific type of enclosure where the zebras are standing?",
+      "answer": "open field",
+      "query_after": "three zebras standing and grazing on grass in an open field",
+      "displayed_ids": [
+        35141,
+        44772,
+        5351,
+        22165,
+        17800,
+        18587,
+        10578,
+        24864,
+        36286,
+        187
+      ],
+      "selected_ids": [
+        14671,
+        23889,
+        3296,
+        20321,
+        45368,
+        8179,
+        14428,
+        32358,
+        14346,
+        28546
+      ],
+      "rejected_count": 11,
+      "usual_paths": [
+        {
+          "question": "what is the enclosure made of in the image with zebras?",
+          "answers": [
+            "wood",
+            "wire mesh",
+            "metal"
+          ],
+          "score": 0.04303741455078125
+        },
+        {
+          "question": "what is the material of the fence surrounding the zebras in the image?",
+          "answers": [
+            "wood",
+            "metal",
+            "wire"
+          ],
+          "score": 0.025081157684326172
+        },
+        {
+          "question": "Based on the provided information sources, here is the next question and the explanation of how it was derived:\n\n**Question:**\nDoes the image show zebras?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.001018524169921875
+        },
+        {
+          "question": "**Question:**\nWhat is the specific action the zebras are performing?",
+          "answers": [
+            "standing",
+            "grazing",
+            "eating"
+          ],
+          "score": 0.008259773254394531
+        },
+        {
+          "question": "**Question:**\nAre there giraffes present in the image with the zebras?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0033087730407714844
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the specific type of enclosure where the zebras are standing?",
+          "answers": [
+            "field",
+            "enclosure",
+            "savanna"
+          ],
+          "score": 0.027851581573486328
+        },
+        {
+          "question": "Question: How many zebras are standing in the image?",
+          "answers": [
+            "2",
+            "3",
+            "4"
+          ],
+          "score": 4.4345855712890625e-05
+        },
+        {
+          "question": "Based on the provided information sources, here is the next question and the explanation of how it was derived:\n\n**Question:** What is the specific color pattern of?",
+          "answers": [
+            "black and white",
+            "striped",
+            "zebra"
+          ],
+          "score": 0.007159233093261719
+        },
+        {
+          "question": "**Question:** What is the specific type of enclosure where the zebras are standing?",
+          "answers": [
+            "wooded area",
+            "enclosure",
+            "savanna"
+          ],
+          "score": 0.05733156204223633
+        },
+        {
+          "question": "**Question:** What is the specific type of enclosure where the zebras are standing?",
+          "answers": [
+            "wooded area",
+            "enclosure",
+            "savanna"
+          ],
+          "score": 0.05733156204223633,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "three zebras standing and grazing on grass in an open field",
+      "question": "**Question:** What is the specific color of the grass in the image where the zebras are standing?",
+      "answer": "green",
+      "query_after": "three zebras standing and grazing on green grass in an open field",
+      "displayed_ids": [
+        35141,
+        44772,
+        5351,
+        17800,
+        18587,
+        22165,
+        24864,
+        49013,
+        10578,
+        35009
+      ],
+      "selected_ids": [
+        45368,
+        14346,
+        46782,
+        32387,
+        11949,
+        36776,
+        39974,
+        14671,
+        32035,
+        29013
+      ],
+      "rejected_count": 13,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "zebra",
+            "tree",
+            "grass"
+          ],
+          "score": 0.034216880798339844
+        },
+        {
+          "question": "what is the specific type of enclosure where the zebras are standing?",
+          "answers": [
+            "open field",
+            "savanna",
+            "wooded area"
+          ],
+          "score": 0.03399848937988281
+        },
+        {
+          "question": "**Question:** What is the specific color of the grass in the image?",
+          "answers": [
+            "green",
+            "brown",
+            "yellow"
+          ],
+          "score": 0.05500221252441406
+        },
+        {
+          "question": "Question: What is the specific color of the grass in the image where the zebras are standing?",
+          "answers": [
+            "green",
+            "brown",
+            "tall"
+          ],
+          "score": 0.05286073684692383
+        },
+        {
+          "question": "**Question:** What is the specific color of the grass in the image where the zebras are standing?",
+          "answers": [
+            "green",
+            "golden",
+            "brown"
+          ],
+          "score": 0.09022760391235352
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "zebra",
+            "tree",
+            "grass"
+          ],
+          "score": 0.034216880798339844
+        },
+        {
+          "question": "Question: What is the specific color of the zebras' stripes in the image?",
+          "answers": [
+            "black and white",
+            "brown and white",
+            "blue and white"
+          ],
+          "score": 0.03021240234375
+        },
+        {
+          "question": "**Question:** What is the specific color of the zebras' stripes in the image?",
+          "answers": [
+            "black",
+            "white",
+            "brown"
+          ],
+          "score": 0.044025421142578125
+        },
+        {
+          "question": "**Question:** What is the specific color of the grass where the zebras are standing?",
+          "answers": [
+            "green",
+            "brown",
+            "tall"
+          ],
+          "score": 0.05455207824707031
+        },
+        {
+          "question": "**Question:** Are there any trees visible in the image where the zebras are standing?",
+          "answers": [
+            "Yes",
+            "Maybe",
+            "No"
+          ],
+          "score": 0.009562492370605469
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "three zebras standing and grazing on green grass in an open field",
+      "question": "what is the other object in the image?",
+      "answer": "zebra",
+      "query_after": "Three zebras are standing and grazing on green grass in an open field.",
+      "displayed_ids": [
+        44772,
+        5351,
+        22165,
+        17800,
+        18587,
+        24941,
+        536,
+        35141,
+        187,
+        36286
+      ],
+      "selected_ids": [
+        3296,
+        9659,
+        42843,
+        29013,
+        28857,
+        45368,
+        20321,
+        39974,
+        8179,
+        16921
+      ],
+      "rejected_count": 15,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "zebra",
+            "tree",
+            "fence"
+          ],
+          "score": 0.0919179916381836
+        },
+        {
+          "question": "Question: What is the specific color of the grass in the image where the three zebras are standing?",
+          "answers": [
+            "green",
+            "brown",
+            "dry"
+          ],
+          "score": 0.038892269134521484
+        },
+        {
+          "question": "Question: What is the other object in the image?",
+          "answers": [
+            "zebra",
+            "sheep",
+            "giraffe"
+          ],
+          "score": 0.09166383743286133
+        },
+        {
+          "question": "what is the location of the zebras in the image?",
+          "answers": [
+            "field",
+            "woods",
+            "enclosure"
+          ],
+          "score": 0.04985380172729492
+        },
+        {
+          "question": "**Question:** What is the specific color of the grass in the image where the three zebras are standing?",
+          "answers": [
+            "green",
+            "dry",
+            "brown"
+          ],
+          "score": 0.04093599319458008
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "zebra",
+            "tree",
+            "fence"
+          ],
+          "score": 0.0919179916381836
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "zebra",
+            "tree",
+            "fence"
+          ],
+          "score": 0.0919179916381836,
+          "duplicate_of": 0
+        },
+        {
+          "question": "**Question:** What is the specific color of the zebras' stripes in the image?",
+          "answers": [
+            "black and white",
+            "brown and white",
+            "blue and white"
+          ],
+          "score": 0.03141164779663086
+        },
+        {
+          "question": "**Question:** What other animal species is present in the image besides the zebras?",
+          "answers": [
+            "zebra",
+            "no other animal",
+            "wildebeest"
+          ],
+          "score": 0.01617431640625
+        },
+        {
+          "question": "**Question:** What is the specific background feature (e.g., trees, fence, open field) visible behind the zebras?",
+          "answers": [
+            "trees",
+            "fence",
+            "open field"
+          ],
+          "score": 0.012520313262939453
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "Three zebras are standing and grazing on green grass in an open field.",
+      "question": "**Question:** What is the specific location of the zebras in the image?",
+      "answer": "The image does not show the specific location of the zebras.",
+      "query_after": "three zebras standing and grazing on green grass in an open field",
+      "displayed_ids": [
+        44772,
+        5351,
+        22165,
+        17800,
+        536,
+        18587,
+        187,
+        35141,
+        24941,
+        15875
+      ],
+      "selected_ids": [
+        45368,
+        42208,
+        20321,
+        16921,
+        32035,
+        39974,
+        19941,
+        43932,
+        19726,
+        29013
+      ],
+      "rejected_count": 16,
+      "usual_paths": [
+        {
+          "question": "what is the specific type of enclosure where the zebras are standing?",
+          "answers": [
+            "open field",
+            "zoo enclosure",
+            "grassy area"
+          ],
+          "score": 0.017264842987060547
+        },
+        {
+          "question": "**Question:** What is the specific type of enclosure where the zebras are standing?",
+          "answers": [
+            "open field",
+            "grassy area",
+            "zoo enclosure"
+          ],
+          "score": 0.025156497955322266
+        },
+        {
+          "question": "what is the specific type of enclosure where the zebras are standing?",
+          "answers": [
+            "open field",
+            "zoo enclosure",
+            "grassy area"
+          ],
+          "score": 0.017264842987060547,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the total number of zebras visible in the image?",
+          "answers": [
+            "two",
+            "three",
+            "four"
+          ],
+          "score": 0.025516986846923828
+        },
+        {
+          "question": "what is the total number of zebras visible in the image?",
+          "answers": [
+            "two",
+            "three",
+            "four"
+          ],
+          "score": 0.025516986846923828,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "**Question:** What is the specific color of the zebras' stripes in the image?",
+          "answers": [
+            "black",
+            "brown",
+            "dark blue"
+          ],
+          "score": 0.030635833740234375
+        },
+        {
+          "question": "**Question:** What is the specific color of the zebras' stripes in the image?",
+          "answers": [
+            "black",
+            "brown",
+            "dark blue"
+          ],
+          "score": 0.030635833740234375,
+          "duplicate_of": 0
+        },
+        {
+          "question": "**Question:** How many zebras are standing and grazing in the image?",
+          "answers": [
+            "three",
+            "two",
+            "four"
+          ],
+          "score": 0.02138376235961914
+        },
+        {
+          "question": "**Question:** What is the specific location of the zebras in the image?",
+          "answers": [
+            "wooded area",
+            "grassy field",
+            "zoo enclosure"
+          ],
+          "score": 0.07761955261230469
+        },
+        {
+          "question": "**Question:** What is the specific color of the zebras' stripes in the image?",
+          "answers": [
+            "black",
+            "brown",
+            "dark blue"
+          ],
+          "score": 0.030635833740234375,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "three zebras standing and grazing on green grass in an open field",
+      "question": "what is the other object in the image?",
+      "answer": "zebra",
+      "query_after": "Three zebras are standing and grazing on green grass in an open field.",
+      "displayed_ids": [
+        44772,
+        5351,
+        22165,
+        17800,
+        18587,
+        24941,
+        536,
+        35141,
+        187,
+        36286
+      ],
+      "selected_ids": [
+        14139,
+        3296,
+        48551,
+        45368,
+        29228,
+        40192,
+        28857,
+        42208,
+        39974,
+        2345
+      ],
+      "rejected_count": 16,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "zebra",
+            "tree",
+            "hills"
+          ],
+          "score": 0.0822601318359375
+        },
+        {
+          "question": "what is the specific number of zebras present in the image?",
+          "answers": [
+            "two",
+            "three",
+            "four"
+          ],
+          "score": 0.007123470306396484
+        },
+        {
+          "question": "what is the specific number of zebras present in the image?",
+          "answers": [
+            "two",
+            "three",
+            "four"
+          ],
+          "score": 0.007123470306396484,
+          "duplicate_of": 1
+        },
+        {
+          "question": "**Question:** How many zebras are present in the image?",
+          "answers": [
+            "two",
+            "three",
+            "four"
+          ],
+          "score": 0.022434711456298828
+        },
+        {
+          "question": "**Question:** How many zebras are in the image?",
+          "answers": [
+            "two",
+            "three",
+            "four"
+          ],
+          "score": 0.02053689956665039
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "zebra",
+            "tree",
+            "hills"
+          ],
+          "score": 0.0822601318359375
+        },
+        {
+          "question": "**Question:** What is the specific activity the zebras are performing?",
+          "answers": [
+            "standing",
+            "grazing",
+            "standing and grazing"
+          ],
+          "score": 0.005072593688964844
+        },
+        {
+          "question": "**Question:** What is the specific location of the zebras in the image?",
+          "answers": [
+            "open field",
+            "wooded area",
+            "unknown"
+          ],
+          "score": 0.04874753952026367
+        },
+        {
+          "question": "**Question:** What is the specific location of the zebras in the image?",
+          "answers": [
+            "open field",
+            "wooded area",
+            "unknown"
+          ],
+          "score": 0.04874753952026367,
+          "duplicate_of": 2
+        },
+        {
+          "question": "**Question:** Are there any giraffes visible in the image with the zebras?",
+          "answers": [
+            "yes",
+            "no",
+            "cannot answer"
+          ],
+          "score": 0.0066699981689453125
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "Three zebras are standing and grazing on green grass in an open field.",
+      "question": "what is the specific location of the zebras in the image?",
+      "answer": "the zebras are in the center-left of the image, standing on a grassy plain.",
+      "query_after": "three zebras standing and grazing on a green grassy plain in an open field, positioned in the center-left of the image",
+      "displayed_ids": [
+        44772,
+        5351,
+        22165,
+        17800,
+        536,
+        18587,
+        187,
+        35141,
+        24941,
+        15875
+      ],
+      "selected_ids": [
+        32035,
+        32316,
+        45368,
+        21441,
+        3296,
+        39974,
+        30367,
+        187,
+        46359
+      ],
+      "rejected_count": 16,
+      "usual_paths": [
+        {
+          "question": "what is the specific location of the zebras in the image?",
+          "answers": [
+            "zoo",
+            "wooded area",
+            "hill with mountains"
+          ],
+          "score": 0.1444082260131836
+        },
+        {
+          "question": "**Question:** What is the specific number of zebras standing in the image?",
+          "answers": [
+            "2",
+            "3",
+            "4"
+          ],
+          "score": 0.007255077362060547
+        },
+        {
+          "question": "**Question:** How many zebras are standing in the image?",
+          "answers": [
+            "3",
+            "1",
+            "2"
+          ],
+          "score": 0.0018825531005859375
+        },
+        {
+          "question": "**Question:** Which specific animal is depicted in the image besides the zebras?",
+          "answers": [
+            "zebra",
+            "horse",
+            "none"
+          ],
+          "score": 0.019001483917236328
+        },
+        {
+          "question": "Question: What is the specific number of zebras standing in the image?",
+          "answers": [
+            "3",
+            "4",
+            "2"
+          ],
+          "score": 0.0037755966186523438
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "zebra",
+            "horses",
+            "no other object"
+          ],
+          "score": 0.033654212951660156
+        },
+        {
+          "question": "**Question:** Are there any horses visible in the image besides the zebras?",
+          "answers": [
+            "no",
+            "yes",
+            "maybe"
+          ],
+          "score": 0.004577159881591797
+        },
+        {
+          "question": "**Question:** Is the zebra wearing a saddle or bridle?",
+          "answers": [
+            "No",
+            "Yes",
+            "Unknown"
+          ],
+          "score": 0.005800724029541016
+        },
+        {
+          "question": "Question: Are there any horses visible in the image besides the zebras?",
+          "answers": [
+            "no",
+            "yes",
+            "unclear"
+          ],
+          "score": 0.0025606155395507812
+        },
+        {
+          "question": "**Question:** Do the zebras in the image display black and white stripes?",
+          "answers": [
+            "yes",
+            "no",
+            "unclear"
+          ],
+          "score": 0.005389690399169922
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

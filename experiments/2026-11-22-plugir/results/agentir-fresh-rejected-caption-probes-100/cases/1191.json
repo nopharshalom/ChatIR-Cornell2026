@@ -1,0 +1,177 @@
+{
+  "qid": 1191,
+  "initial": "person taking pictures of a train at a train station",
+  "initial_rank": 11,
+  "displayed": [
+    8854,
+    20807,
+    30536,
+    21801,
+    24230,
+    36133,
+    30443,
+    19451,
+    5904,
+    7295
+  ],
+  "evidence": [
+    "a man standing in a red building",
+    "a green and yellow train pulls up to a platform",
+    "a yellow, blue and black train coming into a station",
+    "a red and blue train waiting at a train station",
+    "an old red and black train pulling into the track",
+    "a white, silver, and blue passenger train on the tracks",
+    "a yellow train pulling into a station with a platform nearby",
+    "a red train goes down railroad tracks near a farm",
+    "an empty subway platform with two red and white trains",
+    "a white train stopped in a train station at night"
+  ],
+  "rejected_captions": [
+    "a man on a platform waiting for a train to come by",
+    "a train with train cars",
+    "a subway train is coming up a street and people are waiting for it",
+    "a train near a platform",
+    "a man is taking pictures of a train",
+    "people standing on the tracks while a train is coming",
+    "an asian style train pulling into a station",
+    "a white train on the tracks",
+    "a yellow train pulling into a train station",
+    "people are on the platform"
+  ],
+  "usual": {
+    "candidates": [
+      "what color is the train being photographed by the person at the station?",
+      "what is the color of the train being photographed?",
+      "what are the colors of the train being photographed at the station?",
+      "what is the time of day when the person is taking pictures of the train at the station?",
+      "what is the brand or model name of the train being photographed?"
+    ],
+    "question": "what is the color of the train being photographed?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what color is the train being photographed by the person at the station?",
+          "answers": [
+            "red",
+            "green and yellow",
+            "yellow, blue and black"
+          ],
+          "score": 0.17165660858154297
+        },
+        {
+          "question": "what is the color of the train being photographed?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.2622241973876953
+        },
+        {
+          "question": "what are the colors of the train being photographed at the station?",
+          "answers": [
+            "red",
+            "green",
+            "white"
+          ],
+          "score": 0.14841365814208984
+        },
+        {
+          "question": "what is the time of day when the person is taking pictures of the train at the station?",
+          "answers": [
+            "day",
+            "night",
+            "dusk"
+          ],
+          "score": 0.08098983764648438
+        },
+        {
+          "question": "what is the brand or model name of the train being photographed?",
+          "answers": [
+            "Train 1",
+            "Train 2",
+            "Train 3"
+          ],
+          "score": 0.0007023811340332031
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.059,
+      "probe_selection_seconds": 2.451,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "green",
+    "rewrite": "a person taking pictures of a green train at a train station",
+    "raw_rank": 32,
+    "unseen_rank": 31
+  },
+  "rejected": {
+    "candidates": [
+      "what color is the train in the image?",
+      "what is the color of the train being photographed?",
+      "what time of day is the photo of the person taking pictures of the train taken?",
+      "what is the color of the building where the person is taking pictures of the train?",
+      "Question: What is the color of the person taking pictures of the train?"
+    ],
+    "question": "what is the color of the train being photographed?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what color is the train in the image?",
+          "answers": [
+            "red",
+            "green and yellow",
+            "yellow, blue and black"
+          ],
+          "score": 0.20589733123779297
+        },
+        {
+          "question": "what is the color of the train being photographed?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.2622241973876953
+        },
+        {
+          "question": "what time of day is the photo of the person taking pictures of the train taken?",
+          "answers": [
+            "daytime",
+            "evening",
+            "night"
+          ],
+          "score": 0.0709390640258789
+        },
+        {
+          "question": "what is the color of the building where the person is taking pictures of the train?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.11276006698608398
+        },
+        {
+          "question": "Question: What is the color of the person taking pictures of the train?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.06827068328857422
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.074,
+      "probe_selection_seconds": 2.401,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "green",
+    "rewrite": "a person taking pictures of a green train at a train station",
+    "raw_rank": 32,
+    "unseen_rank": 31
+  }
+}

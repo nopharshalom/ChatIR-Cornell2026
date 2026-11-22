@@ -1,0 +1,74 @@
+{
+  "qid": 1543,
+  "arm": "fresh",
+  "after_round": 3,
+  "ranks": [
+    29,
+    14,
+    14,
+    13,
+    11,
+    36,
+    45,
+    56,
+    15,
+    53,
+    173
+  ],
+  "continuation": [
+    {
+      "round": 4,
+      "query_before": "a bathroom featuring a black vanity, a white toilet, and a dual sink",
+      "question": "Is the bathroom in the scene with the black toilet stalls or the one with the white toilet?",
+      "answer": "the bathroom in the scene has a white toilet.",
+      "query_after": "a bathroom featuring a white toilet and a dual sink with a black vanity",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Is the bathroom in the scene with the black toilet stalls or the one with the white toilet?",
+      "fallback": false
+    },
+    {
+      "round": 5,
+      "query_before": "a bathroom featuring a white toilet and a dual sink with a black vanity",
+      "question": "what is the other object in the image?",
+      "answer": "a mirror",
+      "query_after": "a bathroom featuring a black vanity, a white toilet, and a mirror"
+    },
+    {
+      "round": 6,
+      "query_before": "a bathroom featuring a black vanity, a white toilet, and a mirror",
+      "question": "what is the material of the sink in the bathroom with a white toilet and a mirror?",
+      "answer": "ceramic",
+      "query_after": "a bathroom featuring a white toilet, a black vanity, a ceramic sink, and a mirror"
+    },
+    {
+      "round": 7,
+      "query_before": "a bathroom featuring a white toilet, a black vanity, a ceramic sink, and a mirror",
+      "question": "what is the color of the sink in the bathroom with a white toilet and a mirror?",
+      "answer": "white",
+      "query_after": "a bathroom featuring a white toilet, a black vanity, a white ceramic sink, and a mirror"
+    },
+    {
+      "round": 8,
+      "query_before": "a bathroom featuring a white toilet, a black vanity, a white ceramic sink, and a mirror",
+      "question": "what is the lighting condition of the bathroom with a white toilet, a mirror, a white ceramic sink, and a black color?",
+      "answer": "the bathroom appears to be well-lit, likely with artificial lighting, given the even illumination and lack of strong shadows.",
+      "query_after": "a well-lit bathroom featuring a white ceramic dual sink, a black vanity, a white toilet, and a mirror"
+    },
+    {
+      "round": 9,
+      "query_before": "a well-lit bathroom featuring a white ceramic dual sink, a black vanity, a white toilet, and a mirror",
+      "question": "what is the color of the counter top in the bathroom with a white toilet, a mirror, and a white ceramic sink?",
+      "answer": "beige",
+      "query_after": "a well-lit bathroom featuring a white ceramic sink, a beige countertop, a black vanity, a white toilet, and a mirror"
+    },
+    {
+      "round": 10,
+      "query_before": "a well-lit bathroom featuring a white ceramic sink, a beige countertop, a black vanity, a white toilet, and a mirror",
+      "question": "what is the type of shower fixture present in the bathroom with a white toilet, a mirror, a white ceramic sink, a beige counter top, and a black?",
+      "answer": "the image does not show a shower fixture.",
+      "query_after": "a well-lit bathroom featuring a white ceramic sink, a beige countertop, a black vanity, a white toilet, and a mirror, with no shower fixture visible"
+    }
+  ],
+  "seconds": 78.3
+}

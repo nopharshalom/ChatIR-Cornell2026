@@ -1,0 +1,71 @@
+{
+  "qid": 299,
+  "initial": "a vase sits in a hole in the wall",
+  "initial_rank": 27,
+  "evidence": [
+    "a woman standing in a small mud hole next to a stove",
+    "a toilet with toothbrushes hanging from a holder",
+    "a group of flowers are placed in a vase on a table",
+    "a gold vase with flowers",
+    "a stone and cement outhouse is set up",
+    "a large jar with a tall stem",
+    "a black clock hanging above a dark ceiling",
+    "a bathroom with a broken toilet and dirty floor",
+    "an ornate vase sits on top of a table in a room",
+    "a person rides a wave in black and white"
+  ],
+  "displayed_ids": [
+    30324,
+    23838,
+    44846,
+    21673,
+    29236,
+    10163,
+    29238,
+    280,
+    6454,
+    888
+  ],
+  "rejected_captions": [
+    "a large jar with a tall stem",
+    "a window with an open window",
+    "a vase sitting on a stone step outside a building",
+    "the wall has a small shadow",
+    "a vase with red, white, and yellow flowers",
+    "a white wall with a wall of flowers",
+    "a broken up toilet in a bathroom",
+    "grey tiles on the floor",
+    "a wooden mirror on a wall",
+    "a wooden window"
+  ],
+  "candidates": [
+    "what is the color of the vase?",
+    "Question: What is the color of the wall where the vase is situated?",
+    "Question: What is the name of the hole in the wall where the vase is situated?",
+    "Question: Is the hole in the wall filled with mud?",
+    "Question: What is the material of the surface where the vase is situated?"
+  ],
+  "control_candidates": [
+    "what is the color of the vase sitting in the hole in the wall?",
+    "what material is the hole in the wall made of?",
+    "what is the color of the vase sitting in the hole in the wall?",
+    "what is the material of the vase sitting in the hole in the wall?",
+    "what is the color of the wall where the vase is sitting?"
+  ],
+  "control": {
+    "question": "what is the material of the vase sitting in the hole in the wall?",
+    "answer": "ceramic",
+    "rewrite": "a ceramic vase sits in a hole in the wall",
+    "rank": 65,
+    "hit": false,
+    "raw_rank": 65,
+    "unseen_rank": 55
+  },
+  "variant": {
+    "question": "Question: What is the material of the surface where the vase is situated?",
+    "answer": "wood",
+    "rewrite": "a vase sits in a hole in a wooden wall",
+    "raw_rank": 171,
+    "unseen_rank": 161
+  }
+}

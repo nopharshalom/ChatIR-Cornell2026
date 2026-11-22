@@ -1,0 +1,178 @@
+{
+  "qid": 752,
+  "initial": "a man is in the ocean surfing on a wave",
+  "initial_rank": 443,
+  "displayed": [
+    14035,
+    38344,
+    6869,
+    32197,
+    26323,
+    23302,
+    12517,
+    44248,
+    31448,
+    35533
+  ],
+  "evidence": [
+    "man in black wetsuit surfing in waves",
+    "a man in shorts and a hat falling out of the water with his surfboard",
+    "a surfer in a black wetsuit riding a wave",
+    "a person surfing on a yellow surfboard on a large wave",
+    "a person is surfing on a yellow surfboard",
+    "some people are riding on waves in the ocean",
+    "the ocean is dark with waves slapping against the shore",
+    "the man in the black suit is surfing",
+    "a surfer is in the air in a white wet suit",
+    "a man and woman surfing on top of a wave"
+  ],
+  "rejected_captions": [
+    "the wave is in the water",
+    "a man is riding a wave in the ocean",
+    "a person on a surfboard is riding a wave in the ocean",
+    "a black and white photo of a surfer riding a wave in the ocean",
+    "the ocean has a huge wave in it",
+    "a surfer in a wetsuit",
+    "a man in a board shorts surfing a wave",
+    "a man riding a wave on a surfboard",
+    "a person riding a wave on a surfboard in a blue ocean",
+    "a person surfing on a wave in the ocean"
+  ],
+  "usual": {
+    "candidates": [
+      "What is the color of the surfboard the man is riding?",
+      "what is the color of the wetsuit the man is wearing?",
+      "what is the gender of the person surfing on the yellow surfboard?",
+      "what is the other object in the image?",
+      "What is the color of the wave the man is surfing on?"
+    ],
+    "question": "What is the color of the surfboard the man is riding?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "What is the color of the surfboard the man is riding?",
+          "answers": [
+            "black",
+            "white",
+            "yellow"
+          ],
+          "score": 0.10180997848510742
+        },
+        {
+          "question": "what is the color of the wetsuit the man is wearing?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.08529806137084961
+        },
+        {
+          "question": "what is the gender of the person surfing on the yellow surfboard?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.012073040008544922
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "surfboard",
+            "wave",
+            "ocean"
+          ],
+          "score": 0.005836009979248047
+        },
+        {
+          "question": "What is the color of the wave the man is surfing on?",
+          "answers": [
+            "yellow",
+            "white",
+            "dark"
+          ],
+          "score": 0.08782386779785156
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.061,
+      "probe_selection_seconds": 3.391,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "pink",
+    "rewrite": "a man is in the ocean surfing on a pink wave",
+    "raw_rank": 43,
+    "unseen_rank": 41
+  },
+  "rejected": {
+    "candidates": [
+      "What color is the man's wetsuit or what color is the surfboard?",
+      "Question: What color is the surfboard the man is riding?",
+      "Question: Is the man wearing a wetsuit?",
+      "Question: Is the man wearing a wetsuit?",
+      "Question: What color is the surfer's wetsuit?"
+    ],
+    "question": "What color is the man's wetsuit or what color is the surfboard?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "What color is the man's wetsuit or what color is the surfboard?",
+          "answers": [
+            "black",
+            "white",
+            "yellow"
+          ],
+          "score": 0.1115422248840332
+        },
+        {
+          "question": "Question: What color is the surfboard the man is riding?",
+          "answers": [
+            "black",
+            "yellow",
+            "white"
+          ],
+          "score": 0.07839012145996094
+        },
+        {
+          "question": "Question: Is the man wearing a wetsuit?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0010075569152832031
+        },
+        {
+          "question": "Question: Is the man wearing a wetsuit?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0010075569152832031,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What color is the surfer's wetsuit?",
+          "answers": [
+            "black",
+            "white",
+            "yellow"
+          ],
+          "score": 0.08972835540771484
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.25,
+      "probe_selection_seconds": 2.145,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "The man's wetsuit is black and red, and the surfboard is pink.",
+    "rewrite": "a man in a black and red wetsuit is surfing on a pink surfboard in the ocean",
+    "raw_rank": 9,
+    "unseen_rank": 9
+  }
+}

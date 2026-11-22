@@ -1,0 +1,79 @@
+{
+  "qid": 2012,
+  "sample": 2,
+  "first_candidates": [
+    "what is the primary protein or main dish served on the plate alongside the broccoli?",
+    "what is the color of the plate holding the food with broccoli?",
+    "what is the color of the plate holding the food with broccoli?",
+    "Question: What is the color of the plate holding the food with broccoli?",
+    "what is the color of the plate holding the food with broccoli?"
+  ],
+  "second_candidates": [
+    "what is the main protein or meat item served on the plate with the broccoli?",
+    "what color is the plate holding the food with broccoli and other vegetables?",
+    "what other vegetables besides broccoli are present on the plate?",
+    "what is the color of the plate serving the broccoli and other vegetables?",
+    "what is the main protein or meat item served on the plate with the broccoli?"
+  ],
+  "paths": [
+    {
+      "question": "what is the main protein or meat item served on the plate with the broccoli?",
+      "answers": [
+        "chicken",
+        "meat",
+        "beans"
+      ],
+      "score": 0.08394813537597656
+    },
+    {
+      "question": "what color is the plate holding the food with broccoli and other vegetables?",
+      "answers": [
+        "white",
+        "green",
+        "brown"
+      ],
+      "score": 0.027523517608642578
+    },
+    {
+      "question": "what other vegetables besides broccoli are present on the plate?",
+      "answers": [
+        "just broccoli",
+        "broccoli and carrots",
+        "broccoli and meat"
+      ],
+      "score": 0.10416841506958008
+    },
+    {
+      "question": "what is the color of the plate serving the broccoli and other vegetables?",
+      "answers": [
+        "white",
+        "black",
+        "yellow"
+      ],
+      "score": 0.06408834457397461
+    },
+    {
+      "question": "what is the main protein or meat item served on the plate with the broccoli?",
+      "answers": [
+        "chicken",
+        "meat",
+        "beans"
+      ],
+      "score": 0.08394813537597656,
+      "duplicate_of": 0
+    }
+  ],
+  "control": {
+    "question": "what is the primary protein or main dish served on the plate alongside the broccoli?",
+    "score": 0.14069032669067383
+  },
+  "mixed": {
+    "question": "what is the primary protein or main dish served on the plate alongside the broccoli?",
+    "score": 0.14069032669067383
+  },
+  "control_rank": 49,
+  "mixed_rank": 49,
+  "usual_rank": 49,
+  "new_answer": null,
+  "new_rewrite": null
+}

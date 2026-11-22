@@ -1,0 +1,177 @@
+{
+  "qid": 1035,
+  "initial": "wide shot of a typical small town block of stores and restaurants",
+  "initial_rank": 12,
+  "displayed": [
+    45457,
+    18168,
+    27987,
+    8568,
+    14399,
+    27233,
+    14402,
+    3131,
+    11673,
+    29068
+  ],
+  "evidence": [
+    "a bus waits to be picked up on a crowded street",
+    "many people walking through",
+    "an open city square with a clock tower and a group of people",
+    "a store front with a clock hung",
+    "a street corner with a sign and street lamppost",
+    "many people walking down a crowded street with shops",
+    "a large restaurant building with a sign",
+    "a crowd of motorcycles and people",
+    "people sitting in chairs near umbrellas and plants",
+    "a pedestrian and vehicle crossing at a stop light"
+  ],
+  "rejected_captions": [
+    "a street with a clock on top of a building",
+    "an old brick building with an old yellow trolley that is parked on the corner",
+    "a brick sidewalk",
+    "a bricked street full of people walking",
+    "a street is going through a city that has trees",
+    "cars are parked on a street with a clock tower",
+    "a yellow building with lots of people",
+    "a stop sign on a corner",
+    "a light pole in the middle of a street",
+    "a bright blue sky"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the size of the building visible in the image?",
+      "Question: what is the specific location setting where the crowd of motorcycles and people are gathered?",
+      "Question: What type of vehicle is seen in the image?",
+      "what are the specific details of the location setting where the crowd of motorcycles and people are gathered?",
+      "Question: What is the primary activity of the people visible in the image?"
+    ],
+    "question": "Question: What is the primary activity of the people visible in the image?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the size of the building visible in the image?",
+          "answers": [
+            "small",
+            "medium",
+            "large"
+          ],
+          "score": 0.0006847381591796875
+        },
+        {
+          "question": "Question: what is the specific location setting where the crowd of motorcycles and people are gathered?",
+          "answers": [
+            "street",
+            "park",
+            "sunset beach"
+          ],
+          "score": 0.07922840118408203
+        },
+        {
+          "question": "Question: What type of vehicle is seen in the image?",
+          "answers": [
+            "bus",
+            "motorcycle",
+            "car"
+          ],
+          "score": 0.09398889541625977
+        },
+        {
+          "question": "what are the specific details of the location setting where the crowd of motorcycles and people are gathered?",
+          "answers": [
+            "small town block of stores and restaurants",
+            "crowded street with shops",
+            "open city square with clock tower"
+          ],
+          "score": 0.12217235565185547
+        },
+        {
+          "question": "Question: What is the primary activity of the people visible in the image?",
+          "answers": [
+            "waiting for a bus",
+            "walking through an open square",
+            "crossing the street"
+          ],
+          "score": 0.1271076202392578
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.059,
+      "probe_selection_seconds": 2.657,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "riding motorcycles",
+    "rewrite": "wide shot of a typical small town block of stores and restaurants with people riding motorcycles",
+    "raw_rank": 2,
+    "unseen_rank": 2
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the primary ground surface visible in the scene?",
+      "Question: What color is the clock tower visible in the background?",
+      "what type of vehicle is visible on the street in the scene?",
+      "Question: Are there any motorcycles visible in the scene?",
+      "Question: Where are the people located in the scene?"
+    ],
+    "question": "what type of vehicle is visible on the street in the scene?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the primary ground surface visible in the scene?",
+          "answers": [
+            "paved",
+            "dirt",
+            "grass"
+          ],
+          "score": 0.03587198257446289
+        },
+        {
+          "question": "Question: What color is the clock tower visible in the background?",
+          "answers": [
+            "blue",
+            "white",
+            "black"
+          ],
+          "score": 0.028191566467285156
+        },
+        {
+          "question": "what type of vehicle is visible on the street in the scene?",
+          "answers": [
+            "bus",
+            "motorcycle",
+            "car"
+          ],
+          "score": 0.08484458923339844
+        },
+        {
+          "question": "Question: Are there any motorcycles visible in the scene?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0005550384521484375
+        },
+        {
+          "question": "Question: Where are the people located in the scene?",
+          "answers": [
+            "store front",
+            "restaurant",
+            "street corner"
+          ],
+          "score": 0.01981973648071289
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.084,
+      "probe_selection_seconds": 2.594,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "van",
+    "rewrite": "wide shot of a typical small town block of stores and restaurants with a van visible on the street",
+    "raw_rank": 11,
+    "unseen_rank": 7
+  }
+}

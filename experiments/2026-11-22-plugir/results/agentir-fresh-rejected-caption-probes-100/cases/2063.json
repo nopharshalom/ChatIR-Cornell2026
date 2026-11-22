@@ -1,0 +1,178 @@
+{
+  "qid": 2063,
+  "initial": "2 polished antique cars parked next to each other",
+  "initial_rank": 23,
+  "displayed": [
+    9770,
+    32980,
+    10444,
+    30985,
+    30468,
+    33743,
+    40248,
+    16220,
+    30586,
+    22258
+  ],
+  "evidence": [
+    "an old truck is sitting on the sidewalk",
+    "two elephants standing next to each other in the open grass",
+    "a motorcycle is parked besides a group of classic cars",
+    "two trains coming down the tracks near a bridge",
+    "a bathroom with two sinks and toilet",
+    "dog standing near an old car",
+    "an older car on the side of the street",
+    "a car with a surf board on the roof",
+    "a crowd of people stand around a vintage bus in the grass",
+    "a car is parked next to a man on a street corner"
+  ],
+  "rejected_captions": [
+    "a black and white vintage car is parked next to a double decker bus",
+    "a vintage car parked next to a train",
+    "the cars are on a paved street",
+    "men looking at the hood of a car",
+    "a vw bug",
+    "a motorcycle parked in grass",
+    "the vintage car has a tan hood",
+    "two vintage busses parked in a grassy field",
+    "a car with a rain slicker",
+    "a car on the street"
+  ],
+  "usual": {
+    "candidates": [
+      "Question: What is the location where the two polished antique cars are parked next to each other?",
+      "Question: Which object is parked beside the two polished antique cars?",
+      "what is the location where the two polished antique cars are parked next to each other?",
+      "what is the location where the two polished antique cars are parked next to each other?",
+      "what is the color of the vintage bus standing in the grass?"
+    ],
+    "question": "Question: What is the location where the two polished antique cars are parked next to each other?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the location where the two polished antique cars are parked next to each other?",
+          "answers": [
+            "on the street",
+            "in a garage",
+            "in a museum"
+          ],
+          "score": 0.09494352340698242
+        },
+        {
+          "question": "Question: Which object is parked beside the two polished antique cars?",
+          "answers": [
+            "motorcycle",
+            "elephants",
+            "none"
+          ],
+          "score": 0.09437894821166992
+        },
+        {
+          "question": "what is the location where the two polished antique cars are parked next to each other?",
+          "answers": [
+            "open grass",
+            "street corner",
+            "side of the street"
+          ],
+          "score": 0.08455896377563477
+        },
+        {
+          "question": "what is the location where the two polished antique cars are parked next to each other?",
+          "answers": [
+            "open grass",
+            "street corner",
+            "side of the street"
+          ],
+          "score": 0.08455896377563477,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the vintage bus standing in the grass?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.04474830627441406
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.074,
+      "probe_selection_seconds": 1.997,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "street",
+    "rewrite": "two polished antique cars parked next to each other on a street",
+    "raw_rank": 13,
+    "unseen_rank": 7
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What color are the polished antique cars?",
+      "Question: Are the polished antique cars parked on the street or in a grassy field?",
+      "Question: What type of vehicle is parked next to the polished antique cars?",
+      "Question: What is the color of the vintage car parked next to the polished antique cars?",
+      "Question: What color is the vintage car parked next to the polished antique cars?"
+    ],
+    "question": "Question: What color are the polished antique cars?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What color are the polished antique cars?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.07819795608520508
+        },
+        {
+          "question": "Question: Are the polished antique cars parked on the street or in a grassy field?",
+          "answers": [
+            "street",
+            "grass",
+            "sidewalk"
+          ],
+          "score": 0.010141849517822266
+        },
+        {
+          "question": "Question: What type of vehicle is parked next to the polished antique cars?",
+          "answers": [
+            "car",
+            "motorcycle",
+            "truck"
+          ],
+          "score": 0.05790090560913086
+        },
+        {
+          "question": "Question: What is the color of the vintage car parked next to the polished antique cars?",
+          "answers": [
+            "Red",
+            "Blue",
+            "Black"
+          ],
+          "score": 0.07406997680664062
+        },
+        {
+          "question": "Question: What color is the vintage car parked next to the polished antique cars?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.05373573303222656
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.083,
+      "probe_selection_seconds": 2.356,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "orange and black",
+    "rewrite": "two polished antique cars, one orange and one black, parked next to each other",
+    "raw_rank": 3,
+    "unseen_rank": 2
+  }
+}

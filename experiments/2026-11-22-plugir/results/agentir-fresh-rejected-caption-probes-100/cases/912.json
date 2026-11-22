@@ -1,0 +1,180 @@
+{
+  "qid": 912,
+  "initial": "the man is standing still on his skis posing for a picture in the snow",
+  "initial_rank": 55,
+  "displayed": [
+    37361,
+    44261,
+    3871,
+    3724,
+    7233,
+    34707,
+    38169,
+    41871,
+    11803,
+    19927
+  ],
+  "evidence": [
+    "a person is skiing down a slope with trees in the background",
+    "a woman is skiing down a slope with trees behind her",
+    "a woman is on skis on a wooded trail",
+    "a man wearing a green jacket standing on a snowboard",
+    "a woman is skiing through a snow covered forest",
+    "a man in a red jacket holds a pair of skis",
+    "a woman wearing a red jacket and red ski jacket",
+    "a skier in the snow skiing down a mountain side",
+    "a couple with skis and hats posing outdoors",
+    "a skier wearing red clothes racing"
+  ],
+  "rejected_captions": [
+    "a man standing on skis on the snow",
+    "man stands atop a ski hill on the snow",
+    "the skier is wearing his ski pants",
+    "a young woman in black on skis on a snowy trail",
+    "a guy stands on his skis on a snow covered slope",
+    "a man wearing ski gear standing next to a snowy path",
+    "a man on skis stands in a snowy field",
+    "a man posing on skis on the side of a slope",
+    "man skiing through the snow",
+    "a man on skis on the snow"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the color of the jacket the man is wearing?",
+      "what is the color of the jacket the man is wearing?",
+      "Question: What is the color of the jacket the man is wearing?",
+      "what is the color of the jacket the man is wearing?",
+      "Question: what is the color of the jacket the man is wearing?"
+    ],
+    "question": "Question: What is the color of the jacket the man is wearing?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the jacket the man is wearing?",
+          "answers": [
+            "red",
+            "green",
+            "blue"
+          ],
+          "score": 0.19353246688842773
+        },
+        {
+          "question": "what is the color of the jacket the man is wearing?",
+          "answers": [
+            "red",
+            "green",
+            "blue"
+          ],
+          "score": 0.19353246688842773,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the jacket the man is wearing?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.20508050918579102
+        },
+        {
+          "question": "what is the color of the jacket the man is wearing?",
+          "answers": [
+            "red",
+            "green",
+            "blue"
+          ],
+          "score": 0.19353246688842773,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: what is the color of the jacket the man is wearing?",
+          "answers": [
+            "red",
+            "green",
+            "blue"
+          ],
+          "score": 0.2050800323486328
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.067,
+      "probe_selection_seconds": 1.36,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "purple",
+    "rewrite": "a man in a purple jacket stands still on his skis posing for a picture in the snow",
+    "raw_rank": 1,
+    "unseen_rank": 1
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What color is the man's jacket?",
+      "what color is the man's jacket?",
+      "what is the man holding in his hands while posing on his skis?",
+      "Question: Is the man wearing a red jacket or a green jacket?",
+      "Question: What color is the man's jacket?"
+    ],
+    "question": "Question: What color is the man's jacket?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What color is the man's jacket?",
+          "answers": [
+            "red",
+            "green",
+            "blue"
+          ],
+          "score": 0.2355513572692871
+        },
+        {
+          "question": "what color is the man's jacket?",
+          "answers": [
+            "red",
+            "green",
+            "black"
+          ],
+          "score": 0.20172452926635742
+        },
+        {
+          "question": "what is the man holding in his hands while posing on his skis?",
+          "answers": [
+            "skis",
+            "nothing",
+            "camera"
+          ],
+          "score": 0.003291606903076172
+        },
+        {
+          "question": "Question: Is the man wearing a red jacket or a green jacket?",
+          "answers": [
+            "red",
+            "green",
+            "blue"
+          ],
+          "score": 0.072906494140625
+        },
+        {
+          "question": "Question: What color is the man's jacket?",
+          "answers": [
+            "red",
+            "green",
+            "blue"
+          ],
+          "score": 0.2355513572692871,
+          "duplicate_of": 0
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.149,
+      "probe_selection_seconds": 1.917,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "purple",
+    "rewrite": "a man in a purple jacket stands still on his skis posing for a picture in the snow",
+    "raw_rank": 1,
+    "unseen_rank": 1
+  }
+}

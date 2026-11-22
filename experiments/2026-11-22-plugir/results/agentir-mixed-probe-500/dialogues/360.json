@@ -1,0 +1,145 @@
+{
+  "qid": 360,
+  "sample": "original",
+  "target": "unlabeled2017/000000389671.jpg",
+  "queries": [
+    "food sits on a plate with a napkin next to it",
+    "a sandwich sits on a plate with a napkin next to it"
+  ],
+  "ranks": [
+    27,
+    3
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "food sits on a plate with a napkin next to it",
+      "question": "What is the specific type of food sitting on the plate?",
+      "answer": "sandwich",
+      "query_after": "a sandwich sits on a plate with a napkin next to it",
+      "displayed_ids": [
+        17740,
+        20503,
+        23039,
+        35385,
+        30869,
+        32220,
+        29591,
+        3057,
+        7640,
+        6602
+      ],
+      "selected_ids": [
+        41699,
+        6338,
+        30368,
+        37280,
+        8553,
+        5309,
+        5177,
+        4690,
+        44288,
+        47090
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "What is the specific type of food sitting on the plate?",
+          "answers": [
+            "broccoli and carrot",
+            "sandwich",
+            "hot dog"
+          ],
+          "score": 0.2252964973449707
+        },
+        {
+          "question": "what is the color of the plate holding the food?",
+          "answers": [
+            "white",
+            "brown",
+            "gray"
+          ],
+          "score": 0.03149271011352539
+        },
+        {
+          "question": "what is the color of the napkin next to the plate?",
+          "answers": [
+            "white",
+            "red",
+            "blue"
+          ],
+          "score": 0.06328344345092773
+        },
+        {
+          "question": "Question: What specific food item is placed on the white plate with the napkin?",
+          "answers": [
+            "broccoli",
+            "carrots",
+            "chicken"
+          ],
+          "score": 0.13546085357666016
+        },
+        {
+          "question": "what is the color of the plate holding the food?",
+          "answers": [
+            "white",
+            "brown",
+            "gray"
+          ],
+          "score": 0.03149271011352539,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the main food item on the plate?",
+          "answers": [
+            "broccoli",
+            "carrots",
+            "chicken"
+          ],
+          "score": 0.15386343002319336
+        },
+        {
+          "question": "Question: What color is the plate holding the food?",
+          "answers": [
+            "white",
+            "brown",
+            "black"
+          ],
+          "score": 0.03180360794067383
+        },
+        {
+          "question": "Question: What is the color of the napkin next to the plate?",
+          "answers": [
+            "white",
+            "red",
+            "blue"
+          ],
+          "score": 0.052968502044677734
+        },
+        {
+          "question": "Question: What color is the plate holding the food?",
+          "answers": [
+            "white",
+            "brown",
+            "black"
+          ],
+          "score": 0.03180360794067383,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the main food item on the plate?",
+          "answers": [
+            "sandwich",
+            "pizza",
+            "carrots"
+          ],
+          "score": 0.19472169876098633
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

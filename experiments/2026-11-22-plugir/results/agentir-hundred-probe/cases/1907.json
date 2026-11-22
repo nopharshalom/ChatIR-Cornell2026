@@ -1,0 +1,100 @@
+{
+  "qid": 1907,
+  "initial": "a train that is departing a station with a person walking by it",
+  "initial_rank": 302,
+  "evidence": [
+    "a yellow, blue and black train coming into a station",
+    "a yellow and blue train is on the tracks",
+    "a cranked yellow train is going down tracks",
+    "a red train on a tracks",
+    "an old red train on train tracks",
+    "a blue and yellow train standing in a train station",
+    "an empty subway platform with two red and white trains",
+    "two yellow and blue trains stopped at a train station",
+    "blue, red and white trains near buildings"
+  ],
+  "candidates": [
+    "what is the color of the train that is departing the station with a person walking by it?",
+    "what is the color of the train that is departing the station with a person walking by it?",
+    "what is the color of the person walking by the train?",
+    "what is the color of the train that has a person walking by it?",
+    "what is the color of the train in the image where a person is walking by it?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the train that is departing the station with a person walking by it?",
+      "answers": [
+        "yellow",
+        "blue",
+        "red"
+      ],
+      "score": 0.21588611602783203
+    },
+    {
+      "question": "what is the color of the train that is departing the station with a person walking by it?",
+      "answers": [
+        "yellow",
+        "blue",
+        "red"
+      ],
+      "score": 0.21588611602783203,
+      "duplicate_of": 0
+    },
+    {
+      "question": "what is the color of the person walking by the train?",
+      "answers": [
+        "red",
+        "blue",
+        "black"
+      ],
+      "score": 0.16779327392578125
+    },
+    {
+      "question": "what is the color of the train that has a person walking by it?",
+      "answers": [
+        "yellow",
+        "blue",
+        "black"
+      ],
+      "score": 0.23135614395141602
+    },
+    {
+      "question": "what is the color of the train in the image where a person is walking by it?",
+      "answers": [
+        "yellow and blue",
+        "red and white",
+        "blue"
+      ],
+      "score": 0.21181154251098633
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.077,
+  "probe_selection_seconds": 1.941,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "what is the color of the train that is departing the station with a person walking by it?",
+      "answer": "yellow",
+      "rewrite": "a yellow train departing a station with a person walking by it",
+      "rank": 89,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the color of the train that is departing the station with a person walking by it?",
+      "answer": "yellow",
+      "rewrite": "a yellow train departing a station with a person walking by it",
+      "rank": 89,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the color of the train that has a person walking by it?",
+      "answer": "yellow",
+      "rewrite": "a yellow train departing a station with a person walking by it",
+      "rank": 89,
+      "hit": false
+    }
+  },
+  "seconds": 14.087
+}

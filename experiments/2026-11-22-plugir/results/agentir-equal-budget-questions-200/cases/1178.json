@@ -1,0 +1,79 @@
+{
+  "qid": 1178,
+  "sample": 2,
+  "first_candidates": [
+    "what color is the metal fridge in the kitchen with wooden cabinets?",
+    "what material are the floors in the kitchen with wooden cabinets and a metal fridge?",
+    "what color is the fridge in the kitchen with wooden cabinets and a metal fridge?",
+    "what color are the cabinets in the kitchen with wooden floors and a stainless steel fridge?",
+    "what color are the floors in the kitchen with wooden cabinets and a metal fridge?"
+  ],
+  "second_candidates": [
+    "what color is the refrigerator in the kitchen with wooden cabinets and metal fridge?",
+    "what is the color of the refrigerator in the kitchen with wooden cabinets and metal fridge?",
+    "Question: What specific type of metal is the refrigerator in the kitchen with wooden cabinets made of?",
+    "what color is the refrigerator in the kitchen with wooden cabinets and metal fridge?",
+    "what material are the floors in the kitchen with wooden cabinets and metal fridge made of?"
+  ],
+  "paths": [
+    {
+      "question": "what color is the refrigerator in the kitchen with wooden cabinets and metal fridge?",
+      "answers": [
+        "stainless steel",
+        "silver",
+        "gray"
+      ],
+      "score": 0.005549907684326172
+    },
+    {
+      "question": "what is the color of the refrigerator in the kitchen with wooden cabinets and metal fridge?",
+      "answers": [
+        "white",
+        "stainless steel",
+        "wooden"
+      ],
+      "score": 0.03763246536254883
+    },
+    {
+      "question": "Question: What specific type of metal is the refrigerator in the kitchen with wooden cabinets made of?",
+      "answers": [
+        "stainless steel",
+        "black",
+        "white"
+      ],
+      "score": 0.10428047180175781
+    },
+    {
+      "question": "what color is the refrigerator in the kitchen with wooden cabinets and metal fridge?",
+      "answers": [
+        "stainless steel",
+        "silver",
+        "gray"
+      ],
+      "score": 0.005549907684326172,
+      "duplicate_of": 0
+    },
+    {
+      "question": "what material are the floors in the kitchen with wooden cabinets and metal fridge made of?",
+      "answers": [
+        "wooden floors",
+        "wooden tile",
+        "hardwood floors"
+      ],
+      "score": 0.02693033218383789
+    }
+  ],
+  "control": {
+    "question": "Question: What specific type of metal is the refrigerator in the kitchen with wooden cabinets made of?",
+    "score": 0.10428047180175781
+  },
+  "mixed": {
+    "question": "Question: What is the color of the refrigerator in the kitchen?",
+    "score": 0.0653681755065918
+  },
+  "control_rank": 9,
+  "mixed_rank": 17,
+  "usual_rank": 17,
+  "new_answer": "stainless",
+  "new_rewrite": "a kitchen with wooden cabinets and a stainless steel refrigerator"
+}

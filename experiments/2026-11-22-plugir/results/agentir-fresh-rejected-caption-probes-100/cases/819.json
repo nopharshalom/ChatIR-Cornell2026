@@ -1,0 +1,179 @@
+{
+  "qid": 819,
+  "initial": "a car sits next to a plane on the runway",
+  "initial_rank": 14,
+  "displayed": [
+    30377,
+    37936,
+    26584,
+    29190,
+    43775,
+    44867,
+    41427,
+    30115,
+    43193,
+    25877
+  ],
+  "evidence": [
+    "a black car with a surf board on the roof",
+    "an airplane sits on an apron",
+    "a white jumbo jet airplane at the airport",
+    "a white and red airliner is sitting on a runway",
+    "a light blue and white airplane is parked on the runway",
+    "a large white and blue plane sits on the tarmac",
+    "a big white and blue airplane",
+    "a bus drives by two small cars and a bicycle",
+    "a large airplane on the runway of a terminal",
+    "a large white jet sitting on the tarmac at an airport"
+  ],
+  "rejected_captions": [
+    "two red sports cars are on the runway",
+    "a car sits next to a plane",
+    "a ford mustang parked on a tarmac",
+    "a car is parked on the street near a fighter jet",
+    "silver and black cars parked next to a small plane",
+    "a small black car sits in a garage with a white small plane",
+    "the plane is white and blue",
+    "a bunch of old cars parked in a parking lot",
+    "a passenger airplane parked in an airport lot",
+    "a small plane flying over a car trailer"
+  ],
+  "usual": {
+    "candidates": [
+      "Question: What color is the car sitting next to the plane?",
+      "Question: What color is the airplane sitting next to the car on the runway?",
+      "Question: What is the color of the airplane sitting next to the car on the runway?",
+      "Question: What is the color of the car sitting next to the airplane on the runway?",
+      "what is the other object in the image?"
+    ],
+    "question": "Question: What is the color of the airplane sitting next to the car on the runway?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What color is the car sitting next to the plane?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.03744220733642578
+        },
+        {
+          "question": "Question: What color is the airplane sitting next to the car on the runway?",
+          "answers": [
+            "black",
+            "white",
+            "light blue"
+          ],
+          "score": 0.03991556167602539
+        },
+        {
+          "question": "Question: What is the color of the airplane sitting next to the car on the runway?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.08623170852661133
+        },
+        {
+          "question": "Question: What is the color of the car sitting next to the airplane on the runway?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.07986021041870117
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a car",
+            "a plane",
+            "a surf board"
+          ],
+          "score": 0.026691913604736328
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.155,
+      "probe_selection_seconds": 2.258,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "black",
+    "rewrite": "a black airplane sits next to a car on the runway",
+    "raw_rank": 8,
+    "unseen_rank": 4
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the color of the car sitting next to the plane?",
+      "Question: What is the color of the plane sitting next to the car?",
+      "Question: What is the color of the car sitting next to the plane?",
+      "Question: What is the color of the car sitting next to the plane?",
+      "Question: What is the type of the plane sitting next to the car?"
+    ],
+    "question": "Question: What is the color of the plane sitting next to the car?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the color of the car sitting next to the plane?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.0431981086730957
+        },
+        {
+          "question": "Question: What is the color of the plane sitting next to the car?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.04675769805908203
+        },
+        {
+          "question": "Question: What is the color of the car sitting next to the plane?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.0431981086730957,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the car sitting next to the plane?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.0431981086730957,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the type of the plane sitting next to the car?",
+          "answers": [
+            "airplane",
+            "jet",
+            "bus"
+          ],
+          "score": 0.011433124542236328
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.147,
+      "probe_selection_seconds": 1.35,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "black",
+    "rewrite": "a black plane sits next to a car on the runway",
+    "raw_rank": 8,
+    "unseen_rank": 3
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "qid": 1064,
+  "sample": 2,
+  "first_candidates": [
+    "Question: What color is the horse being ridden by the male jockey?",
+    "what is the other object in the image?",
+    "what is the location where the male jockey is jumping over the pole?",
+    "Based on the provided information sources, here is the generated question and the explanation of how it was derived.\n\n**Generated Question:**\n\"What color is the pole?",
+    "**Generated Question:**\nWhat is the gender of the person riding the horse?"
+  ],
+  "second_candidates": [
+    "Where is the male jockey jumping over the pole with his horse?",
+    "What is the breed or color of the horse the male jockey is riding?",
+    "what color is the horse being ridden by the male jockey?",
+    "what is the gender of the rider on the horse?",
+    "Question: Is the rider on the horse male or female?"
+  ],
+  "paths": [
+    {
+      "question": "Where is the male jockey jumping over the pole with his horse?",
+      "answers": [
+        "a race track",
+        "a rodeo ring",
+        "a sidewalk"
+      ],
+      "score": 0.05654144287109375
+    },
+    {
+      "question": "What is the breed or color of the horse the male jockey is riding?",
+      "answers": [
+        "bay",
+        "chestnut",
+        "black"
+      ],
+      "score": 0.021440982818603516
+    },
+    {
+      "question": "what color is the horse being ridden by the male jockey?",
+      "answers": [
+        "brown",
+        "black",
+        "bay"
+      ],
+      "score": 0.012669563293457031
+    },
+    {
+      "question": "what is the gender of the rider on the horse?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.009214401245117188
+    },
+    {
+      "question": "Question: Is the rider on the horse male or female?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.003258228302001953
+    }
+  ],
+  "control": {
+    "question": "Where is the male jockey jumping over the pole with his horse?",
+    "score": 0.05654144287109375
+  },
+  "mixed": {
+    "question": "Question: What color is the horse?",
+    "score": 0.02523517608642578
+  },
+  "control_rank": 7,
+  "mixed_rank": 7,
+  "usual_rank": 5,
+  "new_answer": "In the image, the male jockey is jumping over a pole with his horse in an outdoor grassy area, likely a field or park, with trees and a fence in the background.",
+  "new_rewrite": "a male jockey on a fast horse jumps over a pole in an outdoor grassy field with trees and a fence in the background"
+}

@@ -1,0 +1,71 @@
+{
+  "qid": 1439,
+  "initial": "a row of motorcycles with a group of people around them",
+  "initial_rank": 14,
+  "evidence": [
+    "a group of elephants ride down a street",
+    "three police officers on motorcycles riding down the street",
+    "a bike and scooter ride through the streets",
+    "a motorcycle parked in front of a bike",
+    "a black and chrome harley davidson motorcycle parked by a red classic car",
+    "a motorcycle parked in a parking lot next to a skeleton",
+    "a red motorcycle is parked beside a white parked bike",
+    "people walk through a busy city on skateboards",
+    "two police officers are riding motorcycles on a city street",
+    "two people riding motorcycles on an asphalt street"
+  ],
+  "displayed_ids": [
+    16388,
+    25396,
+    12322,
+    7885,
+    19335,
+    45522,
+    49346,
+    36593,
+    12323,
+    12956
+  ],
+  "rejected_captions": [
+    "black and gold motorcycles",
+    "a yellow motorcycle is in the street",
+    "a lot of motorcycles parked in a parking lot",
+    "the motorcycles are lined up on the street",
+    "a group of people posing for a picture next to a parked motorcycle",
+    "people standing next to motorbikes",
+    "many motorcycles are lined up and in place in the crowd",
+    "a man riding a motor bike",
+    "a blue motorcycle in the group",
+    "motorcycles parked on the side of a road at night"
+  ],
+  "candidates": [
+    "Question: Are there people riding the motorcycles in the image?",
+    "Question: What color is the motorcycle that is parked next to a car in the image?",
+    "Question: What is the color of the people standing next to the motorcycles?",
+    "Question: What is the color of the motorcycles in the row?",
+    "Question: What is the background setting of the motorcycles in the row?"
+  ],
+  "control_candidates": [
+    "Question: Are there people riding motorcycles in the image, or is a motorcycle parked next to a bike?",
+    "Question: What is the color of the motorcycle parked next to the bike?",
+    "what is the color of the people riding the motorcycles?",
+    "what is the location where the motorcycles are parked?",
+    "what is the specific arrangement or formation of the motorcycles in the image?"
+  ],
+  "control": {
+    "question": "what is the specific arrangement or formation of the motorcycles in the image?",
+    "answer": "the motorcycles are parked in a row, side by side.",
+    "rewrite": "a row of motorcycles parked side by side with a group of people around them",
+    "rank": 17,
+    "hit": false,
+    "raw_rank": 17,
+    "unseen_rank": 7
+  },
+  "variant": {
+    "question": "Question: What is the background setting of the motorcycles in the row?",
+    "answer": "A white tent.",
+    "rewrite": "a row of motorcycles parked in front of a white tent with a group of people around them",
+    "raw_rank": 1,
+    "unseen_rank": 1
+  }
+}

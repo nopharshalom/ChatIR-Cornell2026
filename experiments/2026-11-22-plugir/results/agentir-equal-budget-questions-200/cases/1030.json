@@ -1,0 +1,78 @@
+{
+  "qid": 1030,
+  "sample": 1,
+  "first_candidates": [
+    "what type of flooring is in the bathroom containing the phone and 2 toilet roll dispensers?",
+    "what color is the bathroom that contains a phone and 2 toilet roll dispensers?",
+    "what is the color of the bathroom that contains a phone and 2 toilet roll dispensers?",
+    "what is the material of the sign above the phone in the bathroom with 2 toilet roll dispensers?",
+    "what objects are present in the bathroom with 2 toilet roll dispensers besides the phone and the sign?"
+  ],
+  "second_candidates": [
+    "what color is the bathroom where the phone and toilet roll dispensers are located?",
+    "what is the color of the bathroom where the phone and toilet roll dispensers are located?",
+    "what type of toilet is in the bathroom with the phone and 2 toilet roll dispensers?",
+    "what is the material of the sign located above the cell phone collection in the bathroom?",
+    "what is the color of the bathroom with a phone and 2 toilet roll dispensers?"
+  ],
+  "paths": [
+    {
+      "question": "what color is the bathroom where the phone and toilet roll dispensers are located?",
+      "answers": [
+        "white",
+        "brown",
+        "tiled"
+      ],
+      "score": 0.050913333892822266
+    },
+    {
+      "question": "what is the color of the bathroom where the phone and toilet roll dispensers are located?",
+      "answers": [
+        "white",
+        "brown",
+        "gray"
+      ],
+      "score": 0.027009963989257812
+    },
+    {
+      "question": "what type of toilet is in the bathroom with the phone and 2 toilet roll dispensers?",
+      "answers": [
+        "white",
+        "flush",
+        "wall-hung"
+      ],
+      "score": 0.0061492919921875
+    },
+    {
+      "question": "what is the material of the sign located above the cell phone collection in the bathroom?",
+      "answers": [
+        "metal",
+        "wood",
+        "plastic"
+      ],
+      "score": 0.08025264739990234
+    },
+    {
+      "question": "what is the color of the bathroom with a phone and 2 toilet roll dispensers?",
+      "answers": [
+        "white",
+        "brown",
+        "beige"
+      ],
+      "score": 0.024880409240722656
+    }
+  ],
+  "control": {
+    "question": "what is the material of the sign located above the cell phone collection in the bathroom?",
+    "score": 0.08025264739990234
+  },
+  "mixed": {
+    "question": "Question: Question: What type of flooring is visible in the bathroom?",
+    "score": 0.08257055282592773
+  },
+  "control_rank": 36,
+  "mixed_rank": 16,
+  "usual_rank": 14,
+  "new_answer": "paper",
+  "new_rewrite": "a bathroom with a phone, 2 toilet roll dispensers, and a paper sign located above the cell phone collection"
+}

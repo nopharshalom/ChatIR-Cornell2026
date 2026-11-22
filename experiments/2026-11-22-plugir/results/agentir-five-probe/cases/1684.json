@@ -1,0 +1,100 @@
+{
+  "qid": 1684,
+  "initial": "people waiting on the passenger train pulling up to the platform",
+  "initial_rank": 112,
+  "evidence": [
+    "an old red train on train tracks",
+    "a blue and yellow train on the train track",
+    "a large white and blue passenger bus parked on a street",
+    "yellow, green, and black train",
+    "a yellow, blue and black train coming into a station",
+    "a green train is traveling down the tracks",
+    "a blue and yellow train standing in a train station",
+    "a red and yellow train pulling along the railroad track",
+    "an empty subway platform with two red and white trains",
+    "a red and blue train is on a track passing by some buildings"
+  ],
+  "candidates": [
+    "Question: What is the color of the train that people are waiting for?",
+    "what is the color of the train that people are waiting for?",
+    "Question: Is the train people are waiting for red, blue, or yellow?",
+    "Question: **Are the people waiting for a train that is red, blue, or yellow?",
+    "Question: **What is the color of the train that people are waiting for?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: What is the color of the train that people are waiting for?",
+      "answers": [
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "score": 0.18154001235961914
+    },
+    {
+      "question": "what is the color of the train that people are waiting for?",
+      "answers": [
+        "red",
+        "blue and yellow",
+        "yellow, green, and black"
+      ],
+      "score": 0.2614450454711914
+    },
+    {
+      "question": "Question: Is the train people are waiting for red, blue, or yellow?",
+      "answers": [
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "score": 0.024448394775390625
+    },
+    {
+      "question": "Question: **Are the people waiting for a train that is red, blue, or yellow?",
+      "answers": [
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "score": 0.046912193298339844
+    },
+    {
+      "question": "Question: **What is the color of the train that people are waiting for?",
+      "answers": [
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "score": 0.28371667861938477
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.068,
+  "probe_selection_seconds": 2.315,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the color of the train that people are waiting for?",
+      "answer": "red",
+      "rewrite": "people waiting on a red passenger train pulling up to the platform",
+      "rank": 11,
+      "hit": false
+    },
+    "random": {
+      "question": "Question: Is the train people are waiting for red, blue, or yellow?",
+      "answer": "red",
+      "rewrite": "people waiting on the red passenger train pulling up to the platform",
+      "rank": 11,
+      "hit": false
+    },
+    "probe": {
+      "question": "Question: **What is the color of the train that people are waiting for?",
+      "answer": "Red.",
+      "rewrite": "people waiting on a red passenger train pulling up to the platform",
+      "rank": 11,
+      "hit": false
+    }
+  },
+  "seconds": 16.627
+}

@@ -1,0 +1,79 @@
+{
+  "qid": 1754,
+  "candidates": [
+    "Question: What specific items are on the white plate?",
+    "what type of sandwich is on the plate?",
+    "Question: Are there any chips or fries on the plate?",
+    "Question: What food item is served with the sandwich on the plate?",
+    "Question: Which specific food items are visible on the white plate sitting on the wooden table?"
+  ],
+  "kl": {
+    "question": "Question: What specific items are on the white plate?",
+    "answer": "sandwich, potatoes, tomato, onion",
+    "rewrite": "a white plate containing a sandwich, potatoes, tomato, and onion sitting on a wooden table",
+    "raw_rank": 1,
+    "unseen_rank": 1
+  },
+  "probe": {
+    "question": "Question: What specific items are on the white plate?",
+    "answer": "sandwich, potatoes, tomato, onion",
+    "rewrite": "a white plate containing a sandwich, potatoes, tomato, and onion sitting on a wooden table",
+    "raw_rank": 1,
+    "unseen_rank": 1
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What specific items are on the white plate?",
+        "answers": [
+          "broccoli, steak, and rice",
+          "sausage, eggs, potatoes, and toast",
+          "pizza with corn chips and coke"
+        ],
+        "score": 0.4034552574157715
+      },
+      {
+        "question": "what type of sandwich is on the plate?",
+        "answers": [
+          "toasted sandwich",
+          "grilled sandwich",
+          "cold sandwich"
+        ],
+        "score": 0.04986572265625
+      },
+      {
+        "question": "Question: Are there any chips or fries on the plate?",
+        "answers": [
+          "Yes, chips",
+          "Yes, fries",
+          "Yes, both"
+        ],
+        "score": 0.003124713897705078
+      },
+      {
+        "question": "Question: What food item is served with the sandwich on the plate?",
+        "answers": [
+          "salad",
+          "french fries",
+          "chips"
+        ],
+        "score": 0.1511244773864746
+      },
+      {
+        "question": "Question: Which specific food items are visible on the white plate sitting on the wooden table?",
+        "answers": [
+          "sandwich, salad, chips, ketchup",
+          "broccoli, steak, rice",
+          "toasted sandwich, french fries"
+        ],
+        "score": 0.38327503204345703
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.081,
+    "probe_selection_seconds": 3.113,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": true
+}

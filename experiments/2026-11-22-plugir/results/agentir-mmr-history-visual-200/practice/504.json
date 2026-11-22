@@ -1,0 +1,95 @@
+{
+  "chosen": "Question: What color are the floors in the bathroom with a shower, sink, and toilet?",
+  "default": "Question: What color are the floors in the bathroom with a shower, sink, and toilet?",
+  "ids": [
+    35510,
+    4391,
+    34749,
+    28773
+  ],
+  "trials": {
+    "Question: What color are the floors in the bathroom with a shower, sink, and toilet?": {
+      "answers": [
+        "white",
+        "gray",
+        "brown",
+        "white"
+      ],
+      "rewrites": {
+        "white": "a bathroom with a white floor, featuring a shower, sink, and toilet",
+        "gray": "a bathroom with a gray floor, featuring a shower, sink, and toilet",
+        "brown": "a bathroom with a brown floor, featuring a shower, sink, and toilet"
+      },
+      "ranks": [
+        3,
+        11,
+        102,
+        86
+      ],
+      "hits": 1
+    },
+    "Question: What is the color of the curtain in the bathroom?": {
+      "answers": [
+        "clear",
+        "white",
+        "There is no curtain in the bathroom.",
+        "beige"
+      ],
+      "rewrites": {
+        "clear": "a bathroom with a clear curtain, sink, and toilet",
+        "white": "a bathroom with a white curtain, sink, toilet, and shower",
+        "There is no curtain in the bathroom.": "a bathroom with a shower, sink, and toilet, featuring no curtain",
+        "beige": "a bathroom with a beige curtain, sink, toilet, and shower"
+      },
+      "ranks": [
+        391,
+        22,
+        69,
+        3
+      ],
+      "hits": 1
+    },
+    "Question: What is the color of the curtain in the bathroom with a shower, sink, and toilet?": {
+      "answers": [
+        "clear",
+        "white",
+        "There is no curtain in the image.",
+        "beige"
+      ],
+      "rewrites": {
+        "clear": "a bathroom with a clear curtain, sink, and toilet",
+        "white": "a bathroom with a white curtain, shower, sink, and toilet",
+        "There is no curtain in the image.": "a bathroom with a shower, sink, and toilet, featuring no curtain",
+        "beige": "a bathroom with a beige curtain, shower, sink, and toilet"
+      },
+      "ranks": [
+        391,
+        19,
+        69,
+        4
+      ],
+      "hits": 1
+    },
+    "Question: What is the color of the curtain in the bathroom that has black tiled floors?": {
+      "answers": [
+        "I'm sorry, but the image does not show a bathroom with black tiled floors. The bathroom in the image has light-colored tiled floors.",
+        "white",
+        "There is no curtain in the bathroom.",
+        "beige"
+      ],
+      "rewrites": {
+        "I'm sorry, but the image does not show a bathroom with black tiled floors. The bathroom in the image has light-colored tiled floors.": "a bathroom with a shower, sink, toilet, and light-colored tiled floors",
+        "white": "a bathroom with a white curtain, sink, toilet, and black tiled floors",
+        "There is no curtain in the bathroom.": "a bathroom with a shower, sink, and toilet featuring black tiled floors, with no curtain present",
+        "beige": "a bathroom with beige curtains, black tiled floors, a shower, sink, and toilet"
+      },
+      "ranks": [
+        5,
+        99,
+        95,
+        35
+      ],
+      "hits": 1
+    }
+  }
+}

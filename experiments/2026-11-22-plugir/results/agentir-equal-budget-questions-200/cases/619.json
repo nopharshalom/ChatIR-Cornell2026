@@ -1,0 +1,79 @@
+{
+  "qid": 619,
+  "sample": 2,
+  "first_candidates": [
+    "what color is the base of the fire hydrant in the image?",
+    "Question: What type of fire hydrant is visible in the image?",
+    "Question: What is the color of the fire hydrant in the image?",
+    "what is the object located in front of the house in the snowy image?",
+    "Question: What is the color of the fire hydrant's base in the image?"
+  ],
+  "second_candidates": [
+    "what is the color of the base of the fire hydrant?",
+    "what is the color of the fire hydrant on the lawn?",
+    "Question: what is the color of the fire hydrant on the city street with snow around it?",
+    "what is the color of the fire hydrant on the city street with snow around it?",
+    "what is the color of the fire hydrant on the city street with snow around it?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the base of the fire hydrant?",
+      "answers": [
+        "red",
+        "yellow",
+        "black"
+      ],
+      "score": 0.18416404724121094
+    },
+    {
+      "question": "what is the color of the fire hydrant on the lawn?",
+      "answers": [
+        "black",
+        "yellow",
+        "red"
+      ],
+      "score": 0.1723957061767578
+    },
+    {
+      "question": "Question: what is the color of the fire hydrant on the city street with snow around it?",
+      "answers": [
+        "black",
+        "yellow and red",
+        "yellow base"
+      ],
+      "score": 0.0969233512878418
+    },
+    {
+      "question": "what is the color of the fire hydrant on the city street with snow around it?",
+      "answers": [
+        "black",
+        "yellow and red",
+        "white"
+      ],
+      "score": 0.1529684066772461
+    },
+    {
+      "question": "what is the color of the fire hydrant on the city street with snow around it?",
+      "answers": [
+        "black",
+        "yellow and red",
+        "white"
+      ],
+      "score": 0.1529684066772461,
+      "duplicate_of": 3
+    }
+  ],
+  "control": {
+    "question": "what is the color of the base of the fire hydrant?",
+    "score": 0.18416404724121094
+  },
+  "mixed": {
+    "question": "Question: What is the color of the fire hydrant's base in the image?",
+    "score": 0.18111276626586914
+  },
+  "control_rank": 9,
+  "mixed_rank": 9,
+  "usual_rank": 9,
+  "new_answer": "red",
+  "new_rewrite": "a red-based fire hydrant on a city street with snow around it"
+}

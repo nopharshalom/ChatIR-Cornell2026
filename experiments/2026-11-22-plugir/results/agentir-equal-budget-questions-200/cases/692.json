@@ -1,0 +1,78 @@
+{
+  "qid": 692,
+  "sample": 2,
+  "first_candidates": [
+    "what is the location of the two men?",
+    "what is the clothing of the man who is smiling?",
+    "what is the location of the two men in the image?",
+    "what is the location of the two men in the image?",
+    "what is the location of the two men in the image?"
+  ],
+  "second_candidates": [
+    "what is the setting where the two men are standing?",
+    "Question: What are the two men wearing?",
+    "Question: Where is the man in the suit and tie standing?",
+    "what is the specific action being performed by the two men in the image?",
+    "what is the relationship between the two men in the image?"
+  ],
+  "paths": [
+    {
+      "question": "what is the setting where the two men are standing?",
+      "answers": [
+        "a room",
+        "a beach",
+        "a field"
+      ],
+      "score": 0.22104597091674805
+    },
+    {
+      "question": "Question: What are the two men wearing?",
+      "answers": [
+        "suits and ties",
+        "cell phones",
+        "surfboards"
+      ],
+      "score": 0.2020401954650879
+    },
+    {
+      "question": "Question: Where is the man in the suit and tie standing?",
+      "answers": [
+        "in a room",
+        "outside",
+        "on a beach"
+      ],
+      "score": 0.1616520881652832
+    },
+    {
+      "question": "what is the specific action being performed by the two men in the image?",
+      "answers": [
+        "smiling",
+        "shaking hands",
+        "standing"
+      ],
+      "score": 0.011353015899658203
+    },
+    {
+      "question": "what is the relationship between the two men in the image?",
+      "answers": [
+        "friends",
+        "colleagues",
+        "strangers"
+      ],
+      "score": 0.018985748291015625
+    }
+  ],
+  "control": {
+    "question": "what is the setting where the two men are standing?",
+    "score": 0.22104597091674805
+  },
+  "mixed": {
+    "question": "what are the two men wearing?",
+    "score": 0.17821359634399414
+  },
+  "control_rank": 5,
+  "mixed_rank": 5,
+  "usual_rank": 3,
+  "new_answer": "outdoors",
+  "new_rewrite": "two men standing outdoors, one smiling at the other who is reaching out to shake his hand"
+}

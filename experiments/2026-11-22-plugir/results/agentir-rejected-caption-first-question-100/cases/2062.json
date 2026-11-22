@@ -1,0 +1,71 @@
+{
+  "qid": 2062,
+  "initial": "the breakfast plates are on the table next to the people",
+  "initial_rank": 73,
+  "evidence": [
+    "a large fried egg on a pizza",
+    "a woman arranging food on a table",
+    "a woman is eating breakfast with a fork",
+    "a group of people sit around a wooden table",
+    "two plates with food and a cup of coffee",
+    "a plate of breakfast foods, fruits, sausage and bread",
+    "several people standing in front of a table with a buffet of sandwiches",
+    "a plate with fried egg, vegetables and rice",
+    "a group of people eating pizza at a table outdoors",
+    "a family at a restaurant eating a bite of a sandwich"
+  ],
+  "displayed_ids": [
+    45007,
+    41936,
+    13680,
+    49600,
+    5911,
+    43783,
+    11969,
+    41265,
+    37135,
+    19845
+  ],
+  "rejected_captions": [
+    "a group of people eating a meal",
+    "a yellow checkered tablecloth",
+    "omelet with coffee and toast",
+    "this is the person slicing the food",
+    "a woman and a man sitting at a table",
+    "a table is next to the woman who is eating a bowl of breakfast and drinking coffee",
+    "a plate with french toast, eggs and a beverage",
+    "the plates of food are on a wooden table",
+    "a clear glass table with food on it",
+    "person pouring water over breakfast"
+  ],
+  "candidates": [
+    "Question: What is the material of the table where the breakfast plates are placed?",
+    "what color is the tablecloth on the table where the breakfast plates are placed?",
+    "What type of food is on the plates next to the people?",
+    "Question: What is the gender of the people sitting next to the breakfast plates?",
+    "Question: How many people are sitting next to the breakfast plates?"
+  ],
+  "control_candidates": [
+    "what is the specific food item on the plate located next to the people at the table?",
+    "what color is the cup of coffee on the table next to the people eating breakfast?",
+    "What is the color of the table where the people are eating breakfast?",
+    "Question: What is the color of the plate containing the breakfast foods located next to the people at the table?",
+    "what is the color of the plate containing the fried egg, vegetables, and rice located next to the people at the table?"
+  ],
+  "control": {
+    "question": "what is the specific food item on the plate located next to the people at the table?",
+    "answer": "pancakes",
+    "rewrite": "pancakes on a plate are on the table next to the people",
+    "rank": 79,
+    "hit": false,
+    "raw_rank": 79,
+    "unseen_rank": 76
+  },
+  "variant": {
+    "question": "Question: What is the material of the table where the breakfast plates are placed?",
+    "answer": "wood",
+    "rewrite": "the breakfast plates are on a wooden table next to the people",
+    "raw_rank": 200,
+    "unseen_rank": 190
+  }
+}

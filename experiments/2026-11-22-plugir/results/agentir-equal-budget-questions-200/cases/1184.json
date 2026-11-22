@@ -1,0 +1,78 @@
+{
+  "qid": 1184,
+  "sample": 1,
+  "first_candidates": [
+    "what activity is the little girl with brown hair in a ponytail engaged in while sitting on the bench?",
+    "what is the little girl wearing?",
+    "what is the color of the bench the little girl is sitting on?",
+    "Question: where is the little girl sitting?",
+    "what is the activity of the little girl with brown hair in a ponytail, and what is she wearing?"
+  ],
+  "second_candidates": [
+    "what is the activity of the little girl in the image?",
+    "what color are the surfboards located behind the little girl?",
+    "Question: What is the object the little girl is holding or interacting with?",
+    "what is the object the little girl is holding or interacting with?",
+    "what is the activity of the little girl in the image?"
+  ],
+  "paths": [
+    {
+      "question": "what is the activity of the little girl in the image?",
+      "answers": [
+        "reading",
+        "throwing a kite",
+        "sitting"
+      ],
+      "score": 0.13890361785888672
+    },
+    {
+      "question": "what color are the surfboards located behind the little girl?",
+      "answers": [
+        "blue",
+        "pink",
+        "yellow"
+      ],
+      "score": 0.04488801956176758
+    },
+    {
+      "question": "Question: What is the object the little girl is holding or interacting with?",
+      "answers": [
+        "surfboards",
+        "princess",
+        "kite"
+      ],
+      "score": 0.05596637725830078
+    },
+    {
+      "question": "what is the object the little girl is holding or interacting with?",
+      "answers": [
+        "two children with one of the princesses",
+        "a young girl is throwing a kite on grass"
+      ],
+      "score": 0.09619379043579102
+    },
+    {
+      "question": "what is the activity of the little girl in the image?",
+      "answers": [
+        "reading",
+        "throwing a kite",
+        "sitting"
+      ],
+      "score": 0.13890361785888672,
+      "duplicate_of": 0
+    }
+  ],
+  "control": {
+    "question": "what is the activity of the little girl in the image?",
+    "score": 0.13890361785888672
+  },
+  "mixed": {
+    "question": "what activity is the little girl with brown hair in a ponytail engaged in while sitting on the bench?",
+    "score": 0.13297700881958008
+  },
+  "control_rank": 1,
+  "mixed_rank": 2,
+  "usual_rank": 2,
+  "new_answer": "eating cake",
+  "new_rewrite": "a little girl with brown hair in a ponytail is outside by a bench eating cake"
+}

@@ -1,0 +1,179 @@
+{
+  "qid": 812,
+  "initial": "a train travelling down the tracks outside a city",
+  "initial_rank": 38,
+  "displayed": [
+    34425,
+    23963,
+    3159,
+    28241,
+    17233,
+    42584,
+    26490,
+    9500,
+    10345,
+    48277
+  ],
+  "evidence": [
+    "a yellow and black train pulling through a gravel yard",
+    "a yellow and blue train is on the tracks",
+    "a blue and yellow train goes through countryside",
+    "a yellow and black train engine",
+    "a blue and white subway train",
+    "a red train goes down railroad tracks near a farm",
+    "an old red train on train tracks",
+    "blue, red and white trains near buildings",
+    "red train travelling on a concrete platform",
+    "a cranked yellow train is going down tracks"
+  ],
+  "rejected_captions": [
+    "a train traveling down some tracks next to a large city",
+    "a train traveling down tracks near a city",
+    "the kobane subway line - in progress, 2014 london, united kingdom",
+    "a city is visible behind the train",
+    "train train on the track",
+    "a commuter train is driving down the tracks",
+    "a train traveling down a train track",
+    "a train traveling on railroad tracks",
+    "a train going down the railroad tracks",
+    "train tracks with buildings in the background"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the color of the train travelling down the tracks outside a city?",
+      "Question: what is the color of the train travelling down the tracks outside a city?",
+      "Question: What is the color of the train travelling down the tracks outside a city?",
+      "what is the color of the train travelling down the tracks outside a city?",
+      "what is the specific color scheme of the train travelling down the tracks outside a city?"
+    ],
+    "question": "what is the color of the train travelling down the tracks outside a city?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the train travelling down the tracks outside a city?",
+          "answers": [
+            "yellow",
+            "blue",
+            "red"
+          ],
+          "score": 0.23887968063354492
+        },
+        {
+          "question": "Question: what is the color of the train travelling down the tracks outside a city?",
+          "answers": [
+            "yellow and black",
+            "yellow and blue",
+            "blue and yellow"
+          ],
+          "score": 0.09668588638305664
+        },
+        {
+          "question": "Question: What is the color of the train travelling down the tracks outside a city?",
+          "answers": [
+            "yellow",
+            "blue",
+            "red"
+          ],
+          "score": 0.1845989227294922
+        },
+        {
+          "question": "what is the color of the train travelling down the tracks outside a city?",
+          "answers": [
+            "yellow",
+            "blue",
+            "red"
+          ],
+          "score": 0.23887968063354492,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the specific color scheme of the train travelling down the tracks outside a city?",
+          "answers": [
+            "yellow and black",
+            "yellow and blue",
+            "blue and yellow"
+          ],
+          "score": 0.12491559982299805
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.077,
+      "probe_selection_seconds": 1.941,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "green",
+    "rewrite": "a green train travelling down the tracks outside a city",
+    "raw_rank": 3,
+    "unseen_rank": 3
+  },
+  "rejected": {
+    "candidates": [
+      "what is the color of the train?",
+      "Question: What is the color of the train?",
+      "Question: What is the color of the train?",
+      "Question: What is the specific type of train being described?",
+      "Question: what is the color of the train?"
+    ],
+    "question": "what is the color of the train?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the train?",
+          "answers": [
+            "yellow",
+            "blue",
+            "red"
+          ],
+          "score": 0.3791036605834961
+        },
+        {
+          "question": "Question: What is the color of the train?",
+          "answers": [
+            "yellow and black",
+            "yellow and blue",
+            "blue and white"
+          ],
+          "score": 0.18043041229248047
+        },
+        {
+          "question": "Question: What is the color of the train?",
+          "answers": [
+            "yellow and black",
+            "yellow and blue",
+            "blue and white"
+          ],
+          "score": 0.18043041229248047,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the specific type of train being described?",
+          "answers": [
+            "yellow and black train",
+            "yellow and blue train",
+            "blue and yellow train"
+          ],
+          "score": 0.07922697067260742
+        },
+        {
+          "question": "Question: what is the color of the train?",
+          "answers": [
+            "yellow and black",
+            "yellow and blue",
+            "blue and yellow"
+          ],
+          "score": 0.0655970573425293
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.091,
+      "probe_selection_seconds": 2.17,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "green",
+    "rewrite": "a green train travelling down the tracks outside a city",
+    "raw_rank": 3,
+    "unseen_rank": 3
+  }
+}

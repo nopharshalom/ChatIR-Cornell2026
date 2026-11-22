@@ -1,0 +1,534 @@
+{
+  "qid": 896,
+  "sample": "original",
+  "target": "unlabeled2017/000000211585.jpg",
+  "queries": [
+    "a narrow roadway in between tall buildings with stylized architecture",
+    "a narrow roadway in between tall buildings with stylized architecture, featuring people riding motorcycles",
+    "a narrow roadway between tall buildings with stylized architecture, featuring people riding a black motorcycle",
+    "a narrow roadway in between tall buildings with stylized architecture, featuring people riding a black motorcycle",
+    "a narrow, wet street in a densely built urban area with stylized architecture, featuring people riding black motorcycles, pedestrians walking, parked scooters, and various shop signs"
+  ],
+  "ranks": [
+    41,
+    25,
+    34,
+    40,
+    2
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a narrow roadway in between tall buildings with stylized architecture",
+      "question": "Question: What type of vehicle is being ridden by the people in the scene?",
+      "answer": "motorcycle",
+      "query_after": "a narrow roadway in between tall buildings with stylized architecture, featuring people riding motorcycles",
+      "displayed_ids": [
+        31486,
+        37975,
+        37417,
+        14151,
+        7855,
+        17444,
+        36645,
+        20781,
+        3179,
+        37505
+      ],
+      "selected_ids": [
+        27618,
+        22766,
+        1806,
+        8566,
+        14151,
+        40696,
+        26626,
+        24856,
+        35156,
+        41624
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the clock tower visible in the narrow roadway between the tall buildings?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.038025856018066406
+        },
+        {
+          "question": "Question: What is the shape of the clock tower visible in the narrow roadway between the tall buildings?",
+          "answers": [
+            "round",
+            "square",
+            "octagonal"
+          ],
+          "score": 0.012431144714355469
+        },
+        {
+          "question": "what is the material of the buildings visible on either side of the narrow roadway?",
+          "answers": [
+            "stone",
+            "brick",
+            "concrete"
+          ],
+          "score": 0.028408527374267578
+        },
+        {
+          "question": "what is the shape of the clock tower visible in the narrow roadway between the tall buildings?",
+          "answers": [
+            "round",
+            "square",
+            "octagonal"
+          ],
+          "score": 0.012972831726074219
+        },
+        {
+          "question": "what is the color of the buildings visible on either side of the narrow roadway?",
+          "answers": [
+            "white",
+            "brown",
+            "grey"
+          ],
+          "score": 0.012717723846435547
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the buildings along the narrow roadway?",
+          "answers": [
+            "white",
+            "gray",
+            "brown"
+          ],
+          "score": 0.01558065414428711
+        },
+        {
+          "question": "Question: What color is the umbrella held by the man walking down the narrow roadway?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.029907703399658203
+        },
+        {
+          "question": "Question: What type of vehicle is being ridden by the people in the scene?",
+          "answers": [
+            "elephants",
+            "bicycles",
+            "cars"
+          ],
+          "score": 0.06746721267700195
+        },
+        {
+          "question": "Question: What is the material of the buildings along the narrow roadway?",
+          "answers": [
+            "stone",
+            "concrete",
+            "metal"
+          ],
+          "score": 0.030444622039794922
+        },
+        {
+          "question": "Question: Are there people or vehicles present in the scene with the narrow roadway?",
+          "answers": [
+            "No people, no vehicles",
+            "Yes, people",
+            "Yes, vehicles"
+          ],
+          "score": 0.04291391372680664
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a narrow roadway in between tall buildings with stylized architecture, featuring people riding motorcycles",
+      "question": "Question: What is the color of the motorcycle being ridden by the people in the scene?",
+      "answer": "black",
+      "query_after": "a narrow roadway between tall buildings with stylized architecture, featuring people riding a black motorcycle",
+      "displayed_ids": [
+        37975,
+        22031,
+        20635,
+        32985,
+        37029,
+        23697,
+        37566,
+        29745,
+        39014,
+        36645
+      ],
+      "selected_ids": [
+        18807,
+        42245,
+        4168,
+        37195,
+        5187,
+        1607,
+        39444,
+        24991,
+        46094,
+        14151
+      ],
+      "rejected_count": 18,
+      "usual_paths": [
+        {
+          "question": "Question: How many people are riding the motorcycles in the scene?",
+          "answers": [
+            "two",
+            "three",
+            "four"
+          ],
+          "score": 0.0027985572814941406
+        },
+        {
+          "question": "Question: What is the specific location where the people are riding the motorcycles?",
+          "answers": [
+            "highway",
+            "city street",
+            "narrow alley"
+          ],
+          "score": 0.04155445098876953
+        },
+        {
+          "question": "Question: What is the name of the city where the narrow roadway with stylized architecture is located?",
+          "answers": [
+            "Guangzhou",
+            "Chengdu",
+            "Chongqing"
+          ],
+          "score": 0.010745048522949219
+        },
+        {
+          "question": "Question: What is the color of the motorcycles being ridden by the people in the narrow roadway with stylized architecture?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.049228668212890625
+        },
+        {
+          "question": "Question: What is the color of the motorcycles being ridden by the people in the scene?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.05584383010864258
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the vehicle described as being red in the scene?",
+          "answers": [
+            "red",
+            "black",
+            "blue"
+          ],
+          "score": 0.04615497589111328
+        },
+        {
+          "question": "Question: What is the color of the motorcycle being ridden by the people in the scene?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.05996513366699219
+        },
+        {
+          "question": "Question: What is the color of the motorcycles being ridden by the people in the scene?",
+          "answers": [
+            "red",
+            "black",
+            "silver"
+          ],
+          "score": 0.04600667953491211
+        },
+        {
+          "question": "Question: How many people are riding motorcycles in the scene?",
+          "answers": [
+            "2",
+            "many",
+            "a lot"
+          ],
+          "score": 0.008231639862060547
+        },
+        {
+          "question": "Question: What is the color of the motorcycle being ridden by the people in the scene?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.05996513366699219,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "a narrow roadway between tall buildings with stylized architecture, featuring people riding a black motorcycle",
+      "question": "what is the color of the motorcycle being ridden by the people in the scene?",
+      "answer": "black",
+      "query_after": "a narrow roadway in between tall buildings with stylized architecture, featuring people riding a black motorcycle",
+      "displayed_ids": [
+        37975,
+        23697,
+        22031,
+        29745,
+        20549,
+        37029,
+        31486,
+        20635,
+        36645,
+        8075
+      ],
+      "selected_ids": [
+        37505,
+        36599,
+        901,
+        20114,
+        46094,
+        46837,
+        38539,
+        14795,
+        26626
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "where is the narrow roadway located?",
+          "answers": [
+            "Asian city",
+            "City square",
+            "Parking lot"
+          ],
+          "score": 0.056757450103759766
+        },
+        {
+          "question": "where is the narrow roadway located?",
+          "answers": [
+            "Asian city",
+            "City square",
+            "Parking lot"
+          ],
+          "score": 0.056757450103759766,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Where is the narrow roadway with motorcycles located?",
+          "answers": [
+            "Asian city",
+            "Parking lot",
+            "Busy street"
+          ],
+          "score": 0.0361332893371582
+        },
+        {
+          "question": "what is the architectural style of the tall buildings surrounding the narrow roadway?",
+          "answers": [
+            "gothic",
+            "modern",
+            "traditional"
+          ],
+          "score": 0.0518341064453125
+        },
+        {
+          "question": "what is the color of the motorcycles in the scene?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.035143375396728516
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the architectural style of the tall buildings in the background?",
+          "answers": [
+            "modern",
+            "futuristic",
+            "steampunk"
+          ],
+          "score": 0.0654001235961914
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "clock tower",
+            "stop sign",
+            "tall building"
+          ],
+          "score": 0.047092437744140625
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "clock tower",
+            "stop sign",
+            "tall building"
+          ],
+          "score": 0.047092437744140625,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the motorcycle being ridden by the people in the scene?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.07007646560668945
+        },
+        {
+          "question": "what is the color of the motorcycle being ridden by the people in the scene?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.07387781143188477
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a narrow roadway in between tall buildings with stylized architecture, featuring people riding a black motorcycle",
+      "question": "what is the other object in the image?",
+      "answer": "the image shows a narrow, wet street in a densely built urban area, likely in Asia, with people walking, parked scooters, and various shop signs.",
+      "query_after": "a narrow, wet street in a densely built urban area with stylized architecture, featuring people riding black motorcycles, pedestrians walking, parked scooters, and various shop signs",
+      "displayed_ids": [
+        37975,
+        23697,
+        22031,
+        29745,
+        20549,
+        37029,
+        31486,
+        20635,
+        36645,
+        8075
+      ],
+      "selected_ids": [
+        1287,
+        42245,
+        38539,
+        34260,
+        23749,
+        28936,
+        46094,
+        36599,
+        27473,
+        37505
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "clock tower",
+            "street sign",
+            "traffic light"
+          ],
+          "score": 0.09558343887329102
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "clock tower",
+            "street sign",
+            "traffic light"
+          ],
+          "score": 0.09558343887329102,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the name of the city where the narrow roadway with tall buildings is located?",
+          "answers": [
+            "Xi'an",
+            "Chengdu",
+            "Shanghai"
+          ],
+          "score": 0.023424625396728516
+        },
+        {
+          "question": "what is the architectural style of the buildings lining the narrow roadway?",
+          "answers": [
+            "modern",
+            "traditional",
+            "contemporary"
+          ],
+          "score": 0.029942035675048828
+        },
+        {
+          "question": "what is the color of the motorcycle being ridden by the people in the scene?",
+          "answers": [
+            "black",
+            "red",
+            "white"
+          ],
+          "score": 0.0649271011352539
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "clock tower",
+            "street sign",
+            "traffic light"
+          ],
+          "score": 0.09558343887329102
+        },
+        {
+          "question": "Question: What is the color of the motorcycle being ridden by the people in the scene?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.06447458267211914
+        },
+        {
+          "question": "Question: What color are the tall buildings with stylized architecture?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.034801483154296875
+        },
+        {
+          "question": "Question: What color are the tall buildings with stylized architecture?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.034801483154296875,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the color of the tall buildings with stylized architecture?",
+          "answers": [
+            "red",
+            "white and red",
+            "gray"
+          ],
+          "score": 0.038214683532714844
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

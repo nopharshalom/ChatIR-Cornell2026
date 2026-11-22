@@ -1,0 +1,90 @@
+{
+  "dialogues": 500,
+  "turns": 646,
+  "fallback": 31,
+  "baseline_rank_differences": 1,
+  "boundary_differences": 0,
+  "rounds": {
+    "1": {
+      "vanilla": {
+        "observed_hits": 400,
+        "unknown": 0,
+        "gained": 0,
+        "lost_on_observed": 0
+      },
+      "latest": {
+        "observed_hits": 383,
+        "unknown": 0,
+        "gained": 1,
+        "lost_on_observed": 18
+      },
+      "fusion": {
+        "observed_hits": 395,
+        "unknown": 0,
+        "gained": 2,
+        "lost_on_observed": 7
+      }
+    },
+    "2": {
+      "vanilla": {
+        "observed_hits": 420,
+        "unknown": 0,
+        "gained": 0,
+        "lost_on_observed": 0
+      },
+      "latest": {
+        "observed_hits": 395,
+        "unknown": 18,
+        "gained": 5,
+        "lost_on_observed": 30
+      },
+      "fusion": {
+        "observed_hits": 412,
+        "unknown": 7,
+        "gained": 4,
+        "lost_on_observed": 12
+      }
+    },
+    "5": {
+      "vanilla": {
+        "observed_hits": 451,
+        "unknown": 0,
+        "gained": 0,
+        "lost_on_observed": 0
+      },
+      "latest": {
+        "observed_hits": 419,
+        "unknown": 42,
+        "gained": 13,
+        "lost_on_observed": 45
+      },
+      "fusion": {
+        "observed_hits": 443,
+        "unknown": 15,
+        "gained": 7,
+        "lost_on_observed": 15
+      }
+    },
+    "10": {
+      "vanilla": {
+        "observed_hits": 468,
+        "unknown": 0,
+        "gained": 0,
+        "lost_on_observed": 0
+      },
+      "latest": {
+        "observed_hits": 430,
+        "unknown": 50,
+        "gained": 12,
+        "lost_on_observed": 50
+      },
+      "fusion": {
+        "observed_hits": 457,
+        "unknown": 18,
+        "gained": 7,
+        "lost_on_observed": 18
+      }
+    }
+  },
+  "seconds": 15.2
+}

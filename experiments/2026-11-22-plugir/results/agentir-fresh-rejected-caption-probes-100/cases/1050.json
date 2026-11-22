@@ -1,0 +1,178 @@
+{
+  "qid": 1050,
+  "initial": "a bride and groom cutting into their wedding cake together",
+  "initial_rank": 16,
+  "displayed": [
+    38847,
+    34620,
+    31125,
+    38935,
+    26655,
+    9042,
+    25960,
+    21211,
+    997,
+    688
+  ],
+  "evidence": [
+    "a woman cuts a chocolate cake on a picnic table",
+    "two soccer players kicking the ball",
+    "a woman slicing a cake at a party",
+    "a cake is being cut in front of some people",
+    "a bathroom with white tile walls, a tiled floor, and a window",
+    "the bride and groom in wedding attire",
+    "a three tier cake on a table with flowers surrounding it",
+    "a man and woman eating dinner at a table",
+    "two young people eating at a table",
+    "a bathtub and a bathroom with a towel hanging"
+  ],
+  "rejected_captions": [
+    "a white wedding cake",
+    "two young people cutting a wedding cake with a wedding knife",
+    "a couple cutting a cake",
+    "a black and white picture of a couple cutting their wedding cake",
+    "two people cutting a cake",
+    "a man and woman cutting a cake",
+    "a man and woman are cutting a cake together",
+    "bride and groom cutting cake",
+    "wedding cake made of white cake",
+    "two people cutting a cake with a silver knife"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the specific type of cake being cut by the bride and groom?",
+      "what is the setting or location where the bride and groom are cutting their wedding cake?",
+      "Question: What is the setting or location where the bride and groom are cutting their wedding cake?",
+      "Question: What is the number of tiers on the cake being cut by the bride and groom?",
+      "what is the specific type of cake being cut by the bride and groom?"
+    ],
+    "question": "Question: What is the setting or location where the bride and groom are cutting their wedding cake?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the specific type of cake being cut by the bride and groom?",
+          "answers": [
+            "wedding cake",
+            "white cake",
+            "sugar cake"
+          ],
+          "score": 0.008615493774414062
+        },
+        {
+          "question": "what is the setting or location where the bride and groom are cutting their wedding cake?",
+          "answers": [
+            "at a wedding reception",
+            "indoors",
+            "outdoors"
+          ],
+          "score": 0.04312419891357422
+        },
+        {
+          "question": "Question: What is the setting or location where the bride and groom are cutting their wedding cake?",
+          "answers": [
+            "outdoors",
+            "indoors",
+            "at a venue"
+          ],
+          "score": 0.06638860702514648
+        },
+        {
+          "question": "Question: What is the number of tiers on the cake being cut by the bride and groom?",
+          "answers": [
+            "one",
+            "two",
+            "three"
+          ],
+          "score": 0.018420696258544922
+        },
+        {
+          "question": "what is the specific type of cake being cut by the bride and groom?",
+          "answers": [
+            "wedding cake",
+            "white cake",
+            "sugar cake"
+          ],
+          "score": 0.008615493774414062,
+          "duplicate_of": 0
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.06,
+      "probe_selection_seconds": 1.985,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "indoor",
+    "rewrite": "a bride and groom cutting into their wedding cake together indoors",
+    "raw_rank": 16,
+    "unseen_rank": 10
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What color is the wedding cake being cut by the bride and groom?",
+      "Question: What is the surface or setting where the bride and groom are cutting the cake?",
+      "Question: What type of knife is being used to cut the wedding cake?",
+      "Question: What is the setting or location where the bride and groom are cutting the cake?",
+      "Question: What is the color of the cake being cut by the bride and groom?"
+    ],
+    "question": "Question: What is the surface or setting where the bride and groom are cutting the cake?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What color is the wedding cake being cut by the bride and groom?",
+          "answers": [
+            "white",
+            "pink",
+            "red"
+          ],
+          "score": 0.06293630599975586
+        },
+        {
+          "question": "Question: What is the surface or setting where the bride and groom are cutting the cake?",
+          "answers": [
+            "a picnic table",
+            "a party table",
+            "a table with flowers"
+          ],
+          "score": 0.08438634872436523
+        },
+        {
+          "question": "Question: What type of knife is being used to cut the wedding cake?",
+          "answers": [
+            "silver",
+            "gold",
+            "plastic"
+          ],
+          "score": 0.03336954116821289
+        },
+        {
+          "question": "Question: What is the setting or location where the bride and groom are cutting the cake?",
+          "answers": [
+            "at a wedding reception",
+            "at a banquet hall",
+            "at a church"
+          ],
+          "score": 0.03341341018676758
+        },
+        {
+          "question": "Question: What is the color of the cake being cut by the bride and groom?",
+          "answers": [
+            "white",
+            "pink",
+            "gold"
+          ],
+          "score": 0.07296562194824219
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.059,
+      "probe_selection_seconds": 2.446,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "table",
+    "rewrite": "a bride and groom cutting into their wedding cake together on a table",
+    "raw_rank": 17,
+    "unseen_rank": 8
+  }
+}

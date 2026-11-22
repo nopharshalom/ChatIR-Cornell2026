@@ -1,0 +1,79 @@
+{
+  "qid": 1475,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the train engine stopped at the terminal?",
+    "what is the color of the train engine stopped at the terminal?",
+    "Question: what is the color of the train engine stopped at the terminal?",
+    "what is the location of the yellow and black train engine?",
+    "what is the color of the train engine located in the sky?"
+  ],
+  "second_candidates": [
+    "what is the color of the train that is stopped at the large terminal?",
+    "what is the color of the train that is stopped at the large terminal?",
+    "what is the color of the other train located next to the train at the large terminal?",
+    "what is the color of the train in the sky?",
+    "what is the color of the train engine?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the train that is stopped at the large terminal?",
+      "answers": [
+        "yellow and black",
+        "blue and yellow",
+        "red"
+      ],
+      "score": 0.19536495208740234
+    },
+    {
+      "question": "what is the color of the train that is stopped at the large terminal?",
+      "answers": [
+        "yellow and black",
+        "blue and yellow",
+        "red"
+      ],
+      "score": 0.19536495208740234,
+      "duplicate_of": 0
+    },
+    {
+      "question": "what is the color of the other train located next to the train at the large terminal?",
+      "answers": [
+        "yellow",
+        "blue",
+        "red"
+      ],
+      "score": 0.18589210510253906
+    },
+    {
+      "question": "what is the color of the train in the sky?",
+      "answers": [
+        "blue",
+        "yellow",
+        "red"
+      ],
+      "score": 0.18686628341674805
+    },
+    {
+      "question": "what is the color of the train engine?",
+      "answers": [
+        "red",
+        "yellow",
+        "blue"
+      ],
+      "score": 0.2733650207519531
+    }
+  ],
+  "control": {
+    "question": "what is the color of the train engine?",
+    "score": 0.2733650207519531
+  },
+  "mixed": {
+    "question": "Question: What is the color of the stopped train?",
+    "score": 0.22055578231811523
+  },
+  "control_rank": 38,
+  "mixed_rank": 38,
+  "usual_rank": 22,
+  "new_answer": "blue and red",
+  "new_rewrite": "a blue and red train is stopped at a large terminal next to another train"
+}

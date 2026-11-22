@@ -1,0 +1,277 @@
+{
+  "qid": 1818,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000480788.jpg",
+  "queries": [
+    "the people are posing jokingly for funny pictures",
+    "people posing jokingly for funny pictures at a roller rink",
+    "people in tennis attire posing jokingly for funny pictures at a roller rink"
+  ],
+  "ranks": [
+    627,
+    46,
+    4
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "the people are posing jokingly for funny pictures",
+      "question": "what is the location where the people are posing for funny pictures?",
+      "answer": "roller rink",
+      "query_after": "people posing jokingly for funny pictures at a roller rink",
+      "displayed_ids": [
+        8512,
+        12574,
+        49475,
+        3298,
+        43676,
+        2497,
+        47015,
+        1274,
+        34777,
+        21533
+      ],
+      "selected_ids": [
+        7694,
+        35132,
+        49467,
+        27597,
+        3717,
+        24914,
+        10025,
+        16896,
+        5216,
+        31876
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the location where the people are posing for funny pictures?",
+          "answers": [
+            "grass",
+            "snow",
+            "office"
+          ],
+          "score": 0.2961263656616211
+        },
+        {
+          "question": "what is the gender of the people posing jokingly for funny pictures?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.024894237518310547
+        },
+        {
+          "question": "what is the number of people in the group posing for funny pictures?",
+          "answers": [
+            "four",
+            "five",
+            "six"
+          ],
+          "score": 0.0037245750427246094
+        },
+        {
+          "question": "what is the clothing style of the people posing jokingly for funny pictures?",
+          "answers": [
+            "formal",
+            "casual",
+            "fancy"
+          ],
+          "score": 0.05540132522583008
+        },
+        {
+          "question": "what is the setting or environment where the group of people is posing for funny pictures?",
+          "answers": [
+            "a yard",
+            "a room",
+            "outside"
+          ],
+          "score": 0.08997631072998047
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the gender composition of the group posing for the photo?",
+          "answers": [
+            "all men",
+            "all women",
+            "mixed"
+          ],
+          "score": 0.06546783447265625
+        },
+        {
+          "question": "Question: What are the people wearing in the photo?",
+          "answers": [
+            "Formal clothing",
+            "Hats",
+            "Fancy office attire"
+          ],
+          "score": 0.13152456283569336
+        },
+        {
+          "question": "Question: How many people are there in the group posing for the photo?",
+          "answers": [
+            "four",
+            "five",
+            "six"
+          ],
+          "score": 0.004784107208251953
+        },
+        {
+          "question": "Question: Where is the group of people posing for the photo located?",
+          "answers": [
+            "yard",
+            "snow",
+            "office"
+          ],
+          "score": 0.2645087242126465
+        },
+        {
+          "question": "what is the specific theme or type of costume the people are wearing?",
+          "answers": [
+            "formal clothing",
+            "outdoor casual",
+            "office wear"
+          ],
+          "score": 0.10958099365234375
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "people posing jokingly for funny pictures at a roller rink",
+      "question": "what is the type of clothing the people are wearing while posing jokingly?",
+      "answer": "tennis",
+      "query_after": "people in tennis attire posing jokingly for funny pictures at a roller rink",
+      "displayed_ids": [
+        45801,
+        41034,
+        5542,
+        31489,
+        36035,
+        34265,
+        3164,
+        16946,
+        47935,
+        29768
+      ],
+      "selected_ids": [
+        41034,
+        30925,
+        8537,
+        39755,
+        16896,
+        44769,
+        34265,
+        49931,
+        16066,
+        49414
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what are the people posing with in the roller rink?",
+          "answers": [
+            "skates",
+            "snowboards",
+            "suitcases"
+          ],
+          "score": 0.060834407806396484
+        },
+        {
+          "question": "what are the people posing with in the roller rink?",
+          "answers": [
+            "skates",
+            "snowboards",
+            "suitcases"
+          ],
+          "score": 0.060834407806396484,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what are the people posing with in the roller rink?",
+          "answers": [
+            "skates",
+            "snowboards",
+            "suitcases"
+          ],
+          "score": 0.060834407806396484,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what are the people posing with in the roller rink?",
+          "answers": [
+            "skates",
+            "snowboards",
+            "suitcases"
+          ],
+          "score": 0.060834407806396484,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: what are the people posing with in the roller rink?",
+          "answers": [
+            "skates",
+            "skateboard",
+            "snowboards"
+          ],
+          "score": 0.02783966064453125
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the object the people are holding while posing jokingly?",
+          "answers": [
+            "skates",
+            "snowboards",
+            "suitcases"
+          ],
+          "score": 0.0616154670715332
+        },
+        {
+          "question": "what is the type of footwear the people are wearing while posing jokingly?",
+          "answers": [
+            "skates",
+            "skis",
+            "snowboards"
+          ],
+          "score": 0.04645967483520508
+        },
+        {
+          "question": "what is the object the people are holding while posing jokingly?",
+          "answers": [
+            "skates",
+            "snowboards",
+            "suitcases"
+          ],
+          "score": 0.0616154670715332,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the object the people are holding while posing jokingly?",
+          "answers": [
+            "skates",
+            "snowboards",
+            "suitcases"
+          ],
+          "score": 0.0616154670715332,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the type of clothing the people are wearing while posing jokingly?",
+          "answers": [
+            "shorts and an old t-shirt",
+            "fancy office attire",
+            "blue fur"
+          ],
+          "score": 0.0666050910949707
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

@@ -1,0 +1,108 @@
+{
+  "chosen": "what is the specific number of zebras visible in the image?",
+  "default": "what is the other object in the image?",
+  "ids": [
+    187,
+    9735,
+    25020,
+    2509
+  ],
+  "trials": {
+    "what is the other object in the image?": {
+      "answers": [
+        "zebras",
+        "zebra",
+        "zebras",
+        "zebra"
+      ],
+      "rewrites": {
+        "zebras": "three zebras standing and grazing in a grassy area",
+        "zebra": "three zebras standing and grazing in a grassy area"
+      },
+      "ranks": [
+        12,
+        26,
+        29,
+        54
+      ],
+      "hits": 0
+    },
+    "what is the specific number of zebras visible in the image?": {
+      "answers": [
+        "3",
+        "3",
+        "6",
+        "2"
+      ],
+      "rewrites": {
+        "3": "3 zebras standing and grazing in a grassy area",
+        "6": "6 zebras standing and grazing in a grassy area",
+        "2": "two zebras standing and grazing in a grassy area"
+      },
+      "ranks": [
+        11,
+        22,
+        10,
+        1
+      ],
+      "hits": 2
+    },
+    "what is the specific location where the zebras are grazing?": {
+      "answers": [
+        "unsure",
+        "unsure",
+        "unsure",
+        "unsure"
+      ],
+      "rewrites": {
+        "unsure": "three zebras standing and grazing in a grassy area"
+      },
+      "ranks": [
+        12,
+        26,
+        29,
+        54
+      ],
+      "hits": 0
+    },
+    "Question: Which candidate image shows exactly three zebras grazing in a field?": {
+      "answers": [
+        "This image.",
+        "this image",
+        "The image shows exactly three zebras grazing in a field.",
+        "i'm sorry, but the image does not show exactly three zebras grazing in a field."
+      ],
+      "rewrites": {
+        "This image.": "three zebras standing and grazing in a grassy field",
+        "this image": "three zebras standing and grazing in a grassy field",
+        "The image shows exactly three zebras grazing in a field.": "three zebras standing and grazing in a grassy field",
+        "i'm sorry, but the image does not show exactly three zebras grazing in a field.": "a group of zebras standing and grazing in a grassy area"
+      },
+      "ranks": [
+        18,
+        32,
+        34,
+        141
+      ],
+      "hits": 0
+    },
+    "what is the specific color pattern of the zebras in the image?": {
+      "answers": [
+        "black and white stripes",
+        "black and white stripes",
+        "black and white stripes",
+        "black and white stripes"
+      ],
+      "rewrites": {
+        "black and white stripes": "three zebras with black and white stripes standing and grazing in a grassy area"
+      },
+      "ranks": [
+        14,
+        13,
+        33,
+        41
+      ],
+      "hits": 0
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "chosen": "what is the specific type of wall decoration next to the bed?",
+  "default": "what is the material of the bed covers?",
+  "ids": [
+    2689,
+    14970,
+    17142,
+    36674
+  ],
+  "trials": {
+    "what is the material of the bed covers?": {
+      "answers": [
+        "cotton",
+        "cotton",
+        "cotton",
+        "cotton"
+      ],
+      "rewrites": {
+        "cotton": "a bed with blue cotton covers next to a wall"
+      },
+      "ranks": [
+        7,
+        14,
+        69,
+        102
+      ],
+      "hits": 1
+    },
+    "what is the specific type of wall decoration next to the bed?": {
+      "answers": [
+        "wall decoration",
+        "there is no wall decoration visible next to the bed in the image.",
+        "window",
+        "bookshelf"
+      ],
+      "rewrites": {
+        "wall decoration": "a bed with blue covers next to a wall with wall decoration",
+        "there is no wall decoration visible next to the bed in the image.": "a bed with blue covers next to a plain wall with no visible decoration",
+        "window": "a bed with blue covers next to a wall with a window",
+        "bookshelf": "a bed with blue covers next to a wall with a bookshelf"
+      },
+      "ranks": [
+        31,
+        6,
+        39,
+        1
+      ],
+      "hits": 2
+    },
+    "what is the color of the wall next to the bed?": {
+      "answers": [
+        "white",
+        "white",
+        "white",
+        "orange"
+      ],
+      "rewrites": {
+        "white": "a bed with blue covers next to a white wall",
+        "orange": "a bed with blue covers next to an orange wall"
+      },
+      "ranks": [
+        12,
+        19,
+        23,
+        13
+      ],
+      "hits": 0
+    },
+    "what is the object hanging on the wall next to the bed?": {
+      "answers": [
+        "there is no object hanging on the wall next to the bed.",
+        "no object is hanging on the wall next to the bed",
+        "a mirror",
+        "lamp"
+      ],
+      "rewrites": {
+        "there is no object hanging on the wall next to the bed.": "a bed with blue covers next to a plain wall with no objects hanging on it",
+        "no object is hanging on the wall next to the bed": "a bed with blue covers next to a plain wall with no objects hanging on it",
+        "a mirror": "a bed with blue covers next to a wall with a mirror hanging on it",
+        "lamp": "a bed with blue covers next to a wall with a lamp hanging on it"
+      },
+      "ranks": [
+        12,
+        8,
+        4,
+        19
+      ],
+      "hits": 2
+    }
+  }
+}

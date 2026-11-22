@@ -1,0 +1,79 @@
+{
+  "qid": 398,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the jacket worn by the man snowboarding down the hill?",
+    "Question: What is the color of the jacket worn by the man snowboarding down the hill?",
+    "what is the color of the snowboard worn by the man snowboarding down the hill?",
+    "Question: What is the color of the snowboard worn by the man snowboarding down the hill?",
+    "Question: what is the color of the jacket worn by the man snowboarding down the hill?"
+  ],
+  "second_candidates": [
+    "what is the color of the jacket worn by the man snowboarding down the hill?",
+    "what is the color of the snowboard worn by the man snowboarding down the hill?",
+    "Question: what is the color of the jacket worn by the man snowboarding down the hill?",
+    "what is the color of the snowboard worn by the man snowboarding down the hill?",
+    "what activity is the man in the red jacket performing?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the jacket worn by the man snowboarding down the hill?",
+      "answers": [
+        "red",
+        "green",
+        "orange and yellow"
+      ],
+      "score": 0.1881103515625
+    },
+    {
+      "question": "what is the color of the snowboard worn by the man snowboarding down the hill?",
+      "answers": [
+        "green",
+        "blue",
+        "black"
+      ],
+      "score": 0.11468029022216797
+    },
+    {
+      "question": "Question: what is the color of the jacket worn by the man snowboarding down the hill?",
+      "answers": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "score": 0.15516090393066406
+    },
+    {
+      "question": "what is the color of the snowboard worn by the man snowboarding down the hill?",
+      "answers": [
+        "green",
+        "blue",
+        "black"
+      ],
+      "score": 0.11468029022216797,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what activity is the man in the red jacket performing?",
+      "answers": [
+        "skiing",
+        "snowboarding",
+        "resting"
+      ],
+      "score": 0.024722576141357422
+    }
+  ],
+  "control": {
+    "question": "what is the color of the jacket worn by the man snowboarding down the hill?",
+    "score": 0.1881103515625
+  },
+  "mixed": {
+    "question": "Question: What is the color of the snowboarder's jacket?",
+    "score": 0.1922774314880371
+  },
+  "control_rank": 348,
+  "mixed_rank": 245,
+  "usual_rank": 348,
+  "new_answer": null,
+  "new_rewrite": null
+}

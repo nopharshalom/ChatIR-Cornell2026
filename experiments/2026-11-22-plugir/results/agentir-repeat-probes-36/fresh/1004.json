@@ -1,0 +1,53 @@
+{
+  "qid": 1004,
+  "arm": "fresh",
+  "after_round": 6,
+  "ranks": [
+    30,
+    36,
+    55,
+    54,
+    39,
+    14,
+    13,
+    14,
+    14,
+    12,
+    15
+  ],
+  "continuation": [
+    {
+      "round": 7,
+      "query_before": "four people wearing winter clothing, hats, and skis are cross-country skiing on a snowy slope, holding ski poles",
+      "question": "Are the people in the image wearing winter clothing?",
+      "answer": "yes",
+      "query_after": "four people wearing winter clothing, including jackets, pants, and hats, are cross-country skiing on a snowy slope, holding ski poles",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Are the people in the image wearing winter clothing?",
+      "fallback": false
+    },
+    {
+      "round": 8,
+      "query_before": "four people wearing winter clothing, including jackets, pants, and hats, are cross-country skiing on a snowy slope, holding ski poles",
+      "question": "what is the other object in the image?",
+      "answer": "ski poles",
+      "query_after": "four people wearing winter clothing, hats, and holding ski poles are cross-country skiing on a snowy slope"
+    },
+    {
+      "round": 9,
+      "query_before": "four people wearing winter clothing, hats, and holding ski poles are cross-country skiing on a snowy slope",
+      "question": "what is the gender of the people in the image?",
+      "answer": "unsure",
+      "query_after": "four people wearing winter clothing, including jackets, pants, and hats, are cross-country skiing on a snowy slope with ski poles in hand"
+    },
+    {
+      "round": 10,
+      "query_before": "four people wearing winter clothing, including jackets, pants, and hats, are cross-country skiing on a snowy slope with ski poles in hand",
+      "question": "what is the other object in the image?",
+      "answer": "ski poles",
+      "query_after": "four people wearing winter clothing, including jackets, pants, and hats, are cross-country skiing on a snowy slope with skis and ski poles"
+    }
+  ],
+  "seconds": 45.0
+}

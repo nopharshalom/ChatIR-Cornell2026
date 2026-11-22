@@ -1,0 +1,80 @@
+{
+  "qid": 1577,
+  "arm": "probe",
+  "after_round": 6,
+  "ranks": [
+    244,
+    159,
+    175,
+    113,
+    74,
+    89,
+    105,
+    96,
+    212,
+    96,
+    58
+  ],
+  "continuation": [
+    {
+      "round": 7,
+      "query_before": "a white bathroom with 2 sinks, a white bathtub, a white toilet, and many white towels, featuring tiled walls",
+      "question": "Is there a TV in the bathroom?",
+      "answer": "no",
+      "query_after": "a white bathroom featuring two sinks, a white bathtub, a white toilet, and many white towels, with tiled walls and no TV",
+      "searches": [
+        {
+          "query": "A spacious bathroom featuring white tiled walls, a white bathtub, a white toilet, and double sinks with numerous towels.",
+          "ids": [
+            47919,
+            28647,
+            40587
+          ],
+          "captions": [
+            "a white bathroom with a toilet, sink, and bathtub",
+            "white tile in the shower",
+            "the bathroom is open with no towel rack"
+          ]
+        },
+        {
+          "query": "A large bathroom with white tiled walls, a white bathtub, a white toilet, and double sinks with many towels.",
+          "ids": [
+            47919,
+            28647,
+            40587
+          ],
+          "captions": [
+            "a white bathroom with a toilet, sink, and bathtub",
+            "white tile in the shower",
+            "the bathroom is open with no towel rack"
+          ]
+        }
+      ],
+      "raw_plan": "A spacious bathroom featuring white tiled walls, a white bathtub, a white toilet, and double sinks with numerous towels.\nA large bathroom with white tiled walls, a white bathtub, a white toilet, and double sinks with many towels.",
+      "generated": "Is there a TV in the bathroom?",
+      "fallback": false
+    },
+    {
+      "round": 8,
+      "query_before": "a white bathroom featuring two sinks, a white bathtub, a white toilet, and many white towels, with tiled walls and no TV",
+      "question": "what is the other object in the image?",
+      "answer": "bathtub",
+      "query_after": "The bathroom is entirely white, featuring a bathtub, toilet, and two sinks, along with numerous white towels and tiled walls, and notably lacks a television."
+    },
+    {
+      "round": 9,
+      "query_before": "The bathroom is entirely white, featuring a bathtub, toilet, and two sinks, along with numerous white towels and tiled walls, and notably lacks a television.",
+      "question": "what is the other object in the image?",
+      "answer": "bathtub",
+      "query_after": "a white bathroom featuring two sinks, a white bathtub, a white toilet, and many white towels, with tiled walls and no TV"
+    },
+    {
+      "round": 10,
+      "query_before": "a white bathroom featuring two sinks, a white bathtub, a white toilet, and many white towels, with tiled walls and no TV",
+      "question": "what are the colors of the bathroom tiles?",
+      "answer": "beige",
+      "query_after": "a beige-tiled bathroom featuring two sinks, a white bathtub, a white toilet, and a pile of white towels, with no TV present"
+    }
+  ],
+  "seconds": 72.2
+}

@@ -1,0 +1,142 @@
+{
+  "qid": 980,
+  "sample": "original",
+  "target": "unlabeled2017/000000333125.jpg",
+  "queries": [
+    "a bus that is brown is near another bus that is orange and white",
+    "a brown bus is near an orange and white bus in a parking lot"
+  ],
+  "ranks": [
+    11,
+    4
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a bus that is brown is near another bus that is orange and white",
+      "question": "Question: Where are the two buses located in the image?",
+      "answer": "parking lot",
+      "query_after": "a brown bus is near an orange and white bus in a parking lot",
+      "displayed_ids": [
+        36512,
+        13880,
+        14212,
+        32928,
+        39005,
+        23916,
+        38995,
+        27765,
+        26276,
+        48561
+      ],
+      "selected_ids": [
+        4977,
+        35976,
+        36882,
+        172,
+        38412,
+        49023,
+        47102,
+        3460,
+        43275,
+        30529
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the location where the brown and orange/white buses are parked?",
+          "answers": [
+            "a lot",
+            "a street",
+            "a station"
+          ],
+          "score": 0.04786348342895508
+        },
+        {
+          "question": "what is the background scenery behind the brown bus?",
+          "answers": [
+            "trees",
+            "water",
+            "street"
+          ],
+          "score": 0.06730794906616211
+        },
+        {
+          "question": "what is the location where the brown and orange/white buses are parked?",
+          "answers": [
+            "a lot",
+            "a street",
+            "a station"
+          ],
+          "score": 0.04786348342895508,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bus that is near the brown bus?",
+          "answers": [
+            "orange",
+            "white",
+            "orange and white"
+          ],
+          "score": 0.03206968307495117
+        },
+        {
+          "question": "Question: What is the color of the bus that is near the brown bus?",
+          "answers": [
+            "orange and white"
+          ],
+          "note": "fewer than 2 answers"
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Are there any other vehicles, such as a train, visible in the image besides the two buses?",
+          "answers": [
+            "No",
+            "Yes",
+            "Maybe"
+          ],
+          "score": 0.002007007598876953
+        },
+        {
+          "question": "Question: Where are the two buses located in the image?",
+          "answers": [
+            "parked on a lot",
+            "driving down a street",
+            "parked at a station"
+          ],
+          "score": 0.0916438102722168
+        },
+        {
+          "question": "Question: What is the specific background setting where the orange and white bus is located?",
+          "answers": [
+            "parked outside",
+            "driving down the street",
+            "at the station"
+          ],
+          "score": 0.07110404968261719
+        },
+        {
+          "question": "Question: Are the two buses double-decker buses?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0019249916076660156
+        },
+        {
+          "question": "Question: What is the color of the bus that is near the orange and white bus?",
+          "answers": [
+            "brown",
+            "brown bus",
+            "brown buses"
+          ],
+          "score": 0.004586219787597656
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

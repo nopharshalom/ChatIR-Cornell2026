@@ -1,0 +1,143 @@
+{
+  "qid": 1676,
+  "sample": "original",
+  "target": "unlabeled2017/000000232715.jpg",
+  "queries": [
+    "a group of people walking across the crosswalk",
+    "a group of people walking across the crosswalk with a yellow sign"
+  ],
+  "ranks": [
+    114,
+    8
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a group of people walking across the crosswalk",
+      "question": "what is the other object in the image?",
+      "answer": "a yellow sign",
+      "query_after": "a group of people walking across the crosswalk with a yellow sign",
+      "displayed_ids": [
+        23479,
+        39379,
+        3559,
+        3177,
+        22142,
+        37962,
+        34371,
+        39444,
+        6453,
+        1082
+      ],
+      "selected_ids": [
+        10129,
+        34656,
+        9152,
+        21430,
+        49297,
+        29472,
+        33337,
+        23716,
+        16686,
+        3010
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the weather condition in the image where a group of people are walking across the crosswalk?",
+          "answers": [
+            "rainy",
+            "sunny",
+            "overcast"
+          ],
+          "score": 0.08872556686401367
+        },
+        {
+          "question": "what color is the traffic light at the location where the group of people are walking?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.05627107620239258
+        },
+        {
+          "question": "what objects are the group of people holding while walking across the crosswalk?",
+          "answers": [
+            "umbrellas",
+            "handbags",
+            "backpacks"
+          ],
+          "score": 0.12081432342529297
+        },
+        {
+          "question": "what is the color of the umbrella held by the group of people walking on the snow covered path?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.044981956481933594
+        },
+        {
+          "question": "Question: who are the people walking across the crosswalk?",
+          "answers": [
+            "two women",
+            "several people",
+            "a group of people"
+          ],
+          "score": 0.029032230377197266
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Are there any vehicles, such as cars or motorcycles, present in the scene?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0032091140747070312
+        },
+        {
+          "question": "Question: What color are the umbrellas being held by the group of people?",
+          "answers": [
+            "black",
+            "clear",
+            "various"
+          ],
+          "score": 0.010106563568115234
+        },
+        {
+          "question": "Question: What color is the traffic light in the scene?",
+          "answers": [
+            "Red",
+            "Yellow",
+            "Green"
+          ],
+          "score": 0.0577692985534668
+        },
+        {
+          "question": "Question: Is the traffic light in the scene showing red, green, or yellow?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.008900642395019531
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "cars",
+            "umbrellas",
+            "police cars"
+          ],
+          "score": 0.18309783935546875
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

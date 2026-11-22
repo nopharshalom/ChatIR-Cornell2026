@@ -1,0 +1,178 @@
+{
+  "qid": 1451,
+  "initial": "a red bus parked on the side of a street",
+  "initial_rank": 16,
+  "displayed": [
+    13540,
+    6769,
+    49794,
+    48047,
+    29004,
+    42191,
+    27215,
+    42958,
+    5634,
+    7200
+  ],
+  "evidence": [
+    "a white bus at a bus stop",
+    "a red train on train tracks near some green plants",
+    "a crowd of people walking down a street near a red double decker bus",
+    "a pair of red double decker buses driving down a street",
+    "a yellow and red bus driving down a narrow street",
+    "an old red truck",
+    "people on top of a double decked bus",
+    "the bus is white and orange",
+    "a big ben and double decker bus with a city on the right side",
+    "a double decker yellow and blue bus in a city"
+  ],
+  "rejected_captions": [
+    "a red city bus in the street",
+    "a red tour bus is parked on a side street",
+    "a bus on a road",
+    "a red city bus",
+    "a red bus stopped at a bus stop",
+    "a large red bus is driving down the street",
+    "two red buses parked on the street",
+    "the red bus is parked on the street",
+    "a red bus is on the road",
+    "a red bus at a bus stop"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the type of the red bus parked on the side of the street?",
+      "what is the other object in the image?",
+      "what is the location of the red bus parked on the side of the street?",
+      "what is the color of the bus parked on the side of the street?",
+      "what is the color of the bus parked on the side of the street?"
+    ],
+    "question": "what is the other object in the image?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the type of the red bus parked on the side of the street?",
+          "answers": [
+            "double decker",
+            "regular",
+            "single decker"
+          ],
+          "score": 0.06987333297729492
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a red train",
+            "a red truck",
+            "a double decker bus"
+          ],
+          "score": 0.1634221076965332
+        },
+        {
+          "question": "what is the location of the red bus parked on the side of the street?",
+          "answers": [
+            "city",
+            "street",
+            "bus stop"
+          ],
+          "score": 0.00647735595703125
+        },
+        {
+          "question": "what is the color of the bus parked on the side of the street?",
+          "answers": [
+            "red",
+            "white",
+            "yellow"
+          ],
+          "score": 0.09358024597167969
+        },
+        {
+          "question": "what is the color of the bus parked on the side of the street?",
+          "answers": [
+            "red",
+            "white",
+            "yellow"
+          ],
+          "score": 0.09358024597167969,
+          "duplicate_of": 3
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.072,
+      "probe_selection_seconds": 2.049,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "red post box",
+    "rewrite": "a red bus parked on the side of a street with a red post box nearby",
+    "raw_rank": 1,
+    "unseen_rank": 1
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What color are the wheels of the red bus?",
+      "Question: Is the red bus parked on a side street or a bus stop?",
+      "what is the other object in the image?",
+      "Question: What color is the roof of the bus?",
+      "Question: What color is the roof of the red bus?"
+    ],
+    "question": "what is the other object in the image?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What color are the wheels of the red bus?",
+          "answers": [
+            "black",
+            "silver",
+            "gold"
+          ],
+          "score": 0.04649019241333008
+        },
+        {
+          "question": "Question: Is the red bus parked on a side street or a bus stop?",
+          "answers": [
+            "a red bus parked on a side street",
+            "a red bus parked on a bus stop",
+            "a red bus parked on train tracks"
+          ],
+          "score": 0.0640878677368164
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "train",
+            "truck",
+            "double decker bus"
+          ],
+          "score": 0.1651134490966797
+        },
+        {
+          "question": "Question: What color is the roof of the bus?",
+          "answers": [
+            "red",
+            "white",
+            "yellow"
+          ],
+          "score": 0.0738062858581543
+        },
+        {
+          "question": "Question: What color is the roof of the red bus?",
+          "answers": [
+            "red",
+            "blue",
+            "gold"
+          ],
+          "score": 0.06464767456054688
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.065,
+      "probe_selection_seconds": 2.661,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "red post box",
+    "rewrite": "a red bus parked on the side of a street with a red post box nearby",
+    "raw_rank": 1,
+    "unseen_rank": 1
+  }
+}

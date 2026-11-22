@@ -1,0 +1,81 @@
+{
+  "qid": 1797,
+  "candidates": [
+    "Question: What is the color of the bird in the image?",
+    "Question: How many birds are eating from the metal bird feeder?",
+    "Question: What is the color of the bird?",
+    "Question: What is the color of the bird in the image?",
+    "Question: What is the color of the bird in the image?"
+  ],
+  "kl": {
+    "question": "Question: What is the color of the bird in the image?",
+    "answer": "green",
+    "rewrite": "some green birds eating from a metal bird feeder",
+    "raw_rank": 39,
+    "unseen_rank": 29
+  },
+  "probe": {
+    "answer": "green",
+    "rewrite": "some green birds eating from a metal bird feeder",
+    "raw_rank": 39,
+    "unseen_rank": 29,
+    "question": "Question: What is the color of the bird?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the color of the bird in the image?",
+        "answers": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "score": 0.10589265823364258
+      },
+      {
+        "question": "Question: How many birds are eating from the metal bird feeder?",
+        "answers": [
+          "1",
+          "2",
+          "3"
+        ],
+        "score": 0.0002446174621582031
+      },
+      {
+        "question": "Question: What is the color of the bird?",
+        "answers": [
+          "red",
+          "blue",
+          "yellow"
+        ],
+        "score": 0.13533401489257812
+      },
+      {
+        "question": "Question: What is the color of the bird in the image?",
+        "answers": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "score": 0.10589265823364258,
+        "duplicate_of": 0
+      },
+      {
+        "question": "Question: What is the color of the bird in the image?",
+        "answers": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "score": 0.10589265823364258,
+        "duplicate_of": 0
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.042,
+    "probe_selection_seconds": 1.321,
+    "probe_llm_calls": 3,
+    "probe_search_queries": 9
+  },
+  "reused_outcome": false
+}

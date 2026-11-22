@@ -1,0 +1,1339 @@
+{
+  "qid": 56,
+  "sample": "original",
+  "target": "unlabeled2017/000000175667.jpg",
+  "queries": [
+    "the intersection had a red light and wet streets",
+    "the intersection had a red light, wet streets, and traffic lights",
+    "the intersection has a red traffic light and wet streets",
+    "a red traffic light at an intersection with wet, black streets",
+    "a red traffic light at an intersection with black wet streets under rainy weather conditions",
+    "a rainy street intersection with wet black streets and red traffic lights",
+    "A rainy street intersection featuring wet, black streets and red traffic lights.",
+    "a wet black street with puddles reflecting red traffic lights at an intersection",
+    "a wet black street with puddles reflecting red traffic lights, featuring a red traffic signal and a sign displaying the number 50",
+    "an intersection with wet, black streets and a green sign displaying the number 50, featuring red traffic lights and their reflections in a puddle on the ground",
+    "an intersection with wet black streets and a red traffic light, featuring a green sign displaying the number 50, with a reflection of the red traffic lights visible in a puddle on the street"
+  ],
+  "ranks": [
+    18,
+    17,
+    19,
+    18,
+    20,
+    18,
+    19,
+    18,
+    43,
+    126,
+    58
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "the intersection had a red light and wet streets",
+      "question": "what is the other object in the image?",
+      "answer": "traffic lights",
+      "query_after": "the intersection had a red light, wet streets, and traffic lights",
+      "displayed_ids": [
+        8937,
+        35738,
+        14334,
+        7455,
+        8131,
+        19370,
+        37519,
+        14113,
+        34645,
+        34872
+      ],
+      "selected_ids": [
+        35538,
+        2465,
+        26544,
+        48434,
+        25034,
+        46445,
+        26149,
+        44452,
+        29140,
+        15779
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the sky condition like where the red light is located?",
+          "answers": [
+            "clear",
+            "cloudy",
+            "rainy"
+          ],
+          "score": 0.025325775146484375
+        },
+        {
+          "question": "what object is located next to the traffic signal with the red light?",
+          "answers": [
+            "palm trees",
+            "street sign",
+            "intersection"
+          ],
+          "score": 0.09307384490966797
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "umbrellas",
+            "palm trees",
+            "stop sign"
+          ],
+          "score": 0.15271997451782227
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "umbrellas",
+            "palm trees",
+            "stop sign"
+          ],
+          "score": 0.15271997451782227,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "umbrellas",
+            "palm trees",
+            "stop sign"
+          ],
+          "score": 0.15271997451782227,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Are there trees visible in the scene?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0008816719055175781
+        },
+        {
+          "question": "Question: Are there cars visible in the scene?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0008668899536132812
+        },
+        {
+          "question": "Question: What color is the sky in the scene?",
+          "answers": [
+            "gray",
+            "overcast",
+            "dark"
+          ],
+          "score": 0.03699827194213867
+        },
+        {
+          "question": "Question: Are there palm trees visible in the scene?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0005483627319335938
+        },
+        {
+          "question": "Question: What type of buildings is visible in the scene?",
+          "answers": [
+            "brick",
+            "business",
+            "house"
+          ],
+          "score": 0.05728721618652344
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "the intersection had a red light, wet streets, and traffic lights",
+      "question": "what is the color of the traffic lights in the image?",
+      "answer": "red",
+      "query_after": "the intersection has a red traffic light and wet streets",
+      "displayed_ids": [
+        8937,
+        14334,
+        35738,
+        8131,
+        7455,
+        19370,
+        37519,
+        34872,
+        34645,
+        21383
+      ],
+      "selected_ids": [
+        2465,
+        15779,
+        33990,
+        34167,
+        28949,
+        10370,
+        9589,
+        40809,
+        3148,
+        33850
+      ],
+      "rejected_count": 11,
+      "usual_paths": [
+        {
+          "question": "what is the color of the traffic lights in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.05151700973510742
+        },
+        {
+          "question": "Question: What is the state of the traffic lights in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.040834903717041016
+        },
+        {
+          "question": "Question: What is the state of the traffic lights in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.040834903717041016,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the traffic lights in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.05151700973510742,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the traffic lights in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.05151700973510742,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is it raining in the image?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.000514984130859375
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "red light",
+            "wet streets",
+            "intersection"
+          ],
+          "score": 0.007773876190185547
+        },
+        {
+          "question": "Question: What is the color of the traffic light visible at the top of the pole?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.03272199630737305
+        },
+        {
+          "question": "Question: What is the color of the traffic light visible at the top of the pole?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.03272199630737305,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: Is the sky visible in the image?",
+          "answers": [
+            "yes",
+            "no",
+            "partially"
+          ],
+          "score": 0.0010766983032226562
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "the intersection has a red traffic light and wet streets",
+      "question": "what is the color of the street in the image?",
+      "answer": "black",
+      "query_after": "a red traffic light at an intersection with wet, black streets",
+      "displayed_ids": [
+        8937,
+        7455,
+        14334,
+        19370,
+        35738,
+        8131,
+        21090,
+        37519,
+        31868,
+        14113
+      ],
+      "selected_ids": [
+        9589,
+        3603,
+        34167,
+        2465,
+        25034,
+        4666,
+        29140,
+        33850,
+        26149,
+        15779
+      ],
+      "rejected_count": 13,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "street sign",
+            "stop sign",
+            "umbrella"
+          ],
+          "score": 0.06116533279418945
+        },
+        {
+          "question": "what is the condition of the street in the image?",
+          "answers": [
+            "wet",
+            "dry",
+            "icy"
+          ],
+          "score": 0.039707183837890625
+        },
+        {
+          "question": "what is the location of the street in the image?",
+          "answers": [
+            "city",
+            "town",
+            "parking lot"
+          ],
+          "score": 0.023778438568115234
+        },
+        {
+          "question": "what is the color of the street in the image?",
+          "answers": [
+            "wet",
+            "dry",
+            "snowy"
+          ],
+          "score": 0.0795431137084961
+        },
+        {
+          "question": "what objects are visible on the street in the image?",
+          "answers": [
+            "wet streets",
+            "traffic lights",
+            "stop sign"
+          ],
+          "score": 0.0382237434387207
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "gray",
+            "black",
+            "dark blue"
+          ],
+          "score": 0.05068826675415039
+        },
+        {
+          "question": "Question: what color is the sky in the image?",
+          "answers": [
+            "gray",
+            "dark",
+            "overcast"
+          ],
+          "score": 0.0351104736328125
+        },
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "gray",
+            "black",
+            "dark blue"
+          ],
+          "score": 0.05068826675415039,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the sky in the image?",
+          "answers": [
+            "gray",
+            "black",
+            "dark"
+          ],
+          "score": 0.030661582946777344
+        },
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "gray",
+            "black",
+            "dark blue"
+          ],
+          "score": 0.05068826675415039,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 3,
+      "query_before": "a red traffic light at an intersection with wet, black streets",
+      "question": "what is the weather condition depicted in the image?",
+      "answer": "rainy",
+      "query_after": "a red traffic light at an intersection with black wet streets under rainy weather conditions",
+      "displayed_ids": [
+        8937,
+        35738,
+        19370,
+        14334,
+        7455,
+        38600,
+        21090,
+        20405,
+        37519,
+        34105
+      ],
+      "selected_ids": [
+        15779,
+        11036,
+        49067,
+        40809,
+        4666,
+        46549,
+        25034,
+        14334,
+        9589,
+        2856
+      ],
+      "rejected_count": 16,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "traffic lights",
+            "wet streets",
+            "red light"
+          ],
+          "score": 0.010173320770263672
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "traffic lights",
+            "wet streets",
+            "red light"
+          ],
+          "score": 0.010173320770263672,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the street in the image?",
+          "answers": [
+            "black",
+            "wet",
+            "rainy"
+          ],
+          "score": 0.010833263397216797
+        },
+        {
+          "question": "what is the weather condition depicted in the image?",
+          "answers": [
+            "rainy",
+            "sunny",
+            "cloudy"
+          ],
+          "score": 0.04578542709350586
+        },
+        {
+          "question": "what is the weather condition depicted in the image?",
+          "answers": [
+            "rainy",
+            "sunny",
+            "cloudy"
+          ],
+          "score": 0.04578542709350586,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "traffic lights",
+            "wet streets",
+            "red light"
+          ],
+          "score": 0.010173320770263672
+        },
+        {
+          "question": "Question: is there a person visible in the image?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0005593299865722656
+        },
+        {
+          "question": "Question: Is there a person visible in the image?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0005593299865722656
+        },
+        {
+          "question": "Question: Is there a person visible in the image?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0005593299865722656,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: is there a person visible in the image?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0005593299865722656,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 4,
+      "query_before": "a red traffic light at an intersection with black wet streets under rainy weather conditions",
+      "question": "what is the other object in the image?",
+      "answer": "traffic lights",
+      "query_after": "a rainy street intersection with wet black streets and red traffic lights",
+      "displayed_ids": [
+        8937,
+        35738,
+        14334,
+        19370,
+        7455,
+        27067,
+        21090,
+        34645,
+        37519,
+        20405
+      ],
+      "selected_ids": [
+        27408,
+        33391,
+        24676,
+        46286,
+        1352,
+        9589,
+        40809,
+        6679,
+        39761,
+        32057
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "Where is the intersection located?",
+          "answers": [
+            "residential",
+            "urban",
+            "rural"
+          ],
+          "score": 0.03289222717285156
+        },
+        {
+          "question": "what is the location of the intersection?",
+          "answers": [
+            "city street",
+            "residential neighborhood",
+            "intersection"
+          ],
+          "score": 0.02346181869506836
+        },
+        {
+          "question": "what is the location of the intersection?",
+          "answers": [
+            "city street",
+            "residential neighborhood",
+            "intersection"
+          ],
+          "score": 0.02346181869506836,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the location of the intersection?",
+          "answers": [
+            "city street",
+            "residential neighborhood",
+            "intersection"
+          ],
+          "score": 0.02346181869506836,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the location of the intersection shown in the image?",
+          "answers": [
+            "residential",
+            "commercial",
+            "suburban"
+          ],
+          "score": 0.01578664779663086
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "traffic lights",
+            "stop sign",
+            "umbrella"
+          ],
+          "score": 0.0481414794921875
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "traffic lights",
+            "stop sign",
+            "umbrella"
+          ],
+          "score": 0.0481414794921875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: is there a person holding an umbrella in the image?",
+          "answers": [
+            "yes",
+            "no",
+            "partially"
+          ],
+          "score": 0.003971576690673828
+        },
+        {
+          "question": "Question: is there a person holding an umbrella in the image?",
+          "answers": [
+            "yes",
+            "no",
+            "partially"
+          ],
+          "score": 0.003971576690673828,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: Are there people walking with umbrellas in the image?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.004111289978027344
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 5,
+      "query_before": "a rainy street intersection with wet black streets and red traffic lights",
+      "question": "what is the color of the traffic lights in the image?",
+      "answer": "red",
+      "query_after": "A rainy street intersection featuring wet, black streets and red traffic lights.",
+      "displayed_ids": [
+        8937,
+        35738,
+        14334,
+        7455,
+        37519,
+        8131,
+        19370,
+        21090,
+        34872,
+        31868
+      ],
+      "selected_ids": [
+        33850,
+        4666,
+        35682,
+        45824,
+        14334,
+        9589,
+        33391,
+        27408,
+        40809,
+        45099
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "traffic lights",
+            "street signs",
+            "umbrella"
+          ],
+          "score": 0.04224681854248047
+        },
+        {
+          "question": "what is the state of the traffic lights in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.04397153854370117
+        },
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "dark",
+            "black",
+            "grey"
+          ],
+          "score": 0.020068645477294922
+        },
+        {
+          "question": "what is the color of the street in the image?",
+          "answers": [
+            "black",
+            "wet",
+            "rainy"
+          ],
+          "score": 0.004272937774658203
+        },
+        {
+          "question": "what is the color of the traffic lights in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.04527568817138672
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "traffic lights",
+            "street signs",
+            "umbrella"
+          ],
+          "score": 0.04224681854248047
+        },
+        {
+          "question": "Question: What is the color of the street in the image?",
+          "answers": [
+            "wet",
+            "rainy",
+            "dark"
+          ],
+          "score": 0.012336254119873047
+        },
+        {
+          "question": "what is the state of the traffic lights in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.04397153854370117
+        },
+        {
+          "question": "Question: Is the sky clear or cloudy?",
+          "answers": [
+            "clear",
+            "cloudy",
+            "rainy"
+          ],
+          "score": 0.0038328170776367188
+        },
+        {
+          "question": "Question: What is the color of the sky in the image?",
+          "answers": [
+            "dark",
+            "black",
+            "grey"
+          ],
+          "score": 0.017125606536865234
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "A rainy street intersection featuring wet, black streets and red traffic lights.",
+      "question": "what is the object located in the puddle on the wet street?",
+      "answer": "reflection of traffic lights",
+      "query_after": "a wet black street with puddles reflecting red traffic lights at an intersection",
+      "displayed_ids": [
+        8937,
+        35738,
+        14334,
+        7455,
+        37519,
+        21090,
+        8131,
+        34872,
+        19370,
+        14113
+      ],
+      "selected_ids": [
+        38600,
+        27408,
+        40809,
+        15779,
+        5954,
+        9589,
+        20405,
+        39761,
+        24676,
+        45077
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "stop sign",
+            "flag",
+            "umbrella"
+          ],
+          "score": 0.03657960891723633
+        },
+        {
+          "question": "what is the primary activity or subject involving the people in the image?",
+          "answers": [
+            "walking",
+            "waiting",
+            "standing"
+          ],
+          "score": 0.010905265808105469
+        },
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "black",
+            "dark",
+            "gray"
+          ],
+          "score": 0.020091533660888672
+        },
+        {
+          "question": "what is the primary activity or subject involving the people in the image?",
+          "answers": [
+            "walking",
+            "waiting",
+            "standing"
+          ],
+          "score": 0.010905265808105469,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "black",
+            "dark",
+            "gray"
+          ],
+          "score": 0.020091533660888672,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the object located in the puddle on the wet street?",
+          "answers": [
+            "a car",
+            "a bus",
+            "unknown object"
+          ],
+          "score": 0.05656147003173828
+        },
+        {
+          "question": "what is the object located in the puddle on the wet street?",
+          "answers": [
+            "a car",
+            "a bus",
+            "unknown object"
+          ],
+          "score": 0.05656147003173828,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the object located in the puddle on the wet street?",
+          "answers": [
+            "a car",
+            "a bus",
+            "unknown object"
+          ],
+          "score": 0.05656147003173828,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the object located in the puddle on the wet street?",
+          "answers": [
+            "a car",
+            "a bus",
+            "unknown object"
+          ],
+          "score": 0.05656147003173828,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the object located in the puddle on the wet street?",
+          "answers": [
+            "a car",
+            "a bus",
+            "unknown object"
+          ],
+          "score": 0.05656147003173828,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a wet black street with puddles reflecting red traffic lights at an intersection",
+      "question": "what is the text written on the sign in the image?",
+      "answer": "50",
+      "query_after": "a wet black street with puddles reflecting red traffic lights, featuring a red traffic signal and a sign displaying the number 50",
+      "displayed_ids": [
+        8937,
+        35738,
+        38600,
+        20405,
+        45109,
+        31868,
+        21090,
+        14334,
+        14113,
+        7455
+      ],
+      "selected_ids": [
+        35682,
+        40809,
+        43042,
+        15779,
+        14334,
+        10534,
+        7555,
+        45732,
+        27408,
+        24676
+      ],
+      "rejected_count": 18,
+      "usual_paths": [
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "black",
+            "dark",
+            "grey"
+          ],
+          "score": 0.01871204376220703
+        },
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "black",
+            "dark",
+            "grey"
+          ],
+          "score": 0.01871204376220703,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "black",
+            "dark",
+            "grey"
+          ],
+          "score": 0.01871204376220703,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "black",
+            "dark",
+            "grey"
+          ],
+          "score": 0.01871204376220703,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "black",
+            "dark",
+            "grey"
+          ],
+          "score": 0.01871204376220703,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "traffic lights",
+            "reflection of traffic lights",
+            "wet street"
+          ],
+          "score": 0.006030082702636719
+        },
+        {
+          "question": "Question: what is the object located in the puddle on the wet street?",
+          "answers": [
+            "reflection of traffic lights",
+            "reflections of traffic lights",
+            "traffic light reflections"
+          ],
+          "score": 0.004388332366943359
+        },
+        {
+          "question": "what is the object located in the puddle on the wet street?",
+          "answers": [
+            "reflection of traffic lights",
+            "traffic lights",
+            "streetlights"
+          ],
+          "score": 0.005316734313964844
+        },
+        {
+          "question": "what is the text written on the sign in the image?",
+          "answers": [
+            "no sign",
+            "motel",
+            "unknown"
+          ],
+          "score": 0.023392200469970703
+        },
+        {
+          "question": "Question: Is a car parked in the puddle?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0006933212280273438
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a wet black street with puddles reflecting red traffic lights, featuring a red traffic signal and a sign displaying the number 50",
+      "question": "what is the color of the sign in the image?",
+      "answer": "green",
+      "query_after": "an intersection with wet, black streets and a green sign displaying the number 50, featuring red traffic lights and their reflections in a puddle on the ground",
+      "displayed_ids": [
+        8937,
+        35738,
+        20405,
+        21090,
+        14113,
+        19370,
+        38600,
+        8131,
+        3883,
+        45109
+      ],
+      "selected_ids": [
+        17664,
+        24676,
+        14334,
+        45077,
+        39865,
+        15779,
+        5295,
+        691,
+        40809,
+        31638
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "what is the color of the sign in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.0449824333190918
+        },
+        {
+          "question": "what is the color of the sign in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.0449824333190918,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the stop sign in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.03658151626586914
+        },
+        {
+          "question": "what is the color of the stop sign in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.03658151626586914,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the stop sign in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.03658151626586914,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the car in the image?",
+          "answers": [
+            "red",
+            "black",
+            "grey"
+          ],
+          "score": 0.00997161865234375
+        },
+        {
+          "question": "what is the color of the car in the image?",
+          "answers": [
+            "red",
+            "black",
+            "grey"
+          ],
+          "score": 0.00997161865234375,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the car in the image?",
+          "answers": [
+            "red",
+            "black",
+            "grey"
+          ],
+          "score": 0.00997161865234375,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the car in the image?",
+          "answers": [
+            "red",
+            "black",
+            "grey"
+          ],
+          "score": 0.00997161865234375,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the car in the image?",
+          "answers": [
+            "red",
+            "black",
+            "grey"
+          ],
+          "score": 0.00997161865234375,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "an intersection with wet, black streets and a green sign displaying the number 50, featuring red traffic lights and their reflections in a puddle on the ground",
+      "question": "what is the location where the red traffic light and wet street are situated?",
+      "answer": "intersection",
+      "query_after": "an intersection with wet black streets and a red traffic light, featuring a green sign displaying the number 50, with a reflection of the red traffic lights visible in a puddle on the street",
+      "displayed_ids": [
+        14113,
+        8131,
+        8937,
+        21090,
+        35738,
+        21383,
+        19370,
+        20405,
+        46545,
+        7455
+      ],
+      "selected_ids": [
+        20798,
+        6679,
+        35147,
+        15785,
+        43042,
+        37054,
+        8037,
+        3677,
+        32547,
+        38600
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "motorcycles",
+            "bicycles",
+            "people"
+          ],
+          "score": 0.05232810974121094
+        },
+        {
+          "question": "what is the object located in the puddle on the wet street?",
+          "answers": [
+            "reflection of traffic lights",
+            "red lights",
+            "no parking sign"
+          ],
+          "score": 0.05340719223022461
+        },
+        {
+          "question": "what is the location where the red traffic light and wet street are situated?",
+          "answers": [
+            "busy city street",
+            "residential neighborhood",
+            "town"
+          ],
+          "score": 0.05914449691772461
+        },
+        {
+          "question": "what is the color of the sign located on the meter in front of the street?",
+          "answers": [
+            "green",
+            "yellow",
+            "black"
+          ],
+          "score": 0.02435016632080078
+        },
+        {
+          "question": "what color is the sign located on the meter in front of the street?",
+          "answers": [
+            "green",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.04136943817138672
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "motorcycles",
+            "bicycles",
+            "people"
+          ],
+          "score": 0.05232810974121094
+        },
+        {
+          "question": "what is the object located in the puddle on the wet street?",
+          "answers": [
+            "reflection of traffic lights",
+            "red lights",
+            "no parking sign"
+          ],
+          "score": 0.05340719223022461
+        },
+        {
+          "question": "Question: what is the color of the traffic lights in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.033911705017089844
+        },
+        {
+          "question": "Question: what is the color of the traffic lights in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.033911705017089844,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: what is the color of the traffic lights in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.033911705017089844,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

@@ -1,0 +1,78 @@
+{
+  "qid": 1959,
+  "sample": 2,
+  "first_candidates": [
+    "what is the other object in the image?",
+    "what is the color of the toilet in the small bathroom with beige tile and a white shower curtain?",
+    "what is the color of the toilet in the bathroom with beige tile?",
+    "what is the color of the toilet in the bathroom with beige tile and a white shower curtain?",
+    "what is the color of the toilet in the small bathroom with beige tile and a white shower curtain?"
+  ],
+  "second_candidates": [
+    "Question: what is the color of the toilet in the bathroom?",
+    "what is the color of the bathroom walls in the bathroom with the beige tile and white shower curtain?",
+    "what is the color of the toilet in the bathroom with beige tile and a white shower curtain?",
+    "what is the color of the sink in the small bathroom with beige tile and a white shower curtain?",
+    "what is the color of the toilet in the small bathroom with beige tile and a white shower curtain?"
+  ],
+  "paths": [
+    {
+      "question": "Question: what is the color of the toilet in the bathroom?",
+      "answers": [
+        "white",
+        "beige",
+        "blue"
+      ],
+      "score": 0.04468488693237305
+    },
+    {
+      "question": "what is the color of the bathroom walls in the bathroom with the beige tile and white shower curtain?",
+      "answers": [
+        "beige",
+        "white",
+        "off-white"
+      ],
+      "score": 0.006407260894775391
+    },
+    {
+      "question": "what is the color of the toilet in the bathroom with beige tile and a white shower curtain?",
+      "answers": [
+        "white",
+        "blue",
+        "green"
+      ],
+      "score": 0.07284402847290039
+    },
+    {
+      "question": "what is the color of the sink in the small bathroom with beige tile and a white shower curtain?",
+      "answers": [
+        "white",
+        "beige",
+        "silver"
+      ],
+      "score": 0.020261287689208984
+    },
+    {
+      "question": "what is the color of the toilet in the small bathroom with beige tile and a white shower curtain?",
+      "answers": [
+        "white",
+        "beige",
+        "blue"
+      ],
+      "score": 0.05046987533569336
+    }
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "score": 0.08800220489501953
+  },
+  "mixed": {
+    "question": "what is the other object in the image?",
+    "score": 0.08800220489501953
+  },
+  "control_rank": 18,
+  "mixed_rank": 18,
+  "usual_rank": 18,
+  "new_answer": null,
+  "new_rewrite": null
+}

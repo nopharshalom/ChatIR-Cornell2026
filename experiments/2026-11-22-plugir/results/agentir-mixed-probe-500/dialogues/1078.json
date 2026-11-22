@@ -1,0 +1,1326 @@
+{
+  "qid": 1078,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000030051.jpg",
+  "queries": [
+    "a stop sign is set up where 3 roads intersect",
+    "a stop sign is set up where 3 roads intersect with a street in the background",
+    "a stop sign is set up on a street where 3 roads intersect",
+    "a stop sign stands on a paved surface at the intersection of three roads, with a street in the background",
+    "a stop sign stands on a paved street at sunset, positioned where three roads intersect",
+    "a stop sign stands in the middle of an intersection where three roads meet on a paved street at sunset",
+    "an intact stop sign stands clearly visible at the intersection of three roads, set against a street background with a paved ground under a sunset sky",
+    "an intact stop sign stands clearly visible at the intersection of three paved roads, set against a sunset sky",
+    "an intact, clearly visible stop sign stands alone on a paved street at sunset",
+    "a stop sign stands intact and clearly visible at the intersection of three paved streets during sunset, with buildings, power lines, and cars in the background.",
+    "a red stop sign stands intact and clearly visible at the intersection of three paved streets during sunset, with buildings, power lines, and cars in the background."
+  ],
+  "ranks": [
+    42,
+    28,
+    26,
+    67,
+    32,
+    40,
+    73,
+    85,
+    120,
+    16,
+    20
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a stop sign is set up where 3 roads intersect",
+      "question": "Question: what is the background behind the stop sign?",
+      "answer": "street",
+      "query_after": "a stop sign is set up where 3 roads intersect with a street in the background",
+      "displayed_ids": [
+        40027,
+        9636,
+        31149,
+        29020,
+        7752,
+        19204,
+        40851,
+        28634,
+        23976,
+        7165
+      ],
+      "selected_ids": [
+        21841,
+        37178,
+        25948,
+        12719,
+        11871,
+        13706,
+        19923,
+        21288,
+        21774,
+        9724
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what objects are visible in the background behind the stop sign at the intersection of three roads?",
+          "answers": [
+            "large building and two cars",
+            "wooden pole near some homes",
+            "green plants"
+          ],
+          "score": 0.18140459060668945
+        },
+        {
+          "question": "what objects are visible in the background behind the stop sign?",
+          "answers": [
+            "a building",
+            "trees",
+            "green plants"
+          ],
+          "score": 0.14278936386108398
+        },
+        {
+          "question": "what objects are visible in the background behind the stop sign located at the intersection of three roads?",
+          "answers": [
+            "a building",
+            "trees",
+            "green plants"
+          ],
+          "score": 0.1196279525756836
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "tree",
+            "building",
+            "car"
+          ],
+          "score": 0.1198124885559082
+        },
+        {
+          "question": "what objects are visible in the background behind the stop sign located at the intersection of three roads?",
+          "answers": [
+            "a building",
+            "trees",
+            "green plants"
+          ],
+          "score": 0.1196279525756836,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what type of pole is the stop sign attached to?",
+          "answers": [
+            "metal",
+            "wooden",
+            "concrete"
+          ],
+          "score": 0.03809785842895508
+        },
+        {
+          "question": "Question: what is the background behind the stop sign?",
+          "answers": [
+            "a large building",
+            "some trees",
+            "some homes"
+          ],
+          "score": 0.18330049514770508
+        },
+        {
+          "question": "what is the color of the pole holding the stop sign?",
+          "answers": [
+            "wooden",
+            "metal",
+            "concrete"
+          ],
+          "score": 0.03848123550415039
+        },
+        {
+          "question": "What does the stop sign look like in the image?",
+          "answers": [
+            "red with white text",
+            "green plants behind it",
+            "on a wooden pole"
+          ],
+          "score": 0.10673666000366211
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "two cars",
+            "a building",
+            "a pole"
+          ],
+          "score": 0.08362913131713867
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a stop sign is set up where 3 roads intersect with a street in the background",
+      "question": "what is the other object in the image?",
+      "answer": "stop sign",
+      "query_after": "a stop sign is set up on a street where 3 roads intersect",
+      "displayed_ids": [
+        9636,
+        40027,
+        31149,
+        9408,
+        7752,
+        40851,
+        204,
+        4243,
+        29717,
+        31387
+      ],
+      "selected_ids": [
+        12719,
+        43255,
+        47601,
+        11871,
+        39547,
+        6814,
+        21288,
+        13706,
+        9724,
+        19923
+      ],
+      "rejected_count": 15,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "car",
+            "plant",
+            "tree"
+          ],
+          "score": 0.1100168228149414
+        },
+        {
+          "question": "what is the material of the pole holding the stop sign?",
+          "answers": [
+            "wood",
+            "metal",
+            "concrete"
+          ],
+          "score": 0.03472709655761719
+        },
+        {
+          "question": "what is the material of the pole holding the stop sign?",
+          "answers": [
+            "wood",
+            "metal",
+            "concrete"
+          ],
+          "score": 0.03472709655761719,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the material of the pole holding the stop sign?",
+          "answers": [
+            "wood",
+            "metal",
+            "concrete"
+          ],
+          "score": 0.03472709655761719,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the material of the pole holding the stop sign?",
+          "answers": [
+            "wood",
+            "metal",
+            "concrete"
+          ],
+          "score": 0.03472709655761719,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is the stop sign located on a pole or on the ground?",
+          "answers": [
+            "on a pole",
+            "on the ground",
+            "unknown"
+          ],
+          "score": 0.007111072540283203
+        },
+        {
+          "question": "Question: Is the stop sign located on a pole or on the ground?",
+          "answers": [
+            "on a pole",
+            "on the ground",
+            "unknown"
+          ],
+          "score": 0.007111072540283203,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: Is the stop sign located on a pole or on the ground?",
+          "answers": [
+            "on a pole",
+            "on the ground",
+            "unknown"
+          ],
+          "score": 0.007111072540283203,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: Are there any cars visible in the background?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.00281524658203125
+        },
+        {
+          "question": "Question: What is the material of the pole the stop sign is mounted on?",
+          "answers": [
+            "metal",
+            "wood",
+            "concrete"
+          ],
+          "score": 0.03305959701538086
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "a stop sign is set up on a street where 3 roads intersect",
+      "question": "what is the state of the ground beneath the stop sign?",
+      "answer": "paved",
+      "query_after": "a stop sign stands on a paved surface at the intersection of three roads, with a street in the background",
+      "displayed_ids": [
+        7752,
+        31149,
+        204,
+        9636,
+        9408,
+        40027,
+        40851,
+        4243,
+        29717,
+        19204
+      ],
+      "selected_ids": [
+        19923,
+        13706,
+        4408,
+        34270,
+        11871,
+        6814,
+        9724,
+        12399,
+        12719,
+        33313
+      ],
+      "rejected_count": 15,
+      "usual_paths": [
+        {
+          "question": "what is the weather condition on the ground in the image with the stop sign?",
+          "answers": [
+            "clear",
+            "rainy",
+            "snowy"
+          ],
+          "score": 0.1242518424987793
+        },
+        {
+          "question": "what is the weather condition on the ground in the image with the stop sign?",
+          "answers": [
+            "clear",
+            "rainy",
+            "snowy"
+          ],
+          "score": 0.1242518424987793,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the weather condition on the ground in the image with the stop sign?",
+          "answers": [
+            "clear",
+            "rainy",
+            "snowy"
+          ],
+          "score": 0.1242518424987793,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the weather condition on the ground in the image with the stop sign?",
+          "answers": [
+            "clear",
+            "rainy",
+            "snowy"
+          ],
+          "score": 0.1242518424987793,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the weather condition on the ground in the image with the stop sign?",
+          "answers": [
+            "clear",
+            "rainy",
+            "snowy"
+          ],
+          "score": 0.1242518424987793,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the condition of the ground beneath the stop sign?",
+          "answers": [
+            "street",
+            "grass",
+            "snow"
+          ],
+          "score": 0.17338180541992188
+        },
+        {
+          "question": "what is the weather condition or state of the ground beneath the stop sign?",
+          "answers": [
+            "dry",
+            "wet",
+            "snowy"
+          ],
+          "score": 0.15935659408569336
+        },
+        {
+          "question": "what is the state of the ground beneath the stop sign?",
+          "answers": [
+            "grass",
+            "snow",
+            "concrete"
+          ],
+          "score": 0.18772649765014648
+        },
+        {
+          "question": "what is the color of the stop sign?",
+          "answers": [
+            "red",
+            "white",
+            "green"
+          ],
+          "score": 0.0524439811706543
+        },
+        {
+          "question": "Question: What is the condition of the ground beneath the stop sign?",
+          "answers": [
+            "grass",
+            "snow",
+            "concrete"
+          ],
+          "score": 0.15056943893432617
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a stop sign stands on a paved surface at the intersection of three roads, with a street in the background",
+      "question": "what is the weather condition or time of day depicted in the image?",
+      "answer": "sunset",
+      "query_after": "a stop sign stands on a paved street at sunset, positioned where three roads intersect",
+      "displayed_ids": [
+        34392,
+        29717,
+        12399,
+        9408,
+        31149,
+        25507,
+        40851,
+        42685,
+        5009,
+        7752
+      ],
+      "selected_ids": [
+        31221,
+        48621,
+        12399,
+        21288,
+        29140,
+        9724,
+        25948,
+        47601,
+        11871,
+        35841
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what is the weather condition or time of day depicted in the image?",
+          "answers": [
+            "daytime",
+            "night",
+            "snowy"
+          ],
+          "score": 0.20525455474853516
+        },
+        {
+          "question": "what is the weather condition or time of day depicted in the image?",
+          "answers": [
+            "daytime",
+            "night",
+            "snowy"
+          ],
+          "score": 0.20525455474853516,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Based on the provided information, here is the generated question:\n\n**Question: What is the weather condition or time of day depicted in the image?",
+          "answers": [
+            "day",
+            "night",
+            "snowing"
+          ],
+          "score": 0.10577869415283203
+        },
+        {
+          "question": "**Question:** Is the stop sign in the image covered by snow?",
+          "answers": [
+            "yes",
+            "no",
+            "partially"
+          ],
+          "score": 0.009703636169433594
+        },
+        {
+          "question": "**Question:** Is the stop sign in the image covered by snow?",
+          "answers": [
+            "yes",
+            "no",
+            "partially"
+          ],
+          "score": 0.009703636169433594,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "house",
+            "tree",
+            "plants"
+          ],
+          "score": 0.1419353485107422
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "house",
+            "tree",
+            "plants"
+          ],
+          "score": 0.1419353485107422,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the weather condition in the image?",
+          "answers": [
+            "sunny",
+            "cloudy",
+            "rainy"
+          ],
+          "score": 0.1141824722290039
+        },
+        {
+          "question": "Question: Is there snow visible in the image?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.013347148895263672
+        },
+        {
+          "question": "Question: Is the stop sign surrounded by green plants or snow?",
+          "answers": [
+            "green plants",
+            "snow",
+            "trees"
+          ],
+          "score": 0.06319093704223633
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a stop sign stands on a paved street at sunset, positioned where three roads intersect",
+      "question": "what is the object located in the middle of the image?",
+      "answer": "stop sign",
+      "query_after": "a stop sign stands in the middle of an intersection where three roads meet on a paved street at sunset",
+      "displayed_ids": [
+        10433,
+        31406,
+        29717,
+        9078,
+        34392,
+        6679,
+        39653,
+        9699,
+        3677,
+        39352
+      ],
+      "selected_ids": [
+        25507,
+        18014,
+        49067,
+        13867,
+        33313,
+        6177,
+        20848,
+        31221,
+        7815,
+        48543
+      ],
+      "rejected_count": 28,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "stop sign",
+            "traffic light",
+            "street light"
+          ],
+          "score": 0.017509937286376953
+        },
+        {
+          "question": "what is the object located in the middle of the image?",
+          "answers": [
+            "parking sign",
+            "stop sign",
+            "street light"
+          ],
+          "score": 0.04625988006591797
+        },
+        {
+          "question": "what is the object located in the middle of the image?",
+          "answers": [
+            "parking sign",
+            "stop sign",
+            "street light"
+          ],
+          "score": 0.04625988006591797,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the stop sign in the image?",
+          "answers": [
+            "red",
+            "white",
+            "green"
+          ],
+          "score": 0.03966379165649414
+        },
+        {
+          "question": "what is the color of the stop sign in the image?",
+          "answers": [
+            "red",
+            "white",
+            "green"
+          ],
+          "score": 0.03966379165649414,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "stop sign",
+            "traffic light",
+            "street light"
+          ],
+          "score": 0.017509937286376953
+        },
+        {
+          "question": "Question: Is the stop sign mounted on a pole or placed directly on the ground?",
+          "answers": [
+            "mounted on a pole",
+            "placed directly on the ground",
+            "on a post"
+          ],
+          "score": 0.004714012145996094
+        },
+        {
+          "question": "Question: What is the specific text written on the stop sign?",
+          "answers": [
+            "STOP",
+            "4 WAY",
+            "ONE WAY"
+          ],
+          "score": 0.013330936431884766
+        },
+        {
+          "question": "Question: what is the specific text written on the stop sign?",
+          "answers": [
+            "STOP",
+            "YIELD",
+            "SLOW"
+          ],
+          "score": 0.021434307098388672
+        },
+        {
+          "question": "Question: Are there trees visible in the background behind the stop sign?",
+          "answers": [
+            "yes",
+            "no",
+            "sometimes"
+          ],
+          "score": 0.01226806640625
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a stop sign stands in the middle of an intersection where three roads meet on a paved street at sunset",
+      "question": "what is the condition of the stop sign in the image?",
+      "answer": "the stop sign is intact and clearly visible, with no apparent damage or obstruction.",
+      "query_after": "an intact stop sign stands clearly visible at the intersection of three roads, set against a street background with a paved ground under a sunset sky",
+      "displayed_ids": [
+        31406,
+        10433,
+        34392,
+        29717,
+        6679,
+        9078,
+        24689,
+        1436,
+        9699,
+        39653
+      ],
+      "selected_ids": [
+        49067,
+        8613,
+        19923,
+        13867,
+        10398,
+        31387,
+        20646,
+        47601,
+        18014,
+        33313
+      ],
+      "rejected_count": 30,
+      "usual_paths": [
+        {
+          "question": "what is the weather condition in the image?",
+          "answers": [
+            "sunset",
+            "fog",
+            "snow"
+          ],
+          "score": 0.09124517440795898
+        },
+        {
+          "question": "what is the weather condition depicted in the image?",
+          "answers": [
+            "sunset",
+            "clear",
+            "foggy"
+          ],
+          "score": 0.02105093002319336
+        },
+        {
+          "question": "what is the condition of the stop sign in the image?",
+          "answers": [
+            "visible",
+            "covered in snow",
+            "covered in fog"
+          ],
+          "score": 0.15636777877807617
+        },
+        {
+          "question": "what is the weather condition or time of day depicted in the image?",
+          "answers": [
+            "sunset",
+            "day",
+            "night"
+          ],
+          "score": 0.03737640380859375
+        },
+        {
+          "question": "what is the weather condition or time of day depicted in the image?",
+          "answers": [
+            "sunset",
+            "day",
+            "night"
+          ],
+          "score": 0.03737640380859375,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "stop sign",
+            "traffic light",
+            "street signs"
+          ],
+          "score": 0.05049610137939453
+        },
+        {
+          "question": "Question: What is the color of the stop sign?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.025653362274169922
+        },
+        {
+          "question": "Question: What is the color of the stop sign?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.025653362274169922,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: Is there a traffic light visible in the image?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.005484580993652344
+        },
+        {
+          "question": "Question: What is the state of the stop sign (e.g., is it upright, tilted, or lying on the ground)?",
+          "answers": [
+            "upright",
+            "tilted",
+            "lying on the ground"
+          ],
+          "score": 0.002674579620361328
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "an intact stop sign stands clearly visible at the intersection of three roads, set against a street background with a paved ground under a sunset sky",
+      "question": "what is the other object in the image?",
+      "answer": "stop sign",
+      "query_after": "an intact stop sign stands clearly visible at the intersection of three paved roads, set against a sunset sky",
+      "displayed_ids": [
+        10433,
+        31406,
+        9699,
+        9078,
+        39653,
+        1436,
+        29717,
+        40851,
+        14190,
+        6679
+      ],
+      "selected_ids": [
+        14190,
+        29140,
+        41554,
+        49067,
+        6206,
+        13867,
+        8233,
+        33313,
+        13645
+      ],
+      "rejected_count": 31,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "trees",
+            "fence",
+            "lights"
+          ],
+          "score": 0.08504867553710938
+        },
+        {
+          "question": "**Question:** What is the object located in the middle of the image?",
+          "answers": [
+            "stop sign",
+            "traffic light",
+            "sign"
+          ],
+          "score": 0.03745698928833008
+        },
+        {
+          "question": "**Question:** What is the other object located in the middle of the image besides the stop sign?",
+          "answers": [
+            "trees",
+            "another sign",
+            "road"
+          ],
+          "score": 0.030178546905517578
+        },
+        {
+          "question": "**Question:** What is the other object in the image besides the stop sign?",
+          "answers": [
+            "trees",
+            "street",
+            "sky"
+          ],
+          "score": 0.03079843521118164
+        },
+        {
+          "question": "**Question:** What is the other object located in the middle of the image besides the stop sign?",
+          "answers": [
+            "trees",
+            "another sign",
+            "road"
+          ],
+          "score": 0.030178546905517578,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "trees",
+            "fence",
+            "lights"
+          ],
+          "score": 0.08504867553710938
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "trees",
+            "fence",
+            "lights"
+          ],
+          "score": 0.08504867553710938,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the specific type of road intersection depicted in the image?",
+          "answers": [
+            "4-way",
+            "3-way",
+            "T-intersection"
+          ],
+          "score": 0.008069038391113281
+        },
+        {
+          "question": "Question: What is the color of the stop sign in the image?",
+          "answers": [
+            "red",
+            "green",
+            "blue"
+          ],
+          "score": 0.045317649841308594
+        },
+        {
+          "question": "Question: What is the color of the stop sign in the image?",
+          "answers": [
+            "red",
+            "green",
+            "blue"
+          ],
+          "score": 0.045317649841308594,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "an intact stop sign stands clearly visible at the intersection of three paved roads, set against a sunset sky",
+      "question": "what is the other object in the image?",
+      "answer": "stop sign",
+      "query_after": "an intact, clearly visible stop sign stands alone on a paved street at sunset",
+      "displayed_ids": [
+        10433,
+        31406,
+        14190,
+        39653,
+        9699,
+        1436,
+        34392,
+        9078,
+        6679,
+        40851
+      ],
+      "selected_ids": [
+        20646,
+        35841,
+        10398,
+        29140,
+        29921,
+        13867,
+        37913,
+        49067,
+        11926,
+        20290
+      ],
+      "rejected_count": 31,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "stop sign",
+            "traffic light",
+            "house"
+          ],
+          "score": 0.07585573196411133
+        },
+        {
+          "question": "what is the background behind the stop sign?",
+          "answers": [
+            "intersection",
+            "street",
+            "trees"
+          ],
+          "score": 0.042311668395996094
+        },
+        {
+          "question": "Question: What is the time of day depicted in the image?",
+          "answers": [
+            "sunset",
+            "day",
+            "night"
+          ],
+          "score": 0.02674102783203125
+        },
+        {
+          "question": "what is the sky color in the image?",
+          "answers": [
+            "orange",
+            "red",
+            "purple"
+          ],
+          "score": 0.04145526885986328
+        },
+        {
+          "question": "what is the color of the stop sign?",
+          "answers": [
+            "red",
+            "white",
+            "yellow"
+          ],
+          "score": 0.02711629867553711
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "stop sign",
+            "traffic light",
+            "house"
+          ],
+          "score": 0.07585573196411133
+        },
+        {
+          "question": "Question: What is the location setting of the stop sign?",
+          "answers": [
+            "busy intersection",
+            "street",
+            "sunset"
+          ],
+          "score": 0.012338638305664062
+        },
+        {
+          "question": "Question: What is the color of the stop sign in the image?",
+          "answers": [
+            "red",
+            "green",
+            "blue"
+          ],
+          "score": 0.04138994216918945
+        },
+        {
+          "question": "Question: What is the color of the stop sign in the image?",
+          "answers": [
+            "red",
+            "green",
+            "blue"
+          ],
+          "score": 0.04138994216918945,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: Is there a tree visible in the background of the stop sign?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.00916433334350586
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "an intact, clearly visible stop sign stands alone on a paved street at sunset",
+      "question": "Question: What objects are visible in the background besides the street?",
+      "answer": "buildings, power lines, cars",
+      "query_after": "a stop sign stands intact and clearly visible at the intersection of three paved streets during sunset, with buildings, power lines, and cars in the background.",
+      "displayed_ids": [
+        10433,
+        31406,
+        6679,
+        7613,
+        3677,
+        39352,
+        49421,
+        29717,
+        47034,
+        8872
+      ],
+      "selected_ids": [
+        9078,
+        29223,
+        35841,
+        19411,
+        33403,
+        13867,
+        37913,
+        39653,
+        22147,
+        20848
+      ],
+      "rejected_count": 35,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "trees",
+            "street",
+            "sky"
+          ],
+          "score": 0.048802852630615234
+        },
+        {
+          "question": "what is the background behind the stop sign?",
+          "answers": [
+            "street",
+            "sky",
+            "mountain"
+          ],
+          "score": 0.046091556549072266
+        },
+        {
+          "question": "what is the background behind the stop sign?",
+          "answers": [
+            "street",
+            "sky",
+            "mountain"
+          ],
+          "score": 0.046091556549072266,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the specific background scene depicted in the image?",
+          "answers": [
+            "street",
+            "parking lot",
+            "intersection"
+          ],
+          "score": 0.015986919403076172
+        },
+        {
+          "question": "what is the specific background scene depicted in the image?",
+          "answers": [
+            "street",
+            "parking lot",
+            "intersection"
+          ],
+          "score": 0.015986919403076172,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "trees",
+            "street",
+            "sky"
+          ],
+          "score": 0.048802852630615234
+        },
+        {
+          "question": "Question: What is the color of the stop sign in the image?",
+          "answers": [
+            "red",
+            "white",
+            "yellow"
+          ],
+          "score": 0.0394902229309082
+        },
+        {
+          "question": "Question: What objects are visible in the background besides the street?",
+          "answers": [
+            "trees",
+            "mountain",
+            "ocean"
+          ],
+          "score": 0.09391593933105469
+        },
+        {
+          "question": "Question: What are the other traffic signs visible near the stop sign?",
+          "answers": [
+            "one way sign",
+            "parking sign",
+            "street sign"
+          ],
+          "score": 0.032190799713134766
+        },
+        {
+          "question": "Question: Is there a traffic light visible in the image?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.00180816650390625
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "a stop sign stands intact and clearly visible at the intersection of three paved streets during sunset, with buildings, power lines, and cars in the background.",
+      "question": "what is the color of the stop sign in the image?",
+      "answer": "red",
+      "query_after": "a red stop sign stands intact and clearly visible at the intersection of three paved streets during sunset, with buildings, power lines, and cars in the background.",
+      "displayed_ids": [
+        39653,
+        31406,
+        9699,
+        10433,
+        34223,
+        40851,
+        33086,
+        10398,
+        6679,
+        38509
+      ],
+      "selected_ids": [
+        39653,
+        9078,
+        7752,
+        6679,
+        20848,
+        32700,
+        20948,
+        10398,
+        31011
+      ],
+      "rejected_count": 39,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "stop sign",
+            "buildings",
+            "power lines"
+          ],
+          "score": 0.029297351837158203
+        },
+        {
+          "question": "Question: what is the number of roads intersecting where the stop sign is located?",
+          "answers": [
+            "2",
+            "3",
+            "4"
+          ],
+          "score": 0.0027861595153808594
+        },
+        {
+          "question": "what is the number of roads intersecting where the stop sign is located?",
+          "answers": [
+            "2",
+            "3",
+            "4"
+          ],
+          "score": 0.004336357116699219
+        },
+        {
+          "question": "what is the color of the stop sign in the image?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.0314178466796875
+        },
+        {
+          "question": "what is the color of the stop sign in the image?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.0314178466796875,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "stop sign",
+            "buildings",
+            "power lines"
+          ],
+          "score": 0.029297351837158203
+        },
+        {
+          "question": "Question: Is the stop sign mounted on a pole or placed on the ground?",
+          "answers": [
+            "on a pole",
+            "on the ground",
+            "not visible"
+          ],
+          "score": 0.00220489501953125
+        },
+        {
+          "question": "Question: what is the stop sign mounted on?",
+          "answers": [
+            "pole",
+            "wire",
+            "curb"
+          ],
+          "score": 0.012812137603759766
+        },
+        {
+          "question": "Question: What is the time of day or lighting condition depicted in the image?",
+          "answers": [
+            "sunset",
+            "night",
+            "dusk"
+          ],
+          "score": 0.004445075988769531
+        },
+        {
+          "question": "Question: What is the stop sign mounted on?",
+          "answers": [
+            "wire",
+            "pole",
+            "house"
+          ],
+          "score": 0.025104045867919922
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

@@ -1,0 +1,78 @@
+{
+  "qid": 1868,
+  "sample": 2,
+  "first_candidates": [
+    "what is the specific location or enclosure where the zebras are grazing?",
+    "what is the color pattern of the zebras grazing in the grass with bushy vegetation nearby?",
+    "Question: how many zebras are grazing on the grass with bushy vegetation nearby?",
+    "what is the specific environment or enclosure where the zebras are grazing?",
+    "what is the specific environment or enclosure where the zebras are grazing?"
+  ],
+  "second_candidates": [
+    "Question: How many zebras are visible in the image?",
+    "Question: What is the color pattern of the zebras in the image?",
+    "Question: What is the specific type of enclosure or terrain where the zebras are grazing?",
+    "Question: Question: What is the color of the zebras in the image?",
+    "what is the specific type of enclosure where the zebras are grazing?"
+  ],
+  "paths": [
+    {
+      "question": "Question: How many zebras are visible in the image?",
+      "answers": [
+        "one",
+        "two",
+        "three"
+      ],
+      "score": 0.016988754272460938
+    },
+    {
+      "question": "Question: What is the color pattern of the zebras in the image?",
+      "answers": [
+        "black and white",
+        "striped",
+        "black"
+      ],
+      "score": 0.011135101318359375
+    },
+    {
+      "question": "Question: What is the specific type of enclosure or terrain where the zebras are grazing?",
+      "answers": [
+        "zoo enclosure",
+        "dry field with trees",
+        "tall grassy field"
+      ],
+      "score": 0.14770269393920898
+    },
+    {
+      "question": "Question: Question: What is the color of the zebras in the image?",
+      "answers": [
+        "black and white",
+        "brown and white",
+        "striped"
+      ],
+      "score": 0.041552066802978516
+    },
+    {
+      "question": "what is the specific type of enclosure where the zebras are grazing?",
+      "answers": [
+        "zoo enclosure",
+        "wild field",
+        "fenced area"
+      ],
+      "score": 0.029170513153076172
+    }
+  ],
+  "control": {
+    "question": "Question: What is the specific type of enclosure or terrain where the zebras are grazing?",
+    "score": 0.14770269393920898
+  },
+  "mixed": {
+    "question": "what is the specific environment or enclosure where the zebras are grazing?",
+    "score": 0.08602237701416016
+  },
+  "control_rank": 17,
+  "mixed_rank": 32,
+  "usual_rank": 32,
+  "new_answer": "open field",
+  "new_rewrite": "some zebras are grazing on grass in an open field with bushy vegetation nearby"
+}

@@ -1,0 +1,79 @@
+{
+  "qid": 1370,
+  "sample": 2,
+  "first_candidates": [
+    "what is the object that the two men are holding while walking on the beach?",
+    "Question: what color of shirt are the two men wearing while walking on the beach?",
+    "what is the other object in the image?",
+    "Question: what is the direction the two men are walking on the beach?",
+    "what are the two men walking on the beach holding?"
+  ],
+  "second_candidates": [
+    "what is the object being held by the two men walking on the beach?",
+    "Question: What is the color of the kites visible in the scene?",
+    "Question: What are the two men walking on the beach holding?",
+    "Question: What is the color of the kites visible in the scene?",
+    "Question: What object are the two men holding while walking on the beach?"
+  ],
+  "paths": [
+    {
+      "question": "what is the object being held by the two men walking on the beach?",
+      "answers": [
+        "tennis rackets",
+        "surfboards",
+        "nothing"
+      ],
+      "score": 0.051418304443359375
+    },
+    {
+      "question": "Question: What is the color of the kites visible in the scene?",
+      "answers": [
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "score": 0.07704877853393555
+    },
+    {
+      "question": "Question: What are the two men walking on the beach holding?",
+      "answers": [
+        "tennis rackets",
+        "surfboards",
+        "nothing"
+      ],
+      "score": 0.05583667755126953
+    },
+    {
+      "question": "Question: What is the color of the kites visible in the scene?",
+      "answers": [
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "score": 0.07704877853393555,
+      "duplicate_of": 1
+    },
+    {
+      "question": "Question: What object are the two men holding while walking on the beach?",
+      "answers": [
+        "tennis rackets",
+        "surfboards",
+        "nothing"
+      ],
+      "score": 0.059278011322021484
+    }
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "score": 0.19875144958496094
+  },
+  "mixed": {
+    "question": "what is the other object in the image?",
+    "score": 0.19875144958496094
+  },
+  "control_rank": 32,
+  "mixed_rank": 32,
+  "usual_rank": 32,
+  "new_answer": null,
+  "new_rewrite": null
+}

@@ -1,0 +1,101 @@
+{
+  "qid": 1661,
+  "initial": "a airplane flying in the air on a sunny day",
+  "initial_rank": 180,
+  "evidence": [
+    "a light grey jet flying in a cloudy sky",
+    "a black and white photograph of a propeller airplane",
+    "a passenger jet is flying over a park with some trees",
+    "white and red airplane flying over a large body of water",
+    "a group of fighter planes flying together through a blue sky",
+    "a large white jetliner is taking off at an airport",
+    "a jet engine flies into the sky above clouds",
+    "the airliner is silver and has red stripes on it",
+    "a light pole and light bulb in the cloudy sky",
+    "a jet airplane coming down a runway in the background of a beach"
+  ],
+  "candidates": [
+    "what is the color of the airplane flying in the air on a sunny day?",
+    "what is the color of the airplane flying in the air on a sunny day?",
+    "Question: what is the color and pattern of the airplane flying in the air on a sunny day?",
+    "What is the color of the airplane?",
+    "what is the type of airplane flying in the air on a sunny day?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the airplane flying in the air on a sunny day?",
+      "answers": [
+        "grey",
+        "black and white",
+        "white and red"
+      ],
+      "score": 0.1463031768798828
+    },
+    {
+      "question": "what is the color of the airplane flying in the air on a sunny day?",
+      "answers": [
+        "grey",
+        "black and white",
+        "white and red"
+      ],
+      "score": 0.1463031768798828,
+      "duplicate_of": 0
+    },
+    {
+      "question": "Question: what is the color and pattern of the airplane flying in the air on a sunny day?",
+      "answers": [
+        "silver with red stripes",
+        "light grey",
+        "black and white"
+      ],
+      "score": 0.11024856567382812
+    },
+    {
+      "question": "What is the color of the airplane?",
+      "answers": [
+        "black and white",
+        "white and red",
+        "silver with red stripes"
+      ],
+      "score": 0.17035245895385742
+    },
+    {
+      "question": "what is the type of airplane flying in the air on a sunny day?",
+      "answers": [
+        "jet",
+        "propeller airplane",
+        "fighter plane"
+      ],
+      "score": 0.08063697814941406
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.152,
+  "probe_selection_seconds": 2.196,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "what is the type of airplane flying in the air on a sunny day?",
+      "answer": "airplane",
+      "rewrite": "an airplane flying in the air on a sunny day",
+      "rank": 190,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the type of airplane flying in the air on a sunny day?",
+      "answer": "airplane",
+      "rewrite": "an airplane flying in the air on a sunny day",
+      "rank": 190,
+      "hit": false
+    },
+    "probe": {
+      "question": "What is the color of the airplane?",
+      "answer": "white",
+      "rewrite": "a white airplane flying in the air on a sunny day",
+      "rank": 219,
+      "hit": false
+    }
+  },
+  "seconds": 21.392
+}

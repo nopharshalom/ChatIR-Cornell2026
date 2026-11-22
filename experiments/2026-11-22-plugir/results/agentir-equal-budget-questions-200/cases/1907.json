@@ -1,0 +1,80 @@
+{
+  "qid": 1907,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the train that is departing the station with a person walking by it?",
+    "what is the color of the train that is departing the station with a person walking by it?",
+    "what is the color of the person walking by the train?",
+    "what is the color of the train that has a person walking by it?",
+    "what is the color of the train in the image where a person is walking by it?"
+  ],
+  "second_candidates": [
+    "what is the color of the train that is departing the station with a person walking by it?",
+    "what is the color of the train that is departing the station with a person walking by it?",
+    "what is the color of the person walking by the departing train?",
+    "what is the color of the train that is departing the station with a person walking by it?",
+    "what is the color of the departing train?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the train that is departing the station with a person walking by it?",
+      "answers": [
+        "yellow",
+        "blue",
+        "red"
+      ],
+      "score": 0.21588611602783203
+    },
+    {
+      "question": "what is the color of the train that is departing the station with a person walking by it?",
+      "answers": [
+        "yellow",
+        "blue",
+        "red"
+      ],
+      "score": 0.21588611602783203,
+      "duplicate_of": 0
+    },
+    {
+      "question": "what is the color of the person walking by the departing train?",
+      "answers": [
+        "red",
+        "blue",
+        "black"
+      ],
+      "score": 0.11600971221923828
+    },
+    {
+      "question": "what is the color of the train that is departing the station with a person walking by it?",
+      "answers": [
+        "yellow",
+        "blue",
+        "red"
+      ],
+      "score": 0.21588611602783203,
+      "duplicate_of": 0
+    },
+    {
+      "question": "what is the color of the departing train?",
+      "answers": [
+        "yellow",
+        "blue",
+        "red"
+      ],
+      "score": 0.2732224464416504
+    }
+  ],
+  "control": {
+    "question": "what is the color of the departing train?",
+    "score": 0.2732224464416504
+  },
+  "mixed": {
+    "question": "Question: What is the color of the departing train?",
+    "score": 0.23265886306762695
+  },
+  "control_rank": 22,
+  "mixed_rank": 89,
+  "usual_rank": 89,
+  "new_answer": "yellow and maroon",
+  "new_rewrite": "a yellow and maroon train departing a station with a person walking by it"
+}

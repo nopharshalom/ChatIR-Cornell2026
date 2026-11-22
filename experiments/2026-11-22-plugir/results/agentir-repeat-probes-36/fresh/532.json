@@ -1,0 +1,74 @@
+{
+  "qid": 532,
+  "arm": "fresh",
+  "after_round": 3,
+  "ranks": [
+    95,
+    25,
+    20,
+    20,
+    150,
+    283,
+    99,
+    94,
+    99,
+    31,
+    25
+  ],
+  "continuation": [
+    {
+      "round": 4,
+      "query_before": "A baseball player wearing a gray uniform stands on the mound, gripping a bat and poised to swing.",
+      "question": "Is the player on the mound holding a bat or a ball?",
+      "answer": "ball",
+      "query_after": "a baseball player in a gray uniform stands on the mound holding a ball, ready to pitch",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Is the player on the mound holding a bat or a ball?",
+      "fallback": false
+    },
+    {
+      "round": 5,
+      "query_before": "a baseball player in a gray uniform stands on the mound holding a ball, ready to pitch",
+      "question": "what is the color of the ball being held by the baseball player on the mound?",
+      "answer": "white",
+      "query_after": "a baseball player in a gray uniform stands on the mound holding a white ball"
+    },
+    {
+      "round": 6,
+      "query_before": "a baseball player in a gray uniform stands on the mound holding a white ball",
+      "question": "what is the other object in the image?",
+      "answer": "crowd",
+      "query_after": "a baseball player in a gray uniform stands on the mound holding a white ball, with a crowd in the background"
+    },
+    {
+      "round": 7,
+      "query_before": "a baseball player in a gray uniform stands on the mound holding a white ball, with a crowd in the background",
+      "question": "what is the other object in the image?",
+      "answer": "crowd",
+      "query_after": "A baseball player wearing a gray uniform stands on the mound holding a white ball, with a crowd visible in the background."
+    },
+    {
+      "round": 8,
+      "query_before": "A baseball player wearing a gray uniform stands on the mound holding a white ball, with a crowd visible in the background.",
+      "question": "what is the other object in the image?",
+      "answer": "crowd",
+      "query_after": "a baseball player in a gray uniform stands on the mound holding a white ball, with a crowd in the background"
+    },
+    {
+      "round": 9,
+      "query_before": "a baseball player in a gray uniform stands on the mound holding a white ball, with a crowd in the background",
+      "question": "Question: What color are the sleeves of the baseball player on the mound?",
+      "answer": "red",
+      "query_after": "a baseball player in a gray uniform with red sleeves stands on the mound holding a white ball, with a crowd in the background"
+    },
+    {
+      "round": 10,
+      "query_before": "a baseball player in a gray uniform with red sleeves stands on the mound holding a white ball, with a crowd in the background",
+      "question": "what is the color of the pants of the baseball player on the mound?",
+      "answer": "white",
+      "query_after": "a baseball player in a gray uniform with red sleeves and white pants stands on the mound holding a white ball, with a crowd in the background"
+    }
+  ],
+  "seconds": 114.4
+}

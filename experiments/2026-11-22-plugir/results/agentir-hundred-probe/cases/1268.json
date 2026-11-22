@@ -1,0 +1,101 @@
+{
+  "qid": 1268,
+  "initial": "the man surfs the wave on a tan and aqua colored surf board",
+  "initial_rank": 38,
+  "evidence": [
+    "a man in a life jacket riding a board with a rope attached to it",
+    "man in black wetsuit surfing in waves",
+    "the ocean is dark with waves slapping against the shore",
+    "a surfer riding a wave in a pool",
+    "a person surfing in the ocean on a yellow surfboard",
+    "the surfer in a black wetsuit",
+    "a surfer in a black wetsuit riding a wave",
+    "two surfers on the shore and a wave",
+    "a group of surfers riding a wave in the ocean",
+    "the man in the black suit is surfing"
+  ],
+  "candidates": [
+    "what is the color of the man's wetsuit?",
+    "what is the location where the man is surfing?",
+    "what is the material of the board the man is riding?",
+    "what is the color of the man's wetsuit?",
+    "what is the color of the surfboard the man is riding?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the man's wetsuit?",
+      "answers": [
+        "black",
+        "blue",
+        "red"
+      ],
+      "score": 0.028392314910888672
+    },
+    {
+      "question": "what is the location where the man is surfing?",
+      "answers": [
+        "ocean",
+        "wave pool",
+        "beach"
+      ],
+      "score": 0.029883384704589844
+    },
+    {
+      "question": "what is the material of the board the man is riding?",
+      "answers": [
+        "wood",
+        "foam",
+        "polyurethane"
+      ],
+      "score": 0.011959075927734375
+    },
+    {
+      "question": "what is the color of the man's wetsuit?",
+      "answers": [
+        "black",
+        "blue",
+        "red"
+      ],
+      "score": 0.028392314910888672,
+      "duplicate_of": 0
+    },
+    {
+      "question": "what is the color of the surfboard the man is riding?",
+      "answers": [
+        "tan and aqua",
+        "yellow",
+        "black"
+      ],
+      "score": 0.061664581298828125
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.067,
+  "probe_selection_seconds": 2.222,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "what is the material of the board the man is riding?",
+      "answer": "foam",
+      "rewrite": "a man surfs a wave on a tan and aqua colored foam surfboard",
+      "rank": 41,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the color of the man's wetsuit?",
+      "answer": "black",
+      "rewrite": "a man in a black wetsuit surfs a wave on a tan and aqua colored surfboard",
+      "rank": 71,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the color of the surfboard the man is riding?",
+      "answer": "white",
+      "rewrite": "a man surfs a white wave on a tan and aqua colored surfboard",
+      "rank": 25,
+      "hit": false
+    }
+  },
+  "seconds": 16.782
+}

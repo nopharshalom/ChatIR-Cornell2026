@@ -1,0 +1,108 @@
+{
+  "chosen": "what appliances are present in the small, clean kitchen?",
+  "default": "Question: Where is the small, clean kitchen located (inside or outside the home)?",
+  "ids": [
+    761,
+    26803,
+    46491,
+    46292
+  ],
+  "trials": {
+    "Question: Where is the small, clean kitchen located (inside or outside the home)?": {
+      "answers": [
+        "inside",
+        "inside",
+        "inside",
+        "inside"
+      ],
+      "rewrites": {
+        "inside": "a small, clean kitchen located inside the home with no dishes or food items"
+      },
+      "ranks": [
+        37,
+        23,
+        25,
+        36
+      ],
+      "hits": 0
+    },
+    "what is the color of the cabinets in the small, clean kitchen?": {
+      "answers": [
+        "white",
+        "white",
+        "brown",
+        "brown"
+      ],
+      "rewrites": {
+        "white": "a small, very clean white kitchen with no dishes or food items",
+        "brown": "a small, very clean kitchen with brown cabinets and no dishes or food items"
+      },
+      "ranks": [
+        21,
+        16,
+        10,
+        42
+      ],
+      "hits": 1
+    },
+    "what appliances are present in the small, clean kitchen?": {
+      "answers": [
+        "stove, oven, refrigerator",
+        "stove",
+        "dishwasher, stove, microwave",
+        "stove"
+      ],
+      "rewrites": {
+        "stove, oven, refrigerator": "a small, very clean kitchen space containing a stove, oven, and refrigerator, with no dishes or food items present",
+        "stove": "a small, very clean kitchen space with no dishes or food items, featuring a stove",
+        "dishwasher, stove, microwave": "a small, very clean kitchen space with no dishes or food items, featuring a dishwasher, stove, and microwave"
+      },
+      "ranks": [
+        101,
+        3,
+        5,
+        26
+      ],
+      "hits": 2
+    },
+    "Question: Is the floor in the small, clean kitchen brown or white?": {
+      "answers": [
+        "brown",
+        "white",
+        "brown",
+        "white"
+      ],
+      "rewrites": {
+        "brown": "a small, very clean kitchen with a brown floor and no dishes or food items",
+        "white": "a small, very clean kitchen with a white floor and no dishes or food items"
+      },
+      "ranks": [
+        80,
+        26,
+        40,
+        175
+      ],
+      "hits": 0
+    },
+    "**Question:** What color is the floor in the small, clean kitchen?": {
+      "answers": [
+        "black",
+        "white",
+        "beige",
+        "white"
+      ],
+      "rewrites": {
+        "black": "a small, very clean kitchen with a black floor and no dishes or food items",
+        "white": "a small, very clean kitchen with a white floor and no dishes or food items",
+        "beige": "a small, very clean kitchen with a beige floor and no dishes or food items"
+      },
+      "ranks": [
+        14,
+        26,
+        7,
+        175
+      ],
+      "hits": 1
+    }
+  }
+}

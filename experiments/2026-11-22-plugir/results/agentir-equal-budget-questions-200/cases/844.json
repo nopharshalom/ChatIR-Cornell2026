@@ -1,0 +1,80 @@
+{
+  "qid": 844,
+  "sample": 2,
+  "first_candidates": [
+    "what color is the wetsuit worn by the person surfing?",
+    "what is the color of the wetsuit worn by the person who is catching a wave?",
+    "what is the color of the wetsuit worn by the person who is riding a wave on a green surfboard?",
+    "what is the color of the wetsuit worn by the person who is surfing in the air?",
+    "what is the color of the wetsuit worn by the person who is laying down on a surfboard?"
+  ],
+  "second_candidates": [
+    "what color is the wetsuit worn by the person surfing in the ocean?",
+    "what is the color of the wetsuit worn by the person surfing in the ocean?",
+    "what is the color of the wetsuit worn by the person surfing in the ocean?",
+    "what is the gender of the person wearing the full body wetsuit while surfing in the ocean?",
+    "what is the gender of the person wearing the full body wetsuit while surfing in the ocean?"
+  ],
+  "paths": [
+    {
+      "question": "what color is the wetsuit worn by the person surfing in the ocean?",
+      "answers": [
+        "black",
+        "green",
+        "white"
+      ],
+      "score": 0.11458492279052734
+    },
+    {
+      "question": "what is the color of the wetsuit worn by the person surfing in the ocean?",
+      "answers": [
+        "black",
+        "white",
+        "green"
+      ],
+      "score": 0.10680007934570312
+    },
+    {
+      "question": "what is the color of the wetsuit worn by the person surfing in the ocean?",
+      "answers": [
+        "black",
+        "white",
+        "green"
+      ],
+      "score": 0.10680007934570312,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the gender of the person wearing the full body wetsuit while surfing in the ocean?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.041323184967041016
+    },
+    {
+      "question": "what is the gender of the person wearing the full body wetsuit while surfing in the ocean?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.041323184967041016,
+      "duplicate_of": 3
+    }
+  ],
+  "control": {
+    "question": "what color is the wetsuit worn by the person surfing in the ocean?",
+    "score": 0.11458492279052734
+  },
+  "mixed": {
+    "question": "what color is the surfboard the person in the wetsuit is riding?",
+    "score": 0.1293015480041504
+  },
+  "control_rank": 28,
+  "mixed_rank": 1,
+  "usual_rank": 64,
+  "new_answer": "black",
+  "new_rewrite": "a person in a black full body wetsuit is surfing in the ocean"
+}

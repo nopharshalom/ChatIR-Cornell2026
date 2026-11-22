@@ -1,0 +1,108 @@
+{
+  "qid": 1648,
+  "arm": "probe",
+  "after_round": 2,
+  "ranks": [
+    327,
+    315,
+    235,
+    836,
+    561,
+    836,
+    561,
+    58,
+    34,
+    58,
+    65
+  ],
+  "continuation": [
+    {
+      "round": 3,
+      "query_before": "Three zebras are standing and grazing in a grassy field.",
+      "question": "Are the zebras in a zoo enclosure or in the woods?",
+      "answer": "in the woods",
+      "query_after": "three zebras standing and grazing in a grassy area within the woods",
+      "searches": [
+        {
+          "query": "a fenced in area with some rocks and zebras grazing",
+          "ids": [
+            16943,
+            15537,
+            32872
+          ],
+          "captions": [
+            "rocks on the side of the road",
+            "a group of zebras standing by a pond",
+            "a zebra on a stone in a field"
+          ]
+        },
+        {
+          "query": "a herd of zebras eating in a zoo enclosure with visible fencing",
+          "ids": [
+            11650,
+            9248,
+            2828
+          ],
+          "captions": [
+            "a group of zebras",
+            "green field with grass and tree",
+            "the zebras are in an enclosure in a zoo"
+          ]
+        }
+      ],
+      "raw_plan": "a fenced in area with some rocks and zebras grazing\na herd of zebras eating in a zoo enclosure with visible fencing",
+      "generated": "Are the zebras in a zoo enclosure or in the woods?",
+      "fallback": false
+    },
+    {
+      "round": 4,
+      "query_before": "three zebras standing and grazing in a grassy area within the woods",
+      "question": "what is the other object in the image?",
+      "answer": "zebra",
+      "query_after": "Three zebras are standing and grazing in a grassy clearing within the woods."
+    },
+    {
+      "round": 5,
+      "query_before": "Three zebras are standing and grazing in a grassy clearing within the woods.",
+      "question": "what is the other object in the image?",
+      "answer": "zebra",
+      "query_after": "three zebras standing and grazing in a grassy area within the woods"
+    },
+    {
+      "round": 6,
+      "query_before": "three zebras standing and grazing in a grassy area within the woods",
+      "question": "what is the other object in the image?",
+      "answer": "zebra",
+      "query_after": "Three zebras are standing and grazing in a grassy clearing within the woods."
+    },
+    {
+      "round": 7,
+      "query_before": "Three zebras are standing and grazing in a grassy clearing within the woods.",
+      "question": "what is the surrounding environment of the grassy area where the zebras are standing?",
+      "answer": "The surrounding environment of the grassy area where the zebras are standing includes:\n\n- Rolling hills or low mountains in the background.\n- Sparse trees, including one prominent tree on the right side.\n- A wide, open sav",
+      "query_after": "three zebras standing and grazing in a grassy area within the woods, featuring rolling hills or low mountains in the background, sparse trees including one prominent tree on the right, and a wide, open savanna."
+    },
+    {
+      "round": 8,
+      "query_before": "three zebras standing and grazing in a grassy area within the woods, featuring rolling hills or low mountains in the background, sparse trees including one prominent tree on the right, and a wide, open savanna.",
+      "question": "what is the other object in the image?",
+      "answer": "zebra",
+      "query_after": "Three zebras standing and grazing in a grassy area surrounded by rolling hills or low mountains and sparse trees, including one prominent tree on the right side, within a wide, open savanna setting."
+    },
+    {
+      "round": 9,
+      "query_before": "Three zebras standing and grazing in a grassy area surrounded by rolling hills or low mountains and sparse trees, including one prominent tree on the right side, within a wide, open savanna setting.",
+      "question": "what is the other object in the image?",
+      "answer": "zebra",
+      "query_after": "Three zebras standing and grazing in a grassy area within the woods, featuring rolling hills or low mountains in the background, sparse trees including one prominent tree on the right, and a wide, open savanna."
+    },
+    {
+      "round": 10,
+      "query_before": "Three zebras standing and grazing in a grassy area within the woods, featuring rolling hills or low mountains in the background, sparse trees including one prominent tree on the right, and a wide, open savanna.",
+      "question": "**Generated Question:**\nWhat color is the image?",
+      "answer": "Green.",
+      "query_after": "three zebras standing and grazing in a grassy area within the woods, featuring rolling hills or low mountains in the background, sparse trees including one prominent tree on the right, and a wide open savanna, with a green-tinted image"
+    }
+  ],
+  "seconds": 151.5
+}

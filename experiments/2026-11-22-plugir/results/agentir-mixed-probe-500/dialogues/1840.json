@@ -1,0 +1,1203 @@
+{
+  "qid": 1840,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000066471.jpg",
+  "queries": [
+    "planes sit next to each other while assorted trucks sit around them",
+    "blue and white planes sit next to each other while assorted trucks are parked around them",
+    "blue and white Boeing 737 planes sit next to each other while assorted trucks are parked around them",
+    "blue and white Boeing 737s sit next to each other, with white trucks parked around them",
+    "blue and white Boeing 737 airplanes sit next to each other, with white trucks parked around them and another airplane visible in the scene",
+    "blue and white Boeing 737 airplanes sit next to each other, surrounded by white and indigo trucks",
+    "Two blue and white Boeing 737 airplanes are parked next to each other, surrounded by assorted white and indigo trucks.",
+    "blue and white Boeing 737 airplanes sit next to each other, surrounded by white and indigo trucks",
+    "Two blue and white Boeing 737 airplanes are parked on an apron, surrounded by assorted white and indigo trucks.",
+    "Two blue and white Boeing 737 airplanes sit on a foggy airplane apron, surrounded by assorted white and indigo trucks."
+  ],
+  "ranks": [
+    52,
+    47,
+    50,
+    67,
+    59,
+    21,
+    34,
+    21,
+    31,
+    4
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "planes sit next to each other while assorted trucks sit around them",
+      "question": "Question: What color is the airplane?",
+      "answer": "Blue and white.",
+      "query_after": "blue and white planes sit next to each other while assorted trucks are parked around them",
+      "displayed_ids": [
+        44130,
+        31997,
+        5457,
+        28071,
+        7738,
+        6876,
+        39350,
+        34312,
+        26695,
+        48732
+      ],
+      "selected_ids": [
+        18436,
+        42212,
+        38338,
+        11054,
+        49523,
+        47895,
+        20602,
+        25803,
+        32542,
+        13053
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: Which vehicle is parked beside the bus in the scene with the planes?",
+          "answers": [
+            "white",
+            "red",
+            "white and red"
+          ],
+          "score": 0.059285640716552734
+        },
+        {
+          "question": "what is the color of the airplane parked next to the bus?",
+          "answers": [
+            "red",
+            "white",
+            "white and red"
+          ],
+          "score": 0.04142189025878906
+        },
+        {
+          "question": "What is the color of the airplane parked next to the bus?",
+          "answers": [
+            "white",
+            "red",
+            "white and red"
+          ],
+          "score": 0.04142141342163086
+        },
+        {
+          "question": "Question: What is the color of the airplane parked next to the bus?",
+          "answers": [
+            "red",
+            "white",
+            "white and red"
+          ],
+          "score": 0.061585426330566406
+        },
+        {
+          "question": "what is the location of the planes and the bus in the scene?",
+          "answers": [
+            "airport",
+            "runway",
+            "tarmac"
+          ],
+          "score": 0.0055179595947265625
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the airplane?",
+          "answers": [
+            "blue",
+            "white",
+            "red"
+          ],
+          "score": 0.09304237365722656
+        },
+        {
+          "question": "Question: What color is the truck parked near the airplane?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.05088663101196289
+        },
+        {
+          "question": "Question: How many airplanes are visible in the image?",
+          "answers": [
+            "One",
+            "Two",
+            "Three"
+          ],
+          "score": 0.0025606155395507812
+        },
+        {
+          "question": "what is the background environment where the airplane and truck are located?",
+          "answers": [
+            "tarmac",
+            "runway",
+            "airfield"
+          ],
+          "score": 0.008515357971191406
+        },
+        {
+          "question": "Question: What is the color of the truck parked near the airplane?",
+          "answers": [
+            "blue",
+            "white",
+            "red"
+          ],
+          "score": 0.08038091659545898
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "blue and white planes sit next to each other while assorted trucks are parked around them",
+      "question": "what is the type of airplane parked next to the trucks?",
+      "answer": "Based on the image, the airplane parked next to the trucks is a **Boeing 737**.\n\nHere's how we can tell:\n\n*   **Livery:** The plane has the distinctive blue and yellow livery of",
+      "query_after": "blue and white Boeing 737 planes sit next to each other while assorted trucks are parked around them",
+      "displayed_ids": [
+        4265,
+        44130,
+        36379,
+        12261,
+        45153,
+        26695,
+        3246,
+        5882,
+        34312,
+        20478
+      ],
+      "selected_ids": [
+        45153,
+        38338,
+        18737,
+        16900,
+        14199,
+        40199,
+        15491,
+        18436,
+        13053,
+        11054
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "what type of truck is parked beside the airplane?",
+          "answers": [
+            "truck",
+            "bus",
+            "white and red truck"
+          ],
+          "score": 0.048161983489990234
+        },
+        {
+          "question": "what color is the truck parked beside the airplane?",
+          "answers": [
+            "white",
+            "red",
+            "white and red"
+          ],
+          "score": 0.029341697692871094
+        },
+        {
+          "question": "what is the type of airplane parked next to the trucks?",
+          "answers": [
+            "delta jet",
+            "bus",
+            "truck"
+          ],
+          "score": 0.052555084228515625
+        },
+        {
+          "question": "what is the color of the truck parked beside the airplane?",
+          "answers": [
+            "red",
+            "white",
+            "red and white"
+          ],
+          "score": 0.037624359130859375
+        },
+        {
+          "question": "what is the location where the planes and trucks are parked?",
+          "answers": [
+            "airport",
+            "runway",
+            "terminal"
+          ],
+          "score": 0.012386798858642578
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What type of truck is parked beside the airplane?",
+          "answers": [
+            "truck",
+            "bus",
+            "bus and truck"
+          ],
+          "score": 0.01769399642944336
+        },
+        {
+          "question": "Question: What color is the truck parked beside the airplane?",
+          "answers": [
+            "white",
+            "red",
+            "white and red"
+          ],
+          "score": 0.03607654571533203
+        },
+        {
+          "question": "Question: What is the location of the trucks parked beside the airplane?",
+          "answers": [
+            "an airport",
+            "a runway",
+            "a terminal"
+          ],
+          "score": 0.01260995864868164
+        },
+        {
+          "question": "Question: How many trucks are parked beside the airplane?",
+          "answers": [
+            "one",
+            "two",
+            "three"
+          ],
+          "score": 0.0027756690979003906
+        },
+        {
+          "question": "what is the surface material where the trucks are parked beside the airplane?",
+          "answers": [
+            "asphalt",
+            "tarmac",
+            "concrete"
+          ],
+          "score": 0.013204574584960938
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "blue and white Boeing 737 planes sit next to each other while assorted trucks are parked around them",
+      "question": "what is the color of the trucks parked next to the airplanes?",
+      "answer": "white",
+      "query_after": "blue and white Boeing 737s sit next to each other, with white trucks parked around them",
+      "displayed_ids": [
+        4265,
+        12261,
+        3246,
+        5882,
+        34312,
+        44130,
+        20478,
+        26695,
+        36379,
+        5457
+      ],
+      "selected_ids": [
+        14199,
+        11054,
+        40199,
+        22926,
+        38338,
+        15491,
+        1380,
+        445,
+        13053,
+        21388
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "what is the location of the airplanes?",
+          "answers": [
+            "airport",
+            "runway",
+            "tarmac"
+          ],
+          "score": 0.0034461021423339844
+        },
+        {
+          "question": "what is the color of the trucks parked next to the airplanes?",
+          "answers": [
+            "Blue and white",
+            "Red and white",
+            "Blue and yellow"
+          ],
+          "score": 0.04939079284667969
+        },
+        {
+          "question": "what is the color of the trucks parked next to the airplanes?",
+          "answers": [
+            "Blue and white",
+            "Red and white",
+            "Blue and yellow"
+          ],
+          "score": 0.04939079284667969,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the trucks parked next to the airplanes?",
+          "answers": [
+            "Blue and white",
+            "Red and white",
+            "Blue and yellow"
+          ],
+          "score": 0.04939079284667969,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the trucks parked next to the airplanes?",
+          "answers": [
+            "White",
+            "Blue",
+            "Red"
+          ],
+          "score": 0.04153299331665039
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the truck parked beside the airplane?",
+          "answers": [
+            "Blue",
+            "Red",
+            "White"
+          ],
+          "score": 0.046733856201171875
+        },
+        {
+          "question": "Question: What is the color of the truck parked beside the airplane?",
+          "answers": [
+            "Blue and white",
+            "White and red",
+            "Blue"
+          ],
+          "score": 0.033736228942871094
+        },
+        {
+          "question": "Question: What is the color of the truck parked beside the airplane?",
+          "answers": [
+            "Blue and white",
+            "White and red",
+            "Blue"
+          ],
+          "score": 0.033736228942871094,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the trucks parked around the airplanes?",
+          "answers": [
+            "white and red",
+            "blue",
+            "all white"
+          ],
+          "score": 0.043230533599853516
+        },
+        {
+          "question": "Question: What is the color of the trucks parked around the airplanes?",
+          "answers": [
+            "white and red",
+            "blue",
+            "all white"
+          ],
+          "score": 0.043230533599853516,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "blue and white Boeing 737s sit next to each other, with white trucks parked around them",
+      "question": "what is the other object in the image?",
+      "answer": "airplane",
+      "query_after": "blue and white Boeing 737 airplanes sit next to each other, with white trucks parked around them and another airplane visible in the scene",
+      "displayed_ids": [
+        4265,
+        12261,
+        3246,
+        34312,
+        36379,
+        5457,
+        45153,
+        20478,
+        26695,
+        5882
+      ],
+      "selected_ids": [
+        11054,
+        25803,
+        43556,
+        14532,
+        22926,
+        1966,
+        40199,
+        825,
+        42,
+        42120
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "what is the location of the airplanes and trucks?",
+          "answers": [
+            "airport",
+            "tarmac",
+            "runway"
+          ],
+          "score": 0.007868766784667969
+        },
+        {
+          "question": "what is the location of the airplanes and trucks?",
+          "answers": [
+            "airport",
+            "tarmac",
+            "runway"
+          ],
+          "score": 0.007868766784667969,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the location of the airplanes and trucks?",
+          "answers": [
+            "airport",
+            "airfield",
+            "runway"
+          ],
+          "score": 0.005964756011962891
+        },
+        {
+          "question": "Question: What is the location of the airplanes and trucks?",
+          "answers": [
+            "airport",
+            "airfield",
+            "runway"
+          ],
+          "score": 0.005964756011962891,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Based on the provided information sources, here is the generated question:\n\n**Question:** Is the airport runway where the planes and trucks are located currently in use for?",
+          "answers": [
+            "Yes, active flights",
+            "Yes, ground operations",
+            "No, not in use"
+          ],
+          "score": 0.0031752586364746094
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the location where the planes and trucks are situated?",
+          "answers": [
+            "airport",
+            "tarmac",
+            "runway"
+          ],
+          "score": 0.00733184814453125
+        },
+        {
+          "question": "Question: How many trucks are parked next to the airplanes?",
+          "answers": [
+            "1",
+            "2",
+            "3"
+          ],
+          "score": 0.00054168701171875
+        },
+        {
+          "question": "Question: What is the location where the planes and trucks are situated?",
+          "answers": [
+            "airport",
+            "airfield",
+            "runway"
+          ],
+          "score": 0.005224704742431641
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "truck",
+            "bus",
+            "building"
+          ],
+          "score": 0.029252052307128906
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "truck",
+            "bus",
+            "building"
+          ],
+          "score": 0.029252052307128906,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "blue and white Boeing 737 airplanes sit next to each other, with white trucks parked around them and another airplane visible in the scene",
+      "question": "What is the brand of the trucks sitting next to the airplanes?",
+      "answer": "indigo",
+      "query_after": "blue and white Boeing 737 airplanes sit next to each other, surrounded by white and indigo trucks",
+      "displayed_ids": [
+        4265,
+        3246,
+        12261,
+        34312,
+        36379,
+        26695,
+        5882,
+        45153,
+        44130,
+        5457
+      ],
+      "selected_ids": [
+        43556,
+        40199,
+        31978,
+        6968,
+        15491,
+        13053,
+        42,
+        11054,
+        22926,
+        2686
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "what is the location of the airplanes and trucks?",
+          "answers": [
+            "airport",
+            "runway",
+            "sky"
+          ],
+          "score": 0.005005836486816406
+        },
+        {
+          "question": "what is the location of the airplanes and trucks?",
+          "answers": [
+            "airport",
+            "runway",
+            "sky"
+          ],
+          "score": 0.005005836486816406,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the location of the airplanes and trucks?",
+          "answers": [
+            "airport",
+            "runway",
+            "sky"
+          ],
+          "score": 0.005005836486816406,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the location of the airplanes and trucks?",
+          "answers": [
+            "runway",
+            "airport",
+            "grass"
+          ],
+          "score": 0.01944255828857422
+        },
+        {
+          "question": "what is the specific airport terminal or runway identifier where the airplanes and trucks are parked?",
+          "answers": [
+            "Runway 01",
+            "Gate 42",
+            "Terminal 5"
+          ],
+          "score": 0.003406047821044922
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "airplane",
+            "truck",
+            "bus"
+          ],
+          "score": 0.028298377990722656
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "airplane",
+            "truck",
+            "bus"
+          ],
+          "score": 0.028298377990722656,
+          "duplicate_of": 0
+        },
+        {
+          "question": "What is the brand of the trucks sitting next to the airplanes?",
+          "answers": [
+            "blue and white",
+            "white and red"
+          ],
+          "score": 0.03529024124145508
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "airplane",
+            "truck",
+            "bus"
+          ],
+          "score": 0.028298377990722656,
+          "duplicate_of": 0
+        },
+        {
+          "question": "How many trucks are visible in the image?",
+          "answers": [
+            "1",
+            "2",
+            "3"
+          ],
+          "score": 0.0007357597351074219
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "blue and white Boeing 737 airplanes sit next to each other, surrounded by white and indigo trucks",
+      "question": "what is the other object in the image?",
+      "answer": "airplane",
+      "query_after": "Two blue and white Boeing 737 airplanes are parked next to each other, surrounded by assorted white and indigo trucks.",
+      "displayed_ids": [
+        4265,
+        12261,
+        34312,
+        36379,
+        3246,
+        20478,
+        3955,
+        4835,
+        45153,
+        5457
+      ],
+      "selected_ids": [
+        14710,
+        312,
+        22926,
+        32605,
+        40199,
+        42120,
+        36280,
+        14577,
+        30817,
+        1380
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "what is the location where the airplanes and trucks are situated?",
+          "answers": [
+            "airport",
+            "tarmac",
+            "terminal"
+          ],
+          "score": 0.004726409912109375
+        },
+        {
+          "question": "what is the location where the airplanes and trucks are situated?",
+          "answers": [
+            "airport",
+            "tarmac",
+            "terminal"
+          ],
+          "score": 0.004726409912109375,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the location where the airplanes and trucks are situated?",
+          "answers": [
+            "airport",
+            "tarmac",
+            "terminal"
+          ],
+          "score": 0.004726409912109375,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the location where the airplanes and trucks are situated?",
+          "answers": [
+            "airport",
+            "tarmac",
+            "terminal"
+          ],
+          "score": 0.004726409912109375,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "airplane",
+            "bus",
+            "truck"
+          ],
+          "score": 0.01702880859375
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the location where the airplanes and trucks are parked?",
+          "answers": [
+            "airport",
+            "tarmac",
+            "grass"
+          ],
+          "score": 0.013918876647949219
+        },
+        {
+          "question": "what is the location where the airplanes and trucks are parked?",
+          "answers": [
+            "airport",
+            "tarmac",
+            "grass"
+          ],
+          "score": 0.013918876647949219,
+          "duplicate_of": 0
+        },
+        {
+          "question": "How many trucks are visible in the image?",
+          "answers": [
+            "1",
+            "2",
+            "3"
+          ],
+          "score": 0.0011219978332519531
+        },
+        {
+          "question": "Question: What is the location where the airplanes and trucks are parked?",
+          "answers": [
+            "airport",
+            "runway",
+            "tarmac"
+          ],
+          "score": 0.002917766571044922
+        },
+        {
+          "question": "What is the location where the airplanes and trucks are parked?",
+          "answers": [
+            "airport",
+            "tarmac",
+            "parking lot"
+          ],
+          "score": 0.0038328170776367188
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "Two blue and white Boeing 737 airplanes are parked next to each other, surrounded by assorted white and indigo trucks.",
+      "question": "what is the other object in the image?",
+      "answer": "airplane",
+      "query_after": "blue and white Boeing 737 airplanes sit next to each other, surrounded by white and indigo trucks",
+      "displayed_ids": [
+        4265,
+        34312,
+        3246,
+        12261,
+        36379,
+        20478,
+        5457,
+        44130,
+        4835,
+        45153
+      ],
+      "selected_ids": [
+        40199,
+        42120,
+        22926,
+        44583,
+        1966,
+        36280,
+        36629,
+        35733,
+        1380,
+        21241
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "what is the location where the blue and white airplane is parked?",
+          "answers": [
+            "airport",
+            "runway",
+            "tarmac"
+          ],
+          "score": 0.0032143592834472656
+        },
+        {
+          "question": "what specific type of truck is parked next to the blue and white airplane?",
+          "answers": [
+            "Ford",
+            "Volvo",
+            "Western"
+          ],
+          "score": 0.010686397552490234
+        },
+        {
+          "question": "what is the surface or ground type where the blue and white airplane and the white trucks are parked?",
+          "answers": [
+            "tarmac",
+            "runway",
+            "grass"
+          ],
+          "score": 0.010584354400634766
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "truck",
+            "bus",
+            "airplane"
+          ],
+          "score": 0.029534339904785156
+        },
+        {
+          "question": "what is the surface or ground type where the blue and white airplane and the white trucks are parked?",
+          "answers": [
+            "tarmac",
+            "runway",
+            "grass"
+          ],
+          "score": 0.010584354400634766,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the sky condition in the image?",
+          "answers": [
+            "clear",
+            "cloudy",
+            "sunny"
+          ],
+          "score": 0.012636661529541016
+        },
+        {
+          "question": "Question: What is the sky condition in the image?",
+          "answers": [
+            "clear",
+            "cloudy",
+            "sunny"
+          ],
+          "score": 0.012636661529541016,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the brand of the trucks sitting next to the airplanes?",
+          "answers": [
+            "indigo",
+            "white",
+            "blue"
+          ],
+          "score": 0.005504608154296875
+        },
+        {
+          "question": "Question: What is the brand of the trucks sitting next to the airplanes?",
+          "answers": [
+            "indigo",
+            "white",
+            "blue"
+          ],
+          "score": 0.005504608154296875,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the brand of the truck sitting next to the airplane?",
+          "answers": [
+            "white",
+            "indigo",
+            "blue"
+          ],
+          "score": 0.005158901214599609
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "blue and white Boeing 737 airplanes sit next to each other, surrounded by white and indigo trucks",
+      "question": "what is the specific surface or location where the airplanes are sitting?",
+      "answer": "airplane apron",
+      "query_after": "Two blue and white Boeing 737 airplanes are parked on an apron, surrounded by assorted white and indigo trucks.",
+      "displayed_ids": [
+        4265,
+        12261,
+        34312,
+        36379,
+        3246,
+        20478,
+        3955,
+        4835,
+        45153,
+        5457
+      ],
+      "selected_ids": [
+        40199,
+        14577,
+        45918,
+        18538,
+        1380,
+        22926,
+        42088,
+        31708,
+        36280,
+        19024
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "what is the specific location or surface where the airplanes are sitting?",
+          "answers": [
+            "runway",
+            "asphalt runway",
+            "tarmac"
+          ],
+          "score": 0.006562232971191406
+        },
+        {
+          "question": "what is the surface where the airplanes are sitting?",
+          "answers": [
+            "asphalt runway",
+            "concrete apron",
+            "tarmac"
+          ],
+          "score": 0.00711822509765625
+        },
+        {
+          "question": "what is the surface where the airplanes are sitting?",
+          "answers": [
+            "asphalt runway",
+            "concrete apron",
+            "tarmac"
+          ],
+          "score": 0.00711822509765625,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the surface where the airplanes are sitting?",
+          "answers": [
+            "asphalt runway",
+            "concrete apron",
+            "tarmac"
+          ],
+          "score": 0.00711822509765625,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the specific surface or location where the airplanes are sitting?",
+          "answers": [
+            "asphalt runway",
+            "grass",
+            "gate"
+          ],
+          "score": 0.03125715255737305
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the location where the airplanes and trucks are situated?",
+          "answers": [
+            "airport",
+            "runway",
+            "tarmac"
+          ],
+          "score": 0.004704952239990234
+        },
+        {
+          "question": "what is the surface material of the ground where the airplanes and trucks are situated?",
+          "answers": [
+            "asphalt",
+            "concrete",
+            "grass"
+          ],
+          "score": 0.015983104705810547
+        },
+        {
+          "question": "what is the surface material of the ground where the airplanes and trucks are situated?",
+          "answers": [
+            "asphalt",
+            "concrete",
+            "grass"
+          ],
+          "score": 0.015983104705810547,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the surface material of the ground where the airplanes and trucks are situated?",
+          "answers": [
+            "asphalt",
+            "concrete",
+            "grass"
+          ],
+          "score": 0.015983104705810547,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the surface material of the ground where the airplanes and trucks are situated?",
+          "answers": [
+            "asphalt",
+            "concrete",
+            "grass"
+          ],
+          "score": 0.015983104705810547,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "Two blue and white Boeing 737 airplanes are parked on an apron, surrounded by assorted white and indigo trucks.",
+      "question": "what is the weather condition on the ground where the airplanes are parked?",
+      "answer": "foggy",
+      "query_after": "Two blue and white Boeing 737 airplanes sit on a foggy airplane apron, surrounded by assorted white and indigo trucks.",
+      "displayed_ids": [
+        4265,
+        34312,
+        36379,
+        3246,
+        12261,
+        35981,
+        45153,
+        44130,
+        5457,
+        26695
+      ],
+      "selected_ids": [
+        24958,
+        40199,
+        36280,
+        4229,
+        34312,
+        16900,
+        46980,
+        24795,
+        29121
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what is the weather condition on the ground where the airplanes are parked?",
+          "answers": [
+            "sunny",
+            "cloudy",
+            "snowy"
+          ],
+          "score": 0.04211711883544922
+        },
+        {
+          "question": "what is the weather condition on the ground where the airplanes are parked?",
+          "answers": [
+            "sunny",
+            "cloudy",
+            "snowy"
+          ],
+          "score": 0.04211711883544922,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the weather condition on the ground where the airplanes are parked?",
+          "answers": [
+            "sunny",
+            "cloudy",
+            "snowy"
+          ],
+          "score": 0.04211711883544922,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the weather condition on the ground where the airplanes are parked?",
+          "answers": [
+            "sunny",
+            "cloudy",
+            "snowy"
+          ],
+          "score": 0.04211711883544922,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the weather condition on the ground where the airplanes are parked?",
+          "answers": [
+            "sunny",
+            "cloudy",
+            "snowy"
+          ],
+          "score": 0.04211711883544922,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the weather condition on the ground where the airplanes are parked?",
+          "answers": [
+            "sunny",
+            "cloudy",
+            "snowy"
+          ],
+          "score": 0.04211711883544922
+        },
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "blue",
+            "white",
+            "cloudy"
+          ],
+          "score": 0.017405033111572266
+        },
+        {
+          "question": "what is the weather condition on the ground where the airplanes are parked?",
+          "answers": [
+            "sunny",
+            "cloudy",
+            "snowy"
+          ],
+          "score": 0.04211711883544922,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the weather condition on the ground where the airplanes are parked?",
+          "answers": [
+            "sunny",
+            "cloudy",
+            "snowy"
+          ],
+          "score": 0.04211711883544922,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the weather condition on the ground where the airplanes are parked?",
+          "answers": [
+            "sunny",
+            "cloudy",
+            "snowy"
+          ],
+          "score": 0.04211711883544922,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

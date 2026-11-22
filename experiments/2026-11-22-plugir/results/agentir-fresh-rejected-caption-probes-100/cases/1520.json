@@ -1,0 +1,177 @@
+{
+  "qid": 1520,
+  "initial": "a public building with a security grate over the door and windows",
+  "initial_rank": 33,
+  "displayed": [
+    8664,
+    46398,
+    8611,
+    26574,
+    10498,
+    27951,
+    25152,
+    18333,
+    37715,
+    6000
+  ],
+  "evidence": [
+    "an old brick clock tower with a sky blue sky",
+    "a green garbage can next to a green street light",
+    "street sign on brick wall",
+    "a big, round clock is in a cathedral",
+    "painted white building with sidewalk in front",
+    "large circular clock in the sky",
+    "a large brown building is next to a brick street",
+    "a blue and white clock hanging from an arched ceiling",
+    "large building that has a clock tower and a red brick",
+    "a giraffe standing in front of a barn door"
+  ],
+  "rejected_captions": [
+    "two very large windows",
+    "red bricks on building",
+    "the window is open",
+    "a large building with clocks on it",
+    "a brick building with doors and windows",
+    "a large clock tower is outside a building",
+    "a wall has windows with a clock hanging above it",
+    "the glass wall of a station",
+    "clock on front of the door",
+    "a small brick building with a black door"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the color of the building in the image?",
+      "what is the material of the building in the image?",
+      "Question: what is the color and material of the building in the image?",
+      "what is the type of building in the image?",
+      "what is the color of the security grate on the building?"
+    ],
+    "question": "what is the material of the building in the image?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the building in the image?",
+          "answers": [
+            "red",
+            "white",
+            "brown"
+          ],
+          "score": 0.07724714279174805
+        },
+        {
+          "question": "what is the material of the building in the image?",
+          "answers": [
+            "brick",
+            "white building",
+            "green garbage can"
+          ],
+          "score": 0.1314692497253418
+        },
+        {
+          "question": "Question: what is the color and material of the building in the image?",
+          "answers": [
+            "white",
+            "brick",
+            "glass"
+          ],
+          "score": 0.09758663177490234
+        },
+        {
+          "question": "what is the type of building in the image?",
+          "answers": [
+            "school",
+            "police station",
+            "town hall"
+          ],
+          "score": 0.03265523910522461
+        },
+        {
+          "question": "what is the color of the security grate on the building?",
+          "answers": [
+            "black",
+            "silver",
+            "gray"
+          ],
+          "score": 0.019637584686279297
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.08,
+      "probe_selection_seconds": 2.28,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "brick",
+    "rewrite": "a brick public building with a security grate over the door and windows",
+    "raw_rank": 14,
+    "unseen_rank": 9
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the color of the clock in the public building?",
+      "Question: What is the color of the building in the image?",
+      "Question: What is the color of the security grate on the door?",
+      "Question: What is the color of the security grate?",
+      "Question: What is the color of the clock in the image?"
+    ],
+    "question": "Question: What is the color of the clock in the image?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the color of the clock in the public building?",
+          "answers": [
+            "brown",
+            "black",
+            "silver"
+          ],
+          "score": 0.031963348388671875
+        },
+        {
+          "question": "Question: What is the color of the building in the image?",
+          "answers": [
+            "red",
+            "white",
+            "brown"
+          ],
+          "score": 0.05559492111206055
+        },
+        {
+          "question": "Question: What is the color of the security grate on the door?",
+          "answers": [
+            "black",
+            "silver",
+            "gray"
+          ],
+          "score": 0.02881479263305664
+        },
+        {
+          "question": "Question: What is the color of the security grate?",
+          "answers": [
+            "black",
+            "silver",
+            "gray"
+          ],
+          "score": 0.01698160171508789
+        },
+        {
+          "question": "Question: What is the color of the clock in the image?",
+          "answers": [
+            "blue",
+            "green",
+            "brown"
+          ],
+          "score": 0.06134223937988281
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.068,
+      "probe_selection_seconds": 2.214,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "white",
+    "rewrite": "a public building with a security grate over the door and windows, featuring a white clock",
+    "raw_rank": 9,
+    "unseen_rank": 4
+  }
+}

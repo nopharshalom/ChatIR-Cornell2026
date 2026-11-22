@@ -1,0 +1,673 @@
+{
+  "qid": 573,
+  "sample": "original",
+  "target": "unlabeled2017/000000216234.jpg",
+  "queries": [
+    "a street light at an intersection on a sunny day",
+    "a street light at an intersection on a sunny day with a mountain in the background",
+    "a yellow street light at an intersection with a mountain in the background",
+    "a yellow street light at an intersection with a traffic light hanging next to it and a mountain in the background",
+    "a yellow street light at an intersection on a sunny day with a blue sky, featuring a traffic light hanging next to it and a mountain in the background",
+    "a yellow street light at an intersection on a sunny day with a blue sky, featuring a traffic light hanging next to it, a mountain in the background, and a fire hydrant in the foreground"
+  ],
+  "ranks": [
+    36,
+    12,
+    20,
+    28,
+    14,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a street light at an intersection on a sunny day",
+      "question": "Question: what is the background object behind the street light?",
+      "answer": "mountain",
+      "query_after": "a street light at an intersection on a sunny day with a mountain in the background",
+      "displayed_ids": [
+        9590,
+        26456,
+        12348,
+        12719,
+        10826,
+        12089,
+        39584,
+        44293,
+        49259,
+        22745
+      ],
+      "selected_ids": [
+        13706,
+        13867,
+        14490,
+        16865,
+        46895,
+        33990,
+        9819,
+        11277,
+        29725,
+        8507
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the light on the street light?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.10004472732543945
+        },
+        {
+          "question": "Question: what is the background object behind the street light?",
+          "answers": [
+            "trees",
+            "skyscraper",
+            "building"
+          ],
+          "score": 0.1389021873474121
+        },
+        {
+          "question": "Question: What is the color of the light on the street light?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.07790708541870117
+        },
+        {
+          "question": "what is the color of the light on the street light?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.10004472732543945,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the light on the street light?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.10004472732543945,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the light on the street light?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.0719146728515625
+        },
+        {
+          "question": "Question: What is the color of the man figure on top of the traffic light?",
+          "answers": [
+            "green",
+            "red",
+            "yellow"
+          ],
+          "score": 0.05916452407836914
+        },
+        {
+          "question": "Question: What type of sign is visible in the background near the street light?",
+          "answers": [
+            "stop sign",
+            "parking sign",
+            "street sign"
+          ],
+          "score": 0.03271484375
+        },
+        {
+          "question": "Question: What color is the traffic light in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.06835460662841797
+        },
+        {
+          "question": "Question: What type of building is visible in the background near the street light?",
+          "answers": [
+            "skyscraper",
+            "high building",
+            "building"
+          ],
+          "score": 0.02962779998779297
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a street light at an intersection on a sunny day with a mountain in the background",
+      "question": "what is the color of the street light at the intersection?",
+      "answer": "yellow",
+      "query_after": "a yellow street light at an intersection with a mountain in the background",
+      "displayed_ids": [
+        49750,
+        45731,
+        28983,
+        29780,
+        17143,
+        27985,
+        42595,
+        13367,
+        8653,
+        7916
+      ],
+      "selected_ids": [
+        22839,
+        4803,
+        16528,
+        10016,
+        25951,
+        24579,
+        12719,
+        28786,
+        41488,
+        30548
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what is the color of the traffic light visible at the intersection?",
+          "answers": [
+            "red",
+            "yellow",
+            "green"
+          ],
+          "score": 0.07903003692626953
+        },
+        {
+          "question": "Question: What type of vehicle is present at the intersection with the street light?",
+          "answers": [
+            "car",
+            "bus",
+            "truck"
+          ],
+          "score": 0.03173398971557617
+        },
+        {
+          "question": "what is the color of the street light visible at the intersection on a sunny day?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.06653738021850586
+        },
+        {
+          "question": "what is the color of the street light visible at the intersection on a sunny day?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.06653738021850586,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the street light visible at the intersection on a sunny day?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.06653738021850586,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the street light at the intersection?",
+          "answers": [
+            "green",
+            "yellow",
+            "red"
+          ],
+          "score": 0.08121109008789062
+        },
+        {
+          "question": "what is the color of the traffic light at the intersection?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.07378578186035156
+        },
+        {
+          "question": "Question: What is the color of the street light?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.05479764938354492
+        },
+        {
+          "question": "what is the color of the street light?",
+          "answers": [
+            "red",
+            "yellow",
+            "green"
+          ],
+          "score": 0.07613754272460938
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "car",
+            "building",
+            "traffic light"
+          ],
+          "score": 0.03930044174194336
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a yellow street light at an intersection with a mountain in the background",
+      "question": "what is the object hanging next to the street light at the intersection?",
+      "answer": "traffic light",
+      "query_after": "a yellow street light at an intersection with a traffic light hanging next to it and a mountain in the background",
+      "displayed_ids": [
+        49750,
+        45731,
+        17143,
+        29780,
+        15004,
+        17955,
+        32059,
+        8653,
+        13367,
+        28983
+      ],
+      "selected_ids": [
+        24579,
+        12719,
+        22696,
+        15014,
+        4803,
+        24700,
+        45099,
+        34167,
+        3148,
+        30548
+      ],
+      "rejected_count": 23,
+      "usual_paths": [
+        {
+          "question": "what is the color of the sky in the image of the street light at the intersection?",
+          "answers": [
+            "blue",
+            "clear",
+            "bright"
+          ],
+          "score": 0.014806747436523438
+        },
+        {
+          "question": "what is the color of the sky in the image of the street light at the intersection?",
+          "answers": [
+            "blue",
+            "clear",
+            "bright"
+          ],
+          "score": 0.014806747436523438,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the weather condition in the image of the street light at the intersection?",
+          "answers": [
+            "sunny",
+            "clear",
+            "daytime"
+          ],
+          "score": 0.007083415985107422
+        },
+        {
+          "question": "what is the object hanging next to the street light at the intersection?",
+          "answers": [
+            "two street signs hanging",
+            "a street sign",
+            "nothing"
+          ],
+          "score": 0.02820444107055664
+        },
+        {
+          "question": "what is the object hanging next to the street light at the intersection?",
+          "answers": [
+            "two street signs hanging",
+            "a street sign",
+            "nothing"
+          ],
+          "score": 0.02820444107055664,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "blue",
+            "clear",
+            "bright"
+          ],
+          "score": 0.009348869323730469
+        },
+        {
+          "question": "Question: what is the color of the sky in the image?",
+          "answers": [
+            "blue",
+            "white",
+            "gray"
+          ],
+          "score": 0.025599002838134766
+        },
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "blue",
+            "clear",
+            "bright"
+          ],
+          "score": 0.009348869323730469,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "blue",
+            "clear",
+            "bright"
+          ],
+          "score": 0.009348869323730469,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "blue",
+            "clear",
+            "bright"
+          ],
+          "score": 0.009348869323730469,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a yellow street light at an intersection with a traffic light hanging next to it and a mountain in the background",
+      "question": "what is the color of the sky in the image?",
+      "answer": "blue",
+      "query_after": "a yellow street light at an intersection on a sunny day with a blue sky, featuring a traffic light hanging next to it and a mountain in the background",
+      "displayed_ids": [
+        49750,
+        17143,
+        45731,
+        29780,
+        17955,
+        15004,
+        13367,
+        41494,
+        8653,
+        19994
+      ],
+      "selected_ids": [
+        43250,
+        45623,
+        30548,
+        12903,
+        24700,
+        24588,
+        4803,
+        12719,
+        16528,
+        46895
+      ],
+      "rejected_count": 25,
+      "usual_paths": [
+        {
+          "question": "what is the weather condition when the street light is at the intersection?",
+          "answers": [
+            "sunny",
+            "cloudy",
+            "rainy"
+          ],
+          "score": 0.04071760177612305
+        },
+        {
+          "question": "what is the weather condition depicted in the images containing a street light at an intersection?",
+          "answers": [
+            "sunny",
+            "cloudy",
+            "rainy"
+          ],
+          "score": 0.02654266357421875
+        },
+        {
+          "question": "what is the sky condition in the image containing a street light at an intersection?",
+          "answers": [
+            "sunny",
+            "cloudy",
+            "clear"
+          ],
+          "score": 0.016582965850830078
+        },
+        {
+          "question": "what is the sky condition in the image containing a street light at an intersection?",
+          "answers": [
+            "sunny",
+            "cloudy",
+            "clear"
+          ],
+          "score": 0.016582965850830078,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the sky in the image featuring a street light at an intersection?",
+          "answers": [
+            "blue",
+            "white",
+            "cloudy"
+          ],
+          "score": 0.03509998321533203
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the weather condition on the day the street light is visible?",
+          "answers": [
+            "sunny",
+            "cloudy",
+            "rainy"
+          ],
+          "score": 0.03513050079345703
+        },
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "blue",
+            "white",
+            "cloudy"
+          ],
+          "score": 0.046947479248046875
+        },
+        {
+          "question": "Question: What color is the traffic light hanging next to the street light?",
+          "answers": [
+            "red",
+            "yellow",
+            "green"
+          ],
+          "score": 0.01793527603149414
+        },
+        {
+          "question": "what is the sky condition in the image?",
+          "answers": [
+            "sunny",
+            "cloudy",
+            "clear"
+          ],
+          "score": 0.02593851089477539
+        },
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "blue",
+            "white",
+            "cloudy"
+          ],
+          "score": 0.046947479248046875,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a yellow street light at an intersection on a sunny day with a blue sky, featuring a traffic light hanging next to it and a mountain in the background",
+      "question": "what is the other object in the image?",
+      "answer": "fire hydrant",
+      "query_after": "a yellow street light at an intersection on a sunny day with a blue sky, featuring a traffic light hanging next to it, a mountain in the background, and a fire hydrant in the foreground",
+      "displayed_ids": [
+        49750,
+        17143,
+        45731,
+        28983,
+        8653,
+        41488,
+        12348,
+        6144,
+        19994,
+        29780
+      ],
+      "selected_ids": [
+        45623,
+        47379,
+        41577,
+        34846,
+        12719,
+        10016,
+        16528,
+        9089,
+        30548,
+        9590
+      ],
+      "rejected_count": 27,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "traffic light",
+            "car",
+            "building"
+          ],
+          "score": 0.03950357437133789
+        },
+        {
+          "question": "what is the color of the traffic light hanging next to the street light?",
+          "answers": [
+            "green",
+            "yellow",
+            "red"
+          ],
+          "score": 0.03120565414428711
+        },
+        {
+          "question": "what is the color of the traffic light hanging next to the street light at the intersection?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.027869224548339844
+        },
+        {
+          "question": "what is the color of the street light at the intersection on a sunny day?",
+          "answers": [
+            "yellow",
+            "red",
+            "green"
+          ],
+          "score": 0.0364837646484375
+        },
+        {
+          "question": "what is the color of the street light at the intersection on a sunny day?",
+          "answers": [
+            "yellow",
+            "red",
+            "green"
+          ],
+          "score": 0.0364837646484375,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the type of vehicle visible in the image?",
+          "answers": [
+            "car",
+            "jet",
+            "none"
+          ],
+          "score": 0.01371908187866211
+        },
+        {
+          "question": "Question: What is the color of the traffic light hanging next to the street light?",
+          "answers": [
+            "green",
+            "yellow",
+            "red"
+          ],
+          "score": 0.028335094451904297
+        },
+        {
+          "question": "Question: What is the color of the traffic light hanging next to the street light?",
+          "answers": [
+            "green",
+            "yellow",
+            "red"
+          ],
+          "score": 0.028335094451904297,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: what is the color of the traffic light hanging next to the street light?",
+          "answers": [
+            "red",
+            "yellow",
+            "green"
+          ],
+          "score": 0.028335094451904297
+        },
+        {
+          "question": "Question: What is the color of the traffic light hanging next to the street light?",
+          "answers": [
+            "green",
+            "yellow",
+            "red"
+          ],
+          "score": 0.028335094451904297,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

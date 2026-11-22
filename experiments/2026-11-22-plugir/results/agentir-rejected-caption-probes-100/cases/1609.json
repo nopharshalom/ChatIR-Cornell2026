@@ -1,0 +1,82 @@
+{
+  "qid": 1609,
+  "candidates": [
+    "Question: What color is the man's jacket?",
+    "Question: What color is the motorcycle the man is sitting on?",
+    "Question: What color is the motorcycle the man is sitting on?",
+    "Question: What color is the motorcycle the man is sitting on?",
+    "Question: What color is the man's jacket?"
+  ],
+  "kl": {
+    "question": "Question: What color is the motorcycle the man is sitting on?",
+    "answer": "black",
+    "rewrite": "a man sitting on a black motorcycle in the middle of the street",
+    "raw_rank": 12,
+    "unseen_rank": 9
+  },
+  "probe": {
+    "answer": "green",
+    "rewrite": "a man in a green jacket sitting on a motorcycle in the middle of the street",
+    "raw_rank": 99,
+    "unseen_rank": 91,
+    "question": "Question: What color is the man's jacket?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What color is the man's jacket?",
+        "answers": [
+          "black",
+          "yellow",
+          "blue"
+        ],
+        "score": 0.1399369239807129
+      },
+      {
+        "question": "Question: What color is the motorcycle the man is sitting on?",
+        "answers": [
+          "black",
+          "red",
+          "blue"
+        ],
+        "score": 0.08945035934448242
+      },
+      {
+        "question": "Question: What color is the motorcycle the man is sitting on?",
+        "answers": [
+          "black",
+          "red",
+          "blue"
+        ],
+        "score": 0.08945035934448242,
+        "duplicate_of": 1
+      },
+      {
+        "question": "Question: What color is the motorcycle the man is sitting on?",
+        "answers": [
+          "black",
+          "red",
+          "blue"
+        ],
+        "score": 0.08945035934448242,
+        "duplicate_of": 1
+      },
+      {
+        "question": "Question: What color is the man's jacket?",
+        "answers": [
+          "black",
+          "yellow",
+          "blue"
+        ],
+        "score": 0.1399369239807129,
+        "duplicate_of": 0
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.052,
+    "probe_selection_seconds": 0.881,
+    "probe_llm_calls": 2,
+    "probe_search_queries": 6
+  },
+  "reused_outcome": false
+}

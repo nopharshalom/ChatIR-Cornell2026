@@ -1,0 +1,79 @@
+{
+  "qid": 1201,
+  "sample": 2,
+  "first_candidates": [
+    "Question: Are there any trees in the background of the scene with the two elephants?",
+    "what is the color of the large elephant's trunk?",
+    "Question: How many elephants are present in the scene with the trees in the background?",
+    "Question: What is the color of the smaller elephant in the scene?",
+    "Question: Question: What is the color of the larger elephant in the scene?"
+  ],
+  "second_candidates": [
+    "what is the color of the large elephant standing in the grassy field?",
+    "what is the color of the smaller elephant in the grassy field?",
+    "what is the specific location of the two elephants described as being in a grassy field?",
+    "what is the relative position of the large elephant and the smaller elephant in the grassy field?",
+    "what is the specific location of the two elephants described as being in a grassy field?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the large elephant standing in the grassy field?",
+      "answers": [
+        "Gray",
+        "Black",
+        "Brown"
+      ],
+      "score": 0.02361011505126953
+    },
+    {
+      "question": "what is the color of the smaller elephant in the grassy field?",
+      "answers": [
+        "gray",
+        "brown",
+        "white"
+      ],
+      "score": 0.027254104614257812
+    },
+    {
+      "question": "what is the specific location of the two elephants described as being in a grassy field?",
+      "answers": [
+        "Zoo",
+        "Safari park",
+        "Wildlife reserve"
+      ],
+      "score": 0.03159475326538086
+    },
+    {
+      "question": "what is the relative position of the large elephant and the smaller elephant in the grassy field?",
+      "answers": [
+        "behind",
+        "in front of",
+        "beside"
+      ],
+      "score": 0.0032591819763183594
+    },
+    {
+      "question": "what is the specific location of the two elephants described as being in a grassy field?",
+      "answers": [
+        "Zoo",
+        "Safari park",
+        "Wildlife reserve"
+      ],
+      "score": 0.03159475326538086,
+      "duplicate_of": 2
+    }
+  ],
+  "control": {
+    "question": "what is the specific location of the two elephants described as being in a grassy field?",
+    "score": 0.03159475326538086
+  },
+  "mixed": {
+    "question": "Question: What is the color of the smaller elephant?",
+    "score": 0.035939693450927734
+  },
+  "control_rank": 21,
+  "mixed_rank": 9,
+  "usual_rank": 17,
+  "new_answer": "grassy field",
+  "new_rewrite": "two elephants, one large and one smaller, in a grassy field"
+}

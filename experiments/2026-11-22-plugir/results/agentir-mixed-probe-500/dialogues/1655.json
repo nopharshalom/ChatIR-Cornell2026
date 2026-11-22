@@ -1,0 +1,144 @@
+{
+  "qid": 1655,
+  "sample": "original",
+  "target": "unlabeled2017/000000174699.jpg",
+  "queries": [
+    "2 men are playing a really intense game of ultimate frisbee",
+    "two men playing an intense game of ultimate frisbee in a park"
+  ],
+  "ranks": [
+    36,
+    6
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "2 men are playing a really intense game of ultimate frisbee",
+      "question": "Question: Where are the two men playing the game?",
+      "answer": "park",
+      "query_after": "two men playing an intense game of ultimate frisbee in a park",
+      "displayed_ids": [
+        12392,
+        40467,
+        27791,
+        25248,
+        10711,
+        42870,
+        35776,
+        14617,
+        4807,
+        28031
+      ],
+      "selected_ids": [
+        14214,
+        41229,
+        16781,
+        14725,
+        18738,
+        342,
+        16187,
+        4211,
+        24993,
+        27269
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: What is the location where the two men are playing the game?",
+          "answers": [
+            "park",
+            "field",
+            "beach"
+          ],
+          "score": 0.13167238235473633
+        },
+        {
+          "question": "what are the two men wearing?",
+          "answers": [
+            "shorts",
+            "jeans",
+            "pants"
+          ],
+          "score": 0.0379328727722168
+        },
+        {
+          "question": "Question: Are the two men playing the game in a park or in a field?",
+          "answers": [
+            "park",
+            "field",
+            "both"
+          ],
+          "score": 0.0015978813171386719
+        },
+        {
+          "question": "what is the specific action the two men are performing with the frisbee?",
+          "answers": [
+            "throwing",
+            "catching",
+            "fighting"
+          ],
+          "score": 0.018195152282714844
+        },
+        {
+          "question": "what is the gender of the people playing frisbee in the image showing a man throwing a frisbee at a crowd of people?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.03900909423828125
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What type of clothing is one of the men wearing?",
+          "answers": [
+            "Shorts",
+            "Jeans",
+            "Tracksuit"
+          ],
+          "score": 0.035959720611572266
+        },
+        {
+          "question": "Question: What is the background setting of the game?",
+          "answers": [
+            "a field near some trees",
+            "a park",
+            "a crowd of people"
+          ],
+          "score": 0.11791038513183594
+        },
+        {
+          "question": "Question: Where are the two men playing the game?",
+          "answers": [
+            "a park",
+            "a field",
+            "an ocean"
+          ],
+          "score": 0.14430475234985352
+        },
+        {
+          "question": "Question: What color is the shirt of one of the men playing frisbee?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.08241558074951172
+        },
+        {
+          "question": "Question: What color is the shirt of one of the men playing frisbee?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.08241558074951172,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

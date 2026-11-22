@@ -1,0 +1,78 @@
+{
+  "qid": 552,
+  "sample": 1,
+  "first_candidates": [
+    "What is the lighting condition of the scene where the man is skateboarding?",
+    "Question: Is the scene where the man is skateboarding in black and white or in color?",
+    "Question: What is the surface or type of obstacle the man is jumping over?",
+    "What is the man wearing while performing the skateboard trick?",
+    "What is the man wearing while performing the trick?"
+  ],
+  "second_candidates": [
+    "what is the setting or location where the man is jumping over the obstacle?",
+    "what is the color of the photo showing the man on a skateboard jumping over an obstacle?",
+    "Question: what is the object that the man is jumping over?",
+    "Question: what is the color of the photo showing the man jumping over the obstacle?",
+    "what is the color of the photo showing the man jumping over an obstacle?"
+  ],
+  "paths": [
+    {
+      "question": "what is the setting or location where the man is jumping over the obstacle?",
+      "answers": [
+        "a ramp",
+        "a cement sidewalk",
+        "a park"
+      ],
+      "score": 0.05595731735229492
+    },
+    {
+      "question": "what is the color of the photo showing the man on a skateboard jumping over an obstacle?",
+      "answers": [
+        "black and white",
+        "color",
+        "grayscale"
+      ],
+      "score": 0.022551536560058594
+    },
+    {
+      "question": "Question: what is the object that the man is jumping over?",
+      "answers": [
+        "ramp",
+        "hurdles",
+        "obstacle"
+      ],
+      "score": 0.023580551147460938
+    },
+    {
+      "question": "Question: what is the color of the photo showing the man jumping over the obstacle?",
+      "answers": [
+        "black and white",
+        "color",
+        "brown"
+      ],
+      "score": 0.026743412017822266
+    },
+    {
+      "question": "what is the color of the photo showing the man jumping over an obstacle?",
+      "answers": [
+        "black and white",
+        "color",
+        "brown"
+      ],
+      "score": 0.06158018112182617
+    }
+  ],
+  "control": {
+    "question": "What is the lighting condition of the scene where the man is skateboarding?",
+    "score": 0.10736846923828125
+  },
+  "mixed": {
+    "question": "What is the lighting condition of the scene where the man is skateboarding?",
+    "score": 0.10736846923828125
+  },
+  "control_rank": 5,
+  "mixed_rank": 5,
+  "usual_rank": 5,
+  "new_answer": null,
+  "new_rewrite": null
+}

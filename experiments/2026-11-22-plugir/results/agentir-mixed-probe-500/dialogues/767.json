@@ -1,0 +1,413 @@
+{
+  "qid": 767,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000223323.jpg",
+  "queries": [
+    "a man stands on top of the fire hydrant next to the pole",
+    "a man stands on top of a red fire hydrant next to a pole",
+    "a man stands on top of a red fire hydrant next to a black pole",
+    "a man wearing no shirt stands on top of a red fire hydrant next to a black pole"
+  ],
+  "ranks": [
+    11,
+    17,
+    14,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a man stands on top of the fire hydrant next to the pole",
+      "question": "what is the color of the fire hydrant in the image?",
+      "answer": "red",
+      "query_after": "a man stands on top of a red fire hydrant next to a pole",
+      "displayed_ids": [
+        11001,
+        11397,
+        18385,
+        2179,
+        9819,
+        48706,
+        32262,
+        2662,
+        7658,
+        37815
+      ],
+      "selected_ids": [
+        24039,
+        20143,
+        46381,
+        47857,
+        34047,
+        18750,
+        47174,
+        4331,
+        11232,
+        30558
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the fire hydrant?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.1114349365234375
+        },
+        {
+          "question": "what is the color of the fire hydrant in the image?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.13984966278076172
+        },
+        {
+          "question": "what is the color of the fire hydrant in the image?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.13984966278076172,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the fire hydrant in the image?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.13984966278076172,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the fire hydrant in the image?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.13984966278076172,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the fire hydrant?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.1114349365234375
+        },
+        {
+          "question": "Question: what is the color of the fire hydrant?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.1003427505493164
+        },
+        {
+          "question": "Question: What is the color of the fire hydrant?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.05213451385498047
+        },
+        {
+          "question": "what is the color of the fire hydrant?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.1114349365234375,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the man's clothing?",
+          "answers": [
+            "white",
+            "black",
+            "red"
+          ],
+          "score": 0.06542205810546875
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a man stands on top of a red fire hydrant next to a pole",
+      "question": "What is the color of the pole next to the fire hydrant?",
+      "answer": "black",
+      "query_after": "a man stands on top of a red fire hydrant next to a black pole",
+      "displayed_ids": [
+        11001,
+        2179,
+        32262,
+        3137,
+        11397,
+        49566,
+        35781,
+        19534,
+        6253,
+        20391
+      ],
+      "selected_ids": [
+        35676,
+        4789,
+        873,
+        24284,
+        39557,
+        24244,
+        18750,
+        20143,
+        1128,
+        32262
+      ],
+      "rejected_count": 16,
+      "usual_paths": [
+        {
+          "question": "what is the action of the man standing on top of the fire hydrant?",
+          "answers": [
+            "standing",
+            "crouching",
+            "balanced"
+          ],
+          "score": 0.01512908935546875
+        },
+        {
+          "question": "What is the color of the pole next to the fire hydrant?",
+          "answers": [
+            "black",
+            "blue",
+            "green"
+          ],
+          "score": 0.06602144241333008
+        },
+        {
+          "question": "What is the color of the pole next to the fire hydrant?",
+          "answers": [
+            "black",
+            "blue",
+            "green"
+          ],
+          "score": 0.06602144241333008,
+          "duplicate_of": 1
+        },
+        {
+          "question": "What is the color of the pole next to the fire hydrant?",
+          "answers": [
+            "black",
+            "blue",
+            "green"
+          ],
+          "score": 0.06602144241333008,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the pole next to the fire hydrant?",
+          "answers": [
+            "green",
+            "black",
+            "white"
+          ],
+          "score": 0.06436967849731445
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the color of the pole next to the fire hydrant?",
+          "answers": [
+            "green",
+            "red",
+            "blue"
+          ],
+          "score": 0.06364059448242188
+        },
+        {
+          "question": "What is the color of the pole next to the fire hydrant?",
+          "answers": [
+            "green",
+            "red",
+            "blue"
+          ],
+          "score": 0.06364059448242188,
+          "duplicate_of": 0
+        },
+        {
+          "question": "What is the color of the pole next to the fire hydrant?",
+          "answers": [
+            "green",
+            "red",
+            "blue"
+          ],
+          "score": 0.06364059448242188,
+          "duplicate_of": 0
+        },
+        {
+          "question": "What is the color of the pole next to the fire hydrant?",
+          "answers": [
+            "green",
+            "red",
+            "blue"
+          ],
+          "score": 0.06364059448242188,
+          "duplicate_of": 0
+        },
+        {
+          "question": "What is the color of the pole next to the fire hydrant?",
+          "answers": [
+            "green",
+            "red",
+            "blue"
+          ],
+          "score": 0.06364059448242188,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a man stands on top of a red fire hydrant next to a black pole",
+      "question": "Question: What is the color of the man's shirt in the image?",
+      "answer": "none",
+      "query_after": "a man wearing no shirt stands on top of a red fire hydrant next to a black pole",
+      "displayed_ids": [
+        2179,
+        11001,
+        3137,
+        19534,
+        49566,
+        47438,
+        32262,
+        35781,
+        18385,
+        49949
+      ],
+      "selected_ids": [
+        24244,
+        24284,
+        46381,
+        40684,
+        873,
+        11754,
+        32262,
+        4331,
+        1128,
+        43949
+      ],
+      "rejected_count": 18,
+      "usual_paths": [
+        {
+          "question": "what is the action being performed by the man standing on the fire hydrant?",
+          "answers": [
+            "standing",
+            "sitting",
+            "lying"
+          ],
+          "score": 0.019921302795410156
+        },
+        {
+          "question": "what is the action being performed by the man standing on top of another man?",
+          "answers": [
+            "standing",
+            "skateboarding",
+            "jumping"
+          ],
+          "score": 0.034265995025634766
+        },
+        {
+          "question": "what is the action being performed by the man standing on top of the fire hydrant?",
+          "answers": [
+            "standing",
+            "sitting",
+            "kneeling"
+          ],
+          "score": 0.004899501800537109
+        },
+        {
+          "question": "what is the action being performed by the man standing on top of the fire hydrant?",
+          "answers": [
+            "standing",
+            "sitting",
+            "kneeling"
+          ],
+          "score": 0.004899501800537109,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the man's shirt in the image?",
+          "answers": [
+            "white",
+            "blue",
+            "black"
+          ],
+          "score": 0.041886329650878906
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is the fire hydrant located on the sidewalk or in the water?",
+          "answers": [
+            "on the sidewalk",
+            "in the water",
+            "on the curb"
+          ],
+          "score": 0.013310909271240234
+        },
+        {
+          "question": "what is the color of the man's shirt in the image?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.047471046447753906
+        },
+        {
+          "question": "Question: What is the color of the man's shirt in the image?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.05708885192871094
+        },
+        {
+          "question": "Question: What is the color of the fire hydrant in the image?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.05326986312866211
+        },
+        {
+          "question": "Question: What is the color of the man's shirt in the image?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.05708885192871094,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

@@ -1,0 +1,179 @@
+{
+  "qid": 1178,
+  "initial": "a kitchen with wooden cabinets and metal fridge",
+  "initial_rank": 11,
+  "displayed": [
+    38776,
+    3592,
+    17186,
+    49805,
+    24517,
+    2086,
+    9891,
+    24158,
+    38813,
+    1506
+  ],
+  "evidence": [
+    "a refrigerator with wooden floors",
+    "an open kitchen with wood cabinets, island, stainless steel appliances, and wood floors",
+    "a kitchen with a stove, stovetop, oven, sink and counter tops",
+    "a kitchen with stainless steel cabinets and a glass top stove",
+    "a white refrigerator with a bunch of stickers on it",
+    "a white table with a lot of stools in it",
+    "a kitchen with a white island, wooden cabinets, white counter tops and white appliances",
+    "a stainless steel refrigerator with stainless steel freezers",
+    "a kitchen area with a refrigerator and chairs",
+    "a kitchen with white oven and a white stove"
+  ],
+  "rejected_captions": [
+    "wooden cabinets in kitchen",
+    "a wooden kitchen with a refrigerator, oven and dishwasher",
+    "a kitchen with stainless steel appliances and wooden cabinets",
+    "a kitchen with a stove, refrigerator and a microwave",
+    "the refrigerator is stainless steel",
+    "an open kitchen with wood cabinets, island, stainless steel appliances, and wood floors",
+    "a small black refrigerator and sink in a kitchen",
+    "a kitchen has a sink and oven on it",
+    "a silver refrigerator in a kitchen",
+    "a refrigerator in a kitchen"
+  ],
+  "usual": {
+    "candidates": [
+      "what color is the metal fridge in the kitchen with wooden cabinets?",
+      "what material are the floors in the kitchen with wooden cabinets and a metal fridge?",
+      "what color is the fridge in the kitchen with wooden cabinets and a metal fridge?",
+      "what color are the cabinets in the kitchen with wooden floors and a stainless steel fridge?",
+      "what color are the floors in the kitchen with wooden cabinets and a metal fridge?"
+    ],
+    "question": "what color is the metal fridge in the kitchen with wooden cabinets?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what color is the metal fridge in the kitchen with wooden cabinets?",
+          "answers": [
+            "stainless steel",
+            "silver",
+            "black"
+          ],
+          "score": 0.03943014144897461
+        },
+        {
+          "question": "what material are the floors in the kitchen with wooden cabinets and a metal fridge?",
+          "answers": [
+            "wooden",
+            "tile",
+            "linoleum"
+          ],
+          "score": 0.022961139678955078
+        },
+        {
+          "question": "what color is the fridge in the kitchen with wooden cabinets and a metal fridge?",
+          "answers": [
+            "white",
+            "stainless steel",
+            "wooden"
+          ],
+          "score": 0.03725290298461914
+        },
+        {
+          "question": "what color are the cabinets in the kitchen with wooden floors and a stainless steel fridge?",
+          "answers": [
+            "wooden",
+            "white",
+            "stainless steel"
+          ],
+          "score": 0.024382591247558594
+        },
+        {
+          "question": "what color are the floors in the kitchen with wooden cabinets and a metal fridge?",
+          "answers": [
+            "wooden floors",
+            "no info",
+            "unknown"
+          ],
+          "score": 0.025514602661132812
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.06,
+      "probe_selection_seconds": 2.576,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "silver",
+    "rewrite": "a kitchen with wooden cabinets and a silver metal fridge",
+    "raw_rank": 17,
+    "unseen_rank": 8
+  },
+  "rejected": {
+    "candidates": [
+      "What color are the wooden cabinets in the kitchen?",
+      "Question: What is the color of the refrigerator in the kitchen?",
+      "Question: What color is the refrigerator in the kitchen?",
+      "Question: What is the color of the refrigerator in the kitchen?",
+      "Question: What color is the refrigerator in the kitchen?"
+    ],
+    "question": "Question: What is the color of the refrigerator in the kitchen?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "What color are the wooden cabinets in the kitchen?",
+          "answers": [
+            "white",
+            "brown",
+            "dark"
+          ],
+          "score": 0.0518794059753418
+        },
+        {
+          "question": "Question: What is the color of the refrigerator in the kitchen?",
+          "answers": [
+            "white",
+            "wood",
+            "stainless steel"
+          ],
+          "score": 0.0653681755065918
+        },
+        {
+          "question": "Question: What color is the refrigerator in the kitchen?",
+          "answers": [
+            "wooden",
+            "white",
+            "stainless steel"
+          ],
+          "score": 0.05505561828613281
+        },
+        {
+          "question": "Question: What is the color of the refrigerator in the kitchen?",
+          "answers": [
+            "white",
+            "wood",
+            "stainless steel"
+          ],
+          "score": 0.0653681755065918,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What color is the refrigerator in the kitchen?",
+          "answers": [
+            "wooden",
+            "white",
+            "stainless steel"
+          ],
+          "score": 0.05505561828613281,
+          "duplicate_of": 2
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.073,
+      "probe_selection_seconds": 1.598,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "silver",
+    "rewrite": "a kitchen with wooden cabinets and a silver metal fridge",
+    "raw_rank": 17,
+    "unseen_rank": 8
+  }
+}

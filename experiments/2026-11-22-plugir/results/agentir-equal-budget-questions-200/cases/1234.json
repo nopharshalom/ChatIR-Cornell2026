@@ -1,0 +1,77 @@
+{
+  "qid": 1234,
+  "sample": 2,
+  "first_candidates": [
+    "what color is the surfboard of the man in the black wet suit riding a wave?",
+    "what is the color of the wave the man in the black wet suit is riding?",
+    "what is the location where the man in the black wet suit is surfing?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "second_candidates": [
+    "what color is the surfboard being ridden by the man in the black wet suit?",
+    "what color is the wave being ridden by the man in the black wet suit?",
+    "what is the location where the man in the black wet suit is surfing?",
+    "what is the gender of the person surfing in the wet suit who is not wearing a black wet suit?",
+    "what is the gender of the person surfing in the wet suit who is not wearing a black wet suit?"
+  ],
+  "paths": [
+    {
+      "question": "what color is the surfboard being ridden by the man in the black wet suit?",
+      "answers": [
+        "black",
+        "green",
+        "yellow"
+      ],
+      "score": 0.09045839309692383
+    },
+    {
+      "question": "what color is the wave being ridden by the man in the black wet suit?",
+      "answers": [
+        "black",
+        "blue",
+        "green"
+      ],
+      "score": 0.05510568618774414
+    },
+    {
+      "question": "what is the location where the man in the black wet suit is surfing?",
+      "answers": [
+        "river",
+        "ocean",
+        "lake"
+      ],
+      "score": 0.034440040588378906
+    },
+    {
+      "question": "what is the gender of the person surfing in the wet suit who is not wearing a black wet suit?",
+      "answers": [
+        "male",
+        "female"
+      ],
+      "score": 0.01234579086303711
+    },
+    {
+      "question": "what is the gender of the person surfing in the wet suit who is not wearing a black wet suit?",
+      "answers": [
+        "male",
+        "female"
+      ],
+      "score": 0.01234579086303711,
+      "duplicate_of": 3
+    }
+  ],
+  "control": {
+    "question": "what color is the surfboard of the man in the black wet suit riding a wave?",
+    "score": 0.09580612182617188
+  },
+  "mixed": {
+    "question": "what color is the surfboard of the man in the black wet suit riding a wave?",
+    "score": 0.09580612182617188
+  },
+  "control_rank": 3,
+  "mixed_rank": 3,
+  "usual_rank": 3,
+  "new_answer": null,
+  "new_rewrite": null
+}

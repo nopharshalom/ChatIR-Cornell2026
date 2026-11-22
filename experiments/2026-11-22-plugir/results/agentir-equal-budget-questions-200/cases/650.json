@@ -1,0 +1,78 @@
+{
+  "qid": 650,
+  "sample": 2,
+  "first_candidates": [
+    "what is the color of the photo showing a skateboarder doing tricks?",
+    "what is the gender of the skateboarder performing an aerial trick on flat ground?",
+    "what is the lighting condition of the photo showing a skateboarder performing an aerial trick on flat ground?",
+    "what is the gender of the person performing the trick on the flat ground?",
+    "what is the specific type of aerial trick being performed by the skateboarder on the flat ground?"
+  ],
+  "second_candidates": [
+    "Question: Is the skateboarder wearing a helmet?",
+    "Question: What is the color scheme of the photo featuring the skateboarder?",
+    "what is the gender of the skateboarder performing the aerial trick on flat ground?",
+    "what is the lighting condition or time of day depicted in the image of the skateboarder performing an aerial trick?",
+    "what is the gender of the person skateboarding on the ramp at night?"
+  ],
+  "paths": [
+    {
+      "question": "Question: Is the skateboarder wearing a helmet?",
+      "answers": [
+        "yes",
+        "no",
+        "maybe"
+      ],
+      "score": 0.0006361007690429688
+    },
+    {
+      "question": "Question: What is the color scheme of the photo featuring the skateboarder?",
+      "answers": [
+        "black and white",
+        "color",
+        "night"
+      ],
+      "score": 0.054833412170410156
+    },
+    {
+      "question": "what is the gender of the skateboarder performing the aerial trick on flat ground?",
+      "answers": [
+        "male",
+        "female",
+        "boy"
+      ],
+      "score": 0.03804779052734375
+    },
+    {
+      "question": "what is the lighting condition or time of day depicted in the image of the skateboarder performing an aerial trick?",
+      "answers": [
+        "daylight",
+        "night",
+        "indoor"
+      ],
+      "score": 0.09389734268188477
+    },
+    {
+      "question": "what is the gender of the person skateboarding on the ramp at night?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.015552520751953125
+    }
+  ],
+  "control": {
+    "question": "what is the lighting condition or time of day depicted in the image of the skateboarder performing an aerial trick?",
+    "score": 0.09389734268188477
+  },
+  "mixed": {
+    "question": "Question: What is the lighting condition of the scene?",
+    "score": 0.11229610443115234
+  },
+  "control_rank": 150,
+  "mixed_rank": 233,
+  "usual_rank": 176,
+  "new_answer": "late afternoon",
+  "new_rewrite": "a skateboarder on flat ground performing an aerial trick in the late afternoon"
+}

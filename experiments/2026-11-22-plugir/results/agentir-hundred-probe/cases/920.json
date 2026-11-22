@@ -1,0 +1,102 @@
+{
+  "qid": 920,
+  "initial": "a city street in the middle of the day",
+  "initial_rank": 79,
+  "evidence": [
+    "a black and white photograph of several cars driving on a busy city street",
+    "a city street full of traffic with tall buildings and a huge bus",
+    "a busy street with pedestrians and buses",
+    "a traffic signal with a street sign, lights, and a stop light",
+    "an old picture of the city of new york",
+    "a busy street in new york city at night",
+    "a sign on the side of a street with trees behind",
+    "there are many cars and a lot of people in the picture",
+    "a black traffic light and a tree",
+    "a narrow alley containing several shops, a bakery, and a bike"
+  ],
+  "candidates": [
+    "what is the other object in the image?",
+    "Question: Is there a huge bus visible in the city street?",
+    "Question: Which specific location is the city street depicted in?",
+    "Question: Is there a huge bus visible in the city street?",
+    "Question: Is there a huge bus visible in the city street?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "tall buildings",
+        "a huge bus",
+        "pedestrians"
+      ],
+      "score": 0.25351381301879883
+    },
+    {
+      "question": "Question: Is there a huge bus visible in the city street?",
+      "answers": [
+        "yes",
+        "no",
+        "maybe"
+      ],
+      "score": 0.0009069442749023438
+    },
+    {
+      "question": "Question: Which specific location is the city street depicted in?",
+      "answers": [
+        "New York City",
+        "London",
+        "Tokyo"
+      ],
+      "score": 0.1655135154724121
+    },
+    {
+      "question": "Question: Is there a huge bus visible in the city street?",
+      "answers": [
+        "yes",
+        "no",
+        "maybe"
+      ],
+      "score": 0.0009069442749023438,
+      "duplicate_of": 1
+    },
+    {
+      "question": "Question: Is there a huge bus visible in the city street?",
+      "answers": [
+        "yes",
+        "no",
+        "maybe"
+      ],
+      "score": 0.0009069442749023438,
+      "duplicate_of": 1
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.1,
+  "probe_selection_seconds": 1.571,
+  "probe_llm_calls": 3,
+  "probe_search_queries": 9,
+  "arms": {
+    "kl": {
+      "question": "what is the other object in the image?",
+      "answer": "forklift",
+      "rewrite": "a city street in the middle of the day with a forklift",
+      "rank": 1583,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the other object in the image?",
+      "answer": "forklift",
+      "rewrite": "a city street in the middle of the day with a forklift",
+      "rank": 1583,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the other object in the image?",
+      "answer": "forklift",
+      "rewrite": "a city street in the middle of the day with a forklift",
+      "rank": 1583,
+      "hit": false
+    }
+  },
+  "seconds": 18.649
+}

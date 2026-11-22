@@ -1,0 +1,412 @@
+{
+  "qid": 1691,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000521831.jpg",
+  "queries": [
+    "the food is sitting in the tray at the place",
+    "a tray holding a hot dog sits at a place",
+    "a cheese dog sits in a tray at a place",
+    "a tray holding a cheese dog and a hot dog with a pickle"
+  ],
+  "ranks": [
+    201,
+    174,
+    16,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "the food is sitting in the tray at the place",
+      "question": "Question: What food item is on the tray?",
+      "answer": "Hot dog.",
+      "query_after": "a tray holding a hot dog sits at a place",
+      "displayed_ids": [
+        1714,
+        26194,
+        39652,
+        7972,
+        48058,
+        16511,
+        5674,
+        612,
+        38341,
+        44551
+      ],
+      "selected_ids": [
+        40179,
+        37941,
+        34018,
+        25725,
+        1678,
+        14950,
+        30112,
+        31289,
+        42228,
+        44260
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the type of food sitting in the tray?",
+          "answers": [
+            "pizza",
+            "hamburger",
+            "sandwich"
+          ],
+          "score": 0.1914501190185547
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sandwich",
+            "fruit",
+            "vegetables"
+          ],
+          "score": 0.19410133361816406
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sandwich",
+            "fruit",
+            "vegetables"
+          ],
+          "score": 0.19410133361816406,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sandwich",
+            "fruit",
+            "vegetables"
+          ],
+          "score": 0.19410133361816406,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sandwich",
+            "fruit",
+            "vegetables"
+          ],
+          "score": 0.19410133361816406,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is the tray holding the food green?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0013127326965332031
+        },
+        {
+          "question": "what is the container holding the food made of?",
+          "answers": [
+            "plastic",
+            "metal",
+            "wood"
+          ],
+          "score": 0.1493239402770996
+        },
+        {
+          "question": "Question: What food item is on the tray?",
+          "answers": [
+            "sandwiches",
+            "pizza",
+            "broccoli"
+          ],
+          "score": 0.2325601577758789
+        },
+        {
+          "question": "Question: What color is the tray holding the food?",
+          "answers": [
+            "white",
+            "blue",
+            "black"
+          ],
+          "score": 0.06592798233032227
+        },
+        {
+          "question": "what is the container holding the food made of?",
+          "answers": [
+            "plastic",
+            "metal",
+            "wood"
+          ],
+          "score": 0.1493239402770996,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a tray holding a hot dog sits at a place",
+      "question": "what is the specific type of hot dog served on the tray?",
+      "answer": "cheese dog",
+      "query_after": "a cheese dog sits in a tray at a place",
+      "displayed_ids": [
+        12973,
+        37397,
+        35951,
+        43609,
+        5260,
+        30446,
+        1645,
+        20232,
+        18551,
+        21570
+      ],
+      "selected_ids": [
+        18877,
+        32254,
+        18841,
+        17913,
+        13668,
+        852,
+        10860,
+        34104,
+        16925,
+        9041
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what items are served alongside the hot dog on the tray?",
+          "answers": [
+            "sandwich",
+            "coleslaw",
+            "none"
+          ],
+          "score": 0.06557846069335938
+        },
+        {
+          "question": "what is the specific type of hot dog served on the tray?",
+          "answers": [
+            "on a bun with mustard and onions",
+            "onions, peppers, and tomato",
+            "just the hot dog"
+          ],
+          "score": 0.11069297790527344
+        },
+        {
+          "question": "what is the color of the hot dog bun?",
+          "answers": [
+            "white",
+            "brown",
+            "yellow"
+          ],
+          "score": 0.03984785079956055
+        },
+        {
+          "question": "what is the color of the hot dog bun?",
+          "answers": [
+            "white",
+            "brown",
+            "yellow"
+          ],
+          "score": 0.03984785079956055,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what items are served alongside the hot dog on the tray?",
+          "answers": [
+            "sandwich",
+            "coleslaw",
+            "none"
+          ],
+          "score": 0.06557846069335938,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the container holding the hot dog made of?",
+          "answers": [
+            "paper cup",
+            "paper basket",
+            "wooden table"
+          ],
+          "score": 0.08361005783081055
+        },
+        {
+          "question": "Question: What condiments are on the hot dog?",
+          "answers": [
+            "None",
+            "Mustard",
+            "Ketchup"
+          ],
+          "score": 0.024235248565673828
+        },
+        {
+          "question": "Question: What is the food item on the tray besides the hot dog?",
+          "answers": [
+            "hamburgers",
+            "salads",
+            "scone"
+          ],
+          "score": 0.0665593147277832
+        },
+        {
+          "question": "Question: What color is the tray holding the hot dog?",
+          "answers": [
+            "white",
+            "blue",
+            "silver"
+          ],
+          "score": 0.0519566535949707
+        },
+        {
+          "question": "what material is the tray holding the hot dog made of?",
+          "answers": [
+            "wooden",
+            "metal",
+            "plastic"
+          ],
+          "score": 0.10647392272949219
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "a cheese dog sits in a tray at a place",
+      "question": "what is the other object in the image?",
+      "answer": "the other object is a hot dog with a pickle on it.",
+      "query_after": "a tray holding a cheese dog and a hot dog with a pickle",
+      "displayed_ids": [
+        20232,
+        38711,
+        16290,
+        2830,
+        39652,
+        30026,
+        8480,
+        21570,
+        7683,
+        19889
+      ],
+      "selected_ids": [
+        12011,
+        6508,
+        41446,
+        25446,
+        852,
+        36430,
+        5674,
+        47295,
+        35410,
+        37667
+      ],
+      "rejected_count": 27,
+      "usual_paths": [
+        {
+          "question": "what is the material of the tray holding the cheese dog?",
+          "answers": [
+            "metal",
+            "plastic",
+            "wood"
+          ],
+          "score": 0.062349796295166016
+        },
+        {
+          "question": "what is the material of the tray holding the cheese dog?",
+          "answers": [
+            "metal",
+            "plastic",
+            "wood"
+          ],
+          "score": 0.062349796295166016,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "suitcase",
+            "pan",
+            "paper cups"
+          ],
+          "score": 0.10365676879882812
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "suitcase",
+            "pan",
+            "paper cups"
+          ],
+          "score": 0.10365676879882812,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "suitcase",
+            "pan",
+            "paper cups"
+          ],
+          "score": 0.10365676879882812,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the material of the container holding the cheese dog?",
+          "answers": [
+            "paper",
+            "metal",
+            "wood"
+          ],
+          "score": 0.06677865982055664
+        },
+        {
+          "question": "what is the color of the tray holding the cheese dog?",
+          "answers": [
+            "black",
+            "silver",
+            "blue"
+          ],
+          "score": 0.04216146469116211
+        },
+        {
+          "question": "what is the color of the tray holding the cheese dog?",
+          "answers": [
+            "black",
+            "silver",
+            "blue"
+          ],
+          "score": 0.04216146469116211,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the container holding the cheese dog made of?",
+          "answers": [
+            "metal",
+            "paper",
+            "plastic"
+          ],
+          "score": 0.05756187438964844
+        },
+        {
+          "question": "what is the color of the tray holding the cheese dog?",
+          "answers": [
+            "black",
+            "silver",
+            "blue"
+          ],
+          "score": 0.04216146469116211,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

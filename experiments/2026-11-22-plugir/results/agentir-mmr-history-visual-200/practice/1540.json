@@ -1,0 +1,108 @@
+{
+  "chosen": "Question: How many zebras are visible in the herd shown in the photo?",
+  "default": "Question: What are the zebras eating in the field?",
+  "ids": [
+    11413,
+    13736,
+    35556,
+    42075
+  ],
+  "trials": {
+    "Question: What are the zebras eating in the field?": {
+      "answers": [
+        "grass",
+        "grass",
+        "grass",
+        "grass"
+      ],
+      "rewrites": {
+        "grass": "a herd of zebras eating grass in a large open field"
+      },
+      "ranks": [
+        5,
+        18,
+        51,
+        59
+      ],
+      "hits": 1
+    },
+    "Question: Is the photo in color or black and white?": {
+      "answers": [
+        "color",
+        "color",
+        "color",
+        "Color."
+      ],
+      "rewrites": {
+        "color": "a herd of zebras eating in a large open field, in color",
+        "Color.": "a herd of zebras eating in a large open field, in color"
+      },
+      "ranks": [
+        11,
+        22,
+        32,
+        26
+      ],
+      "hits": 0
+    },
+    "Question: How many zebras are visible in the herd shown in the photo?": {
+      "answers": [
+        "5",
+        "20",
+        "4",
+        "2"
+      ],
+      "rewrites": {
+        "5": "a herd of five zebras eating in a large open field",
+        "20": "a herd of 20 zebras eating in a large open field",
+        "4": "a herd of four zebras eating in a large open field",
+        "2": "a small herd of two zebras eating in a large open field"
+      },
+      "ranks": [
+        5,
+        7,
+        22,
+        182
+      ],
+      "hits": 2
+    },
+    "Question: What is the specific color of the zebras in the photo?": {
+      "answers": [
+        "black and white",
+        "black and white",
+        "black and white",
+        "black and white"
+      ],
+      "rewrites": {
+        "black and white": "a herd of black and white zebras eating in a large open field"
+      },
+      "ranks": [
+        17,
+        14,
+        26,
+        35
+      ],
+      "hits": 0
+    },
+    "Question: Question: What is the lighting condition or time of day depicted in the photo of the zebras?": {
+      "answers": [
+        "The lighting condition is bright, suggesting it is daytime.",
+        "Daytime.",
+        "Daytime.",
+        "The lighting condition is bright daylight, likely midday or early afternoon, given the strong, direct sunlight and clear shadows."
+      ],
+      "rewrites": {
+        "The lighting condition is bright, suggesting it is daytime.": "a herd of zebras eating in a large open field under bright daytime lighting",
+        "Daytime.": "a herd of zebras eating in a large open field during the daytime",
+        "The lighting condition is bright daylight, likely midday or early afternoon, given the strong, direct sunlight and clear shadows.": "a herd of zebras eating in a large open field under bright daylight with strong, direct sunlight and clear shadows"
+      },
+      "ranks": [
+        8,
+        15,
+        36,
+        111
+      ],
+      "hits": 1
+    }
+  }
+}

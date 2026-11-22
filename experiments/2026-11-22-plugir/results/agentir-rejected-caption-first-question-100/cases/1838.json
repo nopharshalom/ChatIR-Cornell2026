@@ -1,0 +1,71 @@
+{
+  "qid": 1838,
+  "initial": "a small bathroom with a toilet in a corner",
+  "initial_rank": 579,
+  "evidence": [
+    "a toilet in a stall with grab bars",
+    "a wooden toilet is on a wooden floor in a bathroom with black walls",
+    "a bathroom with a window, sink, toilet, and mirror",
+    "a bathroom with tile floors, and a glass shower door",
+    "a toilet in a stall with a trash in the back",
+    "a white urinal with a puddle in the bottom",
+    "a bathroom with two sinks and a shower curtain",
+    "a bathroom with a pink wall, sink, mirror and cabinet",
+    "a toilet in a wooden hut with a bucket in the corner",
+    "a toilet in an old dingy area with some trash on the floor"
+  ],
+  "displayed_ids": [
+    12163,
+    16362,
+    48682,
+    649,
+    24543,
+    16819,
+    47335,
+    33860,
+    41287,
+    25615
+  ],
+  "rejected_captions": [
+    "the floor of the toilet is white",
+    "a small white bathroom with a white toilet",
+    "a very small bathroom with a toilet and wastebasket",
+    "a white toilet with blue seat",
+    "a toilet in a white room with a window on the side",
+    "a toilet in a stall with a trash in the back",
+    "a toilet in a bathroom with a roll of toilet paper",
+    "a bathroom with a toilet and window",
+    "a bathroom with a toilet in it",
+    "small white door on the wall"
+  ],
+  "candidates": [
+    "Question: What is the color of the walls in the bathroom?",
+    "Question: What is the material of the floor in the bathroom?",
+    "Question: What is the color of the toilet in the bathroom?",
+    "Question: What is the material of the walls in the bathroom?",
+    "Question: What is the color of the walls in the bathroom?"
+  ],
+  "control_candidates": [
+    "what is the color of the walls in the bathroom where the toilet is located?",
+    "what is the material of the toilet in the bathroom?",
+    "Question: Is there trash on the floor in the bathroom with the toilet?",
+    "Question: Is there a window in the bathroom with the toilet?",
+    "Question: What is the location of the bathroom containing the small toilet in the corner?"
+  ],
+  "control": {
+    "question": "what is the material of the toilet in the bathroom?",
+    "answer": "plastic",
+    "rewrite": "a small bathroom with a plastic toilet in a corner",
+    "rank": 651,
+    "hit": false,
+    "raw_rank": 651,
+    "unseen_rank": 641
+  },
+  "variant": {
+    "question": "Question: What is the material of the walls in the bathroom?",
+    "answer": "plastic",
+    "rewrite": "a small bathroom with plastic walls and a toilet in a corner",
+    "raw_rank": 325,
+    "unseen_rank": 315
+  }
+}

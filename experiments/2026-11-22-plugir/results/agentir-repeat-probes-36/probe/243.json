@@ -1,0 +1,94 @@
+{
+  "qid": 243,
+  "arm": "probe",
+  "after_round": 4,
+  "ranks": [
+    25,
+    25,
+    18,
+    16,
+    14,
+    20,
+    109,
+    99,
+    96,
+    74,
+    124
+  ],
+  "continuation": [
+    {
+      "round": 5,
+      "query_before": "a gray parking reader displaying \"expired\" on a city street, with white cars parked nearby",
+      "question": "Is the sign next to a tree or in front of a building?",
+      "answer": "in front of a building",
+      "query_after": "a gray parking reader displaying \"expired\" stands in front of a building on a city street, with white cars nearby",
+      "searches": [
+        {
+          "query": "A gray parking sign reading \"expired\" on a city street with white cars, possibly featuring a tree or a building in the background.",
+          "ids": [
+            38320,
+            22090,
+            38158
+          ],
+          "captions": [
+            "a street sign is in a fenced area",
+            "a round building and its signs",
+            "a street signs with cars driving by"
+          ]
+        },
+        {
+          "query": "A gray parking sign reading \"expired\" on a city street with white cars, possibly featuring a traffic light or a statue in the background.",
+          "ids": [
+            38320,
+            49927,
+            38158
+          ],
+          "captions": [
+            "a street sign is in a fenced area",
+            "an exit sign with a graffiti",
+            "a street signs with cars driving by"
+          ]
+        }
+      ],
+      "raw_plan": "A gray parking sign reading \"expired\" on a city street with white cars, possibly featuring a tree or a building in the background.\nA gray parking sign reading \"expired\" on a city street with white cars, possibly featuring a traffic light or a statue in the background.",
+      "generated": "Is the sign next to a tree or in front of a building?",
+      "fallback": false
+    },
+    {
+      "round": 6,
+      "query_before": "a gray parking reader displaying \"expired\" stands in front of a building on a city street, with white cars nearby",
+      "question": "what is the other object in the image?",
+      "answer": "cars",
+      "query_after": "a gray \"expired\" parking sign stands in front of a building on a city street, surrounded by white cars"
+    },
+    {
+      "round": 7,
+      "query_before": "a gray \"expired\" parking sign stands in front of a building on a city street, surrounded by white cars",
+      "question": "What is the text written on the parking sign?",
+      "answer": "expired",
+      "query_after": "A gray \"expired\" parking sign stands before a building on a city street, flanked by white cars."
+    },
+    {
+      "round": 8,
+      "query_before": "A gray \"expired\" parking sign stands before a building on a city street, flanked by white cars.",
+      "question": "what is the location of the parking meter in the image?",
+      "answer": "on the sidewalk.",
+      "query_after": "a gray \"expired\" parking sign stands on the sidewalk in front of a building, surrounded by white cars on a city street"
+    },
+    {
+      "round": 9,
+      "query_before": "a gray \"expired\" parking sign stands on the sidewalk in front of a building, surrounded by white cars on a city street",
+      "question": "What type of building is located behind the parking sign?",
+      "answer": "factory",
+      "query_after": "a gray \"expired\" parking sign stands on the sidewalk in front of a factory, surrounded by white cars on a city street"
+    },
+    {
+      "round": 10,
+      "query_before": "a gray \"expired\" parking sign stands on the sidewalk in front of a factory, surrounded by white cars on a city street",
+      "question": "what is the color of the building located behind the parking sign?",
+      "answer": "white",
+      "query_after": "a gray \"expired\" parking sign stands on the sidewalk in front of a white factory building, with white cars parked nearby"
+    }
+  ],
+  "seconds": 74.3
+}

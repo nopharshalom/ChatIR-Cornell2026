@@ -1,0 +1,78 @@
+{
+  "qid": 1461,
+  "sample": 1,
+  "first_candidates": [
+    "Question: What color is the tennis player's dress?",
+    "Question: What color is the tennis player's dress?",
+    "what is the gender of the tennis player wearing a red and white skirt?",
+    "what color is the shirt worn by the tennis player?",
+    "Question: What color is the tennis player extending her racket to hit the ball?"
+  ],
+  "second_candidates": [
+    "what color is the skirt worn by the female tennis player extending her racket to hit the ball?",
+    "what color is the shirt worn by the female tennis player extending her racket to hit the ball?",
+    "what color is the racket held by the female tennis player extending her racket to hit the ball?",
+    "what is the gender of the tennis player wearing a white tennis dress?",
+    "what is the color of the shirt worn by the tennis player extending her racket to hit the ball?"
+  ],
+  "paths": [
+    {
+      "question": "what color is the skirt worn by the female tennis player extending her racket to hit the ball?",
+      "answers": [
+        "white",
+        "red and white",
+        "blue"
+      ],
+      "score": 0.04181623458862305
+    },
+    {
+      "question": "what color is the shirt worn by the female tennis player extending her racket to hit the ball?",
+      "answers": [
+        "green",
+        "orange",
+        "red"
+      ],
+      "score": 0.039642333984375
+    },
+    {
+      "question": "what color is the racket held by the female tennis player extending her racket to hit the ball?",
+      "answers": [
+        "black",
+        "blue",
+        "white"
+      ],
+      "score": 0.025966167449951172
+    },
+    {
+      "question": "what is the gender of the tennis player wearing a white tennis dress?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.01376485824584961
+    },
+    {
+      "question": "what is the color of the shirt worn by the tennis player extending her racket to hit the ball?",
+      "answers": [
+        "green",
+        "white",
+        "red"
+      ],
+      "score": 0.0345001220703125
+    }
+  ],
+  "control": {
+    "question": "what color is the shirt worn by the tennis player?",
+    "score": 0.2127094268798828
+  },
+  "mixed": {
+    "question": "what color is the shirt worn by the tennis player?",
+    "score": 0.2127094268798828
+  },
+  "control_rank": 12,
+  "mixed_rank": 12,
+  "usual_rank": 12,
+  "new_answer": null,
+  "new_rewrite": null
+}

@@ -1,0 +1,80 @@
+{
+  "qid": 1489,
+  "candidates": [
+    "what color are the numerals on the clock tower?",
+    "Question: What is the background of the blue clock sitting on the ledge?",
+    "Question: What is the background of the blue clock sitting on the ledge?",
+    "Question: What color is the clock tower?",
+    "what is the other object in the image?"
+  ],
+  "kl": {
+    "question": "what is the other object in the image?",
+    "answer": "a desk",
+    "rewrite": "a blue clock sits on a ledge next to a desk",
+    "raw_rank": 4,
+    "unseen_rank": 3
+  },
+  "probe": {
+    "question": "what is the other object in the image?",
+    "answer": "a desk",
+    "rewrite": "a blue clock sits on a ledge next to a desk",
+    "raw_rank": 4,
+    "unseen_rank": 3
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "what color are the numerals on the clock tower?",
+        "answers": [
+          "black",
+          "white",
+          "blue"
+        ],
+        "score": 0.023927688598632812
+      },
+      {
+        "question": "Question: What is the background of the blue clock sitting on the ledge?",
+        "answers": [
+          "sky",
+          "building",
+          "ledge"
+        ],
+        "score": 0.03342437744140625
+      },
+      {
+        "question": "Question: What is the background of the blue clock sitting on the ledge?",
+        "answers": [
+          "sky",
+          "building",
+          "ledge"
+        ],
+        "score": 0.03342437744140625,
+        "duplicate_of": 1
+      },
+      {
+        "question": "Question: What color is the clock tower?",
+        "answers": [
+          "blue",
+          "black",
+          "red"
+        ],
+        "score": 0.05492401123046875
+      },
+      {
+        "question": "what is the other object in the image?",
+        "answers": [
+          "clock tower",
+          "blue suitcase",
+          "blue plane"
+        ],
+        "score": 0.1151270866394043
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.059,
+    "probe_selection_seconds": 1.794,
+    "probe_llm_calls": 4,
+    "probe_search_queries": 12
+  },
+  "reused_outcome": true
+}

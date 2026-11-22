@@ -1,0 +1,1197 @@
+{
+  "qid": 161,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000394073.jpg",
+  "queries": [
+    "a train at the stations with a cloudy sky overhead",
+    "a green and yellow train at the station with a cloudy sky overhead",
+    "a green and yellow train at a station under a cloudy sky, with no people visible",
+    "a green and yellow train at a station with a cloudy sky overhead, with no people waiting and no other objects on the tracks besides the train",
+    "a green and yellow train at a station with a white sky overhead, with no people waiting and another train located on the tracks next to the platform",
+    "a green and yellow train is at the station with a white sky overhead, with no people waiting and another train located on the tracks next to the platform",
+    "a green and yellow train is located on the tracks next to a platform under a white sky, with no people waiting and another train parked next to a building",
+    "a green and yellow train is at the station with a white sky overhead, with another train parked next to the building on the tracks, and no people are visible waiting at the platform",
+    "a green and yellow train is at the station with a white sky overhead, with no people waiting and another train parked next to the building",
+    "a green and yellow train is at the station with a white cloudy sky overhead, with no people waiting and another train parked next to the building"
+  ],
+  "ranks": [
+    62,
+    15,
+    14,
+    15,
+    20,
+    19,
+    21,
+    15,
+    11,
+    8
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a train at the stations with a cloudy sky overhead",
+      "question": "What is the color of the train?",
+      "answer": "green and yellow",
+      "query_after": "a green and yellow train at the station with a cloudy sky overhead",
+      "displayed_ids": [
+        17511,
+        587,
+        38084,
+        17197,
+        877,
+        49756,
+        8483,
+        20129,
+        41001,
+        6175
+      ],
+      "selected_ids": [
+        48224,
+        28870,
+        15630,
+        49023,
+        8902,
+        15583,
+        27965,
+        38409,
+        22994,
+        13858
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the train at the station with a cloudy sky?",
+          "answers": [
+            "blue and yellow",
+            "red",
+            "yellow, blue and black"
+          ],
+          "score": 0.1555185317993164
+        },
+        {
+          "question": "what is the color of the train that is standing in the station?",
+          "answers": [
+            "blue and yellow",
+            "red and white",
+            "blue and black"
+          ],
+          "score": 0.1860361099243164
+        },
+        {
+          "question": "what is the color of the train that is coming into the station?",
+          "answers": [
+            "yellow",
+            "blue",
+            "black"
+          ],
+          "score": 0.1219182014465332
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "cloudy sky",
+            "station",
+            "tracks"
+          ],
+          "score": 0.013706207275390625
+        },
+        {
+          "question": "what is the color of the train that is going down the tracks near some trees?",
+          "answers": [
+            "red",
+            "white",
+            "red and white"
+          ],
+          "score": 0.0668339729309082
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the train?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.20551395416259766
+        },
+        {
+          "question": "What is the color of the train?",
+          "answers": [
+            "red",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.25278615951538086
+        },
+        {
+          "question": "Question: What is the exact color of the train?",
+          "answers": [
+            "yellow and blue",
+            "red and white",
+            "blue and yellow"
+          ],
+          "score": 0.1816692352294922
+        },
+        {
+          "question": "Question: What is the color of the train?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.20551395416259766,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the activity of the train (e.g., moving, stopped, pulling up)?",
+          "answers": [
+            "stopped",
+            "moving",
+            "pulling up"
+          ],
+          "score": 0.004635810852050781
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a green and yellow train at the station with a cloudy sky overhead",
+      "question": "what is the color of the people waiting at the train station?",
+      "answer": "I'm sorry, but the image does not show any people waiting at the train station.",
+      "query_after": "a green and yellow train at a station under a cloudy sky, with no people visible",
+      "displayed_ids": [
+        15583,
+        40162,
+        827,
+        48183,
+        23993,
+        41001,
+        30118,
+        22902,
+        41846,
+        7116
+      ],
+      "selected_ids": [
+        12865,
+        29347,
+        322,
+        1088,
+        29749,
+        18618,
+        13285,
+        45649,
+        16758,
+        8337
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "clouds",
+            "station",
+            "sky"
+          ],
+          "score": 0.003399372100830078
+        },
+        {
+          "question": "what are the colors of the people waiting at the train station?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.0327763557434082
+        },
+        {
+          "question": "what are the colors of the people waiting at the train station?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.0327763557434082,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the sky condition above the train at the station?",
+          "answers": [
+            "cloudy",
+            "sunny",
+            "rainy"
+          ],
+          "score": 0.018237590789794922
+        },
+        {
+          "question": "what is the color of the people waiting at the train station?",
+          "answers": [
+            "wearing green shirts",
+            "wearing red shirts",
+            "wearing blue shirts"
+          ],
+          "score": 0.036470890045166016
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the clouds in the sky above the train?",
+          "answers": [
+            "white",
+            "gray",
+            "dark"
+          ],
+          "score": 0.03323507308959961
+        },
+        {
+          "question": "what is the color of the sky above the train?",
+          "answers": [
+            "cloudy",
+            "sunny",
+            "rainy"
+          ],
+          "score": 0.015063762664794922
+        },
+        {
+          "question": "what is the color of the clouds in the sky above the train?",
+          "answers": [
+            "white",
+            "blue",
+            "gray"
+          ],
+          "score": 0.022197723388671875
+        },
+        {
+          "question": "what is the color of the sky above the train?",
+          "answers": [
+            "cloudy",
+            "sunny",
+            "rainy"
+          ],
+          "score": 0.015063762664794922,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the sky above the train?",
+          "answers": [
+            "cloudy",
+            "sunny",
+            "rainy"
+          ],
+          "score": 0.015063762664794922,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "a green and yellow train at a station under a cloudy sky, with no people visible",
+      "question": "what is the object located on the tracks next to the platform?",
+      "answer": "train",
+      "query_after": "a green and yellow train at a station with a cloudy sky overhead, with no people waiting and no other objects on the tracks besides the train",
+      "displayed_ids": [
+        15583,
+        827,
+        40162,
+        48183,
+        30118,
+        23993,
+        22902,
+        6207,
+        36447,
+        7116
+      ],
+      "selected_ids": [
+        15583,
+        4441,
+        16758,
+        22994,
+        15630,
+        18618,
+        48224,
+        8337,
+        21723,
+        322
+      ],
+      "rejected_count": 21,
+      "usual_paths": [
+        {
+          "question": "what is the object located on the tracks next to the platform?",
+          "answers": [
+            "train",
+            "bus",
+            "airplane"
+          ],
+          "score": 0.034479618072509766
+        },
+        {
+          "question": "what is the type of vehicle located on the tracks next to the platform?",
+          "answers": [
+            "train",
+            "bus",
+            "airplane"
+          ],
+          "score": 0.03060150146484375
+        },
+        {
+          "question": "what is the color of the sky above the train?",
+          "answers": [
+            "cloudy",
+            "clear",
+            "blue"
+          ],
+          "score": 0.027332305908203125
+        },
+        {
+          "question": "what is the color of the sky above the train?",
+          "answers": [
+            "cloudy",
+            "clear",
+            "blue"
+          ],
+          "score": 0.027332305908203125,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the weather condition in the image where the train is located?",
+          "answers": [
+            "cloudy",
+            "sunny",
+            "rainy"
+          ],
+          "score": 0.01788330078125
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is the train moving or stopped?",
+          "answers": [
+            "moving",
+            "stopped",
+            "unknown"
+          ],
+          "score": 0.0010118484497070312
+        },
+        {
+          "question": "Question: What is the state of the train (moving or stopped)?",
+          "answers": [
+            "moving",
+            "stopped",
+            "unknown"
+          ],
+          "score": 0.0040340423583984375
+        },
+        {
+          "question": "Question: What is the state of the train (moving or stopped)?",
+          "answers": [
+            "moving",
+            "stopped",
+            "unknown"
+          ],
+          "score": 0.0040340423583984375,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the train?",
+          "answers": [
+            "green and yellow",
+            "blue and yellow",
+            "white and green"
+          ],
+          "score": 0.024435997009277344
+        },
+        {
+          "question": "Question: What is the position of the train relative to the station platform?",
+          "answers": [
+            "arrived",
+            "departed",
+            "stopped"
+          ],
+          "score": 0.0018038749694824219
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a green and yellow train at a station with a cloudy sky overhead, with no people waiting and no other objects on the tracks besides the train",
+      "question": "what is the color of the sky in the image?",
+      "answer": "white",
+      "query_after": "a green and yellow train at a station with a white sky overhead, with no people waiting and another train located on the tracks next to the platform",
+      "displayed_ids": [
+        40162,
+        15583,
+        827,
+        48183,
+        23993,
+        30118,
+        41001,
+        2272,
+        20377,
+        36447
+      ],
+      "selected_ids": [
+        47148,
+        45303,
+        23276,
+        43955,
+        38137,
+        48224,
+        21945,
+        22994,
+        44992,
+        29814
+      ],
+      "rejected_count": 23,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "cloudy sky",
+            "platform",
+            "tracks"
+          ],
+          "score": 0.011435985565185547
+        },
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "cloudy",
+            "blue",
+            "grey"
+          ],
+          "score": 0.02342510223388672
+        },
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "cloudy",
+            "blue",
+            "grey"
+          ],
+          "score": 0.02342510223388672,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "cloudy",
+            "blue",
+            "grey"
+          ],
+          "score": 0.02342510223388672,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "cloudy",
+            "blue",
+            "grey"
+          ],
+          "score": 0.02342510223388672,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "cloudy sky",
+            "platform",
+            "tracks"
+          ],
+          "score": 0.011435985565185547
+        },
+        {
+          "question": "what is the color of the train's wheels?",
+          "answers": [
+            "black",
+            "gray",
+            "silver"
+          ],
+          "score": 0.014010906219482422
+        },
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "cloudy",
+            "sunny",
+            "rainy"
+          ],
+          "score": 0.027283191680908203
+        },
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "cloudy",
+            "sunny",
+            "rainy"
+          ],
+          "score": 0.027283191680908203,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "cloudy",
+            "sunny",
+            "rainy"
+          ],
+          "score": 0.027283191680908203,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a green and yellow train at a station with a white sky overhead, with no people waiting and another train located on the tracks next to the platform",
+      "question": "what is the color of the sky in the image?",
+      "answer": "white",
+      "query_after": "a green and yellow train is at the station with a white sky overhead, with no people waiting and another train located on the tracks next to the platform",
+      "displayed_ids": [
+        48183,
+        23993,
+        7116,
+        15583,
+        30118,
+        2960,
+        41846,
+        827,
+        40162,
+        6207
+      ],
+      "selected_ids": [
+        45649,
+        8776,
+        17481,
+        29814,
+        48224,
+        44992,
+        43275,
+        15904,
+        23714,
+        14658
+      ],
+      "rejected_count": 24,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sky",
+            "clouds"
+          ],
+          "score": 0.012447357177734375
+        },
+        {
+          "question": "What is the name of the train station shown in the image?",
+          "answers": [
+            "Platform 1",
+            "Central Station",
+            "Unknown"
+          ],
+          "score": 0.004055023193359375
+        },
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "white",
+            "blue",
+            "gray"
+          ],
+          "score": 0.0358891487121582
+        },
+        {
+          "question": "what is the weather condition depicted in the image?",
+          "answers": [
+            "cloudy",
+            "sunny",
+            "rainy"
+          ],
+          "score": 0.019182205200195312
+        },
+        {
+          "question": "what are the colors of the trees visible in the image?",
+          "answers": [
+            "green",
+            "yellow",
+            "none"
+          ],
+          "score": 0.007730007171630859
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the train engine?",
+          "answers": [
+            "green and yellow",
+            "yellow",
+            "green"
+          ],
+          "score": 0.007825851440429688
+        },
+        {
+          "question": "what is the color of the train engine?",
+          "answers": [
+            "green and yellow",
+            "yellow",
+            "green"
+          ],
+          "score": 0.007825851440429688,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the train engine?",
+          "answers": [
+            "green and yellow",
+            "yellow",
+            "green"
+          ],
+          "score": 0.007825851440429688,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the train engine?",
+          "answers": [
+            "green and yellow",
+            "yellow",
+            "green"
+          ],
+          "score": 0.007825851440429688,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the train engine?",
+          "answers": [
+            "green and yellow",
+            "yellow",
+            "green"
+          ],
+          "score": 0.007825851440429688,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a green and yellow train is at the station with a white sky overhead, with no people waiting and another train located on the tracks next to the platform",
+      "question": "what is the type of vehicle parked next to the building in the image?",
+      "answer": "train",
+      "query_after": "a green and yellow train is located on the tracks next to a platform under a white sky, with no people waiting and another train parked next to a building",
+      "displayed_ids": [
+        23993,
+        48183,
+        7116,
+        15583,
+        30118,
+        2960,
+        827,
+        41846,
+        46145,
+        6207
+      ],
+      "selected_ids": [
+        20020,
+        48224,
+        44992,
+        43275,
+        15630,
+        8936,
+        13234,
+        29814,
+        35097,
+        19633
+      ],
+      "rejected_count": 25,
+      "usual_paths": [
+        {
+          "question": "what is the color of the train engine?",
+          "answers": [
+            "green",
+            "orange and yellow",
+            "red and yellow"
+          ],
+          "score": 0.04308462142944336
+        },
+        {
+          "question": "what is the color of the train engine?",
+          "answers": [
+            "green",
+            "orange and yellow",
+            "red and yellow"
+          ],
+          "score": 0.04308462142944336,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the train engine?",
+          "answers": [
+            "green",
+            "orange and yellow",
+            "red and yellow"
+          ],
+          "score": 0.04308462142944336,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bus parked next to the building?",
+          "answers": [
+            "green and yellow"
+          ],
+          "note": "fewer than 2 answers",
+          "score": null
+        },
+        {
+          "question": "what is the color of the train engine?",
+          "answers": [
+            "green",
+            "orange and yellow",
+            "red and yellow"
+          ],
+          "score": 0.04308462142944336,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the train engine?",
+          "answers": [
+            "green",
+            "orange and yellow",
+            "red and yellow"
+          ],
+          "score": 0.04308462142944336
+        },
+        {
+          "question": "what is the color of the train engine?",
+          "answers": [
+            "green",
+            "orange and yellow",
+            "red and yellow"
+          ],
+          "score": 0.04308462142944336,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the primary color of the train engine?",
+          "answers": [
+            "green",
+            "orange",
+            "yellow"
+          ],
+          "score": 0.03345441818237305
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bicycle",
+            "bus",
+            "bench"
+          ],
+          "score": 0.02035665512084961
+        },
+        {
+          "question": "what is the type of vehicle parked next to the building in the image?",
+          "answers": [
+            "green and yellow double deck bus",
+            "green and white trains",
+            "orange and yellow train"
+          ],
+          "score": 0.05347299575805664
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a green and yellow train is located on the tracks next to a platform under a white sky, with no people waiting and another train parked next to a building",
+      "question": "what is the color of the train pulling into the station?",
+      "answer": "green and yellow",
+      "query_after": "a green and yellow train is at the station with a white sky overhead, with another train parked next to the building on the tracks, and no people are visible waiting at the platform",
+      "displayed_ids": [
+        48183,
+        20377,
+        15583,
+        40162,
+        16816,
+        39961,
+        36447,
+        30118,
+        6207,
+        2960
+      ],
+      "selected_ids": [
+        47148,
+        8936,
+        21945,
+        48224,
+        15583,
+        34390,
+        10590,
+        43955,
+        15630
+      ],
+      "rejected_count": 27,
+      "usual_paths": [
+        {
+          "question": "what is the color of the train pulling into the station?",
+          "answers": [
+            "green and yellow",
+            "green and white",
+            "blue and yellow"
+          ],
+          "score": 0.04592418670654297
+        },
+        {
+          "question": "what is the color of the train engine sitting on the tracks with a wooden platform and equipment?",
+          "answers": [
+            "yellow"
+          ],
+          "note": "fewer than 2 answers",
+          "score": null
+        },
+        {
+          "question": "what is the color of the train engine sitting on the tracks with a wooden platform and equipment?",
+          "answers": [
+            "yellow"
+          ],
+          "note": "fewer than 2 answers",
+          "duplicate_of": 1,
+          "score": null
+        },
+        {
+          "question": "what is the color of the train pulling into the station?",
+          "answers": [
+            "green and yellow",
+            "green and white",
+            "blue and yellow"
+          ],
+          "score": 0.04592418670654297,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "platform",
+            "sky",
+            "tracks"
+          ],
+          "score": 0.008089065551757812
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "platform",
+            "train",
+            "clouds"
+          ],
+          "score": 0.022103309631347656
+        },
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "white",
+            "cloudy",
+            "grey"
+          ],
+          "score": 0.02805614471435547
+        },
+        {
+          "question": "Question: What is the color of the platform next to the train?",
+          "answers": [
+            "green",
+            "blue",
+            "wooden"
+          ],
+          "score": 0.040551185607910156
+        },
+        {
+          "question": "what is the color of the platform next to the train?",
+          "answers": [
+            "white",
+            "green",
+            "yellow"
+          ],
+          "score": 0.02243185043334961
+        },
+        {
+          "question": "what is the color of the platform next to the train?",
+          "answers": [
+            "white",
+            "green",
+            "yellow"
+          ],
+          "score": 0.02243185043334961,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a green and yellow train is at the station with a white sky overhead, with another train parked next to the building on the tracks, and no people are visible waiting at the platform",
+      "question": "Question: What is the color of the train?",
+      "answer": "green and yellow",
+      "query_after": "a green and yellow train is at the station with a white sky overhead, with no people waiting and another train parked next to the building",
+      "displayed_ids": [
+        46145,
+        2960,
+        46983,
+        23993,
+        16384,
+        48183,
+        7116,
+        827,
+        39961,
+        49905
+      ],
+      "selected_ids": [
+        48224,
+        38253,
+        15904,
+        21699,
+        45732,
+        43955,
+        3356,
+        47148,
+        17481,
+        16125
+      ],
+      "rejected_count": 30,
+      "usual_paths": [
+        {
+          "question": "what is the color of the train at the station with a cloudy sky?",
+          "answers": [
+            "green and yellow",
+            "green and white",
+            "red, yellow and brown"
+          ],
+          "score": 0.049935340881347656
+        },
+        {
+          "question": "what is the color of the train at the station with a cloudy sky?",
+          "answers": [
+            "green and yellow",
+            "green and white",
+            "red, yellow and brown"
+          ],
+          "score": 0.049935340881347656,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the train at the station with a cloudy sky?",
+          "answers": [
+            "green and yellow",
+            "green and white",
+            "red, yellow and brown"
+          ],
+          "score": 0.049935340881347656,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the sky above the train?",
+          "answers": [
+            "white",
+            "cloudy",
+            "grey"
+          ],
+          "score": 0.015824317932128906
+        },
+        {
+          "question": "what is the color of the train located at the station with a cloudy sky?",
+          "answers": [
+            "green and yellow",
+            "green and white",
+            "red, yellow and brown"
+          ],
+          "score": 0.050988197326660156
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "train",
+            "station",
+            "sky"
+          ],
+          "score": 0.003246307373046875
+        },
+        {
+          "question": "Question: What is the color of the train?",
+          "answers": [
+            "green and yellow",
+            "green and white",
+            "red, yellow and brown"
+          ],
+          "score": 0.05157756805419922
+        },
+        {
+          "question": "Question: what is the color of the train?",
+          "answers": [
+            "green and yellow",
+            "yellow",
+            "green and white"
+          ],
+          "score": 0.01325082778930664
+        },
+        {
+          "question": "Question: What is the state of the train in the image (e.g., moving, stopped, pulling up)?",
+          "answers": [
+            "stopped",
+            "moving",
+            "pulling up"
+          ],
+          "score": 0.0009293556213378906
+        },
+        {
+          "question": "Question: What is the color of the train pulling into the station?",
+          "answers": [
+            "green and yellow",
+            "green and white",
+            "red, yellow and brown"
+          ],
+          "score": 0.05089616775512695
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a green and yellow train is at the station with a white sky overhead, with no people waiting and another train parked next to the building",
+      "question": "what is the color of the train in the image?",
+      "answer": "green and yellow",
+      "query_after": "a green and yellow train is at the station with a white cloudy sky overhead, with no people waiting and another train parked next to the building",
+      "displayed_ids": [
+        48183,
+        16816,
+        40162,
+        15583,
+        23993,
+        39961,
+        20377,
+        36447,
+        30118,
+        6207
+      ],
+      "selected_ids": [
+        8936,
+        45648,
+        38406,
+        48224,
+        43955,
+        47148,
+        10590,
+        15904,
+        40491,
+        21699
+      ],
+      "rejected_count": 30,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "train",
+            "building",
+            "platform"
+          ],
+          "score": 0.008394718170166016
+        },
+        {
+          "question": "what is the color of the train sitting on the tracks next to the platform?",
+          "answers": [
+            "a small green and white subway train sitting on the tracks",
+            "a yellow train pulling into a station with a platform nearby",
+            "two green and white trains on a platform"
+          ],
+          "score": 0.04326438903808594
+        },
+        {
+          "question": "what is the color of the train sitting on the tracks next to the platform?",
+          "answers": [
+            "a small green and white subway train sitting on the tracks",
+            "a yellow train pulling into a station with a platform nearby",
+            "two green and white trains on a platform"
+          ],
+          "score": 0.04326438903808594,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "white",
+            "gray",
+            "blue"
+          ],
+          "score": 0.021727561950683594
+        },
+        {
+          "question": "what is the color of the sky in the image?",
+          "answers": [
+            "white",
+            "gray",
+            "blue"
+          ],
+          "score": 0.021727561950683594,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "train",
+            "building",
+            "platform"
+          ],
+          "score": 0.008394718170166016
+        },
+        {
+          "question": "what is the color of the train in the image?",
+          "answers": [
+            "green and yellow",
+            "green and red",
+            "yellow and black"
+          ],
+          "score": 0.04958295822143555
+        },
+        {
+          "question": "what is the condition of the sky in the image?",
+          "answers": [
+            "cloudy",
+            "white",
+            "grey"
+          ],
+          "score": 0.01241159439086914
+        },
+        {
+          "question": "what is the color of the train?",
+          "answers": [
+            "green and yellow",
+            "green and red",
+            "yellow and black"
+          ],
+          "score": 0.04326963424682617
+        },
+        {
+          "question": "what is the condition of the sky in the image?",
+          "answers": [
+            "cloudy",
+            "white",
+            "grey"
+          ],
+          "score": 0.01241159439086914,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

@@ -1,0 +1,78 @@
+{
+  "qid": 633,
+  "sample": 2,
+  "first_candidates": [
+    "what color is the dog in the image?",
+    "what is the color of the dog?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "second_candidates": [
+    "Question: What color is the dog pacing along the grassy area?",
+    "what is the dog pacing along the grassy area holding in its mouth?",
+    "what is the breed of the dog pacing along the grassy area?",
+    "**Question:** What is the dog pacing along?",
+    "**Question:** What is the dog wearing around its neck?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What color is the dog pacing along the grassy area?",
+      "answers": [
+        "black",
+        "white and black",
+        "brown"
+      ],
+      "score": 0.08397150039672852
+    },
+    {
+      "question": "what is the dog pacing along the grassy area holding in its mouth?",
+      "answers": [
+        "a red frisbee",
+        "a frisbee",
+        "nothing"
+      ],
+      "score": 0.10680007934570312
+    },
+    {
+      "question": "what is the breed of the dog pacing along the grassy area?",
+      "answers": [
+        "dalmatian",
+        "brown",
+        "white and black"
+      ],
+      "score": 0.14850759506225586
+    },
+    {
+      "question": "**Question:** What is the dog pacing along?",
+      "answers": [
+        "grass",
+        "a grassy area",
+        "a lawn"
+      ],
+      "score": 0.006480693817138672
+    },
+    {
+      "question": "**Question:** What is the dog wearing around its neck?",
+      "answers": [
+        "collar",
+        "bandana",
+        "nothing"
+      ],
+      "score": 0.010409355163574219
+    }
+  ],
+  "control": {
+    "question": "what is the breed of the dog pacing along the grassy area?",
+    "score": 0.14850759506225586
+  },
+  "mixed": {
+    "question": "Question: What is the breed of the dog?",
+    "score": 0.1685032844543457
+  },
+  "control_rank": 1,
+  "mixed_rank": 1,
+  "usual_rank": 7,
+  "new_answer": "Yorkshire terrier",
+  "new_rewrite": "a Yorkshire terrier is pacing along a very grassy area"
+}

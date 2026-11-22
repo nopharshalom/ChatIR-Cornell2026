@@ -1,0 +1,79 @@
+{
+  "qid": 1871,
+  "sample": 2,
+  "first_candidates": [
+    "what is the appearance of the man driving the horse drawn carriage?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the location of the man driving the horse drawn carriage?",
+    "what is the location of the man driving the horse drawn carriage?"
+  ],
+  "second_candidates": [
+    "what is the other object in the image?",
+    "Question: Is the man riding a white horse or driving a horse drawn carriage?",
+    "what is the location where the man is driving the horse drawn carriage?",
+    "what is the color of the horse being ridden by the man in the image?",
+    "what is the location where the man is driving the horse drawn carriage?"
+  ],
+  "paths": [
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "horse",
+        "carriage",
+        "road"
+      ],
+      "score": 0.008888721466064453
+    },
+    {
+      "question": "Question: Is the man riding a white horse or driving a horse drawn carriage?",
+      "answers": [
+        "riding a white horse",
+        "driving a horse drawn carriage",
+        "neither"
+      ],
+      "score": 0.017107009887695312
+    },
+    {
+      "question": "what is the location where the man is driving the horse drawn carriage?",
+      "answers": [
+        "outside of a building",
+        "outside a store",
+        "down a road"
+      ],
+      "score": 0.07668209075927734
+    },
+    {
+      "question": "what is the color of the horse being ridden by the man in the image?",
+      "answers": [
+        "white",
+        "brown",
+        "black"
+      ],
+      "score": 0.03948068618774414
+    },
+    {
+      "question": "what is the location where the man is driving the horse drawn carriage?",
+      "answers": [
+        "outside of a building",
+        "outside a store",
+        "down a road"
+      ],
+      "score": 0.07668209075927734,
+      "duplicate_of": 2
+    }
+  ],
+  "control": {
+    "question": "what is the location where the man is driving the horse drawn carriage?",
+    "score": 0.07668209075927734
+  },
+  "mixed": {
+    "question": "what is the location of the man driving the horse drawn carriage?",
+    "score": 0.05826139450073242
+  },
+  "control_rank": 10,
+  "mixed_rank": 10,
+  "usual_rank": 10,
+  "new_answer": "street",
+  "new_rewrite": "a man driving a horse drawn carriage down a street"
+}

@@ -1,0 +1,100 @@
+{
+  "qid": 1539,
+  "initial": "a red, white, and blue sign on the sidewalk by a city street",
+  "initial_rank": 153,
+  "evidence": [
+    "white delta airline plane on an airport runway",
+    "a black and white road sign with a blue sky in the background",
+    "this is a traffic sign with a red crosswalk beside a yellow stop sign",
+    "a stop sign in front of trees with a parking sign in the middle",
+    "people in the front of a store with a bicycle parked near a restaurant",
+    "a red white and blue fire hydrant with an american flag on it",
+    "a red, white and blue bus",
+    "a signpost with a stop sign, right turn sign, and a bicycle sign",
+    "a street sign with bicycles allowed on the pavement",
+    "the cars are driving along side of a crowded sidewalk"
+  ],
+  "candidates": [
+    "what is the specific type of sign described as red, white, and blue located on the sidewalk?",
+    "Question: What is the specific object located next to the red, white, and blue sign on the sidewalk?",
+    "Question: What is the color of the bus in the image?",
+    "Question: What color is the sign located on the sidewalk by the city street?",
+    "what is the background color behind the red, white, and blue sign located on the sidewalk?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the specific type of sign described as red, white, and blue located on the sidewalk?",
+      "answers": [
+        "stop sign",
+        "fire hydrant",
+        "bus"
+      ],
+      "score": 0.12456130981445312
+    },
+    {
+      "question": "Question: What is the specific object located next to the red, white, and blue sign on the sidewalk?",
+      "answers": [
+        "a bicycle",
+        "a fire hydrant",
+        "a bus"
+      ],
+      "score": 0.12674999237060547
+    },
+    {
+      "question": "Question: What is the color of the bus in the image?",
+      "answers": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "score": 0.01377105712890625
+    },
+    {
+      "question": "Question: What color is the sign located on the sidewalk by the city street?",
+      "answers": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "score": 0.011929512023925781
+    },
+    {
+      "question": "what is the background color behind the red, white, and blue sign located on the sidewalk?",
+      "answers": [
+        "blue sky",
+        "trees",
+        "street"
+      ],
+      "score": 0.03334808349609375
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.058,
+  "probe_selection_seconds": 2.596,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the specific type of sign described as red, white, and blue located on the sidewalk?",
+      "answer": "welcome to enmore",
+      "rewrite": "a red, white, and blue \"Welcome to Enmore\" sign on the sidewalk by a city street",
+      "rank": 1,
+      "hit": true
+    },
+    "random": {
+      "question": "what is the specific type of sign described as red, white, and blue located on the sidewalk?",
+      "answer": "welcome to enmore",
+      "rewrite": "a red, white, and blue \"Welcome to Enmore\" sign on the sidewalk by a city street",
+      "rank": 1,
+      "hit": true
+    },
+    "probe": {
+      "question": "Question: What is the specific object located next to the red, white, and blue sign on the sidewalk?",
+      "answer": "bottle shop",
+      "rewrite": "a red, white, and blue sign on the sidewalk by a city street, located next to a bottle shop",
+      "rank": 3,
+      "hit": true
+    }
+  },
+  "seconds": 20.076
+}

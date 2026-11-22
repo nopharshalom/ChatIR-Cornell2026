@@ -1,0 +1,280 @@
+{
+  "qid": 1241,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000136519.jpg",
+  "queries": [
+    "a very, very large clock built out of metal and still under construction",
+    "a very large gray clock built out of metal and still under construction",
+    "a very large gray clock built out of metal, still under construction, situated on a rocky and uneven base with debris and a nearby fence"
+  ],
+  "ranks": [
+    15,
+    26,
+    4
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a very, very large clock built out of metal and still under construction",
+      "question": "what is the color of the clock that is built out of metal?",
+      "answer": "gray",
+      "query_after": "a very large gray clock built out of metal and still under construction",
+      "displayed_ids": [
+        48512,
+        45117,
+        945,
+        34694,
+        12880,
+        48647,
+        24012,
+        2232,
+        28926,
+        11697
+      ],
+      "selected_ids": [
+        42233,
+        12067,
+        25152,
+        22883,
+        48949,
+        38009,
+        24803,
+        20571,
+        13483,
+        22707
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: where is the very large metal clock located?",
+          "answers": [
+            "under construction",
+            "in a workshop",
+            "in a terminal"
+          ],
+          "score": 0.009997367858886719
+        },
+        {
+          "question": "what is the color of the clock that is still under construction?",
+          "answers": [
+            "silver",
+            "gold",
+            "white"
+          ],
+          "score": 0.06313371658325195
+        },
+        {
+          "question": "what is the color of the large metal clock that is still under construction?",
+          "answers": [
+            "silver",
+            "gray",
+            "gold"
+          ],
+          "score": 0.07907819747924805
+        },
+        {
+          "question": "what is the color of the very large metal clock that is still under construction?",
+          "answers": [
+            "silver",
+            "gray",
+            "white"
+          ],
+          "score": 0.03515625
+        },
+        {
+          "question": "what is the color of the clock that is built out of metal?",
+          "answers": [
+            "silver",
+            "gray",
+            "gold"
+          ],
+          "score": 0.10215234756469727
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "scaffolding",
+            "construction workers",
+            "ladder"
+          ],
+          "score": 0.035782814025878906
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "scaffolding",
+            "construction workers",
+            "ladder"
+          ],
+          "score": 0.035782814025878906,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "scaffolding",
+            "construction workers",
+            "ladder"
+          ],
+          "score": 0.035782814025878906,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "scaffolding",
+            "construction workers",
+            "ladder"
+          ],
+          "score": 0.035782814025878906,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "scaffolding",
+            "construction workers",
+            "ladder"
+          ],
+          "score": 0.035782814025878906,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a very large gray clock built out of metal and still under construction",
+      "question": "what is the condition of the clock tower's base or surrounding environment in the image?",
+      "answer": "the base is rocky and uneven, with some debris and a fence nearby.",
+      "query_after": "a very large gray clock built out of metal, still under construction, situated on a rocky and uneven base with debris and a nearby fence",
+      "displayed_ids": [
+        48512,
+        34694,
+        12880,
+        945,
+        45117,
+        24012,
+        48647,
+        29006,
+        11190,
+        2232
+      ],
+      "selected_ids": [
+        40950,
+        20900,
+        38259,
+        42455,
+        48512,
+        20571,
+        42233,
+        28088,
+        22707,
+        24803
+      ],
+      "rejected_count": 12,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "people",
+            "pipe",
+            "construction"
+          ],
+          "score": 0.0425872802734375
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "people",
+            "pipe",
+            "construction"
+          ],
+          "score": 0.0425872802734375,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "people",
+            "pipe",
+            "construction"
+          ],
+          "score": 0.0425872802734375,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "people",
+            "pipe",
+            "construction"
+          ],
+          "score": 0.0425872802734375,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "people",
+            "pipe",
+            "construction"
+          ],
+          "score": 0.0425872802734375,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "people",
+            "pipe",
+            "construction"
+          ],
+          "score": 0.0425872802734375
+        },
+        {
+          "question": "what is the location of the very large metal clock that is still under construction?",
+          "answers": [
+            "under construction",
+            "in progress",
+            "not finished"
+          ],
+          "score": 0.004424571990966797
+        },
+        {
+          "question": "what is the sky condition in the image featuring the large metal clock?",
+          "answers": [
+            "cloudy",
+            "sunny",
+            "rainy"
+          ],
+          "score": 0.009456157684326172
+        },
+        {
+          "question": "what is the specific location of the large metal clock that is still under construction?",
+          "answers": [
+            "at the construction site",
+            "at a convention center",
+            "at a public square"
+          ],
+          "score": 0.03927421569824219
+        },
+        {
+          "question": "what is the condition of the clock tower's base or surrounding environment in the image?",
+          "answers": [
+            "under construction",
+            "surrounded by trees",
+            "on a road"
+          ],
+          "score": 0.05808830261230469
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

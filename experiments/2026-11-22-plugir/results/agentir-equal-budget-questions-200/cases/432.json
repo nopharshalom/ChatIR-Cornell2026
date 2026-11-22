@@ -1,0 +1,80 @@
+{
+  "qid": 432,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the bathroom where the toilet seat with the lid up is located?",
+    "Question: what is the color of the bathroom where the toilet seat with the lid up is located?",
+    "what is the color of the toilet in the small bathroom where the toilet seat with the lid up is located?",
+    "what is the color of the toilet in the small bathroom where the toilet seat with the lid up is located?",
+    "what is the color of the bathroom where the toilet is located?"
+  ],
+  "second_candidates": [
+    "what is the color of the bathroom where the toilet with the lid up is located?",
+    "what is the color of the toilet in the bathroom where the toilet with the lid up is located?",
+    "what is the color of the bathroom where the toilet with the lid up is located?",
+    "what is the name or type of the bathroom fixture located next to the toilet with the lid up?",
+    "what is the color of the bathroom where the toilet with the lid up is located?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the bathroom where the toilet with the lid up is located?",
+      "answers": [
+        "white",
+        "blue",
+        "unknown"
+      ],
+      "score": 0.09932565689086914
+    },
+    {
+      "question": "what is the color of the toilet in the bathroom where the toilet with the lid up is located?",
+      "answers": [
+        "white",
+        "blue",
+        "dirty"
+      ],
+      "score": 0.13364553451538086
+    },
+    {
+      "question": "what is the color of the bathroom where the toilet with the lid up is located?",
+      "answers": [
+        "white",
+        "blue",
+        "unknown"
+      ],
+      "score": 0.09932565689086914,
+      "duplicate_of": 0
+    },
+    {
+      "question": "what is the name or type of the bathroom fixture located next to the toilet with the lid up?",
+      "answers": [
+        "sink",
+        "bathtub",
+        "urinal"
+      ],
+      "score": 0.0951838493347168
+    },
+    {
+      "question": "what is the color of the bathroom where the toilet with the lid up is located?",
+      "answers": [
+        "white",
+        "blue",
+        "unknown"
+      ],
+      "score": 0.09932565689086914,
+      "duplicate_of": 0
+    }
+  ],
+  "control": {
+    "question": "what is the color of the toilet in the bathroom where the toilet with the lid up is located?",
+    "score": 0.13364553451538086
+  },
+  "mixed": {
+    "question": "Question: What is the color of the bathroom?",
+    "score": 0.1275019645690918
+  },
+  "control_rank": 83,
+  "mixed_rank": 26,
+  "usual_rank": 30,
+  "new_answer": "white",
+  "new_rewrite": "a white toilet with the lid up in a small bathroom"
+}

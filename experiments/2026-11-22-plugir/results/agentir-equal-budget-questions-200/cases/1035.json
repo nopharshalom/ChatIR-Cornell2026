@@ -1,0 +1,79 @@
+{
+  "qid": 1035,
+  "sample": 2,
+  "first_candidates": [
+    "what is the size of the building visible in the image?",
+    "Question: what is the specific location setting where the crowd of motorcycles and people are gathered?",
+    "Question: What type of vehicle is seen in the image?",
+    "what are the specific details of the location setting where the crowd of motorcycles and people are gathered?",
+    "Question: What is the primary activity of the people visible in the image?"
+  ],
+  "second_candidates": [
+    "what is the lighting condition or time of day depicted in the image?",
+    "what is the name of the sign visible on the large restaurant building?",
+    "Question: Is there a clock tower visible in the image?",
+    "what is the main mode of transportation visible in the image?",
+    "what is the main mode of transportation visible in the image?"
+  ],
+  "paths": [
+    {
+      "question": "what is the lighting condition or time of day depicted in the image?",
+      "answers": [
+        "daytime",
+        "sunset",
+        "nighttime"
+      ],
+      "score": 0.05408000946044922
+    },
+    {
+      "question": "what is the name of the sign visible on the large restaurant building?",
+      "answers": [
+        "Pizza",
+        "Burger",
+        "Sushi"
+      ],
+      "score": 0.02805328369140625
+    },
+    {
+      "question": "Question: Is there a clock tower visible in the image?",
+      "answers": [
+        "yes",
+        "no",
+        "maybe"
+      ],
+      "score": 0.00051116943359375
+    },
+    {
+      "question": "what is the main mode of transportation visible in the image?",
+      "answers": [
+        "Walking",
+        "Bus",
+        "Motorcycles"
+      ],
+      "score": 0.11167144775390625
+    },
+    {
+      "question": "what is the main mode of transportation visible in the image?",
+      "answers": [
+        "Walking",
+        "Bus",
+        "Motorcycles"
+      ],
+      "score": 0.11167144775390625,
+      "duplicate_of": 3
+    }
+  ],
+  "control": {
+    "question": "Question: What is the primary activity of the people visible in the image?",
+    "score": 0.1271076202392578
+  },
+  "mixed": {
+    "question": "Question: What is the primary activity of the people visible in the image?",
+    "score": 0.1271076202392578
+  },
+  "control_rank": 2,
+  "mixed_rank": 2,
+  "usual_rank": 2,
+  "new_answer": null,
+  "new_rewrite": null
+}

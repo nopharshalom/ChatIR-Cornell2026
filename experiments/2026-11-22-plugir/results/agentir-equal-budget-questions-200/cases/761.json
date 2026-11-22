@@ -1,0 +1,80 @@
+{
+  "qid": 761,
+  "sample": 2,
+  "first_candidates": [
+    "what is the man feeding the child with?",
+    "what is the man wearing?",
+    "Question: where is the man feeding the child?",
+    "what is the man feeding the child with, and where is this taking place?",
+    "what is the man holding the young child with?"
+  ],
+  "second_candidates": [
+    "what is the man feeding the young child?",
+    "what is the man feeding the young child?",
+    "what is the location where the man is holding and feeding the young child?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "paths": [
+    {
+      "question": "what is the man feeding the young child?",
+      "answers": [
+        "sandwich",
+        "apple",
+        "grape"
+      ],
+      "score": 0.09370708465576172
+    },
+    {
+      "question": "what is the man feeding the young child?",
+      "answers": [
+        "sandwich",
+        "apple",
+        "grape"
+      ],
+      "score": 0.09370708465576172,
+      "duplicate_of": 0
+    },
+    {
+      "question": "what is the location where the man is holding and feeding the young child?",
+      "answers": [
+        "orchard",
+        "table",
+        "field"
+      ],
+      "score": 0.13932037353515625
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "sandwich",
+        "table",
+        "man"
+      ],
+      "score": 0.0873265266418457
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "sandwich",
+        "table",
+        "man"
+      ],
+      "score": 0.0873265266418457,
+      "duplicate_of": 3
+    }
+  ],
+  "control": {
+    "question": "what is the man feeding the child with, and where is this taking place?",
+    "score": 0.18373727798461914
+  },
+  "mixed": {
+    "question": "what is the location where the man is feeding the young child?",
+    "score": 0.21490764617919922
+  },
+  "control_rank": 15,
+  "mixed_rank": 9,
+  "usual_rank": 15,
+  "new_answer": null,
+  "new_rewrite": null
+}

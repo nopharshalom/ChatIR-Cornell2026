@@ -1,0 +1,79 @@
+{
+  "qid": 780,
+  "sample": 1,
+  "first_candidates": [
+    "Question: What color is the motorcycle the man is sitting on?",
+    "is the man sitting on a motorcycle in front of a tent near a gravel path in a forest?",
+    "What is the man wearing?",
+    "Question: What color is the motorcycle the man is sitting on?",
+    "Question: What color is the motorcycle the man is sitting on?"
+  ],
+  "second_candidates": [
+    "what is the color of the motorcycle the man is sitting on?",
+    "what is the color of the motorcycle the man is sitting on?",
+    "what is the location where the man is sitting on the stopped motorcycle?",
+    "**Generated Question:**\nWhat is the color of the motorcycle the man is sitting on?",
+    "**Generated Question:**\nWhat is the location where the man is sitting on the stopped motorcycle?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the motorcycle the man is sitting on?",
+      "answers": [
+        "black",
+        "red",
+        "blue"
+      ],
+      "score": 0.12589740753173828
+    },
+    {
+      "question": "what is the color of the motorcycle the man is sitting on?",
+      "answers": [
+        "black",
+        "red",
+        "blue"
+      ],
+      "score": 0.12589740753173828,
+      "duplicate_of": 0
+    },
+    {
+      "question": "what is the location where the man is sitting on the stopped motorcycle?",
+      "answers": [
+        "city street",
+        "dirt road",
+        "race track"
+      ],
+      "score": 0.23904037475585938
+    },
+    {
+      "question": "**Generated Question:**\nWhat is the color of the motorcycle the man is sitting on?",
+      "answers": [
+        "black",
+        "blue",
+        "red"
+      ],
+      "score": 0.20673179626464844
+    },
+    {
+      "question": "**Generated Question:**\nWhat is the location where the man is sitting on the stopped motorcycle?",
+      "answers": [
+        "city street",
+        "dirt road",
+        "gravel road"
+      ],
+      "score": 0.15905237197875977
+    }
+  ],
+  "control": {
+    "question": "what is the location where the man is sitting on the stopped motorcycle?",
+    "score": 0.23904037475585938
+  },
+  "mixed": {
+    "question": "What is the man wearing?",
+    "score": 0.17186403274536133
+  },
+  "control_rank": 27,
+  "mixed_rank": 1,
+  "usual_rank": 1,
+  "new_answer": "road",
+  "new_rewrite": "a man sitting on a stopped motorcycle on the road"
+}

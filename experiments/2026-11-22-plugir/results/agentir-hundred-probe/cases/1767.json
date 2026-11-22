@@ -1,0 +1,100 @@
+{
+  "qid": 1767,
+  "initial": "a person is standing and taking a photo",
+  "initial_rank": 33,
+  "evidence": [
+    "a woman walking across a crowded street",
+    "a man putting his phone in a mirror",
+    "a group of people watching a person hit a ball",
+    "a man is holding up a phone camera in a bathroom",
+    "a room full of people sitting around and sitting on the floor",
+    "a man takes a picture of himself in a bathroom mirror",
+    "group of people taking pictures in crowd",
+    "a woman flies a kite on the beach",
+    "a man takes a picture in a bathroom mirror",
+    "a man holding a cell phone in front of a doorway"
+  ],
+  "candidates": [
+    "Question: What is the location where the person is taking the photo?",
+    "Question: What is the person holding to take the photo?",
+    "Question: What is the gender of the person taking the photo?",
+    "Question: What is the surface the person is standing on?",
+    "Question: Where is the person taking the photo?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: What is the location where the person is taking the photo?",
+      "answers": [
+        "street",
+        "bathroom",
+        "beach"
+      ],
+      "score": 0.3180708885192871
+    },
+    {
+      "question": "Question: What is the person holding to take the photo?",
+      "answers": [
+        "phone",
+        "camera",
+        "mirror"
+      ],
+      "score": 0.08826971054077148
+    },
+    {
+      "question": "Question: What is the gender of the person taking the photo?",
+      "answers": [
+        "male",
+        "female",
+        "non-binary"
+      ],
+      "score": 0.03749990463256836
+    },
+    {
+      "question": "Question: What is the surface the person is standing on?",
+      "answers": [
+        "street",
+        "beach",
+        "floor"
+      ],
+      "score": 0.24477815628051758
+    },
+    {
+      "question": "Question: Where is the person taking the photo?",
+      "answers": [
+        "street",
+        "mirror",
+        "beach"
+      ],
+      "score": 0.31210803985595703
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.064,
+  "probe_selection_seconds": 2.448,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "Question: Where is the person taking the photo?",
+      "answer": "bus stop",
+      "rewrite": "a person is standing at a bus stop taking a photo",
+      "rank": 1,
+      "hit": true
+    },
+    "random": {
+      "question": "Question: What is the surface the person is standing on?",
+      "answer": "concrete",
+      "rewrite": "a person is standing on concrete and taking a photo",
+      "rank": 45,
+      "hit": false
+    },
+    "probe": {
+      "question": "Question: What is the location where the person is taking the photo?",
+      "answer": "bus stop",
+      "rewrite": "a person is standing at a bus stop taking a photo",
+      "rank": 1,
+      "hit": true
+    }
+  },
+  "seconds": 14.951
+}

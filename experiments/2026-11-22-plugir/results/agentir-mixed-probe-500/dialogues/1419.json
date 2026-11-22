@@ -1,0 +1,537 @@
+{
+  "qid": 1419,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000475354.jpg",
+  "queries": [
+    "a man is riding a snowboard and he is high above the snow",
+    "a man is riding a black snowboard high above the snow",
+    "a man wearing a green jacket and black pants is riding a black snowboard high above the snow",
+    "A man dressed in a green jacket and black pants is snowboarding high above the snow on a black board.",
+    "a man wearing a green jacket and black pants is riding a black snowboard high above a mountain"
+  ],
+  "ranks": [
+    41,
+    30,
+    21,
+    33,
+    2
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a man is riding a snowboard and he is high above the snow",
+      "question": "Question: What is the color of the snowboard the man is riding?",
+      "answer": "black",
+      "query_after": "a man is riding a black snowboard high above the snow",
+      "displayed_ids": [
+        46884,
+        32634,
+        3948,
+        23417,
+        26618,
+        47394,
+        9683,
+        15275,
+        31615,
+        17867
+      ],
+      "selected_ids": [
+        24064,
+        6951,
+        30930,
+        49074,
+        6137,
+        34076,
+        40202,
+        39372,
+        24039,
+        39054
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: Is the man riding the snowboard during the day or at night?",
+          "answers": [
+            "day",
+            "night",
+            "dusk"
+          ],
+          "score": 0.010172367095947266
+        },
+        {
+          "question": "Question: What is the color of the snowboard the man is riding?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.10664558410644531
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "snow",
+            "trees",
+            "sky"
+          ],
+          "score": 0.07443523406982422
+        },
+        {
+          "question": "what is the color of the man's clothing in the image?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.07862615585327148
+        },
+        {
+          "question": "Question: Question: What is the color of the man's clothing in the image?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.08874225616455078
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is the man wearing a wetsuit or a snowboard jacket?",
+          "answers": [
+            "A snowboard jacket",
+            "A wetsuit",
+            "Neither"
+          ],
+          "score": 0.014475822448730469
+        },
+        {
+          "question": "Question: Is the man performing the jump during the day or at night?",
+          "answers": [
+            "day",
+            "night",
+            "dusk"
+          ],
+          "score": 0.01350545883178711
+        },
+        {
+          "question": "Question: Is the man jumping off a roof or from the ground?",
+          "answers": [
+            "jumping off a roof",
+            "jumping from a roof",
+            "jumping off the roof"
+          ],
+          "score": 0.00026798248291015625
+        },
+        {
+          "question": "Question: What color is the man's clothing?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.06838798522949219
+        },
+        {
+          "question": "Question: What is the lighting condition of the scene, is it day or night?",
+          "answers": [
+            "day",
+            "night",
+            "daylight"
+          ],
+          "score": 0.010406017303466797
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a man is riding a black snowboard high above the snow",
+      "question": "what is the outfit of the man riding the snowboard?",
+      "answer": "the man is wearing a green jacket and black pants.",
+      "query_after": "a man wearing a green jacket and black pants is riding a black snowboard high above the snow",
+      "displayed_ids": [
+        46884,
+        32634,
+        8946,
+        3948,
+        9683,
+        14629,
+        26618,
+        23417,
+        18782,
+        31797
+      ],
+      "selected_ids": [
+        43629,
+        6951,
+        41327,
+        39372,
+        34076,
+        1752,
+        24064,
+        22254,
+        39054,
+        19748
+      ],
+      "rejected_count": 14,
+      "usual_paths": [
+        {
+          "question": "Question: What is the man wearing while riding the snowboard?",
+          "answers": [
+            "jacket and pants",
+            "shorts and t-shirt",
+            "wetsuit"
+          ],
+          "score": 0.04068613052368164
+        },
+        {
+          "question": "what is the location where the man is riding the snowboard?",
+          "answers": [
+            "roof",
+            "parking garage",
+            "grove"
+          ],
+          "score": 0.05276298522949219
+        },
+        {
+          "question": "what is the outfit of the man riding the snowboard?",
+          "answers": [
+            "black and white",
+            "orange and yellow",
+            "blue and white"
+          ],
+          "score": 0.15749359130859375
+        },
+        {
+          "question": "what is the outfit of the man riding the snowboard?",
+          "answers": [
+            "black and white",
+            "orange and yellow",
+            "blue and white"
+          ],
+          "score": 0.15749359130859375,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the location where the man is riding the snowboard?",
+          "answers": [
+            "roof",
+            "parking garage",
+            "grove"
+          ],
+          "score": 0.05276298522949219,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the location of the man performing the jump?",
+          "answers": [
+            "parking garage",
+            "snow covered grove",
+            "roof"
+          ],
+          "score": 0.05036449432373047
+        },
+        {
+          "question": "Question: What is the location of the man performing the jump?",
+          "answers": [
+            "parking garage",
+            "snow covered grove",
+            "roof"
+          ],
+          "score": 0.05036449432373047,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the shirt the man is wearing?",
+          "answers": [
+            "red",
+            "black",
+            "white"
+          ],
+          "score": 0.0568547248840332
+        },
+        {
+          "question": "Question: What is the location of the man performing the jump?",
+          "answers": [
+            "parking garage",
+            "snow covered grove",
+            "roof"
+          ],
+          "score": 0.05036449432373047,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the location of the man performing the jump?",
+          "answers": [
+            "parking garage",
+            "snow covered grove",
+            "roof"
+          ],
+          "score": 0.05036449432373047,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a man wearing a green jacket and black pants is riding a black snowboard high above the snow",
+      "question": "what is the color of the jacket the man is wearing while riding the snowboard?",
+      "answer": "green",
+      "query_after": "A man dressed in a green jacket and black pants is snowboarding high above the snow on a black board.",
+      "displayed_ids": [
+        27357,
+        19826,
+        8642,
+        15528,
+        23417,
+        3948,
+        28212,
+        44561,
+        23081,
+        37968
+      ],
+      "selected_ids": [
+        5532,
+        38461,
+        29401,
+        39054,
+        22415,
+        19748,
+        34078,
+        43983,
+        489,
+        9261
+      ],
+      "rejected_count": 22,
+      "usual_paths": [
+        {
+          "question": "Question: Is the man riding the snowboard on a roof or in a forest?",
+          "answers": [
+            "roof",
+            "forest"
+          ],
+          "score": 0.0025572776794433594
+        },
+        {
+          "question": "what is the color of the jacket the man is wearing while riding the snowboard?",
+          "answers": [
+            "green",
+            "black",
+            "blue"
+          ],
+          "score": 0.021523475646972656
+        },
+        {
+          "question": "Question: Is the man riding the snowboard on a roof or in a forest?",
+          "answers": [
+            "roof",
+            "forest"
+          ],
+          "score": 0.0025572776794433594,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the location where the man is riding his snowboard?",
+          "answers": [
+            "skateboard",
+            "tree",
+            "roof"
+          ],
+          "score": 0.010736942291259766
+        },
+        {
+          "question": "what is the color of the pants the man is wearing while riding the snowboard?",
+          "answers": [
+            "black",
+            "green",
+            "blue"
+          ],
+          "score": 0.021088600158691406
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "skis",
+            "helmet",
+            "goggles"
+          ],
+          "score": 0.01560068130493164
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "skis",
+            "helmet",
+            "goggles"
+          ],
+          "score": 0.01560068130493164,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Based on the **Description** (\"a man is riding a snowboard and he is high above the snow\") and the **Dialogue** (which has answered the?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.00058746337890625
+        },
+        {
+          "question": "Question: What is the background environment of the man riding the snowboard?",
+          "answers": [
+            "sky",
+            "cliff",
+            "forest"
+          ],
+          "score": 0.020083904266357422
+        },
+        {
+          "question": "Question: Is the man performing the trick on a snowboard or on skis?",
+          "answers": [
+            "snowboard",
+            "skis",
+            "not sure"
+          ],
+          "score": 0.00482940673828125
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 3,
+      "query_before": "A man dressed in a green jacket and black pants is snowboarding high above the snow on a black board.",
+      "question": "what is the specific background environment where the man is riding the snowboard?",
+      "answer": "mountain",
+      "query_after": "a man wearing a green jacket and black pants is riding a black snowboard high above a mountain",
+      "displayed_ids": [
+        27357,
+        28212,
+        15528,
+        23417,
+        8642,
+        19826,
+        37968,
+        44561,
+        32659,
+        23081
+      ],
+      "selected_ids": [
+        16827,
+        39054,
+        18462,
+        40202,
+        43983,
+        19748,
+        44741,
+        34078,
+        23297,
+        489
+      ],
+      "rejected_count": 23,
+      "usual_paths": [
+        {
+          "question": "what is the specific background environment where the man is riding the snowboard?",
+          "answers": [
+            "a bright blue sky",
+            "a forest covered in snow",
+            "a roof"
+          ],
+          "score": 0.07915353775024414
+        },
+        {
+          "question": "what is the color of the sky in the background where the man is riding the snowboard?",
+          "answers": [
+            "blue",
+            "white",
+            "grey"
+          ],
+          "score": 0.021674156188964844
+        },
+        {
+          "question": "what is the color of the sky in the background of the image?",
+          "answers": [
+            "blue",
+            "white",
+            "cloudy"
+          ],
+          "score": 0.03111124038696289
+        },
+        {
+          "question": "what is the specific background environment where the man is riding the snowboard?",
+          "answers": [
+            "a bright blue sky",
+            "a forest covered in snow",
+            "a roof"
+          ],
+          "score": 0.07915353775024414,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the specific background environment where the man is riding the snowboard?",
+          "answers": [
+            "a bright blue sky",
+            "a forest covered in snow",
+            "a roof"
+          ],
+          "score": 0.07915353775024414,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the background color of the man riding the snowboard?",
+          "answers": [
+            "white",
+            "blue",
+            "black"
+          ],
+          "score": 0.040769100189208984
+        },
+        {
+          "question": "what is the color of the sky in the background of the man riding the snowboard?",
+          "answers": [
+            "blue",
+            "white",
+            "grey"
+          ],
+          "score": 0.020656108856201172
+        },
+        {
+          "question": "what is the type of object in the background of the man riding the snowboard?",
+          "answers": [
+            "sky",
+            "building",
+            "hill"
+          ],
+          "score": 0.03741741180419922
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "hat",
+            "cup",
+            "tree"
+          ],
+          "score": 0.019524097442626953
+        },
+        {
+          "question": "what is the color of the snowboard the man is riding?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.03888082504272461
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

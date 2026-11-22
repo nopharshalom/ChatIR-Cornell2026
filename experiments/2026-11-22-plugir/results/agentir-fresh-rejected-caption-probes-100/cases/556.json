@@ -1,0 +1,177 @@
+{
+  "qid": 556,
+  "initial": "a bathroom with a sink and toilet with the lid raised",
+  "initial_rank": 83,
+  "displayed": [
+    49354,
+    8034,
+    2649,
+    3490,
+    29776,
+    4869,
+    42585,
+    20554,
+    21770,
+    17133
+  ],
+  "evidence": [
+    "a bathroom scene consists of a shower, tub and toilet",
+    "white tiled bathroom with a toilet, bathtub, shower, and toilet",
+    "a wooden sink surrounded by mirrors in a bathroom",
+    "an empty bathroom with tiled walls, an overhead shower, and a wooden bathtub",
+    "a very small toilet with a green handle",
+    "the stall has a toilet with a seat",
+    "a yellow bathroom has a bathtub, toilet, and a shower curtain",
+    "a picture of a bathroom sink with mirrors and towels",
+    "a toilet in a stall with grab bars",
+    "a bathroom that has a glass shower door and dual sinks"
+  ],
+  "rejected_captions": [
+    "white toilet and sink",
+    "a sink and a toilet in a bathroom",
+    "a small white sink",
+    "the sink and toilet are white",
+    "a bathroom with a brown toilet and a sink",
+    "a toilet and a sink with a toilet paper dispenser",
+    "a small bathroom with a toilet and sink",
+    "the sink is on top of the toilet",
+    "a small bathroom with a toilet and sink",
+    "a white sink on the left side of a bathroom"
+  ],
+  "usual": {
+    "candidates": [
+      "Question: What color is the bathroom in the image?",
+      "What color is the bathroom depicted in the image?",
+      "what color is the toilet in the bathroom?",
+      "what material is the sink made of in the bathroom?",
+      "what type of shower is present in the bathroom with the raised toilet lid?"
+    ],
+    "question": "Question: What color is the bathroom in the image?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What color is the bathroom in the image?",
+          "answers": [
+            "white",
+            "wooden",
+            "yellow"
+          ],
+          "score": 0.15111255645751953
+        },
+        {
+          "question": "What color is the bathroom depicted in the image?",
+          "answers": [
+            "white",
+            "yellow",
+            "wooden"
+          ],
+          "score": 0.14220285415649414
+        },
+        {
+          "question": "what color is the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "wooden",
+            "yellow"
+          ],
+          "score": 0.14022493362426758
+        },
+        {
+          "question": "what material is the sink made of in the bathroom?",
+          "answers": [
+            "wooden",
+            "glass",
+            "white"
+          ],
+          "score": 0.14098882675170898
+        },
+        {
+          "question": "what type of shower is present in the bathroom with the raised toilet lid?",
+          "answers": [
+            "overhead shower",
+            "shower curtain",
+            "glass shower door"
+          ],
+          "score": 0.0799398422241211
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.077,
+      "probe_selection_seconds": 2.428,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "white",
+    "rewrite": "a white bathroom with a sink and a toilet with the lid raised",
+    "raw_rank": 304,
+    "unseen_rank": 294
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What color is the toilet in the bathroom?",
+      "what color is the bathtub visible in the bathroom?",
+      "Question: What color is the sink in the bathroom?",
+      "what material is the countertop around the sink made of?",
+      "what type of door is visible on the shower in the bathroom?"
+    ],
+    "question": "what color is the bathtub visible in the bathroom?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What color is the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "green",
+            "blue"
+          ],
+          "score": 0.14018774032592773
+        },
+        {
+          "question": "what color is the bathtub visible in the bathroom?",
+          "answers": [
+            "white",
+            "yellow",
+            "wooden"
+          ],
+          "score": 0.14373064041137695
+        },
+        {
+          "question": "Question: What color is the sink in the bathroom?",
+          "answers": [
+            "white",
+            "wooden",
+            "yellow"
+          ],
+          "score": 0.13066911697387695
+        },
+        {
+          "question": "what material is the countertop around the sink made of?",
+          "answers": [
+            "wood",
+            "marble",
+            "stone"
+          ],
+          "score": 0.11016130447387695
+        },
+        {
+          "question": "what type of door is visible on the shower in the bathroom?",
+          "answers": [
+            "glass door",
+            "curtain",
+            "no door"
+          ],
+          "score": 0.08512353897094727
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.065,
+      "probe_selection_seconds": 2.397,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "white",
+    "rewrite": "a white bathroom with a sink, a toilet with the lid raised, and a bathtub",
+    "raw_rank": 771,
+    "unseen_rank": 761
+  }
+}

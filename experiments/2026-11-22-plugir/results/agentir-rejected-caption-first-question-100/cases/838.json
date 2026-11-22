@@ -1,0 +1,71 @@
+{
+  "qid": 838,
+  "initial": "a street lined full of cars and buses",
+  "initial_rank": 363,
+  "evidence": [
+    "a bus in a parking lot",
+    "two red buses parked on the street next to each other",
+    "a man on a bike rides a motorcycle near a bus",
+    "a double decker bus is parked on the road next to trees",
+    "a large white and blue bus sitting at a bus stop",
+    "two busses sitting side by side",
+    "white cars sitting on the street at night",
+    "a red car driving in traffic in a city",
+    "a man is walking to his bus on a city street",
+    "an orange bus parked on the street"
+  ],
+  "displayed_ids": [
+    17116,
+    18765,
+    38783,
+    30807,
+    39736,
+    15229,
+    833,
+    24783,
+    41824,
+    14016
+  ],
+  "rejected_captions": [
+    "a picture of cars and buses in traffic",
+    "traffic is backed up in new delhi's busiest ring road",
+    "a bus traveling down a city street",
+    "traffic in the city",
+    "lots of cars driving on the road",
+    "red and white buses travel down a street in an urban area",
+    "the white and blue buses are white",
+    "a road with vehicles on it",
+    "the skyline is lit up as cars move down the street",
+    "a city street filled with people on cars"
+  ],
+  "candidates": [
+    "Question: What is the specific color of the bus seen in the street lined with cars and buses?",
+    "Question: What is the specific color of the bus seen in the street lined with cars and buses?",
+    "Question: What is the specific color of the bus seen in the street lined with cars and buses?",
+    "Question: What is the specific color of the bus seen in the street lined with cars and buses?",
+    "Question: How many buses are visible in the street?"
+  ],
+  "control_candidates": [
+    "Question: What is the primary color of the bus visible in the image?",
+    "Question: What is the primary color of the bus visible in the image?",
+    "Question: What is the primary color of the bus visible in the image?",
+    "Question: Which specific vehicle is positioned next to the bus in the image?",
+    "Question: Question: What is the primary color of the bus visible in the image?"
+  ],
+  "control": {
+    "question": "Question: What is the primary color of the bus visible in the image?",
+    "answer": "red",
+    "rewrite": "a street lined with cars and a red bus",
+    "rank": 500,
+    "hit": false,
+    "raw_rank": 500,
+    "unseen_rank": 491
+  },
+  "variant": {
+    "question": "Question: How many buses are visible in the street?",
+    "answer": "2",
+    "rewrite": "a street lined with cars and two buses",
+    "raw_rank": 636,
+    "unseen_rank": 626
+  }
+}

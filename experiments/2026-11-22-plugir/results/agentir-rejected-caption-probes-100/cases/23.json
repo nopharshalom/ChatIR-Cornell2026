@@ -1,0 +1,82 @@
+{
+  "qid": 23,
+  "candidates": [
+    "what color are the walls of the bathroom?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "kl": {
+    "question": "what is the other object in the image?",
+    "answer": "urinal",
+    "rewrite": "a bathroom is filled with assorted items and features a toilet and a urinal on the floor",
+    "raw_rank": 42,
+    "unseen_rank": 34
+  },
+  "probe": {
+    "question": "what is the other object in the image?",
+    "answer": "urinal",
+    "rewrite": "a bathroom is filled with assorted items and features a toilet and a urinal on the floor",
+    "raw_rank": 42,
+    "unseen_rank": 34
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "what color are the walls of the bathroom?",
+        "answers": [
+          "white",
+          "brown",
+          "tiled"
+        ],
+        "score": 0.07321453094482422
+      },
+      {
+        "question": "what is the other object in the image?",
+        "answers": [
+          "sink",
+          "mirror",
+          "tub"
+        ],
+        "score": 0.09249067306518555
+      },
+      {
+        "question": "what is the other object in the image?",
+        "answers": [
+          "sink",
+          "mirror",
+          "tub"
+        ],
+        "score": 0.09249067306518555,
+        "duplicate_of": 1
+      },
+      {
+        "question": "what is the other object in the image?",
+        "answers": [
+          "sink",
+          "mirror",
+          "tub"
+        ],
+        "score": 0.09249067306518555,
+        "duplicate_of": 1
+      },
+      {
+        "question": "what is the other object in the image?",
+        "answers": [
+          "sink",
+          "mirror",
+          "tub"
+        ],
+        "score": 0.09249067306518555,
+        "duplicate_of": 1
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.048,
+    "probe_selection_seconds": 0.906,
+    "probe_llm_calls": 2,
+    "probe_search_queries": 6
+  },
+  "reused_outcome": true
+}

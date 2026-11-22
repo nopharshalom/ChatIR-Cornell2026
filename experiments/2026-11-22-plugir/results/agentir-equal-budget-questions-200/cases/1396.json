@@ -1,0 +1,78 @@
+{
+  "qid": 1396,
+  "sample": 2,
+  "first_candidates": [
+    "Question: How many sinks are visible in the bathroom display?",
+    "Question: What color is the glass case where the bathroom sinks are being displayed?",
+    "Question: What type of mirrors are visible in the bathroom display?",
+    "Question: What are the sinks in the bathroom display placed inside?",
+    "Question: How many toilet seats are visible in the display of bathroom sinks?"
+  ],
+  "second_candidates": [
+    "what is the color of the glass case displaying the bathroom sinks?",
+    "what objects are displayed alongside the bathroom sinks in the case?",
+    "Question: how many sinks are visible in the bathroom sink display?",
+    "what color are the bathroom sinks displayed in the glass case?",
+    "what is the other object in the image?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the glass case displaying the bathroom sinks?",
+      "answers": [
+        "blue",
+        "clear",
+        "transparent"
+      ],
+      "score": 0.020228862762451172
+    },
+    {
+      "question": "what objects are displayed alongside the bathroom sinks in the case?",
+      "answers": [
+        "toilet seats",
+        "kites",
+        "stuffed animals"
+      ],
+      "score": 0.08241415023803711
+    },
+    {
+      "question": "Question: how many sinks are visible in the bathroom sink display?",
+      "answers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "score": 6.914138793945312e-05
+    },
+    {
+      "question": "what color are the bathroom sinks displayed in the glass case?",
+      "answers": [
+        "white",
+        "blue",
+        "silver"
+      ],
+      "score": 0.02290821075439453
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "sink",
+        "mirror",
+        "toilet"
+      ],
+      "score": 0.054804325103759766
+    }
+  ],
+  "control": {
+    "question": "what objects are displayed alongside the bathroom sinks in the case?",
+    "score": 0.08241415023803711
+  },
+  "mixed": {
+    "question": "Question: What are the sinks in the bathroom display placed inside?",
+    "score": 0.037933349609375
+  },
+  "control_rank": 60,
+  "mixed_rank": 32,
+  "usual_rank": 32,
+  "new_answer": "soap bottles",
+  "new_rewrite": "a display of bathroom sinks and soap bottles in a department store"
+}

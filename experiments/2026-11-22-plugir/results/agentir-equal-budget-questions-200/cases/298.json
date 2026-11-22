@@ -1,0 +1,80 @@
+{
+  "qid": 298,
+  "sample": 1,
+  "first_candidates": [
+    "Question: What color is the elephant standing on the grass by the water?",
+    "Question: What is the color of the elephant standing on the grass by the water?",
+    "what is the color of the elephant standing next to a body of water?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "second_candidates": [
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "Question: What is the color of the elephant?",
+    "Question: What is the color of the elephant?",
+    "what is the color of the elephant?"
+  ],
+  "paths": [
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "grass",
+        "water",
+        "trees"
+      ],
+      "score": 0.04493856430053711
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "grass",
+        "water",
+        "trees"
+      ],
+      "score": 0.04493856430053711,
+      "duplicate_of": 0
+    },
+    {
+      "question": "Question: What is the color of the elephant?",
+      "answers": [
+        "gray",
+        "brown",
+        "dark"
+      ],
+      "score": 0.031201839447021484
+    },
+    {
+      "question": "Question: What is the color of the elephant?",
+      "answers": [
+        "gray",
+        "brown",
+        "dark"
+      ],
+      "score": 0.031201839447021484,
+      "duplicate_of": 2
+    },
+    {
+      "question": "what is the color of the elephant?",
+      "answers": [
+        "gray",
+        "grey",
+        "brown"
+      ],
+      "score": 0.036341190338134766
+    }
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "score": 0.04493856430053711
+  },
+  "mixed": {
+    "question": "Question: What color is the elephant standing on the grass by the water?",
+    "score": 0.018605709075927734
+  },
+  "control_rank": 29,
+  "mixed_rank": 28,
+  "usual_rank": 28,
+  "new_answer": "water",
+  "new_rewrite": "an elephant standing on grass by the water"
+}

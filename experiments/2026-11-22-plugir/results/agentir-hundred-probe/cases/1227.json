@@ -1,0 +1,101 @@
+{
+  "qid": 1227,
+  "initial": "the river is blue with buildings near it",
+  "initial_rank": 38,
+  "evidence": [
+    "two people watching a bird fly over a bridge",
+    "a boat and two boats in a river",
+    "an airplane flying low over a city and bridge",
+    "a boat floating down a river with houses behind it",
+    "a group of boats parked at a dock",
+    "a person is skating on a board in the middle of a river",
+    "a train is traveling along a river in the mountains",
+    "a group of small fishing boats docked at a marina",
+    "a train traveling over a city street with a slew of tall buildings",
+    "several boats going down a canal with people in boats"
+  ],
+  "candidates": [
+    "Question: what is the activity being performed by the person in the image?",
+    "what is the location where the person is skating on the board?",
+    "what is the color of the bridge visible in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: what is the activity being performed by the person in the image?",
+      "answers": [
+        "watching a bird",
+        "skating",
+        "fishing"
+      ],
+      "score": 0.08008623123168945
+    },
+    {
+      "question": "what is the location where the person is skating on the board?",
+      "answers": [
+        "a board",
+        "a boat",
+        "a bridge"
+      ],
+      "score": 0.04150104522705078
+    },
+    {
+      "question": "what is the color of the bridge visible in the image?",
+      "answers": [
+        "blue",
+        "gray",
+        "brown"
+      ],
+      "score": 0.03412675857543945
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "boats",
+        "train",
+        "airplane"
+      ],
+      "score": 0.13107967376708984
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "boats",
+        "train",
+        "airplane"
+      ],
+      "score": 0.13107967376708984,
+      "duplicate_of": 3
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.065,
+  "probe_selection_seconds": 2.021,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "what is the other object in the image?",
+      "answer": "the other object is a boat.",
+      "rewrite": "a blue river with buildings nearby and a boat",
+      "rank": 53,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the other object in the image?",
+      "answer": "the other object is a boat.",
+      "rewrite": "a blue river with buildings nearby and a boat",
+      "rank": 53,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the other object in the image?",
+      "answer": "the other object is a boat.",
+      "rewrite": "a blue river with buildings nearby and a boat",
+      "rank": 53,
+      "hit": false
+    }
+  },
+  "seconds": 17.645
+}

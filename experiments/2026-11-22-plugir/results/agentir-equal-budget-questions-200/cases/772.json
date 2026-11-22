@@ -1,0 +1,78 @@
+{
+  "qid": 772,
+  "sample": 2,
+  "first_candidates": [
+    "what is the location where the girl is holding the video game controller?",
+    "what is the girl holding in the other hand besides the video game controller?",
+    "Question: What is the girl holding in the other hand besides the video game controller?",
+    "what is the location where the girl is holding a video game controller?",
+    "what is the girl holding in the other hand besides the video game controller?"
+  ],
+  "second_candidates": [
+    "Question: Is the girl holding the video game controller in a living room or a park?",
+    "where is the girl holding the video game controller like a bow and arrow?",
+    "what is the background setting of the scene where the girl is holding the video game controller?",
+    "What color jacket is the girl wearing?",
+    "what is the girl holding the video game controller like a bow and arrow wearing?"
+  ],
+  "paths": [
+    {
+      "question": "Question: Is the girl holding the video game controller in a living room or a park?",
+      "answers": [
+        "living room",
+        "park",
+        "both"
+      ],
+      "score": 0.004296302795410156
+    },
+    {
+      "question": "where is the girl holding the video game controller like a bow and arrow?",
+      "answers": [
+        "living room",
+        "lobby",
+        "unknown"
+      ],
+      "score": 0.022277355194091797
+    },
+    {
+      "question": "what is the background setting of the scene where the girl is holding the video game controller?",
+      "answers": [
+        "living room",
+        "park",
+        "tennis court"
+      ],
+      "score": 0.12886428833007812
+    },
+    {
+      "question": "What color jacket is the girl wearing?",
+      "answers": [
+        "blue",
+        "black",
+        "red"
+      ],
+      "score": 0.07766389846801758
+    },
+    {
+      "question": "what is the girl holding the video game controller like a bow and arrow wearing?",
+      "answers": [
+        "a white t-shirt",
+        "a pink dress",
+        "shorts and a tank top"
+      ],
+      "score": 0.1704411506652832
+    }
+  ],
+  "control": {
+    "question": "what is the girl holding the video game controller like a bow and arrow wearing?",
+    "score": 0.1704411506652832
+  },
+  "mixed": {
+    "question": "Question: Where is the girl holding the video game controller?",
+    "score": 0.17061853408813477
+  },
+  "control_rank": 57,
+  "mixed_rank": 56,
+  "usual_rank": 71,
+  "new_answer": "black hoodie",
+  "new_rewrite": "a girl wearing a black hoodie holding a video game controller like a bow and arrow"
+}

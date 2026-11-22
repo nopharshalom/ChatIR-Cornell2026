@@ -1,0 +1,179 @@
+{
+  "qid": 577,
+  "initial": "the horses are positioned on the ground near the car",
+  "initial_rank": 240,
+  "displayed": [
+    22337,
+    46699,
+    48658,
+    12845,
+    36669,
+    8955,
+    14943,
+    43790,
+    2468,
+    35720
+  ],
+  "evidence": [
+    "a man in a horse drawn carriage in front of an edwardian building",
+    "a horse that has an apron on it",
+    "two dogs in a field",
+    "a horse pulled trolley with two people sitting in the front",
+    "a group of horses and cattle are grazing at a horse farm",
+    "a photo of a group of horses and some zebras",
+    "a motorcycle is parked near a white car",
+    "some horseback riders walking in a field in a large grassy area",
+    "a woman with skis standing next to a car",
+    "a group of horses eating grass in a hillside"
+  ],
+  "rejected_captions": [
+    "horses standing together at a table in the sand",
+    "a large group of horses pulling a carriage",
+    "two black horse statues in a car",
+    "the statues are in the bed of a truck",
+    "a blue painted wall",
+    "the horses are running in the sand",
+    "a brown horse standing on a tiled walkway in front of cars",
+    "the grass is green",
+    "black horses pulling a plow in a field",
+    "a group of horses standing at the curb"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the color of the car near the horses?",
+      "what is the color of the car near the horses?",
+      "what is the color of the car near the horses?",
+      "what is the color of the car?",
+      "what is the color of the car positioned with the horses?"
+    ],
+    "question": "what is the color of the car?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the car near the horses?",
+          "answers": [
+            "white",
+            "black",
+            "red"
+          ],
+          "score": 0.05022287368774414
+        },
+        {
+          "question": "what is the color of the car near the horses?",
+          "answers": [
+            "white",
+            "black",
+            "red"
+          ],
+          "score": 0.05022287368774414,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the car near the horses?",
+          "answers": [
+            "white",
+            "black",
+            "red"
+          ],
+          "score": 0.05022287368774414,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the car?",
+          "answers": [
+            "white",
+            "black",
+            "red"
+          ],
+          "score": 0.08140277862548828
+        },
+        {
+          "question": "what is the color of the car positioned with the horses?",
+          "answers": [
+            "white",
+            "black",
+            "red"
+          ],
+          "score": 0.058046817779541016
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.074,
+      "probe_selection_seconds": 1.329,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "silver",
+    "rewrite": "silver horses are positioned on the ground near a silver car",
+    "raw_rank": 665,
+    "unseen_rank": 655
+  },
+  "rejected": {
+    "candidates": [
+      "what color are the horses?",
+      "what is the other object in the image?",
+      "What is the color of the car near the horses?",
+      "what is the color of the car?",
+      "what is the surface or ground type where the horses and car are positioned?"
+    ],
+    "question": "what is the color of the car?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what color are the horses?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.07879209518432617
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a car",
+            "a motorcycle",
+            "a horse"
+          ],
+          "score": 0.04535627365112305
+        },
+        {
+          "question": "What is the color of the car near the horses?",
+          "answers": [
+            "white",
+            "black",
+            "red"
+          ],
+          "score": 0.05022287368774414
+        },
+        {
+          "question": "what is the color of the car?",
+          "answers": [
+            "white",
+            "black",
+            "red"
+          ],
+          "score": 0.08140277862548828
+        },
+        {
+          "question": "what is the surface or ground type where the horses and car are positioned?",
+          "answers": [
+            "grass",
+            "dirt",
+            "asphalt"
+          ],
+          "score": 0.03883504867553711
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.156,
+      "probe_selection_seconds": 2.348,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "silver",
+    "rewrite": "silver horses are positioned on the ground near a silver car",
+    "raw_rank": 665,
+    "unseen_rank": 655
+  }
+}

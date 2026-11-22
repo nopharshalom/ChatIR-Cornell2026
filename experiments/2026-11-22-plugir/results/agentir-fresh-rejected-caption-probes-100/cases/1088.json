@@ -1,0 +1,178 @@
+{
+  "qid": 1088,
+  "initial": "a baseball game being played in a smaller venue",
+  "initial_rank": 359,
+  "displayed": [
+    20690,
+    27755,
+    38654,
+    22021,
+    14973,
+    4541,
+    32843,
+    9317,
+    25729,
+    16225
+  ],
+  "evidence": [
+    "a baseball player swinging a bat at a ball while a catcher watches",
+    "a baseball player swinging a bat at a ball while crowds are watching",
+    "a professional baseball player swinging his bat",
+    "two baseball players standing on the mound while a crowd is watching",
+    "a person swinging a baseball bat while the crowd watches",
+    "a young boy is swinging a baseball bat at a pitch",
+    "a batter swinging at a ball as the crowd watches",
+    "a baseball player swings his bat at a ball while fans watch",
+    "baseball player at bat and umpire in the stands",
+    "a baseball player swings at a ball as the stands clap"
+  ],
+  "rejected_captions": [
+    "young baseball players are playing baseball",
+    "a game of baseball being played in a stadium",
+    "the man is on the mound and the catcher is near him",
+    "a baseball field with several players out of the game",
+    "a baseball game with a catcher and batter on the field",
+    "a ballplayer in a game",
+    "players and umpire in the baseball game",
+    "an adult is throwing a baseball",
+    "a baseball player throwing a ball into a dugout",
+    "a baseball game with two players and spectators on the field"
+  ],
+  "usual": {
+    "candidates": [
+      "Question: Who is the person swinging the baseball bat?",
+      "what is the location of the baseball player swinging the bat?",
+      "Question: Who is watching the baseball player swinging the bat?",
+      "Question: What is the gender and age group of the baseball player swinging the bat?",
+      "what is the professional level or skill type of the baseball player swinging the bat?"
+    ],
+    "question": "Question: Who is the person swinging the baseball bat?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: Who is the person swinging the baseball bat?",
+          "answers": [
+            "professional player",
+            "young boy",
+            "crowd member"
+          ],
+          "score": 0.12056779861450195
+        },
+        {
+          "question": "what is the location of the baseball player swinging the bat?",
+          "answers": [
+            "smaller venue",
+            "small stadium",
+            "local park"
+          ],
+          "score": 0.01792144775390625
+        },
+        {
+          "question": "Question: Who is watching the baseball player swinging the bat?",
+          "answers": [
+            "catcher",
+            "crowds",
+            "fans"
+          ],
+          "score": 0.024281978607177734
+        },
+        {
+          "question": "Question: What is the gender and age group of the baseball player swinging the bat?",
+          "answers": [
+            "male, professional",
+            "male, amateur",
+            "female, amateur"
+          ],
+          "score": 0.04646015167236328
+        },
+        {
+          "question": "what is the professional level or skill type of the baseball player swinging the bat?",
+          "answers": [
+            "professional",
+            "amateur",
+            "youth"
+          ],
+          "score": 0.026703357696533203
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.065,
+      "probe_selection_seconds": 2.686,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "The person in the navy blue shirt and grey pants.",
+    "rewrite": "a baseball game being played in a smaller venue, featuring a batter in a navy blue shirt and grey pants swinging the bat",
+    "raw_rank": 68,
+    "unseen_rank": 68
+  },
+  "rejected": {
+    "candidates": [
+      "Question: Is the player swinging the bat a professional or a young boy?",
+      "Question: Is the crowd watching the baseball game up close in the stands or from a distance?",
+      "Question: What is the lighting condition of the baseball game, is it day or night?",
+      "Question: What is the gender of the baseball player swinging the bat?",
+      "Question: What is the gender of the baseball player swinging the bat?"
+    ],
+    "question": "Question: What is the gender of the baseball player swinging the bat?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: Is the player swinging the bat a professional or a young boy?",
+          "answers": [
+            "professional",
+            "young boy",
+            "amateur"
+          ],
+          "score": 0.012470245361328125
+        },
+        {
+          "question": "Question: Is the crowd watching the baseball game up close in the stands or from a distance?",
+          "answers": [
+            "up close",
+            "from a distance",
+            "not visible"
+          ],
+          "score": 0.007980823516845703
+        },
+        {
+          "question": "Question: What is the lighting condition of the baseball game, is it day or night?",
+          "answers": [
+            "day",
+            "night",
+            "hard to tell"
+          ],
+          "score": 0.0010876655578613281
+        },
+        {
+          "question": "Question: What is the gender of the baseball player swinging the bat?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.026759624481201172
+        },
+        {
+          "question": "Question: What is the gender of the baseball player swinging the bat?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.026759624481201172,
+          "duplicate_of": 3
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.191,
+      "probe_selection_seconds": 2.067,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "male",
+    "rewrite": "a male baseball player swinging a bat in a smaller venue",
+    "raw_rank": 786,
+    "unseen_rank": 781
+  }
+}

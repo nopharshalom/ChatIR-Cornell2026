@@ -1,0 +1,79 @@
+{
+  "qid": 1114,
+  "candidates": [
+    "Question: Is the skier a man or a woman?",
+    "Question: What is the lighting condition or time of day in the image?",
+    "Question: What is the specific terrain or setting of the snowy path (e.g., a hill, a forest, a slope, or a cliff)?",
+    "Question: Is the skier wearing a jacket?",
+    "Question: What is the gender of the skier(s) in the image?"
+  ],
+  "kl": {
+    "question": "Question: What is the lighting condition or time of day in the image?",
+    "answer": "daytime",
+    "rewrite": "two skiers move down a snowy path during the daytime",
+    "raw_rank": 27,
+    "unseen_rank": 17
+  },
+  "probe": {
+    "question": "Question: What is the lighting condition or time of day in the image?",
+    "answer": "daytime",
+    "rewrite": "two skiers move down a snowy path during the daytime",
+    "raw_rank": 27,
+    "unseen_rank": 17
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: Is the skier a man or a woman?",
+        "answers": [
+          "man",
+          "woman",
+          "unknown"
+        ],
+        "score": 0.004273414611816406
+      },
+      {
+        "question": "Question: What is the lighting condition or time of day in the image?",
+        "answers": [
+          "sunny",
+          "overcast",
+          "night"
+        ],
+        "score": 0.06676483154296875
+      },
+      {
+        "question": "Question: What is the specific terrain or setting of the snowy path (e.g., a hill, a forest, a slope, or a cliff)?",
+        "answers": [
+          "a hill",
+          "a forest",
+          "a slope"
+        ],
+        "score": 0.00406646728515625
+      },
+      {
+        "question": "Question: Is the skier wearing a jacket?",
+        "answers": [
+          "Yes",
+          "No",
+          "I don't know"
+        ],
+        "score": 0.0011363029479980469
+      },
+      {
+        "question": "Question: What is the gender of the skier(s) in the image?",
+        "answers": [
+          "male",
+          "female",
+          "one of each"
+        ],
+        "score": 0.024328231811523438
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.059,
+    "probe_selection_seconds": 2.563,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": true
+}

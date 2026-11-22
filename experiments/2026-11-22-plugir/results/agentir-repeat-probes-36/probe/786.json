@@ -1,0 +1,108 @@
+{
+  "qid": 786,
+  "arm": "probe",
+  "after_round": 2,
+  "ranks": [
+    137,
+    207,
+    213,
+    207,
+    217,
+    77,
+    80,
+    77,
+    74,
+    78,
+    73
+  ],
+  "continuation": [
+    {
+      "round": 3,
+      "query_before": "A man wearing a blue shirt is playing tennis on a court, with a person seated on a bench visible in the background.",
+      "question": "Is the player wearing a blue shirt?",
+      "answer": "yes",
+      "query_after": "a man in a blue shirt playing tennis on a tennis court with a person sitting on a bench in the background",
+      "searches": [
+        {
+          "query": "A man in a blue shirt playing tennis on a court with a person sitting on a bench, where the background is a sunny stadium filled with spectators.",
+          "ids": [
+            2607,
+            22305,
+            16211
+          ],
+          "captions": [
+            "a man in blue standing with a tennis racquet on a blue court",
+            "a tennis player is on the court",
+            "a man playing tennis in front of an audience"
+          ]
+        },
+        {
+          "query": "A man in a blue shirt playing tennis on a court with a person sitting on a bench, where the background is a dimly lit indoor arena with a sparse audience.",
+          "ids": [
+            3832,
+            22305,
+            48895
+          ],
+          "captions": [
+            "two men are playing tennis in front of a crowd",
+            "a tennis player is on the court",
+            "the tennis player is in front of a crowd"
+          ]
+        }
+      ],
+      "raw_plan": "A man in a blue shirt playing tennis on a court with a person sitting on a bench, where the background is a sunny stadium filled with spectators.\nA man in a blue shirt playing tennis on a court with a person sitting on a bench, where the background is a dimly lit indoor arena with a sparse audience.",
+      "generated": "Is the player wearing a blue shirt?",
+      "fallback": false
+    },
+    {
+      "round": 4,
+      "query_before": "a man in a blue shirt playing tennis on a tennis court with a person sitting on a bench in the background",
+      "question": "what is the other object in the image?",
+      "answer": "a person sitting on a bench.",
+      "query_after": "A man wearing a blue shirt is playing tennis on a court, with a person sitting on a bench visible in the background."
+    },
+    {
+      "round": 5,
+      "query_before": "A man wearing a blue shirt is playing tennis on a court, with a person sitting on a bench visible in the background.",
+      "question": "what is the color of the tennis court where the man is playing?",
+      "answer": "green",
+      "query_after": "a man in a blue shirt playing tennis on a green court with a person sitting on a bench in the background"
+    },
+    {
+      "round": 6,
+      "query_before": "a man in a blue shirt playing tennis on a green court with a person sitting on a bench in the background",
+      "question": "what is the gender of the tennis player wearing a blue shirt on a green court?",
+      "answer": "male",
+      "query_after": "A man wearing a blue shirt plays tennis on a green court, with a person seated on a bench in the background."
+    },
+    {
+      "round": 7,
+      "query_before": "A man wearing a blue shirt plays tennis on a green court, with a person seated on a bench in the background.",
+      "question": "what is the other object in the image?",
+      "answer": "a person sitting on a bench.",
+      "query_after": "a man in a blue shirt playing tennis on a green court with a person sitting on a bench in the background"
+    },
+    {
+      "round": 8,
+      "query_before": "a man in a blue shirt playing tennis on a green court with a person sitting on a bench in the background",
+      "question": "what is the other object in the image?",
+      "answer": "a person sitting on a bench.",
+      "query_after": "A man wearing a blue shirt is playing tennis on a green court, with a person seated on a bench visible in the background."
+    },
+    {
+      "round": 9,
+      "query_before": "A man wearing a blue shirt is playing tennis on a green court, with a person seated on a bench visible in the background.",
+      "question": "what is the other object in the image?",
+      "answer": "a person sitting on a bench.",
+      "query_after": "a man in a blue shirt playing tennis on a green court, with a person sitting on a bench in the background"
+    },
+    {
+      "round": 10,
+      "query_before": "a man in a blue shirt playing tennis on a green court, with a person sitting on a bench in the background",
+      "question": "what is the other object in the image?",
+      "answer": "a person sitting on a bench.",
+      "query_after": "A man wearing a blue shirt is playing tennis on a green court, while a person sits on a bench in the background."
+    }
+  ],
+  "seconds": 145.1
+}

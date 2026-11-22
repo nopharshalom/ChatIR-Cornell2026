@@ -1,0 +1,64 @@
+{
+  "qid": 1004,
+  "arm": "probe",
+  "after_round": 6,
+  "ranks": [
+    30,
+    36,
+    55,
+    54,
+    39,
+    14,
+    13,
+    19,
+    4
+  ],
+  "continuation": [
+    {
+      "round": 7,
+      "query_before": "four people wearing winter clothing, hats, and skis are cross-country skiing on a snowy slope, holding ski poles",
+      "question": "Are the people standing still or skiing down the slope?",
+      "answer": "skiing down the slope",
+      "query_after": "four people skiing down a snowy slope wearing winter clothing, holding ski poles, engaged in cross-country skiing",
+      "searches": [
+        {
+          "query": "Four people in winter gear with skis and poles standing on a snowy slope, possibly at a cross-country ski resort or a local park trail.",
+          "ids": [
+            12761,
+            2318,
+            41155
+          ],
+          "captions": [
+            "a group of people on skis",
+            "people on skis are standing on a snowy hill",
+            "snow on the ground"
+          ]
+        },
+        {
+          "query": "Four people in winter gear with skis and poles standing on a snowy slope, possibly at a high-altitude mountain peak or a groomed alpine run.",
+          "ids": [
+            11311,
+            42589,
+            20383
+          ],
+          "captions": [
+            "a group of people skiing down a mountain",
+            "people dressed in skis walking up a snowy slope",
+            "a group of people on skis on a snow covered pond"
+          ]
+        }
+      ],
+      "raw_plan": "Four people in winter gear with skis and poles standing on a snowy slope, possibly at a cross-country ski resort or a local park trail.\nFour people in winter gear with skis and poles standing on a snowy slope, possibly at a high-altitude mountain peak or a groomed alpine run.",
+      "generated": "Are the people standing still or skiing down the slope?",
+      "fallback": false
+    },
+    {
+      "round": 8,
+      "query_before": "four people skiing down a snowy slope wearing winter clothing, holding ski poles, engaged in cross-country skiing",
+      "question": "what is the specific background scenery behind the four people skiing down the slope?",
+      "answer": "snowy mountains",
+      "query_after": "four people in winter clothing skiing down a snowy slope with ski poles, set against a backdrop of snowy mountains"
+    }
+  ],
+  "seconds": 11.2
+}

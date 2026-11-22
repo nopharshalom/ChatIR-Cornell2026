@@ -1,0 +1,80 @@
+{
+  "qid": 1661,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the airplane flying in the air on a sunny day?",
+    "what is the color of the airplane flying in the air on a sunny day?",
+    "Question: what is the color and pattern of the airplane flying in the air on a sunny day?",
+    "What is the color of the airplane?",
+    "what is the type of airplane flying in the air on a sunny day?"
+  ],
+  "second_candidates": [
+    "what is the color of the airplane flying in the air on a sunny day?",
+    "what is the specific type of airplane flying in the air on a sunny day?",
+    "what is the color of the airplane?",
+    "what is the specific type of airplane flying in the air on a sunny day?",
+    "what is the color of the airplane flying in the air on a sunny day?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the airplane flying in the air on a sunny day?",
+      "answers": [
+        "grey",
+        "black and white",
+        "white and red"
+      ],
+      "score": 0.1463031768798828
+    },
+    {
+      "question": "what is the specific type of airplane flying in the air on a sunny day?",
+      "answers": [
+        "fighter",
+        "propeller",
+        "jetliner"
+      ],
+      "score": 0.09734964370727539
+    },
+    {
+      "question": "what is the color of the airplane?",
+      "answers": [
+        "grey",
+        "black and white",
+        "white"
+      ],
+      "score": 0.08178520202636719
+    },
+    {
+      "question": "what is the specific type of airplane flying in the air on a sunny day?",
+      "answers": [
+        "fighter",
+        "propeller",
+        "jetliner"
+      ],
+      "score": 0.09734964370727539,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the color of the airplane flying in the air on a sunny day?",
+      "answers": [
+        "grey",
+        "black and white",
+        "white and red"
+      ],
+      "score": 0.1463031768798828,
+      "duplicate_of": 0
+    }
+  ],
+  "control": {
+    "question": "What is the color of the airplane?",
+    "score": 0.17035245895385742
+  },
+  "mixed": {
+    "question": "What is the color of the airplane?",
+    "score": 0.17035245895385742
+  },
+  "control_rank": 219,
+  "mixed_rank": 219,
+  "usual_rank": 219,
+  "new_answer": null,
+  "new_rewrite": null
+}

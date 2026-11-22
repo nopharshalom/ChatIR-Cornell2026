@@ -1,0 +1,275 @@
+{
+  "qid": 207,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000291751.jpg",
+  "queries": [
+    "a blue and white passenger plane flying in the sky",
+    "A blue and white passenger aircraft soaring through the sky.",
+    "a blue and white Air Transat airplane flying in the sky"
+  ],
+  "ranks": [
+    11,
+    13,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a blue and white passenger plane flying in the sky",
+      "question": "Question: What is the location where the blue and white passenger plane is flying?",
+      "answer": "sky",
+      "query_after": "A blue and white passenger aircraft soaring through the sky.",
+      "displayed_ids": [
+        12338,
+        13256,
+        3210,
+        40668,
+        1348,
+        6270,
+        14357,
+        10066,
+        17891,
+        33021
+      ],
+      "selected_ids": [
+        20602,
+        19700,
+        15291,
+        40515,
+        19978,
+        11532,
+        24039,
+        37587,
+        12239,
+        21703
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what color are the shorts worn by the man riding the surfboard?",
+          "answers": [
+            "white",
+            "black",
+            "red"
+          ],
+          "score": 0.03463602066040039
+        },
+        {
+          "question": "Question: What color is the shirt worn by the man riding the surfboard?",
+          "answers": [
+            "white",
+            "blue",
+            "black"
+          ],
+          "score": 0.006659507751464844
+        },
+        {
+          "question": "Question: What is the location where the blue and white passenger plane is flying?",
+          "answers": [
+            "on the runway",
+            "over trees",
+            "in the clear sky"
+          ],
+          "score": 0.09274530410766602
+        },
+        {
+          "question": "Question: How many engines does the blue and white passenger plane have?",
+          "answers": [
+            "two",
+            "three",
+            "four"
+          ],
+          "score": 0.0026798248291015625
+        },
+        {
+          "question": "Question: What color are the wings of the blue and white passenger plane?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.04511117935180664
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color are the shorts worn by the man riding the surfboard?",
+          "answers": [
+            "white",
+            "black",
+            "red"
+          ],
+          "score": 0.03079509735107422
+        },
+        {
+          "question": "Question: What color is the shirt worn by the man riding the surfboard?",
+          "answers": [
+            "white",
+            "blue",
+            "black"
+          ],
+          "score": 0.006659507751464844
+        },
+        {
+          "question": "Question: What color are the wheels of the airplane?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.012446880340576172
+        },
+        {
+          "question": "Question: What color are the wheels of the airplane?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.012446880340576172,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What color is the sky in the background of the blue and white passenger plane?",
+          "answers": [
+            "blue",
+            "clear blue",
+            "no clouds"
+          ],
+          "score": 0.01869678497314453
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "A blue and white passenger aircraft soaring through the sky.",
+      "question": "what is the other object in the image?",
+      "answer": "air transat airplane",
+      "query_after": "a blue and white Air Transat airplane flying in the sky",
+      "displayed_ids": [
+        12338,
+        40668,
+        1348,
+        13256,
+        3210,
+        14357,
+        6270,
+        17891,
+        30028,
+        13530
+      ],
+      "selected_ids": [
+        38709,
+        40515,
+        37587,
+        43984,
+        45918,
+        15291,
+        42359,
+        8182,
+        21703,
+        24712
+      ],
+      "rejected_count": 12,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "clouds",
+            "sky",
+            "runway"
+          ],
+          "score": 0.09098386764526367
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "clouds",
+            "sky",
+            "runway"
+          ],
+          "score": 0.09098386764526367,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "clouds",
+            "sky",
+            "runway"
+          ],
+          "score": 0.09098386764526367,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the kite in the image?",
+          "answers": [
+            "blue",
+            "white",
+            "red"
+          ],
+          "score": 0.05866575241088867
+        },
+        {
+          "question": "Question: What is the color of the kite in the image?",
+          "answers": [
+            "blue",
+            "blue and white",
+            "multicolored"
+          ],
+          "score": 0.008826255798339844
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the specific type of the blue and white plane flying in the sky?",
+          "answers": [
+            "airliner",
+            "commercial jet",
+            "passenger plane"
+          ],
+          "score": 0.006833076477050781
+        },
+        {
+          "question": "Question: What color is the kite flying in the sky?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.0422511100769043
+        },
+        {
+          "question": "Question: What is the color of the kite flying in the sky?",
+          "answers": [
+            "red",
+            "blue",
+            "unknown"
+          ],
+          "score": 0.04265403747558594
+        },
+        {
+          "question": "what is the color of the kite flying in the sky?",
+          "answers": [
+            "blue",
+            "white",
+            "red"
+          ],
+          "score": 0.05087757110595703
+        },
+        {
+          "question": "Question: What is the specific type of the blue and white plane flying in the sky?",
+          "answers": [
+            "commercial airliner",
+            "private jet",
+            "propeller plane"
+          ],
+          "score": 0.03592205047607422
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

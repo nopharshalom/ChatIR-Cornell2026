@@ -1,0 +1,1325 @@
+{
+  "qid": 675,
+  "sample": "original",
+  "target": "unlabeled2017/000000299519.jpg",
+  "queries": [
+    "the crouching catcher has his arm extended to catch the ball",
+    "a boy in a white jersey crouches as a catcher with his arm extended to catch the ball",
+    "a crouching baseball catcher in a white jersey extends his arm to catch the ball, with a pitcher also wearing a white jersey",
+    "a crouching baseball catcher in a white jersey extends his arm to catch the ball, with a pitcher also wearing a white jersey in the background",
+    "a crouching catcher in a red jersey extends his arm to catch the ball, while the pitcher and another boy in white jerseys stand nearby",
+    "a crouching baseball catcher wearing a red jersey and a black glove has his arm extended to catch the ball, with two other players in white jerseys nearby",
+    "a baseball game scene featuring a crouching catcher in a red jersey with a black glove and a pitcher in a white jersey with a brown glove, both on a field",
+    "a baseball game scene featuring a crouching catcher in a red jersey with a black glove and a pitcher in a white jersey with a brown glove, with a crowd in the background",
+    "a crouching baseball catcher wearing a red jersey and a black glove is ready to catch the ball, while a pitcher in a white jersey with a brown glove stands nearby, with a crowd watching in the background",
+    "a crouching catcher in a red jersey with a black glove is positioned in front of a crowd, while a pitcher in a white jersey with a brown glove stands ready to throw the ball",
+    "a crouching baseball catcher wearing a red jersey and a black glove is ready to catch the ball, with a crowd visible in the background"
+  ],
+  "ranks": [
+    776,
+    889,
+    573,
+    594,
+    1269,
+    863,
+    666,
+    233,
+    442,
+    347,
+    622
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "the crouching catcher has his arm extended to catch the ball",
+      "question": "Question: What color is the jersey of the boy playing baseball?",
+      "answer": "white",
+      "query_after": "a boy in a white jersey crouches as a catcher with his arm extended to catch the ball",
+      "displayed_ids": [
+        17089,
+        4430,
+        44725,
+        3266,
+        40715,
+        17145,
+        15411,
+        32703,
+        3361,
+        14064
+      ],
+      "selected_ids": [
+        45323,
+        12329,
+        11131,
+        49685,
+        43261,
+        20722,
+        16026,
+        29382,
+        39689,
+        42735
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: What color is the uniform of the crouching catcher?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.11724567413330078
+        },
+        {
+          "question": "Question: What is the color of the uniform worn by the crouching catcher?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.11481332778930664
+        },
+        {
+          "question": "Question: What is the color of the uniform worn by the person crouching with an extended arm?",
+          "answers": [
+            "blue",
+            "white",
+            "yellow"
+          ],
+          "score": 0.07058429718017578
+        },
+        {
+          "question": "Question: What is the gender of the person crouching with an extended arm?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.0413966178894043
+        },
+        {
+          "question": "Question: Question: What is the gender of the person crouching with an extended arm?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.03740835189819336
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the uniform of the catcher?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.1322035789489746
+        },
+        {
+          "question": "Question: What color is the jersey of the boy playing baseball?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.1450209617614746
+        },
+        {
+          "question": "Question: What color are the shorts of the catcher?",
+          "answers": [
+            "blue",
+            "white",
+            "gray"
+          ],
+          "score": 0.05549478530883789
+        },
+        {
+          "question": "Question: What color is the uniform of the catcher?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.1322035789489746,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the action of the baseball player holding the bat?",
+          "answers": [
+            "swinging",
+            "holding",
+            "waiting"
+          ],
+          "score": 0.009795188903808594
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a boy in a white jersey crouches as a catcher with his arm extended to catch the ball",
+      "question": "what color is the jersey of the pitcher?",
+      "answer": "white",
+      "query_after": "a crouching baseball catcher in a white jersey extends his arm to catch the ball, with a pitcher also wearing a white jersey",
+      "displayed_ids": [
+        3361,
+        17145,
+        17089,
+        32703,
+        4430,
+        7418,
+        45128,
+        29530,
+        28342,
+        16458
+      ],
+      "selected_ids": [
+        19630,
+        8648,
+        38758,
+        20722,
+        37737,
+        19705,
+        25273,
+        24241,
+        7127,
+        35535
+      ],
+      "rejected_count": 15,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "hat",
+            "glove",
+            "bat"
+          ],
+          "score": 0.042813777923583984
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "hat",
+            "glove",
+            "bat"
+          ],
+          "score": 0.042813777923583984,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "hat",
+            "glove",
+            "bat"
+          ],
+          "score": 0.042813777923583984,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "hat",
+            "glove",
+            "bat"
+          ],
+          "score": 0.042813777923583984,
+          "duplicate_of": 0
+        },
+        {
+          "question": "What color is the ball being caught by the boy?",
+          "answers": [
+            "white",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.07500886917114258
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color are the shorts of the catcher?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.07990407943725586
+        },
+        {
+          "question": "what color is the jersey of the pitcher?",
+          "answers": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "score": 0.14733409881591797
+        },
+        {
+          "question": "what color is the jersey of the boy playing baseball?",
+          "answers": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "score": 0.13791465759277344
+        },
+        {
+          "question": "what color is the jersey of the catcher?",
+          "answers": [
+            "blue",
+            "white",
+            "red"
+          ],
+          "score": 0.13684940338134766
+        },
+        {
+          "question": "what color is the jersey of the catcher?",
+          "answers": [
+            "blue",
+            "white",
+            "red"
+          ],
+          "score": 0.13684940338134766,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "a crouching baseball catcher in a white jersey extends his arm to catch the ball, with a pitcher also wearing a white jersey",
+      "question": "what is the color of the pitcher's jersey?",
+      "answer": "white",
+      "query_after": "a crouching baseball catcher in a white jersey extends his arm to catch the ball, with a pitcher also wearing a white jersey in the background",
+      "displayed_ids": [
+        18800,
+        17145,
+        29530,
+        2467,
+        32623,
+        15950,
+        41813,
+        45128,
+        28522,
+        16458
+      ],
+      "selected_ids": [
+        38758,
+        34367,
+        42628,
+        34748,
+        621,
+        18962,
+        49559,
+        35070,
+        6169,
+        45128
+      ],
+      "rejected_count": 21,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "baseball bat",
+            "baseball glove",
+            "baseball"
+          ],
+          "score": 0.026009559631347656
+        },
+        {
+          "question": "what is the color of the catcher's jersey?",
+          "answers": [
+            "white",
+            "black",
+            "blue"
+          ],
+          "score": 0.07583045959472656
+        },
+        {
+          "question": "what is the color of the pitcher's jersey?",
+          "answers": [
+            "white",
+            "red",
+            "blue"
+          ],
+          "score": 0.13489246368408203
+        },
+        {
+          "question": "what is the color of the catcher's jersey?",
+          "answers": [
+            "white",
+            "black",
+            "blue"
+          ],
+          "score": 0.07583045959472656,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the catcher's jersey?",
+          "answers": [
+            "white",
+            "black",
+            "blue"
+          ],
+          "score": 0.07583045959472656,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color are the shorts of the catcher?",
+          "answers": [
+            "white",
+            "blue",
+            "black"
+          ],
+          "score": 0.06571197509765625
+        },
+        {
+          "question": "Question: What color is the cap of the catcher?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.12598848342895508
+        },
+        {
+          "question": "Question: What color is the cap of the catcher?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.12598848342895508,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what color is the ball being caught by the crouching catcher?",
+          "answers": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.1165919303894043
+        },
+        {
+          "question": "what is the color of the ball being caught by the crouching catcher?",
+          "answers": [
+            "white",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.0637197494506836
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a crouching baseball catcher in a white jersey extends his arm to catch the ball, with a pitcher also wearing a white jersey in the background",
+      "question": "what is the color of the catcher's jersey?",
+      "answer": "red",
+      "query_after": "a crouching catcher in a red jersey extends his arm to catch the ball, while the pitcher and another boy in white jerseys stand nearby",
+      "displayed_ids": [
+        18800,
+        17145,
+        2467,
+        29530,
+        1777,
+        15950,
+        45128,
+        25273,
+        18048,
+        17089
+      ],
+      "selected_ids": [
+        49559,
+        34367,
+        35070,
+        1777,
+        621,
+        39496,
+        34748,
+        38758,
+        6169,
+        27378
+      ],
+      "rejected_count": 24,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bat",
+            "baseball",
+            "umpire"
+          ],
+          "score": 0.020459651947021484
+        },
+        {
+          "question": "what is the color of the catcher's jersey?",
+          "answers": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "score": 0.13922786712646484
+        },
+        {
+          "question": "what is the color of the catcher's jersey?",
+          "answers": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "score": 0.13922786712646484,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the catcher's jersey?",
+          "answers": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "score": 0.13922786712646484,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What color is the jersey of the catcher?",
+          "answers": [
+            "white",
+            "red",
+            "blue"
+          ],
+          "score": 0.12136411666870117
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the cap of the crouching catcher?",
+          "answers": [
+            "blue",
+            "red",
+            "black"
+          ],
+          "score": 0.1256103515625
+        },
+        {
+          "question": "what color is the glove of the crouching catcher?",
+          "answers": [
+            "black",
+            "brown",
+            "catchers mitt"
+          ],
+          "score": 0.014240264892578125
+        },
+        {
+          "question": "what color is the cap of the crouching catcher?",
+          "answers": [
+            "blue",
+            "red",
+            "black"
+          ],
+          "score": 0.1256103515625,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color are the crouching catcher's pants?",
+          "answers": [
+            "white",
+            "black",
+            "blue"
+          ],
+          "score": 0.06814336776733398
+        },
+        {
+          "question": "what color is the cap of the crouching catcher?",
+          "answers": [
+            "blue",
+            "red",
+            "black"
+          ],
+          "score": 0.1256103515625,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a crouching catcher in a red jersey extends his arm to catch the ball, while the pitcher and another boy in white jerseys stand nearby",
+      "question": "what color is the baseball glove worn by the player in the red jersey?",
+      "answer": "black",
+      "query_after": "a crouching baseball catcher wearing a red jersey and a black glove has his arm extended to catch the ball, with two other players in white jerseys nearby",
+      "displayed_ids": [
+        3361,
+        45128,
+        4430,
+        17089,
+        9225,
+        2339,
+        49366,
+        47018,
+        44952,
+        14908
+      ],
+      "selected_ids": [
+        37416,
+        35181,
+        38758,
+        7127,
+        26738,
+        6324,
+        27378,
+        35070,
+        621,
+        27764
+      ],
+      "rejected_count": 30,
+      "usual_paths": [
+        {
+          "question": "What color is the ball being caught by the player in the red jersey?",
+          "answers": [
+            "white",
+            "red",
+            "blue"
+          ],
+          "score": 0.04177665710449219
+        },
+        {
+          "question": "what is the color of the ball being caught by the player in the red jersey?",
+          "answers": [
+            "white",
+            "yellow",
+            "black"
+          ],
+          "score": 0.027760028839111328
+        },
+        {
+          "question": "what is the action being performed by the catcher in the image?",
+          "answers": [
+            "crouching",
+            "standing",
+            "sliding"
+          ],
+          "score": 0.01956033706665039
+        },
+        {
+          "question": "what is the color of the ball being caught by the player in the red jersey?",
+          "answers": [
+            "white",
+            "yellow",
+            "black"
+          ],
+          "score": 0.027760028839111328,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the ball being caught by the player in the red jersey?",
+          "answers": [
+            "white",
+            "yellow",
+            "black"
+          ],
+          "score": 0.027760028839111328,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What color is the ball being caught by the player in the red jersey?",
+          "answers": [
+            "white",
+            "red",
+            "blue"
+          ],
+          "score": 0.04177665710449219
+        },
+        {
+          "question": "what is the color of the ball being caught by the player in the red jersey?",
+          "answers": [
+            "white",
+            "yellow",
+            "black"
+          ],
+          "score": 0.027760028839111328
+        },
+        {
+          "question": "what is the position of the player wearing the red jersey?",
+          "answers": [
+            "catcher"
+          ],
+          "note": "fewer than 2 answers",
+          "score": null
+        },
+        {
+          "question": "Question: What color is the baseball glove worn by the player in the red jersey?",
+          "answers": [
+            "black",
+            "blue",
+            "tan"
+          ],
+          "score": 0.05251502990722656
+        },
+        {
+          "question": "what color is the baseball glove worn by the player in the red jersey?",
+          "answers": [
+            "black",
+            "blue",
+            "brown"
+          ],
+          "score": 0.05881929397583008
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a crouching baseball catcher wearing a red jersey and a black glove has his arm extended to catch the ball, with two other players in white jerseys nearby",
+      "question": "what is the color of the baseball glove worn by the player wearing a white jersey?",
+      "answer": "brown",
+      "query_after": "a baseball game scene featuring a crouching catcher in a red jersey with a black glove and a pitcher in a white jersey with a brown glove, both on a field",
+      "displayed_ids": [
+        45128,
+        3361,
+        17089,
+        16026,
+        4430,
+        47220,
+        10169,
+        29530,
+        40450,
+        16880
+      ],
+      "selected_ids": [
+        13582,
+        15074,
+        45318,
+        44384,
+        7127,
+        621,
+        11856,
+        3322,
+        11131,
+        48490
+      ],
+      "rejected_count": 35,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "baseball bat",
+            "baseball glove",
+            "baseball"
+          ],
+          "score": 0.02164173126220703
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "baseball bat",
+            "baseball glove",
+            "baseball"
+          ],
+          "score": 0.02164173126220703,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the baseball glove worn by the player wearing a white jersey?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.05359220504760742
+        },
+        {
+          "question": "what is the color of the baseball glove worn by the catcher?",
+          "answers": [
+            "red",
+            "black",
+            "blue"
+          ],
+          "score": 0.04249715805053711
+        },
+        {
+          "question": "what color is the baseball glove worn by the catcher?",
+          "answers": [
+            "red",
+            "white",
+            "black"
+          ],
+          "score": 0.008399486541748047
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the catcher's helmet?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.04387950897216797
+        },
+        {
+          "question": "what is the color of the catcher's helmet?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.04387950897216797,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the catcher's helmet?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.05121612548828125
+        },
+        {
+          "question": "what is the color of the catcher's helmet?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.04387950897216797,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the catcher's helmet?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.04387950897216797,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a baseball game scene featuring a crouching catcher in a red jersey with a black glove and a pitcher in a white jersey with a brown glove, both on a field",
+      "question": "what is the other object in the image?",
+      "answer": "crowd",
+      "query_after": "a baseball game scene featuring a crouching catcher in a red jersey with a black glove and a pitcher in a white jersey with a brown glove, with a crowd in the background",
+      "displayed_ids": [
+        45128,
+        17089,
+        3361,
+        47220,
+        16026,
+        16880,
+        4430,
+        29530,
+        12828,
+        25260
+      ],
+      "selected_ids": [
+        621,
+        43045,
+        12849,
+        48490,
+        34748,
+        27566,
+        20273,
+        37620,
+        7127,
+        3090
+      ],
+      "rejected_count": 37,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bat",
+            "baseball",
+            "glove"
+          ],
+          "score": 0.041948795318603516
+        },
+        {
+          "question": "what is the action of the player wearing the red jersey?",
+          "answers": [
+            "catching",
+            "sliding",
+            "throwing"
+          ],
+          "score": 0.03322887420654297
+        },
+        {
+          "question": "what is the action of the crouching catcher with the extended arm?",
+          "answers": [
+            "catching",
+            "waiting",
+            "blocking"
+          ],
+          "score": 0.008656024932861328
+        },
+        {
+          "question": "what is the action of the player wearing the red jersey?",
+          "answers": [
+            "catching",
+            "sliding",
+            "throwing"
+          ],
+          "score": 0.03322887420654297,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the action of the player wearing the red jersey?",
+          "answers": [
+            "catching",
+            "sliding",
+            "throwing"
+          ],
+          "score": 0.03322887420654297,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bat",
+            "baseball",
+            "glove"
+          ],
+          "score": 0.041948795318603516
+        },
+        {
+          "question": "what is the color of the baseball glove worn by the crouching catcher?",
+          "answers": [
+            "red",
+            "white",
+            "black"
+          ],
+          "score": 0.016232967376708984
+        },
+        {
+          "question": "what is the color of the baseball glove worn by the crouching catcher?",
+          "answers": [
+            "red",
+            "white",
+            "black"
+          ],
+          "score": 0.016232967376708984,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what color is the baseball glove worn by the crouching catcher?",
+          "answers": [
+            "black",
+            "brown"
+          ],
+          "score": 0.010387420654296875
+        },
+        {
+          "question": "what is the color of the baseball glove worn by the crouching catcher?",
+          "answers": [
+            "red",
+            "white",
+            "black"
+          ],
+          "score": 0.016232967376708984,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a baseball game scene featuring a crouching catcher in a red jersey with a black glove and a pitcher in a white jersey with a brown glove, with a crowd in the background",
+      "question": "Question: What color is the jersey of the catcher in the image?",
+      "answer": "red",
+      "query_after": "a crouching baseball catcher wearing a red jersey and a black glove is ready to catch the ball, while a pitcher in a white jersey with a brown glove stands nearby, with a crowd watching in the background",
+      "displayed_ids": [
+        45128,
+        17089,
+        3361,
+        43341,
+        4430,
+        43045,
+        4541,
+        28536,
+        37039,
+        46112
+      ],
+      "selected_ids": [
+        16026,
+        6169,
+        25273,
+        40878,
+        5119,
+        33332,
+        8407,
+        45384,
+        42316,
+        37620
+      ],
+      "rejected_count": 43,
+      "usual_paths": [
+        {
+          "question": "Where is the crouching catcher with the extended arm located in relation to the pitcher?",
+          "answers": [
+            "behind",
+            "in front of",
+            "to the side of"
+          ],
+          "score": 0.0007410049438476562
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "crowd",
+            "bat",
+            "base"
+          ],
+          "score": 0.026684284210205078
+        },
+        {
+          "question": "what is the position of the player wearing the red jersey?",
+          "answers": [
+            "catcher",
+            "shortstop",
+            "first baseman"
+          ],
+          "score": 0.009075641632080078
+        },
+        {
+          "question": "what is the action of the player wearing the red jersey?",
+          "answers": [
+            "catching",
+            "standing",
+            "sliding"
+          ],
+          "score": 0.02984476089477539
+        },
+        {
+          "question": "what is the position of the crouching catcher with the extended arm in relation to the player wearing the red jersey?",
+          "answers": [
+            "in front of",
+            "behind",
+            "next to"
+          ],
+          "score": 0.0005040168762207031
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Where is the crouching catcher with the extended arm located in relation to the pitcher?",
+          "answers": [
+            "behind",
+            "in front of",
+            "to the side of"
+          ],
+          "score": 0.0007410049438476562
+        },
+        {
+          "question": "Question: What color is the jersey of the catcher in the image?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.05321693420410156
+        },
+        {
+          "question": "Question: What color is the baseball glove worn by the catcher?",
+          "answers": [
+            "black",
+            "brown",
+            "white"
+          ],
+          "score": 0.021016597747802734
+        },
+        {
+          "question": "what is the color of the baseball glove worn by the catcher?",
+          "answers": [
+            "black",
+            "brown",
+            "red"
+          ],
+          "score": 0.024202346801757812
+        },
+        {
+          "question": "what color is the baseball glove worn by the crouching catcher?",
+          "answers": [
+            "red",
+            "black",
+            "brown"
+          ],
+          "score": 0.022995948791503906
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a crouching baseball catcher wearing a red jersey and a black glove is ready to catch the ball, while a pitcher in a white jersey with a brown glove stands nearby, with a crowd watching in the background",
+      "question": "what is the other object in the image?",
+      "answer": "crowd",
+      "query_after": "a crouching catcher in a red jersey with a black glove is positioned in front of a crowd, while a pitcher in a white jersey with a brown glove stands ready to throw the ball",
+      "displayed_ids": [
+        45128,
+        17089,
+        43341,
+        3361,
+        4430,
+        43045,
+        46112,
+        29530,
+        32691,
+        4541
+      ],
+      "selected_ids": [
+        11670,
+        37620,
+        16026,
+        48541,
+        11131,
+        27232,
+        4430,
+        16527
+      ],
+      "rejected_count": 44,
+      "usual_paths": [
+        {
+          "question": "what is the position of the catcher's arm?",
+          "answers": [
+            "extended",
+            "crouching",
+            "upward"
+          ],
+          "score": 0.0032982826232910156
+        },
+        {
+          "question": "what is the position of the catcher's arm?",
+          "answers": [
+            "extended",
+            "crouching",
+            "upward"
+          ],
+          "score": 0.0032982826232910156,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the position of the catcher's arm?",
+          "answers": [
+            "extended",
+            "crouching",
+            "upward"
+          ],
+          "score": 0.0032982826232910156,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "crowd",
+            "bat",
+            "umpire"
+          ],
+          "score": 0.017462730407714844
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "crowd",
+            "bat",
+            "umpire"
+          ],
+          "score": 0.017462730407714844,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "crowd",
+            "fence",
+            "dugout"
+          ],
+          "score": 0.025582313537597656
+        },
+        {
+          "question": "what is the color of the baseball glove worn by the catcher?",
+          "answers": [
+            "black",
+            "brown",
+            "red"
+          ],
+          "score": 0.005463600158691406
+        },
+        {
+          "question": "Question: What color is the baseball glove worn by the catcher?",
+          "answers": [
+            "red",
+            "black",
+            "maroon"
+          ],
+          "score": 0.010793209075927734
+        },
+        {
+          "question": "Question: What is the color of the baseball glove worn by the catcher?",
+          "answers": [
+            "black",
+            "brown",
+            "blue"
+          ],
+          "score": 0.022419452667236328
+        },
+        {
+          "question": "what is the other object in the image besides the catcher?",
+          "answers": [
+            "crowd",
+            "umpire",
+            "pitcher"
+          ],
+          "score": 0.009168148040771484
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "a crouching catcher in a red jersey with a black glove is positioned in front of a crowd, while a pitcher in a white jersey with a brown glove stands ready to throw the ball",
+      "question": "Question: What is the color of the catcher's jersey?",
+      "answer": "red",
+      "query_after": "a crouching baseball catcher wearing a red jersey and a black glove is ready to catch the ball, with a crowd visible in the background",
+      "displayed_ids": [
+        45128,
+        43341,
+        37039,
+        43045,
+        46112,
+        32691,
+        4541,
+        17089,
+        32162,
+        3361
+      ],
+      "selected_ids": [
+        31544,
+        14973,
+        11131,
+        16020,
+        11670,
+        23642,
+        33338,
+        43506,
+        26738
+      ],
+      "rejected_count": 45,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "crowd",
+            "stands",
+            "outfield"
+          ],
+          "score": 0.004803180694580078
+        },
+        {
+          "question": "what is the action being performed by the catcher?",
+          "answers": [
+            "crouching",
+            "standing",
+            "pitching"
+          ],
+          "score": 0.005507946014404297
+        },
+        {
+          "question": "what is the crouching catcher doing in the image?",
+          "answers": [
+            "catching the ball",
+            "waiting for the pitch",
+            "crouching"
+          ],
+          "score": 0.00522613525390625
+        },
+        {
+          "question": "Question: What is the action being performed by the catcher?",
+          "answers": [
+            "crouching",
+            "kneeling",
+            "standing"
+          ],
+          "score": 0.0028944015502929688
+        },
+        {
+          "question": "what is the action being performed by the catcher?",
+          "answers": [
+            "crouching",
+            "standing",
+            "pitching"
+          ],
+          "score": 0.005507946014404297,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "crowd",
+            "stands",
+            "outfield"
+          ],
+          "score": 0.004803180694580078
+        },
+        {
+          "question": "what is the color of the baseball glove worn by the catcher?",
+          "answers": [
+            "red",
+            "black",
+            "brown"
+          ],
+          "score": 0.007397651672363281
+        },
+        {
+          "question": "what is the name of the base the catcher is sliding into?",
+          "answers": [
+            "first base",
+            "second base",
+            "third base"
+          ],
+          "score": 0.00016927719116210938
+        },
+        {
+          "question": "Question: What is the action of the catcher in the image?",
+          "answers": [
+            "crouching",
+            "kneeling",
+            "standing"
+          ],
+          "score": 0.0033545494079589844
+        },
+        {
+          "question": "Question: What is the color of the catcher's jersey?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.05202817916870117
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

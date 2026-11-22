@@ -1,0 +1,72 @@
+{
+  "ids": [
+    34580,
+    18238,
+    23237,
+    47480
+  ],
+  "prefix": [
+    "a black train on the tracks going through grass area",
+    "what is the color of the steam engine? black"
+  ],
+  "default": "Question: What is the action being performed by the black steam train?",
+  "chosen": "Question: What is the action being performed by the black steam train?",
+  "trials": {
+    "Question: What is the action being performed by the black steam train?": {
+      "answers": [
+        "parked",
+        "traveling",
+        "traveling",
+        "traveling"
+      ],
+      "rewrites": {
+        "parked": "a black steam train is parked on the tracks in a grassy area",
+        "traveling": "a black steam train traveling through a grassy area"
+      },
+      "ranks": [
+        4,
+        38,
+        37,
+        48
+      ],
+      "hits": 1
+    },
+    "Question: What is the direction of the black steam train's movement?": {
+      "answers": [
+        "left",
+        "left",
+        "left",
+        "left"
+      ],
+      "rewrites": {
+        "left": "a black steam train moving to the left on tracks through a grassy area"
+      },
+      "ranks": [
+        28,
+        38,
+        32,
+        48
+      ],
+      "hits": 0
+    },
+    "Question: What is the color of the train tracks visible in the scene?": {
+      "answers": [
+        "gray",
+        "gray",
+        "black",
+        "black"
+      ],
+      "rewrites": {
+        "gray": "a black steam engine train on gray tracks moving through a grassy area",
+        "black": "a black steam engine train on black tracks moving through a grassy area"
+      },
+      "ranks": [
+        16,
+        42,
+        37,
+        48
+      ],
+      "hits": 0
+    }
+  }
+}

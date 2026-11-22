@@ -1,0 +1,80 @@
+{
+  "qid": 297,
+  "arm": "probe",
+  "after_round": 6,
+  "ranks": [
+    69,
+    51,
+    117,
+    422,
+    447,
+    209,
+    178,
+    315,
+    328,
+    186,
+    344
+  ],
+  "continuation": [
+    {
+      "round": 7,
+      "query_before": "An office with black walls, furnished with a brown bookcase, a black desktop computer, and a black television.",
+      "question": "Is the television located on top of the bookcase or on a separate stand?",
+      "answer": "separate stand",
+      "query_after": "an office featuring a brown bookcase, a black television on a separate stand, and a black desktop computer on a desk",
+      "searches": [
+        {
+          "query": "black desktop computer and brown bookcase in a cluttered office with two screens",
+          "ids": [
+            43553,
+            24913,
+            30415
+          ],
+          "captions": [
+            "a computer monitor, keyboard and monitor",
+            "a small home office with a computer desk, tv and a bookcase",
+            "an empty desk in an office with a computer"
+          ]
+        },
+        {
+          "query": "black desktop computer and brown bookcase in a living room with a sofa and two screens",
+          "ids": [
+            19718,
+            24913,
+            47275
+          ],
+          "captions": [
+            "a living room with a computer tower and an tv and a chair",
+            "a small home office with a computer desk, tv and a bookcase",
+            "a living room with a small table and two chairs"
+          ]
+        }
+      ],
+      "raw_plan": "black desktop computer and brown bookcase in a cluttered office with two screens\nblack desktop computer and brown bookcase in a living room with a sofa and two screens",
+      "generated": "Is the television located on top of the bookcase or on a separate stand?",
+      "fallback": false
+    },
+    {
+      "round": 8,
+      "query_before": "an office featuring a brown bookcase, a black television on a separate stand, and a black desktop computer on a desk",
+      "question": "what is the color of the bookcase in the office?",
+      "answer": "brown",
+      "query_after": "a black office featuring a brown bookcase and a black desktop computer, with a black television positioned on a separate stand"
+    },
+    {
+      "round": 9,
+      "query_before": "a black office featuring a brown bookcase and a black desktop computer, with a black television positioned on a separate stand",
+      "question": "What items are stored on the bookcase in the office?",
+      "answer": "books",
+      "query_after": "a black office featuring a brown bookcase filled with books, a black desktop computer on a desk, and a black television on a separate stand"
+    },
+    {
+      "round": 10,
+      "query_before": "a black office featuring a brown bookcase filled with books, a black desktop computer on a desk, and a black television on a separate stand",
+      "question": "What is the color of the desk in the office?",
+      "answer": "black",
+      "query_after": "a black office featuring a black desktop computer and a black television on a separate stand, with a brown bookcase filled with books and a black desk."
+    }
+  ],
+  "seconds": 57.4
+}

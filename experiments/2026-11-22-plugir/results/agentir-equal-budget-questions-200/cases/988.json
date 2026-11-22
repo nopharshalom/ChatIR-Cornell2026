@@ -1,0 +1,79 @@
+{
+  "qid": 988,
+  "sample": 2,
+  "first_candidates": [
+    "what color is the uniform of the baseball pitcher about to throw the ball?",
+    "what is the location of the baseball pitcher about to throw the ball?",
+    "what is the color of the uniform worn by the baseball pitcher about to throw the ball?",
+    "what is the uniform color of the baseball pitcher about to throw the ball?",
+    "what is the color of the uniform worn by the baseball pitcher about to throw the ball?"
+  ],
+  "second_candidates": [
+    "Question: What is the color of the outfit worn by the baseball pitcher about to throw the ball?",
+    "Question: What is the color of the uniform worn by the baseball pitcher?",
+    "Question: What is the color of the uniform worn by the baseball pitcher?",
+    "what is the color of the uniform worn by the baseball pitcher about to throw the ball?",
+    "Question: What is the color of the uniform worn by the baseball pitcher about to throw the ball?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What is the color of the outfit worn by the baseball pitcher about to throw the ball?",
+      "answers": [
+        "red and white",
+        "black and white",
+        "blue and white"
+      ],
+      "score": 0.22005462646484375
+    },
+    {
+      "question": "Question: What is the color of the uniform worn by the baseball pitcher?",
+      "answers": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "score": 0.14883852005004883
+    },
+    {
+      "question": "Question: What is the color of the uniform worn by the baseball pitcher?",
+      "answers": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "score": 0.14883852005004883,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the color of the uniform worn by the baseball pitcher about to throw the ball?",
+      "answers": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "score": 0.11858463287353516
+    },
+    {
+      "question": "Question: What is the color of the uniform worn by the baseball pitcher about to throw the ball?",
+      "answers": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "score": 0.21146059036254883
+    }
+  ],
+  "control": {
+    "question": "Question: What is the color of the outfit worn by the baseball pitcher about to throw the ball?",
+    "score": 0.22005462646484375
+  },
+  "mixed": {
+    "question": "what color is the uniform of the baseball pitcher about to throw the ball?",
+    "score": 0.16516733169555664
+  },
+  "control_rank": 18,
+  "mixed_rank": 3,
+  "usual_rank": 3,
+  "new_answer": "black and white",
+  "new_rewrite": "a baseball pitcher in a black and white outfit about to throw a ball"
+}

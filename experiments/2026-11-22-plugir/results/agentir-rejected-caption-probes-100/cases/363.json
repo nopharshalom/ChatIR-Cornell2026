@@ -1,0 +1,79 @@
+{
+  "qid": 363,
+  "candidates": [
+    "Question: What is the color of the kitchen?",
+    "Question: What color are the kitchen cabinets?",
+    "Question: What color are the kitchen walls?",
+    "Question: What color are the kitchen floors?",
+    "Question: What color are the kitchen appliances?"
+  ],
+  "kl": {
+    "question": "Question: What is the color of the kitchen?",
+    "answer": "brown",
+    "rewrite": "a brown kitchen with the lights turned on during the day",
+    "raw_rank": 17,
+    "unseen_rank": 13
+  },
+  "probe": {
+    "question": "Question: What is the color of the kitchen?",
+    "answer": "brown",
+    "rewrite": "a brown kitchen with the lights turned on during the day",
+    "raw_rank": 17,
+    "unseen_rank": 13
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the color of the kitchen?",
+        "answers": [
+          "white",
+          "wood",
+          "silver"
+        ],
+        "score": 0.17965316772460938
+      },
+      {
+        "question": "Question: What color are the kitchen cabinets?",
+        "answers": [
+          "wood",
+          "silver",
+          "white"
+        ],
+        "score": 0.12170743942260742
+      },
+      {
+        "question": "Question: What color are the kitchen walls?",
+        "answers": [
+          "White",
+          "Green",
+          "Wood"
+        ],
+        "score": 0.1292734146118164
+      },
+      {
+        "question": "Question: What color are the kitchen floors?",
+        "answers": [
+          "wood",
+          "hardwood",
+          "tiled"
+        ],
+        "score": 0.1018514633178711
+      },
+      {
+        "question": "Question: What color are the kitchen appliances?",
+        "answers": [
+          "silver",
+          "white",
+          "stainless steel"
+        ],
+        "score": 0.09369611740112305
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.056,
+    "probe_selection_seconds": 2.417,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": true
+}

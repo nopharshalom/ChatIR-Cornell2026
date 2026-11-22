@@ -1,0 +1,71 @@
+{
+  "qid": 1810,
+  "initial": "a man holding a baseball bat in a park",
+  "initial_rank": 16,
+  "evidence": [
+    "a baseball player swinging a bat while the catcher and uber is at home plate",
+    "a catcher swinging a bat while another player is in the catcher's box",
+    "a child swinging a baseball bat at a ball",
+    "a professional baseball game in progress",
+    "man hitting a ball at a baseball field",
+    "players in a baseball game",
+    "players in the batter's box are in a game",
+    "the catcher wearing a blue and white uniform",
+    "the man is throwing an orange frisbee at the trees",
+    "four people are playing a game of frisbee in a park"
+  ],
+  "displayed_ids": [
+    4982,
+    30396,
+    34059,
+    12657,
+    3125,
+    1909,
+    37641,
+    7893,
+    25406,
+    42103
+  ],
+  "rejected_captions": [
+    "a person with a baseball bat swings a ball",
+    "a man holds a baseball bat in the field",
+    "a man standing in a baseball field",
+    "a man is in a park swinging a blue bat at a ball",
+    "a man wearing a baseball hat and standing in the grass holding a bat",
+    "the man is wearing shorts",
+    "a baseball player is ready to hit a baseball",
+    "a baseball player is about to hit the ball",
+    "a man standing in a field playing baseball",
+    "a group of people standing in a field"
+  ],
+  "candidates": [
+    "Question: What color is the baseball bat the man is holding?",
+    "Question: What color is the baseball bat the man is holding?",
+    "Question: What color is the baseball bat the man is holding?",
+    "Question: What color is the baseball bat the man is holding?",
+    "what is the color of the baseball bat the man is holding?"
+  ],
+  "control_candidates": [
+    "Question: what is the main action the man is performing with the baseball bat?",
+    "what is the color of the baseball uniform the man is wearing?",
+    "what is the object the man is about to hit with the baseball bat?",
+    "Question: What is the man holding in his hand?",
+    "Based on the provided information sources, here is the generated question and the explanation of how the sources were utilized:\n\n**Generated Question:**\n\"Is the man?"
+  ],
+  "control": {
+    "question": "Question: what is the main action the man is performing with the baseball bat?",
+    "answer": "holding",
+    "rewrite": "A man holding a baseball bat in a park.",
+    "rank": 16,
+    "hit": false,
+    "raw_rank": 16,
+    "unseen_rank": 6
+  },
+  "variant": {
+    "question": "what is the color of the baseball bat the man is holding?",
+    "answer": "brown",
+    "rewrite": "a man holding a brown baseball bat in a park",
+    "raw_rank": 4,
+    "unseen_rank": 1
+  }
+}

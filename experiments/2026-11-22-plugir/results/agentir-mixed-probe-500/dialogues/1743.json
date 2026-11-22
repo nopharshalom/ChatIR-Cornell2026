@@ -1,0 +1,1324 @@
+{
+  "qid": 1743,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000224555.jpg",
+  "queries": [
+    "a bed with blue covers next to a wall",
+    "a bed with blue covers next to a green wall",
+    "A bed with blue linens positioned beside a green wall.",
+    "a bed with blue covers next to a green wall",
+    "A bed with blue covers positioned beside a green wall.",
+    "a bed with blue covers next to a green wall",
+    "A bed featuring blue covers situated beside a green wall.",
+    "a bed with blue covers next to a green wall",
+    "a wooden bed with blue covers next to a green wall",
+    "a wooden bed with blue covers next to a green wall and a nightstand",
+    "a gray bed with wooden frame and nightstand next to a green wall"
+  ],
+  "ranks": [
+    243,
+    686,
+    339,
+    686,
+    590,
+    686,
+    556,
+    686,
+    206,
+    117,
+    49
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a bed with blue covers next to a wall",
+      "question": "what is the color of the wall next to the bed?",
+      "answer": "green",
+      "query_after": "a bed with blue covers next to a green wall",
+      "displayed_ids": [
+        7307,
+        4935,
+        13001,
+        33953,
+        28942,
+        20546,
+        41301,
+        29927,
+        24213,
+        20995
+      ],
+      "selected_ids": [
+        19228,
+        19792,
+        25256,
+        3800,
+        6735,
+        31924,
+        24828,
+        9286,
+        36580,
+        45285
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the wall next to the bed?",
+          "answers": [
+            "white",
+            "blue",
+            "yellow"
+          ],
+          "score": 0.04805564880371094
+        },
+        {
+          "question": "what color is the wall next to the bed with blue covers?",
+          "answers": [
+            "white",
+            "yellow",
+            "beige"
+          ],
+          "score": 0.035436153411865234
+        },
+        {
+          "question": "what is the color of the bed with blue covers?",
+          "answers": [
+            "blue",
+            "blue and silver",
+            "blue and white"
+          ],
+          "score": 0.017343997955322266
+        },
+        {
+          "question": "what is the color of the wall next to the bed with blue covers?",
+          "answers": [
+            "white",
+            "beige",
+            "cream"
+          ],
+          "score": 0.013875007629394531
+        },
+        {
+          "question": "what is the color of the wall next to the bed with blue covers?",
+          "answers": [
+            "white",
+            "beige",
+            "cream"
+          ],
+          "score": 0.013875007629394531,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is there a lamp next to the bed?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0007462501525878906
+        },
+        {
+          "question": "Question: What color is the wall next to the bed?",
+          "answers": [
+            "white",
+            "blue",
+            "beige"
+          ],
+          "score": 0.022420883178710938
+        },
+        {
+          "question": "Question: Is there a pillow on the bed?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0013508796691894531
+        },
+        {
+          "question": "Question: What color is the wall next to the bed?",
+          "answers": [
+            "white",
+            "blue",
+            "beige"
+          ],
+          "score": 0.022420883178710938,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "wall",
+            "lamp",
+            "pillow"
+          ],
+          "score": 0.04012298583984375
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a bed with blue covers next to a green wall",
+      "question": "what is the other object in the image?",
+      "answer": "bed",
+      "query_after": "A bed with blue linens positioned beside a green wall.",
+      "displayed_ids": [
+        6400,
+        13001,
+        33953,
+        7307,
+        18827,
+        5761,
+        20995,
+        28942,
+        15972,
+        36964
+      ],
+      "selected_ids": [
+        45999,
+        27416,
+        23868,
+        47942,
+        28697,
+        31004,
+        13143,
+        4633,
+        19792,
+        19228
+      ],
+      "rejected_count": 15,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "stuffed animal",
+            "clock tower",
+            "potted plants"
+          ],
+          "score": 0.12414312362670898
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "stuffed animal",
+            "clock tower",
+            "potted plants"
+          ],
+          "score": 0.12414312362670898,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bed cover?",
+          "answers": [
+            "blue",
+            "green",
+            "tan"
+          ],
+          "score": 0.024498462677001953
+        },
+        {
+          "question": "what is the object located on top of the bed?",
+          "answers": [
+            "stuffed animal",
+            "clothes",
+            "lamp"
+          ],
+          "score": 0.07426214218139648
+        },
+        {
+          "question": "what is the color of the bed cover?",
+          "answers": [
+            "blue",
+            "green",
+            "tan"
+          ],
+          "score": 0.024498462677001953,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the pillow on the bed?",
+          "answers": [
+            "white",
+            "tan",
+            "colorful"
+          ],
+          "score": 0.02691173553466797
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "stuffed animal",
+            "dresser",
+            "clock tower"
+          ],
+          "score": 0.1147775650024414
+        },
+        {
+          "question": "what color are the pillows on the bed?",
+          "answers": [
+            "white",
+            "blue",
+            "tan"
+          ],
+          "score": 0.01472616195678711
+        },
+        {
+          "question": "what is the color of the blanket on the bed?",
+          "answers": [
+            "green",
+            "blue",
+            "white"
+          ],
+          "score": 0.015781879425048828
+        },
+        {
+          "question": "what is the color of the wall next to the bed?",
+          "answers": [
+            "green",
+            "white",
+            "tan"
+          ],
+          "score": 0.014210700988769531
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "A bed with blue linens positioned beside a green wall.",
+      "question": "what is the other object in the image?",
+      "answer": "bed",
+      "query_after": "a bed with blue covers next to a green wall",
+      "displayed_ids": [
+        6400,
+        28942,
+        7307,
+        33953,
+        13001,
+        32135,
+        16782,
+        4935,
+        4107,
+        34313
+      ],
+      "selected_ids": [
+        41363,
+        13920,
+        14660,
+        47639,
+        6735,
+        31004,
+        19228,
+        37391,
+        32546,
+        45999
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bed",
+            "toilet",
+            "bench"
+          ],
+          "score": 0.07825803756713867
+        },
+        {
+          "question": "what is the color of the wall next to the bed?",
+          "answers": [
+            "green",
+            "blue",
+            "white"
+          ],
+          "score": 0.009844303131103516
+        },
+        {
+          "question": "what is the color of the bed?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.026404380798339844
+        },
+        {
+          "question": "what is the color of the wall next to the bed?",
+          "answers": [
+            "green",
+            "blue",
+            "white"
+          ],
+          "score": 0.009844303131103516,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the covers on the bed?",
+          "answers": [
+            "blue",
+            "green",
+            "tan"
+          ],
+          "score": 0.02627849578857422
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bed",
+            "toilet",
+            "bench"
+          ],
+          "score": 0.07825803756713867
+        },
+        {
+          "question": "what color is the bed cover?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.019893169403076172
+        },
+        {
+          "question": "what color is the pillow on the bed?",
+          "answers": [
+            "blue",
+            "white",
+            "red"
+          ],
+          "score": 0.03716468811035156
+        },
+        {
+          "question": "what color is the pillow on the bed?",
+          "answers": [
+            "blue",
+            "white",
+            "red"
+          ],
+          "score": 0.03716468811035156,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the color of the wall next to the bed?",
+          "answers": [
+            "green",
+            "blue",
+            "white"
+          ],
+          "score": 0.008441448211669922
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 3,
+      "query_before": "a bed with blue covers next to a green wall",
+      "question": "what is the other object in the image?",
+      "answer": "bed",
+      "query_after": "A bed with blue covers positioned beside a green wall.",
+      "displayed_ids": [
+        6400,
+        13001,
+        33953,
+        7307,
+        18827,
+        5761,
+        20995,
+        28942,
+        15972,
+        36964
+      ],
+      "selected_ids": [
+        29011,
+        24828,
+        23868,
+        38934,
+        28054,
+        2234,
+        4633,
+        37391,
+        45999,
+        26100
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a wooden slatted bed frame and two lamps in a bedroom",
+            "a small room has a bed, a dresser and a bedside table",
+            "a black stuffed animal lays on a bed beside a wooden headboard"
+          ],
+          "score": 0.10583066940307617
+        },
+        {
+          "question": "what is the color of the bed covers?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.018196582794189453
+        },
+        {
+          "question": "what is the object lying on the bed?",
+          "answers": [
+            "clothes",
+            "stuffed animal",
+            "cat"
+          ],
+          "score": 0.08413267135620117
+        },
+        {
+          "question": "what is the object lying on the bed?",
+          "answers": [
+            "clothes",
+            "stuffed animal",
+            "cat"
+          ],
+          "score": 0.08413267135620117,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the bed covers?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.018196582794189453,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a wooden slatted bed frame and two lamps in a bedroom",
+            "a small room has a bed, a dresser and a bedside table",
+            "a black stuffed animal lays on a bed beside a wooden headboard"
+          ],
+          "score": 0.10583066940307617
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a wooden slatted bed frame and two lamps in a bedroom",
+            "a small room has a bed, a dresser and a bedside table",
+            "a black stuffed animal lays on a bed beside a wooden headboard"
+          ],
+          "score": 0.10583066940307617,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the wall next to the bed?",
+          "answers": [
+            "green",
+            "blue",
+            "white"
+          ],
+          "score": 0.008432388305664062
+        },
+        {
+          "question": "what is the object on the bed?",
+          "answers": [
+            "clothes",
+            "suitcase",
+            "stuffed animal"
+          ],
+          "score": 0.06563186645507812
+        },
+        {
+          "question": "what is the object on the bed?",
+          "answers": [
+            "clothes",
+            "suitcase",
+            "stuffed animal"
+          ],
+          "score": 0.06563186645507812,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 4,
+      "query_before": "A bed with blue covers positioned beside a green wall.",
+      "question": "what is the other object in the image?",
+      "answer": "bed",
+      "query_after": "a bed with blue covers next to a green wall",
+      "displayed_ids": [
+        6400,
+        7307,
+        33953,
+        13001,
+        28942,
+        4935,
+        15567,
+        20995,
+        5761,
+        15972
+      ],
+      "selected_ids": [
+        29011,
+        24199,
+        45999,
+        43601,
+        40349,
+        13920,
+        31004,
+        29036,
+        18827,
+        19792
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bed",
+            "lamp",
+            "toy"
+          ],
+          "score": 0.04476165771484375
+        },
+        {
+          "question": "what is the color of the covers on the bed?",
+          "answers": [
+            "blue",
+            "white",
+            "yellow"
+          ],
+          "score": 0.0380091667175293
+        },
+        {
+          "question": "what is the color of the covers on the bed?",
+          "answers": [
+            "blue",
+            "white",
+            "yellow"
+          ],
+          "score": 0.0380091667175293,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the covers on the bed?",
+          "answers": [
+            "blue",
+            "white",
+            "yellow"
+          ],
+          "score": 0.0380091667175293,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the covers on the bed?",
+          "answers": [
+            "blue",
+            "white",
+            "yellow"
+          ],
+          "score": 0.0380091667175293,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bed",
+            "lamp",
+            "toy"
+          ],
+          "score": 0.04476165771484375
+        },
+        {
+          "question": "Question: what is the color of the blanket on the bed?",
+          "answers": [
+            "blue",
+            "green",
+            "brown"
+          ],
+          "score": 0.019134521484375
+        },
+        {
+          "question": "what is the color of the bed cover?",
+          "answers": [
+            "blue",
+            "green",
+            "brown"
+          ],
+          "score": 0.02779245376586914
+        },
+        {
+          "question": "Question: What is the color of the wall in the room?",
+          "answers": [
+            "green",
+            "blue",
+            "white"
+          ],
+          "score": 0.00978231430053711
+        },
+        {
+          "question": "Question: What color is the blanket on the bed?",
+          "answers": [
+            "blue"
+          ],
+          "note": "fewer than 2 answers",
+          "score": null
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 5,
+      "query_before": "a bed with blue covers next to a green wall",
+      "question": "what is the other object in the image?",
+      "answer": "bed",
+      "query_after": "A bed featuring blue covers situated beside a green wall.",
+      "displayed_ids": [
+        6400,
+        13001,
+        33953,
+        7307,
+        18827,
+        5761,
+        20995,
+        28942,
+        15972,
+        36964
+      ],
+      "selected_ids": [
+        44074,
+        27416,
+        39575,
+        19792,
+        23868,
+        10965,
+        29011,
+        43601,
+        10667,
+        1112
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "cat",
+            "dog",
+            "stuffed animal"
+          ],
+          "score": 0.11605596542358398
+        },
+        {
+          "question": "what is the color of the covers on the bed?",
+          "answers": [
+            "blue",
+            "green",
+            "patterned"
+          ],
+          "score": 0.0333704948425293
+        },
+        {
+          "question": "what is the color of the covers on the bed?",
+          "answers": [
+            "blue",
+            "green",
+            "patterned"
+          ],
+          "score": 0.0333704948425293,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the covers on the bed?",
+          "answers": [
+            "blue",
+            "green",
+            "patterned"
+          ],
+          "score": 0.0333704948425293,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the covers on the bed?",
+          "answers": [
+            "blue",
+            "green",
+            "patterned"
+          ],
+          "score": 0.0333704948425293,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "cat",
+            "dog",
+            "stuffed animal"
+          ],
+          "score": 0.11605596542358398
+        },
+        {
+          "question": "Question: what is the color of the wall next to the bed?",
+          "answers": [
+            "green",
+            "blue",
+            "white"
+          ],
+          "score": 0.007549285888671875
+        },
+        {
+          "question": "what color are the pillows on the bed?",
+          "answers": [
+            "blue",
+            "white",
+            "no pillows"
+          ],
+          "score": 0.006638526916503906
+        },
+        {
+          "question": "Question: What is the color of the blanket on the bed?",
+          "answers": [
+            "blue",
+            "green",
+            "patterned"
+          ],
+          "score": 0.026423931121826172
+        },
+        {
+          "question": "Question: Is there a lamp in the image?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0005235671997070312
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 6,
+      "query_before": "A bed featuring blue covers situated beside a green wall.",
+      "question": "what is the other object in the image?",
+      "answer": "bed",
+      "query_after": "a bed with blue covers next to a green wall",
+      "displayed_ids": [
+        6400,
+        7307,
+        33953,
+        28942,
+        13001,
+        4935,
+        20995,
+        5761,
+        15567,
+        25505
+      ],
+      "selected_ids": [
+        13920,
+        45230,
+        24932,
+        19792,
+        28397,
+        41363,
+        36600,
+        36451,
+        29011
+      ],
+      "rejected_count": 21,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bed",
+            "dog",
+            "truck"
+          ],
+          "score": 0.09978485107421875
+        },
+        {
+          "question": "what is the color of the covers on the bed?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.04193925857543945
+        },
+        {
+          "question": "what is the color of the covers on the bed?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.04193925857543945,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what color is the blanket on the bed?",
+          "answers": [
+            "blue",
+            "red",
+            "plaid"
+          ],
+          "score": 0.058691978454589844
+        },
+        {
+          "question": "what color is the blanket on the bed?",
+          "answers": [
+            "blue",
+            "red",
+            "plaid"
+          ],
+          "score": 0.058691978454589844,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bed",
+            "dog",
+            "truck"
+          ],
+          "score": 0.09978485107421875
+        },
+        {
+          "question": "what color are the curtains in the room with the blue bed?",
+          "answers": [
+            "green",
+            "blue",
+            "no curtains"
+          ],
+          "score": 0.004412651062011719
+        },
+        {
+          "question": "what is the color of the wall next to the bed?",
+          "answers": [
+            "green",
+            "blue",
+            "brown"
+          ],
+          "score": 0.013090133666992188
+        },
+        {
+          "question": "what color are the curtains in the room with the blue bed?",
+          "answers": [
+            "green",
+            "blue",
+            "no curtains"
+          ],
+          "score": 0.004412651062011719,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what color are the curtains in the room with the blue bed?",
+          "answers": [
+            "green",
+            "blue",
+            "no curtains"
+          ],
+          "score": 0.004412651062011719,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 7,
+      "query_before": "a bed with blue covers next to a green wall",
+      "question": "what is the material of the bed?",
+      "answer": "wood",
+      "query_after": "a wooden bed with blue covers next to a green wall",
+      "displayed_ids": [
+        6400,
+        13001,
+        33953,
+        7307,
+        18827,
+        5761,
+        20995,
+        28942,
+        15972,
+        36964
+      ],
+      "selected_ids": [
+        43601,
+        31720,
+        7687,
+        19792,
+        29011,
+        39859,
+        36674,
+        49064,
+        16303
+      ],
+      "rejected_count": 21,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bed",
+            "lamp",
+            "window"
+          ],
+          "score": 0.045069217681884766
+        },
+        {
+          "question": "what is the material of the bed?",
+          "answers": [
+            "wooden",
+            "fabric",
+            "metal"
+          ],
+          "score": 0.05080556869506836
+        },
+        {
+          "question": "what is the color of the covers on the bed?",
+          "answers": [
+            "blue",
+            "green",
+            "red"
+          ],
+          "score": 0.039078712463378906
+        },
+        {
+          "question": "what is the color of the covers on the bed?",
+          "answers": [
+            "blue",
+            "green",
+            "red"
+          ],
+          "score": 0.039078712463378906,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the covers on the bed?",
+          "answers": [
+            "blue",
+            "green",
+            "red"
+          ],
+          "score": 0.039078712463378906,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bed",
+            "lamp",
+            "window"
+          ],
+          "score": 0.045069217681884766
+        },
+        {
+          "question": "what is the color of the wall next to the bed?",
+          "answers": [
+            "green",
+            "blue",
+            "white"
+          ],
+          "score": 0.008432388305664062
+        },
+        {
+          "question": "what color are the covers on the bed?",
+          "answers": [
+            "blue",
+            "green",
+            "red"
+          ],
+          "score": 0.03092050552368164
+        },
+        {
+          "question": "Question: what is the color of the covers on the bed?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.01322793960571289
+        },
+        {
+          "question": "what is the color of the covers on the bed?",
+          "answers": [
+            "blue",
+            "white",
+            "red"
+          ],
+          "score": 0.03998708724975586
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 8,
+      "query_before": "a wooden bed with blue covers next to a green wall",
+      "question": "**Question:** What is the other object in the image besides the bed?",
+      "answer": "nightstand",
+      "query_after": "a wooden bed with blue covers next to a green wall and a nightstand",
+      "displayed_ids": [
+        28942,
+        33953,
+        20995,
+        45055,
+        13001,
+        7307,
+        6400,
+        4935,
+        21576,
+        15972
+      ],
+      "selected_ids": [
+        43656,
+        15891,
+        49064,
+        39859,
+        43468,
+        2152,
+        563,
+        45999,
+        33953,
+        28397
+      ],
+      "rejected_count": 23,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "clothes",
+            "dresser",
+            "television"
+          ],
+          "score": 0.07746124267578125
+        },
+        {
+          "question": "what is the color of the bed covers?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.020949840545654297
+        },
+        {
+          "question": "what is the color of the bed covers?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.020949840545654297,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the bed covers?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.020949840545654297,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the bed covers?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.020949840545654297,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "clothes",
+            "dresser",
+            "television"
+          ],
+          "score": 0.07746124267578125
+        },
+        {
+          "question": "what is the color of the bed covers?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.020949840545654297
+        },
+        {
+          "question": "what is the material of the bed?",
+          "answers": [
+            "wood",
+            "metal",
+            "fabric"
+          ],
+          "score": 0.024591922760009766
+        },
+        {
+          "question": "**Question:** what is the color of the wall next to the bed?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.050232887268066406
+        },
+        {
+          "question": "**Question:** What is the other object in the image besides the bed?",
+          "answers": [
+            "clothes",
+            "desk",
+            "television"
+          ],
+          "score": 0.08861160278320312
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 9,
+      "query_before": "a wooden bed with blue covers next to a green wall and a nightstand",
+      "question": "**Question:** What is the color of the bed covers?",
+      "answer": "Gray.",
+      "query_after": "a gray bed with wooden frame and nightstand next to a green wall",
+      "displayed_ids": [
+        28942,
+        33953,
+        2689,
+        45055,
+        15972,
+        7307,
+        6400,
+        15567,
+        13001,
+        6088
+      ],
+      "selected_ids": [
+        20411,
+        926,
+        25505,
+        33953,
+        18827,
+        7307,
+        46942,
+        563,
+        33430
+      ],
+      "rejected_count": 25,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "nightstand",
+            "lamp",
+            "chair"
+          ],
+          "score": 0.02900838851928711
+        },
+        {
+          "question": "**Question:** What is the color of the sheet on the bed?",
+          "answers": [
+            "blue",
+            "green"
+          ],
+          "score": 0.033005714416503906
+        },
+        {
+          "question": "**Question:** What is the color of the bed covers?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.05669975280761719
+        },
+        {
+          "question": "**Question:** What is the color of the sheet on the bed?",
+          "answers": [
+            "blue",
+            "green"
+          ],
+          "score": 0.033005714416503906,
+          "duplicate_of": 1
+        },
+        {
+          "question": "**Question:** What is the color of the sheet on the bed?",
+          "answers": [
+            "blue",
+            "green"
+          ],
+          "score": 0.033005714416503906,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "nightstand",
+            "lamp",
+            "chair"
+          ],
+          "score": 0.02900838851928711
+        },
+        {
+          "question": "**Question:** What is the color of the sheet on the bed?",
+          "answers": [
+            "blue",
+            "green"
+          ],
+          "score": 0.033005714416503906
+        },
+        {
+          "question": "**Question:** What is the color of the bed frame?",
+          "answers": [
+            "wood",
+            "blue",
+            "green"
+          ],
+          "score": 0.028460025787353516
+        },
+        {
+          "question": "**Question:** What is the color of the bed frame?",
+          "answers": [
+            "wood",
+            "blue",
+            "green"
+          ],
+          "score": 0.028460025787353516,
+          "duplicate_of": 2
+        },
+        {
+          "question": "**Question:** What is the color of the sheet on the bed?",
+          "answers": [
+            "blue",
+            "green"
+          ],
+          "score": 0.033005714416503906,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

@@ -1,0 +1,180 @@
+{
+  "qid": 1584,
+  "initial": "2 police officers on horseback stand in front of a double decker bus",
+  "initial_rank": 16,
+  "displayed": [
+    28630,
+    3104,
+    32710,
+    44990,
+    34106,
+    29565,
+    31158,
+    42681,
+    20069,
+    44493
+  ],
+  "evidence": [
+    "a double decker bus is sitting at the intersection",
+    "police officer on a horse",
+    "three officers riding horses",
+    "a city street where a pair of double decker buses is parked",
+    "a white and red bus sitting on a street in a city",
+    "a bus stops in the street on an empty street",
+    "a double decker bus stops at a street intersection",
+    "a man on horseback in a polo match",
+    "red double deck bus on the road between two buildings",
+    "a large red double decker bus is parked on the side of the road"
+  ],
+  "rejected_captions": [
+    "two police officers riding horses on a city street",
+    "police officers on horses",
+    "a police officer on a horse",
+    "a pair of police officers riding on horses",
+    "two officers riding on a horses",
+    "two police horses walking down a street with a group of cars",
+    "police officers on horses",
+    "three officers riding horses",
+    "police officer on horseback",
+    "two white police horses on the street"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the color of the double decker bus in front of the police officers?",
+      "Question: what is the color of the police officers riding horses?",
+      "What is the vehicle standing behind the police officers on horseback?",
+      "what is the other object in the image?",
+      "what is the other object in the image?"
+    ],
+    "question": "what is the color of the double decker bus in front of the police officers?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the double decker bus in front of the police officers?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.048712730407714844
+        },
+        {
+          "question": "Question: what is the color of the police officers riding horses?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.012756824493408203
+        },
+        {
+          "question": "What is the vehicle standing behind the police officers on horseback?",
+          "answers": [
+            "a double decker bus",
+            "a white and red bus",
+            "a large red double decker bus"
+          ],
+          "score": 0.018558502197265625
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "police officer",
+            "double decker bus",
+            "horses"
+          ],
+          "score": 0.014278888702392578
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "police officer",
+            "double decker bus",
+            "horses"
+          ],
+          "score": 0.014278888702392578,
+          "duplicate_of": 3
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.087,
+      "probe_selection_seconds": 2.222,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "red",
+    "rewrite": "two police officers on horseback stand in front of a red double decker bus",
+    "raw_rank": 4,
+    "unseen_rank": 1
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the color of the double decker bus in front of which the police officers are standing?",
+      "Question: What is the color of the double decker bus in front of which the police officers are standing?",
+      "Question: What is the color of the double decker bus in front of which the police officers are standing?",
+      "Question: Question: What is the color of the double decker bus in front of which the police officers are standing?",
+      "Question: What is the color of the double decker bus?"
+    ],
+    "question": "Question: Question: What is the color of the double decker bus in front of which the police officers are standing?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the color of the double decker bus in front of which the police officers are standing?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.03357076644897461
+        },
+        {
+          "question": "Question: What is the color of the double decker bus in front of which the police officers are standing?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.03357076644897461,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the double decker bus in front of which the police officers are standing?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.03357076644897461,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: Question: What is the color of the double decker bus in front of which the police officers are standing?",
+          "answers": [
+            "red",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.05815267562866211
+        },
+        {
+          "question": "Question: What is the color of the double decker bus?",
+          "answers": [
+            "red",
+            "white",
+            "unknown"
+          ],
+          "score": 0.022685527801513672
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.148,
+      "probe_selection_seconds": 1.397,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "Red.",
+    "rewrite": "two police officers on horseback stand in front of a red double decker bus",
+    "raw_rank": 4,
+    "unseen_rank": 1
+  }
+}

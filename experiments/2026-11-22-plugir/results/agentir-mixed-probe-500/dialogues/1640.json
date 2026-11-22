@@ -1,0 +1,1315 @@
+{
+  "qid": 1640,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000410778.jpg",
+  "queries": [
+    "a clean kitchen with white walls and a very large fridge",
+    "a clean kitchen with white walls, stainless steel cabinets, and a very large fridge",
+    "a clean kitchen with white walls, stainless steel cabinets, and a very large silver refrigerator",
+    "a clean kitchen featuring white walls, silver-colored metal cabinets, and a very large silver refrigerator",
+    "a clean kitchen featuring gray flooring, silver walls, and stainless steel cabinets, with a very large silver refrigerator",
+    "a clean kitchen featuring gray flooring, silver walls, and stainless steel cabinets, with a very large silver refrigerator as the main object",
+    "The kitchen is clean, featuring gray flooring, silver walls, and stainless steel cabinets, with a very large silver refrigerator serving as the central focus.",
+    "a clean kitchen featuring white walls, gray flooring, and stainless steel cabinets, with a very large silver refrigerator as the main object",
+    "a clean kitchen with white walls, gray flooring, and stainless steel cabinets, featuring a very large silver refrigerator",
+    "a clean kitchen featuring white walls, gray flooring, and stainless steel cabinets, with a very large silver refrigerator as the main object",
+    "a clean kitchen featuring stainless steel cabinets, silver and metal appliances, a very large refrigerator, a gray floor, and multiple additional refrigerators"
+  ],
+  "ranks": [
+    31,
+    21,
+    42,
+    44,
+    36,
+    29,
+    27,
+    21,
+    25,
+    21,
+    8
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a clean kitchen with white walls and a very large fridge",
+      "question": "Question: what material are the cabinets in the clean kitchen with white walls and a very large fridge?",
+      "answer": "stainless steel",
+      "query_after": "a clean kitchen with white walls, stainless steel cabinets, and a very large fridge",
+      "displayed_ids": [
+        29413,
+        27004,
+        21239,
+        31196,
+        25870,
+        6737,
+        45810,
+        22156,
+        10720,
+        231
+      ],
+      "selected_ids": [
+        35747,
+        25126,
+        19014,
+        36643,
+        32524,
+        10687,
+        8677,
+        24907,
+        2086,
+        11388
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what material are the floors in the clean kitchen with white walls and a very large fridge?",
+          "answers": [
+            "hardwood",
+            "tile",
+            "wood"
+          ],
+          "score": 0.0937347412109375
+        },
+        {
+          "question": "Question: what material are the cabinets in the clean kitchen with white walls and a very large fridge?",
+          "answers": [
+            "wood",
+            "silver",
+            "white"
+          ],
+          "score": 0.12290191650390625
+        },
+        {
+          "question": "what color are the walls in the kitchen with silver cabinets and a silver stove?",
+          "answers": [
+            "silver",
+            "white",
+            "unknown"
+          ],
+          "score": 0.015366077423095703
+        },
+        {
+          "question": "what color are the walls in the kitchen with silver cabinets and a silver stove?",
+          "answers": [
+            "silver",
+            "white",
+            "unknown"
+          ],
+          "score": 0.015366077423095703,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: what color are the walls in the kitchen with silver cabinets and a silver stove?",
+          "answers": [
+            "silver",
+            "white",
+            "black"
+          ],
+          "score": 0.04860830307006836
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color are the kitchen cabinets?",
+          "answers": [
+            "white",
+            "dark",
+            "silver"
+          ],
+          "score": 0.11134719848632812
+        },
+        {
+          "question": "Question: what material is the kitchen floor made of?",
+          "answers": [
+            "hardwood",
+            "tile",
+            "unknown"
+          ],
+          "score": 0.0892496109008789
+        },
+        {
+          "question": "Question: What type of appliance is located next to the white fridge?",
+          "answers": [
+            "stovetop oven",
+            "microwave",
+            "sink"
+          ],
+          "score": 0.10918855667114258
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sink",
+            "countertop",
+            "stove"
+          ],
+          "score": 0.061501502990722656
+        },
+        {
+          "question": "Question: Are there cabinets in the kitchen?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0003609657287597656
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a clean kitchen with white walls, stainless steel cabinets, and a very large fridge",
+      "question": "what is the color of the refrigerator in the kitchen?",
+      "answer": "silver",
+      "query_after": "a clean kitchen with white walls, stainless steel cabinets, and a very large silver refrigerator",
+      "displayed_ids": [
+        21239,
+        29413,
+        22156,
+        45810,
+        41003,
+        27004,
+        20983,
+        36196,
+        17186,
+        6737
+      ],
+      "selected_ids": [
+        44849,
+        47803,
+        35747,
+        37836,
+        2086,
+        43386,
+        12227,
+        3592,
+        46123,
+        18865
+      ],
+      "rejected_count": 14,
+      "usual_paths": [
+        {
+          "question": "what color is the refrigerator in the kitchen with a very large fridge?",
+          "answers": [
+            "white",
+            "stainless steel",
+            "black"
+          ],
+          "score": 0.05266427993774414
+        },
+        {
+          "question": "what color is the refrigerator in the kitchen with a very large fridge?",
+          "answers": [
+            "white",
+            "stainless steel",
+            "black"
+          ],
+          "score": 0.05266427993774414,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sink",
+            "countertop",
+            "floor"
+          ],
+          "score": 0.03321409225463867
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sink",
+            "countertop",
+            "floor"
+          ],
+          "score": 0.03321409225463867,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what color are the walls in the clean kitchen with white walls?",
+          "answers": [
+            "white",
+            "black",
+            "blue"
+          ],
+          "score": 0.0773167610168457
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the refrigerator in the kitchen?",
+          "answers": [
+            "white",
+            "stainless steel",
+            "black"
+          ],
+          "score": 0.026462554931640625
+        },
+        {
+          "question": "what is the color of the refrigerator in the kitchen?",
+          "answers": [
+            "white",
+            "black",
+            "stainless steel"
+          ],
+          "score": 0.0926046371459961
+        },
+        {
+          "question": "what color is the refrigerator in the clean kitchen with white walls and a very large fridge?",
+          "answers": [
+            "white",
+            "black",
+            "stainless steel"
+          ],
+          "score": 0.04963874816894531
+        },
+        {
+          "question": "what material is the fridge in the kitchen?",
+          "answers": [
+            "white",
+            "stainless steel",
+            "black"
+          ],
+          "score": 0.03009319305419922
+        },
+        {
+          "question": "what color is the refrigerator in the kitchen?",
+          "answers": [
+            "white",
+            "stainless steel",
+            "black"
+          ],
+          "score": 0.026462554931640625,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a clean kitchen with white walls, stainless steel cabinets, and a very large silver refrigerator",
+      "question": "what material are the cabinets in the kitchen with silver walls?",
+      "answer": "metal",
+      "query_after": "a clean kitchen featuring white walls, silver-colored metal cabinets, and a very large silver refrigerator",
+      "displayed_ids": [
+        21239,
+        29413,
+        41003,
+        22156,
+        20983,
+        45810,
+        27004,
+        17186,
+        38776,
+        36196
+      ],
+      "selected_ids": [
+        5026,
+        18865,
+        47803,
+        31580,
+        35747,
+        43386,
+        2086,
+        37836,
+        11388,
+        3592
+      ],
+      "rejected_count": 15,
+      "usual_paths": [
+        {
+          "question": "Question: what is the color of the walls in the kitchen with an island and hardwood floors?",
+          "answers": [
+            "white",
+            "cream",
+            "beige"
+          ],
+          "score": 0.013951301574707031
+        },
+        {
+          "question": "what material are the cabinets in the kitchen with silver walls?",
+          "answers": [
+            "wood",
+            "white",
+            "black"
+          ],
+          "score": 0.08745908737182617
+        },
+        {
+          "question": "what type of flooring is in the kitchen with an island and hardwood floors?",
+          "answers": [
+            "hardwood floors",
+            "tile",
+            "laminate"
+          ],
+          "score": 0.018980026245117188
+        },
+        {
+          "question": "what is the color of the walls in the kitchen with an island and hardwood floors?",
+          "answers": [
+            "white",
+            "cream",
+            "beige"
+          ],
+          "score": 0.0083770751953125
+        },
+        {
+          "question": "what is the color of the walls in the kitchen with an island and hardwood floors?",
+          "answers": [
+            "white",
+            "cream",
+            "beige"
+          ],
+          "score": 0.0083770751953125,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sink",
+            "microwave",
+            "counter"
+          ],
+          "score": 0.03644418716430664
+        },
+        {
+          "question": "what is the color of the walls in the kitchen?",
+          "answers": [
+            "white",
+            "black",
+            "gray"
+          ],
+          "score": 0.05206918716430664
+        },
+        {
+          "question": "what color are the walls in the kitchen with a very large silver refrigerator?",
+          "answers": [
+            "white",
+            "beige",
+            "gray"
+          ],
+          "score": 0.012137889862060547
+        },
+        {
+          "question": "what color is the floor in the kitchen with white walls, a very large silver refrigerator, and stainless steel cabinets?",
+          "answers": [
+            "hardwood",
+            "wood",
+            "tile"
+          ],
+          "score": 0.04441213607788086
+        },
+        {
+          "question": "what color is the floor in the kitchen with white walls, a very large silver refrigerator, and stainless steel cabinets?",
+          "answers": [
+            "hardwood",
+            "wood",
+            "tile"
+          ],
+          "score": 0.04441213607788086,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a clean kitchen featuring white walls, silver-colored metal cabinets, and a very large silver refrigerator",
+      "question": "what color is the floor in the kitchen with the very large fridge?",
+      "answer": "gray",
+      "query_after": "a clean kitchen featuring gray flooring, silver walls, and stainless steel cabinets, with a very large silver refrigerator",
+      "displayed_ids": [
+        21239,
+        41003,
+        29413,
+        22156,
+        20983,
+        21516,
+        45810,
+        43864,
+        17186,
+        36196
+      ],
+      "selected_ids": [
+        5042,
+        42416,
+        34845,
+        37836,
+        18865,
+        31413,
+        2086,
+        35747,
+        3592,
+        46123
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sink",
+            "stove",
+            "countertop"
+          ],
+          "score": 0.07725048065185547
+        },
+        {
+          "question": "what is the color of the walls in the kitchen with a very large fridge?",
+          "answers": [
+            "white",
+            "silver",
+            "black"
+          ],
+          "score": 0.04739093780517578
+        },
+        {
+          "question": "what is the color of the refrigerator in the kitchen with white walls?",
+          "answers": [
+            "white",
+            "black",
+            "silver"
+          ],
+          "score": 0.036154747009277344
+        },
+        {
+          "question": "what is the material of the refrigerator in the clean kitchen with white walls?",
+          "answers": [
+            "stainless steel",
+            "white",
+            "black"
+          ],
+          "score": 0.034989356994628906
+        },
+        {
+          "question": "what color is the floor in the clean kitchen with a very large fridge?",
+          "answers": [
+            "wood",
+            "hardwood",
+            "tile"
+          ],
+          "score": 0.057471275329589844
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sink",
+            "stove",
+            "countertop"
+          ],
+          "score": 0.07725048065185547
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sink",
+            "stove",
+            "countertop"
+          ],
+          "score": 0.07725048065185547,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sink",
+            "stove",
+            "countertop"
+          ],
+          "score": 0.07725048065185547,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the floor in the kitchen with the very large fridge?",
+          "answers": [
+            "white",
+            "wood",
+            "black"
+          ],
+          "score": 0.08592605590820312
+        },
+        {
+          "question": "what type of stove is visible in the kitchen with the very large fridge?",
+          "answers": [
+            "stovetop",
+            "range",
+            "double oven"
+          ],
+          "score": 0.007502555847167969
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a clean kitchen featuring gray flooring, silver walls, and stainless steel cabinets, with a very large silver refrigerator",
+      "question": "what is the other object in the image?",
+      "answer": "refrigerator",
+      "query_after": "a clean kitchen featuring gray flooring, silver walls, and stainless steel cabinets, with a very large silver refrigerator as the main object",
+      "displayed_ids": [
+        21239,
+        41003,
+        38776,
+        27004,
+        41666,
+        36196,
+        14806,
+        1506,
+        45810,
+        25559
+      ],
+      "selected_ids": [
+        39464,
+        3166,
+        28803,
+        18865,
+        2086,
+        34845,
+        47803,
+        3592,
+        46176,
+        9034
+      ],
+      "rejected_count": 21,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "stove",
+            "microwave",
+            "sink"
+          ],
+          "score": 0.08117341995239258
+        },
+        {
+          "question": "what color is the floor in the kitchen with white walls and a very large fridge?",
+          "answers": [
+            "white",
+            "gray",
+            "wood"
+          ],
+          "score": 0.03723955154418945
+        },
+        {
+          "question": "what color is the refrigerator in the kitchen with white walls?",
+          "answers": [
+            "white",
+            "silver",
+            "stainless steel"
+          ],
+          "score": 0.003979206085205078
+        },
+        {
+          "question": "what is the color of the refrigerator in the kitchen with silver appliances?",
+          "answers": [
+            "silver",
+            "stainless steel",
+            "gray"
+          ],
+          "score": 0.0015354156494140625
+        },
+        {
+          "question": "what is the color of the floor in the kitchen with white walls and a very large fridge?",
+          "answers": [
+            "white",
+            "gray",
+            "wood"
+          ],
+          "score": 0.038788795471191406
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "stove",
+            "microwave",
+            "sink"
+          ],
+          "score": 0.08117341995239258
+        },
+        {
+          "question": "what color is the floor in the kitchen with white walls and a very large fridge?",
+          "answers": [
+            "white",
+            "gray",
+            "wood"
+          ],
+          "score": 0.03723955154418945
+        },
+        {
+          "question": "what color is the refrigerator in the kitchen with wooden cabinets?",
+          "answers": [
+            "white",
+            "metal",
+            "stainless steel"
+          ],
+          "score": 0.007224559783935547
+        },
+        {
+          "question": "what is the color of the floor in the kitchen with white walls and a very large fridge?",
+          "answers": [
+            "white",
+            "gray",
+            "wood"
+          ],
+          "score": 0.038788795471191406
+        },
+        {
+          "question": "what is the color of the refrigerator in the kitchen with white walls and a very large fridge?",
+          "answers": [
+            "white",
+            "silver",
+            "gray"
+          ],
+          "score": 0.013225078582763672
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a clean kitchen featuring gray flooring, silver walls, and stainless steel cabinets, with a very large silver refrigerator as the main object",
+      "question": "what is the other object in the image?",
+      "answer": "refrigerator",
+      "query_after": "The kitchen is clean, featuring gray flooring, silver walls, and stainless steel cabinets, with a very large silver refrigerator serving as the central focus.",
+      "displayed_ids": [
+        21239,
+        41003,
+        38776,
+        27004,
+        41666,
+        36196,
+        14806,
+        1506,
+        25559,
+        4833
+      ],
+      "selected_ids": [
+        2086,
+        18865,
+        10574,
+        43657,
+        313,
+        27019,
+        14991,
+        26917,
+        34845
+      ],
+      "rejected_count": 22,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "refrigerator",
+            "stove",
+            "sink"
+          ],
+          "score": 0.06498527526855469
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "refrigerator",
+            "stove",
+            "sink"
+          ],
+          "score": 0.06498527526855469,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the material of the refrigerator in the clean kitchen with white walls?",
+          "answers": [
+            "stainless steel",
+            "silver",
+            "metal"
+          ],
+          "score": 0.002501964569091797
+        },
+        {
+          "question": "what is the color of the walls in the kitchen with a very large fridge?",
+          "answers": [
+            "white",
+            "gray",
+            "silver"
+          ],
+          "score": 0.008891582489013672
+        },
+        {
+          "question": "what color are the walls in the kitchen with the very large fridge?",
+          "answers": [
+            "white",
+            "silver",
+            "gray"
+          ],
+          "score": 0.009409427642822266
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color are the walls in the kitchen with stainless steel appliances and wooden cabinets?",
+          "answers": [
+            "white",
+            "silver",
+            "gray"
+          ],
+          "score": 0.009275436401367188
+        },
+        {
+          "question": "what color are the walls in the kitchen with a stainless steel refrigerator and wooden cabinets?",
+          "answers": [
+            "white",
+            "silver",
+            "gray"
+          ],
+          "score": 0.006178379058837891
+        },
+        {
+          "question": "what is the color of the walls in the kitchen with a very large silver refrigerator?",
+          "answers": [
+            "white",
+            "silver",
+            "gray"
+          ],
+          "score": 0.0052947998046875
+        },
+        {
+          "question": "what color are the walls in the kitchen with a very large silver refrigerator?",
+          "answers": [
+            "white",
+            "gray",
+            "metal"
+          ],
+          "score": 0.011511802673339844
+        },
+        {
+          "question": "what is the color of the walls in the kitchen with a very large silver refrigerator?",
+          "answers": [
+            "white",
+            "silver",
+            "gray"
+          ],
+          "score": 0.0052947998046875,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "The kitchen is clean, featuring gray flooring, silver walls, and stainless steel cabinets, with a very large silver refrigerator serving as the central focus.",
+      "question": "what is the other object in the image?",
+      "answer": "refrigerator",
+      "query_after": "a clean kitchen featuring white walls, gray flooring, and stainless steel cabinets, with a very large silver refrigerator as the main object",
+      "displayed_ids": [
+        21239,
+        41003,
+        38776,
+        36196,
+        4833,
+        45810,
+        1506,
+        27004,
+        41666,
+        14806
+      ],
+      "selected_ids": [
+        30083,
+        34950,
+        40880,
+        43657,
+        6341,
+        7769,
+        3592,
+        37836,
+        34845,
+        44880
+      ],
+      "rejected_count": 22,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "refrigerator",
+            "stove",
+            "sink"
+          ],
+          "score": 0.061360836029052734
+        },
+        {
+          "question": "what is the color of the walls in the kitchen with the silver refrigerator?",
+          "answers": [
+            "white",
+            "gray",
+            "silver"
+          ],
+          "score": 0.006869316101074219
+        },
+        {
+          "question": "what is the color of the walls in the kitchen with the silver refrigerator?",
+          "answers": [
+            "white",
+            "gray",
+            "silver"
+          ],
+          "score": 0.006869316101074219,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the walls in the clean kitchen with a very large fridge?",
+          "answers": [
+            "white",
+            "silver",
+            "gray"
+          ],
+          "score": 0.008679389953613281
+        },
+        {
+          "question": "Based on the provided information sources, here is the generated question and the explanation of how the sources were utilized.\n\n**Generated Question:**\n\"What is the color?",
+          "answers": [
+            "white",
+            "silver",
+            "gray"
+          ],
+          "score": 0.005767822265625
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "refrigerator",
+            "stove",
+            "sink"
+          ],
+          "score": 0.061360836029052734
+        },
+        {
+          "question": "what color are the walls in the kitchen with the very large fridge?",
+          "answers": [
+            "white",
+            "silver",
+            "gray"
+          ],
+          "score": 0.01167154312133789
+        },
+        {
+          "question": "what color are the walls in the kitchen with silver appliances?",
+          "answers": [
+            "white",
+            "black",
+            "gray"
+          ],
+          "score": 0.03395557403564453
+        },
+        {
+          "question": "what color are the walls in the kitchen with the very large fridge?",
+          "answers": [
+            "white",
+            "silver",
+            "gray"
+          ],
+          "score": 0.01167154312133789,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Based on the provided information sources, here is the generated question and the explanation of how the sources were utilized.\n\n**Generated Question:**\n\"What is the color?",
+          "answers": [
+            "white",
+            "silver",
+            "gray"
+          ],
+          "score": 0.005767822265625
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a clean kitchen featuring white walls, gray flooring, and stainless steel cabinets, with a very large silver refrigerator as the main object",
+      "question": "what is the other object in the image?",
+      "answer": "refrigerator",
+      "query_after": "a clean kitchen with white walls, gray flooring, and stainless steel cabinets, featuring a very large silver refrigerator",
+      "displayed_ids": [
+        21239,
+        27004,
+        29413,
+        41003,
+        22156,
+        36196,
+        20983,
+        45810,
+        17186,
+        43864
+      ],
+      "selected_ids": [
+        43657,
+        17279,
+        13561,
+        42117,
+        31413,
+        10574,
+        7435,
+        7769,
+        33679,
+        40880
+      ],
+      "rejected_count": 22,
+      "usual_paths": [
+        {
+          "question": "what color are the walls in the clean kitchen with white cabinets?",
+          "answers": [
+            "white",
+            "black",
+            "silver"
+          ],
+          "score": 0.04814481735229492
+        },
+        {
+          "question": "what material are the cabinets in the kitchen with silver walls?",
+          "answers": [
+            "metal",
+            "wood",
+            "stainless steel"
+          ],
+          "score": 0.0356135368347168
+        },
+        {
+          "question": "what color are the walls in the kitchen with silver cabinets?",
+          "answers": [
+            "white",
+            "silver",
+            "metal"
+          ],
+          "score": 0.011257171630859375
+        },
+        {
+          "question": "what is the color of the walls in the kitchen with the very large fridge?",
+          "answers": [
+            "white",
+            "black",
+            "gray"
+          ],
+          "score": 0.04018592834472656
+        },
+        {
+          "question": "what is the color of the walls in the kitchen with a silver refrigerator?",
+          "answers": [
+            "white",
+            "gray",
+            "black"
+          ],
+          "score": 0.033861637115478516
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "refrigerator",
+            "dining table",
+            "island"
+          ],
+          "score": 0.08258628845214844
+        },
+        {
+          "question": "what color are the walls in the kitchen with the very large fridge?",
+          "answers": [
+            "white",
+            "silver",
+            "beige"
+          ],
+          "score": 0.015032291412353516
+        },
+        {
+          "question": "what color is the floor in the clean kitchen with white walls and a very large fridge?",
+          "answers": [
+            "white",
+            "gray",
+            "wooden"
+          ],
+          "score": 0.03649187088012695
+        },
+        {
+          "question": "Question: what is the color of the walls in the clean kitchen with white walls and a very large fridge?",
+          "answers": [
+            "white"
+          ],
+          "note": "fewer than 2 answers",
+          "score": null
+        },
+        {
+          "question": "what color are the walls in the kitchen with the very large fridge?",
+          "answers": [
+            "white",
+            "silver",
+            "beige"
+          ],
+          "score": 0.015032291412353516,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a clean kitchen with white walls, gray flooring, and stainless steel cabinets, featuring a very large silver refrigerator",
+      "question": "what is the other object in the image?",
+      "answer": "refrigerator",
+      "query_after": "a clean kitchen featuring white walls, gray flooring, and stainless steel cabinets, with a very large silver refrigerator as the main object",
+      "displayed_ids": [
+        21239,
+        27004,
+        29413,
+        41003,
+        45810,
+        17186,
+        20983,
+        22156,
+        36196,
+        38776
+      ],
+      "selected_ids": [
+        25126,
+        3592,
+        2086,
+        5042,
+        18353,
+        7769,
+        31833,
+        30083,
+        46598,
+        47832
+      ],
+      "rejected_count": 22,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "microwave",
+            "stove",
+            "oven"
+          ],
+          "score": 0.040549278259277344
+        },
+        {
+          "question": "what color is the wall in the kitchen with silver appliances?",
+          "answers": [
+            "white",
+            "silver",
+            "gray"
+          ],
+          "score": 0.0036573410034179688
+        },
+        {
+          "question": "what is the color of the wall in the kitchen with silver appliances?",
+          "answers": [
+            "white",
+            "silver",
+            "gray"
+          ],
+          "score": 0.003915309906005859
+        },
+        {
+          "question": "what is the color of the wall in the kitchen with silver appliances?",
+          "answers": [
+            "white",
+            "silver",
+            "gray"
+          ],
+          "score": 0.003915309906005859,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: what is the color of the walls in the kitchen with silver appliances?",
+          "answers": [
+            "white",
+            "silver",
+            "gray"
+          ],
+          "score": 0.005906581878662109
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "microwave",
+            "stove",
+            "oven"
+          ],
+          "score": 0.040549278259277344
+        },
+        {
+          "question": "what material is the countertop in the kitchen with silver appliances?",
+          "answers": [
+            "wood",
+            "white",
+            "black"
+          ],
+          "score": 0.03782796859741211
+        },
+        {
+          "question": "what color is the wall in the kitchen with a large stainless steel refrigerator?",
+          "answers": [
+            "white",
+            "silver",
+            "gray"
+          ],
+          "score": 0.00445556640625
+        },
+        {
+          "question": "Question: what is the color of the walls in the kitchen with silver appliances?",
+          "answers": [
+            "white",
+            "gray",
+            "silver"
+          ],
+          "score": 0.005906581878662109
+        },
+        {
+          "question": "Question: What is the color of the walls in the kitchen with a very large fridge?",
+          "answers": [
+            "white",
+            "silver",
+            "gray"
+          ],
+          "score": 0.010123729705810547
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "a clean kitchen featuring white walls, gray flooring, and stainless steel cabinets, with a very large silver refrigerator as the main object",
+      "question": "what is the other object in the image?",
+      "answer": "refrigerator",
+      "query_after": "a clean kitchen featuring stainless steel cabinets, silver and metal appliances, a very large refrigerator, a gray floor, and multiple additional refrigerators",
+      "displayed_ids": [
+        21239,
+        27004,
+        29413,
+        41003,
+        22156,
+        36196,
+        20983,
+        45810,
+        17186,
+        43864
+      ],
+      "selected_ids": [
+        26563,
+        25559,
+        1029,
+        15551,
+        32016,
+        25823,
+        7435,
+        36688
+      ],
+      "rejected_count": 22,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "refrigerator",
+            "door",
+            "table"
+          ],
+          "score": 0.040529727935791016
+        },
+        {
+          "question": "what color is the refrigerator in the clean kitchen with white walls?",
+          "answers": [
+            "white",
+            "silver",
+            "stainless steel"
+          ],
+          "score": 0.012697219848632812
+        },
+        {
+          "question": "what is the color of the cabinets in the kitchen with the very large fridge?",
+          "answers": [
+            "metal",
+            "stainless steel",
+            "silver"
+          ],
+          "score": 0.0025453567504882812
+        },
+        {
+          "question": "what is the material of the refrigerator in the clean kitchen with white walls?",
+          "answers": [
+            "stainless steel",
+            "silver",
+            "metal"
+          ],
+          "score": 0.002941131591796875
+        },
+        {
+          "question": "what is the material of the refrigerator in the clean kitchen with white walls?",
+          "answers": [
+            "stainless steel",
+            "silver",
+            "metal"
+          ],
+          "score": 0.002941131591796875,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "refrigerator",
+            "door",
+            "table"
+          ],
+          "score": 0.040529727935791016
+        },
+        {
+          "question": "Question: what color are the walls in the kitchen with the very large fridge?",
+          "answers": [
+            "white",
+            "silver",
+            "gray"
+          ],
+          "score": 0.012211799621582031
+        },
+        {
+          "question": "what is the color of the walls in the kitchen with the very large fridge?",
+          "answers": [
+            "white",
+            "beige",
+            "light gray"
+          ],
+          "score": 0.011855602264404297
+        },
+        {
+          "question": "Question: What color are the walls in the kitchen with the very large fridge?",
+          "answers": [
+            "white",
+            "silver",
+            "gray"
+          ],
+          "score": 0.012211799621582031
+        },
+        {
+          "question": "what color are the walls in the kitchen with the very large fridge?",
+          "answers": [
+            "white",
+            "silver",
+            "gray"
+          ],
+          "score": 0.011172771453857422
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

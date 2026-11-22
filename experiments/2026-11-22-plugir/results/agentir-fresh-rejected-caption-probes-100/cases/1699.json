@@ -1,0 +1,178 @@
+{
+  "qid": 1699,
+  "initial": "a large group of people are sitting around the table with wine glasses",
+  "initial_rank": 15,
+  "displayed": [
+    20458,
+    48308,
+    20161,
+    47809,
+    22995,
+    39416,
+    37148,
+    11198,
+    20881,
+    43375
+  ],
+  "evidence": [
+    "a large group of people at tables with laptops in them",
+    "man with glasses looking at wine bottles",
+    "group of people taking pictures in crowd",
+    "a couple of glasses of wine are on a table in front of a wine cellar",
+    "three people in front of a bar with wine glasses",
+    "a dinner is served at a table with plates of food",
+    "people in a auditorium sitting on laptops",
+    "four old women sit around a table having a meal",
+    "a man and woman drinking wine at a winery",
+    "three men smiling at a table with pizza and drinks"
+  ],
+  "rejected_captions": [
+    "several people talking at a table",
+    "the people are smiling",
+    "a long dining table of people",
+    "a group of people are drinking wine",
+    "people are sitting at a table and enjoying their meal",
+    "people at a table talking",
+    "a group of women standing and holding wine glasses",
+    "a bunch of people sitting down at a table",
+    "a large room filled with people",
+    "the people are at a dining table"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the specific location where the large group of people are sitting with wine glasses?",
+      "Question: What is the gender composition of the group of people sitting around the table with wine glasses?",
+      "what is the specific setting or background behind the table where the large group of people are sitting with wine glasses?",
+      "Question: what is the food being served on the table with the large group of people?",
+      "what is the age of the people in the group sitting around the table with wine glasses?"
+    ],
+    "question": "Question: what is the food being served on the table with the large group of people?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the specific location where the large group of people are sitting with wine glasses?",
+          "answers": [
+            "winery",
+            "restaurant",
+            "bar"
+          ],
+          "score": 0.03168535232543945
+        },
+        {
+          "question": "Question: What is the gender composition of the group of people sitting around the table with wine glasses?",
+          "answers": [
+            "all men",
+            "all women",
+            "mixed gender"
+          ],
+          "score": 0.06985044479370117
+        },
+        {
+          "question": "what is the specific setting or background behind the table where the large group of people are sitting with wine glasses?",
+          "answers": [
+            "auditorium",
+            "winery",
+            "bar"
+          ],
+          "score": 0.04586362838745117
+        },
+        {
+          "question": "Question: what is the food being served on the table with the large group of people?",
+          "answers": [
+            "pizza",
+            "wine",
+            "food"
+          ],
+          "score": 0.09295272827148438
+        },
+        {
+          "question": "what is the age of the people in the group sitting around the table with wine glasses?",
+          "answers": [
+            "young adults",
+            "mixed ages",
+            "elderly"
+          ],
+          "score": 0.04734039306640625
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.088,
+      "probe_selection_seconds": 2.583,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "no food is visible on the table; only glasses and tableware are present.",
+    "rewrite": "a large group of people are sitting around a table with wine glasses and tableware, but no food is visible",
+    "raw_rank": 13,
+    "unseen_rank": 6
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the gender of the people sitting around the table?",
+      "Question: What is the gender of the people sitting around the table?",
+      "Question: What is the age of the people sitting around the table?",
+      "Question: What is the specific setting or location where the group is having their meal?",
+      "Question: What food item is on the table in front of the group?"
+    ],
+    "question": "Question: What food item is on the table in front of the group?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the gender of the people sitting around the table?",
+          "answers": [
+            "men",
+            "women",
+            "mixed"
+          ],
+          "score": 0.05221366882324219
+        },
+        {
+          "question": "Question: What is the gender of the people sitting around the table?",
+          "answers": [
+            "men",
+            "women",
+            "mixed"
+          ],
+          "score": 0.05221366882324219,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the age of the people sitting around the table?",
+          "answers": [
+            "young",
+            "middle-aged",
+            "old"
+          ],
+          "score": 0.01786661148071289
+        },
+        {
+          "question": "Question: What is the specific setting or location where the group is having their meal?",
+          "answers": [
+            "auditorium",
+            "winery",
+            "bar"
+          ],
+          "score": 0.09641265869140625
+        },
+        {
+          "question": "Question: What food item is on the table in front of the group?",
+          "answers": [
+            "pizza",
+            "wine",
+            "laptops"
+          ],
+          "score": 0.13824892044067383
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.145,
+      "probe_selection_seconds": 2.026,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "food",
+    "rewrite": "a large group of people are sitting around a table with wine glasses and food",
+    "raw_rank": 31,
+    "unseen_rank": 21
+  }
+}

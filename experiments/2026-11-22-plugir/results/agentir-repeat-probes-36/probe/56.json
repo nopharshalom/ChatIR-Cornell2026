@@ -1,0 +1,108 @@
+{
+  "qid": 56,
+  "arm": "probe",
+  "after_round": 2,
+  "ranks": [
+    18,
+    17,
+    18,
+    19,
+    19,
+    33,
+    15,
+    17,
+    15,
+    15,
+    15
+  ],
+  "continuation": [
+    {
+      "round": 3,
+      "query_before": "The intersection featured a red light, wet streets, and traffic signals.",
+      "question": "Is the street wet or dry?",
+      "answer": "wet",
+      "query_after": "an intersection with a red traffic light and wet streets",
+      "searches": [
+        {
+          "query": "a red traffic light on a pole with wet streets and street signs",
+          "ids": [
+            8937,
+            35738,
+            14334
+          ],
+          "captions": [
+            "the camera is looking at the red traffic light",
+            "a traffic light on a wet street",
+            "two cars are stopped in traffic, the lights are flashing and there is a parked car next to them"
+          ]
+        },
+        {
+          "query": "a red traffic light on a pole with wet streets and tall buildings",
+          "ids": [
+            43393,
+            45824,
+            20799
+          ],
+          "captions": [
+            "the street has been soaked with rain",
+            "a picture of a traffic light next to tall buildings",
+            "a traffic light on a street with a message on it"
+          ]
+        }
+      ],
+      "raw_plan": "a red traffic light on a pole with wet streets and street signs\na red traffic light on a pole with wet streets and tall buildings",
+      "generated": "Is the street wet or dry?",
+      "fallback": false
+    },
+    {
+      "round": 4,
+      "query_before": "an intersection with a red traffic light and wet streets",
+      "question": "what is the location of the intersection in the image?",
+      "answer": "unsure",
+      "query_after": "an intersection with a red traffic light and wet streets, with other traffic lights visible, location unknown"
+    },
+    {
+      "round": 5,
+      "query_before": "an intersection with a red traffic light and wet streets, with other traffic lights visible, location unknown",
+      "question": "what is the other object in the image?",
+      "answer": "traffic lights",
+      "query_after": "an intersection with wet streets and traffic lights"
+    },
+    {
+      "round": 6,
+      "query_before": "an intersection with wet streets and traffic lights",
+      "question": "what is the color of the traffic light at the intersection?",
+      "answer": "red",
+      "query_after": "an intersection with red traffic lights and wet streets"
+    },
+    {
+      "round": 7,
+      "query_before": "an intersection with red traffic lights and wet streets",
+      "question": "what is the other object in the image?",
+      "answer": "traffic lights",
+      "query_after": "An intersection where the traffic lights are red and the streets are wet."
+    },
+    {
+      "round": 8,
+      "query_before": "An intersection where the traffic lights are red and the streets are wet.",
+      "question": "what is the other object in the image?",
+      "answer": "traffic lights",
+      "query_after": "an intersection with red traffic lights and wet streets"
+    },
+    {
+      "round": 9,
+      "query_before": "an intersection with red traffic lights and wet streets",
+      "question": "what is the other object in the image?",
+      "answer": "traffic lights",
+      "query_after": "An intersection featuring red traffic lights and wet streets."
+    },
+    {
+      "round": 10,
+      "query_before": "An intersection featuring red traffic lights and wet streets.",
+      "question": "what is the other object in the image?",
+      "answer": "traffic lights",
+      "query_after": "an intersection with red traffic lights and wet streets"
+    }
+  ],
+  "seconds": 128.7
+}

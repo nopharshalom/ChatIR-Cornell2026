@@ -1,0 +1,79 @@
+{
+  "qid": 1461,
+  "candidates": [
+    "Question: What color is the tennis player's shirt?",
+    "Question: What color is the skirt worn by the woman hitting the tennis ball?",
+    "Question: What color is the tennis player's skirt?",
+    "Question: Is the tennis player wearing a skirt or shorts?",
+    "Question: What color is the tennis player's skirt?"
+  ],
+  "kl": {
+    "question": "Question: Is the tennis player wearing a skirt or shorts?",
+    "answer": "skirt",
+    "rewrite": "a tennis player wearing a skirt extends her racket to hit the ball",
+    "raw_rank": 61,
+    "unseen_rank": 54
+  },
+  "probe": {
+    "answer": "White.",
+    "rewrite": "a tennis player in a white shirt extends her racket to hit the ball",
+    "raw_rank": 12,
+    "unseen_rank": 6,
+    "question": "Question: What color is the tennis player's shirt?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What color is the tennis player's shirt?",
+        "answers": [
+          "green",
+          "white",
+          "red"
+        ],
+        "score": 0.2109050750732422
+      },
+      {
+        "question": "Question: What color is the skirt worn by the woman hitting the tennis ball?",
+        "answers": [
+          "white",
+          "orange",
+          "red"
+        ],
+        "score": 0.0579676628112793
+      },
+      {
+        "question": "Question: What color is the tennis player's skirt?",
+        "answers": [
+          "white",
+          "red and white",
+          "orange"
+        ],
+        "score": 0.10958671569824219
+      },
+      {
+        "question": "Question: Is the tennis player wearing a skirt or shorts?",
+        "answers": [
+          "skirt",
+          "shorts"
+        ],
+        "score": 0.0009284019470214844
+      },
+      {
+        "question": "Question: What color is the tennis player's skirt?",
+        "answers": [
+          "white",
+          "red and white",
+          "orange"
+        ],
+        "score": 0.10958671569824219,
+        "duplicate_of": 2
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.061,
+    "probe_selection_seconds": 1.763,
+    "probe_llm_calls": 4,
+    "probe_search_queries": 11
+  },
+  "reused_outcome": false
+}

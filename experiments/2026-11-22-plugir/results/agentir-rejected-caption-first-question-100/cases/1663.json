@@ -1,0 +1,71 @@
+{
+  "qid": 1663,
+  "initial": "a multiple signs at an intersection depicting direction of traffic, parking legality, and the names of adjoining roads",
+  "initial_rank": 174,
+  "evidence": [
+    "a green street sign with numbers in white letters",
+    "blue street signs in front of a tall building",
+    "a stop sign on a wooden pole near some homes",
+    "large grey buildings in a city",
+    "the cars are driving along side of a crowded sidewalk",
+    "a car in a car park on a busy street",
+    "a traffic light on a pole outside of a building",
+    "a group of street signs on a pole in front of an old building",
+    "a small road that goes past a grassy hillside with a stop sign in the distance",
+    "a stop sign, a bike, and a parked car"
+  ],
+  "displayed_ids": [
+    19628,
+    5831,
+    36055,
+    10458,
+    33700,
+    11081,
+    11560,
+    45196,
+    31755,
+    39716
+  ],
+  "rejected_captions": [
+    "the sign is green",
+    "two blue street signs with red numbers",
+    "several street signs pointing different directions",
+    "a street corner with many signs",
+    "a sign showing an intersection of two streets",
+    "a city sign on a pole",
+    "signs next to each other",
+    "a white city street sign",
+    "street signs are in several different places",
+    "signs that are on the street near a building"
+  ],
+  "candidates": [
+    "what color are the street signs at the intersection?",
+    "Question: What object is visible next to the multiple signs at the intersection?",
+    "what is the background environment behind the multiple signs at the intersection?",
+    "what is the color of the pole holding the multiple signs at the intersection?",
+    "Question: What is the color of the street signs at the intersection?"
+  ],
+  "control_candidates": [
+    "What is the background of the multiple signs at the intersection?",
+    "Question: What color are the street signs at the intersection?",
+    "Question: What is the object located next to the multiple signs at the intersection?",
+    "what is the color of the street signs at the intersection?",
+    "what is the location of the multiple signs at the intersection?"
+  ],
+  "control": {
+    "question": "Question: What is the object located next to the multiple signs at the intersection?",
+    "answer": "tree",
+    "rewrite": "multiple signs at an intersection depicting direction of traffic, parking legality, and the names of adjoining roads, with a tree located next to them",
+    "rank": 96,
+    "hit": false,
+    "raw_rank": 96,
+    "unseen_rank": 86
+  },
+  "variant": {
+    "question": "what is the background environment behind the multiple signs at the intersection?",
+    "answer": "trees",
+    "rewrite": "multiple signs at an intersection depicting direction of traffic, parking legality, and the names of adjoining roads, with trees in the background",
+    "raw_rank": 81,
+    "unseen_rank": 72
+  }
+}

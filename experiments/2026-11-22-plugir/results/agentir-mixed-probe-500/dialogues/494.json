@@ -1,0 +1,143 @@
+{
+  "qid": 494,
+  "sample": "original",
+  "target": "unlabeled2017/000000291531.jpg",
+  "queries": [
+    "a group of people having some sort of celebration",
+    "a group of people in formal attire posing for a photo while holding drinks on a red carpet at a party or event"
+  ],
+  "ranks": [
+    193,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a group of people having some sort of celebration",
+      "question": "what is the specific activity the group of people is engaged in during the celebration, and where is it taking place?",
+      "answer": "The group is posing for a photo while holding drinks, likely at a party or event, as indicated by the red carpet and formal attire.",
+      "query_after": "a group of people in formal attire posing for a photo while holding drinks on a red carpet at a party or event",
+      "displayed_ids": [
+        32788,
+        8512,
+        43577,
+        49577,
+        34474,
+        46215,
+        37041,
+        26074,
+        4218,
+        14481
+      ],
+      "selected_ids": [
+        12294,
+        10123,
+        31828,
+        42889,
+        21373,
+        48036,
+        26865,
+        21030,
+        17567,
+        7685
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the specific activity the group of people is engaged in during the celebration?",
+          "answers": [
+            "eating dinner",
+            "sitting on grass",
+            "playing games"
+          ],
+          "score": 0.32136964797973633
+        },
+        {
+          "question": "Question: where is the group of people having their celebration?",
+          "answers": [
+            "outdoors",
+            "dining room",
+            "living room"
+          ],
+          "score": 0.3912167549133301
+        },
+        {
+          "question": "what are the people holding in the room where the celebration is taking place?",
+          "answers": [
+            "blankets",
+            "frisbee",
+            "gaming controllers"
+          ],
+          "score": 0.1589822769165039
+        },
+        {
+          "question": "what is the specific setting or room type where the group of people is having their celebration?",
+          "answers": [
+            "outdoors",
+            "dining room",
+            "living room"
+          ],
+          "score": 0.19253826141357422
+        },
+        {
+          "question": "what is the specific activity the group of people is engaged in during the celebration, and where is it taking place?",
+          "answers": [
+            "sitting on blankets on the grass",
+            "playing frisbee in the field",
+            "sitting in a dining room"
+          ],
+          "score": 0.5994839668273926
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Where are the people in the group celebration sitting?",
+          "answers": [
+            "on blankets on the grass",
+            "in a dining room",
+            "on the floor in a living room"
+          ],
+          "score": 0.45184946060180664
+        },
+        {
+          "question": "what color are the blankets the people are sitting on?",
+          "answers": [
+            "blue",
+            "red",
+            "green"
+          ],
+          "score": 0.07759904861450195
+        },
+        {
+          "question": "what are the people holding in their hands?",
+          "answers": [
+            "blankets",
+            "frisbee",
+            "gaming controllers"
+          ],
+          "score": 0.2733488082885742
+        },
+        {
+          "question": "what is the age group of the people in the celebration?",
+          "answers": [
+            "children",
+            "adults",
+            "mixed ages"
+          ],
+          "score": 0.052358150482177734
+        },
+        {
+          "question": "what is the age group of the people in the group celebration?",
+          "answers": [
+            "children",
+            "adults",
+            "mixed"
+          ],
+          "score": 0.05094194412231445
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

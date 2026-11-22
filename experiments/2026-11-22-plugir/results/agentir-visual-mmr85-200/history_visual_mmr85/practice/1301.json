@@ -1,0 +1,98 @@
+{
+  "ids": [
+    44491,
+    45310,
+    19238,
+    12645
+  ],
+  "prefix": [
+    "a bakery display case filled with a large variety of different doughnuts",
+    "Question: What is the color of the display case containing the doughnuts? silver"
+  ],
+  "default": "what is the specific type or variety of doughnuts displayed in the case?",
+  "chosen": "what is the specific type or variety of doughnuts displayed in the case?",
+  "trials": {
+    "what is the specific type or variety of doughnuts displayed in the case?": {
+      "answers": [
+        "chocolate, pink, orange, white, and sprinkled",
+        "chocolate glazed",
+        "unsure",
+        "organic doughnuts"
+      ],
+      "rewrites": {
+        "chocolate, pink, orange, white, and sprinkled": "a silver bakery display case filled with a large variety of doughnuts, including chocolate, pink, orange, white, and sprinkled varieties",
+        "chocolate glazed": "a silver bakery display case filled with a large variety of chocolate glazed doughnuts",
+        "unsure": "a silver bakery display case filled with a large variety of doughnuts",
+        "organic doughnuts": "a silver bakery display case filled with a large variety of organic doughnuts"
+      },
+      "ranks": [
+        3,
+        32,
+        31,
+        30
+      ],
+      "hits": 1
+    },
+    "what is the color of the donuts in the display case?": {
+      "answers": [
+        "orange, pink, white, brown",
+        "brown",
+        "brown",
+        "brown"
+      ],
+      "rewrites": {
+        "orange, pink, white, brown": "a silver bakery display case filled with a large variety of doughnuts in orange, pink, white, and brown colors",
+        "brown": "a silver bakery display case filled with a large variety of brown doughnuts"
+      },
+      "ranks": [
+        6,
+        25,
+        52,
+        39
+      ],
+      "hits": 1
+    },
+    "How many different types of doughnuts are visible in the bakery display case?": {
+      "answers": [
+        "7",
+        "4",
+        "0",
+        "Based on the image, there are at least 5 different types of doughnuts visible:\n\n1.  **Glazed Doughnut:** The round, shiny doughnut in the foreground.\n2.  **Chocolate Doughnut:** The"
+      ],
+      "rewrites": {
+        "7": "a silver bakery display case filled with seven different types of doughnuts",
+        "4": "a silver bakery display case filled with four different types of doughnuts",
+        "0": "an empty silver bakery display case",
+        "Based on the image, there are at least 5 different types of doughnuts visible:\n\n1.  **Glazed Doughnut:** The round, shiny doughnut in the foreground.\n2.  **Chocolate Doughnut:** The": "a silver bakery display case filled with a large variety of doughnuts, including glazed and chocolate types"
+      },
+      "ranks": [
+        21,
+        8,
+        21,
+        37
+      ],
+      "hits": 1
+    },
+    "How many different types of doughnuts are visible in the display case?": {
+      "answers": [
+        "7",
+        "4",
+        "0",
+        "Based on the image, there are **at least 5** different types of doughnuts visible.\n\nHere's a breakdown of what can be seen:\n\n1.  **Pink Icing Doughnut:** A stack of round doughnuts"
+      ],
+      "rewrites": {
+        "7": "a silver bakery display case filled with seven different types of doughnuts",
+        "4": "a silver bakery display case filled with four different types of doughnuts",
+        "0": "an empty silver bakery display case",
+        "Based on the image, there are **at least 5** different types of doughnuts visible.\n\nHere's a breakdown of what can be seen:\n\n1.  **Pink Icing Doughnut:** A stack of round doughnuts": "a silver bakery display case filled with at least five different types of doughnuts, including a stack of pink icing doughnuts"
+      },
+      "ranks": [
+        21,
+        8,
+        21,
+        25
+      ],
+      "hits": 1
+    }
+  }
+}

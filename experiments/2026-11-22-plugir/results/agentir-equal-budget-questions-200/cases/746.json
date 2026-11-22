@@ -1,0 +1,80 @@
+{
+  "qid": 746,
+  "sample": 1,
+  "first_candidates": [
+    "what is the other object in the image?",
+    "what is the color of the train engine in the image?",
+    "what is the location of the red train engine?",
+    "what is the ground cover or terrain type next to the red train engine?",
+    "what is the color of the train engine in the image?"
+  ],
+  "second_candidates": [
+    "what is the other object in the image?",
+    "what is the color of the train engine with cars behind it?",
+    "what is the color of the train engine with cars behind it?",
+    "what is the location of the red train engine with cars behind it?",
+    "what is the location of the red train engine with cars behind it?"
+  ],
+  "paths": [
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "foothill",
+        "trees",
+        "sky"
+      ],
+      "score": 0.05018472671508789
+    },
+    {
+      "question": "what is the color of the train engine with cars behind it?",
+      "answers": [
+        "red",
+        "yellow",
+        "blue"
+      ],
+      "score": 0.06812763214111328
+    },
+    {
+      "question": "what is the color of the train engine with cars behind it?",
+      "answers": [
+        "red",
+        "yellow",
+        "blue"
+      ],
+      "score": 0.06812763214111328,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the location of the red train engine with cars behind it?",
+      "answers": [
+        "near a small foothill",
+        "at a train station",
+        "in a wooded area"
+      ],
+      "score": 0.08204412460327148
+    },
+    {
+      "question": "what is the location of the red train engine with cars behind it?",
+      "answers": [
+        "near a small foothill",
+        "at a train station",
+        "in a wooded area"
+      ],
+      "score": 0.08204412460327148,
+      "duplicate_of": 3
+    }
+  ],
+  "control": {
+    "question": "what is the location of the red train engine with cars behind it?",
+    "score": 0.08204412460327148
+  },
+  "mixed": {
+    "question": "Question: What is the color of the cars behind the red train engine?",
+    "score": 0.05048084259033203
+  },
+  "control_rank": 77,
+  "mixed_rank": 41,
+  "usual_rank": 8,
+  "new_answer": "middle",
+  "new_rewrite": "a red train engine with cars behind it located in the middle of the image, next to a small foothill"
+}

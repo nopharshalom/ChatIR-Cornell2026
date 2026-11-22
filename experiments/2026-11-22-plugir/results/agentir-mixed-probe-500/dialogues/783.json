@@ -1,0 +1,144 @@
+{
+  "qid": 783,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000320565.jpg",
+  "queries": [
+    "a pizza on a plate cut into slices",
+    "a pizza topped with pepperoni, green peppers, and cheese, served on a plate and cut into slices"
+  ],
+  "ranks": [
+    51,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a pizza on a plate cut into slices",
+      "question": "Question: What type of toppings does the pizza have?",
+      "answer": "pepperoni, green peppers, cheese",
+      "query_after": "a pizza topped with pepperoni, green peppers, and cheese, served on a plate and cut into slices",
+      "displayed_ids": [
+        25805,
+        4489,
+        40925,
+        32064,
+        12464,
+        3780,
+        7777,
+        10057,
+        43094,
+        47995
+      ],
+      "selected_ids": [
+        28874,
+        3366,
+        7777,
+        45159,
+        23446,
+        13941,
+        5913,
+        28541,
+        49448,
+        375
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: Is the pizza on a paper plate or a wooden table?",
+          "answers": [
+            "paper",
+            "wooden table",
+            "plate"
+          ],
+          "score": 0.012263774871826172
+        },
+        {
+          "question": "Question: How many slices is the pizza cut into?",
+          "answers": [
+            "2",
+            "multiple",
+            "one"
+          ],
+          "score": 0.0022759437561035156
+        },
+        {
+          "question": "Question: What toppings are on the pizza?",
+          "answers": [
+            "cheese and pepperoni",
+            "tomatoes and peppers",
+            "mushrooms and spinach"
+          ],
+          "score": 0.17746257781982422
+        },
+        {
+          "question": "Question: Where is the pizza with mushrooms, spinach, and onion located?",
+          "answers": [
+            "on a plate",
+            "on a wooden table",
+            "in a restaurant"
+          ],
+          "score": 0.040079593658447266
+        },
+        {
+          "question": "Question: Is the pizza on a paper plate or a wooden table?",
+          "answers": [
+            "paper",
+            "wooden table",
+            "plate"
+          ],
+          "score": 0.012263774871826172,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What type of toppings does the pizza have?",
+          "answers": [
+            "pepperoni",
+            "tomatoes and peppers",
+            "mushrooms and spinach"
+          ],
+          "score": 0.17939043045043945
+        },
+        {
+          "question": "Question: What color is the plate the pizza is sitting on?",
+          "answers": [
+            "paper",
+            "wooden",
+            "white"
+          ],
+          "score": 0.08937788009643555
+        },
+        {
+          "question": "Question: Is the pizza sitting on a paper plate or a wooden plate/board?",
+          "answers": [
+            "paper plate",
+            "wooden plate",
+            "wooden board"
+          ],
+          "score": 0.012969017028808594
+        },
+        {
+          "question": "Question: What material is the plate or board the pizza is sitting on?",
+          "answers": [
+            "paper",
+            "wooden",
+            "white"
+          ],
+          "score": 0.08175134658813477
+        },
+        {
+          "question": "What type of pizza is on the plate?",
+          "answers": [
+            "Cheese pizza",
+            "Pepperoni pizza",
+            "Veggie pizza"
+          ],
+          "score": 0.14763641357421875
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

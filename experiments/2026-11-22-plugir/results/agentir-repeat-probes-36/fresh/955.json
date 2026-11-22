@@ -1,0 +1,60 @@
+{
+  "qid": 955,
+  "arm": "fresh",
+  "after_round": 5,
+  "ranks": [
+    102,
+    388,
+    328,
+    330,
+    442,
+    308,
+    303,
+    308,
+    258,
+    297,
+    234
+  ],
+  "continuation": [
+    {
+      "round": 6,
+      "query_before": "a skateboarder in a black long-sleeve shirt and jeans stands on a skateboard at a skatepark during the day, preparing to go off a ramp",
+      "question": "Is the scene set at night or during the day?",
+      "answer": "day",
+      "query_after": "During the day, a skateboarder wearing a black long-sleeve shirt and jeans is positioned on a skateboard at a skatepark, ready to ride down a ramp.",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Is the scene set at night or during the day?",
+      "fallback": false
+    },
+    {
+      "round": 7,
+      "query_before": "During the day, a skateboarder wearing a black long-sleeve shirt and jeans is positioned on a skateboard at a skatepark, ready to ride down a ramp.",
+      "question": "what is the other object in the image?",
+      "answer": "skateboard",
+      "query_after": "a skateboarder in a black long-sleeve shirt and jeans stands on a skateboard at a skatepark during the day, preparing to go off a ramp"
+    },
+    {
+      "round": 8,
+      "query_before": "a skateboarder in a black long-sleeve shirt and jeans stands on a skateboard at a skatepark during the day, preparing to go off a ramp",
+      "question": "Question: Is the skateboarder wearing a hat?",
+      "answer": "no",
+      "query_after": "a skateboarder wearing a black long-sleeve shirt and jeans stands on a skateboard at a skatepark during the day, without a hat, appearing ready to go off a ramp"
+    },
+    {
+      "round": 9,
+      "query_before": "a skateboarder wearing a black long-sleeve shirt and jeans stands on a skateboard at a skatepark during the day, without a hat, appearing ready to go off a ramp",
+      "question": "what is the other object in the image?",
+      "answer": "skateboard",
+      "query_after": "a skateboarder wearing a black long-sleeve shirt and jeans, without a hat, stands on a skateboard at a skatepark during the day, preparing to go off a ramp"
+    },
+    {
+      "round": 10,
+      "query_before": "a skateboarder wearing a black long-sleeve shirt and jeans, without a hat, stands on a skateboard at a skatepark during the day, preparing to go off a ramp",
+      "question": "what is the gender of the skateboarder wearing a black long sleeve shirt?",
+      "answer": "male",
+      "query_after": "a male skateboarder wearing a black long-sleeve shirt and jeans, without a hat, stands on a skateboard at a skatepark during the day, poised as if about to go off a ramp"
+    }
+  ],
+  "seconds": 69.3
+}

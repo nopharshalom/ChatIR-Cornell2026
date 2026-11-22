@@ -1,0 +1,407 @@
+{
+  "qid": 81,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000175827.jpg",
+  "queries": [
+    "a baseball player swings at a baseball with another player and umpire behind him",
+    "a baseball player in a black and white uniform swings at a baseball, with another player and an umpire behind him",
+    "A baseball player wearing a black and white uniform swings at a ball, with another player and an umpire positioned behind him.",
+    "a baseball player in a black and white uniform swings at a baseball, with another player in a red uniform and an umpire standing behind him"
+  ],
+  "ranks": [
+    11,
+    12,
+    14,
+    9
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a baseball player swings at a baseball with another player and umpire behind him",
+      "question": "Question: Question: What is the color of the baseball player's uniform?",
+      "answer": "Black and white.",
+      "query_after": "a baseball player in a black and white uniform swings at a baseball, with another player and an umpire behind him",
+      "displayed_ids": [
+        7856,
+        21965,
+        30359,
+        19004,
+        29114,
+        30203,
+        2120,
+        39630,
+        24339,
+        38188
+      ],
+      "selected_ids": [
+        39397,
+        40830,
+        39689,
+        20273,
+        43647,
+        8407,
+        19956,
+        25008,
+        18652,
+        27795
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: Is the baseball player wearing a red uniform?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.00025081634521484375
+        },
+        {
+          "question": "Question: where is the baseball player standing?",
+          "answers": [
+            "behind home plate",
+            "on the mound",
+            "in the outfield"
+          ],
+          "score": 0.014596939086914062
+        },
+        {
+          "question": "Question: Is there a crowd watching the baseball player?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.00023746490478515625
+        },
+        {
+          "question": "Question: What is the position of the baseball player swinging the bat?",
+          "answers": [
+            "catcher",
+            "pitcher",
+            "outfielder"
+          ],
+          "score": 0.018880844116210938
+        },
+        {
+          "question": "Question: What is the gender of the baseball player swinging at the pitch?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.03617668151855469
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the shirt of the baseball player swinging the bat?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.07487916946411133
+        },
+        {
+          "question": "Question: Question: What is the color of the baseball player's uniform?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.16393136978149414
+        },
+        {
+          "question": "Question: Question: Is the baseball player wearing a red shirt or a green hat?",
+          "answers": [
+            "red shirt",
+            "green hat",
+            "neither"
+          ],
+          "score": 0.011981487274169922
+        },
+        {
+          "question": "Question: Is the baseball player wearing a red uniform?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.00025081634521484375
+        },
+        {
+          "question": "Who is the person standing directly behind the baseball player?",
+          "answers": [
+            "another player",
+            "an umpire",
+            "a player and an umpire"
+          ],
+          "score": 0.0020227432250976562
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a baseball player in a black and white uniform swings at a baseball, with another player and an umpire behind him",
+      "question": "what is the color of the baseball player's uniform?",
+      "answer": "black and white",
+      "query_after": "A baseball player wearing a black and white uniform swings at a ball, with another player and an umpire positioned behind him.",
+      "displayed_ids": [
+        21853,
+        29114,
+        38583,
+        38188,
+        6800,
+        24928,
+        15716,
+        6385,
+        18806,
+        32353
+      ],
+      "selected_ids": [
+        7406,
+        18746,
+        41183,
+        27795,
+        6169,
+        31705,
+        16513,
+        40830,
+        30818,
+        42316
+      ],
+      "rejected_count": 18,
+      "usual_paths": [
+        {
+          "question": "What is the position of the baseball player relative to the crowd?",
+          "answers": [
+            "In front of",
+            "Behind",
+            "Near"
+          ],
+          "score": 0.0005125999450683594
+        },
+        {
+          "question": "what is the age of the baseball player swinging the bat?",
+          "answers": [
+            "child",
+            "teenager",
+            "adult"
+          ],
+          "score": 0.023334503173828125
+        },
+        {
+          "question": "Question: What is the gender of the baseball player swinging the bat?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.022361278533935547
+        },
+        {
+          "question": "Question: What is the background of the baseball player swinging the bat?",
+          "answers": [
+            "an empty field",
+            "a crowd of people",
+            "an indoor stadium"
+          ],
+          "score": 0.027956485748291016
+        },
+        {
+          "question": "Question: What is the gender of the baseball player swinging the bat?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.022361278533935547,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the role of the other player behind the baseball player?",
+          "answers": [
+            "catcher",
+            "umpire",
+            "baseball player"
+          ],
+          "score": 0.0034580230712890625
+        },
+        {
+          "question": "Question: What is the role of the other player behind the baseball player?",
+          "answers": [
+            "Catcher",
+            "Umpire",
+            "Coach"
+          ],
+          "score": 0.007122993469238281
+        },
+        {
+          "question": "what is the color of the baseball player's uniform?",
+          "answers": [
+            "Black and white",
+            "Red",
+            "Blue"
+          ],
+          "score": 0.15375757217407227
+        },
+        {
+          "question": "what is the role of the other player behind the baseball player?",
+          "answers": [
+            "catcher",
+            "umpire",
+            "baseball player"
+          ],
+          "score": 0.0034580230712890625,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the role of the other player behind the baseball player?",
+          "answers": [
+            "catcher",
+            "umpire",
+            "baseball player"
+          ],
+          "score": 0.0034580230712890625,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "A baseball player wearing a black and white uniform swings at a ball, with another player and an umpire positioned behind him.",
+      "question": "Question: What is the color of the uniform worn by the player standing behind the batter?",
+      "answer": "red",
+      "query_after": "a baseball player in a black and white uniform swings at a baseball, with another player in a red uniform and an umpire standing behind him",
+      "displayed_ids": [
+        21853,
+        29114,
+        38188,
+        38583,
+        6800,
+        24928,
+        15716,
+        6385,
+        18806,
+        48809
+      ],
+      "selected_ids": [
+        41183,
+        8407,
+        27795,
+        24553,
+        19956,
+        680,
+        8764,
+        42735,
+        16513,
+        40830
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "what is the gender of the person swinging the bat?",
+          "answers": [
+            "male",
+            "female",
+            "child"
+          ],
+          "score": 0.030604839324951172
+        },
+        {
+          "question": "what is the gender of the person swinging the bat?",
+          "answers": [
+            "male",
+            "female",
+            "child"
+          ],
+          "score": 0.030604839324951172,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the gender of the baseball player swinging the bat?",
+          "answers": [
+            "boy",
+            "man",
+            "woman"
+          ],
+          "score": 0.02089548110961914
+        },
+        {
+          "question": "what is the gender of the person performing the bat swing?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.018728256225585938
+        },
+        {
+          "question": "what is the gender of the baseball player swinging the bat?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.02214670181274414
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the uniform worn by the player standing behind the batter?",
+          "answers": [
+            "Red",
+            "Blue",
+            "You don't know"
+          ],
+          "score": 0.1696491241455078
+        },
+        {
+          "question": "Question: What is the color of the uniform worn by the player standing behind the batter?",
+          "answers": [
+            "black and white",
+            "blue",
+            "red"
+          ],
+          "score": 0.18425846099853516
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a player",
+            "an umpire",
+            "a catcher"
+          ],
+          "score": 0.006478309631347656
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a player",
+            "an umpire",
+            "a catcher"
+          ],
+          "score": 0.006478309631347656,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the uniform worn by the player standing behind the batter?",
+          "answers": [
+            "Red",
+            "Blue",
+            "You don't know"
+          ],
+          "score": 0.1696491241455078,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

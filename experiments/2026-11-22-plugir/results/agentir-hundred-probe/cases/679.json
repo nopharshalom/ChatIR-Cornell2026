@@ -1,0 +1,100 @@
+{
+  "qid": 679,
+  "initial": "a little boy swings a large bat and hits a ball",
+  "initial_rank": 13,
+  "evidence": [
+    "a baseball game is in progress",
+    "a child holding a tennis racket while walking through an empty parking lot",
+    "a catcher swinging a bat while another player is in the catcher's box",
+    "baseball player wearing white helmet",
+    "a baseball field with a large group of people playing baseball",
+    "a baseball player swinging a bat in front of the crowd",
+    "a group of baseball players on a field",
+    "young boy kicking a soccer ball",
+    "a baseball player has his bat ready",
+    "a baseball player swinging a bat while the catcher and uber is at home plate"
+  ],
+  "candidates": [
+    "Question: what is the location where the little boy is swinging the bat?",
+    "what is the age of the person swinging the bat?",
+    "what is the color of the bat that the little boy is swinging?",
+    "what is the color of the ball that the little boy is hitting?",
+    "Question: what is the setting or background of the scene where the little boy is swinging the bat?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: what is the location where the little boy is swinging the bat?",
+      "answers": [
+        "parking lot",
+        "baseball field",
+        "home plate"
+      ],
+      "score": 0.048371315002441406
+    },
+    {
+      "question": "what is the age of the person swinging the bat?",
+      "answers": [
+        "child",
+        "boy",
+        "young boy"
+      ],
+      "score": 0.0008640289306640625
+    },
+    {
+      "question": "what is the color of the bat that the little boy is swinging?",
+      "answers": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "score": 0.1155543327331543
+    },
+    {
+      "question": "what is the color of the ball that the little boy is hitting?",
+      "answers": [
+        "red",
+        "yellow",
+        "white"
+      ],
+      "score": 0.07255125045776367
+    },
+    {
+      "question": "Question: what is the setting or background of the scene where the little boy is swinging the bat?",
+      "answers": [
+        "a parking lot",
+        "a baseball field",
+        "in front of a crowd"
+      ],
+      "score": 0.10887670516967773
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.064,
+  "probe_selection_seconds": 2.57,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the age of the person swinging the bat?",
+      "answer": "toddler",
+      "rewrite": "a toddler swings a large bat and hits a ball",
+      "rank": 9,
+      "hit": true
+    },
+    "random": {
+      "question": "Question: what is the location where the little boy is swinging the bat?",
+      "answer": "woods",
+      "rewrite": "a little boy swings a large bat and hits a ball in the woods",
+      "rank": 1,
+      "hit": true
+    },
+    "probe": {
+      "question": "what is the color of the bat that the little boy is swinging?",
+      "answer": "light blue",
+      "rewrite": "a little boy swings a light blue bat and hits a ball",
+      "rank": 8,
+      "hit": true
+    }
+  },
+  "seconds": 15.941
+}

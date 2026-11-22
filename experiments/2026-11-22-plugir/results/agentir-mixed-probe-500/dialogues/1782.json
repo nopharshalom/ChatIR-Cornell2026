@@ -1,0 +1,273 @@
+{
+  "qid": 1782,
+  "sample": "original",
+  "target": "unlabeled2017/000000427339.jpg",
+  "queries": [
+    "2 airplanes are parked on an airport runway",
+    "two airplanes are parked on an airport runway, one of which is white and blue",
+    "two Lufthansa Regional airplanes, one white and blue, are parked on an airport runway"
+  ],
+  "ranks": [
+    44,
+    40,
+    3
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "2 airplanes are parked on an airport runway",
+      "question": "Question: What is the specific color combination of one of the parked airplanes?",
+      "answer": "white and blue",
+      "query_after": "two airplanes are parked on an airport runway, one of which is white and blue",
+      "displayed_ids": [
+        445,
+        30292,
+        35981,
+        39016,
+        34312,
+        35509,
+        23796,
+        5535,
+        19024,
+        4265
+      ],
+      "selected_ids": [
+        44587,
+        12626,
+        44451,
+        13053,
+        512,
+        14710,
+        45918,
+        876,
+        20602,
+        10388
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the airplanes parked on the airport runway?",
+          "answers": [
+            "white and red",
+            "blue and red",
+            "white and blue"
+          ],
+          "score": 0.12932682037353516
+        },
+        {
+          "question": "Question: What is the color of the airplanes parked on the airport runway?",
+          "answers": [
+            "blue and red",
+            "white and red",
+            "white and blue"
+          ],
+          "score": 0.10796022415161133
+        },
+        {
+          "question": "Question: What is the color of the airplanes parked on the airport runway?",
+          "answers": [
+            "blue and red",
+            "white and red",
+            "white and blue"
+          ],
+          "score": 0.10796022415161133,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: Which of the parked airplanes is red?",
+          "answers": [
+            "0",
+            "9"
+          ],
+          "score": 0.0009832382202148438
+        },
+        {
+          "question": "Question: Which of the parked airplanes is red?",
+          "answers": [
+            "0",
+            "9"
+          ],
+          "score": 0.0009832382202148438,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What are the colors of the two airplanes?",
+          "answers": [
+            "white and red",
+            "blue and red",
+            "white and blue"
+          ],
+          "score": 0.12486982345581055
+        },
+        {
+          "question": "Question: What is the specific color combination of one of the parked airplanes?",
+          "answers": [
+            "blue and red",
+            "white and red",
+            "white and blue"
+          ],
+          "score": 0.13213443756103516
+        },
+        {
+          "question": "Question: Which of the parked airplanes is white and blue?",
+          "answers": [
+            "0",
+            "6",
+            "8"
+          ],
+          "score": 0.0006480216979980469
+        },
+        {
+          "question": "Question: What is the color of the tail fin on the white and blue airplane?",
+          "answers": [
+            "blue",
+            "white",
+            "red"
+          ],
+          "score": 0.04352426528930664
+        },
+        {
+          "question": "Question: Question: What is the color of the second airplane?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.12142038345336914
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "two airplanes are parked on an airport runway, one of which is white and blue",
+      "question": "Question: What is the name of the airline on the white and blue airplane parked on the runway?",
+      "answer": "lufthansa regional",
+      "query_after": "two Lufthansa Regional airplanes, one white and blue, are parked on an airport runway",
+      "displayed_ids": [
+        35509,
+        44587,
+        34312,
+        35981,
+        4265,
+        5535,
+        18538,
+        44615,
+        39016,
+        4835
+      ],
+      "selected_ids": [
+        6968,
+        25315,
+        20634,
+        23761,
+        14532,
+        44587,
+        10388,
+        22926,
+        512,
+        13053
+      ],
+      "rejected_count": 14,
+      "usual_paths": [
+        {
+          "question": "What is the specific color combination of the other parked airplane on the runway?",
+          "answers": [
+            "blue and red",
+            "red and white",
+            "blue and white"
+          ],
+          "score": 0.0612177848815918
+        },
+        {
+          "question": "what is the specific location of the white and blue airplane?",
+          "answers": [
+            "at the airport",
+            "on the runway",
+            "on the tarmac"
+          ],
+          "score": 0.003612041473388672
+        },
+        {
+          "question": "Question: What color is the other airplane parked on the runway besides the white and blue one?",
+          "answers": [
+            "red and white",
+            "blue and red",
+            "white and red"
+          ],
+          "score": 0.0038509368896484375
+        },
+        {
+          "question": "Question: What is the specific color combination of the other airplane parked on the runway besides the white and blue one?",
+          "answers": [
+            "red and white",
+            "red and blue",
+            "all red"
+          ],
+          "score": 0.014801502227783203
+        },
+        {
+          "question": "Question: What is the specific color combination of the other airplane parked on the runway besides the white and blue one?",
+          "answers": [
+            "red and white",
+            "red and blue",
+            "all red"
+          ],
+          "score": 0.014801502227783203,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Where are the two white and blue airplanes parked?",
+          "answers": [
+            "airport runway",
+            "tarmac",
+            "terminal"
+          ],
+          "score": 0.014115333557128906
+        },
+        {
+          "question": "Question: What is the specific location where the white and blue airplanes are parked?",
+          "answers": [
+            "airport runway",
+            "tarmac",
+            "terminal"
+          ],
+          "score": 0.008675575256347656
+        },
+        {
+          "question": "Question: What is the name of the airline on the white and blue airplane parked on the runway?",
+          "answers": [
+            "Lufthansa",
+            "United",
+            "Delta"
+          ],
+          "score": 0.06123065948486328
+        },
+        {
+          "question": "Question: What color is the other airplane parked on the runway besides the white and blue one?",
+          "answers": [
+            "red and white",
+            "red",
+            "blue and red"
+          ],
+          "score": 0.00402069091796875
+        },
+        {
+          "question": "Question: What is the color combination of the other airplane parked on the runway besides the white and blue one?",
+          "answers": [
+            "red and blue",
+            "red and white",
+            "white and red"
+          ],
+          "score": 0.01468038558959961
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

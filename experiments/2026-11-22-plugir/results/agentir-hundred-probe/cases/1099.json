@@ -1,0 +1,100 @@
+{
+  "qid": 1099,
+  "initial": "cars stopped at a red light where there are buildings and houses on the block next to the road",
+  "initial_rank": 61,
+  "evidence": [
+    "the street lights are high on a cloudy day",
+    "the train is passing a red traffic light",
+    "there is a white taxi parked on a busy street with a bunch of people",
+    "a traffic signal with a street sign, lights, and a stop light",
+    "a traffic light with some clouds above",
+    "a traffic light hanging in a cloudy sky",
+    "a residential street sign in the middle of a residential street",
+    "this photo shows a light at night",
+    "a boy skateboarding down a street near a couple of homes",
+    "street lights in a large parking lot"
+  ],
+  "candidates": [
+    "what is the other object in the image?",
+    "what is the weather condition in the image?",
+    "Question: what is the weather condition in the image?",
+    "Question: What is the weather condition in the image?",
+    "what is the color of the traffic light in the image?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "buildings",
+        "houses",
+        "a block"
+      ],
+      "score": 0.013207435607910156
+    },
+    {
+      "question": "what is the weather condition in the image?",
+      "answers": [
+        "cloudy",
+        "sunny",
+        "night"
+      ],
+      "score": 0.09086227416992188
+    },
+    {
+      "question": "Question: what is the weather condition in the image?",
+      "answers": [
+        "cloudy",
+        "sunny",
+        "rainy"
+      ],
+      "score": 0.07002401351928711
+    },
+    {
+      "question": "Question: What is the weather condition in the image?",
+      "answers": [
+        "cloudy",
+        "sunny",
+        "night"
+      ],
+      "score": 0.0894160270690918
+    },
+    {
+      "question": "what is the color of the traffic light in the image?",
+      "answers": [
+        "red",
+        "green",
+        "yellow"
+      ],
+      "score": 0.024429798126220703
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.146,
+  "probe_selection_seconds": 2.362,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the other object in the image?",
+      "answer": "traffic lights",
+      "rewrite": "cars stopped at a red light with traffic lights, where there are buildings and houses on the block next to the road",
+      "rank": 24,
+      "hit": false
+    },
+    "random": {
+      "question": "Question: What is the weather condition in the image?",
+      "answer": "cloudy",
+      "rewrite": "cars stopped at a red light on a cloudy day, with buildings and houses on the block next to the road",
+      "rank": 10,
+      "hit": true
+    },
+    "probe": {
+      "question": "what is the weather condition in the image?",
+      "answer": "cloudy",
+      "rewrite": "cars stopped at a red light on a cloudy day, with buildings and houses on the block next to the road",
+      "rank": 10,
+      "hit": true
+    }
+  },
+  "seconds": 26.404
+}

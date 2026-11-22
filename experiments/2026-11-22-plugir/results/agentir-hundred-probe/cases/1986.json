@@ -1,0 +1,98 @@
+{
+  "qid": 1986,
+  "initial": "a man is water skiing in a lake, he is leaning to the left",
+  "initial_rank": 13,
+  "evidence": [
+    "a surfer riding a wave in the ocean",
+    "a man in a wetsuit is riding a wave on a surfboard",
+    "a man in a board shorts surfing a wave",
+    "a kite surfer with an unfurled sail flying from the shore",
+    "a person surfing on a yellow surfboard on a large wave",
+    "man in black wetsuit surfing in the ocean",
+    "two people are holding skis with another person being pulled behind them",
+    "a surfer in a black wetsuit riding a wave"
+  ],
+  "candidates": [
+    "what is the color of the wetsuit worn by the man who is water skiing in a lake?",
+    "Question: what is the color of the wetsuit worn by the man who is water skiing in a lake?",
+    "what is the color of the wetsuit worn by the man in the image?",
+    "Question: what is the color of the wetsuit worn by the man in the image?",
+    "Question: Where is the man in the wetsuit performing his activity?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the wetsuit worn by the man who is water skiing in a lake?",
+      "answers": [
+        "black",
+        "blue",
+        "red"
+      ],
+      "score": 0.05827665328979492
+    },
+    {
+      "question": "Question: what is the color of the wetsuit worn by the man who is water skiing in a lake?",
+      "answers": [
+        "black",
+        "blue",
+        "red"
+      ],
+      "score": 0.06723546981811523
+    },
+    {
+      "question": "what is the color of the wetsuit worn by the man in the image?",
+      "answers": [
+        "black",
+        "blue",
+        "red"
+      ],
+      "score": 0.10456037521362305
+    },
+    {
+      "question": "Question: what is the color of the wetsuit worn by the man in the image?",
+      "answers": [
+        "black",
+        "blue",
+        "red"
+      ],
+      "score": 0.08887672424316406
+    },
+    {
+      "question": "Question: Where is the man in the wetsuit performing his activity?",
+      "answers": [
+        "ocean",
+        "lake",
+        "river"
+      ],
+      "score": 0.0206298828125
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.077,
+  "probe_selection_seconds": 2.189,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the color of the wetsuit worn by the man who is water skiing in a lake?",
+      "answer": "black",
+      "rewrite": "a man in a black wetsuit is water skiing in a lake, leaning to the left",
+      "rank": 8,
+      "hit": true
+    },
+    "random": {
+      "question": "what is the color of the wetsuit worn by the man in the image?",
+      "answer": "black",
+      "rewrite": "a man in a black wetsuit is water skiing in a lake, leaning to the left",
+      "rank": 8,
+      "hit": true
+    },
+    "probe": {
+      "question": "what is the color of the wetsuit worn by the man in the image?",
+      "answer": "black",
+      "rewrite": "a man in a black wetsuit is water skiing in a lake, leaning to the left",
+      "rank": 8,
+      "hit": true
+    }
+  },
+  "seconds": 17.252
+}

@@ -1,0 +1,102 @@
+{
+  "qid": 780,
+  "initial": "a man sitting on a motorcycle stopped on the road",
+  "initial_rank": 20,
+  "evidence": [
+    "men ride motorcycles on a city street",
+    "policeman riding a motorcycle on a busy street",
+    "a police officer rides his motorcycle down a busy street",
+    "a woman is standing near some motorcycles on a dirt road",
+    "a biker riding his motorcycle down a race track",
+    "a tent is near a gravel path in the forest",
+    "person is riding a motorcycle in an area with lots of trees",
+    "a black motorcycle parked on a gravel road",
+    "a man sits on a rickshaw on a city street",
+    "a group of people are standing next to a couple motorcycles"
+  ],
+  "candidates": [
+    "Question: What color is the motorcycle the man is sitting on?",
+    "is the man sitting on a motorcycle in front of a tent near a gravel path in a forest?",
+    "What is the man wearing?",
+    "Question: What color is the motorcycle the man is sitting on?",
+    "Question: What color is the motorcycle the man is sitting on?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: What color is the motorcycle the man is sitting on?",
+      "answers": [
+        "black",
+        "red",
+        "blue"
+      ],
+      "score": 0.10832834243774414
+    },
+    {
+      "question": "is the man sitting on a motorcycle in front of a tent near a gravel path in a forest?",
+      "answers": [
+        "yes",
+        "no",
+        "maybe"
+      ],
+      "score": 0.0025572776794433594
+    },
+    {
+      "question": "What is the man wearing?",
+      "answers": [
+        "a leather jacket",
+        "a t-shirt",
+        "a police uniform"
+      ],
+      "score": 0.17186403274536133
+    },
+    {
+      "question": "Question: What color is the motorcycle the man is sitting on?",
+      "answers": [
+        "black",
+        "red",
+        "blue"
+      ],
+      "score": 0.10832834243774414,
+      "duplicate_of": 0
+    },
+    {
+      "question": "Question: What color is the motorcycle the man is sitting on?",
+      "answers": [
+        "black",
+        "red",
+        "blue"
+      ],
+      "score": 0.10832834243774414,
+      "duplicate_of": 0
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.063,
+  "probe_selection_seconds": 1.538,
+  "probe_llm_calls": 3,
+  "probe_search_queries": 9,
+  "arms": {
+    "kl": {
+      "question": "Question: What color is the motorcycle the man is sitting on?",
+      "answer": "black",
+      "rewrite": "a man sitting on a black motorcycle stopped on the road",
+      "rank": 8,
+      "hit": true
+    },
+    "random": {
+      "question": "is the man sitting on a motorcycle in front of a tent near a gravel path in a forest?",
+      "answer": "no",
+      "rewrite": "A man is seated on a motorcycle that has stopped on the road.",
+      "rank": 27,
+      "hit": false
+    },
+    "probe": {
+      "question": "What is the man wearing?",
+      "answer": "The man is wearing a black and white motorcycle suit, gloves, and a helmet.",
+      "rewrite": "a man wearing a black and white motorcycle suit, gloves, and a helmet, sitting on a stopped motorcycle on the road",
+      "rank": 1,
+      "hit": true
+    }
+  },
+  "seconds": 19.527
+}

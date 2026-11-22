@@ -1,0 +1,144 @@
+{
+  "qid": 1969,
+  "sample": "original",
+  "target": "unlabeled2017/000000492953.jpg",
+  "queries": [
+    "a young boy skis on a flat plane of snow a blue and orange netted fence is in the background",
+    "a young boy wearing a green jacket skis on a flat plane of snow with a blue and orange netted fence in the background"
+  ],
+  "ranks": [
+    17,
+    7
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a young boy skis on a flat plane of snow a blue and orange netted fence is in the background",
+      "question": "Question: What is the color of the jacket worn by the skier?",
+      "answer": "green",
+      "query_after": "a young boy wearing a green jacket skis on a flat plane of snow with a blue and orange netted fence in the background",
+      "displayed_ids": [
+        34731,
+        21839,
+        32663,
+        38107,
+        48554,
+        2090,
+        18391,
+        33547,
+        19919,
+        35690
+      ],
+      "selected_ids": [
+        42415,
+        19703,
+        17080,
+        45742,
+        16790,
+        1138,
+        6996,
+        4122,
+        17859,
+        320
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the age of the person skiing on the flat plane of snow?",
+          "answers": [
+            "child",
+            "boy",
+            "adult"
+          ],
+          "score": 0.003543376922607422
+        },
+        {
+          "question": "what is the color of the jacket worn by the skier?",
+          "answers": [
+            "blue",
+            "orange",
+            "red"
+          ],
+          "score": 0.10337162017822266
+        },
+        {
+          "question": "Question: what is the color of the jacket worn by the skier?",
+          "answers": [
+            "blue",
+            "orange",
+            "red"
+          ],
+          "score": 0.11548662185668945
+        },
+        {
+          "question": "Question: What is the color of the jacket worn by the skier?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.12836837768554688
+        },
+        {
+          "question": "what is the age of the person skiing on the flat plane of snow?",
+          "answers": [
+            "child",
+            "boy",
+            "adult"
+          ],
+          "score": 0.003543376922607422,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: what is the age of the person skiing on the snow?",
+          "answers": [
+            "child",
+            "teenager",
+            "adult"
+          ],
+          "score": 0.007145404815673828
+        },
+        {
+          "question": "what is the color of the pants worn by the skier?",
+          "answers": [
+            "blue",
+            "orange",
+            "white"
+          ],
+          "score": 0.04844331741333008
+        },
+        {
+          "question": "Question: what is the color of the netted fence in the background?",
+          "answers": [
+            "blue",
+            "orange",
+            "blue and orange"
+          ],
+          "score": 0.011347293853759766
+        },
+        {
+          "question": "Question: What is the age of the person skiing?",
+          "answers": [
+            "child",
+            "teenager",
+            "adult"
+          ],
+          "score": 0.008011341094970703
+        },
+        {
+          "question": "what is the color of the netted fence in the background?",
+          "answers": [
+            "blue and orange",
+            "orange and blue",
+            "blue"
+          ],
+          "score": 0.0060253143310546875
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

@@ -1,0 +1,79 @@
+{
+  "qid": 2014,
+  "candidates": [
+    "Question: Is the woman wearing a hat?",
+    "Question: Is the woman walking alone or with a man?",
+    "Question: What is the gender of the person holding the umbrella in the image?",
+    "Question: What color is the umbrella the woman is holding?",
+    "what is the object the woman is carrying or holding besides the umbrella?"
+  ],
+  "kl": {
+    "question": "what is the object the woman is carrying or holding besides the umbrella?",
+    "answer": "nothing",
+    "rewrite": "a black and white photo of a woman holding an umbrella with no other objects",
+    "raw_rank": 85,
+    "unseen_rank": 75
+  },
+  "probe": {
+    "question": "what is the object the woman is carrying or holding besides the umbrella?",
+    "answer": "nothing",
+    "rewrite": "a black and white photo of a woman holding an umbrella with no other objects",
+    "raw_rank": 85,
+    "unseen_rank": 75
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: Is the woman wearing a hat?",
+        "answers": [
+          "yes",
+          "no",
+          "I don't know"
+        ],
+        "score": 0.0011920928955078125
+      },
+      {
+        "question": "Question: Is the woman walking alone or with a man?",
+        "answers": [
+          "alone",
+          "with a man",
+          "with a woman"
+        ],
+        "score": 0.009098052978515625
+      },
+      {
+        "question": "Question: What is the gender of the person holding the umbrella in the image?",
+        "answers": [
+          "man",
+          "woman",
+          "child"
+        ],
+        "score": 0.03417778015136719
+      },
+      {
+        "question": "Question: What color is the umbrella the woman is holding?",
+        "answers": [
+          "black and white",
+          "color",
+          "vintage"
+        ],
+        "score": 0.019370079040527344
+      },
+      {
+        "question": "what is the object the woman is carrying or holding besides the umbrella?",
+        "answers": [
+          "nothing",
+          "a man",
+          "a child"
+        ],
+        "score": 0.06110954284667969
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.048,
+    "probe_selection_seconds": 2.514,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": true
+}

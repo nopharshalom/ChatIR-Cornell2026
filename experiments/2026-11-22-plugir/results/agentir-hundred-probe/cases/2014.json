@@ -1,0 +1,101 @@
+{
+  "qid": 2014,
+  "initial": "the black and white photo shows a woman with an umbrella",
+  "initial_rank": 56,
+  "evidence": [
+    "a man and woman walking down a street with suitcases and baskets",
+    "a man walking along the street with his umbrella",
+    "silhouette of surfer in black and white",
+    "a small child standing on the sidewalk holding an umbrella",
+    "a vintage photograph of a man and women on elephants",
+    "man with an umbrella walking on a rainy day",
+    "a woman carrying a red umbrella on a brick walkway in the rain",
+    "black and white photo of a man walking with luggage",
+    "people walking on a sidewalk with umbrellas",
+    "a man walking down a narrow alley with a small umbrella"
+  ],
+  "candidates": [
+    "what is the location where the woman with the umbrella is standing?",
+    "what is the surface or ground material beneath the woman with the umbrella?",
+    "what color is the umbrella held by the woman in the black and white photo?",
+    "what is the location where the woman with the umbrella is standing?",
+    "what is the specific object or animal that the woman in the black and white photo is riding?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the location where the woman with the umbrella is standing?",
+      "answers": [
+        "sidewalk",
+        "brick walkway",
+        "alley"
+      ],
+      "score": 0.0571436882019043
+    },
+    {
+      "question": "what is the surface or ground material beneath the woman with the umbrella?",
+      "answers": [
+        "brick walkway",
+        "sidewalk",
+        "street/road"
+      ],
+      "score": 0.04805326461791992
+    },
+    {
+      "question": "what color is the umbrella held by the woman in the black and white photo?",
+      "answers": [
+        "black",
+        "white",
+        "gray"
+      ],
+      "score": 0.005955219268798828
+    },
+    {
+      "question": "what is the location where the woman with the umbrella is standing?",
+      "answers": [
+        "sidewalk",
+        "brick walkway",
+        "alley"
+      ],
+      "score": 0.0571436882019043,
+      "duplicate_of": 0
+    },
+    {
+      "question": "what is the specific object or animal that the woman in the black and white photo is riding?",
+      "answers": [
+        "elephants",
+        "an elephant",
+        "a horse"
+      ],
+      "score": 0.06041431427001953
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.061,
+  "probe_selection_seconds": 2.028,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "what is the location where the woman with the umbrella is standing?",
+      "answer": "nw couch st",
+      "rewrite": "a black and white photo shows a woman with an umbrella standing on nw couch st",
+      "rank": 5,
+      "hit": true
+    },
+    "random": {
+      "question": "what is the location where the woman with the umbrella is standing?",
+      "answer": "nw couch st",
+      "rewrite": "a black and white photo shows a woman with an umbrella standing on nw couch st",
+      "rank": 5,
+      "hit": true
+    },
+    "probe": {
+      "question": "what is the specific object or animal that the woman in the black and white photo is riding?",
+      "answer": "dog",
+      "rewrite": "a black and white photo shows a woman riding a dog while holding an umbrella",
+      "rank": 139,
+      "hit": false
+    }
+  },
+  "seconds": 15.216
+}

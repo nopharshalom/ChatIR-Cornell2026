@@ -1,0 +1,78 @@
+{
+  "qid": 1482,
+  "sample": 2,
+  "first_candidates": [
+    "Question: What is the lighting condition or time of day depicted in the image?",
+    "Question: Is the image in black and white or in color?",
+    "Question: Where is the man performing the grind on the skateboard?",
+    "what is the man wearing on his head?",
+    "Question: What is the man wearing on his body?"
+  ],
+  "second_candidates": [
+    "what is the lighting condition and location where the man is performing the grind on the skateboard?",
+    "Question: What color is the man's clothing in the image of him performing the grind on a skateboard?",
+    "what is the location where the man is performing the grind on the skateboard?",
+    "Question: What is the location where the man is performing the grind on the skateboard?",
+    "Question: What is the lighting condition where the man is performing the grind on the skateboard?"
+  ],
+  "paths": [
+    {
+      "question": "what is the lighting condition and location where the man is performing the grind on the skateboard?",
+      "answers": [
+        "night",
+        "day",
+        "indoors"
+      ],
+      "score": 0.11138772964477539
+    },
+    {
+      "question": "Question: What color is the man's clothing in the image of him performing the grind on a skateboard?",
+      "answers": [
+        "black and white",
+        "dark",
+        "light"
+      ],
+      "score": 0.042285919189453125
+    },
+    {
+      "question": "what is the location where the man is performing the grind on the skateboard?",
+      "answers": [
+        "pool",
+        "residential area",
+        "skateboard park"
+      ],
+      "score": 0.13886499404907227
+    },
+    {
+      "question": "Question: What is the location where the man is performing the grind on the skateboard?",
+      "answers": [
+        "pool",
+        "residential area",
+        "skateboard park"
+      ],
+      "score": 0.041115760803222656
+    },
+    {
+      "question": "Question: What is the lighting condition where the man is performing the grind on the skateboard?",
+      "answers": [
+        "day",
+        "night",
+        "black and white"
+      ],
+      "score": 0.06158590316772461
+    }
+  ],
+  "control": {
+    "question": "Question: Where is the man performing the grind on the skateboard?",
+    "score": 0.15386486053466797
+  },
+  "mixed": {
+    "question": "Question: Where is the man performing the grind on the skateboard?",
+    "score": 0.15386486053466797
+  },
+  "control_rank": 3,
+  "mixed_rank": 3,
+  "usual_rank": 3,
+  "new_answer": null,
+  "new_rewrite": null
+}

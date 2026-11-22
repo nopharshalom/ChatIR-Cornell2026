@@ -1,0 +1,80 @@
+{
+  "qid": 1785,
+  "candidates": [
+    "Question: Is the photo in black and white?",
+    "Question: What is the color of the shirt worn by the young man?",
+    "Question: What is the color of the ramp the young man is jumping on?",
+    "Question: What is the color of the shirt worn by the young man?",
+    "Question: Is the young man skateboarding during the day or at night?"
+  ],
+  "kl": {
+    "question": "Question: What is the color of the ramp the young man is jumping on?",
+    "answer": "gray",
+    "rewrite": "a young man jumping his skateboard on a gray ramp",
+    "raw_rank": 44,
+    "unseen_rank": 38
+  },
+  "probe": {
+    "answer": "blue",
+    "rewrite": "a young man in a blue shirt jumping his skateboard on a ramp",
+    "raw_rank": 1,
+    "unseen_rank": 1,
+    "question": "Question: What is the color of the shirt worn by the young man?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: Is the photo in black and white?",
+        "answers": [
+          "Yes",
+          "No",
+          "Maybe"
+        ],
+        "score": 0.0003600120544433594
+      },
+      {
+        "question": "Question: What is the color of the shirt worn by the young man?",
+        "answers": [
+          "red",
+          "blue",
+          "black"
+        ],
+        "score": 0.09829521179199219
+      },
+      {
+        "question": "Question: What is the color of the ramp the young man is jumping on?",
+        "answers": [
+          "red",
+          "green",
+          "wooden"
+        ],
+        "score": 0.08114051818847656
+      },
+      {
+        "question": "Question: What is the color of the shirt worn by the young man?",
+        "answers": [
+          "red",
+          "blue",
+          "black"
+        ],
+        "score": 0.09829521179199219,
+        "duplicate_of": 1
+      },
+      {
+        "question": "Question: Is the young man skateboarding during the day or at night?",
+        "answers": [
+          "day",
+          "night",
+          "dusk"
+        ],
+        "score": 0.02457904815673828
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.064,
+    "probe_selection_seconds": 1.862,
+    "probe_llm_calls": 4,
+    "probe_search_queries": 12
+  },
+  "reused_outcome": false
+}

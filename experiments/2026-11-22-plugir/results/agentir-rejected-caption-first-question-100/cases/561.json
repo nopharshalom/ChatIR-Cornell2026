@@ -1,0 +1,71 @@
+{
+  "qid": 561,
+  "initial": "a crowd of people walk together beside a busy street downtown",
+  "initial_rank": 46,
+  "evidence": [
+    "a man with a balancing board on a lamp post",
+    "a city bus is traveling through a city full of cars",
+    "a group of people standing near a building with many umbrellas",
+    "crowd of people are standing in line to protest their riding",
+    "a city at night with brightly lit stores",
+    "two people crossing the street in the evening near a street light",
+    "a group of people standing around a marketplace with umbrellas",
+    "the buildings on this corner are tall and tall",
+    "a city street full of cars and buses",
+    "a photo of old buildings with horse drawn carriages"
+  ],
+  "displayed_ids": [
+    25802,
+    6453,
+    19055,
+    35909,
+    27250,
+    6520,
+    28426,
+    10589,
+    6664,
+    37501
+  ],
+  "rejected_captions": [
+    "a crowd of people walking through the city at night",
+    "crowd of people in front of a building",
+    "people and cars walking down the street",
+    "large office building in the background",
+    "a large crowd of people waiting on a busy road",
+    "pedestrians are crossing street",
+    "the people are on the street with vans and vans",
+    "a group of people standing near a bike lane and a tree",
+    "a city scene showing a lot of people gathered near a street light",
+    "some people are walking down a street to the bank"
+  ],
+  "candidates": [
+    "what is the time of day in the image?",
+    "Question: What type of vehicles are visible on the busy street?",
+    "Question: What are the people holding in their hands?",
+    "what color are the umbrellas held by the crowd of people standing near the building?",
+    "Question: Are there any horse-drawn carriages visible in the image?"
+  ],
+  "control_candidates": [
+    "what is the time of day and lighting condition of the scene where the crowd is walking?",
+    "what are the people in the crowd holding?",
+    "what are the people in the crowd wearing?",
+    "what is the specific location or type of street where the crowd of people is walking together?",
+    "what is the color of the umbrellas held by the crowd of people walking beside the busy street?"
+  ],
+  "control": {
+    "question": "what is the specific location or type of street where the crowd of people is walking together?",
+    "answer": "the crowd is walking on a city street, likely in downtown new york, given the tall buildings and traffic.",
+    "rewrite": "a crowd of people walk together on a busy city street in downtown New York, surrounded by tall buildings and traffic",
+    "rank": 6,
+    "hit": true,
+    "raw_rank": 6,
+    "unseen_rank": 5
+  },
+  "variant": {
+    "question": "what is the time of day in the image?",
+    "answer": "daytime",
+    "rewrite": "a crowd of people walk together beside a busy street downtown during the daytime",
+    "raw_rank": 55,
+    "unseen_rank": 45
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "ids": [
+    44809,
+    47052,
+    30512,
+    4505
+  ],
+  "prefix": [
+    "a man with a pair of scissors cuts some kind of wrap from another man's arm",
+    "what is the color of the bandage on the man's arm? white"
+  ],
+  "default": "what is the color of the scissors being used to cut the bandage?",
+  "chosen": "what is the color of the shirt worn by the man with the bandaged arm?",
+  "trials": {
+    "what is the color of the scissors being used to cut the bandage?": {
+      "answers": [
+        "silver",
+        "silver",
+        "there are no scissors or bandages in the image.",
+        "there are no scissors or bandages in the image."
+      ],
+      "rewrites": {
+        "silver": "a man with silver scissors cuts a white bandage from another man's arm",
+        "there are no scissors or bandages in the image.": "a man is cutting a white bandage from another man's arm, although there are no scissors or bandages visible in the image"
+      },
+      "ranks": [
+        13,
+        48,
+        27,
+        79
+      ],
+      "hits": 0
+    },
+    "what is the color of the shirt worn by the man holding the scissors?": {
+      "answers": [
+        "black",
+        "blue",
+        "black",
+        "white"
+      ],
+      "rewrites": {
+        "black": "a man in a black shirt uses scissors to cut a white bandage from another man's arm",
+        "blue": "a man in a blue shirt uses scissors to cut a white bandage from another man's arm",
+        "white": "a man in a white shirt uses scissors to cut a white bandage from another man's arm"
+      },
+      "ranks": [
+        12,
+        18,
+        37,
+        103
+      ],
+      "hits": 0
+    },
+    "Question: What is the color of the shirt worn by the man holding the scissors?": {
+      "answers": [
+        "black",
+        "blue",
+        "black",
+        "white"
+      ],
+      "rewrites": {
+        "black": "a man wearing a black shirt uses a pair of scissors to cut a white bandage from another man's arm",
+        "blue": "a man in a blue shirt uses a pair of scissors to cut a white bandage from another man's arm",
+        "white": "a man wearing a white shirt uses a pair of scissors to cut a white bandage from another man's arm"
+      },
+      "ranks": [
+        11,
+        22,
+        44,
+        123
+      ],
+      "hits": 0
+    },
+    "what is the color of the shirt worn by the man with the bandaged arm?": {
+      "answers": [
+        "black",
+        "black",
+        "black",
+        "white"
+      ],
+      "rewrites": {
+        "black": "a man with a pair of scissors cuts a white bandage from another man's arm, who is wearing a black shirt",
+        "white": "a man with a pair of scissors cuts a white bandage from another man's arm, who is wearing a white shirt"
+      },
+      "ranks": [
+        5,
+        52,
+        28,
+        85
+      ],
+      "hits": 1
+    }
+  }
+}

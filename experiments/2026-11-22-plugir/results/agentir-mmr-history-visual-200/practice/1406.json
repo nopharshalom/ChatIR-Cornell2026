@@ -1,0 +1,94 @@
+{
+  "chosen": "what is the other object in the image?",
+  "default": "what is the other object in the image?",
+  "ids": [
+    20872,
+    28134,
+    10967,
+    2889
+  ],
+  "trials": {
+    "what is the other object in the image?": {
+      "answers": [
+        "kite",
+        "horse-drawn carriage",
+        "bus",
+        "crowd"
+      ],
+      "rewrites": {
+        "kite": "the flags and a kite are moving in the middle of the city",
+        "horse-drawn carriage": "the flags are moving in the middle of the city with a horse-drawn carriage",
+        "bus": "the flags are moving in the middle of the city with a bus",
+        "crowd": "the flags are moving in the middle of the city with a crowd"
+      },
+      "ranks": [
+        12,
+        3,
+        2,
+        18
+      ],
+      "hits": 2
+    },
+    "Question: What are the flags hanging from?": {
+      "answers": [
+        "poles",
+        "buildings",
+        "buildings",
+        "buildings"
+      ],
+      "rewrites": {
+        "poles": "flags hanging from poles in the middle of the city",
+        "buildings": "flags hanging from buildings in the middle of the city"
+      },
+      "ranks": [
+        7,
+        14,
+        20,
+        302
+      ],
+      "hits": 1
+    },
+    "Question: What color are the flags moving in the middle of the city?": {
+      "answers": [
+        "rainbow",
+        "unsure",
+        "Red.",
+        "white"
+      ],
+      "rewrites": {
+        "rainbow": "rainbow flags are moving in the middle of the city",
+        "unsure": "the flags are moving in the middle of the city, with their colors unknown",
+        "Red.": "red flags are moving in the middle of the city",
+        "white": "white flags are moving in the middle of the city"
+      },
+      "ranks": [
+        11,
+        22,
+        59,
+        89
+      ],
+      "hits": 0
+    },
+    "Where exactly in the city are the flags located?": {
+      "answers": [
+        "I'm not sure.",
+        "I'm sorry, but I cannot determine the exact location of the flags in the city from this image.",
+        "The flags are located on the left side of the street, hanging from the building.",
+        "top"
+      ],
+      "rewrites": {
+        "I'm not sure.": "the flags are moving in the middle of the city, though the exact location is unclear",
+        "I'm sorry, but I cannot determine the exact location of the flags in the city from this image.": "the flags are moving in the middle of the city, though the exact location within the city cannot be determined",
+        "The flags are located on the left side of the street, hanging from the building.": "the flags are hanging from the building on the left side of the street in the middle of the city",
+        "top": "the flags are moving at the top of the city"
+      },
+      "ranks": [
+        110,
+        22,
+        18,
+        241
+      ],
+      "hits": 0
+    }
+  }
+}

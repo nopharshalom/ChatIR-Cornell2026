@@ -1,0 +1,69 @@
+{
+  "qid": 81,
+  "arm": "probe",
+  "after_round": 3,
+  "ranks": [
+    11,
+    35,
+    17,
+    32,
+    20,
+    12,
+    9
+  ],
+  "continuation": [
+    {
+      "round": 4,
+      "query_before": "A baseball player wearing a black and white uniform stands at bat, swinging at a ball, while another player and an umpire stand behind him.",
+      "question": "Is the photo in color or black and white?",
+      "answer": "color",
+      "query_after": "a color photo of a baseball player in a black and white uniform standing at bat, swinging at a baseball, with another player and an umpire behind him",
+      "searches": [
+        {
+          "query": "a baseball player in a black and white uniform swinging at a ball with an umpire behind him",
+          "ids": [
+            21853,
+            29114,
+            38188
+          ],
+          "captions": [
+            "a baseball player swinging a bat and catcher watching",
+            "black and white photo of baseball game",
+            "a baseball player swinging the bat at a ball"
+          ]
+        },
+        {
+          "query": "a baseball player in a black and white uniform swinging at a ball with a catcher behind him",
+          "ids": [
+            21853,
+            6385,
+            29114
+          ],
+          "captions": [
+            "a baseball player swinging a bat and catcher watching",
+            "baseball player hitting a ball at home plate",
+            "black and white photo of baseball game"
+          ]
+        }
+      ],
+      "raw_plan": "a baseball player in a black and white uniform swinging at a ball with an umpire behind him\na baseball player in a black and white uniform swinging at a ball with a catcher behind him",
+      "generated": "Is the photo in color or black and white?",
+      "fallback": false
+    },
+    {
+      "round": 5,
+      "query_before": "a color photo of a baseball player in a black and white uniform standing at bat, swinging at a baseball, with another player and an umpire behind him",
+      "question": "What is the action of the other player and the umpire behind the batter?",
+      "answer": "catch",
+      "query_after": "a color photo of a baseball player in a black and white uniform standing at bat, swinging at a baseball, with another player and an umpire behind him catching the ball"
+    },
+    {
+      "round": 6,
+      "query_before": "a color photo of a baseball player in a black and white uniform standing at bat, swinging at a baseball, with another player and an umpire behind him catching the ball",
+      "question": "what is the other object in the image?",
+      "answer": "baseball",
+      "query_after": "A color photograph captures a baseball player in a black and white uniform mid-swing at bat, attempting to hit a baseball, while another player and an umpire stand behind him to catch the ball."
+    }
+  ],
+  "seconds": 42.0
+}

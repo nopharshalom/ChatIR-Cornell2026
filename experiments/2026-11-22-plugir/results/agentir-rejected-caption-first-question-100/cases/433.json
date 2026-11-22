@@ -1,0 +1,71 @@
+{
+  "qid": 433,
+  "initial": "the yankees player is preparing to hit again",
+  "initial_rank": 12,
+  "evidence": [
+    "a baseball player swinging a bat at a ball while crowds are watching",
+    "a baseball batter swinging a bat and the batter's mother is behind him",
+    "a person swinging a baseball bat while the crowd watches",
+    "a baseball game with the catcher, batter, and umpire",
+    "baseball player walking down field and wearing baseball cap",
+    "a pitcher on a baseball mound throwing a ball",
+    "a baseball player hitting the ball at a game",
+    "a man swinging a bat in a batting cage",
+    "a baseball player swinging a bat while the catcher and uber is at home plate",
+    "a baseball player standing in the outfield with a mitt"
+  ],
+  "displayed_ids": [
+    27908,
+    5218,
+    32626,
+    17806,
+    3000,
+    48812,
+    26908,
+    47142,
+    37705,
+    26398
+  ],
+  "rejected_captions": [
+    "the man is running abase",
+    "the field is green",
+    "man is in uniform",
+    "a baseball player posing with his bat in his hand",
+    "a baseball player walking down the field",
+    "the pitcher is ready to pitch",
+    "baseball player hitting a ball",
+    "the ballplayer is holding a bat",
+    "a baseball player is batting a ball in a game",
+    "a baseball player swinging a bat"
+  ],
+  "candidates": [
+    "Question: What is the player wearing on their head?",
+    "Question: What is the color of the player's uniform?",
+    "Who is the baseball player preparing to hit again?",
+    "Who is the Yankees player preparing to hit again?",
+    "Question: What is the player wearing on their head?"
+  ],
+  "control_candidates": [
+    "Question: What is the player wearing on his head?",
+    "Who is the specific player preparing to hit for the Yankees?",
+    "what team does the player belong to?",
+    "what is the player wearing on his head?",
+    "what is the player holding in his hands?"
+  ],
+  "control": {
+    "question": "what team does the player belong to?",
+    "answer": "seattle mariners",
+    "rewrite": "a seattle mariners player is preparing to hit again",
+    "rank": 13,
+    "hit": false,
+    "raw_rank": 13,
+    "unseen_rank": 11
+  },
+  "variant": {
+    "question": "Who is the baseball player preparing to hit again?",
+    "answer": "I'm not sure.",
+    "rewrite": "a baseball player preparing to hit again",
+    "raw_rank": 22,
+    "unseen_rank": 19
+  }
+}

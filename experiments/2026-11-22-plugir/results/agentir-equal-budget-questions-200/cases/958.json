@@ -1,0 +1,78 @@
+{
+  "qid": 958,
+  "sample": 2,
+  "first_candidates": [
+    "Question: What is the gender of the person flying the kite?",
+    "what color is the kite being flown by the two people in the field?",
+    "what is the name of the kite being flown by the two people in the field?",
+    "what is the name of the kite being flown by the two people in the field?",
+    "what is the color of the field where the two people are flying the kite?"
+  ],
+  "second_candidates": [
+    "Question: What is the gender of the people flying the kite in the field?",
+    "what is the color of the kite being flown by the two people in the field?",
+    "what is the color of the field where the people are flying the kite?",
+    "what is the specific location of the field where the two people are flying the kite?",
+    "what is the gender of the people flying the kite?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What is the gender of the people flying the kite in the field?",
+      "answers": [
+        "two girls",
+        "a man and a woman",
+        "two men"
+      ],
+      "score": 0.049997806549072266
+    },
+    {
+      "question": "what is the color of the kite being flown by the two people in the field?",
+      "answers": [
+        "pink",
+        "green",
+        "blue"
+      ],
+      "score": 0.07943964004516602
+    },
+    {
+      "question": "what is the color of the field where the people are flying the kite?",
+      "answers": [
+        "green",
+        "beach",
+        "blue"
+      ],
+      "score": 0.09008073806762695
+    },
+    {
+      "question": "what is the specific location of the field where the two people are flying the kite?",
+      "answers": [
+        "forest",
+        "beach",
+        "garden"
+      ],
+      "score": 0.13608551025390625
+    },
+    {
+      "question": "what is the gender of the people flying the kite?",
+      "answers": [
+        "male",
+        "female",
+        "mixed"
+      ],
+      "score": 0.029116153717041016
+    }
+  ],
+  "control": {
+    "question": "what is the specific location of the field where the two people are flying the kite?",
+    "score": 0.13608551025390625
+  },
+  "mixed": {
+    "question": "what color is the kite being flown by the two people in the field?",
+    "score": 0.07125568389892578
+  },
+  "control_rank": 35,
+  "mixed_rank": 107,
+  "usual_rank": 107,
+  "new_answer": "unsure",
+  "new_rewrite": "two people flying a kite in a field"
+}

@@ -1,0 +1,144 @@
+{
+  "qid": 601,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000320343.jpg",
+  "queries": [
+    "traffic lights hanging over an intersection on the street",
+    "traffic lights hanging over an intersection on a sunny street"
+  ],
+  "ranks": [
+    16,
+    4
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "traffic lights hanging over an intersection on the street",
+      "question": "Question: What is the weather condition in the image?",
+      "answer": "Sunny.",
+      "query_after": "traffic lights hanging over an intersection on a sunny street",
+      "displayed_ids": [
+        12719,
+        44293,
+        29215,
+        32700,
+        35139,
+        39584,
+        12089,
+        38612,
+        14655,
+        18766
+      ],
+      "selected_ids": [
+        7629,
+        14490,
+        39211,
+        47999,
+        38600,
+        20289,
+        29725,
+        24700,
+        46895,
+        16865
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what color are the traffic lights hanging over the intersection?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.0722055435180664
+        },
+        {
+          "question": "what is the sky condition or weather in the image where the traffic light is hanging?",
+          "answers": [
+            "cloudy",
+            "clear",
+            "dark"
+          ],
+          "score": 0.03747701644897461
+        },
+        {
+          "question": "Question: are there any birds visible near the traffic light in the image?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0014910697937011719
+        },
+        {
+          "question": "Question: Are the traffic lights red?",
+          "answers": [
+            "yes",
+            "no",
+            "yellow"
+          ],
+          "score": 0.014924049377441406
+        },
+        {
+          "question": "Question: Are there birds visible on the traffic light pole in the image?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0014472007751464844
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the traffic light in the image?",
+          "answers": [
+            "red",
+            "yellow",
+            "green"
+          ],
+          "score": 0.08145618438720703
+        },
+        {
+          "question": "Question: What is the background object behind the traffic light?",
+          "answers": [
+            "cloudy sky",
+            "people and cars",
+            "cars and trucks"
+          ],
+          "score": 0.11255311965942383
+        },
+        {
+          "question": "Question: What is the weather condition in the image?",
+          "answers": [
+            "cloudy",
+            "sunny",
+            "rainy"
+          ],
+          "score": 0.1147298812866211
+        },
+        {
+          "question": "Question: What is the color of the traffic light in the image?",
+          "answers": [
+            "red",
+            "yellow",
+            "green"
+          ],
+          "score": 0.08145618438720703,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: Is there a bird perched on the traffic light pole?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0011959075927734375
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

@@ -1,0 +1,79 @@
+{
+  "qid": 1324,
+  "sample": 2,
+  "first_candidates": [
+    "Question: What sport is the man in the blue shirt playing?",
+    "Question: What is the setting where the man in the blue shirt is playing?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "second_candidates": [
+    "what is the location where the man in the blue shirt is running to hit the ball?",
+    "Question: Is the man in the blue shirt swinging at a ball in a baseball game or in a yard?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "Question: What is the location where the man in the blue shirt is running to hit the ball?"
+  ],
+  "paths": [
+    {
+      "question": "what is the location where the man in the blue shirt is running to hit the ball?",
+      "answers": [
+        "yard",
+        "baseball field",
+        "tennis court"
+      ],
+      "score": 0.1422138214111328
+    },
+    {
+      "question": "Question: Is the man in the blue shirt swinging at a ball in a baseball game or in a yard?",
+      "answers": [
+        "baseball game",
+        "yard",
+        "neither"
+      ],
+      "score": 0.004457950592041016
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "bat",
+        "ball",
+        "shirt"
+      ],
+      "score": 0.010157108306884766
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "bat",
+        "ball",
+        "shirt"
+      ],
+      "score": 0.010157108306884766,
+      "duplicate_of": 2
+    },
+    {
+      "question": "Question: What is the location where the man in the blue shirt is running to hit the ball?",
+      "answers": [
+        "baseball field",
+        "tennis court",
+        "yard"
+      ],
+      "score": 0.13445663452148438
+    }
+  ],
+  "control": {
+    "question": "what is the location where the man in the blue shirt is running to hit the ball?",
+    "score": 0.1422138214111328
+  },
+  "mixed": {
+    "question": "Question: What is the setting where the man in the blue shirt is playing?",
+    "score": 0.12256002426147461
+  },
+  "control_rank": 14,
+  "mixed_rank": 119,
+  "usual_rank": 119,
+  "new_answer": "home plate",
+  "new_rewrite": "a man in a blue shirt runs toward home plate with his bat ready to hit an oncoming ball"
+}

@@ -1,0 +1,101 @@
+{
+  "qid": 746,
+  "initial": "a red train engine with cars behind it next to a small foothill",
+  "initial_rank": 86,
+  "evidence": [
+    "two trains on the tracks with a bunch of people riding",
+    "a train with many cars going on a train track",
+    "a yellow and white train on the tracks near the woods",
+    "an airplane flying over a traffic-free street with a road behind",
+    "a hydrant in a wooded area with green vegetation",
+    "a red fire truck parked in front of a warehouse",
+    "a train with many cars on it's train",
+    "an older train sitting on tracks at a train station",
+    "a red bus parked at the curb next to a terminal",
+    "a yellow and black train driving through the tracks"
+  ],
+  "candidates": [
+    "what is the other object in the image?",
+    "what is the color of the train engine in the image?",
+    "what is the location of the red train engine?",
+    "what is the ground cover or terrain type next to the red train engine?",
+    "what is the color of the train engine in the image?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "foothill",
+        "trees",
+        "sky"
+      ],
+      "score": 0.05018472671508789
+    },
+    {
+      "question": "what is the color of the train engine in the image?",
+      "answers": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "score": 0.0374598503112793
+    },
+    {
+      "question": "what is the location of the red train engine?",
+      "answers": [
+        "a small foothill",
+        "a train track",
+        "a train station"
+      ],
+      "score": 0.01625823974609375
+    },
+    {
+      "question": "what is the ground cover or terrain type next to the red train engine?",
+      "answers": [
+        "grass",
+        "dirt",
+        "rocks"
+      ],
+      "score": 0.0374908447265625
+    },
+    {
+      "question": "what is the color of the train engine in the image?",
+      "answers": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "score": 0.0374598503112793,
+      "duplicate_of": 1
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.061,
+  "probe_selection_seconds": 2.082,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "what is the other object in the image?",
+      "answer": "crane",
+      "rewrite": "a red train engine with cars behind it next to a small foothill and a crane",
+      "rank": 8,
+      "hit": true
+    },
+    "random": {
+      "question": "what is the other object in the image?",
+      "answer": "crane",
+      "rewrite": "a red train engine with cars behind it next to a small foothill and a crane",
+      "rank": 8,
+      "hit": true
+    },
+    "probe": {
+      "question": "what is the other object in the image?",
+      "answer": "crane",
+      "rewrite": "a red train engine with cars behind it next to a small foothill and a crane",
+      "rank": 8,
+      "hit": true
+    }
+  },
+  "seconds": 26.926
+}

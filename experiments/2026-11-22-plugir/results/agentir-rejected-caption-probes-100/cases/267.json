@@ -1,0 +1,81 @@
+{
+  "qid": 267,
+  "candidates": [
+    "Question: What is the gender of the person skiing in the flat snowy area with many trees?",
+    "Question: What is the color of the jacket worn by the person skiing?",
+    "Question: What is the gender of the person skiing in the flat snowy area with many trees?",
+    "Question: What is the color of the jacket worn by the person skiing in the flat snowy area with many trees?",
+    "Question: What is the color of the jacket worn by the person skiing?"
+  ],
+  "kl": {
+    "question": "Question: What is the gender of the person skiing in the flat snowy area with many trees?",
+    "answer": "male",
+    "rewrite": "a male person on skis in a flat snowy area with many trees",
+    "raw_rank": 27,
+    "unseen_rank": 19
+  },
+  "probe": {
+    "answer": "black",
+    "rewrite": "a person wearing a black jacket on skis in a flat snowy area with many trees",
+    "raw_rank": 18,
+    "unseen_rank": 12,
+    "question": "Question: What is the color of the jacket worn by the person skiing?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the gender of the person skiing in the flat snowy area with many trees?",
+        "answers": [
+          "male",
+          "female",
+          "not sure"
+        ],
+        "score": 0.03461313247680664
+      },
+      {
+        "question": "Question: What is the color of the jacket worn by the person skiing?",
+        "answers": [
+          "red",
+          "pink",
+          "blue"
+        ],
+        "score": 0.14745330810546875
+      },
+      {
+        "question": "Question: What is the gender of the person skiing in the flat snowy area with many trees?",
+        "answers": [
+          "male",
+          "female",
+          "not sure"
+        ],
+        "score": 0.03461313247680664,
+        "duplicate_of": 0
+      },
+      {
+        "question": "Question: What is the color of the jacket worn by the person skiing in the flat snowy area with many trees?",
+        "answers": [
+          "red",
+          "pink",
+          "blue"
+        ],
+        "score": 0.06348800659179688
+      },
+      {
+        "question": "Question: What is the color of the jacket worn by the person skiing?",
+        "answers": [
+          "red",
+          "pink",
+          "blue"
+        ],
+        "score": 0.14745330810546875,
+        "duplicate_of": 1
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.057,
+    "probe_selection_seconds": 1.444,
+    "probe_llm_calls": 3,
+    "probe_search_queries": 9
+  },
+  "reused_outcome": false
+}

@@ -1,0 +1,100 @@
+{
+  "qid": 2031,
+  "initial": "a downtown area that is full of busy activity",
+  "initial_rank": 283,
+  "evidence": [
+    "two large busses and several people walking on a street",
+    "red brick building at night",
+    "a street corner with a sign and street lamppost",
+    "a bus drives down the street next to a red and white bus",
+    "a large restaurant building with a sign",
+    "pedestrians cross the street at the city's crossing light",
+    "two vehicles with light signals and traffic lights on the road",
+    "the picture is of a car in traffic",
+    "large group of people walking, talking and biking",
+    "cars driving down the road at night"
+  ],
+  "candidates": [
+    "what is the color of the building in the image?",
+    "Question: What is the primary mode of transportation visible in the busy downtown area?",
+    "Question: What is the color of the bus driving down the street next to a red and white bus?",
+    "what is the time of day depicted in the downtown area with busy activity?",
+    "Question: How many buses are visible driving down the street in the image?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the building in the image?",
+      "answers": [
+        "red",
+        "white",
+        "gray"
+      ],
+      "score": 0.07430171966552734
+    },
+    {
+      "question": "Question: What is the primary mode of transportation visible in the busy downtown area?",
+      "answers": [
+        "buses",
+        "cars",
+        "pedestrians"
+      ],
+      "score": 0.10696887969970703
+    },
+    {
+      "question": "Question: What is the color of the bus driving down the street next to a red and white bus?",
+      "answers": [
+        "blue",
+        "yellow",
+        "green"
+      ],
+      "score": 0.23305225372314453
+    },
+    {
+      "question": "what is the time of day depicted in the downtown area with busy activity?",
+      "answers": [
+        "daytime",
+        "night",
+        "twilight"
+      ],
+      "score": 0.08285856246948242
+    },
+    {
+      "question": "Question: How many buses are visible driving down the street in the image?",
+      "answers": [
+        "0",
+        "2",
+        "3"
+      ],
+      "score": 0.0007772445678710938
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.066,
+  "probe_selection_seconds": 2.398,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the time of day depicted in the downtown area with busy activity?",
+      "answer": "daytime",
+      "rewrite": "a busy downtown area during the daytime",
+      "rank": 172,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the color of the building in the image?",
+      "answer": "brown",
+      "rewrite": "a brown building in a busy downtown area",
+      "rank": 400,
+      "hit": false
+    },
+    "probe": {
+      "question": "Question: What is the color of the bus driving down the street next to a red and white bus?",
+      "answer": "blue",
+      "rewrite": "a downtown area with busy activity featuring a blue bus driving down the street next to a red and white bus",
+      "rank": 879,
+      "hit": false
+    }
+  },
+  "seconds": 12.859
+}

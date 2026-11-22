@@ -1,0 +1,177 @@
+{
+  "qid": 1261,
+  "initial": "glass jars and tall flowers decorate a tiny neat kitchen",
+  "initial_rank": 98,
+  "displayed": [
+    21874,
+    39574,
+    31582,
+    25554,
+    3743,
+    30947,
+    10687,
+    49664,
+    44594,
+    39419
+  ],
+  "evidence": [
+    "a large white kitchen with wood cabinets and white counters",
+    "a small kitchen with a fridge, stove and sink",
+    "a very small kitchen with a stove, sink and shelves",
+    "an open kitchen with a sink and a window",
+    "a group of flowers are placed in a vase on a table",
+    "a kitchen with a oven, sink and refrigerator",
+    "a kitchen with a refrigerator, dishwasher, and toaster oven",
+    "a wooden kitchen with a refrigerator, oven and dishwasher",
+    "an open kitchen with a sink, refrigerator and stove",
+    "people cook in a kitchen with large kitchen area"
+  ],
+  "rejected_captions": [
+    "a vase on top of the stove is displaying flowers",
+    "a man with a blender is sitting near flowers on a counter",
+    "a kitchen with a white tablecloth and pots hanging above it",
+    "a kitchen that has an open shelving system",
+    "a dining room with chairs",
+    "a red vase filled with flowers on the bar",
+    "a kitchen with wooden paneling and a wood counter",
+    "a kitchen nook with two chairs and a table",
+    "a kitchen has a window in the window and several stools",
+    "a kitchen with a stove, oven and refrigerator"
+  ],
+  "usual": {
+    "candidates": [
+      "What is the color of the kitchen in the image?",
+      "Question: What type of appliances are present in the kitchen?",
+      "Question: What color are the jars decorating the kitchen?",
+      "Question: What color are the cabinets in the kitchen?",
+      "Question: What is the material of the kitchen cabinets?"
+    ],
+    "question": "What is the color of the kitchen in the image?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "What is the color of the kitchen in the image?",
+          "answers": [
+            "white",
+            "wooden",
+            "black"
+          ],
+          "score": 0.06763124465942383
+        },
+        {
+          "question": "Question: What type of appliances are present in the kitchen?",
+          "answers": [
+            "countertop",
+            "refrigerator",
+            "stove"
+          ],
+          "score": 0.028591156005859375
+        },
+        {
+          "question": "Question: What color are the jars decorating the kitchen?",
+          "answers": [
+            "clear",
+            "white",
+            "colorful"
+          ],
+          "score": 0.013799190521240234
+        },
+        {
+          "question": "Question: What color are the cabinets in the kitchen?",
+          "answers": [
+            "white",
+            "wooden",
+            "green"
+          ],
+          "score": 0.052866458892822266
+        },
+        {
+          "question": "Question: What is the material of the kitchen cabinets?",
+          "answers": [
+            "wood",
+            "glass",
+            "metal"
+          ],
+          "score": 0.03677225112915039
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.075,
+      "probe_selection_seconds": 2.406,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "white",
+    "rewrite": "white kitchen with glass jars and tall flowers",
+    "raw_rank": 100,
+    "unseen_rank": 92
+  },
+  "rejected": {
+    "candidates": [
+      "What color are the jars in the kitchen?",
+      "Question: What color are the flowers in the kitchen?",
+      "Question: What color is the counter in the kitchen?",
+      "Question: What color is the refrigerator in the kitchen?",
+      "Question: What color is the table in the kitchen?"
+    ],
+    "question": "Question: What color are the flowers in the kitchen?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "What color are the jars in the kitchen?",
+          "answers": [
+            "clear",
+            "blue",
+            "green"
+          ],
+          "score": 0.023807525634765625
+        },
+        {
+          "question": "Question: What color are the flowers in the kitchen?",
+          "answers": [
+            "Red",
+            "Blue",
+            "Yellow"
+          ],
+          "score": 0.060945987701416016
+        },
+        {
+          "question": "Question: What color is the counter in the kitchen?",
+          "answers": [
+            "white",
+            "wood",
+            "black"
+          ],
+          "score": 0.05028533935546875
+        },
+        {
+          "question": "Question: What color is the refrigerator in the kitchen?",
+          "answers": [
+            "white",
+            "black",
+            "stainless steel"
+          ],
+          "score": 0.04905557632446289
+        },
+        {
+          "question": "Question: What color is the table in the kitchen?",
+          "answers": [
+            "white",
+            "wooden",
+            "black"
+          ],
+          "score": 0.04255390167236328
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.058,
+      "probe_selection_seconds": 2.355,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "yellow",
+    "rewrite": "yellow glass jars and tall yellow flowers decorate a tiny neat kitchen",
+    "raw_rank": 59,
+    "unseen_rank": 51
+  }
+}

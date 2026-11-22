@@ -1,0 +1,100 @@
+{
+  "qid": 1760,
+  "initial": "the halves of a sandwich sit on a plate near a piece of fruit",
+  "initial_rank": 13,
+  "evidence": [
+    "a lunch box with a banana, apples and grapes",
+    "a large plate of french fries and a sandwich",
+    "the half of a sandwich with greens and meat on top",
+    "a chicken sandwich is on a plate with lettuce and bacon",
+    "a white plate is shown with fruit and yogurt",
+    "a large plate of sandwich and salad",
+    "a sandwich with a side salad on a plate",
+    "a meat sandwich is cut in half with coleslaw on a plate",
+    "a breakfast plate with sausage, eggs, potatoes and toast",
+    "a plate of apples, pears, grapes and bananas"
+  ],
+  "candidates": [
+    "what type of sandwich is on the plate?",
+    "Question: What fruit is next to the sandwich halves on the plate?",
+    "Question: What color is the plate holding the sandwich halves and fruit?",
+    "Question: What is the other item on the plate besides the sandwich halves and the fruit?",
+    "**Question:** Is there a banana on the plate with the sandwich halves?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what type of sandwich is on the plate?",
+      "answers": [
+        "chicken",
+        "meat",
+        "breakfast"
+      ],
+      "score": 0.04416799545288086
+    },
+    {
+      "question": "Question: What fruit is next to the sandwich halves on the plate?",
+      "answers": [
+        "apple",
+        "banana",
+        "grape"
+      ],
+      "score": 0.07616662979125977
+    },
+    {
+      "question": "Question: What color is the plate holding the sandwich halves and fruit?",
+      "answers": [
+        "white",
+        "black",
+        "blue"
+      ],
+      "score": 0.0840306282043457
+    },
+    {
+      "question": "Question: What is the other item on the plate besides the sandwich halves and the fruit?",
+      "answers": [
+        "coleslaw",
+        "salad",
+        "lettuce"
+      ],
+      "score": 0.06978464126586914
+    },
+    {
+      "question": "**Question:** Is there a banana on the plate with the sandwich halves?",
+      "answers": [
+        "Yes",
+        "No",
+        "I'm not sure"
+      ],
+      "score": 0.006177425384521484
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.057,
+  "probe_selection_seconds": 2.462,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what type of sandwich is on the plate?",
+      "answer": "fish sandwich",
+      "rewrite": "two halves of a fish sandwich sit on a plate near a piece of fruit",
+      "rank": 2,
+      "hit": true
+    },
+    "random": {
+      "question": "Question: What color is the plate holding the sandwich halves and fruit?",
+      "answer": "white",
+      "rewrite": "the halves of a sandwich sit on a white plate near a piece of fruit",
+      "rank": 8,
+      "hit": true
+    },
+    "probe": {
+      "question": "Question: What color is the plate holding the sandwich halves and fruit?",
+      "answer": "white",
+      "rewrite": "the halves of a sandwich sit on a white plate near a piece of fruit",
+      "rank": 8,
+      "hit": true
+    }
+  },
+  "seconds": 15.119
+}

@@ -1,0 +1,178 @@
+{
+  "qid": 830,
+  "initial": "a foal is standing still in the grass looking straight ahead with it's black stripes faded by the shadow",
+  "initial_rank": 33,
+  "displayed": [
+    44948,
+    48878,
+    34443,
+    45802,
+    44326,
+    36295,
+    25962,
+    33095,
+    16892,
+    39615
+  ],
+  "evidence": [
+    "a baby zebra and adult zebra eating in the grass",
+    "a panda bear is walking on a dirt path",
+    "a black cow and her calf standing on a grassy green field",
+    "white and black border collie",
+    "a giraffe is standing in an enclosure with stones and trees",
+    "black and white striped zebra",
+    "black and white zebra",
+    "an orange cat sitting in a field with a red light pole in the background",
+    "horse standing over a metal gate in a fenced in area",
+    "two brown horses in a green field"
+  ],
+  "rejected_captions": [
+    "a black and white cow standing in a field",
+    "a horse eats grass on a fenced field",
+    "a zebra is standing in some dirt",
+    "a black horse eating grass in the grass",
+    "a black and white horse with long mane standing in the field",
+    "a zebra is grazing in a field",
+    "a baby zebra is walking in a grassy field",
+    "a horse grazes in a green pasture",
+    "brown horse standing on a green field",
+    "a zebra standing in a grassy field with a car parked in the background"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the species of the animal with the black and white stripes?",
+      "what is the animal doing in the image?",
+      "what is the color of the stripes on the animal in the image?",
+      "what is the species of the animal with the black stripes?",
+      "Question: What is the species of the animal with the black and white stripes?"
+    ],
+    "question": "Question: What is the species of the animal with the black and white stripes?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the species of the animal with the black and white stripes?",
+          "answers": [
+            "zebra",
+            "panda",
+            "cow"
+          ],
+          "score": 0.05905008316040039
+        },
+        {
+          "question": "what is the animal doing in the image?",
+          "answers": [
+            "standing still",
+            "looking straight ahead",
+            "in the grass"
+          ],
+          "score": 0.0069332122802734375
+        },
+        {
+          "question": "what is the color of the stripes on the animal in the image?",
+          "answers": [
+            "black and white",
+            "black",
+            "faded black"
+          ],
+          "score": 0.011209487915039062
+        },
+        {
+          "question": "what is the species of the animal with the black stripes?",
+          "answers": [
+            "zebra",
+            "baboon",
+            "wallaby"
+          ],
+          "score": 0.03353452682495117
+        },
+        {
+          "question": "Question: What is the species of the animal with the black and white stripes?",
+          "answers": [
+            "zebra",
+            "horse",
+            "cow"
+          ],
+          "score": 0.07005596160888672
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.168,
+      "probe_selection_seconds": 2.734,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "zebra",
+    "rewrite": "a zebra is standing still in the grass looking straight ahead with its black and white stripes faded by the shadow",
+    "raw_rank": 13,
+    "unseen_rank": 12
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the color of the animal's body (excluding the stripes)?",
+      "Question: What is the color of the animal's body (excluding the stripes)?",
+      "what is the other object in the image?",
+      "Question: What is the background color of the scene where the animal is standing?",
+      "what is the color of the animal's body (excluding the stripes)?"
+    ],
+    "question": "what is the other object in the image?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the color of the animal's body (excluding the stripes)?",
+          "answers": [
+            "black",
+            "white",
+            "brown"
+          ],
+          "score": 0.01287984848022461
+        },
+        {
+          "question": "Question: What is the color of the animal's body (excluding the stripes)?",
+          "answers": [
+            "black",
+            "white",
+            "brown"
+          ],
+          "score": 0.01287984848022461,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a baby zebra and adult zebra eating in the grass",
+            "a black cow and her calf standing on a grassy green field",
+            "a panda bear is walking on a dirt path"
+          ],
+          "score": 0.27650022506713867
+        },
+        {
+          "question": "Question: What is the background color of the scene where the animal is standing?",
+          "answers": [
+            "grass",
+            "dirt",
+            "field"
+          ],
+          "score": 0.028505325317382812
+        },
+        {
+          "question": "what is the color of the animal's body (excluding the stripes)?",
+          "answers": [
+            "black",
+            "white",
+            "brown"
+          ],
+          "score": 0.01427316665649414
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.14,
+      "probe_selection_seconds": 2.57,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "zebra",
+    "rewrite": "a foal and a zebra are standing still in the grass, with the foal looking straight ahead and its black stripes faded by the shadow",
+    "raw_rank": 10,
+    "unseen_rank": 8
+  }
+}

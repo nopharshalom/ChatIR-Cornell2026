@@ -1,0 +1,111 @@
+{
+  "chosen": "is the green and white bus parked or driving?",
+  "default": "is the green and white bus parked or driving?",
+  "ids": [
+    14796,
+    28703,
+    34724,
+    43220
+  ],
+  "trials": {
+    "is the green and white bus parked or driving?": {
+      "answers": [
+        "parked",
+        "parked",
+        "parked",
+        "driving"
+      ],
+      "rewrites": {
+        "parked": "a green and white bus is parked at an intersection",
+        "driving": "a green and white bus is driving through an intersection"
+      },
+      "ranks": [
+        6,
+        10,
+        26,
+        33
+      ],
+      "hits": 2
+    },
+    "what color is the traffic light at the intersection where the green and white bus is standing?": {
+      "answers": [
+        "unsure",
+        "unsure",
+        "I'm sorry, but the image does not show a traffic light or an intersection, so I cannot answer that question.",
+        "I'm sorry, but the image does not show a traffic light at the intersection where the green and white bus is standing."
+      ],
+      "rewrites": {
+        "unsure": "a green and white bus stands at an intersection with an unknown traffic light color",
+        "I'm sorry, but the image does not show a traffic light or an intersection, so I cannot answer that question.": "a green and white bus stands alone in an open area, with no traffic light or intersection visible",
+        "I'm sorry, but the image does not show a traffic light at the intersection where the green and white bus is standing.": "a green and white bus stands at an intersection without a visible traffic light"
+      },
+      "ranks": [
+        26,
+        41,
+        12,
+        60
+      ],
+      "hits": 0
+    },
+    "what is the color of the bus that is driving down the street with a concrete wall?": {
+      "answers": [
+        "green",
+        "green",
+        "green and white",
+        "green"
+      ],
+      "rewrites": {
+        "green": "a green and white bus stands at an intersection, while a green bus drives down the street with a concrete wall",
+        "green and white": "a green and white bus drives down a street with a concrete wall"
+      },
+      "ranks": [
+        52,
+        126,
+        93,
+        80
+      ],
+      "hits": 0
+    },
+    "Question: What object is the green and white bus positioned next to at the intersection?": {
+      "answers": [
+        "trees",
+        "bush",
+        "truck",
+        "car"
+      ],
+      "rewrites": {
+        "trees": "a green and white bus stands at an intersection next to trees",
+        "bush": "a green and white bus stands at an intersection next to a bush",
+        "truck": "a green and white bus stands at an intersection next to a truck",
+        "car": "a green and white bus stands at an intersection next to a car"
+      },
+      "ranks": [
+        7,
+        11,
+        3,
+        29
+      ],
+      "hits": 2
+    },
+    "Question: What is the color of the bus that is performing a trick on a skateboard?": {
+      "answers": [
+        "unsure",
+        "unsure",
+        "I'm sorry, but the image does not show a bus performing a trick on a skateboard.",
+        "green"
+      ],
+      "rewrites": {
+        "unsure": "a green and white bus stands at an intersection, with no skateboard or trick visible",
+        "I'm sorry, but the image does not show a bus performing a trick on a skateboard.": "a green and white bus stands at an intersection",
+        "green": "a green bus stands at an intersection, performing a trick on a skateboard"
+      },
+      "ranks": [
+        6,
+        8,
+        32,
+        21
+      ],
+      "hits": 2
+    }
+  }
+}

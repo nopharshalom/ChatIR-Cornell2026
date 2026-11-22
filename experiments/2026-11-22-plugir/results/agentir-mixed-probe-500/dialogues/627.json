@@ -1,0 +1,410 @@
+{
+  "qid": 627,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000427572.jpg",
+  "queries": [
+    "a man and woman sitting at a restaurant",
+    "a man and woman sitting at a restaurant, with the woman holding nothing",
+    "a man and woman sitting at a table in a restaurant",
+    "a man and woman sitting at a restaurant table with a plate of food"
+  ],
+  "ranks": [
+    16,
+    26,
+    14,
+    9
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a man and woman sitting at a restaurant",
+      "question": "Question: What is the woman holding?",
+      "answer": "nothing",
+      "query_after": "a man and woman sitting at a restaurant, with the woman holding nothing",
+      "displayed_ids": [
+        49495,
+        15916,
+        39241,
+        46214,
+        45977,
+        32652,
+        40404,
+        42896,
+        986,
+        41877
+      ],
+      "selected_ids": [
+        35704,
+        21554,
+        34122,
+        42528,
+        32021,
+        17105,
+        49010,
+        23878,
+        6056,
+        27278
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what are the people sitting at the restaurant table eating or drinking?",
+          "answers": [
+            "pizza and wine",
+            "pizza",
+            "wine"
+          ],
+          "score": 0.12222814559936523
+        },
+        {
+          "question": "what is the specific food or drink on the table in front of the man and woman?",
+          "answers": [
+            "pizza",
+            "wine",
+            "cake"
+          ],
+          "score": 0.18211126327514648
+        },
+        {
+          "question": "what is the specific food or drink on the table in front of the man and woman?",
+          "answers": [
+            "pizza",
+            "wine",
+            "cake"
+          ],
+          "score": 0.18211126327514648,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the gender of the people sitting at the restaurant table?",
+          "answers": [
+            "man and woman",
+            "two women",
+            "two men"
+          ],
+          "score": 0.014748096466064453
+        },
+        {
+          "question": "what are the people sitting at the restaurant table wearing?",
+          "answers": [
+            "casual clothes",
+            "formal wear",
+            "uniforms"
+          ],
+          "score": 0.1006922721862793
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the man wearing?",
+          "answers": [
+            "shirt and tie",
+            "casual shirt",
+            "suit"
+          ],
+          "score": 0.07220268249511719
+        },
+        {
+          "question": "Question: What food are they eating?",
+          "answers": [
+            "pizza",
+            "wine",
+            "cake"
+          ],
+          "score": 0.17948007583618164
+        },
+        {
+          "question": "Question: What is the woman holding?",
+          "answers": [
+            "pizza",
+            "wine",
+            "cake"
+          ],
+          "score": 0.21630191802978516
+        },
+        {
+          "question": "Question: What is the table setting or atmosphere like?",
+          "answers": [
+            "casual",
+            "romantic",
+            "formal"
+          ],
+          "score": 0.037430763244628906
+        },
+        {
+          "question": "Question: What is the man wearing?",
+          "answers": [
+            "shirt and tie",
+            "casual shirt",
+            "suit"
+          ],
+          "score": 0.07220268249511719,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a man and woman sitting at a restaurant, with the woman holding nothing",
+      "question": "what is the object the man and woman are posing with in the image?",
+      "answer": "table",
+      "query_after": "a man and woman sitting at a table in a restaurant",
+      "displayed_ids": [
+        49495,
+        46214,
+        45977,
+        243,
+        15916,
+        36893,
+        47492,
+        28419,
+        28402,
+        40404
+      ],
+      "selected_ids": [
+        3755,
+        26865,
+        35704,
+        49010,
+        19785,
+        41270,
+        32021,
+        27278,
+        42528
+      ],
+      "rejected_count": 15,
+      "usual_paths": [
+        {
+          "question": "what is the man eating at the restaurant table with the woman?",
+          "answers": [
+            "pizza",
+            "sandwich",
+            "nothing"
+          ],
+          "score": 0.09456110000610352
+        },
+        {
+          "question": "what is the man eating at the restaurant table with the woman?",
+          "answers": [
+            "pizza",
+            "sandwich",
+            "nothing"
+          ],
+          "score": 0.09456110000610352,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the specific food item the man is eating?",
+          "answers": [
+            "sandwich",
+            "pizza",
+            "cake"
+          ],
+          "score": 0.1261463165283203
+        },
+        {
+          "question": "what is the object the man and woman are posing with in the image?",
+          "answers": [
+            "nothing",
+            "a cake",
+            "pizza"
+          ],
+          "score": 0.12716150283813477
+        },
+        {
+          "question": "Question: What is the man wearing?",
+          "answers": [
+            "shirt",
+            "jacket",
+            "suit"
+          ],
+          "score": 0.07240056991577148
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the man wearing?",
+          "answers": [
+            "suit and tie",
+            "shirt and tie",
+            "casual shirt"
+          ],
+          "score": 0.06528615951538086
+        },
+        {
+          "question": "what is the man wearing?",
+          "answers": [
+            "suit and tie",
+            "shirt and tie",
+            "casual shirt"
+          ],
+          "score": 0.06528615951538086,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the man wearing?",
+          "answers": [
+            "suit and tie",
+            "shirt and tie",
+            "casual shirt"
+          ],
+          "score": 0.06528615951538086,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the man wearing?",
+          "answers": [
+            "suit and tie",
+            "shirt and tie",
+            "casual shirt"
+          ],
+          "score": 0.06528615951538086,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the man wearing?",
+          "answers": [
+            "suit and tie",
+            "shirt and tie",
+            "casual shirt"
+          ],
+          "score": 0.06528615951538086,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "a man and woman sitting at a table in a restaurant",
+      "question": "Question: What food item is on the table where the man and woman are sitting?",
+      "answer": "plate",
+      "query_after": "a man and woman sitting at a restaurant table with a plate of food",
+      "displayed_ids": [
+        15916,
+        49495,
+        39241,
+        32652,
+        42896,
+        45977,
+        46214,
+        986,
+        25693,
+        12690
+      ],
+      "selected_ids": [
+        32021,
+        35704,
+        24739,
+        36424,
+        23040,
+        42528,
+        34122,
+        12656,
+        49010,
+        41486
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "Question: What food item is on the table where the man and woman are sitting?",
+          "answers": [
+            "cake",
+            "pizza",
+            "sandwiches"
+          ],
+          "score": 0.19211578369140625
+        },
+        {
+          "question": "what object is the man holding?",
+          "answers": [
+            "nothing",
+            "food",
+            "wine glass"
+          ],
+          "score": 0.0904994010925293
+        },
+        {
+          "question": "what is the man holding in the image with the woman?",
+          "answers": [
+            "nothing",
+            "wine glasses",
+            "pizza"
+          ],
+          "score": 0.17102956771850586
+        },
+        {
+          "question": "what is the man holding in the image with the woman?",
+          "answers": [
+            "nothing",
+            "wine glasses",
+            "pizza"
+          ],
+          "score": 0.17102956771850586,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the man holding in the image with the woman?",
+          "answers": [
+            "nothing",
+            "wine glasses",
+            "pizza"
+          ],
+          "score": 0.17102956771850586,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color jacket is the man wearing?",
+          "answers": [
+            "red",
+            "black",
+            "blue"
+          ],
+          "score": 0.06539678573608398
+        },
+        {
+          "question": "Question: What is the man wearing?",
+          "answers": [
+            "shirt",
+            "sweater",
+            "jacket"
+          ],
+          "score": 0.05593585968017578
+        },
+        {
+          "question": "what is the color of the woman's dress?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.0882267951965332
+        },
+        {
+          "question": "what is the man wearing?",
+          "answers": [
+            "shirt",
+            "suit",
+            "casual clothes"
+          ],
+          "score": 0.09767580032348633
+        },
+        {
+          "question": "what is the man wearing?",
+          "answers": [
+            "shirt",
+            "suit",
+            "casual clothes"
+          ],
+          "score": 0.09767580032348633,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

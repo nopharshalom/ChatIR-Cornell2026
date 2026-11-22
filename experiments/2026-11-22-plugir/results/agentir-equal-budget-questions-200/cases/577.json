@@ -1,0 +1,79 @@
+{
+  "qid": 577,
+  "sample": 2,
+  "first_candidates": [
+    "what is the color of the car near the horses?",
+    "what is the color of the car near the horses?",
+    "what is the color of the car near the horses?",
+    "what is the color of the car?",
+    "what is the color of the car positioned with the horses?"
+  ],
+  "second_candidates": [
+    "Question: What is the color of the car near the horses?",
+    "what is the color of the apron on the horse near the car?",
+    "what is the other object in the image?",
+    "what is the color of the car near the horses?",
+    "what is the color of the apron on the horse near the car?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What is the color of the car near the horses?",
+      "answers": [
+        "white",
+        "black",
+        "red"
+      ],
+      "score": 0.03785276412963867
+    },
+    {
+      "question": "what is the color of the apron on the horse near the car?",
+      "answers": [
+        "white",
+        "blue",
+        "red"
+      ],
+      "score": 0.03769826889038086
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "a car",
+        "a motorcycle",
+        "a horse"
+      ],
+      "score": 0.04535627365112305
+    },
+    {
+      "question": "what is the color of the car near the horses?",
+      "answers": [
+        "white",
+        "black",
+        "red"
+      ],
+      "score": 0.05022287368774414
+    },
+    {
+      "question": "what is the color of the apron on the horse near the car?",
+      "answers": [
+        "white",
+        "blue",
+        "red"
+      ],
+      "score": 0.03769826889038086,
+      "duplicate_of": 1
+    }
+  ],
+  "control": {
+    "question": "what is the color of the car?",
+    "score": 0.08140277862548828
+  },
+  "mixed": {
+    "question": "what is the color of the car?",
+    "score": 0.08140277862548828
+  },
+  "control_rank": 665,
+  "mixed_rank": 665,
+  "usual_rank": 665,
+  "new_answer": null,
+  "new_rewrite": null
+}

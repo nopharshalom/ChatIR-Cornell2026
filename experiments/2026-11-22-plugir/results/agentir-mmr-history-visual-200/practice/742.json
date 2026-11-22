@@ -1,0 +1,72 @@
+{
+  "chosen": "Question: What color shirt is the man wearing?",
+  "default": "what is the other object in the image?",
+  "ids": [
+    5213,
+    12281,
+    3162,
+    43457
+  ],
+  "trials": {
+    "what is the other object in the image?": {
+      "answers": [
+        "dog",
+        "driftwood",
+        "grass",
+        "beach"
+      ],
+      "rewrites": {
+        "dog": "a man flying a kite on the sand at the beach with a dog",
+        "driftwood": "a man flying a kite on the sand at the beach with driftwood nearby",
+        "grass": "a man flying a kite on a beach with sand and grass",
+        "beach": "a man flying a kite on the sand at the beach"
+      },
+      "ranks": [
+        40,
+        2,
+        1,
+        43
+      ],
+      "hits": 2
+    },
+    "Question: Is the man flying the kite with his arms stretched out?": {
+      "answers": [
+        "no",
+        "no",
+        "no",
+        "no"
+      ],
+      "rewrites": {
+        "no": "a man flying a kite on the sand at the beach with his arms not stretched out"
+      },
+      "ranks": [
+        17,
+        12,
+        58,
+        27
+      ],
+      "hits": 0
+    },
+    "Question: What color shirt is the man wearing?": {
+      "answers": [
+        "Blue.",
+        "black",
+        "White.",
+        "white"
+      ],
+      "rewrites": {
+        "Blue.": "a man in a blue shirt flying a kite on the sand at the beach",
+        "black": "a man wearing a black shirt flies a kite on the sand at the beach",
+        "White.": "a man in a white shirt flying a kite on the sand at the beach",
+        "white": "a man in a white shirt flying a kite on the sand at the beach"
+      },
+      "ranks": [
+        1,
+        18,
+        5,
+        4
+      ],
+      "hits": 3
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "qid": 1098,
+  "arm": "fresh",
+  "after_round": 2,
+  "ranks": [
+    83,
+    130,
+    188,
+    15,
+    23,
+    21,
+    8
+  ],
+  "continuation": [
+    {
+      "round": 3,
+      "query_before": "A green and white bus is stopped at an intersection next to a car.",
+      "question": "Is the bus blue and white or green?",
+      "answer": "blue and white",
+      "query_after": "a blue and white bus and a car stand at an intersection",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Is the bus blue and white or green?",
+      "fallback": false
+    },
+    {
+      "round": 4,
+      "query_before": "a blue and white bus and a car stand at an intersection",
+      "question": "**Question:** What is the specific time of day depicted in the image?",
+      "answer": "daytime",
+      "query_after": "a blue and white bus and a car stand at an intersection during the daytime"
+    },
+    {
+      "round": 5,
+      "query_before": "a blue and white bus and a car stand at an intersection during the daytime",
+      "question": "what is the other object in the image?",
+      "answer": "a car",
+      "query_after": "During the daytime, a blue and white bus and a car are stopped at an intersection."
+    },
+    {
+      "round": 6,
+      "query_before": "During the daytime, a blue and white bus and a car are stopped at an intersection.",
+      "question": "what is the surface material where the blue and white bus is parked?",
+      "answer": "asphalt",
+      "query_after": "a blue and white bus stands on an asphalt surface at an intersection with a car, during the daytime"
+    }
+  ],
+  "seconds": 39.8
+}

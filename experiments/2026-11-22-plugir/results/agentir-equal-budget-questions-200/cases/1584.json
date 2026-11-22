@@ -1,0 +1,78 @@
+{
+  "qid": 1584,
+  "sample": 2,
+  "first_candidates": [
+    "what is the color of the double decker bus in front of the police officers?",
+    "Question: what is the color of the police officers riding horses?",
+    "What is the vehicle standing behind the police officers on horseback?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "second_candidates": [
+    "what is the color of the double decker bus in front of the two police officers on horseback?",
+    "Question: What is the action of the double decker bus in the scene with the two police officers on horseback?",
+    "Question: What is the color of the double decker bus in front of the two police officers on horseback?",
+    "what is the lighting condition or time of day in the scene with the two police officers on horseback and the double decker bus?",
+    "what is the color of the horses ridden by the two police officers?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the double decker bus in front of the two police officers on horseback?",
+      "answers": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "score": 0.028394699096679688
+    },
+    {
+      "question": "Question: What is the action of the double decker bus in the scene with the two police officers on horseback?",
+      "answers": [
+        "sitting",
+        "parked",
+        "stops"
+      ],
+      "score": 0.002536296844482422
+    },
+    {
+      "question": "Question: What is the color of the double decker bus in front of the two police officers on horseback?",
+      "answers": [
+        "red",
+        "blue",
+        "white"
+      ],
+      "score": 0.02621173858642578
+    },
+    {
+      "question": "what is the lighting condition or time of day in the scene with the two police officers on horseback and the double decker bus?",
+      "answers": [
+        "daytime",
+        "night",
+        "sunset"
+      ],
+      "score": 0.021522045135498047
+    },
+    {
+      "question": "what is the color of the horses ridden by the two police officers?",
+      "answers": [
+        "black",
+        "brown",
+        "bay"
+      ],
+      "score": 0.013580799102783203
+    }
+  ],
+  "control": {
+    "question": "what is the color of the double decker bus in front of the police officers?",
+    "score": 0.048712730407714844
+  },
+  "mixed": {
+    "question": "Question: Question: What is the color of the double decker bus in front of which the police officers are standing?",
+    "score": 0.05815267562866211
+  },
+  "control_rank": 4,
+  "mixed_rank": 4,
+  "usual_rank": 4,
+  "new_answer": null,
+  "new_rewrite": null
+}

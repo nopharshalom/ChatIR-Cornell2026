@@ -1,0 +1,79 @@
+{
+  "qid": 663,
+  "candidates": [
+    "Question: What is the color of the building that the clock tower is sitting on?",
+    "Question: What is the weather condition in the image featuring the clock tower?",
+    "Question: What is the color of the clock tower itself?",
+    "Question: What is the sky condition in the image featuring the clock tower?",
+    "Question: What is the architectural style or material of the building that the clock tower is sitting on?"
+  ],
+  "kl": {
+    "question": "Question: What is the architectural style or material of the building that the clock tower is sitting on?",
+    "answer": "brick",
+    "rewrite": "a very tall brick tower with a clock near the top",
+    "raw_rank": 33,
+    "unseen_rank": 29
+  },
+  "probe": {
+    "answer": "Brown.",
+    "rewrite": "a very tall brown clock tower",
+    "raw_rank": 30,
+    "unseen_rank": 25,
+    "question": "Question: What is the color of the clock tower itself?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the color of the building that the clock tower is sitting on?",
+        "answers": [
+          "red",
+          "grey",
+          "black and white"
+        ],
+        "score": 0.1568617820739746
+      },
+      {
+        "question": "Question: What is the weather condition in the image featuring the clock tower?",
+        "answers": [
+          "sunny",
+          "cloudy",
+          "rainy"
+        ],
+        "score": 0.07806396484375
+      },
+      {
+        "question": "Question: What is the color of the clock tower itself?",
+        "answers": [
+          "red brick",
+          "grey stone",
+          "black and white"
+        ],
+        "score": 0.2264876365661621
+      },
+      {
+        "question": "Question: What is the sky condition in the image featuring the clock tower?",
+        "answers": [
+          "clear",
+          "stormy",
+          "night"
+        ],
+        "score": 0.1456766128540039
+      },
+      {
+        "question": "Question: What is the architectural style or material of the building that the clock tower is sitting on?",
+        "answers": [
+          "stone",
+          "red brick",
+          "grey"
+        ],
+        "score": 0.1463761329650879
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.064,
+    "probe_selection_seconds": 2.428,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": false
+}

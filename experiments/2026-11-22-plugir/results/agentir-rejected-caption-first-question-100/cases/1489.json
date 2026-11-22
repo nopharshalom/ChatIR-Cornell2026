@@ -1,0 +1,71 @@
+{
+  "qid": 1489,
+  "initial": "the blue clock is sitting on the ledge",
+  "initial_rank": 234,
+  "evidence": [
+    "a red clock tower with black numerals in the middle",
+    "a large clock that is hanging on a pole in a sidewalk",
+    "blue street signs in front of a tall building",
+    "a clock tower on a building against the sky",
+    "a clock sitting on a hill beside a church",
+    "antique clock in black and gold",
+    "a blue suitcase sitting on a table in the closet",
+    "a black clock hanging above a dark ceiling",
+    "a blue toilet",
+    "a large blue plane sits on the tarmac"
+  ],
+  "displayed_ids": [
+    37215,
+    2234,
+    12224,
+    37812,
+    74,
+    12880,
+    38590,
+    39082,
+    40950,
+    35253
+  ],
+  "rejected_captions": [
+    "a wooden hut",
+    "a tall, blue clock is standing near a city sidewalk",
+    "a large clock hangs on a wall with a large window",
+    "large black clock",
+    "a building is in the background",
+    "a red clock sits on a concrete railing",
+    "the sign is blue",
+    "large clock tower on top of a building",
+    "a big clock tower with trees and a clock",
+    "a big ole clock on a pole on a sidewalk"
+  ],
+  "candidates": [
+    "what color are the numerals on the clock tower?",
+    "Question: What is the background of the blue clock sitting on the ledge?",
+    "Question: What is the background of the blue clock sitting on the ledge?",
+    "Question: What color is the clock tower?",
+    "what is the other object in the image?"
+  ],
+  "control_candidates": [
+    "what color are the numerals on the clock tower?",
+    "Question: What is the location where the blue clock is sitting?",
+    "what is the object sitting on the ledge next to the blue clock?",
+    "Question: What is the color of the clock tower in the image?",
+    "what is the object sitting next to the blue clock on the ledge?"
+  ],
+  "control": {
+    "question": "Question: What is the location where the blue clock is sitting?",
+    "answer": "desk",
+    "rewrite": "a blue clock is sitting on a desk",
+    "rank": 2,
+    "hit": true,
+    "raw_rank": 2,
+    "unseen_rank": 1
+  },
+  "variant": {
+    "question": "what is the other object in the image?",
+    "answer": "a desk",
+    "rewrite": "a blue clock sits on a ledge next to a desk",
+    "raw_rank": 4,
+    "unseen_rank": 3
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "qid": 143,
+  "sample": "original",
+  "target": "unlabeled2017/000000143795.jpg",
+  "queries": [
+    "a buffet table filled with a variety of food and drink",
+    "a buffet table filled with a variety of food and drink, including hamburgers"
+  ],
+  "ranks": [
+    29,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a buffet table filled with a variety of food and drink",
+      "question": "Question: What is the specific type of food item found on the table in the image?",
+      "answer": "hamburger",
+      "query_after": "a buffet table filled with a variety of food and drink, including hamburgers",
+      "displayed_ids": [
+        6264,
+        13730,
+        19447,
+        42662,
+        30937,
+        14068,
+        3466,
+        18545,
+        1107,
+        46118
+      ],
+      "selected_ids": [
+        6807,
+        43134,
+        5713,
+        36403,
+        21706,
+        15281,
+        49806,
+        40101,
+        8284,
+        2599
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: What specific items are on the buffet table?",
+          "answers": [
+            "sandwiches",
+            "pastries",
+            "cupcakes"
+          ],
+          "score": 0.07366752624511719
+        },
+        {
+          "question": "what is the main type of food featured on the buffet table?",
+          "answers": [
+            "sandwiches",
+            "pastries",
+            "pizzas"
+          ],
+          "score": 0.11064386367797852
+        },
+        {
+          "question": "Question: What is the specific type of food item found on the table in the image?",
+          "answers": [
+            "ham",
+            "cupcakes",
+            "pizza"
+          ],
+          "score": 0.24182462692260742
+        },
+        {
+          "question": "what is the main type of food featured on the buffet table?",
+          "answers": [
+            "sandwiches",
+            "pastries",
+            "pizzas"
+          ],
+          "score": 0.11064386367797852,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: How many plates are visible on the table in the image?",
+          "answers": [
+            "2",
+            "3",
+            "several"
+          ],
+          "score": 0.0019555091857910156
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What specific type of food and drink is visible on the table in the image?",
+          "answers": [
+            "sandwiches and drinks",
+            "pastries",
+            "sandwich, salad, and beer"
+          ],
+          "score": 0.14930009841918945
+        },
+        {
+          "question": "Question: What is the main subject matter or specific theme of the food displayed on the table?",
+          "answers": [
+            "desserts",
+            "sandwiches",
+            "breakfast"
+          ],
+          "score": 0.13945436477661133
+        },
+        {
+          "question": "Question: What is the specific type of food visible on the table?",
+          "answers": [
+            "sushi",
+            "pasta",
+            "pizza"
+          ],
+          "score": 0.0948324203491211
+        },
+        {
+          "question": "Question: What is the color of the table in the image?",
+          "answers": [
+            "wood",
+            "white",
+            "black"
+          ],
+          "score": 0.06414079666137695
+        },
+        {
+          "question": "Question: What is the material of the table in the image?",
+          "answers": [
+            "wood",
+            "glass",
+            "metal"
+          ],
+          "score": 0.0789031982421875
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

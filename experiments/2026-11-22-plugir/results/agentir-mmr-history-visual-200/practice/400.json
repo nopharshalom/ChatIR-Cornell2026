@@ -1,0 +1,111 @@
+{
+  "chosen": "what is the color of the parked train?",
+  "default": "Question: What is the type of the train parked next to the other train?",
+  "ids": [
+    33834,
+    5593,
+    36241,
+    8514
+  ],
+  "trials": {
+    "Question: What is the type of the train parked next to the other train?": {
+      "answers": [
+        "JR",
+        "commuter",
+        "passenger",
+        "ice"
+      ],
+      "rewrites": {
+        "JR": "a JR train parked next to another train",
+        "commuter": "a commuter train parked next to another train",
+        "passenger": "a passenger train parked next to another train",
+        "ice": "two parked ice trains"
+      },
+      "ranks": [
+        2,
+        11,
+        11,
+        5
+      ],
+      "hits": 2
+    },
+    "what is the location of the train that is parked next to another train?": {
+      "answers": [
+        "kawagoe",
+        "platform",
+        "train station",
+        "platform"
+      ],
+      "rewrites": {
+        "kawagoe": "a train parked next to another train in Kawagoe",
+        "platform": "a train parked on a platform next to another train",
+        "train station": "a train parked next to another train at a train station"
+      },
+      "ranks": [
+        3,
+        9,
+        40,
+        134
+      ],
+      "hits": 2
+    },
+    "what is the color of the parked train?": {
+      "answers": [
+        "white",
+        "blue",
+        "blue and yellow",
+        "white"
+      ],
+      "rewrites": {
+        "white": "a white train parked next to another train",
+        "blue": "a blue train parked next to another train",
+        "blue and yellow": "a blue and yellow train parked next to another train"
+      },
+      "ranks": [
+        8,
+        14,
+        10,
+        3
+      ],
+      "hits": 3
+    },
+    "Question: Which train is parked next to the other train: the passenger train or the freight train?": {
+      "answers": [
+        "passenger train",
+        "passenger train",
+        "passenger train",
+        "passenger train"
+      ],
+      "rewrites": {
+        "passenger train": "a passenger train parked next to another train"
+      },
+      "ranks": [
+        9,
+        14,
+        11,
+        35
+      ],
+      "hits": 1
+    },
+    "what is the color of the train that is parked next to the other train?": {
+      "answers": [
+        "white",
+        "blue",
+        "blue and yellow",
+        "white"
+      ],
+      "rewrites": {
+        "white": "a white train parked next to another train",
+        "blue": "a blue train parked next to another train",
+        "blue and yellow": "a blue and yellow train parked next to another train"
+      },
+      "ranks": [
+        8,
+        14,
+        10,
+        3
+      ],
+      "hits": 3
+    }
+  }
+}

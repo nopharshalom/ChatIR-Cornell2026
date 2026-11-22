@@ -1,0 +1,80 @@
+{
+  "qid": 1947,
+  "candidates": [
+    "Question: What color is the surfboard the man is riding?",
+    "Question: What color is the man's wetsuit or shorts?",
+    "Question: What color is the wave the man is surfing on?",
+    "Question: What is the color of the wave the man is surfing on?",
+    "Question: What color is the wave the man is surfing on?"
+  ],
+  "kl": {
+    "question": "Question: What color is the man's wetsuit or shorts?",
+    "answer": "white",
+    "rewrite": "a man in a white wetsuit or shorts surfing on a longboard in the ocean",
+    "raw_rank": 4,
+    "unseen_rank": 3
+  },
+  "probe": {
+    "answer": "yellow",
+    "rewrite": "a man surfing on a yellow longboard in the ocean",
+    "raw_rank": 71,
+    "unseen_rank": 67,
+    "question": "Question: What color is the surfboard the man is riding?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What color is the surfboard the man is riding?",
+        "answers": [
+          "black",
+          "yellow",
+          "blue"
+        ],
+        "score": 0.08862543106079102
+      },
+      {
+        "question": "Question: What color is the man's wetsuit or shorts?",
+        "answers": [
+          "black",
+          "blue",
+          "yellow"
+        ],
+        "score": 0.08158731460571289
+      },
+      {
+        "question": "Question: What color is the wave the man is surfing on?",
+        "answers": [
+          "black",
+          "yellow",
+          "green"
+        ],
+        "score": 0.081695556640625
+      },
+      {
+        "question": "Question: What is the color of the wave the man is surfing on?",
+        "answers": [
+          "black",
+          "yellow",
+          "green"
+        ],
+        "score": 0.08771657943725586
+      },
+      {
+        "question": "Question: What color is the wave the man is surfing on?",
+        "answers": [
+          "black",
+          "yellow",
+          "green"
+        ],
+        "score": 0.081695556640625,
+        "duplicate_of": 2
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.055,
+    "probe_selection_seconds": 1.814,
+    "probe_llm_calls": 4,
+    "probe_search_queries": 12
+  },
+  "reused_outcome": false
+}

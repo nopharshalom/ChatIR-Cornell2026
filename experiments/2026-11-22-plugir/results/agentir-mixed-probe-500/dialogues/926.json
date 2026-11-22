@@ -1,0 +1,1062 @@
+{
+  "qid": 926,
+  "sample": "original",
+  "target": "unlabeled2017/000000406577.jpg",
+  "queries": [
+    "many people sitting at a table and eating pizza",
+    "many people sitting at a table eating cheese-topped pizza",
+    "many people sitting at a table in a restaurant eating cheese-topped pizza",
+    "a group of all-male people sitting at a table in a restaurant, eating cheese-topped pizza",
+    "a group of all-male people sitting at a table in a restaurant eating cheese-topped pizza, with a person on the right taking a picture",
+    "a group of all-male people sitting at a table eating cheese pizza in a restaurant, with a person in a black jacket taking a picture in front of them",
+    "a group of all-male friends sits at a table in a restaurant eating cheese-topped pizza, while a person in a black jacket takes a picture of them, and a man in a blue sweater is eating pizza",
+    "a group of all-male friends sits at a table in a restaurant eating cheese pizza, while a man in a black jacket takes a picture of them, with another man in a blue sweater also present",
+    "a group of all-male friends sits at a table in a restaurant eating pizza topped with cheese, while a man in a black jacket takes a picture of them, with a man in a blue sweater also eating, and a can of beer and a glass of dark liquid on the table"
+  ],
+  "ranks": [
+    59,
+    96,
+    125,
+    52,
+    55,
+    69,
+    20,
+    17,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "many people sitting at a table and eating pizza",
+      "question": "Question: What is the pizza topped with?",
+      "answer": "cheese",
+      "query_after": "many people sitting at a table eating cheese-topped pizza",
+      "displayed_ids": [
+        15934,
+        44930,
+        37774,
+        31690,
+        13274,
+        17123,
+        30089,
+        19560,
+        34639,
+        12256
+      ],
+      "selected_ids": [
+        49482,
+        45658,
+        30493,
+        7826,
+        41809,
+        33247,
+        31864,
+        24739,
+        30420,
+        40059
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: What is the topping on the pizza being eaten by the group?",
+          "answers": [
+            "pepperoni",
+            "cheese",
+            "vegetables"
+          ],
+          "score": 0.055500030517578125
+        },
+        {
+          "question": "Question: What is the age of the people eating the pizza?",
+          "answers": [
+            "adults",
+            "children",
+            "mixed"
+          ],
+          "score": 0.03701591491699219
+        },
+        {
+          "question": "what is the location where the group of people is eating the pizza?",
+          "answers": [
+            "restaurant",
+            "home",
+            "office"
+          ],
+          "score": 0.05359029769897461
+        },
+        {
+          "question": "Question: Question: How many people are sitting at the table eating the pizza?",
+          "answers": [
+            "2",
+            "3",
+            "many"
+          ],
+          "score": 0.0012211799621582031
+        },
+        {
+          "question": "what is the gender composition of the group eating the pizza?",
+          "answers": [
+            "all men",
+            "all women",
+            "mixed"
+          ],
+          "score": 0.06015443801879883
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: How many people are sitting at the table eating pizza?",
+          "answers": [
+            "3",
+            "many",
+            "a group"
+          ],
+          "score": 0.005315303802490234
+        },
+        {
+          "question": "Question: What is the pizza topped with?",
+          "answers": [
+            "pepperoni",
+            "cheese",
+            "vegetables"
+          ],
+          "score": 0.0704493522644043
+        },
+        {
+          "question": "Question: What is the gender of the people sitting at the table?",
+          "answers": [
+            "men",
+            "women",
+            "both"
+          ],
+          "score": 0.03454160690307617
+        },
+        {
+          "question": "Question: What is the gender of the people sitting at the table?",
+          "answers": [
+            "men",
+            "women",
+            "both"
+          ],
+          "score": 0.03454160690307617,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: Are the people sitting at the table a group of men and women, or just men?",
+          "answers": [
+            "just men",
+            "just women",
+            "men and women"
+          ],
+          "score": 0.03317880630493164
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "many people sitting at a table eating cheese-topped pizza",
+      "question": "what is the location where the group of people is eating pizza?",
+      "answer": "restaurant",
+      "query_after": "many people sitting at a table in a restaurant eating cheese-topped pizza",
+      "displayed_ids": [
+        37774,
+        17123,
+        44930,
+        15934,
+        30089,
+        35272,
+        13274,
+        31690,
+        3627,
+        29813
+      ],
+      "selected_ids": [
+        15558,
+        33616,
+        48167,
+        49041,
+        22326,
+        49482,
+        21610,
+        45015,
+        2413
+      ],
+      "rejected_count": 13,
+      "usual_paths": [
+        {
+          "question": "what is the number of pizzas on the table?",
+          "answers": [
+            "one",
+            "two",
+            "many"
+          ],
+          "score": 0.0030164718627929688
+        },
+        {
+          "question": "what is the time of day for the group of people eating pizza?",
+          "answers": [
+            "lunch",
+            "dinner",
+            "breakfast"
+          ],
+          "score": 0.008303165435791016
+        },
+        {
+          "question": "what is the number of slices on the pizza?",
+          "answers": [
+            "one",
+            "two",
+            "three"
+          ],
+          "score": 0.0025506019592285156
+        },
+        {
+          "question": "what is the gender of the people sitting at the table eating pizza?",
+          "answers": [
+            "men",
+            "women",
+            "mixed"
+          ],
+          "score": 0.03270101547241211
+        },
+        {
+          "question": "what is the location where the group of people is eating pizza?",
+          "answers": [
+            "restaurant",
+            "home",
+            "office"
+          ],
+          "score": 0.042046546936035156
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the crust of the pizza?",
+          "answers": [
+            "thin",
+            "thick",
+            "deep dish"
+          ],
+          "score": 0.030091285705566406
+        },
+        {
+          "question": "what is the number of slices on the pizza?",
+          "answers": [
+            "1",
+            "2",
+            "3"
+          ],
+          "score": 0.0004534721374511719
+        },
+        {
+          "question": "what is the number of people sitting at the table eating the pizza?",
+          "answers": [
+            "3",
+            "5",
+            "7"
+          ],
+          "score": 0.0003895759582519531
+        },
+        {
+          "question": "what is the type of beverage being consumed by the group of people eating pizza?",
+          "answers": [
+            "soda",
+            "juice",
+            "beer"
+          ],
+          "score": 0.015123367309570312
+        },
+        {
+          "question": "what is the container or plate holding the pizza?",
+          "answers": [
+            "plate",
+            "platter",
+            "bowls"
+          ],
+          "score": 0.013967514038085938
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "many people sitting at a table in a restaurant eating cheese-topped pizza",
+      "question": "what is the gender composition of the group of people eating pizza?",
+      "answer": "all male",
+      "query_after": "a group of all-male people sitting at a table in a restaurant, eating cheese-topped pizza",
+      "displayed_ids": [
+        37774,
+        35272,
+        31690,
+        17123,
+        44930,
+        34639,
+        29813,
+        12951,
+        19405,
+        36135
+      ],
+      "selected_ids": [
+        21688,
+        49482,
+        36135,
+        41809,
+        37667,
+        40352,
+        32597,
+        9718,
+        34639,
+        48167
+      ],
+      "rejected_count": 16,
+      "usual_paths": [
+        {
+          "question": "what is the material of the plate or platter holding the pizza?",
+          "answers": [
+            "metal",
+            "ceramic",
+            "wood"
+          ],
+          "score": 0.045151710510253906
+        },
+        {
+          "question": "what is the gender of the people eating the pizza at the table?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.08129072189331055
+        },
+        {
+          "question": "what is the number of people sitting at the table eating pizza?",
+          "answers": [
+            "2",
+            "4",
+            "6"
+          ],
+          "score": 0.003887653350830078
+        },
+        {
+          "question": "what is the gender of the people eating pizza at the table?",
+          "answers": [
+            "men",
+            "women",
+            "both"
+          ],
+          "score": 0.056543827056884766
+        },
+        {
+          "question": "what is the gender of the people eating pizza at the table?",
+          "answers": [
+            "men",
+            "women",
+            "both"
+          ],
+          "score": 0.056543827056884766,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the material of the plate or platter the pizza is being served on?",
+          "answers": [
+            "metal plate",
+            "pan",
+            "platter"
+          ],
+          "score": 0.01587820053100586
+        },
+        {
+          "question": "what is the gender composition of the group of people eating at the table?",
+          "answers": [
+            "all men",
+            "all women",
+            "mixed"
+          ],
+          "score": 0.08060693740844727
+        },
+        {
+          "question": "what is the number of people sitting at the table eating pizza?",
+          "answers": [
+            "2",
+            "4",
+            "6"
+          ],
+          "score": 0.003887653350830078
+        },
+        {
+          "question": "what is the gender composition of the group of people eating pizza?",
+          "answers": [
+            "all men",
+            "all women",
+            "mixed"
+          ],
+          "score": 0.0872039794921875
+        },
+        {
+          "question": "what is the shape of the pizza being served on the metal platter?",
+          "answers": [
+            "round",
+            "square",
+            "triangular"
+          ],
+          "score": 0.013028144836425781
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a group of all-male people sitting at a table in a restaurant, eating cheese-topped pizza",
+      "question": "Question: Who is taking a picture in front of the pizza?",
+      "answer": "person on right",
+      "query_after": "a group of all-male people sitting at a table in a restaurant eating cheese-topped pizza, with a person on the right taking a picture",
+      "displayed_ids": [
+        44930,
+        37774,
+        30089,
+        32895,
+        5859,
+        35272,
+        11192,
+        48632,
+        17123,
+        22662
+      ],
+      "selected_ids": [
+        22085,
+        7755,
+        14540,
+        46325,
+        27249,
+        49482,
+        2413,
+        29209,
+        36122,
+        34203
+      ],
+      "rejected_count": 21,
+      "usual_paths": [
+        {
+          "question": "what is the specific arrangement of the people sitting at the table eating pizza?",
+          "answers": [
+            "around a round table",
+            "in a semi-circle",
+            "facing each other"
+          ],
+          "score": 0.0069103240966796875
+        },
+        {
+          "question": "Question: How many people are sitting at the table eating pizza?",
+          "answers": [
+            "2",
+            "4",
+            "5"
+          ],
+          "score": 0.008287906646728516
+        },
+        {
+          "question": "Question: Who is taking a picture in front of the pizza?",
+          "answers": [
+            "a man is posing for a picture in front of a pizza",
+            "people sitting around a long table",
+            "a group of men and women sitting at a table with food and beverages"
+          ],
+          "score": 0.06979036331176758
+        },
+        {
+          "question": "what is the gender of the person posing for a picture in front of the pizza?",
+          "answers": [
+            "male",
+            "female"
+          ],
+          "score": 0.05476951599121094
+        },
+        {
+          "question": "Based on the provided information sources, here is the generated question:\n\n**Question:** What is the specific arrangement of the people sitting at the table eating pizza?",
+          "answers": [
+            "sitting in a row",
+            "sitting around a round table",
+            "sitting side by side"
+          ],
+          "score": 0.012942790985107422
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the table where the all-male group is eating the cheese-topped pizza?",
+          "answers": [
+            "wooden",
+            "white",
+            "black"
+          ],
+          "score": 0.023696422576904297
+        },
+        {
+          "question": "what is the color of the table where the all-male group is eating the cheese-topped pizza?",
+          "answers": [
+            "wooden",
+            "white",
+            "black"
+          ],
+          "score": 0.023696422576904297,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the table where the all-male group is eating the cheese-topped pizza?",
+          "answers": [
+            "wooden",
+            "white",
+            "black"
+          ],
+          "score": 0.023696422576904297,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the table where the all-male group is eating the cheese-topped pizza?",
+          "answers": [
+            "wooden",
+            "white",
+            "black"
+          ],
+          "score": 0.023696422576904297,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the table where the all-male group is eating the cheese-topped pizza?",
+          "answers": [
+            "wooden",
+            "white",
+            "black"
+          ],
+          "score": 0.023696422576904297,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a group of all-male people sitting at a table in a restaurant eating cheese-topped pizza, with a person on the right taking a picture",
+      "question": "what color is the jacket worn by the person taking a picture in front of the pizza?",
+      "answer": "black",
+      "query_after": "a group of all-male people sitting at a table eating cheese pizza in a restaurant, with a person in a black jacket taking a picture in front of them",
+      "displayed_ids": [
+        44930,
+        37774,
+        30089,
+        14599,
+        32895,
+        3627,
+        19405,
+        5859,
+        11192,
+        49010
+      ],
+      "selected_ids": [
+        36135,
+        46325,
+        19800,
+        27249,
+        22029,
+        15295,
+        1507,
+        31526,
+        37148,
+        10025
+      ],
+      "rejected_count": 23,
+      "usual_paths": [
+        {
+          "question": "what is the color of the shirt worn by the man eating a slice of pizza?",
+          "answers": [
+            "black",
+            "white",
+            "red"
+          ],
+          "score": 0.054871559143066406
+        },
+        {
+          "question": "what is the color of the shirt worn by the man who is grabbing a slice of pizza?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.048822879791259766
+        },
+        {
+          "question": "what is the gender composition of the group of people sitting at the table with wine glasses in front of them?",
+          "answers": [
+            "all male",
+            "all female",
+            "mixed"
+          ],
+          "score": 0.03184175491333008
+        },
+        {
+          "question": "what is the gender composition of the group of people sitting at the table with wine glasses in front of them?",
+          "answers": [
+            "all male",
+            "all female",
+            "mixed"
+          ],
+          "score": 0.03184175491333008,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the gender composition of the group of people sitting at a table with wine glasses in front of them?",
+          "answers": [
+            "all female",
+            "mixed",
+            "all male"
+          ],
+          "score": 0.03159809112548828
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "beer",
+            "drinks",
+            "chairs"
+          ],
+          "score": 0.02341318130493164
+        },
+        {
+          "question": "Question: What is the person taking a picture in front of the pizza wearing?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.046547889709472656
+        },
+        {
+          "question": "Question: What is the person taking a picture in front of the pizza wearing?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.046547889709472656,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the person taking a picture in front of the pizza wearing?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.046547889709472656,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what color is the jacket worn by the person taking a picture in front of the pizza?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.06641674041748047
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a group of all-male people sitting at a table eating cheese pizza in a restaurant, with a person in a black jacket taking a picture in front of them",
+      "question": "what is the color of the sweater worn by the man eating the pizza?",
+      "answer": "blue",
+      "query_after": "a group of all-male friends sits at a table in a restaurant eating cheese-topped pizza, while a person in a black jacket takes a picture of them, and a man in a blue sweater is eating pizza",
+      "displayed_ids": [
+        32895,
+        37774,
+        14599,
+        30089,
+        3627,
+        19405,
+        44930,
+        49010,
+        34957,
+        31690
+      ],
+      "selected_ids": [
+        17759,
+        15934,
+        24739,
+        39543,
+        32999,
+        7755,
+        35272,
+        46325,
+        14540,
+        26767
+      ],
+      "rejected_count": 24,
+      "usual_paths": [
+        {
+          "question": "what is the color of the jacket worn by the man eating the pizza?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.040131568908691406
+        },
+        {
+          "question": "what color is the sweater worn by the man eating the pizza?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.05107736587524414
+        },
+        {
+          "question": "what color is the sweater worn by the man eating the pizza?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.05107736587524414,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the sweater worn by the man eating the pizza?",
+          "answers": [
+            "blue",
+            "red",
+            "green"
+          ],
+          "score": 0.054195404052734375
+        },
+        {
+          "question": "what is the color of the jacket worn by the man eating the pizza?",
+          "answers": [
+            "black",
+            "red",
+            "blue"
+          ],
+          "score": 0.040131568908691406,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the table where the group of men is eating pizza?",
+          "answers": [
+            "wood",
+            "white",
+            "black"
+          ],
+          "score": 0.019703388214111328
+        },
+        {
+          "question": "what color is the table where the group of people is eating pizza?",
+          "answers": [
+            "wooden",
+            "white",
+            "black"
+          ],
+          "score": 0.027457714080810547
+        },
+        {
+          "question": "what is the color of the table where the group of people is eating pizza?",
+          "answers": [
+            "wooden",
+            "white",
+            "black"
+          ],
+          "score": 0.02306652069091797
+        },
+        {
+          "question": "what is the color of the table where the group of people is eating pizza?",
+          "answers": [
+            "wooden",
+            "white",
+            "black"
+          ],
+          "score": 0.02306652069091797,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the table where the group of men is eating pizza?",
+          "answers": [
+            "wood",
+            "white",
+            "black"
+          ],
+          "score": 0.019703388214111328,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a group of all-male friends sits at a table in a restaurant eating cheese-topped pizza, while a person in a black jacket takes a picture of them, and a man in a blue sweater is eating pizza",
+      "question": "What is the gender of the person taking a picture in front of the pizza?",
+      "answer": "male",
+      "query_after": "a group of all-male friends sits at a table in a restaurant eating cheese pizza, while a man in a black jacket takes a picture of them, with another man in a blue sweater also present",
+      "displayed_ids": [
+        44930,
+        30089,
+        14599,
+        11192,
+        32895,
+        19405,
+        37774,
+        5859,
+        31420,
+        41993
+      ],
+      "selected_ids": [
+        4298,
+        44355,
+        5807,
+        7826,
+        8697,
+        154,
+        3629,
+        7755,
+        35346,
+        31526
+      ],
+      "rejected_count": 26,
+      "usual_paths": [
+        {
+          "question": "What is the color of the table where the group is eating pizza?",
+          "answers": [
+            "white",
+            "wood",
+            "black"
+          ],
+          "score": 0.01301717758178711
+        },
+        {
+          "question": "What is the gender of the person taking a picture in front of the pizza?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.018183231353759766
+        },
+        {
+          "question": "what is the color of the table where the group is eating pizza?",
+          "answers": [
+            "wood",
+            "black",
+            "white"
+          ],
+          "score": 0.01301717758178711
+        },
+        {
+          "question": "what is the color of the table where the group is eating pizza?",
+          "answers": [
+            "wood",
+            "black",
+            "white"
+          ],
+          "score": 0.01301717758178711,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the table where the group is eating pizza?",
+          "answers": [
+            "wood",
+            "black",
+            "white"
+          ],
+          "score": 0.01301717758178711,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the hat worn by the person in the photo?",
+          "answers": [
+            "black",
+            "blue",
+            "white"
+          ],
+          "score": 0.013896942138671875
+        },
+        {
+          "question": "Question: What is the color of the hat worn by the person in the photo?",
+          "answers": [
+            "black",
+            "blue",
+            "brown"
+          ],
+          "score": 0.006260871887207031
+        },
+        {
+          "question": "what is the color of the hat worn by the man in the photo?",
+          "answers": [
+            "black",
+            "blue",
+            "none"
+          ],
+          "score": 0.006466865539550781
+        },
+        {
+          "question": "what color is the hat worn by the man in the photo?",
+          "answers": [
+            "black",
+            "blue",
+            "brown"
+          ],
+          "score": 0.00807332992553711
+        },
+        {
+          "question": "what color is the hat worn by the man in the photo?",
+          "answers": [
+            "black",
+            "blue",
+            "brown"
+          ],
+          "score": 0.00807332992553711,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a group of all-male friends sits at a table in a restaurant eating cheese pizza, while a man in a black jacket takes a picture of them, with another man in a blue sweater also present",
+      "question": "what is the other object in the image?",
+      "answer": "the image shows a group of people sitting at a table with food and drinks, including pizza, a can of beer, and a glass of dark liquid.",
+      "query_after": "a group of all-male friends sits at a table in a restaurant eating pizza topped with cheese, while a man in a black jacket takes a picture of them, with a man in a blue sweater also eating, and a can of beer and a glass of dark liquid on the table",
+      "displayed_ids": [
+        30089,
+        44930,
+        19405,
+        11192,
+        14599,
+        32895,
+        5859,
+        34957,
+        15746,
+        31420
+      ],
+      "selected_ids": [
+        25001,
+        5807,
+        38664,
+        31526,
+        9300,
+        46325,
+        27249,
+        39543,
+        45630,
+        14540
+      ],
+      "rejected_count": 27,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "drinks",
+            "table",
+            "pizza"
+          ],
+          "score": 0.013904094696044922
+        },
+        {
+          "question": "Question: What color is the jacket worn by the person taking a picture in front of the pizza?",
+          "answers": [
+            "black",
+            "blue",
+            "brown"
+          ],
+          "score": 0.008698463439941406
+        },
+        {
+          "question": "what is the location where the group of people is eating pizza?",
+          "answers": [
+            "restaurant",
+            "diner",
+            "cafeteria"
+          ],
+          "score": 0.0064640045166015625
+        },
+        {
+          "question": "what is the object being held by the person taking a picture?",
+          "answers": [
+            "phone",
+            "camera",
+            "black object"
+          ],
+          "score": 0.009396553039550781
+        },
+        {
+          "question": "what is the color of the jacket worn by the person taking a picture in front of the pizza?",
+          "answers": [
+            "black",
+            "blue",
+            "grey"
+          ],
+          "score": 0.010888099670410156
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the hat worn by the person in the black and white photo?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.008185863494873047
+        },
+        {
+          "question": "what is the color of the hat worn by the person in the black and white photo?",
+          "answers": [
+            "black",
+            "white",
+            "brown"
+          ],
+          "score": 0.007052421569824219
+        },
+        {
+          "question": "what is the color of the hat worn by the person in the black and white photo?",
+          "answers": [
+            "black",
+            "white",
+            "brown"
+          ],
+          "score": 0.007052421569824219,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "drinks",
+            "jacket",
+            "phone"
+          ],
+          "score": 0.01400613784790039
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "drinks",
+            "jacket",
+            "phone"
+          ],
+          "score": 0.01400613784790039,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

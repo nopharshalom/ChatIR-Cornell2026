@@ -1,0 +1,145 @@
+{
+  "qid": 653,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000049889.jpg",
+  "queries": [
+    "man working in the dark on a laptop computer",
+    "a man working on a laptop computer in the dark with a camera nearby"
+  ],
+  "ranks": [
+    12,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "man working in the dark on a laptop computer",
+      "question": "what is the other object in the image?",
+      "answer": "camera",
+      "query_after": "a man working on a laptop computer in the dark with a camera nearby",
+      "displayed_ids": [
+        20448,
+        7534,
+        17417,
+        11336,
+        31721,
+        4584,
+        44636,
+        20642,
+        14048,
+        48758
+      ],
+      "selected_ids": [
+        41166,
+        21062,
+        36254,
+        20420,
+        38824,
+        14644,
+        48784,
+        1244,
+        41023,
+        26881
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the man's shirt?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.049642086029052734
+        },
+        {
+          "question": "Question: What is the surface the man is sitting at while working on the laptop?",
+          "answers": [
+            "wooden table",
+            "desk",
+            "bed"
+          ],
+          "score": 0.03782320022583008
+        },
+        {
+          "question": "What is the location where the man is working on the laptop?",
+          "answers": [
+            "bed",
+            "kitchen",
+            "outdoors"
+          ],
+          "score": 0.08856058120727539
+        },
+        {
+          "question": "what is the surface the man is sitting at while working on the laptop?",
+          "answers": [
+            "wooden table",
+            "desk",
+            "bed"
+          ],
+          "score": 0.05152463912963867
+        },
+        {
+          "question": "what is the man wearing on his head while working on the laptop?",
+          "answers": [
+            "hat",
+            "no hat",
+            "glasses"
+          ],
+          "score": 0.02871847152709961
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the man's shirt?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.033847808837890625
+        },
+        {
+          "question": "What is the man doing while working on the laptop in the dark?",
+          "answers": [
+            "sitting",
+            "standing",
+            "kneeling"
+          ],
+          "score": 0.04385662078857422
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "laptop stands",
+            "cat",
+            "bed"
+          ],
+          "score": 0.14064502716064453
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "laptop stands",
+            "cat",
+            "bed"
+          ],
+          "score": 0.14064502716064453,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "laptop stands",
+            "cat",
+            "bed"
+          ],
+          "score": 0.14064502716064453,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

@@ -1,0 +1,181 @@
+{
+  "qid": 1871,
+  "initial": "a man driving a horse drawn carriage down a road",
+  "initial_rank": 16,
+  "displayed": [
+    25579,
+    27351,
+    24373,
+    20041,
+    583,
+    24804,
+    21954,
+    39749,
+    42753,
+    48683
+  ],
+  "evidence": [
+    "an old photograph of horses and carts outside of a building",
+    "the horses are dressed up",
+    "a group of people and a group of horses outside a store",
+    "the person is riding a white horse",
+    "a police officer riding on a horse in a city",
+    "a city street with bicycles and motorcycles on the street",
+    "a group of people standing by horses",
+    "an antique style bus that is carrying people",
+    "a man riding a motorcycle on a busy street",
+    "a busy street with bikes, motorcycles, and other vehicles"
+  ],
+  "rejected_captions": [
+    "a man in a brown hat sits in a horse drawn carriage",
+    "a horse pulls a cart down a rural street",
+    "a brown and white horse with its carriage",
+    "two black horses pulling a carriage down the street",
+    "the people are riding a horse drawn carriage",
+    "two black horses sitting in a carriage",
+    "a horse drawn carriage traveling down a street",
+    "a horse pulling a carriage",
+    "a man riding a horse pull cart down a street",
+    "horse pulling a cart down the road"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the appearance of the man driving the horse drawn carriage?",
+      "what is the other object in the image?",
+      "what is the other object in the image?",
+      "what is the location of the man driving the horse drawn carriage?",
+      "what is the location of the man driving the horse drawn carriage?"
+    ],
+    "question": "what is the location of the man driving the horse drawn carriage?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the appearance of the man driving the horse drawn carriage?",
+          "answers": [
+            "young",
+            "old",
+            "in uniform"
+          ],
+          "score": 0.038683414459228516
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "horses",
+            "a carriage",
+            "a road"
+          ],
+          "score": 0.030282974243164062
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "horses",
+            "a carriage",
+            "a road"
+          ],
+          "score": 0.030282974243164062,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the location of the man driving the horse drawn carriage?",
+          "answers": [
+            "a city street",
+            "a store",
+            "outside a building"
+          ],
+          "score": 0.05826139450073242
+        },
+        {
+          "question": "what is the location of the man driving the horse drawn carriage?",
+          "answers": [
+            "a city street",
+            "a store",
+            "outside a building"
+          ],
+          "score": 0.05826139450073242,
+          "duplicate_of": 3
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.144,
+      "probe_selection_seconds": 1.537,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "on carriage",
+    "rewrite": "a man driving a horse drawn carriage on the carriage",
+    "raw_rank": 10,
+    "unseen_rank": 6
+  },
+  "rejected": {
+    "candidates": [
+      "Question: what color is the horse in the image?",
+      "Question: What color is the man driving the horse drawn carriage?",
+      "what is the other object in the image?",
+      "what is the other object in the image?",
+      "what is the other object in the image?"
+    ],
+    "question": "what is the other object in the image?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: what color is the horse in the image?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.02778339385986328
+        },
+        {
+          "question": "Question: What color is the man driving the horse drawn carriage?",
+          "answers": [
+            "black",
+            "white",
+            "brown"
+          ],
+          "score": 0.02548837661743164
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "horses",
+            "carts",
+            "road"
+          ],
+          "score": 0.031115055084228516
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "horses",
+            "carts",
+            "road"
+          ],
+          "score": 0.031115055084228516,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "horses",
+            "carts",
+            "road"
+          ],
+          "score": 0.031115055084228516,
+          "duplicate_of": 2
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.064,
+      "probe_selection_seconds": 1.373,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "horse",
+    "rewrite": "a man driving a horse-drawn carriage down a road",
+    "raw_rank": 16,
+    "unseen_rank": 6
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "chosen": "Question: what is the color of the steam engine?",
+  "default": "what is the other object in the image?",
+  "ids": [
+    29749,
+    5399,
+    28231,
+    28328
+  ],
+  "trials": {
+    "what is the other object in the image?": {
+      "answers": [
+        "train",
+        "trees",
+        "the other object is a train.",
+        "building"
+      ],
+      "rewrites": {
+        "train": "a black train on the tracks going through a grass area",
+        "trees": "a black train on the tracks going through a grass area with trees in the background",
+        "the other object is a train.": "a black train on the tracks going through a grass area",
+        "building": "a black train on the tracks going through a grass area with a building in the background"
+      },
+      "ranks": [
+        12,
+        12,
+        34,
+        16
+      ],
+      "hits": 0
+    },
+    "Question: what is the color of the steam engine?": {
+      "answers": [
+        "black",
+        "black",
+        "yellow",
+        "black"
+      ],
+      "rewrites": {
+        "black": "a black steam engine train on the tracks going through a grass area",
+        "yellow": "a yellow steam engine train on the tracks going through a grass area"
+      },
+      "ranks": [
+        33,
+        15,
+        8,
+        27
+      ],
+      "hits": 1
+    },
+    "Question: Is the train an old-fashioned model or a modern one?": {
+      "answers": [
+        "modern one",
+        "old-fashioned model",
+        "old-fashioned model",
+        "old-fashioned model"
+      ],
+      "rewrites": {
+        "modern one": "a modern black train on the tracks going through a grass area",
+        "old-fashioned model": "an old-fashioned black train on the tracks going through a grassy area"
+      },
+      "ranks": [
+        15,
+        8,
+        48,
+        37
+      ],
+      "hits": 1
+    },
+    "what is the color of the train's wheels?": {
+      "answers": [
+        "black",
+        "black",
+        "black",
+        "black"
+      ],
+      "rewrites": {
+        "black": "a black train with black wheels on the tracks going through a grass area"
+      },
+      "ranks": [
+        11,
+        17,
+        57,
+        52
+      ],
+      "hits": 0
+    },
+    "what is the color of the smoke coming from the train's chimney?": {
+      "answers": [
+        "there's no smoke visible.",
+        "white",
+        "there is no smoke visible.",
+        "white"
+      ],
+      "rewrites": {
+        "there's no smoke visible.": "a black train on the tracks going through a grass area with no visible smoke coming from its chimney",
+        "white": "a black train on the tracks going through a grass area with white smoke coming from its chimney",
+        "there is no smoke visible.": "a black train on the tracks going through a grass area with no visible smoke coming from its chimney"
+      },
+      "ranks": [
+        33,
+        17,
+        34,
+        45
+      ],
+      "hits": 0
+    }
+  }
+}

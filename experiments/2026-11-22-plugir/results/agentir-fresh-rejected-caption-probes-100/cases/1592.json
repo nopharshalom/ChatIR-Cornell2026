@@ -1,0 +1,177 @@
+{
+  "qid": 1592,
+  "initial": "a person plays tennis on a tennis court with other people",
+  "initial_rank": 95,
+  "displayed": [
+    1005,
+    20830,
+    37489,
+    4593,
+    1070,
+    7005,
+    13159,
+    15815,
+    33329,
+    43376
+  ],
+  "evidence": [
+    "a man with a racquet playing tennis in a stadium",
+    "two women on a tennis court holding a racket",
+    "woman wearing white dress on tennis court",
+    "a man is playing tennis in front of a crowd of spectators",
+    "two girls in a red and white skirt",
+    "three men on tennis court",
+    "a tennis player is standing in a green and blue tennis court with an audience in the stands",
+    "a young girl is holding her tennis racket and swinging it",
+    "blue tennis court with spectators",
+    "a girl in a red shirt is on a tennis court"
+  ],
+  "rejected_captions": [
+    "a man playing tennis on a tennis court",
+    "two people holding tennis racquets on a tennis court",
+    "the tennis court is on an urban street",
+    "two people hitting the ball",
+    "a man preparing to serve the ball to a woman",
+    "a tennis player hits a ball with a racket",
+    "black and white tennis court",
+    "a young boy standing in the tennis court with a racquet",
+    "the tennis player is on a court",
+    "a group of people on a tennis court"
+  ],
+  "usual": {
+    "candidates": [
+      "Question: How many people are playing tennis on the court in the image?",
+      "Question: What is the gender of the person playing tennis on the court?",
+      "what is the color of the shirt worn by the person playing tennis on the court?",
+      "what is the color of the court where the person is playing tennis?",
+      "what is the gender of the people accompanying the person playing tennis?"
+    ],
+    "question": "what is the color of the shirt worn by the person playing tennis on the court?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: How many people are playing tennis on the court in the image?",
+          "answers": [
+            "one",
+            "two",
+            "three"
+          ],
+          "score": 0.014729976654052734
+        },
+        {
+          "question": "Question: What is the gender of the person playing tennis on the court?",
+          "answers": [
+            "male",
+            "female",
+            "two people"
+          ],
+          "score": 0.07471227645874023
+        },
+        {
+          "question": "what is the color of the shirt worn by the person playing tennis on the court?",
+          "answers": [
+            "white",
+            "red",
+            "blue"
+          ],
+          "score": 0.21251916885375977
+        },
+        {
+          "question": "what is the color of the court where the person is playing tennis?",
+          "answers": [
+            "green",
+            "blue",
+            "red"
+          ],
+          "score": 0.11873102188110352
+        },
+        {
+          "question": "what is the gender of the people accompanying the person playing tennis?",
+          "answers": [
+            "male",
+            "female",
+            "both"
+          ],
+          "score": 0.04637002944946289
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.096,
+      "probe_selection_seconds": 2.257,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "black",
+    "rewrite": "a person in a black shirt plays tennis on a tennis court with other people",
+    "raw_rank": 165,
+    "unseen_rank": 156
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What color is the tennis court?",
+      "Question: What is the gender of the person playing tennis?",
+      "Question: What is the color of the shirt worn by the person playing tennis?",
+      "Question: How many people are playing tennis on the court?",
+      "Question: Question: What is the gender of the person playing tennis?"
+    ],
+    "question": "Question: What is the color of the shirt worn by the person playing tennis?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What color is the tennis court?",
+          "answers": [
+            "green",
+            "blue",
+            "red"
+          ],
+          "score": 0.09975147247314453
+        },
+        {
+          "question": "Question: What is the gender of the person playing tennis?",
+          "answers": [
+            "male",
+            "female",
+            "boy"
+          ],
+          "score": 0.07448005676269531
+        },
+        {
+          "question": "Question: What is the color of the shirt worn by the person playing tennis?",
+          "answers": [
+            "white",
+            "red",
+            "blue"
+          ],
+          "score": 0.2652578353881836
+        },
+        {
+          "question": "Question: How many people are playing tennis on the court?",
+          "answers": [
+            "one",
+            "two",
+            "three"
+          ],
+          "score": 0.002716541290283203
+        },
+        {
+          "question": "Question: Question: What is the gender of the person playing tennis?",
+          "answers": [
+            "male",
+            "female",
+            "non-binary"
+          ],
+          "score": 0.053658485412597656
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.081,
+      "probe_selection_seconds": 2.238,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "Black.",
+    "rewrite": "a person in a black shirt plays tennis on a tennis court with other people",
+    "raw_rank": 165,
+    "unseen_rank": 156
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "qid": 1663,
+  "sample": 1,
+  "first_candidates": [
+    "What is the background of the multiple signs at the intersection?",
+    "Question: What color are the street signs at the intersection?",
+    "Question: What is the object located next to the multiple signs at the intersection?",
+    "what is the color of the street signs at the intersection?",
+    "what is the location of the multiple signs at the intersection?"
+  ],
+  "second_candidates": [
+    "Question: What is the color of the street sign mentioned in the description?",
+    "Question: What is the color of the street sign mentioned in the description?",
+    "Question: Which specific sign is visible in the image: a stop sign, a green street sign, or a traffic light?",
+    "Question: What is the color of the street sign mentioned in the description?",
+    "Question: Question: What is the color of the street sign mentioned in the description?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What is the color of the street sign mentioned in the description?",
+      "answers": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "score": 0.1144094467163086
+    },
+    {
+      "question": "Question: What is the color of the street sign mentioned in the description?",
+      "answers": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "score": 0.1144094467163086,
+      "duplicate_of": 0
+    },
+    {
+      "question": "Question: Which specific sign is visible in the image: a stop sign, a green street sign, or a traffic light?",
+      "answers": [
+        "a stop sign",
+        "a green street sign",
+        "a traffic light"
+      ],
+      "score": 0.02152395248413086
+    },
+    {
+      "question": "Question: What is the color of the street sign mentioned in the description?",
+      "answers": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "score": 0.1144094467163086,
+      "duplicate_of": 0
+    },
+    {
+      "question": "Question: Question: What is the color of the street sign mentioned in the description?",
+      "answers": [
+        "green",
+        "blue",
+        "unclear"
+      ],
+      "score": 0.08566808700561523
+    }
+  ],
+  "control": {
+    "question": "what is the location of the multiple signs at the intersection?",
+    "score": 0.1344738006591797
+  },
+  "mixed": {
+    "question": "what color are the street signs at the intersection?",
+    "score": 0.17606353759765625
+  },
+  "control_rank": 79,
+  "mixed_rank": 177,
+  "usual_rank": 79,
+  "new_answer": null,
+  "new_rewrite": null
+}

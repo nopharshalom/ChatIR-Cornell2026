@@ -1,0 +1,79 @@
+{
+  "qid": 1489,
+  "sample": 1,
+  "first_candidates": [
+    "what color are the numerals on the clock tower?",
+    "Question: What is the location where the blue clock is sitting?",
+    "what is the object sitting on the ledge next to the blue clock?",
+    "Question: What is the color of the clock tower in the image?",
+    "what is the object sitting next to the blue clock on the ledge?"
+  ],
+  "second_candidates": [
+    "What color is the clock tower located on the building against the sky?",
+    "Question: What color is the clock that is sitting on a ledge?",
+    "what is the color of the clock sitting on the ledge?",
+    "what is the color of the clock that is sitting on the ledge?",
+    "what is the color of the clock that is sitting on the ledge?"
+  ],
+  "paths": [
+    {
+      "question": "What color is the clock tower located on the building against the sky?",
+      "answers": [
+        "blue",
+        "black",
+        "red"
+      ],
+      "score": 0.0599064826965332
+    },
+    {
+      "question": "Question: What color is the clock that is sitting on a ledge?",
+      "answers": [
+        "blue",
+        "green",
+        "black"
+      ],
+      "score": 0.030385971069335938
+    },
+    {
+      "question": "what is the color of the clock sitting on the ledge?",
+      "answers": [
+        "blue",
+        "black",
+        "gold"
+      ],
+      "score": 0.05735301971435547
+    },
+    {
+      "question": "what is the color of the clock that is sitting on the ledge?",
+      "answers": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "score": 0.05670166015625
+    },
+    {
+      "question": "what is the color of the clock that is sitting on the ledge?",
+      "answers": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "score": 0.05670166015625,
+      "duplicate_of": 3
+    }
+  ],
+  "control": {
+    "question": "what is the object sitting on the ledge next to the blue clock?",
+    "score": 0.09601449966430664
+  },
+  "mixed": {
+    "question": "what is the other object in the image?",
+    "score": 0.1151270866394043
+  },
+  "control_rank": 23,
+  "mixed_rank": 4,
+  "usual_rank": 23,
+  "new_answer": null,
+  "new_rewrite": null
+}

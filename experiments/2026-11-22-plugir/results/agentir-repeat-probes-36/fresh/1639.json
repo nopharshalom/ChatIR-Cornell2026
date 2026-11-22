@@ -1,0 +1,60 @@
+{
+  "qid": 1639,
+  "arm": "fresh",
+  "after_round": 5,
+  "ranks": [
+    62,
+    614,
+    110,
+    120,
+    485,
+    67,
+    75,
+    661,
+    710,
+    789,
+    517
+  ],
+  "continuation": [
+    {
+      "round": 6,
+      "query_before": "a woman with short, dark hair wearing a black tank top stands at a counter in front of a window, holding a laptop, with another laptop visible nearby",
+      "question": "Is the person standing at the counter holding a laptop or a pen?",
+      "answer": "pen",
+      "query_after": "a woman with short, dark hair wearing a black tank top stands at a counter in front of a window, holding a pen instead of a laptop, with another laptop visible nearby",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Is the person standing at the counter holding a laptop or a pen?",
+      "fallback": false
+    },
+    {
+      "round": 7,
+      "query_before": "a woman with short, dark hair wearing a black tank top stands at a counter in front of a window, holding a pen instead of a laptop, with another laptop visible nearby",
+      "question": "what is the location of the counter where the woman is standing?",
+      "answer": "behind the table",
+      "query_after": "a woman with short, dark hair wearing a black tank top stands behind a counter, holding a pen, with a laptop visible nearby"
+    },
+    {
+      "round": 8,
+      "query_before": "a woman with short, dark hair wearing a black tank top stands behind a counter, holding a pen, with a laptop visible nearby",
+      "question": "what is the other object in the image?",
+      "answer": "laptop",
+      "query_after": "a woman with short, dark hair wearing a black tank top stands behind a counter holding a pen, with a laptop visible nearby"
+    },
+    {
+      "round": 9,
+      "query_before": "a woman with short, dark hair wearing a black tank top stands behind a counter holding a pen, with a laptop visible nearby",
+      "question": "what is the location of the counter where the person is standing?",
+      "answer": "back",
+      "query_after": "a woman with short, dark hair wearing a black tank top stands behind a counter, holding a pen, with a laptop visible on the counter surface"
+    },
+    {
+      "round": 10,
+      "query_before": "a woman with short, dark hair wearing a black tank top stands behind a counter, holding a pen, with a laptop visible on the counter surface",
+      "question": "what is the other object in the image?",
+      "answer": "laptop",
+      "query_after": "a woman with short, dark hair wearing a black tank top stands behind a counter at the back of a room, holding a pen while looking down, with a laptop visible on the counter"
+    }
+  ],
+  "seconds": 61.3
+}

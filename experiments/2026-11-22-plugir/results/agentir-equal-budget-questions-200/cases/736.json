@@ -1,0 +1,81 @@
+{
+  "qid": 736,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the double decker bus traveling at the traffic light?",
+    "what is the color of the lot in front of the hotel where people are mingling?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "What is the name of the hotel where people are mingling?"
+  ],
+  "second_candidates": [
+    "what is the color of the double decker bus traveling at the traffic light?",
+    "what is the color of the lot where the people are mingling about in front of the hotel?",
+    "what is the color of the lot where the people are mingling about in front of the hotel?",
+    "what is the color of the lot where the people are mingling about in front of the hotel?",
+    "what is the color of the lot where the people are mingling about in front of the hotel?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the double decker bus traveling at the traffic light?",
+      "answers": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "score": 0.07850265502929688
+    },
+    {
+      "question": "what is the color of the lot where the people are mingling about in front of the hotel?",
+      "answers": [
+        "gray",
+        "white",
+        "concrete"
+      ],
+      "score": 0.02519083023071289
+    },
+    {
+      "question": "what is the color of the lot where the people are mingling about in front of the hotel?",
+      "answers": [
+        "gray",
+        "white",
+        "concrete"
+      ],
+      "score": 0.02519083023071289,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the color of the lot where the people are mingling about in front of the hotel?",
+      "answers": [
+        "gray",
+        "white",
+        "concrete"
+      ],
+      "score": 0.02519083023071289,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the color of the lot where the people are mingling about in front of the hotel?",
+      "answers": [
+        "gray",
+        "white",
+        "concrete"
+      ],
+      "score": 0.02519083023071289,
+      "duplicate_of": 1
+    }
+  ],
+  "control": {
+    "question": "what is the color of the lot in front of the hotel where people are mingling?",
+    "score": 0.07871437072753906
+  },
+  "mixed": {
+    "question": "what color are the awnings on the street where people are standing?",
+    "score": 0.08052873611450195
+  },
+  "control_rank": 26,
+  "mixed_rank": 159,
+  "usual_rank": 26,
+  "new_answer": null,
+  "new_rewrite": null
+}

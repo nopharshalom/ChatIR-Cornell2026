@@ -1,0 +1,71 @@
+{
+  "qid": 882,
+  "initial": "a man is sitting on a bench by the water",
+  "initial_rank": 18,
+  "evidence": [
+    "man in black wetsuit surfing in waves",
+    "an empty path behind a bench",
+    "a person is skating on a board in the middle of a river",
+    "person in the water holding up an umbrella",
+    "a wooden bench near a beach with the water to one side",
+    "a white boat docked in the water",
+    "people are flying kites over the water",
+    "people sitting down on the benches on a street",
+    "a man sitting on a decorated bench in a city",
+    "the water has a few boats in it"
+  ],
+  "displayed_ids": [
+    29850,
+    24433,
+    40307,
+    38141,
+    34870,
+    27356,
+    25488,
+    14544,
+    35875,
+    35587
+  ],
+  "rejected_captions": [
+    "person sitting in park on a bench",
+    "the man is sitting on a wooden bench near the water",
+    "a man is sitting on a bench in front of a lake",
+    "a person sitting on a bench next to a lake",
+    "man sitting on a wooden bench",
+    "the benches are on top of a tree",
+    "an older man on a bench is waving to the camera",
+    "a person sitting on a bench by a body of water",
+    "large area of water",
+    "a man sitting on a bench in the middle of the water"
+  ],
+  "candidates": [
+    "Question: What color is the man's clothing?",
+    "Question: Is the man wearing a wetsuit?",
+    "Question: Is the man sitting on a decorated bench?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "control_candidates": [
+    "Question: What is the man sitting on the bench by the water wearing?",
+    "Question: What is the man sitting on the bench by the water holding?",
+    "what is the color of the bench where the man is sitting by the water?",
+    "what is the man sitting on the bench by the water holding?",
+    "what is the location of the bench where the man is sitting by the water?"
+  ],
+  "control": {
+    "question": "what is the man sitting on the bench by the water holding?",
+    "answer": "a phone.",
+    "rewrite": "a man is sitting on a bench by the water holding a phone",
+    "rank": 1,
+    "hit": true,
+    "raw_rank": 1,
+    "unseen_rank": 1
+  },
+  "variant": {
+    "question": "what is the other object in the image?",
+    "answer": "boat",
+    "rewrite": "a man is sitting on a bench by the water with a boat",
+    "raw_rank": 8,
+    "unseen_rank": 5
+  }
+}

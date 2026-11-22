@@ -1,0 +1,39 @@
+{
+  "qid": 234,
+  "arm": "fresh",
+  "after_round": 8,
+  "ranks": [
+    268,
+    355,
+    71,
+    74,
+    98,
+    54,
+    64,
+    27,
+    31,
+    39,
+    14
+  ],
+  "continuation": [
+    {
+      "round": 9,
+      "query_before": "a brown giraffe stands in the bottom right of the image, looking at an unclear object, positioned above green weeds with a chain link fence behind it",
+      "question": "Is the giraffe standing on the ground or hanging from a branch?",
+      "answer": "standing on the ground",
+      "query_after": "a brown giraffe stands on the ground in the bottom right, looking at something unsure, above green weeds, with a chain link fence behind it",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Is the giraffe standing on the ground or hanging from a branch?",
+      "fallback": false
+    },
+    {
+      "round": 10,
+      "query_before": "a brown giraffe stands on the ground in the bottom right, looking at something unsure, above green weeds, with a chain link fence behind it",
+      "question": "what is the other object in the image?",
+      "answer": "fence",
+      "query_after": "a brown giraffe stands on the ground in the bottom right, looking at an unclear object, with green weeds beneath it and a chain link fence in the background"
+    }
+  ],
+  "seconds": 21.9
+}

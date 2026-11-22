@@ -1,0 +1,78 @@
+{
+  "qid": 1439,
+  "sample": 1,
+  "first_candidates": [
+    "Question: Are there people riding motorcycles in the image, or is a motorcycle parked next to a bike?",
+    "Question: What is the color of the motorcycle parked next to the bike?",
+    "what is the color of the people riding the motorcycles?",
+    "what is the location where the motorcycles are parked?",
+    "what is the specific arrangement or formation of the motorcycles in the image?"
+  ],
+  "second_candidates": [
+    "what color is the motorcycle parked next to the red classic car?",
+    "Question: What is the color of the motorcycle parked next to the bike?",
+    "Question: Where are the motorcycles parked in the image?",
+    "Question: How many people are riding the motorcycles in the image?",
+    "Question: What objects are parked next to the red motorcycle?"
+  ],
+  "paths": [
+    {
+      "question": "what color is the motorcycle parked next to the red classic car?",
+      "answers": [
+        "black",
+        "chrome",
+        "red"
+      ],
+      "score": 0.013041019439697266
+    },
+    {
+      "question": "Question: What is the color of the motorcycle parked next to the bike?",
+      "answers": [
+        "red",
+        "black",
+        "white"
+      ],
+      "score": 0.05847454071044922
+    },
+    {
+      "question": "Question: Where are the motorcycles parked in the image?",
+      "answers": [
+        "city street",
+        "parking lot",
+        "sidewalk"
+      ],
+      "score": 0.06162071228027344
+    },
+    {
+      "question": "Question: How many people are riding the motorcycles in the image?",
+      "answers": [
+        "0",
+        "2",
+        "3"
+      ],
+      "score": 0.0006041526794433594
+    },
+    {
+      "question": "Question: What objects are parked next to the red motorcycle?",
+      "answers": [
+        "a white bike",
+        "a skeleton",
+        "a red classic car"
+      ],
+      "score": 0.052707672119140625
+    }
+  ],
+  "control": {
+    "question": "what is the color of the people riding the motorcycles?",
+    "score": 0.07147550582885742
+  },
+  "mixed": {
+    "question": "Question: What color is the motorcycle that is parked next to a car in the image?",
+    "score": 0.19035768508911133
+  },
+  "control_rank": 29,
+  "mixed_rank": 3,
+  "usual_rank": 29,
+  "new_answer": null,
+  "new_rewrite": null
+}

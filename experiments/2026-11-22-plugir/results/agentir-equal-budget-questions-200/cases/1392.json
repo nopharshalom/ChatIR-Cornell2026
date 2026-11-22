@@ -1,0 +1,80 @@
+{
+  "qid": 1392,
+  "sample": 1,
+  "first_candidates": [
+    "what is the outfit of the man standing on the snow next to his snowboard?",
+    "what is the color of the snowboard the man is standing next to?",
+    "what is the color of the snowboard the man is standing next to?",
+    "what is the color of the man's clothing?",
+    "what is the color of the snowboard the man is standing next to?"
+  ],
+  "second_candidates": [
+    "Question: What color is the snowboard the man is standing next to?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "Question: Is the man in the image wearing winter clothing or swimwear?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What color is the snowboard the man is standing next to?",
+      "answers": [
+        "white",
+        "blue",
+        "black"
+      ],
+      "score": 0.022359371185302734
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "snow",
+        "snowboard",
+        "man"
+      ],
+      "score": 0.005221366882324219
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "snow",
+        "snowboard",
+        "man"
+      ],
+      "score": 0.005221366882324219,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "snow",
+        "snowboard",
+        "man"
+      ],
+      "score": 0.005221366882324219,
+      "duplicate_of": 1
+    },
+    {
+      "question": "Question: Is the man in the image wearing winter clothing or swimwear?",
+      "answers": [
+        "winter clothing",
+        "swimwear",
+        "neither"
+      ],
+      "score": 0.010240554809570312
+    }
+  ],
+  "control": {
+    "question": "what is the color of the man's clothing?",
+    "score": 0.13017702102661133
+  },
+  "mixed": {
+    "question": "what is the color of the man's clothing?",
+    "score": 0.13017702102661133
+  },
+  "control_rank": 6,
+  "mixed_rank": 6,
+  "usual_rank": 6,
+  "new_answer": null,
+  "new_rewrite": null
+}

@@ -1,0 +1,178 @@
+{
+  "qid": 1064,
+  "initial": "the male jockey jumped over the pole with his fast horse",
+  "initial_rank": 14,
+  "displayed": [
+    9193,
+    10820,
+    48655,
+    34808,
+    45814,
+    6472,
+    15982,
+    41079,
+    1526,
+    40717
+  ],
+  "evidence": [
+    "people on horseback are riding down a race track",
+    "a woman on horseback",
+    "a skier does a trick in the air while looking at the sky",
+    "two cowboys on horses with cows in the ring",
+    "a large white and red jet taking off on the runway",
+    "horse being ridden by man",
+    "a young girl is riding a horse on a sidewalk",
+    "a surfer doing a jump on the wave",
+    "tennis player jumping high as he hits a ball",
+    "the girl on a horse is standing still"
+  ],
+  "rejected_captions": [
+    "the horse has brown fur",
+    "a rider jumping over an obstacle on a grey horse",
+    "a brown horse jumps over a barrier",
+    "a horse is jumping over an obstacle",
+    "a horse jumps over a wooden rail",
+    "a gray horse with white stripe",
+    "the rider is on a horse",
+    "the horses are jumping over an obstacle",
+    "a woman on horseback",
+    "a person riding a horse over a fence"
+  ],
+  "usual": {
+    "candidates": [
+      "Question: What color is the horse being ridden by the male jockey?",
+      "what is the other object in the image?",
+      "what is the location where the male jockey is jumping over the pole?",
+      "Based on the provided information sources, here is the generated question and the explanation of how it was derived.\n\n**Generated Question:**\n\"What color is the pole?",
+      "**Generated Question:**\nWhat is the gender of the person riding the horse?"
+    ],
+    "question": "what is the location where the male jockey is jumping over the pole?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What color is the horse being ridden by the male jockey?",
+          "answers": [
+            "black",
+            "bay",
+            "chestnut"
+          ],
+          "score": 0.016372203826904297
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "race track",
+            "jockey",
+            "horse"
+          ],
+          "score": 0.01564502716064453
+        },
+        {
+          "question": "what is the location where the male jockey is jumping over the pole?",
+          "answers": [
+            "horse racing track",
+            "jumping arena",
+            "obstacle course"
+          ],
+          "score": 0.02215862274169922
+        },
+        {
+          "question": "Based on the provided information sources, here is the generated question and the explanation of how it was derived.\n\n**Generated Question:**\n\"What color is the pole?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.01689291000366211
+        },
+        {
+          "question": "**Generated Question:**\nWhat is the gender of the person riding the horse?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.010487556457519531
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.072,
+      "probe_selection_seconds": 2.378,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "field",
+    "rewrite": "a male jockey on a fast horse jumping over a pole in a field",
+    "raw_rank": 5,
+    "unseen_rank": 3
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What color is the horse?",
+      "Question: What color is the horse?",
+      "Question: What is the rider wearing on their head?",
+      "Question: What action is the rider performing in relation to the obstacle?",
+      "Question: What is the color of the horse's fur?"
+    ],
+    "question": "Question: What color is the horse?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What color is the horse?",
+          "answers": [
+            "black",
+            "bay",
+            "chestnut"
+          ],
+          "score": 0.02523517608642578
+        },
+        {
+          "question": "Question: What color is the horse?",
+          "answers": [
+            "black",
+            "bay",
+            "chestnut"
+          ],
+          "score": 0.02523517608642578,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the rider wearing on their head?",
+          "answers": [
+            "Helmet",
+            "Cap",
+            "None"
+          ],
+          "score": 0.004315853118896484
+        },
+        {
+          "question": "Question: What action is the rider performing in relation to the obstacle?",
+          "answers": [
+            "jumping",
+            "jumped",
+            "jump"
+          ],
+          "score": 0.00035190582275390625
+        },
+        {
+          "question": "Question: What is the color of the horse's fur?",
+          "answers": [
+            "black",
+            "brown",
+            "bay"
+          ],
+          "score": 0.01898050308227539
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.151,
+      "probe_selection_seconds": 1.843,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "brown",
+    "rewrite": "a brown horse with a male jockey jumping over a pole",
+    "raw_rank": 7,
+    "unseen_rank": 3
+  }
+}

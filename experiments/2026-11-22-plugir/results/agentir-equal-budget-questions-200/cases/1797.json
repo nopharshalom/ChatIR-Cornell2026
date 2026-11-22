@@ -1,0 +1,79 @@
+{
+  "qid": 1797,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the bird?",
+    "Question: where are the birds eating from the metal bird feeder?",
+    "what is the color of the bird feeder?",
+    "what is the color of the bird feeder?",
+    "what is the location where the birds are eating from the metal bird feeder?"
+  ],
+  "second_candidates": [
+    "what color is the bird eating from the metal bird feeder?",
+    "what is the color of the bird eating from the metal bird feeder?",
+    "What type of birds are eating from the metal bird feeder?",
+    "What type of birds are eating from the metal bird feeder?",
+    "What species of birds are eating from the metal bird feeder?"
+  ],
+  "paths": [
+    {
+      "question": "what color is the bird eating from the metal bird feeder?",
+      "answers": [
+        "red",
+        "blue",
+        "black"
+      ],
+      "score": 0.06744098663330078
+    },
+    {
+      "question": "what is the color of the bird eating from the metal bird feeder?",
+      "answers": [
+        "red",
+        "blue",
+        "red and blue"
+      ],
+      "score": 0.06360960006713867
+    },
+    {
+      "question": "What type of birds are eating from the metal bird feeder?",
+      "answers": [
+        "red and blue bird",
+        "three sheep",
+        "two people sitting on a bench"
+      ],
+      "score": 0.23982667922973633
+    },
+    {
+      "question": "What type of birds are eating from the metal bird feeder?",
+      "answers": [
+        "red and blue bird",
+        "three sheep",
+        "two people sitting on a bench"
+      ],
+      "score": 0.23982667922973633,
+      "duplicate_of": 2
+    },
+    {
+      "question": "What species of birds are eating from the metal bird feeder?",
+      "answers": [
+        "finches",
+        "sparrows",
+        "cardinals"
+      ],
+      "score": 0.0318598747253418
+    }
+  ],
+  "control": {
+    "question": "What type of birds are eating from the metal bird feeder?",
+    "score": 0.23982667922973633
+  },
+  "mixed": {
+    "question": "Question: What is the color of the bird?",
+    "score": 0.13533401489257812
+  },
+  "control_rank": 26,
+  "mixed_rank": 39,
+  "usual_rank": 39,
+  "new_answer": "finches",
+  "new_rewrite": "finches eating from a metal bird feeder"
+}

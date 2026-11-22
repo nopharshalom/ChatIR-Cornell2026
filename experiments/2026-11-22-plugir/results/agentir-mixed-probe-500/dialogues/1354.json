@@ -1,0 +1,144 @@
+{
+  "qid": 1354,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000012310.jpg",
+  "queries": [
+    "a couple playing a tennis match on a nice day",
+    "a couple playing a tennis match on a nice day, with one person wearing a white shirt"
+  ],
+  "ranks": [
+    22,
+    8
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a couple playing a tennis match on a nice day",
+      "question": "Question: What color is the shirt worn by the person playing tennis?",
+      "answer": "white",
+      "query_after": "a couple playing a tennis match on a nice day, with one person wearing a white shirt",
+      "displayed_ids": [
+        25338,
+        41592,
+        23653,
+        26649,
+        30989,
+        9407,
+        13676,
+        23534,
+        14652,
+        23716
+      ],
+      "selected_ids": [
+        41816,
+        24043,
+        41683,
+        78,
+        20285,
+        8871,
+        7359,
+        31,
+        12279
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: What is the gender of the person playing tennis in the image?",
+          "answers": [
+            "male",
+            "female",
+            "couple"
+          ],
+          "score": 0.029549121856689453
+        },
+        {
+          "question": "Question: What is the gender of the people playing tennis in the image?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.028107643127441406
+        },
+        {
+          "question": "Question: What is the gender of the people playing tennis in the image?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.028107643127441406,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: Question: What is the gender of the player in the image?",
+          "answers": [
+            "male",
+            "female",
+            "couple"
+          ],
+          "score": 0.02452850341796875
+        },
+        {
+          "question": "Question: Question: What is the gender of the player in the image?",
+          "answers": [
+            "male",
+            "female",
+            "couple"
+          ],
+          "score": 0.02452850341796875,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the gender of the person playing tennis in the image?",
+          "answers": [
+            "male",
+            "female",
+            "couple"
+          ],
+          "score": 0.029549121856689453
+        },
+        {
+          "question": "Question: What color is the tennis court in the image?",
+          "answers": [
+            "green",
+            "blue",
+            "green and blue"
+          ],
+          "score": 0.043729305267333984
+        },
+        {
+          "question": "Question: What color is the shirt worn by the person playing tennis?",
+          "answers": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "score": 0.1354537010192871
+        },
+        {
+          "question": "Question: Question: What is the gender of the player in the image?",
+          "answers": [
+            "male",
+            "female",
+            "couple"
+          ],
+          "score": 0.02452850341796875
+        },
+        {
+          "question": "Question: Question: What color is the shirt worn by the person playing tennis?",
+          "answers": [
+            "blue",
+            "white",
+            "red"
+          ],
+          "score": 0.07821989059448242
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

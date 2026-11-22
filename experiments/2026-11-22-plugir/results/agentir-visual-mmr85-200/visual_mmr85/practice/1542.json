@@ -1,0 +1,54 @@
+{
+  "trials": {
+    "what is the color of the table in the living room?": {
+      "answers": [
+        "black",
+        "beige",
+        "glass",
+        "white"
+      ],
+      "rewrites": {
+        "black": "a living room with a black table, a couch, a chaise lounge, two single chairs, a square table, a circular table, a long rectangular table, and a television",
+        "beige": "a living room arranged with a beige table, a couch, a chaise lounge, two single chairs, a square table, a long rectangular table, and a television",
+        "glass": "a living room arranged with a couch, a chaise lounge, two single chairs, a square table, a circular table, a long rectangular table, a television, and a glass table",
+        "white": "a living room with a white table, a couch, a chaise lounge, two single chairs, a square table, a long rectangular table, and a television"
+      },
+      "ranks": [
+        20,
+        23,
+        7,
+        4
+      ],
+      "hits": 2
+    },
+    "what color is the table in the living room?": {
+      "answers": [
+        "black",
+        "black",
+        "glass",
+        "white"
+      ],
+      "rewrites": {
+        "black": "a living room arranged with a couch, a chaise lounge, two single chairs, a black square table, a circular table, a long rectangular table, and a television",
+        "glass": "an living room is arranged with a couch, a chaise lounge, 2 single chairs, a square table, a circular table, a long rectangular table, and a television, featuring a glass table",
+        "white": "a living room with a white table, a couch, a chaise lounge, two single chairs, a square table, a long rectangular table, and a television"
+      },
+      "ranks": [
+        25,
+        50,
+        11,
+        4
+      ],
+      "hits": 1
+    }
+  },
+  "ids": [
+    29067,
+    9169,
+    24988,
+    15759
+  ],
+  "default": "what is the color of the table in the living room?",
+  "chosen": "what is the color of the table in the living room?",
+  "source": "identical cached proxy/question trials"
+}

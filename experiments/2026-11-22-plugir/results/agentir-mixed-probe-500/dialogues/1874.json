@@ -1,0 +1,143 @@
+{
+  "qid": 1874,
+  "sample": "original",
+  "target": "unlabeled2017/000000283300.jpg",
+  "queries": [
+    "a bus passes so close to a pick up truck that is catches the trucks mirror",
+    "a gray bus passes so close to a pickup truck that it catches the truck's mirror"
+  ],
+  "ranks": [
+    13,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a bus passes so close to a pick up truck that is catches the trucks mirror",
+      "question": "Question: What color is the bus?",
+      "answer": "gray",
+      "query_after": "a gray bus passes so close to a pickup truck that it catches the truck's mirror",
+      "displayed_ids": [
+        3084,
+        28115,
+        32034,
+        30635,
+        41221,
+        30237,
+        40195,
+        45990,
+        29047,
+        19171
+      ],
+      "selected_ids": [
+        17403,
+        15229,
+        34564,
+        49598,
+        42831,
+        15700,
+        3420,
+        27711,
+        15984,
+        33800
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what color is the bus in the image?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.08776330947875977
+        },
+        {
+          "question": "Question: What color is the truck that is being reflected in the mirror?",
+          "answers": [
+            "black",
+            "red",
+            "green"
+          ],
+          "score": 0.07710552215576172
+        },
+        {
+          "question": "Question: What color is the bus?",
+          "answers": [
+            "yellow",
+            "red",
+            "blue"
+          ],
+          "score": 0.15761041641235352
+        },
+        {
+          "question": "what is the specific location or surface the bus is driving on?",
+          "answers": [
+            "city street",
+            "dirt road",
+            "sidewalk"
+          ],
+          "score": 0.13159942626953125
+        },
+        {
+          "question": "what is the color of the truck in the image?",
+          "answers": [
+            "white",
+            "green",
+            "blue"
+          ],
+          "score": 0.10251045227050781
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the bus that is reflected in the pickup truck's mirror?",
+          "answers": [
+            "red",
+            "white",
+            "yellow"
+          ],
+          "score": 0.09249067306518555
+        },
+        {
+          "question": "Question: What is the color of the bus?",
+          "answers": [
+            "red",
+            "white",
+            "yellow"
+          ],
+          "score": 0.11129617691040039
+        },
+        {
+          "question": "Question: What is the background of the bus?",
+          "answers": [
+            "trees",
+            "street sign",
+            "mirror"
+          ],
+          "score": 0.07272958755493164
+        },
+        {
+          "question": "Question: What is the color of the pickup truck?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.1264939308166504
+        },
+        {
+          "question": "Question: What is the color of the pickup truck that the bus is passing close to?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.09174108505249023
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

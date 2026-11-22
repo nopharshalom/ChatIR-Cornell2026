@@ -1,0 +1,176 @@
+{
+  "qid": 1482,
+  "initial": "a man doing a grind on a skateboard",
+  "initial_rank": 316,
+  "displayed": [
+    46260,
+    16512,
+    48344,
+    1128,
+    33345,
+    40707,
+    43109,
+    31748,
+    17663,
+    24654
+  ],
+  "evidence": [
+    "a man wearing a hat is doing a trick on a skateboard in a pool",
+    "black and white picture of a skateboarder in a residential area",
+    "a man is in the air riding a skateboard in a skateboard park",
+    "a skateboarder jumps high over the rail of a park",
+    "black and white photo of people skating in a competition",
+    "a man skateboarding on a ramp at night",
+    "a skateboarder doing a trick at night on a concrete ledge",
+    "a man is standing on a skateboard in a dark place",
+    "a person skateboarding in the air in a skate park at night"
+  ],
+  "rejected_captions": [
+    "the boy is jumping off of a skateboard at the park",
+    "a young man is skateboarding in the middle of a city square",
+    "a man is in the middle of a skate board",
+    "a man skateboarding in the air while people watch him",
+    "a skateboarder performing a trick over a trash can",
+    "a person is on a skate board",
+    "a person is riding a skateboard in a skate park",
+    "a skateboarder performing a stunt",
+    "a man skateboarding in a gym",
+    "a skateboarder does a trick on a ramp"
+  ],
+  "usual": {
+    "candidates": [
+      "Question: What is the lighting condition or time of day depicted in the image?",
+      "Question: Is the image in black and white or in color?",
+      "Question: Where is the man performing the grind on the skateboard?",
+      "what is the man wearing on his head?",
+      "Question: What is the man wearing on his body?"
+    ],
+    "question": "Question: Where is the man performing the grind on the skateboard?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the lighting condition or time of day depicted in the image?",
+          "answers": [
+            "daylight",
+            "night",
+            "black and white"
+          ],
+          "score": 0.13673734664916992
+        },
+        {
+          "question": "Question: Is the image in black and white or in color?",
+          "answers": [
+            "black and white",
+            "color",
+            "not sure"
+          ],
+          "score": 0.003184795379638672
+        },
+        {
+          "question": "Question: Where is the man performing the grind on the skateboard?",
+          "answers": [
+            "pool",
+            "skateboard park",
+            "night"
+          ],
+          "score": 0.15386486053466797
+        },
+        {
+          "question": "what is the man wearing on his head?",
+          "answers": [
+            "a hat",
+            "nothing",
+            "a helmet"
+          ],
+          "score": 0.01819610595703125
+        },
+        {
+          "question": "Question: What is the man wearing on his body?",
+          "answers": [
+            "jeans and t-shirt",
+            "shorts and tank top",
+            "jacket and pants"
+          ],
+          "score": 0.14357995986938477
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.172,
+      "probe_selection_seconds": 2.964,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "on a wooden ramp",
+    "rewrite": "a man performing a grind on a skateboard on a wooden ramp",
+    "raw_rank": 3,
+    "unseen_rank": 2
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the setting or location where the man is performing the grind?",
+      "Question: Is the man performing the grind on a ramp or a ledge?",
+      "Question: What is the lighting condition of the scene where the man is performing the grind?",
+      "Question: What color is the man's shirt?",
+      "Question: Question: What is the man wearing on his head?"
+    ],
+    "question": "Question: What color is the man's shirt?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the setting or location where the man is performing the grind?",
+          "answers": [
+            "pool",
+            "residential area",
+            "skateboard park"
+          ],
+          "score": 0.10023069381713867
+        },
+        {
+          "question": "Question: Is the man performing the grind on a ramp or a ledge?",
+          "answers": [
+            "ramp",
+            "ledge",
+            "ground"
+          ],
+          "score": 0.0077667236328125
+        },
+        {
+          "question": "Question: What is the lighting condition of the scene where the man is performing the grind?",
+          "answers": [
+            "daylight",
+            "night",
+            "black and white"
+          ],
+          "score": 0.017872333526611328
+        },
+        {
+          "question": "Question: What color is the man's shirt?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.13499927520751953
+        },
+        {
+          "question": "Question: Question: What is the man wearing on his head?",
+          "answers": [
+            "hat",
+            "none",
+            "helmet"
+          ],
+          "score": 0.014821529388427734
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.094,
+      "probe_selection_seconds": 2.474,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "black",
+    "rewrite": "a man in a black shirt doing a grind on a skateboard",
+    "raw_rank": 26,
+    "unseen_rank": 21
+  }
+}

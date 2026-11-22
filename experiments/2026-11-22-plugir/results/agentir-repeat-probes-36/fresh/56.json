@@ -1,0 +1,65 @@
+{
+  "qid": 56,
+  "arm": "fresh",
+  "after_round": 2,
+  "ranks": [
+    18,
+    17,
+    18,
+    13,
+    22,
+    17,
+    19,
+    14,
+    10
+  ],
+  "continuation": [
+    {
+      "round": 3,
+      "query_before": "The intersection featured a red light, wet streets, and traffic signals.",
+      "question": "Is the sky dark or bright?",
+      "answer": "dark",
+      "query_after": "the intersection had a red traffic light and wet streets under a dark sky",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Is the sky dark or bright?",
+      "fallback": false
+    },
+    {
+      "round": 4,
+      "query_before": "the intersection had a red traffic light and wet streets under a dark sky",
+      "question": "what is the location of the intersection?",
+      "answer": "I'm not sure.",
+      "query_after": "a dark intersection with wet streets and traffic lights"
+    },
+    {
+      "round": 5,
+      "query_before": "a dark intersection with wet streets and traffic lights",
+      "question": "what is the condition of the traffic lights at the intersection?",
+      "answer": "red",
+      "query_after": "an intersection with wet streets and dark skies, featuring red traffic lights"
+    },
+    {
+      "round": 6,
+      "query_before": "an intersection with wet streets and dark skies, featuring red traffic lights",
+      "question": "what is the other object in the image?",
+      "answer": "traffic lights",
+      "query_after": "A crossroads where the streets are wet and the sky is dark, marked by red traffic lights."
+    },
+    {
+      "round": 7,
+      "query_before": "A crossroads where the streets are wet and the sky is dark, marked by red traffic lights.",
+      "question": "what is the condition of the streets in the image?",
+      "answer": "wet",
+      "query_after": "a dark intersection with wet streets and red traffic lights"
+    },
+    {
+      "round": 8,
+      "query_before": "a dark intersection with wet streets and red traffic lights",
+      "question": "what is the color of the car in the image?",
+      "answer": "white",
+      "query_after": "a white car is at an intersection with red traffic lights, featuring wet streets and a dark sky"
+    }
+  ],
+  "seconds": 88.4
+}

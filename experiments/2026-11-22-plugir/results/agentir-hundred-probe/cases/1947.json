@@ -1,0 +1,101 @@
+{
+  "qid": 1947,
+  "initial": "a man surfing on a longboard in the ocean",
+  "initial_rank": 26,
+  "evidence": [
+    "a black and white photo of a surfer riding a wave in the ocean",
+    "a person surfing on a yellow surfboard on a large wave",
+    "a surfer rides a big wave in the ocean",
+    "a man in blue shorts riding a wave",
+    "a surfer in a black wetsuit riding a wave",
+    "a man riding a green wave",
+    "a person surfing in the ocean on a yellow surfboard",
+    "a man standing on a paddle board",
+    "a surfer riding a huge wave in the ocean",
+    "man in water skiing harness"
+  ],
+  "candidates": [
+    "what color is the surfboard the man is riding?",
+    "what color are the shorts worn by the man surfing on the longboard in the ocean?",
+    "Question: What is the color of the wave the man is surfing on?",
+    "Question: What is the color of the wave the man is surfing on?",
+    "what color is the longboard the man is riding?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what color is the surfboard the man is riding?",
+      "answers": [
+        "black",
+        "yellow",
+        "green"
+      ],
+      "score": 0.09793615341186523
+    },
+    {
+      "question": "what color are the shorts worn by the man surfing on the longboard in the ocean?",
+      "answers": [
+        "blue",
+        "white",
+        "yellow"
+      ],
+      "score": 0.12510156631469727
+    },
+    {
+      "question": "Question: What is the color of the wave the man is surfing on?",
+      "answers": [
+        "black",
+        "yellow",
+        "green"
+      ],
+      "score": 0.08771657943725586
+    },
+    {
+      "question": "Question: What is the color of the wave the man is surfing on?",
+      "answers": [
+        "black",
+        "yellow",
+        "green"
+      ],
+      "score": 0.08771657943725586,
+      "duplicate_of": 2
+    },
+    {
+      "question": "what color is the longboard the man is riding?",
+      "answers": [
+        "black",
+        "blue",
+        "yellow"
+      ],
+      "score": 0.08974695205688477
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.058,
+  "probe_selection_seconds": 1.73,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "what color is the surfboard the man is riding?",
+      "answer": "yellow",
+      "rewrite": "a man surfing on a yellow longboard in the ocean",
+      "rank": 71,
+      "hit": false
+    },
+    "random": {
+      "question": "what color are the shorts worn by the man surfing on the longboard in the ocean?",
+      "answer": "white",
+      "rewrite": "a man wearing white shorts surfing on a longboard in the ocean",
+      "rank": 18,
+      "hit": false
+    },
+    "probe": {
+      "question": "what color are the shorts worn by the man surfing on the longboard in the ocean?",
+      "answer": "white",
+      "rewrite": "a man wearing white shorts surfing on a longboard in the ocean",
+      "rank": 18,
+      "hit": false
+    }
+  },
+  "seconds": 11.795
+}

@@ -1,0 +1,177 @@
+{
+  "qid": 619,
+  "initial": "a fire hydrant on a city street with snow around it",
+  "initial_rank": 16,
+  "displayed": [
+    47635,
+    33977,
+    3040,
+    46353,
+    28780,
+    36162,
+    41761,
+    36228,
+    6765,
+    3909
+  ],
+  "evidence": [
+    "a black clock sitting on a tree covered in snow",
+    "the stop sign is in front of a house with snow covering it",
+    "a fire hydrant with eyes on it",
+    "the sheep are frolicking in the snow",
+    "snowy yard in front of house",
+    "a truck pulled by other cars on a street in the snow",
+    "a black and white photo of people walking around in snow",
+    "a fire hydrant with chains attached",
+    "the fire hydrant has a yellow base",
+    "yellow and red fire hydrant on the lawn"
+  ],
+  "rejected_captions": [
+    "black and white photograph",
+    "a fire hydrant covered in snow in the road",
+    "red fire hydrant covered in snow",
+    "a street with trees",
+    "this is not an electric fire hydrant",
+    "fire hydrant sitting on a street",
+    "a fire hydrant surrounded by snow",
+    "snow is all over the road",
+    "snow covered sidewalk",
+    "a fire hydrant is covered in snow"
+  ],
+  "usual": {
+    "candidates": [
+      "what color is the base of the fire hydrant in the image?",
+      "Question: What type of fire hydrant is visible in the image?",
+      "Question: What is the color of the fire hydrant in the image?",
+      "what is the object located in front of the house in the snowy image?",
+      "Question: What is the color of the fire hydrant's base in the image?"
+    ],
+    "question": "Question: What is the color of the fire hydrant's base in the image?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what color is the base of the fire hydrant in the image?",
+          "answers": [
+            "red",
+            "yellow",
+            "black"
+          ],
+          "score": 0.15539836883544922
+        },
+        {
+          "question": "Question: What type of fire hydrant is visible in the image?",
+          "answers": [
+            "black",
+            "yellow",
+            "red"
+          ],
+          "score": 0.14821720123291016
+        },
+        {
+          "question": "Question: What is the color of the fire hydrant in the image?",
+          "answers": [
+            "black",
+            "yellow",
+            "red"
+          ],
+          "score": 0.1762242317199707
+        },
+        {
+          "question": "what is the object located in front of the house in the snowy image?",
+          "answers": [
+            "stop sign",
+            "house",
+            "fire hydrant"
+          ],
+          "score": 0.07201385498046875
+        },
+        {
+          "question": "Question: What is the color of the fire hydrant's base in the image?",
+          "answers": [
+            "yellow",
+            "red",
+            "black"
+          ],
+          "score": 0.18111276626586914
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.065,
+      "probe_selection_seconds": 2.229,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "red",
+    "rewrite": "a red-based fire hydrant on a city street with snow around it",
+    "raw_rank": 9,
+    "unseen_rank": 4
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the color of the fire hydrant?",
+      "Question: What color is the base of the fire hydrant?",
+      "Question: What is on the fire hydrant?",
+      "Question: Is the fire hydrant electric?",
+      "Question: What is the color of the base of the fire hydrant?"
+    ],
+    "question": "Question: What is the color of the base of the fire hydrant?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the color of the fire hydrant?",
+          "answers": [
+            "red",
+            "yellow",
+            "black"
+          ],
+          "score": 0.15777921676635742
+        },
+        {
+          "question": "Question: What color is the base of the fire hydrant?",
+          "answers": [
+            "black",
+            "yellow",
+            "red"
+          ],
+          "score": 0.13921260833740234
+        },
+        {
+          "question": "Question: What is on the fire hydrant?",
+          "answers": [
+            "eyes",
+            "chains",
+            "yellow base"
+          ],
+          "score": 0.08056068420410156
+        },
+        {
+          "question": "Question: Is the fire hydrant electric?",
+          "answers": [
+            "yes",
+            "no",
+            "i don't know"
+          ],
+          "score": 0.0015020370483398438
+        },
+        {
+          "question": "Question: What is the color of the base of the fire hydrant?",
+          "answers": [
+            "black",
+            "yellow",
+            "red"
+          ],
+          "score": 0.17440462112426758
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.08,
+      "probe_selection_seconds": 2.237,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "red",
+    "rewrite": "a red-based fire hydrant on a city street with snow around it",
+    "raw_rank": 9,
+    "unseen_rank": 4
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "qid": 920,
+  "candidates": [
+    "Question: Is the city street busy or empty?",
+    "Question: What color is the sky?",
+    "Question: What type of vehicle is prominently featured in the image?",
+    "Question: What color is the bus featured in the image?",
+    "Question: What color is the traffic light in the image?"
+  ],
+  "kl": {
+    "question": "Question: Is the city street busy or empty?",
+    "answer": "busy",
+    "rewrite": "a busy city street in the middle of the day",
+    "raw_rank": 138,
+    "unseen_rank": 134
+  },
+  "probe": {
+    "answer": "car",
+    "rewrite": "a car on a city street in the middle of the day",
+    "raw_rank": 57,
+    "unseen_rank": 55,
+    "question": "Question: What type of vehicle is prominently featured in the image?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: Is the city street busy or empty?",
+        "answers": [
+          "busy",
+          "empty",
+          "crowded"
+        ],
+        "score": 0.042795658111572266
+      },
+      {
+        "question": "Question: What color is the sky?",
+        "answers": [
+          "blue",
+          "gray",
+          "white"
+        ],
+        "score": 0.05756998062133789
+      },
+      {
+        "question": "Question: What type of vehicle is prominently featured in the image?",
+        "answers": [
+          "bus",
+          "car",
+          "taxi"
+        ],
+        "score": 0.10472345352172852
+      },
+      {
+        "question": "Question: What color is the bus featured in the image?",
+        "answers": [
+          "black",
+          "white",
+          "yellow"
+        ],
+        "score": 0.0939016342163086
+      },
+      {
+        "question": "Question: What color is the traffic light in the image?",
+        "answers": [
+          "red",
+          "green",
+          "yellow"
+        ],
+        "score": 0.0782613754272461
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.066,
+    "probe_selection_seconds": 2.289,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": false
+}

@@ -1,0 +1,80 @@
+{
+  "qid": 1644,
+  "sample": 2,
+  "first_candidates": [
+    "what is the specific type of produce displayed on the dishes on the table?",
+    "what color are the bowls of soup on the table?",
+    "what is the color of the plate holding the dishes on the table?",
+    "Question: are the fruits and vegetables on the table fresh or mixed?",
+    "What items of produce are displayed on the dishes on the table?"
+  ],
+  "second_candidates": [
+    "Question: How many dishes are on the table?",
+    "Question: Where is the table located?",
+    "Question: How many dishes are on the table?",
+    "**Question:** What color is the plate holding the food on the table?",
+    "**Question:** What color is the plate holding the food on the table?"
+  ],
+  "paths": [
+    {
+      "question": "Question: How many dishes are on the table?",
+      "answers": [
+        "2",
+        "3",
+        "lots"
+      ],
+      "score": 0.005623340606689453
+    },
+    {
+      "question": "Question: Where is the table located?",
+      "answers": [
+        "indoors",
+        "outdoors",
+        "inside a restaurant"
+      ],
+      "score": 0.09019851684570312
+    },
+    {
+      "question": "Question: How many dishes are on the table?",
+      "answers": [
+        "2",
+        "3",
+        "lots"
+      ],
+      "score": 0.005623340606689453,
+      "duplicate_of": 0
+    },
+    {
+      "question": "**Question:** What color is the plate holding the food on the table?",
+      "answers": [
+        "green",
+        "brown",
+        "white"
+      ],
+      "score": 0.06663370132446289
+    },
+    {
+      "question": "**Question:** What color is the plate holding the food on the table?",
+      "answers": [
+        "green",
+        "brown",
+        "white"
+      ],
+      "score": 0.06663370132446289,
+      "duplicate_of": 3
+    }
+  ],
+  "control": {
+    "question": "what is the specific type of produce displayed on the dishes on the table?",
+    "score": 0.18239831924438477
+  },
+  "mixed": {
+    "question": "what is the specific type of produce displayed on the dishes on the table?",
+    "score": 0.18239831924438477
+  },
+  "control_rank": 99,
+  "mixed_rank": 99,
+  "usual_rank": 99,
+  "new_answer": null,
+  "new_rewrite": null
+}

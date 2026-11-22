@@ -1,0 +1,143 @@
+{
+  "qid": 1906,
+  "sample": "original",
+  "target": "unlabeled2017/000000062364.jpg",
+  "queries": [
+    "a person doing a trick in the air on a snowboard",
+    "a person in a red and green outfit doing a trick in the air on a snowboard"
+  ],
+  "ranks": [
+    61,
+    6
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a person doing a trick in the air on a snowboard",
+      "question": "Question: What is the color of the snowboarder's outfit?",
+      "answer": "red and green",
+      "query_after": "a person in a red and green outfit doing a trick in the air on a snowboard",
+      "displayed_ids": [
+        9683,
+        395,
+        17867,
+        46884,
+        7199,
+        19385,
+        8946,
+        49211,
+        13616,
+        14629
+      ],
+      "selected_ids": [
+        29579,
+        30930,
+        6951,
+        17,
+        42053,
+        44254,
+        18482,
+        44646,
+        43629,
+        6137
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: What is the location where the person is performing the trick on the snowboard?",
+          "answers": [
+            "in the air",
+            "on a rail",
+            "on a mountain"
+          ],
+          "score": 0.025810718536376953
+        },
+        {
+          "question": "Question: What is the color of the sky in the image?",
+          "answers": [
+            "blue",
+            "white",
+            "gray"
+          ],
+          "score": 0.04499244689941406
+        },
+        {
+          "question": "Question: What is the color of the snowboarder's outfit?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.16490650177001953
+        },
+        {
+          "question": "what is the time of day when the snowboarder is performing the trick on the railing?",
+          "answers": [
+            "day",
+            "night",
+            "dusk"
+          ],
+          "score": 0.07370805740356445
+        },
+        {
+          "question": "what is the location where the snowboarder is performing the trick in the air?",
+          "answers": [
+            "ocean",
+            "snow",
+            "night"
+          ],
+          "score": 0.13274717330932617
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is the snowboarder performing the trick during the day or at night?",
+          "answers": [
+            "day",
+            "night",
+            "both"
+          ],
+          "score": 0.011757850646972656
+        },
+        {
+          "question": "Question: What is the color of the snowboarder's clothing?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.15004730224609375
+        },
+        {
+          "question": "what is the background environment where the snowboarder is performing the trick?",
+          "answers": [
+            "snow covered grove",
+            "side of snowy mountain",
+            "night"
+          ],
+          "score": 0.14955377578735352
+        },
+        {
+          "question": "Question: What is the lighting condition of the scene where the snowboarder is performing the trick?",
+          "answers": [
+            "day",
+            "night",
+            "cloudy"
+          ],
+          "score": 0.06637811660766602
+        },
+        {
+          "question": "Question: Question: What is the color of the snowboarder's clothing?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.09417915344238281
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

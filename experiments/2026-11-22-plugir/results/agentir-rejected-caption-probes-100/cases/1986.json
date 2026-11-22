@@ -1,0 +1,79 @@
+{
+  "qid": 1986,
+  "candidates": [
+    "Question: What color is the shirt worn by the man water skiing?",
+    "Question: What is the man wearing on his head while water skiing?",
+    "Question: What color is the wetsuit worn by the man water skiing?",
+    "Question: Is the man water skiing alone or with others?",
+    "Question: What color is the board the man is riding?"
+  ],
+  "kl": {
+    "question": "Question: What color is the wetsuit worn by the man water skiing?",
+    "answer": "black",
+    "rewrite": "a man in a black wetsuit is water skiing in a lake, leaning to the left",
+    "raw_rank": 8,
+    "unseen_rank": 4
+  },
+  "probe": {
+    "answer": "blue",
+    "rewrite": "a man in a blue shirt is water skiing in a lake, leaning to the left",
+    "raw_rank": 16,
+    "unseen_rank": 8,
+    "question": "Question: What color is the shirt worn by the man water skiing?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What color is the shirt worn by the man water skiing?",
+        "answers": [
+          "blue",
+          "red",
+          "black"
+        ],
+        "score": 0.0922083854675293
+      },
+      {
+        "question": "Question: What is the man wearing on his head while water skiing?",
+        "answers": [
+          "No headwear",
+          "A cap",
+          "A helmet"
+        ],
+        "score": 0.009682178497314453
+      },
+      {
+        "question": "Question: What color is the wetsuit worn by the man water skiing?",
+        "answers": [
+          "black",
+          "blue",
+          "red"
+        ],
+        "score": 0.07454776763916016
+      },
+      {
+        "question": "Question: Is the man water skiing alone or with others?",
+        "answers": [
+          "alone",
+          "with one other person",
+          "with two other people"
+        ],
+        "score": 0.023808002471923828
+      },
+      {
+        "question": "Question: What color is the board the man is riding?",
+        "answers": [
+          "white",
+          "red",
+          "blue"
+        ],
+        "score": 0.05386495590209961
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.064,
+    "probe_selection_seconds": 2.331,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": false
+}

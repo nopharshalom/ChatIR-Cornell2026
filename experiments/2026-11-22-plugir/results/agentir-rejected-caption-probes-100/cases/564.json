@@ -1,0 +1,80 @@
+{
+  "qid": 564,
+  "candidates": [
+    "Question: What color is the cup sitting on the workstation?",
+    "Question: What color are the computer screens on the workstation?",
+    "Question: What type of computer is on the workstation?",
+    "Question: What color is the desk of the workstation?",
+    "Question: What color is the desk of the workstation?"
+  ],
+  "kl": {
+    "question": "Question: What type of computer is on the workstation?",
+    "answer": "Apple",
+    "rewrite": "an Apple workstation with 3 computer screens and a coffee cup looks cozy and comfortable",
+    "raw_rank": 22,
+    "unseen_rank": 14
+  },
+  "probe": {
+    "answer": "black",
+    "rewrite": "a cozy and comfortable workstation featuring 3 computer screens and a black coffee cup",
+    "raw_rank": 32,
+    "unseen_rank": 22,
+    "question": "Question: What color is the cup sitting on the workstation?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What color is the cup sitting on the workstation?",
+        "answers": [
+          "white",
+          "blue",
+          "green"
+        ],
+        "score": 0.07796812057495117
+      },
+      {
+        "question": "Question: What color are the computer screens on the workstation?",
+        "answers": [
+          "black",
+          "silver",
+          "white"
+        ],
+        "score": 0.05942344665527344
+      },
+      {
+        "question": "Question: What type of computer is on the workstation?",
+        "answers": [
+          "laptop",
+          "desktop",
+          "monitor"
+        ],
+        "score": 0.016940593719482422
+      },
+      {
+        "question": "Question: What color is the desk of the workstation?",
+        "answers": [
+          "wood",
+          "black",
+          "white"
+        ],
+        "score": 0.061539649963378906
+      },
+      {
+        "question": "Question: What color is the desk of the workstation?",
+        "answers": [
+          "wood",
+          "black",
+          "white"
+        ],
+        "score": 0.061539649963378906,
+        "duplicate_of": 3
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.042,
+    "probe_selection_seconds": 1.898,
+    "probe_llm_calls": 4,
+    "probe_search_queries": 12
+  },
+  "reused_outcome": false
+}

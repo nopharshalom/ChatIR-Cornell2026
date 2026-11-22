@@ -1,0 +1,71 @@
+{
+  "qid": 521,
+  "initial": "a batter wearing number 36 starts to swing at the baseball",
+  "initial_rank": 66,
+  "evidence": [
+    "a man wearing a red baseball hat is ready to bat",
+    "a man is swinging a baseball bat in front of a crowd of people",
+    "a baseball player standing in the dugout",
+    "a baseball player swings a bat at a ball while the catcher is out",
+    "a person is swinging at a ball while the catcher is chasing a pitch",
+    "a batter hits a baseball to a runner in a baseball game",
+    "a man in a red and white baseball uniform at bat",
+    "a baseball player hitting the ball as the catcher watches",
+    "a baseball player in a red uniform hitting a pitch",
+    "fans watching a baseball game at a stadium"
+  ],
+  "displayed_ids": [
+    12039,
+    25608,
+    13573,
+    19614,
+    36293,
+    9704,
+    503,
+    48812,
+    33825,
+    6800
+  ],
+  "rejected_captions": [
+    "a man swinging a baseball bat while on the field",
+    "a player swinging a baseball bat on a baseball field",
+    "a person in a baseball uniform swinging a bat",
+    "a baseball player swinging his bat in an outfield",
+    "a baseball game is being played",
+    "a man playing baseball",
+    "a baseball player with a bat is swinging it",
+    "the pitcher is ready to pitch",
+    "a baseball player is ready for the pitch",
+    "a person swinging a baseball bat"
+  ],
+  "candidates": [
+    "Question: What color is the batter's uniform?",
+    "Question: What color is the batter's uniform?",
+    "Question: What color is the batter's uniform?",
+    "Question: What color is the batter's uniform?",
+    "Question: What color is the batter's uniform?"
+  ],
+  "control_candidates": [
+    "what is the color of the hat worn by the man wearing number 36?",
+    "Question: What is the color of the uniform worn by the man wearing number 36?",
+    "Question: What is the color of the uniform worn by the batter?",
+    "Question: What is the number on the uniform of the batter?",
+    "Question: What is the number on the uniform of the batter?"
+  ],
+  "control": {
+    "question": "Question: What is the number on the uniform of the batter?",
+    "answer": "36",
+    "rewrite": "A batter wearing number 36 begins to swing at the baseball.",
+    "rank": 35,
+    "hit": false,
+    "raw_rank": 35,
+    "unseen_rank": 25
+  },
+  "variant": {
+    "question": "Question: What color is the batter's uniform?",
+    "answer": "white",
+    "rewrite": "a batter wearing a white uniform with the number 36 starts to swing at the baseball",
+    "raw_rank": 78,
+    "unseen_rank": 71
+  }
+}

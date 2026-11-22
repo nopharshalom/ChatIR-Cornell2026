@@ -1,0 +1,1327 @@
+{
+  "qid": 343,
+  "sample": "original",
+  "target": "unlabeled2017/000000179535.jpg",
+  "queries": [
+    "an assortment of different foods on a table",
+    "an assortment of different foods on a table, featuring a salad on the plate in the center",
+    "an assortment of different foods on a wooden table, featuring a salad on the plate in the center",
+    "an assortment of different foods on a wooden table, featuring a white plate holding pizza and a plate with salad in the center",
+    "an assortment of different foods on a wooden table, featuring a white plate with salad in the center, a plate with pizza, and a fork",
+    "an assortment of different foods on a wooden table, featuring a white plate with salad in the center, a plate with pizza, and a silver fork",
+    "an assortment of different foods on a wooden table, featuring a white plate with salad in the center, a white plate with pizza, and a silver fork",
+    "an assortment of different foods on a wooden table, featuring a white plate with a small portion of red sauce, a white plate with a sandwich, a white plate with pizza, and a silver fork",
+    "an assortment of different foods on a wooden table, featuring a white plate with a small portion of red sauce, a white plate holding pizza, a white plate with carrots, potatoes, and chicken, and a silver fork",
+    "an assortment of different foods on a wooden table, featuring a white plate with a small portion of red sauce in the center, alongside a white plate holding a sandwich, a white plate with carrots, potatoes, and chicken, a pizza, and a silver fork",
+    "an assortment of different foods on a wooden table, featuring a white plate with a small portion of red sauce in the center, alongside a pizza on another white plate, a sandwich on a white plate, and a side of carrots, potatoes, and chicken on a white plate, with a silver fork also on the table"
+  ],
+  "ranks": [
+    37,
+    75,
+    72,
+    813,
+    530,
+    372,
+    408,
+    1571,
+    1153,
+    1581,
+    1548
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "an assortment of different foods on a table",
+      "question": "What specific dish is visible on the plate in the center of the table?",
+      "answer": "salad",
+      "query_after": "an assortment of different foods on a table, featuring a salad on the plate in the center",
+      "displayed_ids": [
+        25619,
+        17763,
+        153,
+        18545,
+        30937,
+        46118,
+        21393,
+        3466,
+        29120,
+        6971
+      ],
+      "selected_ids": [
+        9560,
+        36403,
+        36718,
+        43234,
+        42662,
+        20692,
+        15905,
+        25725,
+        24397,
+        9416
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what type of food is served on the table along with the assortment?",
+          "answers": [
+            "steak",
+            "fries",
+            "ham"
+          ],
+          "score": 0.1713104248046875
+        },
+        {
+          "question": "Question: What specific items are visible on the table in addition to the assortment of food?",
+          "answers": [
+            "wine glasses",
+            "juices",
+            "coffee"
+          ],
+          "score": 0.13209867477416992
+        },
+        {
+          "question": "Question: what is the material of the surface upon which the assortment of different foods is placed?",
+          "answers": [
+            "wooden pallet",
+            "plate",
+            "counter"
+          ],
+          "score": 0.13120746612548828
+        },
+        {
+          "question": "what color is the table upon which the assortment of different foods is placed?",
+          "answers": [
+            "wooden",
+            "white",
+            "glass"
+          ],
+          "score": 0.09675168991088867
+        },
+        {
+          "question": "what is the color of the table upon which the assortment of different foods is placed?",
+          "answers": [
+            "wooden",
+            "white",
+            "black"
+          ],
+          "score": 0.10161113739013672
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What specific dish is visible on the plate in the center of the table?",
+          "answers": [
+            "fries",
+            "steak",
+            "toast"
+          ],
+          "score": 0.18137168884277344
+        },
+        {
+          "question": "Question: What is the specific food item on the plate in the center of the table?",
+          "answers": [
+            "fries",
+            "steak",
+            "toast"
+          ],
+          "score": 0.13698387145996094
+        },
+        {
+          "question": "Question: What color is the plate holding the assortment of foods on the table?",
+          "answers": [
+            "white",
+            "unspecified",
+            "various"
+          ],
+          "score": 0.01430368423461914
+        },
+        {
+          "question": "What color is the plate holding the assortment of foods on the table?",
+          "answers": [
+            "white",
+            "wooden",
+            "metal"
+          ],
+          "score": 0.08797216415405273
+        },
+        {
+          "question": "Question: What color is the plate holding the assortment of foods on the table?",
+          "answers": [
+            "white",
+            "unspecified",
+            "various"
+          ],
+          "score": 0.01430368423461914,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "an assortment of different foods on a table, featuring a salad on the plate in the center",
+      "question": "what material is the table holding the assortment of different foods made of?",
+      "answer": "wood",
+      "query_after": "an assortment of different foods on a wooden table, featuring a salad on the plate in the center",
+      "displayed_ids": [
+        5713,
+        49797,
+        16647,
+        6971,
+        36936,
+        48875,
+        47970,
+        29692,
+        34733,
+        12376
+      ],
+      "selected_ids": [
+        5713,
+        31903,
+        1069,
+        38248,
+        33693,
+        16846,
+        15384,
+        26922,
+        43783,
+        36151
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "what color is the plate holding the sandwich and salad?",
+          "answers": [
+            "white",
+            "green",
+            "red"
+          ],
+          "score": 0.09081029891967773
+        },
+        {
+          "question": "what material is the table holding the assortment of different foods made of?",
+          "answers": [
+            "wooden",
+            "white",
+            "metal"
+          ],
+          "score": 0.129974365234375
+        },
+        {
+          "question": "what color is the table holding the assortment of different foods?",
+          "answers": [
+            "wooden",
+            "white",
+            "brown"
+          ],
+          "score": 0.09413480758666992
+        },
+        {
+          "question": "what color is the table holding the assortment of different foods?",
+          "answers": [
+            "wooden",
+            "white",
+            "brown"
+          ],
+          "score": 0.09413480758666992,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what color is the table holding the assortment of different foods?",
+          "answers": [
+            "wooden",
+            "white",
+            "brown"
+          ],
+          "score": 0.09413480758666992,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the plate holding the sandwich and salad?",
+          "answers": [
+            "white",
+            "green",
+            "red"
+          ],
+          "score": 0.09081029891967773
+        },
+        {
+          "question": "what material is the table holding the assortment of food?",
+          "answers": [
+            "wooden",
+            "white",
+            "metal"
+          ],
+          "score": 0.12619733810424805
+        },
+        {
+          "question": "what color is the table holding the assortment of food?",
+          "answers": [
+            "wooden",
+            "white",
+            "brown"
+          ],
+          "score": 0.0938882827758789
+        },
+        {
+          "question": "what type of plate is holding the sandwich and salad?",
+          "answers": [
+            "white",
+            "wooden",
+            "porcelain"
+          ],
+          "score": 0.0827789306640625
+        },
+        {
+          "question": "what drink is being served with the assortment of food on the table?",
+          "answers": [
+            "beer",
+            "coffee",
+            "water"
+          ],
+          "score": 0.07523488998413086
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "an assortment of different foods on a wooden table, featuring a salad on the plate in the center",
+      "question": "what is the color of the plate holding the pizza?",
+      "answer": "white",
+      "query_after": "an assortment of different foods on a wooden table, featuring a white plate holding pizza and a plate with salad in the center",
+      "displayed_ids": [
+        34733,
+        16647,
+        5713,
+        41889,
+        49797,
+        24923,
+        30032,
+        27789,
+        31709,
+        36936
+      ],
+      "selected_ids": [
+        17399,
+        2584,
+        2644,
+        36151,
+        32576,
+        6515,
+        153,
+        28663,
+        36936,
+        15447
+      ],
+      "rejected_count": 24,
+      "usual_paths": [
+        {
+          "question": "what is the color of the plate holding the salad?",
+          "answers": [
+            "white",
+            "wood",
+            "glass"
+          ],
+          "score": 0.06628274917602539
+        },
+        {
+          "question": "what color is the plate holding the meat sandwich?",
+          "answers": [
+            "white",
+            "black",
+            "red"
+          ],
+          "score": 0.09055852890014648
+        },
+        {
+          "question": "what is the color of the plate holding the pizza?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.1066899299621582
+        },
+        {
+          "question": "what is the color of the plate holding the broccoli and steak?",
+          "answers": [
+            "white",
+            "green",
+            "red"
+          ],
+          "score": 0.06151008605957031
+        },
+        {
+          "question": "what color is the plate holding the meat, carrots, and broccoli?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.05124711990356445
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the shape of the plate holding the salad?",
+          "answers": [
+            "round",
+            "square",
+            "oval"
+          ],
+          "score": 0.054633140563964844
+        },
+        {
+          "question": "what color is the plate holding the salad?",
+          "answers": [
+            "white",
+            "wood",
+            "black"
+          ],
+          "score": 0.09070158004760742
+        },
+        {
+          "question": "what is the shape of the plate holding the salad?",
+          "answers": [
+            "round",
+            "square",
+            "oval"
+          ],
+          "score": 0.054633140563964844,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the plate holding the salad?",
+          "answers": [
+            "white",
+            "wood",
+            "black"
+          ],
+          "score": 0.09070158004760742,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the shape of the plate holding the salad?",
+          "answers": [
+            "round",
+            "square",
+            "oval"
+          ],
+          "score": 0.054633140563964844,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "an assortment of different foods on a wooden table, featuring a white plate holding pizza and a plate with salad in the center",
+      "question": "what is the other object in the image?",
+      "answer": "fork",
+      "query_after": "an assortment of different foods on a wooden table, featuring a white plate with salad in the center, a plate with pizza, and a fork",
+      "displayed_ids": [
+        36936,
+        30032,
+        18845,
+        32250,
+        31093,
+        31153,
+        26922,
+        6971,
+        24154,
+        30631
+      ],
+      "selected_ids": [
+        30369,
+        15905,
+        33693,
+        8881,
+        3225,
+        36151,
+        20700,
+        47090,
+        45657
+      ],
+      "rejected_count": 31,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "glass of wine",
+            "drink",
+            "salad"
+          ],
+          "score": 0.07863998413085938
+        },
+        {
+          "question": "what is the material of the table holding the assortment of different foods?",
+          "answers": [
+            "wood",
+            "glass",
+            "metal"
+          ],
+          "score": 0.03666877746582031
+        },
+        {
+          "question": "what is the color of the table holding the assortment of different foods?",
+          "answers": [
+            "wood",
+            "glass",
+            "metal"
+          ],
+          "score": 0.03744840621948242
+        },
+        {
+          "question": "what is the object next to the white plate of food?",
+          "answers": [
+            "lemon",
+            "wine",
+            "plate"
+          ],
+          "score": 0.05453920364379883
+        },
+        {
+          "question": "what is the color of the table holding the food?",
+          "answers": [
+            "wood",
+            "metal",
+            "glass"
+          ],
+          "score": 0.0335993766784668
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what drink is paired with the pizza on the table?",
+          "answers": [
+            "wine",
+            "water",
+            "soda"
+          ],
+          "score": 0.039597511291503906
+        },
+        {
+          "question": "what color is the drink paired with the pizza on the table?",
+          "answers": [
+            "red",
+            "white",
+            "green"
+          ],
+          "score": 0.06488752365112305
+        },
+        {
+          "question": "what type of drink is paired with the pizza on the table?",
+          "answers": [
+            "wine",
+            "beer",
+            "soda"
+          ],
+          "score": 0.04767942428588867
+        },
+        {
+          "question": "what color is the drink paired with the pizza on the table?",
+          "answers": [
+            "red",
+            "white",
+            "green"
+          ],
+          "score": 0.06488752365112305,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the drink paired with the pizza on the table?",
+          "answers": [
+            "red",
+            "white",
+            "green"
+          ],
+          "score": 0.05465078353881836
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "an assortment of different foods on a wooden table, featuring a white plate with salad in the center, a plate with pizza, and a fork",
+      "question": "what is the color of the fork on the table?",
+      "answer": "silver",
+      "query_after": "an assortment of different foods on a wooden table, featuring a white plate with salad in the center, a plate with pizza, and a silver fork",
+      "displayed_ids": [
+        36936,
+        18845,
+        30032,
+        31153,
+        32250,
+        6261,
+        26922,
+        30631,
+        31093,
+        6971
+      ],
+      "selected_ids": [
+        30369,
+        38269,
+        33362,
+        42436,
+        20826,
+        36151,
+        20700,
+        2782,
+        45657,
+        44534
+      ],
+      "rejected_count": 32,
+      "usual_paths": [
+        {
+          "question": "what is the color of the fork on the table?",
+          "answers": [
+            "silver",
+            "black",
+            "wood"
+          ],
+          "score": 0.05197620391845703
+        },
+        {
+          "question": "what is the color of the fork on the table?",
+          "answers": [
+            "silver",
+            "black",
+            "wood"
+          ],
+          "score": 0.05197620391845703,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the fork on the table?",
+          "answers": [
+            "silver",
+            "black",
+            "wood"
+          ],
+          "score": 0.05197620391845703,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the fork on the table?",
+          "answers": [
+            "silver",
+            "black",
+            "wood"
+          ],
+          "score": 0.05197620391845703,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the fork on the table?",
+          "answers": [
+            "silver",
+            "black",
+            "metal"
+          ],
+          "score": 0.0433344841003418
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "fork",
+            "knife",
+            "spoon"
+          ],
+          "score": 0.01479959487915039
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "fork",
+            "knife",
+            "spoon"
+          ],
+          "score": 0.01479959487915039,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Where is the fork located in relation to the white plate?",
+          "answers": [
+            "to the left",
+            "to the right",
+            "behind"
+          ],
+          "score": 0.005145072937011719
+        },
+        {
+          "question": "Where is the fork located in relation to the white plate holding the pizza?",
+          "answers": [
+            "to the left",
+            "to the right",
+            "above"
+          ],
+          "score": 0.004148960113525391
+        },
+        {
+          "question": "Where is the table with the assortment of foods located?",
+          "answers": [
+            "indoors",
+            "outdoors",
+            "at a restaurant"
+          ],
+          "score": 0.04524421691894531
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "an assortment of different foods on a wooden table, featuring a white plate with salad in the center, a plate with pizza, and a silver fork",
+      "question": "what is the color of the plate holding the sandwich?",
+      "answer": "white",
+      "query_after": "an assortment of different foods on a wooden table, featuring a white plate with salad in the center, a white plate with pizza, and a silver fork",
+      "displayed_ids": [
+        36936,
+        31153,
+        18845,
+        47090,
+        6261,
+        49797,
+        32250,
+        5435,
+        24154,
+        30032
+      ],
+      "selected_ids": [
+        30369,
+        35883,
+        36151,
+        6515,
+        19283,
+        36936,
+        45129,
+        47090,
+        23253,
+        36549
+      ],
+      "rejected_count": 34,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "fork",
+            "knife",
+            "bowl"
+          ],
+          "score": 0.029747962951660156
+        },
+        {
+          "question": "what is the color of the plate holding the sandwich?",
+          "answers": [
+            "white",
+            "orange",
+            "blue"
+          ],
+          "score": 0.09262609481811523
+        },
+        {
+          "question": "what color is the plate holding the sandwich?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.06880998611450195
+        },
+        {
+          "question": "what is the color of the plate holding the sandwich?",
+          "answers": [
+            "white",
+            "orange",
+            "blue"
+          ],
+          "score": 0.09262609481811523,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what color is the plate holding the sandwich?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.06880998611450195,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the shape of the plate holding the pizza?",
+          "answers": [
+            "round",
+            "square",
+            "irregular"
+          ],
+          "score": 0.04243040084838867
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "fork",
+            "knife",
+            "spoon"
+          ],
+          "score": 0.014215946197509766
+        },
+        {
+          "question": "what is the shape of the plate holding the pizza?",
+          "answers": [
+            "round",
+            "square",
+            "irregular"
+          ],
+          "score": 0.04243040084838867,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the plate holding the sandwich?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.022590160369873047
+        },
+        {
+          "question": "what is the color of the plate holding the sandwich?",
+          "answers": [
+            "white",
+            "beige",
+            "brown"
+          ],
+          "score": 0.022590160369873047,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "an assortment of different foods on a wooden table, featuring a white plate with salad in the center, a white plate with pizza, and a silver fork",
+      "question": "**Question:** What is the main food item displayed on the white plate?",
+      "answer": "A small portion of red sauce.",
+      "query_after": "an assortment of different foods on a wooden table, featuring a white plate with a small portion of red sauce, a white plate with a sandwich, a white plate with pizza, and a silver fork",
+      "displayed_ids": [
+        31153,
+        18845,
+        36936,
+        6261,
+        47090,
+        32250,
+        13057,
+        5435,
+        49797,
+        30631
+      ],
+      "selected_ids": [
+        30863,
+        47090,
+        35883,
+        34000,
+        30369,
+        36135,
+        20826,
+        36936,
+        10614,
+        36151
+      ],
+      "rejected_count": 35,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "fork",
+            "knife",
+            "spoon"
+          ],
+          "score": 0.009290695190429688
+        },
+        {
+          "question": "Based on the provided information sources, here is the next logical question and the explanation of how it was derived:\n\n**Question:** What is the color of the?",
+          "answers": [
+            "wood",
+            "white",
+            "silver"
+          ],
+          "score": 0.0094146728515625
+        },
+        {
+          "question": "**Question:** What is the color of the table in the image?",
+          "answers": [
+            "wood",
+            "white",
+            "black"
+          ],
+          "score": 0.035909175872802734
+        },
+        {
+          "question": "Based on the provided information sources, here is the next logical question and the explanation of how it was derived:\n\n**Question:** What color is the table in?",
+          "answers": [
+            "wood",
+            "white",
+            "black"
+          ],
+          "score": 0.026720523834228516
+        },
+        {
+          "question": "**Question:** What is the color of the table in the image?",
+          "answers": [
+            "wood",
+            "white",
+            "black"
+          ],
+          "score": 0.035909175872802734,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "fork",
+            "knife",
+            "spoon"
+          ],
+          "score": 0.009290695190429688
+        },
+        {
+          "question": "**Question:** What is the main food item displayed on the white plate?",
+          "answers": [
+            "pizza",
+            "salad",
+            "sandwich"
+          ],
+          "score": 0.06076955795288086
+        },
+        {
+          "question": "**Question:** What specific food items are on the rectangular plate?",
+          "answers": [
+            "pizza",
+            "salad",
+            "sandwich"
+          ],
+          "score": 0.041149139404296875
+        },
+        {
+          "question": "**Question:** What is the color of the table holding the food?",
+          "answers": [
+            "wood",
+            "white",
+            "black"
+          ],
+          "score": 0.036393165588378906
+        },
+        {
+          "question": "**Question:** What is the main food item displayed on the white plate?",
+          "answers": [
+            "pizza",
+            "salad",
+            "sandwich"
+          ],
+          "score": 0.06076955795288086,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "an assortment of different foods on a wooden table, featuring a white plate with a small portion of red sauce, a white plate with a sandwich, a white plate with pizza, and a silver fork",
+      "question": "what is the color of the plate holding the carrots, potatoes, and chicken?",
+      "answer": "white",
+      "query_after": "an assortment of different foods on a wooden table, featuring a white plate with a small portion of red sauce, a white plate holding pizza, a white plate with carrots, potatoes, and chicken, and a silver fork",
+      "displayed_ids": [
+        31093,
+        19283,
+        13950,
+        47090,
+        45129,
+        19499,
+        23060,
+        16189,
+        31153,
+        47976
+      ],
+      "selected_ids": [
+        33426,
+        36936,
+        40061,
+        5177,
+        47090,
+        20826,
+        30863,
+        36549,
+        30369,
+        14208
+      ],
+      "rejected_count": 42,
+      "usual_paths": [
+        {
+          "question": "what is the color of the plate holding the carrots, potatoes, and chicken?",
+          "answers": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "score": 0.029888629913330078
+        },
+        {
+          "question": "what is the color of the plate holding the carrots, potatoes, and chicken?",
+          "answers": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "score": 0.029888629913330078,
+          "duplicate_of": 0
+        },
+        {
+          "question": "What is the color of the plate holding the sandwich and roasted meat?",
+          "answers": [
+            "white",
+            "colorful",
+            "patterned"
+          ],
+          "score": 0.010921478271484375
+        },
+        {
+          "question": "what type of food is on the white plate that is holding the carrots, potatoes, and chicken?",
+          "answers": [
+            "carrots",
+            "potatoes",
+            "chicken"
+          ],
+          "score": 0.009874820709228516
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "fork",
+            "glass",
+            "napkin"
+          ],
+          "score": 0.01300811767578125
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "fork",
+            "knife",
+            "plate"
+          ],
+          "score": 0.008228778839111328
+        },
+        {
+          "question": "Question: What is the main food item on the wooden table that is not pizza or salad?",
+          "answers": [
+            "sandwich",
+            "roasted meat",
+            "vegetable"
+          ],
+          "score": 0.023232460021972656
+        },
+        {
+          "question": "**Question:** Does the main food item on the white plate include chicken?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0009331703186035156
+        },
+        {
+          "question": "**Question:** What is the main food item on the white plate that is not pizza or salad?",
+          "answers": [
+            "sandwich",
+            "roasted meat",
+            "vegetables"
+          ],
+          "score": 0.01458597183227539
+        },
+        {
+          "question": "**Question:** What is the main food item on the wooden table that is not pizza or salad?",
+          "answers": [
+            "sandwich",
+            "broccoli",
+            "carrot"
+          ],
+          "score": 0.017788410186767578
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "an assortment of different foods on a wooden table, featuring a white plate with a small portion of red sauce, a white plate holding pizza, a white plate with carrots, potatoes, and chicken, and a silver fork",
+      "question": "What is the specific type of food item displayed on the white plate?",
+      "answer": "sauce",
+      "query_after": "an assortment of different foods on a wooden table, featuring a white plate with a small portion of red sauce in the center, alongside a white plate holding a sandwich, a white plate with carrots, potatoes, and chicken, a pizza, and a silver fork",
+      "displayed_ids": [
+        47090,
+        23060,
+        14554,
+        34918,
+        37827,
+        618,
+        15406,
+        31177,
+        18980,
+        14717
+      ],
+      "selected_ids": [
+        3819,
+        19499,
+        20826,
+        29568,
+        23001,
+        10115,
+        45129,
+        14554,
+        47090,
+        43552
+      ],
+      "rejected_count": 50,
+      "usual_paths": [
+        {
+          "question": "what is the color of the plate holding the steak?",
+          "answers": [
+            "white",
+            "colorful",
+            "unknown"
+          ],
+          "score": 0.007172107696533203
+        },
+        {
+          "question": "what is the color of the plate holding the steak?",
+          "answers": [
+            "white",
+            "colorful",
+            "unknown"
+          ],
+          "score": 0.007172107696533203,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the plate holding the steak?",
+          "answers": [
+            "white",
+            "colorful",
+            "unknown"
+          ],
+          "score": 0.007172107696533203,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the plate holding the steak?",
+          "answers": [
+            "white",
+            "colorful",
+            "unknown"
+          ],
+          "score": 0.007172107696533203,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the plate holding the steak?",
+          "answers": [
+            "white",
+            "colorful",
+            "unknown"
+          ],
+          "score": 0.007172107696533203,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the specific type of food item displayed on the white plate?",
+          "answers": [
+            "salad",
+            "red sauce",
+            "carrots"
+          ],
+          "score": 0.03264474868774414
+        },
+        {
+          "question": "**Question:** What is the main food item displayed on the plate with carrots, potatoes, and chicken?",
+          "answers": [
+            "white",
+            "chicken",
+            "carrots"
+          ],
+          "score": 0.0035529136657714844
+        },
+        {
+          "question": "**Question:** What is the main food item displayed on the plate with carrots, potatoes, and chicken?",
+          "answers": [
+            "white",
+            "chicken",
+            "carrots"
+          ],
+          "score": 0.0035529136657714844,
+          "duplicate_of": 1
+        },
+        {
+          "question": "**Question:** What is the main food item displayed on the plate with carrots, potatoes, and chicken?",
+          "answers": [
+            "white",
+            "chicken",
+            "carrots"
+          ],
+          "score": 0.0035529136657714844,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the specific food item displayed on the white plate with carrots, potatoes, and chicken?",
+          "answers": [
+            "white",
+            "chicken",
+            "carrots"
+          ],
+          "score": 0.002166748046875
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "an assortment of different foods on a wooden table, featuring a white plate with a small portion of red sauce in the center, alongside a white plate holding a sandwich, a white plate with carrots, potatoes, and chicken, a pizza, and a silver fork",
+      "question": "what is the color of the plate holding the pizza?",
+      "answer": "white",
+      "query_after": "an assortment of different foods on a wooden table, featuring a white plate with a small portion of red sauce in the center, alongside a pizza on another white plate, a sandwich on a white plate, and a side of carrots, potatoes, and chicken on a white plate, with a silver fork also on the table",
+      "displayed_ids": [
+        47090,
+        23060,
+        14554,
+        31093,
+        34918,
+        18752,
+        22496,
+        39989,
+        4227,
+        12037
+      ],
+      "selected_ids": [
+        22496,
+        18470,
+        45129,
+        18980,
+        20826,
+        47090,
+        18752,
+        14554,
+        13878
+      ],
+      "rejected_count": 55,
+      "usual_paths": [
+        {
+          "question": "Where is the fork located on the table?",
+          "answers": [
+            "next to the plate",
+            "on the table",
+            "on the left"
+          ],
+          "score": 0.0018696784973144531
+        },
+        {
+          "question": "what is the color of the fork on the table?",
+          "answers": [
+            "silver",
+            "gold",
+            "black"
+          ],
+          "score": 0.031964778900146484
+        },
+        {
+          "question": "what is the location of the fork on the table?",
+          "answers": [
+            "left",
+            "right",
+            "center"
+          ],
+          "score": 0.0017642974853515625
+        },
+        {
+          "question": "what is the location of the fork on the table?",
+          "answers": [
+            "left",
+            "right",
+            "center"
+          ],
+          "score": 0.0017642974853515625,
+          "duplicate_of": 2
+        },
+        {
+          "question": "where is the fork located on the table?",
+          "answers": [
+            "on the left",
+            "on the right",
+            "in the center"
+          ],
+          "score": 0.00225067138671875
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the plate holding the salad?",
+          "answers": [
+            "green",
+            "white",
+            "blue"
+          ],
+          "score": 0.03007984161376953
+        },
+        {
+          "question": "what is the color of the plate holding the pizza?",
+          "answers": [
+            "white",
+            "black",
+            "red"
+          ],
+          "score": 0.04211139678955078
+        },
+        {
+          "question": "what is the color of the plate holding the eggs benedict?",
+          "answers": [
+            "white",
+            "black",
+            "green"
+          ],
+          "score": 0.03324270248413086
+        },
+        {
+          "question": "what is the color of the plate holding the bread?",
+          "answers": [
+            "white",
+            "brown"
+          ],
+          "score": 0.006474494934082031
+        },
+        {
+          "question": "what is the color of the plate holding the pizza?",
+          "answers": [
+            "white",
+            "black",
+            "red"
+          ],
+          "score": 0.04211139678955078,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

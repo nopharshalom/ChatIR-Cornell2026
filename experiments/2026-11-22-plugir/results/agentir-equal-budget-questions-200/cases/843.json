@@ -1,0 +1,80 @@
+{
+  "qid": 843,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the plate containing the fruit and vegetables?",
+    "what is the color of the plate containing the fruit and vegetables?",
+    "what is the color of the plate?",
+    "Question: what is the color of the plate containing the fruit and vegetables?",
+    "what is the color of the plate containing the fruit and vegetables?"
+  ],
+  "second_candidates": [
+    "what is the specific type of plate containing the fruit and vegetables on the table?",
+    "what is the color of the plate containing the fruit and vegetables on the table?",
+    "Question: what is the specific type of food on the plate containing fruit and vegetables on the table?",
+    "what is the color of the plate containing the fruit and vegetables on the table?",
+    "what is the specific type of plate containing the fruit and vegetables on the table?"
+  ],
+  "paths": [
+    {
+      "question": "what is the specific type of plate containing the fruit and vegetables on the table?",
+      "answers": [
+        "white",
+        "three",
+        "container"
+      ],
+      "score": 0.02984762191772461
+    },
+    {
+      "question": "what is the color of the plate containing the fruit and vegetables on the table?",
+      "answers": [
+        "white",
+        "brown",
+        "colorless"
+      ],
+      "score": 0.030115127563476562
+    },
+    {
+      "question": "Question: what is the specific type of food on the plate containing fruit and vegetables on the table?",
+      "answers": [
+        "fruit and vegetables",
+        "sandwich, salad, and beer",
+        "white plate with different vegetables and meats"
+      ],
+      "score": 0.11194372177124023
+    },
+    {
+      "question": "what is the color of the plate containing the fruit and vegetables on the table?",
+      "answers": [
+        "white",
+        "brown",
+        "colorless"
+      ],
+      "score": 0.030115127563476562,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the specific type of plate containing the fruit and vegetables on the table?",
+      "answers": [
+        "white",
+        "three",
+        "container"
+      ],
+      "score": 0.02984762191772461,
+      "duplicate_of": 0
+    }
+  ],
+  "control": {
+    "question": "Question: what is the specific type of food on the plate containing fruit and vegetables on the table?",
+    "score": 0.11194372177124023
+  },
+  "mixed": {
+    "question": "what is the color of the plate?",
+    "score": 0.08391523361206055
+  },
+  "control_rank": 1,
+  "mixed_rank": 2,
+  "usual_rank": 2,
+  "new_answer": "bento",
+  "new_rewrite": "a bento box containing fruit and vegetables sits on a table next to a mug of coffee"
+}

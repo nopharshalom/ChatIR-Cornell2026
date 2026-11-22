@@ -1,0 +1,60 @@
+{
+  "qid": 1862,
+  "arm": "fresh",
+  "after_round": 5,
+  "ranks": [
+    176,
+    301,
+    223,
+    196,
+    40,
+    42,
+    40,
+    83,
+    108,
+    148,
+    175
+  ],
+  "continuation": [
+    {
+      "round": 6,
+      "query_before": "A sunny city street scene featuring a green traffic light located in the upper right quadrant, along with a stop sign.",
+      "question": "Is the traffic light green or red?",
+      "answer": "green",
+      "query_after": "a sunny city street scene featuring a green traffic light in the upper right quadrant and a stop sign",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Is the traffic light green or red?",
+      "fallback": false
+    },
+    {
+      "round": 7,
+      "query_before": "a sunny city street scene featuring a green traffic light in the upper right quadrant and a stop sign",
+      "question": "Question: What is the type of structure located behind the traffic light in the image?",
+      "answer": "building",
+      "query_after": "a sunny city street scene featuring a green traffic light in the upper right quadrant and a stop sign, with a building visible in the background behind the traffic light"
+    },
+    {
+      "round": 8,
+      "query_before": "a sunny city street scene featuring a green traffic light in the upper right quadrant and a stop sign, with a building visible in the background behind the traffic light",
+      "question": "what is the architectural style of the building located behind the traffic light?",
+      "answer": "The building behind the traffic light appears to be a mid-20th-century residential or mixed-use structure, featuring:\n\n- A blocky, rectilinear form with flat or slightly sloped roofs.\n- Horizontal banding in color",
+      "query_after": "a sunny city street scene featuring a green traffic light in the upper right quadrant and a stop sign, with a mid-20th-century blocky residential or mixed-use building featuring flat roofs and horizontal banding in the background"
+    },
+    {
+      "round": 9,
+      "query_before": "a sunny city street scene featuring a green traffic light in the upper right quadrant and a stop sign, with a mid-20th-century blocky residential or mixed-use building featuring flat roofs and horizontal banding in the background",
+      "question": "What is the color of the building located behind the traffic light?",
+      "answer": "orange",
+      "query_after": "a sunny city street scene featuring a green traffic light in the upper right quadrant and a stop sign, with an orange, mid-20th-century blocky building featuring horizontal banding in the background"
+    },
+    {
+      "round": 10,
+      "query_before": "a sunny city street scene featuring a green traffic light in the upper right quadrant and a stop sign, with an orange, mid-20th-century blocky building featuring horizontal banding in the background",
+      "question": "**Generated Question:**\nWhat is the color of the traffic light in the image?",
+      "answer": "green",
+      "query_after": "A sunny city street scene featuring a green traffic light in the upper right and a stop sign, set against a background of an orange, mid-20th-century blocky building with horizontal banding."
+    }
+  ],
+  "seconds": 68.0
+}

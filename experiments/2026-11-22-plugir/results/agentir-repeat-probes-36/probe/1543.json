@@ -1,0 +1,85 @@
+{
+  "qid": 1543,
+  "arm": "probe",
+  "after_round": 3,
+  "ranks": [
+    29,
+    14,
+    14,
+    13,
+    21,
+    12,
+    17,
+    16,
+    8
+  ],
+  "continuation": [
+    {
+      "round": 4,
+      "query_before": "a bathroom featuring a black vanity, a white toilet, and a dual sink",
+      "question": "Is the bathroom in the scene with the black toilet or the one with the brown toilet?",
+      "answer": "black toilet",
+      "query_after": "The bathroom includes a white toilet, a dual sink, and a black vanity.",
+      "searches": [
+        {
+          "query": "a bathroom with a white toilet, dual sinks, and a black vanity",
+          "ids": [
+            36408,
+            6306,
+            42905
+          ],
+          "captions": [
+            "a black bathroom with two sinks and mirrors",
+            "this is a black and white bathroom with a black mirror and a mirror",
+            "a bathroom sink with two mirrors behind it"
+          ]
+        },
+        {
+          "query": "a bathroom with a white toilet, dual sinks, and a white vanity",
+          "ids": [
+            10082,
+            20810,
+            11589
+          ],
+          "captions": [
+            "a room in a bathroom with a vanity sink and toilet",
+            "a large modern bathroom with sink, shower and toilet",
+            "a bathroom with blue walls and a white floor"
+          ]
+        }
+      ],
+      "raw_plan": "a bathroom with a white toilet, dual sinks, and a black vanity\na bathroom with a white toilet, dual sinks, and a white vanity",
+      "generated": "Is the bathroom in the scene with the black toilet or the one with the brown toilet?",
+      "fallback": false
+    },
+    {
+      "round": 5,
+      "query_before": "The bathroom includes a white toilet, a dual sink, and a black vanity.",
+      "question": "what is the color of the vanity in the bathroom with a black toilet and dual sink?",
+      "answer": "black",
+      "query_after": "a bathroom featuring a black vanity, a dual sink, and a white toilet"
+    },
+    {
+      "round": 6,
+      "query_before": "a bathroom featuring a black vanity, a dual sink, and a white toilet",
+      "question": "what is the color of the dual sink in the bathroom with a black vanity and a black toilet?",
+      "answer": "white",
+      "query_after": "a bathroom featuring a black vanity, a white dual sink, and a black toilet"
+    },
+    {
+      "round": 7,
+      "query_before": "a bathroom featuring a black vanity, a white dual sink, and a black toilet",
+      "question": "what is the material of the counter top in the bathroom with a black vanity, a black toilet, and a dual white sink?",
+      "answer": "granite",
+      "query_after": "a bathroom featuring a black vanity and a black toilet with a dual white sink, set against a granite countertop"
+    },
+    {
+      "round": 8,
+      "query_before": "a bathroom featuring a black vanity and a black toilet with a dual white sink, set against a granite countertop",
+      "question": "what is the color of the floor in the bathroom with a black vanity, a black toilet, and a dual white sink?",
+      "answer": "beige",
+      "query_after": "a bathroom featuring a black vanity and a black toilet with a dual white sink, a granite countertop, and beige flooring"
+    }
+  ],
+  "seconds": 44.2
+}

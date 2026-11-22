@@ -1,0 +1,60 @@
+{
+  "qid": 1169,
+  "arm": "fresh",
+  "after_round": 5,
+  "ranks": [
+    42,
+    25,
+    49,
+    43,
+    47,
+    106,
+    51,
+    52,
+    106,
+    43,
+    51
+  ],
+  "continuation": [
+    {
+      "round": 6,
+      "query_before": "two silver laptops and a white iPod dock sitting on a wooden desk",
+      "question": "Is the laptop on a bed or on a desk?",
+      "answer": "desk",
+      "query_after": "two silver computers and a white iPod dock sit on a wooden desk, with a laptop positioned next to them",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Is the laptop on a bed or on a desk?",
+      "fallback": false
+    },
+    {
+      "round": 7,
+      "query_before": "two silver computers and a white iPod dock sit on a wooden desk, with a laptop positioned next to them",
+      "question": "what is the color of the laptop computer?",
+      "answer": "silver",
+      "query_after": "two silver computers and a white iPod dock sit on a wooden desk, with a silver laptop positioned nearby"
+    },
+    {
+      "round": 8,
+      "query_before": "two silver computers and a white iPod dock sit on a wooden desk, with a silver laptop positioned nearby",
+      "question": "what is the color of the ipod dock?",
+      "answer": "white",
+      "query_after": "two silver laptops and a white iPod dock sitting on a wooden desk"
+    },
+    {
+      "round": 9,
+      "query_before": "two silver laptops and a white iPod dock sitting on a wooden desk",
+      "question": "**Question:** What is the color of the two computers?",
+      "answer": "silver",
+      "query_after": "two silver computers and a white iPod dock sitting on a wooden desk"
+    },
+    {
+      "round": 10,
+      "query_before": "two silver computers and a white iPod dock sitting on a wooden desk",
+      "question": "What is the color of the monitor located on the desk with the two silver computers and white iPod dock?",
+      "answer": "silver",
+      "query_after": "two silver computers and a silver monitor sit on a wooden desk next to a white iPod dock"
+    }
+  ],
+  "seconds": 66.7
+}

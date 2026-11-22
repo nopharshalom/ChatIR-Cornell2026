@@ -1,0 +1,178 @@
+{
+  "qid": 2049,
+  "initial": "people skiing on a path through the snow",
+  "initial_rank": 14,
+  "displayed": [
+    11344,
+    26434,
+    49534,
+    28837,
+    29604,
+    17992,
+    34295,
+    36223,
+    35429,
+    22742
+  ],
+  "evidence": [
+    "a lot of people skiing at a mountaintop",
+    "a group of people in red ski jackets standing in the snow",
+    "a man riding a horse through a snowy park",
+    "a man wearing a ski jacket racing through a forest",
+    "a female skier on a cross country ski race",
+    "two skiers standing next to each other at a race",
+    "four people wearing ski jackets pose for a photo",
+    "a lot of people ski near a mountain top",
+    "a woman is on skis on a wooded trail",
+    "two people on skis in a wooded area"
+  ],
+  "rejected_captions": [
+    "three people on skis walking across a forest path",
+    "the ground is covered in snow",
+    "snow covered trees in the background",
+    "snow covered trees",
+    "white snow on the ground",
+    "skiers on a snowy path",
+    "two men riding skis on the snow covered terrain",
+    "a group of people ski down a snow covered hill",
+    "people on skis boarding a slope",
+    "two people cross country skiing on a snow covered slope"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the gender of the person skiing on the path through the snow?",
+      "what is the gender of the person skiing on the path through the snow?",
+      "what is the location where the person is skiing on the path through the snow?",
+      "Question: what is the gender of the person skiing on the path through the snow?",
+      "what is the clothing worn by the person skiing on the path through the snow?"
+    ],
+    "question": "what is the clothing worn by the person skiing on the path through the snow?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the gender of the person skiing on the path through the snow?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.030982494354248047
+        },
+        {
+          "question": "what is the gender of the person skiing on the path through the snow?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.030982494354248047,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the location where the person is skiing on the path through the snow?",
+          "answers": [
+            "mountaintop",
+            "snowy park",
+            "forest"
+          ],
+          "score": 0.09398365020751953
+        },
+        {
+          "question": "Question: what is the gender of the person skiing on the path through the snow?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.026020050048828125
+        },
+        {
+          "question": "what is the clothing worn by the person skiing on the path through the snow?",
+          "answers": [
+            "ski jacket",
+            "red jacket",
+            "black jacket"
+          ],
+          "score": 0.11920547485351562
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.154,
+      "probe_selection_seconds": 1.856,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "yellow jacket and black pants",
+    "rewrite": "a person wearing a yellow jacket and black pants skiing on a path through the snow",
+    "raw_rank": 19,
+    "unseen_rank": 19
+  },
+  "rejected": {
+    "candidates": [
+      "Question: Is the skier male or female?",
+      "Question: What is the gender of the skier(s) in the image?",
+      "Question: What is the background scenery behind the skiers?",
+      "Question: What is the gender of the skiers in the image?",
+      "Question: What color are the ski jackets worn by the people?"
+    ],
+    "question": "Question: What color are the ski jackets worn by the people?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: Is the skier male or female?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.004084110260009766
+        },
+        {
+          "question": "Question: What is the gender of the skier(s) in the image?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.0312657356262207
+        },
+        {
+          "question": "Question: What is the background scenery behind the skiers?",
+          "answers": [
+            "mountain top",
+            "forest",
+            "wooded trail"
+          ],
+          "score": 0.11170244216918945
+        },
+        {
+          "question": "Question: What is the gender of the skiers in the image?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.030336856842041016
+        },
+        {
+          "question": "Question: What color are the ski jackets worn by the people?",
+          "answers": [
+            "red",
+            "green",
+            "blue"
+          ],
+          "score": 0.1172494888305664
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.156,
+      "probe_selection_seconds": 2.247,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "Yellow.",
+    "rewrite": "people wearing yellow ski jackets skiing on a path through the snow",
+    "raw_rank": 1,
+    "unseen_rank": 1
+  }
+}

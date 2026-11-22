@@ -1,0 +1,1332 @@
+{
+  "qid": 1647,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000465443.jpg",
+  "queries": [
+    "a train area on the edge of a city, with a few trains stopped and resting",
+    "a green train traveling down the tracks in a train area on the edge of a city, with a few other trains stopped and resting nearby",
+    "a green train traveling down the tracks in a train area on the edge of a city, with another green train stopped and resting nearby",
+    "a green train engine pulling a green water tank, with a few other green trains stopped and resting on the tracks in a train area on the edge of a city",
+    "a green train area on the edge of a city, featuring a green train traveling down the tracks, a green train stopped and resting, and a green steam locomotive pulling a water tank",
+    "a green train traveling down the tracks, a green train stopped and resting, and a green steam locomotive pulling a water tank, set against a background of city buildings",
+    "a green train engine pulling a green water tank and a few other green trains stopped and resting on the tracks, set against a background of city buildings",
+    "a green train area on the edge of a city, featuring multiple green trains stopped and resting, a green steam locomotive pulling a green water tank, with city buildings in the background and a green tour bus nearby",
+    "a green train area on the edge of a city, featuring multiple green trains stopped and resting, a green steam locomotive pulling a green water tank, a green tour bus, with buildings in the background and the city location unknown",
+    "a daytime view of a green train area on the edge of a city, featuring a green train traveling down the tracks, a green steam locomotive, a green train engine pulling a water tank, and a green tour bus, with city buildings in the background",
+    "a green train engine pulling a green water tank and a green car, with a few other green trains stopped and resting nearby, set against a backdrop of city buildings during the daytime"
+  ],
+  "ranks": [
+    100,
+    13,
+    11,
+    25,
+    70,
+    18,
+    19,
+    22,
+    22,
+    32,
+    15
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a train area on the edge of a city, with a few trains stopped and resting",
+      "question": "what is the color of the train traveling down the tracks in the image?",
+      "answer": "green",
+      "query_after": "a green train traveling down the tracks in a train area on the edge of a city, with a few other trains stopped and resting nearby",
+      "displayed_ids": [
+        29077,
+        47993,
+        2199,
+        5848,
+        41643,
+        15366,
+        47510,
+        42479,
+        29814,
+        20647
+      ],
+      "selected_ids": [
+        45438,
+        38205,
+        38103,
+        43064,
+        47154,
+        42835,
+        33264,
+        14277,
+        21241,
+        32028
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: What is the color of the train stopped on the curb in the image?",
+          "answers": [
+            "yellow",
+            "white",
+            "blue"
+          ],
+          "score": 0.08328676223754883
+        },
+        {
+          "question": "what is the age of the train stopped on the curb in the image?",
+          "answers": [
+            "old",
+            "new",
+            "modern"
+          ],
+          "score": 0.04450368881225586
+        },
+        {
+          "question": "what is the color of the train traveling down the tracks in the image?",
+          "answers": [
+            "yellow",
+            "red",
+            "black"
+          ],
+          "score": 0.1029052734375
+        },
+        {
+          "question": "what is the color of the train traveling down the tracks in the image?",
+          "answers": [
+            "yellow",
+            "red",
+            "black"
+          ],
+          "score": 0.1029052734375,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the location of the train traveling down the tracks in the image?",
+          "answers": [
+            "near a big city",
+            "near a power line",
+            "on the curb"
+          ],
+          "score": 0.051808834075927734
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the train stopped at the edge of the city?",
+          "answers": [
+            "yellow",
+            "red",
+            "black"
+          ],
+          "score": 0.047088623046875
+        },
+        {
+          "question": "Question: What color is the train stopped at the edge of the city?",
+          "answers": [
+            "yellow and white",
+            "yellow and red",
+            "yellow and black"
+          ],
+          "score": 0.03238344192504883
+        },
+        {
+          "question": "Question: Question: What type of train is stopped at the edge of the city?",
+          "answers": [
+            "old train",
+            "yellow and white train",
+            "yellow and black train"
+          ],
+          "score": 0.04939603805541992
+        },
+        {
+          "question": "Question: What is the color of the train stopped at the edge of the city?",
+          "answers": [
+            "yellow",
+            "red",
+            "black"
+          ],
+          "score": 0.047088623046875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the train stopped at the edge of the city?",
+          "answers": [
+            "yellow",
+            "red",
+            "black"
+          ],
+          "score": 0.047088623046875,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a green train traveling down the tracks in a train area on the edge of a city, with a few other trains stopped and resting nearby",
+      "question": "what is the color of the train that is stopped and resting in the image?",
+      "answer": "green",
+      "query_after": "a green train traveling down the tracks in a train area on the edge of a city, with another green train stopped and resting nearby",
+      "displayed_ids": [
+        45053,
+        37264,
+        27649,
+        31296,
+        13234,
+        26404,
+        1910,
+        29814,
+        45648,
+        31644
+      ],
+      "selected_ids": [
+        14277,
+        42696,
+        44862,
+        45696,
+        17339,
+        26641,
+        32028,
+        11330,
+        15583
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a tree",
+            "a bus",
+            "a structure"
+          ],
+          "score": 0.06754636764526367
+        },
+        {
+          "question": "Where exactly is this train area located within the city?",
+          "answers": [
+            "downtown",
+            "suburbs",
+            "industrial"
+          ],
+          "score": 0.023262500762939453
+        },
+        {
+          "question": "what is the color of the train that is stopped and resting in the image?",
+          "answers": [
+            "red",
+            "gray and green",
+            "yellow and black"
+          ],
+          "score": 0.11129999160766602
+        },
+        {
+          "question": "what is the color of the train that is stopped and resting in the image?",
+          "answers": [
+            "red",
+            "gray and green",
+            "yellow and black"
+          ],
+          "score": 0.11129999160766602,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the train that is stopped and resting in the image?",
+          "answers": [
+            "red",
+            "gray and green",
+            "yellow and black"
+          ],
+          "score": 0.11129999160766602,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: what is the surface or ground type where the green train is stopped?",
+          "answers": [
+            "gravel",
+            "wet street",
+            "tracks"
+          ],
+          "score": 0.033898353576660156
+        },
+        {
+          "question": "what is the type of vehicle that is parked next to the green train?",
+          "answers": [
+            "jet",
+            "bus",
+            "tree"
+          ],
+          "score": 0.03839445114135742
+        },
+        {
+          "question": "what is the color of the bus in the image?",
+          "answers": [
+            "green",
+            "yellow",
+            "gray"
+          ],
+          "score": 0.03571939468383789
+        },
+        {
+          "question": "what is the color of the train engine in the image?",
+          "answers": [
+            "green",
+            "yellow",
+            "red"
+          ],
+          "score": 0.06770658493041992
+        },
+        {
+          "question": "what is the color of the train engine in the image?",
+          "answers": [
+            "green",
+            "yellow",
+            "red"
+          ],
+          "score": 0.06770658493041992,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a green train traveling down the tracks in a train area on the edge of a city, with another green train stopped and resting nearby",
+      "question": "what is the color of the train engine pulling the water tank?",
+      "answer": "green",
+      "query_after": "a green train engine pulling a green water tank, with a few other green trains stopped and resting on the tracks in a train area on the edge of a city",
+      "displayed_ids": [
+        45053,
+        27649,
+        13234,
+        26404,
+        31296,
+        31644,
+        16125,
+        37264,
+        2272,
+        28579
+      ],
+      "selected_ids": [
+        17695,
+        7257,
+        32028,
+        26641,
+        47510,
+        4901,
+        7943,
+        15514,
+        15583,
+        44862
+      ],
+      "rejected_count": 22,
+      "usual_paths": [
+        {
+          "question": "what is the object being pulled by the train engine in the image?",
+          "answers": [
+            "water tank",
+            "passenger cars",
+            "freight cars"
+          ],
+          "score": 0.056728363037109375
+        },
+        {
+          "question": "what is the object being pulled by the train engine in the image?",
+          "answers": [
+            "water tank",
+            "passenger cars",
+            "freight cars"
+          ],
+          "score": 0.056728363037109375,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the train engine pulling a water tank down some tracks?",
+          "answers": [
+            "green",
+            "unknown",
+            "no such train"
+          ],
+          "score": 0.0031604766845703125
+        },
+        {
+          "question": "what is the color of the train engine pulling a water tank down some tracks?",
+          "answers": [
+            "green",
+            "unknown",
+            "no such train"
+          ],
+          "score": 0.0031604766845703125,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the train engine pulling a water tank down some tracks?",
+          "answers": [
+            "green",
+            "unknown",
+            "no such train"
+          ],
+          "score": 0.0031604766845703125,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the train engine pulling the water tank?",
+          "answers": [
+            "yellow",
+            "black and yellow",
+            "blue, red and white"
+          ],
+          "score": 0.09254169464111328
+        },
+        {
+          "question": "what type of train is the green train pulling?",
+          "answers": [
+            "water tank",
+            "car",
+            "passenger cars"
+          ],
+          "score": 0.030361175537109375
+        },
+        {
+          "question": "what is the color of the train engine pulling the water tank?",
+          "answers": [
+            "yellow",
+            "black and yellow",
+            "blue, red and white"
+          ],
+          "score": 0.09254169464111328,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the train engine pulling the water tank?",
+          "answers": [
+            "yellow",
+            "black and yellow",
+            "blue, red and white"
+          ],
+          "score": 0.09254169464111328,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the train engine pulling the water tank?",
+          "answers": [
+            "yellow",
+            "black and yellow",
+            "blue, red and white"
+          ],
+          "score": 0.09254169464111328,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 3,
+      "query_before": "a green train engine pulling a green water tank, with a few other green trains stopped and resting on the tracks in a train area on the edge of a city",
+      "question": "what is the color of the steam locomotive in the image?",
+      "answer": "green",
+      "query_after": "a green train area on the edge of a city, featuring a green train traveling down the tracks, a green train stopped and resting, and a green steam locomotive pulling a water tank",
+      "displayed_ids": [
+        37264,
+        4901,
+        31644,
+        1910,
+        16816,
+        45648,
+        29609,
+        8936,
+        49294,
+        2272
+      ],
+      "selected_ids": [
+        4521,
+        19509,
+        2089,
+        48224,
+        45755,
+        7550,
+        29749,
+        48183,
+        26376,
+        7329
+      ],
+      "rejected_count": 27,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bus",
+            "toilet seat",
+            "chair"
+          ],
+          "score": 0.026696205139160156
+        },
+        {
+          "question": "what is the color of the train traveling along the tracks on the edge of the property?",
+          "answers": [
+            "green",
+            "red",
+            "yellow"
+          ],
+          "score": 0.049295902252197266
+        },
+        {
+          "question": "what is the location of the train that is stopped and resting in the image?",
+          "answers": [
+            "train station",
+            "edge of city",
+            "train yard"
+          ],
+          "score": 0.014544963836669922
+        },
+        {
+          "question": "what is the color of the train engine pulling the water tank?",
+          "answers": [
+            "green",
+            "red",
+            "silver"
+          ],
+          "score": 0.02429342269897461
+        },
+        {
+          "question": "what is the location of the train that is stopped and resting in the image?",
+          "answers": [
+            "train station",
+            "edge of city",
+            "train yard"
+          ],
+          "score": 0.014544963836669922,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "bus",
+            "toilet seat",
+            "chair"
+          ],
+          "score": 0.026696205139160156
+        },
+        {
+          "question": "what is the color of the steam locomotive in the image?",
+          "answers": [
+            "green",
+            "red",
+            "yellow"
+          ],
+          "score": 0.0496220588684082
+        },
+        {
+          "question": "what is the color of the steam locomotive in the image?",
+          "answers": [
+            "green",
+            "red",
+            "yellow"
+          ],
+          "score": 0.0496220588684082,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the steam locomotive in the image?",
+          "answers": [
+            "green",
+            "red",
+            "yellow"
+          ],
+          "score": 0.0496220588684082,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the steam locomotive in the image?",
+          "answers": [
+            "green",
+            "red",
+            "no steam locomotive"
+          ],
+          "score": 0.019454002380371094
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a green train area on the edge of a city, featuring a green train traveling down the tracks, a green train stopped and resting, and a green steam locomotive pulling a water tank",
+      "question": "Question: What is the background scenery near the train area?",
+      "answer": "buildings",
+      "query_after": "a green train traveling down the tracks, a green train stopped and resting, and a green steam locomotive pulling a water tank, set against a background of city buildings",
+      "displayed_ids": [
+        4901,
+        37463,
+        31644,
+        8936,
+        11611,
+        18618,
+        38603,
+        18414,
+        49509,
+        26366
+      ],
+      "selected_ids": [
+        48183,
+        45438,
+        29749,
+        44821,
+        49795,
+        23714,
+        13098,
+        1088,
+        8985,
+        45386
+      ],
+      "rejected_count": 34,
+      "usual_paths": [
+        {
+          "question": "what is the specific location or setting where the green train is stopped and resting?",
+          "answers": [
+            "city edge",
+            "meadow",
+            "station"
+          ],
+          "score": 0.018605709075927734
+        },
+        {
+          "question": "what is the specific location or setting where the green train is stopped and resting?",
+          "answers": [
+            "city edge",
+            "meadow",
+            "station"
+          ],
+          "score": 0.018605709075927734,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the train pulling up to the platform?",
+          "answers": [
+            "green",
+            "white",
+            "black"
+          ],
+          "score": 0.006641864776611328
+        },
+        {
+          "question": "what is the specific location or setting where the green train is stopped and resting?",
+          "answers": [
+            "city edge",
+            "meadow",
+            "station"
+          ],
+          "score": 0.018605709075927734,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the location where the green train is stopped and resting?",
+          "answers": [
+            "city",
+            "meadow",
+            "station"
+          ],
+          "score": 0.019777297973632812
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "trees",
+            "platform",
+            "railway"
+          ],
+          "score": 0.02946186065673828
+        },
+        {
+          "question": "Question: What is the background scenery near the train area?",
+          "answers": [
+            "a green and yellow train pulls up to a platform",
+            "a train driving along a track with the freight cars on it",
+            "a train driving on the tracks in a green meadow"
+          ],
+          "score": 0.040836334228515625
+        },
+        {
+          "question": "Question: Are there people visible in the image?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0013689994812011719
+        },
+        {
+          "question": "what is the type of train engine visible in the image?",
+          "answers": [
+            "steam",
+            "diesel",
+            "electric"
+          ],
+          "score": 0.007681369781494141
+        },
+        {
+          "question": "Question: Are there people visible in the image?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0013689994812011719,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a green train traveling down the tracks, a green train stopped and resting, and a green steam locomotive pulling a water tank, set against a background of city buildings",
+      "question": "what is the color of the train engine pulling the water tank?",
+      "answer": "green",
+      "query_after": "a green train engine pulling a green water tank and a few other green trains stopped and resting on the tracks, set against a background of city buildings",
+      "displayed_ids": [
+        4901,
+        31644,
+        31296,
+        37463,
+        8936,
+        16434,
+        16816,
+        27649,
+        29609,
+        37264
+      ],
+      "selected_ids": [
+        49795,
+        26605,
+        28037,
+        34390,
+        9639,
+        27544,
+        42754,
+        4521,
+        26641,
+        34138
+      ],
+      "rejected_count": 35,
+      "usual_paths": [
+        {
+          "question": "What is the time of day depicted in the image of the train area?",
+          "answers": [
+            "day",
+            "evening",
+            "night"
+          ],
+          "score": 0.03002309799194336
+        },
+        {
+          "question": "Question: What is the specific type of the train engine pulling the water tank?",
+          "answers": [
+            "steam locomotive",
+            "diesel locomotive",
+            "electric locomotive"
+          ],
+          "score": 0.009328842163085938
+        },
+        {
+          "question": "what is the color of the train engine pulling the water tank?",
+          "answers": [
+            "green",
+            "red",
+            "yellow"
+          ],
+          "score": 0.033022403717041016
+        },
+        {
+          "question": "what is the type of the train engine pulling the water tank?",
+          "answers": [
+            "steam",
+            "diesel",
+            "electric"
+          ],
+          "score": 0.01074838638305664
+        },
+        {
+          "question": "what is the location of the train area depicted in the image?",
+          "answers": [
+            "city edge",
+            "urban area",
+            "downtown"
+          ],
+          "score": 0.004380226135253906
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the time of day depicted in the image of the train area?",
+          "answers": [
+            "day",
+            "evening",
+            "night"
+          ],
+          "score": 0.03002309799194336
+        },
+        {
+          "question": "Question: What is the state of motion of the train engine pulling the water tank?",
+          "answers": [
+            "moving",
+            "stopped",
+            "traveling"
+          ],
+          "score": 0.0019307136535644531
+        },
+        {
+          "question": "Question: What is the color of the train engine pulling the water tank?",
+          "answers": [
+            "green",
+            "red",
+            "yellow"
+          ],
+          "score": 0.03267621994018555
+        },
+        {
+          "question": "Question: What is the state of the train engine pulling the water tank?",
+          "answers": [
+            "moving",
+            "stopped",
+            "resting"
+          ],
+          "score": 0.001850128173828125
+        },
+        {
+          "question": "Question: Is the train engine pulling the water tank visible in the image?",
+          "answers": [
+            "Yes",
+            "No",
+            "Partially"
+          ],
+          "score": 0.0017881393432617188
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a green train engine pulling a green water tank and a few other green trains stopped and resting on the tracks, set against a background of city buildings",
+      "question": "what is the color of the tour bus located near the city?",
+      "answer": "green",
+      "query_after": "a green train area on the edge of a city, featuring multiple green trains stopped and resting, a green steam locomotive pulling a green water tank, with city buildings in the background and a green tour bus nearby",
+      "displayed_ids": [
+        45053,
+        4901,
+        37264,
+        27649,
+        31296,
+        31644,
+        13234,
+        1910,
+        16816,
+        10855
+      ],
+      "selected_ids": [
+        29609,
+        28037,
+        47311,
+        48183,
+        29749,
+        47502,
+        8364,
+        39920,
+        26641
+      ],
+      "rejected_count": 36,
+      "usual_paths": [
+        {
+          "question": "what is the color of the tour bus located near the city?",
+          "answers": [
+            "green",
+            "yellow",
+            "red"
+          ],
+          "score": 0.0388941764831543
+        },
+        {
+          "question": "what is the color of the tour bus located near the city?",
+          "answers": [
+            "green",
+            "yellow",
+            "red"
+          ],
+          "score": 0.0388941764831543,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the tour bus located near the city?",
+          "answers": [
+            "green",
+            "yellow",
+            "red"
+          ],
+          "score": 0.0388941764831543,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "buildings",
+            "tracks",
+            "skyscrapers"
+          ],
+          "score": 0.012841224670410156
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "buildings",
+            "tracks",
+            "skyscrapers"
+          ],
+          "score": 0.012841224670410156,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the type of train engine pulling the water tank in the image?",
+          "answers": [
+            "steam",
+            "diesel",
+            "electric"
+          ],
+          "score": 0.012625694274902344
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "buildings",
+            "water",
+            "tracks"
+          ],
+          "score": 0.00439453125
+        },
+        {
+          "question": "Question: What is the location of the train engine pulling the water tank?",
+          "answers": [
+            "city",
+            "edge of city",
+            "urban area"
+          ],
+          "score": 0.0014595985412597656
+        },
+        {
+          "question": "Question: Is the train engine pulling the water tank old-fashioned?",
+          "answers": [
+            "yes",
+            "no",
+            "unknown"
+          ],
+          "score": 0.0006780624389648438
+        },
+        {
+          "question": "Question: Are the trains in the image passenger trains or freight trains?",
+          "answers": [
+            "passenger",
+            "freight",
+            "both"
+          ],
+          "score": 0.002833843231201172
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a green train area on the edge of a city, featuring multiple green trains stopped and resting, a green steam locomotive pulling a green water tank, with city buildings in the background and a green tour bus nearby",
+      "question": "What is the name of the city where this train area is located?",
+      "answer": "I'm not sure.",
+      "query_after": "a green train area on the edge of a city, featuring multiple green trains stopped and resting, a green steam locomotive pulling a green water tank, a green tour bus, with buildings in the background and the city location unknown",
+      "displayed_ids": [
+        45053,
+        38646,
+        31296,
+        37264,
+        16434,
+        4901,
+        27246,
+        47502,
+        1910,
+        8936
+      ],
+      "selected_ids": [
+        47502,
+        9905,
+        49795,
+        23694,
+        35742,
+        26605,
+        47311,
+        45423,
+        29609,
+        36187
+      ],
+      "rejected_count": 39,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "buildings",
+            "water",
+            "city"
+          ],
+          "score": 0.01077127456665039
+        },
+        {
+          "question": "what is the color of the bus located near the city?",
+          "answers": [
+            "green",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.019852638244628906
+        },
+        {
+          "question": "Question: What is the color of the bus located near the city?",
+          "answers": [
+            "green",
+            "red",
+            "yellow"
+          ],
+          "score": 0.020961284637451172
+        },
+        {
+          "question": "what is the color of the bus located near the city?",
+          "answers": [
+            "green",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.019852638244628906,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the bus located near the city?",
+          "answers": [
+            "green",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.019852638244628906,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is there a person visible in the image?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0011162757873535156
+        },
+        {
+          "question": "What is the name of the city where this train area is located?",
+          "answers": [
+            "New York",
+            "London",
+            "Unknown"
+          ],
+          "score": 0.03693199157714844
+        },
+        {
+          "question": "Question: What is the color of the train engine pulling the water tank?",
+          "answers": [
+            "green",
+            "red",
+            "black"
+          ],
+          "score": 0.013207435607910156
+        },
+        {
+          "question": "Question: What is the state of the train engine pulling the water tank in the image?",
+          "answers": [
+            "stopped",
+            "resting",
+            "idling"
+          ],
+          "score": 0.0008335113525390625
+        },
+        {
+          "question": "Question: Is there a person visible in the image?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0011162757873535156,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a green train area on the edge of a city, featuring multiple green trains stopped and resting, a green steam locomotive pulling a green water tank, a green tour bus, with buildings in the background and the city location unknown",
+      "question": "What is the time of day depicted in the image of the train area?",
+      "answer": "daytime",
+      "query_after": "a daytime view of a green train area on the edge of a city, featuring a green train traveling down the tracks, a green steam locomotive, a green train engine pulling a water tank, and a green tour bus, with city buildings in the background",
+      "displayed_ids": [
+        38646,
+        31296,
+        45053,
+        37264,
+        16434,
+        27246,
+        27462,
+        47502,
+        4901,
+        27649
+      ],
+      "selected_ids": [
+        36187,
+        19412,
+        47311,
+        25200,
+        23475,
+        26641,
+        47502,
+        23694,
+        47510
+      ],
+      "rejected_count": 40,
+      "usual_paths": [
+        {
+          "question": "what is the location of the green train engine pulling the water tank?",
+          "answers": [
+            "edge of a city",
+            "train station",
+            "near the city"
+          ],
+          "score": 0.006077289581298828
+        },
+        {
+          "question": "what is the location of the green train that is stopped and resting?",
+          "answers": [
+            "edge of a city",
+            "train station",
+            "outskirts"
+          ],
+          "score": 0.009895801544189453
+        },
+        {
+          "question": "what is the location of the green tour bus located near the city?",
+          "answers": [
+            "city",
+            "water",
+            "train station"
+          ],
+          "score": 0.014534950256347656
+        },
+        {
+          "question": "what is the color of the bus located near the stop sign?",
+          "answers": [
+            "green",
+            "yellow",
+            "unknown"
+          ],
+          "score": 0.009460926055908203
+        },
+        {
+          "question": "what is the color of the school bus parked near the stop sign in the image?",
+          "answers": [
+            "yellow",
+            "green",
+            "red"
+          ],
+          "score": 0.013476371765136719
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the time of day depicted in the image of the train area?",
+          "answers": [
+            "day",
+            "night",
+            "dusk"
+          ],
+          "score": 0.023544788360595703
+        },
+        {
+          "question": "Question: What is the color of the bus located near the city?",
+          "answers": [
+            "green",
+            "blue",
+            "red"
+          ],
+          "score": 0.013797283172607422
+        },
+        {
+          "question": "Question: What is the color of the bus located near the city?",
+          "answers": [
+            "green",
+            "blue",
+            "red"
+          ],
+          "score": 0.013797283172607422,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the bus located near the city?",
+          "answers": [
+            "green",
+            "blue",
+            "red"
+          ],
+          "score": 0.013797283172607422,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the bus located near the city?",
+          "answers": [
+            "green",
+            "blue",
+            "red"
+          ],
+          "score": 0.013797283172607422,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "a daytime view of a green train area on the edge of a city, featuring a green train traveling down the tracks, a green steam locomotive, a green train engine pulling a water tank, and a green tour bus, with city buildings in the background",
+      "question": "Question: What is the object the green train engine is pulling or pulling into?",
+      "answer": "car",
+      "query_after": "a green train engine pulling a green water tank and a green car, with a few other green trains stopped and resting nearby, set against a backdrop of city buildings during the daytime",
+      "displayed_ids": [
+        45053,
+        38646,
+        12652,
+        4901,
+        31296,
+        33698,
+        13234,
+        8936,
+        16434,
+        47502
+      ],
+      "selected_ids": [
+        35742,
+        16434,
+        37305,
+        34138,
+        45386,
+        10708,
+        39920,
+        23018,
+        47311
+      ],
+      "rejected_count": 42,
+      "usual_paths": [
+        {
+          "question": "what is the color of the bus located near the pond in the image?",
+          "answers": [
+            "green",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.008797645568847656
+        },
+        {
+          "question": "what is the color of the bus located near the pond in the image?",
+          "answers": [
+            "green",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.008797645568847656,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bus located near the pond in the image?",
+          "answers": [
+            "green",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.008797645568847656,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bus located near the pond in the image?",
+          "answers": [
+            "green",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.008797645568847656,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the bus located near the pond in the image?",
+          "answers": [
+            "green",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.008797645568847656,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "buildings",
+            "sky",
+            "water"
+          ],
+          "score": 0.005156040191650391
+        },
+        {
+          "question": "Question: what is the object the green train engine is pulling or pulling into?",
+          "answers": [
+            "wagons",
+            "tunnel",
+            "city"
+          ],
+          "score": 0.008739948272705078
+        },
+        {
+          "question": "Question: What is the object the green train engine is pulling or pulling into?",
+          "answers": [
+            "wagons",
+            "tunnel",
+            "water tank"
+          ],
+          "score": 0.011662006378173828
+        },
+        {
+          "question": "**Question:** Is the train in the image a real train or a model train?",
+          "answers": [
+            "real",
+            "model",
+            "both"
+          ],
+          "score": 0.003670215606689453
+        },
+        {
+          "question": "**Question:** Is the train in the image a real train or a model train?",
+          "answers": [
+            "real",
+            "model",
+            "both"
+          ],
+          "score": 0.003670215606689453,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

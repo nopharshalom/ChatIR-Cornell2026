@@ -1,0 +1,78 @@
+{
+  "qid": 1488,
+  "sample": 2,
+  "first_candidates": [
+    "Question: What is the uniform color of the soccer player preparing to take a shot?",
+    "what is the color of the uniform worn by the soccer player preparing to take a shot?",
+    "Question: What is the color of the soccer player's uniform?",
+    "what is the team color of the soccer player preparing to take a shot?",
+    "what is the color of the uniform worn by the person playing soccer?"
+  ],
+  "second_candidates": [
+    "what color is the uniform of the soccer player preparing to take a shot?",
+    "what is the gender of the person wearing the soccer uniform?",
+    "what is the action of the soccer player wearing a red uniform?",
+    "what is the location where the soccer player is preparing to take a shot?",
+    "what is the specific action of the soccer player wearing a red uniform?"
+  ],
+  "paths": [
+    {
+      "question": "what color is the uniform of the soccer player preparing to take a shot?",
+      "answers": [
+        "red",
+        "black",
+        "white"
+      ],
+      "score": 0.09054231643676758
+    },
+    {
+      "question": "what is the gender of the person wearing the soccer uniform?",
+      "answers": [
+        "boy",
+        "girl",
+        "man"
+      ],
+      "score": 0.08081483840942383
+    },
+    {
+      "question": "what is the action of the soccer player wearing a red uniform?",
+      "answers": [
+        "kicking",
+        "dribbling",
+        "tackling"
+      ],
+      "score": 0.01904296875
+    },
+    {
+      "question": "what is the location where the soccer player is preparing to take a shot?",
+      "answers": [
+        "soccer field",
+        "stadium",
+        "pitch"
+      ],
+      "score": 0.022400379180908203
+    },
+    {
+      "question": "what is the specific action of the soccer player wearing a red uniform?",
+      "answers": [
+        "kicking",
+        "chasing",
+        "preparing to shoot"
+      ],
+      "score": 0.0346531867980957
+    }
+  ],
+  "control": {
+    "question": "what is the color of the uniform worn by the person playing soccer?",
+    "score": 0.17953920364379883
+  },
+  "mixed": {
+    "question": "what is the color of the uniform worn by the person playing soccer?",
+    "score": 0.17953920364379883
+  },
+  "control_rank": 4,
+  "mixed_rank": 4,
+  "usual_rank": 4,
+  "new_answer": null,
+  "new_rewrite": null
+}

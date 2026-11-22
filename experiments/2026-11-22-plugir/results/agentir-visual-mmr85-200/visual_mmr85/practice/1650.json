@@ -1,0 +1,90 @@
+{
+  "chosen": "what is the material of the bench?",
+  "default": "what is the surface the bench is sitting on?",
+  "ids": [
+    7695,
+    38089,
+    18637,
+    12426
+  ],
+  "trials": {
+    "what is the surface the bench is sitting on?": {
+      "answers": [
+        "concrete",
+        "ground",
+        "grass",
+        "pavement"
+      ],
+      "rewrites": {
+        "concrete": "the bench faces toward the concrete walkway outside and is situated on a concrete surface",
+        "ground": "the bench faces toward the concrete walkway outside, but it is actually sitting on the ground",
+        "grass": "a bench facing a concrete walkway, situated on a grassy surface",
+        "pavement": "the bench faces toward the concrete walkway outside and is situated on a pavement surface"
+      },
+      "ranks": [
+        13,
+        35,
+        28,
+        38
+      ],
+      "hits": 0
+    },
+    "what is the material of the bench?": {
+      "answers": [
+        "wood",
+        "wood",
+        "wood",
+        "wood and metal"
+      ],
+      "rewrites": {
+        "wood": "a wooden bench facing a concrete walkway outside",
+        "wood and metal": "a bench made of wood and metal faces toward a concrete walkway outside"
+      },
+      "ranks": [
+        10,
+        48,
+        16,
+        4
+      ],
+      "hits": 2
+    },
+    "Question: what is the color of the bench?": {
+      "answers": [
+        "brown",
+        "grey",
+        "brown",
+        "brown"
+      ],
+      "rewrites": {
+        "brown": "a brown bench faces toward the concrete walkway outside",
+        "grey": "a grey bench facing a concrete walkway outside"
+      },
+      "ranks": [
+        22,
+        11,
+        52,
+        19
+      ],
+      "hits": 0
+    },
+    "Question: what is the color of the walkway the bench is facing?": {
+      "answers": [
+        "gray",
+        "green",
+        "gray",
+        "gray"
+      ],
+      "rewrites": {
+        "gray": "a bench facing a gray concrete walkway outside",
+        "green": "a bench facing a green concrete walkway"
+      },
+      "ranks": [
+        14,
+        23,
+        22,
+        60
+      ],
+      "hits": 0
+    }
+  }
+}

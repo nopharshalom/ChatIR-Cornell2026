@@ -1,0 +1,804 @@
+{
+  "qid": 234,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000323135.jpg",
+  "queries": [
+    "a giraffe looks at something while standing above some weeds",
+    "a giraffe stands above some weeds, looking at something unknown",
+    "a giraffe stands above a mix of grass and dirt, looking at something in the distance",
+    "a giraffe stands above a mix of grass and dirt, looking at an unknown object or animal",
+    "a giraffe stands above a mix of grass and dirt, looking at an unknown object, with no other animals visible nearby",
+    "a giraffe stands above a mix of grass and dirt, looking at an unknown object, with a chain link fence nearby and no other animals visible",
+    "a black chain link fence is visible in the background of a giraffe standing above a mix of grass and dirt, looking at an unknown object with no other animals present"
+  ],
+  "ranks": [
+    268,
+    355,
+    32,
+    22,
+    36,
+    22,
+    6
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a giraffe looks at something while standing above some weeds",
+      "question": "What is the giraffe looking at?",
+      "answer": "unsure",
+      "query_after": "a giraffe stands above some weeds, looking at something unknown",
+      "displayed_ids": [
+        34421,
+        121,
+        37049,
+        48570,
+        26305,
+        45179,
+        22339,
+        42715,
+        17699,
+        31695
+      ],
+      "selected_ids": [
+        36711,
+        2640,
+        1298,
+        37922,
+        19606,
+        17090,
+        1734,
+        42018,
+        24761,
+        40844
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the giraffe looking at something while standing above some weeds?",
+          "answers": [
+            "brown",
+            "tawny",
+            "orange"
+          ],
+          "score": 0.007325172424316406
+        },
+        {
+          "question": "what is the object that the giraffe is looking at?",
+          "answers": [
+            "a car",
+            "a person",
+            "a tree"
+          ],
+          "score": 0.03597116470336914
+        },
+        {
+          "question": "What is the giraffe looking at while standing above the weeds?",
+          "answers": [
+            "a fence",
+            "trees",
+            "a bridge"
+          ],
+          "score": 0.07829618453979492
+        },
+        {
+          "question": "What is the giraffe looking at?",
+          "answers": [
+            "Weeds",
+            "A car",
+            "A fence"
+          ],
+          "score": 0.1046743392944336
+        },
+        {
+          "question": "What is the giraffe looking at?",
+          "answers": [
+            "Weeds",
+            "A car",
+            "A fence"
+          ],
+          "score": 0.1046743392944336,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the background of the giraffe standing above the weeds?",
+          "answers": [
+            "fence",
+            "wooden bridge",
+            "stones"
+          ],
+          "score": 0.08576488494873047
+        },
+        {
+          "question": "Question: Is the giraffe standing in a zoo or in the wild?",
+          "answers": [
+            "zoo",
+            "wild",
+            "pen"
+          ],
+          "score": 0.038053035736083984
+        },
+        {
+          "question": "Question: What is the man wearing?",
+          "answers": [
+            "glasses and tie",
+            "no glasses",
+            "a hat"
+          ],
+          "score": 0.017580509185791016
+        },
+        {
+          "question": "Question: What is the color of the giraffe's body?",
+          "answers": [
+            "brown and white",
+            "tawny and white",
+            "golden and white"
+          ],
+          "score": 0.008906364440917969
+        },
+        {
+          "question": "Question: What is the object the giraffe is looking at?",
+          "answers": [
+            "a zebra",
+            "a man",
+            "an elephant"
+          ],
+          "score": 0.03677701950073242
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a giraffe stands above some weeds, looking at something unknown",
+      "question": "what is the texture of the ground surrounding the giraffe?",
+      "answer": "The ground surrounding the giraffe is a mix of grass and dirt.",
+      "query_after": "a giraffe stands above a mix of grass and dirt, looking at something in the distance",
+      "displayed_ids": [
+        121,
+        34421,
+        37049,
+        26305,
+        45179,
+        48570,
+        22339,
+        42715,
+        17699,
+        31695
+      ],
+      "selected_ids": [
+        19606,
+        11189,
+        4103,
+        40844,
+        17090,
+        514,
+        24761,
+        18107,
+        2640,
+        37922
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the location of the giraffe standing above the weeds?",
+          "answers": [
+            "a field",
+            "a meadow",
+            "grass"
+          ],
+          "score": 0.006390094757080078
+        },
+        {
+          "question": "Question: What is the color of the giraffe's coat?",
+          "answers": [
+            "white and brown spots",
+            "brown and white spots",
+            "tawny and white"
+          ],
+          "score": 0.003984928131103516
+        },
+        {
+          "question": "what is the texture of the ground surrounding the giraffe?",
+          "answers": [
+            "dirt",
+            "grass",
+            "weeds"
+          ],
+          "score": 0.010069847106933594
+        },
+        {
+          "question": "what is the color of the giraffe's coat?",
+          "answers": [
+            "brown and white",
+            "orange and white",
+            "yellow and white"
+          ],
+          "score": 0.00878143310546875
+        },
+        {
+          "question": "Based on the provided information, here is the generated question and the explanation of how the sources were utilized:\n\n**Generated Question:**\n\"Is the giraffe?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0005016326904296875
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is the giraffe standing in a field of tall weeds?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0018219947814941406
+        },
+        {
+          "question": "Question: What is the color of the giraffe's coat?",
+          "answers": [
+            "white and brown spots",
+            "brown and white spots",
+            "tawny and white"
+          ],
+          "score": 0.003984928131103516
+        },
+        {
+          "question": "What is the color of the giraffe's coat?",
+          "answers": [
+            "spotted",
+            "brown",
+            "white"
+          ],
+          "score": 0.007886409759521484
+        },
+        {
+          "question": "Question: What is the color of the giraffe's coat?",
+          "answers": [
+            "white and brown spots",
+            "brown and white spots",
+            "tawny and white"
+          ],
+          "score": 0.003984928131103516,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the color of the giraffe's coat?",
+          "answers": [
+            "white and brown spots",
+            "brown and white spots",
+            "tawny and white"
+          ],
+          "score": 0.003984928131103516,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a giraffe stands above a mix of grass and dirt, looking at something in the distance",
+      "question": "Question: What is the object or animal that the giraffe is looking at?",
+      "answer": "I'm unsure.",
+      "query_after": "a giraffe stands above a mix of grass and dirt, looking at an unknown object or animal",
+      "displayed_ids": [
+        27442,
+        36721,
+        2261,
+        40169,
+        44779,
+        48282,
+        4621,
+        27685,
+        27352,
+        39223
+      ],
+      "selected_ids": [
+        17090,
+        15376,
+        34446,
+        48324,
+        19606,
+        41635,
+        45162,
+        29107,
+        24761,
+        22616
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what is the specific type of vegetation the giraffe is interacting with in the image?",
+          "answers": [
+            "grass",
+            "weeds",
+            "dirt"
+          ],
+          "score": 0.028803348541259766
+        },
+        {
+          "question": "what is the specific type of vegetation the giraffe is interacting with in the image?",
+          "answers": [
+            "grass",
+            "weeds",
+            "dirt"
+          ],
+          "score": 0.028803348541259766,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the specific type of vegetation the giraffe is interacting with in the image?",
+          "answers": [
+            "grass",
+            "weeds",
+            "dirt"
+          ],
+          "score": 0.028803348541259766,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the specific type of vegetation the giraffe is interacting with in the image?",
+          "answers": [
+            "grass",
+            "weeds",
+            "dirt"
+          ],
+          "score": 0.028803348541259766,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Based on the provided information, here is the next question and the explanation of how the sources were utilized.\n\n**Question:**\n**What is the specific type?",
+          "answers": [
+            "grassland",
+            "savanna",
+            "zoo"
+          ],
+          "score": 0.03643083572387695
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the object or animal that the giraffe is looking at?",
+          "answers": [
+            "grass",
+            "weeds",
+            "dirt"
+          ],
+          "score": 0.0335230827331543
+        },
+        {
+          "question": "what is the color of the giraffe's fur?",
+          "answers": [
+            "brown and white",
+            "tawny and white",
+            "golden and white"
+          ],
+          "score": 0.008358955383300781
+        },
+        {
+          "question": "what is the sky like above the giraffe?",
+          "answers": [
+            "cloudy",
+            "clear",
+            "sunny"
+          ],
+          "score": 0.03185701370239258
+        },
+        {
+          "question": "what is the color of the giraffe's fur?",
+          "answers": [
+            "brown and white",
+            "tawny and white",
+            "golden and white"
+          ],
+          "score": 0.008358955383300781,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the object or animal that the giraffe is looking at?",
+          "answers": [
+            "a bush",
+            "a tree",
+            "a rock"
+          ],
+          "score": 0.11125516891479492
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 3,
+      "query_before": "a giraffe stands above a mix of grass and dirt, looking at an unknown object or animal",
+      "question": "what is the animal standing next to the giraffe?",
+      "answer": "no other animal is visible in the image.",
+      "query_after": "a giraffe stands above a mix of grass and dirt, looking at an unknown object, with no other animals visible nearby",
+      "displayed_ids": [
+        2261,
+        27352,
+        40169,
+        27442,
+        21443,
+        29909,
+        29469,
+        44779,
+        27685,
+        34068
+      ],
+      "selected_ids": [
+        48324,
+        24761,
+        33650,
+        1809,
+        29107,
+        43988,
+        41635,
+        369,
+        26595,
+        34446
+      ],
+      "rejected_count": 24,
+      "usual_paths": [
+        {
+          "question": "What is the color of the giraffe's fur?",
+          "answers": [
+            "brown",
+            "yellow",
+            "orange"
+          ],
+          "score": 0.012357711791992188
+        },
+        {
+          "question": "what is the specific type of ground cover surrounding the giraffe?",
+          "answers": [
+            "grass and dirt",
+            "dry brush",
+            "tall grass"
+          ],
+          "score": 0.0771036148071289
+        },
+        {
+          "question": "what is the color of the giraffe's fur?",
+          "answers": [
+            "yellow",
+            "brown",
+            "orange"
+          ],
+          "score": 0.012357711791992188
+        },
+        {
+          "question": "what is the color of the giraffe's fur?",
+          "answers": [
+            "yellow",
+            "brown",
+            "orange"
+          ],
+          "score": 0.012357711791992188,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the giraffe's fur?",
+          "answers": [
+            "yellow",
+            "brown",
+            "orange"
+          ],
+          "score": 0.012357711791992188,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the color of the giraffe's fur?",
+          "answers": [
+            "brown",
+            "yellow",
+            "orange"
+          ],
+          "score": 0.012357711791992188
+        },
+        {
+          "question": "what is the animal standing next to the giraffe?",
+          "answers": [
+            "no animal",
+            "a tree",
+            "a fence"
+          ],
+          "score": 0.10986328125
+        },
+        {
+          "question": "what is the color of the giraffe's fur?",
+          "answers": [
+            "yellow",
+            "brown",
+            "orange"
+          ],
+          "score": 0.012357711791992188
+        },
+        {
+          "question": "what is the color of the giraffe's fur?",
+          "answers": [
+            "yellow",
+            "brown",
+            "orange"
+          ],
+          "score": 0.012357711791992188,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the giraffe's fur?",
+          "answers": [
+            "yellow",
+            "brown",
+            "orange"
+          ],
+          "score": 0.012357711791992188,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a giraffe stands above a mix of grass and dirt, looking at an unknown object, with no other animals visible nearby",
+      "question": "what is the type of fence visible near the giraffe?",
+      "answer": "chain link",
+      "query_after": "a giraffe stands above a mix of grass and dirt, looking at an unknown object, with a chain link fence nearby and no other animals visible",
+      "displayed_ids": [
+        40169,
+        2261,
+        29469,
+        44779,
+        27352,
+        4621,
+        27442,
+        36721,
+        18115,
+        39223
+      ],
+      "selected_ids": [
+        34446,
+        4406,
+        41635,
+        29107,
+        369,
+        24761,
+        18672,
+        48324,
+        43988,
+        7283
+      ],
+      "rejected_count": 25,
+      "usual_paths": [
+        {
+          "question": "what is the type of fence visible near the giraffe?",
+          "answers": [
+            "wooden",
+            "chain link",
+            "none"
+          ],
+          "score": 0.036749839782714844
+        },
+        {
+          "question": "Question: What is the material of the fence visible near the giraffe?",
+          "answers": [
+            "wood",
+            "metal",
+            "wire"
+          ],
+          "score": 0.033667564392089844
+        },
+        {
+          "question": "what is the color of the fence visible near the giraffe?",
+          "answers": [
+            "green",
+            "brown",
+            "black"
+          ],
+          "score": 0.021180152893066406
+        },
+        {
+          "question": "what is the color of the fence visible near the giraffe?",
+          "answers": [
+            "green",
+            "brown",
+            "black"
+          ],
+          "score": 0.021180152893066406,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the type of fence visible near the giraffe?",
+          "answers": [
+            "wooden",
+            "chain link",
+            "none"
+          ],
+          "score": 0.036749839782714844,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the giraffe's fur?",
+          "answers": [
+            "yellow and brown",
+            "tawny",
+            "golden"
+          ],
+          "score": 0.008384227752685547
+        },
+        {
+          "question": "what is the pattern on the giraffe's fur?",
+          "answers": [
+            "spots",
+            "brown and white patches",
+            "stripes"
+          ],
+          "score": 0.015317440032958984
+        },
+        {
+          "question": "what is the color of the giraffe's fur?",
+          "answers": [
+            "yellow and brown",
+            "tawny",
+            "golden"
+          ],
+          "score": 0.008384227752685547,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the giraffe's fur?",
+          "answers": [
+            "brown",
+            "tan",
+            "yellow"
+          ],
+          "score": 0.005324840545654297
+        },
+        {
+          "question": "Question: What is the background of the image, a field with trees or a dry brush?",
+          "answers": [
+            "a field with trees",
+            "a dry brush"
+          ],
+          "score": 0.0118560791015625
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a giraffe stands above a mix of grass and dirt, looking at an unknown object, with a chain link fence nearby and no other animals visible",
+      "question": "what is the color of the fence near the giraffe?",
+      "answer": "black",
+      "query_after": "a black chain link fence is visible in the background of a giraffe standing above a mix of grass and dirt, looking at an unknown object with no other animals present",
+      "displayed_ids": [
+        21532,
+        30376,
+        15473,
+        7283,
+        13176,
+        29107,
+        33343,
+        41112,
+        18115,
+        42098
+      ],
+      "selected_ids": [
+        47180,
+        19979,
+        12452,
+        11815,
+        24761,
+        21443,
+        32756,
+        7297,
+        15696,
+        41635
+      ],
+      "rejected_count": 34,
+      "usual_paths": [
+        {
+          "question": "what is the color of the fence near the giraffe?",
+          "answers": [
+            "green",
+            "silver",
+            "black"
+          ],
+          "score": 0.0158538818359375
+        },
+        {
+          "question": "what is the color of the chain link fence near the giraffe?",
+          "answers": [
+            "green",
+            "silver",
+            "black"
+          ],
+          "score": 0.013773441314697266
+        },
+        {
+          "question": "what is the color of the chain link fence near the giraffe?",
+          "answers": [
+            "green",
+            "silver",
+            "black"
+          ],
+          "score": 0.013773441314697266,
+          "duplicate_of": 1
+        },
+        {
+          "question": "What is the color of the chain link fence near the giraffe?",
+          "answers": [
+            "silver",
+            "green",
+            "white"
+          ],
+          "score": 0.009951114654541016
+        },
+        {
+          "question": "what is the color of the chain link fence near the giraffe?",
+          "answers": [
+            "green",
+            "silver",
+            "black"
+          ],
+          "score": 0.013773441314697266,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the grass surrounding the giraffe?",
+          "answers": [
+            "green",
+            "brown",
+            "yellow"
+          ],
+          "score": 0.011016845703125
+        },
+        {
+          "question": "Question: What is the color of the grass surrounding the giraffe?",
+          "answers": [
+            "green",
+            "brown",
+            "yellow"
+          ],
+          "score": 0.011016845703125,
+          "duplicate_of": 0
+        },
+        {
+          "question": "What is the color of the grass surrounding the giraffe?",
+          "answers": [
+            "green",
+            "brown",
+            "yellow"
+          ],
+          "score": 0.0132293701171875
+        },
+        {
+          "question": "Question: Is there a stone or rock visible on the ground near the giraffe?",
+          "answers": [
+            "yes",
+            "no",
+            "unsure"
+          ],
+          "score": 0.0010704994201660156
+        },
+        {
+          "question": "Question: What is the color of the giraffe's skin?",
+          "answers": [
+            "yellow and brown",
+            "brown and white",
+            "tawny and brown"
+          ],
+          "score": 0.004659175872802734
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

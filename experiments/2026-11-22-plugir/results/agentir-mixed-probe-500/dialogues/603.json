@@ -1,0 +1,148 @@
+{
+  "qid": 603,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000498340.jpg",
+  "queries": [
+    "a woman standing on a longboard off the beach",
+    "a woman standing on a yellow longboard off the beach"
+  ],
+  "ranks": [
+    27,
+    4
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a woman standing on a longboard off the beach",
+      "question": "what is the color of the woman's longboard?",
+      "answer": "yellow",
+      "query_after": "a woman standing on a yellow longboard off the beach",
+      "displayed_ids": [
+        41417,
+        48361,
+        20469,
+        44732,
+        19066,
+        43409,
+        49505,
+        29816,
+        30476,
+        43139
+      ],
+      "selected_ids": [
+        46735,
+        30571,
+        29441,
+        32125,
+        48497,
+        43678,
+        29174,
+        38876,
+        27207,
+        360
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the woman's longboard?",
+          "answers": [
+            "blue",
+            "green",
+            "yellow"
+          ],
+          "score": 0.10488462448120117
+        },
+        {
+          "question": "what is the activity the woman is performing on the longboard?",
+          "answers": [
+            "surfing",
+            "standing",
+            "waiting"
+          ],
+          "score": 0.009686946868896484
+        },
+        {
+          "question": "what is the color of the woman's longboard?",
+          "answers": [
+            "blue",
+            "green",
+            "yellow"
+          ],
+          "score": 0.10488462448120117,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the woman's longboard?",
+          "answers": [
+            "blue",
+            "green",
+            "yellow"
+          ],
+          "score": 0.10488462448120117,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the woman's longboard?",
+          "answers": [
+            "blue",
+            "green",
+            "yellow"
+          ],
+          "score": 0.10488462448120117,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is the woman standing on the longboard on the beach or in the water?",
+          "answers": [
+            "beach",
+            "water",
+            "shore"
+          ],
+          "score": 0.018749713897705078
+        },
+        {
+          "question": "Question: What color is the woman's hair?",
+          "answers": [
+            "blonde",
+            "brown",
+            "black"
+          ],
+          "score": 0.038439273834228516
+        },
+        {
+          "question": "Question: What color is the woman's wetsuit?",
+          "answers": [
+            "black",
+            "blue",
+            "gray"
+          ],
+          "score": 0.03716754913330078
+        },
+        {
+          "question": "Question: What color is the woman's wetsuit?",
+          "answers": [
+            "black",
+            "blue",
+            "gray"
+          ],
+          "score": 0.03716754913330078,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What color is the woman's wetsuit?",
+          "answers": [
+            "black",
+            "blue",
+            "gray"
+          ],
+          "score": 0.03716754913330078,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

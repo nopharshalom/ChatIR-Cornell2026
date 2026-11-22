@@ -1,0 +1,73 @@
+{
+  "qid": 454,
+  "arm": "probe",
+  "after_round": 7,
+  "ranks": [
+    16,
+    27,
+    85,
+    113,
+    74,
+    129,
+    69,
+    94,
+    95,
+    156,
+    228
+  ],
+  "continuation": [
+    {
+      "round": 8,
+      "query_before": "a brown giraffe stands on a grassy surface among shorter trees and brush, with a sky background and other trees visible in the distance",
+      "question": "Is the giraffe eating leaves or just standing still?",
+      "answer": "just standing still",
+      "query_after": "a single brown giraffe stands still on a grassy surface among shorter trees and brush, with a sky background and trees approximately 10 feet tall",
+      "searches": [
+        {
+          "query": "a single brown giraffe standing on grass among 10-foot trees with a sky background",
+          "ids": [
+            42173,
+            1809,
+            13642
+          ],
+          "captions": [
+            "a giraffe in a field of dry grass",
+            "a giraffe standing tall in tall grass",
+            "a giraffe standing in the middle of a green field"
+          ]
+        },
+        {
+          "query": "a single brown giraffe standing on grass among 10-foot trees with a cloudy sky background",
+          "ids": [
+            5314,
+            25068,
+            49744
+          ],
+          "captions": [
+            "giraffe standing by a tree",
+            "a giraffe is standing in the grass",
+            "a giraffe standing next to a tree"
+          ]
+        }
+      ],
+      "raw_plan": "a single brown giraffe standing on grass among 10-foot trees with a sky background\na single brown giraffe standing on grass among 10-foot trees with a cloudy sky background",
+      "generated": "Is the giraffe eating leaves or just standing still?",
+      "fallback": false
+    },
+    {
+      "round": 9,
+      "query_before": "a single brown giraffe stands still on a grassy surface among shorter trees and brush, with a sky background and trees approximately 10 feet tall",
+      "question": "what is the specific lighting condition or area type (e.g., shady, dry, treeless) where the giraffe is standing?",
+      "answer": "shady",
+      "query_after": "a brown giraffe stands still on grass under shady conditions, surrounded by short trees (about 10 feet tall) and brush against a sky background"
+    },
+    {
+      "round": 10,
+      "query_before": "a brown giraffe stands still on grass under shady conditions, surrounded by short trees (about 10 feet tall) and brush against a sky background",
+      "question": "what is the color of the leaves in the background of the image where the giraffe is standing?",
+      "answer": "green",
+      "query_after": "a brown giraffe stands still on grass under shady conditions, surrounded by green trees that are about 10 feet tall, with a sky background"
+    }
+  ],
+  "seconds": 20.8
+}

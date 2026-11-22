@@ -1,0 +1,108 @@
+{
+  "qid": 1579,
+  "arm": "probe",
+  "after_round": 2,
+  "ranks": [
+    86,
+    31,
+    34,
+    46,
+    69,
+    58,
+    45,
+    56,
+    36,
+    36,
+    36
+  ],
+  "continuation": [
+    {
+      "round": 3,
+      "query_before": "A man is standing in the middle of the road, with a red truck driving up and a traffic light visible.",
+      "question": "Is the red vehicle a fire truck or a regular truck?",
+      "answer": "regular truck",
+      "query_after": "a man stands in the middle of a road next to a traffic light, while a regular red truck drives up",
+      "searches": [
+        {
+          "query": "man in blue hard hat and white safety vest stands in middle of road with red fire truck approaching and traffic light visible above",
+          "ids": [
+            42357,
+            46449,
+            40050
+          ],
+          "captions": [
+            "the kids are waiting for a fire truck to come",
+            "a group of construction workers in front of a big mountain",
+            "a red fire truck driving down a street"
+          ]
+        },
+        {
+          "query": "man in blue hard hat and white safety vest stands in middle of road with red fire truck approaching and traffic light obscured by shadows",
+          "ids": [
+            46449,
+            24284,
+            42357
+          ],
+          "captions": [
+            "a group of construction workers in front of a big mountain",
+            "a red fire hydrant sits on the sidewalk",
+            "the kids are waiting for a fire truck to come"
+          ]
+        }
+      ],
+      "raw_plan": "man in blue hard hat and white safety vest stands in middle of road with red fire truck approaching and traffic light visible above\nman in blue hard hat and white safety vest stands in middle of road with red fire truck approaching and traffic light obscured by shadows",
+      "generated": "Is the red vehicle a fire truck or a regular truck?",
+      "fallback": false
+    },
+    {
+      "round": 4,
+      "query_before": "a man stands in the middle of a road next to a traffic light, while a regular red truck drives up",
+      "question": "what is the other object in the image?",
+      "answer": "traffic light",
+      "query_after": "a man stands in the middle of a road with a red regular truck driving up and a traffic light visible"
+    },
+    {
+      "round": 5,
+      "query_before": "a man stands in the middle of a road with a red regular truck driving up and a traffic light visible",
+      "question": "Question: Is the man in the image wearing a hat?",
+      "answer": "no",
+      "query_after": "a man without a hat stands in the middle of a road, while a regular red truck drives up past a traffic light"
+    },
+    {
+      "round": 6,
+      "query_before": "a man without a hat stands in the middle of a road, while a regular red truck drives up past a traffic light",
+      "question": "what color is the hard hat worn by the man in the image?",
+      "answer": "black",
+      "query_after": "a man wearing a black hard hat stands in the middle of a road, while a regular red truck drives up past a traffic light"
+    },
+    {
+      "round": 7,
+      "query_before": "a man wearing a black hard hat stands in the middle of a road, while a regular red truck drives up past a traffic light",
+      "question": "what is the other object in the image?",
+      "answer": "traffic light",
+      "query_after": "a man wearing a black hard hat stands in the middle of a road, with a red regular truck driving up and a traffic light visible in the background"
+    },
+    {
+      "round": 8,
+      "query_before": "a man wearing a black hard hat stands in the middle of a road, with a red regular truck driving up and a traffic light visible in the background",
+      "question": "what is the other object in the image?",
+      "answer": "traffic light",
+      "query_after": "a man wearing a black hard hat stands in the middle of a road near a traffic light, while a regular red truck drives up"
+    },
+    {
+      "round": 9,
+      "query_before": "a man wearing a black hard hat stands in the middle of a road near a traffic light, while a regular red truck drives up",
+      "question": "what is the other object in the image?",
+      "answer": "traffic light",
+      "query_after": "A man wearing a black hard hat stands in the middle of a road near a traffic light, while a standard red truck drives up."
+    },
+    {
+      "round": 10,
+      "query_before": "A man wearing a black hard hat stands in the middle of a road near a traffic light, while a standard red truck drives up.",
+      "question": "what is the other object in the image?",
+      "answer": "traffic light",
+      "query_after": "a man wearing a black hard hat stands in the middle of a road near a traffic light, while a regular red truck drives up"
+    }
+  ],
+  "seconds": 143.4
+}

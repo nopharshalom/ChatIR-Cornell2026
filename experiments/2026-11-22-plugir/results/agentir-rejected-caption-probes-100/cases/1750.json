@@ -1,0 +1,81 @@
+{
+  "qid": 1750,
+  "candidates": [
+    "Question: Is the woman wearing a hat?",
+    "Question: What color is the table the woman is sitting at?",
+    "Question: What is the color of the table the woman is sitting at?",
+    "Question: What is the color of the table the woman is sitting at?",
+    "Question: What is the color of the table the woman is sitting at?"
+  ],
+  "kl": {
+    "question": "Question: What color is the table the woman is sitting at?",
+    "answer": "black",
+    "rewrite": "a woman sitting at a black tall table working on a laptop",
+    "raw_rank": 8,
+    "unseen_rank": 4
+  },
+  "probe": {
+    "question": "Question: What color is the table the woman is sitting at?",
+    "answer": "black",
+    "rewrite": "a woman sitting at a black tall table working on a laptop",
+    "raw_rank": 8,
+    "unseen_rank": 4
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: Is the woman wearing a hat?",
+        "answers": [
+          "Yes",
+          "No",
+          "Maybe"
+        ],
+        "score": 0.0007634162902832031
+      },
+      {
+        "question": "Question: What color is the table the woman is sitting at?",
+        "answers": [
+          "wooden",
+          "glass",
+          "metal"
+        ],
+        "score": 0.032862186431884766
+      },
+      {
+        "question": "Question: What is the color of the table the woman is sitting at?",
+        "answers": [
+          "white",
+          "wooden",
+          "black"
+        ],
+        "score": 0.025752544403076172
+      },
+      {
+        "question": "Question: What is the color of the table the woman is sitting at?",
+        "answers": [
+          "white",
+          "wooden",
+          "black"
+        ],
+        "score": 0.025752544403076172,
+        "duplicate_of": 2
+      },
+      {
+        "question": "Question: What is the color of the table the woman is sitting at?",
+        "answers": [
+          "white",
+          "wooden",
+          "black"
+        ],
+        "score": 0.025752544403076172,
+        "duplicate_of": 2
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.056,
+    "probe_selection_seconds": 1.356,
+    "probe_llm_calls": 3,
+    "probe_search_queries": 9
+  },
+  "reused_outcome": true
+}

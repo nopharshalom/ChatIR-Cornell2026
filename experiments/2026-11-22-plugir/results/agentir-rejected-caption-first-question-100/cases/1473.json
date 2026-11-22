@@ -1,0 +1,71 @@
+{
+  "qid": 1473,
+  "initial": "a woman crossing the street holding an umbrella in the rain",
+  "initial_rank": 27,
+  "evidence": [
+    "two women standing next to a blue umbrella",
+    "a man walking down a narrow alley with a small umbrella",
+    "a crosswalk with bus and car traffic and a group of people",
+    "a couple with an umbrella stands in a crowd of people",
+    "black and white photo of a girl standing under an umbrella",
+    "black and white woman holding an umbrella",
+    "a group of people on bikes and a few on cars are crossing a street",
+    "a street with cars and buses in it",
+    "a woman carrying a red umbrella on a brick walkway in the rain",
+    "woman holding umbrella"
+  ],
+  "displayed_ids": [
+    37136,
+    6286,
+    27942,
+    16792,
+    31575,
+    11619,
+    8773,
+    9315,
+    26835,
+    23323
+  ],
+  "rejected_captions": [
+    "a woman is holding an umbrella in the rain",
+    "a woman walking down the street holding an umbrella",
+    "people walking on wet pavement",
+    "person carrying an umbrella",
+    "a woman holding an umbrella on a wet street",
+    "a girl holding a red umbrella",
+    "a woman crossing the street with an umbrella",
+    "a woman with umbrella walking down the road",
+    "a person holding an umbrella in a wet street",
+    "woman carrying an umbrella"
+  ],
+  "candidates": [
+    "Question: What is the color of the umbrella the woman is holding?",
+    "Question: What is the surface the woman is standing on?",
+    "Question: What color is the umbrella the woman is holding?",
+    "Question: What is the surface the woman is standing on?",
+    "Question: What is the color of the umbrella the woman is holding?"
+  ],
+  "control_candidates": [
+    "what color is the umbrella the woman is holding?",
+    "what is the surface the woman is standing on?",
+    "Question: what color is the woman's dress?",
+    "Question: what is the color of the umbrella the woman is holding?",
+    "What color is the umbrella the woman is holding?"
+  ],
+  "control": {
+    "question": "what is the surface the woman is standing on?",
+    "answer": "wet pavement",
+    "rewrite": "a woman crossing wet pavement holding an umbrella in the rain",
+    "rank": 33,
+    "hit": false,
+    "raw_rank": 33,
+    "unseen_rank": 24
+  },
+  "variant": {
+    "question": "Question: What is the color of the umbrella the woman is holding?",
+    "answer": "Red",
+    "rewrite": "a woman crossing the street holding a red umbrella in the rain",
+    "raw_rank": 6,
+    "unseen_rank": 3
+  }
+}

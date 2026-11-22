@@ -1,0 +1,80 @@
+{
+  "qid": 1709,
+  "sample": 2,
+  "first_candidates": [
+    "what is the color of the kite?",
+    "what is the other object in the image?",
+    "what is the activity the person is doing with the kite?",
+    "what is the location where the person is holding the kite?",
+    "what is the color of the kite the person is holding on the beach?"
+  ],
+  "second_candidates": [
+    "what is the color of the kite held by the person on the beach?",
+    "what is the gender of the person holding the kite on the beach?",
+    "what is the gender of the person holding the kite on the beach?",
+    "what is the object the person is holding along with the kite on the beach?",
+    "what is the gender of the person holding the kite on the beach?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the kite held by the person on the beach?",
+      "answers": [
+        "red",
+        "yellow",
+        "blue"
+      ],
+      "score": 0.11848735809326172
+    },
+    {
+      "question": "what is the gender of the person holding the kite on the beach?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.043349266052246094
+    },
+    {
+      "question": "what is the gender of the person holding the kite on the beach?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.043349266052246094,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the object the person is holding along with the kite on the beach?",
+      "answers": [
+        "kite",
+        "surfboard",
+        "parasail"
+      ],
+      "score": 0.05917549133300781
+    },
+    {
+      "question": "what is the gender of the person holding the kite on the beach?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.043349266052246094,
+      "duplicate_of": 1
+    }
+  ],
+  "control": {
+    "question": "what is the color of the kite?",
+    "score": 0.18802165985107422
+  },
+  "mixed": {
+    "question": "what is the color of the kite?",
+    "score": 0.18802165985107422
+  },
+  "control_rank": 31,
+  "mixed_rank": 31,
+  "usual_rank": 31,
+  "new_answer": null,
+  "new_rewrite": null
+}

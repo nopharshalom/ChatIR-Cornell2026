@@ -1,0 +1,102 @@
+{
+  "qid": 1219,
+  "initial": "a bathroom with gray walls and a shower",
+  "initial_rank": 43,
+  "evidence": [
+    "a toilet in a stall with grab bars",
+    "a bathroom with white walls, a big tub and white sinks",
+    "a large kitchen area with dark cabinets and a sink and microwave",
+    "a small bathroom has a toilet, shower and a shower curtain",
+    "a bathroom with an unfinished tub and toilet",
+    "a bathroom with two sinks and a large mirror",
+    "a white toilet in a bathroom next to a blue curtain",
+    "a tub with a window",
+    "a white bathroom with a sink, mirror, and tub",
+    "a bathroom that has a glass shower door and dual sinks"
+  ],
+  "candidates": [
+    "what color is the shower curtain in the bathroom with a shower?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the color of the walls in the bathroom with a shower?",
+    "what is the color of the walls in the bathroom with a shower?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what color is the shower curtain in the bathroom with a shower?",
+      "answers": [
+        "gray",
+        "blue",
+        "white"
+      ],
+      "score": 0.04088401794433594
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "toilet",
+        "sink",
+        "mirror"
+      ],
+      "score": 0.10426139831542969
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "toilet",
+        "sink",
+        "mirror"
+      ],
+      "score": 0.10426139831542969,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the color of the walls in the bathroom with a shower?",
+      "answers": [
+        "gray",
+        "white",
+        "blue"
+      ],
+      "score": 0.043824195861816406
+    },
+    {
+      "question": "what is the color of the walls in the bathroom with a shower?",
+      "answers": [
+        "gray",
+        "white",
+        "blue"
+      ],
+      "score": 0.043824195861816406,
+      "duplicate_of": 3
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.08,
+  "probe_selection_seconds": 1.435,
+  "probe_llm_calls": 3,
+  "probe_search_queries": 9,
+  "arms": {
+    "kl": {
+      "question": "what is the other object in the image?",
+      "answer": "shower",
+      "rewrite": "A bathroom featuring gray walls and a shower.",
+      "rank": 47,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the color of the walls in the bathroom with a shower?",
+      "answer": "white",
+      "rewrite": "a bathroom with white walls and a shower",
+      "rank": 315,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the other object in the image?",
+      "answer": "shower",
+      "rewrite": "A bathroom featuring gray walls and a shower.",
+      "rank": 47,
+      "hit": false
+    }
+  },
+  "seconds": 21.961
+}

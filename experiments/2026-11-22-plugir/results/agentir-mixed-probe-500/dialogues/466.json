@@ -1,0 +1,279 @@
+{
+  "qid": 466,
+  "sample": "original",
+  "target": "unlabeled2017/000000309871.jpg",
+  "queries": [
+    "a man performs a trick in the air in a skate park",
+    "a man performs a trick in the air in a skate park during the daytime",
+    "a man performs a trick in the air on a green skateboard in a skate park during the daytime"
+  ],
+  "ranks": [
+    23,
+    22,
+    3
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a man performs a trick in the air in a skate park",
+      "question": "what is the time of day when the man is performing the trick in the air?",
+      "answer": "daytime",
+      "query_after": "a man performs a trick in the air in a skate park during the daytime",
+      "displayed_ids": [
+        4426,
+        5917,
+        29576,
+        30927,
+        41585,
+        41516,
+        16700,
+        32210,
+        5955,
+        47008
+      ],
+      "selected_ids": [
+        28140,
+        38302,
+        29498,
+        5886,
+        48972,
+        44254,
+        48200,
+        37571,
+        10361,
+        5853
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: Is the photo black and white or in color?",
+          "answers": [
+            "black and white",
+            "color",
+            "I don't know"
+          ],
+          "score": 0.005171775817871094
+        },
+        {
+          "question": "what is the time of day when the man is performing the trick in the air?",
+          "answers": [
+            "daytime",
+            "night",
+            "dusk"
+          ],
+          "score": 0.10720252990722656
+        },
+        {
+          "question": "Question: What object is the man performing the trick in front of?",
+          "answers": [
+            "skate park",
+            "stairs",
+            "ramp"
+          ],
+          "score": 0.06668615341186523
+        },
+        {
+          "question": "Question: What is the specific location within the skate park where the man is performing the trick?",
+          "answers": [
+            "ramp",
+            "stairs",
+            "ground"
+          ],
+          "score": 0.03361082077026367
+        },
+        {
+          "question": "what is the age or gender description of the man performing the trick in the air?",
+          "answers": [
+            "young",
+            "adult",
+            "male"
+          ],
+          "score": 0.0024504661560058594
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the lighting condition of the scene where the man is performing the trick?",
+          "answers": [
+            "daylight",
+            "night",
+            "overcast"
+          ],
+          "score": 0.0639200210571289
+        },
+        {
+          "question": "Question: What is the color of the man's shirt?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.10170793533325195
+        },
+        {
+          "question": "Question: What object is the man performing the trick in front of?",
+          "answers": [
+            "skate park",
+            "stairs",
+            "ramp"
+          ],
+          "score": 0.06668615341186523
+        },
+        {
+          "question": "Question: What is the color of the man's shirt?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.10170793533325195,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the lighting condition of the scene?",
+          "answers": [
+            "day",
+            "night",
+            "indoor"
+          ],
+          "score": 0.08983659744262695
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a man performs a trick in the air in a skate park during the daytime",
+      "question": "what is the color of the skateboard?",
+      "answer": "green",
+      "query_after": "a man performs a trick in the air on a green skateboard in a skate park during the daytime",
+      "displayed_ids": [
+        4426,
+        41516,
+        5955,
+        45572,
+        5917,
+        29576,
+        16700,
+        30927,
+        5557,
+        6303
+      ],
+      "selected_ids": [
+        5886,
+        38302,
+        30930,
+        28875,
+        47095,
+        35409,
+        5853,
+        13289,
+        48200,
+        40021
+      ],
+      "rejected_count": 13,
+      "usual_paths": [
+        {
+          "question": "what is the color of the photo showing the man performing a trick in the air?",
+          "answers": [
+            "black and white",
+            "color",
+            "monochrome"
+          ],
+          "score": 0.023342609405517578
+        },
+        {
+          "question": "what is the color of the photo showing the man performing a trick in the air?",
+          "answers": [
+            "black and white",
+            "color",
+            "monochrome"
+          ],
+          "score": 0.023342609405517578,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the photo showing the man performing a trick in the air?",
+          "answers": [
+            "black and white",
+            "color",
+            "monochrome"
+          ],
+          "score": 0.023342609405517578,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the photo showing the man performing a trick?",
+          "answers": [
+            "black and white",
+            "color",
+            "grayscale"
+          ],
+          "score": 0.022457122802734375
+        },
+        {
+          "question": "what is the color of the photo showing the man performing a trick?",
+          "answers": [
+            "black and white",
+            "color",
+            "grayscale"
+          ],
+          "score": 0.022457122802734375,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the man performing the trick in the air?",
+          "answers": [
+            "black and white",
+            "color",
+            "not specified"
+          ],
+          "score": 0.018589019775390625
+        },
+        {
+          "question": "what is the color of the skateboard?",
+          "answers": [
+            "black",
+            "white",
+            "colorful"
+          ],
+          "score": 0.06040239334106445
+        },
+        {
+          "question": "what is the color of the man performing the trick in the air?",
+          "answers": [
+            "black and white",
+            "color",
+            "not specified"
+          ],
+          "score": 0.018589019775390625,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the man performing the trick in the air?",
+          "answers": [
+            "black and white",
+            "color",
+            "not specified"
+          ],
+          "score": 0.018589019775390625,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the man performing the trick in the air?",
+          "answers": [
+            "black and white",
+            "color",
+            "not specified"
+          ],
+          "score": 0.018589019775390625,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

@@ -1,0 +1,71 @@
+{
+  "qid": 1420,
+  "initial": "many people walking on the sidewalk and others sitting on the steps in a city scene",
+  "initial_rank": 75,
+  "evidence": [
+    "a busy city with lots of lights and signs",
+    "a skater jumping over the edge of the stairs at a skate park",
+    "a large group of people are in a street holding umbrellas",
+    "pedestrians cross the street at the city's crossing light",
+    "a group of people standing near a building with many umbrellas",
+    "a young man sitting on the curb next to trash",
+    "a red double decker bus with a clock tower",
+    "a group of people are on a parade in front of a yellow boat",
+    "a photo of old buildings with horse drawn carriages",
+    "people are sitting on benches in front of a clock tower"
+  ],
+  "displayed_ids": [
+    35944,
+    25136,
+    42168,
+    33113,
+    20445,
+    4310,
+    14507,
+    49959,
+    14196,
+    29889
+  ],
+  "rejected_captions": [
+    "a sidewalk is covered with dirt",
+    "a woman walks up the stairs",
+    "a a little girl sitting outside on the steps",
+    "people walking in a group outside",
+    "a group of people walking down a sidewalk",
+    "people walk down the street near buildings in a city",
+    "large city buildings",
+    "a clock tower towers over a city area with people walking around",
+    "many umbrellas in the rain",
+    "the sidewalk of the street is lined with people walking and cycling"
+  ],
+  "candidates": [
+    "Question: What is the weather condition in the city scene?",
+    "what color are the umbrellas held by the people in the city scene?",
+    "what color is the clock tower visible in the city scene?",
+    "what color is the clock tower visible in the city scene?",
+    "what type of vehicles are visible in the city scene?"
+  ],
+  "control_candidates": [
+    "what color are the umbrellas held by the people in the city scene?",
+    "what color is the clock tower located in the city scene?",
+    "what objects are the people sitting on in front of the clock tower?",
+    "what is the color of the double decker bus located in the city scene?",
+    "what is the color of the double decker bus located in the city scene?"
+  ],
+  "control": {
+    "question": "what color is the clock tower located in the city scene?",
+    "answer": "gray",
+    "rewrite": "many people walking on the sidewalk and others sitting on the steps in a city scene with a gray clock tower",
+    "rank": 204,
+    "hit": false,
+    "raw_rank": 204,
+    "unseen_rank": 194
+  },
+  "variant": {
+    "question": "what type of vehicles are visible in the city scene?",
+    "answer": "bus, car, tricycle",
+    "rewrite": "many people walking on the sidewalk and others sitting on the steps in a city scene with a bus, car, and tricycle visible",
+    "raw_rank": 2,
+    "unseen_rank": 2
+  }
+}

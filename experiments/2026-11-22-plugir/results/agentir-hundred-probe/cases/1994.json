@@ -1,0 +1,100 @@
+{
+  "qid": 1994,
+  "initial": "a group of people are walking next to a large airplane",
+  "initial_rank": 16,
+  "evidence": [
+    "blue and yellow planes",
+    "white and red airplane flying over a large body of water",
+    "white delta airline plane on an airport runway",
+    "a white, red and white airplane",
+    "a crowd of people walking down a street near a red double decker bus",
+    "white car at the airport",
+    "a jet plane on a runway with a red utility vehicle in the background",
+    "a white and blue airplane sits on the runway",
+    "large airplane sitting on the runway at the airport",
+    "an airplane is on the runway"
+  ],
+  "candidates": [
+    "what is the color of the large airplane that the group of people are walking next to?",
+    "Question: What is the color of the airplane in the image?",
+    "Question: What is the color of the airplane that the group of people are walking next to?",
+    "Question: What is the specific color of the airplane in the image?",
+    "Question: Question: What color is the airplane that the group of people are walking next to?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the large airplane that the group of people are walking next to?",
+      "answers": [
+        "red",
+        "blue",
+        "white"
+      ],
+      "score": 0.09132575988769531
+    },
+    {
+      "question": "Question: What is the color of the airplane in the image?",
+      "answers": [
+        "blue and yellow",
+        "white and red",
+        "white and blue"
+      ],
+      "score": 0.07172393798828125
+    },
+    {
+      "question": "Question: What is the color of the airplane that the group of people are walking next to?",
+      "answers": [
+        "blue",
+        "red",
+        "white"
+      ],
+      "score": 0.07678556442260742
+    },
+    {
+      "question": "Question: What is the specific color of the airplane in the image?",
+      "answers": [
+        "blue and yellow",
+        "white and red",
+        "white and blue"
+      ],
+      "score": 0.13417816162109375
+    },
+    {
+      "question": "Question: Question: What color is the airplane that the group of people are walking next to?",
+      "answers": [
+        "red",
+        "blue",
+        "white"
+      ],
+      "score": 0.05908632278442383
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.064,
+  "probe_selection_seconds": 2.53,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the color of the large airplane that the group of people are walking next to?",
+      "answer": "white",
+      "rewrite": "a group of people are walking next to a large white airplane",
+      "rank": 9,
+      "hit": true
+    },
+    "random": {
+      "question": "what is the color of the large airplane that the group of people are walking next to?",
+      "answer": "white",
+      "rewrite": "a group of people are walking next to a large white airplane",
+      "rank": 9,
+      "hit": true
+    },
+    "probe": {
+      "question": "Question: What is the specific color of the airplane in the image?",
+      "answer": "white",
+      "rewrite": "a group of people are walking next to a large white airplane",
+      "rank": 9,
+      "hit": true
+    }
+  },
+  "seconds": 13.691
+}

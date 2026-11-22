@@ -1,0 +1,1327 @@
+{
+  "qid": 273,
+  "sample": "original",
+  "target": "unlabeled2017/000000346856.jpg",
+  "queries": [
+    "2 people playing doubles on the tennis court",
+    "two people playing doubles on a tennis court, with the man in the front wearing a blue shirt and a crowd in the background",
+    "two people playing doubles on a tennis court, with the man in front wearing a blue shirt and the crowd visible in the background",
+    "two people wearing blue shirts playing doubles on a tennis court",
+    "two men playing doubles on a tennis court, both wearing blue shirts, with a crowd in the background",
+    "two people, both wearing blue shirts, playing doubles tennis on a court with a male player holding a racket in front of a crowd",
+    "two people, both wearing blue shirts, playing doubles tennis on a court",
+    "Two people, both dressed in blue shirts, are playing doubles tennis on a court.",
+    "two people, a male and a female, playing doubles tennis on a court in front of a crowd, both wearing blue shirts and the female wearing a blue skirt, hitting a yellow ball",
+    "two people playing doubles on an orange tennis court, both wearing blue shirts, with a yellow ball in play, in front of a crowd",
+    "two men playing doubles on an orange tennis court, both wearing blue shirts, with a yellow ball in play and a crowd in the background"
+  ],
+  "ranks": [
+    55,
+    32,
+    27,
+    21,
+    28,
+    68,
+    18,
+    16,
+    348,
+    14,
+    4
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "2 people playing doubles on the tennis court",
+      "question": "Question: What color is the shirt worn by the man playing tennis in front of a crowd?",
+      "answer": "blue",
+      "query_after": "two people playing doubles on a tennis court, with the man in the front wearing a blue shirt and a crowd in the background",
+      "displayed_ids": [
+        22697,
+        23534,
+        10351,
+        9407,
+        33081,
+        22969,
+        42252,
+        29613,
+        30953,
+        1018
+      ],
+      "selected_ids": [
+        12279,
+        41870,
+        34295,
+        78,
+        20285,
+        3919,
+        6291,
+        23100,
+        35309,
+        16859
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what are the genders of the two people playing doubles on the tennis court?",
+          "answers": [
+            "male and male",
+            "male and female",
+            "female and female"
+          ],
+          "score": 0.029485225677490234
+        },
+        {
+          "question": "what is the color of the dress worn by the woman on the tennis court?",
+          "answers": [
+            "red",
+            "white",
+            "green"
+          ],
+          "score": 0.12938690185546875
+        },
+        {
+          "question": "Question: What is the color of the shirt worn by the girl on the tennis court?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.09731435775756836
+        },
+        {
+          "question": "Question: Who are the two people playing doubles on the tennis court?",
+          "answers": [
+            "a man and a woman",
+            "two men",
+            "two women"
+          ],
+          "score": 0.0486607551574707
+        },
+        {
+          "question": "what is the gender of the person standing on the tennis court who is not playing doubles?",
+          "answers": [
+            "male",
+            "female",
+            "both"
+          ],
+          "score": 0.04022789001464844
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the shirt worn by the man playing tennis in front of a crowd?",
+          "answers": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "score": 0.18296289443969727
+        },
+        {
+          "question": "Question: What is the gender of the player on the right side of the doubles pair?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.035434722900390625
+        },
+        {
+          "question": "Question: What color is the shirt worn by the woman playing tennis in front of a crowd?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.17514896392822266
+        },
+        {
+          "question": "Question: What color are the rackets being used by the man in the doubles match?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.05714702606201172
+        },
+        {
+          "question": "Question: What color is the shirt worn by the woman playing tennis in the doubles match?",
+          "answers": [
+            "red",
+            "white",
+            "green"
+          ],
+          "score": 0.07966089248657227
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "two people playing doubles on a tennis court, with the man in the front wearing a blue shirt and a crowd in the background",
+      "question": "what is the color of the shirt worn by the first person playing doubles on the tennis court?",
+      "answer": "blue",
+      "query_after": "two people playing doubles on a tennis court, with the man in front wearing a blue shirt and the crowd visible in the background",
+      "displayed_ids": [
+        3832,
+        41495,
+        13676,
+        4608,
+        32546,
+        31256,
+        22305,
+        2425,
+        29173,
+        5665
+      ],
+      "selected_ids": [
+        48895,
+        39689,
+        41816,
+        11775,
+        5311,
+        78,
+        16211,
+        21960,
+        12279,
+        7359
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what is the gender of the second person playing tennis with the man?",
+          "answers": [
+            "female",
+            "male",
+            "unknown"
+          ],
+          "score": 0.035306453704833984
+        },
+        {
+          "question": "what is the gender of the man playing tennis in front of a crowd?",
+          "answers": [
+            "male",
+            "female",
+            "non-binary"
+          ],
+          "score": 0.046916961669921875
+        },
+        {
+          "question": "what is the gender of the second person playing tennis with the man?",
+          "answers": [
+            "female",
+            "male",
+            "unknown"
+          ],
+          "score": 0.035306453704833984,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the gender of the second person playing doubles on the tennis court?",
+          "answers": [
+            "male",
+            "female",
+            "woman"
+          ],
+          "score": 0.05967092514038086
+        },
+        {
+          "question": "what is the color of the shirt worn by the first person playing doubles on the tennis court?",
+          "answers": [
+            "blue",
+            "red",
+            "green"
+          ],
+          "score": 0.1023712158203125
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the shirt worn by the second man playing doubles on the tennis court?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.09651756286621094
+        },
+        {
+          "question": "Question: What color is the shirt worn by the second man playing doubles on the tennis court?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.09651756286621094,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the shirt worn by the second man playing doubles on the tennis court?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.09651756286621094,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the shirt worn by the second man playing doubles on the tennis court?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.09651756286621094,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the shirt worn by the second man playing doubles on the tennis court?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.09651756286621094,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "two people playing doubles on a tennis court, with the man in front wearing a blue shirt and the crowd visible in the background",
+      "question": "what is the color of the shirt worn by the second person playing doubles on the tennis court?",
+      "answer": "blue",
+      "query_after": "two people wearing blue shirts playing doubles on a tennis court",
+      "displayed_ids": [
+        3832,
+        41495,
+        32546,
+        31256,
+        4608,
+        13676,
+        29173,
+        22305,
+        1596,
+        2425
+      ],
+      "selected_ids": [
+        48895,
+        20285,
+        78,
+        11775,
+        3621,
+        21960,
+        16211,
+        5311,
+        23100,
+        12279
+      ],
+      "rejected_count": 21,
+      "usual_paths": [
+        {
+          "question": "what is the color of the shirt worn by the second person playing doubles on the tennis court?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.13309764862060547
+        },
+        {
+          "question": "what is the color of the shirt worn by the second person playing doubles on the tennis court?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.13309764862060547,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the shirt worn by the second person playing doubles on the tennis court?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.13309764862060547,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the shirt worn by the second person playing doubles on the tennis court?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.13309764862060547,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the shirt worn by the second person playing doubles on the tennis court?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.13309764862060547,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the shirt worn by the second person playing doubles on the tennis court?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.13309764862060547
+        },
+        {
+          "question": "what is the color of the shirt worn by the second person playing doubles on the tennis court?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.13309764862060547,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the shirt worn by the second person playing doubles on the tennis court?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.13309764862060547,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the shirt worn by the second person playing doubles on the tennis court?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.13309764862060547,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the shirt worn by the second person playing doubles on the tennis court?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.13309764862060547,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "two people wearing blue shirts playing doubles on a tennis court",
+      "question": "what is the gender of the player holding a racket in the image showing two people playing doubles on the tennis court?",
+      "answer": "male",
+      "query_after": "two men playing doubles on a tennis court, both wearing blue shirts, with a crowd in the background",
+      "displayed_ids": [
+        42772,
+        3832,
+        23653,
+        23534,
+        4593,
+        47538,
+        31256,
+        36399,
+        16365,
+        32546
+      ],
+      "selected_ids": [
+        27991,
+        28259,
+        48991,
+        16211,
+        36475,
+        31,
+        17951,
+        23100,
+        1805,
+        41995
+      ],
+      "rejected_count": 27,
+      "usual_paths": [
+        {
+          "question": "what is the gender of the first person playing doubles on the tennis court?",
+          "answers": [
+            "male",
+            "female"
+          ],
+          "score": 0.028125762939453125
+        },
+        {
+          "question": "what is the gender of the second person playing doubles on the tennis court?",
+          "answers": [
+            "man",
+            "woman",
+            "boy"
+          ],
+          "score": 0.027966976165771484
+        },
+        {
+          "question": "what is the gender of the first person playing doubles on the tennis court?",
+          "answers": [
+            "male",
+            "female"
+          ],
+          "score": 0.028125762939453125,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the gender of the other person playing doubles on the tennis court?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.022118091583251953
+        },
+        {
+          "question": "what is the gender of the player holding a racket in the image showing two people playing doubles on the tennis court?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.04734516143798828
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the gender of the people playing doubles on the tennis court?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.02062082290649414
+        },
+        {
+          "question": "what is the gender of the people playing doubles on the tennis court?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.02062082290649414,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the gender of the people playing doubles on the tennis court?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.02062082290649414,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the gender of the two people playing doubles on the tennis court?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.020488262176513672
+        },
+        {
+          "question": "what gender is the woman playing doubles on the tennis court?",
+          "answers": [
+            "female",
+            "woman",
+            "lady"
+          ],
+          "score": 0.0001277923583984375
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "two men playing doubles on a tennis court, both wearing blue shirts, with a crowd in the background",
+      "question": "what color is the shirt worn by the female player in the doubles match?",
+      "answer": "blue",
+      "query_after": "two people, both wearing blue shirts, playing doubles tennis on a court with a male player holding a racket in front of a crowd",
+      "displayed_ids": [
+        3832,
+        32546,
+        4608,
+        31256,
+        2425,
+        41495,
+        22305,
+        27844,
+        13676,
+        29747
+      ],
+      "selected_ids": [
+        5311,
+        23100,
+        48895,
+        11775,
+        97,
+        35260,
+        12279,
+        29036,
+        39689,
+        3919
+      ],
+      "rejected_count": 29,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "racket",
+            "net",
+            "ball"
+          ],
+          "score": 0.026035785675048828
+        },
+        {
+          "question": "what is the color of the shirt worn by the female player in the doubles match?",
+          "answers": [
+            "blue"
+          ],
+          "note": "fewer than 2 answers",
+          "score": null
+        },
+        {
+          "question": "what color is the shirt worn by the female player in the doubles match?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.05265331268310547
+        },
+        {
+          "question": "what is the color of the shirt worn by the female player in the doubles match?",
+          "answers": [
+            "blue"
+          ],
+          "note": "fewer than 2 answers",
+          "duplicate_of": 1,
+          "score": null
+        },
+        {
+          "question": "what is the gender of the player who is not holding a racket in the doubles match?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.04108905792236328
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "racket",
+            "net",
+            "ball"
+          ],
+          "score": 0.026035785675048828
+        },
+        {
+          "question": "what is the color of the shirt worn by the second person playing doubles on the tennis court?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.046242713928222656
+        },
+        {
+          "question": "what color is the shirt worn by the other player in the doubles match?",
+          "answers": [
+            "blue"
+          ],
+          "note": "fewer than 2 answers",
+          "score": null
+        },
+        {
+          "question": "what color is the shirt worn by the other player in the doubles match?",
+          "answers": [
+            "blue"
+          ],
+          "note": "fewer than 2 answers",
+          "duplicate_of": 2,
+          "score": null
+        },
+        {
+          "question": "what color is the skirt worn by the woman playing doubles on the tennis court?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.04980802536010742
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "two people, both wearing blue shirts, playing doubles tennis on a court with a male player holding a racket in front of a crowd",
+      "question": "what is the color of the shirt worn by the male player in the doubles match?",
+      "answer": "blue",
+      "query_after": "two people, both wearing blue shirts, playing doubles tennis on a court",
+      "displayed_ids": [
+        3832,
+        41495,
+        2425,
+        13676,
+        4608,
+        32546,
+        22305,
+        31256,
+        29747,
+        27844
+      ],
+      "selected_ids": [
+        12340,
+        12279,
+        5311,
+        37817,
+        3919,
+        3621,
+        11775,
+        23100,
+        48895,
+        40053
+      ],
+      "rejected_count": 29,
+      "usual_paths": [
+        {
+          "question": "What is the brand of the tennis racket being used by the male player?",
+          "answers": [
+            "Yonex",
+            "Wilson",
+            "Head"
+          ],
+          "score": 0.0017857551574707031
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "tennis racket",
+            "tennis ball",
+            "net"
+          ],
+          "score": 0.01989889144897461
+        },
+        {
+          "question": "What is the name of the tennis court where the doubles match is taking place?",
+          "answers": [
+            "hard",
+            "clay",
+            "grass"
+          ],
+          "score": 0.038275718688964844
+        },
+        {
+          "question": "what is the brand of the tennis racket being used by the male player?",
+          "answers": [
+            "Wilson",
+            "Head",
+            "Yonex"
+          ],
+          "score": 0.0017857551574707031
+        },
+        {
+          "question": "what is the color of the shirt worn by the male player in the doubles match?",
+          "answers": [
+            "blue",
+            "red",
+            "yellow"
+          ],
+          "score": 0.08452510833740234
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the net on the tennis court where the doubles match is taking place?",
+          "answers": [
+            "white",
+            "green",
+            "blue"
+          ],
+          "score": 0.048365116119384766
+        },
+        {
+          "question": "Who is the opponent playing against the two people in the doubles match?",
+          "answers": [
+            "the singles player",
+            "a man",
+            "a woman"
+          ],
+          "score": 0.04350757598876953
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "tennis racket",
+            "net",
+            "ball"
+          ],
+          "score": 0.018426895141601562
+        },
+        {
+          "question": "Question: What color is the shirt worn by the tennis player near the net?",
+          "answers": [
+            "blue",
+            "white",
+            "yellow"
+          ],
+          "score": 0.057984352111816406
+        },
+        {
+          "question": "Question: What is the gender of the players playing doubles on the tennis court?",
+          "answers": [
+            "male",
+            "female",
+            "mixed"
+          ],
+          "score": 0.03825569152832031
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "two people, both wearing blue shirts, playing doubles tennis on a court",
+      "question": "what is the color of the skirt worn by the second person playing doubles on the tennis court?",
+      "answer": "blue",
+      "query_after": "Two people, both dressed in blue shirts, are playing doubles tennis on a court.",
+      "displayed_ids": [
+        42772,
+        3832,
+        23534,
+        23653,
+        4593,
+        47538,
+        16365,
+        36399,
+        31256,
+        25338
+      ],
+      "selected_ids": [
+        33137,
+        31597,
+        21960,
+        8299,
+        9463,
+        3832,
+        33356,
+        22697
+      ],
+      "rejected_count": 30,
+      "usual_paths": [
+        {
+          "question": "what is the color of the skirt worn by the person playing tennis in front of a crowd?",
+          "answers": [
+            "blue",
+            "white",
+            "red"
+          ],
+          "score": 0.1023106575012207
+        },
+        {
+          "question": "what is the color of the skirt worn by the female player in the doubles match?",
+          "answers": [
+            "blue",
+            "white",
+            "red"
+          ],
+          "score": 0.11126995086669922
+        },
+        {
+          "question": "what is the color of the skirt worn by the female player in the doubles match?",
+          "answers": [
+            "blue",
+            "white",
+            "red"
+          ],
+          "score": 0.11126995086669922,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the gender of the player wearing the skirt in the image showing two people playing doubles on the tennis court?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.0383758544921875
+        },
+        {
+          "question": "What is the score displayed on the scoreboard behind the players?",
+          "answers": [
+            "15-0",
+            "6-4",
+            "0-0"
+          ],
+          "score": 0.016891956329345703
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the skirt worn by the second person playing doubles on the tennis court?",
+          "answers": [
+            "blue",
+            "white",
+            "red"
+          ],
+          "score": 0.11248064041137695
+        },
+        {
+          "question": "what is the color of the skirt worn by the female player in the doubles match?",
+          "answers": [
+            "blue",
+            "white",
+            "red"
+          ],
+          "score": 0.11126995086669922
+        },
+        {
+          "question": "what is the color of the skirt worn by the female player in the doubles match?",
+          "answers": [
+            "blue",
+            "white",
+            "red"
+          ],
+          "score": 0.11126995086669922,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the gender of the player wearing the blue shirt in the doubles match?",
+          "answers": [
+            "male",
+            "female"
+          ],
+          "score": 0.09314584732055664
+        },
+        {
+          "question": "what is the gender of the person wearing the blue shirt in the doubles match?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.06479310989379883
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "Two people, both dressed in blue shirts, are playing doubles tennis on a court.",
+      "question": "what color is the ball being hit by the player in the doubles match?",
+      "answer": "yellow",
+      "query_after": "two people, a male and a female, playing doubles tennis on a court in front of a crowd, both wearing blue shirts and the female wearing a blue skirt, hitting a yellow ball",
+      "displayed_ids": [
+        42772,
+        23534,
+        3832,
+        23653,
+        4593,
+        47538,
+        16365,
+        31256,
+        36399,
+        30953
+      ],
+      "selected_ids": [
+        37817,
+        8299,
+        31,
+        43444,
+        14214,
+        38934,
+        23716,
+        9463,
+        22697,
+        17637
+      ],
+      "rejected_count": 30,
+      "usual_paths": [
+        {
+          "question": "what is the color of the socks worn by the male player in the doubles match?",
+          "answers": [
+            "blue"
+          ],
+          "note": "fewer than 2 answers",
+          "score": null
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "racket",
+            "ball",
+            "net"
+          ],
+          "score": 0.010547161102294922
+        },
+        {
+          "question": "What color is the skirt worn by the first person playing doubles on the tennis court?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.10106897354125977
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "racket",
+            "ball",
+            "net"
+          ],
+          "score": 0.010547161102294922,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the shorts worn by the male player in the doubles match?",
+          "answers": [
+            "blue",
+            "green",
+            "white"
+          ],
+          "score": 0.09060335159301758
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the racket held by the male player in the doubles match?",
+          "answers": [
+            "green",
+            "blue",
+            "white"
+          ],
+          "score": 0.08578300476074219
+        },
+        {
+          "question": "what is the color of the net in the image showing two people playing doubles on the tennis court?",
+          "answers": [
+            "white",
+            "blue",
+            "black"
+          ],
+          "score": 0.05080699920654297
+        },
+        {
+          "question": "what color is the ball being hit by the player in the doubles match?",
+          "answers": [
+            "yellow",
+            "green",
+            "white"
+          ],
+          "score": 0.10356903076171875
+        },
+        {
+          "question": "what color is the ball being hit by the player in the doubles match?",
+          "answers": [
+            "yellow",
+            "green",
+            "white"
+          ],
+          "score": 0.10356903076171875,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the court where the two people are playing doubles?",
+          "answers": [
+            "blue",
+            "green",
+            "clay"
+          ],
+          "score": 0.055171966552734375
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "two people, a male and a female, playing doubles tennis on a court in front of a crowd, both wearing blue shirts and the female wearing a blue skirt, hitting a yellow ball",
+      "question": "what color is the tennis court where the doubles match is being played?",
+      "answer": "orange",
+      "query_after": "two people playing doubles on an orange tennis court, both wearing blue shirts, with a yellow ball in play, in front of a crowd",
+      "displayed_ids": [
+        5665,
+        25081,
+        41495,
+        3832,
+        4593,
+        4608,
+        49278,
+        29747,
+        25338,
+        32546
+      ],
+      "selected_ids": [
+        11775,
+        39563,
+        7218,
+        3566,
+        21960,
+        32452,
+        27268,
+        42225,
+        27844,
+        12919
+      ],
+      "rejected_count": 32,
+      "usual_paths": [
+        {
+          "question": "what is the color of the tennis racket held by the player in the doubles match?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.018596172332763672
+        },
+        {
+          "question": "what color is the tennis racket held by the player in the doubles match?",
+          "answers": [
+            "blue",
+            "green",
+            "black"
+          ],
+          "score": 0.01432180404663086
+        },
+        {
+          "question": "what is the color of the tennis racket held by the player in the doubles match?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.018596172332763672,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the tennis racket held by the player in the doubles match?",
+          "answers": [
+            "blue",
+            "green",
+            "black"
+          ],
+          "score": 0.01432180404663086,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the tennis racket held by the player in the doubles match?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.018596172332763672,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the tennis court where the doubles match is being played?",
+          "answers": [
+            "blue",
+            "green",
+            "clay"
+          ],
+          "score": 0.020486831665039062
+        },
+        {
+          "question": "what color is the tennis court where the doubles match is being played?",
+          "answers": [
+            "blue",
+            "green",
+            "clay"
+          ],
+          "score": 0.02052927017211914
+        },
+        {
+          "question": "what is the color of the tennis court where the doubles match is being played?",
+          "answers": [
+            "blue",
+            "green",
+            "clay"
+          ],
+          "score": 0.020486831665039062,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the net in the doubles match?",
+          "answers": [
+            "white",
+            "blue",
+            "black"
+          ],
+          "score": 0.01447439193725586
+        },
+        {
+          "question": "what is the color of the net in the doubles match?",
+          "answers": [
+            "white",
+            "blue",
+            "black"
+          ],
+          "score": 0.01447439193725586,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "two people playing doubles on an orange tennis court, both wearing blue shirts, with a yellow ball in play, in front of a crowd",
+      "question": "what is the gender of the second person playing doubles on the tennis court?",
+      "answer": "male",
+      "query_after": "two men playing doubles on an orange tennis court, both wearing blue shirts, with a yellow ball in play and a crowd in the background",
+      "displayed_ids": [
+        31179,
+        4028,
+        29173,
+        25703,
+        93,
+        37526,
+        27844,
+        8299,
+        40489,
+        3832
+      ],
+      "selected_ids": [
+        11600,
+        12340,
+        31256,
+        40489,
+        32546,
+        25081,
+        8640,
+        24607,
+        49278,
+        29173
+      ],
+      "rejected_count": 39,
+      "usual_paths": [
+        {
+          "question": "what is the gender of the second person playing doubles on the tennis court?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.04441642761230469
+        },
+        {
+          "question": "what is the gender of the second person playing doubles on the tennis court?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.04441642761230469,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the gender of the first person playing doubles on the tennis court?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.04371213912963867
+        },
+        {
+          "question": "what is the gender of the first person playing doubles on the tennis court?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.04371213912963867,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the gender of the second person playing doubles on the tennis court?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.04441642761230469,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the net separating the two sides of the tennis court?",
+          "answers": [
+            "white",
+            "green",
+            "black"
+          ],
+          "score": 0.021797657012939453
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "net",
+            "net post",
+            "fence"
+          ],
+          "score": 0.010447025299072266
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "net",
+            "net post",
+            "fence"
+          ],
+          "score": 0.010447025299072266,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the net separating the two sides of the tennis court?",
+          "answers": [
+            "white",
+            "green",
+            "black"
+          ],
+          "score": 0.021797657012939453,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the net separating the two sides of the tennis court?",
+          "answers": [
+            "white",
+            "green",
+            "black"
+          ],
+          "score": 0.021797657012939453,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

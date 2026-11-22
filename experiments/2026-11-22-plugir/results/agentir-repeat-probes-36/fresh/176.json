@@ -1,0 +1,42 @@
+{
+  "qid": 176,
+  "arm": "fresh",
+  "after_round": 3,
+  "ranks": [
+    13,
+    16,
+    11,
+    12,
+    16,
+    16,
+    4
+  ],
+  "continuation": [
+    {
+      "round": 4,
+      "query_before": "Two kites soar above a sandy beach by the ocean.",
+      "question": "Are the kites being flown by people on the ground or are they floating freely in the sky?",
+      "answer": "people on the ground",
+      "query_after": "two kites flying over the sandy beach by the ocean shore, flown by people on the ground",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Are the kites being flown by people on the ground or are they floating freely in the sky?",
+      "fallback": false
+    },
+    {
+      "round": 5,
+      "query_before": "two kites flying over the sandy beach by the ocean shore, flown by people on the ground",
+      "question": "what is the other object in the image?",
+      "answer": "the other object is a kite.",
+      "query_after": "two kites flying over the sandy beach with people on the ground"
+    },
+    {
+      "round": 6,
+      "query_before": "two kites flying over the sandy beach with people on the ground",
+      "question": "what is the weather condition of the sea in the image where the kites are flying over the sand?",
+      "answer": "calm",
+      "query_after": "two kites flying over calm sea waters near a sandy beach, with people on the ground flying them"
+    }
+  ],
+  "seconds": 33.8
+}

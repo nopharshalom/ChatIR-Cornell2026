@@ -1,0 +1,89 @@
+{
+  "qid": 1986,
+  "chosen": "what is the color of the wetsuit worn by the man in the image?",
+  "plain": "what is the color of the wetsuit worn by the man in the image?",
+  "plain_rank": 8,
+  "outcome": {
+    "question": "what is the color of the wetsuit worn by the man in the image?",
+    "answer": "black",
+    "rewrite": "a man in a black wetsuit is water skiing in a lake, leaning to the left",
+    "rank": 8,
+    "hit": true
+  },
+  "evidence": {
+    "what is the color of the wetsuit worn by the man who is water skiing in a lake?": {
+      "labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weights": null,
+      "score": 0.05827665328979492
+    },
+    "Question: what is the color of the wetsuit worn by the man who is water skiing in a lake?": {
+      "labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weights": null,
+      "score": 0.06723546981811523
+    },
+    "what is the color of the wetsuit worn by the man in the image?": {
+      "labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "weights": null,
+      "score": 0.10456037521362305
+    },
+    "Question: what is the color of the wetsuit worn by the man in the image?": {
+      "labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "weights": null,
+      "score": 0.08887672424316406
+    },
+    "Question: Where is the man in the wetsuit performing his activity?": {
+      "labels": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "weights": [
+        0.7142857313156128,
+        0.1428571492433548,
+        0.1428571492433548
+      ],
+      "score": 0.015740394592285156
+    }
+  }
+}

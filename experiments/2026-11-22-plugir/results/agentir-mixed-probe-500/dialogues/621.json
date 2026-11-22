@@ -1,0 +1,1338 @@
+{
+  "qid": 621,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000552120.jpg",
+  "queries": [
+    "a man playing tennis about to hit a ball",
+    "a man in a white shirt playing tennis about to hit a ball",
+    "a man in a white shirt playing tennis, about to hit a ball while in the air",
+    "a man in a white shirt playing tennis, about to hit a ball while in the air in front of a crowd",
+    "a man in a white shirt playing tennis, about to hit a ball, in front of a crowd and a fence, currently in the air",
+    "a man in a white shirt playing tennis on a green court, about to hit a ball",
+    "a man wearing a white shirt and white shorts is playing tennis on a green court, about to hit a ball while in the air, with a crowd and a fence in the background",
+    "a man wearing a white shirt, white shorts, and a white headband is playing tennis on a green court, about to hit a ball, with a crowd and a fence in the background, and is currently in the air",
+    "a man wearing a white shirt, white shorts, and a white headband is playing tennis on a green court in front of a crowd and a fence, about to hit a yellow ball while jumping in the air",
+    "a man wearing a white shirt, white shorts, and a white headband is playing tennis on a green court in front of a crowd and a fence, holding a black racket, and is about to hit a yellow ball while jumping in the air",
+    "A man dressed in a white shirt, white shorts, and a white headband is jumping in the air on a green court, holding a black racket as he prepares to hit a yellow ball, with a crowd and a fence visible in the background."
+  ],
+  "ranks": [
+    74,
+    32,
+    60,
+    122,
+    93,
+    156,
+    145,
+    59,
+    83,
+    90,
+    92
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a man playing tennis about to hit a ball",
+      "question": "what color shirt is the man playing tennis wearing?",
+      "answer": "white",
+      "query_after": "a man in a white shirt playing tennis about to hit a ball",
+      "displayed_ids": [
+        93,
+        36476,
+        18530,
+        40397,
+        43723,
+        6794,
+        43266,
+        13218,
+        3950,
+        32025
+      ],
+      "selected_ids": [
+        16215,
+        4335,
+        47865,
+        20892,
+        14870,
+        11532,
+        46400,
+        45632,
+        35123,
+        39459
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what color shirt is the man playing tennis wearing?",
+          "answers": [
+            "white",
+            "blue and green",
+            "red and orange"
+          ],
+          "score": 0.24515724182128906
+        },
+        {
+          "question": "Question: What color is the shirt of the man playing tennis?",
+          "answers": [
+            "white",
+            "blue and green",
+            "red and orange"
+          ],
+          "score": 0.19810724258422852
+        },
+        {
+          "question": "Question: What color is the hat worn by the man playing tennis?",
+          "answers": [
+            "white",
+            "green",
+            "no hat"
+          ],
+          "score": 0.03943157196044922
+        },
+        {
+          "question": "what is the color of the shorts worn by the man playing tennis?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.11667060852050781
+        },
+        {
+          "question": "what is the color of the shorts worn by the man playing tennis?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.11667060852050781,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the man's shirt?",
+          "answers": [
+            "white",
+            "blue and green",
+            "red and orange"
+          ],
+          "score": 0.2189502716064453
+        },
+        {
+          "question": "Question: What color is the man's hat?",
+          "answers": [
+            "white",
+            "red and orange",
+            "green"
+          ],
+          "score": 0.08901548385620117
+        },
+        {
+          "question": "Question: What color is the man's shorts?",
+          "answers": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "score": 0.11496496200561523
+        },
+        {
+          "question": "Question: What color is the man's hat?",
+          "answers": [
+            "white",
+            "red and orange",
+            "green"
+          ],
+          "score": 0.08901548385620117,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What color is the man's hat?",
+          "answers": [
+            "white",
+            "red and orange",
+            "green"
+          ],
+          "score": 0.08901548385620117,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a man in a white shirt playing tennis about to hit a ball",
+      "question": "Question: What color is the shirt of the tennis player who is currently in the air?",
+      "answer": "white",
+      "query_after": "a man in a white shirt playing tennis, about to hit a ball while in the air",
+      "displayed_ids": [
+        21742,
+        32025,
+        33418,
+        12679,
+        20812,
+        8115,
+        17880,
+        40678,
+        4481,
+        16422
+      ],
+      "selected_ids": [
+        29398,
+        27810,
+        12328,
+        11512,
+        46400,
+        17467,
+        20892,
+        45632,
+        37170,
+        23328
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "what is the location where the man playing tennis is about to hit the ball?",
+          "answers": [
+            "tennis court",
+            "stadium",
+            "air"
+          ],
+          "score": 0.0645146369934082
+        },
+        {
+          "question": "what is the location where the man playing tennis is about to hit the ball?",
+          "answers": [
+            "tennis court",
+            "stadium",
+            "air"
+          ],
+          "score": 0.0645146369934082,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the location where the man playing tennis is about to hit the ball?",
+          "answers": [
+            "tennis court",
+            "stadium",
+            "air"
+          ],
+          "score": 0.0645146369934082,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the location where the man playing tennis is about to hit the ball?",
+          "answers": [
+            "tennis court",
+            "stadium",
+            "air"
+          ],
+          "score": 0.0645146369934082,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the location where the man playing tennis is about to hit the ball?",
+          "answers": [
+            "tennis court",
+            "stadium",
+            "air"
+          ],
+          "score": 0.0645146369934082,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the location of the tennis match?",
+          "answers": [
+            "outdoors",
+            "indoor",
+            "stadium"
+          ],
+          "score": 0.04355669021606445
+        },
+        {
+          "question": "what color is the tennis court where the man is playing?",
+          "answers": [
+            "green",
+            "blue",
+            "clay"
+          ],
+          "score": 0.07407236099243164
+        },
+        {
+          "question": "What color shorts is the man playing tennis wearing?",
+          "answers": [
+            "white",
+            "green",
+            "black"
+          ],
+          "score": 0.052570343017578125
+        },
+        {
+          "question": "Question: Are there any spectators watching the man playing tennis?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0006732940673828125
+        },
+        {
+          "question": "Question: What color is the shirt of the tennis player who is currently in the air?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.11310100555419922
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a man in a white shirt playing tennis, about to hit a ball while in the air",
+      "question": "Question: What color is the shirt of the man playing tennis who is in front of a crowd?",
+      "answer": "white",
+      "query_after": "a man in a white shirt playing tennis, about to hit a ball while in the air in front of a crowd",
+      "displayed_ids": [
+        4481,
+        48785,
+        29897,
+        13159,
+        42930,
+        38219,
+        19311,
+        17743,
+        2758,
+        15072
+      ],
+      "selected_ids": [
+        1478,
+        46400,
+        47865,
+        17467,
+        31005,
+        30927,
+        20892,
+        11512,
+        43761,
+        29398
+      ],
+      "rejected_count": 28,
+      "usual_paths": [
+        {
+          "question": "Question: What type of fence surrounds the man playing tennis?",
+          "answers": [
+            "metal",
+            "black metal",
+            "mesh"
+          ],
+          "score": 0.03527545928955078
+        },
+        {
+          "question": "Question: What color is the shirt of the man playing tennis who is in front of a crowd?",
+          "answers": [
+            "white",
+            "blue and green"
+          ],
+          "score": 0.060045719146728516
+        },
+        {
+          "question": "Question: What color is the shirt of the man playing tennis who is in front of a crowd?",
+          "answers": [
+            "white",
+            "blue and green"
+          ],
+          "score": 0.060045719146728516,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What material is the fence surrounding the man playing tennis made of?",
+          "answers": [
+            "metal",
+            "mesh",
+            "wire"
+          ],
+          "score": 0.013754844665527344
+        },
+        {
+          "question": "Question: What material is the fence surrounding the man playing tennis made of?",
+          "answers": [
+            "metal",
+            "mesh",
+            "wire"
+          ],
+          "score": 0.013754844665527344,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What type of fence surrounds the man playing tennis?",
+          "answers": [
+            "metal",
+            "black metal",
+            "mesh"
+          ],
+          "score": 0.03527545928955078
+        },
+        {
+          "question": "Question: What color is the fence surrounding the tennis player?",
+          "answers": [
+            "black",
+            "metal",
+            "fence"
+          ],
+          "score": 0.030040264129638672
+        },
+        {
+          "question": "Question: What color is the fence surrounding the tennis player?",
+          "answers": [
+            "black",
+            "metal",
+            "fence"
+          ],
+          "score": 0.030040264129638672,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What color is the fence surrounding the man playing tennis?",
+          "answers": [
+            "black",
+            "metal",
+            "mesh"
+          ],
+          "score": 0.029722213745117188
+        },
+        {
+          "question": "Question: What is the material of the fence surrounding the tennis player?",
+          "answers": [
+            "black mesh",
+            "black metal",
+            "wood"
+          ],
+          "score": 0.047809600830078125
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a man in a white shirt playing tennis, about to hit a ball while in the air in front of a crowd",
+      "question": "Question: What color is the shirt of the man playing tennis who is in front of a fence?",
+      "answer": "white",
+      "query_after": "a man in a white shirt playing tennis, about to hit a ball, in front of a crowd and a fence, currently in the air",
+      "displayed_ids": [
+        9036,
+        46523,
+        1453,
+        44766,
+        19311,
+        18847,
+        18861,
+        43230,
+        21303,
+        40698
+      ],
+      "selected_ids": [
+        29398,
+        41475,
+        29177,
+        15591,
+        28390,
+        1478,
+        31209,
+        40945,
+        11512,
+        20892
+      ],
+      "rejected_count": 37,
+      "usual_paths": [
+        {
+          "question": "Question: What color is the shirt of the man playing tennis who is in front of a fence?",
+          "answers": [
+            "white",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.10548257827758789
+        },
+        {
+          "question": "Question: What color shirt is the man playing tennis wearing when he is in front of a fence?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.08463287353515625
+        },
+        {
+          "question": "Question: What color is the shirt of the man playing tennis who is in front of a fence?",
+          "answers": [
+            "white",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.10548257827758789,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the shirt of the man playing tennis who is in front of a fence?",
+          "answers": [
+            "white",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.10548257827758789,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the shirt worn by the man playing tennis in front of a fence?",
+          "answers": [
+            "black",
+            "white",
+            "unknown"
+          ],
+          "score": 0.03050518035888672
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the shirt of the man playing tennis who is in front of a fence?",
+          "answers": [
+            "white",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.10548257827758789
+        },
+        {
+          "question": "Question: What color is the shirt of the man playing tennis who is in front of a fence?",
+          "answers": [
+            "white",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.10548257827758789,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the shirt of the man playing tennis who is in front of a fence?",
+          "answers": [
+            "white",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.10548257827758789,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the shirt of the man playing tennis who is in front of a fence?",
+          "answers": [
+            "white",
+            "yellow",
+            "blue"
+          ],
+          "score": 0.10548257827758789,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the fence in front of which the man is playing tennis?",
+          "answers": [
+            "black",
+            "blue",
+            "silver"
+          ],
+          "score": 0.06769227981567383
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a man in a white shirt playing tennis, about to hit a ball, in front of a crowd and a fence, currently in the air",
+      "question": "Question: What is the color of the tennis court where the man is playing?",
+      "answer": "green.",
+      "query_after": "a man in a white shirt playing tennis on a green court, about to hit a ball",
+      "displayed_ids": [
+        8115,
+        21742,
+        32025,
+        19311,
+        14992,
+        40698,
+        13159,
+        46523,
+        40945,
+        8187
+      ],
+      "selected_ids": [
+        20892,
+        23328,
+        8299,
+        47865,
+        48727,
+        20681,
+        30927,
+        1478,
+        46400,
+        29398
+      ],
+      "rejected_count": 40,
+      "usual_paths": [
+        {
+          "question": "Question: What is the surface of the court where the man is playing tennis?",
+          "answers": [
+            "clay",
+            "grass",
+            "hard"
+          ],
+          "score": 0.0332646369934082
+        },
+        {
+          "question": "Question: What is the surface of the court where the man is playing tennis?",
+          "answers": [
+            "clay",
+            "grass",
+            "hard"
+          ],
+          "score": 0.0332646369934082,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the surface of the tennis court where the man is playing?",
+          "answers": [
+            "clay",
+            "grass",
+            "hard"
+          ],
+          "score": 0.03821706771850586
+        },
+        {
+          "question": "what is the color of the tennis court where the man is playing?",
+          "answers": [
+            "clay",
+            "grass",
+            "hard court"
+          ],
+          "score": 0.03412055969238281
+        },
+        {
+          "question": "what is the color of the tennis court where the man is playing?",
+          "answers": [
+            "clay",
+            "grass",
+            "hard court"
+          ],
+          "score": 0.03412055969238281,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color are the shorts of the man playing tennis?",
+          "answers": [
+            "white",
+            "black",
+            "blue"
+          ],
+          "score": 0.0834040641784668
+        },
+        {
+          "question": "Question: What color are the shorts of the man playing tennis?",
+          "answers": [
+            "white",
+            "black",
+            "blue"
+          ],
+          "score": 0.0834040641784668,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color are the shorts of the man playing tennis?",
+          "answers": [
+            "white",
+            "black",
+            "blue"
+          ],
+          "score": 0.0834040641784668,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color are the shorts of the man playing tennis?",
+          "answers": [
+            "white",
+            "black",
+            "blue"
+          ],
+          "score": 0.0834040641784668,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the tennis court where the man is playing?",
+          "answers": [
+            "blue",
+            "green",
+            "clay"
+          ],
+          "score": 0.09056806564331055
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a man in a white shirt playing tennis on a green court, about to hit a ball",
+      "question": "Question: What color are the shorts of the man playing tennis who is in the air?",
+      "answer": "White.",
+      "query_after": "a man wearing a white shirt and white shorts is playing tennis on a green court, about to hit a ball while in the air, with a crowd and a fence in the background",
+      "displayed_ids": [
+        31500,
+        3936,
+        2758,
+        29398,
+        14222,
+        17411,
+        13556,
+        32870,
+        35657,
+        17743
+      ],
+      "selected_ids": [
+        12328,
+        12679,
+        24995,
+        46400,
+        7217,
+        45632,
+        24936,
+        37181,
+        17467,
+        20892
+      ],
+      "rejected_count": 48,
+      "usual_paths": [
+        {
+          "question": "Question: What is the man playing tennis holding?",
+          "answers": [
+            "tennis racquet",
+            "ball",
+            "nothing"
+          ],
+          "score": 0.004298686981201172
+        },
+        {
+          "question": "Question: What is the man playing tennis holding?",
+          "answers": [
+            "tennis racquet",
+            "ball",
+            "nothing"
+          ],
+          "score": 0.004298686981201172,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the man playing tennis holding?",
+          "answers": [
+            "tennis racquet",
+            "racket",
+            "no"
+          ],
+          "score": 0.0024366378784179688
+        },
+        {
+          "question": "Question: What is the man playing tennis holding?",
+          "answers": [
+            "tennis racquet",
+            "ball",
+            "nothing"
+          ],
+          "score": 0.004298686981201172,
+          "duplicate_of": 0
+        },
+        {
+          "question": "What object is the man playing tennis holding?",
+          "answers": [
+            "tennis racquet",
+            "racquet",
+            "racket"
+          ],
+          "score": 0.0013480186462402344
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color are the shorts of the man playing tennis who is in the air?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.07368183135986328
+        },
+        {
+          "question": "Question: What color are the shorts of the man playing tennis who is in the air?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.07368183135986328,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color are the shorts of the man playing tennis who is in the air?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.07368183135986328,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color are the shorts of the man playing tennis who is in the air?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.07368183135986328,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the shorts worn by the man playing tennis who is running?",
+          "answers": [
+            "blue",
+            "black",
+            "green"
+          ],
+          "score": 0.07190656661987305
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a man wearing a white shirt and white shorts is playing tennis on a green court, about to hit a ball while in the air, with a crowd and a fence in the background",
+      "question": "Question: What is the color of the headband worn by the man playing tennis?",
+      "answer": "white",
+      "query_after": "a man wearing a white shirt, white shorts, and a white headband is playing tennis on a green court, about to hit a ball, with a crowd and a fence in the background, and is currently in the air",
+      "displayed_ids": [
+        46523,
+        19311,
+        1873,
+        18847,
+        23104,
+        13159,
+        44766,
+        1453,
+        48785,
+        31500
+      ],
+      "selected_ids": [
+        9036,
+        34558,
+        45632,
+        21742,
+        20892,
+        46400,
+        16321,
+        31500,
+        47865,
+        28390
+      ],
+      "rejected_count": 50,
+      "usual_paths": [
+        {
+          "question": "Question: What is the color of the headband worn by the man playing tennis?",
+          "answers": [
+            "green",
+            "white",
+            "blue"
+          ],
+          "score": 0.03945016860961914
+        },
+        {
+          "question": "Question: What color is the headband worn by the man playing tennis?",
+          "answers": [
+            "white",
+            "green",
+            "blue"
+          ],
+          "score": 0.03542137145996094
+        },
+        {
+          "question": "Question: What color is the headband worn by the man playing tennis?",
+          "answers": [
+            "white",
+            "green",
+            "blue"
+          ],
+          "score": 0.03542137145996094,
+          "duplicate_of": 1
+        },
+        {
+          "question": "What color is the headband worn by the man playing tennis?",
+          "answers": [
+            "white",
+            "green",
+            "black"
+          ],
+          "score": 0.02330923080444336
+        },
+        {
+          "question": "what is the color of the headband worn by the man playing tennis?",
+          "answers": [
+            "white",
+            "green",
+            "blue"
+          ],
+          "score": 0.038057804107666016
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the headband worn by the man playing tennis?",
+          "answers": [
+            "green",
+            "white",
+            "blue"
+          ],
+          "score": 0.03945016860961914
+        },
+        {
+          "question": "Question: What color is the headband worn by the man playing tennis?",
+          "answers": [
+            "white",
+            "green",
+            "blue"
+          ],
+          "score": 0.03542137145996094
+        },
+        {
+          "question": "Question: What color is the headband worn by the man playing tennis?",
+          "answers": [
+            "white",
+            "green",
+            "blue"
+          ],
+          "score": 0.03542137145996094,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what color is the headband worn by the man playing tennis?",
+          "answers": [
+            "white",
+            "green",
+            "black"
+          ],
+          "score": 0.02330923080444336
+        },
+        {
+          "question": "Question: What is the color of the headband worn by the man playing tennis?",
+          "answers": [
+            "green",
+            "white",
+            "blue"
+          ],
+          "score": 0.03945016860961914,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a man wearing a white shirt, white shorts, and a white headband is playing tennis on a green court, about to hit a ball, with a crowd and a fence in the background, and is currently in the air",
+      "question": "What color is the tennis ball the man is about to hit?",
+      "answer": "yellow",
+      "query_after": "a man wearing a white shirt, white shorts, and a white headband is playing tennis on a green court in front of a crowd and a fence, about to hit a yellow ball while jumping in the air",
+      "displayed_ids": [
+        31500,
+        46523,
+        17538,
+        1873,
+        19311,
+        18847,
+        32025,
+        44766,
+        48095,
+        32870
+      ],
+      "selected_ids": [
+        34318,
+        22325,
+        46400,
+        30252,
+        10030,
+        24995,
+        31500,
+        2320,
+        7895,
+        20892
+      ],
+      "rejected_count": 52,
+      "usual_paths": [
+        {
+          "question": "What color is the tennis ball the man is about to hit?",
+          "answers": [
+            "green",
+            "yellow",
+            "orange"
+          ],
+          "score": 0.052337646484375
+        },
+        {
+          "question": "Question: What color is the uniform of the man running on the tennis court?",
+          "answers": [
+            "green",
+            "blue",
+            "white"
+          ],
+          "score": 0.03294706344604492
+        },
+        {
+          "question": "Question: What color is the fence in the background of the tennis player who is jumping?",
+          "answers": [
+            "black",
+            "blue",
+            "green"
+          ],
+          "score": 0.02634906768798828
+        },
+        {
+          "question": "what color is the tennis ball the man is about to hit?",
+          "answers": [
+            "yellow",
+            "green",
+            "orange"
+          ],
+          "score": 0.052337646484375
+        },
+        {
+          "question": "what color is the fence in the background of the tennis player who is jumping?",
+          "answers": [
+            "black",
+            "green",
+            "blue"
+          ],
+          "score": 0.032384395599365234
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What color is the tennis ball the man is about to hit?",
+          "answers": [
+            "green",
+            "yellow",
+            "orange"
+          ],
+          "score": 0.052337646484375
+        },
+        {
+          "question": "Question: What color is the shirt of the man playing tennis who is running on the court?",
+          "answers": [
+            "green",
+            "blue",
+            "white"
+          ],
+          "score": 0.024793624877929688
+        },
+        {
+          "question": "Question: What is the color of the headband worn by the man playing tennis?",
+          "answers": [
+            "white",
+            "black",
+            "green"
+          ],
+          "score": 0.01577138900756836
+        },
+        {
+          "question": "Question: What color is the tennis ball the man is about to hit?",
+          "answers": [
+            "yellow",
+            "green",
+            "orange"
+          ],
+          "score": 0.04451894760131836
+        },
+        {
+          "question": "What color is the tennis ball the man is about to hit?",
+          "answers": [
+            "green",
+            "yellow",
+            "orange"
+          ],
+          "score": 0.052337646484375,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a man wearing a white shirt, white shorts, and a white headband is playing tennis on a green court in front of a crowd and a fence, about to hit a yellow ball while jumping in the air",
+      "question": "Question: What color is the racket held by the man playing tennis?",
+      "answer": "black",
+      "query_after": "a man wearing a white shirt, white shorts, and a white headband is playing tennis on a green court in front of a crowd and a fence, holding a black racket, and is about to hit a yellow ball while jumping in the air",
+      "displayed_ids": [
+        18847,
+        44336,
+        40104,
+        1453,
+        46523,
+        19311,
+        18754,
+        47891,
+        17495,
+        23104
+      ],
+      "selected_ids": [
+        6794,
+        44755,
+        7359,
+        47865,
+        23547,
+        24995,
+        34318,
+        46400,
+        31500,
+        22325
+      ],
+      "rejected_count": 57,
+      "usual_paths": [
+        {
+          "question": "What color is the racket the man is holding?",
+          "answers": [
+            "green",
+            "white",
+            "black"
+          ],
+          "score": 0.02315998077392578
+        },
+        {
+          "question": "What color is the racket the man playing tennis is holding?",
+          "answers": [
+            "black",
+            "green",
+            "white"
+          ],
+          "score": 0.020561695098876953
+        },
+        {
+          "question": "Question: What color is the racket the man is holding?",
+          "answers": [
+            "green",
+            "black",
+            "blue"
+          ],
+          "score": 0.033650875091552734
+        },
+        {
+          "question": "what color is the racket the man is holding?",
+          "answers": [
+            "black",
+            "blue",
+            "green"
+          ],
+          "score": 0.0395350456237793
+        },
+        {
+          "question": "Question: What color is the racket the man is holding?",
+          "answers": [
+            "green",
+            "black",
+            "blue"
+          ],
+          "score": 0.033650875091552734,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the racket held by the man playing tennis?",
+          "answers": [
+            "yellow",
+            "black",
+            "blue"
+          ],
+          "score": 0.050015926361083984
+        },
+        {
+          "question": "Question: What color is the racket held by the man playing tennis?",
+          "answers": [
+            "yellow",
+            "black",
+            "blue"
+          ],
+          "score": 0.050015926361083984,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the racket held by the man playing tennis?",
+          "answers": [
+            "yellow",
+            "black",
+            "blue"
+          ],
+          "score": 0.050015926361083984,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the racket held by the man playing tennis?",
+          "answers": [
+            "yellow",
+            "black",
+            "blue"
+          ],
+          "score": 0.050015926361083984,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What color is the racket held by the man playing tennis?",
+          "answers": [
+            "yellow",
+            "black",
+            "blue"
+          ],
+          "score": 0.050015926361083984,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "a man wearing a white shirt, white shorts, and a white headband is playing tennis on a green court in front of a crowd and a fence, holding a black racket, and is about to hit a yellow ball while jumping in the air",
+      "question": "Question: What is the color of the tennis court?",
+      "answer": "green",
+      "query_after": "A man dressed in a white shirt, white shorts, and a white headband is jumping in the air on a green court, holding a black racket as he prepares to hit a yellow ball, with a crowd and a fence visible in the background.",
+      "displayed_ids": [
+        44728,
+        44336,
+        7359,
+        18754,
+        17495,
+        3103,
+        18847,
+        40104,
+        8187,
+        19311
+      ],
+      "selected_ids": [
+        34946,
+        47175,
+        3103,
+        6794,
+        40698,
+        6649,
+        44766,
+        46270,
+        17495,
+        7359
+      ],
+      "rejected_count": 60,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "black",
+            "yellow",
+            "net"
+          ],
+          "score": 0.010831356048583984
+        },
+        {
+          "question": "Question: What is the location of the man playing tennis?",
+          "answers": [
+            "indoor",
+            "outdoor",
+            "court"
+          ],
+          "score": 0.005398273468017578
+        },
+        {
+          "question": "What is the location of the man playing tennis?",
+          "answers": [
+            "indoor",
+            "outdoor",
+            "stadium"
+          ],
+          "score": 0.005939006805419922
+        },
+        {
+          "question": "Question: What is the location of the man playing tennis?",
+          "answers": [
+            "indoor",
+            "outdoor",
+            "court"
+          ],
+          "score": 0.005398273468017578,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Question: What is the location of the man playing tennis?",
+          "answers": [
+            "indoor",
+            "outdoor",
+            "court"
+          ],
+          "score": 0.005398273468017578,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "black",
+            "yellow",
+            "net"
+          ],
+          "score": 0.010831356048583984
+        },
+        {
+          "question": "Question: What color is the racket held by the man playing tennis who is in front of a crowd?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.026102066040039062
+        },
+        {
+          "question": "what is the color of the shorts worn by the man playing tennis?",
+          "answers": [
+            "white",
+            "blue",
+            "white and blue"
+          ],
+          "score": 0.016187667846679688
+        },
+        {
+          "question": "Question: What is the color of the shorts worn by the man playing tennis?",
+          "answers": [
+            "white",
+            "blue",
+            "white and blue"
+          ],
+          "score": 0.01792144775390625
+        },
+        {
+          "question": "Question: What is the color of the tennis court?",
+          "answers": [
+            "green",
+            "blue",
+            "red"
+          ],
+          "score": 0.0464015007019043
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

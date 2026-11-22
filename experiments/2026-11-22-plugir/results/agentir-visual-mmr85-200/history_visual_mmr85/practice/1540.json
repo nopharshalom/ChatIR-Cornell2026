@@ -1,0 +1,72 @@
+{
+  "ids": [
+    43471,
+    26099,
+    29392,
+    19744
+  ],
+  "prefix": [
+    "a herd of zebras eating in a large open field",
+    "Question: How many zebras are in the photo? 5"
+  ],
+  "default": "what is the other object in the image?",
+  "chosen": "What color is the large open field where the zebras are eating?",
+  "trials": {
+    "what is the other object in the image?": {
+      "answers": [
+        "zebras",
+        "zebra",
+        "zebras",
+        "zebras"
+      ],
+      "rewrites": {
+        "zebras": "a herd of five zebras eating in a large open field",
+        "zebra": "a herd of five zebras eating in a large open field"
+      },
+      "ranks": [
+        15,
+        51,
+        24,
+        57
+      ],
+      "hits": 0
+    },
+    "What color is the large open field where the zebras are eating?": {
+      "answers": [
+        "green",
+        "green",
+        "green",
+        "yellow"
+      ],
+      "rewrites": {
+        "green": "a herd of five zebras eating in a large green open field",
+        "yellow": "a herd of five zebras eating in a large yellow open field"
+      },
+      "ranks": [
+        16,
+        49,
+        10,
+        99
+      ],
+      "hits": 1
+    },
+    "What is the color of the grass in the field where the zebras are eating?": {
+      "answers": [
+        "green",
+        "green",
+        "green",
+        "green"
+      ],
+      "rewrites": {
+        "green": "a herd of five zebras eating in a large open field with green grass"
+      },
+      "ranks": [
+        15,
+        51,
+        13,
+        117
+      ],
+      "hits": 0
+    }
+  }
+}

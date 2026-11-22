@@ -1,0 +1,78 @@
+{
+  "qid": 1191,
+  "sample": 2,
+  "first_candidates": [
+    "what color is the train being photographed by the person at the station?",
+    "what is the color of the train being photographed?",
+    "what are the colors of the train being photographed at the station?",
+    "what is the time of day when the person is taking pictures of the train at the station?",
+    "what is the brand or model name of the train being photographed?"
+  ],
+  "second_candidates": [
+    "Question: What color is the train in the image?",
+    "what is the time of day when the person is taking pictures of the train?",
+    "Question: What is the color of the person taking pictures?",
+    "what is the color of the train being photographed at the station?",
+    "what is the color of the person taking pictures of the train?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What color is the train in the image?",
+      "answers": [
+        "red",
+        "green and yellow",
+        "yellow, blue and black"
+      ],
+      "score": 0.2132253646850586
+    },
+    {
+      "question": "what is the time of day when the person is taking pictures of the train?",
+      "answers": [
+        "day",
+        "night",
+        "dusk"
+      ],
+      "score": 0.048052310943603516
+    },
+    {
+      "question": "Question: What is the color of the person taking pictures?",
+      "answers": [
+        "black",
+        "white",
+        "red"
+      ],
+      "score": 0.05715036392211914
+    },
+    {
+      "question": "what is the color of the train being photographed at the station?",
+      "answers": [
+        "red",
+        "green",
+        "yellow"
+      ],
+      "score": 0.21365880966186523
+    },
+    {
+      "question": "what is the color of the person taking pictures of the train?",
+      "answers": [
+        "white",
+        "black",
+        "red"
+      ],
+      "score": 0.08224153518676758
+    }
+  ],
+  "control": {
+    "question": "what is the color of the train being photographed?",
+    "score": 0.2622241973876953
+  },
+  "mixed": {
+    "question": "what is the color of the train being photographed?",
+    "score": 0.2622241973876953
+  },
+  "control_rank": 32,
+  "mixed_rank": 32,
+  "usual_rank": 32,
+  "new_answer": null,
+  "new_rewrite": null
+}

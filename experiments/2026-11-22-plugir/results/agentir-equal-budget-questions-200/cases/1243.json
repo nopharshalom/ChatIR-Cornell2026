@@ -1,0 +1,79 @@
+{
+  "qid": 1243,
+  "sample": 2,
+  "first_candidates": [
+    "Question: What are the two people sitting in the restaurant eating?",
+    "what is the gender of the two people posing while sitting in the restaurant?",
+    "Question: What is the gender of the two people sitting at the table in the restaurant?",
+    "Is the table where the two people are sitting made of wood?",
+    "What are the two people in the image wearing?"
+  ],
+  "second_candidates": [
+    "Question: What is the gender of the two people posing in the restaurant?",
+    "Question: What is the gender of the man in the group photo sitting at a table with a laptop?",
+    "Question: What are the two people posing in the restaurant eating?",
+    "Question: What is the gender of the two people posing in the restaurant?",
+    "what is the gender of the two people posing in the restaurant?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What is the gender of the two people posing in the restaurant?",
+      "answers": [
+        "male",
+        "female",
+        "mixed"
+      ],
+      "score": 0.0136871337890625
+    },
+    {
+      "question": "Question: What is the gender of the man in the group photo sitting at a table with a laptop?",
+      "answers": [
+        "male",
+        "female",
+        "not present"
+      ],
+      "score": 0.044138431549072266
+    },
+    {
+      "question": "Question: What are the two people posing in the restaurant eating?",
+      "answers": [
+        "pizza",
+        "dinner",
+        "wine"
+      ],
+      "score": 0.13110828399658203
+    },
+    {
+      "question": "Question: What is the gender of the two people posing in the restaurant?",
+      "answers": [
+        "male",
+        "female",
+        "mixed"
+      ],
+      "score": 0.0136871337890625,
+      "duplicate_of": 0
+    },
+    {
+      "question": "what is the gender of the two people posing in the restaurant?",
+      "answers": [
+        "male and female",
+        "two men",
+        "two women"
+      ],
+      "score": 0.058034420013427734
+    }
+  ],
+  "control": {
+    "question": "What are the two people in the image wearing?",
+    "score": 0.18149518966674805
+  },
+  "mixed": {
+    "question": "What are the two people in the image wearing?",
+    "score": 0.18149518966674805
+  },
+  "control_rank": 13,
+  "mixed_rank": 13,
+  "usual_rank": 13,
+  "new_answer": null,
+  "new_rewrite": null
+}

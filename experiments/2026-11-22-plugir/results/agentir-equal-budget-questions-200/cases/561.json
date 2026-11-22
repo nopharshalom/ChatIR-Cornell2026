@@ -1,0 +1,78 @@
+{
+  "qid": 561,
+  "sample": 1,
+  "first_candidates": [
+    "what is the time of day and lighting condition of the scene where the crowd is walking?",
+    "what are the people in the crowd holding?",
+    "what are the people in the crowd wearing?",
+    "what is the specific location or type of street where the crowd of people is walking together?",
+    "what is the color of the umbrellas held by the crowd of people walking beside the busy street?"
+  ],
+  "second_candidates": [
+    "what is the time of day depicted in the image of the crowd walking beside the busy street?",
+    "Question: What objects are the people holding in the image of the crowd walking beside a busy street downtown?",
+    "Question: What type of vehicles are visible on the street where the crowd is walking?",
+    "Question: What is the weather condition indicated by the objects the people are holding?",
+    "what is the time of day depicted in the image of the crowd walking beside a busy street?"
+  ],
+  "paths": [
+    {
+      "question": "what is the time of day depicted in the image of the crowd walking beside the busy street?",
+      "answers": [
+        "daytime",
+        "evening",
+        "night"
+      ],
+      "score": 0.08509159088134766
+    },
+    {
+      "question": "Question: What objects are the people holding in the image of the crowd walking beside a busy street downtown?",
+      "answers": [
+        "No objects",
+        "Umbrellas",
+        "Signs"
+      ],
+      "score": 0.16481447219848633
+    },
+    {
+      "question": "Question: What type of vehicles are visible on the street where the crowd is walking?",
+      "answers": [
+        "cars",
+        "buses",
+        "horse carriages"
+      ],
+      "score": 0.2382512092590332
+    },
+    {
+      "question": "Question: What is the weather condition indicated by the objects the people are holding?",
+      "answers": [
+        "rainy",
+        "sunny",
+        "cloudy"
+      ],
+      "score": 0.06278371810913086
+    },
+    {
+      "question": "what is the time of day depicted in the image of the crowd walking beside a busy street?",
+      "answers": [
+        "day",
+        "night",
+        "evening"
+      ],
+      "score": 0.07753181457519531
+    }
+  ],
+  "control": {
+    "question": "Question: What type of vehicles are visible on the street where the crowd is walking?",
+    "score": 0.2382512092590332
+  },
+  "mixed": {
+    "question": "what are the people in the crowd holding?",
+    "score": 0.14520502090454102
+  },
+  "control_rank": 2,
+  "mixed_rank": 149,
+  "usual_rank": 149,
+  "new_answer": "A horse-drawn carriage, a taxi, a van, and a pickup truck are visible on the street where the crowd is walking.",
+  "new_rewrite": "a crowd of people walk together beside a busy downtown street where a horse-drawn carriage, a taxi, a van, and a pickup truck are visible"
+}

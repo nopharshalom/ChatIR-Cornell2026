@@ -1,0 +1,102 @@
+{
+  "qid": 1392,
+  "initial": "a man stands on the snow next to his snowboard",
+  "initial_rank": 19,
+  "evidence": [
+    "man is posing with a surfboard",
+    "a man holding a colorful surfboard in a room",
+    "two people laying on the ground on skis",
+    "a snowboarder is riding a board down a slope of snow",
+    "a man is standing near the beach with a surfboard",
+    "people on skis going down the slopes",
+    "a group of people holding skis and snowboards",
+    "a snowboarder is making a turn down a snowy hill",
+    "a person snowboards down a mountain",
+    "two snowboarders laying down on the snow"
+  ],
+  "candidates": [
+    "what is the outfit of the man standing on the snow next to his snowboard?",
+    "what is the color of the snowboard the man is standing next to?",
+    "what is the color of the snowboard the man is standing next to?",
+    "what is the color of the man's clothing?",
+    "what is the color of the snowboard the man is standing next to?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the outfit of the man standing on the snow next to his snowboard?",
+      "answers": [
+        "a blue jacket and black pants",
+        "a red jacket and grey pants",
+        "a black jacket and blue pants"
+      ],
+      "score": 0.10615873336791992
+    },
+    {
+      "question": "what is the color of the snowboard the man is standing next to?",
+      "answers": [
+        "blue",
+        "black",
+        "red"
+      ],
+      "score": 0.042448997497558594
+    },
+    {
+      "question": "what is the color of the snowboard the man is standing next to?",
+      "answers": [
+        "blue",
+        "black",
+        "red"
+      ],
+      "score": 0.042448997497558594,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the color of the man's clothing?",
+      "answers": [
+        "red",
+        "blue",
+        "black"
+      ],
+      "score": 0.13017702102661133
+    },
+    {
+      "question": "what is the color of the snowboard the man is standing next to?",
+      "answers": [
+        "blue",
+        "black",
+        "red"
+      ],
+      "score": 0.042448997497558594,
+      "duplicate_of": 1
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.059,
+  "probe_selection_seconds": 1.563,
+  "probe_llm_calls": 3,
+  "probe_search_queries": 9,
+  "arms": {
+    "kl": {
+      "question": "what is the outfit of the man standing on the snow next to his snowboard?",
+      "answer": "the man is wearing a black beanie, sunglasses, a black coat, and black pants.",
+      "rewrite": "a man wearing a black beanie, sunglasses, a black coat, and black pants stands on the snow next to his snowboard",
+      "rank": 3,
+      "hit": true
+    },
+    "random": {
+      "question": "what is the color of the snowboard the man is standing next to?",
+      "answer": "green",
+      "rewrite": "a man stands on the snow next to a green snowboard",
+      "rank": 19,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the color of the man's clothing?",
+      "answer": "black",
+      "rewrite": "a man in black clothing stands on the snow next to his snowboard",
+      "rank": 6,
+      "hit": true
+    }
+  },
+  "seconds": 16.184
+}

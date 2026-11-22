@@ -1,0 +1,178 @@
+{
+  "qid": 940,
+  "initial": "a group of people working together to fly a kite on a sunny day",
+  "initial_rank": 14,
+  "displayed": [
+    42051,
+    9324,
+    3893,
+    24271,
+    20142,
+    29815,
+    27892,
+    30034,
+    3450,
+    39916
+  ],
+  "evidence": [
+    "a girl flies a kite in a green field",
+    "a group of people standing on a green field with trees",
+    "a green field with kites flying above it",
+    "some people flying kites in a snow field",
+    "a small kid flying a kite in a grassy field",
+    "kite flying over the grass in an area with a lot of trees",
+    "many kites are flying in the air in a grassy field",
+    "two people in the middle of the field",
+    "a green field with lots of kites flying in the sky",
+    "a person is sailing at the beach with a parachute"
+  ],
+  "rejected_captions": [
+    "two men standing in a parking lot",
+    "a large tarp",
+    "people flying kites on a field",
+    "people are flying kites",
+    "a person flying a kite in the air",
+    "people standing on the ground",
+    "a kite flying over the field",
+    "a blue sky",
+    "a group of people are walking with kites in the desert",
+    "some kites flying high in the sky"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the type of field where the group of people are flying the kite?",
+      "what is the location of the group of people flying the kite?",
+      "Question: how many people are in the group flying the kite?",
+      "what is the color of the field where the group of people are flying the kite?",
+      "what is the color of the field where the group of people are flying the kite?"
+    ],
+    "question": "what is the location of the group of people flying the kite?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the type of field where the group of people are flying the kite?",
+          "answers": [
+            "grass",
+            "snow",
+            "beach"
+          ],
+          "score": 0.20862150192260742
+        },
+        {
+          "question": "what is the location of the group of people flying the kite?",
+          "answers": [
+            "green field",
+            "snow field",
+            "beach"
+          ],
+          "score": 0.2535214424133301
+        },
+        {
+          "question": "Question: how many people are in the group flying the kite?",
+          "answers": [
+            "2",
+            "3",
+            "4"
+          ],
+          "score": 0.0019583702087402344
+        },
+        {
+          "question": "what is the color of the field where the group of people are flying the kite?",
+          "answers": [
+            "green",
+            "snow",
+            "grass"
+          ],
+          "score": 0.16252374649047852
+        },
+        {
+          "question": "what is the color of the field where the group of people are flying the kite?",
+          "answers": [
+            "green",
+            "snow",
+            "grass"
+          ],
+          "score": 0.16252374649047852,
+          "duplicate_of": 3
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.147,
+      "probe_selection_seconds": 2.0,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "park",
+    "rewrite": "a group of people working together to fly a kite in a park on a sunny day",
+    "raw_rank": 2,
+    "unseen_rank": 1
+  },
+  "rejected": {
+    "candidates": [
+      "Question: How many people are in the group flying the kite?",
+      "Question: What is the type of ground surface where the group is flying the kite?",
+      "Question: What is the color of the field where the group is flying the kite?",
+      "what is the location of the kite flying activity?",
+      "Question: What is the gender of the people flying the kite?"
+    ],
+    "question": "what is the location of the kite flying activity?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: How many people are in the group flying the kite?",
+          "answers": [
+            "two",
+            "three",
+            "many"
+          ],
+          "score": 0.017781734466552734
+        },
+        {
+          "question": "Question: What is the type of ground surface where the group is flying the kite?",
+          "answers": [
+            "green field",
+            "snow field",
+            "grassy field"
+          ],
+          "score": 0.18288803100585938
+        },
+        {
+          "question": "Question: What is the color of the field where the group is flying the kite?",
+          "answers": [
+            "green",
+            "snow",
+            "beach"
+          ],
+          "score": 0.17095565795898438
+        },
+        {
+          "question": "what is the location of the kite flying activity?",
+          "answers": [
+            "green field",
+            "snow field",
+            "beach"
+          ],
+          "score": 0.24569082260131836
+        },
+        {
+          "question": "Question: What is the gender of the people flying the kite?",
+          "answers": [
+            "girl",
+            "boy",
+            "mixed"
+          ],
+          "score": 0.02803182601928711
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.066,
+      "probe_selection_seconds": 2.539,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "park",
+    "rewrite": "a group of people working together to fly a kite in a park on a sunny day",
+    "raw_rank": 2,
+    "unseen_rank": 1
+  }
+}

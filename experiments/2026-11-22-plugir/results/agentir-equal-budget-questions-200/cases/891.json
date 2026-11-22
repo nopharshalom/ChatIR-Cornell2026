@@ -1,0 +1,78 @@
+{
+  "qid": 891,
+  "sample": 1,
+  "first_candidates": [
+    "what type of animal is standing in the field?",
+    "Question: What is the color of the animal standing in the field?",
+    "what is the specific species of the animal standing in the field outside?",
+    "Question: Is the animal standing in the field wearing any accessories or clothing?",
+    "Question: What is the color of the animal standing in the field?"
+  ],
+  "second_candidates": [
+    "what type of animal is standing in the field outside?",
+    "what color is the animal standing in the field outside?",
+    "Question: What is the specific type of animal standing in the field outside?",
+    "what is the color of the animal standing in the field outside?",
+    "is the animal standing in the field outside a sheep, a cow, a horse, or a giraffe?"
+  ],
+  "paths": [
+    {
+      "question": "what type of animal is standing in the field outside?",
+      "answers": [
+        "giraffe",
+        "cow",
+        "sheep"
+      ],
+      "score": 0.2250509262084961
+    },
+    {
+      "question": "what color is the animal standing in the field outside?",
+      "answers": [
+        "brown",
+        "black and white",
+        "black"
+      ],
+      "score": 0.09719276428222656
+    },
+    {
+      "question": "Question: What is the specific type of animal standing in the field outside?",
+      "answers": [
+        "sheep",
+        "cow",
+        "zebra"
+      ],
+      "score": 0.25323009490966797
+    },
+    {
+      "question": "what is the color of the animal standing in the field outside?",
+      "answers": [
+        "black",
+        "brown",
+        "white"
+      ],
+      "score": 0.08928251266479492
+    },
+    {
+      "question": "is the animal standing in the field outside a sheep, a cow, a horse, or a giraffe?",
+      "answers": [
+        "sheep",
+        "cow",
+        "horse"
+      ],
+      "score": 0.018292903900146484
+    }
+  ],
+  "control": {
+    "question": "Question: What is the specific type of animal standing in the field outside?",
+    "score": 0.25323009490966797
+  },
+  "mixed": {
+    "question": "Question: What type of animal is standing in the field?",
+    "score": 0.25372838973999023
+  },
+  "control_rank": 73,
+  "mixed_rank": 73,
+  "usual_rank": 73,
+  "new_answer": "giraffe",
+  "new_rewrite": "a giraffe is standing in the fields outside"
+}

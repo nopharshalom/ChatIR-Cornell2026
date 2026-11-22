@@ -1,0 +1,101 @@
+{
+  "qid": 1797,
+  "initial": "some birds eating from a metal bird feeder",
+  "initial_rank": 29,
+  "evidence": [
+    "small red and blue bird",
+    "giraffes standing in a zoo exhibit",
+    "two black and white kittens eating food",
+    "two giraffes nibbling on a tree that is at the edge of their enclosure",
+    "a bakery machine with a metal sheet of doughnuts in the center",
+    "three sheep in a pen with hay under their feet",
+    "the bird is red",
+    "two people sitting on a bench in a park near a bunch of birds",
+    "a group of zebras in an enclosure eating grass",
+    "zebras are eating grass in a pen"
+  ],
+  "candidates": [
+    "what is the color of the bird?",
+    "Question: where are the birds eating from the metal bird feeder?",
+    "what is the color of the bird feeder?",
+    "what is the color of the bird feeder?",
+    "what is the location where the birds are eating from the metal bird feeder?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the bird?",
+      "answers": [
+        "red",
+        "blue",
+        "black"
+      ],
+      "score": 0.12593889236450195
+    },
+    {
+      "question": "Question: where are the birds eating from the metal bird feeder?",
+      "answers": [
+        "a backyard",
+        "a park",
+        "a garden"
+      ],
+      "score": 0.01791667938232422
+    },
+    {
+      "question": "what is the color of the bird feeder?",
+      "answers": [
+        "red",
+        "blue",
+        "brown"
+      ],
+      "score": 0.09971475601196289
+    },
+    {
+      "question": "what is the color of the bird feeder?",
+      "answers": [
+        "red",
+        "blue",
+        "brown"
+      ],
+      "score": 0.09971475601196289,
+      "duplicate_of": 2
+    },
+    {
+      "question": "what is the location where the birds are eating from the metal bird feeder?",
+      "answers": [
+        "a metal sheet of doughnuts",
+        "a pen with hay",
+        "a park near a bench"
+      ],
+      "score": 0.08601045608520508
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.065,
+  "probe_selection_seconds": 2.129,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "Question: where are the birds eating from the metal bird feeder?",
+      "answer": "on the ground",
+      "rewrite": "some birds eating from a metal bird feeder on the ground",
+      "rank": 26,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the color of the bird feeder?",
+      "answer": "gray",
+      "rewrite": "some gray birds eating from a metal bird feeder",
+      "rank": 31,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the color of the bird?",
+      "answer": "green",
+      "rewrite": "some green birds eating from a metal bird feeder",
+      "rank": 39,
+      "hit": false
+    }
+  },
+  "seconds": 13.821
+}

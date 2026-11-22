@@ -1,0 +1,1192 @@
+{
+  "qid": 748,
+  "sample": "original",
+  "target": "unlabeled2017/000000263804.jpg",
+  "queries": [
+    "a rainy day featuring a woman holding an umbrella",
+    "a woman holding a black umbrella on a rainy day",
+    "a woman wearing shorts holding a black umbrella on a rainy day",
+    "a woman wearing shorts and black footwear holds a black umbrella on a rainy day",
+    "a woman wearing shorts and black footwear stands on a sidewalk on a rainy day, holding a black umbrella",
+    "a woman wearing a white shirt and black shorts stands on a sidewalk on a rainy day, holding a black umbrella and wearing black footwear",
+    "On a rainy day, a woman dressed in a white shirt and black shorts stands on a sidewalk, holding a black umbrella and wearing black footwear.",
+    "a woman wearing a white shirt and black shorts stands on a wet sidewalk on a rainy day, holding a black umbrella and wearing black footwear",
+    "a woman wearing a white shirt and black shorts walks on a sidewalk on a rainy day, holding a black umbrella",
+    "a woman in a white shirt and black shorts walks on a sidewalk holding a black umbrella on a rainy day, with an urban street background featuring parked cars, trees, and buildings in the distance"
+  ],
+  "ranks": [
+    148,
+    199,
+    355,
+    382,
+    172,
+    176,
+    128,
+    159,
+    94,
+    4
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a rainy day featuring a woman holding an umbrella",
+      "question": "what is the color of the umbrella held by the woman?",
+      "answer": "black",
+      "query_after": "a woman holding a black umbrella on a rainy day",
+      "displayed_ids": [
+        37136,
+        23323,
+        45887,
+        27942,
+        4961,
+        48639,
+        48254,
+        34022,
+        20685,
+        42742
+      ],
+      "selected_ids": [
+        10553,
+        35833,
+        30008,
+        13960,
+        45732,
+        11689,
+        4763,
+        14994,
+        23615,
+        43910
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what color is the umbrella held by the woman in the rainy scene?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.11993837356567383
+        },
+        {
+          "question": "what is the background setting of the woman holding the blue umbrella?",
+          "answers": [
+            "garden",
+            "field",
+            "city street"
+          ],
+          "score": 0.12859725952148438
+        },
+        {
+          "question": "what is the location where the woman holding the blue umbrella is situated?",
+          "answers": [
+            "garden",
+            "field",
+            "city"
+          ],
+          "score": 0.10464334487915039
+        },
+        {
+          "question": "what is the background setting of the woman holding the blue umbrella?",
+          "answers": [
+            "garden",
+            "field",
+            "city street"
+          ],
+          "score": 0.12859725952148438,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the background setting of the woman holding the blue umbrella?",
+          "answers": [
+            "garden",
+            "field",
+            "city street"
+          ],
+          "score": 0.12859725952148438,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the umbrella held by the woman?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.10983657836914062
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "flowers",
+            "garden",
+            "blue umbrella"
+          ],
+          "score": 0.14318561553955078
+        },
+        {
+          "question": "What color is the umbrella the woman is holding?",
+          "answers": [
+            "black",
+            "blue",
+            "transparent"
+          ],
+          "score": 0.07664918899536133
+        },
+        {
+          "question": "what is the color of the umbrella held by the woman?",
+          "answers": [
+            "blue",
+            "black",
+            "red"
+          ],
+          "score": 0.15538978576660156
+        },
+        {
+          "question": "Question: What is the color of the umbrella held by the woman?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.055364131927490234
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a woman holding a black umbrella on a rainy day",
+      "question": "What is the woman wearing?",
+      "answer": "shorts",
+      "query_after": "a woman wearing shorts holding a black umbrella on a rainy day",
+      "displayed_ids": [
+        23323,
+        30223,
+        45887,
+        20184,
+        29242,
+        33436,
+        35083,
+        16146,
+        49859,
+        37136
+      ],
+      "selected_ids": [
+        43910,
+        16785,
+        7630,
+        3603,
+        25238,
+        22941,
+        16157,
+        14557,
+        13960,
+        39938
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "what is the location where the woman is standing with her black umbrella?",
+          "answers": [
+            "a garden",
+            "a park",
+            "an abandoned building"
+          ],
+          "score": 0.09224462509155273
+        },
+        {
+          "question": "what is the location where the woman is standing with her black umbrella?",
+          "answers": [
+            "a garden",
+            "a park",
+            "an abandoned building"
+          ],
+          "score": 0.09224462509155273,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the specific type of location where the woman is standing with her black umbrella?",
+          "answers": [
+            "park",
+            "street",
+            "garden"
+          ],
+          "score": 0.06935834884643555
+        },
+        {
+          "question": "what is the specific location where the woman is standing with her black umbrella?",
+          "answers": [
+            "park",
+            "garden",
+            "abandoned building"
+          ],
+          "score": 0.07198143005371094
+        },
+        {
+          "question": "what is the specific type of location where the woman is standing with her black umbrella?",
+          "answers": [
+            "park",
+            "street",
+            "garden"
+          ],
+          "score": 0.06935834884643555,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the location where the woman is standing with her black umbrella?",
+          "answers": [
+            "a garden",
+            "a park",
+            "an abandoned building"
+          ],
+          "score": 0.09224462509155273
+        },
+        {
+          "question": "what is the specific type of structure or surface where the woman is standing with her black umbrella?",
+          "answers": [
+            "sidewalk",
+            "street",
+            "garden"
+          ],
+          "score": 0.04885244369506836
+        },
+        {
+          "question": "what is the specific type of structure where the woman is standing?",
+          "answers": [
+            "park",
+            "abandoned building",
+            "street"
+          ],
+          "score": 0.07384204864501953
+        },
+        {
+          "question": "What is the woman wearing?",
+          "answers": [
+            "a red coat",
+            "a yellow dress",
+            "a blue jacket"
+          ],
+          "score": 0.20632600784301758
+        },
+        {
+          "question": "What is the woman wearing on this rainy day?",
+          "answers": [
+            "raincoat",
+            "jacket",
+            "coat"
+          ],
+          "score": 0.010478496551513672
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "a woman wearing shorts holding a black umbrella on a rainy day",
+      "question": "what is the color of the footwear worn by the woman holding the black umbrella in shorts?",
+      "answer": "black",
+      "query_after": "a woman wearing shorts and black footwear holds a black umbrella on a rainy day",
+      "displayed_ids": [
+        37136,
+        42742,
+        33436,
+        23323,
+        45887,
+        49859,
+        29272,
+        1216,
+        44362,
+        23078
+      ],
+      "selected_ids": [
+        48254,
+        4989,
+        35702,
+        32252,
+        14557,
+        46610,
+        10553,
+        44520,
+        16309,
+        13264
+      ],
+      "rejected_count": 21,
+      "usual_paths": [
+        {
+          "question": "what is the background location where the woman is walking with her umbrella?",
+          "answers": [
+            "sidewalk",
+            "city street",
+            "brick street"
+          ],
+          "score": 0.022975921630859375
+        },
+        {
+          "question": "what is the specific background location where the woman is walking with her umbrella?",
+          "answers": [
+            "sidewalk",
+            "city street",
+            "brick street"
+          ],
+          "score": 0.023722171783447266
+        },
+        {
+          "question": "what is the surface texture of the street where the woman is walking with her umbrella?",
+          "answers": [
+            "wet asphalt",
+            "wet brick",
+            "wet concrete"
+          ],
+          "score": 0.01671886444091797
+        },
+        {
+          "question": "what is the specific background location where the woman is walking with her umbrella?",
+          "answers": [
+            "sidewalk",
+            "city street",
+            "brick street"
+          ],
+          "score": 0.023722171783447266,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the material of the sidewalk where the woman is walking with her umbrella?",
+          "answers": [
+            "brick",
+            "concrete",
+            "paved"
+          ],
+          "score": 0.013489723205566406
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the footwear of the woman holding the black umbrella in shorts?",
+          "answers": [
+            "sneakers",
+            "sandals",
+            "boots"
+          ],
+          "score": 0.009462356567382812
+        },
+        {
+          "question": "Question: What is the footwear of the woman holding the black umbrella in shorts?",
+          "answers": [
+            "sneakers",
+            "sandals",
+            "boots"
+          ],
+          "score": 0.020561695098876953
+        },
+        {
+          "question": "what is the footwear of the woman holding the black umbrella in shorts?",
+          "answers": [
+            "sneakers",
+            "sandals",
+            "boots"
+          ],
+          "score": 0.009462356567382812,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the location where the woman in shorts is walking with her black umbrella?",
+          "answers": [
+            "city street",
+            "sidewalk",
+            "brick street"
+          ],
+          "score": 0.02128314971923828
+        },
+        {
+          "question": "what is the color of the footwear worn by the woman holding the black umbrella in shorts?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.09085226058959961
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a woman wearing shorts and black footwear holds a black umbrella on a rainy day",
+      "question": "what is the specific type of surface where the woman is standing?",
+      "answer": "sidewalk",
+      "query_after": "a woman wearing shorts and black footwear stands on a sidewalk on a rainy day, holding a black umbrella",
+      "displayed_ids": [
+        42742,
+        44362,
+        49859,
+        23078,
+        6190,
+        35202,
+        33436,
+        27942,
+        29272,
+        37136
+      ],
+      "selected_ids": [
+        45171,
+        31608,
+        27882,
+        16785,
+        3827,
+        35538,
+        9963,
+        18405,
+        13264,
+        46610
+      ],
+      "rejected_count": 23,
+      "usual_paths": [
+        {
+          "question": "what is the location of the woman holding the black umbrella and wearing shorts?",
+          "answers": [
+            "sidewalk",
+            "street",
+            "bedroom"
+          ],
+          "score": 0.012085437774658203
+        },
+        {
+          "question": "what is the location of the woman holding the black umbrella and wearing shorts?",
+          "answers": [
+            "sidewalk",
+            "street",
+            "bedroom"
+          ],
+          "score": 0.012085437774658203,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the location where the woman holding the black umbrella and wearing shorts is situated?",
+          "answers": [
+            "sidewalk",
+            "street",
+            "bench"
+          ],
+          "score": 0.024607181549072266
+        },
+        {
+          "question": "what is the location of the woman holding the black umbrella and wearing shorts?",
+          "answers": [
+            "sidewalk",
+            "street",
+            "bedroom"
+          ],
+          "score": 0.012085437774658203,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the location of the woman holding the black umbrella and wearing shorts?",
+          "answers": [
+            "sidewalk",
+            "street",
+            "bedroom"
+          ],
+          "score": 0.012085437774658203,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the location of the woman holding the black umbrella while wearing shorts?",
+          "answers": [
+            "sidewalk",
+            "street",
+            "bedroom"
+          ],
+          "score": 0.010483264923095703
+        },
+        {
+          "question": "what is the location of the woman holding the black umbrella while wearing shorts?",
+          "answers": [
+            "sidewalk",
+            "street",
+            "bedroom"
+          ],
+          "score": 0.010483264923095703,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the specific setting or type of pavement where the woman is standing?",
+          "answers": [
+            "sidewalk",
+            "street",
+            "brick building"
+          ],
+          "score": 0.019507408142089844
+        },
+        {
+          "question": "what is the specific type of surface or location where the woman is standing?",
+          "answers": [
+            "sidewalk",
+            "street",
+            "bench"
+          ],
+          "score": 0.02968883514404297
+        },
+        {
+          "question": "what is the specific type of surface where the woman is standing?",
+          "answers": [
+            "sidewalk",
+            "wet street",
+            "bench"
+          ],
+          "score": 0.03066253662109375
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a woman wearing shorts and black footwear stands on a sidewalk on a rainy day, holding a black umbrella",
+      "question": "**Question:** What is the color of the woman's shirt?",
+      "answer": "white",
+      "query_after": "a woman wearing a white shirt and black shorts stands on a sidewalk on a rainy day, holding a black umbrella and wearing black footwear",
+      "displayed_ids": [
+        45887,
+        35202,
+        23078,
+        49859,
+        23323,
+        42742,
+        33436,
+        27942,
+        3188,
+        6190
+      ],
+      "selected_ids": [
+        3827,
+        7304,
+        46610,
+        42182,
+        36247,
+        17479,
+        27882,
+        43910,
+        20079
+      ],
+      "rejected_count": 24,
+      "usual_paths": [
+        {
+          "question": "Question: Is the woman in the image black and white or in color?",
+          "answers": [
+            "black and white",
+            "color",
+            "neither"
+          ],
+          "score": 0.003601551055908203
+        },
+        {
+          "question": "Question: Is the woman in the image wearing a blue shirt and red shorts, or is she wearing a black shirt and black shorts?",
+          "answers": [
+            "blue shirt and red shorts",
+            "black shirt and black shorts",
+            "a blue shirt and black shorts"
+          ],
+          "score": 0.007675647735595703
+        },
+        {
+          "question": "Question: What is the color of the shirt worn by the woman holding the black umbrella on the sidewalk?",
+          "answers": [
+            "blue",
+            "black",
+            "white"
+          ],
+          "score": 0.07245445251464844
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "fountain",
+            "street",
+            "rain"
+          ],
+          "score": 0.014783382415771484
+        },
+        {
+          "question": "Question: What is the color of the umbrella in the black and white photo?",
+          "answers": [
+            "black",
+            "white",
+            "gray"
+          ],
+          "score": 0.01093149185180664
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "**Question:** What is the color of the woman's shirt?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.12062835693359375
+        },
+        {
+          "question": "**Question:** What is the color of the woman's shirt?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.12062835693359375,
+          "duplicate_of": 0
+        },
+        {
+          "question": "**Question:** Is the woman wearing a blue shirt?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0022077560424804688
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "fountain",
+            "street",
+            "rain"
+          ],
+          "score": 0.014783382415771484
+        },
+        {
+          "question": "**Question:** What is the color of the woman's shirt?",
+          "answers": [
+            "blue",
+            "red",
+            "white"
+          ],
+          "score": 0.12062835693359375,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a woman wearing a white shirt and black shorts stands on a sidewalk on a rainy day, holding a black umbrella and wearing black footwear",
+      "question": "Question: What is the color of the woman's shorts?",
+      "answer": "black",
+      "query_after": "On a rainy day, a woman dressed in a white shirt and black shorts stands on a sidewalk, holding a black umbrella and wearing black footwear.",
+      "displayed_ids": [
+        37136,
+        5566,
+        45887,
+        29272,
+        27942,
+        23323,
+        47179,
+        35083,
+        16785,
+        30223
+      ],
+      "selected_ids": [
+        48254,
+        3827,
+        22941,
+        49670,
+        46610,
+        13960,
+        11363,
+        16969,
+        10553,
+        26163
+      ],
+      "rejected_count": 27,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "racket",
+            "bat",
+            "shorts"
+          ],
+          "score": 0.0075626373291015625
+        },
+        {
+          "question": "what is the woman holding in her hands besides the umbrella?",
+          "answers": [
+            "racket",
+            "bat",
+            "phone"
+          ],
+          "score": 0.021829605102539062
+        },
+        {
+          "question": "what is the activity the woman is performing while holding the umbrella?",
+          "answers": [
+            "walking",
+            "standing",
+            "running"
+          ],
+          "score": 0.015358924865722656
+        },
+        {
+          "question": "Based on the provided information sources, here is the generated question and the explanation of how the information was utilized.\n\n**Question:**\nWhat is the color of?",
+          "answers": [
+            "white",
+            "black",
+            "blue"
+          ],
+          "score": 0.029560089111328125
+        },
+        {
+          "question": "**Question:** What is the woman holding in her hands besides the umbrella?",
+          "answers": [
+            "racket",
+            "ball",
+            "bat"
+          ],
+          "score": 0.014154911041259766
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "racket",
+            "bat",
+            "shorts"
+          ],
+          "score": 0.0075626373291015625
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "racket",
+            "bat",
+            "shorts"
+          ],
+          "score": 0.0075626373291015625,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the woman's shorts?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.07077836990356445
+        },
+        {
+          "question": "Question: What is the color of the woman's shorts?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.07077836990356445,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the woman holding in her hands besides the umbrella?",
+          "answers": [
+            "racket",
+            "baseball bat",
+            "none"
+          ],
+          "score": 0.022224903106689453
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "On a rainy day, a woman dressed in a white shirt and black shorts stands on a sidewalk, holding a black umbrella and wearing black footwear.",
+      "question": "What is the color of the umbrella held by the woman in the image?",
+      "answer": "black",
+      "query_after": "a woman wearing a white shirt and black shorts stands on a wet sidewalk on a rainy day, holding a black umbrella and wearing black footwear",
+      "displayed_ids": [
+        37136,
+        5566,
+        45887,
+        27942,
+        29272,
+        47179,
+        23323,
+        16785,
+        20184,
+        35083
+      ],
+      "selected_ids": [
+        44520,
+        27882,
+        47179,
+        21734,
+        42672,
+        16059,
+        19201,
+        29272,
+        10534,
+        46610
+      ],
+      "rejected_count": 27,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "rain",
+            "umbrella",
+            "shorts"
+          ],
+          "score": 0.006243705749511719
+        },
+        {
+          "question": "what is the background setting (e.g., street type or weather condition) for the woman wearing a white shirt and black shorts holding a black umbrella?",
+          "answers": [
+            "brick street",
+            "city street",
+            "rainy day"
+          ],
+          "score": 0.01276254653930664
+        },
+        {
+          "question": "what is the color of the woman's shirt?",
+          "answers": [
+            "white",
+            "black",
+            "grey"
+          ],
+          "score": 0.020125389099121094
+        },
+        {
+          "question": "what is the weather condition depicted in the image?",
+          "answers": [
+            "rainy",
+            "sunny",
+            "cloudy"
+          ],
+          "score": 0.014240264892578125
+        },
+        {
+          "question": "What is the color of the umbrella held by the woman in the image?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.08493947982788086
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "rain",
+            "umbrella",
+            "shorts"
+          ],
+          "score": 0.006243705749511719
+        },
+        {
+          "question": "Question: What is the gender of the person holding the umbrella on the brick street?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.013765811920166016
+        },
+        {
+          "question": "Question: What is the street surface made of?",
+          "answers": [
+            "brick",
+            "concrete",
+            "asphalt"
+          ],
+          "score": 0.03113412857055664
+        },
+        {
+          "question": "**Question:** What is the color of the umbrella held by the person on the brick street?",
+          "answers": [
+            "blue",
+            "red",
+            "black"
+          ],
+          "score": 0.057697296142578125
+        },
+        {
+          "question": "**Question:** What is the color of the umbrella held by the person on the brick street?",
+          "answers": [
+            "blue",
+            "red",
+            "black"
+          ],
+          "score": 0.057697296142578125,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a woman wearing a white shirt and black shorts stands on a wet sidewalk on a rainy day, holding a black umbrella and wearing black footwear",
+      "question": "**Question:** What is the specific type of pose or activity the woman is performing while holding the black umbrella on the sidewalk?",
+      "answer": "walking",
+      "query_after": "a woman wearing a white shirt and black shorts walks on a sidewalk on a rainy day, holding a black umbrella",
+      "displayed_ids": [
+        37136,
+        5566,
+        45887,
+        29272,
+        27942,
+        47179,
+        23323,
+        35083,
+        16785,
+        30223
+      ],
+      "selected_ids": [
+        35949,
+        10553,
+        3603,
+        39938,
+        46014,
+        13960,
+        42672,
+        26163,
+        10534,
+        35202
+      ],
+      "rejected_count": 27,
+      "usual_paths": [
+        {
+          "question": "Question: What is the woman holding onto with her free hand besides the umbrella?",
+          "answers": [
+            "Nothing",
+            "Keys",
+            "Phone"
+          ],
+          "score": 0.01244974136352539
+        },
+        {
+          "question": "**Question:** What is the specific type of pose or activity the woman is performing while holding the black umbrella on the sidewalk?",
+          "answers": [
+            "standing",
+            "walking",
+            "sitting"
+          ],
+          "score": 0.026670455932617188
+        },
+        {
+          "question": "what is the woman holding onto with her free hand besides the umbrella?",
+          "answers": [
+            "nothing",
+            "phone",
+            "keys"
+          ],
+          "score": 0.012430667877197266
+        },
+        {
+          "question": "**Question:** What is the woman holding onto with her free hand besides the umbrella?",
+          "answers": [
+            "nothing",
+            "phone",
+            "bag"
+          ],
+          "score": 0.011622428894042969
+        },
+        {
+          "question": "**Question:** What is the woman holding onto with her free hand besides the umbrella?",
+          "answers": [
+            "nothing",
+            "phone",
+            "bag"
+          ],
+          "score": 0.011622428894042969,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "umbrella",
+            "rain",
+            "sidewalk"
+          ],
+          "score": 0.0024671554565429688
+        },
+        {
+          "question": "Question: What is the lighting condition of the image (e.g., color photo, black and white)?",
+          "answers": [
+            "color photo",
+            "black and white",
+            "night"
+          ],
+          "score": 0.017002105712890625
+        },
+        {
+          "question": "Question: What is the location where the woman holding the black umbrella is standing?",
+          "answers": [
+            "sidewalk",
+            "abandoned building",
+            "garden"
+          ],
+          "score": 0.02410268783569336
+        },
+        {
+          "question": "Question: What is the color of the woman's shoes?",
+          "answers": [
+            "black",
+            "white",
+            "brown"
+          ],
+          "score": 0.015286922454833984
+        },
+        {
+          "question": "**Question:** What is the gender of the person in the image?",
+          "answers": [
+            "woman",
+            "man",
+            "girl"
+          ],
+          "score": 0.016205787658691406
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a woman wearing a white shirt and black shorts walks on a sidewalk on a rainy day, holding a black umbrella",
+      "question": "**Question:** What is the background environment where the woman is walking?",
+      "answer": "The background environment where the woman is walking appears to be an urban street with parked cars, trees, and buildings in the distance.",
+      "query_after": "a woman in a white shirt and black shorts walks on a sidewalk holding a black umbrella on a rainy day, with an urban street background featuring parked cars, trees, and buildings in the distance",
+      "displayed_ids": [
+        5566,
+        37136,
+        29272,
+        45887,
+        27942,
+        23323,
+        47179,
+        16785,
+        30223,
+        20184
+      ],
+      "selected_ids": [
+        47070,
+        35202,
+        9888,
+        16785,
+        39852,
+        10978,
+        26163,
+        17068,
+        41429,
+        45171
+      ],
+      "rejected_count": 27,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "rain",
+            "umbrella",
+            "sidewalk"
+          ],
+          "score": 0.004253387451171875
+        },
+        {
+          "question": "what is the other object in the image besides the woman and the black umbrella?",
+          "answers": [
+            "sidewalk",
+            "rain",
+            "dog"
+          ],
+          "score": 0.022332191467285156
+        },
+        {
+          "question": "**Question:** What is the woman holding besides the black umbrella?",
+          "answers": [
+            "nothing",
+            "a phone",
+            "a bag"
+          ],
+          "score": 0.01200103759765625
+        },
+        {
+          "question": "**Question:** What is the color of the woman's pants?",
+          "answers": [
+            "white",
+            "black",
+            "shorts"
+          ],
+          "score": 0.012832164764404297
+        },
+        {
+          "question": "**Question:** What is the color of the woman's pants?",
+          "answers": [
+            "white",
+            "black",
+            "shorts"
+          ],
+          "score": 0.012832164764404297,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "rain",
+            "umbrella",
+            "sidewalk"
+          ],
+          "score": 0.004253387451171875
+        },
+        {
+          "question": "**Question:** What is the name of the specific location where the woman is walking?",
+          "answers": [
+            "sidewalk",
+            "street",
+            "park"
+          ],
+          "score": 0.010833740234375
+        },
+        {
+          "question": "**Question:** What is the woman wearing on her head?",
+          "answers": [
+            "nothing",
+            "hat",
+            "headscarf"
+          ],
+          "score": 0.0065631866455078125
+        },
+        {
+          "question": "**Question:** What is the background environment where the woman is walking?",
+          "answers": [
+            "sidewalk",
+            "street",
+            "field"
+          ],
+          "score": 0.02477407455444336
+        },
+        {
+          "question": "**Question:** What is the name of the specific location where the woman is walking?",
+          "answers": [
+            "sidewalk",
+            "street",
+            "park"
+          ],
+          "score": 0.010833740234375,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

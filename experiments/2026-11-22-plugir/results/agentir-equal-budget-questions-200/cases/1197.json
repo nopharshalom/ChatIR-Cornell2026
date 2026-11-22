@@ -1,0 +1,77 @@
+{
+  "qid": 1197,
+  "sample": 1,
+  "first_candidates": [
+    "what color are the two cats laying in front of each other on cushions?",
+    "what is the location where the two cats are laying in front of each other on cushions?",
+    "what type of cushions are the two cats laying on?",
+    "what is the color of the cushions where the two cats are laying?",
+    "what is the other object in the image?"
+  ],
+  "second_candidates": [
+    "Question: What color are the two cats laying in front of each other?",
+    "Question: Question: What is the species of the two cats laying on the cushions?",
+    "what is the color of the couch where the cat is laying in the middle of a living room?",
+    "Question: Which two cats are laying in front of each other, and what are they laying on?",
+    "what is the other object in the image?"
+  ],
+  "paths": [
+    {
+      "question": "Question: What color are the two cats laying in front of each other?",
+      "answers": [
+        "black",
+        "orange",
+        "brown"
+      ],
+      "score": 0.08037710189819336
+    },
+    {
+      "question": "Question: Question: What is the species of the two cats laying on the cushions?",
+      "answers": [
+        "black cats",
+        "orange cats",
+        "brown and orange cats"
+      ],
+      "score": 0.0890207290649414
+    },
+    {
+      "question": "what is the color of the couch where the cat is laying in the middle of a living room?",
+      "answers": [
+        "blue",
+        "brown",
+        "orange"
+      ],
+      "score": 0.12177228927612305
+    },
+    {
+      "question": "Question: Which two cats are laying in front of each other, and what are they laying on?",
+      "answers": [
+        "7",
+        "9"
+      ],
+      "score": 0.00022411346435546875
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "cat",
+        "cats",
+        "bed"
+      ],
+      "score": 0.03138303756713867
+    }
+  ],
+  "control": {
+    "question": "what is the location where the two cats are laying in front of each other on cushions?",
+    "score": 0.13799333572387695
+  },
+  "mixed": {
+    "question": "what is the location where the two cats are laying in front of each other on cushions?",
+    "score": 0.13799333572387695
+  },
+  "control_rank": 2,
+  "mixed_rank": 2,
+  "usual_rank": 2,
+  "new_answer": null,
+  "new_rewrite": null
+}

@@ -1,0 +1,1332 @@
+{
+  "qid": 1169,
+  "sample": "original",
+  "target": "unlabeled2017/000000354997.jpg",
+  "queries": [
+    "2 computers next to each other with a ipod dock",
+    "two computers next to each other on a desk with an ipod dock",
+    "two black computers sitting next to each other on a black desk with an iPod dock",
+    "two black computers next to each other on a black desk with a white iPod dock",
+    "two black computers and a white iPod dock sit on a black desk next to a monitor",
+    "two black computers and a white iPod dock sit on a black desk next to a black woman",
+    "two black computers and a white iPod dock sit on a black desk next to a woman wearing black",
+    "two black computers and a white iPod dock sit on a black desk next to a black woman and a laptop",
+    "two black computers and a white iPod dock sit on a black desk next to a woman, with a laptop and a man performing a skateboard trick also in the image",
+    "Next to a woman, a black desk holds two black computers and a white iPod dock, while a man executes a skateboard trick with a laptop also visible in the image.",
+    "two black MacBooks sit next to each other on a black desk, accompanied by a white iPod dock, a monitor, and a laptop, with a woman in white and a man on a skateboard also present in the scene."
+  ],
+  "ranks": [
+    42,
+    48,
+    22,
+    13,
+    17,
+    32,
+    46,
+    41,
+    57,
+    193,
+    42
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "2 computers next to each other with a ipod dock",
+      "question": "what is the location of the two computers next to each other?",
+      "answer": "on desk",
+      "query_after": "two computers next to each other on a desk with an ipod dock",
+      "displayed_ids": [
+        29265,
+        15531,
+        27444,
+        40424,
+        38662,
+        36911,
+        8667,
+        22743,
+        43859,
+        32486
+      ],
+      "selected_ids": [
+        27084,
+        32419,
+        37639,
+        26708,
+        32916,
+        5811,
+        31068,
+        34316,
+        20889,
+        1156
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the desk holding the two computers?",
+          "answers": [
+            "wooden",
+            "white",
+            "silver"
+          ],
+          "score": 0.04827260971069336
+        },
+        {
+          "question": "what is the color of the desk holding the two computers?",
+          "answers": [
+            "wooden",
+            "white",
+            "silver"
+          ],
+          "score": 0.04827260971069336,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the material of the desk holding the two computers?",
+          "answers": [
+            "wooden",
+            "white",
+            "any"
+          ],
+          "score": 0.042365074157714844
+        },
+        {
+          "question": "what is the location of the two computers next to each other?",
+          "answers": [
+            "on a wooden desk",
+            "on a white desk",
+            "near a window"
+          ],
+          "score": 0.0592198371887207
+        },
+        {
+          "question": "what is the color of the ipod dock next to the two computers?",
+          "answers": [
+            "black",
+            "silver",
+            "white"
+          ],
+          "score": 0.03463268280029297
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the desk where the two computers are located?",
+          "answers": [
+            "wooden",
+            "white",
+            "silver"
+          ],
+          "score": 0.03276872634887695
+        },
+        {
+          "question": "Question: What is the color of the iPod dock next to the two computers?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.019580364227294922
+        },
+        {
+          "question": "Question: What type of monitor is on the desk with the two computers?",
+          "answers": [
+            "LCD",
+            "LED",
+            "CRT"
+          ],
+          "score": 0.006892681121826172
+        },
+        {
+          "question": "what is the material of the desk where the two computers are located?",
+          "answers": [
+            "wooden",
+            "white",
+            "silver"
+          ],
+          "score": 0.05385160446166992
+        },
+        {
+          "question": "what is the color of the desk where the two computers are located?",
+          "answers": [
+            "wooden",
+            "white",
+            "silver"
+          ],
+          "score": 0.042371273040771484
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "two computers next to each other on a desk with an ipod dock",
+      "question": "what color is the desk where the two computers are located?",
+      "answer": "black",
+      "query_after": "two black computers sitting next to each other on a black desk with an iPod dock",
+      "displayed_ids": [
+        15531,
+        40424,
+        36911,
+        29265,
+        27444,
+        8667,
+        38662,
+        46820,
+        35229,
+        32486
+      ],
+      "selected_ids": [
+        23300,
+        33355,
+        32419,
+        14460,
+        12825,
+        35852,
+        24393,
+        20481,
+        34826,
+        20889
+      ],
+      "rejected_count": 12,
+      "usual_paths": [
+        {
+          "question": "what is the color of the two computers next to each other?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.028984546661376953
+        },
+        {
+          "question": "what is the color of the two computers next to each other?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.028984546661376953,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the two computers next to each other?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.028984546661376953,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the two computers next to each other?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.028984546661376953,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the two computers next to each other?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.028984546661376953,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the two computers next to each other?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.028984546661376953
+        },
+        {
+          "question": "what are the two computers next to each other?",
+          "answers": [
+            "laptops",
+            "computers",
+            "monitors"
+          ],
+          "score": 0.018740177154541016
+        },
+        {
+          "question": "what color is the desk where the two computers are located?",
+          "answers": [
+            "wooden",
+            "white",
+            "black"
+          ],
+          "score": 0.04341697692871094
+        },
+        {
+          "question": "what is the color of the two computers next to each other?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.028984546661376953,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the two computers next to each other?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.028984546661376953,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "two black computers sitting next to each other on a black desk with an iPod dock",
+      "question": "what color is the iPod dock located next to the two computers?",
+      "answer": "white",
+      "query_after": "two black computers next to each other on a black desk with a white iPod dock",
+      "displayed_ids": [
+        453,
+        9827,
+        21192,
+        10968,
+        35229,
+        45455,
+        47212,
+        12391,
+        26670,
+        14486
+      ],
+      "selected_ids": [
+        32419,
+        24393,
+        2396,
+        21285,
+        34316,
+        46199,
+        20481,
+        35763,
+        2025,
+        20889
+      ],
+      "rejected_count": 21,
+      "usual_paths": [
+        {
+          "question": "what is the color of the ipod dock next to the two computers?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.013010978698730469
+        },
+        {
+          "question": "what is the color of the ipod dock next to the two computers?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.013010978698730469,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the ipod dock next to the two computers?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.013010978698730469,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the ipod dock next to the two computers?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.013010978698730469,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the ipod dock next to the two computers?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.013010978698730469,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the ipod dock next to the two computers on the black desk?",
+          "answers": [
+            "silver",
+            "white",
+            "black"
+          ],
+          "score": 0.006740093231201172
+        },
+        {
+          "question": "what is the object located between the two computers?",
+          "answers": [
+            "ipod dock",
+            "monitor",
+            "keyboard"
+          ],
+          "score": 0.012471675872802734
+        },
+        {
+          "question": "what color is the iPod dock located next to the two computers?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.014879703521728516
+        },
+        {
+          "question": "What is the color of the iPod dock sitting next to the two computers?",
+          "answers": [
+            "black",
+            "silver",
+            "white"
+          ],
+          "score": 0.011919498443603516
+        },
+        {
+          "question": "what color is the monitor (or screen) on the black desk next to the two computers?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.009157657623291016
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "two black computers next to each other on a black desk with a white iPod dock",
+      "question": "what object is the woman in the image located next to?",
+      "answer": "monitor",
+      "query_after": "two black computers and a white iPod dock sit on a black desk next to a monitor",
+      "displayed_ids": [
+        453,
+        9827,
+        21192,
+        12391,
+        47212,
+        10968,
+        45455,
+        38662,
+        35229,
+        14486
+      ],
+      "selected_ids": [
+        27084,
+        5811,
+        20889,
+        35763,
+        14460,
+        32419,
+        7928,
+        24393,
+        34826,
+        7534
+      ],
+      "rejected_count": 21,
+      "usual_paths": [
+        {
+          "question": "what is the color of the hair of the woman in the image?",
+          "answers": [
+            "black",
+            "green",
+            "brown"
+          ],
+          "score": 0.0329279899597168
+        },
+        {
+          "question": "what object is the woman in the image located next to?",
+          "answers": [
+            "desk",
+            "window",
+            "chair"
+          ],
+          "score": 0.0480036735534668
+        },
+        {
+          "question": "what is the color of the hair of the woman in the image?",
+          "answers": [
+            "black",
+            "green",
+            "brown"
+          ],
+          "score": 0.0329279899597168,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what object is the woman located next to?",
+          "answers": [
+            "black desk",
+            "white iPod dock",
+            "green hair"
+          ],
+          "score": 0.02011251449584961
+        },
+        {
+          "question": "what is the color of the hair of the woman in the image?",
+          "answers": [
+            "black",
+            "green",
+            "brown"
+          ],
+          "score": 0.0329279899597168,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the hair of the woman in the image?",
+          "answers": [
+            "black",
+            "green",
+            "brown"
+          ],
+          "score": 0.0329279899597168
+        },
+        {
+          "question": "what color is the hair of the woman in the image?",
+          "answers": [
+            "black",
+            "green",
+            "brown"
+          ],
+          "score": 0.03641557693481445
+        },
+        {
+          "question": "what color is the hair of the woman in the image?",
+          "answers": [
+            "black",
+            "green",
+            "brown"
+          ],
+          "score": 0.03641557693481445,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the hair of the woman in the image?",
+          "answers": [
+            "black",
+            "green",
+            "brown"
+          ],
+          "score": 0.0329279899597168,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the hair of the woman in the image?",
+          "answers": [
+            "black",
+            "green",
+            "brown"
+          ],
+          "score": 0.03641557693481445,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "two black computers and a white iPod dock sit on a black desk next to a monitor",
+      "question": "what is the color of the woman located next to the monitor?",
+      "answer": "black",
+      "query_after": "two black computers and a white iPod dock sit on a black desk next to a black woman",
+      "displayed_ids": [
+        21192,
+        10968,
+        9827,
+        12391,
+        45455,
+        453,
+        21841,
+        21509,
+        35229,
+        38662
+      ],
+      "selected_ids": [
+        22284,
+        46049,
+        35868,
+        24393,
+        38119,
+        35763,
+        47556,
+        14460,
+        34316,
+        5811
+      ],
+      "rejected_count": 23,
+      "usual_paths": [
+        {
+          "question": "What is the woman doing in the image?",
+          "answers": [
+            "sitting",
+            "standing",
+            "talking"
+          ],
+          "score": 0.006943702697753906
+        },
+        {
+          "question": "what is the color of the woman located next to the monitor?",
+          "answers": [
+            "black",
+            "white",
+            "brown"
+          ],
+          "score": 0.014903545379638672
+        },
+        {
+          "question": "what is the color of the woman located next to the monitor?",
+          "answers": [
+            "black",
+            "white",
+            "brown"
+          ],
+          "score": 0.014903545379638672,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the woman located next to the monitor?",
+          "answers": [
+            "black",
+            "white",
+            "brown"
+          ],
+          "score": 0.014903545379638672,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the woman located next to the monitor?",
+          "answers": [
+            "black",
+            "white",
+            "brown"
+          ],
+          "score": 0.014903545379638672,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the woman doing in the image?",
+          "answers": [
+            "sitting",
+            "standing",
+            "talking"
+          ],
+          "score": 0.006943702697753906
+        },
+        {
+          "question": "What color is the woman wearing in the image?",
+          "answers": [
+            "black",
+            "white",
+            "gray"
+          ],
+          "score": 0.008526325225830078
+        },
+        {
+          "question": "who is the woman located next to the monitor?",
+          "answers": [
+            "a woman",
+            "a girl",
+            "a lady"
+          ],
+          "score": 0.004521369934082031
+        },
+        {
+          "question": "what is the woman doing in the image?",
+          "answers": [
+            "sitting",
+            "standing",
+            "working"
+          ],
+          "score": 0.006184577941894531
+        },
+        {
+          "question": "what is the woman in the image doing?",
+          "answers": [
+            "sitting",
+            "standing",
+            "walking"
+          ],
+          "score": 0.008328914642333984
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "two black computers and a white iPod dock sit on a black desk next to a black woman",
+      "question": "what color is the woman located next to the monitor?",
+      "answer": "white",
+      "query_after": "two black computers and a white iPod dock sit on a black desk next to a woman wearing black",
+      "displayed_ids": [
+        16718,
+        45455,
+        16680,
+        36852,
+        453,
+        10968,
+        9827,
+        21192,
+        6606,
+        12391
+      ],
+      "selected_ids": [
+        16397,
+        35122,
+        41613,
+        2396,
+        48479,
+        27084,
+        21285,
+        46575,
+        49091,
+        20481
+      ],
+      "rejected_count": 27,
+      "usual_paths": [
+        {
+          "question": "what is the color of the computer monitors on the black desk?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.0038738250732421875
+        },
+        {
+          "question": "what is the color of the computer monitors on the black desk?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.0038738250732421875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the computer monitors on the black desk?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.0038738250732421875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the brand of the black desk with two computer monitors?",
+          "answers": [
+            "iPod",
+            "white",
+            "monitor"
+          ],
+          "score": 0.0031909942626953125
+        },
+        {
+          "question": "what is the color of the two computer monitors on the black desk?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.0028405189514160156
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "who is the woman located next to the monitor?",
+          "answers": [
+            "black",
+            "woman",
+            "woman with black hair"
+          ],
+          "score": 0.00927877426147461
+        },
+        {
+          "question": "what color is the woman located next to the monitor?",
+          "answers": [
+            "black",
+            "white",
+            "brown"
+          ],
+          "score": 0.01225137710571289
+        },
+        {
+          "question": "Question: What is the color of the desk where the two computers are located?",
+          "answers": [
+            "black",
+            "white",
+            "wooden"
+          ],
+          "score": 0.012216567993164062
+        },
+        {
+          "question": "Question: what is the color of the two computers next to each other?",
+          "answers": [
+            "black",
+            "silver",
+            "white"
+          ],
+          "score": 0.004411220550537109
+        },
+        {
+          "question": "what color is the woman located next to the monitor?",
+          "answers": [
+            "black",
+            "white",
+            "brown"
+          ],
+          "score": 0.01225137710571289,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "two black computers and a white iPod dock sit on a black desk next to a woman wearing black",
+      "question": "what is the other object in the image?",
+      "answer": "laptop",
+      "query_after": "two black computers and a white iPod dock sit on a black desk next to a black woman and a laptop",
+      "displayed_ids": [
+        45455,
+        16680,
+        10968,
+        21192,
+        36852,
+        9827,
+        453,
+        21841,
+        33585,
+        12391
+      ],
+      "selected_ids": [
+        46575,
+        21285,
+        27622,
+        27084,
+        12825,
+        38013,
+        37861,
+        37642,
+        20889,
+        1244
+      ],
+      "rejected_count": 28,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "laptop",
+            "chair",
+            "mouse"
+          ],
+          "score": 0.0707697868347168
+        },
+        {
+          "question": "what color is the desk where the two computers next to each other with an iPod dock are located?",
+          "answers": [
+            "black",
+            "white",
+            "wooden"
+          ],
+          "score": 0.01656198501586914
+        },
+        {
+          "question": "what object is located next to the two computers on the desk?",
+          "answers": [
+            "ipod dock",
+            "laptop",
+            "keyboard"
+          ],
+          "score": 0.02559041976928711
+        },
+        {
+          "question": "what is the color of the desk where the two computers next to each other with an iPod dock are located?",
+          "answers": [
+            "black",
+            "white",
+            "brown"
+          ],
+          "score": 0.012674331665039062
+        },
+        {
+          "question": "what is the color of the desk where the two computers next to each other with an iPod dock are located?",
+          "answers": [
+            "black",
+            "white",
+            "brown"
+          ],
+          "score": 0.012674331665039062,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "laptop",
+            "chair",
+            "mouse"
+          ],
+          "score": 0.0707697868347168
+        },
+        {
+          "question": "what color is the desk where the two monitors are located?",
+          "answers": [
+            "black",
+            "white",
+            "wooden"
+          ],
+          "score": 0.017030715942382812
+        },
+        {
+          "question": "what object is next to the two computers next to each other with an iPod dock?",
+          "answers": [
+            "ipod dock",
+            "laptop",
+            "keyboard"
+          ],
+          "score": 0.015738964080810547
+        },
+        {
+          "question": "what is the color of the two computers next to each other with an iPod dock?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.003437042236328125
+        },
+        {
+          "question": "what color is the monitor located next to the two computers?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.004475116729736328
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "two black computers and a white iPod dock sit on a black desk next to a black woman and a laptop",
+      "question": "what is the color of the man performing the trick on the skateboard?",
+      "answer": "unsure",
+      "query_after": "two black computers and a white iPod dock sit on a black desk next to a woman, with a laptop and a man performing a skateboard trick also in the image",
+      "displayed_ids": [
+        16680,
+        16718,
+        453,
+        45455,
+        36852,
+        31251,
+        9827,
+        38662,
+        47212,
+        21841
+      ],
+      "selected_ids": [
+        32147,
+        21285,
+        38013,
+        37639,
+        46575,
+        30859,
+        9235,
+        38119,
+        27084,
+        48479
+      ],
+      "rejected_count": 29,
+      "usual_paths": [
+        {
+          "question": "what color is the laptop located next to the two computers on the desk?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.004256725311279297
+        },
+        {
+          "question": "what is the color of the laptop located next to the two computers on the desk?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.006215095520019531
+        },
+        {
+          "question": "what is the color of the laptop located next to the two computers on the desk?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.006215095520019531,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the man performing the trick on the skateboard?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.026916980743408203
+        },
+        {
+          "question": "what is the color of the laptop located next to the two computers on the desk?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.006215095520019531,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the laptop located on the black desk?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.003360271453857422
+        },
+        {
+          "question": "what is the color of the laptop located on the black desk?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.0036115646362304688
+        },
+        {
+          "question": "what is the color of the laptop located on the black desk?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.0036115646362304688,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the laptop located on the black desk?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.0036115646362304688,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the laptop located on the black desk?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.0036115646362304688,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "two black computers and a white iPod dock sit on a black desk next to a woman, with a laptop and a man performing a skateboard trick also in the image",
+      "question": "what is the other object in the image?",
+      "answer": "laptop",
+      "query_after": "Next to a woman, a black desk holds two black computers and a white iPod dock, while a man executes a skateboard trick with a laptop also visible in the image.",
+      "displayed_ids": [
+        45455,
+        26215,
+        31251,
+        27377,
+        39049,
+        14101,
+        10968,
+        35229,
+        12391,
+        21509
+      ],
+      "selected_ids": [
+        14486,
+        45455,
+        39049,
+        4916,
+        15164,
+        9235,
+        39756,
+        21452,
+        32486
+      ],
+      "rejected_count": 33,
+      "usual_paths": [
+        {
+          "question": "what is the color of the woman located next to the monitor?",
+          "answers": [
+            "black",
+            "white",
+            "unsure"
+          ],
+          "score": 0.002304553985595703
+        },
+        {
+          "question": "what is the color of the two computers located next to each other?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.0048809051513671875
+        },
+        {
+          "question": "what is the color of the woman located next to the monitor?",
+          "answers": [
+            "black",
+            "white",
+            "unsure"
+          ],
+          "score": 0.002304553985595703,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the brand of the computers located next to each other?",
+          "answers": [
+            "Apple",
+            "Dell",
+            "HP"
+          ],
+          "score": 0.01246786117553711
+        },
+        {
+          "question": "what is the brand of the two computers located next to each other?",
+          "answers": [
+            "Apple",
+            "Dell",
+            "HP"
+          ],
+          "score": 0.012044429779052734
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "laptop",
+            "ipod dock",
+            "monitor"
+          ],
+          "score": 0.023121356964111328
+        },
+        {
+          "question": "what is the color of the keyboard located on the desk with the two computers?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.004870414733886719
+        },
+        {
+          "question": "what is the color of the two computers next to the white iPod dock?",
+          "answers": [
+            "silver",
+            "black",
+            "white"
+          ],
+          "score": 0.0031371116638183594
+        },
+        {
+          "question": "what is the brand of the two computers located next to the white iPod dock?",
+          "answers": [
+            "apple",
+            "dell",
+            "hp"
+          ],
+          "score": 0.008954048156738281
+        },
+        {
+          "question": "Question: what is the color of the keyboard located on the desk with the two computers?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.0057353973388671875
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "Next to a woman, a black desk holds two black computers and a white iPod dock, while a man executes a skateboard trick with a laptop also visible in the image.",
+      "question": "what is the brand or model of the two computers located on the black desk?",
+      "answer": "macbook",
+      "query_after": "two black MacBooks sit next to each other on a black desk, accompanied by a white iPod dock, a monitor, and a laptop, with a woman in white and a man on a skateboard also present in the scene.",
+      "displayed_ids": [
+        26215,
+        45455,
+        11273,
+        23290,
+        34499,
+        14101,
+        39049,
+        48479,
+        16680,
+        27377
+      ],
+      "selected_ids": [
+        27660,
+        9411,
+        45914,
+        41428,
+        36083,
+        21452,
+        32486,
+        11273,
+        23290
+      ],
+      "rejected_count": 37,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "laptop",
+            "ipod dock",
+            "mouse"
+          ],
+          "score": 0.006816864013671875
+        },
+        {
+          "question": "what color are the two computers located on the black desk?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.006910800933837891
+        },
+        {
+          "question": "what is the color of the two computers located on the black desk?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.004837512969970703
+        },
+        {
+          "question": "what are the two computers located on the black desk?",
+          "answers": [
+            "laptop",
+            "ipod dock",
+            "mouse and keyboard"
+          ],
+          "score": 0.009658336639404297
+        },
+        {
+          "question": "what is the color of the two computers located on the black desk?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.004837512969970703,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "laptop",
+            "ipod dock",
+            "mouse"
+          ],
+          "score": 0.006816864013671875
+        },
+        {
+          "question": "what color are the two computers located on the black desk?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.006910800933837891
+        },
+        {
+          "question": "Question: what is the color of the two computers located on the black desk?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.0037941932678222656
+        },
+        {
+          "question": "what is the color of the two computers located on the black desk?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.004837512969970703
+        },
+        {
+          "question": "what is the brand or model of the two computers located on the black desk?",
+          "answers": [
+            "Apple",
+            "Dell",
+            "HP"
+          ],
+          "score": 0.010459423065185547
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

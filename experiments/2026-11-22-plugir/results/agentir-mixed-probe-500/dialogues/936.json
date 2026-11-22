@@ -1,0 +1,1337 @@
+{
+  "qid": 936,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000449230.jpg",
+  "queries": [
+    "a man with a pair of scissors cuts some kind of wrap from another man's arm",
+    "a man with a pair of scissors cuts some kind of wrap from another man's arm in an office",
+    "a man with a pair of scissors cuts a white wrap from another man's arm in an office",
+    "a man in a blue shirt cuts a white wrap from another man's arm in an office",
+    "a man in a blue shirt cuts a white bandage from another man's arm in an office",
+    "Inside an office, a man wearing a blue shirt is removing a white bandage from another man's arm.",
+    "a man in a blue shirt uses office scissors to cut a white bandage from another man's arm in an office",
+    "a man in a blue shirt uses office scissors to cut a white bandage from the arm of another man, also wearing a blue shirt, in an office setting",
+    "In an office setting, a man wearing a blue shirt uses office scissors to cut a white bandage from the arm of another man, who is also dressed in a blue shirt.",
+    "a man wearing a blue shirt uses orange office scissors to cut a white wrap from the arm of another man, also wearing a blue shirt, in an office setting",
+    "a man wearing a blue shirt uses orange office scissors to cut a white bandage from the arm of another man, also wearing a blue shirt, while standing at a wooden table in an office"
+  ],
+  "ranks": [
+    14,
+    11,
+    16,
+    21,
+    13,
+    12,
+    11,
+    14,
+    13,
+    11,
+    8
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a man with a pair of scissors cuts some kind of wrap from another man's arm",
+      "question": "what is the location where the man with the scissors is cutting the wrap?",
+      "answer": "office",
+      "query_after": "a man with a pair of scissors cuts some kind of wrap from another man's arm in an office",
+      "displayed_ids": [
+        23051,
+        16147,
+        18966,
+        41341,
+        35108,
+        16672,
+        2049,
+        8488,
+        28156,
+        30416
+      ],
+      "selected_ids": [
+        42390,
+        26272,
+        43202,
+        16105,
+        42203,
+        36260,
+        27363,
+        34869,
+        44978
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the location where the man is cutting the wrap?",
+          "answers": [
+            "kitchen",
+            "ocean",
+            "park"
+          ],
+          "score": 0.08332109451293945
+        },
+        {
+          "question": "what is the identity of the man cutting the wrap?",
+          "answers": [
+            "a barber",
+            "a doctor",
+            "a surgeon"
+          ],
+          "score": 0.06640052795410156
+        },
+        {
+          "question": "Question: What is the object being held by the man with a pair of scissors?",
+          "answers": [
+            "scissors",
+            "wrap",
+            "arm"
+          ],
+          "score": 0.003907203674316406
+        },
+        {
+          "question": "what is the specific action the man is performing on the other man's arm?",
+          "answers": [
+            "cutting",
+            "trimming",
+            "snipping"
+          ],
+          "score": 0.0022897720336914062
+        },
+        {
+          "question": "what is the object being cut from the other person's arm by the man with the scissors?",
+          "answers": [
+            "scarf",
+            "hair",
+            "fabric"
+          ],
+          "score": 0.03767824172973633
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: what is the color of the wrap being cut from the man's arm?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.03761625289916992
+        },
+        {
+          "question": "Question: What is the color of the bandage on the man's arm?",
+          "answers": [
+            "red",
+            "white",
+            "black"
+          ],
+          "score": 0.016952037811279297
+        },
+        {
+          "question": "what is the location where the man with the scissors is cutting the wrap?",
+          "answers": [
+            "kitchen",
+            "restaurant",
+            "outdoor"
+          ],
+          "score": 0.10273456573486328
+        },
+        {
+          "question": "what is the type of scissors the man with the bandage is holding?",
+          "answers": [
+            "scissors",
+            "bandage",
+            "wrap"
+          ],
+          "score": 0.004092216491699219
+        },
+        {
+          "question": "what is the color of the scissors the man is holding?",
+          "answers": [
+            "silver",
+            "gold",
+            "black"
+          ],
+          "score": 0.024606704711914062
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a man with a pair of scissors cuts some kind of wrap from another man's arm in an office",
+      "question": "what is the color of the wrap being cut by the man with the scissors?",
+      "answer": "white",
+      "query_after": "a man with a pair of scissors cuts a white wrap from another man's arm in an office",
+      "displayed_ids": [
+        23051,
+        35108,
+        41341,
+        18966,
+        27210,
+        36231,
+        8488,
+        16147,
+        28156,
+        2049
+      ],
+      "selected_ids": [
+        8819,
+        42203,
+        22923,
+        42336,
+        18492,
+        38579,
+        36874,
+        828,
+        49592,
+        36122
+      ],
+      "rejected_count": 12,
+      "usual_paths": [
+        {
+          "question": "what is the relationship between the two men in the image?",
+          "answers": [
+            "colleagues",
+            "friends",
+            "brothers"
+          ],
+          "score": 0.006949901580810547
+        },
+        {
+          "question": "Who is the man being cut?",
+          "answers": [
+            "another man",
+            "the man with scissors",
+            "a colleague"
+          ],
+          "score": 0.0047931671142578125
+        },
+        {
+          "question": "what is the relationship between the two men in the image?",
+          "answers": [
+            "colleagues",
+            "friends",
+            "brothers"
+          ],
+          "score": 0.006949901580810547,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the wrap being cut by the man with the scissors?",
+          "answers": [
+            "red",
+            "white",
+            "green"
+          ],
+          "score": 0.038933753967285156
+        },
+        {
+          "question": "what is the color of the wrap being cut by the man with the scissors?",
+          "answers": [
+            "red",
+            "white",
+            "green"
+          ],
+          "score": 0.038933753967285156,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the pair of scissors being used by the man?",
+          "answers": [
+            "silver",
+            "gold",
+            "black"
+          ],
+          "score": 0.023676395416259766
+        },
+        {
+          "question": "what is the color of the wrap being cut from the man's arm?",
+          "answers": [
+            "white",
+            "green",
+            "brown"
+          ],
+          "score": 0.03188037872314453
+        },
+        {
+          "question": "what is the color of the wrap being cut from the man's arm?",
+          "answers": [
+            "white",
+            "green",
+            "brown"
+          ],
+          "score": 0.03188037872314453,
+          "duplicate_of": 1
+        },
+        {
+          "question": "What is the color of the wrap being cut from the man's arm?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.03395700454711914
+        },
+        {
+          "question": "What color are the scissors being used to cut the wrap?",
+          "answers": [
+            "silver",
+            "black",
+            "gold"
+          ],
+          "score": 0.022257328033447266
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 2,
+      "query_before": "a man with a pair of scissors cuts a white wrap from another man's arm in an office",
+      "question": "what is the color of the shirt worn by the man with the scissors?",
+      "answer": "blue",
+      "query_after": "a man in a blue shirt cuts a white wrap from another man's arm in an office",
+      "displayed_ids": [
+        23051,
+        18966,
+        35108,
+        2049,
+        41341,
+        27210,
+        28156,
+        40194,
+        16147,
+        7346
+      ],
+      "selected_ids": [
+        30560,
+        8098,
+        38579,
+        31229,
+        36122,
+        3152,
+        36231,
+        48036,
+        39624,
+        46885
+      ],
+      "rejected_count": 14,
+      "usual_paths": [
+        {
+          "question": "what is the color of the scissors used to cut the wrap?",
+          "answers": [
+            "red",
+            "silver",
+            "black"
+          ],
+          "score": 0.020270347595214844
+        },
+        {
+          "question": "what is the color of the scissors used to cut the white wrap?",
+          "answers": [
+            "silver",
+            "black",
+            "gold"
+          ],
+          "score": 0.020746707916259766
+        },
+        {
+          "question": "what color is the scissors being used to cut the white wrap?",
+          "answers": [
+            "silver",
+            "gold",
+            "black"
+          ],
+          "score": 0.019183635711669922
+        },
+        {
+          "question": "what is the color of the scissors used to cut the white wrap?",
+          "answers": [
+            "silver",
+            "black",
+            "gold"
+          ],
+          "score": 0.020746707916259766,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the scissors used to cut the white wrap?",
+          "answers": [
+            "silver",
+            "black",
+            "gold"
+          ],
+          "score": 0.020746707916259766,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the shirt worn by the man with the scissors?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.024120807647705078
+        },
+        {
+          "question": "what is the color of the shirt worn by the man with the scissors?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.024120807647705078,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color is the shirt worn by the man with the scissors?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.01687145233154297
+        },
+        {
+          "question": "what is the color of the shirt worn by the man with the scissors?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.024120807647705078,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the shirt worn by the man with the scissors?",
+          "answers": [
+            "red",
+            "blue",
+            "black"
+          ],
+          "score": 0.024120807647705078,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a man in a blue shirt cuts a white wrap from another man's arm in an office",
+      "question": "Question: What is the color of the bandage wrapped around the man's arm?",
+      "answer": "white",
+      "query_after": "a man in a blue shirt cuts a white bandage from another man's arm in an office",
+      "displayed_ids": [
+        23051,
+        18966,
+        41341,
+        40194,
+        36231,
+        35108,
+        28156,
+        27210,
+        10060,
+        32296
+      ],
+      "selected_ids": [
+        15310,
+        36231,
+        4594,
+        21569,
+        5802,
+        43025,
+        3152,
+        27210,
+        38579,
+        30040
+      ],
+      "rejected_count": 16,
+      "usual_paths": [
+        {
+          "question": "what is the color of the shirt worn by the other man whose arm is being cut?",
+          "answers": [
+            "blue",
+            "white",
+            "black"
+          ],
+          "score": 0.010952472686767578
+        },
+        {
+          "question": "what is the color of the hat worn by the man with the scissors?",
+          "answers": [
+            "blue",
+            "black",
+            "none"
+          ],
+          "score": 0.008616447448730469
+        },
+        {
+          "question": "what is the color of the hat worn by the man with the scissors?",
+          "answers": [
+            "blue",
+            "black",
+            "none"
+          ],
+          "score": 0.008616447448730469,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the shirt worn by the other man whose arm is being cut?",
+          "answers": [
+            "blue",
+            "white",
+            "black"
+          ],
+          "score": 0.010952472686767578,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the hat worn by the man with the scissors?",
+          "answers": [
+            "blue",
+            "black",
+            "none"
+          ],
+          "score": 0.008616447448730469,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the color of the shirt worn by the man receiving the cut?",
+          "answers": [
+            "blue",
+            "white"
+          ],
+          "score": 0.0058460235595703125
+        },
+        {
+          "question": "Question: What is the color of the bandage wrapped around the man's arm?",
+          "answers": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "score": 0.027362346649169922
+        },
+        {
+          "question": "what is the color of the bandage wrapped around the man's arm?",
+          "answers": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "score": 0.021558761596679688
+        },
+        {
+          "question": "what is the color of the bandage wrapped around the man's arm?",
+          "answers": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "score": 0.021558761596679688,
+          "duplicate_of": 2
+        },
+        {
+          "question": "Question: What is the color of the bandage wrapped around the man's arm?",
+          "answers": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "score": 0.027362346649169922,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a man in a blue shirt cuts a white bandage from another man's arm in an office",
+      "question": "what is the identity of the person whose arm is being cut?",
+      "answer": "unsure",
+      "query_after": "Inside an office, a man wearing a blue shirt is removing a white bandage from another man's arm.",
+      "displayed_ids": [
+        18966,
+        23051,
+        41341,
+        35108,
+        40194,
+        32296,
+        36231,
+        16672,
+        46866,
+        10060
+      ],
+      "selected_ids": [
+        8819,
+        38349,
+        23245,
+        48036,
+        44938,
+        36122,
+        9175,
+        36231,
+        8098,
+        3621
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "What is the color of the shirt worn by the man receiving the cut on his arm?",
+          "answers": [
+            "blue",
+            "white",
+            "black"
+          ],
+          "score": 0.008406639099121094
+        },
+        {
+          "question": "What is the color of the shirt worn by the man receiving the cut?",
+          "answers": [
+            "red",
+            "striped",
+            "patterned"
+          ],
+          "score": 0.02413797378540039
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "white",
+            "blue",
+            "office"
+          ],
+          "score": 0.012166976928710938
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "white",
+            "blue",
+            "office"
+          ],
+          "score": 0.012166976928710938,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "white",
+            "blue",
+            "office"
+          ],
+          "score": 0.012166976928710938,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the identity of the person whose arm is being cut?",
+          "answers": [
+            "man",
+            "woman",
+            "boy"
+          ],
+          "score": 0.029659271240234375
+        },
+        {
+          "question": "what is the gender of the person whose arm is being cut?",
+          "answers": [
+            "man",
+            "woman"
+          ],
+          "score": 0.02032184600830078
+        },
+        {
+          "question": "what is the occupation of the man with the scissors cutting the wrap?",
+          "answers": [
+            "chef",
+            "doctor",
+            "surgeon"
+          ],
+          "score": 0.025766372680664062
+        },
+        {
+          "question": "what is the relationship between the man with the scissors and the person whose arm is being cut?",
+          "answers": [
+            "friends",
+            "doctor and patient",
+            "colleagues"
+          ],
+          "score": 0.023962020874023438
+        },
+        {
+          "question": "what is the object being held by the other man in the image?",
+          "answers": [
+            "wallet",
+            "briefcase",
+            "phone"
+          ],
+          "score": 0.019159793853759766
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "Inside an office, a man wearing a blue shirt is removing a white bandage from another man's arm.",
+      "question": "what is the type of scissors the man is using?",
+      "answer": "office scissors",
+      "query_after": "a man in a blue shirt uses office scissors to cut a white bandage from another man's arm in an office",
+      "displayed_ids": [
+        18966,
+        23051,
+        41341,
+        35108,
+        10060,
+        46866,
+        32296,
+        9468,
+        40194,
+        36231
+      ],
+      "selected_ids": [
+        44938,
+        37159,
+        15878,
+        25434,
+        36122,
+        26634,
+        16486,
+        38579,
+        41980
+      ],
+      "rejected_count": 18,
+      "usual_paths": [
+        {
+          "question": "what is the object being held by the man in the blue shirt?",
+          "answers": [
+            "scissors",
+            "white",
+            "blue"
+          ],
+          "score": 0.017932415008544922
+        },
+        {
+          "question": "what is the object being held by the man in the blue shirt?",
+          "answers": [
+            "scissors",
+            "white",
+            "blue"
+          ],
+          "score": 0.017932415008544922,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the object being held by the man in the blue shirt?",
+          "answers": [
+            "scissors",
+            "white",
+            "blue"
+          ],
+          "score": 0.017932415008544922,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the object being held by the man in the blue shirt?",
+          "answers": [
+            "scissors",
+            "white",
+            "blue"
+          ],
+          "score": 0.017932415008544922,
+          "duplicate_of": 0
+        },
+        {
+          "question": "What is the color of the scissors held by the man in the blue shirt?",
+          "answers": [
+            "silver",
+            "black",
+            "gold"
+          ],
+          "score": 0.017268657684326172
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the type of scissors the man is using?",
+          "answers": [
+            "surgical",
+            "scissors",
+            "unknown"
+          ],
+          "score": 0.036013126373291016
+        },
+        {
+          "question": "what is the color of the scissors the man is using?",
+          "answers": [
+            "silver",
+            "gold",
+            "black"
+          ],
+          "score": 0.02439117431640625
+        },
+        {
+          "question": "Question: What is the color of the scissors the man is using?",
+          "answers": [
+            "silver",
+            "gold",
+            "black"
+          ],
+          "score": 0.02568817138671875
+        },
+        {
+          "question": "what is the color of the scissors the man is using?",
+          "answers": [
+            "silver",
+            "gold",
+            "black"
+          ],
+          "score": 0.02439117431640625,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the scissors the man is using?",
+          "answers": [
+            "silver",
+            "gold",
+            "black"
+          ],
+          "score": 0.02439117431640625,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a man in a blue shirt uses office scissors to cut a white bandage from another man's arm in an office",
+      "question": "what is the color of the shirt worn by the other man whose arm is being cut?",
+      "answer": "blue",
+      "query_after": "a man in a blue shirt uses office scissors to cut a white bandage from the arm of another man, also wearing a blue shirt, in an office setting",
+      "displayed_ids": [
+        23051,
+        35108,
+        18966,
+        41341,
+        32296,
+        16672,
+        10060,
+        27210,
+        46866,
+        40194
+      ],
+      "selected_ids": [
+        36122,
+        9398,
+        3621,
+        1617,
+        36231,
+        18492,
+        47052,
+        3152,
+        44938
+      ],
+      "rejected_count": 18,
+      "usual_paths": [
+        {
+          "question": "what is the color of the scissors used by the man cutting the wrap?",
+          "answers": [
+            "silver",
+            "black",
+            "metal"
+          ],
+          "score": 0.008769989013671875
+        },
+        {
+          "question": "what is the color of the scissors used by the man cutting the wrap?",
+          "answers": [
+            "silver",
+            "black",
+            "metal"
+          ],
+          "score": 0.008769989013671875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the scissors used by the man cutting the wrap?",
+          "answers": [
+            "silver",
+            "black",
+            "metal"
+          ],
+          "score": 0.008769989013671875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the scissors used by the man cutting the wrap?",
+          "answers": [
+            "silver",
+            "black",
+            "metal"
+          ],
+          "score": 0.008769989013671875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the scissors used by the man cutting the wrap?",
+          "answers": [
+            "silver",
+            "black",
+            "metal"
+          ],
+          "score": 0.008769989013671875,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the activity being performed by the other man whose arm is being cut?",
+          "answers": [
+            "sitting",
+            "standing",
+            "lying down"
+          ],
+          "score": 0.021830081939697266
+        },
+        {
+          "question": "what is the activity being performed by the man whose arm is being cut?",
+          "answers": [
+            "eating",
+            "sitting",
+            "being cut"
+          ],
+          "score": 0.012994766235351562
+        },
+        {
+          "question": "what is the color of the shirt worn by the other man whose arm is being cut?",
+          "answers": [
+            "blue",
+            "white",
+            "black"
+          ],
+          "score": 0.025142192840576172
+        },
+        {
+          "question": "what is the color of the shirt worn by the other man whose arm is being cut?",
+          "answers": [
+            "blue",
+            "white",
+            "black"
+          ],
+          "score": 0.025142192840576172,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "white",
+            "blue",
+            "office scissors"
+          ],
+          "score": 0.01245880126953125
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a man in a blue shirt uses office scissors to cut a white bandage from the arm of another man, also wearing a blue shirt, in an office setting",
+      "question": "what is the color of the shirt worn by the other man whose arm is being cut?",
+      "answer": "blue",
+      "query_after": "In an office setting, a man wearing a blue shirt uses office scissors to cut a white bandage from the arm of another man, who is also dressed in a blue shirt.",
+      "displayed_ids": [
+        18966,
+        35108,
+        23051,
+        41341,
+        16672,
+        32296,
+        27210,
+        46866,
+        10060,
+        26412
+      ],
+      "selected_ids": [
+        2759,
+        16486,
+        12094,
+        21569,
+        47331,
+        8538,
+        18492,
+        1617,
+        47249,
+        36231
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "what is the color of the scissors used by the man with the blue shirt?",
+          "answers": [
+            "blue",
+            "white",
+            "silver"
+          ],
+          "score": 0.011017799377441406
+        },
+        {
+          "question": "what is the color of the scissors used by the man with the blue shirt?",
+          "answers": [
+            "blue",
+            "white",
+            "silver"
+          ],
+          "score": 0.011017799377441406,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the scissors used by the man with the blue shirt?",
+          "answers": [
+            "blue",
+            "white",
+            "silver"
+          ],
+          "score": 0.011017799377441406,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the scissors used by the man with the blue shirt?",
+          "answers": [
+            "blue",
+            "white",
+            "silver"
+          ],
+          "score": 0.011017799377441406,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the scissors used by the man with the blue shirt?",
+          "answers": [
+            "blue",
+            "white",
+            "silver"
+          ],
+          "score": 0.011017799377441406,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "score": 0.025734424591064453
+        },
+        {
+          "question": "Question: What is the color of the bandage wrapped around the other man's arm?",
+          "answers": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "score": 0.018295764923095703
+        },
+        {
+          "question": "what is the color of the bandage wrapped around the other man's arm?",
+          "answers": [
+            "white",
+            "blue",
+            "unsure"
+          ],
+          "score": 0.00766754150390625
+        },
+        {
+          "question": "what is the color of the shirt worn by the other man whose arm is being cut?",
+          "answers": [
+            "blue",
+            "white",
+            "red"
+          ],
+          "score": 0.026580333709716797
+        },
+        {
+          "question": "what is the color of the bandage wrapped around the other man's arm?",
+          "answers": [
+            "white",
+            "blue",
+            "unsure"
+          ],
+          "score": 0.00766754150390625,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "In an office setting, a man wearing a blue shirt uses office scissors to cut a white bandage from the arm of another man, who is also dressed in a blue shirt.",
+      "question": "Question: What is the color of the scissors the man is using?",
+      "answer": "orange",
+      "query_after": "a man wearing a blue shirt uses orange office scissors to cut a white wrap from the arm of another man, also wearing a blue shirt, in an office setting",
+      "displayed_ids": [
+        23051,
+        35108,
+        18966,
+        41341,
+        32296,
+        16672,
+        10060,
+        27210,
+        26412,
+        46866
+      ],
+      "selected_ids": [
+        18492,
+        47052,
+        36231,
+        16672,
+        15310,
+        30775,
+        47249,
+        33740,
+        8538,
+        37259
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "what is the color of the scissors the man with the blue shirt is using?",
+          "answers": [
+            "silver",
+            "black",
+            "gold"
+          ],
+          "score": 0.024747371673583984
+        },
+        {
+          "question": "Question: What is the color of the scissors the man with the blue shirt is using?",
+          "answers": [
+            "silver",
+            "black",
+            "metal"
+          ],
+          "score": 0.015439510345458984
+        },
+        {
+          "question": "what is the color of the scissors the man with the blue shirt is using?",
+          "answers": [
+            "silver",
+            "black",
+            "gold"
+          ],
+          "score": 0.024747371673583984,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the scissors the man with the blue shirt is using?",
+          "answers": [
+            "silver",
+            "black",
+            "gold"
+          ],
+          "score": 0.024747371673583984,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "white shirt",
+            "blue shirt",
+            "arm"
+          ],
+          "score": 0.013228893280029297
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the scissors the man is using?",
+          "answers": [
+            "silver",
+            "black",
+            "blue"
+          ],
+          "score": 0.02115488052368164
+        },
+        {
+          "question": "Question: What is the color of the scissors the man is using?",
+          "answers": [
+            "silver",
+            "black",
+            "gold"
+          ],
+          "score": 0.025560379028320312
+        },
+        {
+          "question": "what is the color of the scissors the man is using?",
+          "answers": [
+            "silver",
+            "black",
+            "blue"
+          ],
+          "score": 0.02115488052368164,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the scissors the man is using?",
+          "answers": [
+            "silver",
+            "black",
+            "blue"
+          ],
+          "score": 0.02115488052368164,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "white shirt",
+            "blue shirt",
+            "arm"
+          ],
+          "score": 0.013228893280029297
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "a man wearing a blue shirt uses orange office scissors to cut a white wrap from the arm of another man, also wearing a blue shirt, in an office setting",
+      "question": "what is the material of the table or surface where the man with the scissors is standing?",
+      "answer": "wood",
+      "query_after": "a man wearing a blue shirt uses orange office scissors to cut a white bandage from the arm of another man, also wearing a blue shirt, while standing at a wooden table in an office",
+      "displayed_ids": [
+        23051,
+        41341,
+        32296,
+        8488,
+        35108,
+        18966,
+        27210,
+        11655,
+        40261,
+        16672
+      ],
+      "selected_ids": [
+        16672,
+        36874,
+        46866,
+        46885,
+        12094,
+        36231,
+        12199,
+        19409,
+        6192,
+        40194
+      ],
+      "rejected_count": 21,
+      "usual_paths": [
+        {
+          "question": "what is the material of the table or surface where the man with the scissors is standing?",
+          "answers": [
+            "metal",
+            "wood",
+            "unknown"
+          ],
+          "score": 0.014097213745117188
+        },
+        {
+          "question": "what is the object the man with the orange scissors is holding in addition to the scissors?",
+          "answers": [
+            "white wrap",
+            "arm",
+            "tape"
+          ],
+          "score": 0.004824638366699219
+        },
+        {
+          "question": "what is the color of the shirt worn by the man with the orange scissors?",
+          "answers": [
+            "blue",
+            "orange",
+            "white"
+          ],
+          "score": 0.009022235870361328
+        },
+        {
+          "question": "**Question:** What is the identity of the person whose arm is being cut?",
+          "answers": [
+            "unsure",
+            "a patient",
+            "a man"
+          ],
+          "score": 0.009685039520263672
+        },
+        {
+          "question": "**Question:** What is the profession of the man performing the surgery?",
+          "answers": [
+            "surgeon",
+            "doctor",
+            "unsure"
+          ],
+          "score": 0.011878490447998047
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the table or surface where the man is cutting the wrap?",
+          "answers": [
+            "orange",
+            "white",
+            "blue"
+          ],
+          "score": 0.013371944427490234
+        },
+        {
+          "question": "what is the color of the table or surface where the man is cutting the wrap?",
+          "answers": [
+            "orange",
+            "white",
+            "blue"
+          ],
+          "score": 0.013371944427490234,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the table or surface where the man is cutting the wrap?",
+          "answers": [
+            "orange",
+            "white",
+            "blue"
+          ],
+          "score": 0.013371944427490234,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the table or surface where the man is cutting the wrap?",
+          "answers": [
+            "orange",
+            "white",
+            "blue"
+          ],
+          "score": 0.013371944427490234,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the table or surface where the man is cutting the wrap?",
+          "answers": [
+            "orange",
+            "white",
+            "blue"
+          ],
+          "score": 0.013371944427490234,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

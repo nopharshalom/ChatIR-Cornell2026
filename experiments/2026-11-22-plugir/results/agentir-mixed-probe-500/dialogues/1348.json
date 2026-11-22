@@ -1,0 +1,149 @@
+{
+  "qid": 1348,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000328950.jpg",
+  "queries": [
+    "a man standing on a beach near water flying a kite",
+    "a man standing on a beach near water flying a green kite"
+  ],
+  "ranks": [
+    11,
+    7
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a man standing on a beach near water flying a kite",
+      "question": "Question: What color is the kite the man is flying?",
+      "answer": "Green.",
+      "query_after": "a man standing on a beach near water flying a green kite",
+      "displayed_ids": [
+        14415,
+        12281,
+        5526,
+        30768,
+        3162,
+        19575,
+        5213,
+        34176,
+        2844,
+        35956
+      ],
+      "selected_ids": [
+        35293,
+        11486,
+        43678,
+        41989,
+        8072,
+        29296,
+        36670,
+        22268,
+        9946,
+        48787
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: What color is the kite the man is flying?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.06865501403808594
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "beach",
+            "water",
+            "kite"
+          ],
+          "score": 0.005557060241699219
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "beach",
+            "water",
+            "kite"
+          ],
+          "score": 0.005557060241699219,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "beach",
+            "water",
+            "kite"
+          ],
+          "score": 0.005557060241699219,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "beach",
+            "water",
+            "kite"
+          ],
+          "score": 0.005557060241699219,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the kite the man is flying?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.06865501403808594
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "beach",
+            "water",
+            "kite"
+          ],
+          "score": 0.005557060241699219
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "beach",
+            "water",
+            "kite"
+          ],
+          "score": 0.005557060241699219,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "beach",
+            "water",
+            "kite"
+          ],
+          "score": 0.005557060241699219,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "beach",
+            "water",
+            "kite"
+          ],
+          "score": 0.005557060241699219,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

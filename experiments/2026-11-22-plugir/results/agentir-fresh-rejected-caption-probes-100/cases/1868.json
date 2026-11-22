@@ -1,0 +1,178 @@
+{
+  "qid": 1868,
+  "initial": "some zebra are grazing on grass with bushy vegetation nearby",
+  "initial_rank": 38,
+  "displayed": [
+    21424,
+    35141,
+    46481,
+    48551,
+    25020,
+    2509,
+    22942,
+    32536,
+    19711,
+    29392
+  ],
+  "evidence": [
+    "a herd of elephants walking through a dry plain",
+    "a sheep grazing on a green field",
+    "a black and white zebra and a black and white zebra",
+    "a fenced in area with some rocks and zebras",
+    "a zebra is grazing on the grass in a zoo enclosure",
+    "herd of zebras in a tall grassy field",
+    "two zebras running through a dry field with trees",
+    "a zebra with stripes walking on a muddy dirt road",
+    "two giraffes in the woods",
+    "zebras near a group of giraffes in kenya"
+  ],
+  "rejected_captions": [
+    "the grass is green",
+    "the zebras are grazing",
+    "a pair of zebras grazing in the wild",
+    "two zebras in a grassy field",
+    "the zebras are grazing on the brown grass",
+    "the zebras are eating grass",
+    "zebras grazing in a field",
+    "two zebras in a field",
+    "two zebras walking down the dirt path",
+    "grassy land with lots of trees"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the specific location or enclosure where the zebras are grazing?",
+      "what is the color pattern of the zebras grazing in the grass with bushy vegetation nearby?",
+      "Question: how many zebras are grazing on the grass with bushy vegetation nearby?",
+      "what is the specific environment or enclosure where the zebras are grazing?",
+      "what is the specific environment or enclosure where the zebras are grazing?"
+    ],
+    "question": "what is the specific environment or enclosure where the zebras are grazing?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the specific location or enclosure where the zebras are grazing?",
+          "answers": [
+            "zoo enclosure",
+            "wild savannah",
+            "fenced area"
+          ],
+          "score": 0.047756195068359375
+        },
+        {
+          "question": "what is the color pattern of the zebras grazing in the grass with bushy vegetation nearby?",
+          "answers": [
+            "black and white",
+            "striped",
+            "white"
+          ],
+          "score": 0.015877723693847656
+        },
+        {
+          "question": "Question: how many zebras are grazing on the grass with bushy vegetation nearby?",
+          "answers": [
+            "1",
+            "5"
+          ],
+          "score": 0.019088268280029297
+        },
+        {
+          "question": "what is the specific environment or enclosure where the zebras are grazing?",
+          "answers": [
+            "zoo enclosure",
+            "dry plain",
+            "green field"
+          ],
+          "score": 0.08602237701416016
+        },
+        {
+          "question": "what is the specific environment or enclosure where the zebras are grazing?",
+          "answers": [
+            "zoo enclosure",
+            "dry plain",
+            "green field"
+          ],
+          "score": 0.08602237701416016,
+          "duplicate_of": 3
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.06,
+      "probe_selection_seconds": 2.001,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 11
+    },
+    "answer": "savanna",
+    "rewrite": "some zebras are grazing on grass in a savanna with bushy vegetation nearby",
+    "raw_rank": 32,
+    "unseen_rank": 25
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the color of the grass in the image?",
+      "Question: How many zebras are visible in the image?",
+      "Question: What is the color of the zebras in the image?",
+      "Question: What is the color of the bushy vegetation surrounding the zebras?",
+      "Question: What is the color of the grass in the image?"
+    ],
+    "question": "Question: What is the color of the bushy vegetation surrounding the zebras?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the color of the grass in the image?",
+          "answers": [
+            "green",
+            "brown",
+            "yellow"
+          ],
+          "score": 0.049497127532958984
+        },
+        {
+          "question": "Question: How many zebras are visible in the image?",
+          "answers": [
+            "one",
+            "two",
+            "three"
+          ],
+          "score": 0.016988754272460938
+        },
+        {
+          "question": "Question: What is the color of the zebras in the image?",
+          "answers": [
+            "black and white",
+            "brown and white",
+            "white with black stripes"
+          ],
+          "score": 0.033856868743896484
+        },
+        {
+          "question": "Question: What is the color of the bushy vegetation surrounding the zebras?",
+          "answers": [
+            "green",
+            "brown",
+            "yellow"
+          ],
+          "score": 0.06779623031616211
+        },
+        {
+          "question": "Question: What is the color of the grass in the image?",
+          "answers": [
+            "green",
+            "brown",
+            "yellow"
+          ],
+          "score": 0.049497127532958984,
+          "duplicate_of": 0
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.072,
+      "probe_selection_seconds": 1.907,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "green",
+    "rewrite": "some zebras are grazing on grass with green bushy vegetation nearby",
+    "raw_rank": 18,
+    "unseen_rank": 11
+  }
+}

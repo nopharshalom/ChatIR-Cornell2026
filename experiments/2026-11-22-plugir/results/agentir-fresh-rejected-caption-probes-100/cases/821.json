@@ -1,0 +1,178 @@
+{
+  "qid": 821,
+  "initial": "a group of people sitting on the beach",
+  "initial_rank": 94,
+  "displayed": [
+    2918,
+    45344,
+    42501,
+    48411,
+    26076,
+    32506,
+    2131,
+    17757,
+    6035,
+    30686
+  ],
+  "evidence": [
+    "three guys sitting on the ground drinking",
+    "a beach filled with kites and people flying them",
+    "man sits on the ground with skis and poles",
+    "three men on horses standing in the sand next to the ocean",
+    "two chairs and an umbrella on the beach",
+    "a woman running on a beach with a frisbee",
+    "a man flying a kite on the beach near the ocean",
+    "three surfers on top of their boards in a rough sea",
+    "three surfers stand on a beach looking at the water",
+    "kites flying high over the beach with people in the distance"
+  ],
+  "rejected_captions": [
+    "a group of people sitting on a beach with several umbrellas",
+    "blue and white towels",
+    "people sitting on a beach under umbrellas",
+    "a group of people on the beach with a sign",
+    "a group of people in the sand flying kites on the beach",
+    "a woman sitting on the beach",
+    "the sand is white",
+    "the beach is a public beach with many people at it",
+    "family sits under umbrellas on the beach",
+    "people at the beach in front of a hill"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the specific activity the group of people is doing?",
+      "what is the man sitting on the ground doing?",
+      "Question: What is the man sitting on the ground holding?",
+      "what is the man sitting on the ground holding?",
+      "what is the man sitting on the ground holding?"
+    ],
+    "question": "what is the man sitting on the ground doing?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the specific activity the group of people is doing?",
+          "answers": [
+            "drinking",
+            "flying kites",
+            "sitting"
+          ],
+          "score": 0.13407611846923828
+        },
+        {
+          "question": "what is the man sitting on the ground doing?",
+          "answers": [
+            "drinking",
+            "flying a kite",
+            "sitting with skis"
+          ],
+          "score": 0.19554758071899414
+        },
+        {
+          "question": "Question: What is the man sitting on the ground holding?",
+          "answers": [
+            "skis",
+            "skis and poles",
+            "nothing"
+          ],
+          "score": 0.06201887130737305
+        },
+        {
+          "question": "what is the man sitting on the ground holding?",
+          "answers": [
+            "skis",
+            "a frisbee",
+            "a kite"
+          ],
+          "score": 0.16722631454467773
+        },
+        {
+          "question": "what is the man sitting on the ground holding?",
+          "answers": [
+            "skis",
+            "a frisbee",
+            "a kite"
+          ],
+          "score": 0.16722631454467773,
+          "duplicate_of": 3
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.059,
+      "probe_selection_seconds": 2.173,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "reading",
+    "rewrite": "a group of people sitting on the beach, with a man on the ground reading",
+    "raw_rank": 163,
+    "unseen_rank": 153
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the specific activity the people are doing on the beach?",
+      "Question: What is the primary mode of transportation or equipment associated with the people in the image?",
+      "Question: What is the primary activity the people are engaged in?",
+      "Question: Question: What color are the umbrellas visible in the image?",
+      "Question: What type of equipment are the people using?"
+    ],
+    "question": "Question: What is the primary activity the people are engaged in?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the specific activity the people are doing on the beach?",
+          "answers": [
+            "drinking",
+            "flying kites",
+            "on horses"
+          ],
+          "score": 0.1545872688293457
+        },
+        {
+          "question": "Question: What is the primary mode of transportation or equipment associated with the people in the image?",
+          "answers": [
+            "skis",
+            "horses",
+            "kites"
+          ],
+          "score": 0.10042333602905273
+        },
+        {
+          "question": "Question: What is the primary activity the people are engaged in?",
+          "answers": [
+            "drinking",
+            "flying kites",
+            "surfing"
+          ],
+          "score": 0.15922880172729492
+        },
+        {
+          "question": "Question: Question: What color are the umbrellas visible in the image?",
+          "answers": [
+            "Red",
+            "Blue",
+            "Green"
+          ],
+          "score": 0.0565495491027832
+        },
+        {
+          "question": "Question: What type of equipment are the people using?",
+          "answers": [
+            "kites",
+            "skis",
+            "surfboards"
+          ],
+          "score": 0.1501622200012207
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.153,
+      "probe_selection_seconds": 2.513,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "relaxing",
+    "rewrite": "a group of people relaxing on the beach",
+    "raw_rank": 46,
+    "unseen_rank": 37
+  }
+}

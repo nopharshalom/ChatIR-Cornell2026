@@ -1,0 +1,1070 @@
+{
+  "qid": 1862,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000167820.jpg",
+  "queries": [
+    "a city street during the middle of the day",
+    "a busy city street during the middle of the day",
+    "a busy city street during the middle of the day with cars as the primary mode of transportation",
+    "a busy city street during the middle of the day with cars and a white bus",
+    "a city street during the middle of the day featuring a white bus next to a green pole, with cars as the primary mode of transportation",
+    "a busy city street during the middle of the day featuring white buses, a green pole, and a red street sign",
+    "a busy city street during the middle of the day featuring white cars, a white bus, a green pole, and a red street sign",
+    "a busy city street during the middle of the day featuring white cars, a white bus, a green pole, and a red street sign, with beige and white buildings in the background",
+    "a busy city street during the middle of the day featuring white cars, a white bus, and a green pole next to the bus, with a red street sign, beige and white buildings in the background, and people riding bicycles (one with a green basket and one silver or gray) in the street"
+  ],
+  "ranks": [
+    176,
+    49,
+    108,
+    275,
+    292,
+    191,
+    73,
+    20,
+    3
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a city street during the middle of the day",
+      "question": "what is the specific location of the busy street depicted in the image?",
+      "answer": "I'm sorry, but the image does not provide enough specific details to determine the exact location of the busy street.",
+      "query_after": "a busy city street during the middle of the day",
+      "displayed_ids": [
+        22608,
+        49249,
+        14490,
+        18766,
+        2465,
+        25139,
+        12089,
+        4548,
+        13077,
+        4459
+      ],
+      "selected_ids": [
+        22608,
+        39761,
+        31009,
+        13135,
+        8566,
+        15984,
+        37417,
+        15721,
+        43624,
+        39994
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the weather condition in the image?",
+          "answers": [
+            "sunny",
+            "cloudy",
+            "overcast"
+          ],
+          "score": 0.08452367782592773
+        },
+        {
+          "question": "what is the color of the traffic light visible in the image?",
+          "answers": [
+            "red",
+            "yellow",
+            "green"
+          ],
+          "score": 0.09972143173217773
+        },
+        {
+          "question": "what type of vehicles are present on the city street?",
+          "answers": [
+            "buses",
+            "cars",
+            "taxis"
+          ],
+          "score": 0.13745880126953125
+        },
+        {
+          "question": "what is the specific location of the busy street depicted in the image?",
+          "answers": [
+            "New York City",
+            "London",
+            "Tokyo"
+          ],
+          "score": 0.20159006118774414
+        },
+        {
+          "question": "what is the state of the traffic light (e.g., is it pointing downward)?",
+          "answers": [
+            "downward",
+            "upward",
+            "leftward"
+          ],
+          "score": 0.012780189514160156
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is the sky in the image cloudy or clear?",
+          "answers": [
+            "clear",
+            "cloudy",
+            "partly cloudy"
+          ],
+          "score": 0.010890007019042969
+        },
+        {
+          "question": "Question: What color is the traffic light in the image?",
+          "answers": [
+            "red",
+            "yellow",
+            "green"
+          ],
+          "score": 0.08387041091918945
+        },
+        {
+          "question": "Question: What type of vehicle is prominently featured on the busy city street?",
+          "answers": [
+            "bus",
+            "car",
+            "bike"
+          ],
+          "score": 0.1083979606628418
+        },
+        {
+          "question": "Question: Are there people and cars visible in the image?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0014748573303222656
+        },
+        {
+          "question": "Question: Where is the busy city street located?",
+          "answers": [
+            "New York City",
+            "London",
+            "Tokyo"
+          ],
+          "score": 0.18352174758911133
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a busy city street during the middle of the day",
+      "question": "what is the primary mode of transportation visible in the image?",
+      "answer": "cars",
+      "query_after": "a busy city street during the middle of the day with cars as the primary mode of transportation",
+      "displayed_ids": [
+        14016,
+        19870,
+        14490,
+        33281,
+        33337,
+        6619,
+        24523,
+        47426,
+        4892,
+        13396
+      ],
+      "selected_ids": [
+        39994,
+        45717,
+        16343,
+        1330,
+        36599,
+        11682,
+        11052,
+        28936,
+        4635,
+        15391
+      ],
+      "rejected_count": 19,
+      "usual_paths": [
+        {
+          "question": "Question: Are there any pedestrians crossing the street in the image?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0011010169982910156
+        },
+        {
+          "question": "what is the color of the traffic light in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.1051945686340332
+        },
+        {
+          "question": "what is the primary mode of transportation visible in the image?",
+          "answers": [
+            "cars",
+            "buses",
+            "motorcycles"
+          ],
+          "score": 0.2087845802307129
+        },
+        {
+          "question": "what is the color of the traffic light in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.1051945686340332,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the primary mode of transportation visible in the image?",
+          "answers": [
+            "cars",
+            "buses",
+            "motorcycles"
+          ],
+          "score": 0.2087845802307129,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the traffic light visible in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.08940792083740234
+        },
+        {
+          "question": "Question: what is the color of the traffic light visible in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.06928253173828125
+        },
+        {
+          "question": "Question: What is the color of the traffic light visible in the image?",
+          "answers": [
+            "red",
+            "yellow",
+            "green"
+          ],
+          "score": 0.06928253173828125
+        },
+        {
+          "question": "Question: What is the color of the traffic light visible in the image?",
+          "answers": [
+            "red",
+            "yellow",
+            "green"
+          ],
+          "score": 0.06928253173828125,
+          "duplicate_of": 2
+        },
+        {
+          "question": "What is the color of the traffic light visible in the image?",
+          "answers": [
+            "red",
+            "green",
+            "yellow"
+          ],
+          "score": 0.08940792083740234
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a busy city street during the middle of the day with cars as the primary mode of transportation",
+      "question": "**Question:** What is the color of the bus visible in the image?",
+      "answer": "white",
+      "query_after": "a busy city street during the middle of the day with cars and a white bus",
+      "displayed_ids": [
+        45926,
+        14016,
+        30807,
+        43660,
+        33281,
+        35377,
+        6619,
+        19870,
+        17116,
+        14490
+      ],
+      "selected_ids": [
+        15391,
+        39584,
+        40055,
+        31013,
+        1355,
+        19689,
+        47196,
+        49235,
+        901,
+        11052
+      ],
+      "rejected_count": 24,
+      "usual_paths": [
+        {
+          "question": "what is the color of the car visible in the image?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.13270044326782227
+        },
+        {
+          "question": "what is the color of the car visible in the image?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.13270044326782227,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the car visible in the image?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.13270044326782227,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the car visible in the image?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.13270044326782227,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the car visible in the image?",
+          "answers": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "score": 0.13270044326782227,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the bus visible in the image?",
+          "answers": [
+            "white",
+            "blue",
+            "red and white"
+          ],
+          "score": 0.0949702262878418
+        },
+        {
+          "question": "what is the color of the car visible in the image?",
+          "answers": [
+            "red",
+            "green",
+            "white"
+          ],
+          "score": 0.11203336715698242
+        },
+        {
+          "question": "Question: what color is the traffic light visible in the image?",
+          "answers": [
+            "red",
+            "yellow",
+            "green"
+          ],
+          "score": 0.13190269470214844
+        },
+        {
+          "question": "Question: What is the color of the bus visible in the image?",
+          "answers": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "score": 0.15189123153686523
+        },
+        {
+          "question": "**Question:** What is the color of the bus visible in the image?",
+          "answers": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "score": 0.19709205627441406
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 3,
+      "query_before": "a busy city street during the middle of the day with cars and a white bus",
+      "question": "**Question:** What color is the pole next to the bus?",
+      "answer": "green",
+      "query_after": "a city street during the middle of the day featuring a white bus next to a green pole, with cars as the primary mode of transportation",
+      "displayed_ids": [
+        49162,
+        47426,
+        43636,
+        33337,
+        18765,
+        19805,
+        37179,
+        23671,
+        23756,
+        46611
+      ],
+      "selected_ids": [
+        1330,
+        38635,
+        6772,
+        23728,
+        9988,
+        19689,
+        25410,
+        21369,
+        31590,
+        41192
+      ],
+      "rejected_count": 32,
+      "usual_paths": [
+        {
+          "question": "what is the color of the pole next to the parked bus?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.0664682388305664
+        },
+        {
+          "question": "what is the color of the pole next to the parked bus?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.0664682388305664,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the pole next to the parked bus?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.0664682388305664,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the pole next to the parked bus?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.0664682388305664,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the pole next to the parked bus?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.0664682388305664,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the color of the pole next to the bus?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.06883859634399414
+        },
+        {
+          "question": "**Question:** What color is the pole next to the bus?",
+          "answers": [
+            "green",
+            "yellow",
+            "black"
+          ],
+          "score": 0.115570068359375
+        },
+        {
+          "question": "**Question:** What color is the pole next to the bus?",
+          "answers": [
+            "green",
+            "yellow",
+            "black"
+          ],
+          "score": 0.115570068359375,
+          "duplicate_of": 1
+        },
+        {
+          "question": "What color is the pole next to the bus?",
+          "answers": [
+            "gray",
+            "green",
+            "brown"
+          ],
+          "score": 0.03623628616333008
+        },
+        {
+          "question": "Question: Is the bus visible in the image white and blue, or white and green?",
+          "answers": [
+            "white and blue",
+            "white and green",
+            "white"
+          ],
+          "score": 0.010336875915527344
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a city street during the middle of the day featuring a white bus next to a green pole, with cars as the primary mode of transportation",
+      "question": "**Question:** What is the color of the street sign visible in the image?",
+      "answer": "red",
+      "query_after": "a busy city street during the middle of the day featuring white buses, a green pole, and a red street sign",
+      "displayed_ids": [
+        37179,
+        36697,
+        1075,
+        11052,
+        46488,
+        45589,
+        43905,
+        4150,
+        47634,
+        32290
+      ],
+      "selected_ids": [
+        35013,
+        19158,
+        44485,
+        23728,
+        20010,
+        2556,
+        6772,
+        37382,
+        9988,
+        16663
+      ],
+      "rejected_count": 41,
+      "usual_paths": [
+        {
+          "question": "**Question:** Is the bus visible in the image parked at a bus stop?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0016679763793945312
+        },
+        {
+          "question": "Question: Is the bus visible in the image parked at a bus stop?",
+          "answers": [
+            "yes",
+            "no",
+            "unsure"
+          ],
+          "score": 0.0014052391052246094
+        },
+        {
+          "question": "**Question:** Is the bus visible in the image parked at a bus stop?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0016679763793945312,
+          "duplicate_of": 0
+        },
+        {
+          "question": "**Question:** Is the bus visible in the image parked at a bus stop?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0016679763793945312,
+          "duplicate_of": 0
+        },
+        {
+          "question": "**Question:** Is the bus visible in the image parked at a bus stop?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0016679763793945312,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "**Question:** What is the color of the street sign visible in the image?",
+          "answers": [
+            "blue",
+            "green",
+            "yellow"
+          ],
+          "score": 0.10056781768798828
+        },
+        {
+          "question": "**Question:** Is the sky in the image clear or cloudy?",
+          "answers": [
+            "clear",
+            "cloudy",
+            "partly cloudy"
+          ],
+          "score": 0.009070873260498047
+        },
+        {
+          "question": "**Question:** What is the weather condition of the sky in the image?",
+          "answers": [
+            "sunny",
+            "cloudy",
+            "clear"
+          ],
+          "score": 0.029022693634033203
+        },
+        {
+          "question": "**Question:** What is the color of the street sign visible in the image?",
+          "answers": [
+            "blue",
+            "green",
+            "yellow"
+          ],
+          "score": 0.10056781768798828,
+          "duplicate_of": 0
+        },
+        {
+          "question": "**Question:** What is the color of the street sign visible in the image?",
+          "answers": [
+            "blue",
+            "green",
+            "yellow"
+          ],
+          "score": 0.10056781768798828,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a busy city street during the middle of the day featuring white buses, a green pole, and a red street sign",
+      "question": "Question: What is the specific location of the busy street depicted in the image?",
+      "answer": "I'm unsure.",
+      "query_after": "a busy city street during the middle of the day featuring white cars, a white bus, a green pole, and a red street sign",
+      "displayed_ids": [
+        33337,
+        45589,
+        1701,
+        46611,
+        37179,
+        48604,
+        36697,
+        15229,
+        42480,
+        41560
+      ],
+      "selected_ids": [
+        39379,
+        1331,
+        46959,
+        11052,
+        46381,
+        4243,
+        23728,
+        40846,
+        33045
+      ],
+      "rejected_count": 46,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "white bus",
+            "red and white bus",
+            "street sign"
+          ],
+          "score": 0.049999237060546875
+        },
+        {
+          "question": "**Question:** What is the primary mode of transportation visible in the image?",
+          "answers": [
+            "cars",
+            "bus",
+            "buses"
+          ],
+          "score": 0.02798938751220703
+        },
+        {
+          "question": "**Question:** What color is the pole next to the white bus?",
+          "answers": [
+            "green",
+            "black",
+            "silver"
+          ],
+          "score": 0.02566242218017578
+        },
+        {
+          "question": "**Question:** What is the color of the pole next to the white bus?",
+          "answers": [
+            "green",
+            "red",
+            "unknown"
+          ],
+          "score": 0.01971435546875
+        },
+        {
+          "question": "**Question:** What is the primary mode of transportation visible in the image?",
+          "answers": [
+            "cars",
+            "bus",
+            "buses"
+          ],
+          "score": 0.02798938751220703,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the specific location of the busy street depicted in the image?",
+          "answers": [
+            "New York City",
+            "London",
+            "Tokyo"
+          ],
+          "score": 0.14139127731323242
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "people",
+            "trees",
+            "grass"
+          ],
+          "score": 0.10045719146728516
+        },
+        {
+          "question": "**Question:** What is the color of the pole next to the bus?",
+          "answers": [
+            "green",
+            "black",
+            "silver"
+          ],
+          "score": 0.027466297149658203
+        },
+        {
+          "question": "Question: What is the color of the building sign visible in the image?",
+          "answers": [
+            "red",
+            "black",
+            "green"
+          ],
+          "score": 0.03991127014160156
+        },
+        {
+          "question": "Question: What is the color of the building sign visible in the image?",
+          "answers": [
+            "red",
+            "black",
+            "green"
+          ],
+          "score": 0.03991127014160156,
+          "duplicate_of": 3
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a busy city street during the middle of the day featuring white cars, a white bus, a green pole, and a red street sign",
+      "question": "**Question:** What color are the buildings visible in the background?",
+      "answer": "The buildings in the background are primarily beige and white.",
+      "query_after": "a busy city street during the middle of the day featuring white cars, a white bus, a green pole, and a red street sign, with beige and white buildings in the background",
+      "displayed_ids": [
+        33337,
+        37179,
+        45589,
+        37284,
+        36697,
+        43636,
+        18086,
+        14546,
+        46611,
+        15229
+      ],
+      "selected_ids": [
+        9988,
+        4310,
+        6772,
+        48604,
+        41560,
+        11052,
+        18739,
+        33045,
+        40846,
+        16661
+      ],
+      "rejected_count": 49,
+      "usual_paths": [
+        {
+          "question": "what is the action being performed by the bus in the image?",
+          "answers": [
+            "parked",
+            "driving",
+            "waiting"
+          ],
+          "score": 0.02773761749267578
+        },
+        {
+          "question": "what is the action being performed by the bus in the image?",
+          "answers": [
+            "parked",
+            "driving",
+            "waiting"
+          ],
+          "score": 0.02773761749267578,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the state of the bus (e.g., parked or driving) in the image?",
+          "answers": [
+            "parked",
+            "driving",
+            "stopped"
+          ],
+          "score": 0.009735584259033203
+        },
+        {
+          "question": "what is the state of the bus (e.g., parked or driving) in the image?",
+          "answers": [
+            "parked",
+            "driving",
+            "stopped"
+          ],
+          "score": 0.009735584259033203,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the state of the bus (e.g., parked or driving) in the image?",
+          "answers": [
+            "parked",
+            "driving",
+            "stopped"
+          ],
+          "score": 0.009735584259033203,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "**Question:** What color are the buildings visible in the background?",
+          "answers": [
+            "white",
+            "gray",
+            "yellow"
+          ],
+          "score": 0.04450225830078125
+        },
+        {
+          "question": "**Question:** What color is the pole next to the bus?",
+          "answers": [
+            "green",
+            "white",
+            "black"
+          ],
+          "score": 0.016947269439697266
+        },
+        {
+          "question": "**Question:** Is there a bus stop visible next to the bus?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.004585742950439453
+        },
+        {
+          "question": "**Question:** What is the color of the pole next to the bus?",
+          "answers": [
+            "green",
+            "white",
+            "gray"
+          ],
+          "score": 0.016380786895751953
+        },
+        {
+          "question": "**Question:** Is there a bus stop visible next to the bus?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.004585742950439453,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a busy city street during the middle of the day featuring white cars, a white bus, a green pole, and a red street sign, with beige and white buildings in the background",
+      "question": "what color are the bicycles on the curb in the image?",
+      "answer": "The bicycles in the image are not on the curb; they are being ridden by people in the street. The bicycle on the left has a green basket, and the one on the right appears to be silver or gray.",
+      "query_after": "a busy city street during the middle of the day featuring white cars, a white bus, and a green pole next to the bus, with a red street sign, beige and white buildings in the background, and people riding bicycles (one with a green basket and one silver or gray) in the street",
+      "displayed_ids": [
+        45589,
+        37284,
+        15405,
+        33337,
+        8466,
+        43636,
+        47426,
+        25170,
+        15229,
+        32290
+      ],
+      "selected_ids": [
+        39846,
+        11052,
+        35013,
+        18086,
+        12357,
+        47196,
+        8459,
+        46285,
+        46611,
+        34564
+      ],
+      "rejected_count": 52,
+      "usual_paths": [
+        {
+          "question": "what color are the bicycles on the curb in the image?",
+          "answers": [
+            "black",
+            "blue",
+            "red"
+          ],
+          "score": 0.04260826110839844
+        },
+        {
+          "question": "what color is the bus that has bicycles on the curb?",
+          "answers": [
+            "white",
+            "green",
+            "black"
+          ],
+          "score": 0.025317668914794922
+        },
+        {
+          "question": "what is the color of the bus that is driving down the street next to a red and white bus?",
+          "answers": [
+            "white",
+            "blue",
+            "green"
+          ],
+          "score": 0.021355152130126953
+        },
+        {
+          "question": "Based on the provided information sources, here is the next question and the explanation of how the information was utilized.\n\n**Question:** What is the color of the?",
+          "answers": [
+            "red",
+            "green",
+            "beige"
+          ],
+          "score": 0.013007640838623047
+        },
+        {
+          "question": "**Question:** What is the color of the pole that is holding up the street sign?",
+          "answers": [
+            "green",
+            "red",
+            "white"
+          ],
+          "score": 0.014012813568115234
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "**Question:** Are there any bicycles visible on the curb in the image?",
+          "answers": [
+            "Yes",
+            "No",
+            "I don't know"
+          ],
+          "score": 0.0030646324157714844
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "pole",
+            "street sign",
+            "buildings"
+          ],
+          "score": 0.010457515716552734
+        },
+        {
+          "question": "**Question:** Are there any bicycles visible on the curb in the image?",
+          "answers": [
+            "Yes",
+            "No",
+            "I don't know"
+          ],
+          "score": 0.0030646324157714844,
+          "duplicate_of": 0
+        },
+        {
+          "question": "**Question:** Is there a bicycle visible on the curb in the image?",
+          "answers": [
+            "Yes",
+            "No",
+            "I'm not sure"
+          ],
+          "score": 0.003081798553466797
+        },
+        {
+          "question": "**Question:** Are there any bicycles visible on the curb in the image?",
+          "answers": [
+            "Yes",
+            "No",
+            "I don't know"
+          ],
+          "score": 0.0030646324157714844,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

@@ -1,0 +1,181 @@
+{
+  "qid": 958,
+  "initial": "2 people flying a kite in a field",
+  "initial_rank": 32,
+  "displayed": [
+    27676,
+    23604,
+    33009,
+    2141,
+    37760,
+    39571,
+    43373,
+    10993,
+    45034,
+    5932
+  ],
+  "evidence": [
+    "a girl flies a kite in a green field",
+    "a woman is flying a kite at the beach",
+    "a girl flying a pink kite",
+    "a group of men riding horses through a green field",
+    "the men are playing a game of frisbee in a garden",
+    "a man and woman standing by a dragon kite on the beach",
+    "person standing on sand on beach with kite in air",
+    "two people in the forest catching a frisbee",
+    "kite flying in a smoggy blue sky",
+    "colorful kites are flying in the sky above a group of people"
+  ],
+  "rejected_captions": [
+    "a tree on the left side of the picture",
+    "a man and woman on a field flying a kite",
+    "clouds in the sky",
+    "a young boy flying a kite",
+    "a lady and a child flying a kite in the grass",
+    "there are some clouds in the sky",
+    "a child and a boy flying a kite in the grass",
+    "a man holds a kite for a kid",
+    "a kite flying in a sunny sky",
+    "a group of children flying kites in a field"
+  ],
+  "usual": {
+    "candidates": [
+      "Question: What is the gender of the person flying the kite?",
+      "what color is the kite being flown by the two people in the field?",
+      "what is the name of the kite being flown by the two people in the field?",
+      "what is the name of the kite being flown by the two people in the field?",
+      "what is the color of the field where the two people are flying the kite?"
+    ],
+    "question": "what color is the kite being flown by the two people in the field?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the gender of the person flying the kite?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.018853187561035156
+        },
+        {
+          "question": "what color is the kite being flown by the two people in the field?",
+          "answers": [
+            "pink",
+            "green",
+            "blue"
+          ],
+          "score": 0.07125568389892578
+        },
+        {
+          "question": "what is the name of the kite being flown by the two people in the field?",
+          "answers": [
+            "Dragon",
+            "Pink kite",
+            "Green field"
+          ],
+          "score": 0.0700674057006836
+        },
+        {
+          "question": "what is the name of the kite being flown by the two people in the field?",
+          "answers": [
+            "Dragon",
+            "Pink kite",
+            "Green field"
+          ],
+          "score": 0.0700674057006836,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the field where the two people are flying the kite?",
+          "answers": [
+            "green",
+            "blue",
+            "brown"
+          ],
+          "score": 0.05740928649902344
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.191,
+      "probe_selection_seconds": 2.038,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "orange",
+    "rewrite": "two people flying an orange kite in a field",
+    "raw_rank": 107,
+    "unseen_rank": 97
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the gender of the two people flying the kite in the field?",
+      "Question: What color is the kite being flown by the two people in the field?",
+      "Question: What is the gender of the two people flying the kite in the field?",
+      "Question: What is the gender of the two people flying the kite in the field?",
+      "Question: What is the gender of the two people flying the kite in the field?"
+    ],
+    "question": "Question: What color is the kite being flown by the two people in the field?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the gender of the two people flying the kite in the field?",
+          "answers": [
+            "two girls",
+            "a man and a woman",
+            "two men"
+          ],
+          "score": 0.041684627532958984
+        },
+        {
+          "question": "Question: What color is the kite being flown by the two people in the field?",
+          "answers": [
+            "pink",
+            "green",
+            "blue"
+          ],
+          "score": 0.06532144546508789
+        },
+        {
+          "question": "Question: What is the gender of the two people flying the kite in the field?",
+          "answers": [
+            "two girls",
+            "a man and a woman",
+            "two men"
+          ],
+          "score": 0.041684627532958984,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the gender of the two people flying the kite in the field?",
+          "answers": [
+            "two girls",
+            "a man and a woman",
+            "two men"
+          ],
+          "score": 0.041684627532958984,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the gender of the two people flying the kite in the field?",
+          "answers": [
+            "two girls",
+            "a man and a woman",
+            "two men"
+          ],
+          "score": 0.041684627532958984,
+          "duplicate_of": 0
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.149,
+      "probe_selection_seconds": 0.994,
+      "probe_llm_calls": 2,
+      "probe_search_queries": 6
+    },
+    "answer": "Orange.",
+    "rewrite": "two people flying an orange kite in a field",
+    "raw_rank": 107,
+    "unseen_rank": 97
+  }
+}

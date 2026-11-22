@@ -1,0 +1,1335 @@
+{
+  "qid": 1543,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000357449.jpg",
+  "queries": [
+    "a bathroom with a toilet and a dual sink",
+    "a bathroom with a black vanity, a toilet, and a dual sink",
+    "a bathroom featuring a black vanity, a white toilet, and a white bathtub",
+    "a beige bathroom featuring a white bathtub, a black vanity, and a white toilet",
+    "a beige bathroom with a black vanity, a white toilet, a white bathtub, and a tile floor",
+    "a beige bathroom featuring a black vanity, a white toilet, a white bathtub, a tiled floor, and a mirror",
+    "a beige bathroom featuring a black vanity, a white toilet, a white bathtub, a black mirror, and a tiled floor",
+    "The bathroom is beige, with a black vanity, white toilet, white bathtub, black mirror, and tiled flooring.",
+    "a beige bathroom featuring a black vanity, a white toilet, a white bathtub, a black mirror, and a tiled floor",
+    "The bathroom has beige walls, a black vanity, a white toilet, a white bathtub, a black mirror, and tiled flooring.",
+    "a beige bathroom featuring a black vanity, a white toilet, a white bathtub, a black mirror, a tiled floor, and a large painting of a tree-lined road behind the dual sink"
+  ],
+  "ranks": [
+    29,
+    14,
+    110,
+    125,
+    108,
+    97,
+    82,
+    101,
+    82,
+    71,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a bathroom with a toilet and a dual sink",
+      "question": "what is the color of the vanity in the bathroom with a toilet and a dual sink?",
+      "answer": "black",
+      "query_after": "a bathroom with a black vanity, a toilet, and a dual sink",
+      "displayed_ids": [
+        6136,
+        28659,
+        17473,
+        23663,
+        10753,
+        13390,
+        21917,
+        21336,
+        32568,
+        2649
+      ],
+      "selected_ids": [
+        2146,
+        1375,
+        26877,
+        23125,
+        44263,
+        14686,
+        27423,
+        8690,
+        43233,
+        26096
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what color is the bathtub in the bathroom with a toilet and a dual sink?",
+          "answers": [
+            "white",
+            "blue",
+            "none"
+          ],
+          "score": 0.04405403137207031
+        },
+        {
+          "question": "what is the color of the vanity in the bathroom with a toilet and a dual sink?",
+          "answers": [
+            "white",
+            "wood",
+            "black"
+          ],
+          "score": 0.1166081428527832
+        },
+        {
+          "question": "Question: What color are the tiles in the bathroom with a toilet and a dual sink?",
+          "answers": [
+            "white",
+            "beige",
+            "gray"
+          ],
+          "score": 0.06058168411254883
+        },
+        {
+          "question": "what material is the shower in the bathroom with a toilet and a dual sink?",
+          "answers": [
+            "glass",
+            "marble",
+            "none"
+          ],
+          "score": 0.054633140563964844
+        },
+        {
+          "question": "what is the color of the vanity in the bathroom with a toilet and a dual sink?",
+          "answers": [
+            "white",
+            "wood",
+            "black"
+          ],
+          "score": 0.1166081428527832,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What color is the vanity in the bathroom?",
+          "answers": [
+            "white",
+            "wood",
+            "gray"
+          ],
+          "score": 0.07004117965698242
+        },
+        {
+          "question": "Question: What color is the floor in the bathroom?",
+          "answers": [
+            "white",
+            "wood",
+            "marble"
+          ],
+          "score": 0.09000492095947266
+        },
+        {
+          "question": "Question: What color is the toilet in the bathroom?",
+          "answers": [
+            "white",
+            "blue",
+            "black"
+          ],
+          "score": 0.11337757110595703
+        },
+        {
+          "question": "Question: What color is the shower curtain in the bathroom?",
+          "answers": [
+            "white",
+            "blue",
+            "patterned"
+          ],
+          "score": 0.07755851745605469
+        },
+        {
+          "question": "Question: What color is the vanity in the bathroom?",
+          "answers": [
+            "white",
+            "wood",
+            "gray"
+          ],
+          "score": 0.07004117965698242,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a bathroom with a black vanity, a toilet, and a dual sink",
+      "question": "what is the color of the bathtub in the bathroom with a dual sink, a black vanity, and a white toilet?",
+      "answer": "white",
+      "query_after": "a bathroom featuring a black vanity, a white toilet, and a white bathtub",
+      "displayed_ids": [
+        36408,
+        41425,
+        6306,
+        30155,
+        42251,
+        18994,
+        41720,
+        24226,
+        46623,
+        38530
+      ],
+      "selected_ids": [
+        38432,
+        24335,
+        24792,
+        26371,
+        17708,
+        24514,
+        46776,
+        47919,
+        2681,
+        32527
+      ],
+      "rejected_count": 20,
+      "usual_paths": [
+        {
+          "question": "what is the color of the toilet in the bathroom with a toilet and a dual sink?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.04558277130126953
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom with a toilet and a dual sink?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.04558277130126953,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom with a toilet and a dual sink?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.04558277130126953,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom with a toilet and a dual sink?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.04558277130126953,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom with a toilet and a dual sink?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.04558277130126953,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the toilet in the bathroom with a dual sink and a black vanity?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.024491310119628906
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with a dual sink, a black vanity, and a white toilet?",
+          "answers": [
+            "white",
+            "red",
+            "brown"
+          ],
+          "score": 0.07744741439819336
+        },
+        {
+          "question": "what color is the bathtub in the bathroom with a dual sink, a black vanity, and a white toilet?",
+          "answers": [
+            "white",
+            "black",
+            "beige"
+          ],
+          "score": 0.023069381713867188
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with a dual sink, a black vanity, and a white toilet?",
+          "answers": [
+            "white",
+            "red",
+            "brown"
+          ],
+          "score": 0.07744741439819336,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the floor in the bathroom with a dual sink, a black vanity, and a white toilet?",
+          "answers": [
+            "white",
+            "beige",
+            "gray"
+          ],
+          "score": 0.030584335327148438
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a bathroom featuring a black vanity, a white toilet, and a white bathtub",
+      "question": "what is the color of the bathroom with a toilet and a dual sink?",
+      "answer": "beige",
+      "query_after": "a beige bathroom featuring a white bathtub, a black vanity, and a white toilet",
+      "displayed_ids": [
+        32859,
+        13913,
+        46623,
+        31763,
+        6306,
+        38256,
+        40587,
+        42402,
+        25593,
+        9397
+      ],
+      "selected_ids": [
+        32527,
+        29592,
+        39299,
+        45760,
+        49707,
+        26877,
+        2681,
+        37512,
+        40676,
+        17786
+      ],
+      "rejected_count": 28,
+      "usual_paths": [
+        {
+          "question": "what is the color of the shower curtain in the bathroom with a toilet, a dual sink, a black vanity, and a white bathtub?",
+          "answers": [
+            "white",
+            "yellow",
+            "patterned"
+          ],
+          "score": 0.04362630844116211
+        },
+        {
+          "question": "what is the color of the shower curtain in the bathroom with a toilet, a dual sink, a black vanity, and a white bathtub?",
+          "answers": [
+            "white",
+            "yellow",
+            "patterned"
+          ],
+          "score": 0.04362630844116211,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the shower curtain in the bathroom with a toilet, a dual sink, a black vanity, and a white bathtub?",
+          "answers": [
+            "white",
+            "yellow",
+            "patterned"
+          ],
+          "score": 0.04362630844116211,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the shower curtain in the bathroom with a toilet, a dual sink, a black vanity, and a white bathtub?",
+          "answers": [
+            "white",
+            "yellow",
+            "patterned"
+          ],
+          "score": 0.04362630844116211,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom with a dual sink, a black vanity, and a white bathtub?",
+          "answers": [
+            "white",
+            "black",
+            "cream"
+          ],
+          "score": 0.02046966552734375
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the bathroom with a toilet and a dual sink?",
+          "answers": [
+            "white",
+            "black",
+            "yellow"
+          ],
+          "score": 0.07468509674072266
+        },
+        {
+          "question": "what is the color of the bathroom with a toilet and a dual sink?",
+          "answers": [
+            "white",
+            "black",
+            "yellow"
+          ],
+          "score": 0.07468509674072266,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom with a dual sink and a black vanity?",
+          "answers": [
+            "white",
+            "black",
+            "yellow"
+          ],
+          "score": 0.03438234329223633
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom with a dual sink and a black vanity?",
+          "answers": [
+            "white",
+            "black",
+            "yellow"
+          ],
+          "score": 0.03438234329223633,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the walls in the bathroom with a toilet, a dual sink, and a black vanity?",
+          "answers": [
+            "white",
+            "black",
+            "yellow"
+          ],
+          "score": 0.046297550201416016
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 3,
+      "query_before": "a beige bathroom featuring a white bathtub, a black vanity, and a white toilet",
+      "question": "what material is the floor of the bathroom with a beige color, a white toilet, and a black vanity?",
+      "answer": "tile",
+      "query_after": "a beige bathroom with a black vanity, a white toilet, a white bathtub, and a tile floor",
+      "displayed_ids": [
+        42402,
+        32859,
+        39068,
+        17057,
+        30988,
+        32017,
+        31763,
+        19910,
+        10695,
+        29592
+      ],
+      "selected_ids": [
+        29592,
+        26877,
+        2681,
+        39299,
+        32017,
+        6306,
+        32527,
+        11653,
+        13313,
+        17969
+      ],
+      "rejected_count": 35,
+      "usual_paths": [
+        {
+          "question": "what color is the mirror in the bathroom with a toilet and a dual sink?",
+          "answers": [
+            "black",
+            "beige",
+            "white"
+          ],
+          "score": 0.01070547103881836
+        },
+        {
+          "question": "what is the color of the mirror in the bathroom with a toilet and a dual sink?",
+          "answers": [
+            "black",
+            "white",
+            "beige"
+          ],
+          "score": 0.011322021484375
+        },
+        {
+          "question": "what is the color of the mirror in the bathroom with a toilet and a dual sink?",
+          "answers": [
+            "black",
+            "white",
+            "beige"
+          ],
+          "score": 0.011322021484375,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the mirror in the bathroom with a toilet and a dual sink?",
+          "answers": [
+            "black",
+            "white",
+            "beige"
+          ],
+          "score": 0.011322021484375,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the mirror in the bathroom with a toilet and a dual sink?",
+          "answers": [
+            "black",
+            "white",
+            "beige"
+          ],
+          "score": 0.011322021484375,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what material is the floor of the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "wood",
+            "tile",
+            "carpet"
+          ],
+          "score": 0.03074169158935547
+        },
+        {
+          "question": "what is the material of the floor in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "tile",
+            "wood",
+            "linoleum"
+          ],
+          "score": 0.02246713638305664
+        },
+        {
+          "question": "what is the color of the mirror in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "black",
+            "beige",
+            "white"
+          ],
+          "score": 0.0067119598388671875
+        },
+        {
+          "question": "what is the color of the mirror in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "black",
+            "beige",
+            "white"
+          ],
+          "score": 0.0067119598388671875,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the mirror in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "black",
+            "beige",
+            "white"
+          ],
+          "score": 0.0067119598388671875,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a beige bathroom with a black vanity, a white toilet, a white bathtub, and a tile floor",
+      "question": "what is the other object in the image?",
+      "answer": "a mirror",
+      "query_after": "a beige bathroom featuring a black vanity, a white toilet, a white bathtub, a tiled floor, and a mirror",
+      "displayed_ids": [
+        32859,
+        39068,
+        29592,
+        31763,
+        42402,
+        32451,
+        4246,
+        42428,
+        30988,
+        40587
+      ],
+      "selected_ids": [
+        9360,
+        40676,
+        19623,
+        33554,
+        26877,
+        11653,
+        2681,
+        35766,
+        39299
+      ],
+      "rejected_count": 38,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "shower",
+            "bathtub",
+            "toilet"
+          ],
+          "score": 0.035237789154052734
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "white",
+            "beige",
+            "black"
+          ],
+          "score": 0.0055904388427734375
+        },
+        {
+          "question": "what is the color of the shower curtain in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "beige",
+            "white",
+            "patterned"
+          ],
+          "score": 0.012035369873046875
+        },
+        {
+          "question": "what is the color of the shower curtain in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "beige",
+            "white",
+            "patterned"
+          ],
+          "score": 0.012035369873046875,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the shower curtain in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "beige",
+            "white",
+            "patterned"
+          ],
+          "score": 0.012035369873046875,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the mirror in the bathroom with a beige color, a white toilet, a black vanity, and a tiled floor?",
+          "answers": [
+            "white",
+            "yellow",
+            "brown"
+          ],
+          "score": 0.027863502502441406
+        },
+        {
+          "question": "what is the color of the mirror in the bathroom with a beige color, a white toilet, a black vanity, and a tiled floor?",
+          "answers": [
+            "white",
+            "yellow",
+            "brown"
+          ],
+          "score": 0.027863502502441406,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the mirror in the bathroom with a beige color, a white toilet, a black vanity, and a tiled floor?",
+          "answers": [
+            "white",
+            "yellow",
+            "brown"
+          ],
+          "score": 0.027863502502441406,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom with a beige color, a black vanity, and a tiled floor?",
+          "answers": [
+            "white",
+            "beige",
+            "black"
+          ],
+          "score": 0.01136636734008789
+        },
+        {
+          "question": "what is the color of the mirror in the bathroom with a beige color, a white toilet, a black vanity, and a tiled floor?",
+          "answers": [
+            "white",
+            "yellow",
+            "brown"
+          ],
+          "score": 0.027863502502441406,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a beige bathroom featuring a black vanity, a white toilet, a white bathtub, a tiled floor, and a mirror",
+      "question": "what is the color of the mirror in the bathroom with a beige color, a white toilet, and a black vanity?",
+      "answer": "black",
+      "query_after": "a beige bathroom featuring a black vanity, a white toilet, a white bathtub, a black mirror, and a tiled floor",
+      "displayed_ids": [
+        32859,
+        42402,
+        29592,
+        30988,
+        36736,
+        31763,
+        46623,
+        7936,
+        42428,
+        39068
+      ],
+      "selected_ids": [
+        39277,
+        2681,
+        8673,
+        35766,
+        11653,
+        39299,
+        46776,
+        36099,
+        31090
+      ],
+      "rejected_count": 40,
+      "usual_paths": [
+        {
+          "question": "what is the color of the mirror in the beige bathroom with a white toilet, black vanity, and tile floor?",
+          "answers": [
+            "beige",
+            "white",
+            "black"
+          ],
+          "score": 0.006605625152587891
+        },
+        {
+          "question": "What is the color of the mirror in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "black",
+            "white",
+            "beige"
+          ],
+          "score": 0.0057773590087890625
+        },
+        {
+          "question": "what is the color of the mirror in the beige bathroom with a white toilet and a black vanity?",
+          "answers": [
+            "silver",
+            "white",
+            "gold"
+          ],
+          "score": 0.015721797943115234
+        },
+        {
+          "question": "what is the color of the mirror in the beige bathroom with a white toilet and a black vanity?",
+          "answers": [
+            "silver",
+            "white",
+            "gold"
+          ],
+          "score": 0.015721797943115234,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the mirror in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "silver",
+            "gold",
+            "black"
+          ],
+          "score": 0.018756866455078125
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the mirror in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "beige",
+            "white",
+            "black"
+          ],
+          "score": 0.005777835845947266
+        },
+        {
+          "question": "what is the color of the mirror in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "beige",
+            "white",
+            "black"
+          ],
+          "score": 0.005777835845947266,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the mirror in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "beige",
+            "white",
+            "black"
+          ],
+          "score": 0.005777835845947266,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the mirror in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "beige",
+            "white",
+            "black"
+          ],
+          "score": 0.005777835845947266,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the mirror in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "beige",
+            "white",
+            "black"
+          ],
+          "score": 0.005777835845947266,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a beige bathroom featuring a black vanity, a white toilet, a white bathtub, a black mirror, and a tiled floor",
+      "question": "what is the color of the toilet in the bathroom with a beige color, a black vanity, and a white bathtub?",
+      "answer": "white",
+      "query_after": "The bathroom is beige, with a black vanity, white toilet, white bathtub, black mirror, and tiled flooring.",
+      "displayed_ids": [
+        32859,
+        42402,
+        36736,
+        29592,
+        46623,
+        30988,
+        31763,
+        7936,
+        42428,
+        49834
+      ],
+      "selected_ids": [
+        18994,
+        8673,
+        29592,
+        39519,
+        39299,
+        6306,
+        31090,
+        2681,
+        40676
+      ],
+      "rejected_count": 41,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a mirror",
+            "a towel bar",
+            "a bathtub"
+          ],
+          "score": 0.01526784896850586
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "white",
+            "cream",
+            "off-white"
+          ],
+          "score": 0.002087116241455078
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with a beige color, a black vanity, and a white bathtub?",
+          "answers": [
+            "black",
+            "white",
+            "beige"
+          ],
+          "score": 0.006457805633544922
+        },
+        {
+          "question": "what is the material of the floor in the bathroom with a beige color, a black vanity, and a white bathtub?",
+          "answers": [
+            "tile",
+            "wood",
+            "linoleum"
+          ],
+          "score": 0.017676830291748047
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom with a beige color, a black vanity, and a white bathtub?",
+          "answers": [
+            "white",
+            "red",
+            "cream"
+          ],
+          "score": 0.033888816833496094
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a mirror",
+            "a towel bar",
+            "a bathtub"
+          ],
+          "score": 0.01526784896850586
+        },
+        {
+          "question": "what is the color of the toilet in the bathroom with a beige color, a black vanity, and a mirror?",
+          "answers": [
+            "white",
+            "black",
+            "beige"
+          ],
+          "score": 0.005769252777099609
+        },
+        {
+          "question": "what is the color of the wall in the bathroom with a beige color, a white toilet, a black vanity, and a mirror?",
+          "answers": [
+            "beige",
+            "white",
+            "black"
+          ],
+          "score": 0.007219791412353516
+        },
+        {
+          "question": "what is the material of the bathtub in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "white",
+            "tile",
+            "tub"
+          ],
+          "score": 0.006048679351806641
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with a beige color, a white toilet, a black vanity, and a mirror?",
+          "answers": [
+            "white",
+            "tiled",
+            "brown"
+          ],
+          "score": 0.009867191314697266
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "The bathroom is beige, with a black vanity, white toilet, white bathtub, black mirror, and tiled flooring.",
+      "question": "what is the other object in the image?",
+      "answer": "a mirror",
+      "query_after": "a beige bathroom featuring a black vanity, a white toilet, a white bathtub, a black mirror, and a tiled floor",
+      "displayed_ids": [
+        32859,
+        29592,
+        36736,
+        42402,
+        46623,
+        31763,
+        30988,
+        7936,
+        42428,
+        40587
+      ],
+      "selected_ids": [
+        29592,
+        36099,
+        2681,
+        36408,
+        4362,
+        2785,
+        6306,
+        31090,
+        40676
+      ],
+      "rejected_count": 41,
+      "usual_paths": [
+        {
+          "question": "What is the color of the shower curtain in the bathroom with a beige color, a white toilet, a black vanity, and a white bathtub?",
+          "answers": [
+            "white",
+            "beige",
+            "black"
+          ],
+          "score": 0.005887031555175781
+        },
+        {
+          "question": "What is the color of the faucet on the dual sink in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "chrome",
+            "silver",
+            "white"
+          ],
+          "score": 0.007375240325927734
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a mirror",
+            "a window",
+            "a shower"
+          ],
+          "score": 0.049713134765625
+        },
+        {
+          "question": "what is the color of the faucet on the black vanity in the bathroom with a white toilet and a white bathtub?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.00995779037475586
+        },
+        {
+          "question": "what is the color of the sink in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "black",
+            "white",
+            "beige"
+          ],
+          "score": 0.006465911865234375
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the sink in the bathroom with a beige color, a white bathtub, and a black vanity?",
+          "answers": [
+            "black",
+            "white",
+            "beige"
+          ],
+          "score": 0.0075664520263671875
+        },
+        {
+          "question": "what is the material of the floor in the bathroom with a beige color, a black vanity, and a white bathtub?",
+          "answers": [
+            "tile",
+            "wood",
+            "linoleum"
+          ],
+          "score": 0.01810169219970703
+        },
+        {
+          "question": "what is the color of the sink in the bathroom with a beige color, a white bathtub, and a black vanity?",
+          "answers": [
+            "black",
+            "white",
+            "beige"
+          ],
+          "score": 0.0075664520263671875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the sink in the bathroom with a beige color, a white bathtub, and a black vanity?",
+          "answers": [
+            "black",
+            "white",
+            "beige"
+          ],
+          "score": 0.0075664520263671875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the sink in the bathroom with a beige color, a black vanity, and a white bathtub?",
+          "answers": [
+            "white",
+            "black",
+            "beige"
+          ],
+          "score": 0.007671833038330078
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a beige bathroom featuring a black vanity, a white toilet, a white bathtub, a black mirror, and a tiled floor",
+      "question": "what is the other object in the image?",
+      "answer": "a mirror",
+      "query_after": "The bathroom has beige walls, a black vanity, a white toilet, a white bathtub, a black mirror, and tiled flooring.",
+      "displayed_ids": [
+        32859,
+        42402,
+        36736,
+        29592,
+        46623,
+        30988,
+        31763,
+        7936,
+        42428,
+        49834
+      ],
+      "selected_ids": [
+        23955,
+        17404,
+        17447,
+        46623,
+        36099,
+        19910,
+        40676,
+        18994,
+        2785,
+        9219
+      ],
+      "rejected_count": 41,
+      "usual_paths": [
+        {
+          "question": "what is the color of the faucet on the black vanity in the bathroom?",
+          "answers": [
+            "black",
+            "chrome",
+            "silver"
+          ],
+          "score": 0.011528491973876953
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a mirror",
+            "a shower",
+            "a tub"
+          ],
+          "score": 0.02391338348388672
+        },
+        {
+          "question": "what is the color of the faucet on the black vanity in the bathroom with a beige color, a white toilet, and a white bathtub?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.009103775024414062
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with a beige color, a black vanity, and a white toilet?",
+          "answers": [
+            "white",
+            "beige",
+            "black"
+          ],
+          "score": 0.00531768798828125
+        },
+        {
+          "question": "what is the color of the faucet on the black vanity in the bathroom with a beige color, a white toilet, and a white bathtub?",
+          "answers": [
+            "black",
+            "white",
+            "silver"
+          ],
+          "score": 0.009103775024414062,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the shower curtain in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "black",
+            "beige",
+            "white"
+          ],
+          "score": 0.004733562469482422
+        },
+        {
+          "question": "what is the material of the shower curtain in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "fabric",
+            "plastic",
+            "vinyl"
+          ],
+          "score": 0.0032982826232910156
+        },
+        {
+          "question": "what is the color of the shower curtain in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "black",
+            "beige",
+            "white"
+          ],
+          "score": 0.004733562469482422,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a mirror",
+            "a sink",
+            "a bathtub"
+          ],
+          "score": 0.01558828353881836
+        },
+        {
+          "question": "what is the location of the bathtub in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "in the corner",
+            "on the right",
+            "on the left"
+          ],
+          "score": 0.006262779235839844
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "The bathroom has beige walls, a black vanity, a white toilet, a white bathtub, a black mirror, and tiled flooring.",
+      "question": "what is the feature located behind the dual sink in the bathroom with a beige color, a white toilet, and a black vanity?",
+      "answer": "a large painting of a tree-lined road.",
+      "query_after": "a beige bathroom featuring a black vanity, a white toilet, a white bathtub, a black mirror, a tiled floor, and a large painting of a tree-lined road behind the dual sink",
+      "displayed_ids": [
+        32859,
+        46623,
+        42402,
+        36736,
+        30988,
+        29592,
+        7936,
+        31763,
+        17057,
+        8933
+      ],
+      "selected_ids": [
+        42905,
+        11653,
+        17447,
+        18994,
+        19530,
+        13157,
+        32451,
+        36736,
+        49461
+      ],
+      "rejected_count": 42,
+      "usual_paths": [
+        {
+          "question": "what is the object located behind the sink in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "mirror",
+            "window",
+            "shower"
+          ],
+          "score": 0.0376276969909668
+        },
+        {
+          "question": "what is the color of the bathtub in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "white",
+            "beige",
+            "black"
+          ],
+          "score": 0.01040506362915039
+        },
+        {
+          "question": "what is the object located behind the sink in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "mirror",
+            "window",
+            "shower"
+          ],
+          "score": 0.0376276969909668,
+          "duplicate_of": 0
+        },
+        {
+          "question": "Question: What is the color of the bathtub in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "white",
+            "beige",
+            "black"
+          ],
+          "score": 0.009622573852539062
+        },
+        {
+          "question": "Question: What is the object located behind the sink in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "a mirror",
+            "a window",
+            "a shelf"
+          ],
+          "score": 0.027358531951904297
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the feature located behind the dual sink in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "mirror",
+            "window",
+            "shower"
+          ],
+          "score": 0.038701534271240234
+        },
+        {
+          "question": "what is the feature located behind the dual sink in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "mirror",
+            "window",
+            "shower"
+          ],
+          "score": 0.038701534271240234,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the feature located behind the dual sink in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "mirror",
+            "window",
+            "shower"
+          ],
+          "score": 0.038701534271240234,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the feature located behind the dual sink in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "mirror",
+            "window",
+            "shower"
+          ],
+          "score": 0.038701534271240234,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the feature located behind the dual sink in the bathroom with a beige color, a white toilet, and a black vanity?",
+          "answers": [
+            "mirror",
+            "window",
+            "shower"
+          ],
+          "score": 0.038701534271240234,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

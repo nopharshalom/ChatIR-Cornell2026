@@ -1,0 +1,71 @@
+{
+  "qid": 683,
+  "initial": "a person gripped on a sheep neck",
+  "initial_rank": 22,
+  "evidence": [
+    "a man is carrying a teddy bear around a group of people",
+    "woman walking a horse in a ring",
+    "woman with a red jacket and t-shirt walking dogs",
+    "a person water skiing on the ocean",
+    "an old man standing in a field with oxen",
+    "a lamb stands next to its mother near a wooden fence",
+    "a woman standing next to an owl in a park",
+    "kids are standing around a group of sheep",
+    "people feeding goats",
+    "two sheep with one kid on a field"
+  ],
+  "displayed_ids": [
+    3706,
+    33208,
+    27579,
+    15160,
+    30356,
+    617,
+    27770,
+    10404,
+    21115,
+    26485
+  ],
+  "rejected_captions": [
+    "the ram is being shaved with a comb",
+    "a woman carrying a sheep near a fence",
+    "a person holds a baby lamb",
+    "a flock of sheep being pulled by people on a tractor",
+    "a man holding a white sheep while people around him stand by",
+    "an older woman is standing with a sheep at the zoo",
+    "a man shearing sheep on the ground",
+    "a sheep with a leash",
+    "a man is putting his finger on a cow",
+    "a sheep is wearing a teddy bear"
+  ],
+  "candidates": [
+    "Question: What is the person holding the sheep near?",
+    "what is the gender of the person holding the sheep?",
+    "Question: What is the gender of the person holding the sheep?",
+    "Question: What is the gender of the person holding the sheep?",
+    "Question: What is the gender of the person holding the sheep?"
+  ],
+  "control_candidates": [
+    "what is the other object in the image?",
+    "Who is the person gripping the sheep's neck?",
+    "Who is the person gripping the sheep's neck?",
+    "Who is the person gripping the sheep's neck?",
+    "Who is the person gripping the sheep's neck?"
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "answer": "sheep",
+    "rewrite": "a person gripping a sheep by the neck",
+    "rank": 22,
+    "hit": false,
+    "raw_rank": 22,
+    "unseen_rank": 12
+  },
+  "variant": {
+    "question": "what is the gender of the person holding the sheep?",
+    "answer": "female",
+    "rewrite": "a female person gripping a sheep by the neck",
+    "raw_rank": 10,
+    "unseen_rank": 6
+  }
+}

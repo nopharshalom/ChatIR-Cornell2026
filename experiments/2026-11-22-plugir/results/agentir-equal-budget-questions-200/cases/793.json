@@ -1,0 +1,79 @@
+{
+  "qid": 793,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the man's shirt sitting at the desk with four monitors?",
+    "what is the color of the man's shirt sitting at the desk with four monitors?",
+    "what is the object sitting on the desk with two monitors?",
+    "what is the object sitting on the desk with two monitors?",
+    "what is the object sitting on the desk with four monitors?"
+  ],
+  "second_candidates": [
+    "Question: How many monitors are on the desk?",
+    "Question: What is the color of the cat sitting on the desk?",
+    "Question: What is the color of the papers covering the office desk?",
+    "Question: How many monitors are on the desk?",
+    "what is the color of the cat sitting on the desk with two monitors?"
+  ],
+  "paths": [
+    {
+      "question": "Question: How many monitors are on the desk?",
+      "answers": [
+        "2",
+        "4",
+        "lots"
+      ],
+      "score": 0.0007009506225585938
+    },
+    {
+      "question": "Question: What is the color of the cat sitting on the desk?",
+      "answers": [
+        "black",
+        "white",
+        "orange"
+      ],
+      "score": 0.04942607879638672
+    },
+    {
+      "question": "Question: What is the color of the papers covering the office desk?",
+      "answers": [
+        "white",
+        "yellow",
+        "blue"
+      ],
+      "score": 0.04662942886352539
+    },
+    {
+      "question": "Question: How many monitors are on the desk?",
+      "answers": [
+        "2",
+        "4",
+        "lots"
+      ],
+      "score": 0.0007009506225585938,
+      "duplicate_of": 0
+    },
+    {
+      "question": "what is the color of the cat sitting on the desk with two monitors?",
+      "answers": [
+        "black",
+        "white",
+        "orange"
+      ],
+      "score": 0.03293657302856445
+    }
+  ],
+  "control": {
+    "question": "what is the color of the man's shirt sitting at the desk with four monitors?",
+    "score": 0.06537532806396484
+  },
+  "mixed": {
+    "question": "what is the color of the office desk?",
+    "score": 0.06732511520385742
+  },
+  "control_rank": 83,
+  "mixed_rank": 23,
+  "usual_rank": 83,
+  "new_answer": null,
+  "new_rewrite": null
+}

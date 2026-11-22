@@ -1,0 +1,1354 @@
+{
+  "qid": 2057,
+  "sample": "original",
+  "target": "unlabeled2017/000000035852.jpg",
+  "queries": [
+    "a close up of 2 street signs with buildings in the background",
+    "a close up of two street signs reading \"E. 2nd St.\" and \"N. Oak St.\" with buildings in the background",
+    "a close up of two street signs reading \"E. 2nd St.\" and \"N. Oak St.\" with a building in the background",
+    "a close-up of two white street signs reading \"E. 2nd St.\" and \"N. Oak St.\" with a building in the background",
+    "a close-up of two white street signs reading \"E. 2nd St.\" and \"N. Oak St.\" with an orange stop sign and a building in the background",
+    "a close-up of two white street signs reading \"E. 2nd St.\" and \"N. Oak St.\" with an orange stop sign in the bottom right corner and a building in the background",
+    "A close-up view features two white street signs displaying \"E. 2nd St.\" and \"N. Oak St.\", accompanied by an orange stop sign positioned in the bottom right corner, with a building visible in the background.",
+    "a close-up of two white street signs reading \"E. 2nd St.\" and \"N. Oak St.\" with a white pole, an orange stop sign in the bottom right, and a building in the background",
+    "a close-up of two white street signs reading \"E. 2nd St.\" and \"N. Oak St.\" with a building in the background, alongside an orange stop sign on a white pole located in the bottom right corner",
+    "a close-up of two white street signs reading \"E. 2nd St.\" and \"N. Oak St.\" on white poles, with an orange stop sign on a white pole in the bottom right and a building in the background",
+    "a white stop sign with orange details is positioned in the bottom right, mounted on a white pole, alongside two white street signs reading \"E. 2nd St.\" and \"N. Oak St.\" on a white pole, with a building and a street lamp visible in the background."
+  ],
+  "ranks": [
+    175,
+    29,
+    34,
+    36,
+    164,
+    134,
+    147,
+    149,
+    92,
+    86,
+    67
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a close up of 2 street signs with buildings in the background",
+      "question": "What is the text written on the street signs?",
+      "answer": "E. 2nd St.\nN. Oak St.",
+      "query_after": "a close up of two street signs reading \"E. 2nd St.\" and \"N. Oak St.\" with buildings in the background",
+      "displayed_ids": [
+        34701,
+        39229,
+        20766,
+        38513,
+        21952,
+        3258,
+        31874,
+        42562,
+        39692,
+        37863
+      ],
+      "selected_ids": [
+        10013,
+        45464,
+        44053,
+        15098,
+        4803,
+        19453,
+        7107,
+        27326,
+        38056
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the color of the street signs in the image?",
+          "answers": [
+            "green and white",
+            "blue",
+            "grey"
+          ],
+          "score": 0.10611963272094727
+        },
+        {
+          "question": "what color are the buildings in the background of the image with the two street signs?",
+          "answers": [
+            "grey",
+            "blue",
+            "white"
+          ],
+          "score": 0.08564186096191406
+        },
+        {
+          "question": "what is the color of the buildings in the background of the image featuring the two street signs?",
+          "answers": [
+            "grey",
+            "blue",
+            "white"
+          ],
+          "score": 0.07547378540039062
+        },
+        {
+          "question": "What are the words written on the two street signs?",
+          "answers": [
+            "50-52",
+            "242",
+            "I STOP"
+          ],
+          "score": 0.0436854362487793
+        },
+        {
+          "question": "What is the text written on the street signs?",
+          "answers": [
+            "NYC",
+            "Stop",
+            "Green"
+          ],
+          "score": 0.1304340362548828
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the street sign that is not blue?",
+          "answers": [
+            "green",
+            "white and green",
+            "grey"
+          ],
+          "score": 0.042247772216796875
+        },
+        {
+          "question": "what color is the street sign that is not blue?",
+          "answers": [
+            "green",
+            "white and green",
+            "grey"
+          ],
+          "score": 0.042247772216796875,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what color are the buildings in the background?",
+          "answers": [
+            "grey",
+            "green",
+            "blue"
+          ],
+          "score": 0.06846094131469727
+        },
+        {
+          "question": "what is the background in front of the street signs?",
+          "answers": [
+            "buildings",
+            "office building",
+            "highway"
+          ],
+          "score": 0.03515291213989258
+        },
+        {
+          "question": "Question: what color are the buildings in the background?",
+          "answers": [
+            "grey",
+            "blue",
+            "white"
+          ],
+          "score": 0.03747892379760742
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a close up of two street signs reading \"E. 2nd St.\" and \"N. Oak St.\" with buildings in the background",
+      "question": "what is the background object located behind the stop sign?",
+      "answer": "a building",
+      "query_after": "a close up of two street signs reading \"E. 2nd St.\" and \"N. Oak St.\" with a building in the background",
+      "displayed_ids": [
+        43132,
+        34399,
+        31874,
+        39229,
+        10013,
+        48444,
+        17374,
+        38513,
+        33806,
+        16606
+      ],
+      "selected_ids": [
+        18014,
+        10013,
+        10016,
+        7107,
+        19974,
+        47755,
+        29223,
+        19923,
+        12357,
+        11993
+      ],
+      "rejected_count": 17,
+      "usual_paths": [
+        {
+          "question": "what is the color of the stop sign visible in the image?",
+          "answers": [
+            "red",
+            "green",
+            "white"
+          ],
+          "score": 0.06124734878540039
+        },
+        {
+          "question": "what is the color of the stop sign visible in the image?",
+          "answers": [
+            "red",
+            "green",
+            "white"
+          ],
+          "score": 0.06124734878540039,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the background object located behind the stop sign?",
+          "answers": [
+            "trees",
+            "buildings",
+            "lamppost"
+          ],
+          "score": 0.0818328857421875
+        },
+        {
+          "question": "what is the color of the traffic light visible in the image?",
+          "answers": [
+            "Red",
+            "Green",
+            "Yellow"
+          ],
+          "score": 0.06897592544555664
+        },
+        {
+          "question": "what is the background object located behind the stop sign?",
+          "answers": [
+            "trees",
+            "buildings",
+            "lamppost"
+          ],
+          "score": 0.0818328857421875,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color are the street signs in the image?",
+          "answers": [
+            "red",
+            "white",
+            "black"
+          ],
+          "score": 0.03538990020751953
+        },
+        {
+          "question": "Question: Are the street signs mounted on a pole or attached to a building?",
+          "answers": [
+            "on a pole",
+            "attached to a building",
+            "both"
+          ],
+          "score": 0.002960205078125
+        },
+        {
+          "question": "what is the color of the street signs?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.07473039627075195
+        },
+        {
+          "question": "what is the color of the street signs?",
+          "answers": [
+            "red",
+            "blue",
+            "white"
+          ],
+          "score": 0.07473039627075195,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "buildings",
+            "trees",
+            "street signs"
+          ],
+          "score": 0.0413823127746582
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a close up of two street signs reading \"E. 2nd St.\" and \"N. Oak St.\" with a building in the background",
+      "question": "what is the color of the street signs in the image?",
+      "answer": "white",
+      "query_after": "a close-up of two white street signs reading \"E. 2nd St.\" and \"N. Oak St.\" with a building in the background",
+      "displayed_ids": [
+        43132,
+        31874,
+        38513,
+        48444,
+        10013,
+        42839,
+        39229,
+        34399,
+        33806,
+        17374
+      ],
+      "selected_ids": [
+        47348,
+        7107,
+        14494,
+        19923,
+        45464,
+        47755,
+        10016,
+        19974,
+        10013,
+        15098
+      ],
+      "rejected_count": 18,
+      "usual_paths": [
+        {
+          "question": "what is the color of the street signs in the image?",
+          "answers": [
+            "green and white",
+            "blue and white",
+            "red and white"
+          ],
+          "score": 0.11831140518188477
+        },
+        {
+          "question": "what is the color of the street signs in the image?",
+          "answers": [
+            "green and white",
+            "blue and white",
+            "red and white"
+          ],
+          "score": 0.11831140518188477,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the street signs in the image?",
+          "answers": [
+            "green and white",
+            "blue and white",
+            "red and white"
+          ],
+          "score": 0.11831140518188477,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the street signs in the image?",
+          "answers": [
+            "green and white",
+            "blue and white",
+            "red and white"
+          ],
+          "score": 0.11831140518188477,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the street signs in the image?",
+          "answers": [
+            "green and white",
+            "blue and white",
+            "red and white"
+          ],
+          "score": 0.11831140518188477,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what color is the street sign?",
+          "answers": [
+            "green",
+            "white",
+            "blue"
+          ],
+          "score": 0.06994438171386719
+        },
+        {
+          "question": "what is the color of the street sign?",
+          "answers": [
+            "green",
+            "blue",
+            "white"
+          ],
+          "score": 0.07171297073364258
+        },
+        {
+          "question": "what is the color of the street sign?",
+          "answers": [
+            "green",
+            "blue",
+            "white"
+          ],
+          "score": 0.07171297073364258,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the street sign?",
+          "answers": [
+            "green",
+            "blue",
+            "white"
+          ],
+          "score": 0.07171297073364258,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the street sign?",
+          "answers": [
+            "green",
+            "blue",
+            "white"
+          ],
+          "score": 0.07171297073364258,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 3,
+      "query_before": "a close-up of two white street signs reading \"E. 2nd St.\" and \"N. Oak St.\" with a building in the background",
+      "question": "what is the color of the stop sign located in the image?",
+      "answer": "orange",
+      "query_after": "a close-up of two white street signs reading \"E. 2nd St.\" and \"N. Oak St.\" with an orange stop sign and a building in the background",
+      "displayed_ids": [
+        48444,
+        34399,
+        38513,
+        43132,
+        43724,
+        22507,
+        22853,
+        31874,
+        10793,
+        42839
+      ],
+      "selected_ids": [
+        38056,
+        31700,
+        7107,
+        10564,
+        19974,
+        19923,
+        43499,
+        38482,
+        10013,
+        12331
+      ],
+      "rejected_count": 22,
+      "usual_paths": [
+        {
+          "question": "what is the color of the stop sign located in the image?",
+          "answers": [
+            "red",
+            "green",
+            "blue"
+          ],
+          "score": 0.08303976058959961
+        },
+        {
+          "question": "What is the color of the stop sign located behind the street signs?",
+          "answers": [
+            "red",
+            "white",
+            "silver"
+          ],
+          "score": 0.02916240692138672
+        },
+        {
+          "question": "What is the color of the building in the background?",
+          "answers": [
+            "brick",
+            "grey",
+            "white"
+          ],
+          "score": 0.03462934494018555
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a building",
+            "a traffic light",
+            "a clock"
+          ],
+          "score": 0.0790109634399414
+        },
+        {
+          "question": "What is the color of the stop sign in the image?",
+          "answers": [
+            "red",
+            "white",
+            "green"
+          ],
+          "score": 0.06804084777832031
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the pole that the street signs are attached to?",
+          "answers": [
+            "green",
+            "brown",
+            "wood"
+          ],
+          "score": 0.060640811920166016
+        },
+        {
+          "question": "what is the color of the pole that the street signs are attached to?",
+          "answers": [
+            "green",
+            "brown",
+            "wood"
+          ],
+          "score": 0.060640811920166016,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the pole that the street signs are attached to?",
+          "answers": [
+            "green",
+            "brown",
+            "wood"
+          ],
+          "score": 0.060640811920166016,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the pole that the street signs are attached to?",
+          "answers": [
+            "green",
+            "brown",
+            "wood"
+          ],
+          "score": 0.060640811920166016,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the pole that the street signs are attached to?",
+          "answers": [
+            "green",
+            "brown",
+            "wood"
+          ],
+          "score": 0.060640811920166016,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 4,
+      "query_before": "a close-up of two white street signs reading \"E. 2nd St.\" and \"N. Oak St.\" with an orange stop sign and a building in the background",
+      "question": "what is the location of the stop sign in the image?",
+      "answer": "bottom right",
+      "query_after": "a close-up of two white street signs reading \"E. 2nd St.\" and \"N. Oak St.\" with an orange stop sign in the bottom right corner and a building in the background",
+      "displayed_ids": [
+        33806,
+        38513,
+        2620,
+        16554,
+        47348,
+        25547,
+        22507,
+        34801,
+        3833,
+        10246
+      ],
+      "selected_ids": [
+        10013,
+        33895,
+        47348,
+        19923,
+        38914,
+        38056,
+        18014,
+        9590,
+        21117,
+        47379
+      ],
+      "rejected_count": 29,
+      "usual_paths": [
+        {
+          "question": "what is the location of the stop sign in the image?",
+          "answers": [
+            "in front of some trees",
+            "on a wooden pole",
+            "near some homes"
+          ],
+          "score": 0.04710817337036133
+        },
+        {
+          "question": "what is the location of the stop sign in the image?",
+          "answers": [
+            "in front of some trees",
+            "on a wooden pole",
+            "near some homes"
+          ],
+          "score": 0.04710817337036133,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the location of the stop sign in the image?",
+          "answers": [
+            "in front of some trees",
+            "on a wooden pole",
+            "near some homes"
+          ],
+          "score": 0.04710817337036133,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the clock sitting on the side of the brick building in the background?",
+          "answers": [
+            "black",
+            "white",
+            "blue"
+          ],
+          "score": 0.04267549514770508
+        },
+        {
+          "question": "what is the location of the stop sign in the image?",
+          "answers": [
+            "in front of some trees",
+            "on a wooden pole",
+            "near some homes"
+          ],
+          "score": 0.04710817337036133,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the position of the street signs relative to the pole?",
+          "answers": [
+            "in front of",
+            "behind",
+            "beside"
+          ],
+          "score": 0.0009946823120117188
+        },
+        {
+          "question": "what are the colors of the buildings in the background?",
+          "answers": [
+            "grey",
+            "black",
+            "brick"
+          ],
+          "score": 0.03825807571411133
+        },
+        {
+          "question": "what is the color of the pole holding the street signs?",
+          "answers": [
+            "wooden",
+            "metal",
+            "black"
+          ],
+          "score": 0.031200885772705078
+        },
+        {
+          "question": "what is the color of the pole holding the street signs?",
+          "answers": [
+            "wooden",
+            "metal",
+            "black"
+          ],
+          "score": 0.031200885772705078,
+          "duplicate_of": 2
+        },
+        {
+          "question": "what is the color of the pole holding the street signs?",
+          "answers": [
+            "wooden",
+            "metal",
+            "black"
+          ],
+          "score": 0.031200885772705078,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 5,
+      "query_before": "a close-up of two white street signs reading \"E. 2nd St.\" and \"N. Oak St.\" with an orange stop sign in the bottom right corner and a building in the background",
+      "question": "what is the other object in the image?",
+      "answer": "street sign",
+      "query_after": "A close-up view features two white street signs displaying \"E. 2nd St.\" and \"N. Oak St.\", accompanied by an orange stop sign positioned in the bottom right corner, with a building visible in the background.",
+      "displayed_ids": [
+        33806,
+        38513,
+        22507,
+        34399,
+        47348,
+        2620,
+        25547,
+        48444,
+        3833,
+        4243
+      ],
+      "selected_ids": [
+        48274,
+        25416,
+        42839,
+        22394,
+        45464,
+        18014,
+        48696,
+        19923,
+        27150,
+        35173
+      ],
+      "rejected_count": 30,
+      "usual_paths": [
+        {
+          "question": "what is the color of the street lights in the image?",
+          "answers": [
+            "red",
+            "yellow",
+            "white"
+          ],
+          "score": 0.021489620208740234
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "buildings",
+            "street signs",
+            "a crane"
+          ],
+          "score": 0.030067920684814453
+        },
+        {
+          "question": "what is the color of the street lights in the image?",
+          "answers": [
+            "red",
+            "yellow",
+            "white"
+          ],
+          "score": 0.021489620208740234,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the street lights in the image?",
+          "answers": [
+            "red",
+            "yellow",
+            "white"
+          ],
+          "score": 0.021489620208740234,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the street lights in the image?",
+          "answers": [
+            "red",
+            "yellow",
+            "white"
+          ],
+          "score": 0.021489620208740234,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the pole color of the stop sign in the image?",
+          "answers": [
+            "red",
+            "orange",
+            "white"
+          ],
+          "score": 0.01161050796508789
+        },
+        {
+          "question": "what is the color of the pole holding the stop sign?",
+          "answers": [
+            "wooden",
+            "metal",
+            "black"
+          ],
+          "score": 0.019527435302734375
+        },
+        {
+          "question": "what is the color of the pole holding the stop sign?",
+          "answers": [
+            "wooden",
+            "metal",
+            "black"
+          ],
+          "score": 0.019527435302734375,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the pole holding the stop sign?",
+          "answers": [
+            "wooden",
+            "metal",
+            "black"
+          ],
+          "score": 0.019527435302734375,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the pole holding the stop sign?",
+          "answers": [
+            "wooden",
+            "metal",
+            "black"
+          ],
+          "score": 0.019527435302734375,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 6,
+      "query_before": "A close-up view features two white street signs displaying \"E. 2nd St.\" and \"N. Oak St.\", accompanied by an orange stop sign positioned in the bottom right corner, with a building visible in the background.",
+      "question": "what is the color of the pole holding the stop sign?",
+      "answer": "white",
+      "query_after": "a close-up of two white street signs reading \"E. 2nd St.\" and \"N. Oak St.\" with a white pole, an orange stop sign in the bottom right, and a building in the background",
+      "displayed_ids": [
+        33806,
+        25662,
+        44395,
+        13647,
+        25547,
+        23976,
+        17374,
+        47348,
+        38513,
+        48444
+      ],
+      "selected_ids": [
+        14478,
+        18014,
+        9590,
+        22853,
+        42839,
+        40155,
+        16528,
+        10013,
+        19391,
+        19923
+      ],
+      "rejected_count": 34,
+      "usual_paths": [
+        {
+          "question": "what is the color of the pole holding the stop sign in the image?",
+          "answers": [
+            "black",
+            "grey",
+            "brown"
+          ],
+          "score": 0.009963035583496094
+        },
+        {
+          "question": "what is the color of the pole holding the stop sign in the image?",
+          "answers": [
+            "black",
+            "grey",
+            "brown"
+          ],
+          "score": 0.009963035583496094,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the pole holding the stop sign in the image?",
+          "answers": [
+            "black",
+            "grey",
+            "brown"
+          ],
+          "score": 0.009963035583496094,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the pole holding the stop sign in the image?",
+          "answers": [
+            "black",
+            "grey",
+            "brown"
+          ],
+          "score": 0.009963035583496094,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the pole holding the stop sign in the image?",
+          "answers": [
+            "black",
+            "grey",
+            "brown"
+          ],
+          "score": 0.009963035583496094,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the pole holding the street signs?",
+          "answers": [
+            "black",
+            "grey",
+            "silver"
+          ],
+          "score": 0.009340286254882812
+        },
+        {
+          "question": "what is the color of the pole holding the stop sign?",
+          "answers": [
+            "green",
+            "black",
+            "white"
+          ],
+          "score": 0.027276039123535156
+        },
+        {
+          "question": "what is the color of the pole holding the street signs?",
+          "answers": [
+            "black",
+            "grey",
+            "silver"
+          ],
+          "score": 0.009340286254882812,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the pole holding the street signs?",
+          "answers": [
+            "black",
+            "grey",
+            "silver"
+          ],
+          "score": 0.009340286254882812,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the pole holding the stop sign?",
+          "answers": [
+            "green",
+            "black",
+            "white"
+          ],
+          "score": 0.027276039123535156,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 7,
+      "query_before": "a close-up of two white street signs reading \"E. 2nd St.\" and \"N. Oak St.\" with a white pole, an orange stop sign in the bottom right, and a building in the background",
+      "question": "what is the other object in the image?",
+      "answer": "street sign",
+      "query_after": "a close-up of two white street signs reading \"E. 2nd St.\" and \"N. Oak St.\" with a building in the background, alongside an orange stop sign on a white pole located in the bottom right corner",
+      "displayed_ids": [
+        33806,
+        17374,
+        2620,
+        25662,
+        18101,
+        48444,
+        23976,
+        34399,
+        13647,
+        47348
+      ],
+      "selected_ids": [
+        9648,
+        21358,
+        12348,
+        18024,
+        18014,
+        22296,
+        38831,
+        46087,
+        19923,
+        42839
+      ],
+      "rejected_count": 35,
+      "usual_paths": [
+        {
+          "question": "what is the color of the building located behind the street signs?",
+          "answers": [
+            "red brick",
+            "white",
+            "unknown"
+          ],
+          "score": 0.014232158660888672
+        },
+        {
+          "question": "what is the color of the building located behind the street signs?",
+          "answers": [
+            "red brick",
+            "white",
+            "unknown"
+          ],
+          "score": 0.014232158660888672,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the building located behind the street signs?",
+          "answers": [
+            "red brick",
+            "white",
+            "unknown"
+          ],
+          "score": 0.014232158660888672,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the building located behind the street signs?",
+          "answers": [
+            "red brick",
+            "white",
+            "unknown"
+          ],
+          "score": 0.014232158660888672,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the building located behind the street signs?",
+          "answers": [
+            "red brick",
+            "white",
+            "unknown"
+          ],
+          "score": 0.014232158660888672,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "a traffic light",
+            "a bike",
+            "a parked car"
+          ],
+          "score": 0.055816650390625
+        },
+        {
+          "question": "what is the color of the pole holding the street signs?",
+          "answers": [
+            "white",
+            "green",
+            "black"
+          ],
+          "score": 0.038507938385009766
+        },
+        {
+          "question": "what is the color of the pole holding the street signs?",
+          "answers": [
+            "white",
+            "green",
+            "black"
+          ],
+          "score": 0.038507938385009766,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the pole holding the street signs?",
+          "answers": [
+            "white",
+            "green",
+            "black"
+          ],
+          "score": 0.038507938385009766,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the pole holding the street signs?",
+          "answers": [
+            "white",
+            "green",
+            "black"
+          ],
+          "score": 0.038507938385009766,
+          "duplicate_of": 1
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a close-up of two white street signs reading \"E. 2nd St.\" and \"N. Oak St.\" with a building in the background, alongside an orange stop sign on a white pole located in the bottom right corner",
+      "question": "what is the color of the pole holding the street signs?",
+      "answer": "white",
+      "query_after": "a close-up of two white street signs reading \"E. 2nd St.\" and \"N. Oak St.\" on white poles, with an orange stop sign on a white pole in the bottom right and a building in the background",
+      "displayed_ids": [
+        33806,
+        17374,
+        25662,
+        13647,
+        34399,
+        16886,
+        38513,
+        39229,
+        23976,
+        48444
+      ],
+      "selected_ids": [
+        3770,
+        6572,
+        19929,
+        34488,
+        24006,
+        18778,
+        29223,
+        42839,
+        16606,
+        3833
+      ],
+      "rejected_count": 36,
+      "usual_paths": [
+        {
+          "question": "what is the color of the pole holding the street signs in the image?",
+          "answers": [
+            "white",
+            "black",
+            "gray"
+          ],
+          "score": 0.007353305816650391
+        },
+        {
+          "question": "what is the color of the pole holding the street signs in the image?",
+          "answers": [
+            "white",
+            "black",
+            "gray"
+          ],
+          "score": 0.007353305816650391,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the pole holding the street signs in the image?",
+          "answers": [
+            "white",
+            "black",
+            "gray"
+          ],
+          "score": 0.007353305816650391,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the pole holding the street signs in the image?",
+          "answers": [
+            "white",
+            "black",
+            "gray"
+          ],
+          "score": 0.007353305816650391,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the pole holding the street signs in the image?",
+          "answers": [
+            "white",
+            "black",
+            "gray"
+          ],
+          "score": 0.007353305816650391,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the pole holding the street signs?",
+          "answers": [
+            "white",
+            "black",
+            "gray"
+          ],
+          "score": 0.008711814880371094
+        },
+        {
+          "question": "what is the color of the pole holding the street signs?",
+          "answers": [
+            "white",
+            "black",
+            "gray"
+          ],
+          "score": 0.008711814880371094,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the pole holding the street signs?",
+          "answers": [
+            "white",
+            "black",
+            "gray"
+          ],
+          "score": 0.008711814880371094,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the pole holding the street signs?",
+          "answers": [
+            "white",
+            "black",
+            "gray"
+          ],
+          "score": 0.008711814880371094,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the pole holding the street signs?",
+          "answers": [
+            "white",
+            "black",
+            "gray"
+          ],
+          "score": 0.008711814880371094,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "a close-up of two white street signs reading \"E. 2nd St.\" and \"N. Oak St.\" on white poles, with an orange stop sign on a white pole in the bottom right and a building in the background",
+      "question": "what is the background object located behind the street sign in the bottom left corner of the image?",
+      "answer": "street lamp",
+      "query_after": "a white stop sign with orange details is positioned in the bottom right, mounted on a white pole, alongside two white street signs reading \"E. 2nd St.\" and \"N. Oak St.\" on a white pole, with a building and a street lamp visible in the background.",
+      "displayed_ids": [
+        17374,
+        2620,
+        33806,
+        47348,
+        34399,
+        25662,
+        13647,
+        48444,
+        18101,
+        4243
+      ],
+      "selected_ids": [
+        18101,
+        36082,
+        42839,
+        25547,
+        47348,
+        16554,
+        22315,
+        33934,
+        46269,
+        34488
+      ],
+      "rejected_count": 36,
+      "usual_paths": [
+        {
+          "question": "what is the background object located behind the street sign in the bottom left corner of the image?",
+          "answers": [
+            "a building",
+            "a street light",
+            "a tree"
+          ],
+          "score": 0.029650211334228516
+        },
+        {
+          "question": "what is the background object located behind the street sign in the bottom left corner of the image?",
+          "answers": [
+            "a building",
+            "a street light",
+            "a tree"
+          ],
+          "score": 0.029650211334228516,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the background object located behind the street sign in the bottom left corner of the image?",
+          "answers": [
+            "a building",
+            "a street light",
+            "a tree"
+          ],
+          "score": 0.029650211334228516,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the background object located behind the street sign in the bottom left corner of the image?",
+          "answers": [
+            "a building",
+            "a street light",
+            "a tree"
+          ],
+          "score": 0.029650211334228516,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "street sign",
+            "stop sign",
+            "building"
+          ],
+          "score": 0.012220382690429688
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "street sign",
+            "tree",
+            "building"
+          ],
+          "score": 0.029325008392333984
+        },
+        {
+          "question": "Question: What is the background object located behind the street signs?",
+          "answers": [
+            "a building",
+            "a brick building",
+            "apartment building"
+          ],
+          "score": 0.014063835144042969
+        },
+        {
+          "question": "Question: What is the color of the building in the background?",
+          "answers": [
+            "white",
+            "red",
+            "brown"
+          ],
+          "score": 0.009068012237548828
+        },
+        {
+          "question": "Based on the provided information sources, here is the generated question and the explanation of how the information was utilized.\n\n**Generated Question:**\n\"What is the color?",
+          "answers": [
+            "white",
+            "orange",
+            "black"
+          ],
+          "score": 0.007375240325927734
+        },
+        {
+          "question": "**Generated Question:**\n\"What is the color of the pole holding the street signs?",
+          "answers": [
+            "white",
+            "black",
+            "gray"
+          ],
+          "score": 0.009217262268066406
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

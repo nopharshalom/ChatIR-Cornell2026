@@ -1,0 +1,71 @@
+{
+  "qid": 1112,
+  "initial": "2 giraffes standing inside of a zoo enclosure",
+  "initial_rank": 34,
+  "evidence": [
+    "a pair of elephants standing near rocks in a zoo",
+    "a small giraffe standing near a building in a zoo",
+    "a fenced in area with some rocks and zebras",
+    "a giraffe standing in an open field near some trees",
+    "a giraffe that is laying down in a pen with a fence around it",
+    "several giraffes and zebras in the grassy field",
+    "a giraffe is standing on the dirt of an enclosure",
+    "two giraffes standing in a field of tall grass",
+    "a giraffe in the woods next to a tree",
+    "giraffe in a zoo with rocks on a dirt path"
+  ],
+  "displayed_ids": [
+    17211,
+    40716,
+    43027,
+    30723,
+    49407,
+    33038,
+    30478,
+    35079,
+    39813,
+    45767
+  ],
+  "rejected_captions": [
+    "two giraffes in an enclosure outside of a building",
+    "two giraffes in their enclosure",
+    "a giraffe standing",
+    "two giraffes in an enclosure",
+    "two giraffes in the zoo",
+    "giraffe standing in an enclosure with other animals",
+    "a giraffe is standing on the dirt of an enclosure",
+    "two giraffes standing in the zoo area",
+    "two giraffes with their heads raised",
+    "two giraffes standing in their pen"
+  ],
+  "candidates": [
+    "Question: Are the giraffes standing next to rocks or in an open field?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "control_candidates": [
+    "Question: What is the specific surface the giraffes are standing on?",
+    "Question: What animal is standing next to the giraffes in the enclosure?",
+    "Question: What is the specific surface the giraffes are standing on inside the zoo enclosure?",
+    "Question: What is the specific surface the giraffes are standing on inside the zoo enclosure?",
+    "what is the color of the giraffes standing inside the zoo enclosure?"
+  ],
+  "control": {
+    "question": "what is the color of the giraffes standing inside the zoo enclosure?",
+    "answer": "brown and white",
+    "rewrite": "two brown and white giraffes standing inside a zoo enclosure",
+    "rank": 22,
+    "hit": false,
+    "raw_rank": 22,
+    "unseen_rank": 12
+  },
+  "variant": {
+    "question": "what is the other object in the image?",
+    "answer": "giraffe",
+    "rewrite": "two giraffes standing inside of a zoo enclosure",
+    "raw_rank": 25,
+    "unseen_rank": 15
+  }
+}

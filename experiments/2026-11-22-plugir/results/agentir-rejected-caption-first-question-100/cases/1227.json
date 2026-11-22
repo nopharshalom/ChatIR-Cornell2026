@@ -1,0 +1,71 @@
+{
+  "qid": 1227,
+  "initial": "the river is blue with buildings near it",
+  "initial_rank": 38,
+  "evidence": [
+    "two people watching a bird fly over a bridge",
+    "a boat and two boats in a river",
+    "an airplane flying low over a city and bridge",
+    "a boat floating down a river with houses behind it",
+    "a group of boats parked at a dock",
+    "a person is skating on a board in the middle of a river",
+    "a train is traveling along a river in the mountains",
+    "a group of small fishing boats docked at a marina",
+    "a train traveling over a city street with a slew of tall buildings",
+    "several boats going down a canal with people in boats"
+  ],
+  "displayed_ids": [
+    16294,
+    37946,
+    18912,
+    37305,
+    23622,
+    20253,
+    8896,
+    49453,
+    10960,
+    43240
+  ],
+  "rejected_captions": [
+    "a river is flowing through",
+    "a man is standing in the water",
+    "the buildings have many tall windows",
+    "a clock tower in a city",
+    "an empty canal that contains boats",
+    "the sky is clear",
+    "a waterway near a city with some people fishing in the water",
+    "clouds in the sky",
+    "a river with a bridge",
+    "a small boat docked next to houses in the water"
+  ],
+  "candidates": [
+    "Question: What type of vessel is seen on the river?",
+    "Question: How many boats are visible in the image?",
+    "Question: What is the activity of the person seen on the board in the river?",
+    "Question: What is the color of the buildings near the river?",
+    "Question: What is the background setting behind the boats or the person on the board?"
+  ],
+  "control_candidates": [
+    "Question: what is the activity being performed by the person in the image?",
+    "what is the location where the person is skating on the board?",
+    "what is the color of the bridge visible in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "control": {
+    "question": "what is the other object in the image?",
+    "answer": "the other object is a boat.",
+    "rewrite": "a blue river with buildings nearby and a boat",
+    "rank": 53,
+    "hit": false,
+    "raw_rank": 53,
+    "unseen_rank": 43
+  },
+  "variant": {
+    "question": "Question: What is the color of the buildings near the river?",
+    "answer": "brown",
+    "rewrite": "a blue river with brown buildings near it",
+    "raw_rank": 81,
+    "unseen_rank": 71
+  }
+}

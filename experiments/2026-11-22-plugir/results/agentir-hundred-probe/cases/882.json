@@ -1,0 +1,100 @@
+{
+  "qid": 882,
+  "initial": "a man is sitting on a bench by the water",
+  "initial_rank": 18,
+  "evidence": [
+    "man in black wetsuit surfing in waves",
+    "an empty path behind a bench",
+    "a person is skating on a board in the middle of a river",
+    "person in the water holding up an umbrella",
+    "a wooden bench near a beach with the water to one side",
+    "a white boat docked in the water",
+    "people are flying kites over the water",
+    "people sitting down on the benches on a street",
+    "a man sitting on a decorated bench in a city",
+    "the water has a few boats in it"
+  ],
+  "candidates": [
+    "Question: What is the man sitting on the bench by the water wearing?",
+    "Question: What is the man sitting on the bench by the water holding?",
+    "what is the color of the bench where the man is sitting by the water?",
+    "what is the man sitting on the bench by the water holding?",
+    "what is the location of the bench where the man is sitting by the water?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: What is the man sitting on the bench by the water wearing?",
+      "answers": [
+        "black wetsuit",
+        "blue t-shirt",
+        "patterned shirt"
+      ],
+      "score": 0.10127782821655273
+    },
+    {
+      "question": "Question: What is the man sitting on the bench by the water holding?",
+      "answers": [
+        "nothing",
+        "an umbrella",
+        "a backpack"
+      ],
+      "score": 0.06878328323364258
+    },
+    {
+      "question": "what is the color of the bench where the man is sitting by the water?",
+      "answers": [
+        "wooden",
+        "decorated",
+        "city"
+      ],
+      "score": 0.060330867767333984
+    },
+    {
+      "question": "what is the man sitting on the bench by the water holding?",
+      "answers": [
+        "nothing",
+        "an umbrella",
+        "a bottle"
+      ],
+      "score": 0.08429765701293945
+    },
+    {
+      "question": "what is the location of the bench where the man is sitting by the water?",
+      "answers": [
+        "beach",
+        "city",
+        "river"
+      ],
+      "score": 0.06437110900878906
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.068,
+  "probe_selection_seconds": 2.54,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "what is the man sitting on the bench by the water holding?",
+      "answer": "a phone.",
+      "rewrite": "a man is sitting on a bench by the water holding a phone",
+      "rank": 1,
+      "hit": true
+    },
+    "random": {
+      "question": "what is the man sitting on the bench by the water holding?",
+      "answer": "a phone.",
+      "rewrite": "a man is sitting on a bench by the water holding a phone",
+      "rank": 1,
+      "hit": true
+    },
+    "probe": {
+      "question": "Question: What is the man sitting on the bench by the water wearing?",
+      "answer": "A red and white checkered shirt.",
+      "rewrite": "a man wearing a red and white checkered shirt is sitting on a bench by the water",
+      "rank": 2,
+      "hit": true
+    }
+  },
+  "seconds": 13.556
+}

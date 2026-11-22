@@ -1,0 +1,144 @@
+{
+  "qid": 842,
+  "sample": "fresh",
+  "target": "unlabeled2017/000000057931.jpg",
+  "queries": [
+    "a lot of white, black and brown sheep walking around dirt surrounded by grass and trees",
+    "a lot of white, black and brown sheep walking around dirt surrounded by grass and trees, with clothes nearby"
+  ],
+  "ranks": [
+    22,
+    1
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a lot of white, black and brown sheep walking around dirt surrounded by grass and trees",
+      "question": "what is the other object in the image?",
+      "answer": "clothes",
+      "query_after": "a lot of white, black and brown sheep walking around dirt surrounded by grass and trees, with clothes nearby",
+      "displayed_ids": [
+        37697,
+        43459,
+        41293,
+        1756,
+        40291,
+        6444,
+        49402,
+        7882,
+        7072,
+        24035
+      ],
+      "selected_ids": [
+        40763,
+        49908,
+        45126,
+        48004,
+        41565,
+        30529,
+        12252,
+        27814,
+        31429,
+        11793
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "Question: Is there a man present with the sheep in the image?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0029935836791992188
+        },
+        {
+          "question": "Question: Is there a dog present with the sheep in the image?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0033822059631347656
+        },
+        {
+          "question": "Question: What are the colors of the sheep in the image?",
+          "answers": [
+            "white",
+            "black and brown",
+            "all three colors"
+          ],
+          "score": 0.03419303894042969
+        },
+        {
+          "question": "Question: What is the background terrain surrounding the sheep in the image?",
+          "answers": [
+            "dirt",
+            "grass",
+            "trees"
+          ],
+          "score": 0.028701305389404297
+        },
+        {
+          "question": "Question: Are there any cows present in the image with the sheep?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.004306316375732422
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: What is the color of the paint on the sheep's body?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.009350776672363281
+        },
+        {
+          "question": "Question: Is the dog with the sheep?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0006256103515625
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sheep",
+            "a man",
+            "a dog"
+          ],
+          "score": 0.042078495025634766
+        },
+        {
+          "question": "Question: Is there a man present in the image?",
+          "answers": [
+            "no",
+            "yes",
+            "maybe"
+          ],
+          "score": 0.008044242858886719
+        },
+        {
+          "question": "Question: What is the color of the paint on the sheep's body?",
+          "answers": [
+            "white",
+            "black",
+            "brown"
+          ],
+          "score": 0.009350776672363281,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    }
+  ],
+  "hits_only": true
+}

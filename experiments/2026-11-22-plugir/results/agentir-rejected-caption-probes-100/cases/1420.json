@@ -1,0 +1,80 @@
+{
+  "qid": 1420,
+  "candidates": [
+    "Question: What is the weather condition in the city scene?",
+    "what color are the umbrellas held by the people in the city scene?",
+    "what color is the clock tower visible in the city scene?",
+    "what color is the clock tower visible in the city scene?",
+    "what type of vehicles are visible in the city scene?"
+  ],
+  "kl": {
+    "question": "what type of vehicles are visible in the city scene?",
+    "answer": "bus, car, tricycle",
+    "rewrite": "many people walking on the sidewalk and others sitting on the steps in a city scene with a bus, car, and tricycle visible",
+    "raw_rank": 2,
+    "unseen_rank": 2
+  },
+  "probe": {
+    "question": "what type of vehicles are visible in the city scene?",
+    "answer": "bus, car, tricycle",
+    "rewrite": "many people walking on the sidewalk and others sitting on the steps in a city scene with a bus, car, and tricycle visible",
+    "raw_rank": 2,
+    "unseen_rank": 2
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the weather condition in the city scene?",
+        "answers": [
+          "sunny",
+          "cloudy",
+          "rainy"
+        ],
+        "score": 0.05939531326293945
+      },
+      {
+        "question": "what color are the umbrellas held by the people in the city scene?",
+        "answers": [
+          "white",
+          "black",
+          "blue"
+        ],
+        "score": 0.028470516204833984
+      },
+      {
+        "question": "what color is the clock tower visible in the city scene?",
+        "answers": [
+          "black",
+          "blue",
+          "grey"
+        ],
+        "score": 0.023296356201171875
+      },
+      {
+        "question": "what color is the clock tower visible in the city scene?",
+        "answers": [
+          "black",
+          "blue",
+          "grey"
+        ],
+        "score": 0.023296356201171875,
+        "duplicate_of": 2
+      },
+      {
+        "question": "what type of vehicles are visible in the city scene?",
+        "answers": [
+          "bikes",
+          "cars",
+          "trams"
+        ],
+        "score": 0.09984350204467773
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.055,
+    "probe_selection_seconds": 1.973,
+    "probe_llm_calls": 4,
+    "probe_search_queries": 12
+  },
+  "reused_outcome": true
+}

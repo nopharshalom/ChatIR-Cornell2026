@@ -1,0 +1,79 @@
+{
+  "qid": 1940,
+  "sample": 2,
+  "first_candidates": [
+    "what is the type of topping on the pizza?",
+    "what is the color of the plate the pizza is sitting on?",
+    "Question: how many slices of pizza are there?",
+    "what is the type of pizza being served on the plate?",
+    "what is the color of the table or surface where the pizza is located?"
+  ],
+  "second_candidates": [
+    "what is the type of pizza shown in the image?",
+    "Question: what is the color of the plate the pizza is sitting on?",
+    "what is the topping on the pizza?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "paths": [
+    {
+      "question": "what is the type of pizza shown in the image?",
+      "answers": [
+        "cheese",
+        "pepperoni",
+        "veggie"
+      ],
+      "score": 0.15637493133544922
+    },
+    {
+      "question": "Question: what is the color of the plate the pizza is sitting on?",
+      "answers": [
+        "paper",
+        "white",
+        "wooden"
+      ],
+      "score": 0.09155797958374023
+    },
+    {
+      "question": "what is the topping on the pizza?",
+      "answers": [
+        "pepperoni",
+        "cheese",
+        "mushrooms"
+      ],
+      "score": 0.1492457389831543
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "plate",
+        "room",
+        "pizza"
+      ],
+      "score": 0.004168033599853516
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "plate",
+        "room",
+        "pizza"
+      ],
+      "score": 0.004168033599853516,
+      "duplicate_of": 3
+    }
+  ],
+  "control": {
+    "question": "what is the type of pizza shown in the image?",
+    "score": 0.15637493133544922
+  },
+  "mixed": {
+    "question": "what is the type of topping on the pizza?",
+    "score": 0.14788055419921875
+  },
+  "control_rank": 101,
+  "mixed_rank": 101,
+  "usual_rank": 101,
+  "new_answer": "spinach",
+  "new_rewrite": "a full spinach pizza on a plate in a room"
+}

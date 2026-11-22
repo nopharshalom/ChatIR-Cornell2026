@@ -1,0 +1,78 @@
+{
+  "qid": 1785,
+  "sample": 1,
+  "first_candidates": [
+    "what is the location where the young man is performing the jump?",
+    "what is the color of the shirt worn by the young man performing the jump on the ramp?",
+    "Question: Is the scene of the young man jumping on the ramp captured in a black and white photo?",
+    "Question: Is the young man performing the jump on the ramp at night?",
+    "Question: Is there a crowd of spectators watching the young man jump on the ramp?"
+  ],
+  "second_candidates": [
+    "what is the lighting condition of the scene where the young man is jumping his skateboard on a ramp?",
+    "what is the age of the man performing the trick on the skateboard?",
+    "Question: What is the color of the shirt worn by the man jumping his skateboard on the ramp?",
+    "Question: What is the age of the person performing the trick on the skateboard?",
+    "what is the location where the young man is jumping his skateboard on the ramp?"
+  ],
+  "paths": [
+    {
+      "question": "what is the lighting condition of the scene where the young man is jumping his skateboard on a ramp?",
+      "answers": [
+        "daytime",
+        "night",
+        "indoor"
+      ],
+      "score": 0.10557317733764648
+    },
+    {
+      "question": "what is the age of the man performing the trick on the skateboard?",
+      "answers": [
+        "child",
+        "teen",
+        "adult"
+      ],
+      "score": 0.007195949554443359
+    },
+    {
+      "question": "Question: What is the color of the shirt worn by the man jumping his skateboard on the ramp?",
+      "answers": [
+        "black",
+        "blue",
+        "red"
+      ],
+      "score": 0.08008575439453125
+    },
+    {
+      "question": "Question: What is the age of the person performing the trick on the skateboard?",
+      "answers": [
+        "child",
+        "adult",
+        "teen"
+      ],
+      "score": 0.008733749389648438
+    },
+    {
+      "question": "what is the location where the young man is jumping his skateboard on the ramp?",
+      "answers": [
+        "indoor skate park",
+        "park",
+        "ramp"
+      ],
+      "score": 0.07663106918334961
+    }
+  ],
+  "control": {
+    "question": "what is the lighting condition of the scene where the young man is jumping his skateboard on a ramp?",
+    "score": 0.10557317733764648
+  },
+  "mixed": {
+    "question": "Question: What is the color of the shirt worn by the young man?",
+    "score": 0.09829521179199219
+  },
+  "control_rank": 2,
+  "mixed_rank": 1,
+  "usual_rank": 1,
+  "new_answer": "sunset",
+  "new_rewrite": "a young man jumping his skateboard on a ramp at sunset"
+}

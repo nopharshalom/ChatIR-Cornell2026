@@ -1,0 +1,102 @@
+{
+  "qid": 1949,
+  "initial": "2 adult elephants playing with a younger elephant in a field",
+  "initial_rank": 43,
+  "evidence": [
+    "players catching a ball and sliding it into the bases",
+    "three sheep and their babies are laying in the grass",
+    "a pair of elephants standing near rocks in a zoo",
+    "two elephants standing beside each other in an enclosure",
+    "a bunch of elephants with their trunks in the water",
+    "tall elephant walking on a rocky path with dirt around it",
+    "two elephants on rocks near the water",
+    "two gray elephants standing near the trees",
+    "zebras near a group of giraffes in kenya"
+  ],
+  "candidates": [
+    "Question: What color are the elephants playing in the field?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?",
+    "what is the other object in the image?"
+  ],
+  "answer_paths": [
+    {
+      "question": "Question: What color are the elephants playing in the field?",
+      "answers": [
+        "gray",
+        "brown",
+        "white"
+      ],
+      "score": 0.017908573150634766
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "grass",
+        "trees",
+        "rocks"
+      ],
+      "score": 0.10587024688720703
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "grass",
+        "trees",
+        "rocks"
+      ],
+      "score": 0.10587024688720703,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "grass",
+        "trees",
+        "rocks"
+      ],
+      "score": 0.10587024688720703,
+      "duplicate_of": 1
+    },
+    {
+      "question": "what is the other object in the image?",
+      "answers": [
+        "grass",
+        "trees",
+        "rocks"
+      ],
+      "score": 0.10587024688720703,
+      "duplicate_of": 1
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.062,
+  "probe_selection_seconds": 0.936,
+  "probe_llm_calls": 2,
+  "probe_search_queries": 6,
+  "arms": {
+    "kl": {
+      "question": "what is the other object in the image?",
+      "answer": "elephant",
+      "rewrite": "three elephants, including two adults and a younger one, playing together in a field",
+      "rank": 39,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the other object in the image?",
+      "answer": "elephant",
+      "rewrite": "three elephants, including two adults and a younger one, playing together in a field",
+      "rank": 39,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the other object in the image?",
+      "answer": "elephant",
+      "rewrite": "three elephants, including two adults and a younger one, playing together in a field",
+      "rank": 39,
+      "hit": false
+    }
+  },
+  "seconds": 16.531
+}

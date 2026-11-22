@@ -1,0 +1,178 @@
+{
+  "qid": 1575,
+  "initial": "the trains are on the tracks, but not moving",
+  "initial_rank": 127,
+  "displayed": [
+    45648,
+    25328,
+    45755,
+    21764,
+    3725,
+    37468,
+    40381,
+    48248,
+    28037,
+    24738
+  ],
+  "evidence": [
+    "a white and red train on a track near a city",
+    "black and yellow train coming down the tracks",
+    "a blue and white train sitting at the platform of a train station",
+    "the car is painted red",
+    "a white and yellow train coming down a track",
+    "a red train is parked in the station",
+    "a blue and yellow train goes through countryside",
+    "a cranked yellow train is going down tracks",
+    "two yellow and blue trains stopped at a train station",
+    "the train engine is black and yellow"
+  ],
+  "rejected_captions": [
+    "three yellow and black trains",
+    "trains on the tracks",
+    "a long yellow train with several silver cars",
+    "a train on train tracks and under a wire",
+    "two train cars on the tracks with a twilight sky",
+    "a train is sitting on the tracks",
+    "two small trains on some train tracks",
+    "a building with windows",
+    "trains are going down tracks in a field",
+    "the train is black"
+  ],
+  "usual": {
+    "candidates": [
+      "what color is the train that is parked in the station?",
+      "Question: What is the color of the train that is sitting at the platform?",
+      "Question: What is the color of the train that is going down the tracks?",
+      "what is the color of the train that is going down the tracks?",
+      "Question: what is the color of the train that is parked in the station?"
+    ],
+    "question": "what color is the train that is parked in the station?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what color is the train that is parked in the station?",
+          "answers": [
+            "red",
+            "blue and white",
+            "yellow and blue"
+          ],
+          "score": 0.3054666519165039
+        },
+        {
+          "question": "Question: What is the color of the train that is sitting at the platform?",
+          "answers": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "score": 0.16507959365844727
+        },
+        {
+          "question": "Question: What is the color of the train that is going down the tracks?",
+          "answers": [
+            "black and yellow",
+            "yellow and blue",
+            "cranked yellow"
+          ],
+          "score": 0.11642599105834961
+        },
+        {
+          "question": "what is the color of the train that is going down the tracks?",
+          "answers": [
+            "black and yellow",
+            "blue and yellow",
+            "yellow"
+          ],
+          "score": 0.10129499435424805
+        },
+        {
+          "question": "Question: what is the color of the train that is parked in the station?",
+          "answers": [
+            "red",
+            "yellow and blue",
+            "black and yellow"
+          ],
+          "score": 0.28004980087280273
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.07,
+      "probe_selection_seconds": 2.524,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "red",
+    "rewrite": "a red train is parked on the tracks in a station, but it is not moving",
+    "raw_rank": 563,
+    "unseen_rank": 560
+  },
+  "rejected": {
+    "candidates": [
+      "Question: what is the color of the train?",
+      "Question: Is the train blue?",
+      "Question: What is the color of the train engine?",
+      "what is the other object in the image?",
+      "what is the other object in the image?"
+    ],
+    "question": "Question: what is the color of the train?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: what is the color of the train?",
+          "answers": [
+            "red",
+            "black and yellow",
+            "blue and white"
+          ],
+          "score": 0.3617897033691406
+        },
+        {
+          "question": "Question: Is the train blue?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0017137527465820312
+        },
+        {
+          "question": "Question: What is the color of the train engine?",
+          "answers": [
+            "black and yellow",
+            "white and red",
+            "blue and yellow"
+          ],
+          "score": 0.27994775772094727
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "tracks",
+            "platform",
+            "station"
+          ],
+          "score": 0.047659873962402344
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "tracks",
+            "platform",
+            "station"
+          ],
+          "score": 0.047659873962402344,
+          "duplicate_of": 3
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.153,
+      "probe_selection_seconds": 1.953,
+      "probe_llm_calls": 4,
+      "probe_search_queries": 12
+    },
+    "answer": "red",
+    "rewrite": "red trains are on the tracks but not moving",
+    "raw_rank": 500,
+    "unseen_rank": 490
+  }
+}

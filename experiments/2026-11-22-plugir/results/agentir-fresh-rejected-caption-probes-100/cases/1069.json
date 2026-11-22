@@ -1,0 +1,176 @@
+{
+  "qid": 1069,
+  "initial": "a young girl is holding a racket swinging at the tennis ball",
+  "initial_rank": 15,
+  "displayed": [
+    22308,
+    39004,
+    44527,
+    27451,
+    13721,
+    30870,
+    46688,
+    20035,
+    22897,
+    353
+  ],
+  "evidence": [
+    "man jumping while hitting a tennis ball",
+    "a woman in white shirt is playing tennis",
+    "a child holding a tennis racket while walking through an empty parking lot",
+    "a young girl is wearing blue shirt and blue shorts",
+    "young boy and two children are playing tennis",
+    "a woman wearing a pink tennis dress and holding a racket",
+    "the girl is wearing a white outfit",
+    "a female tennis player wearing a white tennis dress is holding a racket",
+    "a woman in a red dress with a tennis racket",
+    "a woman in a white shirt and white skirt holds a racket in her hands"
+  ],
+  "rejected_captions": [
+    "a girl with a tennis racket is running down the court",
+    "the tennis ball is a pink ball",
+    "a little girl is standing in a tennis court",
+    "a girl holding a tennis racket",
+    "a young girl playing tennis",
+    "a young girl is wearing blue shirt and blue shorts",
+    "a young girl on a tennis court holding a racket",
+    "girl standing on the court holding a racket",
+    "a child in a white outfit standing on a tennis court",
+    "a child playing tennis"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the color of the outfit worn by the young girl holding the racket?",
+      "what color are the shorts worn by the young girl?",
+      "what is the color of the shirt worn by the young girl?",
+      "what is the color of the hair of the young girl holding the racket?",
+      "what is the color of the racket held by the young girl?"
+    ],
+    "question": "what is the color of the shirt worn by the young girl?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the outfit worn by the young girl holding the racket?",
+          "answers": [
+            "blue",
+            "white",
+            "pink"
+          ],
+          "score": 0.07386159896850586
+        },
+        {
+          "question": "what color are the shorts worn by the young girl?",
+          "answers": [
+            "blue",
+            "red",
+            "black"
+          ],
+          "score": 0.08059883117675781
+        },
+        {
+          "question": "what is the color of the shirt worn by the young girl?",
+          "answers": [
+            "blue",
+            "white",
+            "pink"
+          ],
+          "score": 0.11926031112670898
+        },
+        {
+          "question": "what is the color of the hair of the young girl holding the racket?",
+          "answers": [
+            "blonde",
+            "brown",
+            "dark"
+          ],
+          "score": 0.06957387924194336
+        },
+        {
+          "question": "what is the color of the racket held by the young girl?",
+          "answers": [
+            "white",
+            "blue",
+            "black"
+          ],
+          "score": 0.06060028076171875
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.063,
+      "probe_selection_seconds": 2.322,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 15
+    },
+    "answer": "black and white",
+    "rewrite": "a young girl wearing a black and white shirt is holding a racket swinging at a tennis ball",
+    "raw_rank": 2,
+    "unseen_rank": 2
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the color of the young girl's shirt?",
+      "Question: What is the color of the young girl's skirt?",
+      "Question: What color is the tennis ball?",
+      "Question: What color is the young girl's outfit?",
+      "Question: What is the color of the tennis racket the young girl is holding?"
+    ],
+    "question": "Question: What color is the young girl's outfit?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the color of the young girl's shirt?",
+          "answers": [
+            "blue",
+            "white",
+            "pink"
+          ],
+          "score": 0.07566547393798828
+        },
+        {
+          "question": "Question: What is the color of the young girl's skirt?",
+          "answers": [
+            "blue",
+            "white"
+          ],
+          "score": 0.06960821151733398
+        },
+        {
+          "question": "Question: What color is the tennis ball?",
+          "answers": [
+            "yellow",
+            "orange",
+            "fluorescent green"
+          ],
+          "score": 0.0587306022644043
+        },
+        {
+          "question": "Question: What color is the young girl's outfit?",
+          "answers": [
+            "white",
+            "blue",
+            "pink"
+          ],
+          "score": 0.1402888298034668
+        },
+        {
+          "question": "Question: What is the color of the tennis racket the young girl is holding?",
+          "answers": [
+            "black",
+            "blue",
+            "green"
+          ],
+          "score": 0.05759429931640625
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.073,
+      "probe_selection_seconds": 2.299,
+      "probe_llm_calls": 5,
+      "probe_search_queries": 14
+    },
+    "answer": "black and white",
+    "rewrite": "a young girl in a black and white outfit is holding a racket swinging at a tennis ball",
+    "raw_rank": 1,
+    "unseen_rank": 1
+  }
+}

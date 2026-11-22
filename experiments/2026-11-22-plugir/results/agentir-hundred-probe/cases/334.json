@@ -1,0 +1,101 @@
+{
+  "qid": 334,
+  "initial": "3 giraffes standing inside of a zoo enclosure",
+  "initial_rank": 66,
+  "evidence": [
+    "a zebra standing behind rocks in the zoo",
+    "two giraffes stand in a grassy field",
+    "the giraffe is standing in a pen with some stones",
+    "three zebras standing in a green field",
+    "a giraffe that is laying down in a pen with a fence around it",
+    "four elephants walk around a rock formation",
+    "two giraffes eat leafs from a wooden fence",
+    "the giraffes are in a grassy field with some trees",
+    "two giraffes in the wild running across a grassy field",
+    "two giraffes are eating hay from a pole"
+  ],
+  "candidates": [
+    "what is the surface or ground type where the giraffes are standing inside the zoo enclosure?",
+    "what is the specific location or enclosure type where the giraffes are standing inside the zoo?",
+    "Question: What is the color of the sky in the image with 3 giraffes standing inside a zoo enclosure?",
+    "Question: What are the 3 giraffes standing inside the zoo enclosure doing?",
+    "Question: What is the color of the sky in the image with 3 giraffes standing inside a zoo enclosure?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the surface or ground type where the giraffes are standing inside the zoo enclosure?",
+      "answers": [
+        "rocks",
+        "grass",
+        "sand"
+      ],
+      "score": 0.1383805274963379
+    },
+    {
+      "question": "what is the specific location or enclosure type where the giraffes are standing inside the zoo?",
+      "answers": [
+        "rocks",
+        "pen",
+        "grassy field"
+      ],
+      "score": 0.1453413963317871
+    },
+    {
+      "question": "Question: What is the color of the sky in the image with 3 giraffes standing inside a zoo enclosure?",
+      "answers": [
+        "blue",
+        "grey",
+        "cloudy"
+      ],
+      "score": 0.0204620361328125
+    },
+    {
+      "question": "Question: What are the 3 giraffes standing inside the zoo enclosure doing?",
+      "answers": [
+        "standing",
+        "eating leafs",
+        "laying down"
+      ],
+      "score": 0.08717203140258789
+    },
+    {
+      "question": "Question: What is the color of the sky in the image with 3 giraffes standing inside a zoo enclosure?",
+      "answers": [
+        "blue",
+        "grey",
+        "cloudy"
+      ],
+      "score": 0.0204620361328125,
+      "duplicate_of": 2
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.069,
+  "probe_selection_seconds": 2.185,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "what is the specific location or enclosure type where the giraffes are standing inside the zoo?",
+      "answer": "dirt enclosure",
+      "rewrite": "3 giraffes standing inside a dirt enclosure at a zoo",
+      "rank": 24,
+      "hit": false
+    },
+    "random": {
+      "question": "Question: What is the color of the sky in the image with 3 giraffes standing inside a zoo enclosure?",
+      "answer": "blue",
+      "rewrite": "3 giraffes standing inside a zoo enclosure under a blue sky",
+      "rank": 125,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the specific location or enclosure type where the giraffes are standing inside the zoo?",
+      "answer": "dirt enclosure",
+      "rewrite": "3 giraffes standing inside a dirt enclosure at a zoo",
+      "rank": 24,
+      "hit": false
+    }
+  },
+  "seconds": 16.757
+}

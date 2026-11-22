@@ -1,0 +1,71 @@
+{
+  "qid": 750,
+  "initial": "a narrow bathroom has a long bathtub in it",
+  "initial_rank": 11,
+  "evidence": [
+    "large bathroom with many sinks and mirrors",
+    "a white toilet and a shower curtain",
+    "a bathroom with white tiles, a toilet, a tub and shower",
+    "a clean bathroom with toilet and shower",
+    "a bathroom with a rug and toilet",
+    "the bathroom has a toilet and sink, shower and bathtub",
+    "a bathroom with two sinks and two mirrors",
+    "white tiled bathroom with white bath tub and toilet",
+    "an open kitchen with dark wood cabinets",
+    "a rug a kitchen that is being redecorated"
+  ],
+  "displayed_ids": [
+    35673,
+    8875,
+    44681,
+    4851,
+    6085,
+    47247,
+    37545,
+    49761,
+    6021,
+    46973
+  ],
+  "rejected_captions": [
+    "a bathroom with a bathtub and sink",
+    "a white tub with a toilet next to it",
+    "the shower is not fully opened",
+    "a bathroom with toilet, bathtub, sink, and shower",
+    "a toilet",
+    "a bathroom that has a blue tub and sink",
+    "bathroom - bath stock videos & royalty-free footage",
+    "white tub and skylight in a bathroom",
+    "a bathroom with a small sink and a television",
+    "the tile is black and white"
+  ],
+  "candidates": [
+    "Question: What color is the bathtub in the bathroom?",
+    "Question: What is the color of the bathtub?",
+    "Question: What is the width of the bathroom?",
+    "Question: How many sinks are in the narrow bathroom with a long bathtub?",
+    "Question: What is the color of the bathtub in the narrow bathroom?"
+  ],
+  "control_candidates": [
+    "Question: What color are the tiles in the bathroom with the long bathtub?",
+    "Question: What is the color of the tiles in the bathroom with the long bathtub?",
+    "Question: What color are the walls or fixtures in the bathroom that has a long bathtub?",
+    "Question: Question: Which bathroom features a long bathtub and has white tiles?",
+    "Question: Which bathroom features a long bathtub and has white tiles?"
+  ],
+  "control": {
+    "question": "Question: What color are the walls or fixtures in the bathroom that has a long bathtub?",
+    "answer": "white",
+    "rewrite": "a narrow bathroom with white walls and fixtures featuring a long bathtub",
+    "rank": 4,
+    "hit": true,
+    "raw_rank": 4,
+    "unseen_rank": 1
+  },
+  "variant": {
+    "question": "Question: What is the width of the bathroom?",
+    "answer": "I'm unsure, the image does not provide enough information to determine the width of the bathroom.",
+    "rewrite": "a narrow bathroom with a long bathtub",
+    "raw_rank": 8,
+    "unseen_rank": 2
+  }
+}

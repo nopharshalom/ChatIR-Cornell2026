@@ -1,0 +1,78 @@
+{
+  "qid": 1393,
+  "sample": 2,
+  "first_candidates": [
+    "what color is the cat sitting on the laptop with its paws on the keyboard?",
+    "what is the color of the cat sitting on the desk with a computer, laptop and books?",
+    "what is the color of the cat sitting on the bed with a remote?",
+    "what is the color of the cat that is laying on a laptop keyboard?",
+    "what is the color of the cat sitting on the laptop on a table?"
+  ],
+  "second_candidates": [
+    "what color is the cat sitting on the laptop?",
+    "what is the color of the keyboard the cat is sitting on?",
+    "what is the color of the keyboard that the cat is sitting on?",
+    "Question: What is the color of the cat sitting on the laptop?",
+    "what is the color of the cat sitting on the keyboard?"
+  ],
+  "paths": [
+    {
+      "question": "what color is the cat sitting on the laptop?",
+      "answers": [
+        "black",
+        "white",
+        "orange"
+      ],
+      "score": 0.08606815338134766
+    },
+    {
+      "question": "what is the color of the keyboard the cat is sitting on?",
+      "answers": [
+        "black",
+        "white",
+        "gray"
+      ],
+      "score": 0.06514501571655273
+    },
+    {
+      "question": "what is the color of the keyboard that the cat is sitting on?",
+      "answers": [
+        "black",
+        "white",
+        "gray"
+      ],
+      "score": 0.07223892211914062
+    },
+    {
+      "question": "Question: What is the color of the cat sitting on the laptop?",
+      "answers": [
+        "black",
+        "white",
+        "orange"
+      ],
+      "score": 0.08927249908447266
+    },
+    {
+      "question": "what is the color of the cat sitting on the keyboard?",
+      "answers": [
+        "black",
+        "white",
+        "orange"
+      ],
+      "score": 0.09962701797485352
+    }
+  ],
+  "control": {
+    "question": "what is the color of the cat sitting on the laptop on a table?",
+    "score": 0.27181148529052734
+  },
+  "mixed": {
+    "question": "what is the color of the cat sitting on the laptop on a table?",
+    "score": 0.27181148529052734
+  },
+  "control_rank": 14,
+  "mixed_rank": 14,
+  "usual_rank": 14,
+  "new_answer": null,
+  "new_rewrite": null
+}

@@ -1,0 +1,46 @@
+{
+  "qid": 1515,
+  "arm": "fresh",
+  "after_round": 7,
+  "ranks": [
+    771,
+    154,
+    184,
+    132,
+    61,
+    46,
+    79,
+    46,
+    69,
+    54,
+    56
+  ],
+  "continuation": [
+    {
+      "round": 8,
+      "query_before": "two orange passenger trains traveling down the tracks in a city setting",
+      "question": "Is the background a city or a field?",
+      "answer": "city",
+      "query_after": "Two orange passenger trains moving along the tracks in an urban setting.",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Is the background a city or a field?",
+      "fallback": false
+    },
+    {
+      "round": 9,
+      "query_before": "Two orange passenger trains moving along the tracks in an urban setting.",
+      "question": "Are the two orange trains moving in the same direction?",
+      "answer": "yes",
+      "query_after": "two orange passenger trains moving in the same direction on tracks in a city setting"
+    },
+    {
+      "round": 10,
+      "query_before": "two orange passenger trains moving in the same direction on tracks in a city setting",
+      "question": "what is the background setting where the orange passenger trains are traveling?",
+      "answer": "urban city",
+      "query_after": "two orange passenger trains traveling in the same direction down the tracks in an urban city setting"
+    }
+  ],
+  "seconds": 45.7
+}

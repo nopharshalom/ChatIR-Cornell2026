@@ -1,0 +1,78 @@
+{
+  "qid": 267,
+  "sample": 1,
+  "first_candidates": [
+    "what is the color of the jacket worn by the person on skis in the flat snowy area?",
+    "what is the color of the jacket worn by the person on skis in the flat snowy area?",
+    "Question: what is the gender of the person on skis in the flat snowy area?",
+    "Question: Is the person on skis in the flat snowy area male or female?",
+    "what is the gender of the person on skis in the flat snowy area?"
+  ],
+  "second_candidates": [
+    "what is the gender of the person on skis in the flat snowy area with many trees?",
+    "Question: Is the person on skis wearing a red jacket?",
+    "Question: what is the gender of the person on skis?",
+    "what is the color of the jacket worn by the person on skis?",
+    "Question: What is the gender of the skier in the image?"
+  ],
+  "paths": [
+    {
+      "question": "what is the gender of the person on skis in the flat snowy area with many trees?",
+      "answers": [
+        "male",
+        "female",
+        "child"
+      ],
+      "score": 0.058763980865478516
+    },
+    {
+      "question": "Question: Is the person on skis wearing a red jacket?",
+      "answers": [
+        "yes",
+        "no",
+        "maybe"
+      ],
+      "score": 0.0004954338073730469
+    },
+    {
+      "question": "Question: what is the gender of the person on skis?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.026380062103271484
+    },
+    {
+      "question": "what is the color of the jacket worn by the person on skis?",
+      "answers": [
+        "red",
+        "pink",
+        "blue"
+      ],
+      "score": 0.16385221481323242
+    },
+    {
+      "question": "Question: What is the gender of the skier in the image?",
+      "answers": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "score": 0.026946544647216797
+    }
+  ],
+  "control": {
+    "question": "what is the color of the jacket worn by the person on skis?",
+    "score": 0.16385221481323242
+  },
+  "mixed": {
+    "question": "Question: What is the color of the jacket worn by the person skiing?",
+    "score": 0.14745330810546875
+  },
+  "control_rank": 18,
+  "mixed_rank": 18,
+  "usual_rank": 18,
+  "new_answer": "black",
+  "new_rewrite": "a person wearing a black jacket on skis in a flat snowy area with many trees"
+}

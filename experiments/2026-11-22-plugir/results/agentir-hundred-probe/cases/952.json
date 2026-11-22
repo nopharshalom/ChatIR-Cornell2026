@@ -1,0 +1,101 @@
+{
+  "qid": 952,
+  "initial": "a man skateboarding in a park during the day",
+  "initial_rank": 83,
+  "evidence": [
+    "a man is skateboarding on a sidewalk near a tree",
+    "a group of skate boarders jumping off a wall",
+    "a skateboarder is doing a trick over a bench",
+    "a skateboarder in the air above a tree",
+    "some skateboarders doing stunts in an underground skate park",
+    "the boy is in mid air",
+    "a skateboarder jumps off the steps in a park",
+    "boy skateboarding in an indoor bowl",
+    "a man skateboarding down a street with cones in the path",
+    "black and white photo of people skating in a competition"
+  ],
+  "candidates": [
+    "what is the color of the man's shirt?",
+    "where is the man skateboarding in the park?",
+    "what is the specific location within the park where the man is skateboarding?",
+    "what is the gender of the person skateboarding in the park?",
+    "what is the color of the man's shirt?"
+  ],
+  "answer_paths": [
+    {
+      "question": "what is the color of the man's shirt?",
+      "answers": [
+        "red",
+        "blue",
+        "black"
+      ],
+      "score": 0.1505603790283203
+    },
+    {
+      "question": "where is the man skateboarding in the park?",
+      "answers": [
+        "on the sidewalk",
+        "off a wall",
+        "above a tree"
+      ],
+      "score": 0.1113271713256836
+    },
+    {
+      "question": "what is the specific location within the park where the man is skateboarding?",
+      "answers": [
+        "sidewalk",
+        "wall",
+        "bench"
+      ],
+      "score": 0.06636428833007812
+    },
+    {
+      "question": "what is the gender of the person skateboarding in the park?",
+      "answers": [
+        "boy",
+        "man",
+        "girl"
+      ],
+      "score": 0.009643077850341797
+    },
+    {
+      "question": "what is the color of the man's shirt?",
+      "answers": [
+        "red",
+        "blue",
+        "black"
+      ],
+      "score": 0.1505603790283203,
+      "duplicate_of": 0
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.065,
+  "probe_selection_seconds": 2.012,
+  "probe_llm_calls": 4,
+  "probe_search_queries": 12,
+  "arms": {
+    "kl": {
+      "question": "where is the man skateboarding in the park?",
+      "answer": "on a rail",
+      "rewrite": "a man skateboarding on a rail in a park during the day",
+      "rank": 21,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the color of the man's shirt?",
+      "answer": "black",
+      "rewrite": "a man in a black shirt skateboarding in a park during the day",
+      "rank": 51,
+      "hit": false
+    },
+    "probe": {
+      "question": "what is the color of the man's shirt?",
+      "answer": "black",
+      "rewrite": "a man in a black shirt skateboarding in a park during the day",
+      "rank": 51,
+      "hit": false
+    }
+  },
+  "seconds": 19.101
+}

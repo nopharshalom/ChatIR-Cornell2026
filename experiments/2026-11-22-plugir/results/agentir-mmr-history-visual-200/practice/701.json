@@ -1,0 +1,92 @@
+{
+  "chosen": "where is the red lobster restaurant located?",
+  "default": "what is the other object in the image?",
+  "ids": [
+    3203,
+    27102,
+    6566,
+    13598
+  ],
+  "trials": {
+    "what is the other object in the image?": {
+      "answers": [
+        "book store",
+        "the other object is a street sign.",
+        "phone",
+        "a painted cow statue."
+      ],
+      "rewrites": {
+        "book store": "image of a red lobster restaurant from the street, with a bookstore, a one-way sign, and a street light visible, and a man in an orange shirt walking toward the entrance",
+        "the other object is a street sign.": "an image of a red lobster restaurant from the street, featuring a one-way sign and a street light, with a man in an orange shirt walking toward the entrance",
+        "phone": "image of a red lobster restaurant from the street, featuring a one-way sign, a street light, a man in an orange shirt walking toward the entrance, and a phone",
+        "a painted cow statue.": "image of a red lobster restaurant from the street, featuring a one-way sign and street light, with a man in an orange shirt walking toward the entrance and a painted cow statue nearby"
+      },
+      "ranks": [
+        16,
+        26,
+        45,
+        58
+      ],
+      "hits": 0
+    },
+    "where is the red lobster restaurant located?": {
+      "answers": [
+        "unsure",
+        "i'm sorry, i can't find the red lobster restaurant in this image.",
+        "unsure",
+        "i'm sorry, but the image does not show a red lobster restaurant."
+      ],
+      "rewrites": {
+        "unsure": "a red lobster restaurant with a one-way sign and street light visible, and a man in an orange shirt walking toward the entrance, location unknown",
+        "i'm sorry, i can't find the red lobster restaurant in this image.": "image of a street scene featuring a one-way sign and street light, with a man in an orange shirt walking toward a building entrance, but no Red Lobster restaurant is visible",
+        "i'm sorry, but the image does not show a red lobster restaurant.": "a street scene featuring a one-way sign and a street light, with a man in an orange shirt walking toward an entrance, though the location is not a Red Lobster restaurant."
+      },
+      "ranks": [
+        6,
+        75,
+        30,
+        100
+      ],
+      "hits": 1
+    },
+    "Question: What is the color of the one-way sign visible in front of the red lobster restaurant?": {
+      "answers": [
+        "black",
+        "Green.",
+        "black",
+        "I'm sorry, but I cannot answer this question as the image does not show a red lobster restaurant or a one-way sign."
+      ],
+      "rewrites": {
+        "black": "image of a red lobster restaurant from the street, featuring a black one-way sign and a street light, with a man in an orange shirt walking toward the entrance",
+        "Green.": "image of a red lobster restaurant from the street, featuring a green one-way sign and a street light, with a man in an orange shirt walking toward the entrance",
+        "I'm sorry, but I cannot answer this question as the image does not show a red lobster restaurant or a one-way sign.": "image of a red lobster restaurant from a street with a one-way sign and street light visible, and a man in an orange shirt is walking toward the entrance"
+      },
+      "ranks": [
+        4,
+        34,
+        47,
+        43
+      ],
+      "hits": 1
+    },
+    "what is the color of the one-way sign visible in front of the red lobster restaurant?": {
+      "answers": [
+        "black",
+        "green",
+        "green",
+        "green"
+      ],
+      "rewrites": {
+        "black": "image of a red lobster restaurant from the street, featuring a black one-way sign and a street light, with a man in an orange shirt walking toward the entrance",
+        "green": "image of a red lobster restaurant from the street, featuring a green one-way sign and a street light, with a man in an orange shirt walking toward the entrance"
+      },
+      "ranks": [
+        4,
+        34,
+        56,
+        104
+      ],
+      "hits": 1
+    }
+  }
+}

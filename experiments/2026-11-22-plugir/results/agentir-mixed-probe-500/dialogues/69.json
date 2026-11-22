@@ -1,0 +1,1330 @@
+{
+  "qid": 69,
+  "sample": "original",
+  "target": "unlabeled2017/000000562109.jpg",
+  "queries": [
+    "a giraffe is standing in an open field",
+    "a giraffe is standing in a grassy open field",
+    "a giraffe stands in a grassy open field next to a deer",
+    "a brown-headed giraffe stands in a grassy open field next to a deer",
+    "a brown giraffe stands in a grassy open field next to a deer, with a pine tree in the background",
+    "a brown giraffe and a brown deer stand together in a grassy field with a pine tree nearby",
+    "a brown giraffe and a brown deer stand together in a grassy, open field with pine trees and other trees in the background",
+    "a brown giraffe and a brown deer stand together in a grassy field with pine trees and other trees in the background, near a wire fence",
+    "a brown giraffe and a brown deer stand together in a grassy field with pine and other trees, a wire fence in the background, and a brown head on the giraffe",
+    "a brown giraffe and a brown deer stand together in a grassy field with pine and other trees, a wire fence in the background, and the giraffe is standing upright",
+    "a brown giraffe and a brown deer stand together in a grassy field with pine and other trees in the background, near a wire fence"
+  ],
+  "ranks": [
+    89,
+    130,
+    280,
+    323,
+    253,
+    419,
+    310,
+    80,
+    183,
+    92,
+    89
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "query_before": "a giraffe is standing in an open field",
+      "question": "what is the type of vegetation or shade present in the area where the giraffe is standing?",
+      "answer": "grassy",
+      "query_after": "a giraffe is standing in a grassy open field",
+      "displayed_ids": [
+        18622,
+        39223,
+        9717,
+        33475,
+        28132,
+        297,
+        1809,
+        7384,
+        4894,
+        42715
+      ],
+      "selected_ids": [
+        19606,
+        37922,
+        31016,
+        26575,
+        42751,
+        24282,
+        17090,
+        4033,
+        48324,
+        45092
+      ],
+      "rejected_count": 10,
+      "usual_paths": [
+        {
+          "question": "what is the specific type of ground or terrain where the giraffe is standing in the open field?",
+          "answers": [
+            "dirt",
+            "grass",
+            "sand"
+          ],
+          "score": 0.06871271133422852
+        },
+        {
+          "question": "what is the type of vegetation or shade present in the area where the giraffe is standing?",
+          "answers": [
+            "wooden bridge",
+            "trees",
+            "large tree"
+          ],
+          "score": 0.09880447387695312
+        },
+        {
+          "question": "what is the size of the giraffe in the image?",
+          "answers": [
+            "small",
+            "medium",
+            "large"
+          ],
+          "score": 0.002892017364501953
+        },
+        {
+          "question": "what is the specific type of tree or structure located near the giraffe in the open field?",
+          "answers": [
+            "trees",
+            "a wooden bridge",
+            "a large tree"
+          ],
+          "score": 0.07000160217285156
+        },
+        {
+          "question": "what is the color of the giraffe standing in the open field?",
+          "answers": [
+            "orange",
+            "brown",
+            "tan"
+          ],
+          "score": 0.010479450225830078
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is the giraffe standing in front of a wooden bridge, or is it in a shady area with green leaves?",
+          "answers": [
+            "a giraffe standing in front of a wooden bridge",
+            "a giraffe standing in a shady area with green leaves",
+            "a giraffe standing up in front of a large tree"
+          ],
+          "score": 0.02187633514404297
+        },
+        {
+          "question": "Question: Is the giraffe standing in front of a wooden bridge, or is it in front of a large tree?",
+          "answers": [
+            "Yes, a wooden bridge",
+            "Yes, a large tree",
+            "No, an open field"
+          ],
+          "score": 0.02179574966430664
+        },
+        {
+          "question": "Question: Is the ground where the giraffe is standing covered in grass, or is it a dry desert?",
+          "answers": [
+            "grass",
+            "dry desert"
+          ],
+          "score": 0.01137685775756836
+        },
+        {
+          "question": "Question: Is the giraffe standing in front of a wooden bridge, or is it wearing a collar?",
+          "answers": [
+            "yes, it is in front of a wooden bridge",
+            "no, it is wearing a collar",
+            "no, neither of those"
+          ],
+          "score": 0.011797904968261719
+        },
+        {
+          "question": "Question: Is the giraffe wearing a collar?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0013036727905273438
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 1,
+      "query_before": "a giraffe is standing in a grassy open field",
+      "question": "what is the animal standing next to the giraffe in the image?",
+      "answer": "deer",
+      "query_after": "a giraffe stands in a grassy open field next to a deer",
+      "displayed_ids": [
+        18622,
+        39223,
+        1809,
+        33475,
+        28132,
+        7384,
+        42266,
+        6723,
+        14525,
+        42715
+      ],
+      "selected_ids": [
+        18601,
+        26575,
+        7283,
+        9158,
+        43487,
+        24282,
+        48324,
+        46213,
+        42751,
+        713
+      ],
+      "rejected_count": 13,
+      "usual_paths": [
+        {
+          "question": "what is the animal standing next to the giraffe in the image?",
+          "answers": [
+            "a tree",
+            "a zebra",
+            "an elephant"
+          ],
+          "score": 0.10372734069824219
+        },
+        {
+          "question": "Question: what is the color of the giraffe in the image?",
+          "answers": [
+            "yellow and brown",
+            "tortoiseshell",
+            "dark and light"
+          ],
+          "score": 0.027202606201171875
+        },
+        {
+          "question": "what is the animal standing next to the giraffe in the image?",
+          "answers": [
+            "a tree",
+            "a zebra",
+            "an elephant"
+          ],
+          "score": 0.10372734069824219,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the giraffe in the image?",
+          "answers": [
+            "brown and white",
+            "orange and white",
+            "yellow and white"
+          ],
+          "score": 0.011344432830810547
+        },
+        {
+          "question": "what is the color of the giraffe in the image?",
+          "answers": [
+            "brown and white",
+            "orange and white",
+            "yellow and white"
+          ],
+          "score": 0.011344432830810547,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "Question: Is the giraffe standing next to a tree?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0007495880126953125
+        },
+        {
+          "question": "Based on the provided information sources, here is the next question and the explanation of how it was derived.\n\n**Generated Question:**\n\"Is the giraffe?",
+          "answers": [
+            "yes",
+            "no",
+            "unknown"
+          ],
+          "score": 0.0015053749084472656
+        },
+        {
+          "question": "**Generated Question:**\n\"Is the giraffe standing next to a tree?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0048980712890625
+        },
+        {
+          "question": "**Generated Question:**\n\"Is the giraffe standing next to a tree?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0048980712890625,
+          "duplicate_of": 2
+        },
+        {
+          "question": "**Generated Question:**\n\"Is the giraffe standing next to a tree?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+          ],
+          "score": 0.0048980712890625,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 2,
+      "query_before": "a giraffe stands in a grassy open field next to a deer",
+      "question": "what is the color of the giraffe's head?",
+      "answer": "brown",
+      "query_after": "a brown-headed giraffe stands in a grassy open field next to a deer",
+      "displayed_ids": [
+        33,
+        29754,
+        7283,
+        23845,
+        31105,
+        297,
+        6723,
+        10190,
+        21015,
+        13430
+      ],
+      "selected_ids": [
+        27685,
+        16016,
+        27970,
+        48608,
+        22645,
+        7283,
+        17515,
+        10376,
+        43354,
+        20751
+      ],
+      "rejected_count": 21,
+      "usual_paths": [
+        {
+          "question": "what is the color of the giraffe standing in the open field?",
+          "answers": [
+            "brown",
+            "orange",
+            "yellow"
+          ],
+          "score": 0.009650707244873047
+        },
+        {
+          "question": "what is the color of the giraffe standing in the open field?",
+          "answers": [
+            "brown",
+            "orange",
+            "yellow"
+          ],
+          "score": 0.009650707244873047,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the giraffe that is standing under some trees?",
+          "answers": [
+            "yellow",
+            "brown",
+            "orange"
+          ],
+          "score": 0.010929107666015625
+        },
+        {
+          "question": "what is the color of the giraffe that is eating in a wooded area by a chain link fence?",
+          "answers": [
+            "brown",
+            "tan",
+            "orange"
+          ],
+          "score": 0.00855398178100586
+        },
+        {
+          "question": "what is the color of the giraffe standing in the open field?",
+          "answers": [
+            "brown",
+            "orange",
+            "yellow"
+          ],
+          "score": 0.009650707244873047,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the color of the giraffe's head?",
+          "answers": [
+            "brown",
+            "orange",
+            "yellow"
+          ],
+          "score": 0.012457847595214844
+        },
+        {
+          "question": "Question: What is the color of the giraffe's head?",
+          "answers": [
+            "brown",
+            "tan",
+            "orange"
+          ],
+          "score": 0.007589817047119141
+        },
+        {
+          "question": "what is the color of the giraffe's head?",
+          "answers": [
+            "brown",
+            "orange",
+            "yellow"
+          ],
+          "score": 0.012457847595214844,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the giraffe's head?",
+          "answers": [
+            "brown",
+            "orange",
+            "yellow"
+          ],
+          "score": 0.012457847595214844,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the giraffe's head?",
+          "answers": [
+            "brown",
+            "orange",
+            "yellow"
+          ],
+          "score": 0.012457847595214844,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": true
+    },
+    {
+      "round": 3,
+      "query_before": "a brown-headed giraffe stands in a grassy open field next to a deer",
+      "question": "what is the type of tree present in the image with the giraffe?",
+      "answer": "pine",
+      "query_after": "a brown giraffe stands in a grassy open field next to a deer, with a pine tree in the background",
+      "displayed_ids": [
+        33,
+        23845,
+        29754,
+        31105,
+        297,
+        6723,
+        7283,
+        10190,
+        13401,
+        21015
+      ],
+      "selected_ids": [
+        42021,
+        17515,
+        27606,
+        10376,
+        16609,
+        43487,
+        48608,
+        5669,
+        43354,
+        18107
+      ],
+      "rejected_count": 22,
+      "usual_paths": [
+        {
+          "question": "What is the color of the deer standing next to the giraffe?",
+          "answers": [
+            "brown and white",
+            "black and white",
+            "brown"
+          ],
+          "score": 0.013469219207763672
+        },
+        {
+          "question": "what is the type of tree present in the image with the giraffe?",
+          "answers": [
+            "no tree",
+            "a single tree",
+            "two trees"
+          ],
+          "score": 0.016591548919677734
+        },
+        {
+          "question": "what color is the deer standing next to the giraffe?",
+          "answers": [
+            "brown",
+            "black and white",
+            "white"
+          ],
+          "score": 0.01116323471069336
+        },
+        {
+          "question": "what is the number of giraffes in the image?",
+          "answers": [
+            "one",
+            "two",
+            "zero"
+          ],
+          "score": 0.0035028457641601562
+        },
+        {
+          "question": "what is the number of giraffes in the image?",
+          "answers": [
+            "one",
+            "two",
+            "zero"
+          ],
+          "score": 0.0035028457641601562,
+          "duplicate_of": 3
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the color of the deer standing next to the giraffe?",
+          "answers": [
+            "brown and white",
+            "black and white",
+            "brown"
+          ],
+          "score": 0.013469219207763672
+        },
+        {
+          "question": "What is the color of the deer standing next to the giraffe?",
+          "answers": [
+            "brown and white",
+            "black and white",
+            "brown"
+          ],
+          "score": 0.013469219207763672,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the number of deer visible in the image?",
+          "answers": [
+            "0",
+            "1",
+            "2"
+          ],
+          "score": 0.0008587837219238281
+        },
+        {
+          "question": "what is the color of the giraffe's head?",
+          "answers": [
+            "brown",
+            "black",
+            "white"
+          ],
+          "score": 0.011563777923583984
+        },
+        {
+          "question": "what is the color of the deer standing next to the giraffe?",
+          "answers": [
+            "brown and white",
+            "black and white",
+            "white and black"
+          ],
+          "score": 0.007426738739013672
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 4,
+      "query_before": "a brown giraffe stands in a grassy open field next to a deer, with a pine tree in the background",
+      "question": "What is the color of the deer standing next to the giraffe?",
+      "answer": "brown",
+      "query_after": "a brown giraffe and a brown deer stand together in a grassy field with a pine tree nearby",
+      "displayed_ids": [
+        23845,
+        29754,
+        21015,
+        44924,
+        33,
+        31105,
+        6723,
+        7283,
+        18179,
+        1809
+      ],
+      "selected_ids": [
+        46213,
+        22870,
+        45162,
+        45416,
+        14045,
+        27685,
+        17515,
+        43059,
+        16609,
+        34446
+      ],
+      "rejected_count": 24,
+      "usual_paths": [
+        {
+          "question": "what is the specific location of the giraffe in the image?",
+          "answers": [
+            "zoo",
+            "wildlife reserve",
+            "national park"
+          ],
+          "score": 0.010799884796142578
+        },
+        {
+          "question": "what is the specific location of the giraffe in the image?",
+          "answers": [
+            "zoo",
+            "wildlife reserve",
+            "national park"
+          ],
+          "score": 0.010799884796142578,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the specific location of the giraffe in the image?",
+          "answers": [
+            "zoo",
+            "wildlife reserve",
+            "national park"
+          ],
+          "score": 0.010799884796142578,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the specific location of the giraffe in the image?",
+          "answers": [
+            "zoo",
+            "wildlife reserve",
+            "national park"
+          ],
+          "score": 0.010799884796142578,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the specific location of the giraffe in the image?",
+          "answers": [
+            "zoo",
+            "wildlife reserve",
+            "national park"
+          ],
+          "score": 0.010799884796142578,
+          "duplicate_of": 0
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the color of the deer standing next to the giraffe?",
+          "answers": [
+            "white",
+            "brown",
+            "black"
+          ],
+          "score": 0.011723518371582031
+        },
+        {
+          "question": "what is the color of the giraffe's body?",
+          "answers": [
+            "yellow",
+            "orange",
+            "light brown"
+          ],
+          "score": 0.00946664810180664
+        },
+        {
+          "question": "what is the color of the giraffe's body?",
+          "answers": [
+            "yellow",
+            "orange",
+            "light brown"
+          ],
+          "score": 0.00946664810180664,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the giraffe's body?",
+          "answers": [
+            "yellow",
+            "orange",
+            "light brown"
+          ],
+          "score": 0.00946664810180664,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the type of tree present in the image with the giraffe?",
+          "answers": [
+            "pine",
+            "no tree",
+            "none"
+          ],
+          "score": 0.001980304718017578
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 5,
+      "query_before": "a brown giraffe and a brown deer stand together in a grassy field with a pine tree nearby",
+      "question": "what is the other object in the image?",
+      "answer": "trees",
+      "query_after": "a brown giraffe and a brown deer stand together in a grassy, open field with pine trees and other trees in the background",
+      "displayed_ids": [
+        29754,
+        23845,
+        21015,
+        34744,
+        9483,
+        14097,
+        22870,
+        31105,
+        17690,
+        46213
+      ],
+      "selected_ids": [
+        29018,
+        18107,
+        19049,
+        5669,
+        7283,
+        9666,
+        45162,
+        48052,
+        6055,
+        38580
+      ],
+      "rejected_count": 30,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "tree",
+            "rock",
+            "fence"
+          ],
+          "score": 0.08632946014404297
+        },
+        {
+          "question": "what is the type of fence visible in the background behind the giraffe?",
+          "answers": [
+            "chain link fence",
+            "wooden fence",
+            "no fence"
+          ],
+          "score": 0.025925636291503906
+        },
+        {
+          "question": "what is the animal standing next to the giraffe?",
+          "answers": [
+            "deer",
+            "cow",
+            "ostrich"
+          ],
+          "score": 0.017914772033691406
+        },
+        {
+          "question": "Question: What is the animal standing next to the giraffe?",
+          "answers": [
+            "deer",
+            "cow",
+            "ostrich"
+          ],
+          "score": 0.01968240737915039
+        },
+        {
+          "question": "what is the type of fence visible in the background behind the giraffe?",
+          "answers": [
+            "chain link fence",
+            "wooden fence",
+            "no fence"
+          ],
+          "score": 0.025925636291503906,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the type of fence visible in the background of the image?",
+          "answers": [
+            "no fence",
+            "chain link",
+            "wooden"
+          ],
+          "score": 0.0204010009765625
+        },
+        {
+          "question": "what is the color of the fence visible in the background of the image?",
+          "answers": [
+            "silver",
+            "chain link",
+            "wooden"
+          ],
+          "score": 0.03136014938354492
+        },
+        {
+          "question": "what is the material of the fence visible in the background of the image?",
+          "answers": [
+            "wooden",
+            "chain link",
+            "metal"
+          ],
+          "score": 0.028037071228027344
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "tree",
+            "rock",
+            "fence"
+          ],
+          "score": 0.08632946014404297
+        },
+        {
+          "question": "What is the posture of the giraffe in the image?",
+          "answers": [
+            "standing",
+            "walking",
+            "eating"
+          ],
+          "score": 0.02705860137939453
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 6,
+      "query_before": "a brown giraffe and a brown deer stand together in a grassy, open field with pine trees and other trees in the background",
+      "question": "what is the type of fence visible in the background of the image?",
+      "answer": "wire",
+      "query_after": "a brown giraffe and a brown deer stand together in a grassy field with pine trees and other trees in the background, near a wire fence",
+      "displayed_ids": [
+        23845,
+        29754,
+        13401,
+        35790,
+        34744,
+        42063,
+        31105,
+        31734,
+        18179,
+        23107
+      ],
+      "selected_ids": [
+        45416,
+        26910,
+        38631,
+        45480,
+        7283,
+        28905,
+        14045,
+        45162,
+        46213,
+        22870
+      ],
+      "rejected_count": 34,
+      "usual_paths": [
+        {
+          "question": "what is the gender of the giraffe in the image?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.0027108192443847656
+        },
+        {
+          "question": "what is the gender of the giraffe standing next to the deer?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.002433300018310547
+        },
+        {
+          "question": "what is the gender of the giraffe in the image?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.0027108192443847656,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the number of giraffes visible in the image?",
+          "answers": [
+            "1",
+            "2",
+            "4"
+          ],
+          "score": 0.012827396392822266
+        },
+        {
+          "question": "what is the gender of the giraffe standing next to the deer?",
+          "answers": [
+            "male",
+            "female",
+            "unknown"
+          ],
+          "score": 0.002433300018310547,
+          "duplicate_of": 1
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the type of fence visible in the background of the image?",
+          "answers": [
+            "no fence",
+            "chain link fence",
+            "wooden fence"
+          ],
+          "score": 0.027442455291748047
+        },
+        {
+          "question": "what is the color of the tree present in the image with the giraffe?",
+          "answers": [
+            "pine",
+            "oak",
+            "eucalyptus"
+          ],
+          "score": 0.006070613861083984
+        },
+        {
+          "question": "what is the type of fence visible in the background of the image?",
+          "answers": [
+            "no fence",
+            "chain link fence",
+            "wooden fence"
+          ],
+          "score": 0.027442455291748047,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the type of fence visible in the background of the image?",
+          "answers": [
+            "no fence",
+            "chain link fence",
+            "wooden fence"
+          ],
+          "score": 0.027442455291748047,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the type of fence visible in the background of the image?",
+          "answers": [
+            "no fence",
+            "chain link fence",
+            "wooden fence"
+          ],
+          "score": 0.027442455291748047,
+          "duplicate_of": 0
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 7,
+      "query_before": "a brown giraffe and a brown deer stand together in a grassy field with pine trees and other trees in the background, near a wire fence",
+      "question": "what is the other object in the image?",
+      "answer": "trees",
+      "query_after": "a brown giraffe and a brown deer stand together in a grassy field with pine and other trees, a wire fence in the background, and a brown head on the giraffe",
+      "displayed_ids": [
+        40281,
+        38829,
+        23845,
+        7283,
+        32756,
+        42063,
+        9528,
+        33343,
+        42098,
+        39813
+      ],
+      "selected_ids": [
+        39423,
+        20706,
+        31105,
+        14147,
+        15473,
+        13430,
+        31478,
+        11642,
+        30478,
+        21067
+      ],
+      "rejected_count": 41,
+      "usual_paths": [
+        {
+          "question": "what is the specific action the giraffe is performing in the image?",
+          "answers": [
+            "grazing",
+            "standing",
+            "kissing"
+          ],
+          "score": 0.03499794006347656
+        },
+        {
+          "question": "what is the activity the giraffe is engaged in?",
+          "answers": [
+            "grazing",
+            "standing",
+            "eating"
+          ],
+          "score": 0.012618541717529297
+        },
+        {
+          "question": "what is the posture of the giraffe in the image?",
+          "answers": [
+            "standing",
+            "grazing",
+            "kissing"
+          ],
+          "score": 0.03825998306274414
+        },
+        {
+          "question": "what is the color of the giraffe's neck?",
+          "answers": [
+            "brown",
+            "white",
+            "orange"
+          ],
+          "score": 0.006419658660888672
+        },
+        {
+          "question": "what is the type of enclosure or ground surface where the giraffe and deer are standing?",
+          "answers": [
+            "dirt",
+            "plains",
+            "field"
+          ],
+          "score": 0.00818014144897461
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "what is the specific action the giraffe is performing in the image?",
+          "answers": [
+            "grazing",
+            "standing",
+            "kissing"
+          ],
+          "score": 0.03499794006347656
+        },
+        {
+          "question": "what is the posture of the giraffe's head in the image?",
+          "answers": [
+            "up",
+            "down",
+            "neutral"
+          ],
+          "score": 0.005730152130126953
+        },
+        {
+          "question": "what is the direction the giraffe's head is pointing?",
+          "answers": [
+            "down",
+            "up",
+            "left"
+          ],
+          "score": 0.0034852027893066406
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "trees",
+            "fence",
+            "rocks"
+          ],
+          "score": 0.04432535171508789
+        },
+        {
+          "question": "what is the fence material visible in the background of the image?",
+          "answers": [
+            "wire",
+            "barbed wire",
+            "none"
+          ],
+          "score": 0.009989261627197266
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 8,
+      "query_before": "a brown giraffe and a brown deer stand together in a grassy field with pine and other trees, a wire fence in the background, and a brown head on the giraffe",
+      "question": "What is the posture of the giraffe in the image?",
+      "answer": "standing",
+      "query_after": "a brown giraffe and a brown deer stand together in a grassy field with pine and other trees, a wire fence in the background, and the giraffe is standing upright",
+      "displayed_ids": [
+        23845,
+        40281,
+        39813,
+        9528,
+        29754,
+        34744,
+        33,
+        14188,
+        32756,
+        38829
+      ],
+      "selected_ids": [
+        33343,
+        14244,
+        12410,
+        7283,
+        22870,
+        32756,
+        11642,
+        30946,
+        3964,
+        46587
+      ],
+      "rejected_count": 42,
+      "usual_paths": [
+        {
+          "question": "what is the posture of the giraffe in the image?",
+          "answers": [
+            "standing",
+            "walking",
+            "kneeling"
+          ],
+          "score": 0.017354965209960938
+        },
+        {
+          "question": "What is the sky like in the image?",
+          "answers": [
+            "clear",
+            "cloudy",
+            "sunny"
+          ],
+          "score": 0.016706466674804688
+        },
+        {
+          "question": "what is the color of the giraffe's coat?",
+          "answers": [
+            "brown",
+            "tan",
+            "orange"
+          ],
+          "score": 0.002785205841064453
+        },
+        {
+          "question": "what is the posture of the giraffe in the image?",
+          "answers": [
+            "standing",
+            "walking",
+            "kneeling"
+          ],
+          "score": 0.017354965209960938,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the color of the giraffe's coat?",
+          "answers": [
+            "brown",
+            "tan",
+            "orange"
+          ],
+          "score": 0.002785205841064453,
+          "duplicate_of": 2
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the height of the giraffe compared to the deer in the image?",
+          "answers": [
+            "taller",
+            "same",
+            "shorter"
+          ],
+          "score": 0.0012407302856445312
+        },
+        {
+          "question": "What is the posture of the giraffe in the image?",
+          "answers": [
+            "standing",
+            "eating",
+            "kissing"
+          ],
+          "score": 0.02160501480102539
+        },
+        {
+          "question": "Question: What is the specific type of fence visible in the background?",
+          "answers": [
+            "wire",
+            "chain link",
+            "wood"
+          ],
+          "score": 0.01374197006225586
+        },
+        {
+          "question": "Question: What is the color of the giraffe's coat?",
+          "answers": [
+            "brown and white",
+            "dark brown",
+            "orange and white"
+          ],
+          "score": 0.006190776824951172
+        },
+        {
+          "question": "what is the specific type of fence visible in the background?",
+          "answers": [
+            "wire",
+            "wood",
+            "chain link"
+          ],
+          "score": 0.014569282531738281
+        }
+      ],
+      "reused_usual_batch": false
+    },
+    {
+      "round": 9,
+      "query_before": "a brown giraffe and a brown deer stand together in a grassy field with pine and other trees, a wire fence in the background, and the giraffe is standing upright",
+      "question": "what is the other object in the image?",
+      "answer": "trees",
+      "query_after": "a brown giraffe and a brown deer stand together in a grassy field with pine and other trees in the background, near a wire fence",
+      "displayed_ids": [
+        23845,
+        7283,
+        42063,
+        29754,
+        32756,
+        40281,
+        13401,
+        38829,
+        33,
+        32319
+      ],
+      "selected_ids": [
+        45162,
+        8083,
+        23845,
+        33343,
+        40169,
+        29947,
+        2244,
+        48779,
+        29754
+      ],
+      "rejected_count": 43,
+      "usual_paths": [
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "trees",
+            "rock",
+            "fence"
+          ],
+          "score": 0.04387092590332031
+        },
+        {
+          "question": "what is the color of the giraffe's body?",
+          "answers": [
+            "yellow",
+            "brown",
+            "orange"
+          ],
+          "score": 0.004122734069824219
+        },
+        {
+          "question": "what is the color of the giraffe's body?",
+          "answers": [
+            "yellow",
+            "brown",
+            "orange"
+          ],
+          "score": 0.004122734069824219,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the color of the giraffe's body?",
+          "answers": [
+            "yellow",
+            "brown",
+            "orange"
+          ],
+          "score": 0.004122734069824219,
+          "duplicate_of": 1
+        },
+        {
+          "question": "Based on the provided information sources, here is the generated question and the explanation of how the information was utilized:\n\n**Generated Question:**\n\"Is the gir?",
+          "answers": [
+            "yes",
+            "no",
+            "maybe"
+          ],
+          "score": 0.0001964569091796875
+        }
+      ],
+      "rejected_paths": [
+        {
+          "question": "What is the specific type of rock visible in the background of the image?",
+          "answers": [
+            "granite",
+            "sandstone",
+            "boulder"
+          ],
+          "score": 0.004892826080322266
+        },
+        {
+          "question": "what is the color of the rock visible in the background of the image?",
+          "answers": [
+            "gray",
+            "brown",
+            "black"
+          ],
+          "score": 0.006888389587402344
+        },
+        {
+          "question": "what is the size of the rock visible in the background of the image?",
+          "answers": [
+            "small",
+            "medium",
+            "large"
+          ],
+          "score": 0.003334522247314453
+        },
+        {
+          "question": "what is the specific type of rock visible in the background of the image?",
+          "answers": [
+            "boulder",
+            "stone",
+            "rock"
+          ],
+          "score": 0.0025758743286132812
+        },
+        {
+          "question": "what is the size of the rock visible in the background of the image?",
+          "answers": [
+            "small",
+            "medium",
+            "large"
+          ],
+          "score": 0.003334522247314453,
+          "duplicate_of": 2
+        }
+      ],
+      "reused_usual_batch": false
+    }
+  ],
+  "hits_only": true
+}

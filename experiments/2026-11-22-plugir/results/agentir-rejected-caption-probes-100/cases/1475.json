@@ -1,0 +1,81 @@
+{
+  "qid": 1475,
+  "candidates": [
+    "Question: What is the color of the stopped train?",
+    "Question: What is the color of the train engine?",
+    "Question: What is the color of the second train stopped next to it?",
+    "Question: What is the color of the train engine?",
+    "Question: What is the color of the stopped train?"
+  ],
+  "kl": {
+    "question": "Question: What is the color of the second train stopped next to it?",
+    "answer": "silver",
+    "rewrite": "a train is stopped at a large terminal next to a silver train",
+    "raw_rank": 192,
+    "unseen_rank": 182
+  },
+  "probe": {
+    "answer": "blue and red",
+    "rewrite": "a blue and red train is stopped at a large terminal next to another train",
+    "raw_rank": 38,
+    "unseen_rank": 35,
+    "question": "Question: What is the color of the stopped train?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What is the color of the stopped train?",
+        "answers": [
+          "red",
+          "yellow",
+          "blue"
+        ],
+        "score": 0.22055578231811523
+      },
+      {
+        "question": "Question: What is the color of the train engine?",
+        "answers": [
+          "yellow and black",
+          "red",
+          "blue and yellow"
+        ],
+        "score": 0.19394540786743164
+      },
+      {
+        "question": "Question: What is the color of the second train stopped next to it?",
+        "answers": [
+          "yellow",
+          "blue",
+          "red"
+        ],
+        "score": 0.18774127960205078
+      },
+      {
+        "question": "Question: What is the color of the train engine?",
+        "answers": [
+          "yellow and black",
+          "red",
+          "blue and yellow"
+        ],
+        "score": 0.19394540786743164,
+        "duplicate_of": 1
+      },
+      {
+        "question": "Question: What is the color of the stopped train?",
+        "answers": [
+          "red",
+          "yellow",
+          "blue"
+        ],
+        "score": 0.22055578231811523,
+        "duplicate_of": 0
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.053,
+    "probe_selection_seconds": 1.375,
+    "probe_llm_calls": 3,
+    "probe_search_queries": 9
+  },
+  "reused_outcome": false
+}

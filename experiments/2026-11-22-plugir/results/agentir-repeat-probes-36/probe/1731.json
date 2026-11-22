@@ -1,0 +1,70 @@
+{
+  "qid": 1731,
+  "arm": "probe",
+  "after_round": 4,
+  "ranks": [
+    68,
+    77,
+    22,
+    29,
+    22,
+    28,
+    15,
+    3
+  ],
+  "continuation": [
+    {
+      "round": 5,
+      "query_before": "a brown and white dog is laying on a cotton bed in front of a window",
+      "question": "Is the dog wearing a hat?",
+      "answer": "no",
+      "query_after": "a brown and white dog is laying on a cotton bed in front of a window, without a hat",
+      "searches": [
+        {
+          "query": "a brown and white dog laying on a cotton bed in front of a window",
+          "ids": [
+            27018,
+            3253,
+            27396
+          ],
+          "captions": [
+            "dog looking out of window",
+            "a white dog laying down on a white bed",
+            "a dog laying on a bed with pillows"
+          ]
+        },
+        {
+          "query": "a brown and white dog laying on a leather bed in front of a window",
+          "ids": [
+            48348,
+            39858,
+            27018
+          ],
+          "captions": [
+            "a dog laying on a bed",
+            "a black couch is in the picture",
+            "dog looking out of window"
+          ]
+        }
+      ],
+      "raw_plan": "a brown and white dog laying on a cotton bed in front of a window\na brown and white dog laying on a leather bed in front of a window",
+      "generated": "Is the dog wearing a hat?",
+      "fallback": false
+    },
+    {
+      "round": 6,
+      "query_before": "a brown and white dog is laying on a cotton bed in front of a window, without a hat",
+      "question": "Is the window open or closed?",
+      "answer": "closed",
+      "query_after": "a brown and white dog is laying on a cotton bed in front of a closed window"
+    },
+    {
+      "round": 7,
+      "query_before": "a brown and white dog is laying on a cotton bed in front of a closed window",
+      "question": "what is the color of the blanket on the bed?",
+      "answer": "blue",
+      "query_after": "a brown and white dog wearing no hat is laying on a blue cotton bed in front of a closed window"
+    }
+  ],
+  "seconds": 26.9
+}

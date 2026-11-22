@@ -1,0 +1,79 @@
+{
+  "qid": 2031,
+  "candidates": [
+    "Question: What color are the buildings in the image?",
+    "Question: What type of vehicles are primarily seen moving in the image?",
+    "Question: What is the time of day depicted in the image?",
+    "Question: Question: Are the people in the image walking or standing still?",
+    "Question: How many distinct types of buses are visible in the image?"
+  ],
+  "kl": {
+    "question": "Question: What is the time of day depicted in the image?",
+    "answer": "daytime",
+    "rewrite": "a busy downtown area during the daytime",
+    "raw_rank": 172,
+    "unseen_rank": 162
+  },
+  "probe": {
+    "answer": "cars",
+    "rewrite": "a busy downtown area filled with cars",
+    "raw_rank": 315,
+    "unseen_rank": 305,
+    "question": "Question: What type of vehicles are primarily seen moving in the image?"
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "Question: What color are the buildings in the image?",
+        "answers": [
+          "red",
+          "white",
+          "black"
+        ],
+        "score": 0.07090520858764648
+      },
+      {
+        "question": "Question: What type of vehicles are primarily seen moving in the image?",
+        "answers": [
+          "buses",
+          "cars",
+          "pedestrians"
+        ],
+        "score": 0.09805631637573242
+      },
+      {
+        "question": "Question: What is the time of day depicted in the image?",
+        "answers": [
+          "daytime",
+          "dawn",
+          "dusk"
+        ],
+        "score": 0.048517704010009766
+      },
+      {
+        "question": "Question: Question: Are the people in the image walking or standing still?",
+        "answers": [
+          "walking",
+          "standing",
+          "mix"
+        ],
+        "score": 0.003780364990234375
+      },
+      {
+        "question": "Question: How many distinct types of buses are visible in the image?",
+        "answers": [
+          "1",
+          "2",
+          "3"
+        ],
+        "score": 0.00016832351684570312
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.051,
+    "probe_selection_seconds": 2.31,
+    "probe_llm_calls": 5,
+    "probe_search_queries": 15
+  },
+  "reused_outcome": false
+}

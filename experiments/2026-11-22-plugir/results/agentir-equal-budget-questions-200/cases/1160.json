@@ -1,0 +1,76 @@
+{
+  "qid": 1160,
+  "sample": 2,
+  "first_candidates": [
+    "what is the color of the bus stopping at the bus station?",
+    "Question: how many people are waiting at the bus station where the bus is stopping?",
+    "Question: what is the color of the bus stopping at the bus station?",
+    "Question: Is there a green bus parked on a side street?",
+    "Question: Is there a red and yellow bus stopping at the bus station?"
+  ],
+  "second_candidates": [
+    "what is the color of the bus stopping at the bus station?",
+    "what are the colors of the bus stopping at the bus station?",
+    "what is the color of the bus driving down the street with trees and traffic in the background?",
+    "what is the location where the bus is driving down the street with trees and traffic in the background?",
+    "what is the action of the bus that is blue and white?"
+  ],
+  "paths": [
+    {
+      "question": "what is the color of the bus stopping at the bus station?",
+      "answers": [
+        "red and yellow",
+        "blue and white",
+        "white and blue"
+      ],
+      "score": 0.21507644653320312
+    },
+    {
+      "question": "what are the colors of the bus stopping at the bus station?",
+      "answers": [
+        "red and yellow",
+        "blue and white",
+        "white and blue"
+      ],
+      "score": 0.21407270431518555
+    },
+    {
+      "question": "what is the color of the bus driving down the street with trees and traffic in the background?",
+      "answers": [
+        "blue",
+        "white and blue",
+        "red and yellow"
+      ],
+      "score": 0.14678049087524414
+    },
+    {
+      "question": "what is the location where the bus is driving down the street with trees and traffic in the background?",
+      "answers": [
+        "a blue and white bus driving down a street with trees and traffic in the background"
+      ],
+      "note": "fewer than 2 answers"
+    },
+    {
+      "question": "what is the action of the bus that is blue and white?",
+      "answers": [
+        "parked",
+        "driving",
+        "stopping"
+      ],
+      "score": 0.011658191680908203
+    }
+  ],
+  "control": {
+    "question": "Question: what is the color of the bus stopping at the bus station?",
+    "score": 0.2645559310913086
+  },
+  "mixed": {
+    "question": "Question: what is the color of the bus stopping at the bus station?",
+    "score": 0.2645559310913086
+  },
+  "control_rank": 14,
+  "mixed_rank": 14,
+  "usual_rank": 14,
+  "new_answer": null,
+  "new_rewrite": null
+}

@@ -1,0 +1,71 @@
+{
+  "qid": 57,
+  "initial": "the giraffe is looking directly at the camera",
+  "initial_rank": 14,
+  "evidence": [
+    "two giraffes are standing inside of an enclosure",
+    "a single giraffe standing in a field with trees and bushes",
+    "three giraffes standing in a fenced area",
+    "giraffe in a zoo with rocks on a dirt path",
+    "a giraffe that is laying down in a pen with a fence around it",
+    "a giraffe standing near a fence with people behind it",
+    "two giraffes walking through a small trail of a dry desert",
+    "two giraffes behind a fenced in area with green trees",
+    "the zebra is stomping through the tall grass",
+    "giraffe is standing in a field with trees"
+  ],
+  "displayed_ids": [
+    38697,
+    42549,
+    4137,
+    18187,
+    6723,
+    19329,
+    39209,
+    31171,
+    19606,
+    11398
+  ],
+  "rejected_captions": [
+    "a giraffe in a field",
+    "giraffe is head to camera",
+    "a giraffe standing in front of green foliage",
+    "a giraffe is looking back at the camera",
+    "a giraffe standing",
+    "a group of giraffes standing together in an enclosure",
+    "a giraffe's tongue sticking out",
+    "a giraffe with white spots and brown stripes",
+    "a giraffe standing in front of a wooden bridge",
+    "the giraffe is standing in front of a tree"
+  ],
+  "candidates": [
+    "Question: Is the giraffe standing or laying down?",
+    "What is the specific background environment where the giraffe is standing (e.g., field, enclosure, desert)?",
+    "Question: What is the gender of the giraffe in the image?",
+    "Question: Does the giraffe have its tongue sticking out?",
+    "Question: What color is the giraffe's fur?"
+  ],
+  "control_candidates": [
+    "What is the specific location of the giraffe looking directly at the camera?",
+    "Question: What is the gender of the giraffe looking directly at the camera?",
+    "Question: Where is the giraffe looking directly at the camera located?",
+    "Question: What color is the giraffe looking directly at the camera?",
+    "Question: What is the specific location of the giraffe looking directly at the camera?"
+  ],
+  "control": {
+    "question": "What is the specific location of the giraffe looking directly at the camera?",
+    "answer": "I'm sorry, but the image does not show the specific location of the giraffe.",
+    "rewrite": "a giraffe looking directly at the camera",
+    "rank": 13,
+    "hit": false,
+    "raw_rank": 13,
+    "unseen_rank": 3
+  },
+  "variant": {
+    "question": "Question: What color is the giraffe's fur?",
+    "answer": "brown",
+    "rewrite": "a brown giraffe looking directly at the camera",
+    "raw_rank": 11,
+    "unseen_rank": 2
+  }
+}

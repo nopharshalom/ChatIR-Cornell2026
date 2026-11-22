@@ -1,0 +1,59 @@
+{
+  "qid": 975,
+  "arm": "probe",
+  "after_round": 9,
+  "ranks": [
+    73,
+    139,
+    91,
+    72,
+    56,
+    79,
+    66,
+    33,
+    49,
+    59,
+    68
+  ],
+  "continuation": [
+    {
+      "round": 10,
+      "query_before": "Two male surfers in black wetsuits are catching a small wave near the shore on blue surfboards, with another surfer also present in the ocean.",
+      "question": "Are the two people in the image riding the wave or standing on the edge of it?",
+      "answer": "standing on the edge of it",
+      "query_after": "two men in black wetsuits stand on the edge of a small wave near the shore on blue surfboards, with another surfer also on a blue surfboard in the background",
+      "searches": [
+        {
+          "query": "Two male surfers in black wetsuits riding a small blue wave near the shore with another surfer on a blue board, where the second surfer is standing on a yellow board.",
+          "ids": [
+            40330,
+            41448,
+            17547
+          ],
+          "captions": [
+            "a man and woman surfing on top of a wave",
+            "a group of surfers riding a wave in the ocean",
+            "a person is riding a wave in a body of water"
+          ]
+        },
+        {
+          "query": "Two male surfers in black wetsuits riding a small blue wave near the shore with another surfer on a blue board, where the second surfer is lying prone on the board.",
+          "ids": [
+            28781,
+            14852,
+            26957
+          ],
+          "captions": [
+            "people are riding surfboards in the ocean near rocks",
+            "some people are surfing in the ocean",
+            "a man in a suit surfed with someone in the ocean"
+          ]
+        }
+      ],
+      "raw_plan": "Two male surfers in black wetsuits riding a small blue wave near the shore with another surfer on a blue board, where the second surfer is standing on a yellow board.\nTwo male surfers in black wetsuits riding a small blue wave near the shore with another surfer on a blue board, where the second surfer is lying prone on the board.",
+      "generated": "Are the two people in the image riding the wave or standing on the edge of it?",
+      "fallback": false
+    }
+  ],
+  "seconds": 3.9
+}

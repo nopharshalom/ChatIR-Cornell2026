@@ -1,0 +1,81 @@
+{
+  "qid": 793,
+  "candidates": [
+    "what is the color of the office desk?",
+    "what is the color of the office desk?",
+    "what is the number of monitors on the office desk?",
+    "Question: what is the number of monitors on the office desk?",
+    "what is the color of the office desk?"
+  ],
+  "kl": {
+    "question": "what is the color of the office desk?",
+    "answer": "black",
+    "rewrite": "a black office desk is covered with several papers and 2 computers",
+    "raw_rank": 23,
+    "unseen_rank": 15
+  },
+  "probe": {
+    "question": "what is the color of the office desk?",
+    "answer": "black",
+    "rewrite": "a black office desk is covered with several papers and 2 computers",
+    "raw_rank": 23,
+    "unseen_rank": 15
+  },
+  "probe_details": {
+    "answer_paths": [
+      {
+        "question": "what is the color of the office desk?",
+        "answers": [
+          "black",
+          "white",
+          "brown"
+        ],
+        "score": 0.06732511520385742
+      },
+      {
+        "question": "what is the color of the office desk?",
+        "answers": [
+          "black",
+          "white",
+          "brown"
+        ],
+        "score": 0.06732511520385742,
+        "duplicate_of": 0
+      },
+      {
+        "question": "what is the number of monitors on the office desk?",
+        "answers": [
+          "2",
+          "4",
+          "lots"
+        ],
+        "score": 0.0010304450988769531
+      },
+      {
+        "question": "Question: what is the number of monitors on the office desk?",
+        "answers": [
+          "2",
+          "4",
+          "more than 2"
+        ],
+        "score": 0.00029850006103515625
+      },
+      {
+        "question": "what is the color of the office desk?",
+        "answers": [
+          "black",
+          "white",
+          "brown"
+        ],
+        "score": 0.06732511520385742,
+        "duplicate_of": 0
+      }
+    ],
+    "fallback_to_kl": false,
+    "kl_selection_seconds": 0.047,
+    "probe_selection_seconds": 1.35,
+    "probe_llm_calls": 3,
+    "probe_search_queries": 9
+  },
+  "reused_outcome": true
+}

@@ -1,0 +1,182 @@
+{
+  "qid": 1995,
+  "initial": "a cat that is laying in a sink looking out at someone",
+  "initial_rank": 30,
+  "displayed": [
+    23092,
+    37790,
+    42750,
+    45853,
+    40610,
+    44999,
+    43135,
+    7475,
+    502,
+    4507
+  ],
+  "evidence": [
+    "a cat sits on a keyboard",
+    "a black and white cat walking on a toilet seat",
+    "a bear is in the water in a zoo",
+    "the cat is orange",
+    "a surfer rides the waves while laying down on a surf board",
+    "an orange cat standing on a toilet bowl",
+    "a cat on top of a danish chair",
+    "cat with black and white spots",
+    "a kitchen sink in the sink with various kitchen utensils on it",
+    "a toddler is using a sink to wash her hands"
+  ],
+  "rejected_captions": [
+    "the cat is sitting in a bathroom sink",
+    "a cat peeping out of a bathroom sink",
+    "a cat laying on top of a sink",
+    "a cat is sitting in a bathroom sink",
+    "a girl sitting in a red sink",
+    "a cat is in the sink",
+    "a black and white cat laying in a sink",
+    "a cat is lying in the toilet sink",
+    "cat is sitting in a bathroom sink",
+    "a cat is in a sink"
+  ],
+  "usual": {
+    "candidates": [
+      "what is the color of the cat?",
+      "what is the other object in the image?",
+      "what is the other object in the image?",
+      "what is the other object in the image?",
+      "what is the other object in the image?"
+    ],
+    "question": "what is the color of the cat?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "what is the color of the cat?",
+          "answers": [
+            "orange",
+            "black and white",
+            "black"
+          ],
+          "score": 0.18758630752563477
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sink",
+            "toilet",
+            "keyboard"
+          ],
+          "score": 0.09886407852172852
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sink",
+            "toilet",
+            "keyboard"
+          ],
+          "score": 0.09886407852172852,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sink",
+            "toilet",
+            "keyboard"
+          ],
+          "score": 0.09886407852172852,
+          "duplicate_of": 1
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sink",
+            "toilet",
+            "keyboard"
+          ],
+          "score": 0.09886407852172852,
+          "duplicate_of": 1
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.161,
+      "probe_selection_seconds": 1.777,
+      "probe_llm_calls": 2,
+      "probe_search_queries": 6
+    },
+    "answer": "orange",
+    "rewrite": "an orange cat laying in a sink looking out at someone",
+    "raw_rank": 4,
+    "unseen_rank": 4
+  },
+  "rejected": {
+    "candidates": [
+      "Question: What is the color of the cat?",
+      "Question: What is the color of the cat?",
+      "what is the other object in the image?",
+      "what is the color of the cat?",
+      "what is the color of the cat?"
+    ],
+    "question": "what is the color of the cat?",
+    "probe_details": {
+      "answer_paths": [
+        {
+          "question": "Question: What is the color of the cat?",
+          "answers": [
+            "orange",
+            "black and white",
+            "black"
+          ],
+          "score": 0.15262603759765625
+        },
+        {
+          "question": "Question: What is the color of the cat?",
+          "answers": [
+            "orange",
+            "black and white",
+            "black"
+          ],
+          "score": 0.15262603759765625,
+          "duplicate_of": 0
+        },
+        {
+          "question": "what is the other object in the image?",
+          "answers": [
+            "sink",
+            "toddler",
+            "hands"
+          ],
+          "score": 0.03665781021118164
+        },
+        {
+          "question": "what is the color of the cat?",
+          "answers": [
+            "orange",
+            "black",
+            "white"
+          ],
+          "score": 0.1636648178100586
+        },
+        {
+          "question": "what is the color of the cat?",
+          "answers": [
+            "orange",
+            "black",
+            "white"
+          ],
+          "score": 0.1636648178100586,
+          "duplicate_of": 3
+        }
+      ],
+      "fallback_to_kl": false,
+      "kl_selection_seconds": 0.142,
+      "probe_selection_seconds": 1.437,
+      "probe_llm_calls": 3,
+      "probe_search_queries": 9
+    },
+    "answer": "orange",
+    "rewrite": "an orange cat laying in a sink looking out at someone",
+    "raw_rank": 4,
+    "unseen_rank": 4
+  }
+}

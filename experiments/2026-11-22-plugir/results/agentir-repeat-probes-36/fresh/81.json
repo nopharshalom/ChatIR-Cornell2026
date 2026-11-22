@@ -1,0 +1,42 @@
+{
+  "qid": 81,
+  "arm": "fresh",
+  "after_round": 3,
+  "ranks": [
+    11,
+    35,
+    17,
+    32,
+    17,
+    12,
+    7
+  ],
+  "continuation": [
+    {
+      "round": 4,
+      "query_before": "A baseball player wearing a black and white uniform stands at bat, swinging at a ball, while another player and an umpire stand behind him.",
+      "question": "Is the baseball player wearing a red uniform or a black and white uniform?",
+      "answer": "black and white uniform",
+      "query_after": "a baseball player in a black and white uniform stands at bat swinging at a baseball, with another player and an umpire behind him",
+      "searches": [],
+      "raw_plan": null,
+      "generated": "Is the baseball player wearing a red uniform or a black and white uniform?",
+      "fallback": false
+    },
+    {
+      "round": 5,
+      "query_before": "a baseball player in a black and white uniform stands at bat swinging at a baseball, with another player and an umpire behind him",
+      "question": "What is the action of the other player standing behind the batter?",
+      "answer": "catch",
+      "query_after": "a baseball player in a black and white uniform stands at bat swinging at a baseball, with another player in a red uniform positioned behind him to catch the ball, and an umpire standing behind the catcher"
+    },
+    {
+      "round": 6,
+      "query_before": "a baseball player in a black and white uniform stands at bat swinging at a baseball, with another player in a red uniform positioned behind him to catch the ball, and an umpire standing behind the catcher",
+      "question": "what is the color of the baseball player's cap?",
+      "answer": "black",
+      "query_after": "a baseball player in a black and white uniform stands at bat swinging at a baseball, with another player in a black cap positioned behind him to catch the ball"
+    }
+  ],
+  "seconds": 28.4
+}

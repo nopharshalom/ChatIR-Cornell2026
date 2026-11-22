@@ -1,0 +1,100 @@
+{
+  "qid": 1988,
+  "initial": "a girl and boy sitting in the living room and playing a game",
+  "initial_rank": 23,
+  "evidence": [
+    "two woman eating plates of food",
+    "two men standing and playing a wii video game",
+    "a man and a woman standing in a living room with wii controllers in their hands",
+    "a group of men playing the nintendo wii",
+    "a man watches tv in a chair",
+    "a woman laying on a pink chair with her laptop in front of a television",
+    "four men sitting on couch",
+    "a man and woman holding video game controllers",
+    "a woman playing wii with her friends",
+    "a man playing a game on wii with remotes"
+  ],
+  "candidates": [
+    "What game are the girl and boy playing in the living room?",
+    "what is the color of the chair where the girl is sitting?",
+    "Question: What is the color of the chair where the girl is sitting?",
+    "what is the gender of the people sitting in the living room?",
+    "what is the color of the chair where the boy is sitting?"
+  ],
+  "answer_paths": [
+    {
+      "question": "What game are the girl and boy playing in the living room?",
+      "answers": [
+        "Wii",
+        "Mario",
+        "Tennis"
+      ],
+      "score": 0.03181791305541992
+    },
+    {
+      "question": "what is the color of the chair where the girl is sitting?",
+      "answers": [
+        "blue",
+        "yellow",
+        "green"
+      ],
+      "score": 0.04312419891357422
+    },
+    {
+      "question": "Question: What is the color of the chair where the girl is sitting?",
+      "answers": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "score": 0.053197383880615234
+    },
+    {
+      "question": "what is the gender of the people sitting in the living room?",
+      "answers": [
+        "girl and boy",
+        "two boys",
+        "two girls"
+      ],
+      "score": 0.016379833221435547
+    },
+    {
+      "question": "what is the color of the chair where the boy is sitting?",
+      "answers": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "score": 0.034299373626708984
+    }
+  ],
+  "fallback_to_kl": false,
+  "kl_selection_seconds": 0.078,
+  "probe_selection_seconds": 2.433,
+  "probe_llm_calls": 5,
+  "probe_search_queries": 15,
+  "arms": {
+    "kl": {
+      "question": "What game are the girl and boy playing in the living room?",
+      "answer": "wii",
+      "rewrite": "a girl and boy sitting in the living room playing a wii game",
+      "rank": 31,
+      "hit": false
+    },
+    "random": {
+      "question": "what is the gender of the people sitting in the living room?",
+      "answer": "female",
+      "rewrite": "a girl sitting in the living room",
+      "rank": 46,
+      "hit": false
+    },
+    "probe": {
+      "question": "Question: What is the color of the chair where the girl is sitting?",
+      "answer": "orange",
+      "rewrite": "a girl and boy sitting in the living room on an orange chair, playing a game",
+      "rank": 4,
+      "hit": true
+    }
+  },
+  "seconds": 23.544
+}

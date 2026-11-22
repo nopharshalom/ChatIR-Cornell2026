@@ -1,0 +1,52 @@
+{
+  "chosen": "what is the background environment visible behind the stop sign?",
+  "default": "what is the specific location or setting where the stop sign is placed (e.g., on the ground, on a pole, at an intersection)?",
+  "ids": [
+    9408,
+    29717,
+    19923,
+    9159
+  ],
+  "trials": {
+    "what is the specific location or setting where the stop sign is placed (e.g., on the ground, on a pole, at an intersection)?": {
+      "answers": [
+        "at an intersection",
+        "on a pole",
+        "at an intersection",
+        "on a pole"
+      ],
+      "rewrites": {
+        "at an intersection": "a stop sign is set up at an intersection where 3 roads meet",
+        "on a pole": "a stop sign mounted on a pole at the intersection of three roads"
+      },
+      "ranks": [
+        8,
+        44,
+        18,
+        76
+      ],
+      "hits": 1
+    },
+    "what is the background environment visible behind the stop sign?": {
+      "answers": [
+        "a hill with trees",
+        "a large building",
+        "trees",
+        "a hill with dry grass and a semi-truck on top"
+      ],
+      "rewrites": {
+        "a hill with trees": "a stop sign is set up where 3 roads intersect, with a hill and trees in the background",
+        "a large building": "a stop sign is set up where 3 roads intersect with a large building in the background",
+        "trees": "a stop sign is set up where 3 roads intersect with trees in the background",
+        "a hill with dry grass and a semi-truck on top": "a stop sign is set up where 3 roads intersect, with a hill featuring dry grass and a semi-truck on top in the background"
+      },
+      "ranks": [
+        1,
+        33,
+        12,
+        1
+      ],
+      "hits": 2
+    }
+  }
+}

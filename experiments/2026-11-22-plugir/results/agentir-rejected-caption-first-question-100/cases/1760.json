@@ -1,0 +1,71 @@
+{
+  "qid": 1760,
+  "initial": "the halves of a sandwich sit on a plate near a piece of fruit",
+  "initial_rank": 13,
+  "evidence": [
+    "a lunch box with a banana, apples and grapes",
+    "a large plate of french fries and a sandwich",
+    "the half of a sandwich with greens and meat on top",
+    "a chicken sandwich is on a plate with lettuce and bacon",
+    "a white plate is shown with fruit and yogurt",
+    "a large plate of sandwich and salad",
+    "a sandwich with a side salad on a plate",
+    "a meat sandwich is cut in half with coleslaw on a plate",
+    "a breakfast plate with sausage, eggs, potatoes and toast",
+    "a plate of apples, pears, grapes and bananas"
+  ],
+  "displayed_ids": [
+    17041,
+    19635,
+    47737,
+    30679,
+    43079,
+    18392,
+    30858,
+    21423,
+    15543,
+    44176
+  ],
+  "rejected_captions": [
+    "a plate of food with a sandwich",
+    "a chicken sandwich with strawberries and strawberries",
+    "an orange and turkey sandwich on a white plate with condiments",
+    "a yellow plate is in front of a table",
+    "the sandwich is cut",
+    "a sandwich with a watermelon",
+    "a table with strawberries and a mug",
+    "fruit on a dessert plate",
+    "the orange board is orange",
+    "a lunch plate of fruits and vegetables"
+  ],
+  "candidates": [
+    "Question: What specific fruit is visible next to the sandwich?",
+    "Question: What color is the plate holding the sandwich and fruit?",
+    "Question: What type of sandwich is shown on the plate?",
+    "Question: What is the color of the plate holding the sandwich and fruit?",
+    "Question: What type of fruit is visible next to the sandwich?"
+  ],
+  "control_candidates": [
+    "what type of sandwich is on the plate?",
+    "Question: What fruit is next to the sandwich halves on the plate?",
+    "Question: What color is the plate holding the sandwich halves and fruit?",
+    "Question: What is the other item on the plate besides the sandwich halves and the fruit?",
+    "**Question:** Is there a banana on the plate with the sandwich halves?"
+  ],
+  "control": {
+    "question": "what type of sandwich is on the plate?",
+    "answer": "fish sandwich",
+    "rewrite": "two halves of a fish sandwich sit on a plate near a piece of fruit",
+    "rank": 2,
+    "hit": true,
+    "raw_rank": 2,
+    "unseen_rank": 1
+  },
+  "variant": {
+    "question": "Question: What type of sandwich is shown on the plate?",
+    "answer": "fish",
+    "rewrite": "two halves of a fish sandwich sit on a plate near a piece of fruit",
+    "raw_rank": 2,
+    "unseen_rank": 1
+  }
+}
