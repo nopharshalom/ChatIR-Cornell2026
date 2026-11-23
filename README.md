@@ -163,6 +163,12 @@ Register a new class in the matching `build_*` function and add its knobs to
 `agentir/config.py`. `AnswerDivergenceRanker` is a complete worked example: it proposes
 answers with the LLM, issues one probe search per answer path, and scores the spread.
 
+### 6b. Web demo with a person in the loop
+
+`python -m webapp.server --demo` (offline) or `python -m webapp.server -c configs/base.yaml -c configs/backends/ollama.yaml -c configs/experiments/plugir.yaml`
+starts a browser app where a person answers (or writes) the questions, sees results update
+every round, and has their dialogs logged in PlugIR format. See [`webapp/README.md`](webapp/README.md).
+
 ### 7. Team rules for comparable numbers
 
 1. Always load `configs/base.yaml` first. It pins the retriever, model, temperatures,

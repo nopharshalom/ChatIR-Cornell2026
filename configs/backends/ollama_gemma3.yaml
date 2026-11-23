@@ -1,0 +1,12 @@
+# Laptop without a GPU (e.g. for the web demo): a smaller Ollama model than the team's
+# pinned qwen3.5:9b. Runs differ from base.yaml's model, so their fingerprints differ too:
+# don't mix these numbers with the paper tables.
+#   ollama pull gemma3:4b
+agent:
+  llm:
+    model: gemma3:4b        # text + image input, so the VLM user simulator works too
+    extra_body: {}          # gemma has no thinking mode; drop qwen's reasoning_effort knob
+retriever:
+  device: cpu
+eval:
+  workers: 1
