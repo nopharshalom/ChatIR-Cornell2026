@@ -13,7 +13,9 @@ from __future__ import annotations
 
 import math
 import random
+import threading
 import uuid
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Optional, Protocol
@@ -58,6 +60,9 @@ class AgentIRBackend:
     method: Optional[dict] = None
     collage_paths: Optional[list] = None  # decoration images; default: random corpus images
 
+    def __post_init__(self):
+        self.images = CocoImageCache(self.corpus_dir or "data")
+
     def info(self) -> dict[str, Any]:
         return {"backend": self.name, "fingerprint": self.fingerprint, "max_rounds": self.max_rounds,
                 "corpus_size": len(self.retriever.index), "challenge": bool(self.samples),
@@ -69,6 +74,8 @@ class AgentIRBackend:
     def results(self, state: DialogState, k: int) -> list[dict[str, Any]]:
         idx, vals = self.retriever.search(state.query, k=min(k, len(self.retriever.index)))
         caps = self.retriever.index.captions
+        paths = [self.retriever.index.paths[i] for i in idx.tolist()]
+        self.images.prefetch(paths)  # download them all at once, before the browser asks one by one
         return [{"rank": r + 1, "path": self.retriever.index.paths[i], "score": round(float(v), 4),
                  "caption": caps[i] if i < len(caps) else ""}
                 for r, (i, v) in enumerate(zip(idx.tolist(), vals.tolist()))]
@@ -80,6 +87,7 @@ class AgentIRBackend:
         ctx_idx = [int(i) for i in ctx_idx.tolist()] if hasattr(ctx_idx, "tolist") else list(ctx_idx or [])
         context = [{"path": self.retriever.index.paths[i], "caption": c}
                    for i, c in zip(ctx_idx, dbg.get("context_captions") or [])]
+        self.images.prefetch([c["path"] for c in context])
         # Deduplicate candidates for display, keeping each one's best score.
         cands: dict[str, Optional[float]] = {}
         for q, s in zip(d.candidates, _finite(d.scores) or [None] * len(d.candidates)):
@@ -113,31 +121,79 @@ class AgentIRBackend:
         if self.image_fn is not None:
             path = target  # synthetic world: the scripted user looks the path up
         else:
-            p = Path(self.corpus_dir or ".") / target
-            if not p.exists() and not _fetch_coco(target, p):
+            p = self.images.get(target)
+            if p is None:
                 return None  # the VLM needs the pixels locally
             path = str(p)
         return self.user_sim.answer(path, question, state.query).strip()
 
     def collage(self, rng: random.Random, n: int) -> list[str]:
         pool = self.collage_paths or self.retriever.index.paths
-        return rng.sample(list(pool), min(n, len(pool)))
+        picks = rng.sample(list(pool), min(n, len(pool)))
+        self.images.prefetch(picks)
+        return picks
 
     def image(self, path: str):
         if self.image_fn is not None:
             svg = self.image_fn(path)
             if svg is not None:
                 return "svg", svg
-        root = Path(self.corpus_dir or "data").resolve()
-        p = (root / path).resolve()
-        if root not in p.parents:
-            return "missing", None
-        # Not downloaded yet: every corpus image is a public COCO unlabeled2017 file. Fetch it
-        # here and serve it ourselves; COCO is http-only, so sending the browser there breaks
-        # on https pages (Colab's tunnel) and in browsers that upgrade http to https.
-        if p.exists() or _fetch_coco(path, p):
-            return "file", p
-        return "missing", None
+        # Every corpus image is a public COCO unlabeled2017 file. Missing ones are fetched and
+        # served by us; COCO is http-only, so sending the browser there breaks on https pages
+        # (Colab's tunnel) and in browsers that upgrade http to https.
+        p = self.images.get(path)
+        return ("file", p) if p is not None else ("missing", None)
+
+
+class CocoImageCache:
+    """Corpus images on local disk, downloaded from COCO on first use.
+
+    `prefetch` starts downloads in the background (many at once); `get` returns the local
+    file, waiting for an in-flight download of the same image instead of starting another.
+    """
+
+    def __init__(self, root: str, workers: int = 16):
+        self.root = Path(root).resolve()
+        self._pool = ThreadPoolExecutor(workers, thread_name_prefix="coco")
+        self._inflight: dict[str, Any] = {}
+        self._lock = threading.Lock()
+
+    def _local(self, rel: str) -> Optional[Path]:
+        p = (self.root / rel).resolve()
+        return p if self.root in p.parents else None
+
+    def _submit(self, rel: str):
+        p = self._local(rel)
+        if p is None or p.exists() or not rel.startswith("unlabeled2017/"):
+            return None
+        with self._lock:
+            fut = self._inflight.get(rel)
+            if fut is None:
+                fut = self._inflight[rel] = self._pool.submit(self._download, rel, p)
+        return fut
+
+    def _download(self, rel: str, p: Path) -> bool:
+        try:
+            return _fetch_coco(rel, p)
+        finally:
+            with self._lock:
+                self._inflight.pop(rel, None)
+
+    def prefetch(self, rels) -> None:
+        for rel in rels:
+            self._submit(rel)
+
+    def get(self, rel: str, timeout: float = 30) -> Optional[Path]:
+        p = self._local(rel)
+        if p is None:
+            return None
+        fut = self._submit(rel)
+        if fut is not None:
+            try:
+                fut.result(timeout=timeout)
+            except Exception:  # noqa: BLE001 - timeout or network error: report as missing
+                pass
+        return p if p.exists() else None
 
 
 def _fetch_coco(rel: str, dest: Path) -> bool:

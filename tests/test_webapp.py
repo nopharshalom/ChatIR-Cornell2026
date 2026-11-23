@@ -55,3 +55,30 @@ def test_free_mode_and_images(client):
     r = c.get("/images/" + s["results"][0]["path"])
     assert r.status_code == 200 and r.headers["content-type"].startswith("image/svg")
     assert c.get("/").status_code == 200
+
+
+def test_image_cache_prefetches_once(tmp_path, monkeypatch):
+    import threading
+    import time
+
+    from webapp import backends
+
+    calls, gate = [], threading.Event()
+
+    def fake_fetch(rel, dest):
+        calls.append(rel)
+        gate.wait(5)
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        dest.write_bytes(b"jpg")
+        return True
+
+    monkeypatch.setattr(backends, "_fetch_coco", fake_fetch)
+    cache = backends.CocoImageCache(str(tmp_path))
+    rels = [f"unlabeled2017/{i:012d}.jpg" for i in range(3)]
+    cache.prefetch(rels + rels)  # duplicates while in flight
+    time.sleep(0.1)
+    gate.set()
+    assert cache.get(rels[0]) == (tmp_path / rels[0]).resolve()
+    assert all(cache.get(r) is not None for r in rels)
+    assert sorted(calls) == rels  # one download per image
+    assert cache.get("../outside.jpg") is None
