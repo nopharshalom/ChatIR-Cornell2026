@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ChatIR · Interactive Image Retrieval</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="logo">★</span><span class="display">ChatIR</span><span class="muted">interactive image retrieval</span></div>
+  <div id="backend" class="chip muted">connecting…</div>
+</header>
+
+<main>
+  <!-- ======================= start screen ======================= -->
+  <section id="start" class="hero">
+   <div id="collage" class="collage" aria-hidden="true"></div>
+   <div class="hero-title">
+     <h1 class="display">Find it by<br><span class="hl">talking</span> about it</h1>
+     <p>Describe a picture. The agent asks. You answer. <span class="legend"><span class="mk star">★</span> clusters <span class="mk x">✖</span> your target</span></p>
+   </div>
+   <div class="card start">
+    <div class="tabs" role="tablist">
+      <button class="tab active" data-mode="free" role="tab">Find my image</button>
+      <button class="tab" data-mode="challenge" role="tab">Challenge</button>
+    </div>
+
+    <div class="mode-free">
+      <h2 class="display">Describe the image you have in mind</h2>
+      <p class="muted">The agent will search the corpus, then ask you questions to narrow it down. Every answer you give is folded into the next search.</p>
+    </div>
+    <div class="mode-challenge hidden">
+      <h2 class="display">Help the agent find this image</h2>
+      <p class="muted">You see the target, the agent doesn't. Describe it, answer its questions, and watch the target's rank move.</p>
+      <div class="challenge-target">
+        <img id="challenge-img" alt="target image">
+        <button id="challenge-shuffle" class="ghost">↻ Another image</button>
+      </div>
+    </div>
+
+    <form id="start-form">
+      <textarea id="caption" rows="2" placeholder="e.g. a dog playing frisbee in a park" required maxlength="500"></textarea>
+      <div class="row">
+        <input id="participant" placeholder="Your name / ID (optional, stored with your dialog)" maxlength="80">
+        <button type="submit" class="primary">Start search →</button>
+      </div>
+      <p id="challenge-hint" class="hint hidden"></p>
+    </form>
+   </div>
+  </section>
+
+  <!-- ======================= dialogue screen ======================= -->
+  <section id="dialog" class="hidden">
+    <div class="layout">
+      <aside class="card chat">
+        <div class="chat-head">
+          <div>
+            <strong class="display">Dialogue</strong>
+            <span id="round" class="chip"></span>
+          </div>
+          <div class="actions">
+            <button id="undo" class="ghost small" title="Take back the last answer">↶ Undo</button>
+            <button id="restart" class="ghost small">New search</button>
+          </div>
+        </div>
+
+        <div id="target-box" class="target-box hidden">
+          <img id="target-img" alt="target">
+          <div>
+            <div class="muted small"><span class="mk x">✖</span> Target rank</div>
+            <div id="target-rank" class="big">–</div>
+            <svg id="spark" class="spark" viewBox="0 0 120 32" preserveAspectRatio="none"></svg>
+          </div>
+        </div>
+
+        <ol id="turns" class="turns"></ol>
+
+        <div id="ask-box" class="ask-box">
+          <div id="thinking" class="thinking hidden"><span class="dot"></span><span class="dot"></span><span class="dot"></span> agent is writing and ranking candidate questions… <span id="elapsed" class="muted"></span><br><span class="muted small">PlugIR makes 10–20 LLM calls per round, so this can take a minute on a laptop.</span></div>
+
+          <div id="question-area" class="hidden">
+            <div class="bubble agent"><span class="who">Agent</span><span id="question"></span></div>
+            <details id="alts">
+              <summary>Other questions the agent considered</summary>
+              <ul id="alt-list" class="alt-list"></ul>
+              <p class="muted small" id="criterion"></p>
+            </details>
+          </div>
+
+          <form id="answer-form">
+            <label id="own-q-wrap" class="hidden">
+              <span class="small muted">Your question (you're steering this round)</span>
+              <input id="own-q" placeholder="e.g. what color is the frisbee?" maxlength="300">
+            </label>
+            <div class="row">
+              <input id="answer" placeholder="Your answer…" maxlength="300" autocomplete="off">
+              <button type="submit" class="primary">Send</button>
+            </div>
+            <div class="row quick">
+              <button type="button" class="ghost small" data-quick="yes">yes</button>
+              <button type="button" class="ghost small" data-quick="no">no</button>
+              <button type="button" class="ghost small" data-quick="i can't tell">can't tell</button>
+              <button type="button" id="sim" class="ghost small hidden" title="A vision-language model looks at the target and answers">🤖 let the AI answer</button>
+              <span class="spacer"></span>
+              <button type="button" id="own-toggle" class="link small">✎ ask my own question instead</button>
+            </div>
+          </form>
+        </div>
+
+        <details class="query-box" open>
+          <summary>Current retrieval query <span class="muted small">(what the retriever sees)</span></summary>
+          <p id="query" class="query"></p>
+          <ol id="query-history" class="query-history small muted"></ol>
+        </details>
+      </aside>
+
+      <section class="card results">
+        <div class="results-head">
+          <strong class="display">Top results</strong>
+          <span class="muted small">Click the image you were looking for to finish.</span>
+        </div>
+        <div id="grid" class="grid"></div>
+        <details id="context-wrap" class="context">
+          <summary>What the agent looked at to write its question</summary>
+          <p class="muted small">PlugIR clusters the top candidates and shows the LLM one representative caption per cluster.</p>
+          <div id="context" class="context-grid"></div>
+        </details>
+      </section>
+    </div>
+  </section>
+
+  <!-- ======================= finish dialog ======================= -->
+  <dialog id="finish">
+    <form method="dialog" id="finish-form">
+      <h3 id="finish-title" class="display">Is this your image?</h3>
+      <img id="finish-img" alt="">
+      <p id="finish-msg" class="muted"></p>
+      <div class="stars" id="stars">
+        <span class="muted small">How helpful were the questions?</span>
+        <div>
+          <button type="button" data-r="1">★</button><button type="button" data-r="2">★</button><button type="button" data-r="3">★</button><button type="button" data-r="4">★</button><button type="button" data-r="5">★</button>
+        </div>
+      </div>
+      <textarea id="note" rows="2" placeholder="Anything else? (optional)" maxlength="1000"></textarea>
+      <div class="row end">
+        <button value="cancel" class="ghost">Keep searching</button>
+        <button id="finish-confirm" value="ok" class="primary">Yes, finish</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div id="toast" class="toast hidden"></div>
+</main>
+
+<footer class="muted small">
+  Contributions are saved to <code>runs/webapp/contributions.jsonl</code> ·
+  <a href="/api/contributions.json" target="_blank">export dialogs (PlugIR format)</a>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
