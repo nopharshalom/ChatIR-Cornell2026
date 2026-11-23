@@ -99,7 +99,7 @@ class ContributionLog:
 # ----------------------------------------------------------------------------- app
 def create_app(backend: InteractiveBackend, log_path: str | Path = "runs/webapp/contributions.jsonl"):
     from fastapi import FastAPI, HTTPException
-    from fastapi.responses import FileResponse, RedirectResponse, Response
+    from fastapi.responses import FileResponse, Response
     from fastapi.staticfiles import StaticFiles
 
     app = FastAPI(title="Interactive retrieval demo")
@@ -244,7 +244,7 @@ def create_app(backend: InteractiveBackend, log_path: str | Path = "runs/webapp/
             return Response(val, media_type="image/svg+xml", headers={"Cache-Control": "max-age=86400"})
         if kind == "file":
             return FileResponse(val, headers={"Cache-Control": "max-age=86400"})
-        return RedirectResponse(val)
+        raise HTTPException(404, "image not available")
 
     app.mount("/", StaticFiles(directory=STATIC, html=True), name="static")
     return app

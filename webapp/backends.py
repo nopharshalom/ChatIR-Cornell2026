@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import math
 import random
+import uuid
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Optional, Protocol
@@ -33,7 +34,7 @@ class InteractiveBackend(Protocol):
     def challenge(self, rng: random.Random) -> Optional[dict[str, Any]]: ...
     def target_rank(self, state: DialogState, target: str) -> Optional[int]: ...
     def simulate_answer(self, state: DialogState, target: str, question: str) -> Optional[str]: ...
-    def image(self, path: str) -> tuple[str, Any]: ...  # ("file", Path) | ("redirect", url) | ("svg", str)
+    def image(self, path: str) -> tuple[str, Any]: ...  # ("file", Path) | ("svg", str) | ("missing", None)
     def collage(self, rng: random.Random, n: int) -> list[str]: ...  # image paths for decoration
 
 
@@ -127,13 +128,16 @@ class AgentIRBackend:
             svg = self.image_fn(path)
             if svg is not None:
                 return "svg", svg
-        if self.corpus_dir:
-            root = Path(self.corpus_dir).resolve()
-            p = (root / path).resolve()
-            if root in p.parents and p.exists():
-                return "file", p
-        # Images not downloaded locally: every corpus image is a public COCO unlabeled2017 file.
-        return "redirect", COCO_IMAGE_URL.format(path=path)
+        root = Path(self.corpus_dir or "data").resolve()
+        p = (root / path).resolve()
+        if root not in p.parents:
+            return "missing", None
+        # Not downloaded yet: every corpus image is a public COCO unlabeled2017 file. Fetch it
+        # here and serve it ourselves; COCO is http-only, so sending the browser there breaks
+        # on https pages (Colab's tunnel) and in browsers that upgrade http to https.
+        if p.exists() or _fetch_coco(path, p):
+            return "file", p
+        return "missing", None
 
 
 def _fetch_coco(rel: str, dest: Path) -> bool:
@@ -142,14 +146,16 @@ def _fetch_coco(rel: str, dest: Path) -> bool:
 
     if not rel.startswith("unlabeled2017/") or ".." in rel:
         return False
+    tmp = dest.with_name(f"{dest.name}.{uuid.uuid4().hex}.part")  # parallel requests may fetch the same image
     try:
         dest.parent.mkdir(parents=True, exist_ok=True)
-        tmp = dest.with_suffix(".part")
-        urllib.request.urlretrieve(COCO_IMAGE_URL.format(path=rel), tmp)
+        with urllib.request.urlopen(COCO_IMAGE_URL.format(path=rel), timeout=20) as r:
+            tmp.write_bytes(r.read())
         tmp.replace(dest)
         return True
     except OSError:
-        return False
+        tmp.unlink(missing_ok=True)
+        return dest.exists()
 
 
 # ----------------------------------------------------------------------------- builders
