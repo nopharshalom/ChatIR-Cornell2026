@@ -1,0 +1,20 @@
+{
+  "ids": [
+    532,
+    2019,
+    722,
+    526,
+    494,
+    360,
+    1647,
+    1109,
+    896,
+    1515
+  ],
+  "script_sha256": "9bd7bac4e0e12bcf11fe618f71077d774edb7988100e586bbcdd4a19c52a28db",
+  "prompt": "Generate one question for a person who sees only their target photo.\nYou see ten candidate photos. Find an object shared by the description and plausible candidates.\nAsk for a visible attribute of that object whose value differs across candidates and is still unknown.\nPrefer asking what the value is (color, clothing, number, action, location) over guessing it.\nUse the grid privately. The question must make sense to someone looking only at their own photo.\nExample: the description says a skateboarder is doing a trick. The dialogue already establishes\na jump at a skate park. Candidate skateboarders wear different outfits.\nA useful next question is: What is the skateboarder wearing?\nReturn one complete standalone question ending in a question mark.",
+  "model": "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+  "proposals": 5,
+  "rounds": 10,
+  "mmr": 0.85
+}

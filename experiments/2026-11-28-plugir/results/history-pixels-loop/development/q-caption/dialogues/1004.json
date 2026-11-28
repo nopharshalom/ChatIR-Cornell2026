@@ -1,0 +1,185 @@
+{
+  "qid": 1004,
+  "target": "unlabeled2017/000000312260.jpg",
+  "arm": "q-caption",
+  "first": 2,
+  "turns": [
+    {
+      "evidence": [
+        41155,
+        16375,
+        49086,
+        29955,
+        5946,
+        23528,
+        21479,
+        4773,
+        3821,
+        22140
+      ],
+      "candidates": [
+        "what are the colors of the coats worn by the four people on the snowy slope?",
+        "what is the gender of the people standing on the snowy slope with skis?",
+        "Question: Are there any people standing on the snowy slope who are not wearing coats?",
+        "Question: what is the gender of the people standing on the snowy slope?",
+        "Question: Which specific candidates from the list depict exactly four people standing on a snowy slope with skis?"
+      ],
+      "default": "Question: Are there any people standing on the snowy slope who are not wearing coats?",
+      "question": "Question: Are there any people standing on the snowy slope who are not wearing coats?",
+      "answer": "No.",
+      "rewrite": "4 people wearing coats standing on a snowy slope with skis",
+      "review": {
+        "default": "Question: Are there any people standing on the snowy slope who are not wearing coats?",
+        "questions": [
+          "what are the colors of the coats worn by the four people on the snowy slope?",
+          "what is the gender of the people standing on the snowy slope with skis?",
+          "Question: Are there any people standing on the snowy slope who are not wearing coats?",
+          "Question: what is the gender of the people standing on the snowy slope?",
+          "Question: Which specific candidates from the list depict exactly four people standing on a snowy slope with skis?"
+        ],
+        "selected": "Question: Are there any people standing on the snowy slope who are not wearing coats?",
+        "scores": {}
+      },
+      "shared_seconds": 9.924
+    },
+    {
+      "evidence": [
+        7049,
+        49086,
+        5946,
+        41155,
+        4773,
+        16375,
+        12761,
+        22140,
+        23528,
+        3821
+      ],
+      "candidates": [
+        "what color are the coats worn by the people on the skis?",
+        "what is the color of the coat worn by the woman in the group of people on skis?",
+        "what color are the skis worn by the people?",
+        "what is the color of the coat worn by the second woman in the group of people on skis?",
+        "what are the colors of the skis worn by the group of people on the snowy slope?"
+      ],
+      "default": "what color are the coats worn by the people on the skis?",
+      "question": "what color are the coats worn by the people on the skis?",
+      "answer": "black, red, blue, and green",
+      "rewrite": "four people wearing black, red, blue, and green coats stand on a snowy slope with skis",
+      "review": {
+        "default": "what color are the coats worn by the people on the skis?",
+        "questions": [
+          "what color are the coats worn by the people on the skis?",
+          "what is the color of the coat worn by the woman in the group of people on skis?",
+          "what color are the skis worn by the people?",
+          "what is the color of the coat worn by the second woman in the group of people on skis?",
+          "what are the colors of the skis worn by the group of people on the snowy slope?"
+        ],
+        "selected": "what color are the coats worn by the people on the skis?",
+        "scores": {}
+      },
+      "shared_seconds": 8.908
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "4 people standing on a snowy slope with skis",
+      "raw_rank": 30,
+      "filtered_rank": 30,
+      "rank": 30,
+      "ordinary_screen": [
+        41155,
+        16375,
+        49086,
+        29955,
+        5946,
+        23528,
+        4773,
+        21479,
+        3821,
+        22140
+      ],
+      "display": [
+        41155,
+        16375,
+        49086,
+        29955,
+        5946,
+        23528,
+        4773,
+        21479,
+        3821,
+        22140
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "4 people wearing coats standing on a snowy slope with skis",
+      "raw_rank": 45,
+      "filtered_rank": 35,
+      "rank": 35,
+      "ordinary_screen": [
+        7049,
+        12761,
+        22058,
+        9216,
+        46018,
+        25752,
+        2318,
+        33561,
+        21149,
+        2641
+      ],
+      "display": [
+        7049,
+        12761,
+        22058,
+        9216,
+        46018,
+        25752,
+        2318,
+        33561,
+        21149,
+        2641
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "four people wearing black, red, blue, and green coats stand on a snowy slope with skis",
+      "raw_rank": 24,
+      "filtered_rank": 10,
+      "rank": 10,
+      "ordinary_screen": [
+        31043,
+        19596,
+        3744,
+        45103,
+        28854,
+        16738,
+        7387,
+        36346,
+        33719,
+        26714
+      ],
+      "display": [
+        31043,
+        19596,
+        3744,
+        45103,
+        28854,
+        16738,
+        7387,
+        36346,
+        33719,
+        26714
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 18.832,
+  "live": false,
+  "seconds": 0.043634000001475215
+}

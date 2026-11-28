@@ -1,0 +1,63 @@
+{
+  "splits": [
+    [
+      35,
+      1301,
+      601,
+      1107,
+      1288,
+      570,
+      1004,
+      466,
+      701,
+      93,
+      754,
+      1466,
+      1169,
+      783,
+      273,
+      532,
+      2057,
+      69,
+      1579,
+      1648
+    ],
+    [
+      627,
+      77,
+      1650,
+      688,
+      767,
+      649,
+      1640,
+      573,
+      742,
+      143,
+      1820,
+      621,
+      975,
+      1646,
+      896,
+      1399,
+      106,
+      1510,
+      508,
+      675
+    ]
+  ],
+  "round": 1,
+  "model": "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+  "corpus": 50000,
+  "selector": "unique positive maximum of branch-exclusive promotions from 11-50; else KL",
+  "evaluator": "matched image answer, reconstruction, paraphrase on exact repeat, full corpus rank",
+  "sources": {
+    "screen_first_round_questions.py": "cb9a46d314b1f31e2ee065540e47d1cad0b3e8f772d7419c33c65a88e3423af0",
+    "run_near_miss_question_pilot.py": "c243f0d533bec774e1f6a7e6ca4b0de70ee7f4de9af2a929a26b625a10fa106b",
+    "run_question_diversity.py": "e0b4ba4ca00506593e37375a4d21973b2d7d1f4253433802bdd76c05c016b829",
+    "matan_grid_worker.py": "5e26a994a9f7544d96601a0fecc6e8e9bca19fdbbce77493e66d1f7d60c4b7d7",
+    "local_pilot.py": "f4e8d87d63d460b34ab84aabcaba22505ad1571f492b79170a38f121feab8d57",
+    "run_dialogues.py": "ced1053f5f4ef0e243f7d006f947c14198a86487312837241e6aa9058ba6a475",
+    "generate_dialog.py": "bbb9b7cdbb655563baac00bd0556b7b7bb1626f866964ec49a317bfabf67ad62"
+  },
+  "controls": "9b809cdf49c010cc2fcaa5af6cc72846f622a83429ce180902a1a7f9f983f740"
+}

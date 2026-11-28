@@ -1,0 +1,48 @@
+{
+  "qid": 1914,
+  "question": "what is the color of the shirt worn by the man playing professional tennis on clay courts?",
+  "prompt": "Answer for the tennis player in each numbered tile, in order from 0 through 9. Give the dominant shirt color. Map shades to the nearest basic color. Choose one of black, white, gray, red, orange, yellow, green, blue, purple, pink, brown, unknown. Return a JSON list of ten color words only.",
+  "tile_ids": [
+    27844,
+    16211,
+    4722,
+    46157,
+    40679,
+    17013,
+    18037,
+    13218,
+    43495,
+    28743
+  ],
+  "raw": "```json\n[\n  \"blue\",\n  \"blue\",\n  \"blue\",\n  \"white\",\n  \"blue\",\n  \"white\",\n  \"blue\",\n  \"white\",\n  \"blue\",\n  \"red\"\n]\n```",
+  "reference": [
+    "blue",
+    "blue",
+    "blue",
+    "white",
+    "blue",
+    "white",
+    "blue",
+    "white",
+    "blue",
+    "red"
+  ],
+  "original_split_pairs": 0,
+  "reference_split_pairs": 27,
+  "valid": true,
+  "answers": [
+    "blue",
+    "blue",
+    "blue",
+    "white",
+    "blue",
+    "white",
+    "blue",
+    "white",
+    "blue",
+    "red"
+  ],
+  "correct_tiles": 10,
+  "split_pairs": 27,
+  "false_splits": 0
+}

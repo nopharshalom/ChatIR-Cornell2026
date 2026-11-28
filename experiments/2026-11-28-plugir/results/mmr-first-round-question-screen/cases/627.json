@@ -1,0 +1,194 @@
+{
+  "qid": 627,
+  "selection": {
+    "kl": "Question: What are the man and woman holding or doing while sitting at the table in the restaurant?",
+    "probe": "Question: What are the man and woman holding or doing while sitting at the table in the restaurant?",
+    "candidates": [
+      {
+        "question": "what color is the jacket worn by the man sitting at the table with the woman?",
+        "score": 3,
+        "branches": [
+          {
+            "answer": "blue",
+            "caption": "a man wearing a blue jacket and a woman sitting at a table",
+            "top10": [
+              41054,
+              8353,
+              37892,
+              42896,
+              32652,
+              40404,
+              20480,
+              15916,
+              31288,
+              38577
+            ]
+          },
+          {
+            "answer": "black",
+            "caption": "a man wearing a black jacket and a woman sitting at a table",
+            "top10": [
+              15916,
+              41054,
+              10773,
+              1509,
+              37892,
+              28419,
+              32652,
+              49495,
+              1174,
+              20480
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: What are the man and woman doing while sitting at the table?",
+        "score": 4,
+        "branches": [
+          {
+            "answer": "eating with chop sticks",
+            "caption": "a man and woman eating with chop sticks",
+            "top10": [
+              10554,
+              20484,
+              16521,
+              49495,
+              5181,
+              23158,
+              3875,
+              15943,
+              44415,
+              9718
+            ]
+          },
+          {
+            "answer": "looking at food",
+            "caption": "a man and woman are in a restaurant looking at food",
+            "top10": [
+              49495,
+              38602,
+              45977,
+              412,
+              20484,
+              40404,
+              36893,
+              46214,
+              30740,
+              18362
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: what is the color of the jacket worn by the man?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "Question: What is the man wearing?",
+        "score": 4,
+        "branches": [
+          {
+            "answer": "a blue jacket",
+            "caption": "a man wearing a blue jacket",
+            "top10": [
+              12415,
+              7940,
+              36609,
+              49530,
+              16450,
+              15397,
+              31454,
+              31033,
+              1875,
+              30266
+            ]
+          },
+          {
+            "answer": "looking at food",
+            "caption": "a man and woman are in a restaurant looking at food",
+            "top10": [
+              49495,
+              38602,
+              45977,
+              412,
+              20484,
+              40404,
+              36893,
+              46214,
+              30740,
+              18362
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: What are the man and woman holding or doing while sitting at the table in the restaurant?",
+        "score": 4,
+        "branches": [
+          {
+            "answer": "eating with chop sticks",
+            "caption": "man and woman eating with chop sticks",
+            "top10": [
+              10554,
+              20484,
+              16521,
+              49495,
+              23158,
+              5181,
+              44415,
+              15943,
+              3875,
+              9718
+            ]
+          },
+          {
+            "answer": "looking at food",
+            "caption": "a man and woman are in a restaurant looking at food",
+            "top10": [
+              49495,
+              38602,
+              45977,
+              412,
+              20484,
+              40404,
+              36893,
+              46214,
+              30740,
+              18362
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "outcomes": {
+    "what color is the jacket worn by the man sitting at the table with the woman?": {
+      "answer": "black",
+      "rewrite": "a man in a black jacket and a woman sitting at a restaurant",
+      "rank": 8
+    },
+    "Question: What are the man and woman doing while sitting at the table?": {
+      "answer": "eating",
+      "rewrite": "a man and woman eating at a restaurant table",
+      "rank": 75
+    },
+    "Question: what is the color of the jacket worn by the man?": {
+      "answer": "white",
+      "rewrite": "a man in a white jacket and a woman sitting at a restaurant",
+      "rank": 3
+    },
+    "Question: What is the man wearing?": {
+      "answer": "white shirt and tie",
+      "rewrite": "a man in a white shirt and tie and a woman sitting at a restaurant",
+      "rank": 2
+    },
+    "Question: What are the man and woman holding or doing while sitting at the table in the restaurant?": {
+      "answer": "smiling",
+      "rewrite": "a man and woman smiling while sitting at a restaurant table",
+      "rank": 5
+    }
+  },
+  "saved_kl_rank": 5
+}

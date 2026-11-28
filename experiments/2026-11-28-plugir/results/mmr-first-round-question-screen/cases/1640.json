@@ -1,0 +1,194 @@
+{
+  "qid": 1640,
+  "selection": {
+    "kl": "what material are the kitchen cabinets in the clean kitchen with white walls and a very large fridge?",
+    "probe": "what material are the kitchen cabinets in the clean kitchen with white walls and a very large fridge?",
+    "candidates": [
+      {
+        "question": "what material are the kitchen cabinets in the clean kitchen with white walls and a very large fridge?",
+        "score": 13,
+        "branches": [
+          {
+            "answer": "white",
+            "caption": "a clean kitchen with white walls and a very large white fridge",
+            "top10": [
+              10720,
+              36761,
+              27004,
+              48105,
+              31569,
+              31196,
+              46123,
+              5385,
+              2932,
+              19318
+            ]
+          },
+          {
+            "answer": "wooden",
+            "caption": "a clean kitchen with white walls and a very large fridge, featuring wooden cabinets",
+            "top10": [
+              231,
+              18182,
+              42117,
+              46857,
+              18865,
+              19963,
+              24158,
+              10720,
+              17186,
+              24517
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the material of the stove in the clean kitchen with white walls and a very large fridge?",
+        "score": 3,
+        "branches": [
+          {
+            "answer": "wooden",
+            "caption": "a white fridge is near a wooden stove",
+            "top10": [
+              46857,
+              24306,
+              20950,
+              1729,
+              39010,
+              30604,
+              30683,
+              4054,
+              17672,
+              10720
+            ]
+          },
+          {
+            "answer": "stainless steel",
+            "caption": "silver sleeved kitchen appliances",
+            "top10": [
+              21529,
+              44792,
+              49050,
+              43864,
+              1506,
+              10102,
+              27466,
+              3194,
+              14708,
+              41946
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what color are the kitchen floors in the clean kitchen with white walls and a very large fridge?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "what type of refrigerator is in the clean kitchen with white walls and a very large fridge?",
+        "score": 10,
+        "branches": [
+          {
+            "answer": "stainless steel",
+            "caption": "a clean kitchen with white walls and a very large stainless steel fridge",
+            "top10": [
+              21239,
+              27004,
+              29413,
+              22156,
+              20983,
+              17186,
+              36196,
+              45810,
+              41003,
+              24517
+            ]
+          },
+          {
+            "answer": "white",
+            "caption": "a clean kitchen with white walls and a very large white fridge",
+            "top10": [
+              10720,
+              36761,
+              27004,
+              48105,
+              31569,
+              31196,
+              46123,
+              5385,
+              2932,
+              19318
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the color of the refrigerator in the clean kitchen with white walls?",
+        "score": 10,
+        "branches": [
+          {
+            "answer": "white",
+            "caption": "a clean kitchen with white walls and a white fridge",
+            "top10": [
+              48105,
+              19318,
+              2932,
+              38629,
+              26153,
+              21787,
+              49377,
+              1729,
+              46857,
+              11731
+            ]
+          },
+          {
+            "answer": "stainless steel",
+            "caption": "a clean kitchen with white walls and a stainless steel refrigerator",
+            "top10": [
+              17186,
+              22156,
+              20983,
+              29413,
+              27004,
+              21239,
+              21516,
+              36196,
+              14708,
+              15551
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "outcomes": {
+    "what material are the kitchen cabinets in the clean kitchen with white walls and a very large fridge?": {
+      "answer": "metal",
+      "rewrite": "a clean kitchen with white walls, metal cabinets, and a very large fridge",
+      "rank": 14
+    },
+    "what is the material of the stove in the clean kitchen with white walls and a very large fridge?": {
+      "answer": "stainless steel",
+      "rewrite": "a clean kitchen with white walls, a very large fridge, and a stainless steel stove",
+      "rank": 22
+    },
+    "what color are the kitchen floors in the clean kitchen with white walls and a very large fridge?": {
+      "answer": "gray",
+      "rewrite": "a clean kitchen with white walls, gray floors, and a very large fridge",
+      "rank": 17
+    },
+    "what type of refrigerator is in the clean kitchen with white walls and a very large fridge?": {
+      "answer": "commercial",
+      "rewrite": "a clean kitchen with white walls and a very large commercial refrigerator",
+      "rank": 3
+    },
+    "what is the color of the refrigerator in the clean kitchen with white walls?": {
+      "answer": "silver",
+      "rewrite": "a clean kitchen with white walls and a silver refrigerator",
+      "rank": 49
+    }
+  },
+  "saved_kl_rank": 14
+}

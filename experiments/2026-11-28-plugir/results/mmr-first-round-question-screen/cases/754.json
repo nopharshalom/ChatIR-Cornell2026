@@ -1,0 +1,118 @@
+{
+  "qid": 754,
+  "selection": {
+    "kl": "what is the other object in the image?",
+    "probe": "Question: Is the water tower white and red in color?",
+    "candidates": [
+      {
+        "question": "Question: Is the water tower white and red in color?",
+        "score": 2,
+        "branches": [
+          {
+            "answer": "yes",
+            "caption": "the white tower is tall and red in color",
+            "top10": [
+              41002,
+              25331,
+              49373,
+              21467,
+              32577,
+              20385,
+              26671,
+              34949,
+              47268,
+              10731
+            ]
+          },
+          {
+            "answer": "no",
+            "caption": "a water tower next to a plane",
+            "top10": [
+              16600,
+              18501,
+              48130,
+              35696,
+              5765,
+              10866,
+              24340,
+              24280,
+              1076,
+              47508
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the other object in the image?",
+        "score": 1,
+        "branches": [
+          {
+            "answer": "a plane",
+            "caption": "a water tower next to a plane",
+            "top10": [
+              16600,
+              18501,
+              48130,
+              35696,
+              5765,
+              10866,
+              24340,
+              24280,
+              1076,
+              47508
+            ]
+          },
+          {
+            "answer": "a clock tower",
+            "caption": "two tall clock towers",
+            "top10": [
+              23820,
+              25375,
+              33140,
+              27675,
+              3708,
+              16079,
+              27955,
+              43017,
+              924,
+              46632
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: Is the water tower located next to a plane?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "Question: What is the color of the water tower?",
+        "score": null,
+        "branches": []
+      }
+    ]
+  },
+  "outcomes": {
+    "Question: Is the water tower white and red in color?": {
+      "answer": "No.",
+      "rewrite": "a tall water tower stands behind a metal fence, not white and red in color",
+      "rank": 237
+    },
+    "what is the other object in the image?": {
+      "answer": "bus",
+      "rewrite": "a tall water tower stands behind a metal fence with a bus nearby",
+      "rank": 2
+    },
+    "Question: Is the water tower located next to a plane?": {
+      "answer": "No.",
+      "rewrite": "a tall water tower stands behind a metal fence, not next to a plane",
+      "rank": 219
+    },
+    "Question: What is the color of the water tower?": {
+      "answer": "white",
+      "rewrite": "a tall white water tower stands behind a metal fence",
+      "rank": 280
+    }
+  },
+  "saved_kl_rank": 2
+}

@@ -1,0 +1,193 @@
+{
+  "pivot": 5,
+  "trace": [
+    {
+      "slots": [],
+      "vetoes": [
+        "no grounded subjects"
+      ]
+    },
+    {
+      "slots": [
+        {
+          "entity": "pole",
+          "family": "color",
+          "values": [
+            "white",
+            "red"
+          ],
+          "question": "What is the main color of the pole?"
+        }
+      ],
+      "vetoes": [],
+      "protocol_error": "Invalid classification on both structured and single-label attempts"
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "ambiguous subject"
+      ]
+    },
+    {
+      "slots": [
+        {
+          "entity": "2 street signs",
+          "family": "material",
+          "values": [
+            "metal",
+            "wood"
+          ],
+          "question": "What material is the 2 street signs made of?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "metal",
+          "metal",
+          "metal",
+          "metal",
+          "metal",
+          "metal",
+          "metal",
+          "wood",
+          "metal",
+          "metal"
+        ]
+      ],
+      "filled": [
+        10
+      ],
+      "pixel_supported": [
+        false
+      ]
+    },
+    {
+      "slots": [
+        {
+          "entity": "street sign",
+          "family": "material",
+          "values": [
+            "metal",
+            "plastic"
+          ],
+          "question": "What material is the street sign made of?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "metal",
+          "metal",
+          "metal",
+          "metal",
+          "metal",
+          "metal",
+          "metal",
+          "plastic",
+          "metal",
+          "metal"
+        ]
+      ],
+      "filled": [
+        10
+      ],
+      "pixel_supported": [
+        false
+      ]
+    },
+    {
+      "slots": [
+        {
+          "entity": "street sign",
+          "family": "material",
+          "values": [
+            "metal",
+            "wood"
+          ],
+          "question": "What material is the street sign made of?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "metal",
+          "metal",
+          "metal",
+          "metal",
+          "metal",
+          "metal",
+          "wood",
+          "metal",
+          "metal",
+          "wood"
+        ]
+      ],
+      "filled": [
+        10
+      ],
+      "pixel_supported": [
+        true
+      ],
+      "captions_transfer": [
+        null
+      ],
+      "pixels_transfer": [
+        0.6875
+      ]
+    }
+  ],
+  "questions": [
+    "what is the color of the pole holding the two street signs?",
+    "What material is the street sign made of?"
+  ],
+  "picks": {
+    "blind_alternative": 1,
+    "captions_annotations": 1,
+    "captions_retrieval": 0,
+    "pixels_annotations": 1,
+    "pixels_retrieval": 1
+  }
+}

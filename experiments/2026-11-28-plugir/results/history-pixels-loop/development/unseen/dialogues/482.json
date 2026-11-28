@@ -1,0 +1,104 @@
+{
+  "qid": 482,
+  "target": "unlabeled2017/000000213320.jpg",
+  "arm": "unseen",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        37949,
+        16250,
+        13731,
+        6830,
+        19910,
+        46048,
+        36925,
+        45714,
+        16232,
+        4362
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "what is the other object in the image?",
+        "what is the location of the bathroom shown in the image?",
+        "what is the color of the bathroom?",
+        "what is the color of the bathtub in the bathroom?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "painting",
+      "rewrite": "a very empty, bland, and white bathroom with a painting",
+      "review": null,
+      "shared_seconds": 17.387835999950767
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "the bathroom is very empty and bland and white",
+      "raw_rank": 380,
+      "filtered_rank": 380,
+      "rank": 380,
+      "ordinary_screen": [
+        6919,
+        31803,
+        43821,
+        10082,
+        29753,
+        34617,
+        44620,
+        9667,
+        9399,
+        40587
+      ],
+      "display": [
+        6919,
+        31803,
+        43821,
+        10082,
+        29753,
+        34617,
+        44620,
+        9667,
+        9399,
+        40587
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a very empty, bland, and white bathroom with a painting",
+      "raw_rank": 1,
+      "filtered_rank": 1,
+      "rank": 1,
+      "ordinary_screen": [
+        18286,
+        13158,
+        30626,
+        30,
+        17167,
+        18918,
+        1040,
+        17676,
+        44322,
+        17003
+      ],
+      "display": [
+        18286,
+        13158,
+        30626,
+        30,
+        17167,
+        18918,
+        1040,
+        17676,
+        44322,
+        17003
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 17.387835999950767,
+  "live": true,
+  "seconds": 17.425757667049766
+}

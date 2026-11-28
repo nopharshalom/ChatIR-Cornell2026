@@ -1,0 +1,34 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    [
+      34384,
+      7321,
+      17912,
+      18232,
+      10314,
+      48731,
+      6983,
+      48094,
+      24351,
+      25687
+    ],
+    "Question: What color are the couches in the living room?",
+    "Answer the question separately for each numbered photo. Give the dominant basic color of the item asked about. Choose one of black, white, gray, red, orange, yellow, green, blue, purple, pink, brown, or unknown if absent or uncertain. Return a JSON object with exactly one answer for each printed tile ID. The top row is 0,1,2,3,4 and the bottom row is 5,6,7,8,9. Use these ten ID strings as keys, including \"0\" and \"9\".",
+    180
+  ],
+  "raw": "```json\n{\n    \"0\": \"gray\",\n    \"1\": \"unknown\",\n    \"2\": \"brown\",\n    \"3\": \"brown\",\n    \"4\": \"brown\",\n    \"5\": \"gray\",\n    \"6\": \"yellow\",\n    \"7\": \"brown\",\n    \"8\": \"brown\",\n    \"9\": \"orange\"\n}\n```",
+  "answers": [
+    "gray",
+    "unknown",
+    "brown",
+    "brown",
+    "brown",
+    "gray",
+    "yellow",
+    "brown",
+    "brown",
+    "orange"
+  ],
+  "seconds": 2.8271996669936925
+}

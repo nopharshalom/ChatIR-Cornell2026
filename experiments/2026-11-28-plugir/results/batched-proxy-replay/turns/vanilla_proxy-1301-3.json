@@ -1,0 +1,82 @@
+{
+  "key": "vanilla_proxy-1301-3",
+  "arm": "vanilla_proxy",
+  "original": "What is the material of the display case holding the doughnuts?",
+  "incumbent": "What is the material of the stand holding the doughnuts?",
+  "batch": {
+    "choice": "What is the time of day depicted in the bakery display case?",
+    "scores": {
+      "how are the doughnuts arranged within the bakery display case?": 0,
+      "What is the material of the stand holding the doughnuts?": 0,
+      "What is the material of the display case holding the doughnuts?": 1,
+      "What is the time of day depicted in the bakery display case?": 2,
+      "what is the material of the tray holding the doughnuts in the bakery display case?": 1
+    },
+    "answers": [
+      [
+        "arranged in rows and columns",
+        "They are arranged in rows.",
+        "They are arranged in rows on trays.",
+        "They are arranged in rows on trays.",
+        "They are arranged on multiple tiered stands and trays.",
+        "unsure",
+        "The doughnuts are arranged in various containers, including trays, boxes, and baskets, with some stacked on top of each other.",
+        "They are arranged in rows and columns.",
+        "They are arranged in groups on separate white plates.",
+        "The doughnuts are arranged in a single row on a white surface."
+      ],
+      [
+        "metal",
+        "unsure",
+        "metal",
+        "wood",
+        "metal",
+        "unsure",
+        "unsure",
+        "wood",
+        "The stand appears to be made of metal.",
+        "The stand holding the doughnuts appears to be made of metal."
+      ],
+      [
+        "glass",
+        "glass",
+        "glass",
+        "glass",
+        "wood",
+        "glass",
+        "The display case appears to be made of glass.",
+        "glass",
+        "The display case is made of glass.",
+        "The display case holding the doughnuts is made of glass."
+      ],
+      [
+        "daytime",
+        "unsure",
+        "daytime",
+        "daytime",
+        "unsure",
+        "unsure",
+        "unsure",
+        "daytime",
+        "It is daytime.",
+        "The time of day is not clearly depicted in the photo."
+      ],
+      [
+        "plastic",
+        "metal",
+        "white plastic",
+        "white",
+        "ceramic",
+        "unsure",
+        "The tray holding the doughnuts in the foreground is made of metal.",
+        "plastic",
+        "The trays are made of white ceramic or porcelain.",
+        "The tray holding the doughnuts appears to be made of paper."
+      ]
+    ],
+    "invalid_batches": [],
+    "visual_calls": 10,
+    "total_calls": 42,
+    "seconds": 53.83772320789285
+  }
+}

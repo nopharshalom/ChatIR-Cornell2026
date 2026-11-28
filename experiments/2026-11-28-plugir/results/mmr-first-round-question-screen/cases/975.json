@@ -1,0 +1,118 @@
+{
+  "qid": 975,
+  "selection": {
+    "kl": "How big is the wave that the two people are catching?",
+    "probe": "How big is the wave that the two people are catching?",
+    "candidates": [
+      {
+        "question": "what is the size of the wave that the two people are catching?",
+        "score": 4,
+        "branches": [
+          {
+            "answer": "big",
+            "caption": "two people riding surfboards on a big wave",
+            "top10": [
+              28594,
+              45045,
+              27269,
+              12596,
+              49481,
+              12243,
+              28336,
+              17457,
+              33137,
+              4073
+            ]
+          },
+          {
+            "answer": "small",
+            "caption": "two people riding surfboards on a small white wave",
+            "top10": [
+              11002,
+              17457,
+              29135,
+              34051,
+              2878,
+              16832,
+              4073,
+              33137,
+              47191,
+              44798
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: What is the color of the wave that the two people are catching?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "How big is the wave that the two people are catching?",
+        "score": 4,
+        "branches": [
+          {
+            "answer": "big",
+            "caption": "two people riding surfboards on a big wave",
+            "top10": [
+              28594,
+              45045,
+              27269,
+              12596,
+              49481,
+              12243,
+              28336,
+              17457,
+              33137,
+              4073
+            ]
+          },
+          {
+            "answer": "small",
+            "caption": "two people riding surfboards on a small white wave",
+            "top10": [
+              11002,
+              17457,
+              29135,
+              34051,
+              2878,
+              16832,
+              4073,
+              33137,
+              47191,
+              44798
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the color of the surfboards the two people are riding on the wave?",
+        "score": null,
+        "branches": []
+      }
+    ]
+  },
+  "outcomes": {
+    "what is the size of the wave that the two people are catching?": {
+      "answer": "small",
+      "rewrite": "two people are out in the ocean surfing and catching a small wave",
+      "rank": 139
+    },
+    "Question: What is the color of the wave that the two people are catching?": {
+      "answer": "green",
+      "rewrite": "two people are out in the ocean surfing and catching a big green wave",
+      "rank": 19
+    },
+    "How big is the wave that the two people are catching?": {
+      "answer": "small",
+      "rewrite": "two people are out in the ocean surfing and catching a small wave",
+      "rank": 139
+    },
+    "what is the color of the surfboards the two people are riding on the wave?": {
+      "answer": "blue",
+      "rewrite": "two people are out in the ocean surfing on blue surfboards, catching a big wave",
+      "rank": 70
+    }
+  },
+  "saved_kl_rank": 139
+}

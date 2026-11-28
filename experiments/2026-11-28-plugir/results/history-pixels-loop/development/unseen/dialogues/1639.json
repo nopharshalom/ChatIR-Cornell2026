@@ -1,0 +1,340 @@
+{
+  "qid": 1639,
+  "target": "unlabeled2017/000000575299.jpg",
+  "arm": "unseen",
+  "first": 5,
+  "turns": [
+    {
+      "evidence": [
+        7909,
+        11562,
+        17759,
+        2687,
+        47830,
+        28616,
+        41750,
+        49535,
+        981,
+        49075
+      ],
+      "candidates": [
+        "what is the type of food being prepared or ordered at the counter?",
+        "Question: who are the people standing at the counter?",
+        "what is the location where the people are standing at the counter?",
+        "Question: What object is the woman standing in the counter holding?",
+        "what is the specific location of the counter where the people are standing?"
+      ],
+      "default": "what is the specific location of the counter where the people are standing?",
+      "question": "what is the specific location of the counter where the people are standing?",
+      "answer": "behind the table",
+      "rewrite": "people are standing at a counter behind a table in front of windows, trying to order",
+      "review": null,
+      "shared_seconds": 9.37543408293277
+    },
+    {
+      "evidence": [
+        49535,
+        33000,
+        2687,
+        49075,
+        981,
+        27563,
+        21224,
+        48255,
+        23878,
+        38016
+      ],
+      "candidates": [
+        "what color is the sweatshirt worn by the man standing at the counter?",
+        "what color is the shirt worn by the man standing at the counter?",
+        "what is the color of the shirt worn by the man standing at the counter?",
+        "what is the color of the sweatshirt worn by the man standing at the counter?",
+        "what color is the shirt worn by the man standing at the counter?"
+      ],
+      "default": "what color is the shirt worn by the man standing at the counter?",
+      "question": "what color is the shirt worn by the man standing at the counter?",
+      "answer": "white",
+      "rewrite": "people in white shirts are standing behind a counter in front of windows, trying to order",
+      "review": null,
+      "shared_seconds": 7.800713625038043
+    },
+    {
+      "evidence": [
+        18834,
+        35292,
+        2687,
+        36552,
+        35085,
+        49075,
+        36771,
+        4253,
+        37103,
+        4050
+      ],
+      "candidates": [
+        "what is the type of counter where the people are standing?",
+        "what type of counter is the man in the white shirt standing at?",
+        "what food items are being sold or served at the counter where people are standing?",
+        "what type of kitchen or food service environment is the counter located in?",
+        "what is the number of people standing at the counter?"
+      ],
+      "default": "what is the type of counter where the people are standing?",
+      "question": "what is the type of counter where the people are standing?",
+      "answer": "table",
+      "rewrite": "people in white shirts stand behind a table counter in front of windows, trying to order",
+      "review": null,
+      "shared_seconds": 7.706258333986625
+    },
+    {
+      "evidence": [
+        49390,
+        12767,
+        48161,
+        36552,
+        13151,
+        18290,
+        6807,
+        4050,
+        27249,
+        36771
+      ],
+      "candidates": [
+        "what material is the stand made of?",
+        "what is the material of the stand where the people are standing?",
+        "what is the material of the stand where the people are standing?",
+        "what is the material of the stand where the people are standing?",
+        "what is the material of the stand where the people are standing?"
+      ],
+      "default": "what is the material of the stand where the people are standing?",
+      "question": "what is the material of the stand where the people are standing?",
+      "answer": "wood",
+      "rewrite": "people in white shirts stand behind a wooden table counter in front of windows, trying to order",
+      "review": null,
+      "shared_seconds": 7.934272332815453
+    },
+    {
+      "evidence": [
+        8098,
+        44152,
+        13151,
+        12047,
+        31641,
+        32664,
+        49390,
+        35085,
+        24701,
+        5401
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "what is the color of the shirt worn by the lady standing at the counter?",
+        "Question: what is the other object in the image?",
+        "what is the color of the shirt worn by the lady standing at the counter?",
+        "Question: what is the other object in the image?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "laptop",
+      "rewrite": "people in white shirts stand behind a wooden table counter with a laptop, trying to order in front of windows",
+      "review": null,
+      "shared_seconds": 22.959550708066672
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "people are standing at a counter in front of windows trying to order",
+      "raw_rank": 62,
+      "filtered_rank": 62,
+      "rank": 62,
+      "ordinary_screen": [
+        14352,
+        40471,
+        49772,
+        22150,
+        43633,
+        2832,
+        11063,
+        10299,
+        15259,
+        38602
+      ],
+      "display": [
+        14352,
+        40471,
+        49772,
+        22150,
+        43633,
+        2832,
+        11063,
+        10299,
+        15259,
+        38602
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "people are standing at a counter behind a table in front of windows, trying to order",
+      "raw_rank": 47,
+      "filtered_rank": 37,
+      "rank": 37,
+      "ordinary_screen": [
+        41750,
+        28616,
+        16217,
+        11562,
+        22343,
+        13749,
+        25191,
+        7909,
+        14202,
+        17759
+      ],
+      "display": [
+        41750,
+        28616,
+        16217,
+        11562,
+        22343,
+        13749,
+        25191,
+        7909,
+        14202,
+        17759
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "people in white shirts are standing behind a counter in front of windows, trying to order",
+      "raw_rank": 142,
+      "filtered_rank": 122,
+      "rank": 122,
+      "ordinary_screen": [
+        14175,
+        335,
+        43852,
+        42985,
+        49535,
+        1115,
+        25988,
+        33454,
+        23878,
+        3527
+      ],
+      "display": [
+        14175,
+        335,
+        43852,
+        42985,
+        49535,
+        1115,
+        25988,
+        33454,
+        23878,
+        3527
+      ],
+      "check": {}
+    },
+    {
+      "round": 3,
+      "query": "people in white shirts stand behind a table counter in front of windows, trying to order",
+      "raw_rank": 58,
+      "filtered_rank": 30,
+      "rank": 30,
+      "ordinary_screen": [
+        35292,
+        37561,
+        49075,
+        38622,
+        11220,
+        22213,
+        5504,
+        2687,
+        17668,
+        10496
+      ],
+      "display": [
+        35292,
+        37561,
+        49075,
+        38622,
+        11220,
+        22213,
+        5504,
+        2687,
+        17668,
+        10496
+      ],
+      "check": {}
+    },
+    {
+      "round": 4,
+      "query": "people in white shirts stand behind a wooden table counter in front of windows, trying to order",
+      "raw_rank": 192,
+      "filtered_rank": 153,
+      "rank": 153,
+      "ordinary_screen": [
+        26074,
+        27563,
+        20454,
+        3402,
+        29361,
+        27186,
+        18290,
+        47492,
+        19777,
+        31778
+      ],
+      "display": [
+        26074,
+        27563,
+        20454,
+        3402,
+        29361,
+        27186,
+        18290,
+        47492,
+        19777,
+        31778
+      ],
+      "check": {}
+    },
+    {
+      "round": 5,
+      "query": "people in white shirts stand behind a wooden table counter with a laptop, trying to order in front of windows",
+      "raw_rank": 21,
+      "filtered_rank": 10,
+      "rank": 10,
+      "ordinary_screen": [
+        40477,
+        18076,
+        8098,
+        21804,
+        43943,
+        38902,
+        33000,
+        49760,
+        3442,
+        49427
+      ],
+      "display": [
+        40477,
+        18076,
+        8098,
+        21804,
+        43943,
+        38902,
+        33000,
+        49760,
+        3442,
+        49427
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 55.77622908283956,
+  "live": true,
+  "seconds": 55.89517804211937
+}

@@ -1,0 +1,559 @@
+[
+  {
+    "qid": 1091,
+    "round": 3,
+    "target": "unlabeled2017/000000142911.jpg",
+    "description": "three white fighter jets flying through the sky leaving a white path",
+    "initial": "3 fighter jets flying through the sky leaving a path",
+    "prior_turns": [
+      [
+        "what color are the fighter jets flying through the sky?",
+        "white"
+      ],
+      [
+        "What is the color of the path left by the fighter jets?",
+        "white"
+      ]
+    ],
+    "proposals": [
+      "what is the other object in the image?",
+      "what is the other object in the image?",
+      "Question: What is the color of the sky in the image?",
+      "Question: What is the color of the sky in the image?",
+      "Question: What is the shape of the formation that the fighter jets are flying in?"
+    ],
+    "tile_ids": [
+      33202,
+      47913,
+      6926,
+      26570,
+      2135,
+      25869,
+      34889,
+      47181,
+      44704,
+      8552
+    ],
+    "caption_kl": {
+      "question": "what is the other object in the image?",
+      "answer": "airplane",
+      "rewrite": "three white fighter jets and a white airplane flying through the sky, leaving a white path behind them",
+      "ranks": [
+        14,
+        12,
+        15,
+        14,
+        15,
+        16,
+        7
+      ],
+      "first_hit": 6
+    },
+    "visual": {
+      "question": "Question: What is the color of the sky in the image?",
+      "answer": "blue",
+      "rewrite": "three white fighter jets flying through a blue sky, leaving a white contrail",
+      "ranks": [
+        14,
+        12,
+        15,
+        4
+      ],
+      "first_hit": 3
+    },
+    "review": {
+      "default": "what is the other object in the image?",
+      "questions": [
+        "what is the other object in the image?",
+        "Question: What is the color of the sky in the image?",
+        "Question: What is the shape of the formation that the fighter jets are flying in?"
+      ],
+      "selected": "Question: What is the color of the sky in the image?",
+      "scores": {
+        "what is the color of the sky in the image?": {
+          "file": "78badc77e794254e0c7f8703d7eed2dedf8cf317b8ae27cc95c51f99cfb52617.json",
+          "answers": [
+            "blue",
+            "white",
+            "gray",
+            "blue",
+            "blue",
+            "blue",
+            "blue",
+            "gray",
+            "blue",
+            "blue"
+          ],
+          "seconds": 3.2969798748381436,
+          "score": 23
+        }
+      }
+    }
+  },
+  {
+    "qid": 1969,
+    "round": 1,
+    "target": "unlabeled2017/000000492953.jpg",
+    "description": "a young boy skis on a flat plane of snow a blue and orange netted fence is in the background",
+    "initial": "a young boy skis on a flat plane of snow a blue and orange netted fence is in the background",
+    "prior_turns": [],
+    "proposals": [
+      "what color is the jacket worn by the man in the image?",
+      "Question: what is the age of the person skiing on the flat plane of snow?",
+      "what is the color of the pants worn by the man on skis?",
+      "what is the color of the pants worn by the child on skis?",
+      "what is the other object in the image?"
+    ],
+    "tile_ids": [
+      34731,
+      21839,
+      32663,
+      38107,
+      48554,
+      2090,
+      18391,
+      33547,
+      19919,
+      35690
+    ],
+    "caption_kl": {
+      "question": "what is the other object in the image?",
+      "answer": "ski poles",
+      "rewrite": "a young boy skis on a flat plane of snow holding ski poles, with a blue and orange netted fence in the background",
+      "ranks": [
+        17,
+        14,
+        10
+      ],
+      "first_hit": 2
+    },
+    "visual": {
+      "question": "what color is the jacket worn by the man in the image?",
+      "answer": "green",
+      "rewrite": "a young boy in a green jacket skis on a flat plane of snow with a blue and orange netted fence in the background",
+      "ranks": [
+        17,
+        7
+      ],
+      "first_hit": 1
+    },
+    "review": {
+      "default": "what is the other object in the image?",
+      "questions": [
+        "what color is the jacket worn by the man in the image?",
+        "Question: what is the age of the person skiing on the flat plane of snow?",
+        "what is the color of the pants worn by the man on skis?",
+        "what is the color of the pants worn by the child on skis?",
+        "what is the other object in the image?"
+      ],
+      "selected": "what color is the jacket worn by the man in the image?",
+      "scores": {
+        "what color is the jacket worn by the man in the image?": {
+          "file": "4f354a5c069cd9eb98f605cbeb38b4d643e9962ee5be7c68229a55f1cfd64a4f.json",
+          "answers": [
+            "blue",
+            "orange",
+            "blue",
+            "black",
+            "blue",
+            "blue",
+            "black",
+            "red",
+            "blue",
+            "red"
+          ],
+          "seconds": 3.084767583059147,
+          "score": 33
+        },
+        "what is the color of the pants worn by the man on skis?": {
+          "file": "241974ab7c8ae3779e005008e86659b312cb5a486231e5554175559e6dacfa06.json",
+          "answers": [
+            "black",
+            "gray",
+            "black",
+            "black",
+            "black",
+            "black",
+            "red",
+            "black",
+            "black",
+            "blue"
+          ],
+          "seconds": 2.8138702921569347,
+          "score": 24
+        },
+        "what is the color of the pants worn by the child on skis?": {
+          "file": "ea91e3ab727f047536c5a4d6614abf8bb84e33384b1176a31ae1e1886fad9480.json",
+          "answers": [
+            "black",
+            "gray",
+            "black",
+            "black",
+            "black",
+            "black",
+            "red",
+            "black",
+            "black",
+            "blue"
+          ],
+          "seconds": 2.7798481250647455,
+          "score": 24
+        }
+      }
+    }
+  },
+  {
+    "qid": 2057,
+    "round": 10,
+    "target": "unlabeled2017/000000035852.jpg",
+    "description": "a vertical arrangement of two white street signs on a white pole, with a brown brick building in the background under a blue sky",
+    "initial": "a close up of 2 street signs with buildings in the background",
+    "prior_turns": [
+      [
+        "what is the arrangement of the two street signs in the image?",
+        "the two street signs are arranged vertically, with one sign positioned directly above the other on the same pole."
+      ],
+      [
+        "what is the color of the street signs?",
+        "white"
+      ],
+      [
+        "what is the color of the sky visible in the image containing two street signs with buildings in the background?",
+        "blue"
+      ],
+      [
+        "what is the specific type of the two street signs in the image?",
+        "street sign"
+      ],
+      [
+        "what is the specific type of the two street signs in the image?",
+        "street sign"
+      ],
+      [
+        "what is the color of the pole holding the two street signs?",
+        "white"
+      ],
+      [
+        "**Question:** What is the specific type of building visible in the background behind the two white street signs on the pole?",
+        "brick building"
+      ],
+      [
+        "what is the other object in the image?",
+        "street sign"
+      ],
+      [
+        "what is the color of the building visible in the background?",
+        "brown"
+      ]
+    ],
+    "proposals": [
+      "what is the other object in the image?",
+      "**Question:** What is the color of the building visible in the background?",
+      "what is the color of the street sign positioned at the bottom of the pole?",
+      "what is the color of the street sign positioned at the top of the pole?",
+      "what is the color of the street sign positioned at the top of the pole?"
+    ],
+    "tile_ids": [
+      44820,
+      22853,
+      39229,
+      37628,
+      34701,
+      15702,
+      42038,
+      38513,
+      12940,
+      43347
+    ],
+    "caption_kl": {
+      "question": "what is the other object in the image?",
+      "answer": "street sign",
+      "rewrite": "Two white street signs are arranged vertically on a white pole, set against a backdrop of a brown brick building under a blue sky.",
+      "ranks": [
+        175,
+        124,
+        24,
+        21,
+        19,
+        15,
+        15,
+        47,
+        57,
+        49,
+        54
+      ],
+      "first_hit": null
+    },
+    "visual": {
+      "question": "what is the color of the street sign positioned at the bottom of the pole?",
+      "answer": "white",
+      "rewrite": "Two white street signs are arranged vertically on a white pole, set against a backdrop of a brown brick building under a blue sky.",
+      "ranks": [
+        175,
+        124,
+        24,
+        21,
+        19,
+        15,
+        15,
+        47,
+        57,
+        49,
+        54
+      ],
+      "first_hit": null
+    },
+    "review": {
+      "default": "what is the other object in the image?",
+      "questions": [
+        "what is the other object in the image?",
+        "**Question:** What is the color of the building visible in the background?",
+        "what is the color of the street sign positioned at the bottom of the pole?",
+        "what is the color of the street sign positioned at the top of the pole?"
+      ],
+      "selected": "what is the color of the street sign positioned at the bottom of the pole?",
+      "scores": {
+        "what is the color of the street sign positioned at the bottom of the pole?": {
+          "file": "eb17c18cf24dc75ec1be1beffb62b466ebd2733c0be65aff28e73ea0f9da73c1.json",
+          "answers": [
+            "white",
+            "white",
+            "green",
+            "green",
+            "green",
+            "black",
+            "black",
+            "green",
+            "white",
+            "white"
+          ],
+          "seconds": 2.9289894169196486,
+          "score": 32
+        },
+        "what is the color of the street sign positioned at the top of the pole?": {
+          "file": "d9b535c372144f6b4a467be49b26ef4b1037ef6744fc0c217811510bcacda42d.json",
+          "answers": [
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "black",
+            "white",
+            "white",
+            "white",
+            "white"
+          ],
+          "seconds": 2.913908417103812,
+          "score": 9
+        }
+      }
+    }
+  },
+  {
+    "qid": 675,
+    "round": 7,
+    "target": "unlabeled2017/000000299519.jpg",
+    "description": "a crouching catcher in a red uniform and white shorts extends his arm to catch a white ball",
+    "initial": "the crouching catcher has his arm extended to catch the ball",
+    "prior_turns": [
+      [
+        "Answer: white\n\nExplanation: The [Description] states that the image features a \"crouching catcher\" with an \"extended arm.\" The [Dialogue]?",
+        "I'm sorry, but I cannot provide the answer."
+      ],
+      [
+        "what is the color of the uniform worn by the crouching catcher?",
+        "red"
+      ],
+      [
+        "what is the color of the ball being caught by the catcher?",
+        "white"
+      ],
+      [
+        "what is the color of the shorts worn by the crouching catcher?",
+        "white"
+      ],
+      [
+        "what is the activity of the person wearing red shorts?",
+        "catching"
+      ],
+      [
+        "what is the position of the player wearing the red shirt?",
+        "catcher"
+      ]
+    ],
+    "proposals": [
+      "what is the activity of the player wearing the white shirt?",
+      "what is the other object in the image?",
+      "what is the color of the shirt worn by the player wearing white shorts?",
+      "what is the position of the player wearing the white shirt?",
+      "what is the activity of the player wearing the white shirt?"
+    ],
+    "tile_ids": [
+      4430,
+      17089,
+      6788,
+      3361,
+      16233,
+      32796,
+      45128,
+      3090,
+      15180,
+      25283
+    ],
+    "caption_kl": {
+      "question": "what is the other object in the image?",
+      "answer": "crowd",
+      "rewrite": "a crouching catcher in a red uniform with white shorts and a white ball extends his arm to catch the ball, with a crowd in the background",
+      "ranks": [
+        776,
+        592,
+        2050,
+        2173,
+        1577,
+        1742,
+        1542,
+        529,
+        686,
+        494,
+        686
+      ],
+      "first_hit": null
+    },
+    "visual": {
+      "question": "what is the color of the shirt worn by the player wearing white shorts?",
+      "answer": "red",
+      "rewrite": "a crouching catcher in a red shirt and white shorts extends his arm to catch a white ball",
+      "ranks": [
+        776,
+        592,
+        2050,
+        2173,
+        1577,
+        1742,
+        1542,
+        1889,
+        686,
+        202,
+        314
+      ],
+      "first_hit": null
+    },
+    "review": {
+      "default": "what is the other object in the image?",
+      "questions": [
+        "what is the activity of the player wearing the white shirt?",
+        "what is the other object in the image?",
+        "what is the color of the shirt worn by the player wearing white shorts?",
+        "what is the position of the player wearing the white shirt?"
+      ],
+      "selected": "what is the color of the shirt worn by the player wearing white shorts?",
+      "scores": {
+        "what is the color of the shirt worn by the player wearing white shorts?": {
+          "file": "35ba8df7321cf46e7bfd668060703208214b36262a4d45c2d6ee96a18e79c47e.json",
+          "answers": [
+            "unknown",
+            "red",
+            "red",
+            "red",
+            "red",
+            "unknown",
+            "red",
+            "red",
+            "green",
+            "red"
+          ],
+          "seconds": 2.910969665972516,
+          "score": 7
+        }
+      }
+    }
+  },
+  {
+    "qid": 701,
+    "round": 1,
+    "target": "unlabeled2017/000000324850.jpg",
+    "description": "image of a red lobster restaurant from a street a one-way sign and street light is visible, and a man in an orange shirt is walking toward the entrance",
+    "initial": "image of a red lobster restaurant from a street a one-way sign and street light is visible, and a man in an orange shirt is walking toward the entrance",
+    "prior_turns": [],
+    "proposals": [
+      "what is the other object in the image?",
+      "what is the other object in the image?",
+      "what is the color of the sign visible on the street?",
+      "what is the color of the sign visible on the street?",
+      "what is the color of the sign visible on the street?"
+    ],
+    "tile_ids": [
+      11635,
+      28449,
+      17087,
+      13199,
+      22839,
+      3530,
+      24819,
+      43807,
+      40955,
+      3203
+    ],
+    "caption_kl": {
+      "question": "what is the other object in the image?",
+      "answer": "traffic light",
+      "rewrite": "image of a red lobster restaurant from the street, featuring a one-way sign, a street light, and a traffic light, with a man in an orange shirt walking toward the entrance",
+      "ranks": [
+        33,
+        36,
+        38,
+        52,
+        38,
+        18,
+        11,
+        41,
+        6
+      ],
+      "first_hit": 8
+    },
+    "visual": {
+      "question": "what is the color of the sign visible on the street?",
+      "answer": "black and white",
+      "rewrite": "image of a red lobster restaurant from the street, featuring a black and white one-way sign and a street light, with a man in an orange shirt walking toward the entrance",
+      "ranks": [
+        33,
+        53,
+        37,
+        61,
+        50,
+        49,
+        23,
+        2
+      ],
+      "first_hit": 7
+    },
+    "review": {
+      "default": "what is the other object in the image?",
+      "questions": [
+        "what is the other object in the image?",
+        "what is the color of the sign visible on the street?"
+      ],
+      "selected": "what is the color of the sign visible on the street?",
+      "scores": {
+        "what is the color of the sign visible on the street?": {
+          "file": "fe2ad2921c0f9de0b7c838ae9b0b668c6ecbd5e964bf95bec196e9ca549eee94.json",
+          "answers": [
+            "unknown",
+            "blue",
+            "blue",
+            "red",
+            "unknown",
+            "unknown",
+            "red",
+            "red",
+            "green",
+            "unknown"
+          ],
+          "seconds": 2.8630854999646544,
+          "score": 11
+        }
+      }
+    }
+  }
+]

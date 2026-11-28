@@ -1,0 +1,95 @@
+{
+  "qid": 93,
+  "selection": {
+    "kl": "what is the color of the racquets held by the two men playing doubles tennis?",
+    "probe": "what is the color of the racquets held by the two men playing doubles tennis?",
+    "candidates": [
+      {
+        "question": "what is the color of the racket held by one of the men playing doubles tennis?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "what is the color of the shirts worn by the two men playing doubles tennis?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "what is the color of the racquets held by the two men playing doubles tennis?",
+        "score": 6,
+        "branches": [
+          {
+            "answer": "orange and black",
+            "caption": "two men in a tennis match on a court, one holding an orange racquet and the other a black racquet",
+            "top10": [
+              26230,
+              22730,
+              48142,
+              37227,
+              22969,
+              1596,
+              29751,
+              4028,
+              3506,
+              3832
+            ]
+          },
+          {
+            "answer": "orange and blue",
+            "caption": "two men in a tennis match on a court, one holding an orange racquet and the other a blue racquet",
+            "top10": [
+              5212,
+              9897,
+              3506,
+              1596,
+              6675,
+              17039,
+              22730,
+              48142,
+              25208,
+              29751
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what are the colors of the shirts worn by the two men playing doubles tennis?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "Question: What color are the shirts worn by the two men playing doubles tennis?",
+        "score": null,
+        "branches": []
+      }
+    ]
+  },
+  "outcomes": {
+    "what is the color of the racket held by one of the men playing doubles tennis?": {
+      "answer": "black",
+      "rewrite": "two men playing doubles tennis, one holding a black racket",
+      "rank": 7
+    },
+    "what is the color of the shirts worn by the two men playing doubles tennis?": {
+      "answer": "orange",
+      "rewrite": "two men wearing orange shirts playing doubles tennis",
+      "rank": 2
+    },
+    "what is the color of the racquets held by the two men playing doubles tennis?": {
+      "answer": "black and white",
+      "rewrite": "two men playing doubles tennis holding black and white racquets",
+      "rank": 7
+    },
+    "what are the colors of the shirts worn by the two men playing doubles tennis?": {
+      "answer": "orange",
+      "rewrite": "two men wearing orange shirts playing doubles tennis",
+      "rank": 2
+    },
+    "Question: What color are the shirts worn by the two men playing doubles tennis?": {
+      "answer": "orange",
+      "rewrite": "two men wearing orange shirts playing doubles tennis",
+      "rank": 2
+    }
+  },
+  "saved_kl_rank": 7
+}

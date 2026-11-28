@@ -1,0 +1,104 @@
+{
+  "qid": 601,
+  "target": "unlabeled2017/000000320343.jpg",
+  "arm": "ordinary",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        12719,
+        44293,
+        29215,
+        32700,
+        35139,
+        39584,
+        12089,
+        38612,
+        14655,
+        18766
+      ],
+      "candidates": [
+        "what color is the traffic light hanging over the intersection?",
+        "what is the time of day when the traffic light is hanging over the intersection?",
+        "Question: what is the color of the building near the traffic light?",
+        "what is the time of day when the traffic light is hanging over the intersection?",
+        "what is the color of the building near the traffic light?"
+      ],
+      "default": "what is the time of day when the traffic light is hanging over the intersection?",
+      "question": "what is the time of day when the traffic light is hanging over the intersection?",
+      "answer": "daytime",
+      "rewrite": "traffic lights hanging over an intersection on the street during the daytime",
+      "review": null,
+      "shared_seconds": 9.657
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "traffic lights hanging over an intersection on the street",
+      "raw_rank": 16,
+      "filtered_rank": 16,
+      "rank": 16,
+      "ordinary_screen": [
+        12719,
+        44293,
+        29215,
+        32700,
+        35139,
+        39584,
+        12089,
+        38612,
+        14655,
+        18766
+      ],
+      "display": [
+        12719,
+        44293,
+        29215,
+        32700,
+        35139,
+        39584,
+        12089,
+        38612,
+        14655,
+        18766
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "traffic lights hanging over an intersection on the street during the daytime",
+      "raw_rank": 7,
+      "filtered_rank": 1,
+      "rank": 1,
+      "ordinary_screen": [
+        27452,
+        24588,
+        41488,
+        4794,
+        10826,
+        11513,
+        21358,
+        26456,
+        3030,
+        24569
+      ],
+      "display": [
+        27452,
+        24588,
+        41488,
+        4794,
+        10826,
+        11513,
+        21358,
+        26456,
+        3030,
+        24569
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 9.657,
+  "live": false,
+  "seconds": 0.02076270803809166
+}

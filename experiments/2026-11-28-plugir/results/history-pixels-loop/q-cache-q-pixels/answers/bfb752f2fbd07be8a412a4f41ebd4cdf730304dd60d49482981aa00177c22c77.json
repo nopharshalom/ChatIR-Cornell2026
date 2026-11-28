@@ -1,0 +1,34 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    [
+      32788,
+      34935,
+      25887,
+      30117,
+      3298,
+      48862,
+      19389,
+      47183,
+      2145,
+      15592
+    ],
+    "what is the color of the dress worn by the bride in the wedding group?",
+    "Answer the question separately for each numbered photo. Give the dominant basic color of the item asked about. Choose one of black, white, gray, red, orange, yellow, green, blue, purple, pink, brown, or unknown if absent or uncertain. Return a JSON object with exactly one answer for each printed tile ID. The top row is 0,1,2,3,4 and the bottom row is 5,6,7,8,9. Use these ten ID strings as keys, including \"0\" and \"9\".",
+    180
+  ],
+  "raw": "```json\n{\n  \"0\": \"unknown\",\n  \"1\": \"white\",\n  \"2\": \"white\",\n  \"3\": \"white\",\n  \"4\": \"white\",\n  \"5\": \"white\",\n  \"6\": \"white\",\n  \"7\": \"white\",\n  \"8\": \"unknown\",\n  \"9\": \"white\"\n}\n```",
+  "answers": [
+    "unknown",
+    "white",
+    "white",
+    "white",
+    "white",
+    "white",
+    "white",
+    "white",
+    "unknown",
+    "white"
+  ],
+  "seconds": 3.5262636670377105
+}

@@ -1,0 +1,104 @@
+{
+  "qid": 2003,
+  "target": "unlabeled2017/000000312031.jpg",
+  "arm": "ordinary",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        31070,
+        25374,
+        32923,
+        34568,
+        17182,
+        47945,
+        11666,
+        29177,
+        14007,
+        10916
+      ],
+      "candidates": [
+        "Question: Is the woman playing tennis on an outdoor court or in the air?",
+        "Question: What color is the woman's outfit?",
+        "Question: Is the woman playing tennis on a court or in the air?",
+        "Question: What color is the woman's outfit?",
+        "Question: Is the woman playing tennis on a court or in the air?"
+      ],
+      "default": "Question: What color is the woman's outfit?",
+      "question": "Question: What color is the woman's outfit?",
+      "answer": "Blue.",
+      "rewrite": "a woman in a blue outfit stands on one foot with her arms out, holding a tennis racquet",
+      "review": null,
+      "shared_seconds": 8.578
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "the woman is standing on 1 foot with her arms out holding a tennis racquet",
+      "raw_rank": 87,
+      "filtered_rank": 87,
+      "rank": 87,
+      "ordinary_screen": [
+        31070,
+        25374,
+        32923,
+        34568,
+        17182,
+        47945,
+        29177,
+        11666,
+        10916,
+        14007
+      ],
+      "display": [
+        31070,
+        25374,
+        32923,
+        34568,
+        17182,
+        47945,
+        29177,
+        11666,
+        10916,
+        14007
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a woman in a blue outfit stands on one foot with her arms out, holding a tennis racquet",
+      "raw_rank": 5,
+      "filtered_rank": 2,
+      "rank": 2,
+      "ordinary_screen": [
+        3682,
+        26692,
+        29429,
+        29971,
+        4920,
+        25691,
+        885,
+        22770,
+        37877,
+        43726
+      ],
+      "display": [
+        3682,
+        26692,
+        29429,
+        29971,
+        4920,
+        25691,
+        885,
+        22770,
+        37877,
+        43726
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 8.578,
+  "live": false,
+  "seconds": 0.02414741599932313
+}

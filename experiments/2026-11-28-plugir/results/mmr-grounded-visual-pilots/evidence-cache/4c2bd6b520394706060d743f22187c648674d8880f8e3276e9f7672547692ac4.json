@@ -1,0 +1,10 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    "Check a proposed question for a searcher looking only at their own photo.\nUse their initial description and real answers to establish the referent. PASS only if the\nquestion is standalone, neutrally phrased, visually answerable, has a clear subject, and asks\nfor something that has not already been discussed. SKIP a reference to candidate images or\nan assumed object, value, intention, or identity. Return only PASS or SKIP.",
+    "{\"dialogue\": [\"2 kites flying over the sand by the ocean shore\", \"what is the color of the sand in the image? brown\"], \"question\": \"what is the gender of the person flying the kites over the sand by the ocean shore?\"}",
+    10,
+    null
+  ],
+  "response": "SKIP"
+}

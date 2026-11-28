@@ -1,0 +1,427 @@
+{
+  "qid": 1639,
+  "target": "unlabeled2017/000000575299.jpg",
+  "arm": "q-pixels",
+  "first": 5,
+  "turns": [
+    {
+      "evidence": [
+        14352,
+        40471,
+        22150,
+        43633,
+        49772,
+        2832,
+        10299,
+        11063,
+        15259,
+        38602
+      ],
+      "candidates": [
+        "what are the people wearing?",
+        "what is the other object in the image?",
+        "what is the specific type of food the people are preparing or ordering?",
+        "what is the color of the shirt worn by the man in the image?",
+        "what is the man wearing?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the color of the shirt worn by the man in the image?",
+      "answer": "white",
+      "rewrite": "a man in a white shirt is standing at a counter in front of windows, trying to order",
+      "review": {
+        "default": "what is the other object in the image?",
+        "questions": [
+          "what are the people wearing?",
+          "what is the other object in the image?",
+          "what is the specific type of food the people are preparing or ordering?",
+          "what is the color of the shirt worn by the man in the image?",
+          "what is the man wearing?"
+        ],
+        "selected": "what is the color of the shirt worn by the man in the image?",
+        "scores": {
+          "what is the color of the shirt worn by the man in the image?": {
+            "file": "414195f11669f73d5568ef2b763db8839807f0b5bcdc9fa8b844d1739878815c.json",
+            "answers": [
+              "unknown",
+              "white",
+              "red",
+              "red",
+              "red",
+              "red",
+              "red",
+              "red",
+              "white",
+              "white"
+            ],
+            "seconds": 3.81939766719006,
+            "score": 18
+          }
+        }
+      },
+      "shared_seconds": 15.238194542005658
+    },
+    {
+      "evidence": [
+        19195,
+        42985,
+        40471,
+        43852,
+        33454,
+        48076,
+        24159,
+        18834,
+        22356,
+        47830
+      ],
+      "candidates": [
+        "what is the man holding in his hand?",
+        "what is the man preparing in front of the counter?",
+        "What are the people at the counter ordering?",
+        "what is the man holding in his hand?",
+        "what is the gender of the person preparing food in front of the counter?"
+      ],
+      "default": "what is the man preparing in front of the counter?",
+      "question": "what is the man preparing in front of the counter?",
+      "answer": "the man is preparing a laptop.",
+      "rewrite": "a man in a white shirt is standing at a counter in front of windows, preparing a laptop, while other people wait to order",
+      "review": {
+        "default": "what is the man preparing in front of the counter?",
+        "questions": [
+          "what is the man holding in his hand?",
+          "what is the man preparing in front of the counter?",
+          "What are the people at the counter ordering?",
+          "what is the gender of the person preparing food in front of the counter?"
+        ],
+        "selected": "what is the man preparing in front of the counter?",
+        "scores": {}
+      },
+      "shared_seconds": 15.955251666950062
+    },
+    {
+      "evidence": [
+        35292,
+        30197,
+        42985,
+        8098,
+        38602,
+        18076,
+        33000,
+        335,
+        43943,
+        43852
+      ],
+      "candidates": [
+        "what is the total number of people standing in the image?",
+        "what is the total number of people standing in the image?",
+        "what is the other object in the image?",
+        "what is the total number of people standing at the counter?",
+        "what is the action being performed by the man wearing a white coat?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "laptop",
+      "rewrite": "a man in a white shirt stands at a counter in front of windows, preparing a laptop while another laptop is visible nearby",
+      "review": {
+        "default": "what is the other object in the image?",
+        "questions": [
+          "what is the total number of people standing in the image?",
+          "what is the other object in the image?",
+          "what is the total number of people standing at the counter?",
+          "what is the action being performed by the man wearing a white coat?"
+        ],
+        "selected": "what is the other object in the image?",
+        "scores": {}
+      },
+      "shared_seconds": 15.271464791148901
+    },
+    {
+      "evidence": [
+        27516,
+        42985,
+        30197,
+        43943,
+        35292,
+        43852,
+        48668,
+        48161,
+        49637,
+        18834
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "what is the location where the people are standing?",
+        "what is the location where the people are standing?",
+        "what is the color of the counter where the people are standing?",
+        "what is the color of the counter where the people are standing?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the color of the counter where the people are standing?",
+      "answer": "white",
+      "rewrite": "a man in a white shirt stands behind a white counter preparing a laptop, while people stand in front of him at the counter, with windows visible in the background",
+      "review": {
+        "default": "what is the other object in the image?",
+        "questions": [
+          "what is the other object in the image?",
+          "what is the location where the people are standing?",
+          "what is the color of the counter where the people are standing?"
+        ],
+        "selected": "what is the color of the counter where the people are standing?",
+        "scores": {
+          "what is the color of the counter where the people are standing?": {
+            "file": "b447e8a8063d88d4fa07d423e6aa2dcbf16c1ba76b3c264a7b8d16b8b5d176fd.json",
+            "answers": [
+              "white",
+              "white",
+              "white",
+              "white",
+              "white",
+              "black",
+              "white",
+              "white",
+              "white",
+              "black"
+            ],
+            "seconds": 3.155644209124148,
+            "score": 16
+          }
+        }
+      },
+      "shared_seconds": 25.697853249963373
+    },
+    {
+      "evidence": [
+        35292,
+        30197,
+        48161,
+        48668,
+        18076,
+        38602,
+        8365,
+        23106,
+        43852,
+        42985
+      ],
+      "candidates": [
+        "Where are the people standing in relation to the windows?",
+        "what is the action of the people standing at the white counter in front of the windows?",
+        "What is the color of the windows behind the people at the counter?",
+        "what is the other object in the image?",
+        "What are the people standing in front of the white counter doing?"
+      ],
+      "default": "Where are the people standing in relation to the windows?",
+      "question": "Where are the people standing in relation to the windows?",
+      "answer": "In front of the windows.",
+      "rewrite": "a man in a white shirt stands behind a white counter preparing a laptop, while people stand in front of him and the windows, with another laptop visible in the scene.",
+      "review": {
+        "default": "Where are the people standing in relation to the windows?",
+        "questions": [
+          "Where are the people standing in relation to the windows?",
+          "what is the action of the people standing at the white counter in front of the windows?",
+          "What is the color of the windows behind the people at the counter?",
+          "what is the other object in the image?",
+          "What are the people standing in front of the white counter doing?"
+        ],
+        "selected": "Where are the people standing in relation to the windows?",
+        "scores": {}
+      },
+      "shared_seconds": 16.235891541931778
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "people are standing at a counter in front of windows trying to order",
+      "raw_rank": 62,
+      "filtered_rank": 62,
+      "rank": 62,
+      "ordinary_screen": [
+        14352,
+        40471,
+        49772,
+        22150,
+        43633,
+        2832,
+        11063,
+        10299,
+        15259,
+        38602
+      ],
+      "display": [
+        14352,
+        40471,
+        49772,
+        22150,
+        43633,
+        2832,
+        11063,
+        10299,
+        15259,
+        38602
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a man in a white shirt is standing at a counter in front of windows, trying to order",
+      "raw_rank": 1075,
+      "filtered_rank": 1065,
+      "rank": 1065,
+      "ordinary_screen": [
+        19195,
+        42985,
+        43852,
+        48076,
+        33454,
+        24159,
+        18834,
+        22356,
+        47830,
+        7909
+      ],
+      "display": [
+        19195,
+        42985,
+        43852,
+        48076,
+        33454,
+        24159,
+        18834,
+        22356,
+        47830,
+        7909
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "a man in a white shirt is standing at a counter in front of windows, preparing a laptop, while other people wait to order",
+      "raw_rank": 19,
+      "filtered_rank": 13,
+      "rank": 13,
+      "ordinary_screen": [
+        35292,
+        30197,
+        8098,
+        18076,
+        33000,
+        335,
+        43943,
+        48161,
+        43470,
+        32745
+      ],
+      "display": [
+        35292,
+        30197,
+        8098,
+        18076,
+        33000,
+        335,
+        43943,
+        48161,
+        43470,
+        32745
+      ],
+      "check": {}
+    },
+    {
+      "round": 3,
+      "query": "a man in a white shirt stands at a counter in front of windows, preparing a laptop while another laptop is visible nearby",
+      "raw_rank": 54,
+      "filtered_rank": 40,
+      "rank": 40,
+      "ordinary_screen": [
+        27516,
+        48668,
+        49637,
+        15893,
+        15762,
+        27557,
+        46748,
+        17265,
+        47249,
+        47450
+      ],
+      "display": [
+        27516,
+        48668,
+        49637,
+        15893,
+        15762,
+        27557,
+        46748,
+        17265,
+        47249,
+        47450
+      ],
+      "check": {}
+    },
+    {
+      "round": 4,
+      "query": "a man in a white shirt stands behind a white counter preparing a laptop, while people stand in front of him at the counter, with windows visible in the background",
+      "raw_rank": 32,
+      "filtered_rank": 17,
+      "rank": 17,
+      "ordinary_screen": [
+        8365,
+        23106,
+        14175,
+        37469,
+        45123,
+        45139,
+        848,
+        4253,
+        6159,
+        28616
+      ],
+      "display": [
+        8365,
+        23106,
+        14175,
+        37469,
+        45123,
+        45139,
+        848,
+        4253,
+        6159,
+        28616
+      ],
+      "check": {}
+    },
+    {
+      "round": 5,
+      "query": "a man in a white shirt stands behind a white counter preparing a laptop, while people stand in front of him and the windows, with another laptop visible in the scene.",
+      "raw_rank": 10,
+      "filtered_rank": 1,
+      "rank": 1,
+      "ordinary_screen": [
+        49427,
+        32286,
+        27186,
+        2762,
+        760,
+        23080,
+        32640,
+        33205,
+        23959,
+        31892
+      ],
+      "display": [
+        49427,
+        32286,
+        27186,
+        2762,
+        760,
+        23080,
+        32640,
+        33205,
+        23959,
+        31892
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 88.39865579199977,
+  "live": true,
+  "seconds": 92.56364575005136
+}

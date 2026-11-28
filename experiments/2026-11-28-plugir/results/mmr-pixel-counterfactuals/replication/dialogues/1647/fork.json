@@ -1,0 +1,76 @@
+{
+  "pivot": 1,
+  "trace": [
+    {
+      "slots": [],
+      "vetoes": [
+        "dialogue-only check: {'status': 'UNSAFE', 'evidence': \"The provided text describes a 'train area' and 'trains', but contains no information about the material composition of the city itself.\"}"
+      ]
+    },
+    {
+      "slots": [
+        {
+          "entity": "trains",
+          "family": "color",
+          "values": [
+            "green",
+            "yellow"
+          ],
+          "question": "What is the main color of the trains?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          null,
+          null,
+          "yellow",
+          null,
+          "green",
+          null,
+          null,
+          null,
+          null,
+          "yellow"
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "green",
+          "yellow",
+          "yellow",
+          null,
+          "green",
+          "green",
+          null,
+          "yellow",
+          "yellow",
+          "yellow"
+        ]
+      ],
+      "filled": [
+        5
+      ],
+      "pixel_supported": [
+        true
+      ],
+      "captions_transfer": [
+        null
+      ],
+      "pixels_transfer": [
+        0.5666666666666667
+      ]
+    }
+  ],
+  "questions": [
+    "what is the color of the trains stopped and resting in the image?",
+    "What is the main color of the trains?"
+  ],
+  "picks": {
+    "blind_alternative": 1,
+    "captions_annotations": 1,
+    "captions_retrieval": 0,
+    "pixels_annotations": 1,
+    "pixels_retrieval": 0
+  }
+}

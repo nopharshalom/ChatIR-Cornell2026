@@ -1,0 +1,40 @@
+{
+  "plan_raw": "{\n\"choice\": 3,\n\"check\": \"specific food item identification\",\n\"photos\": [0, 4]\n}",
+  "provisional": 3,
+  "valid_plan": true,
+  "caption": {
+    "choice": 1,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "The caption only describes a table with food and drinks generally, so no specific food item can be identified."
+      },
+      {
+        "index": 4,
+        "observation": "The image shows a breakfast buffet containing pastries and a variety of breads, but no specific individual food item is identified."
+      }
+    ],
+    "raw": "{\"choice\": 1}"
+  },
+  "pixels": {
+    "choice": 3,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "unknown"
+      },
+      {
+        "index": 4,
+        "observation": "The image displays a breakfast buffet with pastries and a variety of breads, as described in the caption."
+      }
+    ],
+    "raw": "{\"choice\": 3}"
+  },
+  "qid": 143,
+  "example_ids": [
+    1754,
+    1750
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "pivot": null,
+  "trace": [
+    {
+      "slots": [],
+      "vetoes": [
+        "dialogue-only check: {'status': 'UNSAFE', 'evidence': \"The initial description does not mention the dog's color.\"}"
+      ]
+    },
+    {
+      "slots": [
+        {
+          "entity": "bed",
+          "family": "material",
+          "values": [
+            "fabric",
+            "wood"
+          ],
+          "question": "What material is the bed made of?"
+        }
+      ],
+      "vetoes": [],
+      "protocol_error": "Invalid classification on both structured and single-label attempts"
+    },
+    {
+      "slots": [
+        {
+          "entity": "dog",
+          "family": "material",
+          "values": [
+            "wood",
+            "metal"
+          ],
+          "question": "What material is the dog made of?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          null,
+          "wood",
+          "wood",
+          null,
+          "wood"
+        ]
+      ],
+      "filled": [
+        8
+      ],
+      "pixel_supported": [
+        false
+      ]
+    },
+    {
+      "slots": [
+        {
+          "entity": "bed",
+          "family": "material",
+          "values": [
+            "fabric",
+            "leather"
+          ],
+          "question": "What material is the bed made of?"
+        }
+      ],
+      "vetoes": [],
+      "protocol_error": "Invalid classification on both structured and single-label attempts"
+    },
+    {
+      "slots": [
+        {
+          "entity": "dog",
+          "family": "material",
+          "values": [
+            "fabric",
+            "leather"
+          ],
+          "question": "What material is the dog made of?"
+        },
+        {
+          "entity": "cushion",
+          "family": "material",
+          "values": [
+            "fabric",
+            "leather"
+          ],
+          "question": "What material is the cushion made of?"
+        }
+      ],
+      "vetoes": [
+        "previous question about this subject and attribute"
+      ],
+      "caption_labels": [
+        [
+          null,
+          "fabric",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric"
+        ],
+        [
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric"
+        ]
+      ],
+      "filled": [
+        9,
+        10
+      ],
+      "pixel_supported": [
+        false,
+        false
+      ]
+    },
+    {
+      "slots": [
+        {
+          "entity": "window",
+          "family": "material",
+          "values": [
+            "glass",
+            "metal"
+          ],
+          "question": "What material is the window made of?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          "glass",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "glass"
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "glass",
+          "glass",
+          null,
+          "glass",
+          "glass",
+          null,
+          null,
+          null,
+          null,
+          "glass"
+        ]
+      ],
+      "filled": [
+        3
+      ],
+      "pixel_supported": [
+        false
+      ]
+    }
+  ]
+}

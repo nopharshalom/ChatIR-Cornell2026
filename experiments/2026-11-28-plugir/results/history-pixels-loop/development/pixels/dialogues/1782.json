@@ -1,0 +1,204 @@
+{
+  "qid": 1782,
+  "target": "unlabeled2017/000000427339.jpg",
+  "arm": "pixels",
+  "first": 2,
+  "turns": [
+    {
+      "evidence": [
+        445,
+        30292,
+        35981,
+        39016,
+        35509,
+        34312,
+        23796,
+        5535,
+        19024,
+        4265
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "what is the other object in the image?",
+        "What are the colors of the two airplanes parked on the airport runway?",
+        "what is the other object in the image?",
+        "what is the specific location on the airport runway where the two airplanes are parked?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "another airplane.",
+      "rewrite": "two airplanes are parked on an airport runway",
+      "review": null,
+      "shared_seconds": 13.228
+    },
+    {
+      "evidence": [
+        30292,
+        35981,
+        445,
+        39016,
+        34312,
+        5535,
+        44587,
+        4265,
+        44615,
+        45649
+      ],
+      "candidates": [
+        "what color is the airplane parked on the airport runway?",
+        "what color is the other airplane in the image?",
+        "what is the color of the airplane parked on the airport runway?",
+        "what color is the airplane on the runway?",
+        "what is the color of the airplane parked on the airport runway?"
+      ],
+      "default": "what color is the airplane parked on the airport runway?",
+      "question": "what color is the airplane parked on the airport runway?",
+      "answer": "white",
+      "rewrite": "two white airplanes are parked on an airport runway",
+      "review": null,
+      "shared_seconds": 9.691
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "2 airplanes are parked on an airport runway",
+      "raw_rank": 44,
+      "filtered_rank": 44,
+      "rank": 44,
+      "ordinary_screen": [
+        445,
+        30292,
+        35981,
+        39016,
+        34312,
+        35509,
+        23796,
+        5535,
+        19024,
+        4265
+      ],
+      "display": [
+        445,
+        30292,
+        35981,
+        39016,
+        34312,
+        35509,
+        23796,
+        5535,
+        19024,
+        4265
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "two airplanes are parked on an airport runway",
+      "raw_rank": 42,
+      "filtered_rank": 32,
+      "rank": 32,
+      "ordinary_screen": [
+        44587,
+        44615,
+        45649,
+        25216,
+        31708,
+        42890,
+        45461,
+        34158,
+        27284,
+        19481
+      ],
+      "display": [
+        44587,
+        44615,
+        45649,
+        25216,
+        31708,
+        42890,
+        45461,
+        34158,
+        27284,
+        19481
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "two white airplanes are parked on an airport runway",
+      "raw_rank": 22,
+      "filtered_rank": 10,
+      "rank": 10,
+      "ordinary_screen": [
+        33270,
+        32707,
+        26544,
+        28071,
+        22414,
+        44727,
+        12333,
+        18538,
+        14199,
+        36629
+      ],
+      "display": [
+        33270,
+        32707,
+        26544,
+        28071,
+        22414,
+        44727,
+        12333,
+        18538,
+        14199,
+        36629
+      ],
+      "check": {
+        "question": "what color is the airplane parked on the airport runway?",
+        "answer": "white",
+        "labels": [
+          {
+            "id": 18538,
+            "color": "white",
+            "file": "dc60f4997204a59e4753aaec6b87bdaa5d12ad6697039a73090eca64d1ad57bc.json",
+            "seconds": 0.3829042920842767
+          },
+          {
+            "id": 14199,
+            "color": "white",
+            "file": "a6846662dae6ce8015abdf1821825cfacb1d74f4e1a08382f4a603bf5207f919.json",
+            "seconds": 0.45684454101137817
+          },
+          {
+            "id": 36629,
+            "color": "white",
+            "file": "0e0be9207633b63be78db256a02ac87277097dd83a40e4bc4c91f34d61f1f8df.json",
+            "seconds": 0.45903804199770093
+          },
+          {
+            "id": 33951,
+            "color": "white",
+            "file": "f225b8c77e66628b3c10fd5bb3770b96db221c0a555b532094de6cbe4120dd85.json",
+            "seconds": 0.5310341247823089
+          },
+          {
+            "id": 1071,
+            "color": "white",
+            "file": "eefd1c27b7e013170ceaa697f8e5d5cc4b9696f44d503f6f8479aebdc6b31198.json",
+            "seconds": 0.4720437079668045
+          },
+          {
+            "id": 36364,
+            "color": "white",
+            "file": "3565f08b36658af804ec27ce25d953034a81680a9c370b6f0998d330024cd258.json",
+            "seconds": 0.4734593331813812
+          }
+        ]
+      }
+    }
+  ],
+  "shared_seconds": 22.919,
+  "live": false,
+  "seconds": 2.820342417107895
+}

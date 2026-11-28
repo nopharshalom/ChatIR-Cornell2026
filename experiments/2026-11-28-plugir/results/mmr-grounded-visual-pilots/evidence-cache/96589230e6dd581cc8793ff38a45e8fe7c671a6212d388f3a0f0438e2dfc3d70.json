@@ -1,0 +1,10 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    "Check a proposed question for a searcher looking only at their own photo.\nUse their initial description and real answers to establish the referent. PASS only if the\nquestion is standalone, neutrally phrased, visually answerable, has a clear subject, and asks\nfor something that has not already been discussed. SKIP a reference to candidate images or\nan assumed object, value, intention, or identity. Return only PASS or SKIP.",
+    "{\"dialogue\": [\"2 computers next to each other with a ipod dock\", \"what is the color of the two computers sitting next to each other with an iPod dock? silver\", \"What is the color of the iPod dock located between the two silver computers? white\", \"what is the background surface upon which the two silver computers and the white iPod dock are placed? desk\", \"What brand are the two silver computers and the white iPod dock? Apple.\", \"what is the other object in the image? laptop\", \"what is the color of the laptop that is open and sitting on the desk? silver\"], \"question\": \"Is there a person visible in the image with the silver computers, white iPod dock, and silver laptop?\"}",
+    10,
+    null
+  ],
+  "response": "PASS"
+}

@@ -1,0 +1,4605 @@
+{
+  "baseline": "ordinary",
+  "variant": "unseen",
+  "split": "development",
+  "control": {
+    "hits": [
+      0,
+      8,
+      12,
+      15,
+      17,
+      17,
+      18,
+      18,
+      18,
+      18,
+      18
+    ],
+    "questions": 59,
+    "primary": 0.6900000000000001,
+    "displayed": 790,
+    "evidence_slots": 590,
+    "unique_evidence_summed_by_dialogue": 354,
+    "verified_screens": 0,
+    "swaps": 0,
+    "immediate_hits_gained": 0,
+    "immediate_hits_lost": 0,
+    "wall_seconds": 1.6941010432783514
+  },
+  "treatment": {
+    "hits": [
+      0,
+      10,
+      12,
+      12,
+      14,
+      16,
+      16,
+      16,
+      16,
+      16,
+      17
+    ],
+    "questions": 72,
+    "primary": 0.64,
+    "displayed": 920,
+    "evidence_slots": 720,
+    "unique_evidence_summed_by_dialogue": 587,
+    "verified_screens": 0,
+    "swaps": 0,
+    "immediate_hits_gained": 0,
+    "immediate_hits_lost": 0,
+    "wall_seconds": 1023.9047443766613
+  },
+  "paired": {
+    "earlier": 8,
+    "later": 6,
+    "tied": 6
+  },
+  "primary_delta": -0.05,
+  "paired_bootstrap_95": [
+    -0.26,
+    0.15
+  ],
+  "gained": [
+    1111
+  ],
+  "lost": [
+    343,
+    2003
+  ],
+  "per_dialogue": [
+    {
+      "qid": 1510,
+      "control": 3,
+      "variant": 2,
+      "display": {
+        "variant": {
+          "round": 1,
+          "query": "a man playing tennis in a stadium",
+          "screen": [
+            11701,
+            16211,
+            3103,
+            29812,
+            40176,
+            33703,
+            1694,
+            7217,
+            46194,
+            48939
+          ],
+          "raw_rank": 39,
+          "rank": 38,
+          "evidence": [
+            13032,
+            46270,
+            7218,
+            25804,
+            45131,
+            6069,
+            34802,
+            20030,
+            2607,
+            46400
+          ],
+          "question": "what color is the shirt of the man playing tennis?",
+          "answer": "black",
+          "rewrite": "a man in a black shirt plays tennis in a stadium",
+          "first": 2,
+          "ranks": [
+            613,
+            38,
+            5
+          ]
+        },
+        "control": {
+          "round": 1,
+          "query": "a man on a tennis court attempts to hit a tennis ball",
+          "screen": [
+            7005,
+            38219,
+            20940,
+            21343,
+            46157,
+            22305,
+            18106,
+            2758,
+            3707,
+            13159
+          ],
+          "raw_rank": 377,
+          "rank": 367,
+          "evidence": [
+            7005,
+            38219,
+            36476,
+            20940,
+            27844,
+            93,
+            21343,
+            46157,
+            22305,
+            18106
+          ],
+          "question": "what is the man wearing?",
+          "answer": "dark blue shirt and shorts",
+          "rewrite": "a man in a dark blue shirt and shorts hits a tennis ball on a tennis court",
+          "first": 3,
+          "ranks": [
+            613,
+            367,
+            92,
+            9
+          ]
+        }
+      },
+      "evidence": {
+        "variant": {
+          "round": 0,
+          "query": "a tennis player attempts to hit a tennis ball",
+          "screen": [
+            29971,
+            36476,
+            13218,
+            93,
+            27844,
+            29281,
+            32025,
+            46523,
+            40104,
+            40397
+          ],
+          "raw_rank": 613,
+          "rank": 613,
+          "evidence": [
+            21343,
+            48095,
+            17183,
+            4722,
+            46157,
+            10629,
+            44394,
+            34402,
+            30317,
+            43266
+          ],
+          "question": "Question: Where is the man playing tennis?",
+          "answer": "stadium",
+          "rewrite": "a man playing tennis in a stadium",
+          "first": 2,
+          "ranks": [
+            613,
+            38,
+            5
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "a tennis player attempts to hit a tennis ball",
+          "screen": [
+            29971,
+            36476,
+            13218,
+            93,
+            27844,
+            29281,
+            32025,
+            46523,
+            40104,
+            40397
+          ],
+          "raw_rank": 613,
+          "rank": 613,
+          "evidence": [
+            29971,
+            36476,
+            13218,
+            93,
+            27844,
+            29281,
+            32025,
+            46523,
+            40104,
+            40397
+          ],
+          "question": "Question: Where is the man hitting the tennis ball located?",
+          "answer": "On a tennis court.",
+          "rewrite": "a man on a tennis court attempts to hit a tennis ball",
+          "first": 3,
+          "ranks": [
+            613,
+            367,
+            92,
+            9
+          ]
+        }
+      },
+      "question": {
+        "variant": {
+          "round": 0,
+          "query": "a tennis player attempts to hit a tennis ball",
+          "screen": [
+            29971,
+            36476,
+            13218,
+            93,
+            27844,
+            29281,
+            32025,
+            46523,
+            40104,
+            40397
+          ],
+          "raw_rank": 613,
+          "rank": 613,
+          "evidence": [
+            21343,
+            48095,
+            17183,
+            4722,
+            46157,
+            10629,
+            44394,
+            34402,
+            30317,
+            43266
+          ],
+          "question": "Question: Where is the man playing tennis?",
+          "answer": "stadium",
+          "rewrite": "a man playing tennis in a stadium",
+          "first": 2,
+          "ranks": [
+            613,
+            38,
+            5
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "a tennis player attempts to hit a tennis ball",
+          "screen": [
+            29971,
+            36476,
+            13218,
+            93,
+            27844,
+            29281,
+            32025,
+            46523,
+            40104,
+            40397
+          ],
+          "raw_rank": 613,
+          "rank": 613,
+          "evidence": [
+            29971,
+            36476,
+            13218,
+            93,
+            27844,
+            29281,
+            32025,
+            46523,
+            40104,
+            40397
+          ],
+          "question": "Question: Where is the man hitting the tennis ball located?",
+          "answer": "On a tennis court.",
+          "rewrite": "a man on a tennis court attempts to hit a tennis ball",
+          "first": 3,
+          "ranks": [
+            613,
+            367,
+            92,
+            9
+          ]
+        }
+      }
+    },
+    {
+      "qid": 343,
+      "control": 1,
+      "variant": 11,
+      "display": {
+        "variant": {
+          "round": 1,
+          "query": "an assortment of different foods on a wooden table",
+          "screen": [
+            22179,
+            41908,
+            9128,
+            19097,
+            37592,
+            19447,
+            20662,
+            38249,
+            9664,
+            45214
+          ],
+          "raw_rank": 56,
+          "rank": 51,
+          "evidence": [
+            2434,
+            110,
+            41550,
+            585,
+            23001,
+            46143,
+            7155,
+            13730,
+            43545,
+            17468
+          ],
+          "question": "what are the specific items of food present on the table?",
+          "answer": "Based on the image, the specific items of food present on the table are:\n\n1.  **A main dish:** A plate with a small portion of reddish-brown food, possibly a sauce or a small piece of meat.",
+          "rewrite": "an assortment of different foods on a wooden table, featuring a main dish with a small portion of reddish-brown food, possibly a sauce or a small piece of meat",
+          "first": 11,
+          "ranks": [
+            37,
+            51,
+            101,
+            446,
+            67,
+            227,
+            200,
+            26,
+            41,
+            69,
+            30
+          ]
+        },
+        "control": {
+          "round": 1,
+          "query": "an assortment of different foods, specifically salad, displayed on a table",
+          "screen": [
+            12376,
+            9670,
+            24154,
+            16647,
+            48875,
+            15403,
+            38248,
+            9144,
+            38249,
+            6862
+          ],
+          "raw_rank": 8,
+          "rank": 6,
+          "evidence": null,
+          "question": null,
+          "answer": null,
+          "rewrite": null,
+          "first": 1,
+          "ranks": [
+            37,
+            6
+          ]
+        }
+      },
+      "evidence": {
+        "variant": {
+          "round": 0,
+          "query": "an assortment of different foods on a table",
+          "screen": [
+            25619,
+            17763,
+            153,
+            18545,
+            30937,
+            46118,
+            21393,
+            3466,
+            29120,
+            6971
+          ],
+          "raw_rank": 37,
+          "rank": 37,
+          "evidence": [
+            13730,
+            12365,
+            36845,
+            4926,
+            1069,
+            22179,
+            12740,
+            41550,
+            19447,
+            49054
+          ],
+          "question": "what is the material of the table holding the assortment of different foods?",
+          "answer": "wood",
+          "rewrite": "an assortment of different foods on a wooden table",
+          "first": 11,
+          "ranks": [
+            37,
+            51,
+            101,
+            446,
+            67,
+            227,
+            200,
+            26,
+            41,
+            69,
+            30
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "an assortment of different foods on a table",
+          "screen": [
+            25619,
+            17763,
+            153,
+            18545,
+            30937,
+            46118,
+            21393,
+            3466,
+            29120,
+            6971
+          ],
+          "raw_rank": 37,
+          "rank": 37,
+          "evidence": [
+            25619,
+            17763,
+            153,
+            18545,
+            30937,
+            46118,
+            21393,
+            29120,
+            3466,
+            6971
+          ],
+          "question": "what is the specific type of food displayed on the table?",
+          "answer": "salad",
+          "rewrite": "an assortment of different foods, specifically salad, displayed on a table",
+          "first": 1,
+          "ranks": [
+            37,
+            6
+          ]
+        }
+      },
+      "question": {
+        "variant": {
+          "round": 0,
+          "query": "an assortment of different foods on a table",
+          "screen": [
+            25619,
+            17763,
+            153,
+            18545,
+            30937,
+            46118,
+            21393,
+            3466,
+            29120,
+            6971
+          ],
+          "raw_rank": 37,
+          "rank": 37,
+          "evidence": [
+            13730,
+            12365,
+            36845,
+            4926,
+            1069,
+            22179,
+            12740,
+            41550,
+            19447,
+            49054
+          ],
+          "question": "what is the material of the table holding the assortment of different foods?",
+          "answer": "wood",
+          "rewrite": "an assortment of different foods on a wooden table",
+          "first": 11,
+          "ranks": [
+            37,
+            51,
+            101,
+            446,
+            67,
+            227,
+            200,
+            26,
+            41,
+            69,
+            30
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "an assortment of different foods on a table",
+          "screen": [
+            25619,
+            17763,
+            153,
+            18545,
+            30937,
+            46118,
+            21393,
+            3466,
+            29120,
+            6971
+          ],
+          "raw_rank": 37,
+          "rank": 37,
+          "evidence": [
+            25619,
+            17763,
+            153,
+            18545,
+            30937,
+            46118,
+            21393,
+            29120,
+            3466,
+            6971
+          ],
+          "question": "what is the specific type of food displayed on the table?",
+          "answer": "salad",
+          "rewrite": "an assortment of different foods, specifically salad, displayed on a table",
+          "first": 1,
+          "ranks": [
+            37,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "qid": 2019,
+      "control": 1,
+      "variant": 1,
+      "evidence": {
+        "variant": {
+          "round": 0,
+          "query": "the lady in the black shirt and shorts prepares to hit the green tennis ball with a racket",
+          "screen": [
+            16788,
+            4550,
+            5580,
+            9327,
+            2712,
+            14975,
+            35640,
+            42508,
+            39559,
+            6693
+          ],
+          "raw_rank": 12,
+          "rank": 12,
+          "evidence": [
+            21862,
+            17844,
+            41690,
+            3625,
+            32161,
+            336,
+            43604,
+            45582,
+            14058,
+            6128
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "tennis ball",
+          "rewrite": "a lady in a black shirt and shorts prepares to hit a green tennis ball with a racket",
+          "first": 1,
+          "ranks": [
+            12,
+            1
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "the lady in the black shirt and shorts prepares to hit the green tennis ball with a racket",
+          "screen": [
+            16788,
+            4550,
+            5580,
+            9327,
+            2712,
+            14975,
+            35640,
+            42508,
+            39559,
+            6693
+          ],
+          "raw_rank": 12,
+          "rank": 12,
+          "evidence": [
+            16788,
+            4550,
+            5580,
+            9327,
+            2712,
+            14975,
+            35640,
+            42508,
+            39559,
+            6693
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "tennis ball",
+          "rewrite": "a lady in a black shirt and shorts prepares to hit a green tennis ball with a racket",
+          "first": 1,
+          "ranks": [
+            12,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "qid": 541,
+      "control": 1,
+      "variant": 2,
+      "display": {
+        "variant": {
+          "round": 1,
+          "query": "a boy and a male couple riding atop an elephant",
+          "screen": [
+            19536,
+            45150,
+            5764,
+            28245,
+            38436,
+            7416,
+            22083,
+            43285,
+            49406,
+            43544
+          ],
+          "raw_rank": 39,
+          "rank": 29,
+          "evidence": [
+            28943,
+            3678,
+            10195,
+            37055,
+            22467,
+            3761,
+            25121,
+            9182,
+            10339,
+            19599
+          ],
+          "question": "what is the location where the boy and the couple are riding the elephant?",
+          "answer": "lake",
+          "rewrite": "a boy and a male couple riding atop an elephant at a lake",
+          "first": 2,
+          "ranks": [
+            60,
+            29,
+            7
+          ]
+        },
+        "control": {
+          "round": 1,
+          "query": "a boy and a couple riding atop an elephant with a lake in the background",
+          "screen": [
+            5764,
+            39881,
+            22012,
+            3761,
+            6790,
+            37055,
+            28245,
+            43544,
+            28008,
+            45150
+          ],
+          "raw_rank": 2,
+          "rank": 2,
+          "evidence": null,
+          "question": null,
+          "answer": null,
+          "rewrite": null,
+          "first": 1,
+          "ranks": [
+            60,
+            2
+          ]
+        }
+      },
+      "evidence": {
+        "variant": {
+          "round": 0,
+          "query": "a boy and couple riding atop on elephant",
+          "screen": [
+            46016,
+            6356,
+            36978,
+            48041,
+            20580,
+            47580,
+            44515,
+            12949,
+            46533,
+            17397
+          ],
+          "raw_rank": 60,
+          "rank": 60,
+          "evidence": [
+            38436,
+            28245,
+            22083,
+            9182,
+            19536,
+            45150,
+            5764,
+            37055,
+            3761,
+            10195
+          ],
+          "question": "what is the gender of the couple riding the elephant?",
+          "answer": "male",
+          "rewrite": "a boy and a male couple riding atop an elephant",
+          "first": 2,
+          "ranks": [
+            60,
+            29,
+            7
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "a boy and couple riding atop on elephant",
+          "screen": [
+            46016,
+            6356,
+            36978,
+            48041,
+            20580,
+            47580,
+            44515,
+            12949,
+            46533,
+            17397
+          ],
+          "raw_rank": 60,
+          "rank": 60,
+          "evidence": [
+            46016,
+            6356,
+            36978,
+            48041,
+            20580,
+            47580,
+            44515,
+            12949,
+            46533,
+            17397
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "a lake",
+          "rewrite": "a boy and a couple riding atop an elephant with a lake in the background",
+          "first": 1,
+          "ranks": [
+            60,
+            2
+          ]
+        }
+      },
+      "question": {
+        "variant": {
+          "round": 0,
+          "query": "a boy and couple riding atop on elephant",
+          "screen": [
+            46016,
+            6356,
+            36978,
+            48041,
+            20580,
+            47580,
+            44515,
+            12949,
+            46533,
+            17397
+          ],
+          "raw_rank": 60,
+          "rank": 60,
+          "evidence": [
+            38436,
+            28245,
+            22083,
+            9182,
+            19536,
+            45150,
+            5764,
+            37055,
+            3761,
+            10195
+          ],
+          "question": "what is the gender of the couple riding the elephant?",
+          "answer": "male",
+          "rewrite": "a boy and a male couple riding atop an elephant",
+          "first": 2,
+          "ranks": [
+            60,
+            29,
+            7
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "a boy and couple riding atop on elephant",
+          "screen": [
+            46016,
+            6356,
+            36978,
+            48041,
+            20580,
+            47580,
+            44515,
+            12949,
+            46533,
+            17397
+          ],
+          "raw_rank": 60,
+          "rank": 60,
+          "evidence": [
+            46016,
+            6356,
+            36978,
+            48041,
+            20580,
+            47580,
+            44515,
+            12949,
+            46533,
+            17397
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "a lake",
+          "rewrite": "a boy and a couple riding atop an elephant with a lake in the background",
+          "first": 1,
+          "ranks": [
+            60,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "qid": 1914,
+      "control": 3,
+      "variant": 1,
+      "display": {
+        "variant": {
+          "round": 1,
+          "query": "a man performing a backhand with a professional tennis racket on clay courts",
+          "screen": [
+            93,
+            43723,
+            39459,
+            8137,
+            16240,
+            14138,
+            44971,
+            19343,
+            11031,
+            41178
+          ],
+          "raw_rank": 18,
+          "rank": 10,
+          "evidence": null,
+          "question": null,
+          "answer": null,
+          "rewrite": null,
+          "first": 1,
+          "ranks": [
+            41,
+            10
+          ]
+        },
+        "control": {
+          "round": 1,
+          "query": "a man playing professional tennis at the Roland Garros tournament on clay courts",
+          "screen": [
+            44971,
+            11031,
+            8640,
+            3979,
+            93,
+            25703,
+            25217,
+            34042,
+            8137,
+            17467
+          ],
+          "raw_rank": 28,
+          "rank": 21,
+          "evidence": [
+            4722,
+            40679,
+            13218,
+            27844,
+            44971,
+            16211,
+            17013,
+            11031,
+            8640,
+            3979
+          ],
+          "question": "what is the specific type of tennis court surface the man is playing on?",
+          "answer": "clay",
+          "rewrite": "a man playing professional tennis on clay courts at the Roland Garros tournament",
+          "first": 3,
+          "ranks": [
+            41,
+            21,
+            14,
+            1
+          ]
+        }
+      },
+      "evidence": {
+        "variant": {
+          "round": 0,
+          "query": "a man playing professional tennis on clay courts",
+          "screen": [
+            27844,
+            4722,
+            16211,
+            40679,
+            46157,
+            17013,
+            18037,
+            13218,
+            43495,
+            28743
+          ],
+          "raw_rank": 41,
+          "rank": 41,
+          "evidence": [
+            31597,
+            11600,
+            8640,
+            25217,
+            93,
+            40397,
+            19343,
+            43723,
+            25703,
+            34042
+          ],
+          "question": "what is the type of trick the man is performing on the tennis racket?",
+          "answer": "backhand",
+          "rewrite": "a man performing a backhand with a professional tennis racket on clay courts",
+          "first": 1,
+          "ranks": [
+            41,
+            10
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "a man playing professional tennis on clay courts",
+          "screen": [
+            27844,
+            4722,
+            16211,
+            40679,
+            46157,
+            17013,
+            18037,
+            13218,
+            43495,
+            28743
+          ],
+          "raw_rank": 41,
+          "rank": 41,
+          "evidence": [
+            27844,
+            16211,
+            4722,
+            46157,
+            40679,
+            17013,
+            18037,
+            13218,
+            43495,
+            28743
+          ],
+          "question": "what is the name of the specific clay court tournament the man is playing in?",
+          "answer": "roland garros",
+          "rewrite": "a man playing professional tennis at the Roland Garros tournament on clay courts",
+          "first": 3,
+          "ranks": [
+            41,
+            21,
+            14,
+            1
+          ]
+        }
+      },
+      "question": {
+        "variant": {
+          "round": 0,
+          "query": "a man playing professional tennis on clay courts",
+          "screen": [
+            27844,
+            4722,
+            16211,
+            40679,
+            46157,
+            17013,
+            18037,
+            13218,
+            43495,
+            28743
+          ],
+          "raw_rank": 41,
+          "rank": 41,
+          "evidence": [
+            31597,
+            11600,
+            8640,
+            25217,
+            93,
+            40397,
+            19343,
+            43723,
+            25703,
+            34042
+          ],
+          "question": "what is the type of trick the man is performing on the tennis racket?",
+          "answer": "backhand",
+          "rewrite": "a man performing a backhand with a professional tennis racket on clay courts",
+          "first": 1,
+          "ranks": [
+            41,
+            10
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "a man playing professional tennis on clay courts",
+          "screen": [
+            27844,
+            4722,
+            16211,
+            40679,
+            46157,
+            17013,
+            18037,
+            13218,
+            43495,
+            28743
+          ],
+          "raw_rank": 41,
+          "rank": 41,
+          "evidence": [
+            27844,
+            16211,
+            4722,
+            46157,
+            40679,
+            17013,
+            18037,
+            13218,
+            43495,
+            28743
+          ],
+          "question": "what is the name of the specific clay court tournament the man is playing in?",
+          "answer": "roland garros",
+          "rewrite": "a man playing professional tennis at the Roland Garros tournament on clay courts",
+          "first": 3,
+          "ranks": [
+            41,
+            21,
+            14,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "qid": 1466,
+      "control": 4,
+      "variant": 4,
+      "display": {
+        "variant": {
+          "round": 1,
+          "query": "a group of motorcycles parked in a parking lot, arranged in a somewhat organized manner with some lined up in rows and others scattered",
+          "screen": [
+            7678,
+            27513,
+            13207,
+            29479,
+            21584,
+            40212,
+            49346,
+            25396,
+            40132,
+            38475
+          ],
+          "raw_rank": 27,
+          "rank": 18,
+          "evidence": [
+            7885,
+            44473,
+            8007,
+            22387,
+            3456,
+            42105,
+            4225,
+            26388,
+            32557,
+            36654
+          ],
+          "question": "what type of motorcycles are parked in the lot?",
+          "answer": "motorcycles",
+          "rewrite": "a group of motorcycles parked in a parking lot in a somewhat organized manner, with some lined up in rows and others more scattered",
+          "first": 4,
+          "ranks": [
+            67,
+            18,
+            15,
+            18,
+            1
+          ]
+        },
+        "control": {
+          "round": 1,
+          "query": "a group of black motorcycles parked in a parking lot",
+          "screen": [
+            27513,
+            32557,
+            10023,
+            38768,
+            29501,
+            41464,
+            49543,
+            40132,
+            13546,
+            19707
+          ],
+          "raw_rank": 95,
+          "rank": 85,
+          "evidence": [
+            25630,
+            27513,
+            32557,
+            38493,
+            41709,
+            10023,
+            32612,
+            16388,
+            43543,
+            38768
+          ],
+          "question": "what is the surface material of the parking lot where the black motorcycles are parked?",
+          "answer": "concrete",
+          "rewrite": "a group of black motorcycles parked on a concrete surface in a parking lot",
+          "first": 4,
+          "ranks": [
+            67,
+            85,
+            42,
+            36,
+            1
+          ]
+        }
+      },
+      "evidence": {
+        "variant": {
+          "round": 0,
+          "query": "a group of motorcycles parked in a parking lot",
+          "screen": [
+            32612,
+            25630,
+            16388,
+            38493,
+            25127,
+            41709,
+            24848,
+            8009,
+            30642,
+            43543
+          ],
+          "raw_rank": 67,
+          "rank": 67,
+          "evidence": [
+            32557,
+            29765,
+            7885,
+            13883,
+            40660,
+            27522,
+            7678,
+            49543,
+            41464,
+            40132
+          ],
+          "question": "what is the specific arrangement of the motorcycles in the parking lot?",
+          "answer": "The motorcycles are parked in a somewhat organized manner, with some lined up in rows and others more scattered.",
+          "rewrite": "a group of motorcycles parked in a parking lot, arranged in a somewhat organized manner with some lined up in rows and others scattered",
+          "first": 4,
+          "ranks": [
+            67,
+            18,
+            15,
+            18,
+            1
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "a group of motorcycles parked in a parking lot",
+          "screen": [
+            32612,
+            25630,
+            16388,
+            38493,
+            25127,
+            41709,
+            24848,
+            8009,
+            30642,
+            43543
+          ],
+          "raw_rank": 67,
+          "rank": 67,
+          "evidence": [
+            32612,
+            16388,
+            25630,
+            38493,
+            25127,
+            41709,
+            24848,
+            8009,
+            30642,
+            43543
+          ],
+          "question": "what color are the motorcycles parked in the parking lot?",
+          "answer": "black",
+          "rewrite": "a group of black motorcycles parked in a parking lot",
+          "first": 4,
+          "ranks": [
+            67,
+            85,
+            42,
+            36,
+            1
+          ]
+        }
+      },
+      "question": {
+        "variant": {
+          "round": 0,
+          "query": "a group of motorcycles parked in a parking lot",
+          "screen": [
+            32612,
+            25630,
+            16388,
+            38493,
+            25127,
+            41709,
+            24848,
+            8009,
+            30642,
+            43543
+          ],
+          "raw_rank": 67,
+          "rank": 67,
+          "evidence": [
+            32557,
+            29765,
+            7885,
+            13883,
+            40660,
+            27522,
+            7678,
+            49543,
+            41464,
+            40132
+          ],
+          "question": "what is the specific arrangement of the motorcycles in the parking lot?",
+          "answer": "The motorcycles are parked in a somewhat organized manner, with some lined up in rows and others more scattered.",
+          "rewrite": "a group of motorcycles parked in a parking lot, arranged in a somewhat organized manner with some lined up in rows and others scattered",
+          "first": 4,
+          "ranks": [
+            67,
+            18,
+            15,
+            18,
+            1
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "a group of motorcycles parked in a parking lot",
+          "screen": [
+            32612,
+            25630,
+            16388,
+            38493,
+            25127,
+            41709,
+            24848,
+            8009,
+            30642,
+            43543
+          ],
+          "raw_rank": 67,
+          "rank": 67,
+          "evidence": [
+            32612,
+            16388,
+            25630,
+            38493,
+            25127,
+            41709,
+            24848,
+            8009,
+            30642,
+            43543
+          ],
+          "question": "what color are the motorcycles parked in the parking lot?",
+          "answer": "black",
+          "rewrite": "a group of black motorcycles parked in a parking lot",
+          "first": 4,
+          "ranks": [
+            67,
+            85,
+            42,
+            36,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "qid": 701,
+      "control": 4,
+      "variant": 1,
+      "display": {
+        "variant": {
+          "round": 1,
+          "query": "a yellow building housing a red lobster restaurant, with a one-way sign and street light visible, and a man in an orange shirt walking toward the entrance",
+          "screen": [
+            14402,
+            27853,
+            6566,
+            12108,
+            48840,
+            30285,
+            28202,
+            22394,
+            18024,
+            8765
+          ],
+          "raw_rank": 2,
+          "rank": 2,
+          "evidence": null,
+          "question": null,
+          "answer": null,
+          "rewrite": null,
+          "first": 1,
+          "ranks": [
+            33,
+            2
+          ]
+        },
+        "control": {
+          "round": 1,
+          "query": "image of a red lobster restaurant from the street, featuring a one-way sign, a street light, and a traffic light, with a man in an orange shirt walking toward the entrance",
+          "screen": [
+            28949,
+            3203,
+            26523,
+            17692,
+            45457,
+            2736,
+            43042,
+            47348,
+            48840,
+            20555
+          ],
+          "raw_rank": 36,
+          "rank": 26,
+          "evidence": [
+            17087,
+            28449,
+            11635,
+            28949,
+            24819,
+            29472,
+            3203,
+            26523,
+            3530,
+            17692
+          ],
+          "question": "what is the building in the image made of?",
+          "answer": "wood",
+          "rewrite": "image of a red lobster restaurant made of wood, with a one-way sign, street light, and traffic light visible, and a man in an orange shirt walking toward the entrance",
+          "first": 4,
+          "ranks": [
+            33,
+            26,
+            20,
+            24,
+            7
+          ]
+        }
+      },
+      "evidence": {
+        "variant": {
+          "round": 0,
+          "query": "image of a red lobster restaurant from a street a one-way sign and street light is visible, and a man in an orange shirt is walking toward the entrance",
+          "screen": [
+            11635,
+            17087,
+            28449,
+            13199,
+            22839,
+            3530,
+            24819,
+            43807,
+            40955,
+            29472
+          ],
+          "raw_rank": 33,
+          "rank": 33,
+          "evidence": [
+            3203,
+            34828,
+            43042,
+            36378,
+            45907,
+            20555,
+            17692,
+            22473,
+            12108,
+            45457
+          ],
+          "question": "what is the color of the building in the image?",
+          "answer": "yellow",
+          "rewrite": "a yellow building housing a red lobster restaurant, with a one-way sign and street light visible, and a man in an orange shirt walking toward the entrance",
+          "first": 1,
+          "ranks": [
+            33,
+            2
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "image of a red lobster restaurant from a street a one-way sign and street light is visible, and a man in an orange shirt is walking toward the entrance",
+          "screen": [
+            11635,
+            17087,
+            28449,
+            13199,
+            22839,
+            3530,
+            24819,
+            43807,
+            40955,
+            29472
+          ],
+          "raw_rank": 33,
+          "rank": 33,
+          "evidence": [
+            11635,
+            28449,
+            17087,
+            13199,
+            22839,
+            3530,
+            24819,
+            43807,
+            40955,
+            3203
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "traffic light",
+          "rewrite": "image of a red lobster restaurant from the street, featuring a one-way sign, a street light, and a traffic light, with a man in an orange shirt walking toward the entrance",
+          "first": 4,
+          "ranks": [
+            33,
+            26,
+            20,
+            24,
+            7
+          ]
+        }
+      },
+      "question": {
+        "variant": {
+          "round": 0,
+          "query": "image of a red lobster restaurant from a street a one-way sign and street light is visible, and a man in an orange shirt is walking toward the entrance",
+          "screen": [
+            11635,
+            17087,
+            28449,
+            13199,
+            22839,
+            3530,
+            24819,
+            43807,
+            40955,
+            29472
+          ],
+          "raw_rank": 33,
+          "rank": 33,
+          "evidence": [
+            3203,
+            34828,
+            43042,
+            36378,
+            45907,
+            20555,
+            17692,
+            22473,
+            12108,
+            45457
+          ],
+          "question": "what is the color of the building in the image?",
+          "answer": "yellow",
+          "rewrite": "a yellow building housing a red lobster restaurant, with a one-way sign and street light visible, and a man in an orange shirt walking toward the entrance",
+          "first": 1,
+          "ranks": [
+            33,
+            2
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "image of a red lobster restaurant from a street a one-way sign and street light is visible, and a man in an orange shirt is walking toward the entrance",
+          "screen": [
+            11635,
+            17087,
+            28449,
+            13199,
+            22839,
+            3530,
+            24819,
+            43807,
+            40955,
+            29472
+          ],
+          "raw_rank": 33,
+          "rank": 33,
+          "evidence": [
+            11635,
+            28449,
+            17087,
+            13199,
+            22839,
+            3530,
+            24819,
+            43807,
+            40955,
+            3203
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "traffic light",
+          "rewrite": "image of a red lobster restaurant from the street, featuring a one-way sign, a street light, and a traffic light, with a man in an orange shirt walking toward the entrance",
+          "first": 4,
+          "ranks": [
+            33,
+            26,
+            20,
+            24,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "qid": 176,
+      "control": 2,
+      "variant": 1,
+      "display": {
+        "variant": {
+          "round": 1,
+          "query": "two kites flying over the sand by the ocean shore under a blue sky",
+          "screen": [
+            5718,
+            46329,
+            24274,
+            397,
+            13478,
+            29952,
+            14960,
+            41977,
+            18139,
+            5493
+          ],
+          "raw_rank": 9,
+          "rank": 2,
+          "evidence": null,
+          "question": null,
+          "answer": null,
+          "rewrite": null,
+          "first": 1,
+          "ranks": [
+            13,
+            2
+          ]
+        },
+        "control": {
+          "round": 1,
+          "query": "two kites flying over brown sand by the ocean shore",
+          "screen": [
+            23942,
+            19260,
+            20782,
+            39552,
+            5950,
+            5493,
+            24480,
+            13478,
+            49587,
+            41379
+          ],
+          "raw_rank": 19,
+          "rank": 11,
+          "evidence": [
+            3698,
+            23942,
+            19260,
+            20782,
+            19556,
+            39552,
+            34732,
+            5950,
+            27782,
+            24480
+          ],
+          "question": "what is the color of the sky in the image?",
+          "answer": "blue",
+          "rewrite": "two kites flying over brown sand by the ocean shore under a blue sky",
+          "first": 2,
+          "ranks": [
+            13,
+            11,
+            2
+          ]
+        }
+      },
+      "evidence": {
+        "variant": {
+          "round": 0,
+          "query": "2 kites flying over the sand by the ocean shore",
+          "screen": [
+            3698,
+            43869,
+            34732,
+            7120,
+            19556,
+            27782,
+            17329,
+            13169,
+            45031,
+            16730
+          ],
+          "raw_rank": 13,
+          "rank": 13,
+          "evidence": [
+            23942,
+            5718,
+            397,
+            46329,
+            19260,
+            18139,
+            5493,
+            49587,
+            29952,
+            24480
+          ],
+          "question": "what is the color of the sky in the image where two kites are flying?",
+          "answer": "blue",
+          "rewrite": "two kites flying over the sand by the ocean shore under a blue sky",
+          "first": 1,
+          "ranks": [
+            13,
+            2
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "2 kites flying over the sand by the ocean shore",
+          "screen": [
+            3698,
+            43869,
+            34732,
+            7120,
+            19556,
+            27782,
+            17329,
+            13169,
+            45031,
+            16730
+          ],
+          "raw_rank": 13,
+          "rank": 13,
+          "evidence": [
+            3698,
+            43869,
+            34732,
+            7120,
+            19556,
+            27782,
+            17329,
+            13169,
+            45031,
+            16730
+          ],
+          "question": "what is the color of the sand in the image?",
+          "answer": "brown",
+          "rewrite": "two kites flying over brown sand by the ocean shore",
+          "first": 2,
+          "ranks": [
+            13,
+            11,
+            2
+          ]
+        }
+      },
+      "question": {
+        "variant": {
+          "round": 0,
+          "query": "2 kites flying over the sand by the ocean shore",
+          "screen": [
+            3698,
+            43869,
+            34732,
+            7120,
+            19556,
+            27782,
+            17329,
+            13169,
+            45031,
+            16730
+          ],
+          "raw_rank": 13,
+          "rank": 13,
+          "evidence": [
+            23942,
+            5718,
+            397,
+            46329,
+            19260,
+            18139,
+            5493,
+            49587,
+            29952,
+            24480
+          ],
+          "question": "what is the color of the sky in the image where two kites are flying?",
+          "answer": "blue",
+          "rewrite": "two kites flying over the sand by the ocean shore under a blue sky",
+          "first": 1,
+          "ranks": [
+            13,
+            2
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "2 kites flying over the sand by the ocean shore",
+          "screen": [
+            3698,
+            43869,
+            34732,
+            7120,
+            19556,
+            27782,
+            17329,
+            13169,
+            45031,
+            16730
+          ],
+          "raw_rank": 13,
+          "rank": 13,
+          "evidence": [
+            3698,
+            43869,
+            34732,
+            7120,
+            19556,
+            27782,
+            17329,
+            13169,
+            45031,
+            16730
+          ],
+          "question": "what is the color of the sand in the image?",
+          "answer": "brown",
+          "rewrite": "two kites flying over brown sand by the ocean shore",
+          "first": 2,
+          "ranks": [
+            13,
+            11,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "qid": 1004,
+      "control": 2,
+      "variant": 4,
+      "display": {
+        "variant": {
+          "round": 1,
+          "query": "4 people in winter gear standing on a snowy slope with skis",
+          "screen": [
+            7049,
+            9216,
+            22058,
+            33561,
+            3744,
+            12761,
+            25752,
+            4711,
+            46018,
+            2318
+          ],
+          "raw_rank": 39,
+          "rank": 29,
+          "evidence": [
+            21012,
+            47243,
+            47986,
+            9062,
+            11214,
+            10153,
+            1479,
+            19596,
+            30739,
+            47124
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "ski poles",
+          "rewrite": "four people in winter gear standing on a snowy slope with skis and ski poles",
+          "first": 4,
+          "ranks": [
+            30,
+            29,
+            21,
+            11,
+            4
+          ]
+        },
+        "control": {
+          "round": 1,
+          "query": "4 people wearing coats standing on a snowy slope with skis",
+          "screen": [
+            7049,
+            12761,
+            22058,
+            9216,
+            46018,
+            25752,
+            2318,
+            33561,
+            21149,
+            2641
+          ],
+          "raw_rank": 45,
+          "rank": 35,
+          "evidence": [
+            7049,
+            49086,
+            5946,
+            41155,
+            4773,
+            16375,
+            12761,
+            22140,
+            23528,
+            3821
+          ],
+          "question": "what color are the coats worn by the people on the skis?",
+          "answer": "black, red, blue, and green",
+          "rewrite": "four people wearing black, red, blue, and green coats stand on a snowy slope with skis",
+          "first": 2,
+          "ranks": [
+            30,
+            35,
+            10
+          ]
+        }
+      },
+      "evidence": {
+        "variant": {
+          "round": 0,
+          "query": "4 people standing on a snowy slope with skis",
+          "screen": [
+            41155,
+            16375,
+            49086,
+            29955,
+            5946,
+            23528,
+            4773,
+            21479,
+            3821,
+            22140
+          ],
+          "raw_rank": 30,
+          "rank": 30,
+          "evidence": [
+            46018,
+            7049,
+            25752,
+            9216,
+            22058,
+            4711,
+            2318,
+            3744,
+            11214,
+            12761
+          ],
+          "question": "what are the skiers wearing?",
+          "answer": "winter gear",
+          "rewrite": "4 people in winter gear standing on a snowy slope with skis",
+          "first": 4,
+          "ranks": [
+            30,
+            29,
+            21,
+            11,
+            4
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "4 people standing on a snowy slope with skis",
+          "screen": [
+            41155,
+            16375,
+            49086,
+            29955,
+            5946,
+            23528,
+            4773,
+            21479,
+            3821,
+            22140
+          ],
+          "raw_rank": 30,
+          "rank": 30,
+          "evidence": [
+            41155,
+            16375,
+            49086,
+            29955,
+            5946,
+            23528,
+            21479,
+            4773,
+            3821,
+            22140
+          ],
+          "question": "Question: Are there any people standing on the snowy slope who are not wearing coats?",
+          "answer": "No.",
+          "rewrite": "4 people wearing coats standing on a snowy slope with skis",
+          "first": 2,
+          "ranks": [
+            30,
+            35,
+            10
+          ]
+        }
+      },
+      "question": {
+        "variant": {
+          "round": 0,
+          "query": "4 people standing on a snowy slope with skis",
+          "screen": [
+            41155,
+            16375,
+            49086,
+            29955,
+            5946,
+            23528,
+            4773,
+            21479,
+            3821,
+            22140
+          ],
+          "raw_rank": 30,
+          "rank": 30,
+          "evidence": [
+            46018,
+            7049,
+            25752,
+            9216,
+            22058,
+            4711,
+            2318,
+            3744,
+            11214,
+            12761
+          ],
+          "question": "what are the skiers wearing?",
+          "answer": "winter gear",
+          "rewrite": "4 people in winter gear standing on a snowy slope with skis",
+          "first": 4,
+          "ranks": [
+            30,
+            29,
+            21,
+            11,
+            4
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "4 people standing on a snowy slope with skis",
+          "screen": [
+            41155,
+            16375,
+            49086,
+            29955,
+            5946,
+            23528,
+            4773,
+            21479,
+            3821,
+            22140
+          ],
+          "raw_rank": 30,
+          "rank": 30,
+          "evidence": [
+            41155,
+            16375,
+            49086,
+            29955,
+            5946,
+            23528,
+            21479,
+            4773,
+            3821,
+            22140
+          ],
+          "question": "Question: Are there any people standing on the snowy slope who are not wearing coats?",
+          "answer": "No.",
+          "rewrite": "4 people wearing coats standing on a snowy slope with skis",
+          "first": 2,
+          "ranks": [
+            30,
+            35,
+            10
+          ]
+        }
+      }
+    },
+    {
+      "qid": 532,
+      "control": 3,
+      "variant": 5,
+      "display": {
+        "variant": {
+          "round": 1,
+          "query": "a baseball player stands on a dirt mound ready to swing",
+          "screen": [
+            40906,
+            12012,
+            44313,
+            15968,
+            11670,
+            8371,
+            25360,
+            26036,
+            13690,
+            39254
+          ],
+          "raw_rank": 85,
+          "rank": 75,
+          "evidence": [
+            29154,
+            30935,
+            48812,
+            48541,
+            41807,
+            6796,
+            11695,
+            15564,
+            32691,
+            18034
+          ],
+          "question": "what color is the cap worn by the baseball player holding the bat?",
+          "answer": "black",
+          "rewrite": "a baseball player wearing a black cap stands on a dirt mound holding a bat, ready to swing",
+          "first": 5,
+          "ranks": [
+            95,
+            75,
+            109,
+            31,
+            20,
+            8
+          ]
+        },
+        "control": {
+          "round": 1,
+          "query": "a baseball player is on the mound holding a bat, ready to swing",
+          "screen": [
+            13690,
+            26036,
+            17574,
+            30935,
+            41807,
+            18652,
+            44313,
+            27908,
+            48541,
+            16982
+          ],
+          "raw_rank": 42,
+          "rank": 35,
+          "evidence": [
+            36866,
+            13690,
+            26036,
+            17574,
+            7567,
+            30935,
+            41807,
+            10419,
+            44313,
+            18652
+          ],
+          "question": "what is the baseball player's position on the field?",
+          "answer": "batter",
+          "rewrite": "a baseball batter holding a bat, ready to swing from the batter's box",
+          "first": 3,
+          "ranks": [
+            95,
+            35,
+            18,
+            10
+          ]
+        }
+      },
+      "evidence": {
+        "variant": {
+          "round": 0,
+          "query": "a baseball player is on the mound ready to swing",
+          "screen": [
+            36866,
+            10419,
+            7567,
+            21639,
+            34244,
+            48813,
+            35649,
+            41945,
+            37537,
+            45323
+          ],
+          "raw_rank": 95,
+          "rank": 95,
+          "evidence": [
+            12012,
+            41904,
+            40906,
+            11670,
+            25360,
+            31605,
+            43506,
+            8371,
+            6796,
+            33652
+          ],
+          "question": "Question: What is the baseball player standing on?",
+          "answer": "dirt",
+          "rewrite": "a baseball player stands on a dirt mound ready to swing",
+          "first": 5,
+          "ranks": [
+            95,
+            75,
+            109,
+            31,
+            20,
+            8
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "a baseball player is on the mound ready to swing",
+          "screen": [
+            36866,
+            10419,
+            7567,
+            21639,
+            34244,
+            48813,
+            35649,
+            41945,
+            37537,
+            45323
+          ],
+          "raw_rank": 95,
+          "rank": 95,
+          "evidence": [
+            36866,
+            7567,
+            10419,
+            21639,
+            34244,
+            48813,
+            35649,
+            41945,
+            37537,
+            45323
+          ],
+          "question": "what is the baseball player holding?",
+          "answer": "bat",
+          "rewrite": "a baseball player is on the mound holding a bat, ready to swing",
+          "first": 3,
+          "ranks": [
+            95,
+            35,
+            18,
+            10
+          ]
+        }
+      },
+      "question": {
+        "variant": {
+          "round": 0,
+          "query": "a baseball player is on the mound ready to swing",
+          "screen": [
+            36866,
+            10419,
+            7567,
+            21639,
+            34244,
+            48813,
+            35649,
+            41945,
+            37537,
+            45323
+          ],
+          "raw_rank": 95,
+          "rank": 95,
+          "evidence": [
+            12012,
+            41904,
+            40906,
+            11670,
+            25360,
+            31605,
+            43506,
+            8371,
+            6796,
+            33652
+          ],
+          "question": "Question: What is the baseball player standing on?",
+          "answer": "dirt",
+          "rewrite": "a baseball player stands on a dirt mound ready to swing",
+          "first": 5,
+          "ranks": [
+            95,
+            75,
+            109,
+            31,
+            20,
+            8
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "a baseball player is on the mound ready to swing",
+          "screen": [
+            36866,
+            10419,
+            7567,
+            21639,
+            34244,
+            48813,
+            35649,
+            41945,
+            37537,
+            45323
+          ],
+          "raw_rank": 95,
+          "rank": 95,
+          "evidence": [
+            36866,
+            7567,
+            10419,
+            21639,
+            34244,
+            48813,
+            35649,
+            41945,
+            37537,
+            45323
+          ],
+          "question": "what is the baseball player holding?",
+          "answer": "bat",
+          "rewrite": "a baseball player is on the mound holding a bat, ready to swing",
+          "first": 3,
+          "ranks": [
+            95,
+            35,
+            18,
+            10
+          ]
+        }
+      }
+    },
+    {
+      "qid": 814,
+      "control": 2,
+      "variant": 1,
+      "display": {
+        "variant": {
+          "round": 1,
+          "query": "two people wearing black standing next to each other in front of a house",
+          "screen": [
+            32903,
+            47516,
+            16759,
+            49665,
+            38363,
+            16857,
+            3735,
+            7627,
+            29058,
+            28216
+          ],
+          "raw_rank": 1,
+          "rank": 1,
+          "evidence": null,
+          "question": null,
+          "answer": null,
+          "rewrite": null,
+          "first": 1,
+          "ranks": [
+            116,
+            1
+          ]
+        },
+        "control": {
+          "round": 1,
+          "query": "two men wearing black standing next to each other",
+          "screen": [
+            45274,
+            2382,
+            7938,
+            45389,
+            49479,
+            33070,
+            25169,
+            28321,
+            30573,
+            20893
+          ],
+          "raw_rank": 20,
+          "rank": 17,
+          "evidence": [
+            45274,
+            2382,
+            7938,
+            45389,
+            33070,
+            49479,
+            17935,
+            25169,
+            28321,
+            30573
+          ],
+          "question": "what activity are the two men wearing black doing?",
+          "answer": "posing for a photo",
+          "rewrite": "two men wearing black are standing next to each other, posing for a photo",
+          "first": 2,
+          "ranks": [
+            116,
+            17,
+            2
+          ]
+        }
+      },
+      "evidence": {
+        "variant": {
+          "round": 0,
+          "query": "2 people wearing black are standing next to each other",
+          "screen": [
+            13361,
+            3248,
+            44280,
+            49897,
+            5389,
+            13735,
+            4822,
+            43033,
+            17935,
+            11942
+          ],
+          "raw_rank": 116,
+          "rank": 116,
+          "evidence": [
+            47307,
+            27308,
+            22264,
+            8815,
+            1094,
+            20893,
+            19087,
+            7938,
+            25813,
+            41367
+          ],
+          "question": "what is the background setting of the two people wearing black?",
+          "answer": "a house",
+          "rewrite": "two people wearing black standing next to each other in front of a house",
+          "first": 1,
+          "ranks": [
+            116,
+            1
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "2 people wearing black are standing next to each other",
+          "screen": [
+            13361,
+            3248,
+            44280,
+            49897,
+            5389,
+            13735,
+            4822,
+            43033,
+            17935,
+            11942
+          ],
+          "raw_rank": 116,
+          "rank": 116,
+          "evidence": [
+            13361,
+            3248,
+            44280,
+            49897,
+            5389,
+            43033,
+            4822,
+            13735,
+            17935,
+            11942
+          ],
+          "question": "what is the gender of the two people wearing black standing next to each other?",
+          "answer": "male",
+          "rewrite": "two men wearing black standing next to each other",
+          "first": 2,
+          "ranks": [
+            116,
+            17,
+            2
+          ]
+        }
+      },
+      "question": {
+        "variant": {
+          "round": 0,
+          "query": "2 people wearing black are standing next to each other",
+          "screen": [
+            13361,
+            3248,
+            44280,
+            49897,
+            5389,
+            13735,
+            4822,
+            43033,
+            17935,
+            11942
+          ],
+          "raw_rank": 116,
+          "rank": 116,
+          "evidence": [
+            47307,
+            27308,
+            22264,
+            8815,
+            1094,
+            20893,
+            19087,
+            7938,
+            25813,
+            41367
+          ],
+          "question": "what is the background setting of the two people wearing black?",
+          "answer": "a house",
+          "rewrite": "two people wearing black standing next to each other in front of a house",
+          "first": 1,
+          "ranks": [
+            116,
+            1
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "2 people wearing black are standing next to each other",
+          "screen": [
+            13361,
+            3248,
+            44280,
+            49897,
+            5389,
+            13735,
+            4822,
+            43033,
+            17935,
+            11942
+          ],
+          "raw_rank": 116,
+          "rank": 116,
+          "evidence": [
+            13361,
+            3248,
+            44280,
+            49897,
+            5389,
+            43033,
+            4822,
+            13735,
+            17935,
+            11942
+          ],
+          "question": "what is the gender of the two people wearing black standing next to each other?",
+          "answer": "male",
+          "rewrite": "two men wearing black standing next to each other",
+          "first": 2,
+          "ranks": [
+            116,
+            17,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "qid": 1743,
+      "control": 11,
+      "variant": 11,
+      "display": {
+        "variant": {
+          "round": 1,
+          "query": "A bed with blue covers situated beside a wall.",
+          "screen": [
+            25603,
+            45055,
+            2689,
+            926,
+            46911,
+            27433,
+            15567,
+            35973,
+            4372,
+            36928
+          ],
+          "raw_rank": 278,
+          "rank": 268,
+          "evidence": [
+            25505,
+            49511,
+            36964,
+            14970,
+            37047,
+            23153,
+            6400,
+            5761,
+            1560,
+            34953
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "bed",
+          "rewrite": "a bed with blue covers next to a wall",
+          "first": 11,
+          "ranks": [
+            243,
+            268,
+            223,
+            656,
+            328,
+            312,
+            308,
+            244,
+            175,
+            278,
+            154
+          ]
+        },
+        "control": {
+          "round": 1,
+          "query": "a bed with blue covers next to a green wall",
+          "screen": [
+            6400,
+            18827,
+            5761,
+            15972,
+            36964,
+            46942,
+            2911,
+            32135,
+            25505,
+            15567
+          ],
+          "raw_rank": 686,
+          "rank": 676,
+          "evidence": [
+            6400,
+            13001,
+            7307,
+            33953,
+            18827,
+            5761,
+            20995,
+            28942,
+            15972,
+            36964
+          ],
+          "question": "Is there anything on the bed with blue covers?",
+          "answer": "Yes.",
+          "rewrite": "a bed with blue covers and items on it, next to a green wall",
+          "first": 11,
+          "ranks": [
+            243,
+            676,
+            756,
+            255,
+            103,
+            173,
+            322,
+            102,
+            97,
+            74,
+            76
+          ]
+        }
+      },
+      "evidence": {
+        "variant": {
+          "round": 0,
+          "query": "a bed with blue covers next to a wall",
+          "screen": [
+            7307,
+            4935,
+            13001,
+            33953,
+            28942,
+            20546,
+            41301,
+            29927,
+            24213,
+            20995
+          ],
+          "raw_rank": 243,
+          "rank": 243,
+          "evidence": [
+            2689,
+            27433,
+            45055,
+            25603,
+            926,
+            36964,
+            5761,
+            36928,
+            35973,
+            25505
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "bed",
+          "rewrite": "A bed with blue covers situated beside a wall.",
+          "first": 11,
+          "ranks": [
+            243,
+            268,
+            223,
+            656,
+            328,
+            312,
+            308,
+            244,
+            175,
+            278,
+            154
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "a bed with blue covers next to a wall",
+          "screen": [
+            7307,
+            4935,
+            13001,
+            33953,
+            28942,
+            20546,
+            41301,
+            29927,
+            24213,
+            20995
+          ],
+          "raw_rank": 243,
+          "rank": 243,
+          "evidence": [
+            7307,
+            13001,
+            33953,
+            4935,
+            20546,
+            28942,
+            41301,
+            29927,
+            20995,
+            24213
+          ],
+          "question": "what is the color of the wall next to the bed with blue covers?",
+          "answer": "green",
+          "rewrite": "a bed with blue covers next to a green wall",
+          "first": 11,
+          "ranks": [
+            243,
+            676,
+            756,
+            255,
+            103,
+            173,
+            322,
+            102,
+            97,
+            74,
+            76
+          ]
+        }
+      },
+      "question": {
+        "variant": {
+          "round": 0,
+          "query": "a bed with blue covers next to a wall",
+          "screen": [
+            7307,
+            4935,
+            13001,
+            33953,
+            28942,
+            20546,
+            41301,
+            29927,
+            24213,
+            20995
+          ],
+          "raw_rank": 243,
+          "rank": 243,
+          "evidence": [
+            2689,
+            27433,
+            45055,
+            25603,
+            926,
+            36964,
+            5761,
+            36928,
+            35973,
+            25505
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "bed",
+          "rewrite": "A bed with blue covers situated beside a wall.",
+          "first": 11,
+          "ranks": [
+            243,
+            268,
+            223,
+            656,
+            328,
+            312,
+            308,
+            244,
+            175,
+            278,
+            154
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "a bed with blue covers next to a wall",
+          "screen": [
+            7307,
+            4935,
+            13001,
+            33953,
+            28942,
+            20546,
+            41301,
+            29927,
+            24213,
+            20995
+          ],
+          "raw_rank": 243,
+          "rank": 243,
+          "evidence": [
+            7307,
+            13001,
+            33953,
+            4935,
+            20546,
+            28942,
+            41301,
+            29927,
+            20995,
+            24213
+          ],
+          "question": "what is the color of the wall next to the bed with blue covers?",
+          "answer": "green",
+          "rewrite": "a bed with blue covers next to a green wall",
+          "first": 11,
+          "ranks": [
+            243,
+            676,
+            756,
+            255,
+            103,
+            173,
+            322,
+            102,
+            97,
+            74,
+            76
+          ]
+        }
+      }
+    },
+    {
+      "qid": 1782,
+      "control": 2,
+      "variant": 1,
+      "display": {
+        "variant": {
+          "round": 1,
+          "query": "two airplanes are parked on a wet airport runway",
+          "screen": [
+            26544,
+            36629,
+            49253,
+            48603,
+            27546,
+            39074,
+            33951,
+            47508,
+            7551,
+            22414
+          ],
+          "raw_rank": 2,
+          "rank": 2,
+          "evidence": null,
+          "question": null,
+          "answer": null,
+          "rewrite": null,
+          "first": 1,
+          "ranks": [
+            44,
+            2
+          ]
+        },
+        "control": {
+          "round": 1,
+          "query": "two airplanes are parked on an airport runway",
+          "screen": [
+            44587,
+            44615,
+            45649,
+            25216,
+            31708,
+            42890,
+            45461,
+            34158,
+            27284,
+            19481
+          ],
+          "raw_rank": 42,
+          "rank": 32,
+          "evidence": [
+            30292,
+            35981,
+            445,
+            39016,
+            34312,
+            5535,
+            44587,
+            4265,
+            44615,
+            45649
+          ],
+          "question": "what color is the airplane parked on the airport runway?",
+          "answer": "white",
+          "rewrite": "two white airplanes are parked on an airport runway",
+          "first": 2,
+          "ranks": [
+            44,
+            32,
+            10
+          ]
+        }
+      },
+      "evidence": {
+        "variant": {
+          "round": 0,
+          "query": "2 airplanes are parked on an airport runway",
+          "screen": [
+            445,
+            30292,
+            35981,
+            39016,
+            34312,
+            35509,
+            23796,
+            5535,
+            19024,
+            4265
+          ],
+          "raw_rank": 44,
+          "rank": 44,
+          "evidence": [
+            44587,
+            44615,
+            26544,
+            34158,
+            31708,
+            7551,
+            42890,
+            45649,
+            45461,
+            22414
+          ],
+          "question": "what is the surface condition of the runway where the two airplanes are parked?",
+          "answer": "wet",
+          "rewrite": "two airplanes are parked on a wet airport runway",
+          "first": 1,
+          "ranks": [
+            44,
+            2
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "2 airplanes are parked on an airport runway",
+          "screen": [
+            445,
+            30292,
+            35981,
+            39016,
+            34312,
+            35509,
+            23796,
+            5535,
+            19024,
+            4265
+          ],
+          "raw_rank": 44,
+          "rank": 44,
+          "evidence": [
+            445,
+            30292,
+            35981,
+            39016,
+            35509,
+            34312,
+            23796,
+            5535,
+            19024,
+            4265
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "another airplane.",
+          "rewrite": "two airplanes are parked on an airport runway",
+          "first": 2,
+          "ranks": [
+            44,
+            32,
+            10
+          ]
+        }
+      },
+      "question": {
+        "variant": {
+          "round": 0,
+          "query": "2 airplanes are parked on an airport runway",
+          "screen": [
+            445,
+            30292,
+            35981,
+            39016,
+            34312,
+            35509,
+            23796,
+            5535,
+            19024,
+            4265
+          ],
+          "raw_rank": 44,
+          "rank": 44,
+          "evidence": [
+            44587,
+            44615,
+            26544,
+            34158,
+            31708,
+            7551,
+            42890,
+            45649,
+            45461,
+            22414
+          ],
+          "question": "what is the surface condition of the runway where the two airplanes are parked?",
+          "answer": "wet",
+          "rewrite": "two airplanes are parked on a wet airport runway",
+          "first": 1,
+          "ranks": [
+            44,
+            2
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "2 airplanes are parked on an airport runway",
+          "screen": [
+            445,
+            30292,
+            35981,
+            39016,
+            34312,
+            35509,
+            23796,
+            5535,
+            19024,
+            4265
+          ],
+          "raw_rank": 44,
+          "rank": 44,
+          "evidence": [
+            445,
+            30292,
+            35981,
+            39016,
+            35509,
+            34312,
+            23796,
+            5535,
+            19024,
+            4265
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "another airplane.",
+          "rewrite": "two airplanes are parked on an airport runway",
+          "first": 2,
+          "ranks": [
+            44,
+            32,
+            10
+          ]
+        }
+      }
+    },
+    {
+      "qid": 670,
+      "control": 1,
+      "variant": 1,
+      "display": {
+        "variant": {
+          "round": 1,
+          "query": "a dog stands among many sheep on a dirt surface late in the day",
+          "screen": [
+            34623,
+            16653,
+            35678,
+            34791,
+            40291,
+            19060,
+            9684,
+            31429,
+            30568,
+            27312
+          ],
+          "raw_rank": 3,
+          "rank": 1,
+          "evidence": null,
+          "question": null,
+          "answer": null,
+          "rewrite": null,
+          "first": 1,
+          "ranks": [
+            11,
+            1
+          ]
+        },
+        "control": {
+          "round": 1,
+          "query": "a kangal dog stands among many sheep late in the day",
+          "screen": [
+            48378,
+            34623,
+            19060,
+            6444,
+            37697,
+            577,
+            49700,
+            35678,
+            39968,
+            24132
+          ],
+          "raw_rank": 6,
+          "rank": 2,
+          "evidence": null,
+          "question": null,
+          "answer": null,
+          "rewrite": null,
+          "first": 1,
+          "ranks": [
+            11,
+            2
+          ]
+        }
+      },
+      "evidence": {
+        "variant": {
+          "round": 0,
+          "query": "a dog stands among many sheep late in the day",
+          "screen": [
+            29651,
+            39058,
+            15231,
+            43459,
+            49402,
+            79,
+            40022,
+            33335,
+            941,
+            32405
+          ],
+          "raw_rank": 11,
+          "rank": 11,
+          "evidence": [
+            34623,
+            48378,
+            35678,
+            4604,
+            16653,
+            19060,
+            40291,
+            577,
+            6444,
+            26341
+          ],
+          "question": "what is the surface type where the dog and sheep are standing?",
+          "answer": "dirt",
+          "rewrite": "a dog stands among many sheep on a dirt surface late in the day",
+          "first": 1,
+          "ranks": [
+            11,
+            1
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "a dog stands among many sheep late in the day",
+          "screen": [
+            29651,
+            39058,
+            15231,
+            43459,
+            49402,
+            79,
+            40022,
+            33335,
+            941,
+            32405
+          ],
+          "raw_rank": 11,
+          "rank": 11,
+          "evidence": [
+            29651,
+            39058,
+            15231,
+            43459,
+            49402,
+            79,
+            40022,
+            33335,
+            941,
+            34623
+          ],
+          "question": "what is the breed or specific type of the dog standing among the sheep?",
+          "answer": "kangal",
+          "rewrite": "a kangal dog stands among many sheep late in the day",
+          "first": 1,
+          "ranks": [
+            11,
+            2
+          ]
+        }
+      },
+      "question": {
+        "variant": {
+          "round": 0,
+          "query": "a dog stands among many sheep late in the day",
+          "screen": [
+            29651,
+            39058,
+            15231,
+            43459,
+            49402,
+            79,
+            40022,
+            33335,
+            941,
+            32405
+          ],
+          "raw_rank": 11,
+          "rank": 11,
+          "evidence": [
+            34623,
+            48378,
+            35678,
+            4604,
+            16653,
+            19060,
+            40291,
+            577,
+            6444,
+            26341
+          ],
+          "question": "what is the surface type where the dog and sheep are standing?",
+          "answer": "dirt",
+          "rewrite": "a dog stands among many sheep on a dirt surface late in the day",
+          "first": 1,
+          "ranks": [
+            11,
+            1
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "a dog stands among many sheep late in the day",
+          "screen": [
+            29651,
+            39058,
+            15231,
+            43459,
+            49402,
+            79,
+            40022,
+            33335,
+            941,
+            32405
+          ],
+          "raw_rank": 11,
+          "rank": 11,
+          "evidence": [
+            29651,
+            39058,
+            15231,
+            43459,
+            49402,
+            79,
+            40022,
+            33335,
+            941,
+            34623
+          ],
+          "question": "what is the breed or specific type of the dog standing among the sheep?",
+          "answer": "kangal",
+          "rewrite": "a kangal dog stands among many sheep late in the day",
+          "first": 1,
+          "ranks": [
+            11,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "qid": 1111,
+      "control": 11,
+      "variant": 10,
+      "display": {
+        "variant": {
+          "round": 1,
+          "query": "a small, very clean kitchen with white cabinets and no dishes or food items",
+          "screen": [
+            11731,
+            18299,
+            45784,
+            17420,
+            38629,
+            7378,
+            48105,
+            35200,
+            49370,
+            761
+          ],
+          "raw_rank": 52,
+          "rank": 48,
+          "evidence": [
+            34091,
+            30251,
+            48657,
+            14080,
+            42147,
+            26803,
+            35206,
+            38687,
+            24418,
+            41305
+          ],
+          "question": "what is the flooring material in the small kitchen?",
+          "answer": "linoleum",
+          "rewrite": "a small, very clean kitchen with white cabinets and linoleum flooring, featuring no dishes or food items",
+          "first": 10,
+          "ranks": [
+            181,
+            48,
+            53,
+            69,
+            99,
+            133,
+            115,
+            207,
+            71,
+            148,
+            9
+          ]
+        },
+        "control": {
+          "round": 1,
+          "query": "a small, clean kitchen located inside the home with no dishes or food items",
+          "screen": [
+            36643,
+            46857,
+            11731,
+            18116,
+            33392,
+            35206,
+            34159,
+            48092,
+            31137,
+            14311
+          ],
+          "raw_rank": 267,
+          "rank": 257,
+          "evidence": [
+            744,
+            36643,
+            38648,
+            17227,
+            46857,
+            11731,
+            18116,
+            33392,
+            35206,
+            34159
+          ],
+          "question": "what color are the cabinets in the small, clean kitchen?",
+          "answer": "white",
+          "rewrite": "a small, clean white kitchen located inside the home with no dishes or food items",
+          "first": 11,
+          "ranks": [
+            181,
+            257,
+            165,
+            257,
+            184,
+            125,
+            545,
+            117,
+            171,
+            312,
+            342
+          ]
+        }
+      },
+      "evidence": {
+        "variant": {
+          "round": 0,
+          "query": "a small kitchen space is very clean with no dishes or food items",
+          "screen": [
+            17227,
+            38648,
+            42447,
+            46176,
+            77,
+            25690,
+            46978,
+            744,
+            13081,
+            46316
+          ],
+          "raw_rank": 181,
+          "rank": 181,
+          "evidence": [
+            761,
+            7481,
+            34159,
+            1775,
+            11731,
+            18116,
+            2932,
+            22566,
+            36643,
+            46857
+          ],
+          "question": "**Question:** What color are the cabinets in the small kitchen?",
+          "answer": "white",
+          "rewrite": "a small, very clean kitchen with white cabinets and no dishes or food items",
+          "first": 10,
+          "ranks": [
+            181,
+            48,
+            53,
+            69,
+            99,
+            133,
+            115,
+            207,
+            71,
+            148,
+            9
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "a small kitchen space is very clean with no dishes or food items",
+          "screen": [
+            17227,
+            38648,
+            42447,
+            46176,
+            77,
+            25690,
+            46978,
+            744,
+            13081,
+            46316
+          ],
+          "raw_rank": 181,
+          "rank": 181,
+          "evidence": [
+            17227,
+            38648,
+            42447,
+            46176,
+            77,
+            25690,
+            46978,
+            744,
+            13081,
+            46316
+          ],
+          "question": "Question: Where is the small, clean kitchen located (inside or outside the home)?",
+          "answer": "inside",
+          "rewrite": "a small, clean kitchen located inside the home with no dishes or food items",
+          "first": 11,
+          "ranks": [
+            181,
+            257,
+            165,
+            257,
+            184,
+            125,
+            545,
+            117,
+            171,
+            312,
+            342
+          ]
+        }
+      },
+      "question": {
+        "variant": {
+          "round": 0,
+          "query": "a small kitchen space is very clean with no dishes or food items",
+          "screen": [
+            17227,
+            38648,
+            42447,
+            46176,
+            77,
+            25690,
+            46978,
+            744,
+            13081,
+            46316
+          ],
+          "raw_rank": 181,
+          "rank": 181,
+          "evidence": [
+            761,
+            7481,
+            34159,
+            1775,
+            11731,
+            18116,
+            2932,
+            22566,
+            36643,
+            46857
+          ],
+          "question": "**Question:** What color are the cabinets in the small kitchen?",
+          "answer": "white",
+          "rewrite": "a small, very clean kitchen with white cabinets and no dishes or food items",
+          "first": 10,
+          "ranks": [
+            181,
+            48,
+            53,
+            69,
+            99,
+            133,
+            115,
+            207,
+            71,
+            148,
+            9
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "a small kitchen space is very clean with no dishes or food items",
+          "screen": [
+            17227,
+            38648,
+            42447,
+            46176,
+            77,
+            25690,
+            46978,
+            744,
+            13081,
+            46316
+          ],
+          "raw_rank": 181,
+          "rank": 181,
+          "evidence": [
+            17227,
+            38648,
+            42447,
+            46176,
+            77,
+            25690,
+            46978,
+            744,
+            13081,
+            46316
+          ],
+          "question": "Question: Where is the small, clean kitchen located (inside or outside the home)?",
+          "answer": "inside",
+          "rewrite": "a small, clean kitchen located inside the home with no dishes or food items",
+          "first": 11,
+          "ranks": [
+            181,
+            257,
+            165,
+            257,
+            184,
+            125,
+            545,
+            117,
+            171,
+            312,
+            342
+          ]
+        }
+      }
+    },
+    {
+      "qid": 482,
+      "control": 1,
+      "variant": 1,
+      "evidence": {
+        "variant": {
+          "round": 0,
+          "query": "the bathroom is very empty and bland and white",
+          "screen": [
+            6919,
+            31803,
+            43821,
+            10082,
+            29753,
+            34617,
+            44620,
+            9667,
+            9399,
+            40587
+          ],
+          "raw_rank": 380,
+          "rank": 380,
+          "evidence": [
+            37949,
+            16250,
+            13731,
+            6830,
+            19910,
+            46048,
+            36925,
+            45714,
+            16232,
+            4362
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "painting",
+          "rewrite": "a very empty, bland, and white bathroom with a painting",
+          "first": 1,
+          "ranks": [
+            380,
+            1
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "the bathroom is very empty and bland and white",
+          "screen": [
+            6919,
+            31803,
+            43821,
+            10082,
+            29753,
+            34617,
+            44620,
+            9667,
+            9399,
+            40587
+          ],
+          "raw_rank": 380,
+          "rank": 380,
+          "evidence": [
+            6919,
+            31803,
+            43821,
+            10082,
+            29753,
+            34617,
+            44620,
+            9667,
+            9399,
+            40587
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "painting",
+          "rewrite": "a very empty, bland, and white bathroom with a painting",
+          "first": 1,
+          "ranks": [
+            380,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "qid": 2003,
+      "control": 1,
+      "variant": 11,
+      "display": {
+        "variant": {
+          "round": 1,
+          "query": "a woman stands on one foot with her arms out, holding a tennis racquet, possibly playing a match or practicing",
+          "screen": [
+            14373,
+            34457,
+            9037,
+            26676,
+            37496,
+            11425,
+            3713,
+            9496,
+            18312,
+            43604
+          ],
+          "raw_rank": 82,
+          "rank": 72,
+          "evidence": [
+            42727,
+            14948,
+            25883,
+            20168,
+            48432,
+            9531,
+            21862,
+            3682,
+            46591,
+            885
+          ],
+          "question": "what is the color of the skirt the woman is wearing?",
+          "answer": "blue and white",
+          "rewrite": "a woman in a blue and white skirt stands on one foot with her arms out, holding a tennis racquet, possibly practicing or playing a match",
+          "first": 11,
+          "ranks": [
+            87,
+            72,
+            33,
+            49,
+            27,
+            44,
+            64,
+            47,
+            61,
+            71,
+            37
+          ]
+        },
+        "control": {
+          "round": 1,
+          "query": "a woman in a blue outfit stands on one foot with her arms out, holding a tennis racquet",
+          "screen": [
+            3682,
+            26692,
+            29429,
+            29971,
+            4920,
+            25691,
+            885,
+            22770,
+            37877,
+            43726
+          ],
+          "raw_rank": 5,
+          "rank": 2,
+          "evidence": null,
+          "question": null,
+          "answer": null,
+          "rewrite": null,
+          "first": 1,
+          "ranks": [
+            87,
+            2
+          ]
+        }
+      },
+      "evidence": {
+        "variant": {
+          "round": 0,
+          "query": "the woman is standing on 1 foot with her arms out holding a tennis racquet",
+          "screen": [
+            31070,
+            25374,
+            32923,
+            34568,
+            17182,
+            47945,
+            29177,
+            11666,
+            10916,
+            14007
+          ],
+          "raw_rank": 87,
+          "rank": 87,
+          "evidence": [
+            9496,
+            14373,
+            46591,
+            42727,
+            42304,
+            34457,
+            3713,
+            48432,
+            20168,
+            37496
+          ],
+          "question": "Question: Is the woman playing a match or just practicing?",
+          "answer": "unsure",
+          "rewrite": "a woman stands on one foot with her arms out, holding a tennis racquet, possibly playing a match or practicing",
+          "first": 11,
+          "ranks": [
+            87,
+            72,
+            33,
+            49,
+            27,
+            44,
+            64,
+            47,
+            61,
+            71,
+            37
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "the woman is standing on 1 foot with her arms out holding a tennis racquet",
+          "screen": [
+            31070,
+            25374,
+            32923,
+            34568,
+            17182,
+            47945,
+            29177,
+            11666,
+            10916,
+            14007
+          ],
+          "raw_rank": 87,
+          "rank": 87,
+          "evidence": [
+            31070,
+            25374,
+            32923,
+            34568,
+            17182,
+            47945,
+            11666,
+            29177,
+            14007,
+            10916
+          ],
+          "question": "Question: What color is the woman's outfit?",
+          "answer": "Blue.",
+          "rewrite": "a woman in a blue outfit stands on one foot with her arms out, holding a tennis racquet",
+          "first": 1,
+          "ranks": [
+            87,
+            2
+          ]
+        }
+      },
+      "question": {
+        "variant": {
+          "round": 0,
+          "query": "the woman is standing on 1 foot with her arms out holding a tennis racquet",
+          "screen": [
+            31070,
+            25374,
+            32923,
+            34568,
+            17182,
+            47945,
+            29177,
+            11666,
+            10916,
+            14007
+          ],
+          "raw_rank": 87,
+          "rank": 87,
+          "evidence": [
+            9496,
+            14373,
+            46591,
+            42727,
+            42304,
+            34457,
+            3713,
+            48432,
+            20168,
+            37496
+          ],
+          "question": "Question: Is the woman playing a match or just practicing?",
+          "answer": "unsure",
+          "rewrite": "a woman stands on one foot with her arms out, holding a tennis racquet, possibly playing a match or practicing",
+          "first": 11,
+          "ranks": [
+            87,
+            72,
+            33,
+            49,
+            27,
+            44,
+            64,
+            47,
+            61,
+            71,
+            37
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "the woman is standing on 1 foot with her arms out holding a tennis racquet",
+          "screen": [
+            31070,
+            25374,
+            32923,
+            34568,
+            17182,
+            47945,
+            29177,
+            11666,
+            10916,
+            14007
+          ],
+          "raw_rank": 87,
+          "rank": 87,
+          "evidence": [
+            31070,
+            25374,
+            32923,
+            34568,
+            17182,
+            47945,
+            11666,
+            29177,
+            14007,
+            10916
+          ],
+          "question": "Question: What color is the woman's outfit?",
+          "answer": "Blue.",
+          "rewrite": "a woman in a blue outfit stands on one foot with her arms out, holding a tennis racquet",
+          "first": 1,
+          "ranks": [
+            87,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "qid": 1639,
+      "control": 1,
+      "variant": 5,
+      "display": {
+        "variant": {
+          "round": 1,
+          "query": "people are standing at a counter behind a table in front of windows, trying to order",
+          "screen": [
+            41750,
+            28616,
+            16217,
+            11562,
+            22343,
+            13749,
+            25191,
+            7909,
+            14202,
+            17759
+          ],
+          "raw_rank": 47,
+          "rank": 37,
+          "evidence": [
+            49535,
+            33000,
+            2687,
+            49075,
+            981,
+            27563,
+            21224,
+            48255,
+            23878,
+            38016
+          ],
+          "question": "what color is the shirt worn by the man standing at the counter?",
+          "answer": "white",
+          "rewrite": "people in white shirts are standing behind a counter in front of windows, trying to order",
+          "first": 5,
+          "ranks": [
+            62,
+            37,
+            122,
+            30,
+            153,
+            10
+          ]
+        },
+        "control": {
+          "round": 1,
+          "query": "people are standing at a counter in front of windows trying to order, with a laptop on the counter",
+          "screen": [
+            33000,
+            49427,
+            18076,
+            3442,
+            31959,
+            2687,
+            16217,
+            23959,
+            49760,
+            13983
+          ],
+          "raw_rank": 2,
+          "rank": 2,
+          "evidence": null,
+          "question": null,
+          "answer": null,
+          "rewrite": null,
+          "first": 1,
+          "ranks": [
+            62,
+            2
+          ]
+        }
+      },
+      "evidence": {
+        "variant": {
+          "round": 0,
+          "query": "people are standing at a counter in front of windows trying to order",
+          "screen": [
+            14352,
+            40471,
+            49772,
+            22150,
+            43633,
+            2832,
+            11063,
+            10299,
+            15259,
+            38602
+          ],
+          "raw_rank": 62,
+          "rank": 62,
+          "evidence": [
+            7909,
+            11562,
+            17759,
+            2687,
+            47830,
+            28616,
+            41750,
+            49535,
+            981,
+            49075
+          ],
+          "question": "what is the specific location of the counter where the people are standing?",
+          "answer": "behind the table",
+          "rewrite": "people are standing at a counter behind a table in front of windows, trying to order",
+          "first": 5,
+          "ranks": [
+            62,
+            37,
+            122,
+            30,
+            153,
+            10
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "people are standing at a counter in front of windows trying to order",
+          "screen": [
+            14352,
+            40471,
+            49772,
+            22150,
+            43633,
+            2832,
+            11063,
+            10299,
+            15259,
+            38602
+          ],
+          "raw_rank": 62,
+          "rank": 62,
+          "evidence": [
+            14352,
+            40471,
+            22150,
+            43633,
+            49772,
+            2832,
+            10299,
+            11063,
+            15259,
+            38602
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "laptop",
+          "rewrite": "people are standing at a counter in front of windows trying to order, with a laptop on the counter",
+          "first": 1,
+          "ranks": [
+            62,
+            2
+          ]
+        }
+      },
+      "question": {
+        "variant": {
+          "round": 0,
+          "query": "people are standing at a counter in front of windows trying to order",
+          "screen": [
+            14352,
+            40471,
+            49772,
+            22150,
+            43633,
+            2832,
+            11063,
+            10299,
+            15259,
+            38602
+          ],
+          "raw_rank": 62,
+          "rank": 62,
+          "evidence": [
+            7909,
+            11562,
+            17759,
+            2687,
+            47830,
+            28616,
+            41750,
+            49535,
+            981,
+            49075
+          ],
+          "question": "what is the specific location of the counter where the people are standing?",
+          "answer": "behind the table",
+          "rewrite": "people are standing at a counter behind a table in front of windows, trying to order",
+          "first": 5,
+          "ranks": [
+            62,
+            37,
+            122,
+            30,
+            153,
+            10
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "people are standing at a counter in front of windows trying to order",
+          "screen": [
+            14352,
+            40471,
+            49772,
+            22150,
+            43633,
+            2832,
+            11063,
+            10299,
+            15259,
+            38602
+          ],
+          "raw_rank": 62,
+          "rank": 62,
+          "evidence": [
+            14352,
+            40471,
+            22150,
+            43633,
+            49772,
+            2832,
+            10299,
+            11063,
+            15259,
+            38602
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "laptop",
+          "rewrite": "people are standing at a counter in front of windows trying to order, with a laptop on the counter",
+          "first": 1,
+          "ranks": [
+            62,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "qid": 742,
+      "control": 6,
+      "variant": 1,
+      "display": {
+        "variant": {
+          "round": 1,
+          "query": "a man flying a kite on wet, dark sand at the beach",
+          "screen": [
+            11661,
+            18254,
+            32283,
+            16633,
+            33791,
+            39552,
+            43900,
+            13807,
+            28201,
+            23755
+          ],
+          "raw_rank": 8,
+          "rank": 8,
+          "evidence": null,
+          "question": null,
+          "answer": null,
+          "rewrite": null,
+          "first": 1,
+          "ranks": [
+            34,
+            8
+          ]
+        },
+        "control": {
+          "round": 1,
+          "query": "a man flying a pink kite on the sand at the beach",
+          "screen": [
+            37283,
+            43014,
+            12281,
+            33791,
+            30768,
+            28201,
+            31589,
+            14423,
+            39969,
+            14572
+          ],
+          "raw_rank": 110,
+          "rank": 100,
+          "evidence": [
+            30539,
+            37283,
+            14415,
+            43014,
+            12281,
+            5526,
+            33791,
+            30768,
+            28201,
+            35956
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "a pink kite",
+          "rewrite": "A man flies a pink kite on the beach.",
+          "first": 6,
+          "ranks": [
+            34,
+            100,
+            86,
+            80,
+            62,
+            35,
+            2
+          ]
+        }
+      },
+      "evidence": {
+        "variant": {
+          "round": 0,
+          "query": "a man flying a kite on the sand at the beach",
+          "screen": [
+            5526,
+            30539,
+            19790,
+            14415,
+            35956,
+            40417,
+            2844,
+            47194,
+            7888,
+            4183
+          ],
+          "raw_rank": 34,
+          "rank": 34,
+          "evidence": [
+            5213,
+            28919,
+            14572,
+            49212,
+            37283,
+            28201,
+            42817,
+            26328,
+            43014,
+            12762
+          ],
+          "question": "what is the sand like at the beach where the man is flying the kite?",
+          "answer": "the sand is wet and dark, likely due to low tide.",
+          "rewrite": "a man flying a kite on wet, dark sand at the beach",
+          "first": 1,
+          "ranks": [
+            34,
+            8
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "a man flying a kite on the sand at the beach",
+          "screen": [
+            5526,
+            30539,
+            19790,
+            14415,
+            35956,
+            40417,
+            2844,
+            47194,
+            7888,
+            4183
+          ],
+          "raw_rank": 34,
+          "rank": 34,
+          "evidence": [
+            5526,
+            30539,
+            19790,
+            14415,
+            35956,
+            40417,
+            2844,
+            47194,
+            7888,
+            5213
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "a pink kite",
+          "rewrite": "a man flying a pink kite on the sand at the beach",
+          "first": 6,
+          "ranks": [
+            34,
+            100,
+            86,
+            80,
+            62,
+            35,
+            2
+          ]
+        }
+      },
+      "question": {
+        "variant": {
+          "round": 0,
+          "query": "a man flying a kite on the sand at the beach",
+          "screen": [
+            5526,
+            30539,
+            19790,
+            14415,
+            35956,
+            40417,
+            2844,
+            47194,
+            7888,
+            4183
+          ],
+          "raw_rank": 34,
+          "rank": 34,
+          "evidence": [
+            5213,
+            28919,
+            14572,
+            49212,
+            37283,
+            28201,
+            42817,
+            26328,
+            43014,
+            12762
+          ],
+          "question": "what is the sand like at the beach where the man is flying the kite?",
+          "answer": "the sand is wet and dark, likely due to low tide.",
+          "rewrite": "a man flying a kite on wet, dark sand at the beach",
+          "first": 1,
+          "ranks": [
+            34,
+            8
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "a man flying a kite on the sand at the beach",
+          "screen": [
+            5526,
+            30539,
+            19790,
+            14415,
+            35956,
+            40417,
+            2844,
+            47194,
+            7888,
+            4183
+          ],
+          "raw_rank": 34,
+          "rank": 34,
+          "evidence": [
+            5526,
+            30539,
+            19790,
+            14415,
+            35956,
+            40417,
+            2844,
+            47194,
+            7888,
+            5213
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "a pink kite",
+          "rewrite": "a man flying a pink kite on the sand at the beach",
+          "first": 6,
+          "ranks": [
+            34,
+            100,
+            86,
+            80,
+            62,
+            35,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "qid": 1091,
+      "control": 1,
+      "variant": 1,
+      "evidence": {
+        "variant": {
+          "round": 0,
+          "query": "3 fighter jets flying through the sky leaving a path",
+          "screen": [
+            47913,
+            25869,
+            14483,
+            33202,
+            22605,
+            2135,
+            18436,
+            23504,
+            1641,
+            6926
+          ],
+          "raw_rank": 14,
+          "rank": 14,
+          "evidence": [
+            47181,
+            26570,
+            44704,
+            12334,
+            26874,
+            23042,
+            21388,
+            48515,
+            8552,
+            43871
+          ],
+          "question": "what is the color of the fighter jets?",
+          "answer": "white",
+          "rewrite": "three white fighter jets flying through the sky leaving a trail",
+          "first": 1,
+          "ranks": [
+            14,
+            5
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "3 fighter jets flying through the sky leaving a path",
+          "screen": [
+            47913,
+            25869,
+            14483,
+            33202,
+            22605,
+            2135,
+            18436,
+            23504,
+            1641,
+            6926
+          ],
+          "raw_rank": 14,
+          "rank": 14,
+          "evidence": [
+            47913,
+            25869,
+            14483,
+            33202,
+            2135,
+            22605,
+            18436,
+            23504,
+            1641,
+            6926
+          ],
+          "question": "what color are the fighter jets flying through the sky?",
+          "answer": "white",
+          "rewrite": "three white fighter jets flying through the sky leaving a trail",
+          "first": 1,
+          "ranks": [
+            14,
+            5
+          ]
+        }
+      },
+      "question": {
+        "variant": {
+          "round": 0,
+          "query": "3 fighter jets flying through the sky leaving a path",
+          "screen": [
+            47913,
+            25869,
+            14483,
+            33202,
+            22605,
+            2135,
+            18436,
+            23504,
+            1641,
+            6926
+          ],
+          "raw_rank": 14,
+          "rank": 14,
+          "evidence": [
+            47181,
+            26570,
+            44704,
+            12334,
+            26874,
+            23042,
+            21388,
+            48515,
+            8552,
+            43871
+          ],
+          "question": "what is the color of the fighter jets?",
+          "answer": "white",
+          "rewrite": "three white fighter jets flying through the sky leaving a trail",
+          "first": 1,
+          "ranks": [
+            14,
+            5
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "3 fighter jets flying through the sky leaving a path",
+          "screen": [
+            47913,
+            25869,
+            14483,
+            33202,
+            22605,
+            2135,
+            18436,
+            23504,
+            1641,
+            6926
+          ],
+          "raw_rank": 14,
+          "rank": 14,
+          "evidence": [
+            47913,
+            25869,
+            14483,
+            33202,
+            2135,
+            22605,
+            18436,
+            23504,
+            1641,
+            6926
+          ],
+          "question": "what color are the fighter jets flying through the sky?",
+          "answer": "white",
+          "rewrite": "three white fighter jets flying through the sky leaving a trail",
+          "first": 1,
+          "ranks": [
+            14,
+            5
+          ]
+        }
+      }
+    }
+  ]
+}

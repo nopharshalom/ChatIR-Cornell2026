@@ -1,0 +1,227 @@
+{
+  "qid": 1466,
+  "selection": {
+    "kl": "what color are the motorcycles parked in the parking lot?",
+    "probe": "what color are the motorcycles parked in the parking lot?",
+    "candidates": [
+      {
+        "question": "what color are the motorcycles parked in the parking lot?",
+        "score": 6,
+        "branches": [
+          {
+            "answer": "black and gold",
+            "caption": "black and gold motorcycles parked in a parking lot",
+            "top10": [
+              41709,
+              47076,
+              29501,
+              10023,
+              32557,
+              32612,
+              27513,
+              38768,
+              38493,
+              41917
+            ]
+          },
+          {
+            "answer": "orange and black",
+            "caption": "orange and black motorcycles parked in a parking lot",
+            "top10": [
+              24848,
+              13883,
+              11475,
+              47384,
+              39828,
+              45776,
+              29501,
+              14944,
+              8930,
+              5364
+            ]
+          }
+        ]
+      },
+      {
+        "question": "how many motorcycles are parked in the parking lot?",
+        "score": 8,
+        "branches": [
+          {
+            "answer": "one",
+            "caption": "a single motorcycle parked in the parking lot",
+            "top10": [
+              41917,
+              29241,
+              9465,
+              47384,
+              29416,
+              46934,
+              5762,
+              36040,
+              37031,
+              49399
+            ]
+          },
+          {
+            "answer": "three",
+            "caption": "three motorcycles parked in the parking lot",
+            "top10": [
+              32612,
+              49543,
+              13883,
+              26229,
+              25630,
+              23006,
+              41709,
+              49032,
+              29501,
+              44690
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the position of the motorcycles relative to the cone?",
+        "score": 1,
+        "branches": [
+          {
+            "answer": "next to",
+            "caption": "a motorcycle parked next to a cone",
+            "top10": [
+              10407,
+              20569,
+              13546,
+              25127,
+              2606,
+              46379,
+              6562,
+              22596,
+              37031,
+              40478
+            ]
+          },
+          {
+            "answer": "near",
+            "caption": "parked motorcycles near a river",
+            "top10": [
+              43543,
+              43170,
+              13446,
+              16238,
+              22271,
+              1176,
+              19629,
+              32557,
+              1662,
+              29479
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: Is there a motorcycle rider wearing a helmet among the parked motorcycles?",
+        "score": 8,
+        "branches": [
+          {
+            "answer": "no",
+            "caption": "a group of parked motorcycles with no riders",
+            "top10": [
+              13207,
+              16388,
+              32557,
+              25396,
+              7885,
+              24848,
+              38493,
+              27056,
+              29479,
+              25127
+            ]
+          },
+          {
+            "answer": "yes",
+            "caption": "a group of motorcycles parked in a parking lot, including one with a rider wearing a helmet",
+            "top10": [
+              41709,
+              32612,
+              13883,
+              16388,
+              25630,
+              25127,
+              12322,
+              40132,
+              45155,
+              30642
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: What is the color of the motorcycles parked in the parking lot?",
+        "score": 3,
+        "branches": [
+          {
+            "answer": "black and gold",
+            "caption": "black and gold motorcycles",
+            "top10": [
+              41709,
+              31189,
+              38109,
+              4225,
+              27513,
+              47076,
+              38768,
+              41261,
+              33628,
+              15068
+            ]
+          },
+          {
+            "answer": "orange and black",
+            "caption": "the motorcycles are orange and black",
+            "top10": [
+              24848,
+              11475,
+              13883,
+              45776,
+              45097,
+              39828,
+              11915,
+              41261,
+              24603,
+              34964
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "outcomes": {
+    "what color are the motorcycles parked in the parking lot?": {
+      "answer": "black",
+      "rewrite": "a group of black motorcycles parked in a parking lot",
+      "rank": 95
+    },
+    "how many motorcycles are parked in the parking lot?": {
+      "answer": "21",
+      "rewrite": "a group of 21 motorcycles parked in a parking lot",
+      "rank": 26
+    },
+    "what is the position of the motorcycles relative to the cone?": {
+      "answer": "The motorcycles are positioned in front of the cone.",
+      "rewrite": "a group of motorcycles parked in front of a cone in a parking lot",
+      "rank": 62
+    },
+    "Question: Is there a motorcycle rider wearing a helmet among the parked motorcycles?": {
+      "answer": "yes",
+      "rewrite": "a group of parked motorcycles in a parking lot, with one rider wearing a helmet",
+      "rank": 97
+    },
+    "Question: What is the color of the motorcycles parked in the parking lot?": {
+      "answer": "black",
+      "rewrite": "a group of black motorcycles parked in a parking lot",
+      "rank": 95
+    }
+  },
+  "saved_kl_rank": 95
+}

@@ -1,0 +1,160 @@
+{
+  "pivot": null,
+  "trace": [
+    {
+      "slots": [
+        {
+          "entity": "bed with blue covers",
+          "family": "material",
+          "values": [
+            "wood",
+            "oil paint"
+          ],
+          "question": "What material is the bed with blue covers made of?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          null
+        ]
+      ],
+      "filled": [
+        9
+      ],
+      "pixel_supported": [
+        false
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "previous question about this subject and attribute",
+        "previous question about this subject and attribute",
+        "ambiguous subject"
+      ]
+    },
+    {
+      "slots": [
+        {
+          "entity": "bed with blue covers",
+          "family": "material",
+          "values": [
+            "wood",
+            "fabric"
+          ],
+          "question": "What material is the bed with blue covers made of?"
+        }
+      ],
+      "vetoes": [],
+      "protocol_error": "Invalid classification on both structured and single-label attempts"
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "no grounded subjects"
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "ambiguous subject"
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "ambiguous subject"
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "ambiguous subject"
+      ]
+    },
+    {
+      "slots": [
+        {
+          "entity": "pillows",
+          "family": "material",
+          "values": [
+            "cotton",
+            "silk"
+          ],
+          "question": "What material is the pillows made of?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "cotton",
+          null,
+          "cotton",
+          "cotton",
+          "cotton",
+          null,
+          null,
+          "cotton",
+          "cotton",
+          null
+        ]
+      ],
+      "filled": [
+        6
+      ],
+      "pixel_supported": [
+        false
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "dialogue-only check: {'status': 'UNSAFE', 'evidence': 'The provided text only mentions the existence of pillows on the bed; it does not describe their material, and the suggested values (wood, metal) are illogical for pillows.'}"
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "dialogue-only check: {'status': 'UNSAFE', 'evidence': 'The provided text only mentions the existence of pillows on the bed; it does not describe their material, and the suggested values (wood, metal) are illogical for standard pillows.'}"
+      ]
+    }
+  ]
+}

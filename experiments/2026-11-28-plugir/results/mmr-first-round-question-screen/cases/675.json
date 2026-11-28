@@ -1,0 +1,151 @@
+{
+  "qid": 675,
+  "selection": {
+    "kl": "Answer: white\n\nExplanation: The [Description] states that the image features a \"crouching catcher\" with an \"extended arm.\" The [Dialogue]?",
+    "probe": "what color are the shorts of the crouching catcher?",
+    "candidates": [
+      {
+        "question": "what color are the shorts of the crouching catcher?",
+        "score": 7,
+        "branches": [
+          {
+            "answer": "white",
+            "caption": "the crouching catcher has his arm extended to catch the ball and is wearing white shorts",
+            "top10": [
+              4430,
+              17089,
+              44725,
+              44582,
+              40462,
+              17145,
+              1519,
+              25260,
+              15411,
+              37238
+            ]
+          },
+          {
+            "answer": "green",
+            "caption": "the crouching catcher has his arm extended to catch the ball and is wearing green shorts",
+            "top10": [
+              15180,
+              9121,
+              4430,
+              30507,
+              33517,
+              16527,
+              6950,
+              17089,
+              43128,
+              15411
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Answer: white\n\nExplanation: The [Description] states that the image features a \"crouching catcher\" with an \"extended arm.\" The [Dialogue]?",
+        "score": 6,
+        "branches": [
+          {
+            "answer": "white",
+            "caption": "a crouching catcher with white shorts has his arm extended to catch the ball",
+            "top10": [
+              4430,
+              17089,
+              44725,
+              17145,
+              44582,
+              1519,
+              3361,
+              25260,
+              15411,
+              40462
+            ]
+          },
+          {
+            "answer": "blue",
+            "caption": "a crouching catcher with blue shorts has his arm extended to catch the ball",
+            "top10": [
+              44582,
+              32703,
+              4430,
+              17089,
+              40715,
+              4947,
+              27199,
+              22627,
+              32906,
+              7418
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: what is the color of the jersey worn by the child on the baseball field?",
+        "score": 2,
+        "branches": [
+          {
+            "answer": "green",
+            "caption": "a child on a baseball field in a green jersey",
+            "top10": [
+              24101,
+              40577,
+              1920,
+              19137,
+              40080,
+              38145,
+              46080,
+              34124,
+              244,
+              23303
+            ]
+          },
+          {
+            "answer": "white",
+            "caption": "the catcher has white shorts",
+            "top10": [
+              21235,
+              4430,
+              17089,
+              46197,
+              44582,
+              4903,
+              18048,
+              43341,
+              19674,
+              7127
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what color is the jersey worn by the crouching catcher?",
+        "score": null,
+        "branches": []
+      }
+    ]
+  },
+  "outcomes": {
+    "what color are the shorts of the crouching catcher?": {
+      "answer": "white",
+      "rewrite": "the crouching catcher in white shorts has his arm extended to catch the ball",
+      "rank": 787
+    },
+    "Answer: white\n\nExplanation: The [Description] states that the image features a \"crouching catcher\" with an \"extended arm.\" The [Dialogue]?": {
+      "answer": "I'm sorry, but I cannot provide the answer.",
+      "rewrite": "a crouching catcher with an extended arm, wearing white",
+      "rank": 592
+    },
+    "Question: what is the color of the jersey worn by the child on the baseball field?": {
+      "answer": "gray",
+      "rewrite": "a crouching catcher in a gray jersey extends his arm to catch the ball on a baseball field",
+      "rank": 334
+    },
+    "what color is the jersey worn by the crouching catcher?": {
+      "answer": "red",
+      "rewrite": "a crouching catcher in a red jersey has his arm extended to catch the ball",
+      "rank": 1612
+    }
+  },
+  "saved_kl_rank": 592
+}

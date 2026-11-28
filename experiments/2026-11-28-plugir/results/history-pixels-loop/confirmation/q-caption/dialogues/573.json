@@ -1,0 +1,201 @@
+{
+  "qid": 573,
+  "target": "unlabeled2017/000000216234.jpg",
+  "arm": "q-caption",
+  "first": 2,
+  "turns": [
+    {
+      "evidence": [
+        9590,
+        26456,
+        12348,
+        12719,
+        10826,
+        12089,
+        39584,
+        44293,
+        49259,
+        22745
+      ],
+      "candidates": [
+        "what is the color of the street light located at the intersection?",
+        "what is the object the street light is hanging from or attached to?",
+        "what is the color of the traffic light in the image?",
+        "what is the background object located behind the street light at the intersection?",
+        "what is the color of the street light in the image?"
+      ],
+      "default": "what is the background object located behind the street light at the intersection?",
+      "question": "what is the background object located behind the street light at the intersection?",
+      "answer": "mountain",
+      "rewrite": "a street light at an intersection on a sunny day with a mountain in the background",
+      "review": {
+        "default": "what is the background object located behind the street light at the intersection?",
+        "questions": [
+          "what is the color of the street light located at the intersection?",
+          "what is the object the street light is hanging from or attached to?",
+          "what is the color of the traffic light in the image?",
+          "what is the background object located behind the street light at the intersection?",
+          "what is the color of the street light in the image?"
+        ],
+        "selected": "what is the background object located behind the street light at the intersection?",
+        "scores": {}
+      },
+      "shared_seconds": 8.714
+    },
+    {
+      "evidence": [
+        49750,
+        45731,
+        28983,
+        29780,
+        17143,
+        27985,
+        42595,
+        13367,
+        7916,
+        8653
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "what is the color of the sky in the image with the street light at the intersection?",
+        "what is the color of the sky in the image with the street light at the intersection?",
+        "what is the color of the sky in the image with the street light at the intersection?",
+        "what is the weather condition in the image with the street light at the intersection?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "fire hydrant",
+      "rewrite": "a street light at an intersection on a sunny day, with a mountain in the background and a fire hydrant nearby",
+      "review": {
+        "default": "what is the other object in the image?",
+        "questions": [
+          "what is the other object in the image?",
+          "what is the color of the sky in the image with the street light at the intersection?",
+          "what is the weather condition in the image with the street light at the intersection?"
+        ],
+        "selected": "what is the other object in the image?",
+        "scores": {
+          "what is the color of the sky in the image with the street light at the intersection?": {
+            "file": "db9c1d168cf4dd4da6e64ab821596e96976003a7b499de1099b12dc7260c02a2.json",
+            "answers": [
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "blue",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown"
+            ],
+            "seconds": 1.9825581249315292,
+            "score": 0
+          }
+        }
+      },
+      "shared_seconds": 22.627
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a street light at an intersection on a sunny day",
+      "raw_rank": 36,
+      "filtered_rank": 36,
+      "rank": 36,
+      "ordinary_screen": [
+        9590,
+        26456,
+        12348,
+        12719,
+        10826,
+        12089,
+        39584,
+        44293,
+        49259,
+        22745
+      ],
+      "display": [
+        9590,
+        26456,
+        12348,
+        12719,
+        10826,
+        12089,
+        39584,
+        44293,
+        49259,
+        22745
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a street light at an intersection on a sunny day with a mountain in the background",
+      "raw_rank": 12,
+      "filtered_rank": 12,
+      "rank": 12,
+      "ordinary_screen": [
+        49750,
+        45731,
+        28983,
+        29780,
+        17143,
+        27985,
+        42595,
+        13367,
+        8653,
+        7916
+      ],
+      "display": [
+        49750,
+        45731,
+        28983,
+        29780,
+        17143,
+        27985,
+        42595,
+        13367,
+        8653,
+        7916
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "a street light at an intersection on a sunny day, with a mountain in the background and a fire hydrant nearby",
+      "raw_rank": 1,
+      "filtered_rank": 1,
+      "rank": 1,
+      "ordinary_screen": [
+        18526,
+        41121,
+        34716,
+        22980,
+        6575,
+        46641,
+        35323,
+        17955,
+        7795,
+        23927
+      ],
+      "display": [
+        18526,
+        41121,
+        34716,
+        22980,
+        6575,
+        46641,
+        35323,
+        17955,
+        7795,
+        23927
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 31.341,
+  "live": false,
+  "seconds": 2.4252722079399973
+}

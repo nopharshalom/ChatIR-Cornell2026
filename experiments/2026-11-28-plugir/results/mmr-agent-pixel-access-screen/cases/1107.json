@@ -1,0 +1,40 @@
+{
+  "plan_raw": "{\n\"choice\": 1,\n\"check\": \"count of giraffes\",\n\"photos\": [0, 6]\n}",
+  "provisional": 1,
+  "valid_plan": true,
+  "caption": {
+    "choice": 1,
+    "fallback": true,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "The count of giraffes is unknown as the specific number is not provided in the caption or photo."
+      },
+      {
+        "index": 6,
+        "observation": "The caption states there are four giraffes."
+      }
+    ],
+    "raw": "{\"choice\": 6}"
+  },
+  "pixels": {
+    "choice": 1,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "There are five giraffes visible in the image."
+      },
+      {
+        "index": 6,
+        "observation": "The image shows four giraffes."
+      }
+    ],
+    "raw": "{\"choice\": 1}"
+  },
+  "qid": 1107,
+  "example_ids": [
+    917,
+    1754
+  ]
+}

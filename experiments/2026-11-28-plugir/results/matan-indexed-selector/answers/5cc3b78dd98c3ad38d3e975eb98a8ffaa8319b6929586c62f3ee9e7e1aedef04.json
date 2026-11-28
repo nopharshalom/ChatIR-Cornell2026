@@ -1,0 +1,23 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    [
+      5526,
+      30539,
+      19790,
+      14415,
+      35956,
+      40417,
+      2844,
+      47194,
+      7888,
+      5213
+    ],
+    "Question: Is the man flying the kite with his arms stretched out?",
+    "Answer the question separately for each numbered photo. Answer yes or no from visible evidence, or unknown if uncertain or inapplicable. Return a JSON object with exactly one answer for each printed tile ID. The top row is 0,1,2,3,4 and the bottom row is 5,6,7,8,9. Use these ten ID strings as keys, including \"0\" and \"9\".",
+    180
+  ],
+  "raw": "```\n[\n  {\"image_id\": \"Picture 1\", \"bbox_id\": [0, 0, 0, 0], \"answer\": \"no\"},\n  {\"image_id\": \"Picture 2\", \"bbox_id\": [1, 0, 1, 0], \"answer\": \"no\"},\n  {\"image_id\": \"Picture 3\", \"bbox_id\": [2, 0, 2, 0], \"answer\": \"no\"},\n  {\"image_id\": \"Picture 4\", \"bbox_id\": [3, 0, 3, 0], \"answer\": \"no\"},\n  {\"image_id\": \"Picture 5\", \"bbox_id\": [4, 0, 4, 0], \"answer\": \"no\"},\n  {\"image_id\": \"Picture 6\", \"",
+  "answers": null,
+  "seconds": 4.543059625197202
+}

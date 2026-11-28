@@ -1,0 +1,318 @@
+{
+  "qid": 1419,
+  "target": "unlabeled2017/000000475354.jpg",
+  "arm": "q-caption",
+  "first": 3,
+  "turns": [
+    {
+      "evidence": [
+        46884,
+        32634,
+        3948,
+        23417,
+        26618,
+        47394,
+        9683,
+        15275,
+        31615,
+        17867
+      ],
+      "candidates": [
+        "Question: Is the man riding the snowboard on a snow-covered hill?",
+        "what is the other object in the image?",
+        "what is the color of the snowboard the man is riding in the air?",
+        "Question: what is the color of the snowboard the man is riding?",
+        "what is the color of the snow?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "Question: Is the man riding the snowboard on a snow-covered hill?",
+      "answer": "yes",
+      "rewrite": "a man is riding a snowboard high above a snow-covered hill",
+      "review": {
+        "default": "what is the other object in the image?",
+        "questions": [
+          "Question: Is the man riding the snowboard on a snow-covered hill?",
+          "what is the other object in the image?",
+          "what is the color of the snowboard the man is riding in the air?",
+          "Question: what is the color of the snowboard the man is riding?",
+          "what is the color of the snow?"
+        ],
+        "selected": "Question: Is the man riding the snowboard on a snow-covered hill?",
+        "scores": {
+          "is the man riding the snowboard on a snow-covered hill?": {
+            "file": "232c006005e59bc7873a89c658ab32325edc7dcba906161d6dd8c202ddd7e592.json",
+            "answers": [
+              "unknown",
+              "unknown",
+              "yes",
+              "unknown",
+              "unknown",
+              "no",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown"
+            ],
+            "seconds": 2.509310584049672,
+            "score": 1
+          },
+          "what is the color of the snowboard the man is riding in the air?": {
+            "file": "c50642cf1e683011b84acae8b853fc80c2ea278cd393961b187010b404ca4ada.json",
+            "answers": [
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown"
+            ],
+            "seconds": 1.8387010840233415,
+            "score": 0
+          },
+          "what is the color of the snowboard the man is riding?": {
+            "file": "d29b2ef0bfe2e29c4ebf64788e5abc1daebab8134859bbb13cedb22413316aa7.json",
+            "answers": [
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown"
+            ],
+            "seconds": 1.8475975419860333,
+            "score": 0
+          },
+          "what is the color of the snow?": {
+            "file": "e90905366000b3697567a76ce3b930e3ed9f964b80cff5138ad40a748e19de76.json",
+            "answers": [
+              "white",
+              "white",
+              "white",
+              "white",
+              "white",
+              "white",
+              "white",
+              "white",
+              "white",
+              "white"
+            ],
+            "seconds": 1.8529021251015365,
+            "score": 0
+          }
+        }
+      },
+      "shared_seconds": 14.381936541991308
+    },
+    {
+      "evidence": [
+        32634,
+        46884,
+        47394,
+        26618,
+        3948,
+        39023,
+        14629,
+        8946,
+        31615,
+        23417
+      ],
+      "candidates": [
+        "Question: What is the color of the jacket worn by the man riding the snowboard?",
+        "Question: What is the color of the jacket worn by the man riding the snowboard?",
+        "what color jacket is the man riding the snowboard wearing?",
+        "what color jacket is the man riding the snowboard wearing?",
+        "what is the color of the jacket worn by the man riding the snowboard?"
+      ],
+      "default": "what color jacket is the man riding the snowboard wearing?",
+      "question": "what color jacket is the man riding the snowboard wearing?",
+      "answer": "green",
+      "rewrite": "a man wearing a green jacket is riding a snowboard high above a snow-covered hill",
+      "review": {
+        "default": "what color jacket is the man riding the snowboard wearing?",
+        "questions": [
+          "Question: What is the color of the jacket worn by the man riding the snowboard?",
+          "what color jacket is the man riding the snowboard wearing?"
+        ],
+        "selected": "what color jacket is the man riding the snowboard wearing?",
+        "scores": {}
+      },
+      "shared_seconds": 7.779623875161633
+    },
+    {
+      "evidence": [
+        19826,
+        15528,
+        46443,
+        35321,
+        32659,
+        27357,
+        16377,
+        23081,
+        23417,
+        8642
+      ],
+      "candidates": [
+        "what color pants is the man riding the snowboard wearing?",
+        "what color pants is the man riding the snowboard wearing?",
+        "what color pants is the man riding the snowboard wearing?",
+        "what color pants is the man riding the snowboard wearing?",
+        "what color snowboard is the man wearing?"
+      ],
+      "default": "what color snowboard is the man wearing?",
+      "question": "what color snowboard is the man wearing?",
+      "answer": "black",
+      "rewrite": "a man wearing a green jacket rides a black snowboard high above a snow-covered hill",
+      "review": {
+        "default": "what color snowboard is the man wearing?",
+        "questions": [
+          "what color pants is the man riding the snowboard wearing?",
+          "what color snowboard is the man wearing?"
+        ],
+        "selected": "what color snowboard is the man wearing?",
+        "scores": {}
+      },
+      "shared_seconds": 7.871224666945636
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a man is riding a snowboard and he is high above the snow",
+      "raw_rank": 41,
+      "filtered_rank": 41,
+      "rank": 41,
+      "ordinary_screen": [
+        46884,
+        32634,
+        3948,
+        23417,
+        26618,
+        47394,
+        9683,
+        15275,
+        31615,
+        17867
+      ],
+      "display": [
+        46884,
+        32634,
+        3948,
+        23417,
+        26618,
+        47394,
+        9683,
+        15275,
+        31615,
+        17867
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a man is riding a snowboard high above a snow-covered hill",
+      "raw_rank": 25,
+      "filtered_rank": 15,
+      "rank": 15,
+      "ordinary_screen": [
+        39023,
+        14629,
+        8946,
+        500,
+        7183,
+        18782,
+        1293,
+        10294,
+        28204,
+        7199
+      ],
+      "display": [
+        39023,
+        14629,
+        8946,
+        500,
+        7183,
+        18782,
+        1293,
+        10294,
+        28204,
+        7199
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "a man wearing a green jacket is riding a snowboard high above a snow-covered hill",
+      "raw_rank": 12,
+      "filtered_rank": 11,
+      "rank": 11,
+      "ordinary_screen": [
+        19826,
+        15528,
+        46443,
+        35321,
+        32659,
+        27357,
+        16377,
+        23081,
+        8642,
+        28212
+      ],
+      "display": [
+        19826,
+        15528,
+        46443,
+        35321,
+        32659,
+        27357,
+        16377,
+        23081,
+        8642,
+        28212
+      ],
+      "check": {}
+    },
+    {
+      "round": 3,
+      "query": "a man wearing a green jacket rides a black snowboard high above a snow-covered hill",
+      "raw_rank": 13,
+      "filtered_rank": 4,
+      "rank": 4,
+      "ordinary_screen": [
+        44561,
+        32766,
+        31797,
+        40772,
+        34076,
+        37968,
+        13305,
+        37156,
+        49211,
+        41981
+      ],
+      "display": [
+        44561,
+        32766,
+        31797,
+        40772,
+        34076,
+        37968,
+        13305,
+        37156,
+        49211,
+        41981
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 30.032785084098577,
+  "live": true,
+  "seconds": 38.176554083125666
+}

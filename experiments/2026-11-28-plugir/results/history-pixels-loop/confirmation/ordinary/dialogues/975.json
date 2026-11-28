@@ -1,0 +1,163 @@
+{
+  "qid": 975,
+  "target": "unlabeled2017/000000341638.jpg",
+  "arm": "ordinary",
+  "first": 2,
+  "turns": [
+    {
+      "evidence": [
+        28594,
+        4073,
+        49481,
+        1102,
+        27479,
+        12243,
+        45045,
+        27269,
+        16832,
+        12596
+      ],
+      "candidates": [
+        "what is the size of the wave that the two people are catching?",
+        "Question: What is the color of the wave that the two people are catching?",
+        "what are the two people riding on the wave?",
+        "what are the two people riding on the wave?",
+        "Question: What color is the wave that the two people are riding on?"
+      ],
+      "default": "what is the size of the wave that the two people are catching?",
+      "question": "what is the size of the wave that the two people are catching?",
+      "answer": "small",
+      "rewrite": "two people are out in the ocean surfing and catching a small wave",
+      "review": null,
+      "shared_seconds": 13.986
+    },
+    {
+      "evidence": [
+        34051,
+        28899,
+        29135,
+        38008,
+        18869,
+        47191,
+        2878,
+        16832,
+        35709,
+        4073
+      ],
+      "candidates": [
+        "what is the color of the shirt worn by the man surfing in the ocean?",
+        "what is the color of the shirt worn by the man surfing in the ocean?",
+        "what are the colors of the shirts worn by the two people surfing in the ocean?",
+        "what is the color of the shirt worn by the man surfing in the ocean?",
+        "what is the color of the shirt worn by the man surfing in the ocean?"
+      ],
+      "default": "what are the colors of the shirts worn by the two people surfing in the ocean?",
+      "question": "what are the colors of the shirts worn by the two people surfing in the ocean?",
+      "answer": "green and black",
+      "rewrite": "two people in green and black shirts are out in the ocean surfing and catching a small wave",
+      "review": null,
+      "shared_seconds": 7.419
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "2 people are out in the ocean surfing and catching a big wave",
+      "raw_rank": 73,
+      "filtered_rank": 73,
+      "rank": 73,
+      "ordinary_screen": [
+        28594,
+        4073,
+        49481,
+        1102,
+        27479,
+        45045,
+        12243,
+        27269,
+        16832,
+        12596
+      ],
+      "display": [
+        28594,
+        4073,
+        49481,
+        1102,
+        27479,
+        45045,
+        12243,
+        27269,
+        16832,
+        12596
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "two people are out in the ocean surfing and catching a small wave",
+      "raw_rank": 139,
+      "filtered_rank": 129,
+      "rank": 129,
+      "ordinary_screen": [
+        34051,
+        28899,
+        29135,
+        38008,
+        18869,
+        47191,
+        2878,
+        35709,
+        4547,
+        3115
+      ],
+      "display": [
+        34051,
+        28899,
+        29135,
+        38008,
+        18869,
+        47191,
+        2878,
+        35709,
+        4547,
+        3115
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "two people in green and black shirts are out in the ocean surfing and catching a small wave",
+      "raw_rank": 10,
+      "filtered_rank": 7,
+      "rank": 7,
+      "ordinary_screen": [
+        799,
+        16882,
+        41325,
+        37366,
+        45637,
+        36571,
+        29313,
+        19042,
+        47842,
+        23784
+      ],
+      "display": [
+        799,
+        16882,
+        41325,
+        37366,
+        45637,
+        36571,
+        29313,
+        19042,
+        47842,
+        23784
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 21.405,
+  "live": false,
+  "seconds": 0.31883458397351205
+}

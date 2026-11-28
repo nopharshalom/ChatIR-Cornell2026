@@ -1,0 +1,115 @@
+{
+  "qid": 1241,
+  "target": "unlabeled2017/000000136519.jpg",
+  "arm": "q-caption",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        48512,
+        45117,
+        945,
+        34694,
+        12880,
+        24012,
+        48647,
+        2232,
+        28926,
+        11697
+      ],
+      "candidates": [
+        "what color is the clock?",
+        "what is the color of the large metal clock that is still under construction?",
+        "what is the location of the clock?",
+        "what is the background surface behind the large metal clock under construction?",
+        "what is the color of the large clock that is built out of metal?"
+      ],
+      "default": "what is the location of the clock?",
+      "question": "what is the location of the clock?",
+      "answer": "colgate",
+      "rewrite": "a very, very large clock built out of metal, still under construction, located at Colgate",
+      "review": {
+        "default": "what is the location of the clock?",
+        "questions": [
+          "what color is the clock?",
+          "what is the color of the large metal clock that is still under construction?",
+          "what is the location of the clock?",
+          "what is the background surface behind the large metal clock under construction?",
+          "what is the color of the large clock that is built out of metal?"
+        ],
+        "selected": "what is the location of the clock?",
+        "scores": {}
+      },
+      "shared_seconds": 9.776
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a very, very large clock built out of metal and still under construction",
+      "raw_rank": 15,
+      "filtered_rank": 15,
+      "rank": 15,
+      "ordinary_screen": [
+        48512,
+        45117,
+        945,
+        34694,
+        12880,
+        48647,
+        24012,
+        2232,
+        28926,
+        11697
+      ],
+      "display": [
+        48512,
+        45117,
+        945,
+        34694,
+        12880,
+        48647,
+        24012,
+        2232,
+        28926,
+        11697
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a very, very large clock built out of metal, still under construction, located at Colgate",
+      "raw_rank": 2,
+      "filtered_rank": 1,
+      "rank": 1,
+      "ordinary_screen": [
+        11804,
+        28988,
+        8910,
+        3846,
+        23057,
+        26042,
+        45302,
+        30051,
+        12939,
+        24453
+      ],
+      "display": [
+        11804,
+        28988,
+        8910,
+        3846,
+        23057,
+        26042,
+        45302,
+        30051,
+        12939,
+        24453
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 9.776,
+  "live": false,
+  "seconds": 0.0407558330334723
+}

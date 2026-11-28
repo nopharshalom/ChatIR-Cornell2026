@@ -1,0 +1,56 @@
+{
+  "pivot": null,
+  "trace": [
+    {
+      "slots": [
+        {
+          "entity": "grass",
+          "family": "setting",
+          "values": [
+            "cloudy day",
+            "sun going down"
+          ],
+          "question": "What kind of place is the grass in?"
+        }
+      ],
+      "vetoes": [
+        "answerable from dialogue alone: dirt",
+        "dialogue-only check: {'status': 'KNOWN', 'evidence': \"The initial description states the sheep are walking around 'dirt', and the description explicitly mentions 'brown' as one of the colors present in the scene, while 'green' is associated with the surrounding grass and trees.\"}"
+      ],
+      "caption_labels": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          null,
+          "cloudy day",
+          "cloudy day",
+          null,
+          null,
+          null,
+          null,
+          null,
+          "cloudy day",
+          "cloudy day"
+        ]
+      ],
+      "filled": [
+        4
+      ],
+      "pixel_supported": [
+        false
+      ]
+    }
+  ]
+}

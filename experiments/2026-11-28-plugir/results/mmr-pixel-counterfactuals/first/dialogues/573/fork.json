@@ -1,0 +1,68 @@
+{
+  "pivot": null,
+  "trace": [
+    {
+      "slots": [
+        {
+          "entity": "street light",
+          "family": "material",
+          "values": [
+            "metal",
+            "plastic"
+          ],
+          "question": "What material is the street light made of?"
+        }
+      ],
+      "vetoes": [],
+      "protocol_error": "Invalid classification on both structured and single-label attempts"
+    },
+    {
+      "slots": [
+        {
+          "entity": "street light",
+          "family": "material",
+          "values": [
+            "metal",
+            "wood"
+          ],
+          "question": "What material is the street light made of?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "metal",
+          "metal",
+          "metal",
+          "metal",
+          "metal",
+          "metal",
+          "metal",
+          "metal",
+          "metal",
+          "metal"
+        ]
+      ],
+      "filled": [
+        10
+      ],
+      "pixel_supported": [
+        false
+      ]
+    }
+  ]
+}

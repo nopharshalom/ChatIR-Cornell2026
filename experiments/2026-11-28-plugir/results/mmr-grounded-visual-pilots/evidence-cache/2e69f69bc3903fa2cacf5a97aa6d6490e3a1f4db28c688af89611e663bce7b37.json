@@ -1,0 +1,10 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    "Classify the answer to the supplied question using ONLY the provided evidence.\nUse exactly one listed label, or unknown. Use unknown if evidence is missing, ambiguous,\nunreadable, contradictory, several labels apply, the subject cannot be identified, or the\nanswer falls outside the list. Never infer the answer from stereotypes or from what is typical.\nAn unmentioned object is not evidence of absence. Use 'nothing' only if explicitly supported. Return a JSON object keyed by the supplied caption numbers. Read each caption independently, using only what it explicitly says.",
+    "{\"captions\": {\"1\": \"two zebras standing in the grass of an open area\", \"10\": \"these zebras are grazing in a dry field\", \"2\": \"a zebra in the grass\", \"3\": \"three zebras stand together in a green field\", \"4\": \"zebras with young in the open field\", \"5\": \"three zebras are grazing in a field with a hill behind them\", \"6\": \"two zebras grazing in the grass\", \"7\": \"zebras graze in the grass with grassy hill in background\", \"8\": \"zebras stand next to a hill with mountains\", \"9\": \"a large group of zebras on grassland in a field\"}, \"task\": {\"allowed_labels\": [\"grassy plain\", \"savanna\", \"field with a hill\"], \"question\": \"What kind of place is the background in?\"}}",
+    260,
+    null
+  ],
+  "response": "{\n  \"1\": \"field with a hill\",\n  \"10\": \"field with a hill\",\n  \"2\": \"field with a hill\",\n  \"3\": \"field with a hill\",\n  \"4\": \"field with a hill\",\n  \"5\": \"field with a hill\",\n  \"6\": \"field with a hill\",\n  \"7\": \"field with a hill\",\n  \"8\": \"field with a hill\",\n  \"9\": \"field with a hill\"\n}"
+}

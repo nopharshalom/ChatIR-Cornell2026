@@ -1,0 +1,27 @@
+{
+  "ids": [
+    494,
+    1894,
+    82,
+    297,
+    1743,
+    1906,
+    332,
+    273,
+    35,
+    767,
+    1820,
+    842,
+    742,
+    1579,
+    1411,
+    1914,
+    77,
+    1731,
+    1348,
+    936
+  ],
+  "model": "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+  "prompt": "You see ten numbered candidate images and a list of questions. For EACH question,\nestimate the answer separately for EACH image, in tile order 0 through 9. Each tile is a\npossible searcher's own photo. Use the current description only to resolve references.\nReturn one JSON array of rows, in question order. Each row is an array of ten integers.\nWithin a row, the same answer means the same positive integer (start with 1). Merge\nsynonyms, paraphrases and minor shades. Use 0 when unclear, inapplicable, subjective,\nabout the displayed grid, or when the question merely repeats a fact already in the description.\nFor example, six red, three blue and one unclear would use [1,1,1,1,1,1,2,2,2,0]\nif that is their tile order. Do not invent differences. Output only JSON.",
+  "sha256": "6a47fb43d5d2e1a45c998cc4d6f2c88c74c78bc92246f4a978dbe95e8d5c79c2"
+}

@@ -1,0 +1,161 @@
+{
+  "qid": 701,
+  "selection": {
+    "kl": "what is the other object in the image?",
+    "probe": "what is the other object in the image?",
+    "candidates": [
+      {
+        "question": "what is the other object in the image?",
+        "score": 6,
+        "branches": [
+          {
+            "answer": "a parking meter",
+            "caption": "image of a red lobster restaurant from a street a one-way sign and street light is visible, and a man in an orange shirt is walking toward the entrance, and a parking meter sits in the street in front of a restaurant",
+            "top10": [
+              3530,
+              17087,
+              43,
+              11635,
+              17131,
+              24819,
+              20555,
+              13199,
+              43042,
+              30285
+            ]
+          },
+          {
+            "answer": "a large red sign",
+            "caption": "image of a red lobster restaurant from a street a one-way sign and street light is visible, and a man in an orange shirt is walking toward the entrance, and a large red sign on a building with many windows",
+            "top10": [
+              43807,
+              3203,
+              17087,
+              24819,
+              17692,
+              13447,
+              3530,
+              11635,
+              13199,
+              20555
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the color of the one-way sign visible in the image?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "what is the color of the sign mentioned in the description?",
+        "score": 1,
+        "branches": [
+          {
+            "answer": "red",
+            "caption": "a red sign on a building with many windows",
+            "top10": [
+              4703,
+              3203,
+              43807,
+              35173,
+              37059,
+              29394,
+              34488,
+              38364,
+              22315,
+              10178
+            ]
+          },
+          {
+            "answer": "unknown",
+            "caption": "a sign on the street",
+            "top10": [
+              28331,
+              24312,
+              23296,
+              32180,
+              45465,
+              40358,
+              21470,
+              35056,
+              2470,
+              9575
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the color of the one-way sign mentioned in the description?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "Question: Which color is the sign on the building in the image?",
+        "score": 1,
+        "branches": [
+          {
+            "answer": "red",
+            "caption": "a large red sign on a building with many windows",
+            "top10": [
+              4703,
+              37059,
+              43807,
+              3203,
+              38364,
+              16093,
+              13533,
+              34119,
+              22315,
+              47618
+            ]
+          },
+          {
+            "answer": "unknown",
+            "caption": "a sign on the street",
+            "top10": [
+              28331,
+              24312,
+              23296,
+              32180,
+              45465,
+              40358,
+              21470,
+              35056,
+              2470,
+              9575
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "outcomes": {
+    "what is the other object in the image?": {
+      "answer": "traffic light",
+      "rewrite": "image of a red lobster restaurant from the street, featuring a one-way sign, a street light, and a traffic light, with a man in an orange shirt walking toward the entrance",
+      "rank": 36
+    },
+    "what is the color of the one-way sign visible in the image?": {
+      "answer": "black and white",
+      "rewrite": "image of a red lobster restaurant from the street, featuring a black and white one-way sign and a street light, with a man in an orange shirt walking toward the entrance",
+      "rank": 53
+    },
+    "what is the color of the sign mentioned in the description?": {
+      "answer": "red",
+      "rewrite": "image of a red lobster restaurant from the street, featuring a red one-way sign and a street light, with a man in an orange shirt walking toward the entrance",
+      "rank": 52
+    },
+    "what is the color of the one-way sign mentioned in the description?": {
+      "answer": "black and white",
+      "rewrite": "image of a red lobster restaurant from the street, featuring a black and white one-way sign and a street light, with a man in an orange shirt walking toward the entrance",
+      "rank": 53
+    },
+    "Question: Which color is the sign on the building in the image?": {
+      "answer": "red",
+      "rewrite": "image of a red lobster restaurant from the street, featuring a red one-way sign and a street light, with a man in an orange shirt walking toward the entrance",
+      "rank": 52
+    }
+  },
+  "saved_kl_rank": 36
+}

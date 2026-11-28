@@ -1,0 +1,472 @@
+{
+  "qid": 858,
+  "target": "unlabeled2017/000000227006.jpg",
+  "arm": "q-caption",
+  "first": 6,
+  "turns": [
+    {
+      "evidence": [
+        46922,
+        34656,
+        30496,
+        7386,
+        38933,
+        48926,
+        45701,
+        32126,
+        45234,
+        39713
+      ],
+      "candidates": [
+        "what material is the large building with a clock tower made of?",
+        "what is the color of the large building with a clock tower?",
+        "what is the color of the sky in the image with the large building with a clock tower?",
+        "what is the status of the clock on the large building with a clock tower?",
+        "what is the material of the clock tower in the image?"
+      ],
+      "default": "what is the color of the large building with a clock tower?",
+      "question": "what is the color of the large building with a clock tower?",
+      "answer": "white",
+      "rewrite": "a white large building with a clock tower is at the corner of a city block",
+      "review": {
+        "default": "what is the color of the large building with a clock tower?",
+        "questions": [
+          "what material is the large building with a clock tower made of?",
+          "what is the color of the large building with a clock tower?",
+          "what is the color of the sky in the image with the large building with a clock tower?",
+          "what is the status of the clock on the large building with a clock tower?",
+          "what is the material of the clock tower in the image?"
+        ],
+        "selected": "what is the color of the large building with a clock tower?",
+        "scores": {}
+      },
+      "shared_seconds": 10.462
+    },
+    {
+      "evidence": [
+        26578,
+        18233,
+        30496,
+        24991,
+        19934,
+        12180,
+        13946,
+        33659,
+        30883,
+        22296
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "What is the color of the clock tower on the large white building?",
+        "what is the other object in the image?",
+        "what is the other object in the image?",
+        "What is the time displayed on the clock tower of the large white building?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "street lamp",
+      "rewrite": "a white large building with a clock tower is at the corner of a city block, with a street lamp nearby",
+      "review": {
+        "default": "what is the other object in the image?",
+        "questions": [
+          "what is the other object in the image?",
+          "What is the color of the clock tower on the large white building?",
+          "What is the time displayed on the clock tower of the large white building?"
+        ],
+        "selected": "what is the other object in the image?",
+        "scores": {
+          "what is the color of the clock tower on the large white building?": {
+            "file": "0ab8d899b6233dbd6f77701e60305d8e918a0ed9c1fef1b854d05d80b6b0feb6.json",
+            "answers": [
+              "white",
+              "unknown",
+              "unknown",
+              "unknown",
+              "white",
+              "white",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown"
+            ],
+            "seconds": 2.0894854171201587,
+            "score": 0
+          }
+        }
+      },
+      "shared_seconds": 14.43
+    },
+    {
+      "evidence": [
+        26578,
+        22296,
+        15470,
+        13946,
+        36568,
+        19934,
+        32301,
+        18233,
+        30496,
+        14498
+      ],
+      "candidates": [
+        "what is the material of the wall of the large building with a clock tower?",
+        "what is the material of the wall of the large building with a clock tower?",
+        "what is the material of the wall of the large building with a clock tower?",
+        "what is the material of the wall of the large building with a clock tower?",
+        "what is the material of the wall of the large building with a clock tower?"
+      ],
+      "default": "what is the material of the wall of the large building with a clock tower?",
+      "question": "what is the material of the wall of the large building with a clock tower?",
+      "answer": "stone",
+      "rewrite": "a white stone building with a clock tower stands at the corner of a city block, accompanied by a street lamp",
+      "review": {
+        "default": "what is the material of the wall of the large building with a clock tower?",
+        "questions": [
+          "what is the material of the wall of the large building with a clock tower?"
+        ],
+        "selected": "what is the material of the wall of the large building with a clock tower?",
+        "scores": {}
+      },
+      "shared_seconds": 7.747
+    },
+    {
+      "evidence": [
+        22296,
+        36568,
+        19008,
+        17357,
+        26578,
+        15470,
+        32301,
+        6081,
+        46632,
+        46922
+      ],
+      "candidates": [
+        "what is the elevation or terrain of the location where the large white stone building with a clock tower is situated?",
+        "what is the elevation of the location where the large white stone building with a clock tower is situated?",
+        "what is the terrain or elevation of the location where the large white stone building with a clock tower is situated?",
+        "what is the color of the street lamp located next to the large white stone building with a clock tower?",
+        "what is the elevation of the location where the large white stone building with a clock tower is situated?"
+      ],
+      "default": "what is the elevation of the location where the large white stone building with a clock tower is situated?",
+      "question": "what is the elevation of the location where the large white stone building with a clock tower is situated?",
+      "answer": "unsure",
+      "rewrite": "a large white stone building with a clock tower stands at the corner of a city block, accompanied by a street lamp, with the elevation of the location being unsure",
+      "review": {
+        "default": "what is the elevation of the location where the large white stone building with a clock tower is situated?",
+        "questions": [
+          "what is the elevation or terrain of the location where the large white stone building with a clock tower is situated?",
+          "what is the elevation of the location where the large white stone building with a clock tower is situated?",
+          "what is the terrain or elevation of the location where the large white stone building with a clock tower is situated?",
+          "what is the color of the street lamp located next to the large white stone building with a clock tower?"
+        ],
+        "selected": "what is the elevation of the location where the large white stone building with a clock tower is situated?",
+        "scores": {}
+      },
+      "shared_seconds": 11.05
+    },
+    {
+      "evidence": [
+        15470,
+        22296,
+        19008,
+        36568,
+        35601,
+        17357,
+        48932,
+        32301,
+        6081,
+        46632
+      ],
+      "candidates": [
+        "What is the specific location or setting of the large white stone building with a clock tower?",
+        "What is the specific location or setting of the large white stone building with a clock tower?",
+        "What is the elevation of the location where the large white stone building with a clock tower is situated?",
+        "what is the specific location or setting of the large white stone building with a clock tower?",
+        "what is the specific location or setting of the large white stone building with a clock tower?"
+      ],
+      "default": "What is the elevation of the location where the large white stone building with a clock tower is situated?",
+      "question": "What is the elevation of the location where the large white stone building with a clock tower is situated?",
+      "answer": "I'm not sure.",
+      "rewrite": "a large white stone building with a clock tower stands at the corner of a city block, accompanied by a street lamp, at an unknown elevation",
+      "review": {
+        "default": "What is the elevation of the location where the large white stone building with a clock tower is situated?",
+        "questions": [
+          "What is the specific location or setting of the large white stone building with a clock tower?",
+          "What is the elevation of the location where the large white stone building with a clock tower is situated?"
+        ],
+        "selected": "What is the elevation of the location where the large white stone building with a clock tower is situated?",
+        "scores": {}
+      },
+      "shared_seconds": 8.13
+    },
+    {
+      "evidence": [
+        22296,
+        15470,
+        6081,
+        19008,
+        46922,
+        17357,
+        26578,
+        36568,
+        46632,
+        32301
+      ],
+      "candidates": [
+        "what is the specific location of the large white stone building with a clock tower within the city block?",
+        "what is the specific location of the large white stone building with a clock tower within the city block?",
+        "what is the surface material of the clock tower on the large white building?",
+        "Question: Does the clock tower on the large white stone building have a large clock on top?",
+        "what is the color of the street lamp located near the large white stone building with a clock tower?"
+      ],
+      "default": "what is the color of the street lamp located near the large white stone building with a clock tower?",
+      "question": "what is the color of the street lamp located near the large white stone building with a clock tower?",
+      "answer": "black",
+      "rewrite": "a large white stone building with a clock tower stands at the corner of a city block, accompanied by a black street lamp, with the elevation of the location being unsure",
+      "review": {
+        "default": "what is the color of the street lamp located near the large white stone building with a clock tower?",
+        "questions": [
+          "what is the specific location of the large white stone building with a clock tower within the city block?",
+          "what is the surface material of the clock tower on the large white building?",
+          "Question: Does the clock tower on the large white stone building have a large clock on top?",
+          "what is the color of the street lamp located near the large white stone building with a clock tower?"
+        ],
+        "selected": "what is the color of the street lamp located near the large white stone building with a clock tower?",
+        "scores": {}
+      },
+      "shared_seconds": 11.444
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a large building with a clock tower is at the corner of a city block",
+      "raw_rank": 160,
+      "filtered_rank": 160,
+      "rank": 160,
+      "ordinary_screen": [
+        46922,
+        34656,
+        30496,
+        7386,
+        48926,
+        38933,
+        45701,
+        32126,
+        45234,
+        39713
+      ],
+      "display": [
+        46922,
+        34656,
+        30496,
+        7386,
+        48926,
+        38933,
+        45701,
+        32126,
+        45234,
+        39713
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a white large building with a clock tower is at the corner of a city block",
+      "raw_rank": 174,
+      "filtered_rank": 165,
+      "rank": 165,
+      "ordinary_screen": [
+        26578,
+        18233,
+        24991,
+        19934,
+        12180,
+        13946,
+        33659,
+        30883,
+        32301,
+        22296
+      ],
+      "display": [
+        26578,
+        18233,
+        24991,
+        19934,
+        12180,
+        13946,
+        33659,
+        30883,
+        32301,
+        22296
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "a white large building with a clock tower is at the corner of a city block, with a street lamp nearby",
+      "raw_rank": 106,
+      "filtered_rank": 93,
+      "rank": 93,
+      "ordinary_screen": [
+        15470,
+        36568,
+        14498,
+        35601,
+        33614,
+        35276,
+        6081,
+        44278,
+        22598,
+        17357
+      ],
+      "display": [
+        15470,
+        36568,
+        14498,
+        35601,
+        33614,
+        35276,
+        6081,
+        44278,
+        22598,
+        17357
+      ],
+      "check": {}
+    },
+    {
+      "round": 3,
+      "query": "a white stone building with a clock tower stands at the corner of a city block, accompanied by a street lamp",
+      "raw_rank": 81,
+      "filtered_rank": 58,
+      "rank": 58,
+      "ordinary_screen": [
+        19008,
+        46632,
+        10936,
+        48932,
+        31616,
+        3122,
+        21623,
+        16119,
+        18415,
+        24753
+      ],
+      "display": [
+        19008,
+        46632,
+        10936,
+        48932,
+        31616,
+        3122,
+        21623,
+        16119,
+        18415,
+        24753
+      ],
+      "check": {}
+    },
+    {
+      "round": 4,
+      "query": "a large white stone building with a clock tower stands at the corner of a city block, accompanied by a street lamp, with the elevation of the location being unsure",
+      "raw_rank": 56,
+      "filtered_rank": 24,
+      "rank": 24,
+      "ordinary_screen": [
+        26456,
+        11886,
+        27364,
+        6898,
+        10777,
+        22067,
+        42260,
+        8466,
+        47624,
+        16000
+      ],
+      "display": [
+        26456,
+        11886,
+        27364,
+        6898,
+        10777,
+        22067,
+        42260,
+        8466,
+        47624,
+        16000
+      ],
+      "check": {}
+    },
+    {
+      "round": 5,
+      "query": "a large white stone building with a clock tower stands at the corner of a city block, accompanied by a street lamp, at an unknown elevation",
+      "raw_rank": 99,
+      "filtered_rank": 53,
+      "rank": 53,
+      "ordinary_screen": [
+        10495,
+        31299,
+        17437,
+        29269,
+        979,
+        7514,
+        27533,
+        9590,
+        23835,
+        3840
+      ],
+      "display": [
+        10495,
+        31299,
+        17437,
+        29269,
+        979,
+        7514,
+        27533,
+        9590,
+        23835,
+        3840
+      ],
+      "check": {}
+    },
+    {
+      "round": 6,
+      "query": "a large white stone building with a clock tower stands at the corner of a city block, accompanied by a black street lamp, with the elevation of the location being unsure",
+      "raw_rank": 44,
+      "filtered_rank": 6,
+      "rank": 6,
+      "ordinary_screen": [
+        19086,
+        30794,
+        9113,
+        16420,
+        35699,
+        19495,
+        33206,
+        13377,
+        46201,
+        15850
+      ],
+      "display": [
+        19086,
+        30794,
+        9113,
+        16420,
+        35699,
+        19495,
+        33206,
+        13377,
+        46201,
+        15850
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 63.263,
+  "live": false,
+  "seconds": 2.73678629193455
+}

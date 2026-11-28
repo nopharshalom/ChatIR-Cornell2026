@@ -1,0 +1,161 @@
+{
+  "qid": 1510,
+  "selection": {
+    "kl": "Question: Where is the man hitting the tennis ball located?",
+    "probe": "Question: Where is the man hitting the tennis ball located?",
+    "candidates": [
+      {
+        "question": "Question: What color is the shirt worn by the man hitting the tennis ball?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "Question: What is the color of the shirt worn by the man jumping to hit the tennis ball?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "Question: Where is the man hitting the tennis ball located?",
+        "score": 1,
+        "branches": [
+          {
+            "answer": "on a tennis court",
+            "caption": "a man swinging a tennis racket on the court",
+            "top10": [
+              6794,
+              16240,
+              28606,
+              17013,
+              8115,
+              11058,
+              31500,
+              7005,
+              3016,
+              36476
+            ]
+          },
+          {
+            "answer": "in the air",
+            "caption": "a man is swinging a tennis racket in the air",
+            "top10": [
+              29897,
+              16240,
+              9168,
+              48785,
+              41657,
+              7069,
+              17013,
+              30252,
+              44336,
+              17495
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: What color is the shirt worn by the man jumping to hit the tennis ball?",
+        "score": 2,
+        "branches": [
+          {
+            "answer": "white",
+            "caption": "a man wearing a white and orange shirt jumping to hit a tennis ball",
+            "top10": [
+              48785,
+              13218,
+              31005,
+              8502,
+              46788,
+              38564,
+              48727,
+              419,
+              9123,
+              16240
+            ]
+          },
+          {
+            "answer": "orange",
+            "caption": "a man wearing an orange and white shirt jumping to hit a tennis ball",
+            "top10": [
+              31005,
+              46788,
+              46668,
+              3707,
+              28765,
+              11882,
+              4052,
+              45198,
+              1396,
+              22697
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the location where the man attempts to hit the tennis ball?",
+        "score": 2,
+        "branches": [
+          {
+            "answer": "a tennis court",
+            "caption": "a man swinging a tennis racket on a tennis court",
+            "top10": [
+              6794,
+              16240,
+              11058,
+              7005,
+              8115,
+              28606,
+              31500,
+              17013,
+              3936,
+              22865
+            ]
+          },
+          {
+            "answer": "the air",
+            "caption": "a man jumping to hit a tennis ball",
+            "top10": [
+              48785,
+              17495,
+              47175,
+              8187,
+              8502,
+              13159,
+              40104,
+              32966,
+              11532,
+              35558
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "outcomes": {
+    "Question: What color is the shirt worn by the man hitting the tennis ball?": {
+      "answer": "Black.",
+      "rewrite": "a man in a black shirt attempts to hit a tennis ball",
+      "rank": 56
+    },
+    "Question: What is the color of the shirt worn by the man jumping to hit the tennis ball?": {
+      "answer": "Black.",
+      "rewrite": "a man in a black shirt jumps to hit a tennis ball",
+      "rank": 43
+    },
+    "Question: Where is the man hitting the tennis ball located?": {
+      "answer": "On a tennis court.",
+      "rewrite": "a man on a tennis court attempts to hit a tennis ball",
+      "rank": 377
+    },
+    "Question: What color is the shirt worn by the man jumping to hit the tennis ball?": {
+      "answer": "Black.",
+      "rewrite": "a man in a black shirt jumps to hit a tennis ball",
+      "rank": 43
+    },
+    "what is the location where the man attempts to hit the tennis ball?": {
+      "answer": "tennis court",
+      "rewrite": "a man attempts to hit a tennis ball on a tennis court",
+      "rank": 403
+    }
+  },
+  "saved_kl_rank": 377
+}

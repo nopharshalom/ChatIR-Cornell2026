@@ -1,0 +1,40 @@
+{
+  "plan_raw": "{\n\"choice\": 0,\n\"check\": \"coat colors\",\n\"photos\": [0, 1]\n}",
+  "provisional": 0,
+  "valid_plan": true,
+  "caption": {
+    "choice": 0,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "Unknown, as the provided caption only mentions snow on the ground and does not describe the coat colors of the candidate."
+      },
+      {
+        "index": 1,
+        "observation": "Unknown, as the provided caption does not describe the coat colors."
+      }
+    ],
+    "raw": "{\"choice\": 0}"
+  },
+  "pixels": {
+    "choice": 0,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "unknown"
+      },
+      {
+        "index": 1,
+        "observation": "The person on the left is wearing a black coat, the person in the middle is wearing a red coat, and the person on the right is wearing a yellow coat."
+      }
+    ],
+    "raw": "{\"choice\": 0}"
+  },
+  "qid": 1004,
+  "example_ids": [
+    102,
+    141
+  ]
+}

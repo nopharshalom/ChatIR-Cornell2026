@@ -1,0 +1,111 @@
+{
+  "qid": 2019,
+  "target": "unlabeled2017/000000208269.jpg",
+  "arm": "q-caption",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        16788,
+        4550,
+        5580,
+        9327,
+        2712,
+        14975,
+        35640,
+        42508,
+        39559,
+        6693
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "what is the other object in the image?",
+        "what is the other object in the image?",
+        "what is the other object in the image?",
+        "what is the other object in the image?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "tennis ball",
+      "rewrite": "a lady in a black shirt and shorts prepares to hit a green tennis ball with a racket",
+      "review": {
+        "default": "what is the other object in the image?",
+        "questions": [
+          "what is the other object in the image?"
+        ],
+        "selected": "what is the other object in the image?",
+        "scores": {}
+      },
+      "shared_seconds": 13.447
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "the lady in the black shirt and shorts prepares to hit the green tennis ball with a racket",
+      "raw_rank": 12,
+      "filtered_rank": 12,
+      "rank": 12,
+      "ordinary_screen": [
+        16788,
+        4550,
+        5580,
+        9327,
+        2712,
+        14975,
+        35640,
+        42508,
+        39559,
+        6693
+      ],
+      "display": [
+        16788,
+        4550,
+        5580,
+        9327,
+        2712,
+        14975,
+        35640,
+        42508,
+        39559,
+        6693
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a lady in a black shirt and shorts prepares to hit a green tennis ball with a racket",
+      "raw_rank": 10,
+      "filtered_rank": 1,
+      "rank": 1,
+      "ordinary_screen": [
+        17844,
+        21862,
+        41690,
+        3625,
+        32161,
+        336,
+        43604,
+        45582,
+        3675,
+        15337
+      ],
+      "display": [
+        17844,
+        21862,
+        41690,
+        3625,
+        32161,
+        336,
+        43604,
+        45582,
+        3675,
+        15337
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 13.447,
+  "live": false,
+  "seconds": 0.022929957835003734
+}

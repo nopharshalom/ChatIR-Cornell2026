@@ -1,0 +1,41 @@
+{
+  "pivot": null,
+  "trace": [
+    {
+      "slots": [],
+      "vetoes": [
+        "answerable from dialogue alone: runway"
+      ]
+    },
+    {
+      "slots": [
+        {
+          "entity": "2 airplanes",
+          "family": "color",
+          "values": [
+            "blue",
+            "red"
+          ],
+          "question": "What is the main color of the 2 airplanes?"
+        }
+      ],
+      "vetoes": [],
+      "protocol_error": "Invalid classification on both structured and single-label attempts"
+    },
+    {
+      "slots": [
+        {
+          "entity": "2 airplanes",
+          "family": "material",
+          "values": [
+            "metal",
+            "composite"
+          ],
+          "question": "What material is the 2 airplanes made of?"
+        }
+      ],
+      "vetoes": [],
+      "protocol_error": "Invalid classification on both structured and single-label attempts"
+    }
+  ]
+}

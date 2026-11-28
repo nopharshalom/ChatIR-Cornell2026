@@ -1,0 +1,163 @@
+{
+  "qid": 814,
+  "target": "unlabeled2017/000000383772.jpg",
+  "arm": "contrast",
+  "first": 2,
+  "turns": [
+    {
+      "evidence": [
+        47307,
+        27308,
+        22264,
+        8815,
+        1094,
+        20893,
+        19087,
+        7938,
+        13361,
+        3248
+      ],
+      "candidates": [
+        "what is the gender of the two people wearing black standing next to each other?",
+        "what are the colors of the hair of the two people wearing black standing next to each other?",
+        "Question: What is the race of the two people wearing black standing next to each other?",
+        "what activity are the two black men standing next to each other engaged in?",
+        "what are the two black men standing next to each other doing?"
+      ],
+      "default": "what is the gender of the two people wearing black standing next to each other?",
+      "question": "what is the gender of the two people wearing black standing next to each other?",
+      "answer": "male",
+      "rewrite": "two men wearing black standing next to each other",
+      "review": null,
+      "shared_seconds": 9.758442165795714
+    },
+    {
+      "evidence": [
+        14325,
+        37727,
+        27512,
+        24556,
+        828,
+        17084,
+        32903,
+        7528,
+        45274,
+        2382
+      ],
+      "candidates": [
+        "what is the location where the two men wearing black are standing?",
+        "what is the background or setting behind the two men wearing black?",
+        "what are the two men wearing black holding?",
+        "what are the two men wearing black standing in front of?",
+        "Question: What is the location where the two men wearing black are standing?"
+      ],
+      "default": "what are the two men wearing black standing in front of?",
+      "question": "what are the two men wearing black standing in front of?",
+      "answer": "a wooden shed",
+      "rewrite": "two men wearing black standing next to each other in front of a wooden shed",
+      "review": null,
+      "shared_seconds": 11.187192500103265
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "2 people wearing black are standing next to each other",
+      "raw_rank": 116,
+      "filtered_rank": 116,
+      "rank": 116,
+      "ordinary_screen": [
+        13361,
+        3248,
+        44280,
+        49897,
+        5389,
+        13735,
+        4822,
+        43033,
+        17935,
+        11942
+      ],
+      "display": [
+        13361,
+        3248,
+        44280,
+        49897,
+        5389,
+        13735,
+        4822,
+        43033,
+        17935,
+        11942
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "two men wearing black standing next to each other",
+      "raw_rank": 20,
+      "filtered_rank": 17,
+      "rank": 17,
+      "ordinary_screen": [
+        45274,
+        2382,
+        7938,
+        45389,
+        49479,
+        33070,
+        25169,
+        28321,
+        30573,
+        20893
+      ],
+      "display": [
+        45274,
+        2382,
+        7938,
+        45389,
+        49479,
+        33070,
+        25169,
+        28321,
+        30573,
+        20893
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "two men wearing black standing next to each other in front of a wooden shed",
+      "raw_rank": 1,
+      "filtered_rank": 1,
+      "rank": 1,
+      "ordinary_screen": [
+        32903,
+        47516,
+        29338,
+        42593,
+        39781,
+        49473,
+        5545,
+        11720,
+        27308,
+        21672
+      ],
+      "display": [
+        32903,
+        47516,
+        29338,
+        42593,
+        39781,
+        49473,
+        5545,
+        11720,
+        27308,
+        21672
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 20.94563466589898,
+  "live": true,
+  "seconds": 21.00162100000307
+}

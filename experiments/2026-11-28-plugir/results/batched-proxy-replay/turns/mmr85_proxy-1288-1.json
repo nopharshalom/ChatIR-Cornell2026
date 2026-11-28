@@ -1,0 +1,145 @@
+{
+  "key": "mmr85_proxy-1288-1",
+  "arm": "mmr85_proxy",
+  "original": "Question: What are the giraffes eating in the image?",
+  "incumbent": "Question: What are the giraffes eating in the image?",
+  "batch": {
+    "choice": "Question: What are the giraffes eating in the image?",
+    "scores": {
+      "Question: How many giraffes are visible in the image?": 1,
+      "Question: What are the giraffes eating in the image?": 2,
+      "Question: Is there a giraffe wearing a scarf in the image?": 0,
+      "what is the color of the plants that the giraffes are holding up?": 1
+    },
+    "answers": [
+      [
+        "3",
+        "3",
+        "2",
+        "2",
+        "2",
+        "3",
+        "4",
+        "2",
+        "2",
+        "4"
+      ],
+      [
+        "unsure",
+        "Branches with leaves",
+        "leaves",
+        "leaves",
+        "hay",
+        "Hay or grass",
+        "unsure",
+        "unsure",
+        "Hay",
+        "branches"
+      ],
+      [
+        "no",
+        "No",
+        "no",
+        "no",
+        "no",
+        "No",
+        "no",
+        "no",
+        "No",
+        "no"
+      ],
+      [
+        "green",
+        "Green",
+        "green",
+        "green",
+        "green",
+        "Green",
+        "unsure",
+        "green",
+        "Green",
+        "green"
+      ]
+    ],
+    "invalid_batches": [
+      {
+        "image": 30478,
+        "raw": "```json\n[\n    {\"1\": \"2\"},\n    {\"2\": \"unsure\"},\n    {\"3\": \"no\"},\n    {\"4\": \"green\"}\n]\n```"
+      },
+      {
+        "image": 23454,
+        "raw": "```json\n[\n    {\"1\": \"2\"},\n    {\"2\": \"unsure\"},\n    {\"3\": \"no\"},\n    {\"4\": \"green\"}\n]\n```"
+      },
+      {
+        "image": 15719,
+        "raw": "```json\n[\n    {\"1\": \"2\"},\n    {\"2\": \"Hay\"},\n    {\"3\": \"No\"},\n    {\"4\": \"Green\"}\n]\n```"
+      }
+    ],
+    "visual_calls": 22,
+    "total_calls": 37,
+    "seconds": 25.331591416848823
+  },
+  "single": {
+    "choice": "Question: What are the giraffes eating in the image?",
+    "scores": {
+      "Question: How many giraffes are visible in the image?": 1,
+      "Question: What are the giraffes eating in the image?": 2,
+      "Question: Is there a giraffe wearing a scarf in the image?": 0,
+      "what is the color of the plants that the giraffes are holding up?": 2
+    },
+    "answers": [
+      [
+        "3",
+        "3",
+        "2",
+        "2",
+        "2",
+        "3",
+        "4",
+        "2",
+        "2",
+        "4"
+      ],
+      [
+        "nothing",
+        "branches",
+        "leaves",
+        "leaves",
+        "hay",
+        "hay",
+        "I'm unsure.",
+        "Nothing.",
+        "grass",
+        "branches"
+      ],
+      [
+        "No",
+        "no",
+        "no",
+        "no",
+        "no",
+        "No",
+        "no",
+        "no",
+        "No.",
+        "No"
+      ],
+      [
+        "green",
+        "green",
+        "green",
+        "green",
+        "green",
+        "green",
+        "green",
+        "green",
+        "green",
+        "green"
+      ]
+    ],
+    "invalid_batches": [],
+    "visual_calls": 40,
+    "total_calls": 54,
+    "seconds": 22.7400607499294
+  }
+}

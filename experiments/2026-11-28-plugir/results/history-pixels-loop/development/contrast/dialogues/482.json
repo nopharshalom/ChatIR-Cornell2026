@@ -1,0 +1,281 @@
+{
+  "qid": 482,
+  "target": "unlabeled2017/000000213320.jpg",
+  "arm": "contrast",
+  "first": 4,
+  "turns": [
+    {
+      "evidence": [
+        37949,
+        16250,
+        13731,
+        6830,
+        19910,
+        46048,
+        36925,
+        45714,
+        6919,
+        31803
+      ],
+      "candidates": [
+        "what is the color of the toilet in the bathroom?",
+        "what is the color of the bathtub in the bathroom?",
+        "what is the color of the bathtub in the bathroom?",
+        "what is the color of the sink in the bathroom?",
+        "what is the color of the window in the bathroom?"
+      ],
+      "default": "what is the color of the window in the bathroom?",
+      "question": "what is the color of the window in the bathroom?",
+      "answer": "white",
+      "rewrite": "a very empty, bland, and white bathroom with a white window",
+      "review": null,
+      "shared_seconds": 11.301233874866739
+    },
+    {
+      "evidence": [
+        10723,
+        33737,
+        26716,
+        33735,
+        11652,
+        26522,
+        4362,
+        14686,
+        24439,
+        31803
+      ],
+      "candidates": [
+        "what is the object located next to the window in the very empty and bland white bathroom?",
+        "what is the color of the toilet in the very empty and bland white bathroom?",
+        "what is the main fixture present in the bathroom besides the window?",
+        "what is the color of the toilet in the bathroom?",
+        "what is the flooring material in the white bathroom that has a window?"
+      ],
+      "default": "what is the object located next to the window in the very empty and bland white bathroom?",
+      "question": "what is the object located next to the window in the very empty and bland white bathroom?",
+      "answer": "toilet",
+      "rewrite": "a very empty and bland white bathroom featuring a white window and a toilet next to it",
+      "review": null,
+      "shared_seconds": 10.026861540973186
+    },
+    {
+      "evidence": [
+        29410,
+        42946,
+        26716,
+        10723,
+        43171,
+        38432,
+        16362,
+        33888,
+        33860,
+        33737
+      ],
+      "candidates": [
+        "what is the color of the toilet in the bathroom?",
+        "what is the color of the toilet in the bathroom?",
+        "what is the state of readiness of the bathroom?",
+        "what is the color of the toilet in the bathroom?",
+        "what is the color of the toilet in the bathroom?"
+      ],
+      "default": "what is the state of readiness of the bathroom?",
+      "question": "what is the state of readiness of the bathroom?",
+      "answer": "not ready",
+      "rewrite": "a very empty, bland, and white bathroom featuring a white window and a toilet, which is not ready for use",
+      "review": null,
+      "shared_seconds": 17.936014542123303
+    },
+    {
+      "evidence": [
+        44244,
+        22572,
+        14686,
+        29410,
+        13496,
+        4633,
+        33888,
+        16679,
+        33860,
+        33737
+      ],
+      "candidates": [
+        "what is the lighting condition like in the very empty and bland white bathroom?",
+        "what is the other object in the image?",
+        "what is the other object in the image?",
+        "what is the other object in the image?",
+        "what is the other object in the image?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "painting",
+      "rewrite": "a very empty, bland, and white bathroom featuring a white window, a toilet next to the window, a painting on the wall, and an unready state",
+      "review": null,
+      "shared_seconds": 15.41461145807989
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "the bathroom is very empty and bland and white",
+      "raw_rank": 380,
+      "filtered_rank": 380,
+      "rank": 380,
+      "ordinary_screen": [
+        6919,
+        31803,
+        43821,
+        10082,
+        29753,
+        34617,
+        44620,
+        9667,
+        9399,
+        40587
+      ],
+      "display": [
+        6919,
+        31803,
+        43821,
+        10082,
+        29753,
+        34617,
+        44620,
+        9667,
+        9399,
+        40587
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a very empty, bland, and white bathroom with a white window",
+      "raw_rank": 492,
+      "filtered_rank": 482,
+      "rank": 482,
+      "ordinary_screen": [
+        24439,
+        46048,
+        48330,
+        31326,
+        13731,
+        37262,
+        37949,
+        33860,
+        37803,
+        39982
+      ],
+      "display": [
+        24439,
+        46048,
+        48330,
+        31326,
+        13731,
+        37262,
+        37949,
+        33860,
+        37803,
+        39982
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "a very empty and bland white bathroom featuring a white window and a toilet next to it",
+      "raw_rank": 386,
+      "filtered_rank": 366,
+      "rank": 366,
+      "ordinary_screen": [
+        33737,
+        15445,
+        26522,
+        24543,
+        24922,
+        9472,
+        11652,
+        13633,
+        26866,
+        42186
+      ],
+      "display": [
+        33737,
+        15445,
+        26522,
+        24543,
+        24922,
+        9472,
+        11652,
+        13633,
+        26866,
+        42186
+      ],
+      "check": {}
+    },
+    {
+      "round": 3,
+      "query": "a very empty, bland, and white bathroom featuring a white window and a toilet, which is not ready for use",
+      "raw_rank": 495,
+      "filtered_rank": 465,
+      "rank": 465,
+      "ordinary_screen": [
+        26716,
+        42946,
+        10723,
+        38432,
+        14882,
+        43171,
+        16362,
+        33192,
+        4362,
+        3823
+      ],
+      "display": [
+        26716,
+        42946,
+        10723,
+        38432,
+        14882,
+        43171,
+        16362,
+        33192,
+        4362,
+        3823
+      ],
+      "check": {}
+    },
+    {
+      "round": 4,
+      "query": "a very empty, bland, and white bathroom featuring a white window, a toilet next to the window, a painting on the wall, and an unready state",
+      "raw_rank": 13,
+      "filtered_rank": 5,
+      "rank": 5,
+      "ordinary_screen": [
+        13158,
+        32527,
+        15627,
+        19077,
+        18286,
+        39850,
+        15351,
+        44244,
+        11282,
+        29410
+      ],
+      "display": [
+        13158,
+        32527,
+        15627,
+        19077,
+        18286,
+        39850,
+        15351,
+        44244,
+        11282,
+        29410
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 54.67872141604312,
+  "live": true,
+  "seconds": 54.81607362511568
+}

@@ -1,0 +1,10 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    "You see only the user's initial description and completed dialogue. Is the proposed\nquestion natural and neutrally phrased about a uniquely identifiable subject in their own\nphoto, applicable to that subject, directly visible, still unanswered and not previously\nasked even with different wording? Reject false premises, underspecified multiple people or\nobjects, implied answers, and activities that require guessing intent. The labels must\nrepresent distinct, non-overlapping plausible answers. Return exactly PASS or SKIP.",
+    "{\"dialogue\": [\"a man flying a kite on the sand at the beach\", \"what is the other object in the image? a pink kite\", \"what is the other object in the image? a pink kite\", \"what is the other object in the image? a pink kite\", \"what is the other object in the image? a pink kite\", \"what is the specific location on the beach where the man is flying the kite? the man is flying the kite on the wet, sandy part of the beach, near the water's edge.\", \"what is the man wearing while flying the kite on the beach? shorts and a black shirt\"], \"slot\": {\"entity\": \"man\", \"family\": \"holding\", \"question\": \"What, if anything, is the man holding?\", \"values\": [\"kite\", \"nothing\"]}}",
+    10,
+    null
+  ],
+  "response": "SKIP"
+}

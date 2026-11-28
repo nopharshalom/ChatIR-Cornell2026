@@ -1,0 +1,70 @@
+{
+  "pivot": null,
+  "trace": [
+    {
+      "slots": [],
+      "vetoes": [
+        "answerable from dialogue alone: Black and white"
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "previous question about this subject and attribute"
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "ambiguous subject",
+        "dialogue-only check: {'status': 'KNOWN', 'evidence': \"The initial description states the zebras are in a 'large open field', and the previous answer explicitly identifies the location as 'maasai marath', which is a type of place/field.\"}",
+        "answerable from dialogue alone: The herd of zebras is eating."
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "ambiguous subject"
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "previous question about this subject and attribute"
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "previous question about this subject and attribute"
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "previous question about this subject and attribute",
+        "dialogue-only check: {'status': 'KNOWN', 'evidence': \"The initial description states 'a herd of zebras eating in a large open field', and 'eating' is synonymous with 'grazing', which is one of the provided values.\"}",
+        "dialogue-only check: {'status': 'ASKED', 'evidence': \"The previous turn explicitly asked 'What is the specific location where the herd of zebras is grazing?' and provided the answer 'maasai marath', which directly addresses the current question about the kind of place.\"}"
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "previous question about this subject and attribute"
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "ambiguous subject",
+        "dialogue-only check: {'status': 'KNOWN', 'evidence': \"The initial description states the zebras are in a 'large open field', and the slot explicitly lists 'field' as a value for the location 'maasai marath'.\"}"
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "dialogue-only check: {'status': 'KNOWN', 'evidence': \"The initial description states the zebras are in a 'large open field', and the slot explicitly lists 'field' as a value for the location 'maasai marath'.\"}"
+      ]
+    }
+  ]
+}

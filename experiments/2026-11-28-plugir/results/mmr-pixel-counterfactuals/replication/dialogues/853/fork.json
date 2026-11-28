@@ -1,0 +1,88 @@
+{
+  "pivot": 1,
+  "trace": [
+    {
+      "slots": [
+        {
+          "entity": "person skiing",
+          "family": "clothing",
+          "values": [
+            "yellow jacket",
+            "blue jacket"
+          ],
+          "question": "What is the person skiing wearing on their upper body?"
+        }
+      ],
+      "vetoes": [
+        "answerable from dialogue alone: The person is performing a ski jump on a snowy slope.",
+        "answerable from dialogue alone: A snowy slope"
+      ],
+      "protocol_error": "Invalid classification on both structured and single-label attempts"
+    },
+    {
+      "slots": [
+        {
+          "entity": "ski",
+          "family": "material",
+          "values": [
+            "wood",
+            "metal"
+          ],
+          "question": "What material is the ski made of?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          null,
+          "wood",
+          "metal",
+          "metal",
+          "metal",
+          "wood",
+          "wood",
+          "wood",
+          "metal",
+          "wood"
+        ]
+      ],
+      "filled": [
+        9
+      ],
+      "pixel_supported": [
+        true
+      ],
+      "captions_transfer": [
+        null
+      ],
+      "pixels_transfer": [
+        0.45
+      ]
+    }
+  ],
+  "questions": [
+    "what is the color of the sky in the image?",
+    "What material is the ski made of?"
+  ],
+  "picks": {
+    "blind_alternative": 1,
+    "captions_annotations": 0,
+    "captions_retrieval": 0,
+    "pixels_annotations": 1,
+    "pixels_retrieval": 0
+  }
+}

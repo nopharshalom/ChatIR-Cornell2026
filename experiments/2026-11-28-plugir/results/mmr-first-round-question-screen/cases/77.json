@@ -1,0 +1,95 @@
+{
+  "qid": 77,
+  "selection": {
+    "kl": "what is the material of the walls in the bathroom that features a large tub in the middle and a large shower?",
+    "probe": "what is the material of the walls in the bathroom that features a large tub in the middle and a large shower?",
+    "candidates": [
+      {
+        "question": "what is the color of the walls in the bathroom that features a large tub in the middle and a large shower?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "what is the material of the walls in the bathroom that features a large tub in the middle and a large shower?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "what is the color of the bathroom that features a large tub in the middle and a large shower?",
+        "score": 0,
+        "branches": [
+          {
+            "answer": "light colored",
+            "caption": "a bathroom that has light colored walls",
+            "top10": [
+              18484,
+              40604,
+              28773,
+              4362,
+              23010,
+              33554,
+              10723,
+              44620,
+              23955,
+              49461
+            ]
+          },
+          {
+            "answer": "white",
+            "caption": "a white bathroom with tiled walls and windows",
+            "top10": [
+              37803,
+              37262,
+              37949,
+              40130,
+              14686,
+              38980,
+              28647,
+              5278,
+              23087,
+              14882
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the type of window present in the bathroom that features a large tub in the middle and a large shower?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "what is the material of the floor in the bathroom that features a large tub in the middle and a large shower?",
+        "score": null,
+        "branches": []
+      }
+    ]
+  },
+  "outcomes": {
+    "what is the color of the walls in the bathroom that features a large tub in the middle and a large shower?": {
+      "answer": "beige",
+      "rewrite": "a private bathroom featuring a large beige-walled space with a large tub in the middle and a large shower",
+      "rank": 23
+    },
+    "what is the material of the walls in the bathroom that features a large tub in the middle and a large shower?": {
+      "answer": "tile",
+      "rewrite": "a private bathroom featuring a large tub in the middle and a large shower, with tiled walls",
+      "rank": 4
+    },
+    "what is the color of the bathroom that features a large tub in the middle and a large shower?": {
+      "answer": "beige",
+      "rewrite": "a beige bathroom featuring a large tub in the middle and a large shower",
+      "rank": 32
+    },
+    "what is the type of window present in the bathroom that features a large tub in the middle and a large shower?": {
+      "answer": "glass",
+      "rewrite": "a private bathroom featuring a large tub in the middle, a large shower, and a glass window",
+      "rank": 26
+    },
+    "what is the material of the floor in the bathroom that features a large tub in the middle and a large shower?": {
+      "answer": "tile",
+      "rewrite": "a private bathroom featuring a large tub in the middle, a large shower, and a tiled floor",
+      "rank": 13
+    }
+  },
+  "saved_kl_rank": 4
+}

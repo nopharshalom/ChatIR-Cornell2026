@@ -1,0 +1,75 @@
+{
+  "qid": 1648,
+  "selection": {
+    "kl": "what is the other object in the image?",
+    "probe": "what is the other object in the image?",
+    "candidates": [
+      {
+        "question": "what is the other object in the image?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "what is the specific color pattern of the zebras in the image?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "what is the specific color pattern of the zebra in the image?",
+        "score": 0,
+        "branches": [
+          {
+            "answer": "black and white",
+            "caption": "a black and white zebra and a black and white zebra",
+            "top10": [
+              15636,
+              48729,
+              21935,
+              47026,
+              45651,
+              22004,
+              4656,
+              26251,
+              9601,
+              14993
+            ]
+          },
+          {
+            "answer": "striped",
+            "caption": "two zebras with stripes in a field",
+            "top10": [
+              250,
+              25142,
+              14993,
+              6961,
+              44063,
+              44740,
+              28177,
+              12411,
+              20461,
+              32476
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "outcomes": {
+    "what is the other object in the image?": {
+      "answer": "zebra",
+      "rewrite": "three zebras standing and grazing in a grassy area",
+      "rank": 315
+    },
+    "what is the specific color pattern of the zebras in the image?": {
+      "answer": "black and white stripes",
+      "rewrite": "three zebras with black and white stripes standing and grazing in a grassy area",
+      "rank": 310
+    },
+    "what is the specific color pattern of the zebra in the image?": {
+      "answer": "black and white stripes",
+      "rewrite": "three zebras with black and white stripes standing and grazing in a grassy area",
+      "rank": 310
+    }
+  },
+  "saved_kl_rank": 315
+}

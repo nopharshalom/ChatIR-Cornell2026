@@ -1,0 +1,40 @@
+{
+  "plan_raw": "{\n\"choice\": 1,\n\"check\": \"verify specific colors of signs and background building\",\n\"photos\": [0, 1]\n}",
+  "provisional": 1,
+  "valid_plan": true,
+  "caption": {
+    "choice": 1,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "The caption confirms a white street sign but provides no information regarding the background building's colors."
+      },
+      {
+        "index": 1,
+        "observation": "The caption does not specify the colors of the signs or the background building, so this detail is unknown."
+      }
+    ],
+    "raw": "{\n\"choice\": 1\n}"
+  },
+  "pixels": {
+    "choice": 1,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "The street signs are green with white text, and the background building is white."
+      },
+      {
+        "index": 1,
+        "observation": "The street signs are green with white text, and the background building is yellow."
+      }
+    ],
+    "raw": "{\n\"choice\": 1\n}"
+  },
+  "qid": 2057,
+  "example_ids": [
+    1866,
+    1473
+  ]
+}

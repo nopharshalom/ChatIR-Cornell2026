@@ -1,0 +1,27 @@
+{
+  "ids": [
+    754,
+    1650,
+    1508,
+    1782,
+    1874,
+    1542,
+    310,
+    955,
+    670,
+    158,
+    508,
+    814,
+    1411,
+    1820,
+    482,
+    1743,
+    1169,
+    1676,
+    1732,
+    69
+  ],
+  "prompt": "You see ten possible target photos. The searcher sees only their own photo.\nKeep the proposed question if it already asks about a useful difference among plausible photos.\nReplace it only if you can point to two plausible tiles with distinctly different visible values\nof the same attribute that the proposed question overlooks and that the candidate captions\nand previous answers do not already settle. The replacement must ask the searcher for the value\nof this attribute about their own picture. Ask about an object grounded in the description.\nUse tile indices only as private evidence. Return only KEEP or a JSON object with keys\n\"tile_a\", \"value_a\", \"tile_b\", \"value_b\", \"question\". Tile indices are integers from 0 to 9.",
+  "model": "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+  "script": "0feb687c6549fea9e6e4d9c95166cf3565f7b0b20986e5c8bbf401ca839cb873"
+}

@@ -1,0 +1,42 @@
+{
+  "ids": [
+    1906,
+    35,
+    1782,
+    482,
+    1301,
+    1510,
+    148,
+    1354,
+    573,
+    1288,
+    675,
+    1091,
+    1348,
+    273,
+    1820,
+    56,
+    1646,
+    1579,
+    1676,
+    1274
+  ],
+  "model": "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+  "seed": 57872603,
+  "dpp_pool": 50,
+  "dpp_count": 10,
+  "proposals": 5,
+  "rounds": 10,
+  "corpus": 50000,
+  "baseline": "current-query MMR .85 captions",
+  "paper": "10.1145/3805622.3810597",
+  "assumptions": "Local grid prompt, normalized exact answer buckets, unit softmax temperature, zero gain and asked questions banned; shared target oracle and query reconstruction.",
+  "source": {
+    "run_qwen_a2r.py": "8b9c219f7e7504adf1d6060d473495ff19c28fcbb41145a70a5dcbebec4d7d37",
+    "run_a2r_unseen_pilots.py": "74a9a6f918aab1db591c8a4b720e3ed387e4c8a67b8dfda6d7b1a7fe706a1eb3",
+    "matan_grid_worker.py": "5e26a994a9f7544d96601a0fecc6e8e9bca19fdbbce77493e66d1f7d60c4b7d7",
+    "run_dialogues.py": "ced1053f5f4ef0e243f7d006f947c14198a86487312837241e6aa9058ba6a475",
+    "local_pilot.py": "f4e8d87d63d460b34ab84aabcaba22505ad1571f492b79170a38f121feab8d57"
+  },
+  "control": "a743a4cc146f056549c828873d44787013eab3fe139d76d7904134b66b89a704"
+}

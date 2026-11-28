@@ -1,0 +1,56 @@
+{
+  "pivot": null,
+  "trace": [
+    {
+      "slots": [
+        {
+          "entity": "snowboard",
+          "family": "material",
+          "values": [
+            "wood",
+            "metal"
+          ],
+          "question": "What material is the snowboard made of?"
+        }
+      ],
+      "vetoes": [
+        "explicit subject predicate",
+        "dialogue-only check: {'status': 'KNOWN', 'evidence': \"The initial description states the man is 'high above the snow', which implies the snow is located on the ground (a hill), not in the air.\"}"
+      ],
+      "caption_labels": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "wood",
+          null,
+          "wood",
+          "wood",
+          null,
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          null
+        ]
+      ],
+      "filled": [
+        7
+      ],
+      "pixel_supported": [
+        false
+      ]
+    }
+  ]
+}

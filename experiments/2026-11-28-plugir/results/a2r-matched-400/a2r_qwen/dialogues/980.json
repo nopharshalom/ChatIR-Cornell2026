@@ -1,0 +1,219 @@
+{
+  "arm": "a2r_qwen",
+  "qid": 980,
+  "target": "unlabeled2017/000000333125.jpg",
+  "queries": [
+    "a bus that is brown is near another bus that is orange and white",
+    "a brown bus is located inside a bus depot near an orange and white bus"
+  ],
+  "ranks": [
+    11,
+    5
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "question": "Is the brown bus located on the street or inside a bus depot?",
+      "answer": "inside a bus depot",
+      "query_before": "a bus that is brown is near another bus that is orange and white",
+      "query_after": "a brown bus is located inside a bus depot near an orange and white bus",
+      "candidate_questions": [
+        "Is the brown bus positioned to the left or the right of the orange and white bus?",
+        "Is the brown bus located on the street or inside a bus depot?",
+        "Is the orange and white bus a double-decker?",
+        "Is the brown bus a vintage model?",
+        "Is the orange and white bus currently in motion or parked?"
+      ],
+      "pool_ids": [
+        36512,
+        13880,
+        14212,
+        32928,
+        39005,
+        23916,
+        38995,
+        27765,
+        26276,
+        48561,
+        28554,
+        43036,
+        28812,
+        29836,
+        27578,
+        44211,
+        21366,
+        30237,
+        37314,
+        26114,
+        6827,
+        27218,
+        41663,
+        29849,
+        38454,
+        283,
+        14982,
+        14049,
+        18000,
+        26875,
+        24858,
+        24426,
+        4110,
+        24447,
+        21289,
+        20018,
+        29055,
+        12518,
+        29772,
+        46395,
+        7864,
+        49030,
+        33077,
+        5976,
+        763,
+        9973,
+        36788,
+        7236,
+        7845,
+        29323
+      ],
+      "selected_ids": [
+        36512,
+        48561,
+        30237,
+        44211,
+        29849,
+        18000,
+        7236,
+        14212,
+        29772,
+        36788
+      ],
+      "selected_captions": [
+        "an orange double decker bus that is parked next to people",
+        "two white buses drive down a street",
+        "a bus in the street in front of a sedan",
+        "a bus parked in a parking lot",
+        "a person and their bicycle near a city bus",
+        "a green and orange bus parked near a bus stop",
+        "a yellow bus sitting on a dirt road beside other vehicles",
+        "two buses on the street",
+        "an orange and silver bus parked in a lot",
+        "an orange bus parked on the street"
+      ],
+      "target_in_pool": true,
+      "target_shown": false,
+      "llm_calls": 53,
+      "seconds": 28.236
+    }
+  ],
+  "started_utc": "2026-11-27T14:34:35.572047+00:00",
+  "finished_utc": "2026-11-27T14:35:03.847396+00:00",
+  "seconds": 28.275,
+  "hits_only": true,
+  "a2r_trace": [
+    {
+      "ids": [
+        36512,
+        48561,
+        30237,
+        44211,
+        29849,
+        18000,
+        7236,
+        14212,
+        29772,
+        36788
+      ],
+      "weights": [
+        0.10757166461050276,
+        0.10038365292916299,
+        0.09906189445473818,
+        0.09935025457501125,
+        0.09830520852543516,
+        0.09802393634669118,
+        0.096941838585654,
+        0.10606113926941028,
+        0.09732847177504712,
+        0.09697193892834702
+      ],
+      "questions": [
+        "Is the brown bus positioned to the left or the right of the orange and white bus?",
+        "Is the brown bus located on the street or inside a bus depot?",
+        "Is the orange and white bus a double-decker?",
+        "Is the brown bus a vintage model?",
+        "Is the orange and white bus currently in motion or parked?"
+      ],
+      "answers": [
+        [
+          "right",
+          "left",
+          "left",
+          "left",
+          "right",
+          "left",
+          "left",
+          "left",
+          "left",
+          "right"
+        ],
+        [
+          "bus depot",
+          "street",
+          "street",
+          "street",
+          "street",
+          "street",
+          "inside a bus depot",
+          "yes",
+          "bus depot",
+          "street"
+        ],
+        [
+          "yes",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        [
+          "yes",
+          "no",
+          "no",
+          "yes",
+          "no",
+          "no",
+          "yes",
+          "yes",
+          "no",
+          "yes"
+        ],
+        [
+          "parked",
+          "unknown",
+          "parked",
+          "parked",
+          "parked",
+          "parked",
+          "parked",
+          "parked",
+          "parked",
+          "in motion"
+        ]
+      ],
+      "gain_bits": [
+        0.8847454381796485,
+        1.5859904166878451,
+        0.4925476333921245,
+        0.9998627481833506,
+        0.9139206922586224
+      ],
+      "chosen": "Is the brown bus located on the street or inside a bus depot?",
+      "repair_calls": 0
+    }
+  ]
+}

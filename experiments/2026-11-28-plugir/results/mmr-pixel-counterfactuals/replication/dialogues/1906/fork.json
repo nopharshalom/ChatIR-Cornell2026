@@ -1,0 +1,191 @@
+{
+  "pivot": null,
+  "trace": [
+    {
+      "slots": [
+        {
+          "entity": "snowboard",
+          "family": "material",
+          "values": [
+            "plastic",
+            "metal"
+          ],
+          "question": "What material is the snowboard made of?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "plastic",
+          "plastic",
+          null,
+          "plastic",
+          null,
+          null,
+          "plastic",
+          null,
+          "plastic",
+          null
+        ]
+      ],
+      "filled": [
+        5
+      ],
+      "pixel_supported": [
+        false
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "dialogue-only check: None"
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "invalid subject ID"
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "dialogue-only check: {'status': 'UNSAFE', 'evidence': \"The provided text describes a snowboarding trick in the air. Snowboarding takes place on snow, not on a 'ski resort' which is a location/place, nor is it made of 'wood' or 'metal' in the context of the activity surface. The question asks for the material of the location, which is a category error based on the description.\"}"
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "dialogue-only check: {'status': 'UNSAFE', 'evidence': \"A ski resort is a location or facility, not a physical object with a single material composition like 'wood' or 'snow'; it consists of various structures and natural terrain.\"}"
+      ]
+    },
+    {
+      "slots": [
+        {
+          "entity": "snowboard",
+          "family": "material",
+          "values": [
+            "wood",
+            "metal"
+          ],
+          "question": "What material is the snowboard made of?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "wood",
+          "wood",
+          "wood",
+          null,
+          "wood",
+          null,
+          "wood",
+          "wood",
+          null,
+          null
+        ]
+      ],
+      "filled": [
+        6
+      ],
+      "pixel_supported": [
+        false
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "dialogue-only check: {'status': 'KNOWN', 'evidence': \"The previous turn explicitly states the object is 'trees', and trees are made of wood, not metal.\"}"
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "ambiguous subject"
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "dialogue-only check: {'status': 'UNSAFE', 'evidence': 'A ski resort is a geographical location or facility, not a physical object with a material composition like wood or metal. The question asks for the material of the location itself, which is semantically invalid and cannot be answered from the image or common knowledge.'}"
+      ]
+    },
+    {
+      "slots": [
+        {
+          "entity": "trees",
+          "family": "material",
+          "values": [
+            "wood",
+            "metal"
+          ],
+          "question": "What material is the trees made of?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood"
+        ]
+      ],
+      "filled": [
+        10
+      ],
+      "pixel_supported": [
+        false
+      ]
+    }
+  ]
+}

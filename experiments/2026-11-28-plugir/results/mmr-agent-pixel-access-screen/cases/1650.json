@@ -1,0 +1,40 @@
+{
+  "plan_raw": "{\n\"choice\": 2,\n\"check\": \"verify the surface material under the bench\",\n\"photos\": [0, 1]\n}",
+  "provisional": 2,
+  "valid_plan": true,
+  "caption": {
+    "choice": 2,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "The surface material under the bench is unknown as the caption only describes the benches themselves and does not mention the ground beneath them."
+      },
+      {
+        "index": 1,
+        "observation": "The surface material under the bench is a blue sidewalk."
+      }
+    ],
+    "raw": "{\n\"choice\": 2\n}"
+  },
+  "pixels": {
+    "choice": 2,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "The surface material under the bench is stone."
+      },
+      {
+        "index": 1,
+        "observation": "unknown"
+      }
+    ],
+    "raw": "{\n\"choice\": 2\n}"
+  },
+  "qid": 1650,
+  "example_ids": [
+    370,
+    102
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "key": "vanilla_proxy-570-1",
+  "arm": "vanilla_proxy",
+  "original": "what is the sky like in the image of the building with clocks?",
+  "incumbent": "Question: What is the material of the building with clocks?",
+  "batch": {
+    "choice": "what is the sky like in the image of the building with clocks?",
+    "scores": {
+      "what is the sky like in the image of the building with clocks?": 5,
+      "Question: What is the material of the building with clocks?": 3,
+      "what is the color of the sky in the image with the clock tower?": 1,
+      "what objects are located beneath the clock tower in the image?": 2
+    },
+    "answers": [
+      [
+        "dark",
+        "The sky is overcast.",
+        "dark",
+        "clear blue",
+        "The sky is overcast.",
+        "dark blue",
+        "blue with some clouds",
+        "cloudy",
+        "dark blue",
+        "The sky is a deep blue."
+      ],
+      [
+        "unsure",
+        "The building is made of stone.",
+        "unsure",
+        "stone",
+        "The building is made of stone.",
+        "glass",
+        "stone",
+        "unsure",
+        "unsure",
+        "unsure"
+      ],
+      [
+        "black",
+        "The sky is gray.",
+        "dark blue",
+        "blue",
+        "The sky is overcast.",
+        "dark blue",
+        "blue",
+        "blue",
+        "dark blue",
+        "The sky is a deep blue."
+      ],
+      [
+        "columns",
+        "There are street lamps beneath the clock tower.",
+        "arched window",
+        "windows",
+        "There are trees located beneath the clock tower.",
+        "construction cranes",
+        "roof",
+        "unsure",
+        "unsure",
+        "There is a clock."
+      ]
+    ],
+    "invalid_batches": [],
+    "visual_calls": 10,
+    "total_calls": 36,
+    "seconds": 27.45176012511365
+  }
+}

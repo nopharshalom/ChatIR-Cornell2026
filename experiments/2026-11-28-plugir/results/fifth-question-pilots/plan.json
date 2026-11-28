@@ -1,0 +1,64 @@
+{
+  "splits": [
+    [
+      35,
+      1301,
+      601,
+      1107,
+      1288,
+      570,
+      1004,
+      466,
+      701,
+      93,
+      754,
+      1466,
+      1169,
+      783,
+      273,
+      532,
+      2057,
+      69,
+      1579,
+      1648
+    ],
+    [
+      627,
+      77,
+      1650,
+      688,
+      767,
+      649,
+      1640,
+      573,
+      742,
+      143,
+      1820,
+      621,
+      975,
+      1646,
+      896,
+      1399,
+      106,
+      1510,
+      508,
+      675
+    ]
+  ],
+  "model": "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+  "method": "s3_current_mmr",
+  "weight": 0.85,
+  "prompts": {
+    "contrast": "Find two captions that describe the same kind of subject but EXPLICITLY\nstate different values for the same visual attribute. Omission is not a contrast. Ask for the\nattribute value. Return {\"question\":\"...?\", \"indices\":[1,2], \"quotes\":[\"value one\",\"value two\"]}.\nCopy one short exact supporting phrase from each caption and use their actual 1-based indices.",
+    "followup": "Use a concrete detail first introduced by the user's latest answer.\nIf the answer is uncertain, generic, already known, or not worth following up, return NONE.\nUse the captions to find a meaningful unresolved distinction about that detail. Ask a question\ngrounded in that detail. Return {\"question\":\"...?\", \"anchor\":\"exact phrase from latest answer\"}."
+  },
+  "controls": "1820bbefc08a1a58d0b4c49fcdf554688a5e19201a05e381abd32dc1ddbb88f4",
+  "sources": {
+    "run_fifth_question_pilots.py": "190201c3dd692b7e70c6229bc657dcf8901348f36db94eaef8c4b148a708f382",
+    "proxy_sampling_worker.py": "098dbaafa75b720e39b5277b6ccf6a44464123059a64bb84733c55060ae00873",
+    "matan_grid_worker.py": "5e26a994a9f7544d96601a0fecc6e8e9bca19fdbbce77493e66d1f7d60c4b7d7",
+    "run_dialogues.py": "ced1053f5f4ef0e243f7d006f947c14198a86487312837241e6aa9058ba6a475",
+    "local_pilot.py": "f4e8d87d63d460b34ab84aabcaba22505ad1571f492b79170a38f121feab8d57",
+    "generate_dialog.py": "bbb9b7cdbb655563baac00bd0556b7b7bb1626f866964ec49a317bfabf67ad62"
+  }
+}

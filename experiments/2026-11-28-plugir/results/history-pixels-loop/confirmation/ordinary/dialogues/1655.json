@@ -1,0 +1,104 @@
+{
+  "qid": 1655,
+  "target": "unlabeled2017/000000174699.jpg",
+  "arm": "ordinary",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        12392,
+        40467,
+        27791,
+        25248,
+        10711,
+        42870,
+        35776,
+        14617,
+        4807,
+        28031
+      ],
+      "candidates": [
+        "Question: What type of clothing is the man wearing?",
+        "Question: Where are the men playing frisbee?",
+        "Question: What color are the lines on the field where the men are playing?",
+        "Question: Are the players in the image young men?",
+        "Question: What color is the shirt of the man playing frisbee?"
+      ],
+      "default": "Question: What type of clothing is the man wearing?",
+      "question": "Question: What type of clothing is the man wearing?",
+      "answer": "black tank top",
+      "rewrite": "two men playing an intense game of ultimate frisbee, wearing black tank tops",
+      "review": null,
+      "shared_seconds": 8.598
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "2 men are playing a really intense game of ultimate frisbee",
+      "raw_rank": 36,
+      "filtered_rank": 36,
+      "rank": 36,
+      "ordinary_screen": [
+        12392,
+        40467,
+        27791,
+        25248,
+        10711,
+        42870,
+        35776,
+        14617,
+        4807,
+        28031
+      ],
+      "display": [
+        12392,
+        40467,
+        27791,
+        25248,
+        10711,
+        42870,
+        35776,
+        14617,
+        4807,
+        28031
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "two men playing an intense game of ultimate frisbee, wearing black tank tops",
+      "raw_rank": 1,
+      "filtered_rank": 1,
+      "rank": 1,
+      "ordinary_screen": [
+        14955,
+        30588,
+        49473,
+        35029,
+        969,
+        19566,
+        35715,
+        31385,
+        39472,
+        8103
+      ],
+      "display": [
+        14955,
+        30588,
+        49473,
+        35029,
+        969,
+        19566,
+        35715,
+        31385,
+        39472,
+        8103
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 8.598,
+  "live": false,
+  "seconds": 0.023804500000551343
+}

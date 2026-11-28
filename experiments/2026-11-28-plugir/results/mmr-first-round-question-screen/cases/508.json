@@ -1,0 +1,194 @@
+{
+  "qid": 508,
+  "selection": {
+    "kl": "what is the color of the shorts worn by the tennis player?",
+    "probe": "what is the color of the shorts worn by the tennis player?",
+    "candidates": [
+      {
+        "question": "Question: What is the man wearing on his body?",
+        "score": 1,
+        "branches": [
+          {
+            "answer": "a green uniform",
+            "caption": "a man wearing a green uniform is running on the tennis court",
+            "top10": [
+              13191,
+              31500,
+              34859,
+              19343,
+              41145,
+              6649,
+              10030,
+              30543,
+              44878,
+              11058
+            ]
+          },
+          {
+            "answer": "shorts",
+            "caption": "the tennis player is wearing shorts",
+            "top10": [
+              29993,
+              11058,
+              31500,
+              45536,
+              6794,
+              18037,
+              21677,
+              43654,
+              42560,
+              26952
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the color of the man's uniform?",
+        "score": 2,
+        "branches": [
+          {
+            "answer": "green",
+            "caption": "a man wearing a green uniform is running on the tennis court",
+            "top10": [
+              13191,
+              31500,
+              34859,
+              19343,
+              41145,
+              6649,
+              10030,
+              30543,
+              44878,
+              11058
+            ]
+          },
+          {
+            "answer": "unknown",
+            "caption": "a man is swinging a tennis racket in the air",
+            "top10": [
+              29897,
+              16240,
+              9168,
+              48785,
+              41657,
+              7069,
+              17013,
+              30252,
+              44336,
+              17495
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the color of the shorts worn by the tennis player?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "What is the man holding that he is using to hit the ball?",
+        "score": 0,
+        "branches": [
+          {
+            "answer": "a tennis racket",
+            "caption": "a man holding a tennis racket on a tennis court",
+            "top10": [
+              6794,
+              42560,
+              45751,
+              37665,
+              2979,
+              44346,
+              24634,
+              48895,
+              2207,
+              17538
+            ]
+          },
+          {
+            "answer": "a racket",
+            "caption": "a person is holding a racket",
+            "top10": [
+              7463,
+              17270,
+              46386,
+              16646,
+              7069,
+              1643,
+              20164,
+              45751,
+              20672,
+              21243
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the location where the man is playing tennis?",
+        "score": 2,
+        "branches": [
+          {
+            "answer": "a tennis court",
+            "caption": "a man playing tennis on a tennis court",
+            "top10": [
+              31500,
+              27844,
+              17013,
+              3707,
+              11058,
+              6794,
+              16240,
+              7005,
+              29897,
+              18794
+            ]
+          },
+          {
+            "answer": "a green tennis court",
+            "caption": "a man wearing a green uniform is running on a green tennis court",
+            "top10": [
+              13191,
+              31500,
+              34859,
+              41145,
+              11058,
+              44878,
+              10030,
+              21677,
+              6649,
+              9884
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "outcomes": {
+    "Question: What is the man wearing on his body?": {
+      "answer": "white shirt and shorts",
+      "rewrite": "a man in a white shirt and shorts expends great effort hitting a tennis ball",
+      "rank": 46
+    },
+    "what is the color of the man's uniform?": {
+      "answer": "white",
+      "rewrite": "a man in a white uniform expends great effort hitting a tennis ball",
+      "rank": 34
+    },
+    "what is the color of the shorts worn by the tennis player?": {
+      "answer": "white",
+      "rewrite": "a tennis player in white shorts expends great effort into hitting the ball",
+      "rank": 59
+    },
+    "What is the man holding that he is using to hit the ball?": {
+      "answer": "tennis racket",
+      "rewrite": "a man expends great effort hitting a ball with a tennis racket",
+      "rank": 133
+    },
+    "what is the location where the man is playing tennis?": {
+      "answer": "wimbledon",
+      "rewrite": "a man expends great effort hitting a tennis ball at wimbledon",
+      "rank": 8
+    }
+  },
+  "saved_kl_rank": 59
+}

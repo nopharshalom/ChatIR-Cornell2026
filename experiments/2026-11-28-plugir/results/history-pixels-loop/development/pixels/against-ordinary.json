@@ -1,0 +1,419 @@
+{
+  "baseline": "ordinary",
+  "variant": "pixels",
+  "split": "development",
+  "control": {
+    "hits": [
+      0,
+      8,
+      12,
+      15,
+      17,
+      17,
+      18,
+      18,
+      18,
+      18,
+      18
+    ],
+    "questions": 59,
+    "primary": 0.6900000000000001,
+    "displayed": 790,
+    "evidence_slots": 590,
+    "unique_evidence_summed_by_dialogue": 354,
+    "verified_screens": 0,
+    "swaps": 0,
+    "immediate_hits_gained": 0,
+    "immediate_hits_lost": 0,
+    "wall_seconds": 1.6941010432783514
+  },
+  "treatment": {
+    "hits": [
+      0,
+      8,
+      12,
+      15,
+      17,
+      17,
+      18,
+      18,
+      18,
+      18,
+      18
+    ],
+    "questions": 59,
+    "primary": 0.6900000000000001,
+    "displayed": 790,
+    "evidence_slots": 590,
+    "unique_evidence_summed_by_dialogue": 354,
+    "verified_screens": 18,
+    "swaps": 6,
+    "immediate_hits_gained": 0,
+    "immediate_hits_lost": 0,
+    "wall_seconds": 54.519380871905014
+  },
+  "paired": {
+    "tied": 20
+  },
+  "primary_delta": 0.0,
+  "paired_bootstrap_95": [
+    0.0,
+    0.0
+  ],
+  "gained": [],
+  "lost": [],
+  "per_dialogue": [
+    {
+      "qid": 1510,
+      "control": 3,
+      "variant": 3
+    },
+    {
+      "qid": 343,
+      "control": 1,
+      "variant": 1
+    },
+    {
+      "qid": 2019,
+      "control": 1,
+      "variant": 1
+    },
+    {
+      "qid": 541,
+      "control": 1,
+      "variant": 1
+    },
+    {
+      "qid": 1914,
+      "control": 3,
+      "variant": 3,
+      "display": {
+        "variant": {
+          "round": 3,
+          "query": "a man in a green shirt playing professional tennis on a clay court at Roland Garros",
+          "screen": [
+            41178,
+            39459,
+            30543,
+            29173,
+            28985,
+            13191,
+            46117,
+            12707,
+            8054,
+            34859
+          ],
+          "raw_rank": 1,
+          "rank": 1,
+          "evidence": null,
+          "question": null,
+          "answer": null,
+          "rewrite": null,
+          "first": 3,
+          "ranks": [
+            41,
+            21,
+            14,
+            1
+          ]
+        },
+        "control": {
+          "round": 3,
+          "query": "a man in a green shirt playing professional tennis on a clay court at Roland Garros",
+          "screen": [
+            41178,
+            39459,
+            30543,
+            29173,
+            28985,
+            13191,
+            46117,
+            10028,
+            8054,
+            34859
+          ],
+          "raw_rank": 1,
+          "rank": 1,
+          "evidence": null,
+          "question": null,
+          "answer": null,
+          "rewrite": null,
+          "first": 3,
+          "ranks": [
+            41,
+            21,
+            14,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "qid": 1466,
+      "control": 4,
+      "variant": 4
+    },
+    {
+      "qid": 701,
+      "control": 4,
+      "variant": 4
+    },
+    {
+      "qid": 176,
+      "control": 2,
+      "variant": 2
+    },
+    {
+      "qid": 1004,
+      "control": 2,
+      "variant": 2
+    },
+    {
+      "qid": 532,
+      "control": 3,
+      "variant": 3
+    },
+    {
+      "qid": 814,
+      "control": 2,
+      "variant": 2
+    },
+    {
+      "qid": 1743,
+      "control": 11,
+      "variant": 11,
+      "display": {
+        "variant": {
+          "round": 1,
+          "query": "a bed with blue covers next to a green wall",
+          "screen": [
+            6400,
+            18827,
+            5761,
+            15972,
+            36964,
+            46942,
+            2911,
+            32135,
+            25505,
+            31924
+          ],
+          "raw_rank": 686,
+          "rank": 676,
+          "evidence": [
+            6400,
+            13001,
+            7307,
+            33953,
+            18827,
+            5761,
+            20995,
+            28942,
+            15972,
+            36964
+          ],
+          "question": "Is there anything on the bed with blue covers?",
+          "answer": "Yes.",
+          "rewrite": "a bed with blue covers and items on it, next to a green wall",
+          "first": 11,
+          "ranks": [
+            243,
+            676,
+            756,
+            255,
+            103,
+            173,
+            323,
+            103,
+            98,
+            75,
+            77
+          ]
+        },
+        "control": {
+          "round": 1,
+          "query": "a bed with blue covers next to a green wall",
+          "screen": [
+            6400,
+            18827,
+            5761,
+            15972,
+            36964,
+            46942,
+            2911,
+            32135,
+            25505,
+            15567
+          ],
+          "raw_rank": 686,
+          "rank": 676,
+          "evidence": [
+            6400,
+            13001,
+            7307,
+            33953,
+            18827,
+            5761,
+            20995,
+            28942,
+            15972,
+            36964
+          ],
+          "question": "Is there anything on the bed with blue covers?",
+          "answer": "Yes.",
+          "rewrite": "a bed with blue covers and items on it, next to a green wall",
+          "first": 11,
+          "ranks": [
+            243,
+            676,
+            756,
+            255,
+            103,
+            173,
+            322,
+            102,
+            97,
+            74,
+            76
+          ]
+        }
+      }
+    },
+    {
+      "qid": 1782,
+      "control": 2,
+      "variant": 2
+    },
+    {
+      "qid": 670,
+      "control": 1,
+      "variant": 1
+    },
+    {
+      "qid": 1111,
+      "control": 11,
+      "variant": 11,
+      "display": {
+        "variant": {
+          "round": 3,
+          "query": "a small, clean white kitchen with gray floors located inside the home, free of dishes and food items",
+          "screen": [
+            3130,
+            24418,
+            25193,
+            49377,
+            38629,
+            7378,
+            761,
+            42147,
+            193,
+            2932
+          ],
+          "raw_rank": 285,
+          "rank": 257,
+          "evidence": [
+            11731,
+            3130,
+            14080,
+            49370,
+            17420,
+            24418,
+            45784,
+            25193,
+            49377,
+            34091
+          ],
+          "question": "what appliance is missing from the small, clean kitchen?",
+          "answer": "refrigerator",
+          "rewrite": "a small, clean, white kitchen with gray floors located inside the home, missing a refrigerator",
+          "first": 11,
+          "ranks": [
+            181,
+            257,
+            165,
+            257,
+            184,
+            125,
+            545,
+            117,
+            171,
+            311,
+            341
+          ]
+        },
+        "control": {
+          "round": 3,
+          "query": "a small, clean white kitchen with gray floors located inside the home, free of dishes and food items",
+          "screen": [
+            3130,
+            24418,
+            25193,
+            49377,
+            38629,
+            7378,
+            761,
+            42147,
+            17672,
+            2932
+          ],
+          "raw_rank": 285,
+          "rank": 257,
+          "evidence": [
+            11731,
+            3130,
+            14080,
+            49370,
+            17420,
+            24418,
+            45784,
+            25193,
+            49377,
+            34091
+          ],
+          "question": "what appliance is missing from the small, clean kitchen?",
+          "answer": "refrigerator",
+          "rewrite": "a small, clean, white kitchen with gray floors located inside the home, missing a refrigerator",
+          "first": 11,
+          "ranks": [
+            181,
+            257,
+            165,
+            257,
+            184,
+            125,
+            545,
+            117,
+            171,
+            312,
+            342
+          ]
+        }
+      }
+    },
+    {
+      "qid": 482,
+      "control": 1,
+      "variant": 1
+    },
+    {
+      "qid": 2003,
+      "control": 1,
+      "variant": 1
+    },
+    {
+      "qid": 1639,
+      "control": 1,
+      "variant": 1
+    },
+    {
+      "qid": 742,
+      "control": 6,
+      "variant": 6
+    },
+    {
+      "qid": 1091,
+      "control": 1,
+      "variant": 1
+    }
+  ]
+}

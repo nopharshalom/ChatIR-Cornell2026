@@ -1,0 +1,133 @@
+{
+  "pivot": 2,
+  "trace": [
+    {
+      "slots": [
+        {
+          "entity": "baseball player",
+          "family": "clothing",
+          "values": [
+            "red",
+            "white"
+          ],
+          "question": "What is the baseball player wearing on their upper body?"
+        }
+      ],
+      "vetoes": [],
+      "protocol_error": "Invalid classification on both structured and single-label attempts"
+    },
+    {
+      "slots": [
+        {
+          "entity": "baseball player",
+          "family": "material",
+          "values": [
+            "leather",
+            "metal"
+          ],
+          "question": "What material is the baseball player made of?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          null,
+          null,
+          "leather",
+          null,
+          null,
+          "leather",
+          "leather",
+          null,
+          null,
+          "leather"
+        ]
+      ],
+      "filled": [
+        4
+      ],
+      "pixel_supported": [
+        false
+      ]
+    },
+    {
+      "slots": [
+        {
+          "entity": "baseball player",
+          "family": "material",
+          "values": [
+            "wood",
+            "metal"
+          ],
+          "question": "What material is the baseball player made of?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "wood",
+          "wood",
+          "metal",
+          "wood",
+          "wood",
+          "wood",
+          "metal",
+          "wood",
+          "wood",
+          "wood"
+        ]
+      ],
+      "filled": [
+        10
+      ],
+      "pixel_supported": [
+        true
+      ],
+      "captions_transfer": [
+        null
+      ],
+      "pixels_transfer": [
+        0.625
+      ]
+    }
+  ],
+  "questions": [
+    "what is the other object in the image?",
+    "What material is the baseball player made of?"
+  ],
+  "picks": {
+    "blind_alternative": 1,
+    "captions_annotations": 0,
+    "captions_retrieval": 0,
+    "pixels_annotations": 1,
+    "pixels_retrieval": 0
+  }
+}

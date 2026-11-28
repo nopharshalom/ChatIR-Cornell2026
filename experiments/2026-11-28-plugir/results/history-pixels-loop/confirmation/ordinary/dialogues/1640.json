@@ -1,0 +1,222 @@
+{
+  "qid": 1640,
+  "target": "unlabeled2017/000000410778.jpg",
+  "arm": "ordinary",
+  "first": 3,
+  "turns": [
+    {
+      "evidence": [
+        29413,
+        27004,
+        21239,
+        31196,
+        25870,
+        6737,
+        45810,
+        10720,
+        22156,
+        231
+      ],
+      "candidates": [
+        "what material are the kitchen cabinets in the clean kitchen with white walls and a very large fridge?",
+        "what is the material of the stove in the clean kitchen with white walls and a very large fridge?",
+        "what color are the kitchen floors in the clean kitchen with white walls and a very large fridge?",
+        "what type of refrigerator is in the clean kitchen with white walls and a very large fridge?",
+        "what is the other object in the image?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "refrigerator",
+      "rewrite": "a clean kitchen with white walls featuring a very large refrigerator",
+      "review": null,
+      "shared_seconds": 11.603
+    },
+    {
+      "evidence": [
+        21239,
+        27004,
+        25870,
+        29413,
+        10720,
+        6737,
+        31196,
+        36761,
+        41003,
+        22156
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "what is the color of the walls in the kitchen?",
+        "what is the color of the refrigerator in the kitchen?",
+        "what is the color of the refrigerator in the kitchen?",
+        "what is the size of the refrigerator in the kitchen?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "refrigerator",
+      "rewrite": "a clean kitchen with white walls and a very large refrigerator",
+      "review": null,
+      "shared_seconds": 18.185
+    },
+    {
+      "evidence": [
+        27004,
+        29413,
+        21239,
+        25870,
+        31196,
+        6737,
+        10720,
+        231,
+        22156,
+        36761
+      ],
+      "candidates": [
+        "what material are the walls in the kitchen made of?",
+        "what material are the floors in the kitchen made of?",
+        "what is the color of the floors in the kitchen?",
+        "what is the color of the refrigerator in the image?",
+        "what material are the floors in the kitchen made of?"
+      ],
+      "default": "what material are the walls in the kitchen made of?",
+      "question": "what material are the walls in the kitchen made of?",
+      "answer": "metal",
+      "rewrite": "a clean kitchen with white metal walls and a very large refrigerator",
+      "review": null,
+      "shared_seconds": 12.256
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a clean kitchen with white walls and a very large fridge",
+      "raw_rank": 31,
+      "filtered_rank": 31,
+      "rank": 31,
+      "ordinary_screen": [
+        29413,
+        27004,
+        21239,
+        31196,
+        25870,
+        6737,
+        45810,
+        22156,
+        10720,
+        231
+      ],
+      "display": [
+        29413,
+        27004,
+        21239,
+        31196,
+        25870,
+        6737,
+        45810,
+        22156,
+        10720,
+        231
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a clean kitchen with white walls featuring a very large refrigerator",
+      "raw_rank": 52,
+      "filtered_rank": 42,
+      "rank": 42,
+      "ordinary_screen": [
+        36761,
+        41003,
+        16193,
+        33750,
+        33477,
+        5385,
+        2932,
+        42117,
+        18182,
+        19318
+      ],
+      "display": [
+        36761,
+        41003,
+        16193,
+        33750,
+        33477,
+        5385,
+        2932,
+        42117,
+        18182,
+        19318
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "a clean kitchen with white walls and a very large refrigerator",
+      "raw_rank": 43,
+      "filtered_rank": 23,
+      "rank": 23,
+      "ordinary_screen": [
+        48105,
+        41619,
+        18865,
+        7435,
+        15551,
+        46257,
+        27511,
+        46594,
+        11985,
+        17186
+      ],
+      "display": [
+        48105,
+        41619,
+        18865,
+        7435,
+        15551,
+        46257,
+        27511,
+        46594,
+        11985,
+        17186
+      ],
+      "check": {}
+    },
+    {
+      "round": 3,
+      "query": "a clean kitchen with white metal walls and a very large refrigerator",
+      "raw_rank": 4,
+      "filtered_rank": 1,
+      "rank": 1,
+      "ordinary_screen": [
+        35192,
+        49377,
+        36196,
+        47832,
+        6341,
+        24968,
+        36688,
+        3185,
+        21516,
+        4833
+      ],
+      "display": [
+        35192,
+        49377,
+        36196,
+        47832,
+        6341,
+        24968,
+        36688,
+        3185,
+        21516,
+        4833
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 42.044,
+  "live": false,
+  "seconds": 0.04951941594481468
+}

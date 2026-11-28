@@ -1,0 +1,104 @@
+{
+  "qid": 1639,
+  "target": "unlabeled2017/000000575299.jpg",
+  "arm": "caption",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        14352,
+        40471,
+        22150,
+        43633,
+        49772,
+        2832,
+        10299,
+        11063,
+        15259,
+        38602
+      ],
+      "candidates": [
+        "what are the people wearing?",
+        "what is the other object in the image?",
+        "what is the specific type of food the people are preparing or ordering?",
+        "what is the color of the shirt worn by the man in the image?",
+        "what is the man wearing?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "laptop",
+      "rewrite": "people are standing at a counter in front of windows trying to order, with a laptop on the counter",
+      "review": null,
+      "shared_seconds": 13.081
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "people are standing at a counter in front of windows trying to order",
+      "raw_rank": 62,
+      "filtered_rank": 62,
+      "rank": 62,
+      "ordinary_screen": [
+        14352,
+        40471,
+        49772,
+        22150,
+        43633,
+        2832,
+        11063,
+        10299,
+        15259,
+        38602
+      ],
+      "display": [
+        14352,
+        40471,
+        49772,
+        22150,
+        43633,
+        2832,
+        11063,
+        10299,
+        15259,
+        38602
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "people are standing at a counter in front of windows trying to order, with a laptop on the counter",
+      "raw_rank": 2,
+      "filtered_rank": 2,
+      "rank": 2,
+      "ordinary_screen": [
+        33000,
+        49427,
+        18076,
+        3442,
+        31959,
+        2687,
+        16217,
+        23959,
+        49760,
+        13983
+      ],
+      "display": [
+        33000,
+        49427,
+        18076,
+        3442,
+        31959,
+        2687,
+        16217,
+        23959,
+        49760,
+        13983
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 13.081,
+  "live": false,
+  "seconds": 0.04492208384908736
+}

@@ -1,0 +1,153 @@
+{
+  "pivot": 1,
+  "trace": [
+    {
+      "slots": [
+        {
+          "entity": "skateboarder",
+          "family": "setting",
+          "values": [
+            "backyard",
+            "park"
+          ],
+          "question": "What kind of place is the skateboarder in?"
+        },
+        {
+          "entity": "jeans",
+          "family": "material",
+          "values": [
+            "wood",
+            "metal"
+          ],
+          "question": "What material is the jeans made of?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          "backyard",
+          null,
+          "park",
+          "park",
+          null,
+          null,
+          null,
+          null,
+          "park",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "backyard",
+          "park",
+          "park",
+          "park",
+          "park",
+          "park",
+          "park",
+          "park",
+          "park",
+          "park"
+        ],
+        [
+          "wood",
+          "wood",
+          null,
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood"
+        ]
+      ],
+      "filled": [
+        6,
+        9
+      ],
+      "pixel_supported": [
+        false,
+        false
+      ]
+    },
+    {
+      "slots": [
+        {
+          "entity": "ramp",
+          "family": "material",
+          "values": [
+            "wood",
+            "metal"
+          ],
+          "question": "What material is the ramp made of?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "metal",
+          null,
+          "metal",
+          "metal",
+          "metal",
+          "metal",
+          "metal",
+          "metal",
+          "wood",
+          "wood"
+        ]
+      ],
+      "filled": [
+        9
+      ],
+      "pixel_supported": [
+        true
+      ],
+      "captions_transfer": [
+        null
+      ],
+      "pixels_transfer": [
+        0.6785714285714286
+      ]
+    }
+  ],
+  "questions": [
+    "what is the color of the ramp the skateboarder is about to go off?",
+    "What material is the ramp made of?"
+  ],
+  "picks": {
+    "blind_alternative": 1,
+    "captions_annotations": 0,
+    "captions_retrieval": 0,
+    "pixels_annotations": 1,
+    "pixels_retrieval": 1
+  }
+}

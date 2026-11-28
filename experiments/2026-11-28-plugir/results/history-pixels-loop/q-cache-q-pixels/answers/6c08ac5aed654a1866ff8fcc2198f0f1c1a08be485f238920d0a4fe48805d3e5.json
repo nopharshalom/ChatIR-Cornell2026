@@ -1,0 +1,34 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    [
+      34384,
+      7321,
+      17912,
+      18232,
+      10314,
+      48731,
+      6983,
+      48094,
+      24351,
+      25687
+    ],
+    "Question: Does the living room have a fireplace?",
+    "Answer the question separately for each numbered photo. Answer yes or no from visible evidence, or unknown if uncertain or inapplicable. Return a JSON object with exactly one answer for each printed tile ID. The top row is 0,1,2,3,4 and the bottom row is 5,6,7,8,9. Use these ten ID strings as keys, including \"0\" and \"9\".",
+    180
+  ],
+  "raw": "```json\n{\n    \"0\": \"no\",\n    \"1\": \"yes\",\n    \"2\": \"yes\",\n    \"3\": \"no\",\n    \"4\": \"no\",\n    \"5\": \"no\",\n    \"6\": \"no\",\n    \"7\": \"no\",\n    \"8\": \"no\",\n    \"9\": \"no\"\n}\n```",
+  "answers": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "seconds": 2.8304426660761237
+}

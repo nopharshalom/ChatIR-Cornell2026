@@ -1,0 +1,40 @@
+{
+  "plan_raw": "{\n\"choice\": 2,\n\"check\": \"shirt color\",\n\"photos\": [0, 7]\n}",
+  "provisional": 2,
+  "valid_plan": true,
+  "caption": {
+    "choice": 2,
+    "fallback": true,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "The shirt color is unknown."
+      },
+      {
+        "index": 7,
+        "observation": "The shirt is white and orange."
+      }
+    ],
+    "raw": "{\"choice\": 7}"
+  },
+  "pixels": {
+    "choice": 2,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "The man is wearing a blue shirt."
+      },
+      {
+        "index": 7,
+        "observation": "The shirt is white and orange."
+      }
+    ],
+    "raw": "{\"choice\": 2}"
+  },
+  "qid": 621,
+  "example_ids": [
+    1716,
+    780
+  ]
+}

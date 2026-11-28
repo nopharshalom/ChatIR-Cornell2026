@@ -1,0 +1,82 @@
+{
+  "key": "vanilla_proxy-601-1",
+  "arm": "vanilla_proxy",
+  "original": "what color are the traffic lights hanging over the intersection?",
+  "incumbent": "what color are the traffic lights hanging over the intersection?",
+  "batch": {
+    "choice": "what is the sky condition or weather in the image where the traffic light is hanging?",
+    "scores": {
+      "what color are the traffic lights hanging over the intersection?": 4,
+      "what is the sky condition or weather in the image where the traffic light is hanging?": 5,
+      "Question: are there any birds visible near the traffic light in the image?": 1,
+      "Question: Are the traffic lights red?": 2,
+      "Question: Are there birds visible on the traffic light pole in the image?": 1
+    },
+    "answers": [
+      [
+        "yellow",
+        "The traffic lights are red.",
+        "The traffic lights hanging over the intersection are red.",
+        "green",
+        "green",
+        "The traffic lights are red, yellow, and green.",
+        "The traffic lights are red.",
+        "red",
+        "The traffic lights hanging over the intersection are red and green.",
+        "green"
+      ],
+      [
+        "clear blue",
+        "The sky is clear and blue.",
+        "The sky condition is clear with a gradient from light blue to dark blue, suggesting it is either early morning or late evening.",
+        "clear blue",
+        "partly cloudy",
+        "The sky condition or weather is sunny.",
+        "The sky condition is clear with a blue hue, suggesting it might be early morning or late evening.",
+        "clear",
+        "The sky condition is dark, indicating it is nighttime.",
+        "cloudy"
+      ],
+      [
+        "no",
+        "No birds are visible near the traffic light.",
+        "No, there are no birds visible near the traffic light in the image.",
+        "no",
+        "yes",
+        "No, there are no birds visible near the traffic light in the image.",
+        "No birds are visible near the traffic light in the image.",
+        "no",
+        "No, there are no birds visible near the traffic light in the image.",
+        "yes"
+      ],
+      [
+        "no",
+        "Yes, the traffic lights are red.",
+        "Yes, the traffic lights are red.",
+        "no",
+        "no",
+        "Yes, one of the traffic lights is red.",
+        "Yes, the traffic lights are red.",
+        "yes",
+        "Yes, the traffic lights are red.",
+        "no"
+      ],
+      [
+        "no",
+        "No birds are visible on the traffic light pole.",
+        "No, there are no birds visible on the traffic light pole in the image.",
+        "no",
+        "no",
+        "No, there are no birds visible on the traffic light pole in the image.",
+        "No birds are visible on the traffic light pole in the image.",
+        "no",
+        "No, there are no birds visible on the traffic light pole in the image.",
+        "yes"
+      ]
+    ],
+    "invalid_batches": [],
+    "visual_calls": 10,
+    "total_calls": 40,
+    "seconds": 34.84790108399466
+  }
+}

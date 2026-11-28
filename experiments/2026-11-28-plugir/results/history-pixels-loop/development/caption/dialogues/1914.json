@@ -1,0 +1,263 @@
+{
+  "qid": 1914,
+  "target": "unlabeled2017/000000479985.jpg",
+  "arm": "caption",
+  "first": 3,
+  "turns": [
+    {
+      "evidence": [
+        27844,
+        16211,
+        4722,
+        46157,
+        40679,
+        17013,
+        18037,
+        13218,
+        43495,
+        28743
+      ],
+      "candidates": [
+        "what is the color of the shirt worn by the man playing professional tennis on clay courts?",
+        "what is the name of the specific clay court tournament the man is playing in?",
+        "Question: What is the color of the shirt worn by the man playing professional tennis on clay courts?",
+        "Question: What is the color of the shirt worn by the man playing professional tennis on clay courts?",
+        "Question: What is the color of the shirt worn by the man playing professional tennis on clay courts?"
+      ],
+      "default": "what is the name of the specific clay court tournament the man is playing in?",
+      "question": "what is the name of the specific clay court tournament the man is playing in?",
+      "answer": "roland garros",
+      "rewrite": "a man playing professional tennis at the Roland Garros tournament on clay courts",
+      "review": null,
+      "shared_seconds": 7.518
+    },
+    {
+      "evidence": [
+        4722,
+        40679,
+        13218,
+        27844,
+        44971,
+        16211,
+        17013,
+        11031,
+        8640,
+        3979
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "what is the color of the lines on the tennis court where the man is playing?",
+        "what is the color of the lines on the tennis court?",
+        "what is the specific type of tennis court surface the man is playing on?",
+        "what is the color of the lines on the tennis court?"
+      ],
+      "default": "what is the specific type of tennis court surface the man is playing on?",
+      "question": "what is the specific type of tennis court surface the man is playing on?",
+      "answer": "clay",
+      "rewrite": "a man playing professional tennis on clay courts at the Roland Garros tournament",
+      "review": null,
+      "shared_seconds": 22.535
+    },
+    {
+      "evidence": [
+        4722,
+        13218,
+        40679,
+        44971,
+        16211,
+        27844,
+        17013,
+        11031,
+        8640,
+        25217
+      ],
+      "candidates": [
+        "what color is the shirt the man is wearing?",
+        "what color is the shirt the man is wearing?",
+        "what is the color of the shirt the man is wearing?",
+        "what color is the shirt the man is wearing?",
+        "what color is the shirt the man is wearing?"
+      ],
+      "default": "what color is the shirt the man is wearing?",
+      "question": "what color is the shirt the man is wearing?",
+      "answer": "green",
+      "rewrite": "a man in a green shirt playing professional tennis on a clay court at Roland Garros",
+      "review": null,
+      "shared_seconds": 10.356
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a man playing professional tennis on clay courts",
+      "raw_rank": 41,
+      "filtered_rank": 41,
+      "rank": 41,
+      "ordinary_screen": [
+        27844,
+        4722,
+        16211,
+        40679,
+        46157,
+        17013,
+        18037,
+        13218,
+        43495,
+        28743
+      ],
+      "display": [
+        27844,
+        4722,
+        16211,
+        40679,
+        46157,
+        17013,
+        18037,
+        13218,
+        43495,
+        28743
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a man playing professional tennis at the Roland Garros tournament on clay courts",
+      "raw_rank": 28,
+      "filtered_rank": 21,
+      "rank": 21,
+      "ordinary_screen": [
+        44971,
+        11031,
+        8640,
+        3979,
+        93,
+        25703,
+        25217,
+        34042,
+        8137,
+        17467
+      ],
+      "display": [
+        44971,
+        11031,
+        8640,
+        3979,
+        93,
+        25703,
+        25217,
+        34042,
+        8137,
+        17467
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "a man playing professional tennis on clay courts at the Roland Garros tournament",
+      "raw_rank": 31,
+      "filtered_rank": 14,
+      "rank": 14,
+      "ordinary_screen": [
+        38564,
+        31597,
+        19343,
+        11600,
+        8299,
+        44755,
+        37089,
+        40397,
+        14138,
+        29993
+      ],
+      "display": [
+        38564,
+        31597,
+        19343,
+        11600,
+        8299,
+        44755,
+        37089,
+        40397,
+        14138,
+        29993
+      ],
+      "check": {}
+    },
+    {
+      "round": 3,
+      "query": "a man in a green shirt playing professional tennis on a clay court at Roland Garros",
+      "raw_rank": 1,
+      "filtered_rank": 1,
+      "rank": 1,
+      "ordinary_screen": [
+        41178,
+        39459,
+        30543,
+        29173,
+        28985,
+        13191,
+        46117,
+        10028,
+        8054,
+        34859
+      ],
+      "display": [
+        41178,
+        39459,
+        30543,
+        29173,
+        28985,
+        13191,
+        46117,
+        10028,
+        8054,
+        34859
+      ],
+      "check": {
+        "question": "what color is the shirt the man is wearing?",
+        "answer": "green",
+        "labels": [
+          {
+            "id": 10028,
+            "color": null,
+            "file": "78a0fce669b3eee31df01979cad66cb72a7ac5d08136d49e661a08604a61bccf.json",
+            "seconds": 0.16288816696032882
+          },
+          {
+            "id": 8054,
+            "color": null,
+            "file": "d8ff21379ed023c6417c10dcda5be77363590c8dbc633aebe832aac4cc5d99f5.json",
+            "seconds": 0.16027229209430516
+          },
+          {
+            "id": 34859,
+            "color": null,
+            "file": "c0a916563e160bc950c8f47e337044be76f9c825f0f0b9bab5c5ced630ad9180.json",
+            "seconds": 0.16126974998041987
+          },
+          {
+            "id": 12707,
+            "color": null,
+            "file": "ad0b04f8edb6bdd2b21977380ff4465b902d990cafa6e6f031948e50a78358df.json",
+            "seconds": 0.16233816696330905
+          },
+          {
+            "id": 43723,
+            "color": null,
+            "file": "d2860026f77622670f21cb44b50cb073d99ac6c673d149ebdeae62217019880d.json",
+            "seconds": 0.1638264579232782
+          },
+          {
+            "id": 32119,
+            "color": null,
+            "file": "166d2cb80cca298190ffa602cca38bdbf40acb9c4e3ea4dbf59e46decfb45e4f.json",
+            "seconds": 0.16939037502743304
+          }
+        ]
+      }
+    }
+  ],
+  "shared_seconds": 40.409,
+  "live": false,
+  "seconds": 1.0315956668928266
+}

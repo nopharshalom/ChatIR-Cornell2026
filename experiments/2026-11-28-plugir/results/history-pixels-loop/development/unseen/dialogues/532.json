@@ -1,0 +1,340 @@
+{
+  "qid": 532,
+  "target": "unlabeled2017/000000434734.jpg",
+  "arm": "unseen",
+  "first": 5,
+  "turns": [
+    {
+      "evidence": [
+        12012,
+        41904,
+        40906,
+        11670,
+        25360,
+        31605,
+        43506,
+        8371,
+        6796,
+        33652
+      ],
+      "candidates": [
+        "Question: What is the baseball player wearing?",
+        "Question: What is the baseball player standing on?",
+        "Question: What is the baseball player wearing?",
+        "Question: Does the baseball player have a beard?",
+        "Question: Is the baseball player holding a bat or a mitt?"
+      ],
+      "default": "Question: What is the baseball player standing on?",
+      "question": "Question: What is the baseball player standing on?",
+      "answer": "dirt",
+      "rewrite": "a baseball player stands on a dirt mound ready to swing",
+      "review": null,
+      "shared_seconds": 13.980055291904137
+    },
+    {
+      "evidence": [
+        29154,
+        30935,
+        48812,
+        48541,
+        41807,
+        6796,
+        11695,
+        15564,
+        32691,
+        18034
+      ],
+      "candidates": [
+        "what color is the cap worn by the baseball player on the mound?",
+        "what color is the cap worn by the baseball player holding the bat?",
+        "what is the color of the cap worn by the baseball player on the mound?",
+        "what color is the cap worn by the baseball player on the mound?",
+        "what is the color of the cap worn by the baseball player on the mound?"
+      ],
+      "default": "what color is the cap worn by the baseball player holding the bat?",
+      "question": "what color is the cap worn by the baseball player holding the bat?",
+      "answer": "black",
+      "rewrite": "a baseball player wearing a black cap stands on a dirt mound holding a bat, ready to swing",
+      "review": null,
+      "shared_seconds": 8.268647833028808
+    },
+    {
+      "evidence": [
+        3965,
+        9822,
+        26908,
+        38498,
+        41380,
+        17574,
+        26045,
+        31677,
+        30935,
+        29267
+      ],
+      "candidates": [
+        "what is the color of the baseball player's uniform?",
+        "what color is the uniform of the baseball player on the mound?",
+        "what color is the baseball player's uniform?",
+        "Question: What color is the uniform of the baseball player on the mound?",
+        "What is the color of the jersey worn by the baseball player?"
+      ],
+      "default": "what color is the baseball player's uniform?",
+      "question": "what color is the baseball player's uniform?",
+      "answer": "gray",
+      "rewrite": "a baseball player in a gray uniform wearing a black cap stands on a dirt mound, holding a bat and ready to swing",
+      "review": null,
+      "shared_seconds": 13.440871458034962
+    },
+    {
+      "evidence": [
+        3000,
+        49685,
+        8526,
+        5218,
+        11832,
+        41807,
+        35687,
+        39769,
+        32413,
+        503
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "what is the color of the baseball player's uniform?",
+        "what is the color of the bat held by the baseball player on the mound?",
+        "what is the color of the bat held by the baseball player on the mound?",
+        "what color is the bat held by the baseball player on the mound?"
+      ],
+      "default": "what is the color of the baseball player's uniform?",
+      "question": "what is the color of the baseball player's uniform?",
+      "answer": "gray",
+      "rewrite": "a baseball player in a gray uniform and black cap stands on a dirt mound, holding a bat and ready to swing",
+      "review": null,
+      "shared_seconds": 19.23278395901434
+    },
+    {
+      "evidence": [
+        38498,
+        35837,
+        41380,
+        28161,
+        20560,
+        49901,
+        19450,
+        32626,
+        29386,
+        37255
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "what is the baseball player holding?",
+        "what is the baseball player holding?",
+        "what is the baseball player holding?",
+        "what is the baseball player holding?"
+      ],
+      "default": "what is the baseball player holding?",
+      "question": "what is the baseball player holding?",
+      "answer": "bat",
+      "rewrite": "a baseball player in a gray uniform and black cap stands on a dirt mound holding a bat, ready to swing",
+      "review": null,
+      "shared_seconds": 25.14630312495865
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a baseball player is on the mound ready to swing",
+      "raw_rank": 95,
+      "filtered_rank": 95,
+      "rank": 95,
+      "ordinary_screen": [
+        36866,
+        10419,
+        7567,
+        21639,
+        34244,
+        48813,
+        35649,
+        41945,
+        37537,
+        45323
+      ],
+      "display": [
+        36866,
+        10419,
+        7567,
+        21639,
+        34244,
+        48813,
+        35649,
+        41945,
+        37537,
+        45323
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a baseball player stands on a dirt mound ready to swing",
+      "raw_rank": 85,
+      "filtered_rank": 75,
+      "rank": 75,
+      "ordinary_screen": [
+        40906,
+        12012,
+        44313,
+        15968,
+        11670,
+        8371,
+        25360,
+        26036,
+        13690,
+        39254
+      ],
+      "display": [
+        40906,
+        12012,
+        44313,
+        15968,
+        11670,
+        8371,
+        25360,
+        26036,
+        13690,
+        39254
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "a baseball player wearing a black cap stands on a dirt mound holding a bat, ready to swing",
+      "raw_rank": 128,
+      "filtered_rank": 109,
+      "rank": 109,
+      "ordinary_screen": [
+        15554,
+        34059,
+        48812,
+        9559,
+        14295,
+        23858,
+        2862,
+        4480,
+        7893,
+        26632
+      ],
+      "display": [
+        15554,
+        34059,
+        48812,
+        9559,
+        14295,
+        23858,
+        2862,
+        4480,
+        7893,
+        26632
+      ],
+      "check": {}
+    },
+    {
+      "round": 3,
+      "query": "a baseball player in a gray uniform wearing a black cap stands on a dirt mound, holding a bat and ready to swing",
+      "raw_rank": 40,
+      "filtered_rank": 31,
+      "rank": 31,
+      "ordinary_screen": [
+        17574,
+        26768,
+        14323,
+        27908,
+        39374,
+        3965,
+        29941,
+        6796,
+        18034,
+        12641
+      ],
+      "display": [
+        17574,
+        26768,
+        14323,
+        27908,
+        39374,
+        3965,
+        29941,
+        6796,
+        18034,
+        12641
+      ],
+      "check": {}
+    },
+    {
+      "round": 4,
+      "query": "a baseball player in a gray uniform and black cap stands on a dirt mound, holding a bat and ready to swing",
+      "raw_rank": 39,
+      "filtered_rank": 20,
+      "rank": 20,
+      "ordinary_screen": [
+        49685,
+        3000,
+        41807,
+        5218,
+        8526,
+        11832,
+        39769,
+        35687,
+        32413,
+        503
+      ],
+      "display": [
+        49685,
+        3000,
+        41807,
+        5218,
+        8526,
+        11832,
+        39769,
+        35687,
+        32413,
+        503
+      ],
+      "check": {}
+    },
+    {
+      "round": 5,
+      "query": "a baseball player in a gray uniform and black cap stands on a dirt mound holding a bat, ready to swing",
+      "raw_rank": 36,
+      "filtered_rank": 8,
+      "rank": 8,
+      "ordinary_screen": [
+        20560,
+        38498,
+        49901,
+        35837,
+        28161,
+        41380,
+        29386,
+        37255,
+        6936,
+        46561
+      ],
+      "display": [
+        20560,
+        38498,
+        49901,
+        35837,
+        28161,
+        41380,
+        29386,
+        37255,
+        6936,
+        46561
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 80.0686616669409,
+  "live": true,
+  "seconds": 80.24540087487549
+}

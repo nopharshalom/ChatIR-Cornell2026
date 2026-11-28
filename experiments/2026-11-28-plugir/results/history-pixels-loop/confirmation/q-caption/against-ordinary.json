@@ -1,0 +1,809 @@
+{
+  "baseline": "ordinary",
+  "variant": "q-caption",
+  "split": "confirmation",
+  "control": {
+    "hits": [
+      0,
+      11,
+      16,
+      17,
+      17,
+      17,
+      18,
+      18,
+      18,
+      19,
+      20
+    ],
+    "questions": 49,
+    "primary": 0.78,
+    "displayed": 690,
+    "evidence_slots": 490,
+    "unique_evidence_summed_by_dialogue": 330,
+    "verified_screens": 0,
+    "swaps": 0,
+    "immediate_hits_gained": 0,
+    "immediate_hits_lost": 0,
+    "wall_seconds": 1.3883418769109994
+  },
+  "treatment": {
+    "hits": [
+      0,
+      10,
+      14,
+      16,
+      17,
+      17,
+      18,
+      18,
+      18,
+      19,
+      20
+    ],
+    "questions": 53,
+    "primary": 0.74,
+    "displayed": 730,
+    "evidence_slots": 530,
+    "unique_evidence_summed_by_dialogue": 351,
+    "verified_screens": 0,
+    "swaps": 0,
+    "immediate_hits_gained": 0,
+    "immediate_hits_lost": 0,
+    "wall_seconds": 198.57983870827593
+  },
+  "paired": {
+    "tied": 18,
+    "later": 2
+  },
+  "primary_delta": -0.04,
+  "paired_bootstrap_95": [
+    -0.1,
+    0.0
+  ],
+  "gained": [],
+  "lost": [],
+  "per_dialogue": [
+    {
+      "qid": 975,
+      "control": 2,
+      "variant": 2
+    },
+    {
+      "qid": 1419,
+      "control": 1,
+      "variant": 3,
+      "display": {
+        "variant": {
+          "round": 1,
+          "query": "a man is riding a snowboard high above a snow-covered hill",
+          "screen": [
+            39023,
+            14629,
+            8946,
+            500,
+            7183,
+            18782,
+            1293,
+            10294,
+            28204,
+            7199
+          ],
+          "raw_rank": 25,
+          "rank": 15,
+          "evidence": [
+            32634,
+            46884,
+            47394,
+            26618,
+            3948,
+            39023,
+            14629,
+            8946,
+            31615,
+            23417
+          ],
+          "question": "what color jacket is the man riding the snowboard wearing?",
+          "answer": "green",
+          "rewrite": "a man wearing a green jacket is riding a snowboard high above a snow-covered hill",
+          "first": 3,
+          "ranks": [
+            41,
+            15,
+            11,
+            4
+          ]
+        },
+        "control": {
+          "round": 1,
+          "query": "a man is riding a snowboard high above the snow with mountains in the background",
+          "screen": [
+            10294,
+            8946,
+            40772,
+            1293,
+            34257,
+            16377,
+            28204,
+            25398,
+            26914,
+            3526
+          ],
+          "raw_rank": 3,
+          "rank": 3,
+          "evidence": null,
+          "question": null,
+          "answer": null,
+          "rewrite": null,
+          "first": 1,
+          "ranks": [
+            41,
+            3
+          ]
+        }
+      },
+      "question": {
+        "variant": {
+          "round": 0,
+          "query": "a man is riding a snowboard and he is high above the snow",
+          "screen": [
+            46884,
+            32634,
+            3948,
+            23417,
+            26618,
+            47394,
+            9683,
+            15275,
+            31615,
+            17867
+          ],
+          "raw_rank": 41,
+          "rank": 41,
+          "evidence": [
+            46884,
+            32634,
+            3948,
+            23417,
+            26618,
+            47394,
+            9683,
+            15275,
+            31615,
+            17867
+          ],
+          "question": "Question: Is the man riding the snowboard on a snow-covered hill?",
+          "answer": "yes",
+          "rewrite": "a man is riding a snowboard high above a snow-covered hill",
+          "first": 3,
+          "ranks": [
+            41,
+            15,
+            11,
+            4
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "a man is riding a snowboard and he is high above the snow",
+          "screen": [
+            46884,
+            32634,
+            3948,
+            23417,
+            26618,
+            47394,
+            9683,
+            15275,
+            31615,
+            17867
+          ],
+          "raw_rank": 41,
+          "rank": 41,
+          "evidence": [
+            46884,
+            32634,
+            3948,
+            23417,
+            26618,
+            47394,
+            9683,
+            15275,
+            31615,
+            17867
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "mountains",
+          "rewrite": "a man is riding a snowboard high above the snow with mountains in the background",
+          "first": 1,
+          "ranks": [
+            41,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "qid": 1301,
+      "control": 1,
+      "variant": 1
+    },
+    {
+      "qid": 518,
+      "control": 1,
+      "variant": 1
+    },
+    {
+      "qid": 601,
+      "control": 1,
+      "variant": 1
+    },
+    {
+      "qid": 454,
+      "control": 2,
+      "variant": 4,
+      "display": {
+        "variant": {
+          "round": 1,
+          "query": "a single giraffe stands among shorter trees and brush in a field with grass",
+          "screen": [
+            1809,
+            1911,
+            11719,
+            5820,
+            42482,
+            42266,
+            44237,
+            26305,
+            7384,
+            30923
+          ],
+          "raw_rank": 34,
+          "rank": 24,
+          "evidence": [
+            13035,
+            44924,
+            1809,
+            26433,
+            42173,
+            1574,
+            1911,
+            11719,
+            5820,
+            16913
+          ],
+          "question": "what is the color of the giraffe?",
+          "answer": "brown",
+          "rewrite": "a single brown giraffe stands among shorter trees and brush in a field with grass",
+          "first": 4,
+          "ranks": [
+            16,
+            24,
+            26,
+            24,
+            6
+          ]
+        },
+        "control": {
+          "round": 1,
+          "query": "A lone giraffe stands amidst shorter trees and brush.",
+          "screen": [
+            1809,
+            3679,
+            42482,
+            5820,
+            26305,
+            31128,
+            26840,
+            17699,
+            17771,
+            2640
+          ],
+          "raw_rank": 21,
+          "rank": 11,
+          "evidence": [
+            26433,
+            13035,
+            48608,
+            44924,
+            369,
+            45179,
+            42173,
+            16913,
+            1574,
+            1809
+          ],
+          "question": "what is the color of the giraffe?",
+          "answer": "brown",
+          "rewrite": "a single brown giraffe stands among shorter trees and brush",
+          "first": 2,
+          "ranks": [
+            16,
+            11,
+            8
+          ]
+        }
+      },
+      "evidence": {
+        "variant": {
+          "round": 1,
+          "query": "a single giraffe stands among shorter trees and brush in a field with grass",
+          "screen": [
+            1809,
+            1911,
+            11719,
+            5820,
+            42482,
+            42266,
+            44237,
+            26305,
+            7384,
+            30923
+          ],
+          "raw_rank": 34,
+          "rank": 24,
+          "evidence": [
+            13035,
+            44924,
+            1809,
+            26433,
+            42173,
+            1574,
+            1911,
+            11719,
+            5820,
+            16913
+          ],
+          "question": "what is the color of the giraffe?",
+          "answer": "brown",
+          "rewrite": "a single brown giraffe stands among shorter trees and brush in a field with grass",
+          "first": 4,
+          "ranks": [
+            16,
+            24,
+            26,
+            24,
+            6
+          ]
+        },
+        "control": {
+          "round": 1,
+          "query": "A lone giraffe stands amidst shorter trees and brush.",
+          "screen": [
+            1809,
+            3679,
+            42482,
+            5820,
+            26305,
+            31128,
+            26840,
+            17699,
+            17771,
+            2640
+          ],
+          "raw_rank": 21,
+          "rank": 11,
+          "evidence": [
+            26433,
+            13035,
+            48608,
+            44924,
+            369,
+            45179,
+            42173,
+            16913,
+            1574,
+            1809
+          ],
+          "question": "what is the color of the giraffe?",
+          "answer": "brown",
+          "rewrite": "a single brown giraffe stands among shorter trees and brush",
+          "first": 2,
+          "ranks": [
+            16,
+            11,
+            8
+          ]
+        }
+      },
+      "question": {
+        "variant": {
+          "round": 0,
+          "query": "a single giraffe stands among shorter trees and brush",
+          "screen": [
+            26433,
+            13035,
+            44924,
+            48608,
+            45179,
+            369,
+            20126,
+            16913,
+            42173,
+            1574
+          ],
+          "raw_rank": 16,
+          "rank": 16,
+          "evidence": [
+            26433,
+            13035,
+            44924,
+            48608,
+            45179,
+            369,
+            20126,
+            16913,
+            42173,
+            1574
+          ],
+          "question": "Question: Is the giraffe standing in a field with no grass?",
+          "answer": "no",
+          "rewrite": "a single giraffe stands among shorter trees and brush in a field with grass",
+          "first": 4,
+          "ranks": [
+            16,
+            24,
+            26,
+            24,
+            6
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "a single giraffe stands among shorter trees and brush",
+          "screen": [
+            26433,
+            13035,
+            44924,
+            48608,
+            45179,
+            369,
+            20126,
+            16913,
+            42173,
+            1574
+          ],
+          "raw_rank": 16,
+          "rank": 16,
+          "evidence": [
+            26433,
+            13035,
+            44924,
+            48608,
+            45179,
+            369,
+            20126,
+            16913,
+            42173,
+            1574
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "trees",
+          "rewrite": "A lone giraffe stands amidst shorter trees and brush.",
+          "first": 2,
+          "ranks": [
+            16,
+            11,
+            8
+          ]
+        }
+      }
+    },
+    {
+      "qid": 621,
+      "control": 10,
+      "variant": 10
+    },
+    {
+      "qid": 627,
+      "control": 1,
+      "variant": 1
+    },
+    {
+      "qid": 1646,
+      "control": 1,
+      "variant": 1
+    },
+    {
+      "qid": 106,
+      "control": 9,
+      "variant": 9
+    },
+    {
+      "qid": 573,
+      "control": 2,
+      "variant": 2
+    },
+    {
+      "qid": 570,
+      "control": 2,
+      "variant": 2
+    },
+    {
+      "qid": 1098,
+      "control": 2,
+      "variant": 2
+    },
+    {
+      "qid": 1903,
+      "control": 1,
+      "variant": 1
+    },
+    {
+      "qid": 858,
+      "control": 6,
+      "variant": 6
+    },
+    {
+      "qid": 400,
+      "control": 1,
+      "variant": 1
+    },
+    {
+      "qid": 1241,
+      "control": 1,
+      "variant": 1
+    },
+    {
+      "qid": 1640,
+      "control": 3,
+      "variant": 3,
+      "display": {
+        "variant": {
+          "round": 2,
+          "query": "a clean kitchen with white walls and a large silver refrigerator",
+          "screen": [
+            17186,
+            20983,
+            21516,
+            14708,
+            36196,
+            38776,
+            43864,
+            15551,
+            24158,
+            38813
+          ],
+          "raw_rank": 37,
+          "rank": 27,
+          "evidence": [
+            21239,
+            29413,
+            41003,
+            27004,
+            17186,
+            22156,
+            45810,
+            20983,
+            21516,
+            14708
+          ],
+          "question": "what material are the cabinets in the kitchen made of?",
+          "answer": "metal",
+          "rewrite": "a clean kitchen with white walls, silver refrigerators, and metal cabinets",
+          "first": 3,
+          "ranks": [
+            31,
+            42,
+            27,
+            4
+          ]
+        },
+        "control": {
+          "round": 2,
+          "query": "a clean kitchen with white walls and a very large refrigerator",
+          "screen": [
+            48105,
+            41619,
+            18865,
+            7435,
+            15551,
+            46257,
+            27511,
+            46594,
+            11985,
+            17186
+          ],
+          "raw_rank": 43,
+          "rank": 23,
+          "evidence": [
+            27004,
+            29413,
+            21239,
+            25870,
+            31196,
+            6737,
+            10720,
+            231,
+            22156,
+            36761
+          ],
+          "question": "what material are the walls in the kitchen made of?",
+          "answer": "metal",
+          "rewrite": "a clean kitchen with white metal walls and a very large refrigerator",
+          "first": 3,
+          "ranks": [
+            31,
+            42,
+            23,
+            1
+          ]
+        }
+      },
+      "evidence": {
+        "variant": {
+          "round": 2,
+          "query": "a clean kitchen with white walls and a large silver refrigerator",
+          "screen": [
+            17186,
+            20983,
+            21516,
+            14708,
+            36196,
+            38776,
+            43864,
+            15551,
+            24158,
+            38813
+          ],
+          "raw_rank": 37,
+          "rank": 27,
+          "evidence": [
+            21239,
+            29413,
+            41003,
+            27004,
+            17186,
+            22156,
+            45810,
+            20983,
+            21516,
+            14708
+          ],
+          "question": "what material are the cabinets in the kitchen made of?",
+          "answer": "metal",
+          "rewrite": "a clean kitchen with white walls, silver refrigerators, and metal cabinets",
+          "first": 3,
+          "ranks": [
+            31,
+            42,
+            27,
+            4
+          ]
+        },
+        "control": {
+          "round": 2,
+          "query": "a clean kitchen with white walls and a very large refrigerator",
+          "screen": [
+            48105,
+            41619,
+            18865,
+            7435,
+            15551,
+            46257,
+            27511,
+            46594,
+            11985,
+            17186
+          ],
+          "raw_rank": 43,
+          "rank": 23,
+          "evidence": [
+            27004,
+            29413,
+            21239,
+            25870,
+            31196,
+            6737,
+            10720,
+            231,
+            22156,
+            36761
+          ],
+          "question": "what material are the walls in the kitchen made of?",
+          "answer": "metal",
+          "rewrite": "a clean kitchen with white metal walls and a very large refrigerator",
+          "first": 3,
+          "ranks": [
+            31,
+            42,
+            23,
+            1
+          ]
+        }
+      },
+      "question": {
+        "variant": {
+          "round": 1,
+          "query": "a clean kitchen with white walls featuring a very large refrigerator",
+          "screen": [
+            36761,
+            41003,
+            16193,
+            33750,
+            33477,
+            5385,
+            2932,
+            42117,
+            18182,
+            19318
+          ],
+          "raw_rank": 52,
+          "rank": 42,
+          "evidence": [
+            21239,
+            27004,
+            25870,
+            29413,
+            10720,
+            6737,
+            31196,
+            36761,
+            41003,
+            22156
+          ],
+          "question": "what is the color of the refrigerator in the kitchen?",
+          "answer": "silver",
+          "rewrite": "a clean kitchen with white walls and a large silver refrigerator",
+          "first": 3,
+          "ranks": [
+            31,
+            42,
+            27,
+            4
+          ]
+        },
+        "control": {
+          "round": 1,
+          "query": "a clean kitchen with white walls featuring a very large refrigerator",
+          "screen": [
+            36761,
+            41003,
+            16193,
+            33750,
+            33477,
+            5385,
+            2932,
+            42117,
+            18182,
+            19318
+          ],
+          "raw_rank": 52,
+          "rank": 42,
+          "evidence": [
+            21239,
+            27004,
+            25870,
+            29413,
+            10720,
+            6737,
+            31196,
+            36761,
+            41003,
+            22156
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "refrigerator",
+          "rewrite": "a clean kitchen with white walls and a very large refrigerator",
+          "first": 3,
+          "ranks": [
+            31,
+            42,
+            23,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "qid": 143,
+      "control": 1,
+      "variant": 1
+    },
+    {
+      "qid": 1655,
+      "control": 1,
+      "variant": 1
+    }
+  ]
+}

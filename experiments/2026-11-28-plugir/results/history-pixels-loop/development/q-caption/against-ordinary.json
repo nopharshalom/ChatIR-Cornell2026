@@ -1,0 +1,1160 @@
+{
+  "baseline": "ordinary",
+  "variant": "q-caption",
+  "split": "development",
+  "control": {
+    "hits": [
+      0,
+      8,
+      12,
+      15,
+      17,
+      17,
+      18,
+      18,
+      18,
+      18,
+      18
+    ],
+    "questions": 59,
+    "primary": 0.6900000000000001,
+    "displayed": 790,
+    "evidence_slots": 590,
+    "unique_evidence_summed_by_dialogue": 354,
+    "verified_screens": 0,
+    "swaps": 0,
+    "immediate_hits_gained": 0,
+    "immediate_hits_lost": 0,
+    "wall_seconds": 1.6941010432783514
+  },
+  "treatment": {
+    "hits": [
+      0,
+      8,
+      12,
+      16,
+      17,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18
+    ],
+    "questions": 57,
+    "primary": 0.71,
+    "displayed": 770,
+    "evidence_slots": 570,
+    "unique_evidence_summed_by_dialogue": 346,
+    "verified_screens": 0,
+    "swaps": 0,
+    "immediate_hits_gained": 0,
+    "immediate_hits_lost": 0,
+    "wall_seconds": 412.6066810002085
+  },
+  "paired": {
+    "tied": 18,
+    "earlier": 2
+  },
+  "primary_delta": 0.019999999999999997,
+  "paired_bootstrap_95": [
+    0.0,
+    0.049999999999999996
+  ],
+  "gained": [],
+  "lost": [],
+  "per_dialogue": [
+    {
+      "qid": 1510,
+      "control": 3,
+      "variant": 3
+    },
+    {
+      "qid": 343,
+      "control": 1,
+      "variant": 1
+    },
+    {
+      "qid": 2019,
+      "control": 1,
+      "variant": 1
+    },
+    {
+      "qid": 541,
+      "control": 1,
+      "variant": 1
+    },
+    {
+      "qid": 1914,
+      "control": 3,
+      "variant": 3
+    },
+    {
+      "qid": 1466,
+      "control": 4,
+      "variant": 4
+    },
+    {
+      "qid": 701,
+      "control": 4,
+      "variant": 3,
+      "display": {
+        "variant": {
+          "round": 3,
+          "query": "a yellow wooden building housing a red lobster restaurant, featuring a one-way sign and street light, with a traffic light also visible, and a man in an orange shirt walking toward the entrance",
+          "screen": [
+            27853,
+            14402,
+            16093,
+            17791,
+            12108,
+            3989,
+            18168,
+            33463,
+            12348,
+            19656
+          ],
+          "raw_rank": 2,
+          "rank": 1,
+          "evidence": null,
+          "question": null,
+          "answer": null,
+          "rewrite": null,
+          "first": 3,
+          "ranks": [
+            33,
+            26,
+            20,
+            1
+          ]
+        },
+        "control": {
+          "round": 3,
+          "query": "image of a red lobster restaurant made of wood, with a one-way sign, a street light, and a traffic light visible, and a man in an orange shirt walking toward the entrance",
+          "screen": [
+            13778,
+            3502,
+            40939,
+            33463,
+            13447,
+            22473,
+            11928,
+            40714,
+            12867,
+            35060
+          ],
+          "raw_rank": 52,
+          "rank": 24,
+          "evidence": [
+            6566,
+            28449,
+            17087,
+            29472,
+            11635,
+            26523,
+            13778,
+            36378,
+            28949,
+            23615
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "traffic light",
+          "rewrite": "image of a red lobster restaurant made of wood, with a one-way sign, street light, and traffic light visible, and a man in an orange shirt walking toward the entrance",
+          "first": 4,
+          "ranks": [
+            33,
+            26,
+            20,
+            24,
+            7
+          ]
+        }
+      },
+      "question": {
+        "variant": {
+          "round": 2,
+          "query": "image of a red lobster restaurant made of wood, with a one-way sign, street light, and traffic light visible, and a man in an orange shirt walking toward the entrance",
+          "screen": [
+            6566,
+            36378,
+            45907,
+            22394,
+            34828,
+            18024,
+            48099,
+            23615,
+            12612,
+            34488
+          ],
+          "raw_rank": 38,
+          "rank": 20,
+          "evidence": [
+            28449,
+            28949,
+            36378,
+            6566,
+            26523,
+            17087,
+            24819,
+            29472,
+            45907,
+            3203
+          ],
+          "question": "what is the color of the building in the image?",
+          "answer": "yellow",
+          "rewrite": "a yellow wooden building housing a red lobster restaurant, featuring a one-way sign and street light, with a traffic light also visible, and a man in an orange shirt walking toward the entrance",
+          "first": 3,
+          "ranks": [
+            33,
+            26,
+            20,
+            1
+          ]
+        },
+        "control": {
+          "round": 2,
+          "query": "image of a red lobster restaurant made of wood, with a one-way sign, street light, and traffic light visible, and a man in an orange shirt walking toward the entrance",
+          "screen": [
+            6566,
+            36378,
+            45907,
+            22394,
+            34828,
+            18024,
+            48099,
+            23615,
+            12612,
+            34488
+          ],
+          "raw_rank": 38,
+          "rank": 20,
+          "evidence": [
+            28449,
+            28949,
+            36378,
+            6566,
+            26523,
+            17087,
+            24819,
+            29472,
+            45907,
+            3203
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "traffic light",
+          "rewrite": "image of a red lobster restaurant made of wood, with a one-way sign, a street light, and a traffic light visible, and a man in an orange shirt walking toward the entrance",
+          "first": 4,
+          "ranks": [
+            33,
+            26,
+            20,
+            24,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "qid": 176,
+      "control": 2,
+      "variant": 2
+    },
+    {
+      "qid": 1004,
+      "control": 2,
+      "variant": 2
+    },
+    {
+      "qid": 532,
+      "control": 3,
+      "variant": 3
+    },
+    {
+      "qid": 814,
+      "control": 2,
+      "variant": 2
+    },
+    {
+      "qid": 1743,
+      "control": 11,
+      "variant": 11,
+      "display": {
+        "variant": {
+          "round": 6,
+          "query": "a brown bed with blue covers, a quilted comforter, and pillows sits next to a green wall, with a blue and white floral rug underneath",
+          "screen": [
+            40068,
+            43601,
+            16960,
+            28970,
+            29279,
+            6392,
+            11396,
+            40671,
+            17898,
+            25012
+          ],
+          "raw_rank": 154,
+          "rank": 99,
+          "evidence": [
+            2913,
+            28942,
+            33953,
+            15972,
+            25603,
+            563,
+            45055,
+            40068,
+            18827,
+            45999
+          ],
+          "question": "what is the color of the bed with a green blanket?",
+          "answer": "brown",
+          "rewrite": "a brown bed with blue covers, a quilted comforter, and pillows, positioned next to a green wall with a blue and white floral rug underneath",
+          "first": 11,
+          "ranks": [
+            243,
+            676,
+            756,
+            255,
+            103,
+            173,
+            99,
+            81,
+            70,
+            76,
+            107
+          ]
+        },
+        "control": {
+          "round": 6,
+          "query": "A brown bed featuring a quilted comforter and pillows is situated next to a green wall.",
+          "screen": [
+            24932,
+            37647,
+            49895,
+            17407,
+            44125,
+            26107,
+            5548,
+            29279,
+            4042,
+            5728
+          ],
+          "raw_rank": 362,
+          "rank": 322,
+          "evidence": [
+            15186,
+            15972,
+            30365,
+            24932,
+            37647,
+            144,
+            49895,
+            17407,
+            32135,
+            44125
+          ],
+          "question": "what is the color of the bedspread on the bed with blue covers?",
+          "answer": "gray",
+          "rewrite": "a brown bed with blue covers, a gray quilted comforter, and pillows sits next to a green wall",
+          "first": 11,
+          "ranks": [
+            243,
+            676,
+            756,
+            255,
+            103,
+            173,
+            322,
+            102,
+            97,
+            74,
+            76
+          ]
+        }
+      },
+      "evidence": {
+        "variant": {
+          "round": 6,
+          "query": "a brown bed with blue covers, a quilted comforter, and pillows sits next to a green wall, with a blue and white floral rug underneath",
+          "screen": [
+            40068,
+            43601,
+            16960,
+            28970,
+            29279,
+            6392,
+            11396,
+            40671,
+            17898,
+            25012
+          ],
+          "raw_rank": 154,
+          "rank": 99,
+          "evidence": [
+            2913,
+            28942,
+            33953,
+            15972,
+            25603,
+            563,
+            45055,
+            40068,
+            18827,
+            45999
+          ],
+          "question": "what is the color of the bed with a green blanket?",
+          "answer": "brown",
+          "rewrite": "a brown bed with blue covers, a quilted comforter, and pillows, positioned next to a green wall with a blue and white floral rug underneath",
+          "first": 11,
+          "ranks": [
+            243,
+            676,
+            756,
+            255,
+            103,
+            173,
+            99,
+            81,
+            70,
+            76,
+            107
+          ]
+        },
+        "control": {
+          "round": 6,
+          "query": "A brown bed featuring a quilted comforter and pillows is situated next to a green wall.",
+          "screen": [
+            24932,
+            37647,
+            49895,
+            17407,
+            44125,
+            26107,
+            5548,
+            29279,
+            4042,
+            5728
+          ],
+          "raw_rank": 362,
+          "rank": 322,
+          "evidence": [
+            15186,
+            15972,
+            30365,
+            24932,
+            37647,
+            144,
+            49895,
+            17407,
+            32135,
+            44125
+          ],
+          "question": "what is the color of the bedspread on the bed with blue covers?",
+          "answer": "gray",
+          "rewrite": "a brown bed with blue covers, a gray quilted comforter, and pillows sits next to a green wall",
+          "first": 11,
+          "ranks": [
+            243,
+            676,
+            756,
+            255,
+            103,
+            173,
+            322,
+            102,
+            97,
+            74,
+            76
+          ]
+        }
+      },
+      "question": {
+        "variant": {
+          "round": 5,
+          "query": "a brown bed with blue covers, a quilted comforter, and pillows next to a green wall",
+          "screen": [
+            25603,
+            30365,
+            2913,
+            563,
+            15186,
+            7932,
+            36674,
+            25776,
+            29012,
+            43524
+          ],
+          "raw_rank": 222,
+          "rank": 173,
+          "evidence": [
+            15972,
+            27994,
+            25603,
+            33953,
+            144,
+            28942,
+            34313,
+            6400,
+            45055,
+            18827
+          ],
+          "question": "what is the color of the bed that has a blue and white floral rug underneath it?",
+          "answer": "brown",
+          "rewrite": "a brown bed with blue covers, a quilted comforter, and pillows sits next to a green wall, with a blue and white floral rug underneath",
+          "first": 11,
+          "ranks": [
+            243,
+            676,
+            756,
+            255,
+            103,
+            173,
+            99,
+            81,
+            70,
+            76,
+            107
+          ]
+        },
+        "control": {
+          "round": 5,
+          "query": "a brown bed with blue covers, a quilted comforter, and pillows next to a green wall",
+          "screen": [
+            25603,
+            30365,
+            2913,
+            563,
+            15186,
+            7932,
+            36674,
+            25776,
+            29012,
+            43524
+          ],
+          "raw_rank": 222,
+          "rank": 173,
+          "evidence": [
+            15972,
+            27994,
+            25603,
+            33953,
+            144,
+            28942,
+            34313,
+            6400,
+            45055,
+            18827
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "bed",
+          "rewrite": "A brown bed featuring a quilted comforter and pillows is situated next to a green wall.",
+          "first": 11,
+          "ranks": [
+            243,
+            676,
+            756,
+            255,
+            103,
+            173,
+            322,
+            102,
+            97,
+            74,
+            76
+          ]
+        }
+      }
+    },
+    {
+      "qid": 1782,
+      "control": 2,
+      "variant": 2
+    },
+    {
+      "qid": 670,
+      "control": 1,
+      "variant": 1
+    },
+    {
+      "qid": 1111,
+      "control": 11,
+      "variant": 11,
+      "display": {
+        "variant": {
+          "round": 7,
+          "query": "a small, clean white kitchen located inside the home features gray flooring, a white refrigerator, and a black stove, with no dishes or food items present",
+          "screen": [
+            14946,
+            30683,
+            27004,
+            25870,
+            31196,
+            33186,
+            24637,
+            26277,
+            21835,
+            24968
+          ],
+          "raw_rank": 375,
+          "rank": 305,
+          "evidence": [
+            24306,
+            17672,
+            2194,
+            40917,
+            11731,
+            19318,
+            49377,
+            39010,
+            46857,
+            34091
+          ],
+          "question": "what is the color of the sink in the small, clean kitchen?",
+          "answer": "silver",
+          "rewrite": "a small, clean, white kitchen located inside the home features gray flooring, a white refrigerator, a black stove, and a silver sink, with no dishes or food items present",
+          "first": 11,
+          "ranks": [
+            181,
+            257,
+            165,
+            257,
+            184,
+            125,
+            545,
+            305,
+            205,
+            444,
+            98
+          ]
+        },
+        "control": {
+          "round": 7,
+          "query": "a small, clean, white kitchen with gray floors, white cabinets, and a black stove, featuring a microwave but no refrigerator or dishes",
+          "screen": [
+            25880,
+            18025,
+            34845,
+            6090,
+            32524,
+            33186,
+            12952,
+            24968,
+            403,
+            33279
+          ],
+          "raw_rank": 163,
+          "rank": 117,
+          "evidence": [
+            36659,
+            45784,
+            7378,
+            25880,
+            18025,
+            34845,
+            45043,
+            11731,
+            6090,
+            32524
+          ],
+          "question": "What is the color of the microwave in the small, clean kitchen?",
+          "answer": "white",
+          "rewrite": "a small, clean, white kitchen with gray floors, featuring a white microwave and a black stove, but no refrigerator, located inside the home",
+          "first": 11,
+          "ranks": [
+            181,
+            257,
+            165,
+            257,
+            184,
+            125,
+            545,
+            117,
+            171,
+            312,
+            342
+          ]
+        }
+      },
+      "evidence": {
+        "variant": {
+          "round": 7,
+          "query": "a small, clean white kitchen located inside the home features gray flooring, a white refrigerator, and a black stove, with no dishes or food items present",
+          "screen": [
+            14946,
+            30683,
+            27004,
+            25870,
+            31196,
+            33186,
+            24637,
+            26277,
+            21835,
+            24968
+          ],
+          "raw_rank": 375,
+          "rank": 305,
+          "evidence": [
+            24306,
+            17672,
+            2194,
+            40917,
+            11731,
+            19318,
+            49377,
+            39010,
+            46857,
+            34091
+          ],
+          "question": "what is the color of the sink in the small, clean kitchen?",
+          "answer": "silver",
+          "rewrite": "a small, clean, white kitchen located inside the home features gray flooring, a white refrigerator, a black stove, and a silver sink, with no dishes or food items present",
+          "first": 11,
+          "ranks": [
+            181,
+            257,
+            165,
+            257,
+            184,
+            125,
+            545,
+            305,
+            205,
+            444,
+            98
+          ]
+        },
+        "control": {
+          "round": 7,
+          "query": "a small, clean, white kitchen with gray floors, white cabinets, and a black stove, featuring a microwave but no refrigerator or dishes",
+          "screen": [
+            25880,
+            18025,
+            34845,
+            6090,
+            32524,
+            33186,
+            12952,
+            24968,
+            403,
+            33279
+          ],
+          "raw_rank": 163,
+          "rank": 117,
+          "evidence": [
+            36659,
+            45784,
+            7378,
+            25880,
+            18025,
+            34845,
+            45043,
+            11731,
+            6090,
+            32524
+          ],
+          "question": "What is the color of the microwave in the small, clean kitchen?",
+          "answer": "white",
+          "rewrite": "a small, clean, white kitchen with gray floors, featuring a white microwave and a black stove, but no refrigerator, located inside the home",
+          "first": 11,
+          "ranks": [
+            181,
+            257,
+            165,
+            257,
+            184,
+            125,
+            545,
+            117,
+            171,
+            312,
+            342
+          ]
+        }
+      },
+      "question": {
+        "variant": {
+          "round": 6,
+          "query": "a small, clean, white kitchen with gray floors and black appliances, located inside the home, featuring a white refrigerator and a black stove with no dishes or food items",
+          "screen": [
+            2194,
+            39010,
+            36659,
+            27511,
+            26563,
+            41582,
+            21233,
+            35744,
+            46257,
+            48657
+          ],
+          "raw_rank": 605,
+          "rank": 545,
+          "evidence": [
+            2194,
+            17672,
+            24306,
+            39010,
+            36659,
+            45784,
+            40917,
+            27511,
+            26563,
+            41582
+          ],
+          "question": "what color is the stove in the small, clean kitchen?",
+          "answer": "black",
+          "rewrite": "a small, clean white kitchen located inside the home features gray flooring, a white refrigerator, and a black stove, with no dishes or food items present",
+          "first": 11,
+          "ranks": [
+            181,
+            257,
+            165,
+            257,
+            184,
+            125,
+            545,
+            305,
+            205,
+            444,
+            98
+          ]
+        },
+        "control": {
+          "round": 6,
+          "query": "a small, clean, white kitchen with gray floors and black appliances, located inside the home, featuring a white refrigerator and a black stove with no dishes or food items",
+          "screen": [
+            2194,
+            39010,
+            36659,
+            27511,
+            26563,
+            41582,
+            21233,
+            35744,
+            46257,
+            48657
+          ],
+          "raw_rank": 605,
+          "rank": 545,
+          "evidence": [
+            2194,
+            17672,
+            24306,
+            39010,
+            36659,
+            45784,
+            40917,
+            27511,
+            26563,
+            41582
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "microwave",
+          "rewrite": "a small, clean, white kitchen with gray floors, white cabinets, and a black stove, featuring a microwave but no refrigerator or dishes",
+          "first": 11,
+          "ranks": [
+            181,
+            257,
+            165,
+            257,
+            184,
+            125,
+            545,
+            117,
+            171,
+            312,
+            342
+          ]
+        }
+      }
+    },
+    {
+      "qid": 482,
+      "control": 1,
+      "variant": 1
+    },
+    {
+      "qid": 2003,
+      "control": 1,
+      "variant": 1
+    },
+    {
+      "qid": 1639,
+      "control": 1,
+      "variant": 1
+    },
+    {
+      "qid": 742,
+      "control": 6,
+      "variant": 5,
+      "display": {
+        "variant": {
+          "round": 1,
+          "query": "a man flying a kite on the sand at the beach with his arms not stretched out",
+          "screen": [
+            11745,
+            28201,
+            14572,
+            42817,
+            11138,
+            12281,
+            49212,
+            28069,
+            37283,
+            5213
+          ],
+          "raw_rank": 52,
+          "rank": 42,
+          "evidence": [
+            11745,
+            28201,
+            30539,
+            40417,
+            14572,
+            14415,
+            47194,
+            42817,
+            19790,
+            2844
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "a pink kite",
+          "rewrite": "a man flying a pink kite on the sand at the beach",
+          "first": 5,
+          "ranks": [
+            34,
+            42,
+            90,
+            72,
+            62,
+            8
+          ]
+        },
+        "control": {
+          "round": 1,
+          "query": "a man flying a pink kite on the sand at the beach",
+          "screen": [
+            37283,
+            43014,
+            12281,
+            33791,
+            30768,
+            28201,
+            31589,
+            14423,
+            39969,
+            14572
+          ],
+          "raw_rank": 110,
+          "rank": 100,
+          "evidence": [
+            30539,
+            37283,
+            14415,
+            43014,
+            12281,
+            5526,
+            33791,
+            30768,
+            28201,
+            35956
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "a pink kite",
+          "rewrite": "A man flies a pink kite on the beach.",
+          "first": 6,
+          "ranks": [
+            34,
+            100,
+            86,
+            80,
+            62,
+            35,
+            2
+          ]
+        }
+      },
+      "evidence": {
+        "variant": {
+          "round": 1,
+          "query": "a man flying a kite on the sand at the beach with his arms not stretched out",
+          "screen": [
+            11745,
+            28201,
+            14572,
+            42817,
+            11138,
+            12281,
+            49212,
+            28069,
+            37283,
+            5213
+          ],
+          "raw_rank": 52,
+          "rank": 42,
+          "evidence": [
+            11745,
+            28201,
+            30539,
+            40417,
+            14572,
+            14415,
+            47194,
+            42817,
+            19790,
+            2844
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "a pink kite",
+          "rewrite": "a man flying a pink kite on the sand at the beach",
+          "first": 5,
+          "ranks": [
+            34,
+            42,
+            90,
+            72,
+            62,
+            8
+          ]
+        },
+        "control": {
+          "round": 1,
+          "query": "a man flying a pink kite on the sand at the beach",
+          "screen": [
+            37283,
+            43014,
+            12281,
+            33791,
+            30768,
+            28201,
+            31589,
+            14423,
+            39969,
+            14572
+          ],
+          "raw_rank": 110,
+          "rank": 100,
+          "evidence": [
+            30539,
+            37283,
+            14415,
+            43014,
+            12281,
+            5526,
+            33791,
+            30768,
+            28201,
+            35956
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "a pink kite",
+          "rewrite": "A man flies a pink kite on the beach.",
+          "first": 6,
+          "ranks": [
+            34,
+            100,
+            86,
+            80,
+            62,
+            35,
+            2
+          ]
+        }
+      },
+      "question": {
+        "variant": {
+          "round": 0,
+          "query": "a man flying a kite on the sand at the beach",
+          "screen": [
+            5526,
+            30539,
+            19790,
+            14415,
+            35956,
+            40417,
+            2844,
+            47194,
+            7888,
+            4183
+          ],
+          "raw_rank": 34,
+          "rank": 34,
+          "evidence": [
+            5526,
+            30539,
+            19790,
+            14415,
+            35956,
+            40417,
+            2844,
+            47194,
+            7888,
+            5213
+          ],
+          "question": "Question: Is the man flying the kite with his arms stretched out?",
+          "answer": "no",
+          "rewrite": "a man flying a kite on the sand at the beach with his arms not stretched out",
+          "first": 5,
+          "ranks": [
+            34,
+            42,
+            90,
+            72,
+            62,
+            8
+          ]
+        },
+        "control": {
+          "round": 0,
+          "query": "a man flying a kite on the sand at the beach",
+          "screen": [
+            5526,
+            30539,
+            19790,
+            14415,
+            35956,
+            40417,
+            2844,
+            47194,
+            7888,
+            4183
+          ],
+          "raw_rank": 34,
+          "rank": 34,
+          "evidence": [
+            5526,
+            30539,
+            19790,
+            14415,
+            35956,
+            40417,
+            2844,
+            47194,
+            7888,
+            5213
+          ],
+          "question": "what is the other object in the image?",
+          "answer": "a pink kite",
+          "rewrite": "a man flying a pink kite on the sand at the beach",
+          "first": 6,
+          "ranks": [
+            34,
+            100,
+            86,
+            80,
+            62,
+            35,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "qid": 1091,
+      "control": 1,
+      "variant": 1
+    }
+  ]
+}

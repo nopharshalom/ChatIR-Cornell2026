@@ -1,0 +1,145 @@
+{
+  "qid": 1091,
+  "target": "unlabeled2017/000000142911.jpg",
+  "arm": "caption",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        47913,
+        25869,
+        14483,
+        33202,
+        2135,
+        22605,
+        18436,
+        23504,
+        1641,
+        6926
+      ],
+      "candidates": [
+        "what color are the fighter jets flying through the sky?",
+        "Question: What is the color of the sky where the three fighter jets are flying?",
+        "Question: What path are the three fighter jets leaving in the sky?",
+        "Question: What color are the fighter jets?",
+        "Question: What is the color of the fighter jets?"
+      ],
+      "default": "what color are the fighter jets flying through the sky?",
+      "question": "what color are the fighter jets flying through the sky?",
+      "answer": "white",
+      "rewrite": "three white fighter jets flying through the sky leaving a trail",
+      "review": null,
+      "shared_seconds": 8.672
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "3 fighter jets flying through the sky leaving a path",
+      "raw_rank": 14,
+      "filtered_rank": 14,
+      "rank": 14,
+      "ordinary_screen": [
+        47913,
+        25869,
+        14483,
+        33202,
+        22605,
+        2135,
+        18436,
+        23504,
+        1641,
+        6926
+      ],
+      "display": [
+        47913,
+        25869,
+        14483,
+        33202,
+        22605,
+        2135,
+        18436,
+        23504,
+        1641,
+        6926
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "three white fighter jets flying through the sky leaving a trail",
+      "raw_rank": 12,
+      "filtered_rank": 5,
+      "rank": 5,
+      "ordinary_screen": [
+        26570,
+        47181,
+        34889,
+        8552,
+        12334,
+        44704,
+        37196,
+        28271,
+        48507,
+        16576
+      ],
+      "display": [
+        26570,
+        47181,
+        34889,
+        8552,
+        12334,
+        44704,
+        37196,
+        28271,
+        48507,
+        16576
+      ],
+      "check": {
+        "question": "what color are the fighter jets flying through the sky?",
+        "answer": "white",
+        "labels": [
+          {
+            "id": 28271,
+            "color": null,
+            "file": "124482f58e18b93d35de5210550b554389305054bc510568bdba21f24efbb0ac.json",
+            "seconds": 0.1659297498408705
+          },
+          {
+            "id": 48507,
+            "color": null,
+            "file": "fb5d426a0de783d8098b864a6317ab8b998ef4263b006932b8b49520565aedb4.json",
+            "seconds": 0.16681962506845593
+          },
+          {
+            "id": 16576,
+            "color": "blue",
+            "file": "8f034f629b79ec09adb42351833dff8c4fcbe7eec09c9777d36a1379919e4d51.json",
+            "seconds": 0.16611704090610147
+          },
+          {
+            "id": 43871,
+            "color": "red",
+            "file": "232cab5521146c63cd7e892dea527e021bf5974c0589e3c2708d47544118873e.json",
+            "seconds": 0.1682444999460131
+          },
+          {
+            "id": 42377,
+            "color": null,
+            "file": "7a74eaa87f2eab202292cdb99f35da5f9cf4aa7279e431e75531a711753476bd.json",
+            "seconds": 0.16805866709910333
+          },
+          {
+            "id": 1272,
+            "color": "yellow",
+            "file": "27e85d3e4fee5ccc27ec4ed478ff74976d99141a6891f047f50193b1d329b1ab.json",
+            "seconds": 0.1692675829399377
+          }
+        ]
+      }
+    }
+  ],
+  "shared_seconds": 8.672,
+  "live": false,
+  "seconds": 1.0319535410962999
+}

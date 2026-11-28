@@ -1,0 +1,10 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    "You see only the user's initial description and completed dialogue. Is the proposed\nquestion natural and neutrally phrased about a uniquely identifiable subject in their own\nphoto, applicable to that subject, directly visible, still unanswered and not previously\nasked even with different wording? Reject false premises, underspecified multiple people or\nobjects, implied answers, and activities that require guessing intent. The labels must\nrepresent distinct, non-overlapping plausible answers. Return exactly PASS or SKIP.",
+    "{\"dialogue\": [\"2 women cooking together in a large kitchen\", \"what are the two women cooking with? a stove\", \"what is the time period or setting of the kitchen where the two women are cooking? retro\", \"what color is the sweater worn by one of the two women cooking in the retro kitchen? orange\", \"what color is the refrigerator in the retro kitchen where the two women are cooking? white\", \"What is the other woman wearing in the retro kitchen? orange shirt\", \"what is the size of the kitchen where the two women are cooking? large\", \"what is the other object in the image? a person\", \"Who is the person in the image? unsure\"], \"slot\": {\"entity\": \"person\", \"family\": \"setting\", \"question\": \"What kind of place is the person in?\", \"values\": [\"woman\", \"person\"]}}",
+    10,
+    null
+  ],
+  "response": "SKIP"
+}

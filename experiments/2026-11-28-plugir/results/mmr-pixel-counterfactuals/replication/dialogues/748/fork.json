@@ -1,0 +1,108 @@
+{
+  "pivot": 0,
+  "trace": [
+    {
+      "slots": [
+        {
+          "entity": "woman",
+          "family": "material",
+          "values": [
+            "fabric",
+            "metal"
+          ],
+          "question": "What material is the woman made of?"
+        },
+        {
+          "entity": "umbrella",
+          "family": "color",
+          "values": [
+            "black",
+            "transparent"
+          ],
+          "question": "What is the main color of the umbrella?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "black",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "fabric",
+          null,
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric"
+        ],
+        [
+          "transparent",
+          "black",
+          "black",
+          "black",
+          "transparent",
+          "black",
+          "transparent",
+          "transparent",
+          "transparent",
+          "black"
+        ]
+      ],
+      "filled": [
+        9,
+        9
+      ],
+      "pixel_supported": [
+        false,
+        true
+      ],
+      "captions_transfer": [
+        null,
+        null
+      ],
+      "pixels_transfer": [
+        null,
+        0.86
+      ]
+    }
+  ],
+  "questions": [
+    "what is the specific location where the woman is standing or walking while holding her umbrella?",
+    "What material is the woman made of?",
+    "What is the main color of the umbrella?"
+  ],
+  "picks": {
+    "blind_alternative": 2,
+    "captions_annotations": 2,
+    "captions_retrieval": 0,
+    "pixels_annotations": 2,
+    "pixels_retrieval": 2
+  }
+}

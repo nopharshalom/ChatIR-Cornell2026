@@ -1,0 +1,10 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    "Classify the answer to the supplied question using ONLY the provided evidence.\nUse exactly one listed label, or unknown. Use unknown if evidence is missing, ambiguous,\nunreadable, contradictory, several labels apply, the subject cannot be identified, or the\nanswer falls outside the list. Never infer the answer from stereotypes or from what is typical.\nAn unmentioned object is not evidence of absence. Use 'nothing' only if explicitly supported. Return a JSON object keyed by the supplied caption numbers. Read each caption independently, using only what it explicitly says.",
+    "{\"captions\": {\"1\": \"the water is a little cloudy\", \"10\": \"a sky with clear blue clouds\", \"2\": \"the beach is rocky\", \"3\": \"a man flying a kite over the ocean\", \"4\": \"a person flies a kite on the beach\", \"5\": \"ocean waves and sand\", \"6\": \"a sunny cloudy day over the water\", \"7\": \"two people in the water flying kites\", \"8\": \"two kites flying in the sky at sunset\", \"9\": \"the sky is clear\"}, \"task\": {\"allowed_labels\": [\"brown\", \"beige\", \"tan\", \"yellow\"], \"question\": \"What is the main color of the sand?\"}}",
+    260,
+    null
+  ],
+  "response": "{\n  \"1\": \"unknown\",\n  \"10\": \"unknown\",\n  \"2\": \"unknown\",\n  \"3\": \"unknown\",\n  \"4\": \"unknown\",\n  \"5\": \"unknown\",\n  \"6\": \"unknown\",\n  \"7\": \"unknown\",\n  \"8\": \"unknown\",\n  \"9\": \"unknown\"\n}"
+}

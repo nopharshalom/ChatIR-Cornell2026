@@ -1,0 +1,51 @@
+{
+  "question": "Question: Does the living room have a television?",
+  "qid": 1894,
+  "tile_ids": [
+    34384,
+    7321,
+    17912,
+    18232,
+    10314,
+    48731,
+    6983,
+    48094,
+    24351,
+    25687
+  ],
+  "reference": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    null,
+    "yes",
+    "yes"
+  ],
+  "prompt": "Answer the question separately for each numbered photo. Answer yes if a television is visible, no if none is visible, unknown if uncertain. Return a JSON object with exactly one answer for each printed tile ID. The top row is 0,1,2,3,4 and the bottom row is 5,6,7,8,9. Use these ten ID strings as keys, including \"0\" and \"9\".",
+  "raw": "```json\n{\n    \"0\": \"no\",\n    \"1\": \"no\",\n    \"2\": \"no\",\n    \"3\": \"no\",\n    \"4\": \"yes\",\n    \"5\": \"no\",\n    \"6\": \"yes\",\n    \"7\": \"no\",\n    \"8\": \"yes\",\n    \"9\": \"yes\"\n}\n```",
+  "answers": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "reused": false,
+  "score": {
+    "tiles": 9,
+    "correct": 9,
+    "true_splits": 20,
+    "detected": 20,
+    "false_splits": 0
+  },
+  "model": "8b2b98c00a6b4d291155e4890773ca8f769aee53"
+}

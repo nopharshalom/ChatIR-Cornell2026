@@ -1,0 +1,115 @@
+{
+  "qid": 1903,
+  "target": "unlabeled2017/000000058420.jpg",
+  "arm": "q-caption",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        40209,
+        15436,
+        23949,
+        20949,
+        1459,
+        8160,
+        3239,
+        33792,
+        3734,
+        34644
+      ],
+      "candidates": [
+        "what is the color of the clock tower?",
+        "what is the style of the building with the clock?",
+        "where is the clock tower located?",
+        "what is the material of the building with the clock?",
+        "what is the name of the clock tower in the image?"
+      ],
+      "default": "what is the style of the building with the clock?",
+      "question": "what is the style of the building with the clock?",
+      "answer": "gothic",
+      "rewrite": "a large gothic tower with a pointy top and a clock",
+      "review": {
+        "default": "what is the style of the building with the clock?",
+        "questions": [
+          "what is the color of the clock tower?",
+          "what is the style of the building with the clock?",
+          "where is the clock tower located?",
+          "what is the material of the building with the clock?",
+          "what is the name of the clock tower in the image?"
+        ],
+        "selected": "what is the style of the building with the clock?",
+        "scores": {}
+      },
+      "shared_seconds": 8.549
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a large tower with a pointy top and a clock",
+      "raw_rank": 17,
+      "filtered_rank": 17,
+      "rank": 17,
+      "ordinary_screen": [
+        40209,
+        15436,
+        23949,
+        20949,
+        1459,
+        8160,
+        3239,
+        33792,
+        3734,
+        34644
+      ],
+      "display": [
+        40209,
+        15436,
+        23949,
+        20949,
+        1459,
+        8160,
+        3239,
+        33792,
+        3734,
+        34644
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a large gothic tower with a pointy top and a clock",
+      "raw_rank": 6,
+      "filtered_rank": 5,
+      "rank": 5,
+      "ordinary_screen": [
+        35312,
+        30219,
+        30680,
+        5857,
+        4971,
+        16252,
+        41100,
+        43208,
+        48027,
+        3781
+      ],
+      "display": [
+        35312,
+        30219,
+        30680,
+        5857,
+        4971,
+        16252,
+        41100,
+        43208,
+        48027,
+        3781
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 8.549,
+  "live": false,
+  "seconds": 0.05313737504184246
+}

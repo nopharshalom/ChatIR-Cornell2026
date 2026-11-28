@@ -1,0 +1,76 @@
+{
+  "pivot": 1,
+  "trace": [
+    {
+      "slots": [],
+      "vetoes": [
+        "dialogue-only check: None"
+      ]
+    },
+    {
+      "slots": [
+        {
+          "entity": "man jumping in the air",
+          "family": "setting",
+          "values": [
+            "field",
+            "park"
+          ],
+          "question": "What kind of place is the man jumping in the air in?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          null,
+          "field",
+          null,
+          "field",
+          "park",
+          null,
+          null,
+          "field",
+          "park",
+          "field"
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "park",
+          "field",
+          "field",
+          "field",
+          "park",
+          null,
+          null,
+          "field",
+          "park",
+          "field"
+        ]
+      ],
+      "filled": [
+        2
+      ],
+      "pixel_supported": [
+        true
+      ],
+      "captions_transfer": [
+        0.5625
+      ],
+      "pixels_transfer": [
+        0.5333333333333333
+      ]
+    }
+  ],
+  "questions": [
+    "what is the location where the man is catching the frisbee?",
+    "What kind of place is the man jumping in the air in?"
+  ],
+  "picks": {
+    "blind_alternative": 1,
+    "captions_annotations": 1,
+    "captions_retrieval": 0,
+    "pixels_annotations": 1,
+    "pixels_retrieval": 0
+  }
+}

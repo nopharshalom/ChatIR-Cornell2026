@@ -1,0 +1,306 @@
+{
+  "qid": 1640,
+  "target": "unlabeled2017/000000410778.jpg",
+  "arm": "q-caption",
+  "first": 3,
+  "turns": [
+    {
+      "evidence": [
+        29413,
+        27004,
+        21239,
+        31196,
+        25870,
+        6737,
+        45810,
+        10720,
+        22156,
+        231
+      ],
+      "candidates": [
+        "what material are the kitchen cabinets in the clean kitchen with white walls and a very large fridge?",
+        "what is the material of the stove in the clean kitchen with white walls and a very large fridge?",
+        "what color are the kitchen floors in the clean kitchen with white walls and a very large fridge?",
+        "what type of refrigerator is in the clean kitchen with white walls and a very large fridge?",
+        "what is the other object in the image?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "refrigerator",
+      "rewrite": "a clean kitchen with white walls featuring a very large refrigerator",
+      "review": {
+        "default": "what is the other object in the image?",
+        "questions": [
+          "what material are the kitchen cabinets in the clean kitchen with white walls and a very large fridge?",
+          "what is the material of the stove in the clean kitchen with white walls and a very large fridge?",
+          "what color are the kitchen floors in the clean kitchen with white walls and a very large fridge?",
+          "what type of refrigerator is in the clean kitchen with white walls and a very large fridge?",
+          "what is the other object in the image?"
+        ],
+        "selected": "what is the other object in the image?",
+        "scores": {
+          "what color are the kitchen floors in the clean kitchen with white walls and a very large fridge?": {
+            "file": "4f43e588781c0a21808e5a20ebaa6f043656e601204e0293009423ef33185e6e.json",
+            "answers": [
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "brown"
+            ],
+            "seconds": 1.9112049171235412,
+            "score": 0
+          }
+        }
+      },
+      "shared_seconds": 13.14751745807007
+    },
+    {
+      "evidence": [
+        21239,
+        27004,
+        25870,
+        29413,
+        10720,
+        6737,
+        31196,
+        36761,
+        41003,
+        22156
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "what is the color of the walls in the kitchen?",
+        "what is the color of the refrigerator in the kitchen?",
+        "what is the color of the refrigerator in the kitchen?",
+        "what is the size of the refrigerator in the kitchen?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the color of the refrigerator in the kitchen?",
+      "answer": "silver",
+      "rewrite": "a clean kitchen with white walls and a large silver refrigerator",
+      "review": {
+        "default": "what is the other object in the image?",
+        "questions": [
+          "what is the other object in the image?",
+          "what is the color of the walls in the kitchen?",
+          "what is the color of the refrigerator in the kitchen?",
+          "what is the size of the refrigerator in the kitchen?"
+        ],
+        "selected": "what is the color of the refrigerator in the kitchen?",
+        "scores": {
+          "what is the color of the walls in the kitchen?": {
+            "file": "dbd9bb18f55151ddcb578c2dfa5ee3cbd71c91b9d88b74bd9d47ab8cfbe0772c.json",
+            "answers": [
+              "unknown",
+              "white",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown"
+            ],
+            "seconds": 1.8930497500114143,
+            "score": 0
+          },
+          "what is the color of the refrigerator in the kitchen?": {
+            "file": "7fc1d2adb91187b74d3fbb3001b296e403020626f771598c4b23b7e197f06c19.json",
+            "answers": [
+              "gray",
+              "unknown",
+              "unknown",
+              "unknown",
+              "white",
+              "unknown",
+              "unknown",
+              "white",
+              "gray",
+              "gray"
+            ],
+            "seconds": 2.0439920839853585,
+            "score": 6
+          }
+        }
+      },
+      "shared_seconds": 20.152612790931016
+    },
+    {
+      "evidence": [
+        21239,
+        29413,
+        41003,
+        27004,
+        17186,
+        22156,
+        45810,
+        20983,
+        21516,
+        14708
+      ],
+      "candidates": [
+        "what are the cabinets in the kitchen made of?",
+        "what material are the cabinets in the kitchen made of?",
+        "what is the other object in the image?",
+        "what color are the walls in the kitchen?",
+        "what color are the walls in the kitchen?"
+      ],
+      "default": "what material are the cabinets in the kitchen made of?",
+      "question": "what material are the cabinets in the kitchen made of?",
+      "answer": "metal",
+      "rewrite": "a clean kitchen with white walls, silver refrigerators, and metal cabinets",
+      "review": {
+        "default": "what material are the cabinets in the kitchen made of?",
+        "questions": [
+          "what are the cabinets in the kitchen made of?",
+          "what material are the cabinets in the kitchen made of?",
+          "what is the other object in the image?",
+          "what color are the walls in the kitchen?"
+        ],
+        "selected": "what material are the cabinets in the kitchen made of?",
+        "scores": {}
+      },
+      "shared_seconds": 17.810545375104994
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a clean kitchen with white walls and a very large fridge",
+      "raw_rank": 31,
+      "filtered_rank": 31,
+      "rank": 31,
+      "ordinary_screen": [
+        29413,
+        27004,
+        21239,
+        31196,
+        25870,
+        6737,
+        45810,
+        22156,
+        10720,
+        231
+      ],
+      "display": [
+        29413,
+        27004,
+        21239,
+        31196,
+        25870,
+        6737,
+        45810,
+        22156,
+        10720,
+        231
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a clean kitchen with white walls featuring a very large refrigerator",
+      "raw_rank": 52,
+      "filtered_rank": 42,
+      "rank": 42,
+      "ordinary_screen": [
+        36761,
+        41003,
+        16193,
+        33750,
+        33477,
+        5385,
+        2932,
+        42117,
+        18182,
+        19318
+      ],
+      "display": [
+        36761,
+        41003,
+        16193,
+        33750,
+        33477,
+        5385,
+        2932,
+        42117,
+        18182,
+        19318
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "a clean kitchen with white walls and a large silver refrigerator",
+      "raw_rank": 37,
+      "filtered_rank": 27,
+      "rank": 27,
+      "ordinary_screen": [
+        17186,
+        20983,
+        21516,
+        14708,
+        36196,
+        38776,
+        43864,
+        15551,
+        24158,
+        38813
+      ],
+      "display": [
+        17186,
+        20983,
+        21516,
+        14708,
+        36196,
+        38776,
+        43864,
+        15551,
+        24158,
+        38813
+      ],
+      "check": {}
+    },
+    {
+      "round": 3,
+      "query": "a clean kitchen with white walls, silver refrigerators, and metal cabinets",
+      "raw_rank": 18,
+      "filtered_rank": 4,
+      "rank": 4,
+      "ordinary_screen": [
+        36688,
+        16117,
+        30815,
+        35192,
+        16224,
+        45133,
+        31045,
+        33932,
+        4833,
+        1506
+      ],
+      "display": [
+        36688,
+        16117,
+        30815,
+        35192,
+        16224,
+        45133,
+        31045,
+        33932,
+        4833,
+        1506
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 51.11067562410608,
+  "live": true,
+  "seconds": 57.553863500012085
+}

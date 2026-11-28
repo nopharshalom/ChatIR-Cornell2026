@@ -1,0 +1,161 @@
+{
+  "qid": 69,
+  "selection": {
+    "kl": "what is the color of the giraffe in the image?",
+    "probe": "what is the color of the field where the giraffe is standing?",
+    "candidates": [
+      {
+        "question": "what is the color of the field where the giraffe is standing?",
+        "score": 12,
+        "branches": [
+          {
+            "answer": "green",
+            "caption": "a giraffe standing in a green field",
+            "top10": [
+              6723,
+              12452,
+              36786,
+              30984,
+              18115,
+              22565,
+              18622,
+              12410,
+              21015,
+              1809
+            ]
+          },
+          {
+            "answer": "dry",
+            "caption": "a giraffe standing in a dry field",
+            "top10": [
+              26433,
+              2640,
+              9717,
+              4894,
+              16913,
+              42976,
+              39223,
+              24281,
+              37704,
+              44779
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the state of the grass in the field where the giraffe is standing?",
+        "score": 8,
+        "branches": [
+          {
+            "answer": "grassy",
+            "caption": "a giraffe standing in a grassy field",
+            "top10": [
+              18622,
+              1809,
+              39223,
+              7384,
+              33475,
+              42266,
+              6723,
+              42715,
+              18115,
+              39613
+            ]
+          },
+          {
+            "answer": "dry",
+            "caption": "a giraffe in dry field",
+            "top10": [
+              4894,
+              16913,
+              14045,
+              2640,
+              26433,
+              9717,
+              42976,
+              31869,
+              34446,
+              39223
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the color of the giraffe in the image?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "what is the sky like in the image where the giraffe is standing?",
+        "score": 10,
+        "branches": [
+          {
+            "answer": "clear",
+            "caption": "a giraffe is standing in an open field with a clear sky",
+            "top10": [
+              39223,
+              28132,
+              18622,
+              6723,
+              42715,
+              14525,
+              33475,
+              44779,
+              1423,
+              4894
+            ]
+          },
+          {
+            "answer": "cloudy",
+            "caption": "a giraffe is standing in an open field with a cloudy sky",
+            "top10": [
+              28132,
+              15073,
+              19157,
+              47177,
+              5314,
+              46661,
+              25068,
+              32507,
+              297,
+              30984
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the color of the giraffe's fur?",
+        "score": null,
+        "branches": []
+      }
+    ]
+  },
+  "outcomes": {
+    "what is the color of the field where the giraffe is standing?": {
+      "answer": "green",
+      "rewrite": "a giraffe is standing in a green open field",
+      "rank": 160
+    },
+    "what is the state of the grass in the field where the giraffe is standing?": {
+      "answer": "green",
+      "rewrite": "a giraffe is standing in an open field with green grass",
+      "rank": 145
+    },
+    "what is the color of the giraffe in the image?": {
+      "answer": "brown",
+      "rewrite": "a brown giraffe is standing in an open field",
+      "rank": 90
+    },
+    "what is the sky like in the image where the giraffe is standing?": {
+      "answer": "cloudy",
+      "rewrite": "a giraffe is standing in an open field under a cloudy sky",
+      "rank": 135
+    },
+    "what is the color of the giraffe's fur?": {
+      "answer": "brown",
+      "rewrite": "a brown giraffe is standing in an open field",
+      "rank": 90
+    }
+  },
+  "saved_kl_rank": 90
+}

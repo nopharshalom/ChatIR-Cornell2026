@@ -1,0 +1,10 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    "You see only the user's initial description and completed dialogue. Is the proposed\nquestion natural and neutrally phrased about a uniquely identifiable subject in their own\nphoto, applicable to that subject, directly visible, still unanswered and not previously\nasked even with different wording? Reject false premises, underspecified multiple people or\nobjects, implied answers, and activities that require guessing intent. The labels must\nrepresent distinct, non-overlapping plausible answers. Return exactly PASS or SKIP.",
+    "{\"dialogue\": [\"the crouching catcher has his arm extended to catch the ball\", \"Answer: white\\n\\nExplanation: The [Description] states that the image features a \\\"crouching catcher\\\" with an \\\"extended arm.\\\" The [Dialogue]? I'm sorry, but I cannot provide the answer.\"], \"slot\": {\"entity\": \"catcher\", \"family\": \"activity\", \"question\": \"What is the catcher doing?\", \"values\": [\"crouching\", \"standing\"]}}",
+    10,
+    null
+  ],
+  "response": "SKIP"
+}

@@ -1,0 +1,104 @@
+{
+  "qid": 670,
+  "target": "unlabeled2017/000000403461.jpg",
+  "arm": "contrast",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        34623,
+        48378,
+        35678,
+        4604,
+        16653,
+        19060,
+        40291,
+        577,
+        29651,
+        39058
+      ],
+      "candidates": [
+        "what is the weather condition in the image with the dog and sheep?",
+        "what is the background setting (e.g., ground, field, pasture, hill, desert) where the dog and sheep are located?",
+        "what color is the dog standing among the sheep?",
+        "what is the color of the dog standing among the sheep?",
+        "what is the specific location (e.g., ground, field, pasture, hill, desert) where the dog and sheep are located?"
+      ],
+      "default": "what is the color of the dog standing among the sheep?",
+      "question": "what is the color of the dog standing among the sheep?",
+      "answer": "white",
+      "rewrite": "a white dog stands among many sheep late in the day",
+      "review": null,
+      "shared_seconds": 10.525227083824575
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a dog stands among many sheep late in the day",
+      "raw_rank": 11,
+      "filtered_rank": 11,
+      "rank": 11,
+      "ordinary_screen": [
+        29651,
+        39058,
+        15231,
+        43459,
+        49402,
+        79,
+        40022,
+        33335,
+        941,
+        32405
+      ],
+      "display": [
+        29651,
+        39058,
+        15231,
+        43459,
+        49402,
+        79,
+        40022,
+        33335,
+        941,
+        32405
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a white dog stands among many sheep late in the day",
+      "raw_rank": 14,
+      "filtered_rank": 7,
+      "rank": 7,
+      "ordinary_screen": [
+        6444,
+        45101,
+        16653,
+        30568,
+        48378,
+        27178,
+        34623,
+        40291,
+        19060,
+        39833
+      ],
+      "display": [
+        6444,
+        45101,
+        16653,
+        30568,
+        48378,
+        27178,
+        34623,
+        40291,
+        19060,
+        39833
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 10.525227083824575,
+  "live": true,
+  "seconds": 10.566262209089473
+}

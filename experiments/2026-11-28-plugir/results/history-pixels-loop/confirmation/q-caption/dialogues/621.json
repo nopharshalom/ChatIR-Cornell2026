@@ -1,0 +1,775 @@
+{
+  "qid": 621,
+  "target": "unlabeled2017/000000552120.jpg",
+  "arm": "q-caption",
+  "first": 10,
+  "turns": [
+    {
+      "evidence": [
+        93,
+        18530,
+        36476,
+        40397,
+        43723,
+        6794,
+        43266,
+        13218,
+        11643,
+        3950
+      ],
+      "candidates": [
+        "what is the location where the man is playing tennis?",
+        "Question: What color is the shirt the man is wearing?",
+        "Question: What is the color of the man's shirt?",
+        "what is the location where the man is playing tennis?",
+        "what is the color of the shirt the man is wearing?"
+      ],
+      "default": "what is the location where the man is playing tennis?",
+      "question": "what is the location where the man is playing tennis?",
+      "answer": "the man is playing on a hard court, likely at a professional tennis venue, given the backdrop and attire.",
+      "rewrite": "a man playing tennis on a hard court at a professional venue, about to hit a ball",
+      "review": {
+        "default": "what is the location where the man is playing tennis?",
+        "questions": [
+          "what is the location where the man is playing tennis?",
+          "Question: What color is the shirt the man is wearing?",
+          "Question: What is the color of the man's shirt?",
+          "what is the color of the shirt the man is wearing?"
+        ],
+        "selected": "what is the location where the man is playing tennis?",
+        "scores": {}
+      },
+      "shared_seconds": 10.204
+    },
+    {
+      "evidence": [
+        11701,
+        16211,
+        5830,
+        32103,
+        7217,
+        33703,
+        21677,
+        13191,
+        43246,
+        45131
+      ],
+      "candidates": [
+        "What color is the tennis ball the man is about to hit?",
+        "what is the color of the sky in the image where the man is playing tennis?",
+        "what is the color of the sky in the image where the man is playing tennis?",
+        "Question: What is the gender of the person playing tennis?",
+        "Question: What is the color of the sky in the image where the man is playing tennis?"
+      ],
+      "default": "Question: What is the gender of the person playing tennis?",
+      "question": "Question: What is the gender of the person playing tennis?",
+      "answer": "Male.",
+      "rewrite": "a male playing tennis on a hard court at a professional venue, about to hit a ball",
+      "review": {
+        "default": "Question: What is the gender of the person playing tennis?",
+        "questions": [
+          "What color is the tennis ball the man is about to hit?",
+          "what is the color of the sky in the image where the man is playing tennis?",
+          "Question: What is the gender of the person playing tennis?"
+        ],
+        "selected": "Question: What is the gender of the person playing tennis?",
+        "scores": {}
+      },
+      "shared_seconds": 16.025
+    },
+    {
+      "evidence": [
+        16211,
+        11701,
+        32103,
+        21677,
+        5830,
+        16422,
+        7217,
+        33703,
+        43246,
+        30317
+      ],
+      "candidates": [
+        "what is the color of the sky in the image of the man playing tennis?",
+        "Question: What is the color of the sky in the image of the man playing tennis?",
+        "Question: What is the color of the sky in the image where the man is playing tennis?",
+        "what is the color of the sky in the image of the man playing tennis?",
+        "What color is the tennis ball the man is about to hit?"
+      ],
+      "default": "what is the color of the sky in the image of the man playing tennis?",
+      "question": "what is the color of the sky in the image of the man playing tennis?",
+      "answer": "blue",
+      "rewrite": "a male playing tennis on a hard court at a professional venue under a blue sky, about to hit a ball",
+      "review": {
+        "default": "what is the color of the sky in the image of the man playing tennis?",
+        "questions": [
+          "what is the color of the sky in the image of the man playing tennis?",
+          "Question: What is the color of the sky in the image where the man is playing tennis?",
+          "What color is the tennis ball the man is about to hit?"
+        ],
+        "selected": "what is the color of the sky in the image of the man playing tennis?",
+        "scores": {}
+      },
+      "shared_seconds": 12.488
+    },
+    {
+      "evidence": [
+        11701,
+        16211,
+        48939,
+        21303,
+        2607,
+        13032,
+        40633,
+        46400,
+        45198,
+        40176
+      ],
+      "candidates": [
+        "what is the color of the tennis racquet held by the man playing tennis?",
+        "Question: What is the color of the tennis racquet held by the man playing tennis?",
+        "what is the color of the tennis racquet held by the man playing tennis?",
+        "what is the color of the tennis racquet held by the man playing tennis?",
+        "what is the color of the tennis racquet held by the man playing tennis?"
+      ],
+      "default": "Question: What is the color of the tennis racquet held by the man playing tennis?",
+      "question": "Question: What is the color of the tennis racquet held by the man playing tennis?",
+      "answer": "black",
+      "rewrite": "a man with a black tennis racquet playing on a hard court at a professional venue under a blue sky, about to hit a ball",
+      "review": {
+        "default": "Question: What is the color of the tennis racquet held by the man playing tennis?",
+        "questions": [
+          "what is the color of the tennis racquet held by the man playing tennis?"
+        ],
+        "selected": "Question: What is the color of the tennis racquet held by the man playing tennis?",
+        "scores": {}
+      },
+      "shared_seconds": 7.882
+    },
+    {
+      "evidence": [
+        48939,
+        16211,
+        11701,
+        40176,
+        21303,
+        3103,
+        35033,
+        46400,
+        20112,
+        17013
+      ],
+      "candidates": [
+        "what is the color of the ball the man is about to hit?",
+        "what is the color of the tennis ball?",
+        "what is the color of the ball the man is about to hit?",
+        "What is the color of the tennis ball the man is about to hit?",
+        "what is the other object in the image?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "tennis ball",
+      "rewrite": "a man holding a black tennis racquet, about to hit a tennis ball on a hard court under a blue sky",
+      "review": {
+        "default": "what is the other object in the image?",
+        "questions": [
+          "what is the color of the ball the man is about to hit?",
+          "what is the color of the tennis ball?",
+          "What is the color of the tennis ball the man is about to hit?",
+          "what is the other object in the image?"
+        ],
+        "selected": "what is the other object in the image?",
+        "scores": {
+          "what is the color of the ball the man is about to hit?": {
+            "file": "a6209e4f53831c9a269b7747538cbc43ed6495f4fd92b93b67169ece3b9aa10a.json",
+            "answers": [
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown"
+            ],
+            "seconds": 1.7909785418305546,
+            "score": 0
+          },
+          "what is the color of the tennis ball?": {
+            "file": "9395e625c3a9254bc0e0366ab9c2960851ef3d7050cb165703ea5f7cc8958b2d.json",
+            "answers": [
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown"
+            ],
+            "seconds": 1.787807125132531,
+            "score": 0
+          },
+          "what is the color of the tennis ball the man is about to hit?": {
+            "file": "fb21f182f2e75ef4decdcd4a8f978ffbb7410a994abd0e1222a6da13ab18b3fb.json",
+            "answers": [
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown"
+            ],
+            "seconds": 1.8002694579772651,
+            "score": 0
+          }
+        }
+      },
+      "shared_seconds": 15.529
+    },
+    {
+      "evidence": [
+        48777,
+        13575,
+        15609,
+        4481,
+        17013,
+        7760,
+        18106,
+        19306,
+        12340,
+        21776
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "what is the action the man is performing with the tennis racquet?",
+        "what is the color of the tennis ball being hit by the man?",
+        "Based on the provided sources, here is the generated question and the explanation of how the information was utilized:\n\n**Generated Question:**\n\"What is the action the?",
+        "**Generated Question:**\nWhat is the gender of the person playing tennis?"
+      ],
+      "default": "what is the action the man is performing with the tennis racquet?",
+      "question": "what is the action the man is performing with the tennis racquet?",
+      "answer": "forehand",
+      "rewrite": "a man in professional attire playing tennis on a hard court with a blue sky, holding a black racquet and preparing to hit a tennis ball with a forehand stroke",
+      "review": {
+        "default": "what is the action the man is performing with the tennis racquet?",
+        "questions": [
+          "what is the other object in the image?",
+          "what is the action the man is performing with the tennis racquet?",
+          "what is the color of the tennis ball being hit by the man?",
+          "Based on the provided sources, here is the generated question and the explanation of how the information was utilized:\n\n**Generated Question:**\n\"What is the action the?",
+          "**Generated Question:**\nWhat is the gender of the person playing tennis?"
+        ],
+        "selected": "what is the action the man is performing with the tennis racquet?",
+        "scores": {}
+      },
+      "shared_seconds": 21.391
+    },
+    {
+      "evidence": [
+        30317,
+        29281,
+        21303,
+        28489,
+        47979,
+        18106,
+        26414,
+        33260,
+        7760,
+        48939
+      ],
+      "candidates": [
+        "what is the color of the tennis ball in the image?",
+        "what is the color of the tennis ball in the image?",
+        "what is the color of the tennis ball in the image?",
+        "what is the color of the tennis ball in the image?",
+        "what is the color of the tennis ball in the image?"
+      ],
+      "default": "what is the color of the tennis ball in the image?",
+      "question": "what is the color of the tennis ball in the image?",
+      "answer": "yellow",
+      "rewrite": "a man in professional attire playing tennis on a hard court under a blue sky, executing a forehand swing with a black racquet to hit a yellow tennis ball",
+      "review": {
+        "default": "what is the color of the tennis ball in the image?",
+        "questions": [
+          "what is the color of the tennis ball in the image?"
+        ],
+        "selected": "what is the color of the tennis ball in the image?",
+        "scores": {}
+      },
+      "shared_seconds": 8.213
+    },
+    {
+      "evidence": [
+        7359,
+        1307,
+        44336,
+        17157,
+        6649,
+        48961,
+        46194,
+        11031,
+        47891,
+        31067
+      ],
+      "candidates": [
+        "what is the color of the man's shirt in the image?",
+        "Question: What is the color of the man's shirt in the image?",
+        "what is the color of the man's shorts in the image?",
+        "what is the color of the man's shorts in the image?",
+        "what is the color of the man's shirt in the image?"
+      ],
+      "default": "what is the color of the man's shorts in the image?",
+      "question": "what is the color of the man's shorts in the image?",
+      "answer": "white",
+      "rewrite": "a man in white shorts playing tennis on a hard court at a professional venue, swinging a black racquet to hit a yellow ball with a forehand stroke under a blue sky",
+      "review": {
+        "default": "what is the color of the man's shorts in the image?",
+        "questions": [
+          "what is the color of the man's shirt in the image?",
+          "what is the color of the man's shorts in the image?"
+        ],
+        "selected": "what is the color of the man's shorts in the image?",
+        "scores": {}
+      },
+      "shared_seconds": 11.104
+    },
+    {
+      "evidence": [
+        30317,
+        36573,
+        11701,
+        21677,
+        31471,
+        5830,
+        26240,
+        25804,
+        27844,
+        26896
+      ],
+      "candidates": [
+        "what is the color of the man's shirt in the image?",
+        "what is the color of the man's shirt in the image?",
+        "what is the color of the man's shirt in the image?",
+        "what is the color of the man's shirt in the image?",
+        "what is the color of the man's shirt in the image?"
+      ],
+      "default": "what is the color of the man's shirt in the image?",
+      "question": "what is the color of the man's shirt in the image?",
+      "answer": "white",
+      "rewrite": "a man in a white shirt and white shorts playing tennis on a hard court, swinging a black racquet to hit a yellow ball with a forehand stroke, under a blue sky",
+      "review": {
+        "default": "what is the color of the man's shirt in the image?",
+        "questions": [
+          "what is the color of the man's shirt in the image?"
+        ],
+        "selected": "what is the color of the man's shirt in the image?",
+        "scores": {}
+      },
+      "shared_seconds": 8.315
+    },
+    {
+      "evidence": [
+        7005,
+        13575,
+        36573,
+        30317,
+        18106,
+        26240,
+        12679,
+        2264,
+        11038,
+        36476
+      ],
+      "candidates": [
+        "Question: What is the man's hair color?",
+        "What is the brand of the tennis racquet the man is holding?",
+        "what is the brand of the tennis racquet the man is holding?",
+        "what is the action the man is performing with the tennis racquet?",
+        "Based on the provided information sources, here is the next logical question and the explanation of how it was generated:\n\n**Question:** What is the brand of the?"
+      ],
+      "default": "what is the action the man is performing with the tennis racquet?",
+      "question": "what is the action the man is performing with the tennis racquet?",
+      "answer": "forehand",
+      "rewrite": "a man in a white shirt and white shorts is playing tennis on a hard court under a blue sky, performing a forehand swing with a black racquet to hit a yellow tennis ball",
+      "review": {
+        "default": "what is the action the man is performing with the tennis racquet?",
+        "questions": [
+          "Question: What is the man's hair color?",
+          "What is the brand of the tennis racquet the man is holding?",
+          "what is the action the man is performing with the tennis racquet?",
+          "Based on the provided information sources, here is the next logical question and the explanation of how it was generated:\n\n**Question:** What is the brand of the?"
+        ],
+        "selected": "what is the action the man is performing with the tennis racquet?",
+        "scores": {}
+      },
+      "shared_seconds": 17.227
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a man playing tennis about to hit a ball",
+      "raw_rank": 74,
+      "filtered_rank": 74,
+      "rank": 74,
+      "ordinary_screen": [
+        93,
+        36476,
+        18530,
+        40397,
+        43723,
+        6794,
+        43266,
+        13218,
+        3950,
+        32025
+      ],
+      "display": [
+        93,
+        36476,
+        18530,
+        40397,
+        43723,
+        6794,
+        43266,
+        13218,
+        3950,
+        32025
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a man playing tennis on a hard court at a professional venue, about to hit a ball",
+      "raw_rank": 161,
+      "filtered_rank": 157,
+      "rank": 157,
+      "ordinary_screen": [
+        11701,
+        16211,
+        5830,
+        32103,
+        7217,
+        33703,
+        21677,
+        43246,
+        13191,
+        45131
+      ],
+      "display": [
+        11701,
+        16211,
+        5830,
+        32103,
+        7217,
+        33703,
+        21677,
+        43246,
+        13191,
+        45131
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "a male playing tennis on a hard court at a professional venue, about to hit a ball",
+      "raw_rank": 130,
+      "filtered_rank": 117,
+      "rank": 117,
+      "ordinary_screen": [
+        16422,
+        30317,
+        9609,
+        12841,
+        13032,
+        27844,
+        25804,
+        17157,
+        21303,
+        8745
+      ],
+      "display": [
+        16422,
+        30317,
+        9609,
+        12841,
+        13032,
+        27844,
+        25804,
+        17157,
+        21303,
+        8745
+      ],
+      "check": {}
+    },
+    {
+      "round": 3,
+      "query": "a male playing tennis on a hard court at a professional venue under a blue sky, about to hit a ball",
+      "raw_rank": 184,
+      "filtered_rank": 167,
+      "rank": 167,
+      "ordinary_screen": [
+        48939,
+        2607,
+        40633,
+        46400,
+        45198,
+        40176,
+        25824,
+        18861,
+        3103,
+        47979
+      ],
+      "display": [
+        48939,
+        2607,
+        40633,
+        46400,
+        45198,
+        40176,
+        25824,
+        18861,
+        3103,
+        47979
+      ],
+      "check": {}
+    },
+    {
+      "round": 4,
+      "query": "a man with a black tennis racquet playing on a hard court at a professional venue under a blue sky, about to hit a ball",
+      "raw_rank": 309,
+      "filtered_rank": 275,
+      "rank": 275,
+      "ordinary_screen": [
+        35033,
+        17013,
+        20112,
+        7359,
+        37089,
+        26414,
+        34802,
+        41495,
+        30515,
+        8760
+      ],
+      "display": [
+        35033,
+        17013,
+        20112,
+        7359,
+        37089,
+        26414,
+        34802,
+        41495,
+        30515,
+        8760
+      ],
+      "check": {}
+    },
+    {
+      "round": 5,
+      "query": "a man holding a black tennis racquet, about to hit a tennis ball on a hard court under a blue sky",
+      "raw_rank": 330,
+      "filtered_rank": 294,
+      "rank": 294,
+      "ordinary_screen": [
+        48777,
+        13575,
+        15609,
+        4481,
+        7760,
+        18106,
+        19306,
+        12340,
+        21776,
+        29281
+      ],
+      "display": [
+        48777,
+        13575,
+        15609,
+        4481,
+        7760,
+        18106,
+        19306,
+        12340,
+        21776,
+        29281
+      ],
+      "check": {}
+    },
+    {
+      "round": 6,
+      "query": "a man in professional attire playing tennis on a hard court with a blue sky, holding a black racquet and preparing to hit a tennis ball with a forehand stroke",
+      "raw_rank": 124,
+      "filtered_rank": 88,
+      "rank": 88,
+      "ordinary_screen": [
+        28489,
+        33260,
+        27601,
+        16628,
+        31471,
+        49691,
+        34578,
+        12300,
+        41848,
+        22305
+      ],
+      "display": [
+        28489,
+        33260,
+        27601,
+        16628,
+        31471,
+        49691,
+        34578,
+        12300,
+        41848,
+        22305
+      ],
+      "check": {}
+    },
+    {
+      "round": 7,
+      "query": "a man in professional attire playing tennis on a hard court under a blue sky, executing a forehand swing with a black racquet to hit a yellow tennis ball",
+      "raw_rank": 131,
+      "filtered_rank": 91,
+      "rank": 91,
+      "ordinary_screen": [
+        1307,
+        44336,
+        6649,
+        48961,
+        46194,
+        47891,
+        11031,
+        31067,
+        35542,
+        13391
+      ],
+      "display": [
+        1307,
+        44336,
+        6649,
+        48961,
+        46194,
+        47891,
+        11031,
+        31067,
+        35542,
+        13391
+      ],
+      "check": {}
+    },
+    {
+      "round": 8,
+      "query": "a man in white shorts playing tennis on a hard court at a professional venue, swinging a black racquet to hit a yellow ball with a forehand stroke under a blue sky",
+      "raw_rank": 71,
+      "filtered_rank": 41,
+      "rank": 41,
+      "ordinary_screen": [
+        36573,
+        26240,
+        26896,
+        7218,
+        36957,
+        31597,
+        49864,
+        4722,
+        29812,
+        46270
+      ],
+      "display": [
+        36573,
+        26240,
+        26896,
+        7218,
+        36957,
+        31597,
+        49864,
+        4722,
+        29812,
+        46270
+      ],
+      "check": {}
+    },
+    {
+      "round": 9,
+      "query": "a man in a white shirt and white shorts playing tennis on a hard court, swinging a black racquet to hit a yellow ball with a forehand stroke, under a blue sky",
+      "raw_rank": 64,
+      "filtered_rank": 43,
+      "rank": 43,
+      "ordinary_screen": [
+        7005,
+        12679,
+        2264,
+        11038,
+        32155,
+        9762,
+        33418,
+        49117,
+        12629,
+        46157
+      ],
+      "display": [
+        7005,
+        12679,
+        2264,
+        11038,
+        32155,
+        9762,
+        33418,
+        49117,
+        12629,
+        46157
+      ],
+      "check": {}
+    },
+    {
+      "round": 10,
+      "query": "a man in a white shirt and white shorts is playing tennis on a hard court under a blue sky, performing a forehand swing with a black racquet to hit a yellow tennis ball",
+      "raw_rank": 16,
+      "filtered_rank": 6,
+      "rank": 6,
+      "ordinary_screen": [
+        12175,
+        33516,
+        29398,
+        21343,
+        22325,
+        47484,
+        17495,
+        17808,
+        31183,
+        32870
+      ],
+      "display": [
+        12175,
+        33516,
+        29398,
+        21343,
+        22325,
+        47484,
+        17495,
+        17808,
+        31183,
+        32870
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 128.378,
+  "live": false,
+  "seconds": 5.677243249956518
+}

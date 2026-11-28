@@ -1,0 +1,10 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    "You see only the user's initial description and completed dialogue. Is the proposed\nquestion natural and neutrally phrased about a uniquely identifiable subject in their own\nphoto, applicable to that subject, directly visible, still unanswered and not previously\nasked even with different wording? Reject false premises, underspecified multiple people or\nobjects, implied answers, and activities that require guessing intent. The labels must\nrepresent distinct, non-overlapping plausible answers. Return exactly PASS or SKIP.",
+    "{\"dialogue\": [\"fit young man in nike shirt and gym shorts about to serve in a match of tennis\", \"what is the other object in the image? tennis ball\"], \"slot\": {\"entity\": \"tennis ball\", \"family\": \"holding\", \"question\": \"What, if anything, is the tennis ball holding?\", \"values\": [\"tennis racket\", \"nothing\"]}}",
+    10,
+    null
+  ],
+  "response": "SKIP"
+}

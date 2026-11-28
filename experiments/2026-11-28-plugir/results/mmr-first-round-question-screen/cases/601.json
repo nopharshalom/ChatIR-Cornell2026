@@ -1,0 +1,118 @@
+{
+  "qid": 601,
+  "selection": {
+    "kl": "what is the time of day when the traffic light is hanging over the intersection?",
+    "probe": "what is the color of the street where the traffic light is hanging?",
+    "candidates": [
+      {
+        "question": "what color is the traffic light hanging over the intersection?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "what is the time of day when the traffic light is hanging over the intersection?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "Question: what is the color of the building near the traffic light?",
+        "score": 0,
+        "branches": [
+          {
+            "answer": "large gray",
+            "caption": "a large gray building near a traffic light",
+            "top10": [
+              35313,
+              15470,
+              46895,
+              45824,
+              17704,
+              37147,
+              35276,
+              12089,
+              32217,
+              13946
+            ]
+          },
+          {
+            "answer": "large",
+            "caption": "a large building near a traffic light",
+            "top10": [
+              15470,
+              46895,
+              13946,
+              35601,
+              21057,
+              47160,
+              17704,
+              17692,
+              47457,
+              34495
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the color of the street where the traffic light is hanging?",
+        "score": 4,
+        "branches": [
+          {
+            "answer": "gray",
+            "caption": "a traffic light hangs over the gray street",
+            "top10": [
+              38612,
+              44293,
+              18766,
+              12719,
+              34105,
+              12089,
+              4548,
+              9269,
+              45044,
+              5289
+            ]
+          },
+          {
+            "answer": "black",
+            "caption": "a traffic light hangs over the black street",
+            "top10": [
+              24700,
+              8447,
+              44293,
+              45109,
+              39584,
+              38600,
+              18161,
+              9269,
+              38612,
+              24705
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "outcomes": {
+    "what color is the traffic light hanging over the intersection?": {
+      "answer": "green",
+      "rewrite": "a green traffic light hanging over an intersection on the street",
+      "rank": 97
+    },
+    "what is the time of day when the traffic light is hanging over the intersection?": {
+      "answer": "daytime",
+      "rewrite": "traffic lights hanging over an intersection on the street during the daytime",
+      "rank": 7
+    },
+    "Question: what is the color of the building near the traffic light?": {
+      "answer": "white",
+      "rewrite": "white building with traffic lights hanging over an intersection on the street",
+      "rank": 2
+    },
+    "what is the color of the street where the traffic light is hanging?": {
+      "answer": "gray",
+      "rewrite": "gray traffic lights hanging over an intersection on the street",
+      "rank": 10
+    }
+  },
+  "saved_kl_rank": 7
+}

@@ -1,0 +1,94 @@
+{
+  "pivot": null,
+  "trace": [
+    {
+      "slots": [
+        {
+          "entity": "kitchen",
+          "family": "material",
+          "values": [
+            "wood",
+            "metal"
+          ],
+          "question": "What material is the kitchen made of?"
+        }
+      ],
+      "vetoes": [],
+      "protocol_error": "Invalid classification on both structured and single-label attempts"
+    },
+    {
+      "slots": [
+        {
+          "entity": "refrigerator",
+          "family": "material",
+          "values": [
+            "stainless steel",
+            "wood"
+          ],
+          "question": "What material is the refrigerator made of?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          "stainless steel",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "stainless steel",
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "stainless steel",
+          "stainless steel",
+          "stainless steel",
+          "stainless steel",
+          "stainless steel",
+          "stainless steel",
+          "stainless steel",
+          "stainless steel",
+          "stainless steel",
+          "stainless steel"
+        ]
+      ],
+      "filled": [
+        8
+      ],
+      "pixel_supported": [
+        false
+      ]
+    },
+    {
+      "slots": [
+        {
+          "entity": "clean kitchen",
+          "family": "material",
+          "values": [
+            "wood",
+            "metal"
+          ],
+          "question": "What material is the clean kitchen made of?"
+        },
+        {
+          "entity": "very large fridge",
+          "family": "material",
+          "values": [
+            "wood",
+            "metal"
+          ],
+          "question": "What material is the very large fridge made of?"
+        }
+      ],
+      "vetoes": [
+        "attribute explicitly modifies subject"
+      ],
+      "protocol_error": "Invalid classification on both structured and single-label attempts"
+    }
+  ]
+}

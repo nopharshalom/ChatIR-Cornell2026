@@ -1,0 +1,104 @@
+{
+  "qid": 701,
+  "target": "unlabeled2017/000000324850.jpg",
+  "arm": "unseen",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        3203,
+        34828,
+        43042,
+        36378,
+        45907,
+        20555,
+        17692,
+        22473,
+        12108,
+        45457
+      ],
+      "candidates": [
+        "what is the color of the building in the image?",
+        "what is the color of the street light visible in the image?",
+        "what color shirt is the man wearing as he walks toward the entrance of the red lobster restaurant?",
+        "what is the sign that is visible above the entrance of the restaurant?",
+        "what is the color of the car parked in front of the red lobster restaurant?"
+      ],
+      "default": "what is the color of the building in the image?",
+      "question": "what is the color of the building in the image?",
+      "answer": "yellow",
+      "rewrite": "a yellow building housing a red lobster restaurant, with a one-way sign and street light visible, and a man in an orange shirt walking toward the entrance",
+      "review": null,
+      "shared_seconds": 14.892978833056986
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "image of a red lobster restaurant from a street a one-way sign and street light is visible, and a man in an orange shirt is walking toward the entrance",
+      "raw_rank": 33,
+      "filtered_rank": 33,
+      "rank": 33,
+      "ordinary_screen": [
+        11635,
+        17087,
+        28449,
+        13199,
+        22839,
+        3530,
+        24819,
+        43807,
+        40955,
+        29472
+      ],
+      "display": [
+        11635,
+        17087,
+        28449,
+        13199,
+        22839,
+        3530,
+        24819,
+        43807,
+        40955,
+        29472
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a yellow building housing a red lobster restaurant, with a one-way sign and street light visible, and a man in an orange shirt walking toward the entrance",
+      "raw_rank": 2,
+      "filtered_rank": 2,
+      "rank": 2,
+      "ordinary_screen": [
+        14402,
+        27853,
+        6566,
+        12108,
+        48840,
+        30285,
+        28202,
+        22394,
+        18024,
+        8765
+      ],
+      "display": [
+        14402,
+        27853,
+        6566,
+        12108,
+        48840,
+        30285,
+        28202,
+        22394,
+        18024,
+        8765
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 14.892978833056986,
+  "live": true,
+  "seconds": 14.938982540974393
+}

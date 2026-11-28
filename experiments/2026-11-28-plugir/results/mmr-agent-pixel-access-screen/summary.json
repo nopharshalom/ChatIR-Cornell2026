@@ -1,0 +1,211 @@
+{
+  "all": {
+    "n": 40,
+    "hits": {
+      "kl": 14,
+      "caption": 8,
+      "pixels": 10
+    },
+    "paired": {
+      "caption_vs_kl": {
+        "changed": 33,
+        "gains": [
+          466,
+          742
+        ],
+        "losses": [
+          1301,
+          601,
+          1288,
+          754,
+          1650,
+          767,
+          143,
+          1646
+        ]
+      },
+      "pixels_vs_caption": {
+        "changed": 11,
+        "gains": [
+          1301,
+          1288,
+          143
+        ],
+        "losses": [
+          273
+        ]
+      },
+      "pixels_vs_kl": {
+        "changed": 30,
+        "gains": [
+          466,
+          742
+        ],
+        "losses": [
+          601,
+          754,
+          273,
+          1650,
+          767,
+          1646
+        ]
+      }
+    },
+    "invalid_plans": 0,
+    "fallbacks": {
+      "caption": 3,
+      "pixels": 0
+    }
+  },
+  "groups": [
+    {
+      "n": 20,
+      "hits": {
+        "kl": 7,
+        "caption": 4,
+        "pixels": 5
+      },
+      "paired": {
+        "caption_vs_kl": {
+          "changed": 17,
+          "gains": [
+            466
+          ],
+          "losses": [
+            1301,
+            601,
+            1288,
+            754
+          ]
+        },
+        "pixels_vs_caption": {
+          "changed": 6,
+          "gains": [
+            1301,
+            1288
+          ],
+          "losses": [
+            273
+          ]
+        },
+        "pixels_vs_kl": {
+          "changed": 16,
+          "gains": [
+            466
+          ],
+          "losses": [
+            601,
+            754,
+            273
+          ]
+        }
+      },
+      "invalid_plans": 0,
+      "fallbacks": {
+        "caption": 1,
+        "pixels": 0
+      }
+    },
+    {
+      "n": 20,
+      "hits": {
+        "kl": 7,
+        "caption": 4,
+        "pixels": 5
+      },
+      "paired": {
+        "caption_vs_kl": {
+          "changed": 16,
+          "gains": [
+            742
+          ],
+          "losses": [
+            1650,
+            767,
+            143,
+            1646
+          ]
+        },
+        "pixels_vs_caption": {
+          "changed": 5,
+          "gains": [
+            143
+          ],
+          "losses": []
+        },
+        "pixels_vs_kl": {
+          "changed": 14,
+          "gains": [
+            742
+          ],
+          "losses": [
+            1650,
+            767,
+            1646
+          ]
+        }
+      },
+      "invalid_plans": 0,
+      "fallbacks": {
+        "caption": 2,
+        "pixels": 0
+      }
+    }
+  ],
+  "target_outside_evidence": {
+    "n": 39,
+    "hits": {
+      "kl": 13,
+      "caption": 8,
+      "pixels": 10
+    },
+    "paired": {
+      "caption_vs_kl": {
+        "changed": 32,
+        "gains": [
+          466,
+          742
+        ],
+        "losses": [
+          1301,
+          601,
+          1288,
+          754,
+          1650,
+          143,
+          1646
+        ]
+      },
+      "pixels_vs_caption": {
+        "changed": 11,
+        "gains": [
+          1301,
+          1288,
+          143
+        ],
+        "losses": [
+          273
+        ]
+      },
+      "pixels_vs_kl": {
+        "changed": 29,
+        "gains": [
+          466,
+          742
+        ],
+        "losses": [
+          601,
+          754,
+          273,
+          1650,
+          1646
+        ]
+      }
+    },
+    "invalid_plans": 0,
+    "fallbacks": {
+      "caption": 3,
+      "pixels": 0
+    }
+  }
+}

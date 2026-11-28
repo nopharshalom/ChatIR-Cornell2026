@@ -1,0 +1,852 @@
+{
+  "qid": 1743,
+  "target": "unlabeled2017/000000224555.jpg",
+  "arm": "pixels",
+  "first": 11,
+  "turns": [
+    {
+      "evidence": [
+        7307,
+        13001,
+        33953,
+        4935,
+        20546,
+        28942,
+        41301,
+        29927,
+        20995,
+        24213
+      ],
+      "candidates": [
+        "what is the color of the wall next to the bed with blue covers?",
+        "what is the color of the wall next to the bed with blue covers?",
+        "what is the color of the wall next to the bed with blue covers?",
+        "what is the color of the wall next to the bed with blue covers?",
+        "what is the color of the wall next to the bed with blue covers?"
+      ],
+      "default": "what is the color of the wall next to the bed with blue covers?",
+      "question": "what is the color of the wall next to the bed with blue covers?",
+      "answer": "green",
+      "rewrite": "a bed with blue covers next to a green wall",
+      "review": null,
+      "shared_seconds": 13.756
+    },
+    {
+      "evidence": [
+        6400,
+        13001,
+        7307,
+        33953,
+        18827,
+        5761,
+        20995,
+        28942,
+        15972,
+        36964
+      ],
+      "candidates": [
+        "what is the pattern on the blue and white rug in the room?",
+        "what is the pattern on the blue and white floral rug?",
+        "what is the color of the coverlet on the bed next to the blue wall?",
+        "what is the pattern on the rug in the room with the green wall?",
+        "Is there anything on the bed with blue covers?"
+      ],
+      "default": "Is there anything on the bed with blue covers?",
+      "question": "Is there anything on the bed with blue covers?",
+      "answer": "Yes.",
+      "rewrite": "a bed with blue covers and items on it, next to a green wall",
+      "review": null,
+      "shared_seconds": 11.677
+    },
+    {
+      "evidence": [
+        43608,
+        18827,
+        15972,
+        19792,
+        11010,
+        34953,
+        13001,
+        2911,
+        15342,
+        33953
+      ],
+      "candidates": [
+        "what is the color of the covers on the bed with blue pillows?",
+        "what is the color of the bed that has blue covers?",
+        "what is the color of the bed that has blue covers?",
+        "what is the color of the covers on the bed with blue pillows?",
+        "what is the color of the bed that has blue covers?"
+      ],
+      "default": "what is the color of the bed that has blue covers?",
+      "question": "what is the color of the bed that has blue covers?",
+      "answer": "brown",
+      "rewrite": "a brown bed with blue covers and items on it, next to a green wall",
+      "review": null,
+      "shared_seconds": 10.089
+    },
+    {
+      "evidence": [
+        15972,
+        18827,
+        43608,
+        34953,
+        31078,
+        33430,
+        39357,
+        25892,
+        19792,
+        21576
+      ],
+      "candidates": [
+        "what are the other items on the bed with blue covers?",
+        "Based on the provided information sources, here is the next logical question to generate:\n\n**Question:** what is the color of the blanket on the bed with blue?",
+        "**Question:** what is the color of the blanket on the bed with blue covers?",
+        "**Question:** What is the color of the blanket on the bed with blue covers?",
+        "**Question:** What is the color of the blanket on the bed with blue covers?"
+      ],
+      "default": "what are the other items on the bed with blue covers?",
+      "question": "what are the other items on the bed with blue covers?",
+      "answer": "pillows",
+      "rewrite": "a brown bed with blue covers and pillows next to a green wall",
+      "review": null,
+      "shared_seconds": 21.609
+    },
+    {
+      "evidence": [
+        15972,
+        28942,
+        27994,
+        44812,
+        144,
+        13001,
+        33953,
+        6400,
+        18827,
+        33430
+      ],
+      "candidates": [
+        "what is the color of the bed that has a quilted comforter?",
+        "Question: What is the color of the wall next to the bed with the quilted comforter?",
+        "what is the color of the wall next to the bed with the quilted comforter?",
+        "what is the color of the wall next to the bed with the quilted comforter?",
+        "what is the color of the bed with the quilted comforter?"
+      ],
+      "default": "what is the color of the bed that has a quilted comforter?",
+      "question": "what is the color of the bed that has a quilted comforter?",
+      "answer": "brown",
+      "rewrite": "a brown bed with blue covers, a quilted comforter, and pillows next to a green wall",
+      "review": null,
+      "shared_seconds": 8.802
+    },
+    {
+      "evidence": [
+        15972,
+        27994,
+        25603,
+        33953,
+        144,
+        28942,
+        34313,
+        6400,
+        45055,
+        18827
+      ],
+      "candidates": [
+        "what is the color of the bed that has a green blanket?",
+        "what is the color of the bed that has a blue and white floral rug underneath it?",
+        "what is the color of the bed with a small teddy bear on the cover?",
+        "what is the other object in the image?",
+        "what is the other object in the image?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "bed",
+      "rewrite": "A brown bed featuring a quilted comforter and pillows is situated next to a green wall.",
+      "review": null,
+      "shared_seconds": 13.338
+    },
+    {
+      "evidence": [
+        15186,
+        15972,
+        30365,
+        24932,
+        37647,
+        144,
+        49895,
+        17407,
+        32135,
+        44125
+      ],
+      "candidates": [
+        "what is the color of the curtains in the room with the bed that has blue covers?",
+        "what is the color of the curtains in the room with the bed that has blue covers?",
+        "what are the colors of the curtains in the room with the bed that has blue covers?",
+        "what is the color of the bedspread on the bed with blue covers?",
+        "what is the color of the bedspread on the bed with blue covers?"
+      ],
+      "default": "what is the color of the bedspread on the bed with blue covers?",
+      "question": "what is the color of the bedspread on the bed with blue covers?",
+      "answer": "gray",
+      "rewrite": "a brown bed with blue covers, a gray quilted comforter, and pillows sits next to a green wall",
+      "review": null,
+      "shared_seconds": 7.723
+    },
+    {
+      "evidence": [
+        15972,
+        25603,
+        144,
+        34313,
+        30365,
+        33953,
+        2689,
+        19888,
+        18827,
+        27994
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "what is the color of the bedspread on the bed with blue covers?",
+        "what is the color of the wall next to the bed with blue covers?",
+        "what is the color of the bedspread on the bed with blue covers?",
+        "what is the color of the bedspread on the bed with blue covers?"
+      ],
+      "default": "what is the color of the bedspread on the bed with blue covers?",
+      "question": "what is the color of the bedspread on the bed with blue covers?",
+      "answer": "gray",
+      "rewrite": "a brown bed with blue covers and gray bedspread, featuring pillows and a quilted comforter, situated next to a green wall",
+      "review": null,
+      "shared_seconds": 22.909
+    },
+    {
+      "evidence": [
+        25603,
+        15972,
+        30365,
+        33953,
+        144,
+        34313,
+        2689,
+        19888,
+        6400,
+        27994
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "what is the color of the wall next to the bed with a brown bedspread?",
+        "what is the color of the wall next to the bed with a brown bedspread?",
+        "what is the color of the wall next to the bed with a brown bedspread?",
+        "what is the color of the wall next to the bed with blue covers?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "bed",
+      "rewrite": "A brown bed adorned with blue covers and a gray bedspread, complete with pillows and a quilted comforter, is positioned next to a green wall.",
+      "review": null,
+      "shared_seconds": 19.153
+    },
+    {
+      "evidence": [
+        25603,
+        34313,
+        15972,
+        33953,
+        27994,
+        30365,
+        15567,
+        14744,
+        144,
+        15186
+      ],
+      "candidates": [
+        "Based on the provided information sources, here is the generated question and the explanation of how the information was utilized:\n\n**Generated Question:**\n\"Is there a?",
+        "**Generated Question:**\nWhat is the color of the quilt on the bed with blue covers?",
+        "Is there a window in the image?",
+        "**Generated Question:**\nWhat is the color of the bedspread on the bed with blue covers?",
+        "**Generated Question:**\nWhat is the color of the quilt on the bed with blue covers?"
+      ],
+      "default": "**Generated Question:**\nWhat is the color of the bedspread on the bed with blue covers?",
+      "question": "**Generated Question:**\nWhat is the color of the bedspread on the bed with blue covers?",
+      "answer": "Gray.",
+      "rewrite": "a brown bed with blue covers and pillows, featuring a gray quilted comforter, positioned next to a green wall",
+      "review": null,
+      "shared_seconds": 15.901
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a bed with blue covers next to a wall",
+      "raw_rank": 243,
+      "filtered_rank": 243,
+      "rank": 243,
+      "ordinary_screen": [
+        7307,
+        4935,
+        13001,
+        33953,
+        28942,
+        20546,
+        41301,
+        29927,
+        24213,
+        20995
+      ],
+      "display": [
+        7307,
+        4935,
+        13001,
+        33953,
+        28942,
+        20546,
+        41301,
+        29927,
+        24213,
+        20995
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a bed with blue covers next to a green wall",
+      "raw_rank": 686,
+      "filtered_rank": 676,
+      "rank": 676,
+      "ordinary_screen": [
+        6400,
+        18827,
+        5761,
+        15972,
+        36964,
+        46942,
+        2911,
+        32135,
+        25505,
+        15567
+      ],
+      "display": [
+        6400,
+        18827,
+        5761,
+        15972,
+        36964,
+        46942,
+        2911,
+        32135,
+        25505,
+        31924
+      ],
+      "check": {
+        "question": "what is the color of the wall next to the bed with blue covers?",
+        "answer": "green",
+        "labels": [
+          {
+            "id": 32135,
+            "color": "green",
+            "file": "bf77c980c34d1a76ef14b398fa15bfc065062fd65d28fb4d1fe807342283b734.json",
+            "seconds": 0.44609400001354516
+          },
+          {
+            "id": 25505,
+            "color": "brown",
+            "file": "7ff185d3d0428b0b124dddf8f71ef4727dc156c6238326e8816768a6824bc4b9.json",
+            "seconds": 0.458232874982059
+          },
+          {
+            "id": 15567,
+            "color": "beige",
+            "file": "64be3392092aee180ba3cfb0025476c4ae719c1290b24d9e4d9553762cf11bb0.json",
+            "seconds": 0.40454350016079843
+          },
+          {
+            "id": 31924,
+            "color": "green",
+            "file": "324739fe717b86311515d353fca6ffc9f2d62ac73a4feb226fb1a0a15ab67be2.json",
+            "seconds": 0.4655357920564711
+          },
+          {
+            "id": 19792,
+            "color": "green",
+            "file": "382080f0bb0e95543a4bf3f8f12e2c9f1ab87a0f3bc1c43d908480c52df0d94d.json",
+            "seconds": 0.5303060000296682
+          },
+          {
+            "id": 37673,
+            "color": null,
+            "file": "1f3dee4b4bea9aa42cbe6febdaab18e04d5b8a317399f5aa87db8b8b064fb272.json",
+            "seconds": 0.4849214169662446
+          }
+        ],
+        "swap": [
+          15567,
+          31924
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "query": "a bed with blue covers and items on it, next to a green wall",
+      "raw_rank": 776,
+      "filtered_rank": 756,
+      "rank": 756,
+      "ordinary_screen": [
+        43608,
+        19792,
+        11010,
+        34953,
+        15342,
+        28111,
+        18041,
+        25892,
+        14731,
+        25192
+      ],
+      "display": [
+        43608,
+        19792,
+        11010,
+        34953,
+        15342,
+        28111,
+        18041,
+        25892,
+        14731,
+        25192
+      ],
+      "check": {}
+    },
+    {
+      "round": 3,
+      "query": "a brown bed with blue covers and items on it, next to a green wall",
+      "raw_rank": 285,
+      "filtered_rank": 255,
+      "rank": 255,
+      "ordinary_screen": [
+        31078,
+        33430,
+        39357,
+        21576,
+        28039,
+        44812,
+        3773,
+        45999,
+        4662,
+        9742
+      ],
+      "display": [
+        31078,
+        33430,
+        39357,
+        21576,
+        28039,
+        44812,
+        3773,
+        45999,
+        4662,
+        3415
+      ],
+      "check": {
+        "question": "what is the color of the bed that has blue covers?",
+        "answer": "brown",
+        "labels": [
+          {
+            "id": 45999,
+            "color": "yellow",
+            "file": "111f64f69eabfbc8c559c4407d636def2b854bf14d23aff943910aee876262fa.json",
+            "seconds": 0.44884533318690956
+          },
+          {
+            "id": 4662,
+            "color": "blue",
+            "file": "802ebd57daf9f85532c5f62491f485c42adce84a429682cf1078840c32e370b6.json",
+            "seconds": 0.3831762089394033
+          },
+          {
+            "id": 9742,
+            "color": "black",
+            "file": "80912022186bb3f8a282eb22b6769bfef1baa21c2e224881ad9e34885a266bd8.json",
+            "seconds": 0.4580350839532912
+          },
+          {
+            "id": 3415,
+            "color": "brown",
+            "file": "d41355fc18af7abbe7929463d29b13775d77012ed055c6361c532f762b2b3540.json",
+            "seconds": 0.5335327500943094
+          },
+          {
+            "id": 7932,
+            "color": null,
+            "file": "0e63b73bde995f8db41e43125dbda2d0e318026ce70adcddb209384fea589549.json",
+            "seconds": 0.46918174996972084
+          },
+          {
+            "id": 24463,
+            "color": "blue",
+            "file": "87a3790af4c73b58413f22df8b99384cf9f9ac9321cc2c99e9437b9be791f91e.json",
+            "seconds": 0.5272576250135899
+          }
+        ],
+        "swap": [
+          9742,
+          3415
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "query": "a brown bed with blue covers and pillows next to a green wall",
+      "raw_rank": 140,
+      "filtered_rank": 103,
+      "rank": 103,
+      "ordinary_screen": [
+        27994,
+        144,
+        47129,
+        24463,
+        45055,
+        34313,
+        34809,
+        2689,
+        20411,
+        30908
+      ],
+      "display": [
+        27994,
+        144,
+        47129,
+        24463,
+        45055,
+        34313,
+        34809,
+        2689,
+        20411,
+        30908
+      ],
+      "check": {}
+    },
+    {
+      "round": 5,
+      "query": "a brown bed with blue covers, a quilted comforter, and pillows next to a green wall",
+      "raw_rank": 222,
+      "filtered_rank": 173,
+      "rank": 173,
+      "ordinary_screen": [
+        25603,
+        30365,
+        2913,
+        563,
+        15186,
+        7932,
+        15567,
+        36674,
+        25776,
+        29012
+      ],
+      "display": [
+        25603,
+        30365,
+        2913,
+        563,
+        15186,
+        7932,
+        15567,
+        36674,
+        25776,
+        29012
+      ],
+      "check": {
+        "question": "what is the color of the bed that has a quilted comforter?",
+        "answer": "brown",
+        "labels": [
+          {
+            "id": 36674,
+            "color": "blue",
+            "file": "1da42258439a18a804f5ca3dd49c178bb7aa4ee8dce06450270f8229e60c6f70.json",
+            "seconds": 0.4656947501935065
+          },
+          {
+            "id": 25776,
+            "color": "black",
+            "file": "7b23dca0be415e94d9d2586b9eef2a27c85f0dcf6545b1b6e661c18805cd48a1.json",
+            "seconds": 0.4654700418468565
+          },
+          {
+            "id": 29012,
+            "color": "white",
+            "file": "8e0aea7ee455777dbca9e7c69cc99a6fc30df8070b759453f1d919704c409d35.json",
+            "seconds": 0.5288827498443425
+          },
+          {
+            "id": 43524,
+            "color": "white",
+            "file": "0ae2e5a862819c12c8c59f85d1ff09c5fff45350c8ee0e9f09f5b319a01fe86a.json",
+            "seconds": 0.5308813329320401
+          },
+          {
+            "id": 40337,
+            "color": "white",
+            "file": "abf4abeccc211bbfd35ebe0dfc179303c10ad717dc57bfc2f1ee72f72d45e8ff.json",
+            "seconds": 0.3794991250615567
+          },
+          {
+            "id": 7251,
+            "color": "black",
+            "file": "189bddc51ebccb789d44762fa82fedec95ddcc6048e6eaf9f999f6731dd07c50.json",
+            "seconds": 0.5266595419961959
+          }
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "query": "A brown bed featuring a quilted comforter and pillows is situated next to a green wall.",
+      "raw_rank": 362,
+      "filtered_rank": 323,
+      "rank": 323,
+      "ordinary_screen": [
+        24932,
+        37647,
+        49895,
+        17407,
+        44125,
+        26107,
+        5548,
+        29279,
+        4042,
+        5728
+      ],
+      "display": [
+        24932,
+        37647,
+        49895,
+        17407,
+        44125,
+        26107,
+        5548,
+        29279,
+        4042,
+        5728
+      ],
+      "check": {}
+    },
+    {
+      "round": 7,
+      "query": "a brown bed with blue covers, a gray quilted comforter, and pillows sits next to a green wall",
+      "raw_rank": 162,
+      "filtered_rank": 103,
+      "rank": 103,
+      "ordinary_screen": [
+        19888,
+        7251,
+        9742,
+        21585,
+        34907,
+        41752,
+        43524,
+        43468,
+        14744,
+        40671
+      ],
+      "display": [
+        19888,
+        7251,
+        9742,
+        21585,
+        34907,
+        41752,
+        43524,
+        43468,
+        14744,
+        28590
+      ],
+      "check": {
+        "question": "what is the color of the bedspread on the bed with blue covers?",
+        "answer": "gray",
+        "labels": [
+          {
+            "id": 43468,
+            "color": null,
+            "file": "3d94e0e252975a12c2611eb4af7a0d5260fea27f883b94d742c2da60f812552e.json",
+            "seconds": 0.4592637501191348
+          },
+          {
+            "id": 14744,
+            "color": "blue",
+            "file": "33b60335196e15b6c99c080f488b068c18bdee05356a672c3937bb3e499f189c.json",
+            "seconds": 0.46048350003547966
+          },
+          {
+            "id": 40671,
+            "color": "green",
+            "file": "012a308d64775d82d9375fc56e1e8bf2705a3f672f8f0fb8b773dd4d928dfbeb.json",
+            "seconds": 0.5295612080954015
+          },
+          {
+            "id": 28590,
+            "color": "gray",
+            "file": "908a9242ba5a015b68a05b0790ea0617a34312acf7b2eeed548d5756ae7acf86.json",
+            "seconds": 0.5334721670951694
+          },
+          {
+            "id": 12075,
+            "color": "white",
+            "file": "c48351364985e090b2d672c77d171d08692317daa3a69d987d21870427dff9ad.json",
+            "seconds": 0.5424202920403332
+          },
+          {
+            "id": 46863,
+            "color": "gray",
+            "file": "694ea2f138f8706be622e23e1ea7388535fe960f9657e723262e4314aede7fa1.json",
+            "seconds": 0.5439484170638025
+          }
+        ],
+        "swap": [
+          40671,
+          28590
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "query": "a brown bed with blue covers and gray bedspread, featuring pillows and a quilted comforter, situated next to a green wall",
+      "raw_rank": 167,
+      "filtered_rank": 98,
+      "rank": 98,
+      "ordinary_screen": [
+        12075,
+        11396,
+        40671,
+        46863,
+        6392,
+        43601,
+        46332,
+        8587,
+        1112,
+        23174
+      ],
+      "display": [
+        12075,
+        11396,
+        40671,
+        46863,
+        6392,
+        43601,
+        46332,
+        8587,
+        1112,
+        23174
+      ],
+      "check": {
+        "question": "what is the color of the bedspread on the bed with blue covers?",
+        "answer": "gray",
+        "labels": [
+          {
+            "id": 8587,
+            "color": null,
+            "file": "3a09062d0d7acd804a2567617fc697c594bf5032b0a53d15b594f37bdc9feb17.json",
+            "seconds": 0.46606745896860957
+          },
+          {
+            "id": 1112,
+            "color": "blue",
+            "file": "656ff5a6cde7b4bc52a6004495a5afd40f9573c27fb5b434e110212f87db9010.json",
+            "seconds": 0.3798820418305695
+          },
+          {
+            "id": 23174,
+            "color": "purple",
+            "file": "e87aca785dc3635d1adf1f381043f36f70f70533b5036d85f0f566f1bc4fd29c.json",
+            "seconds": 0.46562699996866286
+          },
+          {
+            "id": 16960,
+            "color": "blue",
+            "file": "33f5ff0e8b893d1f1ac72ab607066e24b18e9d6db8d5e94ebfda558379eea231.json",
+            "seconds": 0.46514437487348914
+          },
+          {
+            "id": 24305,
+            "color": null,
+            "file": "4c2c9b8c87ef9c92f7b6f9c6d1c2c849e7519bc2dfe3bbe48c0840858072c771.json",
+            "seconds": 0.5361850000917912
+          },
+          {
+            "id": 40068,
+            "color": "blue",
+            "file": "fd144172dd3f2815a26c7c54899354adcff61beea6b8ff6603ee35f4fa0b8cef.json",
+            "seconds": 0.6591248752083629
+          }
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "query": "A brown bed adorned with blue covers and a gray bedspread, complete with pillows and a quilted comforter, is positioned next to a green wall.",
+      "raw_rank": 148,
+      "filtered_rank": 75,
+      "rank": 75,
+      "ordinary_screen": [
+        17861,
+        2740,
+        16960,
+        43584,
+        7722,
+        23862,
+        16782,
+        15891,
+        24199,
+        3667
+      ],
+      "display": [
+        17861,
+        2740,
+        16960,
+        43584,
+        7722,
+        23862,
+        16782,
+        15891,
+        24199,
+        3667
+      ],
+      "check": {}
+    },
+    {
+      "round": 10,
+      "query": "a brown bed with blue covers and pillows, featuring a gray quilted comforter, positioned next to a green wall",
+      "raw_rank": 165,
+      "filtered_rank": 77,
+      "rank": 77,
+      "ordinary_screen": [
+        16851,
+        48709,
+        40337,
+        36928,
+        16303,
+        26861,
+        33469,
+        48999,
+        46911,
+        6088
+      ],
+      "display": [
+        16851,
+        48709,
+        40337,
+        36928,
+        16303,
+        26861,
+        33469,
+        48999,
+        46911,
+        6088
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 144.957,
+  "live": false,
+  "seconds": 15.092104207957163
+}

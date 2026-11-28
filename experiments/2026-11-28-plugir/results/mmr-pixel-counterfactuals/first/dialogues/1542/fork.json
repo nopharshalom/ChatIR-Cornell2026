@@ -1,0 +1,103 @@
+{
+  "pivot": null,
+  "trace": [
+    {
+      "slots": [
+        {
+          "entity": "square table",
+          "family": "material",
+          "values": [
+            "wood",
+            "plastic"
+          ],
+          "question": "What material is the square table made of?"
+        },
+        {
+          "entity": "circular table",
+          "family": "material",
+          "values": [
+            "wood",
+            "plastic"
+          ],
+          "question": "What material is the circular table made of?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood"
+        ],
+        [
+          "wood",
+          null,
+          null,
+          "wood",
+          "wood",
+          null,
+          "plastic",
+          null,
+          null,
+          "wood"
+        ]
+      ],
+      "filled": [
+        10,
+        5
+      ],
+      "pixel_supported": [
+        false,
+        false
+      ]
+    },
+    {
+      "slots": [
+        {
+          "entity": "couch",
+          "family": "material",
+          "values": [
+            "leather",
+            "fabric"
+          ],
+          "question": "What material is the couch made of?"
+        }
+      ],
+      "vetoes": [],
+      "protocol_error": "Invalid classification on both structured and single-label attempts"
+    }
+  ]
+}

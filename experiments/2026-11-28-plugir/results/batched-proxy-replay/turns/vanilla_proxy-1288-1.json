@@ -1,0 +1,87 @@
+{
+  "key": "vanilla_proxy-1288-1",
+  "arm": "vanilla_proxy",
+  "original": "Question: What is the ground surface where the giraffes are standing?",
+  "incumbent": "Question: What is the ground surface where the giraffes are standing?",
+  "batch": {
+    "choice": "Question: What is the ground surface where the giraffes are standing?",
+    "scores": {
+      "Question: Is the giraffe standing barefoot?": 0,
+      "Question: Is the giraffe being hand-fed by a woman?": 0,
+      "Question: Are there zebras in the image with the giraffes?": 0,
+      "Question: What is the ground surface where the giraffes are standing?": 2,
+      "Question: What is the man (or person) doing in relation to the giraffes?": 0
+    },
+    "answers": [
+      [
+        "unsure",
+        "No, the giraffe's feet are not visible.",
+        "no",
+        "No, the giraffe's feet are not visible.",
+        "No",
+        "No, the giraffe's feet are not visible.",
+        "No, the giraffes' feet are not visible.",
+        "No, the giraffes are standing on hooves.",
+        "No, the giraffe's feet are not visible.",
+        "unsure"
+      ],
+      [
+        "unsure",
+        "No, there is no woman feeding the giraffe.",
+        "no",
+        "No, there is no woman feeding the giraffe.",
+        "No",
+        "No, there is no woman feeding the giraffe.",
+        "No, there is no woman hand-feeding the giraffe.",
+        "No, the giraffes are not being hand-fed by a woman.",
+        "No, there is no woman feeding the giraffe.",
+        "unsure"
+      ],
+      [
+        "no",
+        "No, there are no zebras in the image.",
+        "no",
+        "No, there are no zebras in the image.",
+        "No",
+        "No, there are no zebras in the image.",
+        "No, there are no zebras in the image.",
+        "No, there are no zebras in the image.",
+        "No, there are no zebras in the image.",
+        "no"
+      ],
+      [
+        "dirt",
+        "The ground surface is dirt or sand.",
+        "dirt",
+        "The ground surface is a mix of dirt and grass.",
+        "Paved surface",
+        "The ground surface is a mix of dirt and grass.",
+        "The ground surface is paved.",
+        "The ground surface is dirt or sand.",
+        "Grass",
+        "dirt"
+      ],
+      [
+        "feeding",
+        "A person is feeding the giraffe.",
+        "unsure",
+        "The person is feeding the giraffe.",
+        "Feeding",
+        "The person is feeding the giraffe.",
+        "The person is feeding the giraffe.",
+        "The man is observing the giraffes.",
+        "The person is feeding the giraffe.",
+        "feeding"
+      ]
+    ],
+    "invalid_batches": [
+      {
+        "image": 30478,
+        "raw": "```json\n[\n\t{\"answer\": \"No, the giraffe is standing on hooves.\"},\n\t{\"answer\": \"No, there is no woman feeding the giraffe.\"},\n\t{\"answer\": \"No, there are no zebras in the image.\"},\n\t{\"answer\": \"The ground surface is a mix of dirt and grass.\"},\n\t{\"answer\": \"The person is observing the giraffes.\"}\n]\n```"
+      }
+    ],
+    "visual_calls": 15,
+    "total_calls": 42,
+    "seconds": 37.12888354086317
+  }
+}

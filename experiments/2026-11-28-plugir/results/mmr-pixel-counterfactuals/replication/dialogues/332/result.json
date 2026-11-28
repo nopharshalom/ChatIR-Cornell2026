@@ -1,0 +1,174 @@
+{
+  "pivot": 8,
+  "rank_before": 15,
+  "branches": {
+    "mmr": {
+      "ranks": [
+        15,
+        17,
+        13,
+        12,
+        13,
+        20,
+        19,
+        16,
+        15,
+        15,
+        14
+      ],
+      "q": "what is the specific color of the grass in the image?",
+      "linked": false,
+      "answer": "yellow",
+      "actual_rank": 15,
+      "factual": {
+        "query": "a group of zebras grazing in a brown-toned savannah with yellow grass",
+        "rank": 15
+      },
+      "withheld": {
+        "query": "a group of zebras grazing in a brown-toned savannah with yellow grass",
+        "rank": 15
+      },
+      "novel": "KNOWN"
+    },
+    "blind_alternative": {
+      "ranks": [
+        15,
+        17,
+        13,
+        12,
+        13,
+        20,
+        19,
+        16,
+        15,
+        30,
+        43
+      ],
+      "q": "What kind of place is the savannah in?",
+      "linked": true,
+      "answer": "africa",
+      "actual_rank": 30,
+      "factual": {
+        "query": "a group of zebras grazing in a brown, yellow field on the African savannah",
+        "rank": 30
+      },
+      "withheld": {
+        "query": "a group of zebras grazing in a brown-toned savannah field with yellow grass",
+        "rank": 16
+      },
+      "novel": "UNCLEAR"
+    },
+    "captions_annotations": {
+      "ranks": [
+        15,
+        17,
+        13,
+        12,
+        13,
+        20,
+        19,
+        16,
+        15,
+        30,
+        43
+      ],
+      "q": "What kind of place is the savannah in?",
+      "linked": true,
+      "answer": "africa",
+      "actual_rank": 30,
+      "factual": {
+        "query": "a group of zebras grazing in a brown, yellow field on the African savannah",
+        "rank": 30
+      },
+      "withheld": {
+        "query": "a group of zebras grazing in a brown-toned savannah field with yellow grass",
+        "rank": 16
+      },
+      "novel": "UNCLEAR"
+    },
+    "captions_retrieval": {
+      "ranks": [
+        15,
+        17,
+        13,
+        12,
+        13,
+        20,
+        19,
+        16,
+        15,
+        15,
+        14
+      ],
+      "q": "what is the specific color of the grass in the image?",
+      "linked": false,
+      "answer": "yellow",
+      "actual_rank": 15,
+      "factual": {
+        "query": "a group of zebras grazing in a brown-toned savannah with yellow grass",
+        "rank": 15
+      },
+      "withheld": {
+        "query": "a group of zebras grazing in a brown-toned savannah with yellow grass",
+        "rank": 15
+      },
+      "novel": "KNOWN"
+    },
+    "pixels_annotations": {
+      "ranks": [
+        15,
+        17,
+        13,
+        12,
+        13,
+        20,
+        19,
+        16,
+        15,
+        30,
+        43
+      ],
+      "q": "What kind of place is the savannah in?",
+      "linked": true,
+      "answer": "africa",
+      "actual_rank": 30,
+      "factual": {
+        "query": "a group of zebras grazing in a brown, yellow field on the African savannah",
+        "rank": 30
+      },
+      "withheld": {
+        "query": "a group of zebras grazing in a brown-toned savannah field with yellow grass",
+        "rank": 16
+      },
+      "novel": "UNCLEAR"
+    },
+    "pixels_retrieval": {
+      "ranks": [
+        15,
+        17,
+        13,
+        12,
+        13,
+        20,
+        19,
+        16,
+        15,
+        15,
+        14
+      ],
+      "q": "what is the specific color of the grass in the image?",
+      "linked": false,
+      "answer": "yellow",
+      "actual_rank": 15,
+      "factual": {
+        "query": "a group of zebras grazing in a brown-toned savannah with yellow grass",
+        "rank": 15
+      },
+      "withheld": {
+        "query": "a group of zebras grazing in a brown-toned savannah with yellow grass",
+        "rank": 15
+      },
+      "novel": "KNOWN"
+    }
+  }
+}

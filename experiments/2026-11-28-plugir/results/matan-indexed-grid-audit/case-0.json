@@ -1,0 +1,51 @@
+{
+  "question": "Question: How many couches are in the living room?",
+  "qid": 1894,
+  "tile_ids": [
+    34384,
+    7321,
+    17912,
+    18232,
+    10314,
+    48731,
+    6983,
+    48094,
+    24351,
+    25687
+  ],
+  "reference": [
+    "1",
+    null,
+    "1",
+    "1",
+    null,
+    "1",
+    "1",
+    null,
+    "1",
+    "1"
+  ],
+  "prompt": "Answer the question separately for each numbered photo. Count visible sofas or loveseats. Exclude single-person chairs. Count a sectional as one. Use an integer or unknown. Return a JSON object with exactly one answer for each printed tile ID. The top row is 0,1,2,3,4 and the bottom row is 5,6,7,8,9. Use these ten ID strings as keys, including \"0\" and \"9\".",
+  "raw": "```json\n{\n\"0\": 1,\n\"1\": 0,\n\"2\": 1,\n\"3\": 1,\n\"4\": 2,\n\"5\": 1,\n\"6\": 1,\n\"7\": 1,\n\"8\": 1,\n\"9\": 2\n}\n```",
+  "answers": [
+    "1",
+    "0",
+    "1",
+    "1",
+    "2",
+    "1",
+    "1",
+    "1",
+    "1",
+    "2"
+  ],
+  "reused": false,
+  "score": {
+    "tiles": 7,
+    "correct": 6,
+    "true_splits": 0,
+    "detected": 0,
+    "false_splits": 6
+  },
+  "model": "8b2b98c00a6b4d291155e4890773ca8f769aee53"
+}

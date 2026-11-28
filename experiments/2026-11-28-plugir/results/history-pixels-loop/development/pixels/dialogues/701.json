@@ -1,0 +1,281 @@
+{
+  "qid": 701,
+  "target": "unlabeled2017/000000324850.jpg",
+  "arm": "pixels",
+  "first": 4,
+  "turns": [
+    {
+      "evidence": [
+        11635,
+        28449,
+        17087,
+        13199,
+        22839,
+        3530,
+        24819,
+        43807,
+        40955,
+        3203
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "what is the other object in the image?",
+        "what is the color of the sign visible on the street?",
+        "what is the color of the sign visible on the street?",
+        "what is the color of the sign visible on the street?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "traffic light",
+      "rewrite": "image of a red lobster restaurant from the street, featuring a one-way sign, a street light, and a traffic light, with a man in an orange shirt walking toward the entrance",
+      "review": null,
+      "shared_seconds": 19.93
+    },
+    {
+      "evidence": [
+        17087,
+        28449,
+        11635,
+        28949,
+        24819,
+        29472,
+        3203,
+        26523,
+        3530,
+        17692
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "what is the building in the image made of?",
+        "what color is the building in the image of the red lobster restaurant?",
+        "what color is the building in the image of the red lobster restaurant?",
+        "what is the color of the man's shirt in the image of the red lobster restaurant?"
+      ],
+      "default": "what is the building in the image made of?",
+      "question": "what is the building in the image made of?",
+      "answer": "wood",
+      "rewrite": "image of a red lobster restaurant made of wood, with a one-way sign, street light, and traffic light visible, and a man in an orange shirt walking toward the entrance",
+      "review": null,
+      "shared_seconds": 16.331
+    },
+    {
+      "evidence": [
+        28449,
+        28949,
+        36378,
+        6566,
+        26523,
+        17087,
+        24819,
+        29472,
+        45907,
+        3203
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "what is the color of the shirt worn by the man walking toward the entrance?",
+        "what is the color of the building in the image?",
+        "what is the sign on the building in the image?",
+        "what is the color of the building in the image?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "traffic light",
+      "rewrite": "image of a red lobster restaurant made of wood, with a one-way sign, a street light, and a traffic light visible, and a man in an orange shirt walking toward the entrance",
+      "review": null,
+      "shared_seconds": 22.01
+    },
+    {
+      "evidence": [
+        6566,
+        28449,
+        17087,
+        29472,
+        11635,
+        26523,
+        13778,
+        36378,
+        28949,
+        23615
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "what is the color of the shirt worn by the man walking toward the entrance?",
+        "what is the color of the shirt worn by the man walking toward the entrance?",
+        "what is the color of the shirt worn by the man walking toward the entrance?",
+        "what is the color of the shirt worn by the man walking toward the entrance?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "traffic light",
+      "rewrite": "image of a red lobster restaurant made of wood, with a one-way sign, street light, and traffic light visible, and a man in an orange shirt walking toward the entrance",
+      "review": null,
+      "shared_seconds": 22.53
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "image of a red lobster restaurant from a street a one-way sign and street light is visible, and a man in an orange shirt is walking toward the entrance",
+      "raw_rank": 33,
+      "filtered_rank": 33,
+      "rank": 33,
+      "ordinary_screen": [
+        11635,
+        17087,
+        28449,
+        13199,
+        22839,
+        3530,
+        24819,
+        43807,
+        40955,
+        29472
+      ],
+      "display": [
+        11635,
+        17087,
+        28449,
+        13199,
+        22839,
+        3530,
+        24819,
+        43807,
+        40955,
+        29472
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "image of a red lobster restaurant from the street, featuring a one-way sign, a street light, and a traffic light, with a man in an orange shirt walking toward the entrance",
+      "raw_rank": 36,
+      "filtered_rank": 26,
+      "rank": 26,
+      "ordinary_screen": [
+        28949,
+        3203,
+        26523,
+        17692,
+        45457,
+        2736,
+        43042,
+        47348,
+        48840,
+        20555
+      ],
+      "display": [
+        28949,
+        3203,
+        26523,
+        17692,
+        45457,
+        2736,
+        43042,
+        47348,
+        48840,
+        20555
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "image of a red lobster restaurant made of wood, with a one-way sign, street light, and traffic light visible, and a man in an orange shirt walking toward the entrance",
+      "raw_rank": 38,
+      "filtered_rank": 20,
+      "rank": 20,
+      "ordinary_screen": [
+        6566,
+        36378,
+        45907,
+        22394,
+        34828,
+        18024,
+        48099,
+        23615,
+        12612,
+        34488
+      ],
+      "display": [
+        6566,
+        36378,
+        45907,
+        22394,
+        34828,
+        18024,
+        48099,
+        23615,
+        12612,
+        34488
+      ],
+      "check": {}
+    },
+    {
+      "round": 3,
+      "query": "image of a red lobster restaurant made of wood, with a one-way sign, a street light, and a traffic light visible, and a man in an orange shirt walking toward the entrance",
+      "raw_rank": 52,
+      "filtered_rank": 24,
+      "rank": 24,
+      "ordinary_screen": [
+        13778,
+        3502,
+        40939,
+        33463,
+        13447,
+        22473,
+        11928,
+        40714,
+        12867,
+        35060
+      ],
+      "display": [
+        13778,
+        3502,
+        40939,
+        33463,
+        13447,
+        22473,
+        11928,
+        40714,
+        12867,
+        35060
+      ],
+      "check": {}
+    },
+    {
+      "round": 4,
+      "query": "image of a red lobster restaurant made of wood, with a one-way sign, street light, and traffic light visible, and a man in an orange shirt walking toward the entrance",
+      "raw_rank": 38,
+      "filtered_rank": 7,
+      "rank": 7,
+      "ordinary_screen": [
+        21427,
+        48434,
+        18168,
+        12348,
+        12108,
+        33612,
+        27853,
+        8999,
+        45273,
+        18398
+      ],
+      "display": [
+        21427,
+        48434,
+        18168,
+        12348,
+        12108,
+        33612,
+        27853,
+        8999,
+        45273,
+        18398
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 80.801,
+  "live": false,
+  "seconds": 0.0714564158115536
+}

@@ -1,0 +1,194 @@
+{
+  "qid": 1004,
+  "selection": {
+    "kl": "Question: Are there any people standing on the snowy slope who are not wearing coats?",
+    "probe": "Question: Which specific candidates from the list depict exactly four people standing on a snowy slope with skis?",
+    "candidates": [
+      {
+        "question": "what are the colors of the coats worn by the four people on the snowy slope?",
+        "score": 1,
+        "branches": [
+          {
+            "answer": "black and blue",
+            "caption": "a woman in black and another woman in a blue coat",
+            "top10": [
+              17372,
+              43362,
+              46209,
+              28437,
+              13420,
+              35796,
+              25531,
+              6190,
+              29129,
+              4128
+            ]
+          },
+          {
+            "answer": "unknown",
+            "caption": "four people standing on a snowy slope with skis",
+            "top10": [
+              49086,
+              41155,
+              16375,
+              5946,
+              4773,
+              21479,
+              29955,
+              23528,
+              3821,
+              46018
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the gender of the people standing on the snowy slope with skis?",
+        "score": 7,
+        "branches": [
+          {
+            "answer": "four women",
+            "caption": "a woman in black and another woman in a blue coat",
+            "top10": [
+              17372,
+              43362,
+              46209,
+              28437,
+              13420,
+              35796,
+              25531,
+              6190,
+              29129,
+              4128
+            ]
+          },
+          {
+            "answer": "four men",
+            "caption": "four skiers posing outdoors",
+            "top10": [
+              12761,
+              16738,
+              2329,
+              3821,
+              5946,
+              22058,
+              41155,
+              27597,
+              33719,
+              43178
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: Are there any people standing on the snowy slope who are not wearing coats?",
+        "score": 1,
+        "branches": [
+          {
+            "answer": "Yes, at least one person is not wearing a coat.",
+            "caption": "four people standing on a snowy slope with skis, one in a coat and one in a jacket",
+            "top10": [
+              5946,
+              49086,
+              7049,
+              4773,
+              12761,
+              33561,
+              41155,
+              29955,
+              3821,
+              23528
+            ]
+          },
+          {
+            "answer": "No, all people are wearing coats.",
+            "caption": "four people standing on a snowy slope with skis, all wearing winter coats",
+            "top10": [
+              49086,
+              4773,
+              5946,
+              7049,
+              12761,
+              41155,
+              16375,
+              3821,
+              33561,
+              46018
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: what is the gender of the people standing on the snowy slope?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "Question: Which specific candidates from the list depict exactly four people standing on a snowy slope with skis?",
+        "score": 9,
+        "branches": [
+          {
+            "answer": "four skiers posing outdoors",
+            "caption": "four skiers posing outdoors on a snowy slope",
+            "top10": [
+              3821,
+              12761,
+              41155,
+              27597,
+              22058,
+              16375,
+              29955,
+              49086,
+              33561,
+              4773
+            ]
+          },
+          {
+            "answer": "four people skiing on snowy slopes",
+            "caption": "four people skiing on snowy slopes with skis",
+            "top10": [
+              21149,
+              46018,
+              4254,
+              21479,
+              39473,
+              26081,
+              30894,
+              41155,
+              25752,
+              11311
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "outcomes": {
+    "what are the colors of the coats worn by the four people on the snowy slope?": {
+      "answer": "Based on the image provided, here are the colors of the coats worn by the four people on the snowy slope, from left to right:\n\n-   **Black:** The person on the far left is wearing a black coat.\n-",
+      "rewrite": "four people standing on a snowy slope with skis, wearing black, [missing color], [missing color], and [missing color] coats from left to right",
+      "rank": 29
+    },
+    "what is the gender of the people standing on the snowy slope with skis?": {
+      "answer": "unsure",
+      "rewrite": "four people of unknown gender standing on a snowy slope with skis",
+      "rank": 37
+    },
+    "Question: Are there any people standing on the snowy slope who are not wearing coats?": {
+      "answer": "No.",
+      "rewrite": "4 people wearing coats standing on a snowy slope with skis",
+      "rank": 45
+    },
+    "Question: what is the gender of the people standing on the snowy slope?": {
+      "answer": "unclear",
+      "rewrite": "four people of unclear gender standing on a snowy slope with skis",
+      "rank": 37
+    },
+    "Question: Which specific candidates from the list depict exactly four people standing on a snowy slope with skis?": {
+      "answer": "I am unsure.",
+      "rewrite": "four people standing on a snowy slope with skis",
+      "rank": 31
+    }
+  },
+  "saved_kl_rank": 45
+}

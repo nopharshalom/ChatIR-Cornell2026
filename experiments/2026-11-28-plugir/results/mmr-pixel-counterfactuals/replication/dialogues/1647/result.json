@@ -1,0 +1,129 @@
+{
+  "pivot": 1,
+  "rank_before": 60,
+  "branches": {
+    "mmr": {
+      "ranks": [
+        100,
+        60,
+        3
+      ],
+      "q": "what is the color of the trains stopped and resting in the image?",
+      "linked": false,
+      "answer": "green and red",
+      "actual_rank": 3,
+      "factual": {
+        "query": "a train area on the edge of a city with two green and red trains stopped and resting",
+        "rank": 3
+      },
+      "withheld": {
+        "query": "a train area on the edge of a city with two stopped and resting trains of indeterminate color",
+        "rank": 19
+      },
+      "novel": "KNOWN"
+    },
+    "blind_alternative": {
+      "ranks": [
+        100,
+        60,
+        13,
+        1
+      ],
+      "q": "What is the main color of the trains?",
+      "linked": true,
+      "answer": "green",
+      "actual_rank": 13,
+      "factual": {
+        "query": "a train area on the edge of a city with two green trains stopped and resting",
+        "rank": 13
+      },
+      "withheld": {
+        "query": "a train area on the edge of a city with two trains stopped and resting, main color indeterminate",
+        "rank": 30
+      },
+      "novel": "NEW"
+    },
+    "captions_annotations": {
+      "ranks": [
+        100,
+        60,
+        13,
+        1
+      ],
+      "q": "What is the main color of the trains?",
+      "linked": true,
+      "answer": "green",
+      "actual_rank": 13,
+      "factual": {
+        "query": "a train area on the edge of a city with two green trains stopped and resting",
+        "rank": 13
+      },
+      "withheld": {
+        "query": "a train area on the edge of a city with two trains stopped and resting, main color indeterminate",
+        "rank": 30
+      },
+      "novel": "NEW"
+    },
+    "captions_retrieval": {
+      "ranks": [
+        100,
+        60,
+        3
+      ],
+      "q": "what is the color of the trains stopped and resting in the image?",
+      "linked": false,
+      "answer": "green and red",
+      "actual_rank": 3,
+      "factual": {
+        "query": "a train area on the edge of a city with two green and red trains stopped and resting",
+        "rank": 3
+      },
+      "withheld": {
+        "query": "a train area on the edge of a city with two stopped and resting trains of indeterminate color",
+        "rank": 19
+      },
+      "novel": "KNOWN"
+    },
+    "pixels_annotations": {
+      "ranks": [
+        100,
+        60,
+        13,
+        1
+      ],
+      "q": "What is the main color of the trains?",
+      "linked": true,
+      "answer": "green",
+      "actual_rank": 13,
+      "factual": {
+        "query": "a train area on the edge of a city with two green trains stopped and resting",
+        "rank": 13
+      },
+      "withheld": {
+        "query": "a train area on the edge of a city with two trains stopped and resting, main color indeterminate",
+        "rank": 30
+      },
+      "novel": "NEW"
+    },
+    "pixels_retrieval": {
+      "ranks": [
+        100,
+        60,
+        3
+      ],
+      "q": "what is the color of the trains stopped and resting in the image?",
+      "linked": false,
+      "answer": "green and red",
+      "actual_rank": 3,
+      "factual": {
+        "query": "a train area on the edge of a city with two green and red trains stopped and resting",
+        "rank": 3
+      },
+      "withheld": {
+        "query": "a train area on the edge of a city with two stopped and resting trains of indeterminate color",
+        "rank": 19
+      },
+      "novel": "KNOWN"
+    }
+  }
+}

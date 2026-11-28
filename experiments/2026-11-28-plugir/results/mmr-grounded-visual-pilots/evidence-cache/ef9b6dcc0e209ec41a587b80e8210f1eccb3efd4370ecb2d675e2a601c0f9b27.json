@@ -1,0 +1,10 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    "Classify the answer to the supplied question using ONLY the provided evidence.\nUse exactly one listed label, or unknown. Use unknown if evidence is missing, ambiguous,\nunreadable, contradictory, several labels apply, the subject cannot be identified, or the\nanswer falls outside the list. Never infer the answer from stereotypes or from what is typical.\nAn unmentioned object is not evidence of absence. Use 'nothing' only if explicitly supported. Return a JSON object keyed by the supplied caption numbers. Read each caption independently, using only what it explicitly says.",
+    "{\"captions\": {\"1\": \"a soldier walking next to a large container truck\", \"10\": \"a man walking in a field with trucks\", \"2\": \"a man is skateboarding outside\", \"3\": \"a big red truck in a grassy field\", \"4\": \"a road with two vehicles\", \"5\": \"red truck on a street\", \"6\": \"a person standing behind a tow truck\", \"7\": \"the road in front of the truck\", \"8\": \"a group of construction workers in front of a big mountain\", \"9\": \"a dump truck is driving down the road\"}, \"task\": {\"allowed_labels\": [\"red\", \"blue\"], \"question\": \"What is the main color of the truck?\"}}",
+    260,
+    null
+  ],
+  "response": "{\n  \"1\": \"unknown\",\n  \"2\": \"unknown\",\n  \"3\": \"red\",\n  \"4\": \"unknown\",\n  \"5\": \"red\",\n  \"6\": \"unknown\",\n  \"7\": \"unknown\",\n  \"8\": \"unknown\",\n  \"9\": \"unknown\",\n  \"10\": \"unknown\"\n}"
+}

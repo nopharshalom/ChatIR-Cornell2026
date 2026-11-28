@@ -1,0 +1,63 @@
+{
+  "arms": [
+    "ordinary",
+    "q-caption"
+  ],
+  "ids": [
+    975,
+    1419,
+    1301,
+    518,
+    601,
+    454,
+    621,
+    627,
+    1646,
+    106,
+    573,
+    570,
+    1098,
+    1903,
+    858,
+    400,
+    1241,
+    1640,
+    143,
+    1655
+  ],
+  "development": [
+    1510,
+    343,
+    2019,
+    541,
+    1914,
+    1466,
+    701,
+    176,
+    1004,
+    532,
+    814,
+    1743,
+    1782,
+    670,
+    1111,
+    482,
+    2003,
+    1639,
+    742,
+    1091
+  ],
+  "source": "2ed90c8c3c5c5a4d1631c97303c805c9ebb543471f3a0d328bc4423262b41488",
+  "question_sources": {
+    "run_history_pixel_questions.py": "eac8d7c4f11a9cb03e4744c6ca29f4769212fcafb07cefc614964bea8fdedf63",
+    "run_history_pixels_pilot.py": "2ed90c8c3c5c5a4d1631c97303c805c9ebb543471f3a0d328bc4423262b41488",
+    "run_indexed_visual_pilot.py": "a2cc6a7cdef225dc52b861ec6f01cce389d2011c058e8b43b5ea318ea5bc1cb9",
+    "check_indexed_visual_answers.py": "e69f07592010f58639e0f3b7fe174018ba90b08a5f6215f0a09c1e344106616a",
+    "matan_grid_worker.py": "5e26a994a9f7544d96601a0fecc6e8e9bca19fdbbce77493e66d1f7d60c4b7d7"
+  },
+  "model": "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+  "procedure": "Only when minimum KL selects the generic other-object fallback: use ten numbered MMR captions to predict answers to eligible proposals. Select the largest positive known-answer pair split, retaining KL otherwise. No-repeat displays.",
+  "primary": "mean cumulative Hits@10 over rounds 1-5; strictly above ordinary",
+  "guardrail": "R10 at least ordinary",
+  "rationale": "The caption-only question selector qualified as a text procedure. Neither visual intervention nor history variant met the rule. Confirmation will test only the independently qualifying caption procedure against ordinary."
+}

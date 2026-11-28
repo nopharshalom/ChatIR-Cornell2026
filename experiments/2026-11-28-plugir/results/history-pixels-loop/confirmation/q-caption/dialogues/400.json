@@ -1,0 +1,115 @@
+{
+  "qid": 400,
+  "target": "unlabeled2017/000000188270.jpg",
+  "arm": "q-caption",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        36447,
+        10234,
+        24156,
+        13125,
+        32930,
+        21985,
+        9694,
+        24195,
+        8676,
+        38242
+      ],
+      "candidates": [
+        "what is the location of the train that is parked next to another train?",
+        "Question: What is the type of the train parked next to the other train?",
+        "what is the color of the parked train?",
+        "Question: Which train is parked next to the other train: the passenger train or the freight train?",
+        "what is the color of the train that is parked next to the other train?"
+      ],
+      "default": "Question: What is the type of the train parked next to the other train?",
+      "question": "Question: What is the type of the train parked next to the other train?",
+      "answer": "electric",
+      "rewrite": "two electric trains parked next to each other",
+      "review": {
+        "default": "Question: What is the type of the train parked next to the other train?",
+        "questions": [
+          "what is the location of the train that is parked next to another train?",
+          "Question: What is the type of the train parked next to the other train?",
+          "what is the color of the parked train?",
+          "Question: Which train is parked next to the other train: the passenger train or the freight train?",
+          "what is the color of the train that is parked next to the other train?"
+        ],
+        "selected": "Question: What is the type of the train parked next to the other train?",
+        "scores": {}
+      },
+      "shared_seconds": 9.58
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a train that is parked next to another train",
+      "raw_rank": 38,
+      "filtered_rank": 38,
+      "rank": 38,
+      "ordinary_screen": [
+        36447,
+        10234,
+        24156,
+        13125,
+        32930,
+        21985,
+        9694,
+        24195,
+        8676,
+        38242
+      ],
+      "display": [
+        36447,
+        10234,
+        24156,
+        13125,
+        32930,
+        21985,
+        9694,
+        24195,
+        8676,
+        38242
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "two electric trains parked next to each other",
+      "raw_rank": 1,
+      "filtered_rank": 1,
+      "rank": 1,
+      "ordinary_screen": [
+        16125,
+        45827,
+        9688,
+        29332,
+        8514,
+        33834,
+        38882,
+        39920,
+        45755,
+        21764
+      ],
+      "display": [
+        16125,
+        45827,
+        9688,
+        29332,
+        8514,
+        33834,
+        38882,
+        39920,
+        45755,
+        21764
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 9.58,
+  "live": false,
+  "seconds": 0.04859012505039573
+}

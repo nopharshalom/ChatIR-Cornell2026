@@ -1,0 +1,222 @@
+{
+  "qid": 1510,
+  "target": "unlabeled2017/000000542203.jpg",
+  "arm": "contrast",
+  "first": 3,
+  "turns": [
+    {
+      "evidence": [
+        21343,
+        48095,
+        17183,
+        4722,
+        46157,
+        10629,
+        44394,
+        34402,
+        29971,
+        36476
+      ],
+      "candidates": [
+        "Question: What is the man wearing?",
+        "Question: Where is the man playing tennis?",
+        "Question: What color is the shirt of the man playing tennis?",
+        "what is the location where the man is playing tennis?",
+        "what is the color of the man's shirt in the image where he is hitting a tennis ball?"
+      ],
+      "default": "what is the location where the man is playing tennis?",
+      "question": "what is the location where the man is playing tennis?",
+      "answer": "tennis court",
+      "rewrite": "a man playing tennis on a tennis court",
+      "review": null,
+      "shared_seconds": 9.771130250068381
+    },
+    {
+      "evidence": [
+        4722,
+        3936,
+        49492,
+        24634,
+        9123,
+        18037,
+        20886,
+        2758,
+        31500,
+        27844
+      ],
+      "candidates": [
+        "what is the color of the uniform worn by the man playing tennis?",
+        "what is the color of the uniform worn by the man playing tennis?",
+        "what is the color of the uniform worn by the man playing tennis?",
+        "what is the color of the uniform worn by the man playing tennis?",
+        "what color is the uniform worn by the man attempting to hit the tennis ball?"
+      ],
+      "default": "what is the color of the uniform worn by the man playing tennis?",
+      "question": "what is the color of the uniform worn by the man playing tennis?",
+      "answer": "black",
+      "rewrite": "a man in a black uniform playing tennis on a tennis court",
+      "review": null,
+      "shared_seconds": 7.779071249999106
+    },
+    {
+      "evidence": [
+        35954,
+        8956,
+        41389,
+        31284,
+        14058,
+        33395,
+        46615,
+        31471,
+        3103,
+        20886
+      ],
+      "candidates": [
+        "Question: Is the man playing tennis alone or in front of people?",
+        "what is the color of the tennis ball?",
+        "Question: Is the man playing tennis alone or in front of people?",
+        "what is the color of the tennis ball the man is attempting to hit?",
+        "what is the action the man is performing with the tennis racket?"
+      ],
+      "default": "what is the action the man is performing with the tennis racket?",
+      "question": "what is the action the man is performing with the tennis racket?",
+      "answer": "serve",
+      "rewrite": "a man in a black uniform serves a tennis ball on a tennis court",
+      "review": null,
+      "shared_seconds": 12.314651125110686
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a tennis player attempts to hit a tennis ball",
+      "raw_rank": 613,
+      "filtered_rank": 613,
+      "rank": 613,
+      "ordinary_screen": [
+        29971,
+        36476,
+        13218,
+        93,
+        27844,
+        29281,
+        32025,
+        46523,
+        40104,
+        40397
+      ],
+      "display": [
+        29971,
+        36476,
+        13218,
+        93,
+        27844,
+        29281,
+        32025,
+        46523,
+        40104,
+        40397
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a man playing tennis on a tennis court",
+      "raw_rank": 413,
+      "filtered_rank": 404,
+      "rank": 404,
+      "ordinary_screen": [
+        31500,
+        17013,
+        3707,
+        11058,
+        6794,
+        16240,
+        7005,
+        29897,
+        18794,
+        46668
+      ],
+      "display": [
+        31500,
+        17013,
+        3707,
+        11058,
+        6794,
+        16240,
+        7005,
+        29897,
+        18794,
+        46668
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "a man in a black uniform playing tennis on a tennis court",
+      "raw_rank": 17,
+      "filtered_rank": 17,
+      "rank": 17,
+      "ordinary_screen": [
+        3103,
+        20886,
+        34042,
+        45131,
+        14138,
+        37089,
+        40775,
+        27946,
+        12841,
+        8760
+      ],
+      "display": [
+        3103,
+        20886,
+        34042,
+        45131,
+        14138,
+        37089,
+        40775,
+        27946,
+        12841,
+        8760
+      ],
+      "check": {}
+    },
+    {
+      "round": 3,
+      "query": "a man in a black uniform serves a tennis ball on a tennis court",
+      "raw_rank": 5,
+      "filtered_rank": 2,
+      "rank": 2,
+      "ordinary_screen": [
+        35954,
+        46615,
+        17343,
+        28012,
+        12340,
+        8502,
+        38219,
+        34098,
+        22990,
+        31298
+      ],
+      "display": [
+        35954,
+        46615,
+        17343,
+        28012,
+        12340,
+        8502,
+        38219,
+        34098,
+        22990,
+        31298
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 29.864852625178173,
+  "live": true,
+  "seconds": 30.264239416923374
+}
