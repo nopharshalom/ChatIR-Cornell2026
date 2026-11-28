@@ -1,0 +1,399 @@
+{
+  "qid": 343,
+  "target": "unlabeled2017/000000179535.jpg",
+  "arm": "contrast",
+  "first": 6,
+  "turns": [
+    {
+      "evidence": [
+        13730,
+        12365,
+        36845,
+        4926,
+        1069,
+        22179,
+        12740,
+        41550,
+        25619,
+        17763
+      ],
+      "candidates": [
+        "What material is the table holding the assortment of different foods?",
+        "Question: What is the shape of the table holding the assortment of different foods?",
+        "Question: What specific food items are included in the assortment on the table?",
+        "what is the shape of the table holding the assortment of different foods?",
+        "what is the material of the table in the image where the assortment of different foods is placed?"
+      ],
+      "default": "what is the material of the table in the image where the assortment of different foods is placed?",
+      "question": "what is the material of the table in the image where the assortment of different foods is placed?",
+      "answer": "wood",
+      "rewrite": "an assortment of different foods on a wooden table",
+      "review": null,
+      "shared_seconds": 7.592100708978251
+    },
+    {
+      "evidence": [
+        2434,
+        110,
+        41550,
+        585,
+        23001,
+        46143,
+        7155,
+        13730,
+        25619,
+        22179
+      ],
+      "candidates": [
+        "Question: What type of food is placed on the wooden table?",
+        "Question: Where is the table with the assortment of food located?",
+        "Question: Which specific types of food are arranged on the wooden table?",
+        "What is the specific setting or location of the table where the assortment of different foods is placed?",
+        "Question: Is the food on the table a plate of ingredients or a large serving tray?"
+      ],
+      "default": "Question: What type of food is placed on the wooden table?",
+      "question": "Question: What type of food is placed on the wooden table?",
+      "answer": "salad",
+      "rewrite": "an assortment of different foods, specifically salad, placed on a wooden table",
+      "review": null,
+      "shared_seconds": 10.527773207984865
+    },
+    {
+      "evidence": [
+        24923,
+        6862,
+        15403,
+        41889,
+        34733,
+        4614,
+        30032,
+        5713,
+        38249,
+        16647
+      ],
+      "candidates": [
+        "what is the container holding the assortment of food on the wooden table?",
+        "what is the specific container holding the salad on the wooden table?",
+        "what is the material of the container holding the salad on the wooden table?",
+        "what is the material of the plate holding the salad on the wooden table?",
+        "what is the specific item being held by the container on the wooden table?"
+      ],
+      "default": "what is the specific container holding the salad on the wooden table?",
+      "question": "what is the specific container holding the salad on the wooden table?",
+      "answer": "glass bowl",
+      "rewrite": "an assortment of different foods, including a salad in a glass bowl, placed on a wooden table",
+      "review": null,
+      "shared_seconds": 7.763536999933422
+    },
+    {
+      "evidence": [
+        33513,
+        47902,
+        46416,
+        41889,
+        31709,
+        38692,
+        32576,
+        10769,
+        36904,
+        17065
+      ],
+      "candidates": [
+        "what color is the glass bowl holding the salad on the wooden table?",
+        "what is the color of the glass bowl holding the salad on the wooden table?",
+        "what is the color of the glass bowl holding the salad on the wooden table?",
+        "what is the color of the glass bowl holding the salad on the wooden table?",
+        "what is the color of the glass bowl?"
+      ],
+      "default": "what is the color of the glass bowl?",
+      "question": "what is the color of the glass bowl?",
+      "answer": "clear",
+      "rewrite": "an assortment of different foods, including a salad in a clear glass bowl, placed on a wooden table",
+      "review": null,
+      "shared_seconds": 7.592426749877632
+    },
+    {
+      "evidence": [
+        31709,
+        8045,
+        41889,
+        28309,
+        22502,
+        10769,
+        2879,
+        32611,
+        36904,
+        17065
+      ],
+      "candidates": [
+        "what is the specific type of salad contained in the clear glass bowl on the wooden table?",
+        "what are the other ingredients in the clear glass bowl of salad besides the main type?",
+        "what is the main type of salad contained in the clear glass bowl on the wooden table?",
+        "what is the specific type of salad contained in the clear glass bowl on the wooden table?",
+        "what is the main ingredient of the salad in the clear glass bowl on the wooden table?"
+      ],
+      "default": "what is the main type of salad contained in the clear glass bowl on the wooden table?",
+      "question": "what is the main type of salad contained in the clear glass bowl on the wooden table?",
+      "answer": "green salad",
+      "rewrite": "an assortment of different foods, including a green salad in a clear glass bowl, placed on a wooden table",
+      "review": null,
+      "shared_seconds": 8.031545916106552
+    },
+    {
+      "evidence": [
+        24198,
+        39457,
+        28309,
+        5339,
+        10769,
+        32708,
+        31709,
+        39354,
+        36904,
+        17065
+      ],
+      "candidates": [
+        "what is the specific ingredient topping the green salad in the clear glass bowl on the wooden table?",
+        "what is the specific ingredient topping the green salad in the clear glass bowl on the wooden table?",
+        "what is the specific topping on the green salad in the clear glass bowl?",
+        "what is the specific ingredient topping the green salad in the clear glass bowl on the wooden table?",
+        "what is the specific ingredient topping the green salad in the clear glass bowl on the wooden table?"
+      ],
+      "default": "what is the specific topping on the green salad in the clear glass bowl?",
+      "question": "what is the specific topping on the green salad in the clear glass bowl?",
+      "answer": "peanuts",
+      "rewrite": "an assortment of foods on a wooden table, featuring a clear glass bowl containing a green salad topped with peanuts",
+      "review": null,
+      "shared_seconds": 8.081137959146872
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "an assortment of different foods on a table",
+      "raw_rank": 37,
+      "filtered_rank": 37,
+      "rank": 37,
+      "ordinary_screen": [
+        25619,
+        17763,
+        153,
+        18545,
+        30937,
+        46118,
+        21393,
+        3466,
+        29120,
+        6971
+      ],
+      "display": [
+        25619,
+        17763,
+        153,
+        18545,
+        30937,
+        46118,
+        21393,
+        3466,
+        29120,
+        6971
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "an assortment of different foods on a wooden table",
+      "raw_rank": 56,
+      "filtered_rank": 51,
+      "rank": 51,
+      "ordinary_screen": [
+        22179,
+        41908,
+        9128,
+        19097,
+        37592,
+        19447,
+        20662,
+        38249,
+        9664,
+        45214
+      ],
+      "display": [
+        22179,
+        41908,
+        9128,
+        19097,
+        37592,
+        19447,
+        20662,
+        38249,
+        9664,
+        45214
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "an assortment of different foods, specifically salad, placed on a wooden table",
+      "raw_rank": 14,
+      "filtered_rank": 13,
+      "rank": 13,
+      "ordinary_screen": [
+        16647,
+        38248,
+        27789,
+        23001,
+        49016,
+        33072,
+        44899,
+        48875,
+        24154,
+        46143
+      ],
+      "display": [
+        16647,
+        38248,
+        27789,
+        23001,
+        49016,
+        33072,
+        44899,
+        48875,
+        24154,
+        46143
+      ],
+      "check": {}
+    },
+    {
+      "round": 3,
+      "query": "an assortment of different foods, including a salad in a glass bowl, placed on a wooden table",
+      "raw_rank": 33,
+      "filtered_rank": 27,
+      "rank": 27,
+      "ordinary_screen": [
+        36904,
+        17065,
+        4614,
+        18375,
+        38788,
+        31889,
+        11963,
+        5713,
+        21003,
+        35980
+      ],
+      "display": [
+        36904,
+        17065,
+        4614,
+        18375,
+        38788,
+        31889,
+        11963,
+        5713,
+        21003,
+        35980
+      ],
+      "check": {}
+    },
+    {
+      "round": 4,
+      "query": "an assortment of different foods, including a salad in a clear glass bowl, placed on a wooden table",
+      "raw_rank": 51,
+      "filtered_rank": 35,
+      "rank": 35,
+      "ordinary_screen": [
+        46416,
+        33513,
+        25725,
+        47902,
+        38692,
+        5033,
+        32576,
+        9018,
+        9039,
+        11936
+      ],
+      "display": [
+        46416,
+        33513,
+        25725,
+        47902,
+        38692,
+        5033,
+        32576,
+        9018,
+        9039,
+        11936
+      ],
+      "check": {}
+    },
+    {
+      "round": 5,
+      "query": "an assortment of different foods, including a green salad in a clear glass bowl, placed on a wooden table",
+      "raw_rank": 53,
+      "filtered_rank": 26,
+      "rank": 26,
+      "ordinary_screen": [
+        8045,
+        48368,
+        22502,
+        37019,
+        23259,
+        6264,
+        47352,
+        41309,
+        32611,
+        41889
+      ],
+      "display": [
+        8045,
+        48368,
+        22502,
+        37019,
+        23259,
+        6264,
+        47352,
+        41309,
+        32611,
+        41889
+      ],
+      "check": {}
+    },
+    {
+      "round": 6,
+      "query": "an assortment of foods on a wooden table, featuring a clear glass bowl containing a green salad topped with peanuts",
+      "raw_rank": 7,
+      "filtered_rank": 2,
+      "rank": 2,
+      "ordinary_screen": [
+        31191,
+        15403,
+        24923,
+        10769,
+        42708,
+        8582,
+        25607,
+        49797,
+        9998,
+        34733
+      ],
+      "display": [
+        31191,
+        15403,
+        24923,
+        10769,
+        42708,
+        8582,
+        25607,
+        49797,
+        9998,
+        34733
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 49.58852154202759,
+  "live": true,
+  "seconds": 49.73733237502165
+}

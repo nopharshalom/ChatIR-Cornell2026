@@ -1,0 +1,40 @@
+{
+  "plan_raw": "{\n\"choice\": 1,\n\"check\": \"specific color pattern\",\n\"photos\": [0, 1]\n}",
+  "provisional": 1,
+  "valid_plan": true,
+  "caption": {
+    "choice": 1,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "The specific color pattern is unknown as the provided caption does not describe the bus's colors."
+      },
+      {
+        "index": 1,
+        "observation": "The bus has a white and red color pattern."
+      }
+    ],
+    "raw": "{\"choice\": 1}"
+  },
+  "pixels": {
+    "choice": 1,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "The bus features a white body with blue and red lettering for \"national express\" and black diagonal stripes."
+      },
+      {
+        "index": 1,
+        "observation": "The bus is white with red accents."
+      }
+    ],
+    "raw": "{\n\"choice\": 1\n}"
+  },
+  "qid": 1646,
+  "example_ids": [
+    549,
+    1279
+  ]
+}

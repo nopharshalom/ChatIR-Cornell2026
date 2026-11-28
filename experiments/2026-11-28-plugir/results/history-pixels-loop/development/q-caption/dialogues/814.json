@@ -1,0 +1,185 @@
+{
+  "qid": 814,
+  "target": "unlabeled2017/000000383772.jpg",
+  "arm": "q-caption",
+  "first": 2,
+  "turns": [
+    {
+      "evidence": [
+        13361,
+        3248,
+        44280,
+        49897,
+        5389,
+        43033,
+        4822,
+        13735,
+        17935,
+        11942
+      ],
+      "candidates": [
+        "what is the gender of the two people wearing black standing next to each other?",
+        "what are the two people wearing black standing next to each other holding?",
+        "Question: What is the location of the two people wearing black standing next to each other?",
+        "what objects are the two people wearing black standing next to each other holding?",
+        "what are the two people wearing black standing next to each other wearing on their lower bodies?"
+      ],
+      "default": "what is the gender of the two people wearing black standing next to each other?",
+      "question": "what is the gender of the two people wearing black standing next to each other?",
+      "answer": "male",
+      "rewrite": "two men wearing black standing next to each other",
+      "review": {
+        "default": "what is the gender of the two people wearing black standing next to each other?",
+        "questions": [
+          "what is the gender of the two people wearing black standing next to each other?",
+          "what are the two people wearing black standing next to each other holding?",
+          "Question: What is the location of the two people wearing black standing next to each other?",
+          "what objects are the two people wearing black standing next to each other holding?",
+          "what are the two people wearing black standing next to each other wearing on their lower bodies?"
+        ],
+        "selected": "what is the gender of the two people wearing black standing next to each other?",
+        "scores": {}
+      },
+      "shared_seconds": 7.147
+    },
+    {
+      "evidence": [
+        45274,
+        2382,
+        7938,
+        45389,
+        33070,
+        49479,
+        17935,
+        25169,
+        28321,
+        30573
+      ],
+      "candidates": [
+        "what color are the ties worn by the two men standing next to each other?",
+        "what are the two men wearing on their lower bodies?",
+        "what activity are the two men wearing black doing?",
+        "what type of shoes are the two men wearing on their lower bodies?",
+        "what color are the ties worn by the two men wearing black standing next to each other?"
+      ],
+      "default": "what activity are the two men wearing black doing?",
+      "question": "what activity are the two men wearing black doing?",
+      "answer": "posing for a photo",
+      "rewrite": "two men wearing black are standing next to each other, posing for a photo",
+      "review": {
+        "default": "what activity are the two men wearing black doing?",
+        "questions": [
+          "what color are the ties worn by the two men standing next to each other?",
+          "what are the two men wearing on their lower bodies?",
+          "what activity are the two men wearing black doing?",
+          "what type of shoes are the two men wearing on their lower bodies?",
+          "what color are the ties worn by the two men wearing black standing next to each other?"
+        ],
+        "selected": "what activity are the two men wearing black doing?",
+        "scores": {}
+      },
+      "shared_seconds": 9.886
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "2 people wearing black are standing next to each other",
+      "raw_rank": 116,
+      "filtered_rank": 116,
+      "rank": 116,
+      "ordinary_screen": [
+        13361,
+        3248,
+        44280,
+        49897,
+        5389,
+        13735,
+        4822,
+        43033,
+        17935,
+        11942
+      ],
+      "display": [
+        13361,
+        3248,
+        44280,
+        49897,
+        5389,
+        13735,
+        4822,
+        43033,
+        17935,
+        11942
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "two men wearing black standing next to each other",
+      "raw_rank": 20,
+      "filtered_rank": 17,
+      "rank": 17,
+      "ordinary_screen": [
+        45274,
+        2382,
+        7938,
+        45389,
+        49479,
+        33070,
+        25169,
+        28321,
+        30573,
+        20893
+      ],
+      "display": [
+        45274,
+        2382,
+        7938,
+        45389,
+        49479,
+        33070,
+        25169,
+        28321,
+        30573,
+        20893
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "two men wearing black are standing next to each other, posing for a photo",
+      "raw_rank": 6,
+      "filtered_rank": 2,
+      "rank": 2,
+      "ordinary_screen": [
+        27512,
+        32903,
+        37727,
+        2788,
+        43941,
+        19867,
+        19104,
+        41979,
+        47646,
+        33054
+      ],
+      "display": [
+        27512,
+        32903,
+        37727,
+        2788,
+        43941,
+        19867,
+        19104,
+        41979,
+        47646,
+        33054
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 17.033,
+  "live": false,
+  "seconds": 0.03662699996493757
+}

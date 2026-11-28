@@ -1,0 +1,34 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    [
+      4722,
+      13218,
+      40679,
+      44971,
+      16211,
+      27844,
+      17013,
+      11031,
+      8640,
+      25217
+    ],
+    "what color is the shirt the man is wearing?",
+    "Answer the question separately for each numbered photo. Give the dominant basic color of the item asked about. Choose one of black, white, gray, red, orange, yellow, green, blue, purple, pink, brown, or unknown if absent or uncertain. Return a JSON object with exactly one answer for each printed tile ID. The top row is 0,1,2,3,4 and the bottom row is 5,6,7,8,9. Use these ten ID strings as keys, including \"0\" and \"9\".",
+    180
+  ],
+  "raw": "```json\n{\n\"0\": \"blue\",\n\"1\": \"white\",\n\"2\": \"blue\",\n\"3\": \"white\",\n\"4\": \"blue\",\n\"5\": \"blue\",\n\"6\": \"white\",\n\"7\": \"yellow\",\n\"8\": \"pink\",\n\"9\": \"blue\"\n}\n```",
+  "answers": [
+    "blue",
+    "white",
+    "blue",
+    "white",
+    "blue",
+    "blue",
+    "white",
+    "yellow",
+    "pink",
+    "blue"
+  ],
+  "seconds": 2.7417621659114957
+}

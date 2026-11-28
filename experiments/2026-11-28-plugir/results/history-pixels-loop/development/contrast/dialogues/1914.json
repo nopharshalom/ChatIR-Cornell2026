@@ -1,0 +1,104 @@
+{
+  "qid": 1914,
+  "target": "unlabeled2017/000000479985.jpg",
+  "arm": "contrast",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        31597,
+        11600,
+        8640,
+        25217,
+        93,
+        40397,
+        19343,
+        43723,
+        27844,
+        4722
+      ],
+      "candidates": [
+        "what is the man wearing while playing professional tennis on the clay court?",
+        "what is the color of the shirt the man is wearing while playing professional tennis on the clay court?",
+        "what is the color of the racket the man is holding?",
+        "Question: What is the color of the racket the man is holding?",
+        "what is the color of the shirt the man is wearing while playing tennis?"
+      ],
+      "default": "what is the man wearing while playing professional tennis on the clay court?",
+      "question": "what is the man wearing while playing professional tennis on the clay court?",
+      "answer": "green shirt, black shorts, white socks, and wristbands.",
+      "rewrite": "a man wearing a green shirt, black shorts, white socks, and wristbands playing professional tennis on clay courts",
+      "review": null,
+      "shared_seconds": 10.696877875132486
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a man playing professional tennis on clay courts",
+      "raw_rank": 41,
+      "filtered_rank": 41,
+      "rank": 41,
+      "ordinary_screen": [
+        27844,
+        4722,
+        16211,
+        40679,
+        46157,
+        17013,
+        18037,
+        13218,
+        43495,
+        28743
+      ],
+      "display": [
+        27844,
+        4722,
+        16211,
+        40679,
+        46157,
+        17013,
+        18037,
+        13218,
+        43495,
+        28743
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a man wearing a green shirt, black shorts, white socks, and wristbands playing professional tennis on clay courts",
+      "raw_rank": 3,
+      "filtered_rank": 3,
+      "rank": 3,
+      "ordinary_screen": [
+        13191,
+        19343,
+        41178,
+        29173,
+        39459,
+        11031,
+        40397,
+        34859,
+        30543,
+        10028
+      ],
+      "display": [
+        13191,
+        19343,
+        41178,
+        29173,
+        39459,
+        11031,
+        40397,
+        34859,
+        30543,
+        10028
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 10.696877875132486,
+  "live": true,
+  "seconds": 10.74085274990648
+}

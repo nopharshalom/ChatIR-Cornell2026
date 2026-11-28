@@ -1,0 +1,104 @@
+{
+  "qid": 1782,
+  "target": "unlabeled2017/000000427339.jpg",
+  "arm": "contrast",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        44587,
+        44615,
+        26544,
+        34158,
+        31708,
+        7551,
+        42890,
+        45649,
+        445,
+        30292
+      ],
+      "candidates": [
+        "what is the weather condition at the airport where the two airplanes are parked?",
+        "Question: what is the color of the airplanes parked on the airport runway?",
+        "what is the surface condition of the runway where the two airplanes are parked?",
+        "Question: Are the airplanes in the image green?",
+        "what is the color of the airplanes parked on the airport runway?"
+      ],
+      "default": "what is the surface condition of the runway where the two airplanes are parked?",
+      "question": "what is the surface condition of the runway where the two airplanes are parked?",
+      "answer": "wet",
+      "rewrite": "two airplanes are parked on a wet airport runway",
+      "review": null,
+      "shared_seconds": 11.782831999938935
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "2 airplanes are parked on an airport runway",
+      "raw_rank": 44,
+      "filtered_rank": 44,
+      "rank": 44,
+      "ordinary_screen": [
+        445,
+        30292,
+        35981,
+        39016,
+        34312,
+        35509,
+        23796,
+        5535,
+        19024,
+        4265
+      ],
+      "display": [
+        445,
+        30292,
+        35981,
+        39016,
+        34312,
+        35509,
+        23796,
+        5535,
+        19024,
+        4265
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "two airplanes are parked on a wet airport runway",
+      "raw_rank": 2,
+      "filtered_rank": 2,
+      "rank": 2,
+      "ordinary_screen": [
+        26544,
+        36629,
+        49253,
+        48603,
+        27546,
+        39074,
+        33951,
+        47508,
+        7551,
+        22414
+      ],
+      "display": [
+        26544,
+        36629,
+        49253,
+        48603,
+        27546,
+        39074,
+        33951,
+        47508,
+        7551,
+        22414
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 11.782831999938935,
+  "live": true,
+  "seconds": 11.82877383287996
+}

@@ -1,0 +1,10 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    "You see only the user's initial description and completed dialogue. Is the proposed\nquestion natural and neutrally phrased about a uniquely identifiable subject in their own\nphoto, applicable to that subject, directly visible, still unanswered and not previously\nasked even with different wording? Reject false premises, underspecified multiple people or\nobjects, implied answers, and activities that require guessing intent. The labels must\nrepresent distinct, non-overlapping plausible answers. Return exactly PASS or SKIP.",
+    "{\"dialogue\": [\"a stop sign is set up where 3 roads intersect\", \"what is the other object in the image? stop sign\", \"what is the background of the stop sign? street signs\", \"what is the specific type of intersection where the stop sign is located? T-intersection.\", \"what is the time of day depicted in the image with the stop sign at a T-intersection? late afternoon\", \"what is the weather condition depicted in the image? clear\", \"what is the material of the pole holding the stop sign? metal\", \"what is the state of the stop sign in the image? upright\"], \"slot\": {\"entity\": \"stop sign\", \"family\": \"color\", \"question\": \"What is the main color of the stop sign?\", \"values\": [\"red\", \"white\"]}}",
+    10,
+    null
+  ],
+  "response": "PASS"
+}

@@ -1,0 +1,104 @@
+{
+  "qid": 1091,
+  "target": "unlabeled2017/000000142911.jpg",
+  "arm": "contrast",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        47181,
+        26570,
+        44704,
+        12334,
+        26874,
+        23042,
+        21388,
+        48515,
+        47913,
+        25869
+      ],
+      "candidates": [
+        "what color are the fighter jets flying through the sky?",
+        "Question: What color is the smoke trail left by the three fighter jets flying through the sky?",
+        "what is the color of the fighter jets?",
+        "Question: What color are the fighter jets?",
+        "Question: What is the color of the smoke trail left by the fighter jets?"
+      ],
+      "default": "what is the color of the fighter jets?",
+      "question": "what is the color of the fighter jets?",
+      "answer": "white",
+      "rewrite": "three white fighter jets flying through the sky leaving a trail",
+      "review": null,
+      "shared_seconds": 9.404575834050775
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "3 fighter jets flying through the sky leaving a path",
+      "raw_rank": 14,
+      "filtered_rank": 14,
+      "rank": 14,
+      "ordinary_screen": [
+        47913,
+        25869,
+        14483,
+        33202,
+        22605,
+        2135,
+        18436,
+        23504,
+        1641,
+        6926
+      ],
+      "display": [
+        47913,
+        25869,
+        14483,
+        33202,
+        22605,
+        2135,
+        18436,
+        23504,
+        1641,
+        6926
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "three white fighter jets flying through the sky leaving a trail",
+      "raw_rank": 12,
+      "filtered_rank": 5,
+      "rank": 5,
+      "ordinary_screen": [
+        26570,
+        47181,
+        34889,
+        8552,
+        12334,
+        44704,
+        37196,
+        28271,
+        48507,
+        16576
+      ],
+      "display": [
+        26570,
+        47181,
+        34889,
+        8552,
+        12334,
+        44704,
+        37196,
+        28271,
+        48507,
+        16576
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 9.404575834050775,
+  "live": true,
+  "seconds": 9.4526580828242
+}

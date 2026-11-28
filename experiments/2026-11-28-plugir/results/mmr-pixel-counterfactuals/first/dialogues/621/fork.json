@@ -1,0 +1,80 @@
+{
+  "pivot": 1,
+  "trace": [
+    {
+      "slots": [],
+      "vetoes": [
+        "dialogue-only check: {'status': 'KNOWN', 'evidence': \"The initial description states the man is 'playing tennis', which implies the setting is a 'tennis court'.\"}"
+      ]
+    },
+    {
+      "slots": [
+        {
+          "entity": "backdrop",
+          "family": "color",
+          "values": [
+            "blue",
+            "green",
+            "orange"
+          ],
+          "question": "What is the main color of the backdrop?"
+        }
+      ],
+      "vetoes": [
+        "previous question about this subject and attribute",
+        "attribute explicitly modifies subject"
+      ],
+      "caption_labels": [
+        [
+          "blue",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "blue",
+          "orange",
+          "blue",
+          "green",
+          "green",
+          "blue",
+          "green",
+          "green",
+          "green",
+          "green"
+        ]
+      ],
+      "filled": [
+        9
+      ],
+      "pixel_supported": [
+        true
+      ],
+      "captions_transfer": [
+        null
+      ],
+      "pixels_transfer": [
+        0.8611111111111112
+      ]
+    }
+  ],
+  "questions": [
+    "Question: What is the gender of the person playing tennis?",
+    "What is the main color of the backdrop?"
+  ],
+  "picks": {
+    "blind_alternative": 1,
+    "captions_annotations": 1,
+    "captions_retrieval": 0,
+    "pixels_annotations": 1,
+    "pixels_retrieval": 1
+  }
+}

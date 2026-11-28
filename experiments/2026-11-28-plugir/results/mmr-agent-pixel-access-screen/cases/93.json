@@ -1,0 +1,40 @@
+{
+  "plan_raw": "{\n\"choice\": 3,\n\"check\": \"specific color verification for both subjects\",\n\"photos\": [0, 1]\n}",
+  "provisional": 3,
+  "valid_plan": true,
+  "caption": {
+    "choice": 4,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "The caption mentions a green fence, but no second subject is described or visible to verify a color for both."
+      },
+      {
+        "index": 1,
+        "observation": "Unknown, as the caption does not describe the specific colors of the subjects."
+      }
+    ],
+    "raw": "{\n\"choice\": 4\n}"
+  },
+  "pixels": {
+    "choice": 3,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "unknown"
+      },
+      {
+        "index": 1,
+        "observation": "both subjects are wearing orange shirts."
+      }
+    ],
+    "raw": "{\"choice\": 3}"
+  },
+  "qid": 93,
+  "example_ids": [
+    1716,
+    1197
+  ]
+}

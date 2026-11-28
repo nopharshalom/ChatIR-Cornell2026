@@ -1,0 +1,82 @@
+{
+  "pivot": 2,
+  "trace": [
+    {
+      "slots": [],
+      "vetoes": [
+        "no grounded subjects"
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "no grounded subjects"
+      ]
+    },
+    {
+      "slots": [
+        {
+          "entity": "small kitchen space",
+          "family": "material",
+          "values": [
+            "wood",
+            "metal"
+          ],
+          "question": "What material is the small kitchen space made of?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          null,
+          null,
+          "wood",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "wood"
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "wood",
+          "wood",
+          "wood",
+          "metal",
+          "wood",
+          "wood",
+          "metal",
+          "wood",
+          null,
+          "wood"
+        ]
+      ],
+      "filled": [
+        7
+      ],
+      "pixel_supported": [
+        true
+      ],
+      "captions_transfer": [
+        null
+      ],
+      "pixels_transfer": [
+        0.7142857142857143
+      ]
+    }
+  ],
+  "questions": [
+    "what is the color of the floor in the small, clean kitchen?",
+    "What material is the small kitchen space made of?"
+  ],
+  "picks": {
+    "blind_alternative": 1,
+    "captions_annotations": 1,
+    "captions_retrieval": 0,
+    "pixels_annotations": 1,
+    "pixels_retrieval": 1
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "qid": 1650,
+  "selection": {
+    "kl": "what is the other object in the image?",
+    "probe": "what is the other object in the image?",
+    "candidates": [
+      {
+        "question": "what is the material of the bench?",
+        "score": 4,
+        "branches": [
+          {
+            "answer": "wood",
+            "caption": "a wooden bench faces toward the concrete walkway outside",
+            "top10": [
+              10338,
+              12403,
+              821,
+              26885,
+              8783,
+              49420,
+              49423,
+              19019,
+              28326,
+              19229
+            ]
+          },
+          {
+            "answer": "green metal",
+            "caption": "the green metal bench faces toward the concrete walkway outside",
+            "top10": [
+              36324,
+              37912,
+              29210,
+              21611,
+              22962,
+              11962,
+              7039,
+              15086,
+              44788,
+              47077
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: what is the color of the bench?",
+        "score": 2,
+        "branches": [
+          {
+            "answer": "green",
+            "caption": "the bench is made of green metal",
+            "top10": [
+              36324,
+              37912,
+              22962,
+              17943,
+              7039,
+              43671,
+              22641,
+              40001,
+              27477,
+              31897
+            ]
+          },
+          {
+            "answer": "wooden",
+            "caption": "two wooden benches outside",
+            "top10": [
+              15418,
+              7222,
+              12426,
+              28913,
+              22617,
+              49385,
+              39981,
+              18796,
+              28326,
+              41900
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the surface the bench is sitting on?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "what is the other object in the image?",
+        "score": 7,
+        "branches": [
+          {
+            "answer": "a blue sidewalk",
+            "caption": "two wooden benches outside and a blue sidewalk",
+            "top10": [
+              1015,
+              20305,
+              7222,
+              31547,
+              12426,
+              23074,
+              37626,
+              26885,
+              37422,
+              22617
+            ]
+          },
+          {
+            "answer": "a street",
+            "caption": "an outdoor bench sitting in front of a street",
+            "top10": [
+              48114,
+              22038,
+              49423,
+              23074,
+              11613,
+              12539,
+              3389,
+              40513,
+              47546,
+              32781
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "outcomes": {
+    "what is the material of the bench?": {
+      "answer": "wood",
+      "rewrite": "a wooden bench facing a concrete walkway outside",
+      "rank": 79
+    },
+    "Question: what is the color of the bench?": {
+      "answer": "orange",
+      "rewrite": "an orange bench facing a concrete walkway outside",
+      "rank": 1
+    },
+    "what is the surface the bench is sitting on?": {
+      "answer": "concrete",
+      "rewrite": "the bench faces toward the concrete walkway outside and is situated on a concrete surface",
+      "rank": 16
+    },
+    "what is the other object in the image?": {
+      "answer": "bird",
+      "rewrite": "a bench facing a concrete walkway with a bird nearby",
+      "rank": 1
+    }
+  },
+  "saved_kl_rank": 1
+}

@@ -1,0 +1,245 @@
+{
+  "qid": 176,
+  "target": "unlabeled2017/000000538790.jpg",
+  "arm": "pixels",
+  "first": 2,
+  "turns": [
+    {
+      "evidence": [
+        3698,
+        43869,
+        34732,
+        7120,
+        19556,
+        27782,
+        17329,
+        13169,
+        45031,
+        16730
+      ],
+      "candidates": [
+        "what is the weather condition over the ocean in the image?",
+        "Question: how many people are flying kites on the beach?",
+        "Question: Which of the following best describes the activity being performed by the people on the beach?",
+        "what is the color of the sky in the image?",
+        "what is the color of the sand in the image?"
+      ],
+      "default": "what is the color of the sand in the image?",
+      "question": "what is the color of the sand in the image?",
+      "answer": "brown",
+      "rewrite": "two kites flying over brown sand by the ocean shore",
+      "review": null,
+      "shared_seconds": 8.383
+    },
+    {
+      "evidence": [
+        3698,
+        23942,
+        19260,
+        20782,
+        19556,
+        39552,
+        34732,
+        5950,
+        27782,
+        24480
+      ],
+      "candidates": [
+        "what is the color of the sky in the image?",
+        "Question: what is the color of the sky in the image?",
+        "what is the color of the sky in the image?",
+        "what is the color of the sky in the image where two kites are flying over the sand by the ocean shore?",
+        "what is the color of the sky in the image where two kites are flying over the sand by the ocean shore?"
+      ],
+      "default": "what is the color of the sky in the image?",
+      "question": "what is the color of the sky in the image?",
+      "answer": "blue",
+      "rewrite": "two kites flying over brown sand by the ocean shore under a blue sky",
+      "review": null,
+      "shared_seconds": 7.243
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "2 kites flying over the sand by the ocean shore",
+      "raw_rank": 13,
+      "filtered_rank": 13,
+      "rank": 13,
+      "ordinary_screen": [
+        3698,
+        43869,
+        34732,
+        7120,
+        19556,
+        27782,
+        17329,
+        13169,
+        45031,
+        16730
+      ],
+      "display": [
+        3698,
+        43869,
+        34732,
+        7120,
+        19556,
+        27782,
+        17329,
+        13169,
+        45031,
+        16730
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "two kites flying over brown sand by the ocean shore",
+      "raw_rank": 19,
+      "filtered_rank": 11,
+      "rank": 11,
+      "ordinary_screen": [
+        23942,
+        19260,
+        20782,
+        39552,
+        5950,
+        5493,
+        24480,
+        13478,
+        49587,
+        41379
+      ],
+      "display": [
+        23942,
+        19260,
+        20782,
+        39552,
+        5950,
+        5493,
+        24480,
+        13478,
+        49587,
+        41379
+      ],
+      "check": {
+        "question": "what is the color of the sand in the image?",
+        "answer": "brown",
+        "labels": [
+          {
+            "id": 13478,
+            "color": "brown",
+            "file": "324a57a2ac3d7ca88b67b4879b34c357f52f817f363f34ed5d9b814bf70af5e2.json",
+            "seconds": 0.5075868330895901
+          },
+          {
+            "id": 49587,
+            "color": "brown",
+            "file": "60bdf9a14295f6160260c4537697b4d13754bdfc5b47c206eaf98e9ee27353b4.json",
+            "seconds": 0.5241239999886602
+          },
+          {
+            "id": 41379,
+            "color": "brown",
+            "file": "2e9ad0fb80980b8b0f5e974f39508dd45f0e5390f7b91ea2dd39ec09332c9f49.json",
+            "seconds": 0.5283825830556452
+          },
+          {
+            "id": 46329,
+            "color": "gray",
+            "file": "eab60c675331304d2889ebcfc0134ab6cb162bfc72dd697a26f944b64362a42d.json",
+            "seconds": 0.5268002499360591
+          },
+          {
+            "id": 14253,
+            "color": "tan",
+            "file": "3b4dc246b153470add2e8a4d5cf92ab76ad2f7724cf8c1f09b4c408f6733ccec.json",
+            "seconds": 0.4598114159889519
+          },
+          {
+            "id": 29952,
+            "color": "brown",
+            "file": "4c35bc31cbb0cb22e29e9b54587761f66bdd32ba49f5e73d17828f8fd2f0626d.json",
+            "seconds": 0.4581914159934968
+          }
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "query": "two kites flying over brown sand by the ocean shore under a blue sky",
+      "raw_rank": 10,
+      "filtered_rank": 2,
+      "rank": 2,
+      "ordinary_screen": [
+        24274,
+        46329,
+        4615,
+        29952,
+        11291,
+        14960,
+        18139,
+        397,
+        5718,
+        49886
+      ],
+      "display": [
+        24274,
+        46329,
+        4615,
+        29952,
+        11291,
+        14960,
+        18139,
+        397,
+        5718,
+        49886
+      ],
+      "check": {
+        "question": "what is the color of the sky in the image?",
+        "answer": "blue",
+        "labels": [
+          {
+            "id": 397,
+            "color": "blue",
+            "file": "d458d14a71afbc61ab127f86c498839d42f9d6c097e1954ad28d0e51cbf2df16.json",
+            "seconds": 0.5246541248634458
+          },
+          {
+            "id": 5718,
+            "color": "blue",
+            "file": "6a3a49ed694ff8d073e7bdd0521de2f2c82063db63fb8466688997aa7f4d4d68.json",
+            "seconds": 0.4617356250528246
+          },
+          {
+            "id": 49886,
+            "color": "blue",
+            "file": "bf8c0cea4642ca517e0fe8d1aedb8039c439701f9cf7db8f40760c90750fe2a8.json",
+            "seconds": 0.45414862502366304
+          },
+          {
+            "id": 18577,
+            "color": "blue",
+            "file": "d424952318da2a9ae14fc75239e71f2b3f73ede00362623e14e52c74519255d2.json",
+            "seconds": 0.47340249991975725
+          },
+          {
+            "id": 11933,
+            "color": "blue",
+            "file": "c6c0e38f23afa1401ad4a6a7d77b2ac4fce454619cdb6bfcafc4df62141c6e68.json",
+            "seconds": 0.469857333926484
+          },
+          {
+            "id": 41977,
+            "color": "blue",
+            "file": "895d750278dbb648fdba49e03c6c7bebcdfb03d785417c6e30bf21bbf1ef7f85.json",
+            "seconds": 0.38315450004301965
+          }
+        ]
+      }
+    }
+  ],
+  "shared_seconds": 15.626,
+  "live": false,
+  "seconds": 5.834672875003889
+}

@@ -1,0 +1,34 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    [
+      1974,
+      27018,
+      24224,
+      2690,
+      2344,
+      42312,
+      20390,
+      16150,
+      39858,
+      25754
+    ],
+    "what is the color of the window frame?",
+    "Answer the question separately for each numbered photo. Give the dominant basic color of the item asked about. Choose one of black, white, gray, red, orange, yellow, green, blue, purple, pink, brown, or unknown if absent or uncertain. Return a JSON object with exactly one answer for each printed tile ID. The top row is 0,1,2,3,4 and the bottom row is 5,6,7,8,9. Use these ten ID strings as keys, including \"0\" and \"9\".",
+    180
+  ],
+  "raw": "```json\n{\n  \"0\": \"white\",\n  \"1\": \"white\",\n  \"2\": \"unknown\",\n  \"3\": \"brown\",\n  \"4\": \"white\",\n  \"5\": \"unknown\",\n  \"6\": \"white\",\n  \"7\": \"unknown\",\n  \"8\": \"white\",\n  \"9\": \"white\"\n}\n```",
+  "answers": [
+    "white",
+    "white",
+    "unknown",
+    "brown",
+    "white",
+    "unknown",
+    "white",
+    "unknown",
+    "white",
+    "white"
+  ],
+  "seconds": 3.0978345000185072
+}

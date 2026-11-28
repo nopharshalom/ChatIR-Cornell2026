@@ -1,0 +1,163 @@
+{
+  "qid": 541,
+  "target": "unlabeled2017/000000465136.jpg",
+  "arm": "unseen",
+  "first": 2,
+  "turns": [
+    {
+      "evidence": [
+        38436,
+        28245,
+        22083,
+        9182,
+        19536,
+        45150,
+        5764,
+        37055,
+        3761,
+        10195
+      ],
+      "candidates": [
+        "Question: What is the location where the boy and couple are riding the elephant?",
+        "what is the surface or path that the elephant is riding on?",
+        "what is the gender of the two people riding on the elephant?",
+        "what is the specific gender of the couple riding on the elephant?",
+        "what is the gender of the couple riding the elephant?"
+      ],
+      "default": "what is the gender of the couple riding the elephant?",
+      "question": "what is the gender of the couple riding the elephant?",
+      "answer": "male",
+      "rewrite": "a boy and a male couple riding atop an elephant",
+      "review": null,
+      "shared_seconds": 10.151368124876171
+    },
+    {
+      "evidence": [
+        28943,
+        3678,
+        10195,
+        37055,
+        22467,
+        3761,
+        25121,
+        9182,
+        10339,
+        19599
+      ],
+      "candidates": [
+        "what is the location where the boy and the couple are riding the elephant?",
+        "what is the surface or terrain where the boy and the couple are riding the elephant?",
+        "what is the specific type of terrain where the boy and the couple are riding the elephant?",
+        "what is the specific terrain or surface where the boy and the couple are riding the elephant?",
+        "what is the location where the boy and the couple are riding the elephant?"
+      ],
+      "default": "what is the location where the boy and the couple are riding the elephant?",
+      "question": "what is the location where the boy and the couple are riding the elephant?",
+      "answer": "lake",
+      "rewrite": "a boy and a male couple riding atop an elephant at a lake",
+      "review": null,
+      "shared_seconds": 10.34178104181774
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a boy and couple riding atop on elephant",
+      "raw_rank": 60,
+      "filtered_rank": 60,
+      "rank": 60,
+      "ordinary_screen": [
+        46016,
+        6356,
+        36978,
+        48041,
+        20580,
+        47580,
+        44515,
+        12949,
+        46533,
+        17397
+      ],
+      "display": [
+        46016,
+        6356,
+        36978,
+        48041,
+        20580,
+        47580,
+        44515,
+        12949,
+        46533,
+        17397
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a boy and a male couple riding atop an elephant",
+      "raw_rank": 39,
+      "filtered_rank": 29,
+      "rank": 29,
+      "ordinary_screen": [
+        19536,
+        45150,
+        5764,
+        28245,
+        38436,
+        7416,
+        22083,
+        43285,
+        49406,
+        43544
+      ],
+      "display": [
+        19536,
+        45150,
+        5764,
+        28245,
+        38436,
+        7416,
+        22083,
+        43285,
+        49406,
+        43544
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "a boy and a male couple riding atop an elephant at a lake",
+      "raw_rank": 10,
+      "filtered_rank": 7,
+      "rank": 7,
+      "ordinary_screen": [
+        22012,
+        37055,
+        3761,
+        28008,
+        11996,
+        40294,
+        39881,
+        34989,
+        7953,
+        39930
+      ],
+      "display": [
+        22012,
+        37055,
+        3761,
+        28008,
+        11996,
+        40294,
+        39881,
+        34989,
+        7953,
+        39930
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 20.49314916669391,
+  "live": true,
+  "seconds": 20.576741042081267
+}

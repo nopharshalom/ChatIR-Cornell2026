@@ -1,0 +1,100 @@
+{
+  "pivot": 2,
+  "trace": [
+    {
+      "slots": [
+        {
+          "entity": "tennis player",
+          "family": "clothing",
+          "values": [
+            "white",
+            "orange"
+          ],
+          "question": "What is the tennis player wearing on their upper body?"
+        }
+      ],
+      "vetoes": [],
+      "protocol_error": "Invalid classification on both structured and single-label attempts"
+    },
+    {
+      "slots": [
+        {
+          "entity": "tennis court",
+          "family": "color",
+          "values": [
+            "blue",
+            "green"
+          ],
+          "question": "What is the main color of the tennis court?"
+        }
+      ],
+      "vetoes": [],
+      "protocol_error": "Invalid classification on both structured and single-label attempts"
+    },
+    {
+      "slots": [
+        {
+          "entity": "tennis player",
+          "family": "material",
+          "values": [
+            "wood",
+            "metal"
+          ],
+          "question": "What material is the tennis player made of?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "metal",
+          null,
+          "wood",
+          "metal",
+          null,
+          "metal",
+          "wood",
+          null,
+          null,
+          "wood"
+        ]
+      ],
+      "filled": [
+        6
+      ],
+      "pixel_supported": [
+        true
+      ],
+      "captions_transfer": [
+        null
+      ],
+      "pixels_transfer": [
+        0.5555555555555556
+      ]
+    }
+  ],
+  "questions": [
+    "what is the action of the man with the tennis racket?",
+    "What material is the tennis player made of?"
+  ],
+  "picks": {
+    "blind_alternative": 1,
+    "captions_annotations": 1,
+    "captions_retrieval": 0,
+    "pixels_annotations": 1,
+    "pixels_retrieval": 0
+  }
+}

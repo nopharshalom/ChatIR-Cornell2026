@@ -1,0 +1,128 @@
+{
+  "qid": 896,
+  "selection": {
+    "kl": "what is the weather condition in the image showing the narrow roadway in between tall buildings?",
+    "probe": "Question: Are there people walking down the narrow roadway, or is it empty?",
+    "candidates": [
+      {
+        "question": "what is the weather condition in the image showing the narrow roadway in between tall buildings?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "Question: Is the narrow roadway located in the middle of a city with several motorcycles parked, or is it a narrow alley containing several shops, a bakery, and?",
+        "score": 4,
+        "branches": [
+          {
+            "answer": "a narrow alley containing several shops, a bakery, and a bike",
+            "caption": "a narrow alley containing several shops, a bakery, and a bike, situated in a city with tall buildings featuring stylized architecture",
+            "top10": [
+              37417,
+              41463,
+              20635,
+              37975,
+              37505,
+              21623,
+              14151,
+              17444,
+              25628,
+              31486
+            ]
+          },
+          {
+            "answer": "a street in the middle of a city with several motorcycles parked",
+            "caption": "a street in the middle of a city with several motorcycles parked, located between tall buildings with stylized architecture",
+            "top10": [
+              37975,
+              15096,
+              22031,
+              47818,
+              40811,
+              43531,
+              21584,
+              47788,
+              22271,
+              37566
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: Are there people walking down the narrow roadway, or is it empty?",
+        "score": 6,
+        "branches": [
+          {
+            "answer": "people walking down the narrow roadway",
+            "caption": "a narrow roadway in between tall buildings with stylized architecture, featuring people walking down the street",
+            "top10": [
+              3179,
+              37975,
+              20781,
+              7855,
+              47886,
+              33246,
+              36645,
+              25628,
+              37029,
+              20549
+            ]
+          },
+          {
+            "answer": "the roadway is empty",
+            "caption": "a narrow roadway in between tall buildings with stylized architecture, appearing completely empty of pedestrians",
+            "top10": [
+              37975,
+              12135,
+              7855,
+              33246,
+              36645,
+              20781,
+              37417,
+              31486,
+              14151,
+              32866
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: What type of vehicle is parked on the street in the image showing the narrow roadway in between tall buildings?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "Question: What color is the sky in the image showing the narrow roadway in between tall buildings?",
+        "score": null,
+        "branches": []
+      }
+    ]
+  },
+  "outcomes": {
+    "what is the weather condition in the image showing the narrow roadway in between tall buildings?": {
+      "answer": "rainy",
+      "rewrite": "a narrow roadway in between tall buildings with stylized architecture on a rainy day",
+      "rank": 13
+    },
+    "Question: Is the narrow roadway located in the middle of a city with several motorcycles parked, or is it a narrow alley containing several shops, a bakery, and?": {
+      "answer": "narrow alley containing several shops, a bakery, and",
+      "rewrite": "a narrow alley containing several shops, a bakery, and stylized architecture, located in the middle of a city with several motorcycles parked",
+      "rank": 19
+    },
+    "Question: Are there people walking down the narrow roadway, or is it empty?": {
+      "answer": "There are people walking down the narrow roadway.",
+      "rewrite": "a narrow roadway in between tall buildings with stylized architecture, featuring people walking down the street",
+      "rank": 18
+    },
+    "Question: What type of vehicle is parked on the street in the image showing the narrow roadway in between tall buildings?": {
+      "answer": "motorcycles",
+      "rewrite": "a narrow roadway in between tall buildings with stylized architecture, featuring parked motorcycles on the street",
+      "rank": 36
+    },
+    "Question: What color is the sky in the image showing the narrow roadway in between tall buildings?": {
+      "answer": "white",
+      "rewrite": "a narrow roadway in between tall buildings with stylized architecture under a white sky",
+      "rank": 38
+    }
+  },
+  "saved_kl_rank": 13
+}

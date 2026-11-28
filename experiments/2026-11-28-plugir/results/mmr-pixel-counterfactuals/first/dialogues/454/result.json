@@ -1,0 +1,144 @@
+{
+  "pivot": 1,
+  "rank_before": 21,
+  "branches": {
+    "mmr": {
+      "ranks": [
+        16,
+        21,
+        27,
+        8
+      ],
+      "q": "what is the color of the giraffe?",
+      "linked": false,
+      "answer": "brown",
+      "actual_rank": 27,
+      "factual": {
+        "query": "a single brown giraffe stands among shorter trees and brush",
+        "rank": 27
+      },
+      "withheld": {
+        "query": "a single giraffe of unknown color stands among shorter trees and brush",
+        "rank": 23
+      },
+      "novel": "NEW"
+    },
+    "blind_alternative": {
+      "ranks": [
+        16,
+        21,
+        3
+      ],
+      "q": "What is the single giraffe doing?",
+      "linked": true,
+      "answer": "eating",
+      "actual_rank": 3,
+      "factual": {
+        "query": "a single giraffe eating among shorter trees and brush",
+        "rank": 3
+      },
+      "withheld": {
+        "query": "a single giraffe stands among shorter trees and brush, with trees visible in the background",
+        "rank": 27
+      },
+      "novel": "UNCLEAR"
+    },
+    "captions_annotations": {
+      "ranks": [
+        16,
+        21,
+        57,
+        73,
+        53,
+        64,
+        53,
+        66,
+        76,
+        58,
+        66
+      ],
+      "q": "What surface is the single giraffe on?",
+      "linked": false,
+      "answer": "grass",
+      "actual_rank": 57,
+      "factual": {
+        "query": "a single giraffe stands on grass among shorter trees and brush",
+        "rank": 57
+      },
+      "withheld": {
+        "query": "a single giraffe stands among shorter trees and brush on an unknown surface",
+        "rank": 23
+      },
+      "novel": "UNCLEAR"
+    },
+    "captions_retrieval": {
+      "ranks": [
+        16,
+        21,
+        27,
+        8
+      ],
+      "q": "what is the color of the giraffe?",
+      "linked": false,
+      "answer": "brown",
+      "actual_rank": 27,
+      "factual": {
+        "query": "a single brown giraffe stands among shorter trees and brush",
+        "rank": 27
+      },
+      "withheld": {
+        "query": "a single giraffe of unknown color stands among shorter trees and brush",
+        "rank": 23
+      },
+      "novel": "NEW"
+    },
+    "pixels_annotations": {
+      "ranks": [
+        16,
+        21,
+        57,
+        73,
+        53,
+        64,
+        53,
+        66,
+        76,
+        58,
+        66
+      ],
+      "q": "What surface is the single giraffe on?",
+      "linked": false,
+      "answer": "grass",
+      "actual_rank": 57,
+      "factual": {
+        "query": "a single giraffe stands on grass among shorter trees and brush",
+        "rank": 57
+      },
+      "withheld": {
+        "query": "a single giraffe stands among shorter trees and brush on an unknown surface",
+        "rank": 23
+      },
+      "novel": "UNCLEAR"
+    },
+    "pixels_retrieval": {
+      "ranks": [
+        16,
+        21,
+        3
+      ],
+      "q": "What is the single giraffe doing?",
+      "linked": true,
+      "answer": "eating",
+      "actual_rank": 3,
+      "factual": {
+        "query": "a single giraffe eating among shorter trees and brush",
+        "rank": 3
+      },
+      "withheld": {
+        "query": "a single giraffe stands among shorter trees and brush, with trees visible in the background",
+        "rank": 27
+      },
+      "novel": "UNCLEAR"
+    }
+  }
+}

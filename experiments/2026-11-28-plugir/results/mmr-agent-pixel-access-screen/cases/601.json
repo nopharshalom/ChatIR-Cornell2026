@@ -1,0 +1,40 @@
+{
+  "plan_raw": "{\n\"choice\": 0,\n\"check\": \"what color is the traffic light hanging over the intersection?\",\n\"photos\": [0, 1]\n}",
+  "provisional": 0,
+  "valid_plan": true,
+  "caption": {
+    "choice": 0,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "The color of the traffic light is unknown."
+      },
+      {
+        "index": 1,
+        "observation": "The color of the traffic light is unknown."
+      }
+    ],
+    "raw": "{\"choice\": 0}"
+  },
+  "pixels": {
+    "choice": 0,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "yellow"
+      },
+      {
+        "index": 1,
+        "observation": "The traffic light hanging over the intersection is red."
+      }
+    ],
+    "raw": "{\"choice\": 0}"
+  },
+  "qid": 601,
+  "example_ids": [
+    1473,
+    1866
+  ]
+}

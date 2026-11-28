@@ -1,0 +1,40 @@
+{
+  "plan_raw": "{\n\"choice\": 1,\n\"check\": \"count verification\",\n\"photos\": [2, 5]\n}",
+  "provisional": 1,
+  "valid_plan": true,
+  "caption": {
+    "choice": 1,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 2,
+        "observation": "The caption explicitly states there are three motorcycles, which matches the requested count verification."
+      },
+      {
+        "index": 5,
+        "observation": "The image shows one motorcycle rider wearing a helmet."
+      }
+    ],
+    "raw": "{\"choice\": 1}"
+  },
+  "pixels": {
+    "choice": 1,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 2,
+        "observation": "The image shows three motorcycles parked in a row."
+      },
+      {
+        "index": 5,
+        "observation": "unknown"
+      }
+    ],
+    "raw": "{\"choice\": 1}"
+  },
+  "qid": 1466,
+  "example_ids": [
+    736,
+    917
+  ]
+}

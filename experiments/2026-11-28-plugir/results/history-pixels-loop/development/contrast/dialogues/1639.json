@@ -1,0 +1,163 @@
+{
+  "qid": 1639,
+  "target": "unlabeled2017/000000575299.jpg",
+  "arm": "contrast",
+  "first": 2,
+  "turns": [
+    {
+      "evidence": [
+        7909,
+        11562,
+        17759,
+        2687,
+        47830,
+        28616,
+        41750,
+        49535,
+        14352,
+        40471
+      ],
+      "candidates": [
+        "what is the object the people are trying to order at the counter?",
+        "what are the people wearing?",
+        "what is the specific location of the counter where the people are standing?",
+        "Question: How many people are standing at the counter in front of the window?",
+        "what is the item being prepared by the woman in the yellow jacket?"
+      ],
+      "default": "what is the object the people are trying to order at the counter?",
+      "question": "what is the object the people are trying to order at the counter?",
+      "answer": "the people are trying to order food at the counter.",
+      "rewrite": "people are standing at a counter in front of windows trying to order food",
+      "review": null,
+      "shared_seconds": 11.178029791917652
+    },
+    {
+      "evidence": [
+        3505,
+        41750,
+        5429,
+        11562,
+        4253,
+        20825,
+        49075,
+        22343,
+        11063,
+        49772
+      ],
+      "candidates": [
+        "what is the number of people standing at the counter in front of the window?",
+        "what are the people doing in the kitchen with the stacked plate of oranges?",
+        "what is the other object in the image?",
+        "what is the other object in the image?",
+        "what is the other object in the image?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "laptop",
+      "rewrite": "people are standing at a counter in front of windows, trying to order food, with a laptop visible nearby.",
+      "review": null,
+      "shared_seconds": 15.26064204191789
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "people are standing at a counter in front of windows trying to order",
+      "raw_rank": 62,
+      "filtered_rank": 62,
+      "rank": 62,
+      "ordinary_screen": [
+        14352,
+        40471,
+        49772,
+        22150,
+        43633,
+        2832,
+        11063,
+        10299,
+        15259,
+        38602
+      ],
+      "display": [
+        14352,
+        40471,
+        49772,
+        22150,
+        43633,
+        2832,
+        11063,
+        10299,
+        15259,
+        38602
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "people are standing at a counter in front of windows trying to order food",
+      "raw_rank": 145,
+      "filtered_rank": 135,
+      "rank": 135,
+      "ordinary_screen": [
+        28616,
+        17759,
+        47830,
+        23878,
+        40393,
+        7909,
+        29153,
+        47729,
+        48210,
+        33454
+      ],
+      "display": [
+        28616,
+        17759,
+        47830,
+        23878,
+        40393,
+        7909,
+        29153,
+        47729,
+        48210,
+        33454
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "people are standing at a counter in front of windows, trying to order food, with a laptop visible nearby.",
+      "raw_rank": 8,
+      "filtered_rank": 1,
+      "rank": 1,
+      "ordinary_screen": [
+        49427,
+        33000,
+        5429,
+        3442,
+        31959,
+        24806,
+        8098,
+        44042,
+        18076,
+        35292
+      ],
+      "display": [
+        49427,
+        33000,
+        5429,
+        3442,
+        31959,
+        24806,
+        8098,
+        44042,
+        18076,
+        35292
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 26.438671833835542,
+  "live": true,
+  "seconds": 26.496326208114624
+}

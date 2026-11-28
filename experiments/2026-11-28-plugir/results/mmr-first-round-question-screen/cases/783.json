@@ -1,0 +1,161 @@
+{
+  "qid": 783,
+  "selection": {
+    "kl": "what is the topping on the pizza that is cut into slices?",
+    "probe": "what is the topping on the pizza that is cut into slices?",
+    "candidates": [
+      {
+        "question": "what is the color of the plate on which the sliced pizza is sitting?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "what is the color of the pizza slices sitting on the plate?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "Question: how many slices is the pizza cut into?",
+        "score": 1,
+        "branches": [
+          {
+            "answer": "two",
+            "caption": "two slices of pizza are sitting on a plate",
+            "top10": [
+              10839,
+              411,
+              7238,
+              27480,
+              3366,
+              28557,
+              720,
+              38548,
+              43632,
+              9285
+            ]
+          },
+          {
+            "answer": "four",
+            "caption": "four pizzas with different toppings on a plate",
+            "top10": [
+              11000,
+              1221,
+              42857,
+              28677,
+              2452,
+              47505,
+              5616,
+              27974,
+              6958,
+              27467
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the number of slices the pizza is cut into?",
+        "score": 1,
+        "branches": [
+          {
+            "answer": "two",
+            "caption": "two slices of pizza are sitting on a plate",
+            "top10": [
+              10839,
+              411,
+              7238,
+              27480,
+              3366,
+              28557,
+              720,
+              38548,
+              43632,
+              9285
+            ]
+          },
+          {
+            "answer": "four",
+            "caption": "four pizzas with different toppings on a plate",
+            "top10": [
+              11000,
+              1221,
+              42857,
+              28677,
+              2452,
+              47505,
+              5616,
+              27974,
+              6958,
+              27467
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the topping on the pizza that is cut into slices?",
+        "score": 4,
+        "branches": [
+          {
+            "answer": "mushrooms and sausage",
+            "caption": "a pizza with mushrooms and sausage is on a table",
+            "top10": [
+              3435,
+              13385,
+              17923,
+              14087,
+              16864,
+              12317,
+              34651,
+              37893,
+              43094,
+              10454
+            ]
+          },
+          {
+            "answer": "white",
+            "caption": "white pizza with toppings",
+            "top10": [
+              34926,
+              6466,
+              37282,
+              25384,
+              375,
+              1681,
+              49504,
+              26850,
+              16400,
+              311
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "outcomes": {
+    "what is the color of the plate on which the sliced pizza is sitting?": {
+      "answer": "black",
+      "rewrite": "a sliced pizza on a black plate",
+      "rank": 1
+    },
+    "what is the color of the pizza slices sitting on the plate?": {
+      "answer": "red",
+      "rewrite": "a red pizza cut into slices on a plate",
+      "rank": 17
+    },
+    "Question: how many slices is the pizza cut into?": {
+      "answer": "4",
+      "rewrite": "a pizza cut into 4 slices on a plate",
+      "rank": 25
+    },
+    "what is the number of slices the pizza is cut into?": {
+      "answer": "3",
+      "rewrite": "a pizza cut into 3 slices on a plate",
+      "rank": 25
+    },
+    "what is the topping on the pizza that is cut into slices?": {
+      "answer": "pepperoni and green peppers",
+      "rewrite": "a pizza topped with pepperoni and green peppers, served on a plate and cut into slices",
+      "rank": 1
+    }
+  },
+  "saved_kl_rank": 1
+}

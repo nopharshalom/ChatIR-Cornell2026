@@ -1,0 +1,227 @@
+{
+  "qid": 1820,
+  "selection": {
+    "kl": "what is the position of the toilet seat in the bathroom?",
+    "probe": "Question: what type of bathroom fixtures are present in the bathroom besides the toilet?",
+    "candidates": [
+      {
+        "question": "Question: what is the color of the toilet in the unfinished bathroom?",
+        "score": 3,
+        "branches": [
+          {
+            "answer": "white",
+            "caption": "a single white toilet sits inside an unfinished bathroom",
+            "top10": [
+              46550,
+              27310,
+              3690,
+              13372,
+              47790,
+              21127,
+              462,
+              12432,
+              29712,
+              19256
+            ]
+          },
+          {
+            "answer": "unspecified",
+            "caption": "a single toilet of unspecified color sits inside an unfinished bathroom",
+            "top10": [
+              46550,
+              47790,
+              27310,
+              21127,
+              3690,
+              29712,
+              12432,
+              49942,
+              251,
+              13372
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the position of the toilet seat in the bathroom?",
+        "score": 2,
+        "branches": [
+          {
+            "answer": "on the floor",
+            "caption": "a single toilet sits inside an unfinished bathroom with the toilet seat on the floor",
+            "top10": [
+              27310,
+              12432,
+              46550,
+              47790,
+              3690,
+              462,
+              21127,
+              19256,
+              13372,
+              251
+            ]
+          },
+          {
+            "answer": "attached to the bowl",
+            "caption": "a single toilet sits inside an unfinished bathroom with the toilet seat attached to the bowl",
+            "top10": [
+              46550,
+              27310,
+              47790,
+              21127,
+              12432,
+              13372,
+              462,
+              251,
+              49942,
+              29712
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the color of the toilet in the bathroom?",
+        "score": 1,
+        "branches": [
+          {
+            "answer": "white",
+            "caption": "a single white toilet sits inside an unfinished bathroom",
+            "top10": [
+              46550,
+              27310,
+              3690,
+              13372,
+              47790,
+              21127,
+              462,
+              12432,
+              29712,
+              19256
+            ]
+          },
+          {
+            "answer": "on the floor",
+            "caption": "a single toilet with its seat on the floor sits inside an unfinished bathroom",
+            "top10": [
+              12432,
+              46550,
+              27310,
+              462,
+              3690,
+              21127,
+              47790,
+              19256,
+              13372,
+              46999
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the state of the bathroom fixtures (toilet and tub) in the bathroom?",
+        "score": 4,
+        "branches": [
+          {
+            "answer": "unfinished",
+            "caption": "a bathroom with an unfinished tub and toilet",
+            "top10": [
+              13372,
+              44244,
+              26716,
+              9915,
+              39293,
+              26761,
+              11040,
+              1395,
+              43093,
+              2708
+            ]
+          },
+          {
+            "answer": "under construction",
+            "caption": "a bathroom under construction",
+            "top10": [
+              30516,
+              13372,
+              3511,
+              27310,
+              39293,
+              2708,
+              46550,
+              38928,
+              16440,
+              9915
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: what type of bathroom fixtures are present in the bathroom besides the toilet?",
+        "score": 7,
+        "branches": [
+          {
+            "answer": "an unfinished tub",
+            "caption": "a bathroom with an unfinished tub and toilet",
+            "top10": [
+              13372,
+              44244,
+              26716,
+              9915,
+              39293,
+              26761,
+              11040,
+              1395,
+              43093,
+              2708
+            ]
+          },
+          {
+            "answer": "a window",
+            "caption": "a bathroom with a toilet and a window",
+            "top10": [
+              33860,
+              14882,
+              26522,
+              16362,
+              31326,
+              15445,
+              2257,
+              7793,
+              42186,
+              33737
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "outcomes": {
+    "Question: what is the color of the toilet in the unfinished bathroom?": {
+      "answer": "white",
+      "rewrite": "a single white toilet sits inside an unfinished bathroom",
+      "rank": 42
+    },
+    "what is the position of the toilet seat in the bathroom?": {
+      "answer": "up",
+      "rewrite": "a single toilet with its seat up sits inside an unfinished bathroom",
+      "rank": 56
+    },
+    "what is the color of the toilet in the bathroom?": {
+      "answer": "white",
+      "rewrite": "a single white toilet sits inside an unfinished bathroom",
+      "rank": 42
+    },
+    "what is the state of the bathroom fixtures (toilet and tub) in the bathroom?": {
+      "answer": "the bathroom fixtures (toilet and tub) are installed.",
+      "rewrite": "a single installed toilet sits inside an unfinished bathroom with an installed bathtub",
+      "rank": 9
+    },
+    "Question: what type of bathroom fixtures are present in the bathroom besides the toilet?": {
+      "answer": "bathtub",
+      "rewrite": "a single toilet and a bathtub sit inside an unfinished bathroom",
+      "rank": 11
+    }
+  },
+  "saved_kl_rank": 56
+}

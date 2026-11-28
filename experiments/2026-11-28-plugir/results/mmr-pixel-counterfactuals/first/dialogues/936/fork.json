@@ -1,0 +1,59 @@
+{
+  "pivot": null,
+  "trace": [
+    {
+      "slots": [],
+      "vetoes": [
+        "dialogue-only check: {'status': 'UNSAFE', 'evidence': 'The provided text describes the action of cutting but does not specify the material of the scissors, nor does it offer the specific options (paper, tape) as valid materials for scissors.'}"
+      ]
+    },
+    {
+      "slots": [
+        {
+          "entity": "pair of scissors",
+          "family": "material",
+          "values": [
+            "metal",
+            "plastic"
+          ],
+          "question": "What material is the pair of scissors made of?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "metal",
+          null,
+          "metal",
+          "metal",
+          "metal",
+          "metal",
+          null,
+          null,
+          "metal",
+          "metal"
+        ]
+      ],
+      "filled": [
+        7
+      ],
+      "pixel_supported": [
+        false
+      ]
+    }
+  ]
+}

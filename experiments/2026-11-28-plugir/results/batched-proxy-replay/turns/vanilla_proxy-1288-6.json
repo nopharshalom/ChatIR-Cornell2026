@@ -1,0 +1,171 @@
+{
+  "key": "vanilla_proxy-1288-6",
+  "arm": "vanilla_proxy",
+  "original": "what is the color of the fence the giraffes are eating from?",
+  "incumbent": "what is the other object in the image?",
+  "single": {
+    "choice": "what is the color of the fence the giraffes are eating from?",
+    "scores": {
+      "what is the other object in the image?": 0,
+      "What is the man wearing?": 0,
+      "what is the color of the fence the giraffes are eating from?": 1,
+      "what is the location of the giraffes in the image?": 0,
+      "Based on the provided information sources, here is the generated question and the explanation of how the sources were utilized:\n\n**Question:**\nWhat is the color of?": 0
+    },
+    "answers": [
+      [
+        "giraffe",
+        "giraffe",
+        "giraffe",
+        "giraffe",
+        "giraffe",
+        "giraffe",
+        "giraffe",
+        "giraffe",
+        "giraffe",
+        "giraffe"
+      ],
+      [
+        "unsure",
+        "I'm sorry, but the image does not show any people, so I cannot answer what a man is wearing.",
+        "I'm sorry, but the image does not show a man. It only shows giraffes.",
+        "unsure",
+        "unsure",
+        "I'm sorry, but the image does not show a man. It only shows giraffes.",
+        "I'm sorry, but the image does not show a man. It only shows giraffes in an enclosure.",
+        "unsure",
+        "unsure",
+        "unsure"
+      ],
+      [
+        "black",
+        "brown",
+        "green",
+        "gray",
+        "gray",
+        "brown",
+        "silver",
+        "brown",
+        "gray",
+        "black"
+      ],
+      [
+        "zoo",
+        "zoo",
+        "zoo",
+        "zoo",
+        "giraffe enclosure",
+        "zoo",
+        "enclosure",
+        "zoo",
+        "zoo",
+        "zoo"
+      ],
+      [
+        "The giraffes are brown and white.",
+        "I'm unsure. The image doesn't show a specific object or subject to answer \"What is the color of?\"",
+        "The giraffes are brown and white.",
+        "The giraffes are brown.",
+        "The giraffes are brown and white.",
+        "The giraffes are brown and white.",
+        "I'm unsure. The image doesn't show a specific object or subject to answer \"What is the color of?\"",
+        "The giraffe on the left is brown and white.",
+        "The giraffes are brown and white.",
+        "The giraffes are brown and white."
+      ]
+    ],
+    "invalid_batches": [],
+    "visual_calls": 50,
+    "total_calls": 73,
+    "seconds": 45.27594370790757
+  },
+  "batch": {
+    "choice": "what is the other object in the image?",
+    "scores": {
+      "what is the other object in the image?": 2,
+      "What is the man wearing?": 0,
+      "what is the color of the fence the giraffes are eating from?": 0,
+      "what is the location of the giraffes in the image?": 0,
+      "Based on the provided information sources, here is the generated question and the explanation of how the sources were utilized:\n\n**Question:**\nWhat is the color of?": 0
+    },
+    "answers": [
+      [
+        "trees",
+        "There are two giraffes in the image.",
+        "giraffes",
+        "There are three giraffes in the image.",
+        "There are three giraffes in the image.",
+        "giraffe",
+        "giraffe",
+        "giraffe",
+        "There is a wooden pole with a metal feeder attached to it.",
+        "There are four giraffes in the image."
+      ],
+      [
+        "unsure",
+        "unsure",
+        "unsure",
+        "unsure",
+        "unsure",
+        "I'm sorry, but the image does not show a man. It only shows giraffes.",
+        "I'm sorry, but the image does not show a man. It only shows giraffes in an enclosure.",
+        "unsure",
+        "unsure",
+        "unsure"
+      ],
+      [
+        "brown",
+        "unsure",
+        "green",
+        "The fence is silver.",
+        "unsure",
+        "brown",
+        "silver",
+        "brown",
+        "The fence is made of metal.",
+        "unsure"
+      ],
+      [
+        "zoo",
+        "The giraffes are in an enclosure, likely at a zoo.",
+        "zoo",
+        "The giraffes are in an enclosure, likely at a zoo or wildlife park.",
+        "The giraffes are in an outdoor enclosure, likely a zoo or wildlife park.",
+        "zoo",
+        "enclosure",
+        "zoo",
+        "The giraffes are in an outdoor enclosure, likely a zoo or wildlife park.",
+        "The giraffes are in an outdoor enclosure, likely at a zoo or wildlife park."
+      ],
+      [
+        "unsure",
+        "unsure",
+        "unsure",
+        "unsure",
+        "unsure",
+        "The giraffes are brown and white.",
+        "I'm unsure. The image doesn't show a specific object or subject to answer \"What is the color of?\"",
+        "The giraffe on the left is brown and white.",
+        "unsure",
+        "unsure"
+      ]
+    ],
+    "invalid_batches": [
+      {
+        "image": 48169,
+        "raw": "```json\n{\n  \"1\": \"There are three giraffes in the image.\",\n  \"2\": \"unsure\",\n  \"3\": \"brown\",\n  \"4\": \"unsure\"\n}\n```"
+      },
+      {
+        "image": 28244,
+        "raw": "```json\n{\n  \"1\": \"unsure\",\n  \"2\": \"unsure\",\n  \"3\": \"silver\",\n  \"4\": \"unsure\"\n}\n```"
+      },
+      {
+        "image": 30478,
+        "raw": "```json\n{\n  \"1\": \"There is a fence in the image.\",\n  \"2\": \"unsure\",\n  \"3\": \"brown\",\n  \"4\": \"unsure\"\n}\n```"
+      }
+    ],
+    "visual_calls": 25,
+    "total_calls": 60,
+    "seconds": 53.312736875144765
+  }
+}

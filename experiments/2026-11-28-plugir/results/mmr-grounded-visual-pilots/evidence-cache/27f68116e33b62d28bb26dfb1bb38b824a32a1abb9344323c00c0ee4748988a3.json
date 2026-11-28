@@ -1,0 +1,10 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    "You see only the user's initial description and completed dialogue. Is the proposed\nquestion natural and neutrally phrased about a uniquely identifiable subject in their own\nphoto, applicable to that subject, directly visible, still unanswered and not previously\nasked even with different wording? Reject false premises, underspecified multiple people or\nobjects, implied answers, and activities that require guessing intent. The labels must\nrepresent distinct, non-overlapping plausible answers. Return exactly PASS or SKIP.",
+    "{\"dialogue\": [\"a giraffe is standing in an open field\", \"what is the color of the giraffe in the image? brown\", \"**Question:** What is the type of field where the giraffe is standing? grass\", \"what is the color of the field in the image? green\", \"what is the other object in the image? trees\", \"**Question:** What is the specific location of the giraffe within the field? center\", \"what is the other object in the image? trees\", \"what is the size of the giraffe in the image? large\", \"what is the type of trees visible in the background of the image? deciduous\"], \"slot\": {\"entity\": \"giraffe\", \"family\": \"activity\", \"question\": \"What is the giraffe doing?\", \"values\": [\"standing\", \"sitting\"]}}",
+    10,
+    null
+  ],
+  "response": "SKIP"
+}

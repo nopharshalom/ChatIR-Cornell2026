@@ -1,0 +1,10 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    "You see only the user's initial description and completed dialogue. Is the proposed\nquestion natural and neutrally phrased about a uniquely identifiable subject in their own\nphoto, applicable to that subject, directly visible, still unanswered and not previously\nasked even with different wording? Reject false premises, underspecified multiple people or\nobjects, implied answers, and activities that require guessing intent. The labels must\nrepresent distinct, non-overlapping plausible answers. Return exactly PASS or SKIP.",
+    "{\"dialogue\": [\"a messy computer desk with a pc and a laptop\", \"Question: Where is the desk located in the image? The desk is located in the center of the image.\", \"what is the other object in the image? laptop\", \"what is the material of the desk? wood\", \"Based on the provided information sources, here is the generated question and the explanation of how it was derived:\\n\\n**Generated Question:**\\n\\\"Is the desk with? Based on the image, the desk is cluttered with various items, including a computer monitor, a laptop, a keyboard, a mouse, papers, and other miscellaneous objects.\", \"what is the other object in the image? laptop\"], \"slot\": {\"entity\": \"desk\", \"family\": \"material\", \"question\": \"What material is the desk made of?\", \"values\": [\"wood\", \"plastic\"]}}",
+    10,
+    null
+  ],
+  "response": "SKIP"
+}

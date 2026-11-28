@@ -1,0 +1,184 @@
+{
+  "qid": 570,
+  "target": "unlabeled2017/000000344438.jpg",
+  "arm": "q-caption",
+  "first": 2,
+  "turns": [
+    {
+      "evidence": [
+        46557,
+        10044,
+        39200,
+        18415,
+        27955,
+        41086,
+        31867,
+        31624,
+        47230,
+        6910
+      ],
+      "candidates": [
+        "what is the time of day depicted in the image?",
+        "Question: What is the color of the clock on the tower?",
+        "Question: How many clocks are visible on the tower?",
+        "what is the location of the clock tower?",
+        "what color is the tower itself?"
+      ],
+      "default": "Question: How many clocks are visible on the tower?",
+      "question": "Question: How many clocks are visible on the tower?",
+      "answer": "1",
+      "rewrite": "a light shines on a tower with one clock on it",
+      "review": {
+        "default": "Question: How many clocks are visible on the tower?",
+        "questions": [
+          "what is the time of day depicted in the image?",
+          "Question: What is the color of the clock on the tower?",
+          "Question: How many clocks are visible on the tower?",
+          "what is the location of the clock tower?",
+          "what color is the tower itself?"
+        ],
+        "selected": "Question: How many clocks are visible on the tower?",
+        "scores": {}
+      },
+      "shared_seconds": 7.051
+    },
+    {
+      "evidence": [
+        10044,
+        46557,
+        18415,
+        6910,
+        25833,
+        47230,
+        39200,
+        33258,
+        31624,
+        19281
+      ],
+      "candidates": [
+        "What color are the lights on the clock tower?",
+        "what color are the lights on the clock tower?",
+        "what is the time of day when the lights are shining on the tower?",
+        "what is the object located at the base of the clock tower?",
+        "what is the color of the lights on the clock tower?"
+      ],
+      "default": "what is the time of day when the lights are shining on the tower?",
+      "question": "what is the time of day when the lights are shining on the tower?",
+      "answer": "night",
+      "rewrite": "a light shines on a tower with one clock visible on it at night",
+      "review": {
+        "default": "what is the time of day when the lights are shining on the tower?",
+        "questions": [
+          "What color are the lights on the clock tower?",
+          "what is the time of day when the lights are shining on the tower?",
+          "what is the object located at the base of the clock tower?",
+          "what is the color of the lights on the clock tower?"
+        ],
+        "selected": "what is the time of day when the lights are shining on the tower?",
+        "scores": {}
+      },
+      "shared_seconds": 7.188
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "light shine on a tower with some clocks on it",
+      "raw_rank": 27,
+      "filtered_rank": 27,
+      "rank": 27,
+      "ordinary_screen": [
+        46557,
+        10044,
+        39200,
+        18415,
+        27955,
+        41086,
+        31867,
+        31624,
+        47230,
+        6910
+      ],
+      "display": [
+        46557,
+        10044,
+        39200,
+        18415,
+        27955,
+        41086,
+        31867,
+        31624,
+        47230,
+        6910
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a light shines on a tower with one clock on it",
+      "raw_rank": 32,
+      "filtered_rank": 22,
+      "rank": 22,
+      "ordinary_screen": [
+        25833,
+        33258,
+        19281,
+        34913,
+        28141,
+        25649,
+        19562,
+        7357,
+        44190,
+        43206
+      ],
+      "display": [
+        25833,
+        33258,
+        19281,
+        34913,
+        28141,
+        25649,
+        19562,
+        7357,
+        44190,
+        43206
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "a light shines on a tower with one clock visible on it at night",
+      "raw_rank": 22,
+      "filtered_rank": 3,
+      "rank": 3,
+      "ordinary_screen": [
+        3999,
+        27533,
+        29543,
+        651,
+        19544,
+        47051,
+        11490,
+        3324,
+        19436,
+        10324
+      ],
+      "display": [
+        3999,
+        27533,
+        29543,
+        651,
+        19544,
+        47051,
+        11490,
+        3324,
+        19436,
+        10324
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 14.239,
+  "live": false,
+  "seconds": 0.11031741695478559
+}

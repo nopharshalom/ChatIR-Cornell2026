@@ -1,0 +1,219 @@
+{
+  "arm": "a2r_qwen",
+  "qid": 282,
+  "target": "unlabeled2017/000000039439.jpg",
+  "queries": [
+    "a man jumping in the air while throwing a frisbee",
+    "a shirtless man jumping in the air while throwing a frisbee"
+  ],
+  "ranks": [
+    40,
+    5
+  ],
+  "turns": [
+    {
+      "round": 0,
+      "question": "Is the person in the photo wearing a shirt?",
+      "answer": "no",
+      "query_before": "a man jumping in the air while throwing a frisbee",
+      "query_after": "a shirtless man jumping in the air while throwing a frisbee",
+      "candidate_questions": [
+        "Is the person in the photo wearing a shirt?",
+        "Is the person in the photo wearing shorts?",
+        "Is the person in the photo wearing sunglasses?",
+        "Is the person in the photo jumping?",
+        "Is the person in the photo throwing a frisbee?"
+      ],
+      "pool_ids": [
+        49376,
+        43961,
+        37350,
+        35680,
+        49656,
+        14372,
+        13161,
+        46115,
+        26102,
+        30964,
+        36439,
+        41277,
+        45545,
+        28023,
+        1173,
+        6153,
+        21107,
+        24010,
+        42887,
+        28380,
+        42757,
+        10355,
+        37453,
+        16047,
+        21368,
+        17975,
+        13129,
+        24878,
+        21068,
+        41139,
+        1265,
+        47594,
+        13398,
+        16001,
+        46103,
+        45709,
+        19822,
+        38460,
+        35445,
+        3332,
+        40802,
+        34954,
+        853,
+        15638,
+        2815,
+        8186,
+        9282,
+        12879,
+        47776,
+        30554
+      ],
+      "selected_ids": [
+        49376,
+        28023,
+        45709,
+        1173,
+        21068,
+        21368,
+        13129,
+        34954,
+        35680,
+        26102
+      ],
+      "selected_captions": [
+        "a man jumping into the air",
+        "white tent",
+        "man in the air",
+        "man is flying a frisbee",
+        "a man in a shorts and tee catches a frisbee",
+        "a group of people play frisbee",
+        "tall hedges behind a man",
+        "man doing a tricks with frisbee",
+        "a person is throwing a frisbee in the park",
+        "a man trying to catch a frisbee"
+      ],
+      "target_in_pool": true,
+      "target_shown": false,
+      "llm_calls": 53,
+      "seconds": 24.683
+    }
+  ],
+  "started_utc": "2026-11-27T13:43:59.120875+00:00",
+  "finished_utc": "2026-11-27T13:44:23.849913+00:00",
+  "seconds": 24.729,
+  "hits_only": true,
+  "a2r_trace": [
+    {
+      "ids": [
+        49376,
+        28023,
+        45709,
+        1173,
+        21068,
+        21368,
+        13129,
+        34954,
+        35680,
+        26102
+      ],
+      "weights": [
+        0.10301051466711794,
+        0.10049155077857827,
+        0.09817304027836715,
+        0.100457379001143,
+        0.09889692239926198,
+        0.09943787796516372,
+        0.09912146792317682,
+        0.09729214189995689,
+        0.10208338976905452,
+        0.10103571531817983
+      ],
+      "questions": [
+        "Is the person in the photo wearing a shirt?",
+        "Is the person in the photo wearing shorts?",
+        "Is the person in the photo wearing sunglasses?",
+        "Is the person in the photo jumping?",
+        "Is the person in the photo throwing a frisbee?"
+      ],
+      "answers": [
+        [
+          "no",
+          "yes",
+          "yes",
+          "no",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "yes",
+          "no",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "no"
+        ],
+        [
+          "no",
+          "no",
+          "yes",
+          "no",
+          "no",
+          "no",
+          "yes",
+          "no",
+          "no",
+          "no"
+        ],
+        [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "no",
+          "no"
+        ],
+        [
+          "yes",
+          "yes",
+          "yes",
+          "no",
+          "yes",
+          "yes",
+          "no",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      ],
+      "gain_bits": [
+        0.7288098954986614,
+        0.7249721309918191,
+        0.7164839986309686,
+        0.7281226130309639,
+        0.7210849886561289
+      ],
+      "chosen": "Is the person in the photo wearing a shirt?",
+      "repair_calls": 0
+    }
+  ]
+}

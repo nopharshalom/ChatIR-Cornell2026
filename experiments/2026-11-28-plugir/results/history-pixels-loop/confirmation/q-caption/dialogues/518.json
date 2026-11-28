@@ -1,0 +1,114 @@
+{
+  "qid": 518,
+  "target": "unlabeled2017/000000290963.jpg",
+  "arm": "q-caption",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        39302,
+        2021,
+        35900,
+        34773,
+        9047,
+        13363,
+        32074,
+        38156,
+        27600,
+        4529
+      ],
+      "candidates": [
+        "what color is the dog that is hugging a stuffed animal while laying on the floor?",
+        "what color is the stuffed animal that the dog is hugging?",
+        "Question: what color is the dog that is hugging a stuffed animal while laying on the floor?",
+        "what is the color of the stuffed animal in the image?",
+        "what color is the dog?"
+      ],
+      "default": "what color is the dog that is hugging a stuffed animal while laying on the floor?",
+      "question": "what color is the dog that is hugging a stuffed animal while laying on the floor?",
+      "answer": "black",
+      "rewrite": "a black dog hugs a stuffed animal while laying on the floor",
+      "review": {
+        "default": "what color is the dog that is hugging a stuffed animal while laying on the floor?",
+        "questions": [
+          "what color is the dog that is hugging a stuffed animal while laying on the floor?",
+          "what color is the stuffed animal that the dog is hugging?",
+          "what is the color of the stuffed animal in the image?",
+          "what color is the dog?"
+        ],
+        "selected": "what color is the dog that is hugging a stuffed animal while laying on the floor?",
+        "scores": {}
+      },
+      "shared_seconds": 7.211
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a dog hugs a stuffed animal while laying on the floor",
+      "raw_rank": 13,
+      "filtered_rank": 13,
+      "rank": 13,
+      "ordinary_screen": [
+        39302,
+        35900,
+        2021,
+        34773,
+        9047,
+        13363,
+        32074,
+        4529,
+        38156,
+        27600
+      ],
+      "display": [
+        39302,
+        35900,
+        2021,
+        34773,
+        9047,
+        13363,
+        32074,
+        4529,
+        38156,
+        27600
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a black dog hugs a stuffed animal while laying on the floor",
+      "raw_rank": 2,
+      "filtered_rank": 1,
+      "rank": 1,
+      "ordinary_screen": [
+        24867,
+        20540,
+        7356,
+        31211,
+        32820,
+        35896,
+        29197,
+        41362,
+        5075,
+        3963
+      ],
+      "display": [
+        24867,
+        20540,
+        7356,
+        31211,
+        32820,
+        35896,
+        29197,
+        41362,
+        5075,
+        3963
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 7.211,
+  "live": false,
+  "seconds": 0.0318206250667572
+}

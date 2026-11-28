@@ -1,0 +1,104 @@
+{
+  "qid": 814,
+  "target": "unlabeled2017/000000383772.jpg",
+  "arm": "unseen",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        47307,
+        27308,
+        22264,
+        8815,
+        1094,
+        20893,
+        19087,
+        7938,
+        25813,
+        41367
+      ],
+      "candidates": [
+        "what is the hair color of the two people wearing black?",
+        "Question: What is the gender of the two people wearing black?",
+        "what objects are the two people wearing black holding?",
+        "what color are the hats worn by the two people wearing black?",
+        "what is the background setting of the two people wearing black?"
+      ],
+      "default": "what is the background setting of the two people wearing black?",
+      "question": "what is the background setting of the two people wearing black?",
+      "answer": "a house",
+      "rewrite": "two people wearing black standing next to each other in front of a house",
+      "review": null,
+      "shared_seconds": 11.362848666962236
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "2 people wearing black are standing next to each other",
+      "raw_rank": 116,
+      "filtered_rank": 116,
+      "rank": 116,
+      "ordinary_screen": [
+        13361,
+        3248,
+        44280,
+        49897,
+        5389,
+        13735,
+        4822,
+        43033,
+        17935,
+        11942
+      ],
+      "display": [
+        13361,
+        3248,
+        44280,
+        49897,
+        5389,
+        13735,
+        4822,
+        43033,
+        17935,
+        11942
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "two people wearing black standing next to each other in front of a house",
+      "raw_rank": 1,
+      "filtered_rank": 1,
+      "rank": 1,
+      "ordinary_screen": [
+        32903,
+        47516,
+        16759,
+        49665,
+        38363,
+        16857,
+        3735,
+        7627,
+        29058,
+        28216
+      ],
+      "display": [
+        32903,
+        47516,
+        16759,
+        49665,
+        38363,
+        16857,
+        3735,
+        7627,
+        29058,
+        28216
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 11.362848666962236,
+  "live": true,
+  "seconds": 11.408751333132386
+}

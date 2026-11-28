@@ -1,0 +1,51 @@
+{
+  "question": "what is the location of the train track where the short train is traveling?",
+  "qid": 82,
+  "tile_ids": [
+    40219,
+    27983,
+    36727,
+    32442,
+    42588,
+    36817,
+    21909,
+    46477,
+    15688,
+    31722
+  ],
+  "reference": [
+    "urban",
+    "countryside",
+    "station",
+    "station",
+    null,
+    "countryside",
+    null,
+    "countryside",
+    "station",
+    "countryside"
+  ],
+  "prompt": "Answer the question separately for each numbered photo, in tile order 0 through 9. Use station if a passenger platform is visible, otherwise urban for a built-up area, countryside for fields or woods, or unknown if unclear. Return only a JSON list of ten answers.",
+  "raw": "```json\n{\n  \"0\": \"urban\",\n  \"1\": \"countryside\",\n  \"2\": \"station\",\n  \"3\": \"station\",\n  \"4\": \"countryside\",\n  \"5\": \"countryside\",\n  \"6\": \"countryside\",\n  \"7\": \"station\",\n  \"8\": \"station\",\n  \"9\": \"countryside\"\n}\n```",
+  "answers": [
+    "urban",
+    "countryside",
+    "station",
+    "station",
+    "countryside",
+    "countryside",
+    "countryside",
+    "station",
+    "station",
+    "countryside"
+  ],
+  "reused": true,
+  "score": {
+    "tiles": 8,
+    "correct": 7,
+    "true_splits": 19,
+    "detected": 16,
+    "false_splits": 3
+  },
+  "model": "8b2b98c00a6b4d291155e4890773ca8f769aee53"
+}

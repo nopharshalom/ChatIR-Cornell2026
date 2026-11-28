@@ -1,0 +1,40 @@
+{
+  "plan_raw": "{\n\"choice\": 2,\n\"check\": \"wheel color verification\",\n\"photos\": [0, 2]\n}",
+  "provisional": 2,
+  "valid_plan": true,
+  "caption": {
+    "choice": 1,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "Unknown, as the provided caption does not describe the train's wheels and no photo is available to verify the detail."
+      },
+      {
+        "index": 2,
+        "observation": "Unknown, as the caption only describes the engine color and provides no information about the wheel color."
+      }
+    ],
+    "raw": "{\"choice\": 1}"
+  },
+  "pixels": {
+    "choice": 1,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "The train's wheels are not visible in the image."
+      },
+      {
+        "index": 2,
+        "observation": "unknown"
+      }
+    ],
+    "raw": "{\"choice\": 1}"
+  },
+  "qid": 649,
+  "example_ids": [
+    1279,
+    2014
+  ]
+}

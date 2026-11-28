@@ -1,0 +1,161 @@
+{
+  "qid": 570,
+  "selection": {
+    "kl": "Question: How many clocks are visible on the tower?",
+    "probe": "what is the location of the clock tower?",
+    "candidates": [
+      {
+        "question": "what is the time of day depicted in the image?",
+        "score": 5,
+        "branches": [
+          {
+            "answer": "dusk",
+            "caption": "a clock tower lit up at dusk with the moon visible",
+            "top10": [
+              46557,
+              19544,
+              651,
+              27955,
+              10044,
+              34913,
+              31867,
+              6910,
+              19562,
+              19281
+            ]
+          },
+          {
+            "answer": "night",
+            "caption": "a large clock tower with a blue clock on it",
+            "top10": [
+              11309,
+              40950,
+              21117,
+              27070,
+              46632,
+              43017,
+              27641,
+              41086,
+              15769,
+              2315
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: What is the color of the clock on the tower?",
+        "score": 6,
+        "branches": [
+          {
+            "answer": "blue",
+            "caption": "a large clock tower with a blue clock on it",
+            "top10": [
+              11309,
+              40950,
+              21117,
+              27070,
+              46632,
+              43017,
+              27641,
+              41086,
+              15769,
+              2315
+            ]
+          },
+          {
+            "answer": "lit up",
+            "caption": "the clock on the top of the building is lit up",
+            "top10": [
+              10044,
+              6910,
+              41401,
+              31867,
+              25833,
+              19281,
+              35601,
+              7274,
+              19544,
+              34913
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: How many clocks are visible on the tower?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "what is the location of the clock tower?",
+        "score": 9,
+        "branches": [
+          {
+            "answer": "a street",
+            "caption": "a tall clock tower at night on a street",
+            "top10": [
+              11490,
+              25649,
+              47230,
+              18415,
+              19281,
+              7357,
+              33258,
+              47626,
+              47051,
+              29543
+            ]
+          },
+          {
+            "answer": "the top of the building",
+            "caption": "the clock on the top of the building is lit up",
+            "top10": [
+              10044,
+              6910,
+              41401,
+              31867,
+              25833,
+              19281,
+              35601,
+              7274,
+              19544,
+              34913
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what color is the tower itself?",
+        "score": null,
+        "branches": []
+      }
+    ]
+  },
+  "outcomes": {
+    "what is the time of day depicted in the image?": {
+      "answer": "night",
+      "rewrite": "light shining on a tower with some clocks on it at night",
+      "rank": 19
+    },
+    "Question: What is the color of the clock on the tower?": {
+      "answer": "white",
+      "rewrite": "a white clock on a tower with light shining on it",
+      "rank": 95
+    },
+    "Question: How many clocks are visible on the tower?": {
+      "answer": "1",
+      "rewrite": "a light shines on a tower with one clock on it",
+      "rank": 32
+    },
+    "what is the location of the clock tower?": {
+      "answer": "westminster abbey",
+      "rewrite": "light shining on the clock tower at Westminster Abbey",
+      "rank": 24
+    },
+    "what color is the tower itself?": {
+      "answer": "red",
+      "rewrite": "a red tower with some clocks on it",
+      "rank": 14
+    }
+  },
+  "saved_kl_rank": 32
+}

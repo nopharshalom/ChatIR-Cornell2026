@@ -1,0 +1,464 @@
+{
+  "qid": 701,
+  "target": "unlabeled2017/000000324850.jpg",
+  "arm": "q-pixels",
+  "first": 5,
+  "turns": [
+    {
+      "evidence": [
+        11635,
+        28449,
+        17087,
+        13199,
+        22839,
+        3530,
+        24819,
+        43807,
+        40955,
+        3203
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "what is the other object in the image?",
+        "what is the color of the sign visible on the street?",
+        "what is the color of the sign visible on the street?",
+        "what is the color of the sign visible on the street?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the color of the sign visible on the street?",
+      "answer": "black and white",
+      "rewrite": "image of a red lobster restaurant from the street, featuring a black and white one-way sign and a street light, with a man in an orange shirt walking toward the entrance",
+      "review": {
+        "default": "what is the other object in the image?",
+        "questions": [
+          "what is the other object in the image?",
+          "what is the color of the sign visible on the street?"
+        ],
+        "selected": "what is the color of the sign visible on the street?",
+        "scores": {
+          "what is the color of the sign visible on the street?": {
+            "file": "fe2ad2921c0f9de0b7c838ae9b0b668c6ecbd5e964bf95bec196e9ca549eee94.json",
+            "answers": [
+              "unknown",
+              "blue",
+              "blue",
+              "red",
+              "unknown",
+              "unknown",
+              "red",
+              "red",
+              "green",
+              "unknown"
+            ],
+            "seconds": 2.8630854999646544,
+            "score": 11
+          }
+        }
+      },
+      "shared_seconds": 20.405
+    },
+    {
+      "evidence": [
+        17087,
+        28449,
+        24819,
+        11635,
+        13199,
+        22394,
+        3203,
+        45907,
+        18024,
+        28949
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "what is the color of the man's shirt in the image of the red lobster restaurant?",
+        "what is the color of the man's shirt in the image of the red lobster restaurant?",
+        "Question: What is the color of the man's shirt in the image of the red lobster restaurant?",
+        "Question: what is the location of the red lobster restaurant in the image?"
+      ],
+      "default": "Question: what is the location of the red lobster restaurant in the image?",
+      "question": "Question: what is the location of the red lobster restaurant in the image?",
+      "answer": "the image does not show the location of the red lobster restaurant",
+      "rewrite": "an image of a Red Lobster restaurant exterior featuring a black and white one-way sign and a street light, with a man in an orange shirt walking toward the entrance; the specific location of the restaurant is not visible in the image.",
+      "review": {
+        "default": "Question: what is the location of the red lobster restaurant in the image?",
+        "questions": [
+          "what is the other object in the image?",
+          "what is the color of the man's shirt in the image of the red lobster restaurant?",
+          "Question: what is the location of the red lobster restaurant in the image?"
+        ],
+        "selected": "Question: what is the location of the red lobster restaurant in the image?",
+        "scores": {}
+      },
+      "shared_seconds": 20.396
+    },
+    {
+      "evidence": [
+        17087,
+        11635,
+        24819,
+        3203,
+        29472,
+        22394,
+        28449,
+        18024,
+        28949,
+        3530
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "what is the color of the man's shirt in the image?",
+        "what is the color of the man's shirt in the image?",
+        "what is the color of the man's shirt in the image?",
+        "what color is the man's shirt in the image?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what color is the man's shirt in the image?",
+      "answer": "orange",
+      "rewrite": "a red lobster restaurant with a black and white one-way sign and a street light visible, and a man in an orange shirt is walking toward the entrance, with the specific location not shown",
+      "review": {
+        "default": "what is the other object in the image?",
+        "questions": [
+          "what is the other object in the image?",
+          "what is the color of the man's shirt in the image?",
+          "what color is the man's shirt in the image?"
+        ],
+        "selected": "what color is the man's shirt in the image?",
+        "scores": {
+          "what is the color of the man's shirt in the image?": {
+            "file": "d69eb3fc8b6be570169a8325e8d251d45dde03ec8b515a21dcc86f2c1d6c6175.json",
+            "answers": [
+              "gray",
+              "pink",
+              "black",
+              "black",
+              "gray",
+              "white",
+              "blue",
+              "black",
+              "black",
+              "gray"
+            ],
+            "seconds": 2.9117252079304308,
+            "score": 36
+          },
+          "what color is the man's shirt in the image?": {
+            "file": "3603ca69621460d4356be6a9ee91e90392e0ccd0fbe977b51a7dcac337c3e344.json",
+            "answers": [
+              "gray",
+              "pink",
+              "black",
+              "black",
+              "gray",
+              "white",
+              "blue",
+              "black",
+              "black",
+              "white"
+            ],
+            "seconds": 2.8992655409965664,
+            "score": 37
+          }
+        }
+      },
+      "shared_seconds": 29.284
+    },
+    {
+      "evidence": [
+        17087,
+        11635,
+        24819,
+        13199,
+        3203,
+        18024,
+        12108,
+        28449,
+        3530,
+        4080
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "what is the color of the sign visible on the street?",
+        "what is the color of the sign visible on the street?",
+        "what is the object located in front of the red lobster restaurant in the image?",
+        "Question: What color is the object located in front of the Red Lobster restaurant?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the color of the sign visible on the street?",
+      "answer": "black and white",
+      "rewrite": "a view of a Red Lobster restaurant from the street, featuring a black and white one-way sign and a street light, with a man in an orange shirt walking toward the entrance; the specific location of the restaurant is not visible in the image.",
+      "review": {
+        "default": "what is the other object in the image?",
+        "questions": [
+          "what is the other object in the image?",
+          "what is the color of the sign visible on the street?",
+          "what is the object located in front of the red lobster restaurant in the image?",
+          "Question: What color is the object located in front of the Red Lobster restaurant?"
+        ],
+        "selected": "what is the color of the sign visible on the street?",
+        "scores": {
+          "what is the color of the sign visible on the street?": {
+            "file": "ad71223f3454874e4c1d6dbb35c428791391a91327ce00b52b4cdc0234560342.json",
+            "answers": [
+              "unknown",
+              "unknown",
+              "red",
+              "white",
+              "unknown",
+              "red",
+              "red",
+              "blue",
+              "white",
+              "white"
+            ],
+            "seconds": 2.908559374976903,
+            "score": 15
+          },
+          "what color is the object located in front of the red lobster restaurant?": {
+            "file": "2500d22fefefea7dbca72e2aeb1504610c63c2a4b37bb2c557f33d6c26af84dc.json",
+            "answers": null,
+            "seconds": 1.500176791101694,
+            "score": null
+          }
+        }
+      },
+      "shared_seconds": 28.383
+    },
+    {
+      "evidence": [
+        17087,
+        24819,
+        11635,
+        3530,
+        28449,
+        22394,
+        29472,
+        28949,
+        3502,
+        45907
+      ],
+      "candidates": [
+        "what is the color of the street light visible on the corner of the building?",
+        "what color is the street light visible on the corner of the building?",
+        "what is the color of the street light visible on the corner of the building?",
+        "what color is the street light visible on the corner of the building?",
+        "What is the primary color of the building housing the red lobster restaurant?"
+      ],
+      "default": "what is the color of the street light visible on the corner of the building?",
+      "question": "what is the color of the street light visible on the corner of the building?",
+      "answer": "black",
+      "rewrite": "a view of a Red Lobster restaurant from the street, featuring a black and white one-way sign and a black street light on the corner, with a man in an orange shirt walking toward the entrance; the specific location of the restaurant is not visible in the image.",
+      "review": {
+        "default": "what is the color of the street light visible on the corner of the building?",
+        "questions": [
+          "what is the color of the street light visible on the corner of the building?",
+          "what color is the street light visible on the corner of the building?",
+          "What is the primary color of the building housing the red lobster restaurant?"
+        ],
+        "selected": "what is the color of the street light visible on the corner of the building?",
+        "scores": {}
+      },
+      "shared_seconds": 13.897
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "image of a red lobster restaurant from a street a one-way sign and street light is visible, and a man in an orange shirt is walking toward the entrance",
+      "raw_rank": 33,
+      "filtered_rank": 33,
+      "rank": 33,
+      "ordinary_screen": [
+        11635,
+        17087,
+        28449,
+        13199,
+        22839,
+        3530,
+        24819,
+        43807,
+        40955,
+        29472
+      ],
+      "display": [
+        11635,
+        17087,
+        28449,
+        13199,
+        22839,
+        3530,
+        24819,
+        43807,
+        40955,
+        29472
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "image of a red lobster restaurant from the street, featuring a black and white one-way sign and a street light, with a man in an orange shirt walking toward the entrance",
+      "raw_rank": 53,
+      "filtered_rank": 43,
+      "rank": 43,
+      "ordinary_screen": [
+        3203,
+        22394,
+        45907,
+        28949,
+        18024,
+        17692,
+        4080,
+        20555,
+        47348,
+        36378
+      ],
+      "display": [
+        3203,
+        22394,
+        45907,
+        28949,
+        18024,
+        17692,
+        4080,
+        20555,
+        47348,
+        36378
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "an image of a Red Lobster restaurant exterior featuring a black and white one-way sign and a street light, with a man in an orange shirt walking toward the entrance; the specific location of the restaurant is not visible in the image.",
+      "raw_rank": 37,
+      "filtered_rank": 18,
+      "rank": 18,
+      "ordinary_screen": [
+        7874,
+        3502,
+        12348,
+        17131,
+        48840,
+        28537,
+        11972,
+        43042,
+        12108,
+        27102
+      ],
+      "display": [
+        7874,
+        3502,
+        12348,
+        17131,
+        48840,
+        28537,
+        11972,
+        43042,
+        12108,
+        27102
+      ],
+      "check": {}
+    },
+    {
+      "round": 3,
+      "query": "a red lobster restaurant with a black and white one-way sign and a street light visible, and a man in an orange shirt is walking toward the entrance, with the specific location not shown",
+      "raw_rank": 61,
+      "filtered_rank": 32,
+      "rank": 32,
+      "ordinary_screen": [
+        18168,
+        13447,
+        14705,
+        16698,
+        15644,
+        13803,
+        49708,
+        11183,
+        33480,
+        15327
+      ],
+      "display": [
+        18168,
+        13447,
+        14705,
+        16698,
+        15644,
+        13803,
+        49708,
+        11183,
+        33480,
+        15327
+      ],
+      "check": {}
+    },
+    {
+      "round": 4,
+      "query": "a view of a Red Lobster restaurant from the street, featuring a black and white one-way sign and a street light, with a man in an orange shirt walking toward the entrance; the specific location of the restaurant is not visible in the image.",
+      "raw_rank": 50,
+      "filtered_rank": 12,
+      "rank": 12,
+      "ordinary_screen": [
+        45457,
+        43,
+        34488,
+        48434,
+        45273,
+        15821,
+        19656,
+        2736,
+        22473,
+        26523
+      ],
+      "display": [
+        45457,
+        43,
+        34488,
+        48434,
+        45273,
+        15821,
+        19656,
+        2736,
+        22473,
+        26523
+      ],
+      "check": {}
+    },
+    {
+      "round": 5,
+      "query": "a view of a Red Lobster restaurant from the street, featuring a black and white one-way sign and a black street light on the corner, with a man in an orange shirt walking toward the entrance; the specific location of the restaurant is not visible in the image.",
+      "raw_rank": 49,
+      "filtered_rank": 5,
+      "rank": 5,
+      "ordinary_screen": [
+        14402,
+        7363,
+        45843,
+        18371,
+        27853,
+        11673,
+        31741,
+        32927,
+        44701,
+        24732
+      ],
+      "display": [
+        14402,
+        7363,
+        45843,
+        18371,
+        27853,
+        11673,
+        31741,
+        32927,
+        44701,
+        24732
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 112.36500000000001,
+  "live": false,
+  "seconds": 0.10297704208642244,
+  "archived_source": "output/matan-indexed-selector/fallback/confirm/indexed/dialogues/701.json",
+  "archived_sha256": "0c793b45ac4f60a5ebe8b83e2d5079427f517c9a009bfc8c40409ceaf46705a4"
+}

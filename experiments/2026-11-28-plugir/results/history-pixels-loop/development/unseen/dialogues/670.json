@@ -1,0 +1,104 @@
+{
+  "qid": 670,
+  "target": "unlabeled2017/000000403461.jpg",
+  "arm": "unseen",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        34623,
+        48378,
+        35678,
+        4604,
+        16653,
+        19060,
+        40291,
+        577,
+        6444,
+        26341
+      ],
+      "candidates": [
+        "what is the weather condition in the image with the dog and sheep?",
+        "what color is the dog standing among the sheep?",
+        "Question: how many sheep are standing with the dog?",
+        "what is the surface type where the dog and sheep are standing?",
+        "what is the action being performed by the dog in the image?"
+      ],
+      "default": "what is the surface type where the dog and sheep are standing?",
+      "question": "what is the surface type where the dog and sheep are standing?",
+      "answer": "dirt",
+      "rewrite": "a dog stands among many sheep on a dirt surface late in the day",
+      "review": null,
+      "shared_seconds": 10.463242541998625
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a dog stands among many sheep late in the day",
+      "raw_rank": 11,
+      "filtered_rank": 11,
+      "rank": 11,
+      "ordinary_screen": [
+        29651,
+        39058,
+        15231,
+        43459,
+        49402,
+        79,
+        40022,
+        33335,
+        941,
+        32405
+      ],
+      "display": [
+        29651,
+        39058,
+        15231,
+        43459,
+        49402,
+        79,
+        40022,
+        33335,
+        941,
+        32405
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a dog stands among many sheep on a dirt surface late in the day",
+      "raw_rank": 3,
+      "filtered_rank": 1,
+      "rank": 1,
+      "ordinary_screen": [
+        34623,
+        16653,
+        35678,
+        34791,
+        40291,
+        19060,
+        9684,
+        31429,
+        30568,
+        27312
+      ],
+      "display": [
+        34623,
+        16653,
+        35678,
+        34791,
+        40291,
+        19060,
+        9684,
+        31429,
+        30568,
+        27312
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 10.463242541998625,
+  "live": true,
+  "seconds": 10.503670333884656
+}

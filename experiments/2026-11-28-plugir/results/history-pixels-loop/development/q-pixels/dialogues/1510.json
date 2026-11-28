@@ -1,0 +1,256 @@
+{
+  "qid": 1510,
+  "target": "unlabeled2017/000000542203.jpg",
+  "arm": "q-pixels",
+  "first": 3,
+  "turns": [
+    {
+      "evidence": [
+        29971,
+        36476,
+        13218,
+        93,
+        27844,
+        29281,
+        32025,
+        46523,
+        40104,
+        40397
+      ],
+      "candidates": [
+        "Question: What color is the shirt worn by the man hitting the tennis ball?",
+        "Question: What is the color of the shirt worn by the man jumping to hit the tennis ball?",
+        "Question: Where is the man hitting the tennis ball located?",
+        "Question: What color is the shirt worn by the man jumping to hit the tennis ball?",
+        "what is the location where the man attempts to hit the tennis ball?"
+      ],
+      "default": "Question: Where is the man hitting the tennis ball located?",
+      "question": "Question: Where is the man hitting the tennis ball located?",
+      "answer": "On a tennis court.",
+      "rewrite": "a man on a tennis court attempts to hit a tennis ball",
+      "review": {
+        "default": "Question: Where is the man hitting the tennis ball located?",
+        "questions": [
+          "Question: What color is the shirt worn by the man hitting the tennis ball?",
+          "Question: What is the color of the shirt worn by the man jumping to hit the tennis ball?",
+          "Question: Where is the man hitting the tennis ball located?",
+          "Question: What color is the shirt worn by the man jumping to hit the tennis ball?",
+          "what is the location where the man attempts to hit the tennis ball?"
+        ],
+        "selected": "Question: Where is the man hitting the tennis ball located?",
+        "scores": {}
+      },
+      "shared_seconds": 7.405
+    },
+    {
+      "evidence": [
+        7005,
+        38219,
+        36476,
+        20940,
+        27844,
+        93,
+        21343,
+        46157,
+        22305,
+        18106
+      ],
+      "candidates": [
+        "what color is the tennis court?",
+        "what is the man wearing?",
+        "what is the color of the tennis court?",
+        "what is the color of the tennis court?",
+        "what color are the shorts the man is wearing?"
+      ],
+      "default": "what is the man wearing?",
+      "question": "what is the man wearing?",
+      "answer": "dark blue shirt and shorts",
+      "rewrite": "a man in a dark blue shirt and shorts hits a tennis ball on a tennis court",
+      "review": {
+        "default": "what is the man wearing?",
+        "questions": [
+          "what color is the tennis court?",
+          "what is the man wearing?",
+          "what is the color of the tennis court?",
+          "what color are the shorts the man is wearing?"
+        ],
+        "selected": "what is the man wearing?",
+        "scores": {}
+      },
+      "shared_seconds": 7.558
+    },
+    {
+      "evidence": [
+        93,
+        28259,
+        40397,
+        39137,
+        29281,
+        27366,
+        41389,
+        3919,
+        45675,
+        42481
+      ],
+      "candidates": [
+        "Question: Is the man hitting the tennis ball in the air?",
+        "what is the action of the man with the tennis racket?",
+        "What is the gender of the tennis player attempting to hit the ball?",
+        "Based on the provided sources, here is the generated question and the explanation for why it was chosen.\n\n**Generated Question:**\n\"Is the man hitting the?",
+        "**Generated Question:**\n\"Is the man hitting the tennis ball in the air?"
+      ],
+      "default": "what is the action of the man with the tennis racket?",
+      "question": "what is the action of the man with the tennis racket?",
+      "answer": "serve",
+      "rewrite": "a man in a dark blue shirt and shorts serves a tennis ball on a tennis court",
+      "review": {
+        "default": "what is the action of the man with the tennis racket?",
+        "questions": [
+          "Question: Is the man hitting the tennis ball in the air?",
+          "what is the action of the man with the tennis racket?",
+          "What is the gender of the tennis player attempting to hit the ball?",
+          "Based on the provided sources, here is the generated question and the explanation for why it was chosen.\n\n**Generated Question:**\n\"Is the man hitting the?",
+          "**Generated Question:**\n\"Is the man hitting the tennis ball in the air?"
+        ],
+        "selected": "what is the action of the man with the tennis racket?",
+        "scores": {}
+      },
+      "shared_seconds": 17.817
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a tennis player attempts to hit a tennis ball",
+      "raw_rank": 613,
+      "filtered_rank": 613,
+      "rank": 613,
+      "ordinary_screen": [
+        29971,
+        36476,
+        13218,
+        93,
+        27844,
+        29281,
+        32025,
+        46523,
+        40104,
+        40397
+      ],
+      "display": [
+        29971,
+        36476,
+        13218,
+        93,
+        27844,
+        29281,
+        32025,
+        46523,
+        40104,
+        40397
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a man on a tennis court attempts to hit a tennis ball",
+      "raw_rank": 377,
+      "filtered_rank": 367,
+      "rank": 367,
+      "ordinary_screen": [
+        7005,
+        38219,
+        20940,
+        21343,
+        46157,
+        22305,
+        18106,
+        2758,
+        3707,
+        13159
+      ],
+      "display": [
+        7005,
+        38219,
+        20940,
+        21343,
+        46157,
+        22305,
+        18106,
+        2758,
+        3707,
+        13159
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "a man in a dark blue shirt and shorts hits a tennis ball on a tennis court",
+      "raw_rank": 101,
+      "filtered_rank": 92,
+      "rank": 92,
+      "ordinary_screen": [
+        28259,
+        39137,
+        27366,
+        41389,
+        3919,
+        45675,
+        42481,
+        32546,
+        24533,
+        12438
+      ],
+      "display": [
+        28259,
+        39137,
+        27366,
+        41389,
+        3919,
+        45675,
+        42481,
+        32546,
+        24533,
+        12438
+      ],
+      "check": {}
+    },
+    {
+      "round": 3,
+      "query": "a man in a dark blue shirt and shorts serves a tennis ball on a tennis court",
+      "raw_rank": 12,
+      "filtered_rank": 9,
+      "rank": 9,
+      "ordinary_screen": [
+        12340,
+        17343,
+        37348,
+        9209,
+        9513,
+        11600,
+        31298,
+        43495,
+        46615,
+        41475
+      ],
+      "display": [
+        12340,
+        17343,
+        37348,
+        9209,
+        9513,
+        11600,
+        31298,
+        43495,
+        46615,
+        41475
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 32.78,
+  "live": false,
+  "seconds": 0.357476209057495,
+  "archived_source": "output/matan-indexed-selector/fallback/confirm/indexed/dialogues/1510.json",
+  "archived_sha256": "b4486a6029c343dd30cf12648bc6e02a6742a6ac77556ce10f81518e0bc87e88"
+}

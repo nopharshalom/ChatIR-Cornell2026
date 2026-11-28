@@ -1,0 +1,118 @@
+{
+  "qid": 742,
+  "selection": {
+    "kl": "Question: Is the man flying the kite with his arms stretched out?",
+    "probe": "Question: Is the man flying the kite with his arms stretched out?",
+    "candidates": [
+      {
+        "question": "Question: Is the man flying the kite with his arms stretched out?",
+        "score": 9,
+        "branches": [
+          {
+            "answer": "yes",
+            "caption": "a man flying a kite with his arms stretched out on the sand at the beach",
+            "top10": [
+              11745,
+              40417,
+              14572,
+              28201,
+              30539,
+              11138,
+              42817,
+              28069,
+              37423,
+              14415
+            ]
+          },
+          {
+            "answer": "no",
+            "caption": "a man standing on the sand holding a kite at the beach",
+            "top10": [
+              39709,
+              43457,
+              1890,
+              44647,
+              33791,
+              2844,
+              5526,
+              11557,
+              12762,
+              11138
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: What is the color of the shirt the man is wearing?",
+        "score": 1,
+        "branches": [
+          {
+            "answer": "red",
+            "caption": "a man in a red shirt with kite in his hands",
+            "top10": [
+              48893,
+              11428,
+              26401,
+              39182,
+              33946,
+              44679,
+              38471,
+              33587,
+              1611,
+              14893
+            ]
+          },
+          {
+            "answer": "blue",
+            "caption": "a man in a blue shirt with kite in his hands",
+            "top10": [
+              14893,
+              33632,
+              11655,
+              39709,
+              39977,
+              37351,
+              31168,
+              9576,
+              20142,
+              8225
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the color of the shirt the man is wearing while flying the kite?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "Question: What color is the shirt worn by the man flying the kite?",
+        "score": null,
+        "branches": []
+      }
+    ]
+  },
+  "outcomes": {
+    "Question: Is the man flying the kite with his arms stretched out?": {
+      "answer": "no",
+      "rewrite": "a man flying a kite on the sand at the beach with his arms not stretched out",
+      "rank": 52
+    },
+    "Question: What is the color of the shirt the man is wearing?": {
+      "answer": "Black.",
+      "rewrite": "a man wearing a black shirt flies a kite on the sand at the beach",
+      "rank": 7
+    },
+    "what is the color of the shirt the man is wearing while flying the kite?": {
+      "answer": "black",
+      "rewrite": "a man in a black shirt flying a kite on the sand at the beach",
+      "rank": 5
+    },
+    "Question: What color is the shirt worn by the man flying the kite?": {
+      "answer": "Black.",
+      "rewrite": "a man in a black shirt flying a kite on the sand at the beach",
+      "rank": 5
+    }
+  },
+  "saved_kl_rank": 52
+}

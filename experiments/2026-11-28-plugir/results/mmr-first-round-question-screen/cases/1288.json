@@ -1,0 +1,118 @@
+{
+  "qid": 1288,
+  "selection": {
+    "kl": "Question: What are the giraffes eating in the image?",
+    "probe": "Question: How many giraffes are visible in the image?",
+    "candidates": [
+      {
+        "question": "Question: How many giraffes are visible in the image?",
+        "score": 6,
+        "branches": [
+          {
+            "answer": "two",
+            "caption": "two giraffes standing in an enclosure",
+            "top10": [
+              40716,
+              17211,
+              30723,
+              33038,
+              39813,
+              626,
+              30510,
+              7521,
+              30478,
+              8083
+            ]
+          },
+          {
+            "answer": "three",
+            "caption": "three giraffes are standing in a pen",
+            "top10": [
+              6596,
+              19513,
+              47565,
+              25775,
+              24536,
+              28795,
+              24287,
+              38352,
+              11266,
+              38182
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: What are the giraffes eating in the image?",
+        "score": 5,
+        "branches": [
+          {
+            "answer": "a banana",
+            "caption": "giraffes eating a banana",
+            "top10": [
+              19554,
+              22135,
+              13025,
+              44337,
+              20582,
+              40844,
+              47434,
+              35128,
+              15719,
+              17378
+            ]
+          },
+          {
+            "answer": "plants",
+            "caption": "giraffes in a zoo holding up plants",
+            "top10": [
+              35579,
+              8191,
+              44337,
+              28068,
+              35707,
+              14090,
+              30009,
+              13025,
+              15719,
+              27333
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: Is there a giraffe wearing a scarf in the image?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "what is the color of the plants that the giraffes are holding up?",
+        "score": null,
+        "branches": []
+      }
+    ]
+  },
+  "outcomes": {
+    "Question: How many giraffes are visible in the image?": {
+      "answer": "3",
+      "rewrite": "three giraffes eating in a closed zoo area",
+      "rank": 16
+    },
+    "Question: What are the giraffes eating in the image?": {
+      "answer": "nothing",
+      "rewrite": "some giraffes in a closed zoo area, not eating",
+      "rank": 9
+    },
+    "Question: Is there a giraffe wearing a scarf in the image?": {
+      "answer": "No",
+      "rewrite": "some giraffes in a closed zoo area eating, none wearing a scarf",
+      "rank": 57
+    },
+    "what is the color of the plants that the giraffes are holding up?": {
+      "answer": "green",
+      "rewrite": "some green plants being held up by giraffes in a closed zoo area",
+      "rank": 57
+    }
+  },
+  "saved_kl_rank": 9
+}

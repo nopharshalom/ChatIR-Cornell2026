@@ -1,0 +1,40 @@
+{
+  "plan_raw": "{\n\"choice\": 2,\n\"check\": \"presence of people\",\n\"photos\": [0, 1]\n}",
+  "provisional": 2,
+  "valid_plan": true,
+  "caption": {
+    "choice": 2,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "The presence of people is unknown as the caption and photo description do not mention any individuals."
+      },
+      {
+        "index": 1,
+        "observation": "Yes, the presence of people is confirmed as the caption explicitly states there are people on the street."
+      }
+    ],
+    "raw": "{\"choice\": 2}"
+  },
+  "pixels": {
+    "choice": 2,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "unknown"
+      },
+      {
+        "index": 1,
+        "observation": "Yes, people are present in the image."
+      }
+    ],
+    "raw": "{\"choice\": 2}"
+  },
+  "qid": 896,
+  "example_ids": [
+    1866,
+    663
+  ]
+}

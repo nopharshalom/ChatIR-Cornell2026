@@ -1,0 +1,163 @@
+{
+  "qid": 532,
+  "target": "unlabeled2017/000000434734.jpg",
+  "arm": "contrast",
+  "first": 2,
+  "turns": [
+    {
+      "evidence": [
+        12012,
+        41904,
+        40906,
+        11670,
+        25360,
+        31605,
+        43506,
+        8371,
+        36866,
+        10419
+      ],
+      "candidates": [
+        "what is the baseball player wearing?",
+        "Question: What is the baseball player doing with the ball?",
+        "Question: Is the baseball player on the mound holding a bat or a glove?",
+        "Question: Is the baseball player on the mound holding a bat or a glove?",
+        "Question: What is the baseball player holding?"
+      ],
+      "default": "what is the baseball player wearing?",
+      "question": "what is the baseball player wearing?",
+      "answer": "gray uniform",
+      "rewrite": "a baseball player in a gray uniform is on the mound ready to swing",
+      "review": null,
+      "shared_seconds": 11.382359291892499
+    },
+    {
+      "evidence": [
+        11832,
+        18034,
+        35687,
+        41807,
+        28161,
+        3000,
+        39769,
+        12641,
+        7567,
+        34244
+      ],
+      "candidates": [
+        "what is the baseball player holding?",
+        "What is the baseball player holding in their hands?",
+        "what is the other object in the image?",
+        "What object is the baseball player holding?",
+        "what is the baseball player holding in their hands?"
+      ],
+      "default": "what is the baseball player holding?",
+      "question": "what is the baseball player holding?",
+      "answer": "bat",
+      "rewrite": "a baseball player in a gray uniform stands on the mound holding a bat, ready to swing",
+      "review": null,
+      "shared_seconds": 16.109669083030894
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a baseball player is on the mound ready to swing",
+      "raw_rank": 95,
+      "filtered_rank": 95,
+      "rank": 95,
+      "ordinary_screen": [
+        36866,
+        10419,
+        7567,
+        21639,
+        34244,
+        48813,
+        35649,
+        41945,
+        37537,
+        45323
+      ],
+      "display": [
+        36866,
+        10419,
+        7567,
+        21639,
+        34244,
+        48813,
+        35649,
+        41945,
+        37537,
+        45323
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a baseball player in a gray uniform is on the mound ready to swing",
+      "raw_rank": 25,
+      "filtered_rank": 23,
+      "rank": 23,
+      "ordinary_screen": [
+        17574,
+        27908,
+        14323,
+        26768,
+        39374,
+        48812,
+        6796,
+        49685,
+        29941,
+        26632
+      ],
+      "display": [
+        17574,
+        27908,
+        14323,
+        26768,
+        39374,
+        48812,
+        6796,
+        49685,
+        29941,
+        26632
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "a baseball player in a gray uniform stands on the mound holding a bat, ready to swing",
+      "raw_rank": 20,
+      "filtered_rank": 8,
+      "rank": 8,
+      "ordinary_screen": [
+        18034,
+        41807,
+        3000,
+        39769,
+        3965,
+        12641,
+        35687,
+        37255,
+        5218,
+        26906
+      ],
+      "display": [
+        18034,
+        41807,
+        3000,
+        39769,
+        3965,
+        12641,
+        35687,
+        37255,
+        5218,
+        26906
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 27.492028374923393,
+  "live": true,
+  "seconds": 27.576494249980897
+}

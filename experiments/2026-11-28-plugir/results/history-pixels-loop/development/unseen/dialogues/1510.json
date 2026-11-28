@@ -1,0 +1,163 @@
+{
+  "qid": 1510,
+  "target": "unlabeled2017/000000542203.jpg",
+  "arm": "unseen",
+  "first": 2,
+  "turns": [
+    {
+      "evidence": [
+        21343,
+        48095,
+        17183,
+        4722,
+        46157,
+        10629,
+        44394,
+        34402,
+        30317,
+        43266
+      ],
+      "candidates": [
+        "Question: What is the man's attire?",
+        "Question: What is the color of the man's shirt?",
+        "Question: Where is the man playing tennis?",
+        "Question: What is the man holding in his hand?",
+        "what is the color of the man's shorts?"
+      ],
+      "default": "Question: Where is the man playing tennis?",
+      "question": "Question: Where is the man playing tennis?",
+      "answer": "stadium",
+      "rewrite": "a man playing tennis in a stadium",
+      "review": null,
+      "shared_seconds": 9.172880000201985
+    },
+    {
+      "evidence": [
+        13032,
+        46270,
+        7218,
+        25804,
+        45131,
+        6069,
+        34802,
+        20030,
+        2607,
+        46400
+      ],
+      "candidates": [
+        "what color are the shorts of the man playing tennis?",
+        "what color is the shirt of the man playing tennis?",
+        "what is the color of the shirt worn by the man playing tennis?",
+        "what color is the shirt of the man playing tennis?",
+        "what color is the shirt of the man playing tennis?"
+      ],
+      "default": "what color is the shirt of the man playing tennis?",
+      "question": "what color is the shirt of the man playing tennis?",
+      "answer": "black",
+      "rewrite": "a man in a black shirt plays tennis in a stadium",
+      "review": null,
+      "shared_seconds": 7.155266500078142
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a tennis player attempts to hit a tennis ball",
+      "raw_rank": 613,
+      "filtered_rank": 613,
+      "rank": 613,
+      "ordinary_screen": [
+        29971,
+        36476,
+        13218,
+        93,
+        27844,
+        29281,
+        32025,
+        46523,
+        40104,
+        40397
+      ],
+      "display": [
+        29971,
+        36476,
+        13218,
+        93,
+        27844,
+        29281,
+        32025,
+        46523,
+        40104,
+        40397
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a man playing tennis in a stadium",
+      "raw_rank": 39,
+      "filtered_rank": 38,
+      "rank": 38,
+      "ordinary_screen": [
+        11701,
+        16211,
+        3103,
+        29812,
+        40176,
+        33703,
+        1694,
+        7217,
+        46194,
+        48939
+      ],
+      "display": [
+        11701,
+        16211,
+        3103,
+        29812,
+        40176,
+        33703,
+        1694,
+        7217,
+        46194,
+        48939
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "a man in a black shirt plays tennis in a stadium",
+      "raw_rank": 7,
+      "filtered_rank": 5,
+      "rank": 5,
+      "ordinary_screen": [
+        48955,
+        45131,
+        37089,
+        11702,
+        46615,
+        12841,
+        34042,
+        40775,
+        31561,
+        40094
+      ],
+      "display": [
+        48955,
+        45131,
+        37089,
+        11702,
+        46615,
+        12841,
+        34042,
+        40775,
+        31561,
+        40094
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 16.328146500280127,
+  "live": true,
+  "seconds": 16.37795824999921
+}

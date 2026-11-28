@@ -1,0 +1,3796 @@
+{
+  "modes": [
+    "original",
+    "real_rewrite_first",
+    "real_rewrite_second",
+    "template_predicted",
+    "template_real_first",
+    "template_real_second"
+  ],
+  "summary": {
+    "original": {
+      "hits": 12,
+      "rescues": [],
+      "losses": [
+        1288,
+        754
+      ],
+      "changed": 13
+    },
+    "real_rewrite_first": {
+      "hits": 13,
+      "rescues": [
+        1640
+      ],
+      "losses": [
+        754,
+        77
+      ],
+      "changed": 13
+    },
+    "real_rewrite_second": {
+      "hits": 12,
+      "rescues": [
+        742
+      ],
+      "losses": [
+        1301,
+        77,
+        143
+      ],
+      "changed": 15
+    },
+    "template_predicted": {
+      "hits": 12,
+      "rescues": [
+        742
+      ],
+      "losses": [
+        1301,
+        1288,
+        77
+      ],
+      "changed": 18
+    },
+    "template_real_first": {
+      "hits": 14,
+      "rescues": [
+        1640,
+        742
+      ],
+      "losses": [
+        1301,
+        77
+      ],
+      "changed": 19
+    },
+    "template_real_second": {
+      "hits": 13,
+      "rescues": [
+        742
+      ],
+      "losses": [
+        1301,
+        77
+      ],
+      "changed": 19
+    }
+  },
+  "cases": [
+    {
+      "qid": 35,
+      "kl": "what is the color of the branch the bird is sitting on?",
+      "choices": {
+        "original": "what is the color of the branch the bird is sitting on?",
+        "real_rewrite_first": "what is the color of the branch the bird is sitting on?",
+        "real_rewrite_second": "what is the color of the branch the bird is sitting on?",
+        "template_predicted": "what is the color of the bird in the image?",
+        "template_real_first": "what is the color of the bird in the image?",
+        "template_real_second": "what is the color of the branch the bird is sitting on?"
+      },
+      "candidates": {
+        "what is the color of the bird sitting on the branch?": {
+          "rank": 14,
+          "answer": "brown",
+          "predicted": [
+            "brown",
+            "grey"
+          ],
+          "scores": {
+            "original": 8,
+            "real_rewrite_first": 8,
+            "real_rewrite_second": 8,
+            "template_predicted": 8,
+            "template_real_first": 8,
+            "template_real_second": 0
+          },
+          "before_target_hit": true,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the color of the branch the bird is sitting on?": {
+          "rank": 14,
+          "answer": "brown",
+          "predicted": [
+            "brown",
+            "not green"
+          ],
+          "scores": {
+            "original": 8,
+            "real_rewrite_first": 6,
+            "real_rewrite_second": 8,
+            "template_predicted": 8,
+            "template_real_first": 8,
+            "template_real_second": 0
+          },
+          "before_target_hit": true,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the color of the bird in the image?": {
+          "rank": 14,
+          "answer": "brown",
+          "predicted": [
+            "brown",
+            "grey"
+          ],
+          "scores": {
+            "original": 8,
+            "real_rewrite_first": 8,
+            "real_rewrite_second": 8,
+            "template_predicted": 9,
+            "template_real_first": 9,
+            "template_real_second": 0
+          },
+          "before_target_hit": true,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the color of the branch where the bird is sitting?": {
+          "rank": 14,
+          "answer": "brown",
+          "predicted": [
+            "brown",
+            "not green"
+          ],
+          "scores": {
+            "original": 8,
+            "real_rewrite_first": 6,
+            "real_rewrite_second": 8,
+            "template_predicted": 7,
+            "template_real_first": 7,
+            "template_real_second": 0
+          },
+          "before_target_hit": true,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        }
+      }
+    },
+    {
+      "qid": 1301,
+      "kl": "Question: How many different types of doughnuts are in the display case?",
+      "choices": {
+        "original": "Question: How many different types of doughnuts are in the display case?",
+        "real_rewrite_first": "Question: How many different types of doughnuts are in the display case?",
+        "real_rewrite_second": "Question: What is the color of the display case containing the doughnuts?",
+        "template_predicted": "Question: Where is the display case containing the doughnuts located?",
+        "template_real_first": "Question: What is the color of the display case containing the doughnuts?",
+        "template_real_second": "Question: What is the color of the display case containing the doughnuts?"
+      },
+      "candidates": {
+        "Question: What is the material of the display case containing the doughnuts?": {
+          "rank": 17,
+          "answer": "glass",
+          "predicted": [
+            "glass",
+            "metal"
+          ],
+          "scores": {
+            "original": 7,
+            "real_rewrite_first": 8,
+            "real_rewrite_second": 1,
+            "template_predicted": 3,
+            "template_real_first": 3,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: What is the color of the display case containing the doughnuts?": {
+          "rank": 14,
+          "answer": "silver",
+          "predicted": [
+            "white and gray",
+            "glass"
+          ],
+          "scores": {
+            "original": 2,
+            "real_rewrite_first": 3,
+            "real_rewrite_second": 3,
+            "template_predicted": 3,
+            "template_real_first": 4,
+            "template_real_second": 3
+          },
+          "before_target_hit": true,
+          "exact_answer": false,
+          "template_predicted_hit": true,
+          "template_real_hit": true
+        },
+        "Question: How many different types of doughnuts are in the display case?": {
+          "rank": 10,
+          "answer": "12",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "Question: Where is the display case containing the doughnuts located?": {
+          "rank": 13,
+          "answer": "in the store",
+          "predicted": [
+            "in a bakery",
+            "on metal racks"
+          ],
+          "scores": {
+            "original": 3,
+            "real_rewrite_first": 4,
+            "real_rewrite_second": 1,
+            "template_predicted": 4,
+            "template_real_first": 3,
+            "template_real_second": 1
+          },
+          "before_target_hit": true,
+          "exact_answer": false,
+          "template_predicted_hit": true,
+          "template_real_hit": false
+        },
+        "Question: Are the display cases containing the doughnuts made of glass?": {
+          "rank": 17,
+          "answer": "yes",
+          "predicted": [
+            "yes",
+            "no"
+          ],
+          "scores": {
+            "original": 7,
+            "real_rewrite_first": 8,
+            "real_rewrite_second": 1,
+            "template_predicted": 0,
+            "template_real_first": 0,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        }
+      }
+    },
+    {
+      "qid": 601,
+      "kl": "what is the time of day when the traffic light is hanging over the intersection?",
+      "choices": {
+        "original": "what is the color of the street where the traffic light is hanging?",
+        "real_rewrite_first": "what is the color of the street where the traffic light is hanging?",
+        "real_rewrite_second": "what is the color of the street where the traffic light is hanging?",
+        "template_predicted": "what is the color of the street where the traffic light is hanging?",
+        "template_real_first": "what is the color of the street where the traffic light is hanging?",
+        "template_real_second": "Question: what is the color of the building near the traffic light?"
+      },
+      "candidates": {
+        "what color is the traffic light hanging over the intersection?": {
+          "rank": 97,
+          "answer": "green",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the time of day when the traffic light is hanging over the intersection?": {
+          "rank": 7,
+          "answer": "daytime",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "Question: what is the color of the building near the traffic light?": {
+          "rank": 2,
+          "answer": "white",
+          "predicted": [
+            "large gray",
+            "large"
+          ],
+          "scores": {
+            "original": 0,
+            "real_rewrite_first": 5,
+            "real_rewrite_second": 5,
+            "template_predicted": 2,
+            "template_real_first": 1,
+            "template_real_second": 3
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the color of the street where the traffic light is hanging?": {
+          "rank": 10,
+          "answer": "gray",
+          "predicted": [
+            "gray",
+            "black"
+          ],
+          "scores": {
+            "original": 4,
+            "real_rewrite_first": 10,
+            "real_rewrite_second": 10,
+            "template_predicted": 4,
+            "template_real_first": 4,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        }
+      }
+    },
+    {
+      "qid": 1107,
+      "kl": "what is the location of the group of giraffes walking next to the wooden fence?",
+      "choices": {
+        "original": "what is the location of the group of giraffes walking next to the wooden fence?",
+        "real_rewrite_first": "what is the location of the group of giraffes walking next to the wooden fence?",
+        "real_rewrite_second": "what is the location of the group of giraffes walking next to the wooden fence?",
+        "template_predicted": "what is the location of the group of giraffes walking next to the wooden fence?",
+        "template_real_first": "what is the location of the group of giraffes walking next to the wooden fence?",
+        "template_real_second": "what is the number of giraffes in the group walking next to the wooden fence?"
+      },
+      "candidates": {
+        "what is the color of the trees in the background?": {
+          "rank": 79,
+          "answer": "green",
+          "predicted": [
+            "green",
+            "brown"
+          ],
+          "scores": {
+            "original": 4,
+            "real_rewrite_first": 4,
+            "real_rewrite_second": 0,
+            "template_predicted": 2,
+            "template_real_first": 2,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the number of giraffes in the group walking next to the wooden fence?": {
+          "rank": 42,
+          "answer": "3",
+          "predicted": [
+            "three",
+            "four"
+          ],
+          "scores": {
+            "original": 4,
+            "real_rewrite_first": 4,
+            "real_rewrite_second": 4,
+            "template_predicted": 1,
+            "template_real_first": 0,
+            "template_real_second": 1
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": true,
+          "template_real_hit": true
+        },
+        "what is the location of the group of giraffes walking next to the wooden fence?": {
+          "rank": 43,
+          "answer": "top",
+          "predicted": [
+            "a fenced area",
+            "a zoo enclosure"
+          ],
+          "scores": {
+            "original": 5,
+            "real_rewrite_first": 7,
+            "real_rewrite_second": 6,
+            "template_predicted": 3,
+            "template_real_first": 3,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": true,
+          "template_real_hit": true
+        },
+        "what is the number of giraffes in the group?": {
+          "rank": 42,
+          "answer": "3",
+          "predicted": [
+            "three",
+            "four"
+          ],
+          "scores": {
+            "original": 4,
+            "real_rewrite_first": 4,
+            "real_rewrite_second": 4,
+            "template_predicted": 0,
+            "template_real_first": 0,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        }
+      }
+    },
+    {
+      "qid": 1288,
+      "kl": "Question: What are the giraffes eating in the image?",
+      "choices": {
+        "original": "Question: How many giraffes are visible in the image?",
+        "real_rewrite_first": "Question: What are the giraffes eating in the image?",
+        "real_rewrite_second": "Question: What are the giraffes eating in the image?",
+        "template_predicted": "Question: How many giraffes are visible in the image?",
+        "template_real_first": "Question: What are the giraffes eating in the image?",
+        "template_real_second": "Question: What are the giraffes eating in the image?"
+      },
+      "candidates": {
+        "Question: How many giraffes are visible in the image?": {
+          "rank": 16,
+          "answer": "3",
+          "predicted": [
+            "two",
+            "three"
+          ],
+          "scores": {
+            "original": 6,
+            "real_rewrite_first": 3,
+            "real_rewrite_second": 5,
+            "template_predicted": 6,
+            "template_real_first": 2,
+            "template_real_second": 4
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: What are the giraffes eating in the image?": {
+          "rank": 9,
+          "answer": "nothing",
+          "predicted": [
+            "a banana",
+            "plants"
+          ],
+          "scores": {
+            "original": 5,
+            "real_rewrite_first": 11,
+            "real_rewrite_second": 8,
+            "template_predicted": 5,
+            "template_real_first": 3,
+            "template_real_second": 4
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: Is there a giraffe wearing a scarf in the image?": {
+          "rank": 57,
+          "answer": "No",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the color of the plants that the giraffes are holding up?": {
+          "rank": 57,
+          "answer": "green",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        }
+      }
+    },
+    {
+      "qid": 570,
+      "kl": "Question: How many clocks are visible on the tower?",
+      "choices": {
+        "original": "what is the location of the clock tower?",
+        "real_rewrite_first": "what is the location of the clock tower?",
+        "real_rewrite_second": "what is the location of the clock tower?",
+        "template_predicted": "Question: How many clocks are visible on the tower?",
+        "template_real_first": "Question: How many clocks are visible on the tower?",
+        "template_real_second": "what is the location of the clock tower?"
+      },
+      "candidates": {
+        "what is the time of day depicted in the image?": {
+          "rank": 19,
+          "answer": "night",
+          "predicted": [
+            "dusk",
+            "night"
+          ],
+          "scores": {
+            "original": 5,
+            "real_rewrite_first": 5,
+            "real_rewrite_second": 6,
+            "template_predicted": 6,
+            "template_real_first": 0,
+            "template_real_second": 6
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: What is the color of the clock on the tower?": {
+          "rank": 95,
+          "answer": "white",
+          "predicted": [
+            "blue",
+            "lit up"
+          ],
+          "scores": {
+            "original": 6,
+            "real_rewrite_first": 7,
+            "real_rewrite_second": 5,
+            "template_predicted": 6,
+            "template_real_first": 6,
+            "template_real_second": 4
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: How many clocks are visible on the tower?": {
+          "rank": 32,
+          "answer": "1",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the location of the clock tower?": {
+          "rank": 24,
+          "answer": "westminster abbey",
+          "predicted": [
+            "a street",
+            "the top of the building"
+          ],
+          "scores": {
+            "original": 9,
+            "real_rewrite_first": 9,
+            "real_rewrite_second": 10,
+            "template_predicted": 5,
+            "template_real_first": 6,
+            "template_real_second": 7
+          },
+          "before_target_hit": true,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what color is the tower itself?": {
+          "rank": 14,
+          "answer": "red",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        }
+      }
+    },
+    {
+      "qid": 1004,
+      "kl": "Question: Are there any people standing on the snowy slope who are not wearing coats?",
+      "choices": {
+        "original": "Question: Which specific candidates from the list depict exactly four people standing on a snowy slope with skis?",
+        "real_rewrite_first": "Question: Are there any people standing on the snowy slope who are not wearing coats?",
+        "real_rewrite_second": "Question: Which specific candidates from the list depict exactly four people standing on a snowy slope with skis?",
+        "template_predicted": "Question: Which specific candidates from the list depict exactly four people standing on a snowy slope with skis?",
+        "template_real_first": "what are the colors of the coats worn by the four people on the snowy slope?",
+        "template_real_second": "Question: Which specific candidates from the list depict exactly four people standing on a snowy slope with skis?"
+      },
+      "candidates": {
+        "what are the colors of the coats worn by the four people on the snowy slope?": {
+          "rank": 29,
+          "answer": "Based on the image provided, here are the colors of the coats worn by the four people on the snowy slope, from left to right:\n\n-   **Black:** The person on the far left is wearing a black coat.\n-",
+          "predicted": [
+            "black and blue",
+            "unknown"
+          ],
+          "scores": {
+            "original": 1,
+            "real_rewrite_first": 3,
+            "real_rewrite_second": 4,
+            "template_predicted": 4,
+            "template_real_first": 6,
+            "template_real_second": 8
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the gender of the people standing on the snowy slope with skis?": {
+          "rank": 37,
+          "answer": "unsure",
+          "predicted": [
+            "four women",
+            "four men"
+          ],
+          "scores": {
+            "original": 7,
+            "real_rewrite_first": 4,
+            "real_rewrite_second": 3,
+            "template_predicted": 8,
+            "template_real_first": 4,
+            "template_real_second": 6
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: Are there any people standing on the snowy slope who are not wearing coats?": {
+          "rank": 45,
+          "answer": "No.",
+          "predicted": [
+            "Yes, at least one person is not wearing a coat.",
+            "No, all people are wearing coats."
+          ],
+          "scores": {
+            "original": 1,
+            "real_rewrite_first": 2,
+            "real_rewrite_second": 1,
+            "template_predicted": 3,
+            "template_real_first": 2,
+            "template_real_second": 1
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: what is the gender of the people standing on the snowy slope?": {
+          "rank": 37,
+          "answer": "unclear",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "Question: Which specific candidates from the list depict exactly four people standing on a snowy slope with skis?": {
+          "rank": 31,
+          "answer": "I am unsure.",
+          "predicted": [
+            "four skiers posing outdoors",
+            "four people skiing on snowy slopes"
+          ],
+          "scores": {
+            "original": 9,
+            "real_rewrite_first": 4,
+            "real_rewrite_second": 5,
+            "template_predicted": 12,
+            "template_real_first": 3,
+            "template_real_second": 9
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        }
+      }
+    },
+    {
+      "qid": 466,
+      "kl": "what is the background object behind the man performing the skateboard trick in the air?",
+      "choices": {
+        "original": "what is the background object behind the man performing the skateboard trick in the air?",
+        "real_rewrite_first": "what is the background object behind the man performing the skateboard trick in the air?",
+        "real_rewrite_second": "what is the background object behind the man performing the skateboard trick in the air?",
+        "template_predicted": "what is the background object behind the man performing the skateboard trick in the air?",
+        "template_real_first": "what is the background object behind the man performing the skateboard trick in the air?",
+        "template_real_second": "what is the background object behind the man performing the skateboard trick in the air?"
+      },
+      "candidates": {
+        "Question: What is the color of the skateboard the man is riding?": {
+          "rank": 2,
+          "answer": "green",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the color of the hat worn by the man performing the skateboard trick?": {
+          "rank": 27,
+          "answer": "black",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "Question: What is the color of the skateboard the man is performing the trick on?": {
+          "rank": 2,
+          "answer": "green",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the color of the shirt worn by the man performing the skateboard trick in the air?": {
+          "rank": 6,
+          "answer": "black",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the background object behind the man performing the skateboard trick in the air?": {
+          "rank": 36,
+          "answer": "metal railing",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        }
+      }
+    },
+    {
+      "qid": 701,
+      "kl": "what is the other object in the image?",
+      "choices": {
+        "original": "what is the other object in the image?",
+        "real_rewrite_first": "what is the other object in the image?",
+        "real_rewrite_second": "what is the other object in the image?",
+        "template_predicted": "what is the other object in the image?",
+        "template_real_first": "what is the other object in the image?",
+        "template_real_second": "what is the other object in the image?"
+      },
+      "candidates": {
+        "what is the other object in the image?": {
+          "rank": 36,
+          "answer": "traffic light",
+          "predicted": [
+            "a parking meter",
+            "a large red sign"
+          ],
+          "scores": {
+            "original": 6,
+            "real_rewrite_first": 3,
+            "real_rewrite_second": 7,
+            "template_predicted": 7,
+            "template_real_first": 6,
+            "template_real_second": 5
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the color of the one-way sign visible in the image?": {
+          "rank": 53,
+          "answer": "black and white",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the color of the sign mentioned in the description?": {
+          "rank": 52,
+          "answer": "red",
+          "predicted": [
+            "red",
+            "unknown"
+          ],
+          "scores": {
+            "original": 1,
+            "real_rewrite_first": 3,
+            "real_rewrite_second": 2,
+            "template_predicted": 1,
+            "template_real_first": 1,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the color of the one-way sign mentioned in the description?": {
+          "rank": 53,
+          "answer": "black and white",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "Question: Which color is the sign on the building in the image?": {
+          "rank": 52,
+          "answer": "red",
+          "predicted": [
+            "red",
+            "unknown"
+          ],
+          "scores": {
+            "original": 1,
+            "real_rewrite_first": 3,
+            "real_rewrite_second": 2,
+            "template_predicted": 2,
+            "template_real_first": 2,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        }
+      }
+    },
+    {
+      "qid": 93,
+      "kl": "what is the color of the racquets held by the two men playing doubles tennis?",
+      "choices": {
+        "original": "what is the color of the racquets held by the two men playing doubles tennis?",
+        "real_rewrite_first": "what is the color of the racquets held by the two men playing doubles tennis?",
+        "real_rewrite_second": "what is the color of the racquets held by the two men playing doubles tennis?",
+        "template_predicted": "what is the color of the racquets held by the two men playing doubles tennis?",
+        "template_real_first": "what is the color of the racquets held by the two men playing doubles tennis?",
+        "template_real_second": "what is the color of the racquets held by the two men playing doubles tennis?"
+      },
+      "candidates": {
+        "what is the color of the racket held by one of the men playing doubles tennis?": {
+          "rank": 7,
+          "answer": "black",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the color of the shirts worn by the two men playing doubles tennis?": {
+          "rank": 2,
+          "answer": "orange",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the color of the racquets held by the two men playing doubles tennis?": {
+          "rank": 7,
+          "answer": "black and white",
+          "predicted": [
+            "orange and black",
+            "orange and blue"
+          ],
+          "scores": {
+            "original": 6,
+            "real_rewrite_first": 8,
+            "real_rewrite_second": 6,
+            "template_predicted": 8,
+            "template_real_first": 7,
+            "template_real_second": 7
+          },
+          "before_target_hit": true,
+          "exact_answer": false,
+          "template_predicted_hit": true,
+          "template_real_hit": false
+        },
+        "what are the colors of the shirts worn by the two men playing doubles tennis?": {
+          "rank": 2,
+          "answer": "orange",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "Question: What color are the shirts worn by the two men playing doubles tennis?": {
+          "rank": 2,
+          "answer": "orange",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        }
+      }
+    },
+    {
+      "qid": 754,
+      "kl": "what is the other object in the image?",
+      "choices": {
+        "original": "Question: Is the water tower white and red in color?",
+        "real_rewrite_first": "Question: Is the water tower white and red in color?",
+        "real_rewrite_second": "what is the other object in the image?",
+        "template_predicted": "what is the other object in the image?",
+        "template_real_first": "what is the other object in the image?",
+        "template_real_second": "what is the other object in the image?"
+      },
+      "candidates": {
+        "Question: Is the water tower white and red in color?": {
+          "rank": 237,
+          "answer": "No.",
+          "predicted": [
+            "yes",
+            "no"
+          ],
+          "scores": {
+            "original": 2,
+            "real_rewrite_first": 5,
+            "real_rewrite_second": 3,
+            "template_predicted": 0,
+            "template_real_first": 0,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the other object in the image?": {
+          "rank": 2,
+          "answer": "bus",
+          "predicted": [
+            "a plane",
+            "a clock tower"
+          ],
+          "scores": {
+            "original": 1,
+            "real_rewrite_first": 4,
+            "real_rewrite_second": 3,
+            "template_predicted": 6,
+            "template_real_first": 5,
+            "template_real_second": 5
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": true
+        },
+        "Question: Is the water tower located next to a plane?": {
+          "rank": 219,
+          "answer": "No.",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "Question: What is the color of the water tower?": {
+          "rank": 280,
+          "answer": "white",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        }
+      }
+    },
+    {
+      "qid": 1466,
+      "kl": "what color are the motorcycles parked in the parking lot?",
+      "choices": {
+        "original": "what color are the motorcycles parked in the parking lot?",
+        "real_rewrite_first": "how many motorcycles are parked in the parking lot?",
+        "real_rewrite_second": "Question: Is there a motorcycle rider wearing a helmet among the parked motorcycles?",
+        "template_predicted": "what color are the motorcycles parked in the parking lot?",
+        "template_real_first": "what color are the motorcycles parked in the parking lot?",
+        "template_real_second": "what color are the motorcycles parked in the parking lot?"
+      },
+      "candidates": {
+        "what color are the motorcycles parked in the parking lot?": {
+          "rank": 95,
+          "answer": "black",
+          "predicted": [
+            "black and gold",
+            "orange and black"
+          ],
+          "scores": {
+            "original": 6,
+            "real_rewrite_first": 6,
+            "real_rewrite_second": 2,
+            "template_predicted": 5,
+            "template_real_first": 6,
+            "template_real_second": 5
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "how many motorcycles are parked in the parking lot?": {
+          "rank": 26,
+          "answer": "21",
+          "predicted": [
+            "one",
+            "three"
+          ],
+          "scores": {
+            "original": 8,
+            "real_rewrite_first": 12,
+            "real_rewrite_second": 6,
+            "template_predicted": 3,
+            "template_real_first": 4,
+            "template_real_second": 1
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the position of the motorcycles relative to the cone?": {
+          "rank": 62,
+          "answer": "The motorcycles are positioned in front of the cone.",
+          "predicted": [
+            "next to",
+            "near"
+          ],
+          "scores": {
+            "original": 1,
+            "real_rewrite_first": 3,
+            "real_rewrite_second": 2,
+            "template_predicted": 0,
+            "template_real_first": 2,
+            "template_real_second": 2
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: Is there a motorcycle rider wearing a helmet among the parked motorcycles?": {
+          "rank": 97,
+          "answer": "yes",
+          "predicted": [
+            "no",
+            "yes"
+          ],
+          "scores": {
+            "original": 8,
+            "real_rewrite_first": 1,
+            "real_rewrite_second": 7,
+            "template_predicted": 0,
+            "template_real_first": 0,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: What is the color of the motorcycles parked in the parking lot?": {
+          "rank": 95,
+          "answer": "black",
+          "predicted": [
+            "black and gold",
+            "orange and black"
+          ],
+          "scores": {
+            "original": 3,
+            "real_rewrite_first": 5,
+            "real_rewrite_second": 4,
+            "template_predicted": 4,
+            "template_real_first": 5,
+            "template_real_second": 5
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        }
+      }
+    },
+    {
+      "qid": 1169,
+      "kl": "what is the color of the two computers sitting next to each other with an iPod dock?",
+      "choices": {
+        "original": "Question: what is the color of the computers in the image?",
+        "real_rewrite_first": "what is the color of the two computers sitting next to each other with an iPod dock?",
+        "real_rewrite_second": "Question: what is the color of the computers in the image?",
+        "template_predicted": "what is the color of the two computers sitting next to each other with an iPod dock?",
+        "template_real_first": "Question: what is the color of the desk where the two computers and the iPod dock are located?",
+        "template_real_second": "what is the color of the two computers sitting next to each other with an iPod dock?"
+      },
+      "candidates": {
+        "what is the color of the two computers sitting next to each other with an iPod dock?": {
+          "rank": 41,
+          "answer": "silver",
+          "predicted": [
+            "black",
+            "white"
+          ],
+          "scores": {
+            "original": 4,
+            "real_rewrite_first": 8,
+            "real_rewrite_second": 10,
+            "template_predicted": 11,
+            "template_real_first": 3,
+            "template_real_second": 14
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: what is the color of the computers in the image?": {
+          "rank": 41,
+          "answer": "silver",
+          "predicted": [
+            "black",
+            "black and white"
+          ],
+          "scores": {
+            "original": 8,
+            "real_rewrite_first": 10,
+            "real_rewrite_second": 12,
+            "template_predicted": 5,
+            "template_real_first": 5,
+            "template_real_second": 8
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: what are the color and type of the two computers next to each other with an iPod dock?": {
+          "rank": 21,
+          "answer": "green and blue",
+          "predicted": [
+            "two black laptop computers",
+            "two black desktop computers"
+          ],
+          "scores": {
+            "original": 5,
+            "real_rewrite_first": 4,
+            "real_rewrite_second": 5,
+            "template_predicted": 6,
+            "template_real_first": 8,
+            "template_real_second": 8
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": true
+        },
+        "what is the color of the computer that is an apple macbook pro?": {
+          "rank": 63,
+          "answer": "silver",
+          "predicted": [
+            "black",
+            "black and white"
+          ],
+          "scores": {
+            "original": 1,
+            "real_rewrite_first": 6,
+            "real_rewrite_second": 5,
+            "template_predicted": 5,
+            "template_real_first": 1,
+            "template_real_second": 6
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: what is the color of the desk where the two computers and the iPod dock are located?": {
+          "rank": 12,
+          "answer": "black",
+          "predicted": [
+            "wooden",
+            "white"
+          ],
+          "scores": {
+            "original": 6,
+            "real_rewrite_first": 10,
+            "real_rewrite_second": 10,
+            "template_predicted": 4,
+            "template_real_first": 9,
+            "template_real_second": 9
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        }
+      }
+    },
+    {
+      "qid": 783,
+      "kl": "what is the topping on the pizza that is cut into slices?",
+      "choices": {
+        "original": "what is the topping on the pizza that is cut into slices?",
+        "real_rewrite_first": "what is the topping on the pizza that is cut into slices?",
+        "real_rewrite_second": "what is the topping on the pizza that is cut into slices?",
+        "template_predicted": "what is the topping on the pizza that is cut into slices?",
+        "template_real_first": "what is the topping on the pizza that is cut into slices?",
+        "template_real_second": "what is the topping on the pizza that is cut into slices?"
+      },
+      "candidates": {
+        "what is the color of the plate on which the sliced pizza is sitting?": {
+          "rank": 1,
+          "answer": "black",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the color of the pizza slices sitting on the plate?": {
+          "rank": 17,
+          "answer": "red",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "Question: how many slices is the pizza cut into?": {
+          "rank": 25,
+          "answer": "4",
+          "predicted": [
+            "two",
+            "four"
+          ],
+          "scores": {
+            "original": 1,
+            "real_rewrite_first": 4,
+            "real_rewrite_second": 3,
+            "template_predicted": 2,
+            "template_real_first": 0,
+            "template_real_second": 2
+          },
+          "before_target_hit": true,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the number of slices the pizza is cut into?": {
+          "rank": 25,
+          "answer": "3",
+          "predicted": [
+            "two",
+            "four"
+          ],
+          "scores": {
+            "original": 1,
+            "real_rewrite_first": 3,
+            "real_rewrite_second": 2,
+            "template_predicted": 2,
+            "template_real_first": 1,
+            "template_real_second": 1
+          },
+          "before_target_hit": true,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the topping on the pizza that is cut into slices?": {
+          "rank": 1,
+          "answer": "pepperoni and green peppers",
+          "predicted": [
+            "mushrooms and sausage",
+            "white"
+          ],
+          "scores": {
+            "original": 4,
+            "real_rewrite_first": 7,
+            "real_rewrite_second": 5,
+            "template_predicted": 4,
+            "template_real_first": 6,
+            "template_real_second": 6
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": true
+        }
+      }
+    },
+    {
+      "qid": 273,
+      "kl": "what is the surface material of the tennis court where the two people are playing?",
+      "choices": {
+        "original": "what is the specific type of court surface where the two people are playing tennis?",
+        "real_rewrite_first": "what is the specific type of court surface where the two people are playing tennis?",
+        "real_rewrite_second": "what is the surface material of the tennis court where the two people are playing?",
+        "template_predicted": "what is the surface material of the tennis court where the two people are playing?",
+        "template_real_first": "what is the specific type of court surface where the two people are playing tennis?",
+        "template_real_second": "what is the surface material of the tennis court where the two people are playing?"
+      },
+      "candidates": {
+        "what color is the tennis racket held by one of the players?": {
+          "rank": 24,
+          "answer": "black",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "Question: Are the two players on the tennis court wearing the same color outfits?": {
+          "rank": 122,
+          "answer": "no",
+          "predicted": [
+            "no",
+            "yes"
+          ],
+          "scores": {
+            "original": 0,
+            "real_rewrite_first": 2,
+            "real_rewrite_second": 2,
+            "template_predicted": 0,
+            "template_real_first": 0,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: Are the two players on the tennis court wearing matching outfits?": {
+          "rank": 81,
+          "answer": "no",
+          "predicted": [
+            "no",
+            "yes"
+          ],
+          "scores": {
+            "original": 1,
+            "real_rewrite_first": 4,
+            "real_rewrite_second": 3,
+            "template_predicted": 0,
+            "template_real_first": 0,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the specific type of court surface where the two people are playing tennis?": {
+          "rank": 4,
+          "answer": "clay",
+          "predicted": [
+            "clay",
+            "hard"
+          ],
+          "scores": {
+            "original": 9,
+            "real_rewrite_first": 10,
+            "real_rewrite_second": 1,
+            "template_predicted": 8,
+            "template_real_first": 8,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": true,
+          "template_real_hit": true
+        },
+        "what is the surface material of the tennis court where the two people are playing?": {
+          "rank": 4,
+          "answer": "clay",
+          "predicted": [
+            "linoleum",
+            "clay"
+          ],
+          "scores": {
+            "original": 3,
+            "real_rewrite_first": 8,
+            "real_rewrite_second": 7,
+            "template_predicted": 8,
+            "template_real_first": 0,
+            "template_real_second": 8
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": true,
+          "template_real_hit": true
+        }
+      }
+    },
+    {
+      "qid": 532,
+      "kl": "what is the baseball player holding?",
+      "choices": {
+        "original": "what is the baseball player holding?",
+        "real_rewrite_first": "what is the baseball player holding?",
+        "real_rewrite_second": "what is the baseball player holding?",
+        "template_predicted": "what is the baseball player holding?",
+        "template_real_first": "what is the baseball player holding?",
+        "template_real_second": "what is the action of the baseball player in the red and white uniform?"
+      },
+      "candidates": {
+        "Question: What color is the uniform of the baseball player?": {
+          "rank": 25,
+          "answer": "gray",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the action of the baseball player in the red and white uniform?": {
+          "rank": 73,
+          "answer": "batting",
+          "predicted": [
+            "pitching",
+            "throwing"
+          ],
+          "scores": {
+            "original": 2,
+            "real_rewrite_first": 3,
+            "real_rewrite_second": 3,
+            "template_predicted": 1,
+            "template_real_first": 2,
+            "template_real_second": 3
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: What is the color of the baseball field?": {
+          "rank": 158,
+          "answer": "green",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the baseball player holding?": {
+          "rank": 42,
+          "answer": "bat",
+          "predicted": [
+            "a baseball bat",
+            "a baseball glove"
+          ],
+          "scores": {
+            "original": 7,
+            "real_rewrite_first": 8,
+            "real_rewrite_second": 3,
+            "template_predicted": 6,
+            "template_real_first": 7,
+            "template_real_second": 1
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the baseball player doing with the bat?": {
+          "rank": 414,
+          "answer": "swinging",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        }
+      }
+    },
+    {
+      "qid": 2057,
+      "kl": "what is the arrangement of the two street signs in the image?",
+      "choices": {
+        "original": "what is the color of the street signs in the image?",
+        "real_rewrite_first": "what is the arrangement of the two street signs in the image?",
+        "real_rewrite_second": "what is the color of the buildings in the background?",
+        "template_predicted": "what are the colors of the two street signs and what is the color of the building in the background?",
+        "template_real_first": "what is the arrangement of the two street signs in the image?",
+        "template_real_second": "what are the colors of the two street signs and what is the color of the building in the background?"
+      },
+      "candidates": {
+        "what is the color of the street signs in the image?": {
+          "rank": 36,
+          "answer": "white",
+          "predicted": [
+            "white",
+            "blue and brown"
+          ],
+          "scores": {
+            "original": 7,
+            "real_rewrite_first": 7,
+            "real_rewrite_second": 0,
+            "template_predicted": 7,
+            "template_real_first": 7,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what are the colors of the two street signs and what is the color of the building in the background?": {
+          "rank": 141,
+          "answer": "The two street signs are black and white, and the building in the background is white.",
+          "predicted": [
+            "white and blue",
+            "white and green"
+          ],
+          "scores": {
+            "original": 4,
+            "real_rewrite_first": 6,
+            "real_rewrite_second": 2,
+            "template_predicted": 8,
+            "template_real_first": 7,
+            "template_real_second": 7
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the arrangement of the two street signs in the image?": {
+          "rank": 124,
+          "answer": "the two street signs are arranged vertically, with one sign positioned directly above the other on the same pole.",
+          "predicted": [
+            "one above the other",
+            "side by side"
+          ],
+          "scores": {
+            "original": 6,
+            "real_rewrite_first": 9,
+            "real_rewrite_second": 5,
+            "template_predicted": 1,
+            "template_real_first": 3,
+            "template_real_second": 2
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the color of the buildings in the background?": {
+          "rank": 65,
+          "answer": "white",
+          "predicted": [
+            "green",
+            "brick"
+          ],
+          "scores": {
+            "original": 2,
+            "real_rewrite_first": 7,
+            "real_rewrite_second": 7,
+            "template_predicted": 7,
+            "template_real_first": 7,
+            "template_real_second": 6
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the color of the sky in the image?": {
+          "rank": 85,
+          "answer": "blue",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        }
+      }
+    },
+    {
+      "qid": 69,
+      "kl": "what is the color of the giraffe in the image?",
+      "choices": {
+        "original": "what is the color of the field where the giraffe is standing?",
+        "real_rewrite_first": "what is the color of the field where the giraffe is standing?",
+        "real_rewrite_second": "what is the sky like in the image where the giraffe is standing?",
+        "template_predicted": "what is the color of the giraffe in the image?",
+        "template_real_first": "what is the state of the grass in the field where the giraffe is standing?",
+        "template_real_second": "what is the sky like in the image where the giraffe is standing?"
+      },
+      "candidates": {
+        "what is the color of the field where the giraffe is standing?": {
+          "rank": 160,
+          "answer": "green",
+          "predicted": [
+            "green",
+            "dry"
+          ],
+          "scores": {
+            "original": 12,
+            "real_rewrite_first": 11,
+            "real_rewrite_second": 1,
+            "template_predicted": 7,
+            "template_real_first": 7,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the state of the grass in the field where the giraffe is standing?": {
+          "rank": 145,
+          "answer": "green",
+          "predicted": [
+            "grassy",
+            "dry"
+          ],
+          "scores": {
+            "original": 8,
+            "real_rewrite_first": 10,
+            "real_rewrite_second": 4,
+            "template_predicted": 7,
+            "template_real_first": 9,
+            "template_real_second": 4
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the color of the giraffe in the image?": {
+          "rank": 90,
+          "answer": "brown",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the sky like in the image where the giraffe is standing?": {
+          "rank": 135,
+          "answer": "cloudy",
+          "predicted": [
+            "clear",
+            "cloudy"
+          ],
+          "scores": {
+            "original": 10,
+            "real_rewrite_first": 0,
+            "real_rewrite_second": 10,
+            "template_predicted": 6,
+            "template_real_first": 0,
+            "template_real_second": 6
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the color of the giraffe's fur?": {
+          "rank": 90,
+          "answer": "brown",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        }
+      }
+    },
+    {
+      "qid": 1579,
+      "kl": "what is the other object in the image?",
+      "choices": {
+        "original": "Question: Is the man standing in front of or behind the red truck?",
+        "real_rewrite_first": "Question: Is the man standing in front of or behind the red truck?",
+        "real_rewrite_second": "Question: Is the man standing in front of or behind the red truck?",
+        "template_predicted": "what is the other object in the image?",
+        "template_real_first": "what is the other object in the image?",
+        "template_real_second": "what is the other object in the image?"
+      },
+      "candidates": {
+        "what is the other object in the image?": {
+          "rank": 31,
+          "answer": "traffic light",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "Question: Is the man standing in front of or behind the red truck?": {
+          "rank": 602,
+          "answer": "behind",
+          "predicted": [
+            "behind",
+            "in front of"
+          ],
+          "scores": {
+            "original": 3,
+            "real_rewrite_first": 7,
+            "real_rewrite_second": 4,
+            "template_predicted": 0,
+            "template_real_first": 0,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        }
+      }
+    },
+    {
+      "qid": 1648,
+      "kl": "what is the other object in the image?",
+      "choices": {
+        "original": "what is the other object in the image?",
+        "real_rewrite_first": "what is the specific color pattern of the zebra in the image?",
+        "real_rewrite_second": "what is the specific color pattern of the zebra in the image?",
+        "template_predicted": "what is the specific color pattern of the zebra in the image?",
+        "template_real_first": "what is the specific color pattern of the zebra in the image?",
+        "template_real_second": "what is the specific color pattern of the zebra in the image?"
+      },
+      "candidates": {
+        "what is the other object in the image?": {
+          "rank": 315,
+          "answer": "zebra",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the specific color pattern of the zebras in the image?": {
+          "rank": 310,
+          "answer": "black and white stripes",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the specific color pattern of the zebra in the image?": {
+          "rank": 310,
+          "answer": "black and white stripes",
+          "predicted": [
+            "black and white",
+            "striped"
+          ],
+          "scores": {
+            "original": 0,
+            "real_rewrite_first": 1,
+            "real_rewrite_second": 1,
+            "template_predicted": 3,
+            "template_real_first": 2,
+            "template_real_second": 1
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        }
+      }
+    },
+    {
+      "qid": 627,
+      "kl": "Question: What are the man and woman holding or doing while sitting at the table in the restaurant?",
+      "choices": {
+        "original": "Question: What are the man and woman holding or doing while sitting at the table in the restaurant?",
+        "real_rewrite_first": "Question: What are the man and woman holding or doing while sitting at the table in the restaurant?",
+        "real_rewrite_second": "Question: What are the man and woman holding or doing while sitting at the table in the restaurant?",
+        "template_predicted": "Question: What is the man wearing?",
+        "template_real_first": "Question: What is the man wearing?",
+        "template_real_second": "Question: What is the man wearing?"
+      },
+      "candidates": {
+        "what color is the jacket worn by the man sitting at the table with the woman?": {
+          "rank": 8,
+          "answer": "black",
+          "predicted": [
+            "blue",
+            "black"
+          ],
+          "scores": {
+            "original": 3,
+            "real_rewrite_first": 7,
+            "real_rewrite_second": 4,
+            "template_predicted": 1,
+            "template_real_first": 0,
+            "template_real_second": 1
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: What are the man and woman doing while sitting at the table?": {
+          "rank": 75,
+          "answer": "eating",
+          "predicted": [
+            "eating with chop sticks",
+            "looking at food"
+          ],
+          "scores": {
+            "original": 4,
+            "real_rewrite_first": 5,
+            "real_rewrite_second": 1,
+            "template_predicted": 2,
+            "template_real_first": 3,
+            "template_real_second": 1
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: what is the color of the jacket worn by the man?": {
+          "rank": 3,
+          "answer": "white",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "Question: What is the man wearing?": {
+          "rank": 2,
+          "answer": "white shirt and tie",
+          "predicted": [
+            "a blue jacket",
+            "looking at food"
+          ],
+          "scores": {
+            "original": 4,
+            "real_rewrite_first": 7,
+            "real_rewrite_second": 3,
+            "template_predicted": 5,
+            "template_real_first": 6,
+            "template_real_second": 5
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": true
+        },
+        "Question: What are the man and woman holding or doing while sitting at the table in the restaurant?": {
+          "rank": 5,
+          "answer": "smiling",
+          "predicted": [
+            "eating with chop sticks",
+            "looking at food"
+          ],
+          "scores": {
+            "original": 4,
+            "real_rewrite_first": 8,
+            "real_rewrite_second": 6,
+            "template_predicted": 3,
+            "template_real_first": 3,
+            "template_real_second": 4
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": true
+        }
+      }
+    },
+    {
+      "qid": 77,
+      "kl": "what is the material of the walls in the bathroom that features a large tub in the middle and a large shower?",
+      "choices": {
+        "original": "what is the material of the walls in the bathroom that features a large tub in the middle and a large shower?",
+        "real_rewrite_first": "what is the color of the bathroom that features a large tub in the middle and a large shower?",
+        "real_rewrite_second": "what is the color of the bathroom that features a large tub in the middle and a large shower?",
+        "template_predicted": "what is the color of the bathroom that features a large tub in the middle and a large shower?",
+        "template_real_first": "what is the color of the bathroom that features a large tub in the middle and a large shower?",
+        "template_real_second": "what is the color of the bathroom that features a large tub in the middle and a large shower?"
+      },
+      "candidates": {
+        "what is the color of the walls in the bathroom that features a large tub in the middle and a large shower?": {
+          "rank": 23,
+          "answer": "beige",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the material of the walls in the bathroom that features a large tub in the middle and a large shower?": {
+          "rank": 4,
+          "answer": "tile",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the color of the bathroom that features a large tub in the middle and a large shower?": {
+          "rank": 32,
+          "answer": "beige",
+          "predicted": [
+            "light colored",
+            "white"
+          ],
+          "scores": {
+            "original": 0,
+            "real_rewrite_first": 3,
+            "real_rewrite_second": 3,
+            "template_predicted": 1,
+            "template_real_first": 2,
+            "template_real_second": 3
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": true,
+          "template_real_hit": false
+        },
+        "what is the type of window present in the bathroom that features a large tub in the middle and a large shower?": {
+          "rank": 26,
+          "answer": "glass",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the material of the floor in the bathroom that features a large tub in the middle and a large shower?": {
+          "rank": 13,
+          "answer": "tile",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        }
+      }
+    },
+    {
+      "qid": 1650,
+      "kl": "what is the other object in the image?",
+      "choices": {
+        "original": "what is the other object in the image?",
+        "real_rewrite_first": "what is the other object in the image?",
+        "real_rewrite_second": "what is the other object in the image?",
+        "template_predicted": "what is the other object in the image?",
+        "template_real_first": "Question: what is the color of the bench?",
+        "template_real_second": "Question: what is the color of the bench?"
+      },
+      "candidates": {
+        "what is the material of the bench?": {
+          "rank": 79,
+          "answer": "wood",
+          "predicted": [
+            "wood",
+            "green metal"
+          ],
+          "scores": {
+            "original": 4,
+            "real_rewrite_first": 4,
+            "real_rewrite_second": 2,
+            "template_predicted": 5,
+            "template_real_first": 5,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: what is the color of the bench?": {
+          "rank": 1,
+          "answer": "orange",
+          "predicted": [
+            "green",
+            "wooden"
+          ],
+          "scores": {
+            "original": 2,
+            "real_rewrite_first": 6,
+            "real_rewrite_second": 4,
+            "template_predicted": 6,
+            "template_real_first": 8,
+            "template_real_second": 6
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": true
+        },
+        "what is the surface the bench is sitting on?": {
+          "rank": 16,
+          "answer": "concrete",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the other object in the image?": {
+          "rank": 1,
+          "answer": "bird",
+          "predicted": [
+            "a blue sidewalk",
+            "a street"
+          ],
+          "scores": {
+            "original": 7,
+            "real_rewrite_first": 6,
+            "real_rewrite_second": 5,
+            "template_predicted": 6,
+            "template_real_first": 3,
+            "template_real_second": 5
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": true,
+          "template_real_hit": true
+        }
+      }
+    },
+    {
+      "qid": 688,
+      "kl": "what is the location where the person is holding the magnifying glass over the computer mouse?",
+      "choices": {
+        "original": "what is the location where the person is holding the magnifying glass over the computer mouse?",
+        "real_rewrite_first": "what is the location where the person is holding the magnifying glass over the computer mouse?",
+        "real_rewrite_second": "what is the location where the person is holding the magnifying glass over the computer mouse?",
+        "template_predicted": "what is the location where the person is holding the magnifying glass over the computer mouse?",
+        "template_real_first": "what is the location where the person is holding the magnifying glass over the computer mouse?",
+        "template_real_second": "what is the location where the person is holding the magnifying glass over the computer mouse?"
+      },
+      "candidates": {
+        "what color is the mouse pad under the computer mouse?": {
+          "rank": 7,
+          "answer": "yellow",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what type of person is holding the magnifying glass over the computer mouse?": {
+          "rank": 12,
+          "answer": "unsure",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "Question: What color is the computer mouse that the person is holding?": {
+          "rank": 4,
+          "answer": "white",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the location where the person is holding the magnifying glass over the computer mouse?": {
+          "rank": 8,
+          "answer": "on the mouse",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        }
+      }
+    },
+    {
+      "qid": 767,
+      "kl": "what is the other object in the image?",
+      "choices": {
+        "original": "what is the other object in the image?",
+        "real_rewrite_first": "what is the other object in the image?",
+        "real_rewrite_second": "what is the other object in the image?",
+        "template_predicted": "what is the other object in the image?",
+        "template_real_first": "what is the other object in the image?",
+        "template_real_second": "what is the other object in the image?"
+      },
+      "candidates": {
+        "what is the color of the man's shirt?": {
+          "rank": 3,
+          "answer": "naked",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the type of pole next to the fire hydrant where the man is standing?": {
+          "rank": 4,
+          "answer": "street light",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the color of the fire hydrant the man is standing on?": {
+          "rank": 17,
+          "answer": "red",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the other object in the image?": {
+          "rank": 10,
+          "answer": "a fire hydrant.",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the color of the fire hydrant in the image?": {
+          "rank": 17,
+          "answer": "red",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        }
+      }
+    },
+    {
+      "qid": 649,
+      "kl": "Question: Is the train an old-fashioned style or a modern one?",
+      "choices": {
+        "original": "Question: Is the train an old-fashioned style or a modern one?",
+        "real_rewrite_first": "Question: Is the train an old-fashioned style or a modern one?",
+        "real_rewrite_second": "Question: Is the train an old-fashioned style or a modern one?",
+        "template_predicted": "Question: what is the color of the steam engine?",
+        "template_real_first": "Question: what is the color of the steam engine?",
+        "template_real_second": "Question: Is the train an old-fashioned style or a modern one?"
+      },
+      "candidates": {
+        "Question: what is the color of the steam engine?": {
+          "rank": 31,
+          "answer": "black",
+          "predicted": [
+            "black",
+            "red and black"
+          ],
+          "scores": {
+            "original": 6,
+            "real_rewrite_first": 6,
+            "real_rewrite_second": 0,
+            "template_predicted": 3,
+            "template_real_first": 3,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: Is the train an old-fashioned style or a modern one?": {
+          "rank": 29,
+          "answer": "old-fashioned style",
+          "predicted": [
+            "old-fashioned",
+            "modern"
+          ],
+          "scores": {
+            "original": 6,
+            "real_rewrite_first": 7,
+            "real_rewrite_second": 3,
+            "template_predicted": 0,
+            "template_real_first": 0,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the color of the train's wheels?": {
+          "rank": 21,
+          "answer": "silver",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        }
+      }
+    },
+    {
+      "qid": 1640,
+      "kl": "what material are the kitchen cabinets in the clean kitchen with white walls and a very large fridge?",
+      "choices": {
+        "original": "what material are the kitchen cabinets in the clean kitchen with white walls and a very large fridge?",
+        "real_rewrite_first": "what type of refrigerator is in the clean kitchen with white walls and a very large fridge?",
+        "real_rewrite_second": "what material are the kitchen cabinets in the clean kitchen with white walls and a very large fridge?",
+        "template_predicted": "what material are the kitchen cabinets in the clean kitchen with white walls and a very large fridge?",
+        "template_real_first": "what type of refrigerator is in the clean kitchen with white walls and a very large fridge?",
+        "template_real_second": "what is the color of the refrigerator in the clean kitchen with white walls?"
+      },
+      "candidates": {
+        "what material are the kitchen cabinets in the clean kitchen with white walls and a very large fridge?": {
+          "rank": 14,
+          "answer": "metal",
+          "predicted": [
+            "white",
+            "wooden"
+          ],
+          "scores": {
+            "original": 13,
+            "real_rewrite_first": 8,
+            "real_rewrite_second": 11,
+            "template_predicted": 5,
+            "template_real_first": 5,
+            "template_real_second": 6
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the material of the stove in the clean kitchen with white walls and a very large fridge?": {
+          "rank": 22,
+          "answer": "stainless steel",
+          "predicted": [
+            "wooden",
+            "stainless steel"
+          ],
+          "scores": {
+            "original": 3,
+            "real_rewrite_first": 4,
+            "real_rewrite_second": 3,
+            "template_predicted": 6,
+            "template_real_first": 0,
+            "template_real_second": 6
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what color are the kitchen floors in the clean kitchen with white walls and a very large fridge?": {
+          "rank": 17,
+          "answer": "gray",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what type of refrigerator is in the clean kitchen with white walls and a very large fridge?": {
+          "rank": 3,
+          "answer": "commercial",
+          "predicted": [
+            "stainless steel",
+            "white"
+          ],
+          "scores": {
+            "original": 10,
+            "real_rewrite_first": 9,
+            "real_rewrite_second": 7,
+            "template_predicted": 8,
+            "template_real_first": 6,
+            "template_real_second": 6
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": true
+        },
+        "what is the color of the refrigerator in the clean kitchen with white walls?": {
+          "rank": 49,
+          "answer": "silver",
+          "predicted": [
+            "white",
+            "stainless steel"
+          ],
+          "scores": {
+            "original": 10,
+            "real_rewrite_first": 1,
+            "real_rewrite_second": 11,
+            "template_predicted": 8,
+            "template_real_first": 2,
+            "template_real_second": 8
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        }
+      }
+    },
+    {
+      "qid": 573,
+      "kl": "what is the background object located behind the street light at the intersection?",
+      "choices": {
+        "original": "what is the background object located behind the street light at the intersection?",
+        "real_rewrite_first": "what is the background object located behind the street light at the intersection?",
+        "real_rewrite_second": "what is the background object located behind the street light at the intersection?",
+        "template_predicted": "what is the background object located behind the street light at the intersection?",
+        "template_real_first": "what is the background object located behind the street light at the intersection?",
+        "template_real_second": "what is the background object located behind the street light at the intersection?"
+      },
+      "candidates": {
+        "what is the color of the street light located at the intersection?": {
+          "rank": 40,
+          "answer": "yellow",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the object the street light is hanging from or attached to?": {
+          "rank": 62,
+          "answer": "pole",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the color of the traffic light in the image?": {
+          "rank": 68,
+          "answer": "yellow",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the background object located behind the street light at the intersection?": {
+          "rank": 12,
+          "answer": "mountain",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the color of the street light in the image?": {
+          "rank": 40,
+          "answer": "yellow",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        }
+      }
+    },
+    {
+      "qid": 742,
+      "kl": "Question: Is the man flying the kite with his arms stretched out?",
+      "choices": {
+        "original": "Question: Is the man flying the kite with his arms stretched out?",
+        "real_rewrite_first": "Question: Is the man flying the kite with his arms stretched out?",
+        "real_rewrite_second": "Question: What is the color of the shirt the man is wearing?",
+        "template_predicted": "Question: What is the color of the shirt the man is wearing?",
+        "template_real_first": "Question: What is the color of the shirt the man is wearing?",
+        "template_real_second": "Question: What is the color of the shirt the man is wearing?"
+      },
+      "candidates": {
+        "Question: Is the man flying the kite with his arms stretched out?": {
+          "rank": 52,
+          "answer": "no",
+          "predicted": [
+            "yes",
+            "no"
+          ],
+          "scores": {
+            "original": 9,
+            "real_rewrite_first": 8,
+            "real_rewrite_second": 1,
+            "template_predicted": 2,
+            "template_real_first": 0,
+            "template_real_second": 2
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: What is the color of the shirt the man is wearing?": {
+          "rank": 7,
+          "answer": "Black.",
+          "predicted": [
+            "red",
+            "blue"
+          ],
+          "scores": {
+            "original": 1,
+            "real_rewrite_first": 7,
+            "real_rewrite_second": 6,
+            "template_predicted": 7,
+            "template_real_first": 6,
+            "template_real_second": 5
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the color of the shirt the man is wearing while flying the kite?": {
+          "rank": 5,
+          "answer": "black",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "Question: What color is the shirt worn by the man flying the kite?": {
+          "rank": 5,
+          "answer": "Black.",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        }
+      }
+    },
+    {
+      "qid": 143,
+      "kl": "Question: What specific types of food items are present on the buffet table?",
+      "choices": {
+        "original": "Question: What specific types of food items are present on the buffet table?",
+        "real_rewrite_first": "Question: What specific types of food items are present on the buffet table?",
+        "real_rewrite_second": "Question: What is the location where the buffet table filled with a variety of food and drink is situated?",
+        "template_predicted": "Question: What specific types of food items are present on the buffet table?",
+        "template_real_first": "Question: What specific types of food items are present on the buffet table?",
+        "template_real_second": "Question: What specific types of food items are present on the buffet table?"
+      },
+      "candidates": {
+        "Question: What is the gender of the person arranging the food on the table?": {
+          "rank": 55,
+          "answer": "unsure",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "Question: What is the location where the buffet table filled with a variety of food and drink is situated?": {
+          "rank": 12,
+          "answer": "dining room",
+          "predicted": [
+            "a restaurant",
+            "a dining room"
+          ],
+          "scores": {
+            "original": 8,
+            "real_rewrite_first": 0,
+            "real_rewrite_second": 8,
+            "template_predicted": 3,
+            "template_real_first": 0,
+            "template_real_second": 3
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: What is the surface material of the table holding the food?": {
+          "rank": 7,
+          "answer": "wood",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "Question: What specific types of food items are present on the buffet table?": {
+          "rank": 1,
+          "answer": "Burgers, hot dogs, and various side dishes.",
+          "predicted": [
+            "pastries and a variety of breads",
+            "dishes and juices"
+          ],
+          "scores": {
+            "original": 8,
+            "real_rewrite_first": 9,
+            "real_rewrite_second": 5,
+            "template_predicted": 5,
+            "template_real_first": 6,
+            "template_real_second": 5
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": true
+        }
+      }
+    },
+    {
+      "qid": 1820,
+      "kl": "what is the position of the toilet seat in the bathroom?",
+      "choices": {
+        "original": "Question: what type of bathroom fixtures are present in the bathroom besides the toilet?",
+        "real_rewrite_first": "Question: what type of bathroom fixtures are present in the bathroom besides the toilet?",
+        "real_rewrite_second": "what is the position of the toilet seat in the bathroom?",
+        "template_predicted": "Question: what type of bathroom fixtures are present in the bathroom besides the toilet?",
+        "template_real_first": "Question: what type of bathroom fixtures are present in the bathroom besides the toilet?",
+        "template_real_second": "what is the position of the toilet seat in the bathroom?"
+      },
+      "candidates": {
+        "Question: what is the color of the toilet in the unfinished bathroom?": {
+          "rank": 42,
+          "answer": "white",
+          "predicted": [
+            "white",
+            "unspecified"
+          ],
+          "scores": {
+            "original": 3,
+            "real_rewrite_first": 3,
+            "real_rewrite_second": 0,
+            "template_predicted": 2,
+            "template_real_first": 2,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the position of the toilet seat in the bathroom?": {
+          "rank": 56,
+          "answer": "up",
+          "predicted": [
+            "on the floor",
+            "attached to the bowl"
+          ],
+          "scores": {
+            "original": 2,
+            "real_rewrite_first": 1,
+            "real_rewrite_second": 3,
+            "template_predicted": 3,
+            "template_real_first": 2,
+            "template_real_second": 1
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the color of the toilet in the bathroom?": {
+          "rank": 42,
+          "answer": "white",
+          "predicted": [
+            "white",
+            "on the floor"
+          ],
+          "scores": {
+            "original": 1,
+            "real_rewrite_first": 1,
+            "real_rewrite_second": 0,
+            "template_predicted": 2,
+            "template_real_first": 2,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the state of the bathroom fixtures (toilet and tub) in the bathroom?": {
+          "rank": 9,
+          "answer": "the bathroom fixtures (toilet and tub) are installed.",
+          "predicted": [
+            "unfinished",
+            "under construction"
+          ],
+          "scores": {
+            "original": 4,
+            "real_rewrite_first": 5,
+            "real_rewrite_second": 1,
+            "template_predicted": 0,
+            "template_real_first": 0,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: what type of bathroom fixtures are present in the bathroom besides the toilet?": {
+          "rank": 11,
+          "answer": "bathtub",
+          "predicted": [
+            "an unfinished tub",
+            "a window"
+          ],
+          "scores": {
+            "original": 7,
+            "real_rewrite_first": 7,
+            "real_rewrite_second": 0,
+            "template_predicted": 7,
+            "template_real_first": 8,
+            "template_real_second": 1
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": true
+        }
+      }
+    },
+    {
+      "qid": 621,
+      "kl": "what is the location where the man is playing tennis?",
+      "choices": {
+        "original": "what is the location where the man is playing tennis?",
+        "real_rewrite_first": "what is the location where the man is playing tennis?",
+        "real_rewrite_second": "what is the location where the man is playing tennis?",
+        "template_predicted": "what is the location where the man is playing tennis?",
+        "template_real_first": "what is the location where the man is playing tennis?",
+        "template_real_second": "what is the location where the man is playing tennis?"
+      },
+      "candidates": {
+        "what is the location where the man is playing tennis?": {
+          "rank": 161,
+          "answer": "the man is playing on a hard court, likely at a professional tennis venue, given the backdrop and attire.",
+          "predicted": [
+            "a tennis court",
+            "a yard"
+          ],
+          "scores": {
+            "original": 4,
+            "real_rewrite_first": 2,
+            "real_rewrite_second": 4,
+            "template_predicted": 1,
+            "template_real_first": 5,
+            "template_real_second": 6
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: What color is the shirt the man is wearing?": {
+          "rank": 32,
+          "answer": "white",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "Question: What is the color of the man's shirt?": {
+          "rank": 32,
+          "answer": "white",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the color of the shirt the man is wearing?": {
+          "rank": 32,
+          "answer": "white",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        }
+      }
+    },
+    {
+      "qid": 975,
+      "kl": "How big is the wave that the two people are catching?",
+      "choices": {
+        "original": "How big is the wave that the two people are catching?",
+        "real_rewrite_first": "How big is the wave that the two people are catching?",
+        "real_rewrite_second": "How big is the wave that the two people are catching?",
+        "template_predicted": "what is the size of the wave that the two people are catching?",
+        "template_real_first": "How big is the wave that the two people are catching?",
+        "template_real_second": "what is the size of the wave that the two people are catching?"
+      },
+      "candidates": {
+        "what is the size of the wave that the two people are catching?": {
+          "rank": 139,
+          "answer": "small",
+          "predicted": [
+            "big",
+            "small"
+          ],
+          "scores": {
+            "original": 4,
+            "real_rewrite_first": 5,
+            "real_rewrite_second": 5,
+            "template_predicted": 2,
+            "template_real_first": 0,
+            "template_real_second": 2
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: What is the color of the wave that the two people are catching?": {
+          "rank": 19,
+          "answer": "green",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "How big is the wave that the two people are catching?": {
+          "rank": 139,
+          "answer": "small",
+          "predicted": [
+            "big",
+            "small"
+          ],
+          "scores": {
+            "original": 4,
+            "real_rewrite_first": 5,
+            "real_rewrite_second": 5,
+            "template_predicted": 1,
+            "template_real_first": 0,
+            "template_real_second": 1
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the color of the surfboards the two people are riding on the wave?": {
+          "rank": 70,
+          "answer": "blue",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        }
+      }
+    },
+    {
+      "qid": 1646,
+      "kl": "what is the other object in the image?",
+      "choices": {
+        "original": "what is the other object in the image?",
+        "real_rewrite_first": "what is the other object in the image?",
+        "real_rewrite_second": "what is the other object in the image?",
+        "template_predicted": "what is the other object in the image?",
+        "template_real_first": "what is the other object in the image?",
+        "template_real_second": "what is the other object in the image?"
+      },
+      "candidates": {
+        "what is the other object in the image?": {
+          "rank": 2,
+          "answer": "bench",
+          "predicted": [
+            "a white and red passenger bus",
+            "a white and orange bus"
+          ],
+          "scores": {
+            "original": 2,
+            "real_rewrite_first": 8,
+            "real_rewrite_second": 6,
+            "template_predicted": 4,
+            "template_real_first": 7,
+            "template_real_second": 7
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": true
+        },
+        "what is the specific color pattern (e.g., two-tone vs. solid) of the white bus in the image?": {
+          "rank": 85,
+          "answer": "two-tone",
+          "predicted": [
+            "solid white",
+            "two-tone (white and red)"
+          ],
+          "scores": {
+            "original": 3,
+            "real_rewrite_first": 6,
+            "real_rewrite_second": 7,
+            "template_predicted": 3,
+            "template_real_first": 3,
+            "template_real_second": 2
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: What is the specific color pattern (e.g., solid white vs. two-tone) of the white bus in the image?": {
+          "rank": 85,
+          "answer": "two-tone",
+          "predicted": [
+            "solid white",
+            "two-tone (white and red)"
+          ],
+          "scores": {
+            "original": 3,
+            "real_rewrite_first": 6,
+            "real_rewrite_second": 7,
+            "template_predicted": 4,
+            "template_real_first": 4,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        }
+      }
+    },
+    {
+      "qid": 896,
+      "kl": "what is the weather condition in the image showing the narrow roadway in between tall buildings?",
+      "choices": {
+        "original": "Question: Are there people walking down the narrow roadway, or is it empty?",
+        "real_rewrite_first": "Question: Are there people walking down the narrow roadway, or is it empty?",
+        "real_rewrite_second": "Question: Is the narrow roadway located in the middle of a city with several motorcycles parked, or is it a narrow alley containing several shops, a bakery, and?",
+        "template_predicted": "Question: Is the narrow roadway located in the middle of a city with several motorcycles parked, or is it a narrow alley containing several shops, a bakery, and?",
+        "template_real_first": "Question: Are there people walking down the narrow roadway, or is it empty?",
+        "template_real_second": "Question: Is the narrow roadway located in the middle of a city with several motorcycles parked, or is it a narrow alley containing several shops, a bakery, and?"
+      },
+      "candidates": {
+        "what is the weather condition in the image showing the narrow roadway in between tall buildings?": {
+          "rank": 13,
+          "answer": "rainy",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "Question: Is the narrow roadway located in the middle of a city with several motorcycles parked, or is it a narrow alley containing several shops, a bakery, and?": {
+          "rank": 19,
+          "answer": "narrow alley containing several shops, a bakery, and",
+          "predicted": [
+            "a narrow alley containing several shops, a bakery, and a bike",
+            "a street in the middle of a city with several motorcycles parked"
+          ],
+          "scores": {
+            "original": 4,
+            "real_rewrite_first": 3,
+            "real_rewrite_second": 5,
+            "template_predicted": 3,
+            "template_real_first": 3,
+            "template_real_second": 4
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": true
+        },
+        "Question: Are there people walking down the narrow roadway, or is it empty?": {
+          "rank": 18,
+          "answer": "There are people walking down the narrow roadway.",
+          "predicted": [
+            "people walking down the narrow roadway",
+            "the roadway is empty"
+          ],
+          "scores": {
+            "original": 6,
+            "real_rewrite_first": 6,
+            "real_rewrite_second": 0,
+            "template_predicted": 2,
+            "template_real_first": 4,
+            "template_real_second": 2
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": true
+        },
+        "Question: What type of vehicle is parked on the street in the image showing the narrow roadway in between tall buildings?": {
+          "rank": 36,
+          "answer": "motorcycles",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "Question: What color is the sky in the image showing the narrow roadway in between tall buildings?": {
+          "rank": 38,
+          "answer": "white",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        }
+      }
+    },
+    {
+      "qid": 1399,
+      "kl": "what is the color of the trolley car parked next to the building?",
+      "choices": {
+        "original": "what is the color of the trolley car parked next to the building?",
+        "real_rewrite_first": "what is the color of the trolley car parked next to the building?",
+        "real_rewrite_second": "what is the color of the trolley car parked next to the building?",
+        "template_predicted": "Question: what color is the trolley car parked next to the building?",
+        "template_real_first": "what is the color of the trolley car parked next to the building?",
+        "template_real_second": "what is the color of the trolley car parked next to the building?"
+      },
+      "candidates": {
+        "what is the color of the trolley car parked next to the building?": {
+          "rank": 669,
+          "answer": "red",
+          "predicted": [
+            "red and white",
+            "yellow"
+          ],
+          "scores": {
+            "original": 9,
+            "real_rewrite_first": 10,
+            "real_rewrite_second": 3,
+            "template_predicted": 7,
+            "template_real_first": 9,
+            "template_real_second": 2
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: what color is the trolley car parked next to the building?": {
+          "rank": 214,
+          "answer": "red and white",
+          "predicted": [
+            "red and white",
+            "yellow"
+          ],
+          "scores": {
+            "original": 9,
+            "real_rewrite_first": 9,
+            "real_rewrite_second": 0,
+            "template_predicted": 8,
+            "template_real_first": 8,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        }
+      }
+    },
+    {
+      "qid": 106,
+      "kl": "what is the color of the mirror in the bathroom with a sink and lights?",
+      "choices": {
+        "original": "what is the color of the mirror in the bathroom with a sink and lights?",
+        "real_rewrite_first": "what is the color of the sink in the bathroom with the mirror and lights?",
+        "real_rewrite_second": "what color is the mirror in the bathroom?",
+        "template_predicted": "what color is the mirror in the bathroom?",
+        "template_real_first": "what is the color of the sink in the bathroom with the mirror and lights?",
+        "template_real_second": "what color is the mirror in the bathroom?"
+      },
+      "candidates": {
+        "what color is the mirror in the bathroom?": {
+          "rank": 120,
+          "answer": "silver",
+          "predicted": [
+            "black",
+            "white"
+          ],
+          "scores": {
+            "original": 7,
+            "real_rewrite_first": 7,
+            "real_rewrite_second": 10,
+            "template_predicted": 12,
+            "template_real_first": 9,
+            "template_real_second": 11
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what color are the light fixtures in the bathroom?": {
+          "rank": 75,
+          "answer": "silver",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the color of the sink in the bathroom with the mirror and lights?": {
+          "rank": 206,
+          "answer": "white",
+          "predicted": [
+            "white",
+            "black"
+          ],
+          "scores": {
+            "original": 7,
+            "real_rewrite_first": 11,
+            "real_rewrite_second": 6,
+            "template_predicted": 11,
+            "template_real_first": 11,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the color of the light fixtures in the bathroom with a sink, mirror, and lights?": {
+          "rank": 75,
+          "answer": "silver",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "what is the color of the mirror in the bathroom with a sink and lights?": {
+          "rank": 94,
+          "answer": "silver",
+          "predicted": [
+            "black",
+            "illuminated"
+          ],
+          "scores": {
+            "original": 6,
+            "real_rewrite_first": 8,
+            "real_rewrite_second": 8,
+            "template_predicted": 10,
+            "template_real_first": 9,
+            "template_real_second": 9
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        }
+      }
+    },
+    {
+      "qid": 1510,
+      "kl": "Question: Where is the man hitting the tennis ball located?",
+      "choices": {
+        "original": "Question: Where is the man hitting the tennis ball located?",
+        "real_rewrite_first": "Question: Where is the man hitting the tennis ball located?",
+        "real_rewrite_second": "Question: Where is the man hitting the tennis ball located?",
+        "template_predicted": "Question: Where is the man hitting the tennis ball located?",
+        "template_real_first": "Question: Where is the man hitting the tennis ball located?",
+        "template_real_second": "Question: What color is the shirt worn by the man jumping to hit the tennis ball?"
+      },
+      "candidates": {
+        "Question: What color is the shirt worn by the man hitting the tennis ball?": {
+          "rank": 56,
+          "answer": "Black.",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "Question: What is the color of the shirt worn by the man jumping to hit the tennis ball?": {
+          "rank": 43,
+          "answer": "Black.",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "Question: Where is the man hitting the tennis ball located?": {
+          "rank": 377,
+          "answer": "On a tennis court.",
+          "predicted": [
+            "on a tennis court",
+            "in the air"
+          ],
+          "scores": {
+            "original": 1,
+            "real_rewrite_first": 5,
+            "real_rewrite_second": 4,
+            "template_predicted": 10,
+            "template_real_first": 10,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: What color is the shirt worn by the man jumping to hit the tennis ball?": {
+          "rank": 43,
+          "answer": "Black.",
+          "predicted": [
+            "white",
+            "orange"
+          ],
+          "scores": {
+            "original": 2,
+            "real_rewrite_first": 0,
+            "real_rewrite_second": 2,
+            "template_predicted": 5,
+            "template_real_first": 1,
+            "template_real_second": 4
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the location where the man attempts to hit the tennis ball?": {
+          "rank": 403,
+          "answer": "tennis court",
+          "predicted": [
+            "a tennis court",
+            "the air"
+          ],
+          "scores": {
+            "original": 2,
+            "real_rewrite_first": 3,
+            "real_rewrite_second": 3,
+            "template_predicted": 4,
+            "template_real_first": 4,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        }
+      }
+    },
+    {
+      "qid": 508,
+      "kl": "what is the color of the shorts worn by the tennis player?",
+      "choices": {
+        "original": "what is the color of the shorts worn by the tennis player?",
+        "real_rewrite_first": "what is the color of the shorts worn by the tennis player?",
+        "real_rewrite_second": "what is the color of the shorts worn by the tennis player?",
+        "template_predicted": "what is the color of the man's uniform?",
+        "template_real_first": "what is the color of the man's uniform?",
+        "template_real_second": "what is the color of the shorts worn by the tennis player?"
+      },
+      "candidates": {
+        "Question: What is the man wearing on his body?": {
+          "rank": 46,
+          "answer": "white shirt and shorts",
+          "predicted": [
+            "a green uniform",
+            "shorts"
+          ],
+          "scores": {
+            "original": 1,
+            "real_rewrite_first": 5,
+            "real_rewrite_second": 4,
+            "template_predicted": 3,
+            "template_real_first": 6,
+            "template_real_second": 5
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": true,
+          "template_real_hit": true
+        },
+        "what is the color of the man's uniform?": {
+          "rank": 34,
+          "answer": "white",
+          "predicted": [
+            "green",
+            "unknown"
+          ],
+          "scores": {
+            "original": 2,
+            "real_rewrite_first": 7,
+            "real_rewrite_second": 7,
+            "template_predicted": 5,
+            "template_real_first": 11,
+            "template_real_second": 6
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the color of the shorts worn by the tennis player?": {
+          "rank": 59,
+          "answer": "white",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        },
+        "What is the man holding that he is using to hit the ball?": {
+          "rank": 133,
+          "answer": "tennis racket",
+          "predicted": [
+            "a tennis racket",
+            "a racket"
+          ],
+          "scores": {
+            "original": 0,
+            "real_rewrite_first": 2,
+            "real_rewrite_second": 2,
+            "template_predicted": 3,
+            "template_real_first": 1,
+            "template_real_second": 4
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what is the location where the man is playing tennis?": {
+          "rank": 8,
+          "answer": "wimbledon",
+          "predicted": [
+            "a tennis court",
+            "a green tennis court"
+          ],
+          "scores": {
+            "original": 2,
+            "real_rewrite_first": 7,
+            "real_rewrite_second": 7,
+            "template_predicted": 3,
+            "template_real_first": 7,
+            "template_real_second": 6
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        }
+      }
+    },
+    {
+      "qid": 675,
+      "kl": "Answer: white\n\nExplanation: The [Description] states that the image features a \"crouching catcher\" with an \"extended arm.\" The [Dialogue]?",
+      "choices": {
+        "original": "what color are the shorts of the crouching catcher?",
+        "real_rewrite_first": "Answer: white\n\nExplanation: The [Description] states that the image features a \"crouching catcher\" with an \"extended arm.\" The [Dialogue]?",
+        "real_rewrite_second": "Answer: white\n\nExplanation: The [Description] states that the image features a \"crouching catcher\" with an \"extended arm.\" The [Dialogue]?",
+        "template_predicted": "what color are the shorts of the crouching catcher?",
+        "template_real_first": "what color are the shorts of the crouching catcher?",
+        "template_real_second": "Question: what is the color of the jersey worn by the child on the baseball field?"
+      },
+      "candidates": {
+        "what color are the shorts of the crouching catcher?": {
+          "rank": 787,
+          "answer": "white",
+          "predicted": [
+            "white",
+            "green"
+          ],
+          "scores": {
+            "original": 7,
+            "real_rewrite_first": 7,
+            "real_rewrite_second": 2,
+            "template_predicted": 6,
+            "template_real_first": 6,
+            "template_real_second": 0
+          },
+          "before_target_hit": false,
+          "exact_answer": true,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Answer: white\n\nExplanation: The [Description] states that the image features a \"crouching catcher\" with an \"extended arm.\" The [Dialogue]?": {
+          "rank": 592,
+          "answer": "I'm sorry, but I cannot provide the answer.",
+          "predicted": [
+            "white",
+            "blue"
+          ],
+          "scores": {
+            "original": 6,
+            "real_rewrite_first": 7,
+            "real_rewrite_second": 5,
+            "template_predicted": 5,
+            "template_real_first": 5,
+            "template_real_second": 2
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "Question: what is the color of the jersey worn by the child on the baseball field?": {
+          "rank": 334,
+          "answer": "gray",
+          "predicted": [
+            "green",
+            "white"
+          ],
+          "scores": {
+            "original": 2,
+            "real_rewrite_first": 5,
+            "real_rewrite_second": 3,
+            "template_predicted": 5,
+            "template_real_first": 4,
+            "template_real_second": 3
+          },
+          "before_target_hit": false,
+          "exact_answer": false,
+          "template_predicted_hit": false,
+          "template_real_hit": false
+        },
+        "what color is the jersey worn by the crouching catcher?": {
+          "rank": 1612,
+          "answer": "red",
+          "predicted": [],
+          "scores": {
+            "original": null,
+            "real_rewrite_first": null,
+            "real_rewrite_second": null,
+            "template_predicted": null,
+            "template_real_first": null,
+            "template_real_second": null
+          },
+          "before_target_hit": null,
+          "exact_answer": null
+        }
+      }
+    }
+  ]
+}

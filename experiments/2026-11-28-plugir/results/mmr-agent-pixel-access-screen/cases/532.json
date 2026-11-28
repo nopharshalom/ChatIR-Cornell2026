@@ -1,0 +1,40 @@
+{
+  "plan_raw": "{\n\"choice\": 4,\n\"check\": \"what is the baseball player doing with the bat?\",\n\"photos\": [0, 1]\n}",
+  "provisional": 4,
+  "valid_plan": true,
+  "caption": {
+    "choice": 4,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "The baseball player is pitching a ball, not using the bat."
+      },
+      {
+        "index": 1,
+        "observation": "The baseball player is not using the bat; the caption states the player is about to throw the ball."
+      }
+    ],
+    "raw": "{\"choice\": 4}"
+  },
+  "pixels": {
+    "choice": 4,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "unknown"
+      },
+      {
+        "index": 1,
+        "observation": "unknown"
+      }
+    ],
+    "raw": "{\"choice\": 4}"
+  },
+  "qid": 532,
+  "example_ids": [
+    102,
+    141
+  ]
+}

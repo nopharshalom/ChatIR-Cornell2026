@@ -1,0 +1,10 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    "Classify the answer to the supplied question using ONLY the provided evidence.\nUse exactly one listed label, or unknown. Use unknown if evidence is missing, ambiguous,\nunreadable, contradictory, several labels apply, the subject cannot be identified, or the\nanswer falls outside the list. Never infer the answer from stereotypes or from what is typical.\nAn unmentioned object is not evidence of absence. Use 'nothing' only if explicitly supported. Return a JSON object keyed by the supplied caption numbers. Read each caption independently, using only what it explicitly says.",
+    "{\"captions\": {\"1\": \"a white plate with a cup of coffee next to it\", \"10\": \"a white plate with a bunch of food on it\", \"2\": \"a plate of food with a tongs sitting on a table\", \"3\": \"a plate of pasta with broccoli and broccoli and a fork\", \"4\": \"a plate of vegetarian food with meat, beans, and quinoa\", \"5\": \"a piece of fried chicken on a white paper plate\", \"6\": \"this dish of pasta and broccoli is on a yellow plate\", \"7\": \"a hot dog with lettuce and toppings\", \"8\": \"a white plate with brown rice and food on it\", \"9\": \"a plate topped with a sandwich\"}, \"task\": {\"allowed_labels\": [\"white\", \"yellow\"], \"question\": \"What is the main color of the plate?\"}}",
+    260,
+    null
+  ],
+  "response": "{\n  \"1\": \"white\",\n  \"2\": \"unknown\",\n  \"3\": \"unknown\",\n  \"4\": \"unknown\",\n  \"5\": \"white\",\n  \"6\": \"yellow\",\n  \"7\": \"unknown\",\n  \"8\": \"white\",\n  \"9\": \"unknown\",\n  \"10\": \"unknown\"\n}"
+}

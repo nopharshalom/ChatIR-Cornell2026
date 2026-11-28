@@ -1,0 +1,1339 @@
+{
+  "arms": {
+    "C": "captions only",
+    "I": "images only",
+    "B": "images plus captions"
+  },
+  "cohort": "Matched 400 for diagnosis. Two disjoint sets of 20 initially missed targets for cached pilots, excluding the 10 prior repaired-prompt pilot IDs.",
+  "methods": {
+    "review": "Round-one in-chat visual review of the 10 candidates, query and three stored questions. Default to C unless a challenger asks a more useful visible distinction. Continue the chosen archived trajectory; this measures routing, not a replacement inside the caption history. The visual alternative source was shuffled and outcomes and target photos were withheld from the review.",
+    "rescueI": "Three caption turns, then start a separate images-only history at the initial query if the target is still missing. Seven further questions maximum.",
+    "rescueB": "Same restart, using images plus captions."
+  },
+  "diagnosis": {
+    "1": {
+      "CIB": 302,
+      "CB": 5,
+      "none": 50,
+      "C": 14,
+      "I": 13,
+      "B": 4,
+      "IB": 5,
+      "CI": 7
+    },
+    "3": {
+      "CIB": 332,
+      "none": 25,
+      "CB": 5,
+      "I": 6,
+      "C": 9,
+      "IB": 5,
+      "B": 4,
+      "CI": 14
+    },
+    "5": {
+      "CIB": 344,
+      "none": 17,
+      "C": 11,
+      "CB": 4,
+      "B": 7,
+      "I": 5,
+      "IB": 5,
+      "CI": 7
+    },
+    "10": {
+      "CIB": 353,
+      "none": 9,
+      "C": 7,
+      "CB": 6,
+      "I": 6,
+      "CI": 10,
+      "B": 6,
+      "IB": 3
+    }
+  },
+  "dialogues": [
+    {
+      "qid": 1731,
+      "batch": 1,
+      "chosen_arm": "C",
+      "initial": "a dog is laying on his bed in front of a window",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the color of the dog laying on the bed?"
+        },
+        {
+          "arm": "I",
+          "q": "What is the breed and color of the dog?"
+        },
+        {
+          "arm": "B",
+          "q": "What is the dog's breed?"
+        }
+      ],
+      "first_hit": {
+        "C": 6,
+        "I": null,
+        "B": null,
+        "review": 6,
+        "rescueI": null,
+        "rescueB": null
+      }
+    },
+    {
+      "qid": 93,
+      "batch": 1,
+      "chosen_arm": "C",
+      "initial": "the scene has 2 men playing doubles tennis",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the color of the racquets held by the two men playing doubles tennis?"
+        },
+        {
+          "arm": "I",
+          "q": "Which candidate image shows a doubles tennis match?"
+        },
+        {
+          "arm": "B",
+          "q": "Which image shows two men playing doubles tennis?"
+        }
+      ],
+      "first_hit": {
+        "C": 1,
+        "I": 4,
+        "B": 3,
+        "review": 1,
+        "rescueI": 1,
+        "rescueB": 1
+      }
+    },
+    {
+      "qid": 2029,
+      "batch": 1,
+      "chosen_arm": "I",
+      "initial": "a man is wearing a white hat with an elephant behind him",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the other object in the image?"
+        },
+        {
+          "arm": "B",
+          "q": "what is the other object in the image?"
+        },
+        {
+          "arm": "I",
+          "q": "What color is the shirt worn by the man with the white hat?"
+        }
+      ],
+      "first_hit": {
+        "C": null,
+        "I": 1,
+        "B": null,
+        "review": 1,
+        "rescueI": 4,
+        "rescueB": null
+      }
+    },
+    {
+      "qid": 975,
+      "batch": 1,
+      "chosen_arm": "I",
+      "initial": "2 people are out in the ocean surfing and catching a big wave",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the size of the wave that the two people are catching?"
+        },
+        {
+          "arm": "I",
+          "q": "What color is the wave that the two surfers are riding?"
+        },
+        {
+          "arm": "B",
+          "q": "Which candidate image shows two people surfing on a big wave?"
+        }
+      ],
+      "first_hit": {
+        "C": 2,
+        "I": 3,
+        "B": 5,
+        "review": 3,
+        "rescueI": 2,
+        "rescueB": 2
+      }
+    },
+    {
+      "qid": 454,
+      "batch": 1,
+      "chosen_arm": "C",
+      "initial": "a single giraffe stands among shorter trees and brush",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the other object in the image?"
+        },
+        {
+          "arm": "B",
+          "q": "what is the other object in the image?"
+        },
+        {
+          "arm": "I",
+          "q": "What is the color of the giraffe in the image?"
+        }
+      ],
+      "first_hit": {
+        "C": 3,
+        "I": 3,
+        "B": 5,
+        "review": 3,
+        "rescueI": 3,
+        "rescueB": 3
+      }
+    },
+    {
+      "qid": 1639,
+      "batch": 1,
+      "chosen_arm": "B",
+      "initial": "people are standing at a counter in front of windows trying to order",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the other object in the image?"
+        },
+        {
+          "arm": "B",
+          "q": "What are the people waiting to order?"
+        },
+        {
+          "arm": "I",
+          "q": "Which of the following images shows a scene where people are standing in line at a ticket counter?"
+        }
+      ],
+      "first_hit": {
+        "C": 1,
+        "I": 1,
+        "B": null,
+        "review": null,
+        "rescueI": 1,
+        "rescueB": 1
+      }
+    },
+    {
+      "qid": 573,
+      "batch": 1,
+      "chosen_arm": "C",
+      "initial": "a street light at an intersection on a sunny day",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the background object located behind the street light at the intersection?"
+        },
+        {
+          "arm": "B",
+          "q": "Which street sign is visible in the image?"
+        },
+        {
+          "arm": "I",
+          "q": "Which candidate image shows a street light at an intersection on a sunny day with the street name \"N Main St\" visible?"
+        }
+      ],
+      "first_hit": {
+        "C": 2,
+        "I": 10,
+        "B": 3,
+        "review": 2,
+        "rescueI": 2,
+        "rescueB": 2
+      }
+    },
+    {
+      "qid": 783,
+      "batch": 1,
+      "chosen_arm": "C",
+      "initial": "a pizza on a plate cut into slices",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the number of slices the pizza is cut into?"
+        },
+        {
+          "arm": "B",
+          "q": "Which candidate image shows a pizza on a white plate that is cut into slices?"
+        },
+        {
+          "arm": "I",
+          "q": "Which pizza has a thick, puffy crust?"
+        }
+      ],
+      "first_hit": {
+        "C": 2,
+        "I": 3,
+        "B": 5,
+        "review": 2,
+        "rescueI": 2,
+        "rescueB": 2
+      }
+    },
+    {
+      "qid": 1004,
+      "batch": 1,
+      "chosen_arm": "B",
+      "initial": "4 people standing on a snowy slope with skis",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "Are there any people standing on the snowy slope who are not wearing coats?"
+        },
+        {
+          "arm": "B",
+          "q": "What is the color of the coat worn by the person in the middle of the group of four people on the snowy slope?"
+        },
+        {
+          "arm": "I",
+          "q": "Which image shows four people standing on a snowy?"
+        }
+      ],
+      "first_hit": {
+        "C": null,
+        "I": null,
+        "B": null,
+        "review": null,
+        "rescueI": null,
+        "rescueB": null
+      }
+    },
+    {
+      "qid": 1419,
+      "batch": 1,
+      "chosen_arm": "I",
+      "initial": "a man is riding a snowboard and he is high above the snow",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the other object in the image?"
+        },
+        {
+          "arm": "I",
+          "q": "What is the color of the sky in the image where the man is riding a snowboard and is high above the snow?"
+        },
+        {
+          "arm": "B",
+          "q": "What is the color of the sky in the image where the man is riding a snowboard and is high above the snow?"
+        }
+      ],
+      "first_hit": {
+        "C": 1,
+        "I": 1,
+        "B": 1,
+        "review": 1,
+        "rescueI": 1,
+        "rescueB": 1
+      }
+    },
+    {
+      "qid": 1772,
+      "batch": 1,
+      "chosen_arm": "C",
+      "initial": "a white computer mouse sitting on top of a mouse pad",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what color is the mouse pad on top of which the white computer mouse is sitting?"
+        },
+        {
+          "arm": "B",
+          "q": "What is the color of the mouse pad under the white computer mouse?"
+        },
+        {
+          "arm": "I",
+          "q": "What is the color of the mouse pad that the white computer mouse is sitting on?"
+        }
+      ],
+      "first_hit": {
+        "C": 1,
+        "I": 1,
+        "B": 1,
+        "review": 1,
+        "rescueI": 1,
+        "rescueB": 1
+      }
+    },
+    {
+      "qid": 1788,
+      "batch": 1,
+      "chosen_arm": "B",
+      "initial": "the inside of a house with yellow and blue walls",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what objects are placed on the ceiling in the room with yellow and blue walls?"
+        },
+        {
+          "arm": "B",
+          "q": "Which room in the house features yellow and blue walls?"
+        },
+        {
+          "arm": "I",
+          "q": "Based on the description \"the inside of a house with yellow and blue walls\" and the dialogue provided, here is the next question and the explanation for its generation?"
+        }
+      ],
+      "first_hit": {
+        "C": 2,
+        "I": 2,
+        "B": 4,
+        "review": 4,
+        "rescueI": 2,
+        "rescueB": 2
+      }
+    },
+    {
+      "qid": 1646,
+      "batch": 1,
+      "chosen_arm": "B",
+      "initial": "a large white bus heading down the street",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the other object in the image?"
+        },
+        {
+          "arm": "B",
+          "q": "What is the destination of the large white bus?"
+        },
+        {
+          "arm": "I",
+          "q": "What is the name of the company operating the bus in image 1?"
+        }
+      ],
+      "first_hit": {
+        "C": 1,
+        "I": 1,
+        "B": 1,
+        "review": 1,
+        "rescueI": 1,
+        "rescueB": 1
+      }
+    },
+    {
+      "qid": 688,
+      "batch": 1,
+      "chosen_arm": "B",
+      "initial": "a person is holding a magnifying glass over a computer mouse",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the color of the magnifying glass the person is holding?"
+        },
+        {
+          "arm": "I",
+          "q": "what is the other object in the image?"
+        },
+        {
+          "arm": "B",
+          "q": "What color is the mouse that the person is holding?"
+        }
+      ],
+      "first_hit": {
+        "C": 1,
+        "I": 1,
+        "B": 1,
+        "review": 1,
+        "rescueI": 1,
+        "rescueB": 1
+      }
+    },
+    {
+      "qid": 1660,
+      "batch": 1,
+      "chosen_arm": "C",
+      "initial": "a woman sitting at a table with a plate in front of her",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the woman sitting at a table with a plate in front of her wearing?"
+        },
+        {
+          "arm": "I",
+          "q": "What is the woman wearing in the image where she is sitting at a table with a plate in front of her?"
+        },
+        {
+          "arm": "B",
+          "q": "What type of food is on the plate in front of the woman sitting at the table?"
+        }
+      ],
+      "first_hit": {
+        "C": 1,
+        "I": 1,
+        "B": 1,
+        "review": 1,
+        "rescueI": 1,
+        "rescueB": 1
+      }
+    },
+    {
+      "qid": 603,
+      "batch": 1,
+      "chosen_arm": "I",
+      "initial": "a woman standing on a longboard off the beach",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the other object in the image?"
+        },
+        {
+          "arm": "B",
+          "q": "What is the color of the surfboard the woman is riding?"
+        },
+        {
+          "arm": "I",
+          "q": "What is the color of the longboard the woman is standing on?"
+        }
+      ],
+      "first_hit": {
+        "C": 1,
+        "I": 1,
+        "B": 1,
+        "review": 1,
+        "rescueI": 1,
+        "rescueB": 1
+      }
+    },
+    {
+      "qid": 675,
+      "batch": 1,
+      "chosen_arm": "B",
+      "initial": "the crouching catcher has his arm extended to catch the ball",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "Explanation: The [Description] states that the image features a \"crouching catcher\" with an \"extended arm.\" The [Dialogue]?"
+        },
+        {
+          "arm": "I",
+          "q": "What color is the uniform of the catcher who is crouching with his arm extended to catch the ball?"
+        },
+        {
+          "arm": "B",
+          "q": "What is the jersey color of the catcher in the image?"
+        }
+      ],
+      "first_hit": {
+        "C": null,
+        "I": null,
+        "B": null,
+        "review": null,
+        "rescueI": null,
+        "rescueB": null
+      }
+    },
+    {
+      "qid": 627,
+      "batch": 1,
+      "chosen_arm": "B",
+      "initial": "a man and woman sitting at a restaurant",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the other object in the image?"
+        },
+        {
+          "arm": "B",
+          "q": "What is the lighting condition of the scene where the man and woman are sitting at the restaurant?"
+        },
+        {
+          "arm": "I",
+          "q": "What is the title of the photo in the top row, second image?"
+        }
+      ],
+      "first_hit": {
+        "C": 1,
+        "I": 1,
+        "B": null,
+        "review": null,
+        "rescueI": 1,
+        "rescueB": 1
+      }
+    },
+    {
+      "qid": 1894,
+      "batch": 1,
+      "chosen_arm": "I",
+      "initial": "furniture decor in a living room setting inside a house",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "What is the color of the floor in the living room?"
+        },
+        {
+          "arm": "I",
+          "q": "What is the color of the main sofa?"
+        },
+        {
+          "arm": "B",
+          "q": "What color is the flooring in the living room?"
+        }
+      ],
+      "first_hit": {
+        "C": 4,
+        "I": 10,
+        "B": null,
+        "review": 10,
+        "rescueI": null,
+        "rescueB": null
+      }
+    },
+    {
+      "qid": 2057,
+      "batch": 1,
+      "chosen_arm": "I",
+      "initial": "a close up of 2 street signs with buildings in the background",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the arrangement of the two street signs in the image?"
+        },
+        {
+          "arm": "I",
+          "q": "What are the names of the two street signs in the image?"
+        },
+        {
+          "arm": "B",
+          "q": "What is the color of the street signs in the image?"
+        }
+      ],
+      "first_hit": {
+        "C": null,
+        "I": 3,
+        "B": 10,
+        "review": 3,
+        "rescueI": 6,
+        "rescueB": null
+      }
+    },
+    {
+      "qid": 754,
+      "batch": 2,
+      "chosen_arm": "I",
+      "initial": "a tall water tower stands behind a metal fence",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the other object in the image?"
+        },
+        {
+          "arm": "I",
+          "q": "What color is the water tower in the image?"
+        },
+        {
+          "arm": "B",
+          "q": "What color is the water tower in the image?"
+        }
+      ],
+      "first_hit": {
+        "C": 1,
+        "I": 6,
+        "B": 7,
+        "review": 6,
+        "rescueI": 1,
+        "rescueB": 1
+      }
+    },
+    {
+      "qid": 1650,
+      "batch": 2,
+      "chosen_arm": "B",
+      "initial": "the bench faces toward the concrete walkway outside",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the surface the bench is sitting on?"
+        },
+        {
+          "arm": "I",
+          "q": "Which image shows a bench that is situated directly on a concrete walkway?"
+        },
+        {
+          "arm": "B",
+          "q": "What is the material of the bench?"
+        }
+      ],
+      "first_hit": {
+        "C": 3,
+        "I": 3,
+        "B": 2,
+        "review": 2,
+        "rescueI": 3,
+        "rescueB": 3
+      }
+    },
+    {
+      "qid": 1508,
+      "batch": 2,
+      "chosen_arm": "C",
+      "initial": "simple but effective plant protector for small flowers, ideal for home with cats",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "What is the cat sitting on?"
+        },
+        {
+          "arm": "I",
+          "q": "Which cat is sitting on the plant protection device?"
+        },
+        {
+          "arm": "B",
+          "q": "Which cat is the protector designed for?"
+        }
+      ],
+      "first_hit": {
+        "C": 1,
+        "I": 1,
+        "B": 1,
+        "review": 1,
+        "rescueI": 1,
+        "rescueB": 1
+      }
+    },
+    {
+      "qid": 1782,
+      "batch": 2,
+      "chosen_arm": "B",
+      "initial": "2 airplanes are parked on an airport runway",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the other object in the image?"
+        },
+        {
+          "arm": "I",
+          "q": "What is the tail design of the airplane on the left in the image?"
+        },
+        {
+          "arm": "B",
+          "q": "Which airline operates one of the two airplanes parked on the airport runway?"
+        }
+      ],
+      "first_hit": {
+        "C": 3,
+        "I": 3,
+        "B": 1,
+        "review": 1,
+        "rescueI": 3,
+        "rescueB": 3
+      }
+    },
+    {
+      "qid": 1874,
+      "batch": 2,
+      "chosen_arm": "C",
+      "initial": "a bus passes so close to a pick up truck that is catches the trucks mirror",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "What is the color of the truck?"
+        },
+        {
+          "arm": "I",
+          "q": "What color is the side mirror of the pickup truck?"
+        },
+        {
+          "arm": "B",
+          "q": "Explanation: I utilized the [Description] \"a bus passes so close to a pick up truck that is catches the trucks mirror\" to?"
+        }
+      ],
+      "first_hit": {
+        "C": 1,
+        "I": 2,
+        "B": 1,
+        "review": 1,
+        "rescueI": 1,
+        "rescueB": 1
+      }
+    },
+    {
+      "qid": 1542,
+      "batch": 2,
+      "chosen_arm": "C",
+      "initial": "an living room is arranged with a couch, a chaise lounge, 2 single chairs, a square table, a circular table, a long rectangular table, and a television",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the color of the table in the living room?"
+        },
+        {
+          "arm": "B",
+          "q": "Which table in the living room is surrounded by chairs?"
+        },
+        {
+          "arm": "I",
+          "q": "What is the color of the television in the living room?"
+        }
+      ],
+      "first_hit": {
+        "C": 2,
+        "I": 2,
+        "B": null,
+        "review": 2,
+        "rescueI": 2,
+        "rescueB": 2
+      }
+    },
+    {
+      "qid": 310,
+      "batch": 2,
+      "chosen_arm": "I",
+      "initial": "a messy computer desk with a pc and a laptop",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "Where is the desk located in the image?"
+        },
+        {
+          "arm": "I",
+          "q": "What is the color of the laptop on the messy computer desk?"
+        },
+        {
+          "arm": "B",
+          "q": "What is the primary material of the desk?"
+        }
+      ],
+      "first_hit": {
+        "C": null,
+        "I": null,
+        "B": null,
+        "review": null,
+        "rescueI": null,
+        "rescueB": null
+      }
+    },
+    {
+      "qid": 955,
+      "batch": 2,
+      "chosen_arm": "C",
+      "initial": "a skateboarder in jeans and a long sleeve shirt and jeans looking like he is going to go off a ramp",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what color is the shirt worn by the skateboarder in the image?"
+        },
+        {
+          "arm": "I",
+          "q": "What is the color of the long-sleeve shirt worn by the skateboarder in jeans?"
+        },
+        {
+          "arm": "B",
+          "q": "What is the color of the shirt worn by the skateboarder in the image?"
+        }
+      ],
+      "first_hit": {
+        "C": null,
+        "I": null,
+        "B": null,
+        "review": null,
+        "rescueI": null,
+        "rescueB": null
+      }
+    },
+    {
+      "qid": 670,
+      "batch": 2,
+      "chosen_arm": "C",
+      "initial": "a dog stands among many sheep late in the day",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the breed or specific type of the dog standing among the sheep?"
+        },
+        {
+          "arm": "I",
+          "q": "What is the dog's breed?"
+        },
+        {
+          "arm": "B",
+          "q": "what is the other object in the image?"
+        }
+      ],
+      "first_hit": {
+        "C": 1,
+        "I": 1,
+        "B": 1,
+        "review": 1,
+        "rescueI": 1,
+        "rescueB": 1
+      }
+    },
+    {
+      "qid": 158,
+      "batch": 2,
+      "chosen_arm": "C",
+      "initial": "a man-made river with boats and a bridge crossing it",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "where is the building located in relation to the river?"
+        },
+        {
+          "arm": "B",
+          "q": "Which image shows a river with a bascule bridge?"
+        },
+        {
+          "arm": "I",
+          "q": "Which candidate image shows a man-made river with boats and a bridge crossing it?"
+        }
+      ],
+      "first_hit": {
+        "C": 1,
+        "I": 3,
+        "B": 3,
+        "review": 1,
+        "rescueI": 1,
+        "rescueB": 1
+      }
+    },
+    {
+      "qid": 508,
+      "batch": 2,
+      "chosen_arm": "C",
+      "initial": "a tennis player expends great effort into hitting the ball",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the color of the shorts worn by the tennis player?"
+        },
+        {
+          "arm": "B",
+          "q": "Which player is the one expending great effort to hit the ball?"
+        },
+        {
+          "arm": "I",
+          "q": "Which image shows a tennis player who is wearing a white outfit and hitting a ball on a hard court?"
+        }
+      ],
+      "first_hit": {
+        "C": 9,
+        "I": null,
+        "B": null,
+        "review": 9,
+        "rescueI": null,
+        "rescueB": null
+      }
+    },
+    {
+      "qid": 814,
+      "batch": 2,
+      "chosen_arm": "I",
+      "initial": "2 people wearing black are standing next to each other",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the gender of the two people wearing black standing next to each other?"
+        },
+        {
+          "arm": "B",
+          "q": "what is the other object in the image?"
+        },
+        {
+          "arm": "I",
+          "q": "What activity are the two people in black doing?"
+        }
+      ],
+      "first_hit": {
+        "C": 2,
+        "I": 3,
+        "B": 1,
+        "review": 3,
+        "rescueI": 2,
+        "rescueB": 2
+      }
+    },
+    {
+      "qid": 1411,
+      "batch": 2,
+      "chosen_arm": "B",
+      "initial": "a kitchen with white cabinets and a window above the sink",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what type of appliances are present in the kitchen with white cabinets and a window above the sink?"
+        },
+        {
+          "arm": "I",
+          "q": "what is the other object in the image?"
+        },
+        {
+          "arm": "B",
+          "q": "What color are the countertops in the kitchen with white cabinets and a window above the sink?"
+        }
+      ],
+      "first_hit": {
+        "C": 1,
+        "I": 2,
+        "B": null,
+        "review": null,
+        "rescueI": 1,
+        "rescueB": 1
+      }
+    },
+    {
+      "qid": 1820,
+      "batch": 2,
+      "chosen_arm": "C",
+      "initial": "a single toilet sits inside an unfinished bathroom",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the color of the toilet in the bathroom under construction?"
+        },
+        {
+          "arm": "I",
+          "q": "Which candidate image shows a single toilet inside an unfinished bathroom with a bathtub?"
+        },
+        {
+          "arm": "B",
+          "q": "What is the condition of the bathroom where the single toilet is located?"
+        }
+      ],
+      "first_hit": {
+        "C": 4,
+        "I": 1,
+        "B": null,
+        "review": 4,
+        "rescueI": 4,
+        "rescueB": null
+      }
+    },
+    {
+      "qid": 482,
+      "batch": 2,
+      "chosen_arm": "B",
+      "initial": "the bathroom is very empty and bland and white",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the other object in the image?"
+        },
+        {
+          "arm": "I",
+          "q": "Based on the provided description and dialogue, here are the generated questions and answers for the target image (which appears to be image 2 based on the description \"?"
+        },
+        {
+          "arm": "B",
+          "q": "What is the floor covering in the bathroom?"
+        }
+      ],
+      "first_hit": {
+        "C": 1,
+        "I": 1,
+        "B": 2,
+        "review": 2,
+        "rescueI": 1,
+        "rescueB": 1
+      }
+    },
+    {
+      "qid": 1743,
+      "batch": 2,
+      "chosen_arm": "C",
+      "initial": "a bed with blue covers next to a wall",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the color of the wall next to the bed with blue covers?"
+        },
+        {
+          "arm": "B",
+          "q": "what is the other object in the image?"
+        },
+        {
+          "arm": "I",
+          "q": "What is the color of the wall next to the bed with blue covers?"
+        }
+      ],
+      "first_hit": {
+        "C": null,
+        "I": null,
+        "B": null,
+        "review": null,
+        "rescueI": null,
+        "rescueB": null
+      }
+    },
+    {
+      "qid": 1169,
+      "batch": 2,
+      "chosen_arm": "C",
+      "initial": "2 computers next to each other with a ipod dock",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the color of the two computers sitting next to each other with an iPod dock?"
+        },
+        {
+          "arm": "I",
+          "q": "Which candidate image shows two computers next to each other with an iPod dock?"
+        },
+        {
+          "arm": "B",
+          "q": "What is the color of the iPod dock next to the two computers?"
+        }
+      ],
+      "first_hit": {
+        "C": null,
+        "I": null,
+        "B": 4,
+        "review": null,
+        "rescueI": null,
+        "rescueB": 7
+      }
+    },
+    {
+      "qid": 1676,
+      "batch": 2,
+      "chosen_arm": "C",
+      "initial": "a group of people walking across the crosswalk",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "Who are the people walking across the crosswalk?"
+        },
+        {
+          "arm": "I",
+          "q": "Which image shows a group of people walking across a crosswalk that is not zebra-striped?"
+        },
+        {
+          "arm": "B",
+          "q": "Which image shows a group of people walking across a city street crosswalk?"
+        }
+      ],
+      "first_hit": {
+        "C": 3,
+        "I": null,
+        "B": 2,
+        "review": 3,
+        "rescueI": 3,
+        "rescueB": 3
+      }
+    },
+    {
+      "qid": 1732,
+      "batch": 2,
+      "chosen_arm": "C",
+      "initial": "a tennis player is in motion to return the tennis ball",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the player wearing?"
+        },
+        {
+          "arm": "B",
+          "q": "What color are the shorts worn by the tennis player?"
+        },
+        {
+          "arm": "I",
+          "q": "Which candidate image shows a tennis player in motion to return the ball?"
+        }
+      ],
+      "first_hit": {
+        "C": 2,
+        "I": null,
+        "B": null,
+        "review": 2,
+        "rescueI": 2,
+        "rescueB": 2
+      }
+    },
+    {
+      "qid": 69,
+      "batch": 2,
+      "chosen_arm": "B",
+      "initial": "a giraffe is standing in an open field",
+      "displayed_questions": [
+        {
+          "arm": "C",
+          "q": "what is the color of the giraffe in the image?"
+        },
+        {
+          "arm": "I",
+          "q": "Is the giraffe in the image standing in a very?"
+        },
+        {
+          "arm": "B",
+          "q": "Is the sky clear in the image of the giraffe standing in the open field?"
+        }
+      ],
+      "first_hit": {
+        "C": null,
+        "I": null,
+        "B": null,
+        "review": null,
+        "rescueI": null,
+        "rescueB": null
+      }
+    }
+  ],
+  "curves": {
+    "first20": {
+      "C": [
+        0,
+        9,
+        13,
+        14,
+        15,
+        15,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "I": [
+        0,
+        9,
+        10,
+        14,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        17
+      ],
+      "B": [
+        0,
+        6,
+        6,
+        8,
+        9,
+        12,
+        12,
+        12,
+        12,
+        12,
+        13
+      ],
+      "review": [
+        0,
+        8,
+        10,
+        13,
+        14,
+        14,
+        15,
+        15,
+        15,
+        15,
+        16
+      ],
+      "rescueI": [
+        0,
+        9,
+        13,
+        14,
+        15,
+        15,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "rescueB": [
+        0,
+        9,
+        13,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ]
+    },
+    "second20": {
+      "C": [
+        0,
+        7,
+        10,
+        13,
+        14,
+        14,
+        14,
+        14,
+        14,
+        15,
+        15
+      ],
+      "I": [
+        0,
+        4,
+        7,
+        11,
+        11,
+        11,
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      "B": [
+        0,
+        5,
+        8,
+        9,
+        10,
+        10,
+        10,
+        11,
+        11,
+        11,
+        11
+      ],
+      "review": [
+        0,
+        5,
+        9,
+        11,
+        12,
+        12,
+        13,
+        13,
+        13,
+        14,
+        14
+      ],
+      "rescueI": [
+        0,
+        7,
+        10,
+        13,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "rescueB": [
+        0,
+        7,
+        10,
+        13,
+        13,
+        13,
+        13,
+        14,
+        14,
+        14,
+        14
+      ]
+    }
+  }
+}

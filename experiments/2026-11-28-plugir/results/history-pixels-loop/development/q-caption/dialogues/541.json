@@ -1,0 +1,132 @@
+{
+  "qid": 541,
+  "target": "unlabeled2017/000000465136.jpg",
+  "arm": "q-caption",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        46016,
+        6356,
+        36978,
+        48041,
+        20580,
+        47580,
+        44515,
+        12949,
+        46533,
+        17397
+      ],
+      "candidates": [
+        "what is the color of the elephant in the image?",
+        "what is the location where the people are riding the elephant?",
+        "what is the other object in the image?",
+        "what is the other object in the image?",
+        "what is the gender of the other person riding on the elephant?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "a lake",
+      "rewrite": "a boy and a couple riding atop an elephant with a lake in the background",
+      "review": {
+        "default": "what is the other object in the image?",
+        "questions": [
+          "what is the color of the elephant in the image?",
+          "what is the location where the people are riding the elephant?",
+          "what is the other object in the image?",
+          "what is the gender of the other person riding on the elephant?"
+        ],
+        "selected": "what is the other object in the image?",
+        "scores": {
+          "what is the color of the elephant in the image?": {
+            "file": "4cd31d8047529ea14b73b76bfd1c6f8baeeba2c82280cb80f90e516de7f0b1f9.json",
+            "answers": [
+              "gray",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "gray"
+            ],
+            "seconds": 1.8403977090492845,
+            "score": 0
+          }
+        }
+      },
+      "shared_seconds": 13.819
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a boy and couple riding atop on elephant",
+      "raw_rank": 60,
+      "filtered_rank": 60,
+      "rank": 60,
+      "ordinary_screen": [
+        46016,
+        6356,
+        36978,
+        48041,
+        20580,
+        47580,
+        44515,
+        12949,
+        46533,
+        17397
+      ],
+      "display": [
+        46016,
+        6356,
+        36978,
+        48041,
+        20580,
+        47580,
+        44515,
+        12949,
+        46533,
+        17397
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a boy and a couple riding atop an elephant with a lake in the background",
+      "raw_rank": 2,
+      "filtered_rank": 2,
+      "rank": 2,
+      "ordinary_screen": [
+        5764,
+        39881,
+        22012,
+        3761,
+        6790,
+        37055,
+        28245,
+        43544,
+        28008,
+        45150
+      ],
+      "display": [
+        5764,
+        39881,
+        22012,
+        3761,
+        6790,
+        37055,
+        28245,
+        43544,
+        28008,
+        45150
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 13.819,
+  "live": false,
+  "seconds": 1.8820400000549853
+}

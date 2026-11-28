@@ -1,0 +1,322 @@
+{
+  "qid": 1466,
+  "target": "unlabeled2017/000000308779.jpg",
+  "arm": "pixels",
+  "first": 4,
+  "turns": [
+    {
+      "evidence": [
+        32612,
+        16388,
+        25630,
+        38493,
+        25127,
+        41709,
+        24848,
+        8009,
+        30642,
+        43543
+      ],
+      "candidates": [
+        "what color are the motorcycles parked in the parking lot?",
+        "how many motorcycles are parked in the parking lot?",
+        "what is the position of the motorcycles relative to the cone?",
+        "Question: Is there a motorcycle rider wearing a helmet among the parked motorcycles?",
+        "Question: What is the color of the motorcycles parked in the parking lot?"
+      ],
+      "default": "what color are the motorcycles parked in the parking lot?",
+      "question": "what color are the motorcycles parked in the parking lot?",
+      "answer": "black",
+      "rewrite": "a group of black motorcycles parked in a parking lot",
+      "review": null,
+      "shared_seconds": 8.311
+    },
+    {
+      "evidence": [
+        25630,
+        27513,
+        32557,
+        38493,
+        41709,
+        10023,
+        32612,
+        16388,
+        43543,
+        38768
+      ],
+      "candidates": [
+        "what is the surface material of the parking lot where the black motorcycles are parked?",
+        "what type of motorcycle is parked in the black and gold motorcycles image?",
+        "what is the location of the black and gold motorcycles?",
+        "Question: What is the surface material of the parking lot where the black motorcycles are parked?",
+        "Question: What is the surface material of the parking lot where the black motorcycles are parked?"
+      ],
+      "default": "what is the surface material of the parking lot where the black motorcycles are parked?",
+      "question": "what is the surface material of the parking lot where the black motorcycles are parked?",
+      "answer": "concrete",
+      "rewrite": "a group of black motorcycles parked on a concrete surface in a parking lot",
+      "review": null,
+      "shared_seconds": 9.905
+    },
+    {
+      "evidence": [
+        32557,
+        25630,
+        38768,
+        27513,
+        29501,
+        10023,
+        41709,
+        38493,
+        43543,
+        16388
+      ],
+      "candidates": [
+        "how many motorcycles are parked in the concrete parking lot?",
+        "what is the specific type of motorcycle parked on the concrete surface?",
+        "what is the total count of motorcycles parked on the concrete surface?",
+        "how many motorcycles are parked on the concrete surface?",
+        "what is the color of the motorcycle parked on the dirt?"
+      ],
+      "default": "what is the specific type of motorcycle parked on the concrete surface?",
+      "question": "what is the specific type of motorcycle parked on the concrete surface?",
+      "answer": "harley davidson",
+      "rewrite": "a group of black Harley Davidson motorcycles parked on a concrete surface in a parking lot",
+      "review": null,
+      "shared_seconds": 7.339
+    },
+    {
+      "evidence": [
+        38768,
+        32557,
+        25630,
+        32612,
+        29501,
+        38493,
+        40132,
+        27513,
+        43543,
+        13446
+      ],
+      "candidates": [
+        "how many motorcycles are parked in the concrete parking lot?",
+        "how many motorcycles are parked on the concrete surface?",
+        "what is the location where the black harley-davidson motorcycles are parked?",
+        "what is the color of the motorcycles parked on the dirt surface?",
+        "how many motorcycles are parked on the concrete surface?"
+      ],
+      "default": "what is the location where the black harley-davidson motorcycles are parked?",
+      "question": "what is the location where the black harley-davidson motorcycles are parked?",
+      "answer": "mountain top",
+      "rewrite": "a group of black Harley-Davidson motorcycles parked on a concrete surface at a mountain top",
+      "review": null,
+      "shared_seconds": 13.802
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a group of motorcycles parked in a parking lot",
+      "raw_rank": 67,
+      "filtered_rank": 67,
+      "rank": 67,
+      "ordinary_screen": [
+        32612,
+        25630,
+        16388,
+        38493,
+        25127,
+        41709,
+        24848,
+        8009,
+        30642,
+        43543
+      ],
+      "display": [
+        32612,
+        25630,
+        16388,
+        38493,
+        25127,
+        41709,
+        24848,
+        8009,
+        30642,
+        43543
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a group of black motorcycles parked in a parking lot",
+      "raw_rank": 95,
+      "filtered_rank": 85,
+      "rank": 85,
+      "ordinary_screen": [
+        27513,
+        32557,
+        10023,
+        38768,
+        29501,
+        41464,
+        49543,
+        40132,
+        13546,
+        19707
+      ],
+      "display": [
+        27513,
+        32557,
+        10023,
+        38768,
+        29501,
+        41464,
+        49543,
+        40132,
+        13546,
+        19707
+      ],
+      "check": {
+        "question": "what color are the motorcycles parked in the parking lot?",
+        "answer": "black",
+        "labels": [
+          {
+            "id": 40132,
+            "color": null,
+            "file": "8bb91fd1db8b9b3240b5fed8ed72dfdffb84522e977f0cf11df8d0d2aaeed9af.json",
+            "seconds": 0.5267360829748213
+          },
+          {
+            "id": 13546,
+            "color": "black",
+            "file": "cc61c28cfe93ec2276847d06465d38bd5b9c131f2fbb7b8f71846b7ea1e0bf7c.json",
+            "seconds": 0.5143855831120163
+          },
+          {
+            "id": 19707,
+            "color": "black",
+            "file": "8d7ef4994d9a2c264f4ce9862f38bdc8838573c04a09e4a7088317aed2dc0774.json",
+            "seconds": 0.4552747090347111
+          },
+          {
+            "id": 27522,
+            "color": "red",
+            "file": "28fa2cb8e14d9827ea79a4446b9e0e3320dfb83f58c2f2dda42092ef0212e5a4.json",
+            "seconds": 0.44640433392487466
+          },
+          {
+            "id": 40660,
+            "color": null,
+            "file": "19d628a74da58c6e3a86ea59997f666d517c7118e9ef88745dd5441126fb9161.json",
+            "seconds": 0.5222802078351378
+          },
+          {
+            "id": 47818,
+            "color": "black",
+            "file": "b6b3fbaf01855fb0e1b38816686542b35236a8db40e9113940901493ba85f7b6.json",
+            "seconds": 0.46852333284914494
+          }
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "query": "a group of black motorcycles parked on a concrete surface in a parking lot",
+      "raw_rank": 62,
+      "filtered_rank": 42,
+      "rank": 42,
+      "ordinary_screen": [
+        2248,
+        13446,
+        8700,
+        3456,
+        47818,
+        9939,
+        41261,
+        13883,
+        41917,
+        18659
+      ],
+      "display": [
+        2248,
+        13446,
+        8700,
+        3456,
+        47818,
+        9939,
+        41261,
+        13883,
+        41917,
+        18659
+      ],
+      "check": {}
+    },
+    {
+      "round": 3,
+      "query": "a group of black Harley Davidson motorcycles parked on a concrete surface in a parking lot",
+      "raw_rank": 66,
+      "filtered_rank": 36,
+      "rank": 36,
+      "ordinary_screen": [
+        4225,
+        35235,
+        7678,
+        49399,
+        29479,
+        22596,
+        27056,
+        39903,
+        22271,
+        26014
+      ],
+      "display": [
+        4225,
+        35235,
+        7678,
+        49399,
+        29479,
+        22596,
+        27056,
+        39903,
+        22271,
+        26014
+      ],
+      "check": {}
+    },
+    {
+      "round": 4,
+      "query": "a group of black Harley-Davidson motorcycles parked on a concrete surface at a mountain top",
+      "raw_rank": 1,
+      "filtered_rank": 1,
+      "rank": 1,
+      "ordinary_screen": [
+        26388,
+        33448,
+        43379,
+        21539,
+        44241,
+        41728,
+        48071,
+        22751,
+        19629,
+        14647
+      ],
+      "display": [
+        26388,
+        33448,
+        43379,
+        21539,
+        44241,
+        41728,
+        48071,
+        22751,
+        19629,
+        14647
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 39.357,
+  "live": false,
+  "seconds": 3.2014599579852074
+}

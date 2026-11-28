@@ -1,0 +1,104 @@
+{
+  "qid": 143,
+  "target": "unlabeled2017/000000143795.jpg",
+  "arm": "ordinary",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        6264,
+        13730,
+        19447,
+        42662,
+        30937,
+        14068,
+        3466,
+        18545,
+        1107,
+        46118
+      ],
+      "candidates": [
+        "Question: What is the gender of the person arranging the food on the table?",
+        "Question: What is the location where the buffet table filled with a variety of food and drink is situated?",
+        "Question: What is the surface material of the table holding the food?",
+        "Question: What specific types of food items are present on the buffet table?",
+        "Question: What is the gender of the person arranging the food on the table?"
+      ],
+      "default": "Question: What specific types of food items are present on the buffet table?",
+      "question": "Question: What specific types of food items are present on the buffet table?",
+      "answer": "Burgers, hot dogs, and various side dishes.",
+      "rewrite": "a buffet table filled with burgers, hot dogs, and various side dishes",
+      "review": null,
+      "shared_seconds": 7.485
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a buffet table filled with a variety of food and drink",
+      "raw_rank": 29,
+      "filtered_rank": 29,
+      "rank": 29,
+      "ordinary_screen": [
+        6264,
+        13730,
+        19447,
+        42662,
+        30937,
+        14068,
+        3466,
+        18545,
+        1107,
+        46118
+      ],
+      "display": [
+        6264,
+        13730,
+        19447,
+        42662,
+        30937,
+        14068,
+        3466,
+        18545,
+        1107,
+        46118
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a buffet table filled with burgers, hot dogs, and various side dishes",
+      "raw_rank": 1,
+      "filtered_rank": 1,
+      "rank": 1,
+      "ordinary_screen": [
+        12402,
+        35421,
+        16626,
+        2551,
+        31145,
+        33454,
+        35731,
+        12156,
+        47729,
+        25619
+      ],
+      "display": [
+        12402,
+        35421,
+        16626,
+        2551,
+        31145,
+        33454,
+        35731,
+        12156,
+        47729,
+        25619
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 7.485,
+  "live": false,
+  "seconds": 0.020179166924208403
+}

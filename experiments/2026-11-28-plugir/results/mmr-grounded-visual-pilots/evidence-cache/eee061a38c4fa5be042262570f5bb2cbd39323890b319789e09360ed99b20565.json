@@ -1,0 +1,10 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    "You see only the user's initial description and completed dialogue. Is the proposed\nquestion natural and neutrally phrased about a uniquely identifiable subject in their own\nphoto, applicable to that subject, directly visible, still unanswered and not previously\nasked even with different wording? Reject false premises, underspecified multiple people or\nobjects, implied answers, and activities that require guessing intent. The labels must\nrepresent distinct, non-overlapping plausible answers. Return exactly PASS or SKIP.",
+    "{\"dialogue\": [\"a man stands in the middle of a road and a red truck is driving up\", \"What is the main color of the truck? red\", \"What is the main color of the truck? red\", \"What is the type of the red truck in the image? pickup\", \"What is the main color of the truck? red\", \"what is the other object in the image? traffic light\", \"what is the action of the man standing in the middle of the road? directing traffic\", \"what is the state of the traffic light being directed by the man? red\", \"what is the other object in the image? traffic light\"], \"slot\": {\"entity\": \"traffic light\", \"family\": \"color\", \"question\": \"What is the main color of the traffic light?\", \"values\": [\"red\", \"green\", \"yellow\"]}}",
+    10,
+    null
+  ],
+  "response": "SKIP"
+}

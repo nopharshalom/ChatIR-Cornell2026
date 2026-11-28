@@ -1,0 +1,281 @@
+{
+  "qid": 1466,
+  "target": "unlabeled2017/000000308779.jpg",
+  "arm": "unseen",
+  "first": 4,
+  "turns": [
+    {
+      "evidence": [
+        32557,
+        29765,
+        7885,
+        13883,
+        40660,
+        27522,
+        7678,
+        49543,
+        41464,
+        40132
+      ],
+      "candidates": [
+        "Question: How many motorcycles are in the group parked in the parking lot?",
+        "What color are the motorcycles in the group parked in the parking lot?",
+        "Question: What is the specific arrangement of the group of motorcycles in the parking lot?",
+        "Question: What is the color of the motorcycles in the group parked in the parking lot?",
+        "what is the specific arrangement of the motorcycles in the parking lot?"
+      ],
+      "default": "what is the specific arrangement of the motorcycles in the parking lot?",
+      "question": "what is the specific arrangement of the motorcycles in the parking lot?",
+      "answer": "The motorcycles are parked in a somewhat organized manner, with some lined up in rows and others more scattered.",
+      "rewrite": "a group of motorcycles parked in a parking lot, arranged in a somewhat organized manner with some lined up in rows and others scattered",
+      "review": null,
+      "shared_seconds": 10.932982542086393
+    },
+    {
+      "evidence": [
+        7885,
+        44473,
+        8007,
+        22387,
+        3456,
+        42105,
+        4225,
+        26388,
+        32557,
+        36654
+      ],
+      "candidates": [
+        "what type of motorcycles are parked in the lot?",
+        "what is the specific type of motorcycles that are parked in the lot?",
+        "Question: Are the motorcycles in the parking lot parked on a paved surface or on grass?",
+        "Question: Is there a building visible near the parked motorcycles?",
+        "Question: Are there people standing near the parked motorcycles?"
+      ],
+      "default": "what type of motorcycles are parked in the lot?",
+      "question": "what type of motorcycles are parked in the lot?",
+      "answer": "motorcycles",
+      "rewrite": "a group of motorcycles parked in a parking lot in a somewhat organized manner, with some lined up in rows and others more scattered",
+      "review": null,
+      "shared_seconds": 7.94786825007759
+    },
+    {
+      "evidence": [
+        47818,
+        36654,
+        12322,
+        12323,
+        26388,
+        32939,
+        27189,
+        40660,
+        29501,
+        38904
+      ],
+      "candidates": [
+        "what is the color of one of the motorcycles parked in the lot?",
+        "what is the color of the motorcycle in the group?",
+        "what is the color of the motorcycle mentioned in the group?",
+        "what is the color of the blue motorcycle in the group?",
+        "What is the color of the motorcycle in the group?"
+      ],
+      "default": "what is the color of the motorcycle in the group?",
+      "question": "what is the color of the motorcycle in the group?",
+      "answer": "black",
+      "rewrite": "a group of black motorcycles parked in a parking lot, arranged in a somewhat organized manner with some lined up in rows and others scattered",
+      "review": null,
+      "shared_seconds": 7.823896875139326
+    },
+    {
+      "evidence": [
+        36654,
+        10023,
+        32188,
+        12323,
+        38768,
+        40660,
+        27522,
+        26388,
+        41917,
+        44608
+      ],
+      "candidates": [
+        "what is the specific location where the group of black motorcycles is parked?",
+        "Where exactly within the parking lot are the motorcycles parked?",
+        "what is the color of the motorcycle that is blue in the group of parked motorcycles?",
+        "what is the specific type of surface or ground cover where the black motorcycles are parked?",
+        "what is the background object visible behind the black motorcycles?"
+      ],
+      "default": "Where exactly within the parking lot are the motorcycles parked?",
+      "question": "Where exactly within the parking lot are the motorcycles parked?",
+      "answer": "They are parked in a parking lot on a mountain top.",
+      "rewrite": "a group of black motorcycles parked in a somewhat organized, row-like formation on a mountain top parking lot",
+      "review": null,
+      "shared_seconds": 12.87040491704829
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a group of motorcycles parked in a parking lot",
+      "raw_rank": 67,
+      "filtered_rank": 67,
+      "rank": 67,
+      "ordinary_screen": [
+        32612,
+        25630,
+        16388,
+        38493,
+        25127,
+        41709,
+        24848,
+        8009,
+        30642,
+        43543
+      ],
+      "display": [
+        32612,
+        25630,
+        16388,
+        38493,
+        25127,
+        41709,
+        24848,
+        8009,
+        30642,
+        43543
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a group of motorcycles parked in a parking lot, arranged in a somewhat organized manner with some lined up in rows and others scattered",
+      "raw_rank": 27,
+      "filtered_rank": 18,
+      "rank": 18,
+      "ordinary_screen": [
+        7678,
+        27513,
+        13207,
+        29479,
+        21584,
+        40212,
+        49346,
+        25396,
+        40132,
+        38475
+      ],
+      "display": [
+        7678,
+        27513,
+        13207,
+        29479,
+        21584,
+        40212,
+        49346,
+        25396,
+        40132,
+        38475
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "a group of motorcycles parked in a parking lot in a somewhat organized manner, with some lined up in rows and others more scattered",
+      "raw_rank": 35,
+      "filtered_rank": 15,
+      "rank": 15,
+      "ordinary_screen": [
+        7885,
+        44473,
+        22387,
+        8007,
+        42105,
+        32557,
+        3456,
+        27056,
+        4225,
+        15370
+      ],
+      "display": [
+        7885,
+        44473,
+        22387,
+        8007,
+        42105,
+        32557,
+        3456,
+        27056,
+        4225,
+        15370
+      ],
+      "check": {}
+    },
+    {
+      "round": 3,
+      "query": "a group of black motorcycles parked in a parking lot, arranged in a somewhat organized manner with some lined up in rows and others scattered",
+      "raw_rank": 47,
+      "filtered_rank": 18,
+      "rank": 18,
+      "ordinary_screen": [
+        29501,
+        47818,
+        12956,
+        46658,
+        15096,
+        41464,
+        27235,
+        29585,
+        15247,
+        33704
+      ],
+      "display": [
+        29501,
+        47818,
+        12956,
+        46658,
+        15096,
+        41464,
+        27235,
+        29585,
+        15247,
+        33704
+      ],
+      "check": {}
+    },
+    {
+      "round": 4,
+      "query": "a group of black motorcycles parked in a somewhat organized, row-like formation on a mountain top parking lot",
+      "raw_rank": 1,
+      "filtered_rank": 1,
+      "rank": 1,
+      "ordinary_screen": [
+        26388,
+        43379,
+        44241,
+        48071,
+        2393,
+        19206,
+        48732,
+        21539,
+        10704,
+        22751
+      ],
+      "display": [
+        26388,
+        43379,
+        44241,
+        48071,
+        2393,
+        19206,
+        48732,
+        21539,
+        10704,
+        22751
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 39.5751525843516,
+  "live": true,
+  "seconds": 39.71531066694297
+}

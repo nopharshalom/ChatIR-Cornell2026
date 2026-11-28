@@ -1,0 +1,23 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    [
+      44820,
+      22853,
+      39229,
+      34701,
+      37628,
+      23911,
+      3770,
+      38513,
+      1848,
+      42038
+    ],
+    "Question: What is the color of the building in the background of the image with two white street signs on a pole?",
+    "Answer the question separately for each numbered photo. Give the dominant basic color of the item asked about. Choose one of black, white, gray, red, orange, yellow, green, blue, purple, pink, brown, or unknown if absent or uncertain. Return a JSON object with exactly one answer for each printed tile ID. The top row is 0,1,2,3,4 and the bottom row is 5,6,7,8,9. Use these ten ID strings as keys, including \"0\" and \"9\".",
+    180
+  ],
+  "raw": "```\n<ref>building</ref><box>[[810, 619, 1000, 950]]</box>\n```\n{'0': 'unknown', '1': 'brown', '2': 'yellow', '3': 'brown', '4': 'red', '5': 'gray', '6': 'white', '7': 'brown', '8': 'brown', '9': 'brown'}",
+  "answers": null,
+  "seconds": 3.132910167099908
+}

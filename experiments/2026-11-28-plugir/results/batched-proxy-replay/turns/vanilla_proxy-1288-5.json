@@ -1,0 +1,91 @@
+{
+  "key": "vanilla_proxy-1288-5",
+  "arm": "vanilla_proxy",
+  "original": "what is the number of giraffes visible in the image?",
+  "incumbent": "what is the number of giraffes visible in the image?",
+  "batch": {
+    "choice": "what is the number of giraffes visible in the image?",
+    "scores": {
+      "what is the number of giraffes visible in the image?": 4,
+      "what is the color of the hat worn by the person feeding the giraffes?": 1,
+      "what is the material of the pole the giraffes are standing on?": 3,
+      "what is the color of the giraffe bending over to kiss another giraffe's neck?": 0,
+      "Question: What is the color of the hat worn by the person feeding the giraffes?": 1
+    },
+    "answers": [
+      [
+        "2",
+        "3",
+        "2",
+        "2",
+        "4",
+        "2",
+        "2",
+        "3",
+        "2",
+        "5"
+      ],
+      [
+        "unsure",
+        "unsure",
+        "blue",
+        "unsure",
+        "unsure",
+        "unsure",
+        "no hat",
+        "unsure",
+        "unsure",
+        "white"
+      ],
+      [
+        "metal",
+        "wood",
+        "metal",
+        "metal",
+        "metal",
+        "wood",
+        "metal",
+        "metal",
+        "unsure",
+        "metal"
+      ],
+      [
+        "brown and white",
+        "brown",
+        "brown",
+        "brown",
+        "brown and white",
+        "brown and white",
+        "brown",
+        "brown",
+        "brown",
+        "brown"
+      ],
+      [
+        "unsure",
+        "unsure",
+        "blue",
+        "unsure",
+        "unsure",
+        "unsure",
+        "I'm sorry, but the image does not show a person feeding the giraffes, so I cannot answer the question.",
+        "unsure",
+        "unsure",
+        "white"
+      ]
+    ],
+    "invalid_batches": [
+      {
+        "image": 4644,
+        "raw": "```json\n{\n  \"1\": \"2\",\n  \"2\": \"unsure\",\n  \"3\": \"metal\",\n  \"4\": \"unsure\"\n}\n```"
+      },
+      {
+        "image": 7216,
+        "raw": "```json\n{\n  \"1\": \"2\",\n  \"2\": \"unsure\",\n  \"3\": \"metal\",\n  \"4\": \"unsure\"\n}\n```"
+      }
+    ],
+    "visual_calls": 20,
+    "total_calls": 37,
+    "seconds": 34.147632957901806
+  }
+}

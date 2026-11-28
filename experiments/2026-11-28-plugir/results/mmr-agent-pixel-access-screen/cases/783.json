@@ -1,0 +1,40 @@
+{
+  "plan_raw": "{\n\"choice\": 4,\n\"check\": \"topping verification\",\n\"photos\": [0, 5]\n}",
+  "provisional": 4,
+  "valid_plan": true,
+  "caption": {
+    "choice": 4,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "The image shows a pizza with white sauce and visible toppings, confirming the topping verification."
+      },
+      {
+        "index": 5,
+        "observation": "The caption does not describe any specific toppings, so topping verification is unknown."
+      }
+    ],
+    "raw": "{\n\"choice\": 4\n}"
+  },
+  "pixels": {
+    "choice": 4,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "The pizza has visible toppings, including what appears to be ham and possibly mushrooms or sausage, confirming the presence of toppings."
+      },
+      {
+        "index": 5,
+        "observation": "unknown"
+      }
+    ],
+    "raw": "{\n\"choice\": 4\n}"
+  },
+  "qid": 783,
+  "example_ids": [
+    1754,
+    102
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "qid": 143,
+  "selection": {
+    "kl": "Question: What specific types of food items are present on the buffet table?",
+    "probe": "Question: What specific types of food items are present on the buffet table?",
+    "candidates": [
+      {
+        "question": "Question: What is the gender of the person arranging the food on the table?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "Question: What is the location where the buffet table filled with a variety of food and drink is situated?",
+        "score": 8,
+        "branches": [
+          {
+            "answer": "a restaurant",
+            "caption": "a buffet table filled with a variety of food and drink in a restaurant",
+            "top10": [
+              13730,
+              6264,
+              19447,
+              25430,
+              30937,
+              36151,
+              42662,
+              12917,
+              14068,
+              1107
+            ]
+          },
+          {
+            "answer": "a dining room",
+            "caption": "a buffet table filled with a variety of food and drink in a dining room",
+            "top10": [
+              13730,
+              6264,
+              42662,
+              19447,
+              41550,
+              18330,
+              37515,
+              14068,
+              25619,
+              10631
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: What is the surface material of the table holding the food?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "Question: What specific types of food items are present on the buffet table?",
+        "score": 8,
+        "branches": [
+          {
+            "answer": "pastries and a variety of breads",
+            "caption": "a breakfast buffet containing pastries and a variety of breads",
+            "top10": [
+              30937,
+              29266,
+              1107,
+              13128,
+              46295,
+              36336,
+              19238,
+              19447,
+              37084,
+              41550
+            ]
+          },
+          {
+            "answer": "dishes and juices",
+            "caption": "a long table is filled with a large array of dishes and juices",
+            "top10": [
+              36151,
+              45012,
+              42662,
+              6264,
+              12156,
+              21547,
+              6257,
+              1879,
+              10631,
+              36905
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "outcomes": {
+    "Question: What is the gender of the person arranging the food on the table?": {
+      "answer": "unsure",
+      "rewrite": "a buffet table filled with a variety of food and drink, with an unknown gender person arranging the items",
+      "rank": 55
+    },
+    "Question: What is the location where the buffet table filled with a variety of food and drink is situated?": {
+      "answer": "dining room",
+      "rewrite": "a buffet table filled with a variety of food and drink situated in a dining room",
+      "rank": 12
+    },
+    "Question: What is the surface material of the table holding the food?": {
+      "answer": "wood",
+      "rewrite": "a wooden buffet table filled with a variety of food and drink",
+      "rank": 7
+    },
+    "Question: What specific types of food items are present on the buffet table?": {
+      "answer": "Burgers, hot dogs, and various side dishes.",
+      "rewrite": "a buffet table filled with burgers, hot dogs, and various side dishes",
+      "rank": 1
+    }
+  },
+  "saved_kl_rank": 1
+}

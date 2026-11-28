@@ -1,0 +1,194 @@
+{
+  "qid": 2057,
+  "selection": {
+    "kl": "what is the arrangement of the two street signs in the image?",
+    "probe": "what is the color of the street signs in the image?",
+    "candidates": [
+      {
+        "question": "what is the color of the street signs in the image?",
+        "score": 7,
+        "branches": [
+          {
+            "answer": "white",
+            "caption": "a close up of 2 white street signs with buildings in the background",
+            "top10": [
+              34701,
+              39229,
+              10357,
+              39692,
+              41763,
+              34399,
+              20766,
+              44800,
+              23911,
+              21952
+            ]
+          },
+          {
+            "answer": "blue and brown",
+            "caption": "a close up of 2 street signs, one blue with a brown background, with buildings in the background",
+            "top10": [
+              42562,
+              21952,
+              43132,
+              43985,
+              31874,
+              12903,
+              13969,
+              10013,
+              28052,
+              2881
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what are the colors of the two street signs and what is the color of the building in the background?",
+        "score": 4,
+        "branches": [
+          {
+            "answer": "white and blue",
+            "caption": "a white and blue street sign on a pole in front of a tall building",
+            "top10": [
+              20369,
+              5253,
+              42562,
+              21952,
+              15850,
+              11277,
+              44053,
+              1606,
+              4009,
+              16022
+            ]
+          },
+          {
+            "answer": "white and green",
+            "caption": "a white and green street sign on a pole in front of a tall building",
+            "top10": [
+              39229,
+              34701,
+              33665,
+              44097,
+              3497,
+              1237,
+              49224,
+              4429,
+              14526,
+              20764
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the arrangement of the two street signs in the image?",
+        "score": 6,
+        "branches": [
+          {
+            "answer": "one above the other",
+            "caption": "a building with two street signs on top of each other",
+            "top10": [
+              34153,
+              38513,
+              3833,
+              37688,
+              6628,
+              39229,
+              47689,
+              41622,
+              34701,
+              18778
+            ]
+          },
+          {
+            "answer": "side by side",
+            "caption": "two street signs are on a pole in front of a tall building",
+            "top10": [
+              20766,
+              34701,
+              39229,
+              27737,
+              10013,
+              32888,
+              21952,
+              10549,
+              1237,
+              33665
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the color of the buildings in the background?",
+        "score": 2,
+        "branches": [
+          {
+            "answer": "green",
+            "caption": "a close up of 2 street signs with a green building in the background",
+            "top10": [
+              39229,
+              34701,
+              38513,
+              33806,
+              44097,
+              19628,
+              3258,
+              37863,
+              1696,
+              46274
+            ]
+          },
+          {
+            "answer": "brick",
+            "caption": "a close up of 2 street signs with a brick building in the background",
+            "top10": [
+              38513,
+              3258,
+              42038,
+              23777,
+              19628,
+              34701,
+              39229,
+              44097,
+              1696,
+              6628
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the color of the sky in the image?",
+        "score": null,
+        "branches": []
+      }
+    ]
+  },
+  "outcomes": {
+    "what is the color of the street signs in the image?": {
+      "answer": "white",
+      "rewrite": "a close up of two white street signs with buildings in the background",
+      "rank": 36
+    },
+    "what are the colors of the two street signs and what is the color of the building in the background?": {
+      "answer": "The two street signs are black and white, and the building in the background is white.",
+      "rewrite": "a close up of two black and white street signs with a white building in the background",
+      "rank": 141
+    },
+    "what is the arrangement of the two street signs in the image?": {
+      "answer": "the two street signs are arranged vertically, with one sign positioned directly above the other on the same pole.",
+      "rewrite": "a vertical arrangement of two street signs on the same pole with buildings in the background",
+      "rank": 124
+    },
+    "what is the color of the buildings in the background?": {
+      "answer": "white",
+      "rewrite": "a close up of 2 street signs with white buildings in the background",
+      "rank": 65
+    },
+    "what is the color of the sky in the image?": {
+      "answer": "blue",
+      "rewrite": "a close up of 2 street signs with buildings in the background and a blue sky",
+      "rank": 85
+    }
+  },
+  "saved_kl_rank": 124
+}

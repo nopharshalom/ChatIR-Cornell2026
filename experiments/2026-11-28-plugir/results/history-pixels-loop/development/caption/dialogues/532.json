@@ -1,0 +1,222 @@
+{
+  "qid": 532,
+  "target": "unlabeled2017/000000434734.jpg",
+  "arm": "caption",
+  "first": 3,
+  "turns": [
+    {
+      "evidence": [
+        36866,
+        7567,
+        10419,
+        21639,
+        34244,
+        48813,
+        35649,
+        41945,
+        37537,
+        45323
+      ],
+      "candidates": [
+        "Question: What color is the uniform of the baseball player?",
+        "what is the action of the baseball player in the red and white uniform?",
+        "Question: What is the color of the baseball field?",
+        "what is the baseball player holding?",
+        "what is the baseball player doing with the bat?"
+      ],
+      "default": "what is the baseball player holding?",
+      "question": "what is the baseball player holding?",
+      "answer": "bat",
+      "rewrite": "a baseball player is on the mound holding a bat, ready to swing",
+      "review": null,
+      "shared_seconds": 8.371
+    },
+    {
+      "evidence": [
+        36866,
+        13690,
+        26036,
+        17574,
+        7567,
+        30935,
+        41807,
+        10419,
+        44313,
+        18652
+      ],
+      "candidates": [
+        "what is the baseball player's position on the field?",
+        "what is the baseball player wearing?",
+        "Question: What is the baseball player wearing?",
+        "what is the baseball player's position on the field?",
+        "what is the baseball player's position on the field?"
+      ],
+      "default": "what is the baseball player's position on the field?",
+      "question": "what is the baseball player's position on the field?",
+      "answer": "batter",
+      "rewrite": "a baseball batter holding a bat, ready to swing from the batter's box",
+      "review": null,
+      "shared_seconds": 10.05
+    },
+    {
+      "evidence": [
+        41807,
+        39374,
+        45035,
+        18034,
+        3965,
+        27701,
+        26036,
+        18652,
+        15690,
+        16982
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "What is the baseball player wearing?",
+        "what is the other object in the image?",
+        "what is the other object in the image?",
+        "what is the other object in the image?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "crowd",
+      "rewrite": "a baseball batter holding a bat stands ready to swing, with a crowd in the background",
+      "review": null,
+      "shared_seconds": 12.994
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a baseball player is on the mound ready to swing",
+      "raw_rank": 95,
+      "filtered_rank": 95,
+      "rank": 95,
+      "ordinary_screen": [
+        36866,
+        10419,
+        7567,
+        21639,
+        34244,
+        48813,
+        35649,
+        41945,
+        37537,
+        45323
+      ],
+      "display": [
+        36866,
+        10419,
+        7567,
+        21639,
+        34244,
+        48813,
+        35649,
+        41945,
+        37537,
+        45323
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a baseball player is on the mound holding a bat, ready to swing",
+      "raw_rank": 42,
+      "filtered_rank": 35,
+      "rank": 35,
+      "ordinary_screen": [
+        13690,
+        26036,
+        17574,
+        30935,
+        41807,
+        18652,
+        44313,
+        27908,
+        48541,
+        16982
+      ],
+      "display": [
+        13690,
+        26036,
+        17574,
+        30935,
+        41807,
+        18652,
+        44313,
+        27908,
+        48541,
+        16982
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "a baseball batter holding a bat, ready to swing from the batter's box",
+      "raw_rank": 25,
+      "filtered_rank": 18,
+      "rank": 18,
+      "ordinary_screen": [
+        39374,
+        45035,
+        18034,
+        3965,
+        27701,
+        15690,
+        999,
+        458,
+        45039,
+        20921
+      ],
+      "display": [
+        39374,
+        45035,
+        18034,
+        3965,
+        27701,
+        15690,
+        999,
+        458,
+        45039,
+        20921
+      ],
+      "check": {}
+    },
+    {
+      "round": 3,
+      "query": "a baseball batter holding a bat stands ready to swing, with a crowd in the background",
+      "raw_rank": 17,
+      "filtered_rank": 10,
+      "rank": 10,
+      "ordinary_screen": [
+        37293,
+        32626,
+        2838,
+        49559,
+        1438,
+        23260,
+        41604,
+        46112,
+        42969,
+        37255
+      ],
+      "display": [
+        37293,
+        32626,
+        2838,
+        49559,
+        1438,
+        23260,
+        41604,
+        46112,
+        42969,
+        37255
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 31.415,
+  "live": false,
+  "seconds": 0.05406091595068574
+}

@@ -1,0 +1,104 @@
+{
+  "qid": 1914,
+  "target": "unlabeled2017/000000479985.jpg",
+  "arm": "unseen",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        31597,
+        11600,
+        8640,
+        25217,
+        93,
+        40397,
+        19343,
+        43723,
+        25703,
+        34042
+      ],
+      "candidates": [
+        "what is the color of the shirt the man is wearing?",
+        "what type of racket is the man holding?",
+        "what is the color of the court where the man is playing tennis?",
+        "what is the type of trick the man is performing on the tennis racket?",
+        "what is the type of trick the man is performing on the tennis racket?"
+      ],
+      "default": "what is the type of trick the man is performing on the tennis racket?",
+      "question": "what is the type of trick the man is performing on the tennis racket?",
+      "answer": "backhand",
+      "rewrite": "a man performing a backhand with a professional tennis racket on clay courts",
+      "review": null,
+      "shared_seconds": 11.625875291181728
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a man playing professional tennis on clay courts",
+      "raw_rank": 41,
+      "filtered_rank": 41,
+      "rank": 41,
+      "ordinary_screen": [
+        27844,
+        4722,
+        16211,
+        40679,
+        46157,
+        17013,
+        18037,
+        13218,
+        43495,
+        28743
+      ],
+      "display": [
+        27844,
+        4722,
+        16211,
+        40679,
+        46157,
+        17013,
+        18037,
+        13218,
+        43495,
+        28743
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a man performing a backhand with a professional tennis racket on clay courts",
+      "raw_rank": 18,
+      "filtered_rank": 10,
+      "rank": 10,
+      "ordinary_screen": [
+        93,
+        43723,
+        39459,
+        8137,
+        16240,
+        14138,
+        44971,
+        19343,
+        11031,
+        41178
+      ],
+      "display": [
+        93,
+        43723,
+        39459,
+        8137,
+        16240,
+        14138,
+        44971,
+        19343,
+        11031,
+        41178
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 11.625875291181728,
+  "live": true,
+  "seconds": 11.664065374992788
+}

@@ -1,0 +1,10 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    "Classify the answer to the supplied question using ONLY the provided evidence.\nUse exactly one listed label, or unknown. Use unknown if evidence is missing, ambiguous,\nunreadable, contradictory, several labels apply, the subject cannot be identified, or the\nanswer falls outside the list. Never infer the answer from stereotypes or from what is typical.\nAn unmentioned object is not evidence of absence. Use 'nothing' only if explicitly supported. You see a single photo. Return a single label.",
+    "{\"allowed_labels\": [\"gray\", \"black\"], \"question\": \"What is the main color of the pole?\"}",
+    14,
+    "unlabeled2017/000000562186.jpg"
+  ],
+  "response": "gray"
+}

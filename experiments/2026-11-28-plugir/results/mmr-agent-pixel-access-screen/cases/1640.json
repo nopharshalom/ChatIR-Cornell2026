@@ -1,0 +1,40 @@
+{
+  "plan_raw": "{\n\"choice\": 2,\n\"check\": \"verify floor material to distinguish from wooden stove context\",\n\"photos\": [0, 9]\n}",
+  "provisional": 2,
+  "valid_plan": true,
+  "caption": {
+    "choice": 2,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "The caption does not specify the floor material, so it is unknown whether the floor is wood or a different material to distinguish it from a wooden stove context."
+      },
+      {
+        "index": 9,
+        "observation": "The floor material is wood, which aligns with the wooden stove context rather than distinguishing from it."
+      }
+    ],
+    "raw": "{\"choice\": 2}"
+  },
+  "pixels": {
+    "choice": 2,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "The floor is made of wood."
+      },
+      {
+        "index": 9,
+        "observation": "The floor is made of light-colored wood, consistent with the wooden stove context."
+      }
+    ],
+    "raw": "{\"choice\": 2}"
+  },
+  "qid": 1640,
+  "example_ids": [
+    663,
+    2014
+  ]
+}

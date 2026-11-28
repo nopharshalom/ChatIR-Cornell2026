@@ -1,0 +1,104 @@
+{
+  "qid": 1419,
+  "target": "unlabeled2017/000000475354.jpg",
+  "arm": "ordinary",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        46884,
+        32634,
+        3948,
+        23417,
+        26618,
+        47394,
+        9683,
+        15275,
+        31615,
+        17867
+      ],
+      "candidates": [
+        "Question: Is the man riding the snowboard on a snow-covered hill?",
+        "what is the other object in the image?",
+        "what is the color of the snowboard the man is riding in the air?",
+        "Question: what is the color of the snowboard the man is riding?",
+        "what is the color of the snow?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "mountains",
+      "rewrite": "a man is riding a snowboard high above the snow with mountains in the background",
+      "review": null,
+      "shared_seconds": 13.273
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a man is riding a snowboard and he is high above the snow",
+      "raw_rank": 41,
+      "filtered_rank": 41,
+      "rank": 41,
+      "ordinary_screen": [
+        46884,
+        32634,
+        3948,
+        23417,
+        26618,
+        47394,
+        9683,
+        15275,
+        31615,
+        17867
+      ],
+      "display": [
+        46884,
+        32634,
+        3948,
+        23417,
+        26618,
+        47394,
+        9683,
+        15275,
+        31615,
+        17867
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a man is riding a snowboard high above the snow with mountains in the background",
+      "raw_rank": 3,
+      "filtered_rank": 3,
+      "rank": 3,
+      "ordinary_screen": [
+        10294,
+        8946,
+        40772,
+        1293,
+        34257,
+        16377,
+        28204,
+        25398,
+        26914,
+        3526
+      ],
+      "display": [
+        10294,
+        8946,
+        40772,
+        1293,
+        34257,
+        16377,
+        28204,
+        25398,
+        26914,
+        3526
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 13.273,
+  "live": false,
+  "seconds": 0.024156125029549003
+}

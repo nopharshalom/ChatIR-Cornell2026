@@ -1,0 +1,163 @@
+{
+  "qid": 2003,
+  "target": "unlabeled2017/000000312031.jpg",
+  "arm": "contrast",
+  "first": 2,
+  "turns": [
+    {
+      "evidence": [
+        9496,
+        14373,
+        46591,
+        42727,
+        42304,
+        34457,
+        3713,
+        48432,
+        31070,
+        25374
+      ],
+      "candidates": [
+        "Question: Is the woman playing tennis on an outdoor court or indoors?",
+        "Question: What is the color of the ball the woman is holding?",
+        "Question: What color is the tennis racquet held by the woman?",
+        "Question: What is the woman doing with the ball?",
+        "Question: What is the color of the tennis racquet held by the woman?"
+      ],
+      "default": "Question: What is the woman doing with the ball?",
+      "question": "Question: What is the woman doing with the ball?",
+      "answer": "I'm sorry, but the image does not show a ball, so I cannot answer what the woman is doing with it.",
+      "rewrite": "a woman is standing on one foot with her arms out, holding a tennis racquet, with no ball visible",
+      "review": null,
+      "shared_seconds": 10.080890208948404
+    },
+    {
+      "evidence": [
+        3682,
+        9496,
+        46487,
+        25883,
+        48432,
+        23890,
+        3741,
+        37496,
+        31070,
+        25374
+      ],
+      "candidates": [
+        "what is the woman wearing?",
+        "what is the woman wearing on her head?",
+        "what is the surface or location where the woman is playing tennis?",
+        "what is the color of the woman's outfit?",
+        "what is the woman wearing on her feet?"
+      ],
+      "default": "what is the woman wearing?",
+      "question": "what is the woman wearing?",
+      "answer": "a blue and white tennis outfit",
+      "rewrite": "a woman in a blue and white tennis outfit is standing on one foot with her arms out, holding a tennis racquet",
+      "review": null,
+      "shared_seconds": 9.86254616593942
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "the woman is standing on 1 foot with her arms out holding a tennis racquet",
+      "raw_rank": 87,
+      "filtered_rank": 87,
+      "rank": 87,
+      "ordinary_screen": [
+        31070,
+        25374,
+        32923,
+        34568,
+        17182,
+        47945,
+        29177,
+        11666,
+        10916,
+        14007
+      ],
+      "display": [
+        31070,
+        25374,
+        32923,
+        34568,
+        17182,
+        47945,
+        29177,
+        11666,
+        10916,
+        14007
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a woman is standing on one foot with her arms out, holding a tennis racquet, with no ball visible",
+      "raw_rank": 80,
+      "filtered_rank": 70,
+      "rank": 70,
+      "ordinary_screen": [
+        9037,
+        42727,
+        26676,
+        14373,
+        9531,
+        34457,
+        3713,
+        18312,
+        31,
+        14948
+      ],
+      "display": [
+        9037,
+        42727,
+        26676,
+        14373,
+        9531,
+        34457,
+        3713,
+        18312,
+        31,
+        14948
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "a woman in a blue and white tennis outfit is standing on one foot with her arms out, holding a tennis racquet",
+      "raw_rank": 9,
+      "filtered_rank": 6,
+      "rank": 6,
+      "ordinary_screen": [
+        9496,
+        4920,
+        13677,
+        48432,
+        3682,
+        26692,
+        29429,
+        885,
+        19261,
+        633
+      ],
+      "display": [
+        9496,
+        4920,
+        13677,
+        48432,
+        3682,
+        26692,
+        29429,
+        885,
+        19261,
+        633
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 19.943436374887824,
+  "live": true,
+  "seconds": 20.02584504103288
+}

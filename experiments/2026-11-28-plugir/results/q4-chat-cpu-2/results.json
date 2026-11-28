@@ -1,0 +1,630 @@
+{
+  "742-cap": {
+    "query": "A man is flying a pink kite on the beach. The person is standing on a beach. The kite is a kite flying in the air relative to the man. Also on the beach is a person. Beyond the beach is a blue sky.",
+    "name": "unlabeled2017/000000160418.jpg",
+    "ranks": [
+      34,
+      110,
+      105,
+      110,
+      101,
+      71,
+      69,
+      66,
+      9
+    ],
+    "turns": [
+      {
+        "question": "What is the person standing on?",
+        "answer": "a beach",
+        "rank": 71,
+        "options": [
+          [
+            "How many people are on the beach?",
+            "There are {} people on the beach"
+          ],
+          [
+            "What is behind the person flying the kite?",
+            "Behind the kite flyer is {}"
+          ],
+          [
+            "What is the man doing with his arms?",
+            "His arms are {}"
+          ],
+          [
+            "What is the person standing on?",
+            "The person is standing on {}"
+          ],
+          [
+            "Where is the kite relative to the man?",
+            "The kite is {} relative to the man"
+          ]
+        ]
+      },
+      {
+        "question": "Where is the kite relative to the man?",
+        "answer": "a kite flying in the air",
+        "rank": 69,
+        "options": [
+          [
+            "How many people can be seen on the beach?",
+            "The number of people visible is {}"
+          ],
+          [
+            "What is behind the kite flyer?",
+            "Behind the kite flyer is {}"
+          ],
+          [
+            "What is the man doing with his arms?",
+            "His arms are {}"
+          ],
+          [
+            "What is in the distance?",
+            "In the distance is {}"
+          ],
+          [
+            "Where is the kite relative to the man?",
+            "The kite is {} relative to the man"
+          ]
+        ]
+      },
+      {
+        "question": "What else is on the beach?",
+        "answer": "a person",
+        "rank": 66,
+        "options": [
+          [
+            "How many people are visible?",
+            "There are {} people visible"
+          ],
+          [
+            "What is the person wearing?",
+            "The person is wearing {}"
+          ],
+          [
+            "What is in the distance behind the man?",
+            "Behind the man is {}"
+          ],
+          [
+            "What is the person doing with his arms?",
+            "His arms are {}"
+          ],
+          [
+            "What else is on the beach?",
+            "Also on the beach is {}"
+          ]
+        ]
+      },
+      {
+        "question": "What is behind the beach?",
+        "answer": "a blue sky",
+        "rank": 9,
+        "options": [
+          [
+            "What is the man wearing?",
+            "The man wears {}"
+          ],
+          [
+            "What is the man's pose?",
+            "His pose is {}"
+          ],
+          [
+            "How many kite flyers are visible?",
+            "Number of kite flyers: {}"
+          ],
+          [
+            "What is behind the beach?",
+            "Beyond the beach is {}"
+          ],
+          [
+            "What is the man holding in his hands?",
+            "The man holds {}"
+          ]
+        ]
+      }
+    ],
+    "prior": [
+      [
+        "what is the other object in the image?",
+        "a pink kite"
+      ],
+      [
+        "what is the other object in the image?",
+        "a pink kite"
+      ],
+      [
+        "what is the other object in the image?",
+        "a pink kite"
+      ],
+      [
+        "what is the other object in the image?",
+        "a pink kite"
+      ]
+    ]
+  },
+  "742-img": {
+    "query": "A man is flying a pink kite on the beach. The kite is a kite. Sky color: blue. The man faces the north. Other kite colors: blue. The man's posture is he is standing on the beach. Kite tail visible: yes.",
+    "name": "unlabeled2017/000000160418.jpg",
+    "ranks": [
+      34,
+      110,
+      105,
+      110,
+      101,
+      112,
+      63,
+      60,
+      36,
+      32,
+      37
+    ],
+    "turns": [
+      {
+        "question": "What shape is the kite?",
+        "answer": "a kite",
+        "rank": 112,
+        "options": [
+          [
+            "What color shirt is the man wearing?",
+            "The man wears a {} shirt"
+          ],
+          [
+            "What color is the sky?",
+            "The sky is {}"
+          ],
+          [
+            "Which direction is the man facing?",
+            "The man faces {}"
+          ],
+          [
+            "What shape is the kite?",
+            "The kite is {}"
+          ],
+          [
+            "What color are the man's pants?",
+            "The man's pants are {}"
+          ]
+        ]
+      },
+      {
+        "question": "What color is the sky?",
+        "answer": "blue",
+        "rank": 63,
+        "options": [
+          [
+            "What color shirt is the man wearing?",
+            "Shirt color: {}"
+          ],
+          [
+            "Are the man's arms raised or down?",
+            "His arms are {}"
+          ],
+          [
+            "What color is the sky?",
+            "Sky color: {}"
+          ],
+          [
+            "What is the beach surface like?",
+            "The beach surface is {}"
+          ],
+          [
+            "Is the kite above the man or beside him?",
+            "The kite is {} the man"
+          ]
+        ]
+      },
+      {
+        "question": "Which direction is the man facing?",
+        "answer": "the north",
+        "rank": 60,
+        "options": [
+          [
+            "What color is the man's shirt?",
+            "His shirt color is {}"
+          ],
+          [
+            "Does the kite have a tail?",
+            "Visible kite tail: {}"
+          ],
+          [
+            "Which direction is the man facing?",
+            "The man faces {}"
+          ],
+          [
+            "What color are the man's trousers?",
+            "Trouser color: {}"
+          ],
+          [
+            "What is visible on the horizon?",
+            "On the horizon is {}"
+          ]
+        ]
+      },
+      {
+        "question": "What colors besides pink appear on the kite?",
+        "answer": "blue",
+        "rank": 36,
+        "options": [
+          [
+            "What color top is the kite flyer wearing?",
+            "The kite flyer's top is {}"
+          ],
+          [
+            "What is immediately underneath the man's feet?",
+            "Under his feet is {}"
+          ],
+          [
+            "Does the man have long sleeves or short sleeves?",
+            "Sleeves: {}"
+          ],
+          [
+            "Are there clouds visible in the sky?",
+            "Clouds in the sky: {}"
+          ],
+          [
+            "What colors besides pink appear on the kite?",
+            "Other kite colors: {}"
+          ]
+        ]
+      },
+      {
+        "question": "What is the man's posture?",
+        "answer": "he is standing on the beach",
+        "rank": 32,
+        "options": [
+          [
+            "What color is the man's shirt?",
+            "The man wears a shirt colored {}"
+          ],
+          [
+            "What is the man's posture?",
+            "The man's posture is {}"
+          ],
+          [
+            "Does the kite have a long tail?",
+            "Tail visible: {}"
+          ],
+          [
+            "What is the man wearing on his legs?",
+            "On his legs he wears {}"
+          ],
+          [
+            "What is on the ground around his feet?",
+            "Around his feet is {}"
+          ]
+        ]
+      },
+      {
+        "question": "Does the kite have a tail?",
+        "answer": "yes",
+        "rank": 37,
+        "options": [
+          [
+            "What color shirt is the kite flyer wearing?",
+            "The flyer's shirt is {}"
+          ],
+          [
+            "What color pants does the kite flyer wear?",
+            "He wears {} pants"
+          ],
+          [
+            "How many people are visible?",
+            "Number of people visible: {}"
+          ],
+          [
+            "Is the ocean visible behind the man?",
+            "Ocean visible: {}"
+          ],
+          [
+            "Does the kite have a tail?",
+            "Kite tail visible: {}"
+          ]
+        ]
+      }
+    ],
+    "prior": [
+      [
+        "what is the other object in the image?",
+        "a pink kite"
+      ],
+      [
+        "what is the other object in the image?",
+        "a pink kite"
+      ],
+      [
+        "what is the other object in the image?",
+        "a pink kite"
+      ],
+      [
+        "what is the other object in the image?",
+        "a pink kite"
+      ]
+    ]
+  },
+  "1071-cap": {
+    "query": "two women wearing orange sweaters cooking together on a stove in a retro kitchen. They are in a a kitchen kitchen. They are standing next to a woman is standing next to a man.",
+    "name": "unlabeled2017/000000374207.jpg",
+    "ranks": [
+      111,
+      158,
+      233,
+      105,
+      117,
+      86,
+      10
+    ],
+    "turns": [
+      {
+        "question": "What sort of kitchen are they in?",
+        "answer": "a kitchen",
+        "rank": 86,
+        "options": [
+          [
+            "What food are the women preparing?",
+            "They are preparing {}"
+          ],
+          [
+            "What are the women holding in their hands?",
+            "In their hands they hold {}"
+          ],
+          [
+            "What appliance is beside the women?",
+            "Beside them is {}"
+          ],
+          [
+            "Are the women standing or sitting?",
+            "The women are {}"
+          ],
+          [
+            "What sort of kitchen are they in?",
+            "They are in a {} kitchen"
+          ]
+        ]
+      },
+      {
+        "question": "What are the women standing next to?",
+        "answer": "a woman is standing next to a man",
+        "rank": 10,
+        "options": [
+          [
+            "What food are the women preparing?",
+            "They are preparing {}"
+          ],
+          [
+            "What are the women holding in their hands?",
+            "They hold {}"
+          ],
+          [
+            "What kitchen appliance can be seen behind them?",
+            "Behind them is {}"
+          ],
+          [
+            "What color is the refrigerator?",
+            "Refrigerator color: {}"
+          ],
+          [
+            "What are the women standing next to?",
+            "They are standing next to {}"
+          ]
+        ]
+      }
+    ],
+    "prior": [
+      [
+        "what are the two women cooking with?",
+        "a stove"
+      ],
+      [
+        "what is the time period or setting of the kitchen where the two women are cooking?",
+        "retro"
+      ],
+      [
+        "what color is the sweater worn by one of the two women cooking in the retro kitchen?",
+        "orange"
+      ],
+      [
+        "What color is the sweater worn by the other woman cooking in the retro kitchen?",
+        "orange"
+      ]
+    ]
+  },
+  "1071-img": {
+    "query": "two women wearing orange sweaters cooking together on a stove in a retro kitchen. On the stovetop is a pot of water on the stovetop. Stove color: white. Burner type: a stove. Beside the stove is a man is standing on the counter beside the stove. The countertop is white. Wall color: white.",
+    "name": "unlabeled2017/000000374207.jpg",
+    "ranks": [
+      111,
+      158,
+      233,
+      105,
+      117,
+      75,
+      138,
+      166,
+      29,
+      34,
+      47
+    ],
+    "turns": [
+      {
+        "question": "What is on the stovetop?",
+        "answer": "a pot of water on the stovetop",
+        "rank": 75,
+        "options": [
+          [
+            "What color are the kitchen cabinets?",
+            "The kitchen cabinets are {}"
+          ],
+          [
+            "What color is the stove?",
+            "The stove is {}"
+          ],
+          [
+            "What are the women holding?",
+            "They hold {}"
+          ],
+          [
+            "Is the photograph in color or black and white?",
+            "The photograph is {}"
+          ],
+          [
+            "What is on the stovetop?",
+            "On the stovetop is {}"
+          ]
+        ]
+      },
+      {
+        "question": "What color is the stove?",
+        "answer": "white",
+        "rank": 138,
+        "options": [
+          [
+            "What color is the stove?",
+            "Stove color: {}"
+          ],
+          [
+            "What color are the kitchen cabinets?",
+            "Cabinet color: {}"
+          ],
+          [
+            "Which way are the women facing?",
+            "They are facing {}"
+          ],
+          [
+            "What are the women holding?",
+            "They hold {}"
+          ],
+          [
+            "How is the photo framed around the women?",
+            "The view shows {}"
+          ]
+        ]
+      },
+      {
+        "question": "What kind of stove burners are visible?",
+        "answer": "a stove",
+        "rank": 166,
+        "options": [
+          [
+            "What color are the cupboards?",
+            "Cupboard color: {}"
+          ],
+          [
+            "What utensil is one of the women holding?",
+            "One woman holds {}"
+          ],
+          [
+            "What appliance is directly above the stove?",
+            "Above the stove is {}"
+          ],
+          [
+            "What is one woman doing with her hands?",
+            "One woman is {}"
+          ],
+          [
+            "What kind of stove burners are visible?",
+            "Burner type: {}"
+          ]
+        ]
+      },
+      {
+        "question": "What is on the counter beside the stove?",
+        "answer": "a man is standing on the counter beside the stove",
+        "rank": 29,
+        "options": [
+          [
+            "What are the women doing with their hands?",
+            "Their hands are {}"
+          ],
+          [
+            "What is mounted above the stove?",
+            "Mounted above the stove is {}"
+          ],
+          [
+            "What color are the cabinets?",
+            "Cabinet color: {}"
+          ],
+          [
+            "What is hanging on the oven door?",
+            "Hanging on the oven door is {}"
+          ],
+          [
+            "What is on the counter beside the stove?",
+            "Beside the stove is {}"
+          ]
+        ]
+      },
+      {
+        "question": "What color is the countertop?",
+        "answer": "white",
+        "rank": 34,
+        "options": [
+          [
+            "What is the color of the kitchen cabinets?",
+            "The cabinets are {}"
+          ],
+          [
+            "What do the women have in their hands?",
+            "In their hands are {}"
+          ],
+          [
+            "What is on the wall above the stove?",
+            "Above the stove is {}"
+          ],
+          [
+            "What color is the countertop?",
+            "The countertop is {}"
+          ],
+          [
+            "Is the kitchen window open or closed?",
+            "The kitchen window is {}"
+          ]
+        ]
+      },
+      {
+        "question": "What color are the kitchen walls?",
+        "answer": "white",
+        "rank": 47,
+        "options": [
+          [
+            "What color are the cabinets?",
+            "The cabinets are {}"
+          ],
+          [
+            "What appliance is above the stove?",
+            "Above the stove is {}"
+          ],
+          [
+            "What cooking tool does one woman hold?",
+            "One woman holds {}"
+          ],
+          [
+            "How are the women's heads positioned relative to the camera?",
+            "Their heads face {}"
+          ],
+          [
+            "What color are the kitchen walls?",
+            "Wall color: {}"
+          ]
+        ]
+      }
+    ],
+    "prior": [
+      [
+        "what are the two women cooking with?",
+        "a stove"
+      ],
+      [
+        "what is the time period or setting of the kitchen where the two women are cooking?",
+        "retro"
+      ],
+      [
+        "what color is the sweater worn by one of the two women cooking in the retro kitchen?",
+        "orange"
+      ],
+      [
+        "What color is the sweater worn by the other woman cooking in the retro kitchen?",
+        "orange"
+      ]
+    ]
+  }
+}

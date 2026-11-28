@@ -1,0 +1,104 @@
+{
+  "qid": 176,
+  "target": "unlabeled2017/000000538790.jpg",
+  "arm": "unseen",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        23942,
+        5718,
+        397,
+        46329,
+        19260,
+        18139,
+        5493,
+        49587,
+        29952,
+        24480
+      ],
+      "candidates": [
+        "what is the color of the sky in the image where kites are flying over the sand by the ocean shore?",
+        "what is the color of the sky in the image where kites are flying over the sand by the ocean shore?",
+        "what is the color of the sky in the image where kites are flying over the sand by the ocean shore?",
+        "what is the color of the sky in the image where two kites are flying?",
+        "what is the color of the sky in the image where two kites are flying?"
+      ],
+      "default": "what is the color of the sky in the image where two kites are flying?",
+      "question": "what is the color of the sky in the image where two kites are flying?",
+      "answer": "blue",
+      "rewrite": "two kites flying over the sand by the ocean shore under a blue sky",
+      "review": null,
+      "shared_seconds": 9.029739916091785
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "2 kites flying over the sand by the ocean shore",
+      "raw_rank": 13,
+      "filtered_rank": 13,
+      "rank": 13,
+      "ordinary_screen": [
+        3698,
+        43869,
+        34732,
+        7120,
+        19556,
+        27782,
+        17329,
+        13169,
+        45031,
+        16730
+      ],
+      "display": [
+        3698,
+        43869,
+        34732,
+        7120,
+        19556,
+        27782,
+        17329,
+        13169,
+        45031,
+        16730
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "two kites flying over the sand by the ocean shore under a blue sky",
+      "raw_rank": 9,
+      "filtered_rank": 2,
+      "rank": 2,
+      "ordinary_screen": [
+        5718,
+        46329,
+        24274,
+        397,
+        13478,
+        29952,
+        14960,
+        41977,
+        18139,
+        5493
+      ],
+      "display": [
+        5718,
+        46329,
+        24274,
+        397,
+        13478,
+        29952,
+        14960,
+        41977,
+        18139,
+        5493
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 9.029739916091785,
+  "live": true,
+  "seconds": 9.068917041877285
+}

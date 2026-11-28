@@ -1,0 +1,40 @@
+{
+  "plan_raw": "{\n\"choice\": 1,\n\"check\": \"spatial relationship verification\",\n\"photos\": [0, 2]\n}",
+  "provisional": 1,
+  "valid_plan": true,
+  "caption": {
+    "choice": 1,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "The soldier is positioned adjacent to and walking alongside the large container truck."
+      },
+      {
+        "index": 2,
+        "observation": "The person is positioned behind the tow truck."
+      }
+    ],
+    "raw": "{\"choice\": 1}"
+  },
+  "pixels": {
+    "choice": 1,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "The soldier is positioned adjacent to the large container truck, confirming the spatial relationship described in the caption."
+      },
+      {
+        "index": 2,
+        "observation": "The person is positioned behind the tow truck."
+      }
+    ],
+    "raw": "{\"choice\": 1}"
+  },
+  "qid": 1579,
+  "example_ids": [
+    780,
+    1392
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "qid": 742,
+  "target": "unlabeled2017/000000160418.jpg",
+  "arm": "unseen",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        5213,
+        28919,
+        14572,
+        49212,
+        37283,
+        28201,
+        42817,
+        26328,
+        43014,
+        12762
+      ],
+      "candidates": [
+        "what is the color of the kite being flown by the man on the beach?",
+        "what is the color of the kite being flown by the man on the beach?",
+        "what is the sand like at the beach where the man is flying the kite?",
+        "what is the other object in the image?",
+        "what is the gender of the person flying the kite on the beach?"
+      ],
+      "default": "what is the sand like at the beach where the man is flying the kite?",
+      "question": "what is the sand like at the beach where the man is flying the kite?",
+      "answer": "the sand is wet and dark, likely due to low tide.",
+      "rewrite": "a man flying a kite on wet, dark sand at the beach",
+      "review": null,
+      "shared_seconds": 14.321260332828388
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a man flying a kite on the sand at the beach",
+      "raw_rank": 34,
+      "filtered_rank": 34,
+      "rank": 34,
+      "ordinary_screen": [
+        5526,
+        30539,
+        19790,
+        14415,
+        35956,
+        40417,
+        2844,
+        47194,
+        7888,
+        4183
+      ],
+      "display": [
+        5526,
+        30539,
+        19790,
+        14415,
+        35956,
+        40417,
+        2844,
+        47194,
+        7888,
+        4183
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a man flying a kite on wet, dark sand at the beach",
+      "raw_rank": 8,
+      "filtered_rank": 8,
+      "rank": 8,
+      "ordinary_screen": [
+        11661,
+        18254,
+        32283,
+        16633,
+        33791,
+        39552,
+        43900,
+        13807,
+        28201,
+        23755
+      ],
+      "display": [
+        11661,
+        18254,
+        32283,
+        16633,
+        33791,
+        39552,
+        43900,
+        13807,
+        28201,
+        23755
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 14.321260332828388,
+  "live": true,
+  "seconds": 14.38053695904091
+}

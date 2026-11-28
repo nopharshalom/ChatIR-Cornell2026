@@ -1,0 +1,194 @@
+{
+  "qid": 273,
+  "selection": {
+    "kl": "what is the surface material of the tennis court where the two people are playing?",
+    "probe": "what is the specific type of court surface where the two people are playing tennis?",
+    "candidates": [
+      {
+        "question": "what color is the tennis racket held by one of the players?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "Question: Are the two players on the tennis court wearing the same color outfits?",
+        "score": 0,
+        "branches": [
+          {
+            "answer": "no",
+            "caption": "two people in a tennis match wearing different colored outfits",
+            "top10": [
+              21017,
+              18318,
+              1924,
+              23716,
+              33311,
+              13676,
+              5720,
+              45781,
+              26230,
+              5756
+            ]
+          },
+          {
+            "answer": "yes",
+            "caption": "two people in a tennis match wearing matching colored outfits",
+            "top10": [
+              21017,
+              18318,
+              33311,
+              1924,
+              23716,
+              5720,
+              29285,
+              26230,
+              45781,
+              5756
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: Are the two players on the tennis court wearing matching outfits?",
+        "score": 1,
+        "branches": [
+          {
+            "answer": "no",
+            "caption": "two people are on a tennis court wearing different outfits",
+            "top10": [
+              26649,
+              5553,
+              23653,
+              25463,
+              13676,
+              41592,
+              5756,
+              23716,
+              37712,
+              14652
+            ]
+          },
+          {
+            "answer": "yes",
+            "caption": "two people are on a tennis court wearing matching outfits",
+            "top10": [
+              5553,
+              26649,
+              25463,
+              14652,
+              23653,
+              5756,
+              29285,
+              18318,
+              32483,
+              21017
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the specific type of court surface where the two people are playing tennis?",
+        "score": 9,
+        "branches": [
+          {
+            "answer": "clay",
+            "caption": "a clay tennis court with two people playing doubles",
+            "top10": [
+              4028,
+              8299,
+              7375,
+              25959,
+              20788,
+              31179,
+              48142,
+              29173,
+              38405,
+              17039
+            ]
+          },
+          {
+            "answer": "hard",
+            "caption": "a hard tennis court with two people playing doubles",
+            "top10": [
+              33317,
+              10351,
+              33081,
+              23534,
+              37445,
+              44488,
+              29371,
+              6098,
+              25959,
+              42252
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the surface material of the tennis court where the two people are playing?",
+        "score": 3,
+        "branches": [
+          {
+            "answer": "linoleum",
+            "caption": "a linoleum court in the shade",
+            "top10": [
+              12403,
+              23034,
+              7992,
+              9268,
+              22795,
+              36324,
+              5271,
+              1643,
+              34407,
+              37731
+            ]
+          },
+          {
+            "answer": "clay",
+            "caption": "a group of tennis players playing tennis",
+            "top10": [
+              26558,
+              31737,
+              7302,
+              31256,
+              7333,
+              25959,
+              8528,
+              11748,
+              43376,
+              28055
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "outcomes": {
+    "what color is the tennis racket held by one of the players?": {
+      "answer": "black",
+      "rewrite": "two people playing doubles on a tennis court, one holding a black racket",
+      "rank": 24
+    },
+    "Question: Are the two players on the tennis court wearing the same color outfits?": {
+      "answer": "no",
+      "rewrite": "two people playing doubles on a tennis court wearing different colored outfits",
+      "rank": 122
+    },
+    "Question: Are the two players on the tennis court wearing matching outfits?": {
+      "answer": "no",
+      "rewrite": "two people playing doubles on a tennis court wearing mismatched outfits",
+      "rank": 81
+    },
+    "what is the specific type of court surface where the two people are playing tennis?": {
+      "answer": "clay",
+      "rewrite": "two people playing doubles on a clay tennis court",
+      "rank": 4
+    },
+    "what is the surface material of the tennis court where the two people are playing?": {
+      "answer": "clay",
+      "rewrite": "two people playing doubles on a clay tennis court",
+      "rank": 4
+    }
+  },
+  "saved_kl_rank": 4
+}

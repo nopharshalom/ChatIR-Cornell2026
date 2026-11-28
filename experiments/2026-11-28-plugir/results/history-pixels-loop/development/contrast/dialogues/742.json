@@ -1,0 +1,340 @@
+{
+  "qid": 742,
+  "target": "unlabeled2017/000000160418.jpg",
+  "arm": "contrast",
+  "first": 5,
+  "turns": [
+    {
+      "evidence": [
+        5213,
+        28919,
+        14572,
+        49212,
+        37283,
+        28201,
+        42817,
+        26328,
+        5526,
+        30539
+      ],
+      "candidates": [
+        "Question: Is the sky clear in the image?",
+        "what is the color of the sand on the beach where the man is flying the kite?",
+        "what is the color of the man's clothing while flying the kite?",
+        "what is the color of the sky in the image where the man is flying a kite?",
+        "what is the other object in the image?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "a pink kite",
+      "rewrite": "a man flying a pink kite on the sand at the beach",
+      "review": null,
+      "shared_seconds": 13.421571042155847
+    },
+    {
+      "evidence": [
+        37423,
+        46189,
+        27648,
+        19129,
+        11745,
+        49825,
+        32343,
+        28069,
+        30539,
+        37283
+      ],
+      "candidates": [
+        "what is the color of the sand on the beach where the man is flying the kite?",
+        "what is the color of the sand on the beach where the man is flying the kite?",
+        "what is the other object in the image?",
+        "what is the other object in the image?",
+        "what is the other object in the image?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "a pink kite",
+      "rewrite": "A man is flying a pink kite on the beach.",
+      "review": null,
+      "shared_seconds": 15.040162125136703
+    },
+    {
+      "evidence": [
+        1890,
+        20931,
+        41379,
+        5213,
+        28069,
+        47651,
+        43457,
+        32343,
+        37283,
+        12281
+      ],
+      "candidates": [
+        "what is the color of the sand at the beach where the man is flying the kite?",
+        "what is the color of the sand at the beach where the man is flying the kite?",
+        "what is the color of the sand at the beach where the man is flying the kite?",
+        "what is the color of the sand at the beach where the man is flying the kite?",
+        "what is the color of the sand at the beach where the man is flying the kite?"
+      ],
+      "default": "what is the color of the sand at the beach where the man is flying the kite?",
+      "question": "what is the color of the sand at the beach where the man is flying the kite?",
+      "answer": "brown",
+      "rewrite": "a man flying a pink kite on brown sand at the beach",
+      "review": null,
+      "shared_seconds": 9.865985499927774
+    },
+    {
+      "evidence": [
+        10915,
+        43457,
+        14371,
+        34551,
+        28069,
+        49212,
+        5213,
+        2935,
+        37283,
+        30539
+      ],
+      "candidates": [
+        "what is the color of the dress worn by the woman on the beach?",
+        "what is the color of the dress worn by the woman on the beach?",
+        "what is the color of the dress worn by the woman on the beach?",
+        "what is the color of the dress worn by the woman on the beach?",
+        "what is the color of the dress worn by the woman on the beach?"
+      ],
+      "default": "what is the color of the dress worn by the woman on the beach?",
+      "question": "what is the color of the dress worn by the woman on the beach?",
+      "answer": "black",
+      "rewrite": "a man flying a pink kite on brown sand at the beach, with a woman wearing a black dress nearby",
+      "review": null,
+      "shared_seconds": 8.513432750012726
+    },
+    {
+      "evidence": [
+        28069,
+        23379,
+        33044,
+        5964,
+        11860,
+        2935,
+        20782,
+        18844,
+        37283,
+        43014
+      ],
+      "candidates": [
+        "What is the man wearing on his head while flying the kite?",
+        "what is the color of the kite being flown by the man on the beach?",
+        "what is the color of the kite being flown by the man on the beach?",
+        "what is the color of the kite being flown by the man on the beach?",
+        "what is the color of the kite being flown by the man on the beach?"
+      ],
+      "default": "what is the color of the kite being flown by the man on the beach?",
+      "question": "what is the color of the kite being flown by the man on the beach?",
+      "answer": "blue",
+      "rewrite": "a man flies a blue kite on brown sand at the beach, while a woman in a black dress stands nearby",
+      "review": null,
+      "shared_seconds": 25.442155916942284
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a man flying a kite on the sand at the beach",
+      "raw_rank": 34,
+      "filtered_rank": 34,
+      "rank": 34,
+      "ordinary_screen": [
+        5526,
+        30539,
+        19790,
+        14415,
+        35956,
+        40417,
+        2844,
+        47194,
+        7888,
+        4183
+      ],
+      "display": [
+        5526,
+        30539,
+        19790,
+        14415,
+        35956,
+        40417,
+        2844,
+        47194,
+        7888,
+        4183
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a man flying a pink kite on the sand at the beach",
+      "raw_rank": 110,
+      "filtered_rank": 100,
+      "rank": 100,
+      "ordinary_screen": [
+        37283,
+        43014,
+        12281,
+        33791,
+        30768,
+        28201,
+        31589,
+        14423,
+        39969,
+        14572
+      ],
+      "display": [
+        37283,
+        43014,
+        12281,
+        33791,
+        30768,
+        28201,
+        31589,
+        14423,
+        39969,
+        14572
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "A man is flying a pink kite on the beach.",
+      "raw_rank": 101,
+      "filtered_rank": 82,
+      "rank": 82,
+      "ordinary_screen": [
+        37423,
+        19129,
+        49825,
+        27648,
+        48893,
+        46189,
+        19575,
+        42817,
+        3162,
+        36018
+      ],
+      "display": [
+        37423,
+        19129,
+        49825,
+        27648,
+        48893,
+        46189,
+        19575,
+        42817,
+        3162,
+        36018
+      ],
+      "check": {}
+    },
+    {
+      "round": 3,
+      "query": "a man flying a pink kite on brown sand at the beach",
+      "raw_rank": 102,
+      "filtered_rank": 72,
+      "rank": 72,
+      "ordinary_screen": [
+        21234,
+        41379,
+        28919,
+        24879,
+        32343,
+        20877,
+        39552,
+        29271,
+        31939,
+        14253
+      ],
+      "display": [
+        21234,
+        41379,
+        28919,
+        24879,
+        32343,
+        20877,
+        39552,
+        29271,
+        31939,
+        14253
+      ],
+      "check": {}
+    },
+    {
+      "round": 4,
+      "query": "a man flying a pink kite on brown sand at the beach, with a woman wearing a black dress nearby",
+      "raw_rank": 71,
+      "filtered_rank": 39,
+      "rank": 39,
+      "ordinary_screen": [
+        1372,
+        34480,
+        45733,
+        11557,
+        5950,
+        11802,
+        14371,
+        21414,
+        9740,
+        2141
+      ],
+      "display": [
+        1372,
+        34480,
+        45733,
+        11557,
+        5950,
+        11802,
+        14371,
+        21414,
+        9740,
+        2141
+      ],
+      "check": {}
+    },
+    {
+      "round": 5,
+      "query": "a man flies a blue kite on brown sand at the beach, while a woman in a black dress stands nearby",
+      "raw_rank": 5,
+      "filtered_rank": 4,
+      "rank": 4,
+      "ordinary_screen": [
+        16633,
+        23248,
+        30164,
+        13807,
+        40463,
+        434,
+        14960,
+        223,
+        2935,
+        23942
+      ],
+      "display": [
+        16633,
+        23248,
+        30164,
+        13807,
+        40463,
+        434,
+        14960,
+        223,
+        2935,
+        23942
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 72.28330733417533,
+  "live": true,
+  "seconds": 72.4120886249002
+}

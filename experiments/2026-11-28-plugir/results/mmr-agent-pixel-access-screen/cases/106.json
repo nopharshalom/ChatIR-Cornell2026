@@ -1,0 +1,40 @@
+{
+  "plan_raw": "{\n\"choice\": 2,\n\"check\": \"what is the color of the sink in the bathroom with the mirror and lights?\",\n\"photos\": [0, 9]\n}",
+  "provisional": 2,
+  "valid_plan": true,
+  "caption": {
+    "choice": 1,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "The color of the sink is unknown."
+      },
+      {
+        "index": 9,
+        "observation": "The color of the sink is unknown as the caption only describes the mirror."
+      }
+    ],
+    "raw": "{\"choice\": 1}"
+  },
+  "pixels": {
+    "choice": 2,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "white"
+      },
+      {
+        "index": 9,
+        "observation": "white"
+      }
+    ],
+    "raw": "{\"choice\": 2}"
+  },
+  "qid": 106,
+  "example_ids": [
+    102,
+    141
+  ]
+}

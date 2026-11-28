@@ -1,0 +1,194 @@
+{
+  "qid": 1301,
+  "selection": {
+    "kl": "Question: How many different types of doughnuts are in the display case?",
+    "probe": "Question: How many different types of doughnuts are in the display case?",
+    "candidates": [
+      {
+        "question": "Question: What is the material of the display case containing the doughnuts?",
+        "score": 7,
+        "branches": [
+          {
+            "answer": "glass",
+            "caption": "many donuts are on display in a glass case",
+            "top10": [
+              19781,
+              27089,
+              23677,
+              44491,
+              16869,
+              17096,
+              17689,
+              38123,
+              33322,
+              13742
+            ]
+          },
+          {
+            "answer": "metal",
+            "caption": "a display of pastries on metal racks",
+            "top10": [
+              40524,
+              27089,
+              27725,
+              19238,
+              45310,
+              13742,
+              7693,
+              47329,
+              38123,
+              42448
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: What is the color of the display case containing the doughnuts?",
+        "score": 2,
+        "branches": [
+          {
+            "answer": "white and gray",
+            "caption": "a bakery display case filled with a large variety of different doughnuts, where the display cases are of white and gray",
+            "top10": [
+              13742,
+              17689,
+              27089,
+              19781,
+              33322,
+              7462,
+              17096,
+              40524,
+              33423,
+              16869
+            ]
+          },
+          {
+            "answer": "glass",
+            "caption": "a bakery display case filled with a large variety of different doughnuts, where many donuts are on display in a glass case",
+            "top10": [
+              19781,
+              17689,
+              27089,
+              13742,
+              17096,
+              33322,
+              23677,
+              16869,
+              44491,
+              40524
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: How many different types of doughnuts are in the display case?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "Question: Where is the display case containing the doughnuts located?",
+        "score": 3,
+        "branches": [
+          {
+            "answer": "in a bakery",
+            "caption": "a bakery display case filled with a large variety of different doughnuts, located in a bakery",
+            "top10": [
+              17689,
+              19781,
+              13742,
+              33322,
+              27089,
+              40524,
+              16869,
+              33423,
+              17096,
+              23677
+            ]
+          },
+          {
+            "answer": "on metal racks",
+            "caption": "a bakery display case filled with a large variety of different doughnuts, arranged on metal racks",
+            "top10": [
+              27089,
+              19781,
+              40524,
+              17689,
+              15833,
+              27725,
+              13742,
+              16869,
+              33423,
+              7462
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: Are the display cases containing the doughnuts made of glass?",
+        "score": 7,
+        "branches": [
+          {
+            "answer": "yes",
+            "caption": "many donuts are on display in a glass case",
+            "top10": [
+              19781,
+              27089,
+              23677,
+              44491,
+              16869,
+              17096,
+              17689,
+              38123,
+              33322,
+              13742
+            ]
+          },
+          {
+            "answer": "no",
+            "caption": "a display of pastries on metal racks",
+            "top10": [
+              40524,
+              27089,
+              27725,
+              19238,
+              45310,
+              13742,
+              7693,
+              47329,
+              38123,
+              42448
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "outcomes": {
+    "Question: What is the material of the display case containing the doughnuts?": {
+      "answer": "glass",
+      "rewrite": "a bakery display case made of glass filled with a large variety of different doughnuts",
+      "rank": 17
+    },
+    "Question: What is the color of the display case containing the doughnuts?": {
+      "answer": "silver",
+      "rewrite": "a silver bakery display case filled with a large variety of different doughnuts",
+      "rank": 14
+    },
+    "Question: How many different types of doughnuts are in the display case?": {
+      "answer": "12",
+      "rewrite": "a bakery display case filled with 12 different types of doughnuts",
+      "rank": 10
+    },
+    "Question: Where is the display case containing the doughnuts located?": {
+      "answer": "in the store",
+      "rewrite": "a bakery display case filled with a large variety of different doughnuts located in a store",
+      "rank": 13
+    },
+    "Question: Are the display cases containing the doughnuts made of glass?": {
+      "answer": "yes",
+      "rewrite": "a bakery display case made of glass filled with a large variety of different doughnuts",
+      "rank": 17
+    }
+  },
+  "saved_kl_rank": 10
+}

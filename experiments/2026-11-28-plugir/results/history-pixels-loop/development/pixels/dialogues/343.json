@@ -1,0 +1,104 @@
+{
+  "qid": 343,
+  "target": "unlabeled2017/000000179535.jpg",
+  "arm": "pixels",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        25619,
+        17763,
+        153,
+        18545,
+        30937,
+        46118,
+        21393,
+        29120,
+        3466,
+        6971
+      ],
+      "candidates": [
+        "what material is the table holding the assortment of food made of?",
+        "Question: What is the specific type of food displayed on the table?",
+        "Question: What is the specific type of food displayed on the table?",
+        "what is the specific type of food displayed on the table?",
+        "Question: what is the specific type of food displayed on the table?"
+      ],
+      "default": "what is the specific type of food displayed on the table?",
+      "question": "what is the specific type of food displayed on the table?",
+      "answer": "salad",
+      "rewrite": "an assortment of different foods, specifically salad, displayed on a table",
+      "review": null,
+      "shared_seconds": 7.206
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "an assortment of different foods on a table",
+      "raw_rank": 37,
+      "filtered_rank": 37,
+      "rank": 37,
+      "ordinary_screen": [
+        25619,
+        17763,
+        153,
+        18545,
+        30937,
+        46118,
+        21393,
+        3466,
+        29120,
+        6971
+      ],
+      "display": [
+        25619,
+        17763,
+        153,
+        18545,
+        30937,
+        46118,
+        21393,
+        3466,
+        29120,
+        6971
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "an assortment of different foods, specifically salad, displayed on a table",
+      "raw_rank": 8,
+      "filtered_rank": 6,
+      "rank": 6,
+      "ordinary_screen": [
+        12376,
+        9670,
+        24154,
+        16647,
+        48875,
+        15403,
+        38248,
+        9144,
+        38249,
+        6862
+      ],
+      "display": [
+        12376,
+        9670,
+        24154,
+        16647,
+        48875,
+        15403,
+        38248,
+        9144,
+        38249,
+        6862
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 7.206,
+  "live": false,
+  "seconds": 0.02920754114165902
+}

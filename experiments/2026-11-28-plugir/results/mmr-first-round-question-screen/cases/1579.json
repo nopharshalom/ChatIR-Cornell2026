@@ -1,0 +1,65 @@
+{
+  "qid": 1579,
+  "selection": {
+    "kl": "what is the other object in the image?",
+    "probe": "Question: Is the man standing in front of or behind the red truck?",
+    "candidates": [
+      {
+        "question": "what is the other object in the image?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "Question: Is the man standing in front of or behind the red truck?",
+        "score": 3,
+        "branches": [
+          {
+            "answer": "behind",
+            "caption": "a person standing behind a red truck on a street",
+            "top10": [
+              11799,
+              47141,
+              290,
+              26410,
+              34633,
+              43187,
+              47310,
+              27530,
+              19691,
+              12612
+            ]
+          },
+          {
+            "answer": "in front of",
+            "caption": "a man standing in front of a red truck on a street",
+            "top10": [
+              11799,
+              34633,
+              290,
+              9157,
+              34686,
+              26410,
+              35180,
+              27876,
+              40835,
+              12612
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "outcomes": {
+    "what is the other object in the image?": {
+      "answer": "traffic light",
+      "rewrite": "a man stands in the middle of a road with a red truck driving up and a traffic light visible",
+      "rank": 31
+    },
+    "Question: Is the man standing in front of or behind the red truck?": {
+      "answer": "behind",
+      "rewrite": "a man stands behind a red truck driving up the middle of a road",
+      "rank": 602
+    }
+  },
+  "saved_kl_rank": 31
+}

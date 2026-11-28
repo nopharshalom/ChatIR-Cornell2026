@@ -1,0 +1,10 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    "You see only the user's initial description and completed dialogue. Is the proposed\nquestion natural and neutrally phrased about a uniquely identifiable subject in their own\nphoto, applicable to that subject, directly visible, still unanswered and not previously\nasked even with different wording? Reject false premises, underspecified multiple people or\nobjects, implied answers, and activities that require guessing intent. The labels must\nrepresent distinct, non-overlapping plausible answers. Return exactly PASS or SKIP.",
+    "{\"dialogue\": [\"a large building with a clock tower is at the corner of a city block\", \"what is the color of the large building with a clock tower? white\", \"what is the other object in the image? street lamp\", \"what is the material of the wall of the large building with a clock tower? stone\"], \"slot\": {\"entity\": \"large building with a clock tower\", \"family\": \"material\", \"question\": \"What material is the large building with a clock tower made of?\", \"values\": [\"stone\", \"brick\"]}}",
+    10,
+    null
+  ],
+  "response": "PASS"
+}

@@ -1,0 +1,367 @@
+{
+  "method": "Assistant grouped answers on ten candidate images before viewing target sheets; then answered both questions from each target image and scored initial + question + answer with original BLIP on 50000 images. No Qwen rewrite.",
+  "records": [
+    {
+      "qid": 494,
+      "initial": "a group of people having some sort of celebration",
+      "questions": [
+        "what are the people at the celebration wearing?",
+        "what is the location where the group of people are celebrating?",
+        "what are the people at the celebration doing?",
+        "what is the specific occasion being celebrated by the group of people?"
+      ],
+      "groups": [
+        [
+          1,
+          2,
+          2,
+          2,
+          1,
+          3,
+          3,
+          0,
+          3,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          1,
+          2,
+          2,
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          3,
+          3,
+          4,
+          5,
+          5,
+          1,
+          5,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "kl_question": "what is the specific occasion being celebrated by the group of people?",
+      "visual_question": "what are the people at the celebration doing?",
+      "kl_answer": "unsure",
+      "visual_answer": "standing together and posing for a photo",
+      "ranks_initial_kl_visual": [
+        193,
+        70,
+        23
+      ]
+    },
+    {
+      "qid": 1894,
+      "initial": "furniture decor in a living room setting inside a house",
+      "questions": [
+        "does the living room have a fireplace?",
+        "how many couches are in the living room?",
+        "what is the color of the floor in the living room?",
+        "does the living room have a television?",
+        "what color are the couches in the living room?"
+      ],
+      "groups": [
+        [
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          2,
+          2,
+          0,
+          0,
+          2,
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          2,
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          4,
+          1,
+          5,
+          4,
+          0,
+          6
+        ]
+      ],
+      "kl_question": "what is the color of the floor in the living room?",
+      "visual_question": "what color are the couches in the living room?",
+      "kl_answer": "brown and beige",
+      "visual_answer": "brown",
+      "ranks_initial_kl_visual": [
+        18,
+        13,
+        6
+      ]
+    },
+    {
+      "qid": 82,
+      "initial": "a short train makes its way down a track",
+      "questions": [
+        "what is the color of the train?",
+        "what is the length of the train?",
+        "what is the location of the train track where the short train is traveling?",
+        "what is the length of the train in the image?"
+      ],
+      "groups": [
+        [
+          1,
+          2,
+          0,
+          3,
+          2,
+          4,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          2,
+          4,
+          2,
+          4,
+          3,
+          5,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "kl_question": "what is the length of the train?",
+      "visual_question": "what is the location of the train track where the short train is traveling?",
+      "kl_answer": "three cars including the engine",
+      "visual_answer": "on a curve by trees and houses",
+      "ranks_initial_kl_visual": [
+        160,
+        125,
+        11
+      ]
+    },
+    {
+      "qid": 297,
+      "initial": "a living room filled with a bookcase and computer",
+      "questions": [
+        "what is the color of the bookcase in the living room?",
+        "which candidate image best matches the description of a living room filled with a bookcase and computer?",
+        "which candidate image shows a living room with a clock?",
+        "which candidate image shows a living room with a computer?"
+      ],
+      "groups": [
+        [
+          1,
+          1,
+          2,
+          2,
+          2,
+          1,
+          2,
+          2,
+          3,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "kl_question": "what is the color of the bookcase in the living room?",
+      "visual_question": "what is the color of the bookcase in the living room?",
+      "kl_answer": "brown",
+      "visual_answer": "brown",
+      "ranks_initial_kl_visual": [
+        69,
+        186,
+        186
+      ]
+    },
+    {
+      "qid": 1743,
+      "initial": "a bed with blue covers next to a wall",
+      "questions": [
+        "what is the color of the wall next to the bed with blue covers?"
+      ],
+      "groups": [
+        [
+          1,
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          3,
+          2
+        ]
+      ],
+      "kl_question": "what is the color of the wall next to the bed with blue covers?",
+      "visual_question": "what is the color of the wall next to the bed with blue covers?",
+      "kl_answer": "brown and beige",
+      "visual_answer": "brown and beige",
+      "ranks_initial_kl_visual": [
+        243,
+        156,
+        156
+      ]
+    },
+    {
+      "qid": 1906,
+      "initial": "a person doing a trick in the air on a snowboard",
+      "questions": [
+        "what is the location where the person is performing the trick in the air on a snowboard?",
+        "what is the color of the snowboard the person is using?"
+      ],
+      "groups": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          0,
+          0,
+          0
+        ]
+      ],
+      "kl_question": "what is the location where the person is performing the trick in the air on a snowboard?",
+      "visual_question": "what is the color of the snowboard the person is using?",
+      "kl_answer": "on a snowy slope",
+      "visual_answer": "dark gray",
+      "ranks_initial_kl_visual": [
+        61,
+        93,
+        37
+      ]
+    }
+  ]
+}

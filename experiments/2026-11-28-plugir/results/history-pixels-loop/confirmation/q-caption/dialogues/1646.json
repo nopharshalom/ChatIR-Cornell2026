@@ -1,0 +1,112 @@
+{
+  "qid": 1646,
+  "target": "unlabeled2017/000000304500.jpg",
+  "arm": "q-caption",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        1895,
+        27307,
+        3428,
+        31590,
+        178,
+        36697,
+        43930,
+        38635,
+        26875,
+        32526
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "what is the specific color pattern (e.g., two-tone vs. solid) of the white bus in the image?",
+        "what is the specific color pattern (e.g., two-tone vs. solid) of the white bus in the image?",
+        "Question: what is the specific color pattern (e.g., two-tone vs. solid) of the white bus in the image?",
+        "Question: What is the specific color pattern (e.g., two-tone vs. solid) of the white bus in the image?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "bench",
+      "rewrite": "a large white bus heading down the street with a bench nearby",
+      "review": {
+        "default": "what is the other object in the image?",
+        "questions": [
+          "what is the other object in the image?",
+          "what is the specific color pattern (e.g., two-tone vs. solid) of the white bus in the image?"
+        ],
+        "selected": "what is the other object in the image?",
+        "scores": {}
+      },
+      "shared_seconds": 13.168
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a large white bus heading down the street",
+      "raw_rank": 54,
+      "filtered_rank": 54,
+      "rank": 54,
+      "ordinary_screen": [
+        1895,
+        27307,
+        3428,
+        31590,
+        178,
+        36697,
+        43930,
+        38635,
+        26875,
+        32526
+      ],
+      "display": [
+        1895,
+        27307,
+        3428,
+        31590,
+        178,
+        36697,
+        43930,
+        38635,
+        26875,
+        32526
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a large white bus heading down the street with a bench nearby",
+      "raw_rank": 2,
+      "filtered_rank": 1,
+      "rank": 1,
+      "ordinary_screen": [
+        26044,
+        6252,
+        47634,
+        26307,
+        11322,
+        33181,
+        29836,
+        46488,
+        43721,
+        8562
+      ],
+      "display": [
+        26044,
+        6252,
+        47634,
+        26307,
+        11322,
+        33181,
+        29836,
+        46488,
+        43721,
+        8562
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 13.168,
+  "live": false,
+  "seconds": 0.03611841704696417
+}

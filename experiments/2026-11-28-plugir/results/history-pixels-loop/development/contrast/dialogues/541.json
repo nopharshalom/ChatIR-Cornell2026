@@ -1,0 +1,163 @@
+{
+  "qid": 541,
+  "target": "unlabeled2017/000000465136.jpg",
+  "arm": "contrast",
+  "first": 2,
+  "turns": [
+    {
+      "evidence": [
+        38436,
+        28245,
+        22083,
+        9182,
+        19536,
+        45150,
+        5764,
+        37055,
+        46016,
+        6356
+      ],
+      "candidates": [
+        "what is the location where the people are riding the elephant?",
+        "what is the color of the elephant?",
+        "what is the surface or terrain the elephant is riding on?",
+        "what is the relationship between the people riding the elephant?",
+        "what is the specific location where the people are riding the elephant?"
+      ],
+      "default": "what is the relationship between the people riding the elephant?",
+      "question": "what is the relationship between the people riding the elephant?",
+      "answer": "family",
+      "rewrite": "a family riding atop an elephant",
+      "review": null,
+      "shared_seconds": 10.36056337505579
+    },
+    {
+      "evidence": [
+        22012,
+        46365,
+        38436,
+        33442,
+        16129,
+        16491,
+        40733,
+        37055,
+        46016,
+        36978
+      ],
+      "candidates": [
+        "How many people are riding on the elephant?",
+        "how many people are riding on the elephant?",
+        "How many people are riding on the elephant?",
+        "what is the other object in the image?",
+        "How many people are riding on the elephant?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "a lake",
+      "rewrite": "a family riding an elephant with a lake in the background",
+      "review": null,
+      "shared_seconds": 13.460107959108427
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a boy and couple riding atop on elephant",
+      "raw_rank": 60,
+      "filtered_rank": 60,
+      "rank": 60,
+      "ordinary_screen": [
+        46016,
+        6356,
+        36978,
+        48041,
+        20580,
+        47580,
+        44515,
+        12949,
+        46533,
+        17397
+      ],
+      "display": [
+        46016,
+        6356,
+        36978,
+        48041,
+        20580,
+        47580,
+        44515,
+        12949,
+        46533,
+        17397
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a family riding atop an elephant",
+      "raw_rank": 36,
+      "filtered_rank": 26,
+      "rank": 26,
+      "ordinary_screen": [
+        22083,
+        9182,
+        10195,
+        42671,
+        7416,
+        28245,
+        3761,
+        28008,
+        47542,
+        23036
+      ],
+      "display": [
+        22083,
+        9182,
+        10195,
+        42671,
+        7416,
+        28245,
+        3761,
+        28008,
+        47542,
+        23036
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "a family riding an elephant with a lake in the background",
+      "raw_rank": 1,
+      "filtered_rank": 1,
+      "rank": 1,
+      "ordinary_screen": [
+        39881,
+        22012,
+        5764,
+        6790,
+        37055,
+        29468,
+        7953,
+        25109,
+        16491,
+        34989
+      ],
+      "display": [
+        39881,
+        22012,
+        5764,
+        6790,
+        37055,
+        29468,
+        7953,
+        25109,
+        16491,
+        34989
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 23.820671334164217,
+  "live": true,
+  "seconds": 23.874379915883765
+}

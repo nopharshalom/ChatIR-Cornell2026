@@ -1,0 +1,10 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    "You see only the user's initial description and completed dialogue. Is the proposed\nquestion natural and neutrally phrased about a uniquely identifiable subject in their own\nphoto, applicable to that subject, directly visible, still unanswered and not previously\nasked even with different wording? Reject false premises, underspecified multiple people or\nobjects, implied answers, and activities that require guessing intent. The labels must\nrepresent distinct, non-overlapping plausible answers. Return exactly PASS or SKIP.",
+    "{\"dialogue\": [\"2 computers next to each other with a ipod dock\", \"what is the color of the two computers sitting next to each other with an iPod dock? silver\", \"What is the color of the iPod dock located between the two silver computers? white\", \"what is the background surface upon which the two silver computers and the white iPod dock are placed? desk\", \"What brand are the two silver computers and the white iPod dock? Apple.\", \"what is the other object in the image? laptop\", \"what is the color of the laptop that is open and sitting on the desk? silver\", \"Is there a person visible in the image with the silver computers, white iPod dock, and silver laptop? no\", \"What is the main color of the laptop? silver\", \"What is the main color of the laptop? silver\"], \"slot\": {\"entity\": \"laptop\", \"family\": \"color\", \"question\": \"What is the main color of the laptop?\", \"values\": [\"silver\", \"black\"]}}",
+    10,
+    null
+  ],
+  "response": "SKIP"
+}

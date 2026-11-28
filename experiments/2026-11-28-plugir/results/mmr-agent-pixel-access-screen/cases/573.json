@@ -1,0 +1,40 @@
+{
+  "plan_raw": "{\n\"choice\": 2,\n\"check\": \"verify object identity (street light vs traffic light)\",\n\"photos\": [0, 1]\n}",
+  "provisional": 2,
+  "valid_plan": true,
+  "caption": {
+    "choice": 1,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "The object is a traffic light, as explicitly described in the caption."
+      },
+      {
+        "index": 1,
+        "observation": "The object is a street light, as described by the caption \"an old style light sconce hanging from a tree,\" which identifies it as a decorative outdoor lamp rather than a traffic light."
+      }
+    ],
+    "raw": "{\"choice\": 1}"
+  },
+  "pixels": {
+    "choice": 0,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "The object is a traffic light, not a street light."
+      },
+      {
+        "index": 1,
+        "observation": "The object is a street light, not a traffic light."
+      }
+    ],
+    "raw": "{\"choice\": 0}"
+  },
+  "qid": 573,
+  "example_ids": [
+    937,
+    1473
+  ]
+}

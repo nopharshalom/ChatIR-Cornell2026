@@ -1,0 +1,60 @@
+{
+  "splits": [
+    [
+      35,
+      1301,
+      601,
+      1107,
+      1288,
+      570,
+      1004,
+      466,
+      701,
+      93,
+      754,
+      1466,
+      1169,
+      783,
+      273,
+      532,
+      2057,
+      69,
+      1579,
+      1648
+    ],
+    [
+      627,
+      77,
+      1650,
+      688,
+      767,
+      649,
+      1640,
+      573,
+      742,
+      143,
+      1820,
+      621,
+      975,
+      1646,
+      896,
+      1399,
+      106,
+      1510,
+      508,
+      675
+    ]
+  ],
+  "arms": [
+    "exact",
+    "exact_and_semantic"
+  ],
+  "model": "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+  "mmr": 0.85,
+  "proposals": 5,
+  "corpus": 50000,
+  "rounds": 10,
+  "primary": "paired R10 cumulative Hits@10; earlier first hits as secondary",
+  "controls": "d34bec5305c4fa71e79acf27950bac528736559544446df88a9e1e36c83c6656",
+  "source": "8d3a9aff69b311cfedda00bb9ae13826be23c7e046b3e6dbb11e3d210c1610e8"
+}

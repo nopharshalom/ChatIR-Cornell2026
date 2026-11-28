@@ -1,0 +1,116 @@
+{
+  "pivot": 1,
+  "trace": [
+    {
+      "slots": [],
+      "vetoes": [
+        "answerable from dialogue alone: A place with shorter trees and brush."
+      ]
+    },
+    {
+      "slots": [
+        {
+          "entity": "single giraffe",
+          "family": "surface",
+          "values": [
+            "dry grass",
+            "no grass"
+          ],
+          "question": "What surface is the single giraffe on?"
+        },
+        {
+          "entity": "single giraffe",
+          "family": "activity",
+          "values": [
+            "standing",
+            "eating"
+          ],
+          "question": "What is the single giraffe doing?"
+        }
+      ],
+      "vetoes": [
+        "answerable from dialogue alone: A place with shorter trees and brush."
+      ],
+      "caption_labels": [
+        [
+          "no grass",
+          null,
+          null,
+          null,
+          null,
+          null,
+          "dry grass",
+          "no grass",
+          "dry grass",
+          "dry grass"
+        ],
+        [
+          "standing",
+          null,
+          null,
+          null,
+          "standing",
+          "eating",
+          null,
+          "standing",
+          "standing",
+          "standing"
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "no grass",
+          "dry grass",
+          "dry grass",
+          "dry grass",
+          "dry grass",
+          "dry grass",
+          "dry grass",
+          "no grass",
+          "dry grass",
+          "dry grass"
+        ],
+        [
+          "standing",
+          "eating",
+          "eating",
+          "standing",
+          "standing",
+          "eating",
+          "standing",
+          "standing",
+          "standing",
+          "standing"
+        ]
+      ],
+      "filled": [
+        5,
+        4
+      ],
+      "pixel_supported": [
+        true,
+        true
+      ],
+      "captions_transfer": [
+        null,
+        null
+      ],
+      "pixels_transfer": [
+        0.53125,
+        0.8809523809523809
+      ]
+    }
+  ],
+  "questions": [
+    "what is the color of the giraffe?",
+    "What surface is the single giraffe on?",
+    "What is the single giraffe doing?"
+  ],
+  "picks": {
+    "blind_alternative": 2,
+    "captions_annotations": 1,
+    "captions_retrieval": 0,
+    "pixels_annotations": 1,
+    "pixels_retrieval": 2
+  }
+}

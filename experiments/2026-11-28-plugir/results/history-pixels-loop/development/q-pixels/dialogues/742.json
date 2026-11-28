@@ -1,0 +1,146 @@
+{
+  "qid": 742,
+  "target": "unlabeled2017/000000160418.jpg",
+  "arm": "q-pixels",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        5526,
+        30539,
+        19790,
+        14415,
+        35956,
+        40417,
+        2844,
+        47194,
+        7888,
+        5213
+      ],
+      "candidates": [
+        "Question: Is the man flying the kite with his arms stretched out?",
+        "Question: What is the color of the shirt the man is wearing?",
+        "what is the color of the shirt the man is wearing while flying the kite?",
+        "what is the other object in the image?",
+        "what is the other object in the image?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "Question: What is the color of the shirt the man is wearing?",
+      "answer": "Black.",
+      "rewrite": "a man wearing a black shirt flies a kite on the sand at the beach",
+      "review": {
+        "default": "what is the other object in the image?",
+        "questions": [
+          "Question: Is the man flying the kite with his arms stretched out?",
+          "Question: What is the color of the shirt the man is wearing?",
+          "what is the color of the shirt the man is wearing while flying the kite?",
+          "what is the other object in the image?"
+        ],
+        "selected": "Question: What is the color of the shirt the man is wearing?",
+        "scores": {
+          "is the man flying the kite with his arms stretched out?": {
+            "file": "5cc3b78dd98c3ad38d3e975eb98a8ffaa8319b6929586c62f3ee9e7e1aedef04.json",
+            "answers": null,
+            "seconds": 4.543059625197202,
+            "score": null
+          },
+          "what is the color of the shirt the man is wearing?": {
+            "file": "7c675539294fb8607cd439dfb7ed76ebbca828ee4c2d79dada1225d7e46d3bd2.json",
+            "answers": [
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "black",
+              "gray",
+              "unknown",
+              "blue"
+            ],
+            "seconds": 2.693146000150591,
+            "score": 3
+          },
+          "what is the color of the shirt the man is wearing while flying the kite?": {
+            "file": "0719c6cd74d6002e402d3e39dc0ca02541c13b54586f6d089ed675efd0c0a612.json",
+            "answers": null,
+            "seconds": 4.560044209007174,
+            "score": null
+          }
+        }
+      },
+      "shared_seconds": 12.898
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a man flying a kite on the sand at the beach",
+      "raw_rank": 34,
+      "filtered_rank": 34,
+      "rank": 34,
+      "ordinary_screen": [
+        5526,
+        30539,
+        19790,
+        14415,
+        35956,
+        40417,
+        2844,
+        47194,
+        7888,
+        4183
+      ],
+      "display": [
+        5526,
+        30539,
+        19790,
+        14415,
+        35956,
+        40417,
+        2844,
+        47194,
+        7888,
+        4183
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a man wearing a black shirt flies a kite on the sand at the beach",
+      "raw_rank": 7,
+      "filtered_rank": 4,
+      "rank": 4,
+      "ordinary_screen": [
+        28919,
+        20877,
+        26060,
+        13807,
+        28201,
+        12762,
+        14572,
+        10450,
+        7413,
+        18897
+      ],
+      "display": [
+        28919,
+        20877,
+        26060,
+        13807,
+        28201,
+        12762,
+        14572,
+        10450,
+        7413,
+        18897
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 12.898,
+  "live": false,
+  "seconds": 0.037406374933198094,
+  "archived_source": "output/matan-indexed-selector/fallback/tune/indexed/dialogues/742.json",
+  "archived_sha256": "bce42bea89d569b08f65952627a5698c3c280b567686b72d2c142dfe4dec7046"
+}

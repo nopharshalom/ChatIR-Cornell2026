@@ -1,0 +1,727 @@
+[
+  {
+    "qid": 1348,
+    "round": 1,
+    "target": "unlabeled2017/000000328950.jpg",
+    "description": "a man standing on a beach near water flying a kite",
+    "initial": "a man standing on a beach near water flying a kite",
+    "prior_turns": [],
+    "proposals": [
+      "what is the other object in the image?",
+      "what is the other object in the image?",
+      "what is the other object in the image?",
+      "What is the color of the kite the man is flying on the beach?",
+      "what is the other object in the image?"
+    ],
+    "tile_ids": [
+      14415,
+      12281,
+      5526,
+      30768,
+      3162,
+      19575,
+      5213,
+      2844,
+      34176,
+      28201
+    ],
+    "caption_kl": {
+      "question": "what is the other object in the image?",
+      "answer": "beach",
+      "rewrite": "A man stands on a beach by the water flying a kite.",
+      "ranks": [
+        11,
+        17,
+        5
+      ],
+      "first_hit": 2
+    },
+    "visual": {
+      "question": "What is the color of the kite the man is flying on the beach?",
+      "answer": "green",
+      "rewrite": "a man standing on a beach near water flying a green kite",
+      "ranks": [
+        11,
+        7
+      ],
+      "first_hit": 1
+    },
+    "review": {
+      "default": "what is the other object in the image?",
+      "questions": [
+        "what is the other object in the image?",
+        "What is the color of the kite the man is flying on the beach?"
+      ],
+      "selected": "What is the color of the kite the man is flying on the beach?",
+      "scores": {
+        "what is the color of the kite the man is flying on the beach?": {
+          "file": "439f8ca6da5e1ee4e1edb0d571f36a4562f456f8d20f577c706955308b5906de.json",
+          "answers": [
+            "red",
+            "orange",
+            "green",
+            "blue",
+            "blue",
+            "red",
+            "white",
+            "blue",
+            "white",
+            "green"
+          ],
+          "seconds": 3.056624332908541,
+          "score": 39
+        }
+      }
+    }
+  },
+  {
+    "qid": 1579,
+    "round": 4,
+    "target": "unlabeled2017/000000056847.jpg",
+    "description": "a man in a black shirt stands in the middle of a road directing traffic, with a red truck driving up and a traffic light visible",
+    "initial": "a man stands in the middle of a road and a red truck is driving up",
+    "prior_turns": [
+      [
+        "what is the other object in the image?",
+        "traffic light"
+      ],
+      [
+        "what is the activity of the man in the image?",
+        "the man is directing traffic."
+      ],
+      [
+        "what is the color of the shirt worn by the man directing traffic?",
+        "black"
+      ]
+    ],
+    "proposals": [
+      "what is the other object in the image?",
+      "what is the color of the truck in the image?",
+      "what is the color of the truck in the image?",
+      "what is the activity of the man directing the red truck?",
+      "**Generated Question:**\n\"Is the man directing the red truck?"
+    ],
+    "tile_ids": [
+      12104,
+      45272,
+      46449,
+      44764,
+      16670,
+      49941,
+      34828,
+      34872,
+      1980,
+      45850
+    ],
+    "caption_kl": {
+      "question": "what is the other object in the image?",
+      "answer": "traffic light",
+      "rewrite": "a man in a black shirt stands in the middle of a road directing traffic, with a red truck driving up and a traffic light visible in the background",
+      "ranks": [
+        86,
+        31,
+        31,
+        14,
+        23,
+        23,
+        23,
+        27,
+        23,
+        22,
+        23
+      ],
+      "first_hit": null
+    },
+    "visual": {
+      "question": "what is the color of the truck in the image?",
+      "answer": "red",
+      "rewrite": "a man in a black shirt stands in the middle of a road directing traffic, with a red truck driving up and a traffic light visible in the background",
+      "ranks": [
+        86,
+        31,
+        31,
+        14,
+        23,
+        27,
+        23,
+        28,
+        45,
+        26,
+        12
+      ],
+      "first_hit": null
+    },
+    "review": {
+      "default": "what is the other object in the image?",
+      "questions": [
+        "what is the other object in the image?",
+        "what is the color of the truck in the image?",
+        "what is the activity of the man directing the red truck?",
+        "**Generated Question:**\n\"Is the man directing the red truck?"
+      ],
+      "selected": "what is the color of the truck in the image?",
+      "scores": {
+        "what is the color of the truck in the image?": {
+          "file": "4ed2cbb54bc215f6e70ba2e21a69377dff831922da691040e52c3a6392829b21.json",
+          "answers": [
+            "orange",
+            "unknown",
+            "red",
+            "unknown",
+            "red",
+            "unknown",
+            "unknown",
+            "unknown",
+            "white",
+            "white"
+          ],
+          "seconds": 2.887473708949983,
+          "score": 8
+        }
+      }
+    }
+  },
+  {
+    "qid": 1743,
+    "round": 6,
+    "target": "unlabeled2017/000000224555.jpg",
+    "description": "a brown bed with blue covers, a quilted comforter, and pillows next to a green wall",
+    "initial": "a bed with blue covers next to a wall",
+    "prior_turns": [
+      [
+        "what is the color of the wall next to the bed with blue covers?",
+        "green"
+      ],
+      [
+        "Is there anything on the bed with blue covers?",
+        "Yes."
+      ],
+      [
+        "what is the color of the bed that has blue covers?",
+        "brown"
+      ],
+      [
+        "what are the other items on the bed with blue covers?",
+        "pillows"
+      ],
+      [
+        "what is the color of the bed that has a quilted comforter?",
+        "brown"
+      ]
+    ],
+    "proposals": [
+      "what is the color of the bed that has a green blanket?",
+      "what is the color of the bed that has a blue and white floral rug underneath it?",
+      "what is the color of the bed with a small teddy bear on the cover?",
+      "what is the other object in the image?",
+      "what is the other object in the image?"
+    ],
+    "tile_ids": [
+      15972,
+      27994,
+      25603,
+      33953,
+      144,
+      28942,
+      34313,
+      6400,
+      45055,
+      18827
+    ],
+    "caption_kl": {
+      "question": "what is the other object in the image?",
+      "answer": "bed",
+      "rewrite": "A brown bed featuring a quilted comforter and pillows is situated next to a green wall.",
+      "ranks": [
+        243,
+        686,
+        776,
+        285,
+        140,
+        222,
+        362,
+        162,
+        167,
+        148,
+        165
+      ],
+      "first_hit": null
+    },
+    "visual": {
+      "question": "what is the color of the bed that has a blue and white floral rug underneath it?",
+      "answer": "brown",
+      "rewrite": "a brown bed with blue covers, a quilted comforter, and pillows sits next to a green wall, with a blue and white floral rug underneath",
+      "ranks": [
+        243,
+        686,
+        776,
+        285,
+        140,
+        222,
+        154,
+        145,
+        142,
+        141,
+        106
+      ],
+      "first_hit": null
+    },
+    "review": {
+      "default": "what is the other object in the image?",
+      "questions": [
+        "what is the color of the bed that has a green blanket?",
+        "what is the color of the bed that has a blue and white floral rug underneath it?",
+        "what is the color of the bed with a small teddy bear on the cover?",
+        "what is the other object in the image?"
+      ],
+      "selected": "what is the color of the bed that has a blue and white floral rug underneath it?",
+      "scores": {
+        "what is the color of the bed that has a green blanket?": {
+          "file": "9fd90ae297ed31575cbefcce96ca79506ad69bf045f7af576262dc04f4d12d97.json",
+          "answers": null,
+          "seconds": 1.5781806660816073,
+          "score": null
+        },
+        "what is the color of the bed that has a blue and white floral rug underneath it?": {
+          "file": "3991b3ace57895c0757e1b9a7daf7236dfd7a165e541d402be6c9d1cf51e1435.json",
+          "answers": [
+            "unknown",
+            "unknown",
+            "unknown",
+            "blue",
+            "brown",
+            "blue",
+            "green",
+            "blue",
+            "blue",
+            "blue"
+          ],
+          "seconds": 2.847946709021926,
+          "score": 11
+        },
+        "what is the color of the bed with a small teddy bear on the cover?": {
+          "file": "24a4af954173b5b974563d1aa58ab352da33c4dba9fba90fef0c86b3daa36bef.json",
+          "answers": null,
+          "seconds": 1.5699349159840494,
+          "score": null
+        }
+      }
+    }
+  },
+  {
+    "qid": 1906,
+    "round": 6,
+    "target": "unlabeled2017/000000062364.jpg",
+    "description": "a male snowboarder performs a grind trick in the air on a black snowboard at a sunny ski resort",
+    "initial": "a person doing a trick in the air on a snowboard",
+    "prior_turns": [
+      [
+        "Question: What is the location where the person is performing the trick in the air on a snowboard?",
+        "ski resort"
+      ],
+      [
+        "what is the gender of the person performing the trick in the air on a snowboard?",
+        "male"
+      ],
+      [
+        "what is the weather condition during the trick?",
+        "sunny"
+      ],
+      [
+        "what is the color of the snowboard worn by the male snowboarder performing the trick in the air at the ski resort?",
+        "black"
+      ],
+      [
+        "What type of trick is the male snowboarder performing in the air at the sunny ski resort?",
+        "grind"
+      ]
+    ],
+    "proposals": [
+      "What color is the clothing worn by the male snowboarder performing the grind at the sunny ski resort?",
+      "what is the other object in the image?",
+      "What is the name of the specific jump feature in the air where the male snowboarder is performing the grind?",
+      "What is the color of the clothing worn by the male snowboarder performing the grind at the sunny ski resort?",
+      "What is the name of the specific feature or obstacle the male snowboarder is grinding on?"
+    ],
+    "tile_ids": [
+      10114,
+      15275,
+      46884,
+      32766,
+      9683,
+      11328,
+      13616,
+      16627,
+      7183,
+      9479
+    ],
+    "caption_kl": {
+      "question": "what is the other object in the image?",
+      "answer": "trees",
+      "rewrite": "a male snowboarder in black gear performs a grind trick in the air at a sunny ski resort with trees in the background",
+      "ranks": [
+        61,
+        73,
+        71,
+        30,
+        22,
+        17,
+        25,
+        25,
+        18,
+        38,
+        18
+      ],
+      "first_hit": null
+    },
+    "visual": {
+      "question": "What color is the clothing worn by the male snowboarder performing the grind at the sunny ski resort?",
+      "answer": "red and green",
+      "rewrite": "a male snowboarder in red and green clothing performs a grind trick in the air on a black snowboard at a sunny ski resort",
+      "ranks": [
+        61,
+        73,
+        71,
+        30,
+        22,
+        17,
+        1
+      ],
+      "first_hit": 6
+    },
+    "review": {
+      "default": "what is the other object in the image?",
+      "questions": [
+        "What color is the clothing worn by the male snowboarder performing the grind at the sunny ski resort?",
+        "what is the other object in the image?",
+        "What is the name of the specific jump feature in the air where the male snowboarder is performing the grind?",
+        "What is the color of the clothing worn by the male snowboarder performing the grind at the sunny ski resort?",
+        "What is the name of the specific feature or obstacle the male snowboarder is grinding on?"
+      ],
+      "selected": "What color is the clothing worn by the male snowboarder performing the grind at the sunny ski resort?",
+      "scores": {
+        "what color is the clothing worn by the male snowboarder performing the grind at the sunny ski resort?": {
+          "file": "35b5a9506817428a0d136b6e1cfbd805345e25000ca10177df1341fbce09a45d.json",
+          "answers": [
+            "black",
+            "gray",
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "red",
+            "black",
+            "black"
+          ],
+          "seconds": 2.831677082926035,
+          "score": 17
+        },
+        "what is the color of the clothing worn by the male snowboarder performing the grind at the sunny ski resort?": {
+          "file": "675b4d6a8af820028fdcf5f2ae34f0e7729b8048aee9d433a6610e11d76fbc21.json",
+          "answers": [
+            "black",
+            "gray",
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "red",
+            "black",
+            "black"
+          ],
+          "seconds": 2.8855295840185136,
+          "score": 17
+        }
+      }
+    }
+  },
+  {
+    "qid": 297,
+    "round": 2,
+    "target": "unlabeled2017/000000101518.jpg",
+    "description": "a living room filled with a brown bookcase and a computer",
+    "initial": "a living room filled with a bookcase and computer",
+    "prior_turns": [
+      [
+        "Question: What is the color of the bookcase in the living room?",
+        "brown"
+      ]
+    ],
+    "proposals": [
+      "What is the color of the computer in the living room?",
+      "What is the color of the computer in the living room?",
+      "what is the other object in the image?",
+      "What is the color of the computer in the living room?",
+      "What is the color of the computer in the living room?"
+    ],
+    "tile_ids": [
+      5928,
+      10692,
+      4772,
+      33274,
+      5263,
+      22547,
+      25970,
+      29075,
+      33058,
+      24913
+    ],
+    "caption_kl": {
+      "question": "what is the other object in the image?",
+      "answer": "chandelier",
+      "rewrite": "a brown bookcase and a chandelier in a living room",
+      "ranks": [
+        69,
+        86,
+        13,
+        37,
+        31,
+        17,
+        22,
+        20,
+        29,
+        30,
+        31
+      ],
+      "first_hit": null
+    },
+    "visual": {
+      "question": "What is the color of the computer in the living room?",
+      "answer": "black",
+      "rewrite": "a living room with a brown bookcase and a black computer",
+      "ranks": [
+        69,
+        86,
+        115,
+        157,
+        209,
+        189,
+        69,
+        76,
+        69,
+        63,
+        69
+      ],
+      "first_hit": null
+    },
+    "review": {
+      "default": "what is the other object in the image?",
+      "questions": [
+        "What is the color of the computer in the living room?",
+        "what is the other object in the image?"
+      ],
+      "selected": "What is the color of the computer in the living room?",
+      "scores": {
+        "what is the color of the computer in the living room?": {
+          "file": "749ad48594f582c48c965b31e730d0a573c6a49ccf8a11c3b4b6d061bd9742e6.json",
+          "answers": [
+            "unknown",
+            "unknown",
+            "unknown",
+            "blue",
+            "blue",
+            "black",
+            "black",
+            "unknown",
+            "black",
+            "black"
+          ],
+          "seconds": 3.4430675408802927,
+          "score": 8
+        }
+      }
+    }
+  },
+  {
+    "qid": 332,
+    "round": 1,
+    "target": "unlabeled2017/000000290919.jpg",
+    "description": "a group of zebra grazing in a field",
+    "initial": "a group of zebra grazing in a field",
+    "prior_turns": [],
+    "proposals": [
+      "what is the other object in the image?",
+      "Question: What is the color of the grass where the zebras are grazing?",
+      "what is the color of the grass where the zebras are grazing?",
+      "Question: What is the color of the grass where the zebras are grazing?",
+      "Based on the provided information sources, here is the generated question and the explanation of how the sources were utilized.\n\n**Generated Question:**\n\"Is the image?"
+    ],
+    "tile_ids": [
+      9706,
+      2492,
+      35009,
+      1842,
+      23682,
+      11413,
+      25020,
+      35141,
+      29392,
+      17800
+    ],
+    "caption_kl": {
+      "question": "what is the other object in the image?",
+      "answer": "zebra",
+      "rewrite": "a group of zebras grazing in a field",
+      "ranks": [
+        15,
+        17,
+        13,
+        12,
+        13,
+        20,
+        19,
+        16,
+        15,
+        15,
+        14
+      ],
+      "first_hit": null
+    },
+    "visual": {
+      "question": "Question: What is the color of the grass where the zebras are grazing?",
+      "answer": "yellow",
+      "rewrite": "a group of zebras grazing in a yellow field",
+      "ranks": [
+        15,
+        13,
+        12,
+        11,
+        16,
+        16,
+        13,
+        18,
+        22,
+        19,
+        19
+      ],
+      "first_hit": null
+    },
+    "review": {
+      "default": "what is the other object in the image?",
+      "questions": [
+        "what is the other object in the image?",
+        "Question: What is the color of the grass where the zebras are grazing?",
+        "Based on the provided information sources, here is the generated question and the explanation of how the sources were utilized.\n\n**Generated Question:**\n\"Is the image?"
+      ],
+      "selected": "Question: What is the color of the grass where the zebras are grazing?",
+      "scores": {
+        "what is the color of the grass where the zebras are grazing?": {
+          "file": "d499c2b23e677e723f4c6de7c06569921bdfc262655e39385e9ff72cd1667d8c.json",
+          "answers": [
+            "yellow",
+            "yellow",
+            "yellow",
+            "yellow",
+            "yellow",
+            "yellow",
+            "yellow",
+            "yellow",
+            "green",
+            "green"
+          ],
+          "seconds": 11.3545667079743,
+          "score": 16
+        }
+      }
+    }
+  },
+  {
+    "qid": 742,
+    "round": 1,
+    "target": "unlabeled2017/000000160418.jpg",
+    "description": "a man flying a kite on the sand at the beach",
+    "initial": "a man flying a kite on the sand at the beach",
+    "prior_turns": [],
+    "proposals": [
+      "Question: Is the man flying the kite with his arms stretched out?",
+      "Question: What is the color of the shirt the man is wearing?",
+      "what is the color of the shirt the man is wearing while flying the kite?",
+      "what is the other object in the image?",
+      "what is the other object in the image?"
+    ],
+    "tile_ids": [
+      5526,
+      30539,
+      19790,
+      14415,
+      35956,
+      40417,
+      2844,
+      47194,
+      7888,
+      5213
+    ],
+    "caption_kl": {
+      "question": "what is the other object in the image?",
+      "answer": "a pink kite",
+      "rewrite": "a man flying a pink kite on the sand at the beach",
+      "ranks": [
+        34,
+        110,
+        105,
+        110,
+        101,
+        71,
+        23,
+        17,
+        23,
+        21,
+        2
+      ],
+      "first_hit": 10
+    },
+    "visual": {
+      "question": "Question: What is the color of the shirt the man is wearing?",
+      "answer": "Black.",
+      "rewrite": "a man wearing a black shirt flies a kite on the sand at the beach",
+      "ranks": [
+        34,
+        7
+      ],
+      "first_hit": 1
+    },
+    "review": {
+      "default": "what is the other object in the image?",
+      "questions": [
+        "Question: Is the man flying the kite with his arms stretched out?",
+        "Question: What is the color of the shirt the man is wearing?",
+        "what is the color of the shirt the man is wearing while flying the kite?",
+        "what is the other object in the image?"
+      ],
+      "selected": "Question: What is the color of the shirt the man is wearing?",
+      "scores": {
+        "is the man flying the kite with his arms stretched out?": {
+          "file": "5cc3b78dd98c3ad38d3e975eb98a8ffaa8319b6929586c62f3ee9e7e1aedef04.json",
+          "answers": null,
+          "seconds": 4.543059625197202,
+          "score": null
+        },
+        "what is the color of the shirt the man is wearing?": {
+          "file": "7c675539294fb8607cd439dfb7ed76ebbca828ee4c2d79dada1225d7e46d3bd2.json",
+          "answers": [
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "black",
+            "gray",
+            "unknown",
+            "blue"
+          ],
+          "seconds": 2.693146000150591,
+          "score": 3
+        },
+        "what is the color of the shirt the man is wearing while flying the kite?": {
+          "file": "0719c6cd74d6002e402d3e39dc0ca02541c13b54586f6d089ed675efd0c0a612.json",
+          "answers": null,
+          "seconds": 4.560044209007174,
+          "score": null
+        }
+      }
+    }
+  }
+]

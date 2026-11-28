@@ -1,0 +1,324 @@
+{
+  "qid": 1466,
+  "target": "unlabeled2017/000000308779.jpg",
+  "arm": "q-pixels",
+  "first": 4,
+  "turns": [
+    {
+      "evidence": [
+        32612,
+        16388,
+        25630,
+        38493,
+        25127,
+        41709,
+        24848,
+        8009,
+        30642,
+        43543
+      ],
+      "candidates": [
+        "what color are the motorcycles parked in the parking lot?",
+        "how many motorcycles are parked in the parking lot?",
+        "what is the position of the motorcycles relative to the cone?",
+        "Question: Is there a motorcycle rider wearing a helmet among the parked motorcycles?",
+        "Question: What is the color of the motorcycles parked in the parking lot?"
+      ],
+      "default": "what color are the motorcycles parked in the parking lot?",
+      "question": "what color are the motorcycles parked in the parking lot?",
+      "answer": "black",
+      "rewrite": "a group of black motorcycles parked in a parking lot",
+      "review": {
+        "default": "what color are the motorcycles parked in the parking lot?",
+        "questions": [
+          "what color are the motorcycles parked in the parking lot?",
+          "how many motorcycles are parked in the parking lot?",
+          "what is the position of the motorcycles relative to the cone?",
+          "Question: Is there a motorcycle rider wearing a helmet among the parked motorcycles?",
+          "Question: What is the color of the motorcycles parked in the parking lot?"
+        ],
+        "selected": "what color are the motorcycles parked in the parking lot?",
+        "scores": {}
+      },
+      "shared_seconds": 8.311
+    },
+    {
+      "evidence": [
+        25630,
+        27513,
+        32557,
+        38493,
+        41709,
+        10023,
+        32612,
+        16388,
+        43543,
+        38768
+      ],
+      "candidates": [
+        "what is the surface material of the parking lot where the black motorcycles are parked?",
+        "what type of motorcycle is parked in the black and gold motorcycles image?",
+        "what is the location of the black and gold motorcycles?",
+        "Question: What is the surface material of the parking lot where the black motorcycles are parked?",
+        "Question: What is the surface material of the parking lot where the black motorcycles are parked?"
+      ],
+      "default": "what is the surface material of the parking lot where the black motorcycles are parked?",
+      "question": "what is the surface material of the parking lot where the black motorcycles are parked?",
+      "answer": "concrete",
+      "rewrite": "a group of black motorcycles parked on a concrete surface in a parking lot",
+      "review": {
+        "default": "what is the surface material of the parking lot where the black motorcycles are parked?",
+        "questions": [
+          "what is the surface material of the parking lot where the black motorcycles are parked?",
+          "what type of motorcycle is parked in the black and gold motorcycles image?",
+          "what is the location of the black and gold motorcycles?"
+        ],
+        "selected": "what is the surface material of the parking lot where the black motorcycles are parked?",
+        "scores": {}
+      },
+      "shared_seconds": 9.905
+    },
+    {
+      "evidence": [
+        32557,
+        25630,
+        38768,
+        27513,
+        29501,
+        10023,
+        41709,
+        38493,
+        43543,
+        16388
+      ],
+      "candidates": [
+        "how many motorcycles are parked in the concrete parking lot?",
+        "what is the specific type of motorcycle parked on the concrete surface?",
+        "what is the total count of motorcycles parked on the concrete surface?",
+        "how many motorcycles are parked on the concrete surface?",
+        "what is the color of the motorcycle parked on the dirt?"
+      ],
+      "default": "what is the specific type of motorcycle parked on the concrete surface?",
+      "question": "what is the specific type of motorcycle parked on the concrete surface?",
+      "answer": "harley davidson",
+      "rewrite": "a group of black Harley Davidson motorcycles parked on a concrete surface in a parking lot",
+      "review": {
+        "default": "what is the specific type of motorcycle parked on the concrete surface?",
+        "questions": [
+          "how many motorcycles are parked in the concrete parking lot?",
+          "what is the specific type of motorcycle parked on the concrete surface?",
+          "what is the total count of motorcycles parked on the concrete surface?",
+          "how many motorcycles are parked on the concrete surface?",
+          "what is the color of the motorcycle parked on the dirt?"
+        ],
+        "selected": "what is the specific type of motorcycle parked on the concrete surface?",
+        "scores": {}
+      },
+      "shared_seconds": 7.339
+    },
+    {
+      "evidence": [
+        38768,
+        32557,
+        25630,
+        32612,
+        29501,
+        38493,
+        40132,
+        27513,
+        43543,
+        13446
+      ],
+      "candidates": [
+        "how many motorcycles are parked in the concrete parking lot?",
+        "how many motorcycles are parked on the concrete surface?",
+        "what is the location where the black harley-davidson motorcycles are parked?",
+        "what is the color of the motorcycles parked on the dirt surface?",
+        "how many motorcycles are parked on the concrete surface?"
+      ],
+      "default": "what is the location where the black harley-davidson motorcycles are parked?",
+      "question": "what is the location where the black harley-davidson motorcycles are parked?",
+      "answer": "mountain top",
+      "rewrite": "a group of black Harley-Davidson motorcycles parked on a concrete surface at a mountain top",
+      "review": {
+        "default": "what is the location where the black harley-davidson motorcycles are parked?",
+        "questions": [
+          "how many motorcycles are parked in the concrete parking lot?",
+          "how many motorcycles are parked on the concrete surface?",
+          "what is the location where the black harley-davidson motorcycles are parked?",
+          "what is the color of the motorcycles parked on the dirt surface?"
+        ],
+        "selected": "what is the location where the black harley-davidson motorcycles are parked?",
+        "scores": {}
+      },
+      "shared_seconds": 13.802
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a group of motorcycles parked in a parking lot",
+      "raw_rank": 67,
+      "filtered_rank": 67,
+      "rank": 67,
+      "ordinary_screen": [
+        32612,
+        25630,
+        16388,
+        38493,
+        25127,
+        41709,
+        24848,
+        8009,
+        30642,
+        43543
+      ],
+      "display": [
+        32612,
+        25630,
+        16388,
+        38493,
+        25127,
+        41709,
+        24848,
+        8009,
+        30642,
+        43543
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a group of black motorcycles parked in a parking lot",
+      "raw_rank": 95,
+      "filtered_rank": 85,
+      "rank": 85,
+      "ordinary_screen": [
+        27513,
+        32557,
+        10023,
+        38768,
+        29501,
+        41464,
+        49543,
+        40132,
+        13546,
+        19707
+      ],
+      "display": [
+        27513,
+        32557,
+        10023,
+        38768,
+        29501,
+        41464,
+        49543,
+        40132,
+        13546,
+        19707
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "a group of black motorcycles parked on a concrete surface in a parking lot",
+      "raw_rank": 62,
+      "filtered_rank": 42,
+      "rank": 42,
+      "ordinary_screen": [
+        2248,
+        13446,
+        8700,
+        3456,
+        47818,
+        9939,
+        41261,
+        13883,
+        41917,
+        18659
+      ],
+      "display": [
+        2248,
+        13446,
+        8700,
+        3456,
+        47818,
+        9939,
+        41261,
+        13883,
+        41917,
+        18659
+      ],
+      "check": {}
+    },
+    {
+      "round": 3,
+      "query": "a group of black Harley Davidson motorcycles parked on a concrete surface in a parking lot",
+      "raw_rank": 66,
+      "filtered_rank": 36,
+      "rank": 36,
+      "ordinary_screen": [
+        4225,
+        35235,
+        7678,
+        49399,
+        29479,
+        22596,
+        27056,
+        39903,
+        22271,
+        26014
+      ],
+      "display": [
+        4225,
+        35235,
+        7678,
+        49399,
+        29479,
+        22596,
+        27056,
+        39903,
+        22271,
+        26014
+      ],
+      "check": {}
+    },
+    {
+      "round": 4,
+      "query": "a group of black Harley-Davidson motorcycles parked on a concrete surface at a mountain top",
+      "raw_rank": 1,
+      "filtered_rank": 1,
+      "rank": 1,
+      "ordinary_screen": [
+        26388,
+        33448,
+        43379,
+        21539,
+        44241,
+        41728,
+        48071,
+        22751,
+        19629,
+        14647
+      ],
+      "display": [
+        26388,
+        33448,
+        43379,
+        21539,
+        44241,
+        41728,
+        48071,
+        22751,
+        19629,
+        14647
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 39.357,
+  "live": false,
+  "seconds": 0.07829241710714996,
+  "archived_source": "output/matan-indexed-selector/fallback/confirm/indexed/dialogues/1466.json",
+  "archived_sha256": "0626758b60ccac17cf6008f4096d719d328ab6e356c4731aa6f69714aaec4683"
+}

@@ -1,0 +1,141 @@
+{
+  "qid": 1646,
+  "selection": {
+    "kl": "what is the other object in the image?",
+    "probe": "what is the other object in the image?",
+    "candidates": [
+      {
+        "question": "what is the other object in the image?",
+        "score": 2,
+        "branches": [
+          {
+            "answer": "a white and red passenger bus",
+            "caption": "a white and red passenger bus driving down a city street",
+            "top10": [
+              7577,
+              49580,
+              9220,
+              47326,
+              25194,
+              36697,
+              44836,
+              44317,
+              22336,
+              23671
+            ]
+          },
+          {
+            "answer": "a white and orange bus",
+            "caption": "a white and orange bus traveling down a street",
+            "top10": [
+              26875,
+              49580,
+              6732,
+              7845,
+              12500,
+              24447,
+              21289,
+              7577,
+              26114,
+              1895
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the specific color pattern (e.g., two-tone vs. solid) of the white bus in the image?",
+        "score": 3,
+        "branches": [
+          {
+            "answer": "solid white",
+            "caption": "a solid white bus heading down the street",
+            "top10": [
+              27307,
+              31590,
+              1895,
+              43930,
+              36697,
+              3428,
+              38635,
+              33181,
+              32526,
+              11322
+            ]
+          },
+          {
+            "answer": "two-tone (white and red)",
+            "caption": "a white and red passenger bus driving down a city street",
+            "top10": [
+              7577,
+              49580,
+              9220,
+              47326,
+              25194,
+              36697,
+              44836,
+              44317,
+              22336,
+              23671
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: What is the specific color pattern (e.g., solid white vs. two-tone) of the white bus in the image?",
+        "score": 3,
+        "branches": [
+          {
+            "answer": "solid white",
+            "caption": "a large solid white bus heading down the street",
+            "top10": [
+              27307,
+              1895,
+              31590,
+              3428,
+              43930,
+              38635,
+              36697,
+              33181,
+              32526,
+              26307
+            ]
+          },
+          {
+            "answer": "two-tone (white and red)",
+            "caption": "a large white and red bus heading down the street",
+            "top10": [
+              7577,
+              44836,
+              37057,
+              44525,
+              9220,
+              22336,
+              47326,
+              49580,
+              36697,
+              44317
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "outcomes": {
+    "what is the other object in the image?": {
+      "answer": "bench",
+      "rewrite": "a large white bus heading down the street with a bench nearby",
+      "rank": 2
+    },
+    "what is the specific color pattern (e.g., two-tone vs. solid) of the white bus in the image?": {
+      "answer": "two-tone",
+      "rewrite": "a large two-tone white bus heading down the street",
+      "rank": 85
+    },
+    "Question: What is the specific color pattern (e.g., solid white vs. two-tone) of the white bus in the image?": {
+      "answer": "two-tone",
+      "rewrite": "a large two-tone white bus heading down the street",
+      "rank": 85
+    }
+  },
+  "saved_kl_rank": 2
+}

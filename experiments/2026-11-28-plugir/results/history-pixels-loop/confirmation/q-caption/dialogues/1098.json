@@ -1,0 +1,182 @@
+{
+  "qid": 1098,
+  "target": "unlabeled2017/000000253021.jpg",
+  "arm": "q-caption",
+  "first": 2,
+  "turns": [
+    {
+      "evidence": [
+        33396,
+        49528,
+        48599,
+        32290,
+        45240,
+        23727,
+        49221,
+        8652,
+        23521,
+        26959
+      ],
+      "candidates": [
+        "what is the traffic signal status at the intersection where the green and white bus is located?",
+        "a red stop sign is visible near the green and white bus at the intersection.\n\n**Explanation:**\nI generated this question by analyzing the **Description** (\"?",
+        "Is there a stop sign visible near the green and white bus?",
+        "Question: what is the traffic signal status at the intersection where the green and white bus is located?",
+        "Question: what is the traffic signal status at the intersection where the green and white bus is located?"
+      ],
+      "default": "Is there a stop sign visible near the green and white bus?",
+      "question": "Is there a stop sign visible near the green and white bus?",
+      "answer": "no",
+      "rewrite": "a green and white bus stands at an intersection without a visible stop sign",
+      "review": {
+        "default": "Is there a stop sign visible near the green and white bus?",
+        "questions": [
+          "what is the traffic signal status at the intersection where the green and white bus is located?",
+          "a red stop sign is visible near the green and white bus at the intersection.\n\n**Explanation:**\nI generated this question by analyzing the **Description** (\"?",
+          "Is there a stop sign visible near the green and white bus?"
+        ],
+        "selected": "Is there a stop sign visible near the green and white bus?",
+        "scores": {}
+      },
+      "shared_seconds": 16.457
+    },
+    {
+      "evidence": [
+        49528,
+        48599,
+        45240,
+        49221,
+        33396,
+        32290,
+        23145,
+        23727,
+        44816,
+        14796
+      ],
+      "candidates": [
+        "what is the status of the green and white bus (e.g., driving or parked)?",
+        "what is the background object behind the green and white bus?",
+        "what is the color of the bus in the image where a stop sign is visible?",
+        "Question: Which of the following images shows a green and white bus that is driving down a street?",
+        "what is the background object behind the green and white bus?"
+      ],
+      "default": "what is the color of the bus in the image where a stop sign is visible?",
+      "question": "what is the color of the bus in the image where a stop sign is visible?",
+      "answer": "blue",
+      "rewrite": "a blue and white bus stands at an intersection without a visible stop sign",
+      "review": {
+        "default": "what is the color of the bus in the image where a stop sign is visible?",
+        "questions": [
+          "what is the status of the green and white bus (e.g., driving or parked)?",
+          "what is the background object behind the green and white bus?",
+          "what is the color of the bus in the image where a stop sign is visible?",
+          "Question: Which of the following images shows a green and white bus that is driving down a street?"
+        ],
+        "selected": "what is the color of the bus in the image where a stop sign is visible?",
+        "scores": {}
+      },
+      "shared_seconds": 14.13
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a green and white bus stands at an intersection",
+      "raw_rank": 83,
+      "filtered_rank": 83,
+      "rank": 83,
+      "ordinary_screen": [
+        33396,
+        48599,
+        32290,
+        49528,
+        45240,
+        23727,
+        8652,
+        49221,
+        23521,
+        26959
+      ],
+      "display": [
+        33396,
+        48599,
+        32290,
+        49528,
+        45240,
+        23727,
+        8652,
+        49221,
+        23521,
+        26959
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a green and white bus stands at an intersection without a visible stop sign",
+      "raw_rank": 93,
+      "filtered_rank": 83,
+      "rank": 83,
+      "ordinary_screen": [
+        23145,
+        44816,
+        14796,
+        11052,
+        37382,
+        28642,
+        3379,
+        47973,
+        28703,
+        47987
+      ],
+      "display": [
+        23145,
+        44816,
+        14796,
+        11052,
+        37382,
+        28642,
+        3379,
+        47973,
+        28703,
+        47987
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "a blue and white bus stands at an intersection without a visible stop sign",
+      "raw_rank": 1,
+      "filtered_rank": 1,
+      "rank": 1,
+      "ordinary_screen": [
+        21722,
+        5410,
+        30330,
+        8793,
+        25474,
+        31590,
+        33800,
+        27047,
+        14031,
+        19805
+      ],
+      "display": [
+        21722,
+        5410,
+        30330,
+        8793,
+        25474,
+        31590,
+        33800,
+        27047,
+        14031,
+        19805
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 30.587000000000003,
+  "live": false,
+  "seconds": 0.09301566705107689
+}

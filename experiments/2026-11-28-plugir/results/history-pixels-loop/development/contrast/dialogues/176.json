@@ -1,0 +1,163 @@
+{
+  "qid": 176,
+  "target": "unlabeled2017/000000538790.jpg",
+  "arm": "contrast",
+  "first": 2,
+  "turns": [
+    {
+      "evidence": [
+        23942,
+        5718,
+        397,
+        46329,
+        19260,
+        18139,
+        5493,
+        49587,
+        3698,
+        43869
+      ],
+      "candidates": [
+        "what is the weather condition of the sky in the image?",
+        "Question: Which of the following best describes the people in the image: a single person, a group of people, or two people specifically?",
+        "Question: What is the color of the sky in the image?",
+        "what is the color of the water in the image?",
+        "Question: What is the color of the sand in the image?"
+      ],
+      "default": "Question: What is the color of the sand in the image?",
+      "question": "Question: What is the color of the sand in the image?",
+      "answer": "brown",
+      "rewrite": "two kites flying over brown sand by the ocean shore",
+      "review": null,
+      "shared_seconds": 11.288289499934763
+    },
+    {
+      "evidence": [
+        46329,
+        14253,
+        29952,
+        19040,
+        28069,
+        4615,
+        13537,
+        20141,
+        3698,
+        23942
+      ],
+      "candidates": [
+        "Question: Is there only one person flying a kite in the image?",
+        "Question: What is the color of the water in the image?",
+        "Question: What is the gender of the person flying the kite in the image?",
+        "Question: What is the gender of the person flying the kite in the image?",
+        "Question: What is the gender of the person flying the kite in the image?"
+      ],
+      "default": "Question: What is the color of the water in the image?",
+      "question": "Question: What is the color of the water in the image?",
+      "answer": "blue",
+      "rewrite": "two kites flying over brown sand by the blue ocean shore",
+      "review": null,
+      "shared_seconds": 9.44476579199545
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "2 kites flying over the sand by the ocean shore",
+      "raw_rank": 13,
+      "filtered_rank": 13,
+      "rank": 13,
+      "ordinary_screen": [
+        3698,
+        43869,
+        34732,
+        7120,
+        19556,
+        27782,
+        17329,
+        13169,
+        45031,
+        16730
+      ],
+      "display": [
+        3698,
+        43869,
+        34732,
+        7120,
+        19556,
+        27782,
+        17329,
+        13169,
+        45031,
+        16730
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "two kites flying over brown sand by the ocean shore",
+      "raw_rank": 19,
+      "filtered_rank": 11,
+      "rank": 11,
+      "ordinary_screen": [
+        23942,
+        19260,
+        20782,
+        39552,
+        5950,
+        5493,
+        24480,
+        13478,
+        49587,
+        41379
+      ],
+      "display": [
+        23942,
+        19260,
+        20782,
+        39552,
+        5950,
+        5493,
+        24480,
+        13478,
+        49587,
+        41379
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "two kites flying over brown sand by the blue ocean shore",
+      "raw_rank": 12,
+      "filtered_rank": 2,
+      "rank": 2,
+      "ordinary_screen": [
+        24274,
+        46329,
+        397,
+        29952,
+        5718,
+        18139,
+        14960,
+        49776,
+        41977,
+        4615
+      ],
+      "display": [
+        24274,
+        46329,
+        397,
+        29952,
+        5718,
+        18139,
+        14960,
+        49776,
+        41977,
+        4615
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 20.733055291930214,
+  "live": true,
+  "seconds": 20.79099562484771
+}

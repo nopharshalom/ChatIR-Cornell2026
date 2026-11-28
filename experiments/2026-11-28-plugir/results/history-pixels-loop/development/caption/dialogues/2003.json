@@ -1,0 +1,145 @@
+{
+  "qid": 2003,
+  "target": "unlabeled2017/000000312031.jpg",
+  "arm": "caption",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        31070,
+        25374,
+        32923,
+        34568,
+        17182,
+        47945,
+        11666,
+        29177,
+        14007,
+        10916
+      ],
+      "candidates": [
+        "Question: Is the woman playing tennis on an outdoor court or in the air?",
+        "Question: What color is the woman's outfit?",
+        "Question: Is the woman playing tennis on a court or in the air?",
+        "Question: What color is the woman's outfit?",
+        "Question: Is the woman playing tennis on a court or in the air?"
+      ],
+      "default": "Question: What color is the woman's outfit?",
+      "question": "Question: What color is the woman's outfit?",
+      "answer": "Blue.",
+      "rewrite": "a woman in a blue outfit stands on one foot with her arms out, holding a tennis racquet",
+      "review": null,
+      "shared_seconds": 8.578
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "the woman is standing on 1 foot with her arms out holding a tennis racquet",
+      "raw_rank": 87,
+      "filtered_rank": 87,
+      "rank": 87,
+      "ordinary_screen": [
+        31070,
+        25374,
+        32923,
+        34568,
+        17182,
+        47945,
+        29177,
+        11666,
+        10916,
+        14007
+      ],
+      "display": [
+        31070,
+        25374,
+        32923,
+        34568,
+        17182,
+        47945,
+        29177,
+        11666,
+        10916,
+        14007
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a woman in a blue outfit stands on one foot with her arms out, holding a tennis racquet",
+      "raw_rank": 5,
+      "filtered_rank": 2,
+      "rank": 2,
+      "ordinary_screen": [
+        3682,
+        26692,
+        29429,
+        29971,
+        4920,
+        25691,
+        885,
+        22770,
+        37877,
+        43726
+      ],
+      "display": [
+        3682,
+        26692,
+        29429,
+        29971,
+        4920,
+        25691,
+        885,
+        22770,
+        37877,
+        43726
+      ],
+      "check": {
+        "question": "Question: What color is the woman's outfit?",
+        "answer": "blue",
+        "labels": [
+          {
+            "id": 22770,
+            "color": null,
+            "file": "2e799a4903c092c2d7c34ed1a1cdea5f779acf783fda8768077b3e2de4a375ff.json",
+            "seconds": 0.16772212483920157
+          },
+          {
+            "id": 37877,
+            "color": null,
+            "file": "dac5e8759eea5e4003bb31dc17af9fa541ec6c7438747325fab03f378d4d8a5b.json",
+            "seconds": 0.17126658302731812
+          },
+          {
+            "id": 43726,
+            "color": null,
+            "file": "d18f6ae2404ddeabba4cb5ab5601cd7c358e58ea4a85069eb368b8cb2fa0f5cf.json",
+            "seconds": 0.17125804093666375
+          },
+          {
+            "id": 9845,
+            "color": "blue",
+            "file": "92a8790ba7bf56f31d382990761a8d459df61eba20812b9a256d9d67b12f2c43.json",
+            "seconds": 0.17582820914685726
+          },
+          {
+            "id": 46006,
+            "color": null,
+            "file": "ecbec4c25d6716f65e2468a176f29bbeae550e510f18d2bb49362a3dbd4103e2.json",
+            "seconds": 0.17319770902395248
+          },
+          {
+            "id": 13677,
+            "color": null,
+            "file": "7709a3ea982225c3826a89c918832da20a997dde5b21084f8e9ed11a72674e29.json",
+            "seconds": 0.17142816702835262
+          }
+        ]
+      }
+    }
+  ],
+  "shared_seconds": 8.578,
+  "live": false,
+  "seconds": 1.0674489580560476
+}

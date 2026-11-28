@@ -1,0 +1,73 @@
+{
+  "pivot": null,
+  "trace": [
+    {
+      "slots": [
+        {
+          "entity": "toilet",
+          "family": "material",
+          "values": [
+            "porcelain",
+            "ceramic"
+          ],
+          "question": "What material is the toilet made of?"
+        }
+      ],
+      "vetoes": [
+        "dialogue-only check: {'status': 'ASKED', 'evidence': \"The initial description states 'a single toilet sits inside an unfinished bathroom', which directly answers the question about the kind of place the unfinished bathroom is.\"}"
+      ],
+      "caption_labels": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "porcelain",
+          "porcelain",
+          "porcelain",
+          "porcelain",
+          "porcelain",
+          "porcelain",
+          "porcelain",
+          "ceramic",
+          "porcelain",
+          "porcelain"
+        ]
+      ],
+      "filled": [
+        10
+      ],
+      "pixel_supported": [
+        false
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "invalid or duplicate nomination"
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "attribute explicitly modifies subject"
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "attribute explicitly modifies subject"
+      ]
+    }
+  ]
+}

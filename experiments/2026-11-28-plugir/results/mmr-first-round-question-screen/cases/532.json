@@ -1,0 +1,128 @@
+{
+  "qid": 532,
+  "selection": {
+    "kl": "what is the baseball player holding?",
+    "probe": "what is the baseball player holding?",
+    "candidates": [
+      {
+        "question": "Question: What color is the uniform of the baseball player?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "what is the action of the baseball player in the red and white uniform?",
+        "score": 2,
+        "branches": [
+          {
+            "answer": "pitching",
+            "caption": "a baseball player in red and white uniform pitching a ball on a baseball field",
+            "top10": [
+              37416,
+              43506,
+              40064,
+              41094,
+              48269,
+              33652,
+              23142,
+              37039,
+              47128,
+              17548
+            ]
+          },
+          {
+            "answer": "throwing",
+            "caption": "a baseball player in red and white uniform throwing a pitch",
+            "top10": [
+              40064,
+              37416,
+              33652,
+              48269,
+              43506,
+              37039,
+              23142,
+              47128,
+              41094,
+              18962
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: What is the color of the baseball field?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "what is the baseball player holding?",
+        "score": 7,
+        "branches": [
+          {
+            "answer": "a baseball bat",
+            "caption": "a baseball player is on the mound ready to swing with a baseball bat",
+            "top10": [
+              36866,
+              10419,
+              26036,
+              7567,
+              34244,
+              13690,
+              41807,
+              30935,
+              16982,
+              18652
+            ]
+          },
+          {
+            "answer": "a baseball glove",
+            "caption": "a baseball player is on the mound ready to swing with a baseball glove",
+            "top10": [
+              36866,
+              21639,
+              7567,
+              48813,
+              12012,
+              37537,
+              10419,
+              41945,
+              35649,
+              34244
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the baseball player doing with the bat?",
+        "score": null,
+        "branches": []
+      }
+    ]
+  },
+  "outcomes": {
+    "Question: What color is the uniform of the baseball player?": {
+      "answer": "gray",
+      "rewrite": "a baseball player in a gray uniform is on the mound ready to swing",
+      "rank": 25
+    },
+    "what is the action of the baseball player in the red and white uniform?": {
+      "answer": "batting",
+      "rewrite": "a baseball player in a red and white uniform is batting",
+      "rank": 73
+    },
+    "Question: What is the color of the baseball field?": {
+      "answer": "green",
+      "rewrite": "a baseball player is on the green mound ready to swing",
+      "rank": 158
+    },
+    "what is the baseball player holding?": {
+      "answer": "bat",
+      "rewrite": "a baseball player is on the mound holding a bat, ready to swing",
+      "rank": 42
+    },
+    "what is the baseball player doing with the bat?": {
+      "answer": "swinging",
+      "rewrite": "a baseball player is on the mound swinging a bat",
+      "rank": 414
+    }
+  },
+  "saved_kl_rank": 42
+}

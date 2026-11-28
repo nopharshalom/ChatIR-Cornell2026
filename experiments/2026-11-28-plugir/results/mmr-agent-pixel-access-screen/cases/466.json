@@ -1,0 +1,40 @@
+{
+  "plan_raw": "{\n\"choice\": 3,\n\"check\": \"what is the color of the shirt worn by the man performing the skateboard trick in the air?\",\n\"photos\": [0, 2]\n}",
+  "provisional": 3,
+  "valid_plan": true,
+  "caption": {
+    "choice": 0,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "The color of the shirt is unknown as no photo was supplied and the caption does not describe it."
+      },
+      {
+        "index": 2,
+        "observation": "The color of the shirt worn by the man is unknown as it is not described in the caption or visible in the provided photo."
+      }
+    ],
+    "raw": "{\"choice\": 0}"
+  },
+  "pixels": {
+    "choice": 3,
+    "fallback": false,
+    "observations": [
+      {
+        "index": 0,
+        "observation": "green"
+      },
+      {
+        "index": 2,
+        "observation": "The man performing the skateboard trick is wearing a striped shirt."
+      }
+    ],
+    "raw": "{\"choice\": 3}"
+  },
+  "qid": 466,
+  "example_ids": [
+    780,
+    1392
+  ]
+}

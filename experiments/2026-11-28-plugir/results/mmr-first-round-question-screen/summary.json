@@ -1,0 +1,57 @@
+{
+  "all": {
+    "n": 40,
+    "kl_hits": 14,
+    "probe_hits": 12,
+    "any_question_hits": 19,
+    "recoverable_kl_misses": [
+      466,
+      508,
+      742,
+      1640,
+      1820
+    ],
+    "probe_rescues": [],
+    "probe_losses": [
+      1288,
+      754
+    ],
+    "kl_rank_replay_differences": [
+      688
+    ]
+  },
+  "groups": [
+    {
+      "n": 20,
+      "kl_hits": 7,
+      "probe_hits": 5,
+      "any_question_hits": 8,
+      "recoverable_kl_misses": [
+        466
+      ],
+      "probe_rescues": [],
+      "probe_losses": [
+        1288,
+        754
+      ],
+      "kl_rank_replay_differences": []
+    },
+    {
+      "n": 20,
+      "kl_hits": 7,
+      "probe_hits": 7,
+      "any_question_hits": 11,
+      "recoverable_kl_misses": [
+        508,
+        742,
+        1640,
+        1820
+      ],
+      "probe_rescues": [],
+      "probe_losses": [],
+      "kl_rank_replay_differences": [
+        688
+      ]
+    }
+  ]
+}

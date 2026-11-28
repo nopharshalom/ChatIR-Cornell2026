@@ -1,0 +1,10 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    "You see only the user's initial description and completed dialogue. Is the proposed\nquestion natural and neutrally phrased about a uniquely identifiable subject in their own\nphoto, applicable to that subject, directly visible, still unanswered and not previously\nasked even with different wording? Reject false premises, underspecified multiple people or\nobjects, implied answers, and activities that require guessing intent. The labels must\nrepresent distinct, non-overlapping plausible answers. Return exactly PASS or SKIP.",
+    "{\"dialogue\": [\"3 zebras standing and grazing in a grassy area\", \"what is the other object in the image? zebra\", \"what is the other object in the image? zebra\", \"what is the other object in the image? zebra\", \"what is the specific location where the three zebras are grazing? i'm sorry, i can't answer that.\", \"what is the other object in the image? zebra\", \"what is the other object in the image? zebra\", \"what is the color pattern of the zebras in the image? black and white stripes\", \"what is the other object in the image? zebra\", \"what is the specific location where the zebras are standing and grazing? the zebras are standing and grazing in a grassy plain, likely part of the savanna ecosystem, with hills in the background.\"], \"slot\": {\"entity\": \"background\", \"family\": \"setting\", \"question\": \"What kind of place is the background in?\", \"values\": [\"grassy plain\", \"savanna\", \"field with a hill\"]}}",
+    10,
+    null
+  ],
+  "response": "PASS"
+}

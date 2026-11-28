@@ -1,0 +1,433 @@
+[
+  {
+    "qid": 1348,
+    "round": 2,
+    "target": "unlabeled2017/000000328950.jpg",
+    "description": "A man stands on a beach by the water flying a kite.",
+    "initial": "a man standing on a beach near water flying a kite",
+    "prior_turns": [
+      [
+        "what is the other object in the image?",
+        "beach"
+      ]
+    ],
+    "proposals": [
+      "what is the color of the beach near the water?",
+      "what is the color of the kite the man is flying on the beach?",
+      "what is the color of the man's clothing in the image where a man is flying a kite on a beach?",
+      "what is the color of the sky in the image where a man is flying a kite on the beach?",
+      "what is the color of the water near the beach in the image where a man is flying a kite?"
+    ],
+    "tile_ids": [
+      14415,
+      3162,
+      5526,
+      12281,
+      30768,
+      34176,
+      2844,
+      18254,
+      37283,
+      5213
+    ],
+    "caption_kl": {
+      "question": "what is the color of the beach near the water?",
+      "answer": "brown",
+      "rewrite": "a man standing on a brown beach near water flying a kite",
+      "ranks": [
+        11,
+        17,
+        5
+      ],
+      "first_hit": 2
+    },
+    "visual": {
+      "question": "what is the color of the kite the man is flying on the beach?",
+      "answer": "green",
+      "rewrite": "a man standing on a beach near water flying a green kite",
+      "ranks": [
+        11,
+        17,
+        7
+      ],
+      "first_hit": 2
+    },
+    "review": {
+      "default": "what is the color of the beach near the water?",
+      "questions": [
+        "what is the color of the beach near the water?",
+        "what is the color of the kite the man is flying on the beach?",
+        "what is the color of the man's clothing in the image where a man is flying a kite on a beach?",
+        "what is the color of the sky in the image where a man is flying a kite on the beach?",
+        "what is the color of the water near the beach in the image where a man is flying a kite?"
+      ],
+      "selected": "what is the color of the kite the man is flying on the beach?",
+      "scores": {
+        "what is the color of the beach near the water?": {
+          "file": "842ead5220a141a4043740a096f68bc47576f4f6f827decb46feea6f7b364af2.json",
+          "answers": [
+            "brown",
+            "brown",
+            "brown",
+            "gray",
+            "green",
+            "brown",
+            "yellow",
+            "brown",
+            "brown",
+            "brown"
+          ],
+          "seconds": 3.0872205421328545,
+          "score": 24
+        },
+        "what is the color of the kite the man is flying on the beach?": {
+          "file": "75fd9c2a26f5fb139f0e92a4a834c34dab68c10bc8544b0f9ceced8872392acc.json",
+          "answers": [
+            "red",
+            "black",
+            "green",
+            "orange",
+            "pink",
+            "white",
+            "blue",
+            "black",
+            "blue",
+            "red"
+          ],
+          "seconds": 3.1280885417945683,
+          "score": 42
+        },
+        "what is the color of the man's clothing in the image where a man is flying a kite on a beach?": {
+          "file": "4655d758956ff129b32fe65c3e04e88e80b2ed458985a8d9496c95b1f785f59d.json",
+          "answers": [
+            "gray",
+            "gray",
+            "black",
+            "black",
+            "gray",
+            "black",
+            "black",
+            "blue",
+            "black",
+            "black"
+          ],
+          "seconds": 3.2368600422050804,
+          "score": 27
+        },
+        "what is the color of the sky in the image where a man is flying a kite on the beach?": {
+          "file": "2fa85ce278d3d94ed05301307a0ec67f80699a00196048259ce5e7aaaec9ed74.json",
+          "answers": [
+            "gray",
+            "blue",
+            "blue",
+            "blue",
+            "gray",
+            "blue",
+            "gray",
+            "blue",
+            "gray",
+            "blue"
+          ],
+          "seconds": 3.2549119170289487,
+          "score": 24
+        },
+        "what is the color of the water near the beach in the image where a man is flying a kite?": {
+          "file": "6129da16823f9d227c4f4f425eaaf124e519ec4aa524674331193a91a4f6db5f.json",
+          "answers": [
+            "gray",
+            "blue",
+            "blue",
+            "blue",
+            "gray",
+            "blue",
+            "green",
+            "blue",
+            "blue",
+            "blue"
+          ],
+          "seconds": 3.213138167047873,
+          "score": 23
+        }
+      }
+    }
+  },
+  {
+    "qid": 1743,
+    "round": 8,
+    "target": "unlabeled2017/000000224555.jpg",
+    "description": "a brown bed with blue covers, a gray quilted comforter, and pillows sits next to a green wall",
+    "initial": "a bed with blue covers next to a wall",
+    "prior_turns": [
+      [
+        "what is the color of the wall next to the bed with blue covers?",
+        "green"
+      ],
+      [
+        "Is there anything on the bed with blue covers?",
+        "Yes."
+      ],
+      [
+        "what is the color of the bed that has blue covers?",
+        "brown"
+      ],
+      [
+        "what are the other items on the bed with blue covers?",
+        "pillows"
+      ],
+      [
+        "what is the color of the bed that has a quilted comforter?",
+        "brown"
+      ],
+      [
+        "what is the other object in the image?",
+        "bed"
+      ],
+      [
+        "what is the color of the bedspread on the bed with blue covers?",
+        "gray"
+      ]
+    ],
+    "proposals": [
+      "what is the other object in the image?",
+      "what is the color of the bedspread on the bed with blue covers?",
+      "what is the color of the wall next to the bed with blue covers?",
+      "what is the color of the bedspread on the bed with blue covers?",
+      "what is the color of the bedspread on the bed with blue covers?"
+    ],
+    "tile_ids": [
+      15972,
+      25603,
+      144,
+      34313,
+      30365,
+      33953,
+      2689,
+      19888,
+      18827,
+      27994
+    ],
+    "caption_kl": {
+      "question": "what is the color of the bedspread on the bed with blue covers?",
+      "answer": "gray",
+      "rewrite": "a brown bed with blue covers and gray bedspread, featuring pillows and a quilted comforter, situated next to a green wall",
+      "ranks": [
+        243,
+        686,
+        776,
+        285,
+        140,
+        222,
+        362,
+        162,
+        167,
+        148,
+        165
+      ],
+      "first_hit": null
+    },
+    "visual": {
+      "question": "what is the color of the wall next to the bed with blue covers?",
+      "answer": "green",
+      "rewrite": "Next to a green wall sits a brown bed dressed with blue covers, a gray quilted comforter, and pillows.",
+      "ranks": [
+        243,
+        686,
+        776,
+        285,
+        140,
+        222,
+        362,
+        162,
+        146,
+        123,
+        107
+      ],
+      "first_hit": null
+    },
+    "review": {
+      "default": "what is the color of the bedspread on the bed with blue covers?",
+      "questions": [
+        "what is the other object in the image?",
+        "what is the color of the bedspread on the bed with blue covers?",
+        "what is the color of the wall next to the bed with blue covers?"
+      ],
+      "selected": "what is the color of the wall next to the bed with blue covers?",
+      "scores": {
+        "what is the color of the bedspread on the bed with blue covers?": {
+          "file": "4af51476b4ee206f1a2864857e2e284d989bdc5f71853d49ad174d952aea3743.json",
+          "answers": [
+            "gray",
+            "blue",
+            "brown",
+            "blue",
+            "blue",
+            "blue",
+            "blue",
+            "gray",
+            "blue",
+            "brown"
+          ],
+          "seconds": 2.7468330829869956,
+          "score": 28
+        },
+        "what is the color of the wall next to the bed with blue covers?": {
+          "file": "3f09026700195a9dcb99a7e8346b0560015fe2a942a720856271cf6891ece83e.json",
+          "answers": [
+            "blue",
+            "gray",
+            "white",
+            "blue",
+            "white",
+            "blue",
+            "white",
+            "white",
+            "blue",
+            "blue"
+          ],
+          "seconds": 2.9177617500536144,
+          "score": 29
+        }
+      }
+    }
+  },
+  {
+    "qid": 1894,
+    "round": 1,
+    "target": "unlabeled2017/000000380534.jpg",
+    "description": "furniture decor in a living room setting inside a house",
+    "initial": "furniture decor in a living room setting inside a house",
+    "prior_turns": [],
+    "proposals": [
+      "Question: Does the living room have a fireplace?",
+      "Question: How many couches are in the living room?",
+      "Question: What is the color of the floor in the living room?",
+      "Question: Does the living room have a television?",
+      "Question: What color are the couches in the living room?"
+    ],
+    "tile_ids": [
+      34384,
+      7321,
+      17912,
+      18232,
+      10314,
+      48731,
+      6983,
+      48094,
+      24351,
+      25687
+    ],
+    "caption_kl": {
+      "question": "Question: What is the color of the floor in the living room?",
+      "answer": "wood",
+      "rewrite": "wood floor furniture decor in a living room setting inside a house",
+      "ranks": [
+        18,
+        124,
+        102,
+        18,
+        7
+      ],
+      "first_hit": 4
+    },
+    "visual": {
+      "question": "Question: What color are the couches in the living room?",
+      "answer": "brown",
+      "rewrite": "brown couches in a living room setting inside a house",
+      "ranks": [
+        18,
+        44,
+        59,
+        43,
+        22,
+        27,
+        40,
+        56,
+        101,
+        46,
+        40
+      ],
+      "first_hit": null
+    },
+    "review": {
+      "default": "Question: What is the color of the floor in the living room?",
+      "questions": [
+        "Question: Does the living room have a fireplace?",
+        "Question: How many couches are in the living room?",
+        "Question: What is the color of the floor in the living room?",
+        "Question: Does the living room have a television?",
+        "Question: What color are the couches in the living room?"
+      ],
+      "selected": "Question: What color are the couches in the living room?",
+      "scores": {
+        "does the living room have a fireplace?": {
+          "file": "6c08ac5aed654a1866ff8fcc2198f0f1c1a08be485f238920d0a4fe48805d3e5.json",
+          "answers": [
+            "no",
+            "yes",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no"
+          ],
+          "seconds": 2.8304426660761237,
+          "score": 16
+        },
+        "what is the color of the floor in the living room?": {
+          "file": "d01c2f7c8d02b7c61ac9402bdb339eaf3e4dbe2822e98714370007b621702b78.json",
+          "answers": [
+            "brown",
+            "brown",
+            "brown",
+            "brown",
+            "brown",
+            "brown",
+            "brown",
+            "brown",
+            "brown",
+            "brown"
+          ],
+          "seconds": 2.8538392500486225,
+          "score": 0
+        },
+        "does the living room have a television?": {
+          "file": "7a230180a6543bbd3b764cc0ac1271b538baf76cc954cb43caae8d628da236f1.json",
+          "answers": [
+            "no",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "yes"
+          ],
+          "seconds": 2.833425249904394,
+          "score": 21
+        },
+        "what color are the couches in the living room?": {
+          "file": "dd87c053a94a581db194e065f01b731edf1676b6d209ec4fb6f17848ec669976.json",
+          "answers": [
+            "gray",
+            "unknown",
+            "brown",
+            "brown",
+            "brown",
+            "gray",
+            "yellow",
+            "brown",
+            "brown",
+            "orange"
+          ],
+          "seconds": 2.8271996669936925,
+          "score": 25
+        }
+      }
+    }
+  }
+]

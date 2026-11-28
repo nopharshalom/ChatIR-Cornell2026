@@ -1,0 +1,281 @@
+{
+  "qid": 1004,
+  "target": "unlabeled2017/000000312260.jpg",
+  "arm": "contrast",
+  "first": 4,
+  "turns": [
+    {
+      "evidence": [
+        46018,
+        7049,
+        25752,
+        9216,
+        22058,
+        4711,
+        2318,
+        3744,
+        41155,
+        16375
+      ],
+      "candidates": [
+        "what are the skiers wearing?",
+        "Question: Can you describe the specific clothing items worn by the group of four people?",
+        "Question: Question: What is the color of the ski jackets worn by the group of four people?",
+        "Question: What is the color of the ski jackets worn by the four people standing on the snowy slope?",
+        "Question: Question: What is the color of the ski jackets worn by the four people standing on the snowy slope?"
+      ],
+      "default": "what are the skiers wearing?",
+      "question": "what are the skiers wearing?",
+      "answer": "winter gear",
+      "rewrite": "4 people in winter gear standing on a snowy slope with skis",
+      "review": null,
+      "shared_seconds": 10.866910541895777
+    },
+    {
+      "evidence": [
+        21012,
+        47243,
+        47986,
+        9062,
+        11214,
+        10153,
+        1479,
+        19596,
+        16375,
+        41155
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "what is the number of people standing on the snowy slope with skis?",
+        "Question: What is the specific number of people standing on the snowy slope with skis?",
+        "Question: What is the specific number of people standing on the snowy slope with skis?",
+        "what is the specific number of people standing on the snowy slope with skis?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "ski poles",
+      "rewrite": "four people in winter gear standing on a snowy slope with skis and ski poles",
+      "review": null,
+      "shared_seconds": 25.34948445786722
+    },
+    {
+      "evidence": [
+        10153,
+        2329,
+        26273,
+        11214,
+        27597,
+        9062,
+        20383,
+        47124,
+        41155,
+        16375
+      ],
+      "candidates": [
+        "Question: Who are the people standing on the snowy slope with skis?",
+        "what is the specific location of the group of people standing on the snowy slope with skis?",
+        "what is the specific location of the group of people standing on the snowy slope with skis?",
+        "Question: What is the specific location of the group of people standing on the snowy slope with skis?",
+        "Question: How many people are standing on the snowy slope with skis?"
+      ],
+      "default": "Question: Who are the people standing on the snowy slope with skis?",
+      "question": "Question: Who are the people standing on the snowy slope with skis?",
+      "answer": "skiers",
+      "rewrite": "four skiers wearing winter gear standing on a snowy slope with skis and ski poles",
+      "review": null,
+      "shared_seconds": 12.849715166958049
+    },
+    {
+      "evidence": [
+        47124,
+        40785,
+        10153,
+        36346,
+        39425,
+        5529,
+        37408,
+        46193,
+        41155,
+        16375
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "Question: what is the specific count of people standing on the snowy slope with skis?",
+        "what is the color of the flag visible near the group of skiers?",
+        "what is the color of the flag visible near the group of skiers?",
+        "what is the color of the flag visible near the group of skiers?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "ski poles",
+      "rewrite": "four skiers in winter gear standing on a snowy slope with ski poles",
+      "review": null,
+      "shared_seconds": 20.484435792081058
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "4 people standing on a snowy slope with skis",
+      "raw_rank": 30,
+      "filtered_rank": 30,
+      "rank": 30,
+      "ordinary_screen": [
+        41155,
+        16375,
+        49086,
+        29955,
+        5946,
+        23528,
+        4773,
+        21479,
+        3821,
+        22140
+      ],
+      "display": [
+        41155,
+        16375,
+        49086,
+        29955,
+        5946,
+        23528,
+        4773,
+        21479,
+        3821,
+        22140
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "4 people in winter gear standing on a snowy slope with skis",
+      "raw_rank": 39,
+      "filtered_rank": 29,
+      "rank": 29,
+      "ordinary_screen": [
+        7049,
+        9216,
+        22058,
+        33561,
+        3744,
+        12761,
+        25752,
+        4711,
+        46018,
+        2318
+      ],
+      "display": [
+        7049,
+        9216,
+        22058,
+        33561,
+        3744,
+        12761,
+        25752,
+        4711,
+        46018,
+        2318
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "four people in winter gear standing on a snowy slope with skis and ski poles",
+      "raw_rank": 41,
+      "filtered_rank": 21,
+      "rank": 21,
+      "ordinary_screen": [
+        19596,
+        47986,
+        21012,
+        16738,
+        30739,
+        2641,
+        47243,
+        31043,
+        33719,
+        21149
+      ],
+      "display": [
+        19596,
+        47986,
+        21012,
+        16738,
+        30739,
+        2641,
+        47243,
+        31043,
+        33719,
+        21149
+      ],
+      "check": {}
+    },
+    {
+      "round": 3,
+      "query": "four skiers wearing winter gear standing on a snowy slope with skis and ski poles",
+      "raw_rank": 57,
+      "filtered_rank": 27,
+      "rank": 27,
+      "ordinary_screen": [
+        45073,
+        20383,
+        26273,
+        2329,
+        43178,
+        28854,
+        11214,
+        45103,
+        23005,
+        9594
+      ],
+      "display": [
+        45073,
+        20383,
+        26273,
+        2329,
+        43178,
+        28854,
+        11214,
+        45103,
+        23005,
+        9594
+      ],
+      "check": {}
+    },
+    {
+      "round": 4,
+      "query": "four skiers in winter gear standing on a snowy slope with ski poles",
+      "raw_rank": 28,
+      "filtered_rank": 1,
+      "rank": 1,
+      "ordinary_screen": [
+        26714,
+        1479,
+        28078,
+        40785,
+        30894,
+        39425,
+        10153,
+        27597,
+        9062,
+        11311
+      ],
+      "display": [
+        26714,
+        1479,
+        28078,
+        40785,
+        30894,
+        39425,
+        10153,
+        27597,
+        9062,
+        11311
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 69.5505459588021,
+  "live": true,
+  "seconds": 69.65312591614202
+}

@@ -1,0 +1,85 @@
+{
+  "qid": 621,
+  "selection": {
+    "kl": "what is the location where the man is playing tennis?",
+    "probe": "what is the location where the man is playing tennis?",
+    "candidates": [
+      {
+        "question": "what is the location where the man is playing tennis?",
+        "score": 4,
+        "branches": [
+          {
+            "answer": "a tennis court",
+            "caption": "a man playing tennis on a tennis court",
+            "top10": [
+              31500,
+              27844,
+              17013,
+              3707,
+              11058,
+              6794,
+              16240,
+              7005,
+              29897,
+              18794
+            ]
+          },
+          {
+            "answer": "a yard",
+            "caption": "a man playing tennis in a yard",
+            "top10": [
+              16854,
+              4112,
+              12679,
+              8474,
+              1005,
+              28120,
+              62,
+              45379,
+              4335,
+              9614
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: What color is the shirt the man is wearing?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "Question: What is the color of the man's shirt?",
+        "score": null,
+        "branches": []
+      },
+      {
+        "question": "what is the color of the shirt the man is wearing?",
+        "score": null,
+        "branches": []
+      }
+    ]
+  },
+  "outcomes": {
+    "what is the location where the man is playing tennis?": {
+      "answer": "the man is playing on a hard court, likely at a professional tennis venue, given the backdrop and attire.",
+      "rewrite": "a man playing tennis on a hard court at a professional venue, about to hit a ball",
+      "rank": 161
+    },
+    "Question: What color is the shirt the man is wearing?": {
+      "answer": "white",
+      "rewrite": "a man in a white shirt playing tennis about to hit a ball",
+      "rank": 32
+    },
+    "Question: What is the color of the man's shirt?": {
+      "answer": "white",
+      "rewrite": "a man in a white shirt playing tennis about to hit a ball",
+      "rank": 32
+    },
+    "what is the color of the shirt the man is wearing?": {
+      "answer": "white",
+      "rewrite": "a man in a white shirt playing tennis about to hit a ball",
+      "rank": 32
+    }
+  },
+  "saved_kl_rank": 161
+}

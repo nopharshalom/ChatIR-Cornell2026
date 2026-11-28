@@ -1,0 +1,108 @@
+{
+  "qid": 649,
+  "selection": {
+    "kl": "Question: Is the train an old-fashioned style or a modern one?",
+    "probe": "Question: Is the train an old-fashioned style or a modern one?",
+    "candidates": [
+      {
+        "question": "Question: what is the color of the steam engine?",
+        "score": 6,
+        "branches": [
+          {
+            "answer": "black",
+            "caption": "a black steam train on the tracks going through grass area",
+            "top10": [
+              8090,
+              27167,
+              27073,
+              24374,
+              26408,
+              19139,
+              12724,
+              33031,
+              12529,
+              28752
+            ]
+          },
+          {
+            "answer": "red and black",
+            "caption": "a red and black steam train on the tracks going through grass area",
+            "top10": [
+              3920,
+              42736,
+              26408,
+              41679,
+              30620,
+              23391,
+              3241,
+              28752,
+              19139,
+              26226
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Question: Is the train an old-fashioned style or a modern one?",
+        "score": 6,
+        "branches": [
+          {
+            "answer": "old-fashioned",
+            "caption": "an old fashioned locomotive on a track",
+            "top10": [
+              20066,
+              47480,
+              28752,
+              26748,
+              3255,
+              43836,
+              27073,
+              26201,
+              24374,
+              25345
+            ]
+          },
+          {
+            "answer": "modern",
+            "caption": "a large steam train traveling down the tracks",
+            "top10": [
+              14309,
+              12529,
+              14146,
+              1194,
+              26226,
+              12854,
+              26408,
+              7257,
+              35697,
+              40442
+            ]
+          }
+        ]
+      },
+      {
+        "question": "what is the color of the train's wheels?",
+        "score": null,
+        "branches": []
+      }
+    ]
+  },
+  "outcomes": {
+    "Question: what is the color of the steam engine?": {
+      "answer": "black",
+      "rewrite": "a black steam engine train on the tracks going through a grass area",
+      "rank": 31
+    },
+    "Question: Is the train an old-fashioned style or a modern one?": {
+      "answer": "old-fashioned style",
+      "rewrite": "an old-fashioned black train on the tracks going through a grassy area",
+      "rank": 29
+    },
+    "what is the color of the train's wheels?": {
+      "answer": "silver",
+      "rewrite": "a black train with silver wheels on the tracks going through a grass area",
+      "rank": 21
+    }
+  },
+  "saved_kl_rank": 29
+}

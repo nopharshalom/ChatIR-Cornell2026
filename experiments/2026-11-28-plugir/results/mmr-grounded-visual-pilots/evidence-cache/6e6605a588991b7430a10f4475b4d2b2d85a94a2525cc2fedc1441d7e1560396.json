@@ -1,0 +1,10 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    "You see only the user's initial description and completed dialogue. Is the proposed\nquestion natural and neutrally phrased about a uniquely identifiable subject in their own\nphoto, applicable to that subject, directly visible, still unanswered and not previously\nasked even with different wording? Reject false premises, underspecified multiple people or\nobjects, implied answers, and activities that require guessing intent. The labels must\nrepresent distinct, non-overlapping plausible answers. Return exactly PASS or SKIP.",
+    "{\"dialogue\": [\"a bakery display case filled with a large variety of different doughnuts\"], \"slot\": {\"entity\": \"display case\", \"family\": \"material\", \"question\": \"What material is the display case made of?\", \"values\": [\"glass\", \"metal\"]}}",
+    10,
+    null
+  ],
+  "response": "SKIP"
+}

@@ -1,0 +1,115 @@
+{
+  "qid": 670,
+  "target": "unlabeled2017/000000403461.jpg",
+  "arm": "q-caption",
+  "first": 1,
+  "turns": [
+    {
+      "evidence": [
+        29651,
+        39058,
+        15231,
+        43459,
+        49402,
+        79,
+        40022,
+        33335,
+        941,
+        34623
+      ],
+      "candidates": [
+        "what is the color of the dog standing among the sheep?",
+        "what is the background environment where the dog and sheep are located?",
+        "what is the breed or specific type of the dog standing among the sheep?",
+        "Question: Is the dog standing in a row of sheep, or is it standing in the middle of a herd?",
+        "what is the color of the dog in the image?"
+      ],
+      "default": "what is the breed or specific type of the dog standing among the sheep?",
+      "question": "what is the breed or specific type of the dog standing among the sheep?",
+      "answer": "kangal",
+      "rewrite": "a kangal dog stands among many sheep late in the day",
+      "review": {
+        "default": "what is the breed or specific type of the dog standing among the sheep?",
+        "questions": [
+          "what is the color of the dog standing among the sheep?",
+          "what is the background environment where the dog and sheep are located?",
+          "what is the breed or specific type of the dog standing among the sheep?",
+          "Question: Is the dog standing in a row of sheep, or is it standing in the middle of a herd?",
+          "what is the color of the dog in the image?"
+        ],
+        "selected": "what is the breed or specific type of the dog standing among the sheep?",
+        "scores": {}
+      },
+      "shared_seconds": 8.725
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a dog stands among many sheep late in the day",
+      "raw_rank": 11,
+      "filtered_rank": 11,
+      "rank": 11,
+      "ordinary_screen": [
+        29651,
+        39058,
+        15231,
+        43459,
+        49402,
+        79,
+        40022,
+        33335,
+        941,
+        32405
+      ],
+      "display": [
+        29651,
+        39058,
+        15231,
+        43459,
+        49402,
+        79,
+        40022,
+        33335,
+        941,
+        32405
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a kangal dog stands among many sheep late in the day",
+      "raw_rank": 6,
+      "filtered_rank": 2,
+      "rank": 2,
+      "ordinary_screen": [
+        48378,
+        34623,
+        19060,
+        6444,
+        37697,
+        577,
+        49700,
+        35678,
+        39968,
+        24132
+      ],
+      "display": [
+        48378,
+        34623,
+        19060,
+        6444,
+        37697,
+        577,
+        49700,
+        35678,
+        39968,
+        24132
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 8.725,
+  "live": false,
+  "seconds": 0.026458249893039465
+}

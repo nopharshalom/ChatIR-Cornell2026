@@ -1,0 +1,23 @@
+{
+  "request": [
+    "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+    [
+      6400,
+      13001,
+      7307,
+      33953,
+      18827,
+      5761,
+      20995,
+      28942,
+      15972,
+      36964
+    ],
+    "what is the color of the coverlet on the bed next to the blue wall?",
+    "Answer the question separately for each numbered photo. Give the dominant basic color of the item asked about. Choose one of black, white, gray, red, orange, yellow, green, blue, purple, pink, brown, or unknown if absent or uncertain. Return a JSON object with exactly one answer for each printed tile ID. The top row is 0,1,2,3,4 and the bottom row is 5,6,7,8,9. Use these ten ID strings as keys, including \"0\" and \"9\".",
+    180
+  ],
+  "raw": "```json\n{\n  \"0\": \"blue\",\n  \"1\": \"blue\",\n  \"2\": \"blue\",\n  \"3\": \"blue\",\n  \"4\": \"blue\",\n  \"5\": \"green\",\n  \"6\": \"blue\",\n  \"7\": \"blue\",\n  \"8\": \"beige\",\n  \"9\": \"beige\"\n}\n```",
+  "answers": null,
+  "seconds": 2.9528988748788834
+}

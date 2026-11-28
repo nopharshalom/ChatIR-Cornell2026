@@ -1,0 +1,156 @@
+{
+  "pivot": 1,
+  "trace": [
+    {
+      "slots": [
+        {
+          "entity": "flags",
+          "family": "material",
+          "values": [
+            "fabric",
+            "metal"
+          ],
+          "question": "What material is the flags made of?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric"
+        ]
+      ],
+      "filled": [
+        10
+      ],
+      "pixel_supported": [
+        false
+      ]
+    },
+    {
+      "slots": [
+        {
+          "entity": "flags",
+          "family": "color",
+          "values": [
+            "red",
+            "yellow"
+          ],
+          "question": "What is the main color of the flags?"
+        },
+        {
+          "entity": "flags",
+          "family": "material",
+          "values": [
+            "fabric",
+            "plastic"
+          ],
+          "question": "What material is the flags made of?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          "red",
+          "red",
+          "yellow",
+          null,
+          "red",
+          "yellow",
+          "red",
+          "yellow",
+          "yellow",
+          "red"
+        ],
+        [
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          "fabric",
+          null,
+          null
+        ]
+      ],
+      "filled": [
+        9,
+        8
+      ],
+      "pixel_supported": [
+        true,
+        false
+      ],
+      "captions_transfer": [
+        null,
+        null
+      ],
+      "pixels_transfer": [
+        0.6000000000000001,
+        null
+      ]
+    }
+  ],
+  "questions": [
+    "what is the color of the flags in the image?",
+    "What is the main color of the flags?",
+    "What material is the flags made of?"
+  ],
+  "picks": {
+    "blind_alternative": 1,
+    "captions_annotations": 0,
+    "captions_retrieval": 0,
+    "pixels_annotations": 1,
+    "pixels_retrieval": 0
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "qid": 454,
+  "target": "unlabeled2017/000000387765.jpg",
+  "arm": "ordinary",
+  "first": 2,
+  "turns": [
+    {
+      "evidence": [
+        26433,
+        13035,
+        44924,
+        48608,
+        45179,
+        369,
+        20126,
+        16913,
+        42173,
+        1574
+      ],
+      "candidates": [
+        "Question: Is the giraffe standing in a field with no grass?",
+        "Question: What is the color of the giraffe?",
+        "Question: What is the specific color pattern of the giraffe?",
+        "Question: What is the specific color pattern of the giraffe?",
+        "what is the other object in the image?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "trees",
+      "rewrite": "A lone giraffe stands amidst shorter trees and brush.",
+      "review": null,
+      "shared_seconds": 12.558
+    },
+    {
+      "evidence": [
+        26433,
+        13035,
+        48608,
+        44924,
+        369,
+        45179,
+        42173,
+        16913,
+        1574,
+        1809
+      ],
+      "candidates": [
+        "what is the color of the giraffe?",
+        "what is the type of ground surface in the image where the giraffe is standing?",
+        "what is the color of the giraffe?",
+        "what is the color of the giraffe?",
+        "what is the color of the giraffe?"
+      ],
+      "default": "what is the color of the giraffe?",
+      "question": "what is the color of the giraffe?",
+      "answer": "brown",
+      "rewrite": "a single brown giraffe stands among shorter trees and brush",
+      "review": null,
+      "shared_seconds": 10.238
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a single giraffe stands among shorter trees and brush",
+      "raw_rank": 16,
+      "filtered_rank": 16,
+      "rank": 16,
+      "ordinary_screen": [
+        26433,
+        13035,
+        44924,
+        48608,
+        45179,
+        369,
+        20126,
+        16913,
+        42173,
+        1574
+      ],
+      "display": [
+        26433,
+        13035,
+        44924,
+        48608,
+        45179,
+        369,
+        20126,
+        16913,
+        42173,
+        1574
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "A lone giraffe stands amidst shorter trees and brush.",
+      "raw_rank": 21,
+      "filtered_rank": 11,
+      "rank": 11,
+      "ordinary_screen": [
+        1809,
+        3679,
+        42482,
+        5820,
+        26305,
+        31128,
+        26840,
+        17699,
+        17771,
+        2640
+      ],
+      "display": [
+        1809,
+        3679,
+        42482,
+        5820,
+        26305,
+        31128,
+        26840,
+        17699,
+        17771,
+        2640
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "a single brown giraffe stands among shorter trees and brush",
+      "raw_rank": 27,
+      "filtered_rank": 8,
+      "rank": 8,
+      "ordinary_screen": [
+        37704,
+        47759,
+        11719,
+        1911,
+        28540,
+        37049,
+        47839,
+        33267,
+        38018,
+        42532
+      ],
+      "display": [
+        37704,
+        47759,
+        11719,
+        1911,
+        28540,
+        37049,
+        47839,
+        33267,
+        38018,
+        42532
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 22.796,
+  "live": false,
+  "seconds": 0.030470750061795115
+}

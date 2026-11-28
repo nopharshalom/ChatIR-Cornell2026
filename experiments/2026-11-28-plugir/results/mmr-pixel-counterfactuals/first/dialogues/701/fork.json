@@ -1,0 +1,142 @@
+{
+  "pivot": 3,
+  "trace": [
+    {
+      "slots": [
+        {
+          "entity": "street light",
+          "family": "material",
+          "values": [
+            "glass",
+            "metal"
+          ],
+          "question": "What material is the street light made of?"
+        }
+      ],
+      "vetoes": [],
+      "protocol_error": "Invalid classification on both structured and single-label attempts"
+    },
+    {
+      "slots": [
+        {
+          "entity": "red lobster restaurant",
+          "family": "material",
+          "values": [
+            "brick",
+            "concrete"
+          ],
+          "question": "What material is the red lobster restaurant made of?"
+        }
+      ],
+      "vetoes": [
+        "attribute explicitly modifies subject",
+        "attribute explicitly modifies subject"
+      ],
+      "caption_labels": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          null,
+          null,
+          null,
+          "brick",
+          "brick",
+          "brick",
+          "brick",
+          null,
+          "brick",
+          null
+        ]
+      ],
+      "filled": [
+        5
+      ],
+      "pixel_supported": [
+        false
+      ]
+    },
+    {
+      "slots": [],
+      "vetoes": [
+        "dialogue-only check: {'status': 'ASKED', 'evidence': \"The previous turn explicitly asks 'what is the building in the image made of?' and provides the answer 'wood'.\"}"
+      ]
+    },
+    {
+      "slots": [
+        {
+          "entity": "street light",
+          "family": "material",
+          "values": [
+            "brick",
+            "wood"
+          ],
+          "question": "What material is the street light made of?"
+        }
+      ],
+      "vetoes": [],
+      "caption_labels": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "pixel_labels": [
+        [
+          null,
+          "brick",
+          "brick",
+          null,
+          "wood",
+          null,
+          "brick",
+          "wood",
+          null,
+          "wood"
+        ]
+      ],
+      "filled": [
+        6
+      ],
+      "pixel_supported": [
+        true
+      ],
+      "captions_transfer": [
+        null
+      ],
+      "pixels_transfer": [
+        0.38888888888888884
+      ]
+    }
+  ],
+  "questions": [
+    "what is the other object in the image?",
+    "What material is the street light made of?"
+  ],
+  "picks": {
+    "blind_alternative": 1,
+    "captions_annotations": 1,
+    "captions_retrieval": 0,
+    "pixels_annotations": 1,
+    "pixels_retrieval": 0
+  }
+}

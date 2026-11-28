@@ -1,0 +1,635 @@
+{
+  "qid": 1111,
+  "target": "unlabeled2017/000000223409.jpg",
+  "arm": "ordinary",
+  "first": 11,
+  "turns": [
+    {
+      "evidence": [
+        17227,
+        38648,
+        42447,
+        46176,
+        77,
+        25690,
+        46978,
+        744,
+        13081,
+        46316
+      ],
+      "candidates": [
+        "what is the color of the cabinets in the small, clean kitchen?",
+        "what appliances are present in the small, clean kitchen?",
+        "Question: Is the floor in the small, clean kitchen brown or white?",
+        "Question: Where is the small, clean kitchen located (inside or outside the home)?",
+        "**Question:** What color is the floor in the small, clean kitchen?"
+      ],
+      "default": "Question: Where is the small, clean kitchen located (inside or outside the home)?",
+      "question": "Question: Where is the small, clean kitchen located (inside or outside the home)?",
+      "answer": "inside",
+      "rewrite": "a small, clean kitchen located inside the home with no dishes or food items",
+      "review": null,
+      "shared_seconds": 7.174
+    },
+    {
+      "evidence": [
+        744,
+        36643,
+        38648,
+        17227,
+        46857,
+        11731,
+        18116,
+        33392,
+        35206,
+        34159
+      ],
+      "candidates": [
+        "what color are the cabinets in the small, clean kitchen?",
+        "what color is the stove top in the small, clean kitchen?",
+        "what color is the stove top in the small, clean kitchen?",
+        "what color are the cabinets in the small, clean kitchen?",
+        "what color is the stove top in the small, clean kitchen?"
+      ],
+      "default": "what color are the cabinets in the small, clean kitchen?",
+      "question": "what color are the cabinets in the small, clean kitchen?",
+      "answer": "white",
+      "rewrite": "a small, clean white kitchen located inside the home with no dishes or food items",
+      "review": null,
+      "shared_seconds": 7.207
+    },
+    {
+      "evidence": [
+        11731,
+        17420,
+        49370,
+        18299,
+        45784,
+        26153,
+        14080,
+        34091,
+        48105,
+        35206
+      ],
+      "candidates": [
+        "what color is the floor in the small, clean kitchen?",
+        "what is the color of the floor in the small, clean kitchen?",
+        "what color is the floor in the small, clean kitchen?",
+        "what is the color of the floor in the small, clean kitchen?",
+        "what color is the floor in the small, clean kitchen?"
+      ],
+      "default": "what is the color of the floor in the small, clean kitchen?",
+      "question": "what is the color of the floor in the small, clean kitchen?",
+      "answer": "gray",
+      "rewrite": "a small, clean white kitchen with gray floors located inside the home, free of dishes and food items",
+      "review": null,
+      "shared_seconds": 7.364
+    },
+    {
+      "evidence": [
+        11731,
+        3130,
+        14080,
+        49370,
+        17420,
+        24418,
+        45784,
+        25193,
+        49377,
+        34091
+      ],
+      "candidates": [
+        "what appliance is missing from the small, clean kitchen?",
+        "what color is the stove in the small, clean kitchen?",
+        "what color is the stove in the small, clean kitchen?",
+        "what color is the stove in the small, clean kitchen?",
+        "what is the color of the stove in the small, clean kitchen?"
+      ],
+      "default": "what appliance is missing from the small, clean kitchen?",
+      "question": "what appliance is missing from the small, clean kitchen?",
+      "answer": "refrigerator",
+      "rewrite": "a small, clean, white kitchen with gray floors located inside the home, missing a refrigerator",
+      "review": null,
+      "shared_seconds": 10.054
+    },
+    {
+      "evidence": [
+        11731,
+        19318,
+        17420,
+        49370,
+        24418,
+        3130,
+        25193,
+        46857,
+        49377,
+        34091
+      ],
+      "candidates": [
+        "what is the color of the refrigerator in the small, clean kitchen?",
+        "Question: What is the color of the stove in the small, clean kitchen?",
+        "Question: what is the color of the stove in the small, clean kitchen?",
+        "Question: What is the color of the stove in the small, clean kitchen?",
+        "what is the color of the stove in the small, clean kitchen?"
+      ],
+      "default": "what is the color of the refrigerator in the small, clean kitchen?",
+      "question": "what is the color of the refrigerator in the small, clean kitchen?",
+      "answer": "white",
+      "rewrite": "a small, clean kitchen with white cabinets and a gray floor, located inside the home, featuring a white refrigerator with no dishes or food items present",
+      "review": null,
+      "shared_seconds": 7.693
+    },
+    {
+      "evidence": [
+        19318,
+        11731,
+        38629,
+        17055,
+        34091,
+        35200,
+        17420,
+        40917,
+        31569,
+        46857
+      ],
+      "candidates": [
+        "what is the color of the stove in the small, clean kitchen?",
+        "what is the color of the stove in the small, clean kitchen?",
+        "what is the color of the stove in the small, clean kitchen?",
+        "what is the color of the stove in the small, clean kitchen?",
+        "what is the color of the stove in the small, clean kitchen?"
+      ],
+      "default": "what is the color of the stove in the small, clean kitchen?",
+      "question": "what is the color of the stove in the small, clean kitchen?",
+      "answer": "black",
+      "rewrite": "a small, clean, white kitchen with gray floors and black appliances, located inside the home, featuring a white refrigerator and a black stove with no dishes or food items",
+      "review": null,
+      "shared_seconds": 7.815
+    },
+    {
+      "evidence": [
+        2194,
+        17672,
+        24306,
+        39010,
+        36659,
+        45784,
+        40917,
+        27511,
+        26563,
+        41582
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "what color is the stove in the small, clean kitchen?",
+        "what is the color of the oven in the small, clean kitchen?",
+        "what is the color of the oven in the small, clean kitchen?",
+        "what object is located next to the black stove in the small, clean kitchen?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "microwave",
+      "rewrite": "a small, clean, white kitchen with gray floors, white cabinets, and a black stove, featuring a microwave but no refrigerator or dishes",
+      "review": null,
+      "shared_seconds": 22.783
+    },
+    {
+      "evidence": [
+        36659,
+        45784,
+        7378,
+        25880,
+        18025,
+        34845,
+        45043,
+        11731,
+        6090,
+        32524
+      ],
+      "candidates": [
+        "What is the color of the microwave in the small, clean kitchen?",
+        "what is the color of the stove in the small, clean kitchen?",
+        "What is the color of the microwave in the small, clean kitchen?",
+        "what is the color of the stove in the small, clean kitchen?",
+        "what is the color of the stove in the small, clean kitchen?"
+      ],
+      "default": "What is the color of the microwave in the small, clean kitchen?",
+      "question": "What is the color of the microwave in the small, clean kitchen?",
+      "answer": "white",
+      "rewrite": "a small, clean, white kitchen with gray floors, featuring a white microwave and a black stove, but no refrigerator, located inside the home",
+      "review": null,
+      "shared_seconds": 20.173
+    },
+    {
+      "evidence": [
+        36659,
+        7378,
+        25880,
+        45043,
+        18025,
+        24418,
+        17672,
+        45784,
+        34091,
+        49370
+      ],
+      "candidates": [
+        "Is there any food or dishware visible on the countertops in the small, clean kitchen?",
+        "what is the other object in the image?",
+        "**Question: Are the appliances in the small, clean kitchen white?",
+        "**Question:** What is the color of the stove in the small, clean kitchen?",
+        "**Question:** What color are the cabinets in the small, clean kitchen?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "microwave",
+      "rewrite": "a small, clean, white kitchen with gray floors, white cabinets, a white microwave, and a black stove, located inside a home with no dishes or food items",
+      "review": null,
+      "shared_seconds": 18.541
+    },
+    {
+      "evidence": [
+        45784,
+        36659,
+        7378,
+        24418,
+        25880,
+        18025,
+        17672,
+        45043,
+        18299,
+        709
+      ],
+      "candidates": [
+        "what color is the dishwasher in the small, clean kitchen?",
+        "what is the color of the dishwasher in the small, clean kitchen?",
+        "what is the color of the dishwasher in the small, clean kitchen?",
+        "what is the color of the dishwasher in the small, clean kitchen?",
+        "what is the color of the dishwasher in the small, clean kitchen?"
+      ],
+      "default": "what color is the dishwasher in the small, clean kitchen?",
+      "question": "what color is the dishwasher in the small, clean kitchen?",
+      "answer": "white",
+      "rewrite": "a small, clean, white kitchen with gray floors, white cabinets, a white microwave, a white dishwasher, and a black stove, located inside the home with no dishes or food items",
+      "review": null,
+      "shared_seconds": 8.215
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a small kitchen space is very clean with no dishes or food items",
+      "raw_rank": 181,
+      "filtered_rank": 181,
+      "rank": 181,
+      "ordinary_screen": [
+        17227,
+        38648,
+        42447,
+        46176,
+        77,
+        25690,
+        46978,
+        744,
+        13081,
+        46316
+      ],
+      "display": [
+        17227,
+        38648,
+        42447,
+        46176,
+        77,
+        25690,
+        46978,
+        744,
+        13081,
+        46316
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a small, clean kitchen located inside the home with no dishes or food items",
+      "raw_rank": 267,
+      "filtered_rank": 257,
+      "rank": 257,
+      "ordinary_screen": [
+        36643,
+        46857,
+        11731,
+        18116,
+        33392,
+        35206,
+        34159,
+        48092,
+        31137,
+        14311
+      ],
+      "display": [
+        36643,
+        46857,
+        11731,
+        18116,
+        33392,
+        35206,
+        34159,
+        48092,
+        31137,
+        14311
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "a small, clean white kitchen located inside the home with no dishes or food items",
+      "raw_rank": 185,
+      "filtered_rank": 165,
+      "rank": 165,
+      "ordinary_screen": [
+        17420,
+        18299,
+        49370,
+        45784,
+        14080,
+        26153,
+        34091,
+        48105,
+        30251,
+        38687
+      ],
+      "display": [
+        17420,
+        18299,
+        49370,
+        45784,
+        14080,
+        26153,
+        34091,
+        48105,
+        30251,
+        38687
+      ],
+      "check": {}
+    },
+    {
+      "round": 3,
+      "query": "a small, clean white kitchen with gray floors located inside the home, free of dishes and food items",
+      "raw_rank": 285,
+      "filtered_rank": 257,
+      "rank": 257,
+      "ordinary_screen": [
+        3130,
+        24418,
+        25193,
+        49377,
+        38629,
+        7378,
+        761,
+        42147,
+        17672,
+        2932
+      ],
+      "display": [
+        3130,
+        24418,
+        25193,
+        49377,
+        38629,
+        7378,
+        761,
+        42147,
+        17672,
+        2932
+      ],
+      "check": {}
+    },
+    {
+      "round": 4,
+      "query": "a small, clean, white kitchen with gray floors located inside the home, missing a refrigerator",
+      "raw_rank": 221,
+      "filtered_rank": 184,
+      "rank": 184,
+      "ordinary_screen": [
+        19318,
+        22566,
+        21996,
+        24306,
+        45043,
+        30445,
+        41619,
+        2692,
+        313,
+        35200
+      ],
+      "display": [
+        19318,
+        22566,
+        21996,
+        24306,
+        45043,
+        30445,
+        41619,
+        2692,
+        313,
+        35200
+      ],
+      "check": {}
+    },
+    {
+      "round": 5,
+      "query": "a small, clean kitchen with white cabinets and a gray floor, located inside the home, featuring a white refrigerator with no dishes or food items present",
+      "raw_rank": 165,
+      "filtered_rank": 125,
+      "rank": 125,
+      "ordinary_screen": [
+        17055,
+        40917,
+        31569,
+        5385,
+        36761,
+        10720,
+        33477,
+        19801,
+        19120,
+        49940
+      ],
+      "display": [
+        17055,
+        40917,
+        31569,
+        5385,
+        36761,
+        10720,
+        33477,
+        19801,
+        19120,
+        49940
+      ],
+      "check": {}
+    },
+    {
+      "round": 6,
+      "query": "a small, clean, white kitchen with gray floors and black appliances, located inside the home, featuring a white refrigerator and a black stove with no dishes or food items",
+      "raw_rank": 605,
+      "filtered_rank": 545,
+      "rank": 545,
+      "ordinary_screen": [
+        2194,
+        39010,
+        36659,
+        27511,
+        26563,
+        41582,
+        21233,
+        35744,
+        46257,
+        48657
+      ],
+      "display": [
+        2194,
+        39010,
+        36659,
+        27511,
+        26563,
+        41582,
+        21233,
+        35744,
+        46257,
+        48657
+      ],
+      "check": {}
+    },
+    {
+      "round": 7,
+      "query": "a small, clean, white kitchen with gray floors, white cabinets, and a black stove, featuring a microwave but no refrigerator or dishes",
+      "raw_rank": 163,
+      "filtered_rank": 117,
+      "rank": 117,
+      "ordinary_screen": [
+        25880,
+        18025,
+        34845,
+        6090,
+        32524,
+        33186,
+        12952,
+        24968,
+        403,
+        33279
+      ],
+      "display": [
+        25880,
+        18025,
+        34845,
+        6090,
+        32524,
+        33186,
+        12952,
+        24968,
+        403,
+        33279
+      ],
+      "check": {}
+    },
+    {
+      "round": 8,
+      "query": "a small, clean, white kitchen with gray floors, featuring a white microwave and a black stove, but no refrigerator, located inside the home",
+      "raw_rank": 241,
+      "filtered_rank": 171,
+      "rank": 171,
+      "ordinary_screen": [
+        34890,
+        15910,
+        14946,
+        42660,
+        38714,
+        48677,
+        1775,
+        47468,
+        34145,
+        20165
+      ],
+      "display": [
+        34890,
+        15910,
+        14946,
+        42660,
+        38714,
+        48677,
+        1775,
+        47468,
+        34145,
+        20165
+      ],
+      "check": {}
+    },
+    {
+      "round": 9,
+      "query": "a small, clean, white kitchen with gray floors, white cabinets, a white microwave, and a black stove, located inside a home with no dishes or food items",
+      "raw_rank": 393,
+      "filtered_rank": 312,
+      "rank": 312,
+      "ordinary_screen": [
+        709,
+        2190,
+        38385,
+        10209,
+        34305,
+        36848,
+        31413,
+        26803,
+        41305,
+        31453
+      ],
+      "display": [
+        709,
+        2190,
+        38385,
+        10209,
+        34305,
+        36848,
+        31413,
+        26803,
+        41305,
+        31453
+      ],
+      "check": {}
+    },
+    {
+      "round": 10,
+      "query": "a small, clean, white kitchen with gray floors, white cabinets, a white microwave, a white dishwasher, and a black stove, located inside the home with no dishes or food items",
+      "raw_rank": 437,
+      "filtered_rank": 342,
+      "rank": 342,
+      "ordinary_screen": [
+        20465,
+        7746,
+        46491,
+        19230,
+        43696,
+        37295,
+        2073,
+        27667,
+        30683,
+        44380
+      ],
+      "display": [
+        20465,
+        7746,
+        46491,
+        19230,
+        43696,
+        37295,
+        2073,
+        27667,
+        30683,
+        44380
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 117.019,
+  "live": false,
+  "seconds": 0.2656682499218732
+}

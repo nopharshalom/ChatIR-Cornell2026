@@ -1,0 +1,489 @@
+{
+  "qid": 742,
+  "target": "unlabeled2017/000000160418.jpg",
+  "arm": "q-caption",
+  "first": 5,
+  "turns": [
+    {
+      "evidence": [
+        5526,
+        30539,
+        19790,
+        14415,
+        35956,
+        40417,
+        2844,
+        47194,
+        7888,
+        5213
+      ],
+      "candidates": [
+        "Question: Is the man flying the kite with his arms stretched out?",
+        "Question: What is the color of the shirt the man is wearing?",
+        "what is the color of the shirt the man is wearing while flying the kite?",
+        "what is the other object in the image?",
+        "what is the other object in the image?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "Question: Is the man flying the kite with his arms stretched out?",
+      "answer": "no",
+      "rewrite": "a man flying a kite on the sand at the beach with his arms not stretched out",
+      "review": {
+        "default": "what is the other object in the image?",
+        "questions": [
+          "Question: Is the man flying the kite with his arms stretched out?",
+          "Question: What is the color of the shirt the man is wearing?",
+          "what is the color of the shirt the man is wearing while flying the kite?",
+          "what is the other object in the image?"
+        ],
+        "selected": "Question: Is the man flying the kite with his arms stretched out?",
+        "scores": {
+          "is the man flying the kite with his arms stretched out?": {
+            "file": "5cc3b78dd98c3ad38d3e975eb98a8ffaa8319b6929586c62f3ee9e7e1aedef04.json",
+            "answers": [
+              "unknown",
+              "yes",
+              "unknown",
+              "unknown",
+              "no",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown"
+            ],
+            "seconds": 1.6844806668814272,
+            "score": 1
+          },
+          "what is the color of the shirt the man is wearing?": {
+            "file": "7c675539294fb8607cd439dfb7ed76ebbca828ee4c2d79dada1225d7e46d3bd2.json",
+            "answers": [
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "red",
+              "unknown",
+              "unknown"
+            ],
+            "seconds": 1.88722054194659,
+            "score": 0
+          },
+          "what is the color of the shirt the man is wearing while flying the kite?": {
+            "file": "0719c6cd74d6002e402d3e39dc0ca02541c13b54586f6d089ed675efd0c0a612.json",
+            "answers": [
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "red",
+              "unknown",
+              "unknown"
+            ],
+            "seconds": 1.875657832948491,
+            "score": 0
+          }
+        }
+      },
+      "shared_seconds": 14.393473582807928
+    },
+    {
+      "evidence": [
+        11745,
+        28201,
+        30539,
+        40417,
+        14572,
+        14415,
+        47194,
+        42817,
+        19790,
+        2844
+      ],
+      "candidates": [
+        "what color shirt is the man wearing?",
+        "Question: Is the man wearing a red shirt?",
+        "what is the other object in the image?",
+        "what is the other object in the image?",
+        "what is the other object in the image?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "a pink kite",
+      "rewrite": "a man flying a pink kite on the sand at the beach",
+      "review": {
+        "default": "what is the other object in the image?",
+        "questions": [
+          "what color shirt is the man wearing?",
+          "Question: Is the man wearing a red shirt?",
+          "what is the other object in the image?"
+        ],
+        "selected": "what is the other object in the image?",
+        "scores": {
+          "what color shirt is the man wearing?": {
+            "file": "cb327b6968778b7b4fd2b30857995cf1e259b9cd7c3a4234560c8a060c8d8636.json",
+            "answers": [
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "red",
+              "unknown",
+              "unknown",
+              "unknown"
+            ],
+            "seconds": 1.8897655420005322,
+            "score": 0
+          },
+          "is the man wearing a red shirt?": {
+            "file": "83adee3b3fb849c67aa53c904d9e4e6c0a0cfa65f850aecfc8b4d1c38538eeeb.json",
+            "answers": [
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "yes",
+              "unknown",
+              "unknown",
+              "unknown"
+            ],
+            "seconds": 1.8767574168741703,
+            "score": 0
+          }
+        }
+      },
+      "shared_seconds": 16.98923970782198
+    },
+    {
+      "evidence": [
+        30539,
+        37283,
+        14415,
+        43014,
+        12281,
+        5526,
+        33791,
+        30768,
+        28201,
+        35956
+      ],
+      "candidates": [
+        "what is the other object in the image?",
+        "what is the location where the man is flying the pink kite?",
+        "what is the color of the sand in the image where the man is flying the pink kite?",
+        "what is the color of the sand in the image where the man is flying the pink kite?",
+        "what is the color of the sand in the image where the man is flying the pink kite?"
+      ],
+      "default": "what is the other object in the image?",
+      "question": "what is the other object in the image?",
+      "answer": "a pink kite",
+      "rewrite": "A man is flying a pink kite on the beach.",
+      "review": {
+        "default": "what is the other object in the image?",
+        "questions": [
+          "what is the other object in the image?",
+          "what is the location where the man is flying the pink kite?",
+          "what is the color of the sand in the image where the man is flying the pink kite?"
+        ],
+        "selected": "what is the other object in the image?",
+        "scores": {
+          "what is the color of the sand in the image where the man is flying the pink kite?": {
+            "file": "9cf00bba4a56fb65838689e730338c136e56f1b3b9a10fefb51ecbfedcf582c8.json",
+            "answers": [
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown"
+            ],
+            "seconds": 1.80345854209736,
+            "score": 0
+          }
+        }
+      },
+      "shared_seconds": 17.291489667026326
+    },
+    {
+      "evidence": [
+        37283,
+        12281,
+        30539,
+        14415,
+        43014,
+        30768,
+        28201,
+        33791,
+        5526,
+        35956
+      ],
+      "candidates": [
+        "what is the color of the sand at the beach where the man is flying the pink kite?",
+        "what is the color of the sand at the beach where the man is flying the pink kite?",
+        "what is the color of the sand at the beach where the man is flying the pink kite?",
+        "what is the color of the sand in the image?",
+        "what is the color of the sand at the beach where the man is flying the pink kite?"
+      ],
+      "default": "what is the color of the sand at the beach where the man is flying the pink kite?",
+      "question": "what is the color of the sand at the beach where the man is flying the pink kite?",
+      "answer": "brown",
+      "rewrite": "a man flying a pink kite on brown sand at the beach",
+      "review": {
+        "default": "what is the color of the sand at the beach where the man is flying the pink kite?",
+        "questions": [
+          "what is the color of the sand at the beach where the man is flying the pink kite?",
+          "what is the color of the sand in the image?"
+        ],
+        "selected": "what is the color of the sand at the beach where the man is flying the pink kite?",
+        "scores": {}
+      },
+      "shared_seconds": 8.492172333179042
+    },
+    {
+      "evidence": [
+        37283,
+        30539,
+        43014,
+        14415,
+        12281,
+        33791,
+        35956,
+        28201,
+        47194,
+        5526
+      ],
+      "candidates": [
+        "what is the color of the shirt the man is wearing while flying the pink kite?",
+        "what is the color of the man's shirt?",
+        "what is the color of the shirt the man is wearing while flying the pink kite?",
+        "what is the color of the shirt the man is wearing while flying the pink kite?",
+        "what is the color of the shirt the man is wearing while flying the pink kite?"
+      ],
+      "default": "what is the color of the shirt the man is wearing while flying the pink kite?",
+      "question": "what is the color of the shirt the man is wearing while flying the pink kite?",
+      "answer": "black",
+      "rewrite": "a man in a black shirt stands on brown sand at the beach flying a pink kite, with his arms not stretched out",
+      "review": {
+        "default": "what is the color of the shirt the man is wearing while flying the pink kite?",
+        "questions": [
+          "what is the color of the shirt the man is wearing while flying the pink kite?",
+          "what is the color of the man's shirt?"
+        ],
+        "selected": "what is the color of the shirt the man is wearing while flying the pink kite?",
+        "scores": {}
+      },
+      "shared_seconds": 8.842024750076234
+    }
+  ],
+  "screens": [
+    {
+      "round": 0,
+      "query": "a man flying a kite on the sand at the beach",
+      "raw_rank": 34,
+      "filtered_rank": 34,
+      "rank": 34,
+      "ordinary_screen": [
+        5526,
+        30539,
+        19790,
+        14415,
+        35956,
+        40417,
+        2844,
+        47194,
+        7888,
+        4183
+      ],
+      "display": [
+        5526,
+        30539,
+        19790,
+        14415,
+        35956,
+        40417,
+        2844,
+        47194,
+        7888,
+        4183
+      ],
+      "check": {}
+    },
+    {
+      "round": 1,
+      "query": "a man flying a kite on the sand at the beach with his arms not stretched out",
+      "raw_rank": 52,
+      "filtered_rank": 42,
+      "rank": 42,
+      "ordinary_screen": [
+        11745,
+        28201,
+        14572,
+        42817,
+        11138,
+        12281,
+        49212,
+        28069,
+        37283,
+        5213
+      ],
+      "display": [
+        11745,
+        28201,
+        14572,
+        42817,
+        11138,
+        12281,
+        49212,
+        28069,
+        37283,
+        5213
+      ],
+      "check": {}
+    },
+    {
+      "round": 2,
+      "query": "a man flying a pink kite on the sand at the beach",
+      "raw_rank": 110,
+      "filtered_rank": 90,
+      "rank": 90,
+      "ordinary_screen": [
+        43014,
+        33791,
+        30768,
+        31589,
+        14423,
+        39969,
+        37423,
+        27648,
+        46189,
+        19129
+      ],
+      "display": [
+        43014,
+        33791,
+        30768,
+        31589,
+        14423,
+        39969,
+        37423,
+        27648,
+        46189,
+        19129
+      ],
+      "check": {}
+    },
+    {
+      "round": 3,
+      "query": "A man is flying a pink kite on the beach.",
+      "raw_rank": 101,
+      "filtered_rank": 72,
+      "rank": 72,
+      "ordinary_screen": [
+        49825,
+        48893,
+        19575,
+        3162,
+        36018,
+        1890,
+        41379,
+        20931,
+        43457,
+        47651
+      ],
+      "display": [
+        49825,
+        48893,
+        19575,
+        3162,
+        36018,
+        1890,
+        41379,
+        20931,
+        43457,
+        47651
+      ],
+      "check": {}
+    },
+    {
+      "round": 4,
+      "query": "a man flying a pink kite on brown sand at the beach",
+      "raw_rank": 102,
+      "filtered_rank": 62,
+      "rank": 62,
+      "ordinary_screen": [
+        21234,
+        28919,
+        24879,
+        32343,
+        20877,
+        39552,
+        29271,
+        31939,
+        14253,
+        10915
+      ],
+      "display": [
+        21234,
+        28919,
+        24879,
+        32343,
+        20877,
+        39552,
+        29271,
+        31939,
+        14253,
+        10915
+      ],
+      "check": {}
+    },
+    {
+      "round": 5,
+      "query": "a man in a black shirt stands on brown sand at the beach flying a pink kite, with his arms not stretched out",
+      "raw_rank": 42,
+      "filtered_rank": 8,
+      "rank": 8,
+      "ordinary_screen": [
+        13288,
+        45998,
+        14371,
+        11557,
+        12762,
+        34551,
+        6946,
+        13807,
+        42390,
+        10450
+      ],
+      "display": [
+        13288,
+        45998,
+        14371,
+        11557,
+        12762,
+        34551,
+        6946,
+        13807,
+        42390,
+        10450
+      ],
+      "check": {}
+    }
+  ],
+  "shared_seconds": 66.00840004091151,
+  "live": true,
+  "seconds": 71.74682062491775
+}
